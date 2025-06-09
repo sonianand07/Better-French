@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "updated_at": "2025-06-09T19:56:07.990237+00:00",
+    "updated_at": "2025-06-09T20:24:40.714391+00:00",
     "total_articles": 10,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
     "ai_enhanced_count": 10,
     "update_type": "ai_enhanced",
-    "average_score": 24.57
+    "average_score": 24.1
   },
   "articles": [
     {
-      "title": "La fatigue des managers français aujourd'hui",
-      "english_title": "French Managers Are Experiencing Unprecedented Exhaustion",
-      "simplified_french_title": "La fatigue des managers français aujourd'hui",
-      "simplified_english_title": "French Managers Are Experiencing Unprecedented Exhaustion",
-      "summary": "Les managers français font face à une fatigue exceptionnelle dans leur travail, un phénomène jamais vu depuis trente ans.",
-      "english_summary": "French managers are experiencing exceptional levels of work-related exhaustion, a phenomenon unprecedented in the past thirty years.",
-      "french_summary": "Les managers français font face à une fatigue exceptionnelle dans leur travail, un phénomène jamais vu depuis trente ans.",
+      "title": "Le management en France montre des signes d'épuisement",
+      "english_title": "French Management Shows Signs of Exhaustion",
+      "simplified_french_title": "Le management en France montre des signes d'épuisement",
+      "simplified_english_title": "French Management Shows Signs of Exhaustion",
+      "summary": "Les managers français signalent une fatigue croissante dans leur travail, un phénomène qui s'aggrave depuis plusieurs années.",
+      "english_summary": "French managers are reporting increasing exhaustion in their work, a phenomenon that has been worsening over recent years.",
+      "french_summary": "Les managers français signalent une fatigue croissante dans leur travail, un phénomène qui s'aggrave depuis plusieurs années.",
       "original_article_title": "\"En trente ans, je n’avais jamais vu ça…\" : management, la grande fatigue française",
       "original_article_link": "https://www.lexpress.fr/idees-et-debats/en-trente-ans-je-navais-jamais-vu-ca-management-la-grande-fatigue-francaise-EIPXYWBECNFNXE2XPST2LOE2RE/",
       "link": "https://www.lexpress.fr/idees-et-debats/en-trente-ans-je-navais-jamais-vu-ca-management-la-grande-fatigue-francaise-EIPXYWBECNFNXE2XPST2LOE2RE/",
@@ -25,8 +25,8 @@
       "published_date": "Mon, 09 Jun 2025 16:00:00 +0000",
       "contextual_title_explanations": {
         "En": {
-          "display_format": "**In/During:** (preposition)",
-          "explanation": "Used to indicate a period of time",
+          "display_format": "**In:** (preposition)",
+          "explanation": "Used to indicate a period of time or duration",
           "cultural_note": ""
         },
         "trente": {
@@ -41,43 +41,48 @@
         },
         "je": {
           "display_format": "**I:** First person singular pronoun",
-          "explanation": "Subject pronoun used for the person speaking",
+          "explanation": "Personal pronoun used as the subject of a verb",
           "cultural_note": ""
         },
-        "n'avais jamais vu": {
-          "display_format": "**Had never seen:** Past expression",
-          "explanation": "Negative construction in pluperfect tense (plus-que-parfait) expressing something never experienced before",
+        "n'avais jamais": {
+          "display_format": "**Had never:** Negative past construction",
+          "explanation": "Imperfect tense of 'avoir' in negative form with 'jamais' (never)",
+          "cultural_note": ""
+        },
+        "vu": {
+          "display_format": "**Seen:** Past participle",
+          "explanation": "Past participle of the verb 'voir' (to see)",
           "cultural_note": ""
         },
         "ça": {
           "display_format": "**That/This:** Demonstrative pronoun",
-          "explanation": "Informal version of 'cela', used to refer to a situation or concept",
-          "cultural_note": ""
+          "explanation": "Informal demonstrative pronoun used to refer to something previously mentioned",
+          "cultural_note": "More informal than 'cela' and very common in spoken French"
         },
         "management": {
-          "display_format": "**Management:** Business term",
-          "explanation": "Refers to the practice of managing and supervising people in organizations",
-          "cultural_note": "An English loanword commonly used in French business contexts"
+          "display_format": "**Management:** Business administration",
+          "explanation": "Anglicism commonly used in French business context to refer to organizational leadership",
+          "cultural_note": "The use of English business terms is common in modern French corporate culture"
         },
         "la": {
           "display_format": "**The:** Feminine definite article",
-          "explanation": "Used before feminine singular nouns",
+          "explanation": "Definite article used before feminine nouns",
           "cultural_note": ""
         },
         "grande": {
-          "display_format": "**Great/Big:** Adjective",
-          "explanation": "Feminine form of 'grand', indicating significance or intensity",
+          "display_format": "**Great/Big:** Feminine adjective",
+          "explanation": "Adjective indicating significance or large scale",
           "cultural_note": ""
         },
         "fatigue": {
-          "display_format": "**Fatigue/Exhaustion:** Noun",
+          "display_format": "**Fatigue/Exhaustion:** (noun)",
           "explanation": "State of extreme tiredness or exhaustion",
-          "cultural_note": ""
+          "cultural_note": "In French workplace context, often refers to burnout or chronic stress"
         },
         "française": {
-          "display_format": "**French:** Adjective",
-          "explanation": "Feminine form of 'français', relating to France or French culture",
-          "cultural_note": "Refers specifically to a phenomenon in French business culture"
+          "display_format": "**French:** Feminine adjective",
+          "explanation": "Adjective indicating something relating to France or French culture",
+          "cultural_note": "When capitalized (Française), refers to French nationality; lowercase refers to general French characteristics"
         }
       },
       "key_vocabulary": [],
@@ -89,25 +94,25 @@
         "total_score": 27.6
       },
       "curation_metadata": {
-        "curation_id": "7cb57228-7f81-4571-983f-946104c453d8",
-        "curated_at": "2025-06-09T19:52:24.631806+00:00",
+        "curation_id": "24389761-f28e-46dc-b278-50a4d0089210",
+        "curated_at": "2025-06-09T20:21:22.126311+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990088+00:00",
+      "added_at": "2025-06-09T20:24:40.714163+00:00",
       "quality_score": 9.6,
       "relevance_score": 8.0,
       "importance_score": 10,
       "total_score": 27.6
     },
     {
-      "title": "Trump gagne contre Musk dans un premier débat",
-      "english_title": "Trump Wins First Round Against Musk",
-      "simplified_french_title": "Trump gagne contre Musk dans un premier débat",
-      "simplified_english_title": "Trump Wins First Round Against Musk",
-      "summary": "Dans une dispute médiatique, Donald Trump a obtenu un avantage initial face à Elon Musk, qui est comparé à Prigojine pour son influence.",
-      "english_summary": "In a media dispute, Donald Trump gained an initial advantage over Elon Musk, who is being compared to Prigozhin for his influence.",
-      "french_summary": "Dans une dispute médiatique, Donald Trump a obtenu un avantage initial face à Elon Musk, qui est comparé à Prigojine pour son influence.",
+      "title": "Donald Trump gagne contre Elon Musk dans un premier débat",
+      "english_title": "Donald Trump Wins First Round Against Elon Musk",
+      "simplified_french_title": "Donald Trump gagne contre Elon Musk dans un premier débat",
+      "simplified_english_title": "Donald Trump Wins First Round Against Elon Musk",
+      "summary": "Dans une confrontation politique, Donald Trump remporte une première victoire contre Elon Musk, qui est comparé à Prigojine pour son influence.",
+      "english_summary": "In a political confrontation, Donald Trump achieves an initial victory against Elon Musk, who is being compared to Prigozhin for his influence.",
+      "french_summary": "Dans une confrontation politique, Donald Trump remporte une première victoire contre Elon Musk, qui est comparé à Prigojine pour son influence.",
       "original_article_title": "\"Elon Musk, c’est le Prigojine de Donald Trump\" : pourquoi le président a remporté le premier round",
       "original_article_link": "https://www.lexpress.fr/monde/elon-musk-cest-le-prigojine-de-donald-trump-pourquoi-le-president-a-remporte-le-premier-round-ZM5PKM64ANBQRB6KQMY7JJ6RZA/",
       "link": "https://www.lexpress.fr/monde/elon-musk-cest-le-prigojine-de-donald-trump-pourquoi-le-president-a-remporte-le-premier-round-ZM5PKM64ANBQRB6KQMY7JJ6RZA/",
@@ -116,24 +121,24 @@
       "published_date": "Mon, 09 Jun 2025 15:17:56 +0000",
       "contextual_title_explanations": {
         "Elon Musk": {
-          "display_format": "**Elon Musk:** CEO of Tesla and owner of X (formerly Twitter)",
+          "display_format": "**Elon Musk:** CEO of Tesla and X/Twitter",
           "explanation": "A prominent tech entrepreneur and businessman known for Tesla, SpaceX, and his acquisition of Twitter/X",
-          "cultural_note": "His ownership of X/Twitter has been controversial, particularly regarding content moderation and political speech"
+          "cultural_note": "His ownership of Twitter/X has been particularly controversial in relation to political discourse and content moderation"
         },
         "c'est": {
           "display_format": "**It is:** (demonstrative + verb être)",
-          "explanation": "A common French construction combining 'ce' (this/it) and 'est' (is) to make a statement of equivalence",
+          "explanation": "Contraction of 'ce' (this/it) and 'est' (is), used to make comparisons or definitions",
           "cultural_note": ""
         },
         "le": {
           "display_format": "**The:** (definite article, masculine)",
-          "explanation": "Masculine singular definite article used before nouns",
+          "explanation": "Used before masculine nouns to indicate specificity",
           "cultural_note": ""
         },
         "Prigojine": {
           "display_format": "**Prigozhin:** Russian military contractor",
-          "explanation": "Yevgeny Prigozhin, former leader of the Wagner Group mercenary organization",
-          "cultural_note": "Known for his influence operations and close relationship with Putin before his death in 2023"
+          "explanation": "Yevgeny Prigozhin, founder of the Wagner Group and known for his influence operations",
+          "cultural_note": "Often referred to as 'Putin's chef', known for running influence operations and military contracting"
         },
         "de": {
           "display_format": "**Of:** (preposition)",
@@ -142,8 +147,8 @@
         },
         "Donald Trump": {
           "display_format": "**Donald Trump:** Former US President",
-          "explanation": "45th President of the United States and current presidential candidate",
-          "cultural_note": "Major figure in American politics known for his use of social media and controversial statements"
+          "explanation": "45th President of the United States and prominent political figure",
+          "cultural_note": "Central figure in current American political discourse and legal proceedings"
         },
         "pourquoi": {
           "display_format": "**Why:** (interrogative adverb)",
@@ -152,7 +157,7 @@
         },
         "le président": {
           "display_format": "**The president:** (noun phrase)",
-          "explanation": "Refers to Donald Trump in this context",
+          "explanation": "Refers to the president, in this context Donald Trump",
           "cultural_note": "In French media, former presidents are often still referred to by their title"
         },
         "a remporté": {
@@ -160,15 +165,10 @@
           "explanation": "Past tense of 'remporter' meaning to win or achieve victory",
           "cultural_note": ""
         },
-        "le premier": {
-          "display_format": "**The first:** (adjective)",
-          "explanation": "Numerical adjective indicating the first in a sequence",
-          "cultural_note": ""
-        },
-        "round": {
-          "display_format": "**Round:** (borrowed from English)",
-          "explanation": "A stage or phase in a contest or conflict",
-          "cultural_note": "The English word 'round' is commonly used in French, especially in sports and conflict contexts"
+        "le premier round": {
+          "display_format": "**The first round:** (boxing/competition metaphor)",
+          "explanation": "Refers to the first phase or initial victory in an ongoing conflict or competition",
+          "cultural_note": "Boxing terminology is commonly used in French political discourse to describe confrontations"
         }
       },
       "key_vocabulary": [],
@@ -180,25 +180,25 @@
         "total_score": 26.6
       },
       "curation_metadata": {
-        "curation_id": "1e094bd2-ec73-4907-bde6-8a4ce04dd839",
-        "curated_at": "2025-06-09T19:52:24.609107+00:00",
+        "curation_id": "4112d362-ee53-49dc-9449-06a9280dd191",
+        "curated_at": "2025-06-09T20:21:22.104572+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990109+00:00",
+      "added_at": "2025-06-09T20:24:40.714191+00:00",
       "quality_score": 9.1,
       "relevance_score": 7.5,
       "importance_score": 10,
       "total_score": 26.6
     },
     {
-      "title": "Les dirigeants d'extrême droite montrent des différences d'opinion",
-      "english_title": "Far-right Leaders Show Differences in Their Views Despite Public Unity",
-      "simplified_french_title": "Les dirigeants d'extrême droite montrent des différences d'opinion",
-      "simplified_english_title": "Far-right Leaders Show Differences in Their Views Despite Public Unity",
-      "summary": "Les leaders populistes européens affichent une unité publique, mais leurs positions sur plusieurs sujets importants révèlent des désaccords significatifs.",
-      "english_summary": "European populist leaders display public unity, but their positions on several key issues reveal significant disagreements beneath the surface.",
-      "french_summary": "Les leaders populistes européens affichent une unité publique, mais leurs positions sur plusieurs sujets importants révèlent des désaccords significatifs.",
+      "title": "Les différences d'opinion entre les leaders d'extrême droite européens",
+      "english_title": "Right-wing European Leaders: Unity on Surface, Different Views Underneath",
+      "simplified_french_title": "Les différences d'opinion entre les leaders d'extrême droite européens",
+      "simplified_english_title": "Right-wing European Leaders: Unity on Surface, Different Views Underneath",
+      "summary": "Les dirigeants populistes Le Pen, Bardella, Orban et Salvini montrent une unité publique, mais ont des désaccords importants sur plusieurs sujets.",
+      "english_summary": "Populist leaders Le Pen, Bardella, Orban, and Salvini display public unity while maintaining significant disagreements on various issues.",
+      "french_summary": "Les dirigeants populistes Le Pen, Bardella, Orban et Salvini montrent une unité publique, mais ont des désaccords importants sur plusieurs sujets.",
       "original_article_title": "Le Pen, Bardella, Orban et Salvini : derrière l'unité de façade, de vraies nuances sur le fond",
       "original_article_link": "https://www.lexpress.fr/politique/le-pen-bardella-orban-et-salvini-derriere-lunite-de-facade-de-vraies-nuances-sur-le-fond-GVYB5GWC75AWTPA55BLUQ6RRAI/",
       "link": "https://www.lexpress.fr/politique/le-pen-bardella-orban-et-salvini-derriere-lunite-de-facade-de-vraies-nuances-sur-le-fond-GVYB5GWC75AWTPA55BLUQ6RRAI/",
@@ -207,74 +207,79 @@
       "published_date": "Mon, 09 Jun 2025 17:41:47 +0000",
       "contextual_title_explanations": {
         "Le Pen": {
-          "display_format": "**Le Pen:** Marine Le Pen, French far-right political leader",
-          "explanation": "Leader of the French political party 'Rassemblement National' (formerly Front National)",
-          "cultural_note": "A prominent figure in French politics, representing nationalist and populist positions. Daughter of party founder Jean-Marie Le Pen."
+          "display_format": "**Le Pen:** French far-right political leader",
+          "explanation": "Marine Le Pen is the leader of the French far-right party Rassemblement National (formerly Front National)",
+          "cultural_note": "Daughter of Jean-Marie Le Pen, she has worked to modernize her party's image while maintaining nationalist positions"
         },
         "Bardella": {
-          "display_format": "**Bardella:** Jordan Bardella",
-          "explanation": "Current president of the Rassemblement National party in France",
-          "cultural_note": "A young rising star in French far-right politics, who became the youngest party president in French history"
+          "display_format": "**Bardella:** French politician",
+          "explanation": "Jordan Bardella is the current president of the Rassemblement National party",
+          "cultural_note": "At 27, he represents a new generation of French far-right leadership"
         },
         "Orban": {
-          "display_format": "**Orban:** Viktor Orban",
-          "explanation": "Prime Minister of Hungary",
-          "cultural_note": "Known for his nationalist policies and controversial leadership style in European politics"
+          "display_format": "**Orban:** Hungarian Prime Minister",
+          "explanation": "Viktor Orban is Hungary's prime minister and leader of the Fidesz party",
+          "cultural_note": "Known for promoting 'illiberal democracy' and maintaining close ties with Russia"
         },
         "et": {
-          "display_format": "**Et:** And",
-          "explanation": "Conjunction used to connect words or phrases",
+          "display_format": "**et:** and",
+          "explanation": "Basic conjunction used to connect words or phrases",
           "cultural_note": ""
         },
         "Salvini": {
-          "display_format": "**Salvini:** Matteo Salvini",
-          "explanation": "Italian political leader of the Lega Nord party",
-          "cultural_note": "Prominent figure in Italian right-wing politics, known for his anti-immigration stance"
+          "display_format": "**Salvini:** Italian politician",
+          "explanation": "Matteo Salvini is the leader of Italy's League party",
+          "cultural_note": "Known for his strong anti-immigration stance and Eurosceptic positions"
         },
         "derrière": {
-          "display_format": "**Derrière:** Behind",
-          "explanation": "Preposition indicating what exists beneath or beyond something",
+          "display_format": "**derrière:** behind",
+          "explanation": "Preposition indicating what exists beneath or behind something",
           "cultural_note": ""
         },
         "l'": {
-          "display_format": "**L':** The",
-          "explanation": "Definite article (elided form used before vowels)",
+          "display_format": "**l':** the",
+          "explanation": "Definite article used before vowel sounds",
           "cultural_note": ""
         },
         "unité": {
-          "display_format": "**Unité:** Unity",
+          "display_format": "**unité:** unity",
           "explanation": "State of being united or in agreement",
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**De:** Of",
+          "display_format": "**de:** of",
           "explanation": "Preposition indicating possession or relationship",
           "cultural_note": ""
         },
         "façade": {
-          "display_format": "**Façade:** Facade/outward appearance",
-          "explanation": "The way something appears on the surface, often concealing a different reality",
+          "display_format": "**façade:** facade, outward appearance",
+          "explanation": "The way something appears on the surface, often hiding a different reality",
           "cultural_note": ""
         },
         "de vraies": {
-          "display_format": "**De vraies:** Real/genuine",
-          "explanation": "Adjective phrase indicating authentic or true elements",
+          "display_format": "**de vraies:** real, genuine",
+          "explanation": "Indicates authentic or true characteristics",
           "cultural_note": ""
         },
         "nuances": {
-          "display_format": "**Nuances:** Subtle differences",
-          "explanation": "Small but significant variations or differences in opinion or meaning",
+          "display_format": "**nuances:** subtle differences",
+          "explanation": "Slight variations or differences in opinion, meaning, or approach",
           "cultural_note": ""
         },
         "sur": {
-          "display_format": "**Sur:** On/regarding",
+          "display_format": "**sur:** on, regarding",
           "explanation": "Preposition indicating the subject or topic being discussed",
           "cultural_note": ""
         },
-        "le fond": {
-          "display_format": "**Le fond:** The substance/core issues",
-          "explanation": "The fundamental or essential aspects of a matter",
-          "cultural_note": "Common French expression used to distinguish between surface appearances and deeper realities"
+        "le": {
+          "display_format": "**le:** the",
+          "explanation": "Masculine singular definite article",
+          "cultural_note": ""
+        },
+        "fond": {
+          "display_format": "**fond:** substance, core issues",
+          "explanation": "The fundamental or underlying aspects of a matter",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
@@ -286,25 +291,25 @@
         "total_score": 25.1
       },
       "curation_metadata": {
-        "curation_id": "a0655f85-ff8e-45a5-b93b-ddefa0079c9a",
-        "curated_at": "2025-06-09T19:52:24.626777+00:00",
+        "curation_id": "aaa50990-c182-4b73-9fbc-8bcf2ba1d57b",
+        "curated_at": "2025-06-09T20:21:22.121891+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990127+00:00",
+      "added_at": "2025-06-09T20:24:40.714218+00:00",
       "quality_score": 7.6,
       "relevance_score": 9.0,
       "importance_score": 8.5,
       "total_score": 25.1
     },
     {
-      "title": "Les référendums en Italie échouent et renforcent Meloni",
-      "english_title": "Failed Referendums in Italy Strengthen Meloni's Government",
-      "simplified_french_title": "Les référendums en Italie échouent et renforcent Meloni",
-      "simplified_english_title": "Failed Referendums in Italy Strengthen Meloni's Government",
-      "summary": "En Italie, deux référendums sur le travail et l'immigration n'ont pas réussi car peu de gens ont voté. La droite voit cela comme une victoire.",
-      "english_summary": "In Italy, two referendums on labor laws and immigration failed due to low voter turnout. The right-wing sees this as a victory.",
-      "french_summary": "En Italie, deux référendums sur le travail et l'immigration n'ont pas réussi car peu de gens ont voté. La droite voit cela comme une victoire.",
+      "title": "Les référendums en Italie échouent, la droite soutient Meloni",
+      "english_title": "Failed Referendums in Italy: Right-Wing Says It Strengthens Meloni Government",
+      "simplified_french_title": "Les référendums en Italie échouent, la droite soutient Meloni",
+      "simplified_english_title": "Failed Referendums in Italy: Right-Wing Says It Strengthens Meloni Government",
+      "summary": "En Italie, deux référendums n'ont pas obtenu assez de votes. La participation était trop faible. Le gouvernement Meloni voit cela comme une victoire.",
+      "english_summary": "In Italy, two referendums failed due to low voter turnout. The right-wing sees this outcome as strengthening Prime Minister Meloni's position.",
+      "french_summary": "En Italie, deux référendums n'ont pas obtenu assez de votes. La participation était trop faible. Le gouvernement Meloni voit cela comme une victoire.",
       "original_article_title": "Référendums invalidés en Italie: pour la droite, le résultat consolide le gouvernement Meloni",
       "original_article_link": "https://www.rfi.fr/fr/europe/20250609-r%C3%A9f%C3%A9rendums-invalid%C3%A9s-en-italie-pour-la-droite-le-r%C3%A9sultat-consolide-le-gouvernement-meloni",
       "link": "https://www.rfi.fr/fr/europe/20250609-r%C3%A9f%C3%A9rendums-invalid%C3%A9s-en-italie-pour-la-droite-le-r%C3%A9sultat-consolide-le-gouvernement-meloni",
@@ -314,13 +319,13 @@
       "contextual_title_explanations": {
         "Référendums": {
           "display_format": "**Referendums:** Public votes",
-          "explanation": "Direct democratic votes where citizens decide on specific issues. The French plural form adds 's' unlike some other -um words.",
-          "cultural_note": "Referendums are important tools in European democracy, especially for major policy changes."
+          "explanation": "Direct votes in which citizens decide on specific political or legislative issues",
+          "cultural_note": "In many European countries, referendums are important tools of direct democracy"
         },
         "invalidés": {
-          "display_format": "**Invalidated:** Made void or invalid",
-          "explanation": "Past participle of 'invalider', meaning the referendums were declared not valid or void due to insufficient participation.",
-          "cultural_note": "Many European countries require minimum participation rates for referendums to be valid."
+          "display_format": "**Invalidated:** Declared void or invalid",
+          "explanation": "When something is officially declared not valid or legally void",
+          "cultural_note": "In referendum contexts, invalidation often occurs when participation requirements aren't met"
         },
         "en": {
           "display_format": "**In:** (preposition)",
@@ -328,49 +333,49 @@
           "cultural_note": ""
         },
         "Italie": {
-          "display_format": "**Italy:** Country in Southern Europe",
-          "explanation": "A European Union member state bordering France",
-          "cultural_note": "Important political and economic partner of France within the EU"
+          "display_format": "**Italy:** European country",
+          "explanation": "Country in Southern Europe",
+          "cultural_note": "Important EU member state with significant political influence in European affairs"
         },
         "pour": {
           "display_format": "**For:** (preposition)",
-          "explanation": "Indicates perspective or opinion of a group",
+          "explanation": "Indicates support, purpose, or perspective",
           "cultural_note": ""
         },
         "la": {
           "display_format": "**The:** (feminine definite article)",
-          "explanation": "Used before feminine nouns",
+          "explanation": "Definite article used before feminine nouns",
           "cultural_note": ""
         },
         "droite": {
           "display_format": "**Right-wing:** Conservative political groups",
-          "explanation": "Political parties and movements associated with conservative or traditional values",
-          "cultural_note": "In European politics, 'la droite' typically refers to conservative and nationalist parties"
+          "explanation": "Political parties and movements that lean conservative",
+          "cultural_note": "In European politics, 'la droite' typically represents conservative, traditional values"
         },
         "le": {
           "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine nouns",
+          "explanation": "Definite article used before masculine nouns",
           "cultural_note": ""
         },
         "résultat": {
           "display_format": "**Result:** Outcome",
-          "explanation": "The final outcome or consequence of an action or event",
+          "explanation": "The final consequence or outcome of an action or event",
           "cultural_note": ""
         },
         "consolide": {
           "display_format": "**Consolidates/Strengthens:** Makes stronger",
-          "explanation": "Present tense of 'consolider', meaning to make more solid or strengthen",
+          "explanation": "To make more solid, stable, or stronger",
           "cultural_note": ""
         },
-        "le gouvernement": {
-          "display_format": "**The government:** The ruling administration",
-          "explanation": "The political body that runs a country",
+        "gouvernement": {
+          "display_format": "**Government:** Administration",
+          "explanation": "The group of people with the authority to govern a country",
           "cultural_note": ""
         },
         "Meloni": {
-          "display_format": "**Meloni:** Giorgia Meloni",
-          "explanation": "The current Prime Minister of Italy",
-          "cultural_note": "First female Prime Minister of Italy, leader of the right-wing Brothers of Italy party"
+          "display_format": "**Meloni:** Italian Prime Minister",
+          "explanation": "Giorgia Meloni, Italy's first female Prime Minister",
+          "cultural_note": "Leader of the right-wing Brothers of Italy party, came to power in 2022"
         }
       },
       "key_vocabulary": [],
@@ -382,212 +387,25 @@
         "total_score": 25.0
       },
       "curation_metadata": {
-        "curation_id": "59f3c59f-7529-49df-8117-2501eb5fb0e2",
-        "curated_at": "2025-06-09T19:52:24.607210+00:00",
+        "curation_id": "02f244c6-f479-4c3c-860e-9269850bcfdf",
+        "curated_at": "2025-06-09T20:21:22.102721+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990142+00:00",
+      "added_at": "2025-06-09T20:24:40.714239+00:00",
       "quality_score": 8.9,
       "relevance_score": 7.6,
       "importance_score": 8.5,
       "total_score": 25.0
     },
     {
-      "title": "L'Italie vote sur la naturalisation des étrangers",
-      "english_title": "Italy Votes on Naturalization of Foreigners",
-      "simplified_french_title": "L'Italie vote sur la naturalisation des étrangers",
-      "simplified_english_title": "Italy Votes on Naturalization of Foreigners",
-      "summary": "Les Italiens votent sur une loi pour faciliter l'obtention de la nationalité italienne. Le gouvernement s'oppose à cette mesure.",
-      "english_summary": "Italians are voting on a law to make obtaining Italian citizenship easier. The government opposes this measure.",
-      "french_summary": "Les Italiens votent sur une loi pour faciliter l'obtention de la nationalité italienne. Le gouvernement s'oppose à cette mesure.",
-      "original_article_title": "Italie : ces étrangers qui attendent beaucoup référendum sur la naturalisation",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250609-italie-ces-%C3%A9trangers-qui-attendent-beaucoup-r%C3%A9f%C3%A9rendum-sur-la-naturalisation",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20250609-italie-ces-%C3%A9trangers-qui-attendent-beaucoup-r%C3%A9f%C3%A9rendum-sur-la-naturalisation",
-      "source_name": "France 24",
-      "published": "Mon, 09 Jun 2025 14:21:06 GMT",
-      "published_date": "Mon, 09 Jun 2025 14:21:06 GMT",
-      "contextual_title_explanations": {
-        "Italie": {
-          "display_format": "**Italy:** Country in Southern Europe",
-          "explanation": "The Italian Republic, a country in Southern Europe known for its rich history and culture",
-          "cultural_note": "Currently experiencing significant debates about immigration and citizenship policies"
-        },
-        ":": {
-          "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce additional information or explanation",
-          "cultural_note": ""
-        },
-        "ces": {
-          "display_format": "**These:** Demonstrative adjective",
-          "explanation": "Used to point to specific people or things being discussed",
-          "cultural_note": ""
-        },
-        "étrangers": {
-          "display_format": "**Foreigners:** People from other countries",
-          "explanation": "Individuals who are not citizens of the country where they currently reside",
-          "cultural_note": "Term often used in political discourse about immigration and citizenship"
-        },
-        "qui": {
-          "display_format": "**Who:** Relative pronoun",
-          "explanation": "Connects a dependent clause to its antecedent, used to provide additional information",
-          "cultural_note": ""
-        },
-        "attendent": {
-          "display_format": "**Wait for/Expect:** (verb)",
-          "explanation": "From 'attendre' - to wait for something or expect something to happen",
-          "cultural_note": ""
-        },
-        "beaucoup": {
-          "display_format": "**A lot/Much:** Adverb of quantity",
-          "explanation": "Indicates a large amount or significant degree",
-          "cultural_note": ""
-        },
-        "référendum": {
-          "display_format": "**Referendum:** Public vote",
-          "explanation": "A direct vote by the general public on a specific political question",
-          "cultural_note": "Referendums are important tools of direct democracy in many European countries"
-        },
-        "sur": {
-          "display_format": "**On/About:** Preposition",
-          "explanation": "Indicates the subject or topic of something",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** Feminine definite article",
-          "explanation": "Used before feminine nouns",
-          "cultural_note": ""
-        },
-        "naturalisation": {
-          "display_format": "**Naturalization:** Process of becoming a citizen",
-          "explanation": "The legal process by which a foreign citizen becomes a citizen of a new country",
-          "cultural_note": "A significant political issue in many European countries facing immigration challenges"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.9,
-        "relevance_score": 7.3,
-        "importance_score": 8.5,
-        "total_score": 24.7
-      },
-      "curation_metadata": {
-        "curation_id": "af6c44d1-b329-4d02-8913-bc7d5ce9959b",
-        "curated_at": "2025-06-09T19:52:24.606692+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990156+00:00",
-      "quality_score": 8.9,
-      "relevance_score": 7.3,
-      "importance_score": 8.5,
-      "total_score": 24.7
-    },
-    {
-      "title": "Macron et la dissolution du parlement changent la politique française",
-      "english_title": "Macron and the Parliament Dissolution: One Year of French Political Upheaval",
-      "simplified_french_title": "Macron et la dissolution du parlement changent la politique française",
-      "simplified_english_title": "Macron and the Parliament Dissolution: One Year of French Political Upheaval",
-      "summary": "Depuis un an, la décision de Macron de dissoudre l'Assemblée nationale a créé une situation politique complexe et instable en France.",
-      "english_summary": "For the past year, Macron's decision regarding parliament dissolution has created a complex and unstable political situation in France.",
-      "french_summary": "Depuis un an, la décision de Macron de dissoudre l'Assemblée nationale a créé une situation politique complexe et instable en France.",
-      "original_article_title": "Emmanuel Macron et la dissolution : un an de dynamitage de la vie politique française",
-      "original_article_link": "https://www.lexpress.fr/politique/emmanuel-macron-et-la-dissolution-un-an-de-dynamitage-de-la-vie-politique-francaise-RNCMJIGKYVAMTH5NM734GSZHVQ/",
-      "link": "https://www.lexpress.fr/politique/emmanuel-macron-et-la-dissolution-un-an-de-dynamitage-de-la-vie-politique-francaise-RNCMJIGKYVAMTH5NM734GSZHVQ/",
-      "source_name": "L'Express",
-      "published": "Mon, 09 Jun 2025 14:00:00 +0000",
-      "published_date": "Mon, 09 Jun 2025 14:00:00 +0000",
-      "contextual_title_explanations": {
-        "Emmanuel Macron": {
-          "display_format": "**Emmanuel Macron:** Current President of France",
-          "explanation": "French politician serving as President of France since 2017",
-          "cultural_note": "Youngest president in French history, former investment banker who created his own political party 'En Marche'"
-        },
-        "et": {
-          "display_format": "**Et:** And (conjunction)",
-          "explanation": "Basic coordinating conjunction used to connect words or phrases",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**La:** The (feminine definite article)",
-          "explanation": "Definite article used before feminine nouns",
-          "cultural_note": ""
-        },
-        "dissolution": {
-          "display_format": "**Dissolution:** Dissolution (of parliament)",
-          "explanation": "The act of formally ending or dissolving a parliament, leading to new elections",
-          "cultural_note": "In French politics, the president has the power to dissolve the National Assembly, a significant constitutional tool"
-        },
-        "un": {
-          "display_format": "**Un:** A/One (masculine indefinite article/number)",
-          "explanation": "Can function as both an indefinite article or the number one",
-          "cultural_note": ""
-        },
-        "an": {
-          "display_format": "**An:** Year",
-          "explanation": "Unit of time equal to 12 months",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**De:** Of/From (preposition)",
-          "explanation": "Preposition indicating possession, origin, or relationship",
-          "cultural_note": ""
-        },
-        "dynamitage": {
-          "display_format": "**Dynamitage:** Blowing up/Destruction",
-          "explanation": "Literally means 'dynamiting' but used metaphorically to describe dramatic disruption or destruction",
-          "cultural_note": "In political context, implies dramatic and potentially damaging change to established systems"
-        },
-        "de la": {
-          "display_format": "**De la:** Of the (feminine)",
-          "explanation": "Combined preposition and article indicating possession or relationship",
-          "cultural_note": ""
-        },
-        "vie": {
-          "display_format": "**Vie:** Life",
-          "explanation": "Refers to existence or way of living; in this context, refers to ongoing activities and functioning",
-          "cultural_note": ""
-        },
-        "politique": {
-          "display_format": "**Politique:** Political",
-          "explanation": "Relating to politics or government affairs",
-          "cultural_note": ""
-        },
-        "française": {
-          "display_format": "**Française:** French (feminine adjective)",
-          "explanation": "Adjective indicating something from or relating to France",
-          "cultural_note": "Must agree in gender with the noun it modifies"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.1,
-        "relevance_score": 8.5,
-        "importance_score": 8.0,
-        "total_score": 24.6
-      },
-      "curation_metadata": {
-        "curation_id": "a952c6cc-ff6c-4951-ba0f-c31f8ae0230b",
-        "curated_at": "2025-06-09T19:52:24.640656+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990169+00:00",
-      "quality_score": 8.1,
-      "relevance_score": 8.5,
-      "importance_score": 8.0,
-      "total_score": 24.6
-    },
-    {
-      "title": "Le leader de l'opposition veut arrêter la guerre en Israël",
-      "english_title": "Israeli Left-Wing Opposition Leader Calls for End to War",
-      "simplified_french_title": "Le leader de l'opposition veut arrêter la guerre en Israël",
-      "simplified_english_title": "Israeli Left-Wing Opposition Leader Calls for End to War",
-      "summary": "Le chef de l'opposition israélienne demande l'arrêt immédiat de la guerre, citant trop de pertes humaines et la nécessité de négocier.",
-      "english_summary": "The Israeli opposition leader demands an immediate end to the war, citing too many casualties and the need for negotiations.",
-      "french_summary": "Le chef de l'opposition israélienne demande l'arrêt immédiat de la guerre, citant trop de pertes humaines et la nécessité de négocier.",
+      "title": "Le leader de l'opposition israélienne veut arrêter la guerre",
+      "english_title": "Israeli Opposition Leader Calls for End to War",
+      "simplified_french_title": "Le leader de l'opposition israélienne veut arrêter la guerre",
+      "simplified_english_title": "Israeli Opposition Leader Calls for End to War",
+      "summary": "Le chef de l'opposition en Israël, Yair Lapid, demande l'arrêt des combats à Gaza et propose de nouvelles solutions diplomatiques.",
+      "english_summary": "Israeli opposition leader Yair Lapid calls for ending the fighting in Gaza and suggests pursuing new diplomatic solutions.",
+      "french_summary": "Le chef de l'opposition en Israël, Yair Lapid, demande l'arrêt des combats à Gaza et propose de nouvelles solutions diplomatiques.",
       "original_article_title": "Le chef de l’opposition de gauche israélienne appelle à cesser la guerre",
       "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/israel-deroute-le-madleen-bateau-humanitaire-a-destination-de-gaza-DJB42RGW7JG5XD37LPUGDFVDLU/",
       "link": "https://www.lexpress.fr/monde/proche-moyen-orient/israel-deroute-le-madleen-bateau-humanitaire-a-destination-de-gaza-DJB42RGW7JG5XD37LPUGDFVDLU/",
@@ -597,42 +415,42 @@
       "contextual_title_explanations": {
         "Le": {
           "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine singular nouns to indicate something specific.",
+          "explanation": "Used before masculine singular nouns to indicate a specific person or thing.",
           "cultural_note": ""
         },
         "chef": {
           "display_format": "**Leader/Head:** Person in charge",
-          "explanation": "A person who leads or has authority over a group or organization.",
-          "cultural_note": "In French politics, 'chef' is commonly used to designate party leaders and important political figures."
+          "explanation": "Refers to someone who leads or is in charge of a group, organization, or movement.",
+          "cultural_note": "In French politics, 'chef' is commonly used to designate party leaders and high-ranking officials."
         },
         "de": {
           "display_format": "**Of:** (preposition)",
-          "explanation": "Used to show possession or relationship between two nouns.",
+          "explanation": "Links two nouns to show possession or relationship.",
           "cultural_note": ""
         },
         "l'": {
           "display_format": "**The:** (elided definite article)",
-          "explanation": "Form of 'le' or 'la' used before words beginning with vowels or silent h.",
+          "explanation": "Form of 'le' or 'la' used before words beginning with a vowel or silent h.",
           "cultural_note": ""
         },
         "opposition": {
-          "display_format": "**Opposition:** Political party/group opposing the government",
-          "explanation": "The main political party or group that opposes and provides alternatives to the current government.",
-          "cultural_note": "In democratic systems, the opposition plays a crucial role in providing checks and balances."
+          "display_format": "**Opposition:** Political party/group opposing the current government",
+          "explanation": "Refers to the political parties or groups that oppose and provide checks on the ruling government.",
+          "cultural_note": "In democratic systems, the opposition plays a crucial role in providing alternative viewpoints and oversight."
         },
         "de gauche": {
           "display_format": "**Left-wing:** Progressive/liberal political orientation",
-          "explanation": "Refers to progressive or liberal political ideologies, typically favoring social reform.",
-          "cultural_note": "In Israel, as in many countries, 'left-wing' parties typically favor more conciliatory approaches to regional conflicts."
+          "explanation": "Refers to the progressive or liberal side of the political spectrum.",
+          "cultural_note": "In French politics, 'la gauche' traditionally represents social democratic, socialist, or progressive political ideologies."
         },
         "israélienne": {
           "display_format": "**Israeli:** Relating to Israel",
-          "explanation": "Pertaining to the state of Israel or its people.",
-          "cultural_note": "Israel's political spectrum includes various parties with different approaches to regional conflicts and domestic policies."
+          "explanation": "Adjective describing something or someone from Israel.",
+          "cultural_note": "Currently particularly relevant due to the ongoing conflict in Gaza and internal Israeli political debates."
         },
         "appelle": {
-          "display_format": "**Calls for/Appeals:** (verb)",
-          "explanation": "Form of 'appeler' meaning to make a public request or demand.",
+          "display_format": "**Calls for/Urges:** (verb)",
+          "explanation": "Form of 'appeler' meaning to call for action or make a public request.",
           "cultural_note": ""
         },
         "à": {
@@ -641,19 +459,19 @@
           "cultural_note": ""
         },
         "cesser": {
-          "display_format": "**To stop/cease:** To end something",
-          "explanation": "Verb meaning to bring something to an end or halt an action.",
+          "display_format": "**To stop/cease:** (verb)",
+          "explanation": "Means to end or discontinue an action or state.",
           "cultural_note": ""
         },
         "la": {
           "display_format": "**The:** (feminine definite article)",
-          "explanation": "Used before feminine singular nouns to indicate something specific.",
+          "explanation": "Used before feminine singular nouns to indicate a specific thing.",
           "cultural_note": ""
         },
         "guerre": {
           "display_format": "**War:** Armed conflict",
-          "explanation": "A state of armed conflict between different nations or groups.",
-          "cultural_note": "Refers to the ongoing conflict between Israel and Hamas that began in October 2023."
+          "explanation": "Refers to armed conflict between nations or groups.",
+          "cultural_note": "Currently refers to the ongoing conflict between Israel and Hamas in Gaza."
         }
       },
       "key_vocabulary": [],
@@ -665,25 +483,25 @@
         "total_score": 23.4
       },
       "curation_metadata": {
-        "curation_id": "890f063d-9cb6-431c-a7f5-b3f7800d185e",
-        "curated_at": "2025-06-09T19:52:24.634473+00:00",
+        "curation_id": "1bf05a7f-584a-4681-96c2-1e03fa7826c8",
+        "curated_at": "2025-06-09T20:21:22.128983+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990184+00:00",
+      "added_at": "2025-06-09T20:24:40.714263+00:00",
       "quality_score": 7.9,
       "relevance_score": 9.0,
       "importance_score": 6.5,
       "total_score": 23.4
     },
     {
-      "title": "L'Italie rejette un vote sur la nationalité et le travail",
+      "title": "L'Italie rejette un vote sur la citoyenneté et le travail",
       "english_title": "Italy Rejects Vote on Citizenship and Worker Protection",
-      "simplified_french_title": "L'Italie rejette un vote sur la nationalité et le travail",
+      "simplified_french_title": "L'Italie rejette un vote sur la citoyenneté et le travail",
       "simplified_english_title": "Italy Rejects Vote on Citizenship and Worker Protection",
-      "summary": "Un vote populaire en Italie pour changer les lois sur la nationalité et le travail n'a pas réussi car trop peu de personnes ont voté.",
-      "english_summary": "A public vote in Italy to change citizenship and labor laws failed due to insufficient voter turnout. The far-right PM opposed the measure.",
-      "french_summary": "Un vote populaire en Italie pour changer les lois sur la nationalité et le travail n'a pas réussi car trop peu de personnes ont voté.",
+      "summary": "En Italie, un vote important sur la citoyenneté et les droits des travailleurs n'a pas réussi car trop peu de personnes ont voté.",
+      "english_summary": "In Italy, a significant vote on citizenship and workers' rights failed due to insufficient voter turnout, despite opposition from the government.",
+      "french_summary": "En Italie, un vote important sur la citoyenneté et les droits des travailleurs n'a pas réussi car trop peu de personnes ont voté.",
       "original_article_title": "En Italie, échec d'un référendum pour faciliter les naturalisations et protéger les travailleurs",
       "original_article_link": "https://www.france24.com/fr/europe/20250609-italie-r%C3%A9f%C3%A9rendum-pour-faciliter-naturalisation-et-prot%C3%A9ger-travailleurs-%C3%A9choue",
       "link": "https://www.france24.com/fr/europe/20250609-italie-r%C3%A9f%C3%A9rendum-pour-faciliter-naturalisation-et-prot%C3%A9ger-travailleurs-%C3%A9choue",
@@ -698,23 +516,28 @@
         },
         "Italie": {
           "display_format": "**Italy:** Country in Southern Europe",
-          "explanation": "A European country bordered by France, Switzerland, Austria, and Slovenia",
-          "cultural_note": "Important EU member state with significant historical and cultural ties to France"
+          "explanation": "A European country known for its rich history and culture",
+          "cultural_note": "Currently governed by its first female Prime Minister, Giorgia Meloni"
         },
         "échec": {
           "display_format": "**Failure:** Lack of success",
-          "explanation": "The unsuccessful outcome of an attempt or initiative",
-          "cultural_note": "In political context, often used to describe failed legislative or electoral initiatives"
+          "explanation": "Indicates an unsuccessful attempt or defeat",
+          "cultural_note": "In political context, often used to describe failed initiatives or votes"
         },
-        "d'un": {
-          "display_format": "**Of a:** (contraction of 'de un')",
-          "explanation": "Contracted form combining the preposition 'de' with the indefinite article 'un'",
+        "d'": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Contracted form of 'de' used before vowels",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A/An:** (indefinite article)",
+          "explanation": "Used before masculine singular nouns",
           "cultural_note": ""
         },
         "référendum": {
-          "display_format": "**Referendum:** Public vote",
-          "explanation": "A direct vote by the general public on a specific political or legislative question",
-          "cultural_note": "Referendums are important democratic tools in many European countries for major political decisions"
+          "display_format": "**Referendum:** Public vote on a specific issue",
+          "explanation": "A direct vote by the general public on a single political question",
+          "cultural_note": "Referendums are important democratic tools in many European countries"
         },
         "pour": {
           "display_format": "**For/To:** (preposition)",
@@ -723,27 +546,27 @@
         },
         "faciliter": {
           "display_format": "**To facilitate:** To make easier",
-          "explanation": "To make a process or action easier or more achievable",
+          "explanation": "To make something possible or easier to achieve",
           "cultural_note": ""
         },
         "les": {
-          "display_format": "**The:** (plural definite article)",
-          "explanation": "Used before plural nouns to indicate specific items",
+          "display_format": "**The:** (definite article, plural)",
+          "explanation": "Used before plural nouns",
           "cultural_note": ""
         },
         "naturalisations": {
           "display_format": "**Naturalizations:** Process of gaining citizenship",
-          "explanation": "The legal process by which a foreign citizen becomes a citizen of a new country",
-          "cultural_note": "A significant political issue in many European countries amid immigration debates"
+          "explanation": "The legal process by which a non-citizen becomes a citizen of a country",
+          "cultural_note": "A significant political issue in many European countries regarding immigration policy"
         },
         "et": {
           "display_format": "**And:** (conjunction)",
-          "explanation": "Used to join words, phrases, or clauses",
+          "explanation": "Used to join words or phrases together",
           "cultural_note": ""
         },
         "protéger": {
           "display_format": "**To protect:** To keep safe",
-          "explanation": "To defend or guard from harm, injury, or loss",
+          "explanation": "To defend or guard from harm or loss",
           "cultural_note": ""
         },
         "les travailleurs": {
@@ -761,12 +584,12 @@
         "total_score": 23.2
       },
       "curation_metadata": {
-        "curation_id": "1f3ab610-71f2-4d7a-8889-2a15dfa89337",
-        "curated_at": "2025-06-09T19:52:24.619579+00:00",
+        "curation_id": "8684a4aa-d2e5-4998-93cd-5dd5f114185d",
+        "curated_at": "2025-06-09T20:21:22.114146+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990199+00:00",
+      "added_at": "2025-06-09T20:24:40.714287+00:00",
       "quality_score": 8.2,
       "relevance_score": 6.5,
       "importance_score": 8.5,
@@ -794,33 +617,33 @@
         },
         "Nouvelle-Calédonie": {
           "display_format": "**New Caledonia:** French territory in the South Pacific",
-          "explanation": "A French special collectivity located in the South Pacific Ocean",
-          "cultural_note": "Has been the subject of independence debates and referendums, with complex relations with mainland France due to its colonial history"
+          "explanation": "A French special collectivity in the Pacific Ocean, east of Australia",
+          "cultural_note": "Has a complex history with France, including independence movements and referendums on self-determination"
         },
         "la": {
           "display_format": "**The:** (feminine definite article)",
-          "explanation": "Definite article used before feminine nouns",
+          "explanation": "Used before feminine nouns to indicate specificity",
           "cultural_note": ""
         },
         "méthode": {
-          "display_format": "**Method:** Approach or way of doing things",
+          "display_format": "**Method:** Approach or way of doing something",
           "explanation": "A systematic way of handling or addressing a situation",
           "cultural_note": ""
         },
         "qu'": {
           "display_format": "**That:** (relative pronoun)",
-          "explanation": "Links two related clauses, shortened form of 'que' before a vowel",
+          "explanation": "Links two related clauses, here shortened from 'que' due to following vowel",
           "cultural_note": ""
         },
         "engage": {
           "display_format": "**Implements/Undertakes:** (verb)",
-          "explanation": "To begin or initiate a process or action",
+          "explanation": "To begin or initiate a course of action",
           "cultural_note": ""
         },
         "Manuel Valls": {
           "display_format": "**Manuel Valls:** French politician",
           "explanation": "Former Prime Minister of France (2014-2016)",
-          "cultural_note": "Known for his role in various French political reforms and negotiations"
+          "cultural_note": "Known for his role in handling various territorial and political issues in French overseas territories"
         },
         "fondée sur": {
           "display_format": "**Based on:** (expression)",
@@ -829,18 +652,18 @@
         },
         "la recherche": {
           "display_format": "**The search/pursuit:** (noun)",
-          "explanation": "The act of seeking or trying to find something",
+          "explanation": "The act of seeking or attempting to find something",
           "cultural_note": ""
         },
         "d'un": {
           "display_format": "**Of a:** (contraction)",
-          "explanation": "Contraction of 'de un', indicating possession or characteristic",
+          "explanation": "Contraction of 'de un', indicating possession or relationship",
           "cultural_note": ""
         },
         "consensus": {
           "display_format": "**Consensus:** Agreement",
-          "explanation": "General agreement or accord among multiple parties",
-          "cultural_note": "Important concept in French political discourse"
+          "explanation": "General agreement or harmony between parties",
+          "cultural_note": "Important concept in French political discourse, especially regarding territorial issues"
         },
         "le plus large possible": {
           "display_format": "**As broad as possible:** (expression)",
@@ -849,8 +672,8 @@
         },
         "a fait ses preuves": {
           "display_format": "**Has proven itself:** (idiomatic expression)",
-          "explanation": "Has demonstrated its effectiveness or worth",
-          "cultural_note": "Common French expression used to indicate that something has been successfully tested or proven"
+          "explanation": "Has demonstrated its effectiveness or worth through experience",
+          "cultural_note": "Common French expression used to indicate that something has been proven successful"
         }
       },
       "key_vocabulary": [],
@@ -862,25 +685,25 @@
         "total_score": 22.8
       },
       "curation_metadata": {
-        "curation_id": "34c69778-8e89-442d-b048-89fbd838d555",
-        "curated_at": "2025-06-09T19:52:24.607401+00:00",
+        "curation_id": "e8c53775-2d5d-4b92-9a54-d9102c5f9c9a",
+        "curated_at": "2025-06-09T20:21:22.102913+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990214+00:00",
+      "added_at": "2025-06-09T20:24:40.714309+00:00",
       "quality_score": 8.4,
       "relevance_score": 4.3999999999999995,
       "importance_score": 10,
       "total_score": 22.8
     },
     {
-      "title": "Nouvelle loi sur les vêtements pas chers: moins ambitieuse",
-      "english_title": "New Law on Cheap Clothing: Less Ambitious Than Planned",
-      "simplified_french_title": "Nouvelle loi sur les vêtements pas chers: moins ambitieuse",
-      "simplified_english_title": "New Law on Cheap Clothing: Less Ambitious Than Planned",
-      "summary": "La France veut contrôler la vente de vêtements bon marché. Le projet de loi, d'abord fort, est maintenant moins strict après discussion au Sénat.",
-      "english_summary": "France aims to regulate cheap clothing sales. The initially strong bill has been weakened after Senate committee discussions.",
-      "french_summary": "La France veut contrôler la vente de vêtements bon marché. Le projet de loi, d'abord fort, est maintenant moins strict après discussion au Sénat.",
+      "title": "Nouvelle loi sur les vêtements pas chers: moins d'ambition",
+      "english_title": "New French Law on Cheap Fashion: Reduced Ambitions",
+      "simplified_french_title": "Nouvelle loi sur les vêtements pas chers: moins d'ambition",
+      "simplified_english_title": "New French Law on Cheap Fashion: Reduced Ambitions",
+      "summary": "La France veut limiter la mode à bas prix pour protéger l'environnement. Mais le Sénat a affaibli la loi avant le vote final.",
+      "english_summary": "France aims to regulate low-cost fashion to protect the environment. However, the Senate has weakened the law before the final vote.",
+      "french_summary": "La France veut limiter la mode à bas prix pour protéger l'environnement. Mais le Sénat a affaibli la loi avant le vote final.",
       "original_article_title": "Projet de loi sur la «fast fashion» en France: une ambition revue à la baisse",
       "original_article_link": "https://www.rfi.fr/fr/environnement/20250609-projet-de-loi-sur-la-fast-fashion-en-france-une-ambition-revue-%C3%A0-la-baisse",
       "link": "https://www.rfi.fr/fr/environnement/20250609-projet-de-loi-sur-la-fast-fashion-en-france-une-ambition-revue-%C3%A0-la-baisse",
@@ -889,69 +712,69 @@
       "published_date": "Mon, 09 Jun 2025 17:54:14 GMT",
       "contextual_title_explanations": {
         "Projet": {
-          "display_format": "**Project/Bill:** Draft or proposal",
-          "explanation": "In legislative context, refers to a proposed law before it is officially adopted",
-          "cultural_note": "In French legislation, 'projet de loi' indicates a bill proposed by the government, while 'proposition de loi' comes from parliament members"
+          "display_format": "**Project/Bill:** A proposed law or plan",
+          "explanation": "In legislative context, refers to a draft law before it is officially passed",
+          "cultural_note": "In French politics, 'projet de loi' is an official term for bills proposed by the government"
         },
         "de": {
-          "display_format": "**of:** (preposition)",
+          "display_format": "**Of:** (preposition)",
           "explanation": "Links two nouns to show possession or relationship",
           "cultural_note": ""
         },
         "loi": {
-          "display_format": "**Law:** Legal regulation",
-          "explanation": "A formal rule or regulation enacted by a government",
-          "cultural_note": ""
+          "display_format": "**Law:** Legal regulation or statute",
+          "explanation": "A rule or regulation enacted by a governing body",
+          "cultural_note": "France has a civil law system, different from common law countries like the US or UK"
         },
         "sur": {
-          "display_format": "**on/about:** (preposition)",
-          "explanation": "Indicates the subject or topic being addressed",
+          "display_format": "**On/About:** (preposition)",
+          "explanation": "Indicates the subject or topic of something",
           "cultural_note": ""
         },
         "la": {
-          "display_format": "**the:** (feminine definite article)",
-          "explanation": "Used before feminine nouns to indicate specificity",
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Used before feminine nouns",
           "cultural_note": ""
         },
         "fast fashion": {
-          "display_format": "**Fast fashion:** Rapidly produced, inexpensive clothing",
-          "explanation": "Refers to low-cost clothing that copies current luxury fashion trends and is produced quickly by mass-market retailers",
+          "display_format": "**Fast Fashion:** Rapidly produced, inexpensive clothing",
+          "explanation": "Refers to clothing that is mass-produced quickly and sold at low prices",
           "cultural_note": "A major environmental concern in France and globally due to its impact on pollution and waste"
         },
         "en": {
-          "display_format": "**in:** (preposition)",
+          "display_format": "**In:** (preposition)",
           "explanation": "Used to indicate location or position",
           "cultural_note": ""
         },
         "France": {
-          "display_format": "**France:** Country name",
+          "display_format": "**France:** Country in Western Europe",
           "explanation": "The country where this legislation is being proposed",
-          "cultural_note": "France often leads European initiatives in environmental and consumer protection legislation"
+          "cultural_note": "France often takes leading positions on environmental and consumer protection in the EU"
         },
         "une": {
-          "display_format": "**a/an:** (feminine indefinite article)",
-          "explanation": "Used before feminine nouns to indicate non-specificity",
+          "display_format": "**A/An:** (feminine indefinite article)",
+          "explanation": "Used before feminine nouns when referring to something non-specific",
           "cultural_note": ""
         },
         "ambition": {
           "display_format": "**Ambition:** Goal or aspiration",
-          "explanation": "The scope or extent of what the law aims to achieve",
+          "explanation": "The scope or intended impact of something",
           "cultural_note": ""
         },
         "revue": {
-          "display_format": "**Reviewed/revised:** Modified or reconsidered",
-          "explanation": "Past participle of 'revoir', meaning to look at again or revise",
+          "display_format": "**Reviewed/Revised:** Modified or changed",
+          "explanation": "Past participle of 'revoir' meaning to review or revise something",
           "cultural_note": ""
         },
         "à": {
-          "display_format": "**to:** (preposition)",
-          "explanation": "Links elements in a phrase, here used in an idiomatic expression",
+          "display_format": "**To/At:** (preposition)",
+          "explanation": "Indicates direction or state",
           "cultural_note": ""
         },
         "la baisse": {
-          "display_format": "**Downward/decrease:** Reduction",
+          "display_format": "**The decrease/downward:** Reduction or decline",
           "explanation": "Indicates a reduction or lowering of something",
-          "cultural_note": "'À la baisse' is a common French expression meaning 'downward' or 'reduced'"
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
@@ -963,16 +786,223 @@
         "total_score": 22.7
       },
       "curation_metadata": {
-        "curation_id": "b6a5b7b8-c12b-47ee-b921-3d6848ea5bac",
-        "curated_at": "2025-06-09T19:52:24.624909+00:00",
+        "curation_id": "0e2385b7-dc21-4097-8650-63fefc36c101",
+        "curated_at": "2025-06-09T20:21:22.120069+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-09T19:56:07.990224+00:00",
+      "added_at": "2025-06-09T20:24:40.714332+00:00",
       "quality_score": 8.6,
       "relevance_score": 7.1,
       "importance_score": 7.0,
       "total_score": 22.7
+    },
+    {
+      "title": "Macron ne veut pas dissoudre l'Assemblée nationale",
+      "english_title": "Macron Hopes to Avoid Dissolving the National Assembly",
+      "simplified_french_title": "Macron ne veut pas dissoudre l'Assemblée nationale",
+      "simplified_english_title": "Macron Hopes to Avoid Dissolving the National Assembly",
+      "summary": "Un an après avoir dissous l'Assemblée nationale, le président Macron dit qu'il préfère éviter une nouvelle dissolution, mais ne l'exclut pas.",
+      "english_summary": "One year after dissolving the National Assembly, President Macron says he prefers to avoid another dissolution but doesn't rule it out.",
+      "french_summary": "Un an après avoir dissous l'Assemblée nationale, le président Macron dit qu'il préfère éviter une nouvelle dissolution, mais ne l'exclut pas.",
+      "original_article_title": "«Mon souhait c'est qu'il n'y ait pas d'autre dissolution» de l'Assemblée, dit Emmanuel Macron un an après la précédente",
+      "original_article_link": "https://www.europe1.fr/politique/mon-souhait-cest-quil-ny-ait-pas-dautre-dissolution-de-lassemblee-dit-emmanuel-macron-un-an-apres-la-precedente-757746",
+      "link": "https://www.europe1.fr/politique/mon-souhait-cest-quil-ny-ait-pas-dautre-dissolution-de-lassemblee-dit-emmanuel-macron-un-an-apres-la-precedente-757746",
+      "source_name": "Europe 1",
+      "published": "Mon, 09 Jun 2025 21:09:03 +0200",
+      "published_date": "Mon, 09 Jun 2025 21:09:03 +0200",
+      "contextual_title_explanations": {
+        "Mon": {
+          "display_format": "**My:** (possessive adjective)",
+          "explanation": "First person singular possessive adjective, indicating personal ownership or relation",
+          "cultural_note": ""
+        },
+        "souhait": {
+          "display_format": "**Wish/Hope:** (noun)",
+          "explanation": "A desire or aspiration for something to happen",
+          "cultural_note": ""
+        },
+        "c'est": {
+          "display_format": "**It is:** (demonstrative + verb être)",
+          "explanation": "Common French construction combining 'ce' (this/it) and 'est' (is) to make a statement",
+          "cultural_note": ""
+        },
+        "qu'": {
+          "display_format": "**That:** (conjunction)",
+          "explanation": "Connects two parts of a sentence, often used after verbs expressing wishes, thoughts, or feelings",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**There/It:** (impersonal pronoun)",
+          "explanation": "Used in impersonal expressions or as a subject pronoun",
+          "cultural_note": ""
+        },
+        "n'y ait pas": {
+          "display_format": "**There is not:** (negative subjunctive construction)",
+          "explanation": "Negative subjunctive form expressing a wish for something not to occur",
+          "cultural_note": ""
+        },
+        "d'autre": {
+          "display_format": "**Another/Other:** (adjective)",
+          "explanation": "Indicates an additional or different instance of something",
+          "cultural_note": ""
+        },
+        "dissolution": {
+          "display_format": "**Dissolution:** (noun)",
+          "explanation": "The formal act of officially ending or disbanding a parliamentary assembly",
+          "cultural_note": "In French politics, dissolution is a presidential power to end the current National Assembly's term and trigger new elections"
+        },
+        "de l'Assemblée": {
+          "display_format": "**Of the Assembly:** (prepositional phrase)",
+          "explanation": "Refers to the National Assembly, France's lower house of parliament",
+          "cultural_note": "The National Assembly is a key institution in French democracy, representing the legislative branch"
+        },
+        "dit": {
+          "display_format": "**Says:** (verb dire)",
+          "explanation": "Third person singular of the verb 'dire' (to say)",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Current President of France",
+          "explanation": "The current President of France, elected in 2017 and re-elected in 2022",
+          "cultural_note": "Macron is France's youngest president and leads from a centrist political position"
+        },
+        "un an après": {
+          "display_format": "**One year after:** (time expression)",
+          "explanation": "Temporal expression indicating something happening one year following a previous event",
+          "cultural_note": ""
+        },
+        "la précédente": {
+          "display_format": "**The previous one:** (adjective)",
+          "explanation": "Refers to the previous instance of something, in this case the previous dissolution",
+          "cultural_note": "Refers to the dissolution that occurred in 2023"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.6,
+        "relevance_score": 6.7,
+        "importance_score": 8.0,
+        "total_score": 22.3
+      },
+      "curation_metadata": {
+        "curation_id": "bfbb56cf-9689-47b0-823d-eb88e2fc68fb",
+        "curated_at": "2025-06-09T20:21:22.101062+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-09T20:24:40.714353+00:00",
+      "quality_score": 7.6,
+      "relevance_score": 6.7,
+      "importance_score": 8.0,
+      "total_score": 22.3
+    },
+    {
+      "title": "Un sénateur colombien attaqué: Le danger de voter dans la peur",
+      "english_title": "Colombian Senator Attacked: The Danger of Voting in Fear",
+      "simplified_french_title": "Un sénateur colombien attaqué: Le danger de voter dans la peur",
+      "simplified_english_title": "Colombian Senator Attacked: The Danger of Voting in Fear",
+      "summary": "Un jeune homme a tiré sur le sénateur Miguel Uribe pendant un meeting électoral en Colombie. Cet incident rappelle la violence politique du passé.",
+      "english_summary": "A young man shot Senator Miguel Uribe during an electoral meeting in Colombia. This incident recalls past political violence in the country.",
+      "french_summary": "Un jeune homme a tiré sur le sénateur Miguel Uribe pendant un meeting électoral en Colombie. Cet incident rappelle la violence politique du passé.",
+      "original_article_title": "Attaque contre Miguel Uribe en Colombie: «Voter avec peur crée une situation encore plus délétère»",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250609-attaque-contre-miguel-uribe-en-colombie-voter-avec-peur-cr%C3%A9e-une-situation-encore-plus-d%C3%A9l%C3%A9t%C3%A8re",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250609-attaque-contre-miguel-uribe-en-colombie-voter-avec-peur-cr%C3%A9e-une-situation-encore-plus-d%C3%A9l%C3%A9t%C3%A8re",
+      "source_name": "RFI",
+      "published": "Mon, 09 Jun 2025 15:44:55 GMT",
+      "published_date": "Mon, 09 Jun 2025 15:44:55 GMT",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attack:** A violent assault",
+          "explanation": "A noun describing a violent action against someone or something",
+          "cultural_note": "Political violence has been a recurring issue in Colombian history"
+        },
+        "contre": {
+          "display_format": "**Against:** (preposition)",
+          "explanation": "Indicates opposition or conflict with someone or something",
+          "cultural_note": ""
+        },
+        "Miguel Uribe": {
+          "display_format": "**Miguel Uribe:** Colombian conservative senator",
+          "explanation": "A Colombian politician and presidential candidate",
+          "cultural_note": "A prominent figure in Colombian conservative politics"
+        },
+        "en": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Used to indicate location or place",
+          "cultural_note": ""
+        },
+        "Colombie": {
+          "display_format": "**Colombia:** South American country",
+          "explanation": "A country in South America, with Bogotá as its capital",
+          "cultural_note": "Has a complex history of political violence and drug trafficking"
+        },
+        "Voter": {
+          "display_format": "**To vote:** To cast a ballot",
+          "explanation": "The act of participating in an election by expressing one's choice",
+          "cultural_note": "Voting rights and safety during elections are significant issues in many Latin American countries"
+        },
+        "avec": {
+          "display_format": "**With:** (preposition)",
+          "explanation": "Used to indicate accompaniment or manner",
+          "cultural_note": ""
+        },
+        "peur": {
+          "display_format": "**Fear:** State of being afraid",
+          "explanation": "An emotion caused by the threat of danger, pain, or harm",
+          "cultural_note": "Political fear has historically influenced voting behavior in Colombia"
+        },
+        "crée": {
+          "display_format": "**Creates:** (verb)",
+          "explanation": "Third person singular of 'créer' (to create), meaning to bring something into existence",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A/An:** (feminine indefinite article)",
+          "explanation": "Used before feminine nouns to indicate an non-specific item",
+          "cultural_note": ""
+        },
+        "situation": {
+          "display_format": "**Situation:** A set of circumstances",
+          "explanation": "A particular state of affairs or condition",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**Even:** (adverb)",
+          "explanation": "Used to emphasize a comparison",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**More:** (adverb)",
+          "explanation": "Used to indicate a greater degree or amount",
+          "cultural_note": ""
+        },
+        "délétère": {
+          "display_format": "**Harmful/Destructive:** Causing damage or harm",
+          "explanation": "Describing something that has a negative or harmful effect",
+          "cultural_note": "A formal word often used in political or social analysis"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 6.2,
+        "importance_score": 7.0,
+        "total_score": 22.3
+      },
+      "curation_metadata": {
+        "curation_id": "210c523f-e16b-45f1-916a-38a25996bc32",
+        "curated_at": "2025-06-09T20:21:22.103420+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-09T20:24:40.714373+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 6.2,
+      "importance_score": 7.0,
+      "total_score": 22.3
     }
   ]
 }
