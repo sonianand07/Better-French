@@ -181,65 +181,89 @@ class MasterScheduler:
         logger.info("   📊 Daily reports: 23:55")
     
     def run_breaking_news_check(self):
-        """Quick scan for breaking news with AI processing for quality learning"""
+        """Fast breaking news detection with immediate processing"""
         logger.info("🔥 Starting breaking news check with AI processing...")
         
         try:
             start_time = time.time()
             
             if not self.smart_scraper:
-                logger.warning("⚠️ Smart scraper not available, skipping breaking news check")
+                logger.warning("⚠️ Smart scraper not available for breaking news")
                 return
             
-            # Quick scrape with breaking news keywords
-            breaking_keywords = AUTOMATION_CONFIG['scheduling']['breaking_news_keywords']
-            urgent_articles = self.smart_scraper.quick_breaking_news_scan(breaking_keywords)
+            # Breaking news scan (fast, focused on urgent content)
+            breaking_articles = self.smart_scraper.enhanced_breaking_news_scan()
             
-            if urgent_articles:
-                logger.info(f"🚨 Found {len(urgent_articles)} potential breaking news articles")
-                
-                # Fast-track quality curation
-                if self.quality_curator:
-                    curated = self.quality_curator.fast_track_curation(urgent_articles)
-                    
-                    if curated:
-                        logger.info(f"✅ {len(curated)} breaking news articles passed curation")
-                        
-                        # NEW: AI processing for breaking news (if enabled and within limits)
-                        if (self.ai_processor and 
-                            AUTOMATION_CONFIG['cost']['breaking_news_ai_priority'] and 
-                            self.check_cost_limits()):
-                            
-                            logger.info("🤖 Processing breaking news with AI for enhanced learning...")
-                            enhanced_articles = self.ai_processor.batch_process_articles(curated)
-                            
-                            if enhanced_articles:
-                                # Update website with AI-enhanced breaking news
-                                if self.website_updater:
-                                    self.website_updater.add_breaking_news_enhanced(enhanced_articles)
-                                    logger.info("🌐 AI-enhanced breaking news added to website")
-                            else:
-                                # Fallback to curated only
-                                if self.website_updater:
-                                    self.website_updater.add_breaking_news(curated)
-                                    logger.info("🌐 Breaking news added to website (curated only)")
-                        else:
-                            # Original behavior: immediate update without AI
-                            if self.website_updater:
-                                self.website_updater.add_breaking_news(curated)
-                                logger.info("🌐 Breaking news added to website (no AI - preserving speed)")
-                        
-                        self.system_stats['last_successful_update'] = datetime.now(timezone.utc)
-                        self.system_stats['consecutive_failures'] = 0
-            else:
+            if not breaking_articles:
                 logger.info("📰 No breaking news detected")
+                duration = time.time() - start_time
+                logger.info(f"⚡ Breaking news check completed in {duration:.2f}s")
+                return
+            
+            logger.info(f"🚨 Found {len(breaking_articles)} breaking news articles")
+            
+            # Fast-track quality curation for breaking news (lower threshold)
+            if self.quality_curator:
+                fast_tracked = self.quality_curator.fast_track_curation(breaking_articles)
+                logger.info(f"⚡ {len(fast_tracked)} articles fast-tracked through curation")
+                
+                if fast_tracked:
+                    # Convert ScoredArticle objects to dictionaries for AI processing
+                    fast_tracked_dicts = []
+                    for scored_article in fast_tracked:
+                        if hasattr(scored_article, '__dict__'):
+                            article_dict = {
+                                'original_data': scored_article.original_data,
+                                'quality_score': scored_article.quality_score,
+                                'relevance_score': scored_article.relevance_score,
+                                'importance_score': scored_article.importance_score,
+                                'total_score': scored_article.total_score,
+                                'curation_id': scored_article.curation_id,
+                                'curated_at': scored_article.curated_at,
+                                'fast_tracked': scored_article.fast_tracked,
+                                'urgency_score': scored_article.urgency_score
+                            }
+                            fast_tracked_dicts.append(article_dict)
+                    
+                    # AI processing for breaking news (if enabled)
+                    enhanced_articles = []
+                    ai_success = False
+                    
+                    if (self.ai_processor and 
+                        AUTOMATION_CONFIG['cost']['breaking_news_ai_enabled'] and 
+                        self.check_cost_limits()):
+                        
+                        logger.info(f"🚨 Rush AI processing for {len(fast_tracked_dicts)} breaking articles...")
+                        try:
+                            enhanced_articles = self.ai_processor.batch_process_articles(fast_tracked_dicts)
+                            if enhanced_articles:
+                                ai_success = True
+                                logger.info(f"⚡ Breaking news AI processing complete: {len(enhanced_articles)} articles")
+                            else:
+                                logger.warning("⚠️ Breaking news AI processing returned no results")
+                        except Exception as ai_error:
+                            logger.error(f"❌ Breaking news AI processing failed: {ai_error}")
+                    
+                    # Update website immediately
+                    if self.website_updater:
+                        if ai_success and enhanced_articles:
+                            self.website_updater.update_with_ai_enhanced_articles(enhanced_articles)
+                            logger.info(f"🚨 Website updated with {len(enhanced_articles)} AI-enhanced breaking news")
+                        else:
+                            # Fallback to fast-tracked articles
+                            self.website_updater.update_with_curated_articles(fast_tracked)
+                            logger.info(f"🚨 Website updated with {len(fast_tracked)} fast-tracked breaking news")
+                    
+                    self.system_stats['breaking_news_processed_today'] += len(fast_tracked)
+                    self.system_stats['last_breaking_news'] = datetime.now(timezone.utc)
+                    self.system_stats['consecutive_failures'] = 0
             
             duration = time.time() - start_time
             logger.info(f"⚡ Breaking news check completed in {duration:.2f}s")
             
         except Exception as e:
             logger.error(f"❌ Breaking news check failed: {e}")
-            self.handle_component_failure('breaking_news_check', e)
+            self.handle_component_failure('breaking_news', e)
     
     def run_regular_update(self):
         """Regular content scraping, curation, and AI processing for all quality articles"""
@@ -257,51 +281,139 @@ class MasterScheduler:
             all_articles = self.smart_scraper.comprehensive_scrape()
             logger.info(f"📄 Scraped {len(all_articles)} articles from all sources")
             
+            # Save daily articles archive (all unique articles)
+            try:
+                today = datetime.now(timezone.utc).date().isoformat()
+                daily_file = f"data/live/raw_articles_{today}.json"
+                os.makedirs(os.path.dirname(daily_file), exist_ok=True)
+                
+                # Convert NewsArticle objects to dict for JSON serialization
+                daily_articles = []
+                for article in all_articles:
+                    if hasattr(article, '__dict__'):
+                        article_dict = article.__dict__.copy()
+                        article_dict['published_on_website'] = False  # Will update after processing
+                        daily_articles.append(article_dict)
+                
+                with open(daily_file, 'w', encoding='utf-8') as f:
+                    json.dump({
+                        'date': today,
+                        'total_articles': len(daily_articles),
+                        'published_articles': [],
+                        'unpublished_articles': daily_articles
+                    }, f, ensure_ascii=False, indent=2, default=str)
+                logger.info(f"📁 Saved {len(daily_articles)} daily articles to {daily_file}")
+            except Exception as e:
+                logger.error(f"❌ Failed to save daily articles: {e}")
+            
             # Quality curation with full scoring
             if self.quality_curator:
                 curated_articles = self.quality_curator.full_curation(all_articles)
                 logger.info(f"🎯 {len(curated_articles)} articles passed quality curation")
                 
-                # NEW: AI processing for regular updates (if enabled and within limits)
+                # Convert ScoredArticle objects to dictionaries for AI processing
+                curated_dicts = []
+                for scored_article in curated_articles:
+                    if hasattr(scored_article, '__dict__'):
+                        article_dict = {
+                            'original_data': scored_article.original_data,
+                            'quality_score': scored_article.quality_score,
+                            'relevance_score': scored_article.relevance_score,
+                            'importance_score': scored_article.importance_score,
+                            'total_score': scored_article.total_score,
+                            'curation_id': scored_article.curation_id,
+                            'curated_at': scored_article.curated_at,
+                            'fast_tracked': scored_article.fast_tracked,
+                            'urgency_score': scored_article.urgency_score
+                        }
+                        curated_dicts.append(article_dict)
+                
+                # Save curated articles
+                try:
+                    curated_file = f"data/live/curated_articles_{today}.json"
+                    os.makedirs(os.path.dirname(curated_file), exist_ok=True)
+                    with open(curated_file, 'w', encoding='utf-8') as f:
+                        json.dump({
+                            'date': today,
+                            'curated_articles': curated_dicts,
+                            'count': len(curated_dicts)
+                        }, f, ensure_ascii=False, indent=2, default=str)
+                    logger.info(f"📁 Saved {len(curated_dicts)} curated articles")
+                except Exception as e:
+                    logger.error(f"❌ Failed to save curated articles: {e}")
+                
+                # Try AI processing with proper data format
+                ai_success = False
+                enhanced_articles = []
+                
                 if (self.ai_processor and 
                     AUTOMATION_CONFIG['cost']['regular_updates_ai_enabled'] and 
                     self.check_cost_limits()):
                     
                     # Filter articles that meet AI processing threshold
                     ai_threshold = AUTOMATION_CONFIG['cost']['quality_threshold_for_ai']
-                    ai_worthy_articles = [a for a in curated_articles if a.total_score >= ai_threshold]
+                    ai_worthy_articles = [a for a in curated_dicts if a['total_score'] >= ai_threshold]
                     
                     if ai_worthy_articles:
                         max_for_ai = AUTOMATION_CONFIG['cost']['max_ai_articles_per_day'] - self.system_stats['ai_calls_used_today']
                         processing_batch = ai_worthy_articles[:max_for_ai]
                         
                         logger.info(f"🤖 Processing {len(processing_batch)} articles with AI (score >= {ai_threshold})")
-                        enhanced_articles = self.ai_processor.batch_process_articles(processing_batch)
+                        try:
+                            enhanced_articles = self.ai_processor.batch_process_articles(processing_batch)
+                            if enhanced_articles:
+                                ai_success = True
+                                logger.info(f"✨ AI processing succeeded: {len(enhanced_articles)} articles enhanced")
+                            else:
+                                logger.warning("⚠️ AI processing returned no results")
+                        except Exception as ai_error:
+                            logger.error(f"❌ AI processing failed: {ai_error}")
+                            enhanced_articles = []
+                
+                # Update website with best available content
+                if self.website_updater:
+                    if ai_success and enhanced_articles:
+                        # Use AI-enhanced articles
+                        self.website_updater.update_with_ai_enhanced_articles(enhanced_articles)
+                        logger.info(f"🌐 Website updated with {len(enhanced_articles)} AI-enhanced articles")
                         
-                        if enhanced_articles:
-                            # Update website with AI-enhanced content
-                            if self.website_updater:
-                                # Also include non-AI articles that passed curation
-                                remaining_curated = [a for a in curated_articles if a not in processing_batch]
-                                self.website_updater.update_with_mixed_content(enhanced_articles, remaining_curated)
-                                logger.info(f"🌐 Website updated: {len(enhanced_articles)} AI-enhanced + {len(remaining_curated)} curated articles")
-                            
-                            self.system_stats['ai_calls_used_today'] += len(enhanced_articles)
-                        else:
-                            # Fallback to curated only
-                            if self.website_updater:
-                                self.website_updater.update_with_curated_articles(curated_articles)
-                                logger.info("🌐 Website updated with curated articles (AI processing failed)")
+                        # Update daily articles to mark AI-enhanced ones as published
+                        try:
+                            enhanced_links = {a.get('original_article_link') for a in enhanced_articles}
+                            for article in daily_articles:
+                                if article.get('link') in enhanced_links:
+                                    article['published_on_website'] = True
+                        except Exception as e:
+                            logger.debug(f"Could not update daily articles published status: {e}")
                     else:
-                        # No articles meet AI threshold
-                        if self.website_updater:
-                            self.website_updater.update_with_curated_articles(curated_articles)
-                            logger.info("🌐 Website updated with curated articles (none met AI threshold)")
-                else:
-                    # AI processing disabled or limits reached
-                    if self.website_updater:
+                        # Fallback to curated articles only
                         self.website_updater.update_with_curated_articles(curated_articles)
-                        logger.info("🌐 Website updated with curated articles (AI disabled/limited)")
+                        logger.info(f"🌐 Website updated with {len(curated_articles)} curated articles (AI fallback)")
+                        
+                        # Update daily articles to mark curated ones as published
+                        try:
+                            curated_links = {a.original_data.get('link') for a in curated_articles}
+                            for article in daily_articles:
+                                if article.get('link') in curated_links:
+                                    article['published_on_website'] = True
+                        except Exception as e:
+                            logger.debug(f"Could not update daily articles published status: {e}")
+                
+                # Update daily articles file with published status
+                try:
+                    published_articles = [a for a in daily_articles if a.get('published_on_website')]
+                    unpublished_articles = [a for a in daily_articles if not a.get('published_on_website')]
+                    
+                    with open(daily_file, 'w', encoding='utf-8') as f:
+                        json.dump({
+                            'date': today,
+                            'total_articles': len(daily_articles),
+                            'published_articles': published_articles,
+                            'unpublished_articles': unpublished_articles
+                        }, f, ensure_ascii=False, indent=2, default=str)
+                    logger.info(f"📁 Updated daily archive: {len(published_articles)} published, {len(unpublished_articles)} unpublished")
+                except Exception as e:
+                    logger.error(f"❌ Failed to update daily articles file: {e}")
                 
                 self.system_stats['articles_processed_today'] += len(curated_articles)
                 self.system_stats['last_successful_update'] = datetime.now(timezone.utc)
@@ -395,6 +507,10 @@ class MasterScheduler:
         try:
             logger.info("📊 Generating daily performance report...")
             
+            # Ensure logs directory exists
+            logs_dir = os.path.join(os.path.dirname(__file__), '..', 'logs')
+            os.makedirs(logs_dir, exist_ok=True)
+            
             report = {
                 'date': datetime.now(timezone.utc).date().isoformat(),
                 'system_stats': self.system_stats.copy(),
@@ -405,7 +521,7 @@ class MasterScheduler:
             }
             
             # Save report
-            report_path = f"../logs/daily_report_{report['date']}.json"
+            report_path = os.path.join(logs_dir, f"daily_report_{report['date']}.json")
             with open(report_path, 'w') as f:
                 json.dump(report, f, indent=2, default=str)
             
