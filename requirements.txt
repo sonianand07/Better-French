@@ -1,0 +1,42 @@
+# Better French Max - Automated System Requirements
+# Production-ready dependencies for enterprise automation
+
+# Core automation
+schedule>=1.2.0              # Task scheduling
+python-dateutil>=2.8.2       # Date parsing and manipulation
+
+# Data processing (inherited from manual system)
+feedparser>=6.0.10           # RSS feed parsing
+requests>=2.31.0             # HTTP requests
+openai>=1.0.0               # AI processing (OpenRouter compatible)
+
+# Website and JSON handling
+beautifulsoup4>=4.12.0       # HTML parsing (if needed)
+lxml>=4.9.0                  # XML parsing support
+
+# Monitoring and logging
+psutil>=5.9.0               # System monitoring
+colorama>=0.4.6             # Colored terminal output
+
+# Data analysis (for quality metrics)
+numpy>=1.24.0               # Numerical operations
+pandas>=2.0.0               # Data analysis (optional, for advanced metrics)
+
+# Performance and caching
+diskcache>=5.6.0            # Smart caching system
+ujson>=5.7.0                # Fast JSON processing
+
+# Security and validation
+cryptography>=41.0.0        # Encryption for sensitive data
+marshmallow>=3.19.0         # Data validation
+
+# Development and testing
+pytest>=7.4.0              # Testing framework
+black>=23.0.0               # Code formatting
+flake8>=6.0.0               # Code linting
+
+# Optional advanced features (can be installed separately)
+# nltk>=3.8                 # Advanced NLP (future feature)
+# scikit-learn>=1.3.0       # ML for trend prediction (future)
+# redis>=4.5.0              # Advanced caching (enterprise)
+# celery>=5.3.0             # Distributed task queue (enterprise) 

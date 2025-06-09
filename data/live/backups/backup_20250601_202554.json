@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "updated_at": "2025-06-01T18:03:05.970089+00:00",
+    "total_articles": 1,
+    "automation_system": "Better French Max Automated System",
+    "website_version": "1.0",
+    "curated_articles_count": 1,
+    "update_type": "curated_articles",
+    "average_score": 21.5
+  },
+  "articles": [
+    {
+      "title": "Test Article for Website",
+      "summary": "This is a test article summary.",
+      "link": "https://example.com",
+      "source_name": "Test Source",
+      "published": "2024-01-01T10:00:00Z",
+      "author": "",
+      "image_url": "",
+      "quality_score": 8.0,
+      "relevance_score": 7.5,
+      "importance_score": 6.0,
+      "total_score": 21.5,
+      "breaking_news": false,
+      "urgency_score": 0,
+      "fast_tracked": false,
+      "curated_at": "2024-01-01T10:00:00Z",
+      "curation_id": "test-123",
+      "added_at": "2025-06-01T18:03:05.970078+00:00"
+    }
+  ]
+}
