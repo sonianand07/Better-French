@@ -5,6 +5,10 @@ on:
     - cron: '0 */2 * * *'   # Every 2 hours
   workflow_dispatch:         # Allow manual trigger
 
+permissions:
+  contents: write            # Allow writing to repository
+  actions: read              # Allow reading actions
+
 jobs:
   update:
     runs-on: ubuntu-latest

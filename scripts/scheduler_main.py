@@ -192,7 +192,8 @@ class MasterScheduler:
                 return
             
             # Breaking news scan (fast, focused on urgent content)
-            breaking_articles = self.smart_scraper.enhanced_breaking_news_scan()
+            breaking_keywords = AUTOMATION_CONFIG['scheduling']['breaking_news_keywords']
+            breaking_articles = self.smart_scraper.quick_breaking_news_scan(breaking_keywords)
             
             if not breaking_articles:
                 logger.info("📰 No breaking news detected")
@@ -251,7 +252,15 @@ class MasterScheduler:
                     # Update website immediately
                     if self.website_updater:
                         if ai_success and enhanced_articles:
-                            self.website_updater.update_with_ai_enhanced_articles(enhanced_articles)
+                            # Convert ProcessedArticle objects to dictionaries for website
+                            enhanced_dicts = []
+                            for article in enhanced_articles:
+                                if hasattr(article, '__dict__'):
+                                    enhanced_dicts.append(article.__dict__.copy())
+                                else:
+                                    enhanced_dicts.append(article)
+                            
+                            self.website_updater.update_with_ai_enhanced_articles(enhanced_dicts)
                             logger.info(f"🚨 Website updated with {len(enhanced_articles)} AI-enhanced breaking news")
                         else:
                             # Fallback to fast-tracked articles
@@ -377,13 +386,21 @@ class MasterScheduler:
                 # Update website with best available content
                 if self.website_updater:
                     if ai_success and enhanced_articles:
+                        # Convert ProcessedArticle objects to dictionaries for website
+                        enhanced_dicts = []
+                        for article in enhanced_articles:
+                            if hasattr(article, '__dict__'):
+                                enhanced_dicts.append(article.__dict__.copy())
+                            else:
+                                enhanced_dicts.append(article)
+                        
                         # Use AI-enhanced articles
-                        self.website_updater.update_with_ai_enhanced_articles(enhanced_articles)
+                        self.website_updater.update_with_ai_enhanced_articles(enhanced_dicts)
                         logger.info(f"🌐 Website updated with {len(enhanced_articles)} AI-enhanced articles")
                         
                         # Update daily articles to mark AI-enhanced ones as published
                         try:
-                            enhanced_links = {a.get('original_article_link') for a in enhanced_articles}
+                            enhanced_links = {a.original_article_link for a in enhanced_articles}
                             for article in daily_articles:
                                 if article.get('link') in enhanced_links:
                                     article['published_on_website'] = True
