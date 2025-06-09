@@ -42,6 +42,7 @@ class MasterScheduler:
     """
     
     def __init__(self):
+        self.config = AUTOMATION_CONFIG  # <-- Ensure config is set first!
         self.running = False
         self.threads = []
         self.last_health_check = None
