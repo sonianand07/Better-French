@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Scheduler
         run: |
-          python scripts/scheduler_main.py
+          python scripts/scheduler_main.py --once
 
       - name: Commit and push changes
         run: |

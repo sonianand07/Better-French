@@ -15,6 +15,7 @@ import threading
 import signal
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+import argparse
 
 # Add config directory to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'config'))
@@ -567,6 +568,9 @@ class MasterScheduler:
 
 def main():
     """Main entry point for the automation system"""
+    parser = argparse.ArgumentParser(description='Better French Max Automation Scheduler')
+    parser.add_argument('--once', action='store_true', help='Run the main pipeline once and exit (for CI/CD)')
+    args = parser.parse_args()
     try:
         # Validate configuration
         from automation import validate_configuration
@@ -578,9 +582,17 @@ def main():
         
         logger.info("✅ Configuration validation passed")
         
-        # Create and start scheduler
+        # Create scheduler
         scheduler = MasterScheduler()
-        scheduler.start()
+        if args.once:
+            logger.info("🔁 Running in one-shot mode for CI/CD (GitHub Actions)")
+            scheduler.run_breaking_news_check()
+            scheduler.run_regular_update()
+            scheduler.update_website_if_needed()
+            scheduler.generate_daily_report()
+            logger.info("✅ One-shot pipeline complete. Exiting.")
+        else:
+            scheduler.start()
         
     except Exception as e:
         logger.error(f"❌ Failed to start automation system: {e}")
