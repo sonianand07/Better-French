@@ -33,8 +33,12 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add Project-Better-French-Website/current_articles.json data/live/raw_articles_*.json
-          git commit -m "Auto-update: fresh news and daily archive [skip ci]" || echo "No changes to commit"
-          git push
+          git add data/live/raw_articles_*.json data/live/curated_articles_*.json Project-Better-French-Website/current_articles.json logs/daily_report_*.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Add/update daily articles and reports [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
