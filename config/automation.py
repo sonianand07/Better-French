@@ -84,12 +84,14 @@ QUALITY_CONFIG = {
 COST_CONFIG = {
     # AI processing strategy (QUALITY-FIRST approach)
     'enable_realtime_ai_processing': True,    # NEW: Process all articles with AI
-    'max_ai_articles_per_day': 100,           # Increased from 15 to 100
+    'max_ai_articles_per_day': 100,           # Daily limit (backup safety)
+    'max_ai_articles_per_run': 10,            # NEW: Only top 10 articles per 2-hour run
     'max_ai_calls_per_day': 120,              # API call limit
     'ai_batch_size': 5,                       # Process in batches
     
     # Smart processing tiers
     'breaking_news_ai_priority': True,        # NEW: Always process breaking news
+    'breaking_news_ai_enabled': True,         # NEW: Process breaking news with AI
     'regular_updates_ai_enabled': True,       # NEW: Process regular updates
     'quality_threshold_for_ai': 15.0,         # Only process articles scoring 15+/30
     

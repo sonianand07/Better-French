@@ -233,9 +233,13 @@ class MasterScheduler:
                         AUTOMATION_CONFIG['cost']['breaking_news_ai_enabled'] and 
                         self.check_cost_limits()):
                         
-                        logger.info(f"🚨 Rush AI processing for {len(fast_tracked_dicts)} breaking articles...")
+                        # Limit breaking news AI processing to top 5 articles (urgent focus)
+                        max_breaking_ai = 5  # Smaller limit for breaking news to maintain speed
+                        processing_batch = fast_tracked_dicts[:max_breaking_ai]
+                        
+                        logger.info(f"🚨 Rush AI processing for top {len(processing_batch)} breaking articles...")
                         try:
-                            enhanced_articles = self.ai_processor.batch_process_articles(fast_tracked_dicts)
+                            enhanced_articles = self.ai_processor.batch_process_articles(processing_batch)
                             if enhanced_articles:
                                 ai_success = True
                                 logger.info(f"⚡ Breaking news AI processing complete: {len(enhanced_articles)} articles")
@@ -355,10 +359,10 @@ class MasterScheduler:
                     ai_worthy_articles = [a for a in curated_dicts if a['total_score'] >= ai_threshold]
                     
                     if ai_worthy_articles:
-                        max_for_ai = AUTOMATION_CONFIG['cost']['max_ai_articles_per_day'] - self.system_stats['ai_calls_used_today']
+                        max_for_ai = AUTOMATION_CONFIG['cost']['max_ai_articles_per_run']
                         processing_batch = ai_worthy_articles[:max_for_ai]
                         
-                        logger.info(f"🤖 Processing {len(processing_batch)} articles with AI (score >= {ai_threshold})")
+                        logger.info(f"🤖 Processing top {len(processing_batch)} articles with AI (score >= {ai_threshold})")
                         try:
                             enhanced_articles = self.ai_processor.batch_process_articles(processing_batch)
                             if enhanced_articles:
