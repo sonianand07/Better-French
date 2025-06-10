@@ -364,7 +364,12 @@ class BetterFrenchApp {
 
         // Extract source from the article link or use a default
         const source = this.extractSource(article.original_article_link);
-        const publishedDate = this.formatDate(article.original_article_published_date);
+        // Try multiple date fields in order of preference
+        const publishedDate = this.formatDate(
+            article.published || 
+            article.published_date || 
+            article.original_article_published_date
+        );
         
         // Generate unique IDs for accessibility
         const summaryId = this.generateId();
@@ -887,13 +892,23 @@ class BetterFrenchApp {
 
     formatDate(dateString) {
         if (!dateString || dateString.trim() === '') {
-            return 'May 31, 2025'; // Default to the date in the filename since published dates are empty
+            // Use current date instead of hardcoded old date
+            return new Date().toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
         }
         
         try {
             const date = new Date(dateString);
             if (isNaN(date.getTime())) {
-                return 'May 31, 2025';
+                // Use current date instead of hardcoded old date
+                return new Date().toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
             }
             return date.toLocaleDateString('en-US', {
                 year: 'numeric',
@@ -901,7 +916,12 @@ class BetterFrenchApp {
                 day: 'numeric'
             });
         } catch (error) {
-            return 'May 31, 2025';
+            // Use current date instead of hardcoded old date
+            return new Date().toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
         }
     }
 
