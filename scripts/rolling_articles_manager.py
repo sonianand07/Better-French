@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Rolling Articles Manager - Better French Project
-Maintains a rolling collection of the newest 100 curated articles
+Robust hybrid system that maintains a chronologically sorted collection
+of all articles, showing newest 100 max, regardless of daily boundaries.
 """
 
 import json
@@ -10,6 +11,8 @@ import glob
 from datetime import datetime, timedelta
 import logging
 from pathlib import Path
+import hashlib
+from typing import List, Dict, Any, Optional
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -20,179 +23,310 @@ class RollingArticlesManager:
         self.base_path = Path(base_path)
         self.data_path = self.base_path / "data" / "live"
         self.website_path = self.base_path / "Project-Better-French-Website"
-        self.rolling_file = self.website_path / "rolling_100_articles.json"
+        self.rolling_file = self.website_path / "rolling_articles.json"
+        self.backup_file = self.website_path / "rolling_articles_backup.json"
+        self.max_articles = 100
         
-    def collect_recent_articles(self, days_back=14):
-        """Collect articles from the last N days of curated files"""
-        all_articles = []
+    def validate_environment(self) -> bool:
+        """Validate that required directories and files exist"""
+        try:
+            if not self.data_path.exists():
+                logger.error(f"Data directory not found: {self.data_path}")
+                return False
+                
+            if not self.website_path.exists():
+                logger.error(f"Website directory not found: {self.website_path}")
+                return False
+                
+            logger.info("✅ Environment validation passed")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Environment validation failed: {e}")
+            return False
+    
+    def load_existing_rolling_collection(self) -> List[Dict[Any, Any]]:
+        """Load existing rolling collection, with backup fallback"""
+        existing_articles = []
         
-        # Get all curated article files from recent days
-        pattern = str(self.data_path / "curated_articles_*.json")
-        curated_files = sorted(glob.glob(pattern), reverse=True)  # Newest first
-        
-        logger.info(f"Found {len(curated_files)} curated article files")
-        
-        for file_path in curated_files[:days_back]:  # Limit to recent files
+        # Try main file first
+        if self.rolling_file.exists():
             try:
+                with open(self.rolling_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    if 'articles' in data and isinstance(data['articles'], list):
+                        existing_articles = data['articles']
+                        logger.info(f"✅ Loaded {len(existing_articles)} existing articles from rolling collection")
+                    else:
+                        logger.warning("Rolling file exists but has invalid structure")
+            except Exception as e:
+                logger.error(f"Error reading rolling file: {e}")
+                # Try backup
+                if self.backup_file.exists():
+                    try:
+                        with open(self.backup_file, 'r', encoding='utf-8') as f:
+                            data = json.load(f)
+                            existing_articles = data.get('articles', [])
+                            logger.info(f"✅ Recovered {len(existing_articles)} articles from backup")
+                    except Exception as backup_error:
+                        logger.error(f"Backup recovery failed: {backup_error}")
+        
+        return existing_articles
+    
+    def get_daily_files(self) -> List[Path]:
+        """Get all daily curated article files, sorted by date"""
+        try:
+            pattern = str(self.data_path / "curated_articles_*.json")
+            files = glob.glob(pattern)
+            
+            # Sort by filename (which contains date)
+            sorted_files = sorted([Path(f) for f in files], reverse=True)
+            
+            logger.info(f"✅ Found {len(sorted_files)} daily files")
+            return sorted_files
+            
+        except Exception as e:
+            logger.error(f"Error getting daily files: {e}")
+            return []
+    
+    def load_articles_from_daily_files(self, max_days: int = 30) -> List[Dict[Any, Any]]:
+        """Load articles from daily files with robust error handling"""
+        all_articles = []
+        daily_files = self.get_daily_files()
+        
+        for file_path in daily_files[:max_days]:  # Limit to recent files
+            try:
+                logger.info(f"Processing: {file_path.name}")
+                
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    
-                # Handle both current_articles.json (articles) and curated_articles.json (curated_articles)
+                
+                # Handle different file formats
+                articles = []
                 if 'articles' in data:
                     articles = data['articles']
-                    logger.info(f"Loaded {len(articles)} articles from {os.path.basename(file_path)}")
-                    all_articles.extend(articles)
                 elif 'curated_articles' in data:
-                    curated_articles = data['curated_articles']
-                    logger.info(f"Loaded {len(curated_articles)} curated articles from {os.path.basename(file_path)}")
                     # Convert curated format to standard format
-                    for curated in curated_articles:
+                    for curated in data['curated_articles']:
                         if 'original_data' in curated:
-                            # Merge curated metadata with original data
                             article = curated['original_data'].copy()
+                            # Add curation metadata
                             article['quality_score'] = curated.get('quality_score', 0)
-                            article['relevance_score'] = curated.get('relevance_score', 0) 
+                            article['relevance_score'] = curated.get('relevance_score', 0)
                             article['importance_score'] = curated.get('importance_score', 0)
                             article['total_score'] = curated.get('total_score', 0)
                             article['curated_at'] = curated.get('curated_at')
-                            all_articles.append(article)
+                            articles.append(article)
+                
+                if articles:
+                    all_articles.extend(articles)
+                    logger.info(f"✅ Loaded {len(articles)} articles from {file_path.name}")
+                else:
+                    logger.warning(f"No articles found in {file_path.name}")
                     
             except Exception as e:
-                logger.error(f"Error reading {file_path}: {e}")
+                logger.error(f"Error processing {file_path}: {e}")
                 continue
-                
-        logger.info(f"Total articles collected: {len(all_articles)}")
+        
+        logger.info(f"✅ Total articles loaded from daily files: {len(all_articles)}")
         return all_articles
     
-    def remove_duplicates(self, articles):
-        """Remove duplicate articles based on title and link"""
-        seen = set()
+    def normalize_article(self, article: Dict[Any, Any]) -> Dict[Any, Any]:
+        """Normalize article structure and add missing fields"""
+        normalized = article.copy()
+        
+        # Ensure required fields exist
+        if 'title' not in normalized:
+            normalized['title'] = normalized.get('original_article_title', 'Unknown Title')
+        
+        if 'link' not in normalized:
+            normalized['link'] = normalized.get('original_article_link', '')
+        
+        # Add article hash for deduplication
+        content_for_hash = f"{normalized.get('title', '')}{normalized.get('link', '')}"
+        normalized['article_id'] = hashlib.md5(content_for_hash.encode()).hexdigest()
+        
+        return normalized
+    
+    def parse_article_date(self, article: Dict[Any, Any]) -> datetime:
+        """Parse article date from multiple possible fields"""
+        date_fields = ['published', 'published_date', 'curated_at', 'added_at', 'scraped_at']
+        
+        for field in date_fields:
+            if field in article and article[field]:
+                try:
+                    date_str = str(article[field])
+                    
+                    # Try different date formats
+                    formats = [
+                        '%Y-%m-%dT%H:%M:%S.%f%z',      # 2025-06-10T20:24:47.123456+00:00
+                        '%Y-%m-%dT%H:%M:%S%z',         # 2025-06-10T20:24:47+00:00
+                        '%Y-%m-%dT%H:%M:%S.%f',        # 2025-06-10T20:24:47.123456
+                        '%Y-%m-%dT%H:%M:%S',           # 2025-06-10T20:24:47
+                        '%a, %d %b %Y %H:%M:%S %Z',    # Tue, 10 Jun 2025 20:24:47 GMT
+                        '%a, %d %b %Y %H:%M:%S %z',    # Tue, 10 Jun 2025 20:24:47 +0000
+                        '%Y-%m-%d %H:%M:%S',           # 2025-06-10 20:24:47
+                        '%Y-%m-%d'                     # 2025-06-10
+                    ]
+                    
+                    for fmt in formats:
+                        try:
+                            # Handle timezone variations
+                            clean_date = date_str.replace('+00:00', '+0000').replace('GMT', '+0000')
+                            return datetime.strptime(clean_date, fmt)
+                        except ValueError:
+                            continue
+                            
+                except Exception:
+                    continue
+        
+        # Fallback to current time
+        logger.warning(f"Could not parse date for article: {article.get('title', 'Unknown')[:50]}")
+        return datetime.now()
+    
+    def remove_duplicates(self, articles: List[Dict[Any, Any]]) -> List[Dict[Any, Any]]:
+        """Remove duplicate articles based on multiple criteria"""
+        seen_ids = set()
+        seen_titles = set()
         unique_articles = []
         
         for article in articles:
-            # Create unique identifier using title and link (handle different field names)
-            title = article.get('title', '') or article.get('original_article_title', '')
-            link = article.get('link', '') or article.get('original_article_link', '')
-            identifier = (
-                title.strip().lower(),
-                link.strip()
-            )
+            normalized = self.normalize_article(article)
+            article_id = normalized['article_id']
+            title_clean = normalized.get('title', '').strip().lower()
             
-            if identifier not in seen and identifier[0] and identifier[1]:
-                seen.add(identifier)
-                unique_articles.append(article)
+            # Skip if duplicate by ID or very similar title
+            if article_id in seen_ids:
+                continue
                 
-        logger.info(f"Removed {len(articles) - len(unique_articles)} duplicates")
+            if title_clean and len(title_clean) > 20:  # Only check substantial titles
+                if title_clean in seen_titles:
+                    continue
+                seen_titles.add(title_clean)
+            
+            seen_ids.add(article_id)
+            unique_articles.append(normalized)
+        
+        removed_count = len(articles) - len(unique_articles)
+        logger.info(f"✅ Removed {removed_count} duplicates, kept {len(unique_articles)} unique articles")
         return unique_articles
     
-    def sort_by_recency(self, articles):
-        """Sort articles by published date, newest first"""
-        def get_sort_key(article):
-            # Try multiple date fields
-            date_fields = ['published', 'published_date', 'added_at', 'curated_at']
-            
-            for field in date_fields:
-                if field in article and article[field]:
-                    try:
-                        # Handle different date formats
-                        date_str = article[field]
-                        if isinstance(date_str, str):
-                            # Try parsing different formats
-                            for fmt in ['%Y-%m-%dT%H:%M:%S.%f%z', '%Y-%m-%dT%H:%M:%S%z', 
-                                      '%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%d %H:%M:%S']:
-                                try:
-                                    return datetime.strptime(date_str.replace('+00:00', '+0000'), fmt)
-                                except:
-                                    continue
-                    except:
-                        continue
-            
-            # Fallback to current time if no valid date found
-            return datetime.now()
-        
-        sorted_articles = sorted(articles, key=get_sort_key, reverse=True)
-        logger.info(f"Sorted {len(sorted_articles)} articles by recency")
-        return sorted_articles
-    
-    def create_rolling_collection(self, max_articles=100):
-        """Create the rolling collection of newest articles"""
-        logger.info("Creating rolling 100 articles collection...")
-        
-        # Step 1: Collect recent articles
-        all_articles = self.collect_recent_articles()
-        
-        if not all_articles:
-            logger.warning("No articles found to create rolling collection")
-            return False
-            
-        # Step 2: Remove duplicates
-        unique_articles = self.remove_duplicates(all_articles)
-        
-        # Step 3: Sort by recency
-        sorted_articles = self.sort_by_recency(unique_articles)
-        
-        # Step 4: Take newest 100
-        rolling_articles = sorted_articles[:max_articles]
-        
-        logger.info(f"Selected top {len(rolling_articles)} articles for rolling collection")
-        
-        # Step 5: Create metadata
-        metadata = {
-            "updated_at": datetime.now().isoformat(),
-            "total_articles": len(rolling_articles),
-            "collection_type": "rolling_100",
-            "max_articles": max_articles,
-            "automation_system": "Better French Rolling Articles Manager",
-            "website_version": "2.0"
-        }
-        
-        # Step 6: Save rolling collection
-        rolling_data = {
-            "metadata": metadata,
-            "articles": rolling_articles
-        }
-        
+    def sort_articles_chronologically(self, articles: List[Dict[Any, Any]]) -> List[Dict[Any, Any]]:
+        """Sort articles by publication date, newest first"""
         try:
-            with open(self.rolling_file, 'w', encoding='utf-8') as f:
-                json.dump(rolling_data, f, ensure_ascii=False, indent=2)
+            def get_sort_key(article):
+                return self.parse_article_date(article)
             
-            logger.info(f"✅ Rolling collection saved: {self.rolling_file}")
-            logger.info(f"📊 Collection stats: {len(rolling_articles)} articles, updated at {metadata['updated_at']}")
+            sorted_articles = sorted(articles, key=get_sort_key, reverse=True)
+            logger.info(f"✅ Sorted {len(sorted_articles)} articles chronologically")
+            return sorted_articles
+            
+        except Exception as e:
+            logger.error(f"Error sorting articles: {e}")
+            return articles
+    
+    def create_rolling_collection(self) -> bool:
+        """Main method to create/update the rolling collection"""
+        try:
+            logger.info("🚀 Starting robust rolling collection creation...")
+            
+            # Step 1: Validate environment
+            if not self.validate_environment():
+                return False
+            
+            # Step 2: Load existing articles
+            existing_articles = self.load_existing_rolling_collection()
+            
+            # Step 3: Load new articles from daily files
+            daily_articles = self.load_articles_from_daily_files()
+            
+            # Step 4: Combine all articles
+            all_articles = existing_articles + daily_articles
+            
+            if not all_articles:
+                logger.warning("No articles found to process")
+                return False
+            
+            # Step 5: Remove duplicates
+            unique_articles = self.remove_duplicates(all_articles)
+            
+            # Step 6: Sort chronologically
+            sorted_articles = self.sort_articles_chronologically(unique_articles)
+            
+            # Step 7: Keep only newest articles (max limit)
+            final_articles = sorted_articles[:self.max_articles]
+            
+            actual_count = len(final_articles)
+            logger.info(f"✅ Final collection: {actual_count} articles (max: {self.max_articles})")
+            
+            # Step 8: Create metadata
+            metadata = {
+                "updated_at": datetime.now().isoformat(),
+                "total_articles": actual_count,
+                "collection_type": "rolling_chronological",
+                "max_articles": self.max_articles,
+                "automation_system": "Better French Rolling Articles Manager v2.0",
+                "website_version": "2.0"
+            }
+            
+            # Step 9: Create final data structure
+            rolling_data = {
+                "metadata": metadata,
+                "articles": final_articles
+            }
+            
+            # Step 10: Save with backup
+            return self.save_rolling_collection(rolling_data)
+            
+        except Exception as e:
+            logger.error(f"❌ Critical error in rolling collection creation: {e}")
+            return False
+    
+    def save_rolling_collection(self, data: Dict[Any, Any]) -> bool:
+        """Save rolling collection with backup and validation"""
+        try:
+            # Create backup of existing file
+            if self.rolling_file.exists():
+                logger.info("Creating backup of existing rolling collection...")
+                import shutil
+                shutil.copy2(self.rolling_file, self.backup_file)
+            
+            # Save new data
+            with open(self.rolling_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            
+            # Validate saved file
+            with open(self.rolling_file, 'r', encoding='utf-8') as f:
+                validation_data = json.load(f)
+                if 'articles' not in validation_data:
+                    raise ValueError("Saved file missing articles")
+            
+            logger.info(f"✅ Rolling collection saved successfully: {self.rolling_file}")
+            logger.info(f"📊 Final stats: {len(data['articles'])} articles, updated at {data['metadata']['updated_at']}")
             return True
             
         except Exception as e:
             logger.error(f"❌ Error saving rolling collection: {e}")
             return False
-    
-    def update_website_pointer(self):
-        """Update website to use rolling collection (optional fallback maintenance)"""
-        try:
-            # Keep current_articles.json as fallback, but create rolling as primary
-            if self.rolling_file.exists():
-                # Create a symlink or copy for compatibility if needed
-                logger.info("✅ Rolling collection ready for website use")
-                return True
-        except Exception as e:
-            logger.error(f"Error updating website pointer: {e}")
-            return False
 
 def main():
-    """Main execution function"""
-    logger.info("🚀 Starting Rolling Articles Manager...")
+    """Main execution function with comprehensive error handling"""
+    logger.info("🚀 Starting Rolling Articles Manager v2.0...")
     
-    manager = RollingArticlesManager()
-    
-    # Create rolling collection
-    success = manager.create_rolling_collection(max_articles=100)
-    
-    if success:
-        manager.update_website_pointer()
-        logger.info("✅ Rolling articles management completed successfully!")
-    else:
-        logger.error("❌ Rolling articles management failed!")
+    try:
+        manager = RollingArticlesManager()
+        success = manager.create_rolling_collection()
+        
+        if success:
+            logger.info("✅ Rolling articles management completed successfully!")
+            return 0
+        else:
+            logger.error("❌ Rolling articles management failed!")
+            return 1
+            
+    except Exception as e:
+        logger.error(f"❌ Critical system error: {e}")
         return 1
-    
-    return 0
 
 if __name__ == "__main__":
     exit(main()) 

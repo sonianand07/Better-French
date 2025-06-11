@@ -87,8 +87,8 @@ class BetterFrenchApp {
             // Try rolling collection first, then fallback to current articles
             let data;
             try {
-                console.log('Attempting to load rolling 100 articles...');
-                const rollingResponse = await fetch('./rolling_100_articles.json');
+                console.log('Attempting to load rolling articles...');
+                const rollingResponse = await fetch('./rolling_articles.json');
                 if (rollingResponse.ok) {
                     data = await rollingResponse.json();
                     console.log('Rolling collection loaded:', data);
