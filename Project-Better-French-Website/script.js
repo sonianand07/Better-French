@@ -84,41 +84,78 @@ class BetterFrenchApp {
             
             console.log('Starting to load data...');
 
-            // Try rolling collection first, then fallback to current articles
-            let data;
+            // Load both AI-enhanced articles (for learning) and rolling articles (for quantity)
+            let allArticles = [];
+            
+            // First, try to load AI-enhanced articles (with contextual learning)
             try {
-                console.log('Attempting to load rolling articles...');
+                console.log('Loading AI-enhanced articles...');
+                const currentResponse = await fetch('./current_articles.json');
+                if (currentResponse.ok) {
+                    const currentData = await currentResponse.json();
+                    const aiArticles = currentData.articles || [];
+                    console.log(`Loaded ${aiArticles.length} AI-enhanced articles`);
+                    allArticles = [...aiArticles];
+                }
+            } catch (error) {
+                console.log('AI-enhanced articles not available:', error.message);
+            }
+            
+            // Then, load rolling articles for additional content
+            try {
+                console.log('Loading rolling articles...');
                 const rollingResponse = await fetch('./rolling_articles.json');
                 if (rollingResponse.ok) {
-                    data = await rollingResponse.json();
-                    console.log('Rolling collection loaded:', data);
-                } else {
-                    throw new Error('Rolling collection not available');
+                    const rollingData = await rollingResponse.json();
+                    const rollingArticles = rollingData.articles || [];
+                    console.log(`Loaded ${rollingArticles.length} rolling articles`);
+                    
+                    // Add rolling articles that aren't already in AI-enhanced collection
+                    const existingLinks = new Set(allArticles.map(a => a.original_article_link || a.link));
+                    const newRollingArticles = rollingArticles.filter(a => 
+                        !existingLinks.has(a.original_article_link || a.link)
+                    );
+                    
+                    allArticles = [...allArticles, ...newRollingArticles];
+                    console.log(`Added ${newRollingArticles.length} unique rolling articles`);
                 }
-            } catch (rollingError) {
-                console.log('Rolling collection failed, trying current articles:', rollingError.message);
-                // Fallback to current articles
+            } catch (error) {
+                console.log('Rolling articles not available:', error.message);
+            }
+            
+            // If we have no articles, fallback to whatever we can find
+            if (allArticles.length === 0) {
+                console.log('No articles loaded, trying fallback...');
                 const latestFile = await this.getLatestProcessedFile();
-                console.log('Latest file path:', latestFile);
-                
                 const response = await fetch(latestFile);
-                console.log('Fetch response status:', response.status, response.statusText);
-                
                 if (!response.ok) {
                     throw new Error(`Failed to load data: ${response.status}`);
                 }
-                data = await response.json();
-                console.log('Current articles loaded:', data);
+                const data = await response.json();
+                allArticles = data.articles || [];
             }
 
-            console.log('Data loaded successfully:', data);
-            console.log('Articles array:', data.articles);
-            console.log('Number of articles:', data.articles?.length || 0);
+            console.log(`Total articles loaded: ${allArticles.length}`);
             
-            this.articles = data.articles || [];
+            // Sort articles: AI-enhanced first (for learning), then by date
+            allArticles.sort((a, b) => {
+                const aIsAI = a.ai_enhanced || !!a.contextual_title_explanations;
+                const bIsAI = b.ai_enhanced || !!b.contextual_title_explanations;
+                
+                if (aIsAI && !bIsAI) return -1;  // AI articles first
+                if (!aIsAI && bIsAI) return 1;
+                
+                // Within same type, sort by date (newest first)
+                const aDate = new Date(a.published || a.published_date || 0);
+                const bDate = new Date(b.published || b.published_date || 0);
+                return bDate - aDate;
+            });
+            
+            this.articles = allArticles;
             this.filteredArticles = [...this.articles];
             
-            console.log(`Loaded ${this.articles.length} articles`);
+            const aiCount = allArticles.filter(a => a.ai_enhanced || !!a.contextual_title_explanations).length;
+            console.log(`Loaded ${allArticles.length} total articles (${aiCount} with contextual learning)`);
             
         } catch (error) {
             console.error('Error loading data:', error);
