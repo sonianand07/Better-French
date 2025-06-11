@@ -6,7 +6,7 @@ class BetterFrenchApp {
         this.articles = [];
         this.filteredArticles = [];
         this.displayedArticles = 0;
-        this.articlesPerPage = 10;
+        this.articlesPerPage = 12;
         this.currentTooltip = null;
         
         this.init();
@@ -84,18 +84,33 @@ class BetterFrenchApp {
             
             console.log('Starting to load data...');
 
-            // Get the latest file from the processed_AI directory
-            const latestFile = await this.getLatestProcessedFile();
-            console.log('Latest file path:', latestFile);
-            
-            const response = await fetch(latestFile);
-            console.log('Fetch response status:', response.status, response.statusText);
-            
-            if (!response.ok) {
-                throw new Error(`Failed to load data: ${response.status}`);
+            // Try rolling collection first, then fallback to current articles
+            let data;
+            try {
+                console.log('Attempting to load rolling 100 articles...');
+                const rollingResponse = await fetch('./rolling_100_articles.json');
+                if (rollingResponse.ok) {
+                    data = await rollingResponse.json();
+                    console.log('Rolling collection loaded:', data);
+                } else {
+                    throw new Error('Rolling collection not available');
+                }
+            } catch (rollingError) {
+                console.log('Rolling collection failed, trying current articles:', rollingError.message);
+                // Fallback to current articles
+                const latestFile = await this.getLatestProcessedFile();
+                console.log('Latest file path:', latestFile);
+                
+                const response = await fetch(latestFile);
+                console.log('Fetch response status:', response.status, response.statusText);
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load data: ${response.status}`);
+                }
+                data = await response.json();
+                console.log('Current articles loaded:', data);
             }
 
-            const data = await response.json();
             console.log('Data loaded successfully:', data);
             console.log('Articles array:', data.articles);
             console.log('Number of articles:', data.articles?.length || 0);
@@ -103,7 +118,7 @@ class BetterFrenchApp {
             this.articles = data.articles || [];
             this.filteredArticles = [...this.articles];
             
-            console.log(`Loaded ${this.articles.length} articles from ${latestFile}`);
+            console.log(`Loaded ${this.articles.length} articles`);
             
         } catch (error) {
             console.error('Error loading data:', error);
