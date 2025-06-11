@@ -2,7 +2,7 @@ name: Auto Update French News
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # Every 2 hours - AUTO-ENABLED
+    - cron: '0 8,10,12,14,16,18,20,22,0 * * *'   # Daytime only: 8AM-12AM, skip 12AM-8AM
   workflow_dispatch:         # Allow manual trigger
 
 permissions:
