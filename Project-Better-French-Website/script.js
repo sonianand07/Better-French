@@ -365,20 +365,45 @@ class BetterFrenchApp {
     }
 
     createArticleHTML(article, isFeatured = false) {
-        const secondaryTitle = this.currentMode === 'learner' 
-            ? article.simplified_english_title 
-            : article.simplified_french_title;
+        // Handle both AI-enhanced articles and basic curated articles
+        const isAIEnhanced = article.ai_enhanced || !!article.contextual_title_explanations;
         
-        const summaryText = this.currentMode === 'learner' 
-            ? article.english_summary 
-            : article.french_summary;
+        // Use appropriate title field
+        const displayTitle = article.original_article_title || article.title || 'Untitled Article';
         
-        const summaryLabel = this.currentMode === 'learner' 
-            ? 'English Summary' 
-            : 'Résumé français';
+        // For secondary title, use AI fields if available, otherwise use original title in learner mode
+        let secondaryTitle;
+        if (isAIEnhanced) {
+            secondaryTitle = this.currentMode === 'learner' 
+                ? article.simplified_english_title 
+                : article.simplified_french_title;
+        } else {
+            // For basic articles, show title in both modes (no translation available)
+            secondaryTitle = this.currentMode === 'learner' ? article.title : article.title;
+        }
+        
+        // For summary, use AI fields if available, otherwise use basic summary
+        let summaryText;
+        let summaryLabel;
+        if (isAIEnhanced) {
+            summaryText = this.currentMode === 'learner' 
+                ? article.english_summary 
+                : article.french_summary;
+            summaryLabel = this.currentMode === 'learner' 
+                ? 'English Summary' 
+                : 'Résumé français';
+        } else {
+            // For basic articles, use the summary field or fallback
+            summaryText = article.summary || 'Summary not available';
+            summaryLabel = this.currentMode === 'learner' 
+                ? 'Summary' 
+                : 'Résumé';
+        }
 
-        // Extract source from the article link or use a default
-        const source = this.extractSource(article.original_article_link);
+        // Extract source from the appropriate link field
+        const articleLink = article.original_article_link || article.link;
+        const source = this.extractSource(articleLink);
+        
         // Try multiple date fields in order of preference
         const publishedDate = this.formatDate(
             article.published || 
@@ -390,22 +415,25 @@ class BetterFrenchApp {
         const summaryId = this.generateId();
         const collapseId = this.generateId();
 
-        // DEBUG: Log article structure to identify the issue
-        console.log('CREATEARTICLEHTML CALLED - Article title:', article.title?.substring(0, 50));
-        console.log('ORIGINAL_ARTICLE_TITLE EXISTS:', !!article.original_article_title);
-        console.log('EXPLANATIONS AVAILABLE:', Object.keys(article.contextual_title_explanations || {}).length, 'words');
+        // Only show summary section if we have content
+        const showSummary = summaryText && summaryText !== 'Summary not available' && summaryText.trim().length > 0;
 
         return `
             <h2 class="article-title">
-                ${this.createInteractiveTitle(article.original_article_title, article.contextual_title_explanations)}
+                ${isAIEnhanced ? 
+                    this.createInteractiveTitle(displayTitle, article.contextual_title_explanations) : 
+                    displayTitle
+                }
             </h2>
-            <h3 class="secondary-title">${secondaryTitle}</h3>
-            <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
-                <span class="summary-text-label">${summaryLabel}</span>
-            </button>
-            <div class="summary-content" id="${summaryId}" aria-hidden="true">
-                <p class="summary-text">${summaryText}</p>
-            </div>
+            <h3 class="secondary-title">${secondaryTitle || displayTitle}</h3>
+            ${showSummary ? `
+                <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
+                    <span class="summary-text-label">${summaryLabel}</span>
+                </button>
+                <div class="summary-content" id="${summaryId}" aria-hidden="true">
+                    <p class="summary-text">${summaryText}</p>
+                </div>
+            ` : ''}
             <div class="article-meta">${source} | ${publishedDate}</div>
             <button class="collapse-button" id="${collapseId}" aria-label="Close summary" style="display: none;">—</button>
         `;
