@@ -2,7 +2,7 @@ name: Auto Update French News
 
 on:
   schedule:
-    - cron: '0 8,10,12,14,16,18,20,22,0 * * *'   # Daytime only: 8AM-12AM, skip 12AM-8AM
+    - cron: '0 7,9,11,13,15,17,19,21 * * *'   # Paris-optimized: Works for both CEST/CET seasons
   workflow_dispatch:         # Allow manual trigger
 
 permissions:
