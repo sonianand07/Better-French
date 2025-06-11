@@ -82,84 +82,22 @@ class BetterFrenchApp {
             this.showLoading(true);
             this.hideError();
             
-            console.log('Starting to load data...');
+            console.log('Loading AI-enhanced articles with contextual learning...');
 
-            // Load both AI-enhanced articles (for learning) and rolling articles (for quantity)
-            let allArticles = [];
-            
-            // First, try to load AI-enhanced articles (with contextual learning)
-            try {
-                console.log('Loading AI-enhanced articles...');
-                const currentResponse = await fetch('./current_articles.json');
-                if (currentResponse.ok) {
-                    const currentData = await currentResponse.json();
-                    const aiArticles = currentData.articles || [];
-                    console.log(`Loaded ${aiArticles.length} AI-enhanced articles`);
-                    allArticles = [...aiArticles];
-                }
-            } catch (error) {
-                console.log('AI-enhanced articles not available:', error.message);
+            // Load ONLY AI-enhanced articles - every article has contextual learning
+            const response = await fetch('./current_articles.json');
+            if (!response.ok) {
+                throw new Error(`Failed to load articles: ${response.status}`);
             }
             
-            // Then, load rolling articles for additional content
-            try {
-                console.log('Loading rolling articles...');
-                const rollingResponse = await fetch('./rolling_articles.json');
-                if (rollingResponse.ok) {
-                    const rollingData = await rollingResponse.json();
-                    const rollingArticles = rollingData.articles || [];
-                    console.log(`Loaded ${rollingArticles.length} rolling articles`);
-                    
-                    // Add rolling articles that aren't already in AI-enhanced collection
-                    const existingLinks = new Set(allArticles.map(a => a.original_article_link || a.link));
-                    const newRollingArticles = rollingArticles.filter(a => 
-                        !existingLinks.has(a.original_article_link || a.link)
-                    );
-                    
-                    allArticles = [...allArticles, ...newRollingArticles];
-                    console.log(`Added ${newRollingArticles.length} unique rolling articles`);
-                }
-            } catch (error) {
-                console.log('Rolling articles not available:', error.message);
-            }
-            
-            // If we have no articles, fallback to whatever we can find
-            if (allArticles.length === 0) {
-                console.log('No articles loaded, trying fallback...');
-                const latestFile = await this.getLatestProcessedFile();
-                const response = await fetch(latestFile);
-                if (!response.ok) {
-                    throw new Error(`Failed to load data: ${response.status}`);
-                }
-                const data = await response.json();
-                allArticles = data.articles || [];
-            }
-
-            console.log(`Total articles loaded: ${allArticles.length}`);
-            
-            // Sort articles: AI-enhanced first (for learning), then by date
-            allArticles.sort((a, b) => {
-                const aIsAI = a.ai_enhanced || !!a.contextual_title_explanations;
-                const bIsAI = b.ai_enhanced || !!b.contextual_title_explanations;
-                
-                if (aIsAI && !bIsAI) return -1;  // AI articles first
-                if (!aIsAI && bIsAI) return 1;
-                
-                // Within same type, sort by date (newest first)
-                const aDate = new Date(a.published || a.published_date || 0);
-                const bDate = new Date(b.published || b.published_date || 0);
-                return bDate - aDate;
-            });
-            
-            this.articles = allArticles;
+            const data = await response.json();
+            this.articles = data.articles || [];
             this.filteredArticles = [...this.articles];
             
-            const aiCount = allArticles.filter(a => a.ai_enhanced || !!a.contextual_title_explanations).length;
-            console.log(`Loaded ${allArticles.length} total articles (${aiCount} with contextual learning)`);
+            console.log(`Loaded ${this.articles.length} AI-enhanced articles with contextual learning`);
             
         } catch (error) {
-            console.error('Error loading data:', error);
-            console.error('Error stack:', error.stack);
+            console.error('Error loading articles:', error);
             this.showError();
         } finally {
             this.showLoading(false);
