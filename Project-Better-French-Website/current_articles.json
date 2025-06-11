@@ -1,97 +1,188 @@
 {
   "metadata": {
-    "updated_at": "2025-06-10T20:41:26.712858+00:00",
+    "updated_at": "2025-06-11T19:22:05.001301+00:00",
     "total_articles": 10,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
     "ai_enhanced_count": 10,
     "update_type": "ai_enhanced",
-    "average_score": 23.949999999999996
+    "average_score": 23.43
   },
   "articles": [
     {
-      "title": "Le gouvernement agit contre les jeunes qui ont des armes",
-      "english_title": "Government Takes Action Against Youth Weapon Possession",
-      "simplified_french_title": "Le gouvernement agit contre les jeunes qui ont des armes",
-      "simplified_english_title": "Government Takes Action Against Youth Weapon Possession",
-      "summary": "Le gouvernement cherche des solutions pour lutter contre un problème grandissant: de plus en plus de jeunes possèdent des armes blanches.",
-      "english_summary": "The government is seeking solutions to address a growing problem: an increasing number of young people carrying knives and other weapons.",
-      "french_summary": "Le gouvernement cherche des solutions pour lutter contre un problème grandissant: de plus en plus de jeunes possèdent des armes blanches.",
-      "original_article_title": "Détention d'armes blanches par des mineurs : les pistes du gouvernement face à un phénomène en expansion",
-      "original_article_link": "https://www.lexpress.fr/societe/detention-darmes-blanches-par-des-mineurs-les-pistes-du-gouvernement-face-a-un-phenomene-en-GBTGCUBOKVEBDLH2AHOJHJAM2Y/",
-      "link": "https://www.lexpress.fr/societe/detention-darmes-blanches-par-des-mineurs-les-pistes-du-gouvernement-face-a-un-phenomene-en-GBTGCUBOKVEBDLH2AHOJHJAM2Y/",
+      "title": "Un expert compare Poutine à Hitler",
+      "english_title": "Military Expert Compares Putin to Hitler",
+      "simplified_french_title": "Un expert compare Poutine à Hitler",
+      "simplified_english_title": "Military Expert Compares Putin to Hitler",
+      "summary": "Un expert militaire allemand avertit que Poutine pourrait tester les pays occidentaux de la même façon qu'Hitler l'a fait avant la guerre.",
+      "english_summary": "A German military expert warns that Putin might test Western countries in the same way Hitler did before the war.",
+      "french_summary": "Un expert militaire allemand avertit que Poutine pourrait tester les pays occidentaux de la même façon qu'Hitler l'a fait avant la guerre.",
+      "original_article_title": "Carlo Masala, expert militaire : \"Vladimir Poutine voudra nous tester comme Hitler en 1936\"",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/carlo-masala-expert-militaire-vladimir-poutine-voudra-nous-tester-comme-hitler-en-1936-NY3GYV2RYBHYTI6FIINSYF3IYE/",
+      "link": "https://www.lexpress.fr/idees-et-debats/carlo-masala-expert-militaire-vladimir-poutine-voudra-nous-tester-comme-hitler-en-1936-NY3GYV2RYBHYTI6FIINSYF3IYE/",
       "source_name": "L'Express",
-      "published": "Tue, 10 Jun 2025 20:24:47 +0000",
-      "published_date": "Tue, 10 Jun 2025 20:24:47 +0000",
+      "published": "Wed, 11 Jun 2025 17:15:00 +0000",
+      "published_date": "Wed, 11 Jun 2025 17:15:00 +0000",
       "contextual_title_explanations": {
-        "Détention": {
-          "display_format": "**Possession/Detention:** The act of having or keeping something",
-          "explanation": "From the verb 'détenir', meaning to possess or hold. In legal contexts, it specifically refers to possession that may be regulated or illegal.",
-          "cultural_note": "In French law, 'détention' often implies controlled or restricted possession, especially regarding weapons."
+        "Carlo Masala": {
+          "display_format": "**Carlo Masala:** German military expert and professor",
+          "explanation": "A prominent German military analyst and professor at the Bundeswehr University Munich",
+          "cultural_note": "Known for his expertise on NATO, European security, and international relations"
+        },
+        "expert": {
+          "display_format": "**Expert:** Specialist or authority",
+          "explanation": "Someone with comprehensive knowledge in a specific field",
+          "cultural_note": ""
+        },
+        "militaire": {
+          "display_format": "**Military:** Relating to armed forces",
+          "explanation": "Pertaining to the military, armed forces, or defense matters",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** Punctuation mark",
+          "explanation": "Used to introduce a quote or statement",
+          "cultural_note": "In French, a space is required before and after a colon"
+        },
+        "Vladimir Poutine": {
+          "display_format": "**Vladimir Putin:** Russian President",
+          "explanation": "The current President of Russia, in power since 2000 (except 2008-2012 when he was Prime Minister)",
+          "cultural_note": "Note that 'Poutine' is the French spelling of 'Putin'"
+        },
+        "voudra": {
+          "display_format": "**Will want:** Future tense of 'vouloir'",
+          "explanation": "Future tense of the verb 'vouloir' (to want), indicating a future desire or intention",
+          "cultural_note": ""
+        },
+        "nous": {
+          "display_format": "**Us:** First person plural pronoun",
+          "explanation": "Direct object pronoun meaning 'us' or 'we'",
+          "cultural_note": ""
+        },
+        "tester": {
+          "display_format": "**To test:** To try or challenge",
+          "explanation": "To evaluate or challenge someone's resolve or capabilities",
+          "cultural_note": ""
+        },
+        "comme": {
+          "display_format": "**Like/As:** Comparison word",
+          "explanation": "Used to make comparisons or draw parallels between things",
+          "cultural_note": ""
+        },
+        "Hitler": {
+          "display_format": "**Hitler:** Adolf Hitler",
+          "explanation": "The leader of Nazi Germany from 1933 to 1945",
+          "cultural_note": "Reference to Hitler's actions in 1936, including the remilitarization of the Rhineland, testing Western powers' resolve"
+        },
+        "en": {
+          "display_format": "**In:** Preposition",
+          "explanation": "Used to indicate a point in time",
+          "cultural_note": ""
+        },
+        "1936": {
+          "display_format": "**1936:** Historical year",
+          "explanation": "The year when Nazi Germany remilitarized the Rhineland",
+          "cultural_note": "A crucial year when Hitler tested Western powers' willingness to oppose German expansion"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 9.0,
+        "importance_score": 9.5,
+        "total_score": 27.6
+      },
+      "curation_metadata": {
+        "curation_id": "01066ec4-52bd-48e7-8b2e-25bd548e01da",
+        "curated_at": "2025-06-11T19:18:50.825398+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-11T19:22:05.001096+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 9.0,
+      "importance_score": 9.5,
+      "total_score": 27.6
+    },
+    {
+      "title": "Comment Lactalis est devenue la plus grande entreprise laitière du monde",
+      "english_title": "How Lactalis Became the World's Largest Dairy Company",
+      "simplified_french_title": "Comment Lactalis est devenue la plus grande entreprise laitière du monde",
+      "simplified_english_title": "How Lactalis Became the World's Largest Dairy Company",
+      "summary": "L'entreprise familiale Lactalis, créée en France, s'est développée pour devenir le plus grand producteur de produits laitiers dans le monde.",
+      "english_summary": "The family-owned company Lactalis, founded in France, has grown to become the world's largest producer of dairy products.",
+      "french_summary": "L'entreprise familiale Lactalis, créée en France, s'est développée pour devenir le plus grand producteur de produits laitiers dans le monde.",
+      "original_article_title": "Lactalis, les coulisses d'un empire : comment le groupe familial est devenu n°1 dans le monde",
+      "original_article_link": "https://www.lexpress.fr/economie/entreprises/lactalis-les-secrets-dun-empire-comment-le-groupe-familial-est-devenu-n1-dans-le-monde-Z72P6SE5OZFPZNWCM2WNCN2CHM/",
+      "link": "https://www.lexpress.fr/economie/entreprises/lactalis-les-secrets-dun-empire-comment-le-groupe-familial-est-devenu-n1-dans-le-monde-Z72P6SE5OZFPZNWCM2WNCN2CHM/",
+      "source_name": "L'Express",
+      "published": "Wed, 11 Jun 2025 16:00:00 +0000",
+      "published_date": "Wed, 11 Jun 2025 16:00:00 +0000",
+      "contextual_title_explanations": {
+        "Lactalis": {
+          "display_format": "**Lactalis:** French multinational dairy company",
+          "explanation": "One of the world's largest dairy companies, founded in Laval, France in 1933 by André Besnier",
+          "cultural_note": "A symbol of French industrial success and the country's strong dairy tradition"
+        },
+        "les": {
+          "display_format": "**The:** (definite article, plural)",
+          "explanation": "Used before plural nouns to indicate specific items being discussed",
+          "cultural_note": ""
+        },
+        "coulisses": {
+          "display_format": "**Behind the scenes:** (literally 'wings' of a theater)",
+          "explanation": "Refers to the hidden or less visible aspects of something, similar to 'behind the curtain'",
+          "cultural_note": "Originally a theater term, now commonly used in journalism to indicate insider perspective"
         },
         "d'": {
-          "display_format": "**Of:** (preposition, contracted form of 'de')",
-          "explanation": "Used to show possession or relationship between two nouns. Contracts to 'd'' before vowels.",
-          "cultural_note": ""
-        },
-        "armes blanches": {
-          "display_format": "**Bladed weapons:** Non-firearm weapons like knives, swords",
-          "explanation": "Refers to weapons that don't use gunpowder or explosives, typically meaning bladed weapons.",
-          "cultural_note": "The term 'armes blanches' dates back to historical military terminology in France."
-        },
-        "par": {
-          "display_format": "**By:** (preposition)",
-          "explanation": "Indicates the agent or doer of an action",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some/The:** (plural indefinite article)",
-          "explanation": "Plural form of the indefinite article, used before plural nouns",
-          "cultural_note": ""
-        },
-        "mineurs": {
-          "display_format": "**Minors:** People under 18 years old",
-          "explanation": "Refers to individuals who have not reached the legal age of majority (18 in France)",
-          "cultural_note": "In France, special laws and protections apply to mineurs in legal and social contexts"
-        },
-        "les pistes": {
-          "display_format": "**The leads/approaches:** Potential solutions or strategies",
-          "explanation": "In this context, refers to possible courses of action or solutions being considered",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the:** (contracted form of 'de le')",
-          "explanation": "Combination of 'de' (of) and 'le' (the), used before masculine singular nouns",
-          "cultural_note": ""
-        },
-        "gouvernement": {
-          "display_format": "**Government:** The ruling authority",
-          "explanation": "Refers to the executive branch of the French government, led by the Prime Minister",
-          "cultural_note": "France has a semi-presidential system where power is shared between the President and Government"
-        },
-        "face à": {
-          "display_format": "**Facing/Confronting:** In response to",
-          "explanation": "Idiomatic expression meaning to confront or deal with a situation",
+          "display_format": "**Of:** (preposition, contracted form)",
+          "explanation": "Used to show possession or relationship between words, contracts with vowel sounds",
           "cultural_note": ""
         },
         "un": {
           "display_format": "**A/An:** (indefinite article)",
-          "explanation": "Masculine singular indefinite article",
+          "explanation": "Used before masculine singular nouns",
           "cultural_note": ""
         },
-        "phénomène": {
-          "display_format": "**Phenomenon:** A situation or occurrence",
-          "explanation": "Refers to a notable trend or occurrence in society",
+        "empire": {
+          "display_format": "**Empire:** Large business organization or conglomerate",
+          "explanation": "A large commercial enterprise with significant market influence and power",
+          "cultural_note": "Often used in French media to describe powerful family-owned businesses"
+        },
+        "comment": {
+          "display_format": "**How:** (interrogative adverb)",
+          "explanation": "Used to ask about the way something happened or was done",
           "cultural_note": ""
         },
-        "en": {
+        "le groupe": {
+          "display_format": "**The group:** Business organization or company",
+          "explanation": "A commercial enterprise or corporation, often used to refer to large companies",
+          "cultural_note": ""
+        },
+        "familial": {
+          "display_format": "**Family-owned:** (adjective)",
+          "explanation": "Belonging to or controlled by a family",
+          "cultural_note": "Family-owned businesses are particularly prominent in French corporate culture"
+        },
+        "est devenu": {
+          "display_format": "**Has become:** (verb phrase)",
+          "explanation": "Past tense of 'devenir' (to become), indicating transformation or change",
+          "cultural_note": ""
+        },
+        "n°1": {
+          "display_format": "**Number one:** Top ranked",
+          "explanation": "Indicates leadership position or highest ranking",
+          "cultural_note": ""
+        },
+        "dans": {
           "display_format": "**In:** (preposition)",
-          "explanation": "Used to indicate state or condition",
+          "explanation": "Used to indicate location or position within something",
           "cultural_note": ""
         },
-        "expansion": {
-          "display_format": "**Expansion/Growth:** Increasing or spreading",
-          "explanation": "Describes something that is growing or becoming more widespread",
+        "le monde": {
+          "display_format": "**The world:** Global scale",
+          "explanation": "Refers to worldwide or global context",
           "cultural_note": ""
         }
       },
@@ -99,915 +190,894 @@
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 9.1,
-        "relevance_score": 8.5,
-        "importance_score": 9.5,
-        "total_score": 27.1
+        "relevance_score": 8.0,
+        "importance_score": 8.5,
+        "total_score": 25.6
       },
       "curation_metadata": {
-        "curation_id": "a8b07e96-f9dc-4f15-8453-8125bccb89bb",
-        "curated_at": "2025-06-10T20:37:31.499211+00:00",
+        "curation_id": "7247576b-418d-44e2-9988-9c8affaab0af",
+        "curated_at": "2025-06-11T19:18:50.832889+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712711+00:00",
+      "added_at": "2025-06-11T19:22:05.001128+00:00",
       "quality_score": 9.1,
-      "relevance_score": 8.5,
-      "importance_score": 9.5,
-      "total_score": 27.1
+      "relevance_score": 8.0,
+      "importance_score": 8.5,
+      "total_score": 25.6
     },
     {
-      "title": "La Garde nationale américaine utilisée par Trump pendant les violences à Los Angeles",
-      "english_title": "National Guard Used as Political Tool by Trump During Los Angeles Unrest",
-      "simplified_french_title": "La Garde nationale américaine utilisée par Trump pendant les violences à Los Angeles",
-      "simplified_english_title": "National Guard Used as Political Tool by Trump During Los Angeles Unrest",
-      "summary": "Trump utilise la Garde nationale comme instrument politique pendant les manifestations et les violences à Los Angeles, provoquant des débats sur son autorité.",
-      "english_summary": "Trump's deployment of the National Guard during Los Angeles protests and unrest sparks debate about his use of military force for political purposes.",
-      "french_summary": "Trump utilise la Garde nationale comme instrument politique pendant les manifestations et les violences à Los Angeles, provoquant des débats sur son autorité.",
-      "original_article_title": "Heurts à Los Angeles : la Garde nationale, une arme politique entre les mains de Donald Trump",
-      "original_article_link": "https://www.lexpress.fr/monde/heurts-a-los-angeles-la-garde-nationale-une-arme-politique-dans-les-mains-de-donald-trump-FMEIH4BBKBFPZMVFREYWLXVZ4Y/",
-      "link": "https://www.lexpress.fr/monde/heurts-a-los-angeles-la-garde-nationale-une-arme-politique-dans-les-mains-de-donald-trump-FMEIH4BBKBFPZMVFREYWLXVZ4Y/",
+      "title": "Des militants français vont être expulsés d'Israël après leur voyage vers Gaza",
+      "english_title": "French Activists to be Expelled from Israel After Gaza Fleet Attempt",
+      "simplified_french_title": "Des militants français vont être expulsés d'Israël après leur voyage vers Gaza",
+      "simplified_english_title": "French Activists to be Expelled from Israel After Gaza Fleet Attempt",
+      "summary": "Des militants français, dont Rima Hassan, qui participaient à une flottille humanitaire vers Gaza, seront expulsés d'Israël après leur arrestation.",
+      "english_summary": "French activists, including Rima Hassan, who participated in a humanitarian flotilla to Gaza, will be expelled from Israel after their arrest.",
+      "french_summary": "Des militants français, dont Rima Hassan, qui participaient à une flottille humanitaire vers Gaza, seront expulsés d'Israël après leur arrestation.",
+      "original_article_title": "Flottille pour Gaza : Rima Hassan et les autres militants français retenus en Israël vont être expulsés",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/flottille-pour-gaza-rima-hassan-et-les-autres-militants-francais-retenus-en-israel-vont-etre-SX4S4FA7PNEO7ENPX4TYL2BUGI/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/flottille-pour-gaza-rima-hassan-et-les-autres-militants-francais-retenus-en-israel-vont-etre-SX4S4FA7PNEO7ENPX4TYL2BUGI/",
       "source_name": "L'Express",
-      "published": "Tue, 10 Jun 2025 18:25:03 +0000",
-      "published_date": "Tue, 10 Jun 2025 18:25:03 +0000",
+      "published": "Wed, 11 Jun 2025 18:13:16 +0000",
+      "published_date": "Wed, 11 Jun 2025 18:13:16 +0000",
       "contextual_title_explanations": {
-        "Heurts": {
-          "display_format": "**Clashes/Unrest:** Violent confrontations",
-          "explanation": "Physical confrontations or violent incidents, often between protesters and authorities",
-          "cultural_note": "Often used in French media to describe civil unrest or violent protests"
+        "Flottille": {
+          "display_format": "**Flotilla:** A small fleet of boats",
+          "explanation": "A group of small vessels traveling together, often for a specific purpose or mission",
+          "cultural_note": "In this context, refers to humanitarian missions attempting to break the naval blockade of Gaza"
         },
-        "à": {
-          "display_format": "**In/At:** (preposition)",
-          "explanation": "Indicates location or destination",
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose, destination, or intention",
           "cultural_note": ""
         },
-        "Los Angeles": {
-          "display_format": "**Los Angeles:** Major US city",
-          "explanation": "Major city in California, United States",
-          "cultural_note": "Often referenced in French media as a symbol of American urban culture and social issues"
+        "Gaza": {
+          "display_format": "**Gaza:** Palestinian territory",
+          "explanation": "A Palestinian territory on the eastern coast of the Mediterranean Sea",
+          "cultural_note": "Currently under blockade and a focal point of Israeli-Palestinian conflict"
         },
-        "la": {
-          "display_format": "**The:** (feminine definite article)",
-          "explanation": "Definite article used before feminine nouns",
+        ":": {
+          "display_format": "**Colon:** (punctuation)",
+          "explanation": "Used to introduce additional information or explanation",
           "cultural_note": ""
         },
-        "Garde nationale": {
-          "display_format": "**National Guard:** US military reserve force",
-          "explanation": "A component of the US military that operates under state or federal authority",
-          "cultural_note": "Different from France's 'Garde nationale' which was dissolved in 1872; represents American federal power structure"
+        "Rima Hassan": {
+          "display_format": "**Rima Hassan:** French-Palestinian activist",
+          "explanation": "A French-Palestinian activist and political figure",
+          "cultural_note": "Known for her involvement in pro-Palestinian activism in France"
         },
-        "une": {
-          "display_format": "**A/An:** (feminine indefinite article)",
-          "explanation": "Indefinite article used before feminine nouns",
-          "cultural_note": ""
-        },
-        "arme": {
-          "display_format": "**Weapon/Tool:** (figurative)",
-          "explanation": "In this context, means a tool or instrument of power, used figuratively",
-          "cultural_note": ""
-        },
-        "politique": {
-          "display_format": "**Political:** Related to politics",
-          "explanation": "Concerning governance, power relations, and political strategy",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**Between:** (preposition)",
-          "explanation": "Indicates position or relationship between things",
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Used to join words or phrases together",
           "cultural_note": ""
         },
         "les": {
-          "display_format": "**The:** (plural definite article)",
-          "explanation": "Definite article used before plural nouns",
+          "display_format": "**The:** (definite article, plural)",
+          "explanation": "Used before plural nouns to indicate specific items",
           "cultural_note": ""
         },
-        "mains": {
-          "display_format": "**Hands:** (literal and figurative)",
-          "explanation": "Part of the expression 'entre les mains de' meaning 'in the hands of' or 'under the control of'",
+        "autres": {
+          "display_format": "**Other:** (adjective)",
+          "explanation": "Referring to additional people or things beyond those already mentioned",
           "cultural_note": ""
         },
-        "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Indicates possession or connection",
+        "militants": {
+          "display_format": "**Activists:** People actively supporting a cause",
+          "explanation": "Individuals who actively campaign for political or social change",
+          "cultural_note": "In French context, 'militant' doesn't carry the same potentially negative connotation as in English"
+        },
+        "français": {
+          "display_format": "**French:** (adjective)",
+          "explanation": "Of or relating to France or French nationality",
           "cultural_note": ""
         },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** 45th US President",
-          "explanation": "Former President of the United States (2017-2021)",
-          "cultural_note": "Controversial figure in French and international media, known for his unconventional use of executive power"
+        "retenus": {
+          "display_format": "**Detained:** Held in custody",
+          "explanation": "Past participle of 'retenir', meaning to hold back or detain",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Indicates location or position within",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Country in the Middle East",
+          "explanation": "A country located along the Mediterranean Sea",
+          "cultural_note": "Central to ongoing Middle Eastern geopolitical situations"
+        },
+        "vont": {
+          "display_format": "**Are going to:** (auxiliary verb)",
+          "explanation": "Conjugated form of 'aller', used to indicate near future",
+          "cultural_note": ""
+        },
+        "être": {
+          "display_format": "**To be:** (infinitive verb)",
+          "explanation": "The infinitive form of the verb 'to be'",
+          "cultural_note": ""
+        },
+        "expulsés": {
+          "display_format": "**Expelled:** Forced to leave",
+          "explanation": "Past participle of 'expulser', meaning to force someone to leave a country",
+          "cultural_note": "Often used in context of diplomatic or immigration-related situations"
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 7.6,
-        "relevance_score": 9.0,
-        "importance_score": 10,
-        "total_score": 26.6
+        "relevance_score": 8.2,
+        "importance_score": 8.0,
+        "total_score": 23.799999999999997
       },
       "curation_metadata": {
-        "curation_id": "74c0c79d-60c7-4226-bd33-66a23a103383",
-        "curated_at": "2025-06-10T20:37:31.517489+00:00",
+        "curation_id": "1a6ddced-75dc-4af1-bd3f-36dea6ca2adb",
+        "curated_at": "2025-06-11T19:18:50.821348+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712735+00:00",
+      "added_at": "2025-06-11T19:22:05.001154+00:00",
       "quality_score": 7.6,
-      "relevance_score": 9.0,
-      "importance_score": 10,
-      "total_score": 26.6
+      "relevance_score": 8.2,
+      "importance_score": 8.0,
+      "total_score": 23.799999999999997
     },
     {
-      "title": "La Russie perd des avions militaires importants",
-      "english_title": "Russia Loses Important Military Aircraft",
-      "simplified_french_title": "La Russie perd des avions militaires importants",
-      "simplified_english_title": "Russia Loses Important Military Aircraft",
-      "summary": "La Russie a subi une perte majeure avec la destruction de ses bombardiers stratégiques, ce qui représente un coup dur symbolique.",
-      "english_summary": "Russia suffered a major loss with the destruction of its strategic bombers, representing a significant symbolic blow.",
-      "french_summary": "La Russie a subi une perte majeure avec la destruction de ses bombardiers stratégiques, ce qui représente un coup dur symbolique.",
-      "original_article_title": "Après la destruction de ses bombardiers stratégiques, la Russie touchée dans ses symboles",
-      "original_article_link": "https://www.lexpress.fr/monde/europe/apres-la-destruction-de-ses-bombardiers-strategiques-la-russie-touchee-dans-ses-symboles-SJSRUG6AXNELHF3RC5BXTWNLXM/",
-      "link": "https://www.lexpress.fr/monde/europe/apres-la-destruction-de-ses-bombardiers-strategiques-la-russie-touchee-dans-ses-symboles-SJSRUG6AXNELHF3RC5BXTWNLXM/",
-      "source_name": "L'Express",
-      "published": "Tue, 10 Jun 2025 17:15:00 +0000",
-      "published_date": "Tue, 10 Jun 2025 17:15:00 +0000",
-      "contextual_title_explanations": {
-        "Après": {
-          "display_format": "**After:** (preposition)",
-          "explanation": "Indicates a sequence of events, showing what happens following something else",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (feminine definite article)",
-          "explanation": "Used before feminine nouns to indicate something specific",
-          "cultural_note": ""
-        },
-        "destruction": {
-          "display_format": "**Destruction:** The act of destroying",
-          "explanation": "The complete damage or elimination of something",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Shows possession or relationship between two things",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**Its:** (possessive adjective)",
-          "explanation": "Shows possession, referring to things belonging to Russia",
-          "cultural_note": ""
-        },
-        "bombardiers stratégiques": {
-          "display_format": "**Strategic bombers:** Long-range military aircraft",
-          "explanation": "Large military planes designed for carrying and dropping bombs over long distances",
-          "cultural_note": "These aircraft are considered prestigious military assets and symbols of military power"
-        },
-        "la Russie": {
-          "display_format": "**Russia:** (proper noun)",
-          "explanation": "The largest country in the world, a major military power",
-          "cultural_note": "Currently involved in the war in Ukraine and a significant geopolitical actor"
-        },
-        "touchée": {
-          "display_format": "**Hit/Affected:** (past participle)",
-          "explanation": "To be impacted or affected by something, either physically or figuratively",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In:** (preposition)",
-          "explanation": "Indicates location or context",
-          "cultural_note": ""
-        },
-        "symboles": {
-          "display_format": "**Symbols:** Things representing something else",
-          "explanation": "Objects or concepts that represent larger ideas or values",
-          "cultural_note": "Military equipment often serves as symbols of national power and prestige"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.4,
-        "relevance_score": 8.5,
-        "importance_score": 10,
-        "total_score": 25.9
-      },
-      "curation_metadata": {
-        "curation_id": "a4fe826c-1e99-49f6-a309-80c7238b0840",
-        "curated_at": "2025-06-10T20:37:31.520977+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712751+00:00",
-      "quality_score": 7.4,
-      "relevance_score": 8.5,
-      "importance_score": 10,
-      "total_score": 25.9
-    },
-    {
-      "title": "L'ONU discute de la protection des coraux à Maurice",
-      "english_title": "UN Conference in Mauritius on Protecting Coral Reefs",
-      "simplified_french_title": "L'ONU discute de la protection des coraux à Maurice",
-      "simplified_english_title": "UN Conference in Mauritius on Protecting Coral Reefs",
-      "summary": "À Maurice, une conférence de l'ONU examine comment protéger les coraux et l'océan. Le pays fait face à des défis environnementaux urgents.",
-      "english_summary": "A UN conference in Mauritius addresses coral and ocean protection. The country faces urgent environmental challenges in its marine ecosystem.",
-      "french_summary": "À Maurice, une conférence de l'ONU examine comment protéger les coraux et l'océan. Le pays fait face à des défis environnementaux urgents.",
-      "original_article_title": "Conférence de l'ONU sur l’océan : à Maurice, protéger les coraux à tout prix",
-      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20250610-conf%C3%A9rence-de-l-onu-sur-l-oc%C3%A9an-%C3%A0-maurice-prot%C3%A9ger-les-coraux-%C3%A0-tout-prix",
-      "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20250610-conf%C3%A9rence-de-l-onu-sur-l-oc%C3%A9an-%C3%A0-maurice-prot%C3%A9ger-les-coraux-%C3%A0-tout-prix",
-      "source_name": "France 24",
-      "published": "Tue, 10 Jun 2025 17:23:17 GMT",
-      "published_date": "Tue, 10 Jun 2025 17:23:17 GMT",
-      "contextual_title_explanations": {
-        "Conférence": {
-          "display_format": "**Conference:** A formal meeting",
-          "explanation": "A large, official gathering where people discuss important topics",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**of:** (preposition)",
-          "explanation": "Used to show connection or belonging between two things",
-          "cultural_note": ""
-        },
-        "l'": {
-          "display_format": "**the:** (definite article)",
-          "explanation": "Used before words beginning with vowels or silent h",
-          "cultural_note": ""
-        },
-        "ONU": {
-          "display_format": "**UN:** United Nations",
-          "explanation": "International organization working for global cooperation",
-          "cultural_note": "In French, ONU stands for 'Organisation des Nations Unies'"
-        },
-        "sur": {
-          "display_format": "**on/about:** (preposition)",
-          "explanation": "Indicates the topic or subject being discussed",
-          "cultural_note": ""
-        },
-        "l'océan": {
-          "display_format": "**the ocean:** Large body of saltwater",
-          "explanation": "Refers to the world's major bodies of water",
-          "cultural_note": "Particularly significant for island nations like Mauritius"
-        },
-        "à": {
-          "display_format": "**in/at:** (preposition)",
-          "explanation": "Indicates location or destination",
-          "cultural_note": ""
-        },
-        "Maurice": {
-          "display_format": "**Mauritius:** Island nation",
-          "explanation": "An island country in the Indian Ocean",
-          "cultural_note": "Former French colony, now independent nation with significant marine biodiversity"
-        },
-        "protéger": {
-          "display_format": "**protect:** To keep safe",
-          "explanation": "To defend or preserve from harm or damage",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**the:** (plural definite article)",
-          "explanation": "Used before plural nouns",
-          "cultural_note": ""
-        },
-        "coraux": {
-          "display_format": "**corals:** Marine organisms",
-          "explanation": "Marine invertebrates that form reefs",
-          "cultural_note": "Critical to marine ecosystems and island economies like Mauritius"
-        },
-        "à tout prix": {
-          "display_format": "**at all costs:** No matter what",
-          "explanation": "Indicates absolute necessity or determination",
-          "cultural_note": "Common French expression emphasizing urgency or importance"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 9.1,
-        "relevance_score": 4.1,
-        "importance_score": 10,
-        "total_score": 23.2
-      },
-      "curation_metadata": {
-        "curation_id": "e175bea0-714d-4ccb-ab1e-67aa4aad9aaa",
-        "curated_at": "2025-06-10T20:37:31.495399+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712767+00:00",
-      "quality_score": 9.1,
-      "relevance_score": 4.1,
-      "importance_score": 10,
-      "total_score": 23.2
-    },
-    {
-      "title": "Éric Lombard: un ministre riche qui n'aime pas les impôts",
-      "english_title": "Éric Lombard: The Wealthy Minister Who Dislikes Taxes",
-      "simplified_french_title": "Éric Lombard: un ministre riche qui n'aime pas les impôts",
-      "simplified_english_title": "Éric Lombard: The Wealthy Minister Who Dislikes Taxes",
-      "summary": "Le ministre des finances Éric Lombard possède une fortune de 21 millions d'euros et admet ne pas aimer payer des impôts.",
-      "english_summary": "Finance Minister Éric Lombard has a fortune of 21 million euros and admits he doesn't like paying taxes.",
-      "french_summary": "Le ministre des finances Éric Lombard possède une fortune de 21 millions d'euros et admet ne pas aimer payer des impôts.",
-      "original_article_title": "Éric Lombard, le ministre multimillionnaire «d’une gauche qui n’aime pas l’impôt»",
-      "original_article_link": "https://www.mediapart.fr/journal/politique/100625/eric-lombard-le-ministre-multimillionnaire-d-une-gauche-qui-n-aime-pas-l-impot",
-      "link": "https://www.mediapart.fr/journal/politique/100625/eric-lombard-le-ministre-multimillionnaire-d-une-gauche-qui-n-aime-pas-l-impot",
-      "source_name": "Mediapart",
-      "published": "Tue, 10 Jun 2025 19:01:58 +0200",
-      "published_date": "Tue, 10 Jun 2025 19:01:58 +0200",
-      "contextual_title_explanations": {
-        "Éric Lombard": {
-          "display_format": "**Éric Lombard:** French Finance Minister",
-          "explanation": "A French politician serving as Minister of Finance",
-          "cultural_note": "His wealth has become a subject of public debate in France, particularly given his position in a left-wing government"
-        },
-        "le": {
-          "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine nouns to indicate something specific",
-          "cultural_note": ""
-        },
-        "ministre": {
-          "display_format": "**Minister:** Government official",
-          "explanation": "A high-ranking member of government who heads a ministry or department",
-          "cultural_note": "In France, ministers are appointed by the President and Prime Minister"
-        },
-        "multimillionnaire": {
-          "display_format": "**Multimillionaire:** Person worth multiple millions",
-          "explanation": "Someone whose wealth exceeds multiple millions of currency units",
-          "cultural_note": "In French politics, a minister's wealth must be publicly declared, which can be a source of controversy"
-        },
-        "d'": {
-          "display_format": "**Of:** (contraction of 'de')",
-          "explanation": "Preposition indicating belonging or association",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A:** (feminine indefinite article)",
-          "explanation": "Used before feminine nouns to indicate something non-specific",
-          "cultural_note": ""
-        },
-        "gauche": {
-          "display_format": "**Left:** The political left",
-          "explanation": "Refers to left-wing political ideology",
-          "cultural_note": "In French politics, 'la gauche' traditionally represents socialist, progressive, and worker-friendly policies"
-        },
-        "qui": {
-          "display_format": "**Who/Which:** (relative pronoun)",
-          "explanation": "Links two related clauses, referring back to the previous noun",
-          "cultural_note": ""
-        },
-        "n'": {
-          "display_format": "**Not:** (part of negative construction)",
-          "explanation": "First part of the French negative construction 'ne...pas'",
-          "cultural_note": ""
-        },
-        "aime": {
-          "display_format": "**Likes:** (from 'aimer')",
-          "explanation": "Present tense of the verb 'aimer' (to like/love)",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**Not:** (part of negative construction)",
-          "explanation": "Second part of the French negative construction 'ne...pas'",
-          "cultural_note": ""
-        },
-        "l'impôt": {
-          "display_format": "**Tax:** Government levy",
-          "explanation": "Money collected by the government from citizens and businesses",
-          "cultural_note": "Taxation is a particularly sensitive topic in French politics, especially regarding wealth taxes and social contributions"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.9,
-        "relevance_score": 4.8,
-        "importance_score": 9.5,
-        "total_score": 23.2
-      },
-      "curation_metadata": {
-        "curation_id": "cff0947d-2ef6-4a23-804d-3c24a5eca8ca",
-        "curated_at": "2025-06-10T20:37:31.521383+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712782+00:00",
-      "quality_score": 8.9,
-      "relevance_score": 4.8,
-      "importance_score": 9.5,
-      "total_score": 23.2
-    },
-    {
-      "title": "Les tests de cadmium seront bientôt remboursés, dit le ministre de la Santé",
-      "english_title": "Cadmium Testing Will Soon Be Reimbursed, Says Health Minister",
-      "simplified_french_title": "Les tests de cadmium seront bientôt remboursés, dit le ministre de la Santé",
-      "simplified_english_title": "Cadmium Testing Will Soon Be Reimbursed, Says Health Minister",
-      "summary": "Le gouvernement va rembourser les tests qui détectent le cadmium, un métal dangereux présent dans l'environnement et les engrais agricoles.",
-      "english_summary": "The government will reimburse tests that detect cadmium, a dangerous metal found in the environment and agricultural fertilizers.",
-      "french_summary": "Le gouvernement va rembourser les tests qui détectent le cadmium, un métal dangereux présent dans l'environnement et les engrais agricoles.",
-      "original_article_title": "Des dépistages de contamination au cadmium seront remboursés \"à l'automne\" en médecine de ville, annonce le ministre chargé de la Santé",
-      "original_article_link": "https://www.franceinfo.fr/sante/des-depistages-de-contamination-au-cadmium-seront-rembourses-a-l-automne-en-medecine-de-ville-annonce-le-ministre-charge-de-la-sante_7303800.html#xtor=RSS-3-[lestitres]",
-      "link": "https://www.franceinfo.fr/sante/des-depistages-de-contamination-au-cadmium-seront-rembourses-a-l-automne-en-medecine-de-ville-annonce-le-ministre-charge-de-la-sante_7303800.html#xtor=RSS-3-[lestitres]",
+      "title": "L'impôt sur les grandes fortunes : Gabriel Zucman explique pourquoi les riches ne peuvent pas l'éviter",
+      "english_title": "Wealth Tax: Gabriel Zucman Explains Why the Rich Cannot Avoid It",
+      "simplified_french_title": "L'impôt sur les grandes fortunes : Gabriel Zucman explique pourquoi les riches ne peuvent pas l'éviter",
+      "simplified_english_title": "Wealth Tax: Gabriel Zucman Explains Why the Rich Cannot Avoid It",
+      "summary": "Le Sénat étudie une nouvelle taxe de 2% sur les fortunes de plus de 100 millions d'euros, proposée par l'économiste Gabriel Zucman.",
+      "english_summary": "The Senate is examining a new 2% tax on wealth over 100 million euros, proposed by economist Gabriel Zucman.",
+      "french_summary": "Le Sénat étudie une nouvelle taxe de 2% sur les fortunes de plus de 100 millions d'euros, proposée par l'économiste Gabriel Zucman.",
+      "original_article_title": "Taxe Zucman au Sénat : \"Si nos grandes fortunes partaient demain s'installer aux îles Caïmans, elles ne paieraient presque pas moins d'impôts\", selon Gabriel Zucman",
+      "original_article_link": "https://www.franceinfo.fr/replay-radio/l-interview-eco/taxe-zucman-au-senat-si-nos-grandes-fortunes-partaient-demain-s-installer-aux-iles-caimans-elles-ne-paieraient-presque-pas-moins-d-impots-selon-gabriel-zucman_7277055.html#xtor=RSS-3-[lestitres]",
+      "link": "https://www.franceinfo.fr/replay-radio/l-interview-eco/taxe-zucman-au-senat-si-nos-grandes-fortunes-partaient-demain-s-installer-aux-iles-caimans-elles-ne-paieraient-presque-pas-moins-d-impots-selon-gabriel-zucman_7277055.html#xtor=RSS-3-[lestitres]",
       "source_name": "France Info",
-      "published": "Tue, 10 Jun 2025 18:55:21 +0200",
-      "published_date": "Tue, 10 Jun 2025 18:55:21 +0200",
+      "published": "Wed, 11 Jun 2025 19:31:25 +0200",
+      "published_date": "Wed, 11 Jun 2025 19:31:25 +0200",
       "contextual_title_explanations": {
-        "Des": {
-          "display_format": "**Des:** (plural indefinite article)",
-          "explanation": "Means 'some' or 'the' in plural form. Used before plural nouns when the exact quantity is not specified.",
-          "cultural_note": ""
+        "Taxe": {
+          "display_format": "**Tax:** A compulsory financial charge",
+          "explanation": "A mandatory payment imposed by the government on individuals or entities",
+          "cultural_note": "France has a long history of wealth taxation, including the former ISF (Impôt de Solidarité sur la Fortune)"
         },
-        "dépistages": {
-          "display_format": "**Screenings/Tests:** Medical examinations to detect a condition",
-          "explanation": "Refers to medical screening or testing procedures used to identify health conditions or substances in the body.",
-          "cultural_note": "In France, many medical screenings are covered by the national healthcare system (Sécurité Sociale)."
-        },
-        "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Links two nouns to show possession or relationship between them.",
-          "cultural_note": ""
-        },
-        "contamination": {
-          "display_format": "**Contamination:** Presence of harmful substances",
-          "explanation": "The presence or introduction of an unwanted substance that makes something impure or unsafe.",
-          "cultural_note": ""
+        "Zucman": {
+          "display_format": "**Zucman:** French economist Gabriel Zucman",
+          "explanation": "A prominent French economist known for his work on wealth inequality and tax havens",
+          "cultural_note": "He has become influential in global debates about wealth taxation and economic inequality"
         },
         "au": {
-          "display_format": "**To the:** (contraction)",
-          "explanation": "Contraction of 'à' (to) and 'le' (the). Used before masculine singular nouns.",
+          "display_format": "**At the:** (contraction of à + le)",
+          "explanation": "Preposition indicating location or destination, combined with the definite article",
           "cultural_note": ""
         },
-        "cadmium": {
-          "display_format": "**Cadmium:** A toxic heavy metal",
-          "explanation": "A naturally occurring toxic heavy metal that can accumulate in the body and cause health problems.",
-          "cultural_note": "Environmental contamination by cadmium has become a significant public health concern in France."
+        "Sénat": {
+          "display_format": "**Senate:** Upper house of French Parliament",
+          "explanation": "One of the two chambers of the French Parliament, representing territorial communities",
+          "cultural_note": "Located in the Luxembourg Palace in Paris, plays crucial role in French legislation"
         },
-        "seront": {
-          "display_format": "**Will be:** Future tense of 'être'",
-          "explanation": "Third person plural future tense of the verb 'être' (to be).",
+        "Si": {
+          "display_format": "**If:** Conditional conjunction",
+          "explanation": "Used to introduce a hypothetical situation or condition",
           "cultural_note": ""
         },
-        "remboursés": {
-          "display_format": "**Reimbursed:** Paid back",
-          "explanation": "When medical expenses are paid back by the healthcare system after initial payment by the patient.",
-          "cultural_note": "The French healthcare system typically reimburses a percentage of medical costs."
-        },
-        "à l'automne": {
-          "display_format": "**In autumn:** During fall season",
-          "explanation": "Specifies when something will happen during the autumn/fall season.",
-          "cultural_note": "In French administrative announcements, seasons are often used as timeframes for policy implementation."
-        },
-        "en": {
-          "display_format": "**In:** (preposition)",
-          "explanation": "Used to indicate location, state, or manner.",
+        "nos": {
+          "display_format": "**Our:** Possessive adjective (plural)",
+          "explanation": "Indicates collective possession or belonging",
           "cultural_note": ""
         },
-        "médecine de ville": {
-          "display_format": "**Community medicine/Outpatient care:** Non-hospital medical care",
-          "explanation": "Refers to medical care provided outside of hospitals, typically in private practices or clinics.",
-          "cultural_note": "Distinguished from 'médecine hospitalière' (hospital care) in the French healthcare system."
+        "grandes fortunes": {
+          "display_format": "**Great fortunes/wealthy people:** The very rich",
+          "explanation": "Refers to individuals or families with significant wealth",
+          "cultural_note": "A common term in French political discourse about wealth inequality"
         },
-        "annonce": {
-          "display_format": "**Announces:** Declares officially",
-          "explanation": "Present tense of the verb 'annoncer', meaning to make a public statement or declaration.",
+        "partaient": {
+          "display_format": "**Were to leave:** (Imperfect tense of 'partir')",
+          "explanation": "Indicates hypothetical departure or leaving",
           "cultural_note": ""
         },
-        "le": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Masculine singular definite article.",
+        "demain": {
+          "display_format": "**Tomorrow:** The next day",
+          "explanation": "Used here rhetorically to mean 'in the future' or 'at any time'",
           "cultural_note": ""
         },
-        "ministre": {
-          "display_format": "**Minister:** Government official",
-          "explanation": "A senior government official in charge of a specific department or area of responsibility.",
-          "cultural_note": "In France, ministers are appointed by the President and Prime Minister."
-        },
-        "chargé de": {
-          "display_format": "**In charge of:** Responsible for",
-          "explanation": "Indicates responsibility or authority over a particular domain or area.",
+        "s'installer": {
+          "display_format": "**To settle/establish themselves:**",
+          "explanation": "Reflexive verb meaning to establish residence or set up in a new location",
           "cultural_note": ""
         },
-        "la": {
-          "display_format": "**The:** (feminine definite article)",
-          "explanation": "Feminine singular definite article.",
+        "aux": {
+          "display_format": "**In the:** (contraction of à + les)",
+          "explanation": "Preposition combined with plural definite article",
           "cultural_note": ""
         },
-        "Santé": {
-          "display_format": "**Health:** Public health and healthcare",
-          "explanation": "Refers to public health and the healthcare system.",
-          "cultural_note": "Healthcare is considered a fundamental right in France and is managed through a universal healthcare system."
+        "îles Caïmans": {
+          "display_format": "**Cayman Islands:**",
+          "explanation": "A British Overseas Territory in the Caribbean",
+          "cultural_note": "Known as a tax haven and offshore financial center"
+        },
+        "elles": {
+          "display_format": "**They:** Female plural pronoun",
+          "explanation": "Refers back to 'grandes fortunes' which is feminine in French",
+          "cultural_note": ""
+        },
+        "ne...pas": {
+          "display_format": "**Not:** Negative construction",
+          "explanation": "Two-part negative structure in French",
+          "cultural_note": ""
+        },
+        "paieraient": {
+          "display_format": "**Would pay:** Conditional tense",
+          "explanation": "Expresses a hypothetical action dependent on conditions",
+          "cultural_note": ""
+        },
+        "presque": {
+          "display_format": "**Almost:**",
+          "explanation": "Indicates something that is nearly the case but not quite",
+          "cultural_note": ""
+        },
+        "moins": {
+          "display_format": "**Less:**",
+          "explanation": "Indicates a smaller amount or quantity",
+          "cultural_note": ""
+        },
+        "d'impôts": {
+          "display_format": "**Of taxes:**",
+          "explanation": "Refers to various forms of taxation",
+          "cultural_note": "France has a complex tax system with multiple types of taxes"
+        },
+        "selon": {
+          "display_format": "**According to:**",
+          "explanation": "Attributes the statement to a source",
+          "cultural_note": ""
+        },
+        "Gabriel": {
+          "display_format": "**Gabriel:** First name",
+          "explanation": "Personal name of the economist",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 7.9,
-        "relevance_score": 5.199999999999999,
-        "importance_score": 10,
+        "quality_score": 8.4,
+        "relevance_score": 6.2,
+        "importance_score": 8.5,
         "total_score": 23.1
       },
       "curation_metadata": {
-        "curation_id": "14c79455-f735-438e-9224-f5c76680e0fd",
-        "curated_at": "2025-06-10T20:37:31.503689+00:00",
+        "curation_id": "ee15632e-e61a-4515-afe8-c537de7914e8",
+        "curated_at": "2025-06-11T19:18:50.809785+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712798+00:00",
-      "quality_score": 7.9,
-      "relevance_score": 5.199999999999999,
-      "importance_score": 10,
+      "added_at": "2025-06-11T19:22:05.001176+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 6.2,
+      "importance_score": 8.5,
       "total_score": 23.1
     },
     {
-      "title": "Bolivie: Evo Morales accusé de terrorisme",
-      "english_title": "Bolivia: Evo Morales Accused of Terrorism",
-      "simplified_french_title": "Bolivie: Evo Morales accusé de terrorisme",
-      "simplified_english_title": "Bolivia: Evo Morales Accused of Terrorism",
-      "summary": "L'ancien président bolivien Evo Morales fait face à une enquête pour terrorisme. Ses partisans bloquent les routes pendant que le gouvernement le poursuit.",
-      "english_summary": "Former Bolivian president Evo Morales faces a terrorism investigation. His supporters are blocking roads while the government pursues legal action.",
-      "french_summary": "L'ancien président bolivien Evo Morales fait face à une enquête pour terrorisme. Ses partisans bloquent les routes pendant que le gouvernement le poursuit.",
-      "original_article_title": "Bolivie: l’ancien président Evo Morales visé par une enquête pour «terrorisme»",
-      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250610-bolivie-l-ancien-pr%C3%A9sident-evo-morales-vis%C3%A9-par-une-enqu%C3%AAte-pour-terrorisme",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250610-bolivie-l-ancien-pr%C3%A9sident-evo-morales-vis%C3%A9-par-une-enqu%C3%AAte-pour-terrorisme",
-      "source_name": "RFI",
-      "published": "Tue, 10 Jun 2025 16:16:14 GMT",
-      "published_date": "Tue, 10 Jun 2025 16:16:14 GMT",
+      "title": "Le ministre présente un nouveau plan pour la santé mentale",
+      "english_title": "Health Minister Presents New Mental Health Plan",
+      "simplified_french_title": "Le ministre présente un nouveau plan pour la santé mentale",
+      "simplified_english_title": "Health Minister Presents New Mental Health Plan",
+      "summary": "Le ministre Neuder a présenté un plan pour améliorer la psychiatrie en France, avec focus sur la détection des problèmes mentaux plus tôt.",
+      "english_summary": "Minister Neuder presented a plan to improve psychiatric care in France, focusing on early detection of mental health issues.",
+      "french_summary": "Le ministre Neuder a présenté un plan pour améliorer la psychiatrie en France, avec focus sur la détection des problèmes mentaux plus tôt.",
+      "original_article_title": "Psychiatrie : le ministre de la santé annonce un plan et insiste sur le repérage précoce",
+      "original_article_link": "https://www.la-croix.com/sante/psychiatrie-le-ministre-de-la-sante-annonce-un-plan-et-insiste-sur-le-reperage-precoce-20250611",
+      "link": "https://www.la-croix.com/sante/psychiatrie-le-ministre-de-la-sante-annonce-un-plan-et-insiste-sur-le-reperage-precoce-20250611",
+      "source_name": "La Croix",
+      "published": "Wed, 11 Jun 2025 20:00:07 +0200",
+      "published_date": "Wed, 11 Jun 2025 20:00:07 +0200",
       "contextual_title_explanations": {
-        "Bolivie": {
-          "display_format": "**Bolivia:** South American country",
-          "explanation": "A landlocked country in central South America",
-          "cultural_note": "Former Spanish colony with significant indigenous population, known for its political instability and being one of South America's poorest nations"
+        "Psychiatrie": {
+          "display_format": "**Psychiatry:** Mental health medical field",
+          "explanation": "The branch of medicine focused on diagnosing, treating, and preventing mental, emotional, and behavioral disorders.",
+          "cultural_note": "Mental health care has been a growing concern in French public health policy."
         },
         ":": {
           "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce additional information or explanation",
+          "explanation": "Used to introduce what follows, often an explanation or list.",
           "cultural_note": ""
-        },
-        "l'": {
-          "display_format": "**The:** Definite article (elided form)",
-          "explanation": "The letter 'l' with apostrophe is used before words beginning with vowels or silent h",
-          "cultural_note": ""
-        },
-        "ancien": {
-          "display_format": "**Former:** Previous, past",
-          "explanation": "Describes something or someone from a previous time period",
-          "cultural_note": ""
-        },
-        "président": {
-          "display_format": "**President:** Head of state",
-          "explanation": "The highest political position in many countries",
-          "cultural_note": "In many Latin American countries, presidents hold significant executive power"
-        },
-        "Evo Morales": {
-          "display_format": "**Evo Morales:** Bolivian political figure",
-          "explanation": "Bolivia's first indigenous president who served from 2006 to 2019",
-          "cultural_note": "A controversial figure who implemented significant social reforms but faced accusations of authoritarianism"
-        },
-        "visé": {
-          "display_format": "**Targeted:** Subject to",
-          "explanation": "Past participle of 'viser', meaning to target or aim at",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** Preposition",
-          "explanation": "Used to indicate the agent of an action in passive voice",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A/An:** Indefinite article (feminine)",
-          "explanation": "Used before feminine nouns to indicate an unspecified item",
-          "cultural_note": ""
-        },
-        "enquête": {
-          "display_format": "**Investigation:** Official examination",
-          "explanation": "A formal investigation or inquiry, usually by authorities",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For:** Preposition",
-          "explanation": "Used to indicate purpose or reason",
-          "cultural_note": ""
-        },
-        "«terrorisme»": {
-          "display_format": "**'Terrorism':** Political violence",
-          "explanation": "The use of violence and intimidation for political purposes",
-          "cultural_note": "Often used as a political tool to discredit opponents in Latin American politics"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 9.1,
-        "relevance_score": 5.199999999999999,
-        "importance_score": 8.5,
-        "total_score": 22.799999999999997
-      },
-      "curation_metadata": {
-        "curation_id": "24984961-b96b-42c2-aed3-477a1bac32c9",
-        "curated_at": "2025-06-10T20:37:31.494874+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712810+00:00",
-      "quality_score": 9.1,
-      "relevance_score": 5.199999999999999,
-      "importance_score": 8.5,
-      "total_score": 22.799999999999997
-    },
-    {
-      "title": "Le Medef refuse de changer l'âge de la retraite mais propose des améliorations",
-      "english_title": "French Business Federation Refuses to Change Retirement Age but Proposes Improvements",
-      "simplified_french_title": "Le Medef refuse de changer l'âge de la retraite mais propose des améliorations",
-      "simplified_english_title": "French Business Federation Refuses to Change Retirement Age but Proposes Improvements",
-      "summary": "Les discussions continuent entre employeurs et syndicats sur la réforme des retraites. Il reste trois réunions pour trouver un accord.",
-      "english_summary": "Discussions continue between employers and unions about pension reform. Three meetings remain to reach an agreement.",
-      "french_summary": "Les discussions continuent entre employeurs et syndicats sur la réforme des retraites. Il reste trois réunions pour trouver un accord.",
-      "original_article_title": "Retraites : le Medef refuse de toucher à l’âge légal, mais propose des avancées sur « l’usure professionnelle » et la carrière des femmes",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/10/retraites-le-medef-refuse-de-toucher-a-l-age-legal-mais-propose-des-avancees-sur-l-usure-professionnelle-et-la-carriere-des-femmes_6612093_823448.html",
-      "link": "https://www.lemonde.fr/politique/article/2025/06/10/retraites-le-medef-refuse-de-toucher-a-l-age-legal-mais-propose-des-avancees-sur-l-usure-professionnelle-et-la-carriere-des-femmes_6612093_823448.html",
-      "source_name": "Le Monde",
-      "published": "Tue, 10 Jun 2025 20:25:08 +0200",
-      "published_date": "Tue, 10 Jun 2025 20:25:08 +0200",
-      "contextual_title_explanations": {
-        "Retraites": {
-          "display_format": "**Retirement/Pensions:** The French retirement system",
-          "explanation": "Refers to both the act of retiring and the pension system in France",
-          "cultural_note": "The French pension system is a major social issue and source of frequent debate and protests"
         },
         "le": {
           "display_format": "**The:** Definite article (masculine singular)",
-          "explanation": "Used before masculine singular nouns",
+          "explanation": "Used before masculine singular nouns to indicate something specific.",
           "cultural_note": ""
         },
-        "Medef": {
-          "display_format": "**MEDEF:** France's largest employer federation",
-          "explanation": "Mouvement des Entreprises de France - represents French business interests",
-          "cultural_note": "Equivalent to a chamber of commerce but with significant political influence in France"
-        },
-        "refuse": {
-          "display_format": "**Refuses:** To decline or say no",
-          "explanation": "Present tense of the verb 'refuser'",
-          "cultural_note": ""
+        "ministre": {
+          "display_format": "**Minister:** Government official",
+          "explanation": "A senior member of government who heads a ministry or department.",
+          "cultural_note": "In France, ministers are appointed by the President and Prime Minister."
         },
         "de": {
-          "display_format": "**To/Of:** Preposition",
-          "explanation": "Links verbs with infinitives or shows possession",
+          "display_format": "**Of:** Preposition",
+          "explanation": "Used to show possession or connection between words.",
           "cultural_note": ""
         },
-        "toucher": {
-          "display_format": "**To touch/modify:** To make changes to something",
-          "explanation": "In this context, means to modify or make changes to something",
+        "la": {
+          "display_format": "**The:** Definite article (feminine singular)",
+          "explanation": "Used before feminine singular nouns to indicate something specific.",
           "cultural_note": ""
         },
-        "à": {
-          "display_format": "**To:** Preposition",
-          "explanation": "Used to connect words and show relationship",
+        "santé": {
+          "display_format": "**Health:** Physical and mental well-being",
+          "explanation": "Refers to the state of physical and mental wellness.",
+          "cultural_note": "France has a universal healthcare system considered one of the best in the world."
+        },
+        "annonce": {
+          "display_format": "**Announces:** Declares publicly",
+          "explanation": "To make something known officially or publicly.",
           "cultural_note": ""
         },
-        "l'âge légal": {
-          "display_format": "**Legal retirement age:** Official age for retirement",
-          "explanation": "The minimum age at which one can legally retire with full benefits",
-          "cultural_note": "A highly contentious topic in French politics and society"
-        },
-        "mais": {
-          "display_format": "**But:** Conjunction",
-          "explanation": "Used to express contrast between two ideas",
+        "un": {
+          "display_format": "**A/An:** Indefinite article (masculine)",
+          "explanation": "Used before masculine singular nouns to indicate one unspecified item.",
           "cultural_note": ""
         },
-        "propose": {
-          "display_format": "**Proposes:** To suggest or offer",
-          "explanation": "Present tense of the verb 'proposer'",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Of the:** Plural definite article",
-          "explanation": "Contraction of 'de les'",
-          "cultural_note": ""
-        },
-        "avancées": {
-          "display_format": "**Advances/Improvements:** Progress made",
-          "explanation": "Positive developments or steps forward",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On/About:** Preposition",
-          "explanation": "Indicates the subject or topic being discussed",
-          "cultural_note": ""
-        },
-        "l'usure professionnelle": {
-          "display_format": "**Professional wear and tear:** Work-related physical strain",
-          "explanation": "The physical and mental toll of long-term work in demanding professions",
-          "cultural_note": "An important concept in French labor law and retirement discussions"
+        "plan": {
+          "display_format": "**Plan:** Organized strategy or program",
+          "explanation": "A detailed proposal for doing or achieving something.",
+          "cultural_note": "Government 'plans' in France often refer to major policy initiatives."
         },
         "et": {
           "display_format": "**And:** Conjunction",
-          "explanation": "Used to connect words or phrases",
+          "explanation": "Used to join words, phrases, or clauses.",
           "cultural_note": ""
         },
-        "la carrière": {
-          "display_format": "**Career:** Professional working life",
-          "explanation": "A person's professional journey or working life",
+        "insiste": {
+          "display_format": "**Insists:** Emphasizes strongly",
+          "explanation": "To place emphasis on something or maintain something firmly.",
           "cultural_note": ""
         },
-        "femmes": {
-          "display_format": "**Women:** Female individuals",
-          "explanation": "Plural form of 'femme'",
-          "cultural_note": "Gender equality in retirement benefits is a significant issue in French social policy"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 7.3,
-        "importance_score": 8.5,
-        "total_score": 22.7
-      },
-      "curation_metadata": {
-        "curation_id": "2ca9ab29-d9a6-42fe-bb9e-18b61193db82",
-        "curated_at": "2025-06-10T20:37:31.506267+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712825+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 7.3,
-      "importance_score": 8.5,
-      "total_score": 22.7
-    },
-    {
-      "title": "Trump peut-il utiliser l'armée à Los Angeles?",
-      "english_title": "Can Trump Legally Use Federal Troops in Los Angeles?",
-      "simplified_french_title": "Trump peut-il utiliser l'armée à Los Angeles?",
-      "simplified_english_title": "Can Trump Legally Use Federal Troops in Los Angeles?",
-      "summary": "Trump a envoyé des militaires à Los Angeles pour gérer les manifestations. Cette décision pose des questions sur son pouvoir légal.",
-      "english_summary": "Trump deployed military forces to Los Angeles to handle protests, raising questions about whether he has the legal authority to do so.",
-      "french_summary": "Trump a envoyé des militaires à Los Angeles pour gérer les manifestations. Cette décision pose des questions sur son pouvoir légal.",
-      "original_article_title": "Heurts à Los Angeles: le recours à des troupes fédérales par Donald Trump est-il légal?",
-      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250610-heurts-%C3%A0-los-angeles-le-recours-%C3%A0-des-troupes-f%C3%A9d%C3%A9rales-par-donald-trump-est-il-l%C3%A9gal",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250610-heurts-%C3%A0-los-angeles-le-recours-%C3%A0-des-troupes-f%C3%A9d%C3%A9rales-par-donald-trump-est-il-l%C3%A9gal",
-      "source_name": "RFI",
-      "published": "Tue, 10 Jun 2025 16:05:56 GMT",
-      "published_date": "Tue, 10 Jun 2025 16:05:56 GMT",
-      "contextual_title_explanations": {
-        "Heurts": {
-          "display_format": "**Clashes/Confrontations:** Violent encounters",
-          "explanation": "Physical confrontations or violent incidents between groups, often used to describe civil unrest",
-          "cultural_note": "Often used in French media to describe civil disturbances while being less dramatic than 'violence' or 'émeutes'"
-        },
-        "à": {
-          "display_format": "**In/At:** (preposition)",
-          "explanation": "Indicates location or destination",
+        "sur": {
+          "display_format": "**On:** Preposition",
+          "explanation": "Used to indicate the object of focus or attention.",
           "cultural_note": ""
         },
-        "Los Angeles": {
-          "display_format": "**Los Angeles:** Major U.S. city",
-          "explanation": "Major city in California, United States",
-          "cultural_note": "French speakers pronounce it differently from English speakers, often as 'Los Angeless'"
-        },
-        "le recours": {
-          "display_format": "**The use/resort to:** The act of using or turning to something",
-          "explanation": "The action of using something as a solution or response to a situation",
-          "cultural_note": "Often used in legal or formal contexts in French"
-        },
-        "à des": {
-          "display_format": "**To/Of:** (preposition + article)",
-          "explanation": "Combination of preposition 'à' and indefinite article 'des', used to indicate relationship or connection",
-          "cultural_note": ""
-        },
-        "troupes fédérales": {
-          "display_format": "**Federal troops:** Government military forces",
-          "explanation": "Military forces controlled by the federal/national government rather than state authorities",
-          "cultural_note": "In the U.S. context, the distinction between federal and state forces is constitutionally significant"
-        },
-        "par": {
-          "display_format": "**By:** (preposition)",
-          "explanation": "Indicates the agent or doer of an action",
-          "cultural_note": ""
-        },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** 45th U.S. President",
-          "explanation": "Former President of the United States (2017-2021)",
-          "cultural_note": "His presidency was marked by numerous controversies regarding use of executive power"
-        },
-        "est-il": {
-          "display_format": "**Is it:** Question form of 'to be'",
-          "explanation": "Inverted form of 'il est' used to form a question",
-          "cultural_note": "This formal question structure is common in written French"
-        },
-        "légal": {
-          "display_format": "**Legal:** Permitted by law",
-          "explanation": "Conforming to or permitted by law",
-          "cultural_note": "Similar meaning in French and English legal contexts"
+        "le repérage précoce": {
+          "display_format": "**Early detection:** Early identification of issues",
+          "explanation": "The process of identifying problems or conditions at an early stage.",
+          "cultural_note": "Early detection has become a key focus in French mental health policy, especially following recent incidents."
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 8.6,
-        "relevance_score": 4.8999999999999995,
-        "importance_score": 9.0,
-        "total_score": 22.5
+        "relevance_score": 4.6,
+        "importance_score": 9.5,
+        "total_score": 22.7
       },
       "curation_metadata": {
-        "curation_id": "fea415c3-1315-4791-8017-9c556a408cf2",
-        "curated_at": "2025-06-10T20:37:31.501835+00:00",
+        "curation_id": "ae235966-2658-4764-a7b1-e4fb25c50b98",
+        "curated_at": "2025-06-11T19:18:50.801685+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712836+00:00",
+      "added_at": "2025-06-11T19:22:05.001191+00:00",
       "quality_score": 8.6,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 9.0,
-      "total_score": 22.5
+      "relevance_score": 4.6,
+      "importance_score": 9.5,
+      "total_score": 22.7
     },
     {
-      "title": "Le gouvernement veut réduire les dépenses des agences publiques",
-      "english_title": "Government Plans to Reform Public Agencies to Cut Spending",
-      "simplified_french_title": "Le gouvernement veut réduire les dépenses des agences publiques",
-      "simplified_english_title": "Government Plans to Reform Public Agencies to Cut Spending",
-      "summary": "Le gouvernement cherche à économiser 40 milliards d'euros en réorganisant les agences publiques. L'IFRAP propose des privatisations pour réduire les coûts.",
-      "english_summary": "The government aims to save 40 billion euros by reorganizing public agencies. IFRAP suggests privatizations to reduce costs.",
-      "french_summary": "Le gouvernement cherche à économiser 40 milliards d'euros en réorganisant les agences publiques. L'IFRAP propose des privatisations pour réduire les coûts.",
-      "original_article_title": "Budget : vers une grande réforme des agences publiques pour alléger le budget de l’État",
-      "original_article_link": "https://www.europe1.fr/economie/budget-vers-une-grande-reforme-des-agences-publiques-pour-alleger-le-budget-de-letat-757909",
-      "link": "https://www.europe1.fr/economie/budget-vers-une-grande-reforme-des-agences-publiques-pour-alleger-le-budget-de-letat-757909",
-      "source_name": "Europe 1",
-      "published": "Tue, 10 Jun 2025 20:56:42 +0200",
-      "published_date": "Tue, 10 Jun 2025 20:56:42 +0200",
+      "title": "Casa France, magasin de meubles avec 700 employés, va fermer",
+      "english_title": "Furniture store Casa France with 700 employees is closing down",
+      "simplified_french_title": "Casa France, magasin de meubles avec 700 employés, va fermer",
+      "simplified_english_title": "Furniture store Casa France with 700 employees is closing down",
+      "summary": "Casa France, chaîne de magasins de meubles, fait face à une fermeture définitive. Le tribunal décidera le 27 juin du sort de l'entreprise.",
+      "english_summary": "Casa France, a furniture store chain, faces permanent closure. The court will decide the company's fate on June 27th.",
+      "french_summary": "Casa France, chaîne de magasins de meubles, fait face à une fermeture définitive. Le tribunal décidera le 27 juin du sort de l'entreprise.",
+      "original_article_title": "L'enseigne de magasins d'ameublement Casa France, qui emploie près de 700 salariés, annonce se diriger vers une liquidation judiciaire",
+      "original_article_link": "https://www.franceinfo.fr/economie/entreprises/le-groupe-d-ameublement-casa-france-qui-emploie-pres-de-700-salaries-annonce-sa-liquidation-judiciaire_7305792.html#xtor=RSS-3-[lestitres]",
+      "link": "https://www.franceinfo.fr/economie/entreprises/le-groupe-d-ameublement-casa-france-qui-emploie-pres-de-700-salaries-annonce-sa-liquidation-judiciaire_7305792.html#xtor=RSS-3-[lestitres]",
+      "source_name": "France Info",
+      "published": "Wed, 11 Jun 2025 21:02:10 +0200",
+      "published_date": "Wed, 11 Jun 2025 21:02:10 +0200",
       "contextual_title_explanations": {
-        "Budget": {
-          "display_format": "**Budget:** Financial plan",
-          "explanation": "A financial plan for spending and saving money, typically for a specific period",
-          "cultural_note": "In France, budget discussions are particularly important as the country has strict EU-mandated deficit rules to follow"
+        "L'": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Contracted form of 'la' before a vowel sound, used to indicate a specific noun",
+          "cultural_note": ""
         },
-        "vers": {
-          "display_format": "**Towards:** (preposition)",
-          "explanation": "Indicates movement or progress in a particular direction, here used figuratively to indicate a future goal",
+        "enseigne": {
+          "display_format": "**Brand/Chain:** A commercial brand or retail chain",
+          "explanation": "Refers to a commercial brand name or retail store chain, often used in business contexts",
+          "cultural_note": "In French retail terminology, 'enseigne' specifically refers to established retail chains rather than independent stores"
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Used to show relationship or possession between two nouns",
+          "cultural_note": ""
+        },
+        "magasins": {
+          "display_format": "**Stores:** Retail establishments",
+          "explanation": "Places where goods are sold to the public",
+          "cultural_note": ""
+        },
+        "d'ameublement": {
+          "display_format": "**Furniture:** Home furnishings",
+          "explanation": "Refers to furniture and home decoration items",
+          "cultural_note": ""
+        },
+        "Casa France": {
+          "display_format": "**Casa France:** Name of the retail chain",
+          "explanation": "A furniture and home decoration retail chain operating in France",
+          "cultural_note": "Part of the larger Casa group, which operates in several European countries"
+        },
+        "qui": {
+          "display_format": "**Which/Who:** (relative pronoun)",
+          "explanation": "Used to introduce additional information about the subject",
+          "cultural_note": ""
+        },
+        "emploie": {
+          "display_format": "**Employs:** (verb)",
+          "explanation": "Present tense of 'employer' meaning to provide work or employment",
+          "cultural_note": ""
+        },
+        "près de": {
+          "display_format": "**Nearly/About:** (expression)",
+          "explanation": "Used to indicate an approximate number or quantity",
+          "cultural_note": ""
+        },
+        "700": {
+          "display_format": "**700:** Seven hundred",
+          "explanation": "Numerical value indicating the number of employees",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**Employees:** Paid workers",
+          "explanation": "People employed by the company with regular salaries",
+          "cultural_note": "In French business context, 'salariés' specifically refers to employees with formal employment contracts"
+        },
+        "annonce": {
+          "display_format": "**Announces:** (verb)",
+          "explanation": "Present tense of 'annoncer' meaning to declare or make public",
+          "cultural_note": ""
+        },
+        "se diriger vers": {
+          "display_format": "**Heading towards:** Moving in the direction of",
+          "explanation": "Figuratively means 'moving towards' or 'approaching' a situation",
           "cultural_note": ""
         },
         "une": {
-          "display_format": "**A/An:** (feminine indefinite article)",
-          "explanation": "Used before feminine nouns to indicate an unspecified item or concept",
+          "display_format": "**A/An:** (indefinite article)",
+          "explanation": "Used before feminine nouns to indicate an unspecified item",
           "cultural_note": ""
         },
-        "grande": {
-          "display_format": "**Big/Large/Major:** (adjective)",
-          "explanation": "Indicates something of significant size or importance",
-          "cultural_note": ""
-        },
-        "réforme": {
-          "display_format": "**Reform:** Change or improvement",
-          "explanation": "A change made to improve a system, organization, or law",
-          "cultural_note": "France has a strong tradition of state-led reforms, often leading to public debate and sometimes protests"
-        },
-        "des": {
-          "display_format": "**Of the:** (plural definite article)",
-          "explanation": "Contraction of 'de les', used to show possession or relationship",
-          "cultural_note": ""
-        },
-        "agences publiques": {
-          "display_format": "**Public agencies:** Government organizations",
-          "explanation": "Organizations or bodies that are part of or controlled by the government",
-          "cultural_note": "France has numerous public agencies, reflecting its traditionally centralized administrative system"
-        },
-        "pour": {
-          "display_format": "**For/To:** (preposition)",
-          "explanation": "Indicates purpose or goal",
-          "cultural_note": ""
-        },
-        "alléger": {
-          "display_format": "**Lighten/Reduce:** To make lighter",
-          "explanation": "To reduce or decrease the weight or burden of something",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine nouns to indicate a specific item",
-          "cultural_note": ""
-        },
-        "budget de l'État": {
-          "display_format": "**State budget:** Government budget",
-          "explanation": "The annual financial plan of the national government",
-          "cultural_note": "The French state budget is a crucial political issue, especially given France's ongoing efforts to meet EU deficit requirements"
+        "liquidation judiciaire": {
+          "display_format": "**Bankruptcy liquidation:** Legal process of closing down",
+          "explanation": "Legal procedure where a company's assets are sold off to pay debts before closure",
+          "cultural_note": "In French business law, this is the final stage before a company's complete closure"
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 7.4,
-        "relevance_score": 7.5,
+        "quality_score": 6.7,
+        "relevance_score": 6.0,
+        "importance_score": 10,
+        "total_score": 22.7
+      },
+      "curation_metadata": {
+        "curation_id": "df4e8b8c-ce1f-43a1-b83b-cdd24405f1ab",
+        "curated_at": "2025-06-11T19:18:50.806966+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-11T19:22:05.001226+00:00",
+      "quality_score": 6.7,
+      "relevance_score": 6.0,
+      "importance_score": 10,
+      "total_score": 22.7
+    },
+    {
+      "title": "Les gens manifestent pour soutenir la Palestine",
+      "english_title": "People Rally to Support Palestine",
+      "simplified_french_title": "Les gens manifestent pour soutenir la Palestine",
+      "simplified_english_title": "People Rally to Support Palestine",
+      "summary": "Une manifestation a eu lieu à Paris pour soutenir Gaza. Les participants protestent contre le blocus et montrent leur solidarité.",
+      "english_summary": "A demonstration took place in Paris to support Gaza. Participants protested against the blockade and showed their solidarity.",
+      "french_summary": "Une manifestation a eu lieu à Paris pour soutenir Gaza. Les participants protestent contre le blocus et montrent leur solidarité.",
+      "original_article_title": "Manifestation de soutien à la Palestine : « C’est ça la France que j’aime ! »",
+      "original_article_link": "https://www.nouvelobs.com/societe/20250611.OBS104828/manifestation-de-soutien-a-la-palestine-c-est-ca-la-france-que-j-aime.html",
+      "link": "https://www.nouvelobs.com/societe/20250611.OBS104828/manifestation-de-soutien-a-la-palestine-c-est-ca-la-france-que-j-aime.html",
+      "source_name": "L'Obs",
+      "published": "Wed, 11 Jun 2025 16:08:44 +0200",
+      "published_date": "Wed, 11 Jun 2025 16:08:44 +0200",
+      "contextual_title_explanations": {
+        "Manifestation": {
+          "display_format": "**Demonstration/Protest:** A public gathering to express views",
+          "explanation": "A organized public event where people gather to express opinions or demands",
+          "cultural_note": "Demonstrations are a significant part of French political culture, with strong historical roots in social movements"
+        },
+        "de": {
+          "display_format": "**Of/For:** (preposition)",
+          "explanation": "Links two nouns to show purpose or relationship",
+          "cultural_note": ""
+        },
+        "soutien": {
+          "display_format": "**Support:** Aid or backing",
+          "explanation": "The act of showing solidarity or helping a cause",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To/For:** (preposition)",
+          "explanation": "Indicates direction or connection to something",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "Palestine": {
+          "display_format": "**Palestine:** Geographic and political region",
+          "explanation": "A region in the Middle East, subject of ongoing political conflict",
+          "cultural_note": "A significant political issue in France, often sparking public demonstrations and debate"
+        },
+        "C'est": {
+          "display_format": "**This is/That is:** (demonstrative phrase)",
+          "explanation": "Contraction of 'ce' (this/that) and 'est' (is)",
+          "cultural_note": ""
+        },
+        "ça": {
+          "display_format": "**That/This:** (demonstrative pronoun)",
+          "explanation": "Informal demonstrative pronoun used to point to something specific",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**France:** (proper noun)",
+          "explanation": "The country of France",
+          "cultural_note": "References to 'la France' often carry emotional significance in expressions of national identity and values"
+        },
+        "que": {
+          "display_format": "**That:** (relative pronoun)",
+          "explanation": "Connects clauses in a sentence",
+          "cultural_note": ""
+        },
+        "j'": {
+          "display_format": "**I:** (personal pronoun)",
+          "explanation": "First person singular pronoun before a vowel sound",
+          "cultural_note": ""
+        },
+        "aime": {
+          "display_format": "**Love:** (verb)",
+          "explanation": "Present tense of 'aimer' - to love or like",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 6.5,
+        "importance_score": 7.5,
+        "total_score": 22.6
+      },
+      "curation_metadata": {
+        "curation_id": "fcc194e6-7f61-452c-8a55-e73646b919d5",
+        "curated_at": "2025-06-11T19:18:50.806535+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-11T19:22:05.001246+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 6.5,
+      "importance_score": 7.5,
+      "total_score": 22.6
+    },
+    {
+      "title": "Le Hamas poursuit un chef de gang palestinien",
+      "english_title": "Hamas Targets Palestinian Gang Leader",
+      "simplified_french_title": "Le Hamas poursuit un chef de gang palestinien",
+      "simplified_english_title": "Hamas Targets Palestinian Gang Leader",
+      "summary": "Un chef de gang palestinien est recherché par le Hamas. Son histoire complexe et ses activités criminelles attirent l'attention des autorités.",
+      "english_summary": "A Palestinian gang leader is being pursued by Hamas. His complex history and criminal activities have drawn the attention of authorities.",
+      "french_summary": "Un chef de gang palestinien est recherché par le Hamas. Son histoire complexe et ses activités criminelles attirent l'attention des autorités.",
+      "original_article_title": "Gaza : l’histoire trouble de Yasser Abu Shabab, ce chef de gang palestinien dans le viseur du Hamas",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/gaza-lhistoire-trouble-de-yasser-abu-shabab-ce-chef-de-gang-palestinien-dans-le-viseur-du-hamas-25533VAUXJBYRBB6427RKKNJMI/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/gaza-lhistoire-trouble-de-yasser-abu-shabab-ce-chef-de-gang-palestinien-dans-le-viseur-du-hamas-25533VAUXJBYRBB6427RKKNJMI/",
+      "source_name": "L'Express",
+      "published": "Wed, 11 Jun 2025 17:03:36 +0000",
+      "published_date": "Wed, 11 Jun 2025 17:03:36 +0000",
+      "contextual_title_explanations": {
+        "Gaza": {
+          "display_format": "**Gaza:** Palestinian territory",
+          "explanation": "A Palestinian territory on the eastern coast of the Mediterranean Sea, currently under conflict",
+          "cultural_note": "Site of ongoing Israeli-Palestinian conflict and humanitarian crisis"
+        },
+        "l'": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Contracted form of 'la' or 'le' before a vowel sound",
+          "cultural_note": ""
+        },
+        "histoire": {
+          "display_format": "**History/Story:** Account of past events",
+          "explanation": "Can refer to either history in general or a specific story/account",
+          "cultural_note": ""
+        },
+        "trouble": {
+          "display_format": "**Troubled/Murky:** Problematic or unclear",
+          "explanation": "Indicates something complicated, controversial, or problematic",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Used to show possession or connection between elements",
+          "cultural_note": ""
+        },
+        "Yasser Abu Shabab": {
+          "display_format": "**Yasser Abu Shabab:** Name of individual",
+          "explanation": "A Palestinian individual's name",
+          "cultural_note": "Subject of the news article regarding gang activity in Gaza"
+        },
+        "ce": {
+          "display_format": "**This:** (demonstrative adjective)",
+          "explanation": "Used to point out or specify a particular person or thing",
+          "cultural_note": ""
+        },
+        "chef": {
+          "display_format": "**Leader/Chief:** Person in charge",
+          "explanation": "Someone who leads or heads an organization or group",
+          "cultural_note": ""
+        },
+        "de gang": {
+          "display_format": "**Of gang:** Criminal organization",
+          "explanation": "Refers to an organized group involved in criminal activities",
+          "cultural_note": ""
+        },
+        "palestinien": {
+          "display_format": "**Palestinian:** From Palestine",
+          "explanation": "Relating to Palestine or its people",
+          "cultural_note": "Refers to the Palestinian people and their identity in the context of the Middle East"
+        },
+        "dans": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Indicates location or position",
+          "cultural_note": ""
+        },
+        "le viseur": {
+          "display_format": "**The sights/crosshairs:** Target",
+          "explanation": "Metaphorical expression meaning to be targeted or pursued",
+          "cultural_note": "Common metaphorical expression in French media to indicate someone is being targeted"
+        },
+        "du": {
+          "display_format": "**Of the:** (contracted form of 'de le')",
+          "explanation": "Contraction of the preposition 'de' and the article 'le'",
+          "cultural_note": ""
+        },
+        "Hamas": {
+          "display_format": "**Hamas:** Palestinian political and military organization",
+          "explanation": "Islamic Palestinian organization that controls the Gaza Strip",
+          "cultural_note": "Major political and military force in Palestinian territories, particularly Gaza"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 3.8999999999999995,
+        "importance_score": 9.5,
+        "total_score": 22.5
+      },
+      "curation_metadata": {
+        "curation_id": "6d2a4741-5b3a-4600-8c1e-3ae4e74cc4fc",
+        "curated_at": "2025-06-11T19:18:50.827094+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-11T19:22:05.001262+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 3.8999999999999995,
+      "importance_score": 9.5,
+      "total_score": 22.5
+    },
+    {
+      "title": "Rachel Kushner observe la situation tendue à Los Angeles",
+      "english_title": "Rachel Kushner observes the tense situation in Los Angeles",
+      "simplified_french_title": "Rachel Kushner observe la situation tendue à Los Angeles",
+      "simplified_english_title": "Rachel Kushner observes the tense situation in Los Angeles",
+      "summary": "L'écrivaine Rachel Kushner décrit les manifestations à Los Angeles où Trump a envoyé l'armée pour contrôler les protestations contre sa politique migratoire.",
+      "english_summary": "Writer Rachel Kushner describes the protests in Los Angeles where Trump has sent military forces to control demonstrations against his immigration policy.",
+      "french_summary": "L'écrivaine Rachel Kushner décrit les manifestations à Los Angeles où Trump a envoyé l'armée pour contrôler les protestations contre sa politique migratoire.",
+      "original_article_title": "« Trump rêve d’un Tiananmen à lui » : la situation à Los Angeles vue (de près) par l’écrivaine Rachel Kushner",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250611.OBS104841/trump-reve-d-un-tiananmen-a-lui-la-situation-a-los-angeles-vue-de-pres-par-l-ecrivaine-rachel-kushner.html",
+      "link": "https://www.nouvelobs.com/monde/20250611.OBS104841/trump-reve-d-un-tiananmen-a-lui-la-situation-a-los-angeles-vue-de-pres-par-l-ecrivaine-rachel-kushner.html",
+      "source_name": "L'Obs",
+      "published": "Wed, 11 Jun 2025 19:00:13 +0200",
+      "published_date": "Wed, 11 Jun 2025 19:00:13 +0200",
+      "contextual_title_explanations": {
+        "Trump": {
+          "display_format": "**Trump:** Donald Trump",
+          "explanation": "45th President of the United States (2017-2021)",
+          "cultural_note": "Known for controversial policies, especially regarding immigration and protest response"
+        },
+        "rêve": {
+          "display_format": "**Dreams/wishes:** (from 'rêver')",
+          "explanation": "The verb 'rêver' means to dream, but in this context implies wishful thinking or desire",
+          "cultural_note": ""
+        },
+        "d'": {
+          "display_format": "**Of:** (contraction of 'de')",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A/An:** (indefinite article)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "Tiananmen": {
+          "display_format": "**Tiananmen:** Historical reference",
+          "explanation": "Refers to the 1989 Tiananmen Square protests in Beijing",
+          "cultural_note": "Symbol of government crackdown on civilian protests, resulting in numerous casualties"
+        },
+        "à": {
+          "display_format": "**To/For:** (preposition)",
+          "explanation": "Indicates possession or attribution",
+          "cultural_note": ""
+        },
+        "lui": {
+          "display_format": "**His/Him:** (personal pronoun)",
+          "explanation": "Used for emphasis, meaning 'his own'",
+          "cultural_note": ""
+        },
+        "la situation": {
+          "display_format": "**The situation:** Current state of affairs",
+          "explanation": "Refers to current events or circumstances",
+          "cultural_note": ""
+        },
+        "à Los Angeles": {
+          "display_format": "**In Los Angeles:** Location reference",
+          "explanation": "Major city in California, United States",
+          "cultural_note": "Site of significant protests and social movements throughout history"
+        },
+        "vue": {
+          "display_format": "**Seen/Viewed:** (past participle of 'voir')",
+          "explanation": "Indicates observation or perspective",
+          "cultural_note": ""
+        },
+        "de près": {
+          "display_format": "**Up close/Closely:** (adverbial phrase)",
+          "explanation": "Indicates direct, personal observation",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates agency or authorship",
+          "cultural_note": ""
+        },
+        "l'écrivaine": {
+          "display_format": "**The writer:** (feminine form)",
+          "explanation": "Female form of 'écrivain' (writer)",
+          "cultural_note": "The feminine form reflects modern inclusive language practices in French"
+        },
+        "Rachel Kushner": {
+          "display_format": "**Rachel Kushner:** Author's name",
+          "explanation": "American novelist and essayist",
+          "cultural_note": "Known for political and social commentary in her work"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.9,
+        "relevance_score": 6.0,
         "importance_score": 7.5,
         "total_score": 22.4
       },
       "curation_metadata": {
-        "curation_id": "94ca4e86-372d-4cf1-9145-285f5a9d39ba",
-        "curated_at": "2025-06-10T20:37:31.500142+00:00",
+        "curation_id": "1837244f-16d7-4ad5-9eb0-efe5f669a0a9",
+        "curated_at": "2025-06-11T19:18:50.801508+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-10T20:41:26.712846+00:00",
-      "quality_score": 7.4,
-      "relevance_score": 7.5,
+      "added_at": "2025-06-11T19:22:05.001278+00:00",
+      "quality_score": 8.9,
+      "relevance_score": 6.0,
       "importance_score": 7.5,
       "total_score": 22.4
+    },
+    {
+      "title": "La détection rapide des problèmes de santé mentale chez les jeunes",
+      "english_title": "Early Detection of Mental Health Issues in Young People",
+      "simplified_french_title": "La détection rapide des problèmes de santé mentale chez les jeunes",
+      "simplified_english_title": "Early Detection of Mental Health Issues in Young People",
+      "summary": "Le ministère de la Santé présente un nouveau plan pour améliorer la santé mentale des jeunes, mais les changements proposés semblent insuffisants.",
+      "english_summary": "The Health Ministry presents a new mental health plan for young people, but the proposed changes appear insufficient to address current needs.",
+      "french_summary": "Le ministère de la Santé présente un nouveau plan pour améliorer la santé mentale des jeunes, mais les changements proposés semblent insuffisants.",
+      "original_article_title": "Santé mentale : le repérage précoce des jeunes en souffrance, un chantier prioritaire",
+      "original_article_link": "https://sante.lefigaro.fr/social/sante-publique/sante-mentale-le-reperage-precoce-des-jeunes-en-souffrance-un-chantier-prioritaire-20250611",
+      "link": "https://sante.lefigaro.fr/social/sante-publique/sante-mentale-le-reperage-precoce-des-jeunes-en-souffrance-un-chantier-prioritaire-20250611",
+      "source_name": "Le Figaro",
+      "published": "Wed, 11 Jun 2025 19:59:00 +0200",
+      "published_date": "Wed, 11 Jun 2025 19:59:00 +0200",
+      "contextual_title_explanations": {
+        "Santé": {
+          "display_format": "**Health:** Physical or mental well-being",
+          "explanation": "Refers to the overall condition of physical and mental wellness",
+          "cultural_note": "Healthcare ('la santé') is considered a fundamental right in France, with universal coverage through the Sécurité Sociale system"
+        },
+        "mentale": {
+          "display_format": "**Mental:** Relating to the mind",
+          "explanation": "Describes aspects related to psychological and emotional well-being",
+          "cultural_note": "Mental health has historically been stigmatized in France, though attitudes are evolving"
+        },
+        "le": {
+          "display_format": "**The:** Definite article (masculine singular)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "repérage": {
+          "display_format": "**Detection/Identification:** The act of discovering or spotting",
+          "explanation": "Refers to the process of identifying or discovering something specific",
+          "cultural_note": ""
+        },
+        "précoce": {
+          "display_format": "**Early/Premature:** Occurring before the usual time",
+          "explanation": "Describes something that happens or is done at an early stage",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of the:** Plural definite article",
+          "explanation": "Contraction of 'de les', used before plural nouns",
+          "cultural_note": ""
+        },
+        "jeunes": {
+          "display_format": "**Young people:** Youth, young individuals",
+          "explanation": "Refers to young people or adolescents as a group",
+          "cultural_note": "In French policy contexts, 'les jeunes' typically refers to people aged 15-25"
+        },
+        "en": {
+          "display_format": "**In:** Preposition",
+          "explanation": "Used to indicate state or condition",
+          "cultural_note": ""
+        },
+        "souffrance": {
+          "display_format": "**Suffering:** Pain or distress",
+          "explanation": "Refers to physical or emotional pain, distress, or difficulty",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A/An:** Indefinite article (masculine)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "chantier": {
+          "display_format": "**Project/Work site:** Major undertaking",
+          "explanation": "Literally means 'construction site' but here refers to a major project or initiative",
+          "cultural_note": "Often used metaphorically in French to describe major reform projects or initiatives"
+        },
+        "prioritaire": {
+          "display_format": "**Priority:** Of highest importance",
+          "explanation": "Indicates something that must be dealt with first or is of highest importance",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 5.8999999999999995,
+        "importance_score": 8.5,
+        "total_score": 21.3
+      },
+      "curation_metadata": {
+        "curation_id": "f91b77ec-34c8-49e6-9ab5-34ab424616ad",
+        "curated_at": "2025-06-11T19:18:50.808741+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-11T19:22:05.001288+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 5.8999999999999995,
+      "importance_score": 8.5,
+      "total_score": 21.3
     }
   ]
 }
