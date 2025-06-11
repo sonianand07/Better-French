@@ -137,7 +137,7 @@ RELIABILITY_CONFIG = {
 WEBSITE_CONFIG = {
     # Live update settings
     'enable_live_updates': True,
-    'max_articles_displayed': 30,      # Keep top 30 articles
+    'max_articles_displayed': 100,     # Keep top 100 articles (rolling system)
     'update_animation_duration': 300,  # milliseconds
     'show_update_notifications': True,
     
