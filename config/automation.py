@@ -85,7 +85,7 @@ COST_CONFIG = {
     # AI processing strategy (QUALITY-FIRST approach)
     'enable_realtime_ai_processing': True,    # NEW: Process all articles with AI
     'max_ai_articles_per_day': 100,           # Daily limit (backup safety)
-    'max_ai_articles_per_run': 10,            # NEW: Only top 10 articles per 2-hour run
+    'max_ai_articles_per_run': 20,            # Increased to process up to 20 articles per 2-hour run
     'max_ai_calls_per_day': 120,              # API call limit
     'ai_batch_size': 5,                       # Process in batches
     

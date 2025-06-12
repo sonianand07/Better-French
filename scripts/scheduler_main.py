@@ -262,9 +262,29 @@ class MasterScheduler:
                             
                             self.website_updater.update_with_ai_enhanced_articles(enhanced_dicts)
                             logger.info(f"🚨 Website updated with {len(enhanced_articles)} AI-enhanced breaking news")
+                            # --- Fallback safeguard ---
+                            # If the website currently has no data (e.g. first run or previous file deleted),
+                            # publish the curated fast-tracked breaking articles so that the site is never empty.
+                            try:
+                                status = self.website_updater.get_website_status()
+                                if status.get('total_articles', 0) == 0 and fast_tracked:
+                                    self.website_updater.update_with_curated_articles(fast_tracked)
+                                    logger.info(f"🚨 Fallback: Published {len(fast_tracked)} curated breaking news articles to prevent empty site")
+                            except Exception as e:
+                                logger.error(f"❌ Fallback publication for breaking news failed: {e}")
                         else:
                             # Skip publishing curated-only articles; keep existing website data unchanged
                             logger.info("🤖 AI enhancement unavailable; retaining existing published articles without adding curated-only items")
+                            # --- Fallback safeguard ---
+                            # If there is currently no website data (e.g. first deployment) publish curated
+                            # articles anyway so the front-end has something to display.
+                            try:
+                                status = self.website_updater.get_website_status()
+                                if status.get('total_articles', 0) == 0 and fast_tracked:
+                                    self.website_updater.update_with_curated_articles(fast_tracked)
+                                    logger.info(f"🚨 Fallback: Published {len(fast_tracked)} curated breaking news articles to prevent empty site")
+                            except Exception as e:
+                                logger.error(f"❌ Fallback publication failed: {e}")
                     
                     self.system_stats['breaking_news_processed_today'] += len(fast_tracked)
                     self.system_stats['last_breaking_news'] = datetime.now(timezone.utc)
@@ -408,22 +428,32 @@ class MasterScheduler:
                     else:
                         # Skip publishing curated-only articles; keep existing website data unchanged
                         logger.info("🤖 AI enhancement unavailable; retaining existing published articles without adding curated-only items")
-                
-                # Update daily articles file with published status
-                try:
-                    published_articles = [a for a in daily_articles if a.get('published_on_website')]
-                    unpublished_articles = [a for a in daily_articles if not a.get('published_on_website')]
+                        # --- Fallback safeguard ---
+                        # If there is currently no website data (e.g. first deployment) publish curated
+                        # articles anyway so the front-end has something to display.
+                        try:
+                            status = self.website_updater.get_website_status()
+                            if status.get('total_articles', 0) == 0 and curated_articles:
+                                self.website_updater.update_with_curated_articles(curated_articles)
+                                logger.info(f"🌐 Fallback: Published {len(curated_articles)} curated articles to prevent empty site")
+                        except Exception as e:
+                            logger.error(f"❌ Fallback publication failed: {e}")
                     
-                    with open(daily_file, 'w', encoding='utf-8') as f:
-                        json.dump({
-                            'date': today,
-                            'total_articles': len(daily_articles),
-                            'published_articles': published_articles,
-                            'unpublished_articles': unpublished_articles
-                        }, f, ensure_ascii=False, indent=2, default=str)
-                    logger.info(f"📁 Updated daily archive: {len(published_articles)} published, {len(unpublished_articles)} unpublished")
-                except Exception as e:
-                    logger.error(f"❌ Failed to update daily articles file: {e}")
+                    # Update daily articles file with published status
+                    try:
+                        published_articles = [a for a in daily_articles if a.get('published_on_website')]
+                        unpublished_articles = [a for a in daily_articles if not a.get('published_on_website')]
+                        
+                        with open(daily_file, 'w', encoding='utf-8') as f:
+                            json.dump({
+                                'date': today,
+                                'total_articles': len(daily_articles),
+                                'published_articles': published_articles,
+                                'unpublished_articles': unpublished_articles
+                            }, f, ensure_ascii=False, indent=2, default=str)
+                        logger.info(f"📁 Updated daily archive: {len(published_articles)} published, {len(unpublished_articles)} unpublished")
+                    except Exception as e:
+                        logger.error(f"❌ Failed to update daily articles file: {e}")
                 
                 self.system_stats['articles_processed_today'] += len(curated_articles)
                 self.system_stats['last_successful_update'] = datetime.now(timezone.utc)
