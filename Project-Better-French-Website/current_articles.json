@@ -1,92 +1,274 @@
 {
   "metadata": {
-    "updated_at": "2025-06-12T14:46:36.954100+00:00",
+    "updated_at": "2025-06-12T16:19:54.441468+00:00",
     "total_articles": 10,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
     "ai_enhanced_count": 10,
     "update_type": "ai_enhanced",
-    "average_score": 24.049999999999997
+    "average_score": 25.57
   },
   "articles": [
     {
-      "title": "Les détecteurs de métaux ne trouvent pas bien les couteaux",
-      "english_title": "Security Metal Detectors Fail to Detect Knives",
-      "simplified_french_title": "Les détecteurs de métaux ne trouvent pas bien les couteaux",
-      "simplified_english_title": "Security Metal Detectors Fail to Detect Knives",
-      "summary": "Des tests récents montrent que les portiques de sécurité sont inefficaces pour détecter les couteaux, avec un taux d'échec très élevé.",
-      "english_summary": "Recent testing reveals that security gates are largely ineffective at detecting knives, with a very high failure rate.",
-      "french_summary": "Des tests récents montrent que les portiques de sécurité sont inefficaces pour détecter les couteaux, avec un taux d'échec très élevé.",
-      "original_article_title": "Agressions au couteau : \"Les tests sur les portiques de sécurité montrent un échec de 80 % !\"",
-      "original_article_link": "https://www.lexpress.fr/societe/agressions-au-couteau-les-tests-sur-les-portiques-de-securite-montrent-un-echec-de-80-HJSPBJZSTZDFNIC7X2LISNJYVQ/",
-      "link": "https://www.lexpress.fr/societe/agressions-au-couteau-les-tests-sur-les-portiques-de-securite-montrent-un-echec-de-80-HJSPBJZSTZDFNIC7X2LISNJYVQ/",
+      "title": "Le bonheur au travail : le yoga n'est pas la solution",
+      "english_title": "Workplace Happiness: Yoga Is Not the Solution",
+      "simplified_french_title": "Le bonheur au travail : le yoga n'est pas la solution",
+      "simplified_english_title": "Workplace Happiness: Yoga Is Not the Solution",
+      "summary": "Les experts expliquent que les problèmes fondamentaux au travail ne peuvent pas être résolus simplement avec des activités de bien-être comme le yoga.",
+      "english_summary": "Experts explain that fundamental workplace problems cannot be solved simply by implementing wellness activities like yoga sessions.",
+      "french_summary": "Les experts expliquent que les problèmes fondamentaux au travail ne peuvent pas être résolus simplement avec des activités de bien-être comme le yoga.",
+      "original_article_title": "La science derrière le bonheur au travail : \"On ne résout pas des problèmes structurels à coups de yoga\"",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/la-science-derriere-le-bonheur-au-travail-on-ne-resout-pas-des-problemes-structurels-a-coups-de-yoga-HBH5HIN2NJCZXNK3ZSA2CREBXA/",
+      "link": "https://www.lexpress.fr/idees-et-debats/la-science-derriere-le-bonheur-au-travail-on-ne-resout-pas-des-problemes-structurels-a-coups-de-yoga-HBH5HIN2NJCZXNK3ZSA2CREBXA/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 12:20:10 +0000",
-      "published_date": "Thu, 12 Jun 2025 12:20:10 +0000",
+      "published": "Thu, 12 Jun 2025 16:00:00 +0000",
+      "published_date": "Thu, 12 Jun 2025 16:00:00 +0000",
       "contextual_title_explanations": {
-        "Agressions": {
-          "display_format": "**Attacks/Assaults:** Acts of violence against others",
-          "explanation": "Physical attacks or violent acts committed against people. The plural form indicates multiple incidents.",
-          "cultural_note": "Recent knife attacks in France have heightened security concerns, particularly in public spaces."
-        },
-        "au": {
-          "display_format": "**With the:** (contraction of 'à + le')",
-          "explanation": "A preposition combined with the definite article, indicating the method or means of attack",
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Used before feminine singular nouns",
           "cultural_note": ""
         },
-        "couteau": {
-          "display_format": "**Knife:** A cutting instrument",
-          "explanation": "A sharp blade used as a tool or weapon",
-          "cultural_note": "Knife-related violence has become a significant concern in French public safety discussions."
-        },
-        "Les": {
-          "display_format": "**The:** (plural definite article)",
-          "explanation": "Used before plural nouns to indicate specific items being discussed",
+        "science": {
+          "display_format": "**Science:** Scientific knowledge or study",
+          "explanation": "Refers to systematic knowledge or study based on observable facts and measurable data",
           "cultural_note": ""
         },
-        "tests": {
-          "display_format": "**Tests:** Trials or evaluations",
-          "explanation": "Formal examinations or trials to determine effectiveness or performance",
+        "derrière": {
+          "display_format": "**Behind:** (preposition)",
+          "explanation": "Indicates what lies beneath or explains something",
           "cultural_note": ""
         },
-        "sur": {
-          "display_format": "**On/Of:** (preposition)",
-          "explanation": "Indicates the subject or target of the testing",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** (plural definite article)",
-          "explanation": "Used before plural nouns to indicate specific items",
-          "cultural_note": ""
-        },
-        "portiques de sécurité": {
-          "display_format": "**Security Gates/Metal Detectors:** Walk-through security screening devices",
-          "explanation": "Electronic devices used to detect metal objects on people passing through them",
-          "cultural_note": "Increasingly common in French public spaces, schools, and government buildings following security incidents."
-        },
-        "montrent": {
-          "display_format": "**Show:** (verb, third person plural of 'montrer')",
-          "explanation": "To demonstrate or reveal something",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**A/An:** (indefinite article)",
+        "le": {
+          "display_format": "**The:** (masculine definite article)",
           "explanation": "Used before masculine singular nouns",
           "cultural_note": ""
         },
-        "échec": {
-          "display_format": "**Failure:** Lack of success",
-          "explanation": "The state of not succeeding or meeting expected standards",
+        "bonheur": {
+          "display_format": "**Happiness:** State of well-being or contentment",
+          "explanation": "Refers to a feeling of satisfaction and joy",
+          "cultural_note": "The concept of 'bonheur au travail' has become increasingly discussed in French workplace culture"
+        },
+        "au": {
+          "display_format": "**At the / In the:** (contraction)",
+          "explanation": "Contraction of 'à + le', used to indicate location or context",
           "cultural_note": ""
         },
-        "de 80 %": {
-          "display_format": "**Of 80%:** Numerical percentage",
-          "explanation": "Indicates the rate or proportion of failure",
+        "travail": {
+          "display_format": "**Work:** Employment or workplace",
+          "explanation": "Refers to professional activity or place of employment",
+          "cultural_note": "French labor laws and workplace culture are notably different from other countries"
+        },
+        "On": {
+          "display_format": "**One / We:** (impersonal pronoun)",
+          "explanation": "Used as an indefinite subject, similar to 'one' or 'we' in English",
+          "cultural_note": "Very commonly used in French, more than its English equivalents"
+        },
+        "ne...pas": {
+          "display_format": "**Not:** (negation)",
+          "explanation": "Two-part negative construction in French",
           "cultural_note": ""
         },
-        "!": {
-          "display_format": "**!:** Exclamation mark",
-          "explanation": "Punctuation mark indicating emphasis or alarm",
+        "résout": {
+          "display_format": "**Resolves:** (verb)",
+          "explanation": "Present tense of 'résoudre' - to solve or resolve",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/Any:** (plural indefinite article)",
+          "explanation": "Used before plural nouns",
+          "cultural_note": ""
+        },
+        "problèmes structurels": {
+          "display_format": "**Structural problems:** Fundamental or systemic issues",
+          "explanation": "Refers to deep-rooted organizational or systemic issues rather than surface-level problems",
+          "cultural_note": "Often used in French discourse about workplace and societal issues"
+        },
+        "à coups de": {
+          "display_format": "**By means of / Using:** (idiomatic expression)",
+          "explanation": "Literally 'by blows of', used to describe the means or method of doing something",
+          "cultural_note": "Common French expression indicating repetitive or forceful attempts"
+        },
+        "yoga": {
+          "display_format": "**Yoga:** Physical and mental practice",
+          "explanation": "Ancient practice combining physical postures, breathing techniques, and meditation",
+          "cultural_note": "Often symbolizes corporate wellness initiatives in modern workplace culture"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 9.0,
+        "importance_score": 10,
+        "total_score": 28.6
+      },
+      "curation_metadata": {
+        "curation_id": "4c49f790-6aa0-46b7-b4c9-82939a7960d4",
+        "curated_at": "2025-06-12T16:16:35.626011+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T16:19:54.441262+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 9.0,
+      "importance_score": 10,
+      "total_score": 28.6
+    },
+    {
+      "title": "Des partisans de Zemmour rejoignent le parti de Ciotti",
+      "english_title": "Zemmour's Supporters Join Ciotti's Party",
+      "simplified_french_title": "Des partisans de Zemmour rejoignent le parti de Ciotti",
+      "simplified_english_title": "Zemmour's Supporters Join Ciotti's Party",
+      "summary": "Plusieurs membres du parti d'Éric Zemmour décident de quitter son mouvement pour rejoindre Les Républicains, le parti dirigé par Éric Ciotti.",
+      "english_summary": "Several members of Eric Zemmour's political party have decided to leave his movement and join Les Républicains, the party led by Eric Ciotti.",
+      "french_summary": "Plusieurs membres du parti d'Éric Zemmour décident de quitter son mouvement pour rejoindre Les Républicains, le parti dirigé par Éric Ciotti.",
+      "original_article_title": "Emmanuel Macron exécute Gabriel Attal, ces zemmouristes qui rejoignent Eric Ciotti",
+      "original_article_link": "https://www.lexpress.fr/politique/emmanuel-macron-execute-gabriel-attal-ces-zemmouristes-qui-rejoignent-eric-ciotti-5J4NJLPZABG43NM4U7DKRNRCDQ/",
+      "link": "https://www.lexpress.fr/politique/emmanuel-macron-execute-gabriel-attal-ces-zemmouristes-qui-rejoignent-eric-ciotti-5J4NJLPZABG43NM4U7DKRNRCDQ/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 15:06:28 +0000",
+      "published_date": "Thu, 12 Jun 2025 15:06:28 +0000",
+      "contextual_title_explanations": {
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Current President of France",
+          "explanation": "The President of France since 2017, leader of the Renaissance party (formerly En Marche)",
+          "cultural_note": "Youngest president in French history, representing centrist politics in France"
+        },
+        "exécute": {
+          "display_format": "**Executes/Carries out:** (verb)",
+          "explanation": "From 'exécuter', meaning to carry out or implement. In political context, can mean to give orders to or direct someone",
+          "cultural_note": "In French political journalism, this term can have dramatic connotations suggesting authoritative action"
+        },
+        "Gabriel Attal": {
+          "display_format": "**Gabriel Attal:** French Prime Minister",
+          "explanation": "Appointed as Prime Minister in January 2024, youngest PM in French history",
+          "cultural_note": "His appointment marked a significant shift in Macron's government strategy"
+        },
+        "ces": {
+          "display_format": "**These:** (demonstrative adjective)",
+          "explanation": "Used to point to specific items or people being discussed",
+          "cultural_note": ""
+        },
+        "zemmouristes": {
+          "display_format": "**Zemmourists:** Supporters of Eric Zemmour",
+          "explanation": "People who follow or support the political ideology of Eric Zemmour",
+          "cultural_note": "Term created by adding '-iste' to Zemmour's name, common practice in French politics to describe supporters"
+        },
+        "qui": {
+          "display_format": "**Who:** (relative pronoun)",
+          "explanation": "Connects a clause about the subject to the main sentence",
+          "cultural_note": ""
+        },
+        "rejoignent": {
+          "display_format": "**Join/Are joining:** (verb)",
+          "explanation": "Present tense of 'rejoindre', meaning to join or unite with",
+          "cultural_note": ""
+        },
+        "Eric Ciotti": {
+          "display_format": "**Eric Ciotti:** French politician",
+          "explanation": "President of Les Républicains party, representing right-wing conservative politics",
+          "cultural_note": "Key figure in French right-wing politics, leading the traditional conservative party Les Républicains"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.9,
+        "relevance_score": 9.0,
+        "importance_score": 10,
+        "total_score": 26.9
+      },
+      "curation_metadata": {
+        "curation_id": "3d493081-970c-4286-b70a-395a43822128",
+        "curated_at": "2025-06-12T16:16:35.632273+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T16:19:54.441286+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 9.0,
+      "importance_score": 10,
+      "total_score": 26.9
+    },
+    {
+      "title": "Un Boeing 787 s'écrase en Inde",
+      "english_title": "Boeing 787 Crashes in India",
+      "simplified_french_title": "Un Boeing 787 s'écrase en Inde",
+      "simplified_english_title": "Boeing 787 Crashes in India",
+      "summary": "Pour la première fois, un avion Boeing 787 est impliqué dans un accident grave en Inde. C'est un événement historique pour ce modèle d'avion.",
+      "english_summary": "For the first time, a Boeing 787 aircraft has been involved in a serious accident in India. This is a historic event for this aircraft model.",
+      "french_summary": "Pour la première fois, un avion Boeing 787 est impliqué dans un accident grave en Inde. C'est un événement historique pour ce modèle d'avion.",
+      "original_article_title": "Crash d’avion en Inde : le long-courrier Boeing 787 impliqué pour la première fois",
+      "original_article_link": "https://www.lexpress.fr/monde/asie/crash-davion-en-inde-le-long-courrier-boeing-787-implique-pour-la-premiere-fois-BLN6FC2F2RGNBMR6LS2F6EQX7A/",
+      "link": "https://www.lexpress.fr/monde/asie/crash-davion-en-inde-le-long-courrier-boeing-787-implique-pour-la-premiere-fois-BLN6FC2F2RGNBMR6LS2F6EQX7A/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 15:19:10 +0000",
+      "published_date": "Thu, 12 Jun 2025 15:19:10 +0000",
+      "contextual_title_explanations": {
+        "Crash": {
+          "display_format": "**Crash:** Accident/collision",
+          "explanation": "An anglicism commonly used in French to describe a serious aircraft accident",
+          "cultural_note": "While 'écrasement' is the French term, 'crash' is widely accepted in aviation context"
+        },
+        "d'": {
+          "display_format": "**d' (de):** Of/from",
+          "explanation": "Preposition indicating possession or type, with apostrophe used before vowel sounds",
+          "cultural_note": ""
+        },
+        "avion": {
+          "display_format": "**avion:** Airplane/aircraft",
+          "explanation": "A powered flying vehicle with fixed wings",
+          "cultural_note": "France has a proud aviation history, being one of the pioneers in aircraft development"
+        },
+        "en": {
+          "display_format": "**en:** In",
+          "explanation": "Preposition indicating location or position within a place",
+          "cultural_note": ""
+        },
+        "Inde": {
+          "display_format": "**Inde:** India",
+          "explanation": "Country in South Asia",
+          "cultural_note": "France maintains significant economic and diplomatic ties with India"
+        },
+        "le": {
+          "display_format": "**le:** The",
+          "explanation": "Masculine definite article",
+          "cultural_note": ""
+        },
+        "long-courrier": {
+          "display_format": "**long-courrier:** Long-haul aircraft",
+          "explanation": "An aircraft designed for long-distance flights",
+          "cultural_note": "Term reflects the importance of aviation terminology in French"
+        },
+        "Boeing 787": {
+          "display_format": "**Boeing 787:** Boeing 787 (Dreamliner)",
+          "explanation": "A wide-body commercial jet airliner manufactured by Boeing",
+          "cultural_note": "Competes with European manufacturer Airbus's A350"
+        },
+        "impliqué": {
+          "display_format": "**impliqué:** Involved",
+          "explanation": "Past participle of 'impliquer', meaning to be involved or included in something",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** For",
+          "explanation": "Preposition indicating purpose or duration",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** The",
+          "explanation": "Feminine definite article",
+          "cultural_note": ""
+        },
+        "première": {
+          "display_format": "**première:** First",
+          "explanation": "Feminine form of 'premier', indicating the first occurrence",
+          "cultural_note": ""
+        },
+        "fois": {
+          "display_format": "**fois:** Time (instance)",
+          "explanation": "Noun referring to an occurrence or instance",
           "cultural_note": ""
         }
       },
@@ -94,181 +276,166 @@
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 9.1,
-        "relevance_score": 9.0,
-        "importance_score": 9.5,
-        "total_score": 27.6
+        "relevance_score": 7.0,
+        "importance_score": 10,
+        "total_score": 26.1
       },
       "curation_metadata": {
-        "curation_id": "1ef312ee-811c-4967-b1ae-bb5ff67699c3",
-        "curated_at": "2025-06-12T14:43:26.431352+00:00",
+        "curation_id": "215336db-8337-46b1-b36b-645a91fa21ea",
+        "curated_at": "2025-06-12T16:16:35.630593+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.953924+00:00",
+      "added_at": "2025-06-12T16:19:54.441310+00:00",
       "quality_score": 9.1,
-      "relevance_score": 9.0,
-      "importance_score": 9.5,
-      "total_score": 27.6
+      "relevance_score": 7.0,
+      "importance_score": 10,
+      "total_score": 26.1
     },
     {
-      "title": "Internet ne fonctionne plus à Gaza après une attaque",
-      "english_title": "Internet Down in Gaza After Attack",
-      "simplified_french_title": "Internet ne fonctionne plus à Gaza après une attaque",
-      "simplified_english_title": "Internet Down in Gaza After Attack",
-      "summary": "L'accès à internet à Gaza a été interrompu suite à des dommages sur les câbles de fibre optique. La communication est maintenant limitée.",
-      "english_summary": "Internet access in Gaza has been disrupted after damage to fiber optic cables. Communication in the region is now limited.",
-      "french_summary": "L'accès à internet à Gaza a été interrompu suite à des dommages sur les câbles de fibre optique. La communication est maintenant limitée.",
-      "original_article_title": "Gaza : le réseau internet coupé après une attaque sur une ligne de fibre optique",
-      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-a-gaza-israel-annonce-le-retour-des-depouilles-de-deux-otages-H6XTJYJ4FJGANDTHFRDCG3VW6Y/",
-      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-a-gaza-israel-annonce-le-retour-des-depouilles-de-deux-otages-H6XTJYJ4FJGANDTHFRDCG3VW6Y/",
+      "title": "Le Dogecoin perd de la valeur après le départ de Musk",
+      "english_title": "Dogecoin Nears Collapse After Musk's Departure",
+      "simplified_french_title": "Le Dogecoin perd de la valeur après le départ de Musk",
+      "simplified_english_title": "Dogecoin Nears Collapse After Musk's Departure",
+      "summary": "La cryptomonnaie Dogecoin fait face à une crise majeure suite au départ d'Elon Musk de X (Twitter), son principal promoteur.",
+      "english_summary": "The cryptocurrency Dogecoin faces a major crisis following the departure of its main promoter, Elon Musk, from X (Twitter).",
+      "french_summary": "La cryptomonnaie Dogecoin fait face à une crise majeure suite au départ d'Elon Musk de X (Twitter), son principal promoteur.",
+      "original_article_title": "Après le départ d'Elon Musk, le Doge au bord de l'implosion",
+      "original_article_link": "https://www.lexpress.fr/monde/amerique/apres-le-depart-delon-musk-le-doge-au-bord-de-limplosion-TZV33UBK3RG6VNXY2GSLBHUH2U/",
+      "link": "https://www.lexpress.fr/monde/amerique/apres-le-depart-delon-musk-le-doge-au-bord-de-limplosion-TZV33UBK3RG6VNXY2GSLBHUH2U/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 11:21:18 +0000",
-      "published_date": "Thu, 12 Jun 2025 11:21:18 +0000",
+      "published": "Thu, 12 Jun 2025 14:47:19 +0000",
+      "published_date": "Thu, 12 Jun 2025 14:47:19 +0000",
       "contextual_title_explanations": {
-        "Gaza": {
-          "display_format": "**Gaza:** Palestinian territory",
-          "explanation": "A Palestinian territory located on the eastern coast of the Mediterranean Sea",
-          "cultural_note": "Currently a major conflict zone between Israel and Hamas, with significant humanitarian concerns"
+        "Après": {
+          "display_format": "**After:** (preposition)",
+          "explanation": "Indicates a sequence of events, showing that one event follows another in time",
+          "cultural_note": ""
         },
         "le": {
-          "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine singular nouns",
+          "display_format": "**The:** (definite article, masculine singular)",
+          "explanation": "Used to indicate a specific noun; here referring to Dogecoin",
           "cultural_note": ""
         },
-        "réseau": {
-          "display_format": "**Network:** System of connected elements",
-          "explanation": "A system of interconnected components, in this case referring to telecommunications infrastructure",
+        "départ": {
+          "display_format": "**Departure:** The act of leaving",
+          "explanation": "Refers to someone's exit or leaving from a position or place",
           "cultural_note": ""
         },
-        "internet": {
-          "display_format": "**Internet:** Global computer network",
-          "explanation": "The worldwide computer network providing various information and communication facilities",
-          "cultural_note": "In French, 'internet' is typically written without a capital letter, unlike in English"
-        },
-        "coupé": {
-          "display_format": "**Cut off/Disconnected:** (past participle)",
-          "explanation": "To be disconnected or interrupted, from the verb 'couper' (to cut)",
+        "d'": {
+          "display_format": "**Of:** (preposition, elided form of 'de')",
+          "explanation": "Used before vowels or silent h, indicates possession or connection",
           "cultural_note": ""
         },
-        "après": {
-          "display_format": "**After:** (preposition)",
-          "explanation": "Following in time or sequence",
+        "Elon Musk": {
+          "display_format": "**Elon Musk:** Tech entrepreneur and businessman",
+          "explanation": "CEO of Tesla and SpaceX, former owner and CEO of Twitter/X",
+          "cultural_note": "Known for his significant influence on cryptocurrency markets, particularly Dogecoin, through his social media presence"
+        },
+        "Doge": {
+          "display_format": "**Doge:** Cryptocurrency name",
+          "explanation": "Short for Dogecoin, a cryptocurrency created as a joke in 2013",
+          "cultural_note": "Based on a popular internet meme featuring a Shiba Inu dog"
+        },
+        "au bord de": {
+          "display_format": "**On the verge of:** (idiomatic expression)",
+          "explanation": "Literally 'at the edge of', used to indicate that something is very close to happening",
           "cultural_note": ""
         },
-        "une": {
-          "display_format": "**A/An:** (feminine indefinite article)",
-          "explanation": "Used before feminine singular nouns",
+        "l'": {
+          "display_format": "**The:** (definite article, elided form)",
+          "explanation": "Used before words beginning with vowels or silent h",
           "cultural_note": ""
         },
-        "attaque": {
-          "display_format": "**Attack:** An offensive action",
-          "explanation": "A deliberate act of aggression or violence against something",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On/Upon:** (preposition)",
-          "explanation": "Indicates location or target of an action",
-          "cultural_note": ""
-        },
-        "une ligne": {
-          "display_format": "**A line:** A connection or pathway",
-          "explanation": "A physical connection or route for transmission",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Used to show possession or composition",
-          "cultural_note": ""
-        },
-        "fibre optique": {
-          "display_format": "**Fiber optic:** Technology for data transmission",
-          "explanation": "Thin flexible fibers that transmit data as pulses of light",
-          "cultural_note": "Critical infrastructure for modern internet communications"
+        "implosion": {
+          "display_format": "**Implosion:** Sudden collapse",
+          "explanation": "A violent collapse inward; metaphorically used to describe a sudden, devastating failure",
+          "cultural_note": "Often used in financial contexts to describe rapid value loss or market collapse"
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 8.1,
-        "relevance_score": 9.0,
-        "importance_score": 9.5,
-        "total_score": 26.6
+        "quality_score": 7.9,
+        "relevance_score": 8.2,
+        "importance_score": 10,
+        "total_score": 26.1
       },
       "curation_metadata": {
-        "curation_id": "77970918-5e9b-4afc-aab0-6e348e032bb9",
-        "curated_at": "2025-06-12T14:43:26.436297+00:00",
+        "curation_id": "f608f77b-83e0-403f-a8ef-f8d451eb082b",
+        "curated_at": "2025-06-12T16:16:35.636430+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.953970+00:00",
-      "quality_score": 8.1,
-      "relevance_score": 9.0,
-      "importance_score": 9.5,
-      "total_score": 26.6
+      "added_at": "2025-06-12T16:19:54.441330+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 8.2,
+      "importance_score": 10,
+      "total_score": 26.1
     },
     {
       "title": "Un avion Boeing d'Air India s'est écrasé",
-      "english_title": "Air India Boeing Plane Crash: What We Know",
+      "english_title": "Air India Boeing Plane Crash",
       "simplified_french_title": "Un avion Boeing d'Air India s'est écrasé",
-      "simplified_english_title": "Air India Boeing Plane Crash: What We Know",
-      "summary": "Un Boeing d'Air India s'est écrasé, causant une catastrophe aérienne majeure. Les autorités enquêtent sur les causes de l'accident.",
-      "english_summary": "An Air India Boeing aircraft has crashed, resulting in a major aviation disaster. Authorities are investigating the cause of the accident.",
-      "french_summary": "Un Boeing d'Air India s'est écrasé, causant une catastrophe aérienne majeure. Les autorités enquêtent sur les causes de l'accident.",
-      "original_article_title": "Crash du Boeing d'Air India : ce que l'on sait sur la catastrophe aérienne",
+      "simplified_english_title": "Air India Boeing Plane Crash",
+      "summary": "Un avion Boeing d'Air India s'est écrasé, causant une catastrophe aérienne. Les autorités enquêtent sur les causes de l'accident.",
+      "english_summary": "An Air India Boeing aircraft has crashed, resulting in an aviation disaster. Authorities are investigating the causes of the accident.",
+      "french_summary": "Un avion Boeing d'Air India s'est écrasé, causant une catastrophe aérienne. Les autorités enquêtent sur les causes de l'accident.",
+      "original_article_title": "Crash du Boeing d’Air India : ce que l’on sait sur la catastrophe aérienne",
       "original_article_link": "https://www.lexpress.fr/monde/crash-du-boeing-dair-india-ce-que-lon-sait-sur-la-catastrophe-aerienne-J6K3VGOURVBIDJIPC4PKQCJF6E/",
       "link": "https://www.lexpress.fr/monde/crash-du-boeing-dair-india-ce-que-lon-sait-sur-la-catastrophe-aerienne-J6K3VGOURVBIDJIPC4PKQCJF6E/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 14:25:52 +0000",
-      "published_date": "Thu, 12 Jun 2025 14:25:52 +0000",
+      "published": "Thu, 12 Jun 2025 15:23:19 +0000",
+      "published_date": "Thu, 12 Jun 2025 15:23:19 +0000",
       "contextual_title_explanations": {
         "Crash": {
-          "display_format": "**Crash:** Accident/collision (aviation)",
-          "explanation": "An English loanword commonly used in French to describe aircraft accidents. The French equivalent would be 'écrasement' or 'accident'.",
-          "cultural_note": "The use of English words in French media headlines is common, especially in technology and aviation contexts."
+          "display_format": "**Crash:** Accident, collision",
+          "explanation": "An English loanword commonly used in French to describe a serious aircraft accident",
+          "cultural_note": "While 'écrasement' is the French equivalent, 'crash' is widely used in aviation contexts in French media"
         },
         "du": {
           "display_format": "**Du:** Of the (contraction of 'de + le')",
-          "explanation": "A contracted form combining the preposition 'de' (of) and the definite article 'le' (the)",
+          "explanation": "A contraction of the preposition 'de' and the definite article 'le', used to show possession or connection",
           "cultural_note": ""
         },
         "Boeing": {
-          "display_format": "**Boeing:** Aircraft manufacturer",
-          "explanation": "American aerospace company that manufactures commercial aircraft",
-          "cultural_note": "Boeing is one of the world's largest aircraft manufacturers and its name is often used generically to refer to its aircraft."
+          "display_format": "**Boeing:** American aircraft manufacturer",
+          "explanation": "A major international aerospace company that manufactures commercial airplanes",
+          "cultural_note": "Boeing is one of the world's largest aircraft manufacturers and a key player in global aviation"
         },
         "d'": {
-          "display_format": "**D':** Of (contracted form of 'de')",
-          "explanation": "Preposition indicating possession or belonging, contracted before a vowel sound",
+          "display_format": "**D':** Of (contraction of 'de')",
+          "explanation": "The preposition 'de' with apostrophe used before a vowel sound",
           "cultural_note": ""
         },
         "Air India": {
           "display_format": "**Air India:** Indian national airline",
           "explanation": "The flag carrier airline of India",
-          "cultural_note": "National airlines often represent their countries in international aviation and are significant symbols of national identity."
+          "cultural_note": "One of Asia's major airlines and India's national carrier"
         },
         "ce que": {
-          "display_format": "**Ce que:** What (literally 'that which')",
-          "explanation": "A relative pronoun construction used to introduce indirect questions or statements",
+          "display_format": "**Ce que:** What",
+          "explanation": "A relative pronoun combination used to introduce indirect questions or statements",
           "cultural_note": ""
         },
         "l'": {
-          "display_format": "**L':** The (contracted form of 'le' or 'la')",
-          "explanation": "Definite article that contracts before vowel sounds",
+          "display_format": "**L':** The",
+          "explanation": "Definite article (le/la) with elision before a vowel sound",
           "cultural_note": ""
         },
         "on": {
-          "display_format": "**On:** We/One/People",
-          "explanation": "Indefinite pronoun commonly used in French to express general statements or replace 'nous' (we) in informal contexts",
-          "cultural_note": "'On' is very frequently used in French news headlines and everyday speech, more so than its English equivalents."
+          "display_format": "**On:** One, we, people (indefinite pronoun)",
+          "explanation": "An indefinite personal pronoun used to refer to people in general or an unspecified group",
+          "cultural_note": "Very commonly used in French, more so than its English equivalents"
         },
         "sait": {
           "display_format": "**Sait:** Knows",
-          "explanation": "Third person singular present tense of the verb 'savoir' (to know)",
+          "explanation": "Third-person singular present tense of the verb 'savoir' (to know)",
           "cultural_note": ""
         },
         "sur": {
-          "display_format": "**Sur:** About/Concerning",
-          "explanation": "Preposition indicating the topic or subject being discussed",
+          "display_format": "**Sur:** About, on, regarding",
+          "explanation": "Preposition indicating the subject or topic being discussed",
           "cultural_note": ""
         },
         "la": {
@@ -278,8 +445,8 @@
         },
         "catastrophe aérienne": {
           "display_format": "**Catastrophe aérienne:** Aviation disaster",
-          "explanation": "A serious accident involving aircraft, typically resulting in significant damage or loss of life",
-          "cultural_note": "The term 'catastrophe' is commonly used in French media for major disasters and carries more neutral connotations than its English cognate."
+          "explanation": "A serious accident or disaster involving aircraft",
+          "cultural_note": "Term commonly used in French media when reporting major aviation accidents"
         }
       },
       "key_vocabulary": [],
@@ -291,12 +458,12 @@
         "total_score": 25.799999999999997
       },
       "curation_metadata": {
-        "curation_id": "e0eb3162-f3b7-4365-842c-e26a12d7ba8b",
-        "curated_at": "2025-06-12T14:43:26.421721+00:00",
+        "curation_id": "f758da94-76f6-4222-a40b-74d08c016024",
+        "curated_at": "2025-06-12T16:16:35.630054+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.953989+00:00",
+      "added_at": "2025-06-12T16:19:54.441351+00:00",
       "quality_score": 8.6,
       "relevance_score": 7.199999999999999,
       "importance_score": 10,
@@ -304,12 +471,12 @@
     },
     {
       "title": "Les entreprises françaises sont leaders en informatique quantique",
-      "english_title": "French Companies Lead in Quantum Computing",
+      "english_title": "French Startups Lead in Quantum Computing",
       "simplified_french_title": "Les entreprises françaises sont leaders en informatique quantique",
-      "simplified_english_title": "French Companies Lead in Quantum Computing",
-      "summary": "Les start-up françaises développent des technologies avancées dans le domaine de l'informatique quantique, plaçant la France parmi les leaders mondiaux.",
-      "english_summary": "French startups are developing advanced quantum computing technologies, positioning France among global leaders in this innovative field.",
-      "french_summary": "Les start-up françaises développent des technologies avancées dans le domaine de l'informatique quantique, plaçant la France parmi les leaders mondiaux.",
+      "simplified_english_title": "French Startups Lead in Quantum Computing",
+      "summary": "Les jeunes entreprises françaises développent des technologies importantes dans le domaine de l'informatique quantique, montrant une avance significative au niveau mondial.",
+      "english_summary": "French startups are developing significant technologies in quantum computing, demonstrating global leadership in this cutting-edge field.",
+      "french_summary": "Les jeunes entreprises françaises développent des technologies importantes dans le domaine de l'informatique quantique, montrant une avance significative au niveau mondial.",
       "original_article_title": "Ordinateur quantique : pourquoi les start-up tricolores sont à l’avant-garde",
       "original_article_link": "https://www.lexpress.fr/economie/high-tech/ordinateur-quantique-pourquoi-les-start-up-tricolores-sont-a-lavant-garde-A65D6F5XFNDVXGFFJCL7U36HBA/",
       "link": "https://www.lexpress.fr/economie/high-tech/ordinateur-quantique-pourquoi-les-start-up-tricolores-sont-a-lavant-garde-A65D6F5XFNDVXGFFJCL7U36HBA/",
@@ -318,59 +485,54 @@
       "published_date": "Thu, 12 Jun 2025 14:00:00 +0000",
       "contextual_title_explanations": {
         "Ordinateur": {
-          "display_format": "**Computer:** Electronic computing device",
-          "explanation": "A machine that processes information and performs calculations",
+          "display_format": "**Computer:** Electronic device for processing information",
+          "explanation": "A noun referring to a computing machine. Derived from the French verb 'ordonner' (to order/arrange).",
           "cultural_note": ""
         },
         "quantique": {
-          "display_format": "**Quantum:** Relating to quantum mechanics",
-          "explanation": "Refers to the branch of physics dealing with atomic and subatomic particles, here applied to computing",
-          "cultural_note": "France has historically been strong in mathematics and physics research, contributing to quantum theory development"
-        },
-        ":": {
-          "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce an explanation or list",
-          "cultural_note": ""
+          "display_format": "**Quantum:** Relating to quantum mechanics/physics",
+          "explanation": "An adjective describing systems operating according to quantum mechanics principles, typically at atomic and subatomic levels.",
+          "cultural_note": "France has historically been a strong contributor to quantum physics research, with notable scientists like Louis de Broglie."
         },
         "pourquoi": {
-          "display_format": "**Why:** Question word",
-          "explanation": "Used to ask for reasons or explanations",
+          "display_format": "**Why:** Interrogative word",
+          "explanation": "Used to ask for reasons or explanations, combining 'pour' (for) and 'quoi' (what).",
           "cultural_note": ""
         },
         "les": {
           "display_format": "**The:** Definite article (plural)",
-          "explanation": "Used before plural nouns to indicate specific items",
+          "explanation": "Used before plural nouns to indicate specific items being discussed.",
           "cultural_note": ""
         },
         "start-up": {
           "display_format": "**Startup:** New technology company",
-          "explanation": "A newly established company, typically focused on innovation and technology",
-          "cultural_note": "French has adopted this English term, though 'jeune pousse' exists as a French alternative"
+          "explanation": "An English loanword commonly used in French to describe newly established companies, particularly in technology sectors.",
+          "cultural_note": "The French tech ecosystem has been actively promoting startups through initiatives like 'La French Tech' since 2013."
         },
         "tricolores": {
-          "display_format": "**Tricolor/French:** Relating to France",
-          "explanation": "Refers to French entities, derived from the three colors of the French flag",
-          "cultural_note": "The term 'tricolore' is commonly used to refer to anything French, especially in sports and business contexts"
+          "display_format": "**Tricolor/French:** Referring to French nationality",
+          "explanation": "An adjective referring to French entities, derived from the three colors of the French flag (blue, white, red).",
+          "cultural_note": "The tricolor flag is a powerful symbol of French national identity since the French Revolution."
         },
         "sont": {
           "display_format": "**Are:** Present tense of être",
-          "explanation": "Third person plural of the verb 'être' (to be)",
+          "explanation": "Third person plural of the verb 'être' (to be), used to indicate state or condition.",
           "cultural_note": ""
         },
         "à": {
           "display_format": "**At/In:** Preposition",
-          "explanation": "Used to indicate location or state",
+          "explanation": "Used to indicate location, position, or state in both literal and figurative senses.",
           "cultural_note": ""
         },
         "l'": {
-          "display_format": "**The:** Definite article (singular, elided)",
-          "explanation": "Used before words beginning with vowels or silent h",
+          "display_format": "**The:** Definite article (singular, elided form)",
+          "explanation": "The shortened form of 'le' or 'la' used before words beginning with vowels or silent h.",
           "cultural_note": ""
         },
         "avant-garde": {
           "display_format": "**Forefront/Vanguard:** Leading position",
-          "explanation": "Refers to being at the leading edge or most advanced position in a field",
-          "cultural_note": "Term originally from military context, now commonly used in art and technology to indicate innovation leadership"
+          "explanation": "Literally means 'before-guard', referring to being at the leading edge or most advanced position.",
+          "cultural_note": "Term originally from military context, later adopted by arts and now technology sectors to indicate innovation leadership."
         }
       },
       "key_vocabulary": [],
@@ -382,25 +544,333 @@
         "total_score": 25.299999999999997
       },
       "curation_metadata": {
-        "curation_id": "6cb2d674-c5de-489d-9a74-e0408f79dcbd",
-        "curated_at": "2025-06-12T14:43:26.424835+00:00",
+        "curation_id": "15114649-de55-4c91-855b-bbf0d78112ee",
+        "curated_at": "2025-06-12T16:16:35.640254+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954004+00:00",
+      "added_at": "2025-06-12T16:19:54.441371+00:00",
       "quality_score": 8.6,
       "relevance_score": 7.199999999999999,
       "importance_score": 9.5,
       "total_score": 25.299999999999997
     },
     {
-      "title": "Vietnam: réduction importante des employés de l'État",
-      "english_title": "Vietnam: Major Cuts in Government Employment",
-      "simplified_french_title": "Vietnam: réduction importante des employés de l'État",
-      "simplified_english_title": "Vietnam: Major Cuts in Government Employment",
-      "summary": "Le Vietnam réduit fortement le nombre d'employés dans son administration publique pour faire face aux défis économiques actuels.",
-      "english_summary": "Vietnam is significantly reducing its public sector workforce to address current economic challenges and prepare for trade pressures.",
-      "french_summary": "Le Vietnam réduit fortement le nombre d'employés dans son administration publique pour faire face aux défis économiques actuels.",
+      "title": "La ville de Roubaix aide à arrêter des trafiquants de drogue",
+      "english_title": "How Roubaix Helped Track Down International Drug Cartels",
+      "simplified_french_title": "La ville de Roubaix aide à arrêter des trafiquants de drogue",
+      "simplified_english_title": "How Roubaix Helped Track Down International Drug Cartels",
+      "summary": "La police de Roubaix a joué un rôle important dans une opération internationale pour arrêter des trafiquants de drogue qui utilisaient des messages secrets.",
+      "english_summary": "Police in Roubaix played a key role in an international operation to arrest drug traffickers who were using encrypted messages.",
+      "french_summary": "La police de Roubaix a joué un rôle important dans une opération internationale pour arrêter des trafiquants de drogue qui utilisaient des messages secrets.",
+      "original_article_title": "Narcotrafic et messages cryptés : comment Roubaix a aidé à traquer des cartels du monde entier",
+      "original_article_link": "https://www.lexpress.fr/societe/narcotrafic-et-messages-cryptes-comment-roubaix-a-aide-a-traquer-des-cartels-du-monde-entier-W53QCRB2DVAFBDDW42JJEJSBMQ/",
+      "link": "https://www.lexpress.fr/societe/narcotrafic-et-messages-cryptes-comment-roubaix-a-aide-a-traquer-des-cartels-du-monde-entier-W53QCRB2DVAFBDDW42JJEJSBMQ/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 15:00:00 +0000",
+      "published_date": "Thu, 12 Jun 2025 15:00:00 +0000",
+      "contextual_title_explanations": {
+        "Narcotrafic": {
+          "display_format": "**Drug trafficking:** Illegal drug trade",
+          "explanation": "A compound word combining 'narco' (relating to drugs) and 'trafic' (trafficking), referring to the illegal trade of narcotics",
+          "cultural_note": "Drug trafficking is a major concern in France and across Europe, with specialized police units dedicated to fighting it"
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Basic conjunction used to connect two elements in a sentence",
+          "cultural_note": ""
+        },
+        "messages": {
+          "display_format": "**Messages:** Communications",
+          "explanation": "Written or digital communications between parties",
+          "cultural_note": ""
+        },
+        "cryptés": {
+          "display_format": "**Encrypted:** Coded or scrambled",
+          "explanation": "Communications that have been encoded to prevent unauthorized access",
+          "cultural_note": "Encrypted messaging has become a major focus in criminal investigations worldwide"
+        },
+        "comment": {
+          "display_format": "**How:** (interrogative adverb)",
+          "explanation": "Used to ask about the manner in which something occurs",
+          "cultural_note": ""
+        },
+        "Roubaix": {
+          "display_format": "**Roubaix:** City in northern France",
+          "explanation": "A city located in the Nord department, near Lille",
+          "cultural_note": "Historically an industrial textile city, now working to reinvent itself while dealing with various social challenges"
+        },
+        "a": {
+          "display_format": "**Has:** (auxiliary verb)",
+          "explanation": "Third person singular of the verb 'avoir' (to have), used here as an auxiliary verb",
+          "cultural_note": ""
+        },
+        "aidé": {
+          "display_format": "**Helped:** (past participle)",
+          "explanation": "Past participle of the verb 'aider' (to help)",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** (preposition)",
+          "explanation": "Preposition indicating purpose or direction",
+          "cultural_note": ""
+        },
+        "traquer": {
+          "display_format": "**Track down/Hunt:** To pursue or follow",
+          "explanation": "To systematically search for or pursue someone, often used in law enforcement contexts",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/The:** (plural indefinite article)",
+          "explanation": "Plural indefinite article used before plural nouns",
+          "cultural_note": ""
+        },
+        "cartels": {
+          "display_format": "**Cartels:** Criminal organizations",
+          "explanation": "Organized crime groups, typically involved in drug trafficking",
+          "cultural_note": "The term originated with legitimate business agreements but is now commonly associated with criminal enterprises"
+        },
+        "du": {
+          "display_format": "**Of the:** (contraction)",
+          "explanation": "Contraction of 'de + le', meaning 'of the'",
+          "cultural_note": ""
+        },
+        "monde": {
+          "display_format": "**World:** The entire planet",
+          "explanation": "Refers to the entire world or globe",
+          "cultural_note": ""
+        },
+        "entier": {
+          "display_format": "**Entire/Whole:** Complete",
+          "explanation": "Adjective meaning complete or entire, used to emphasize the global scope",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 7.0,
+        "importance_score": 10,
+        "total_score": 25.1
+      },
+      "curation_metadata": {
+        "curation_id": "1f5e2007-16e8-4076-b4a9-c7edf37373da",
+        "curated_at": "2025-06-12T16:16:35.634838+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T16:19:54.441394+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 7.0,
+      "importance_score": 10,
+      "total_score": 25.1
+    },
+    {
+      "title": "La santé mentale des jeunes est une urgence",
+      "english_title": "Youth Mental Health is an Emergency",
+      "simplified_french_title": "La santé mentale des jeunes est une urgence",
+      "simplified_english_title": "Youth Mental Health is an Emergency",
+      "summary": "Le gouvernement veut agir sur la santé mentale des jeunes après des incidents violents. Des experts vont former le personnel scolaire pour aider.",
+      "english_summary": "The government aims to address youth mental health following violent incidents. Experts will train school staff to help identify issues.",
+      "french_summary": "Le gouvernement veut agir sur la santé mentale des jeunes après des incidents violents. Des experts vont former le personnel scolaire pour aider.",
+      "original_article_title": "Story 2 : Santé mentale de jeunes, une urgence absolue - 12/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/story-2-sante-mentale-de-jeunes-une-urgence-absolue-12-06_VN-202506120627.html",
+      "link": "https://www.bfmtv.com/replay-emissions/bfm-story/story-2-sante-mentale-de-jeunes-une-urgence-absolue-12-06_VN-202506120627.html",
+      "source_name": "BFM TV",
+      "published": "Thu, 12 Jun 2025 15:44:52 GMT",
+      "published_date": "Thu, 12 Jun 2025 15:44:52 GMT",
+      "contextual_title_explanations": {
+        "Story 2": {
+          "display_format": "**Story 2:** Second story/report",
+          "explanation": "Indicates this is the second news segment or report in a series",
+          "cultural_note": "French news programs often use English words like 'story' to appear modern and international"
+        },
+        ":": {
+          "display_format": "**Colon:** Punctuation mark",
+          "explanation": "Used to introduce the topic that follows",
+          "cultural_note": ""
+        },
+        "Santé": {
+          "display_format": "**Health:** Physical or mental well-being",
+          "explanation": "Refers to the overall condition of physical and mental wellness",
+          "cultural_note": "Healthcare ('la santé') is considered a fundamental right in French society"
+        },
+        "mentale": {
+          "display_format": "**Mental:** Relating to the mind",
+          "explanation": "Describes aspects related to psychological and emotional well-being",
+          "cultural_note": "Mental health has historically been stigmatized but is increasingly discussed openly in French society"
+        },
+        "de": {
+          "display_format": "**Of:** Possessive preposition",
+          "explanation": "Links two nouns to show possession or relationship",
+          "cultural_note": ""
+        },
+        "jeunes": {
+          "display_format": "**Young people/Youth:** Young individuals",
+          "explanation": "Noun referring to young people, typically teenagers and young adults",
+          "cultural_note": "In French context, 'les jeunes' often refers to people roughly between 12-25 years old"
+        },
+        "une": {
+          "display_format": "**A/An:** Indefinite article (feminine)",
+          "explanation": "Used before feminine nouns to indicate a single, non-specific item",
+          "cultural_note": ""
+        },
+        "urgence": {
+          "display_format": "**Emergency:** Urgent situation requiring immediate attention",
+          "explanation": "Describes a situation requiring immediate action or response",
+          "cultural_note": ""
+        },
+        "absolue": {
+          "display_format": "**Absolute:** Complete, total",
+          "explanation": "Indicates something that is total, complete, or without qualification",
+          "cultural_note": ""
+        },
+        "12/06": {
+          "display_format": "**12/06:** Date format (June 12)",
+          "explanation": "Indicates the date of the news story in European format (day/month)",
+          "cultural_note": "French date format differs from American format (month/day)"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 6.5,
+        "importance_score": 9.5,
+        "total_score": 24.4
+      },
+      "curation_metadata": {
+        "curation_id": "2cdf1ce6-b92f-4ba2-873a-3df5a3ee74b5",
+        "curated_at": "2025-06-12T16:16:35.606632+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T16:19:54.441410+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 6.5,
+      "importance_score": 9.5,
+      "total_score": 24.4
+    },
+    {
+      "title": "Est-ce que la France donne des armes à Israël?",
+      "english_title": "Is France Supplying Weapons to Israel?",
+      "simplified_french_title": "Est-ce que la France donne des armes à Israël?",
+      "simplified_english_title": "Is France Supplying Weapons to Israel?",
+      "summary": "Une entreprise française est accusée de fournir des pièces d'armes à Israël. La France dit qu'elle envoie seulement des composants de défense.",
+      "english_summary": "A French company is accused of supplying weapon parts to Israel. France claims it only sends defense components.",
+      "french_summary": "Une entreprise française est accusée de fournir des pièces d'armes à Israël. La France dit qu'elle envoie seulement des composants de défense.",
+      "original_article_title": "La France livre-t-elle des armes à Israël ? Ce que l'on sait",
+      "original_article_link": "https://www.france24.com/fr/france/20250612-la-france-livre-t-elle-des-armes-%C3%A0-isra%C3%ABl-ce-que-l-on-sait",
+      "link": "https://www.france24.com/fr/france/20250612-la-france-livre-t-elle-des-armes-%C3%A0-isra%C3%ABl-ce-que-l-on-sait",
+      "source_name": "France 24",
+      "published": "Thu, 12 Jun 2025 15:59:26 GMT",
+      "published_date": "Thu, 12 Jun 2025 15:59:26 GMT",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** The country",
+          "explanation": "The French Republic, a country in Western Europe",
+          "cultural_note": "One of the world's major arms exporters and has strict regulations on weapons sales"
+        },
+        "livre": {
+          "display_format": "**Delivers/Supplies:** (from 'livrer')",
+          "explanation": "The verb 'livrer' means to deliver, supply, or provide something",
+          "cultural_note": ""
+        },
+        "-t-": {
+          "display_format": "**-t-:** (liaison)",
+          "explanation": "A euphonic 't' inserted between the verb and pronoun in question form",
+          "cultural_note": ""
+        },
+        "elle": {
+          "display_format": "**It/She:** (pronoun)",
+          "explanation": "Third-person feminine singular pronoun, here referring to France",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/Any:** (plural indefinite article)",
+          "explanation": "Plural indefinite article used before plural nouns",
+          "cultural_note": ""
+        },
+        "armes": {
+          "display_format": "**Weapons/Arms:** (noun)",
+          "explanation": "Military equipment or weapons used in warfare",
+          "cultural_note": "Arms exports are a significant part of French industry and international relations"
+        },
+        "à": {
+          "display_format": "**To:** (preposition)",
+          "explanation": "Preposition indicating direction or recipient",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** The country",
+          "explanation": "A country in the Middle East",
+          "cultural_note": "Subject of international attention due to ongoing conflicts and arms trade discussions"
+        },
+        "?": {
+          "display_format": "**?:** Question mark",
+          "explanation": "Punctuation mark indicating an interrogative sentence",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**This/That:** (demonstrative pronoun)",
+          "explanation": "Demonstrative pronoun used to introduce what follows",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**That/Which:** (relative pronoun)",
+          "explanation": "Connects two clauses or introduces what follows",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**The:** (elided definite article)",
+          "explanation": "Shortened form of 'le' or 'la' before a vowel sound",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**We/One:** (indefinite pronoun)",
+          "explanation": "General or impersonal subject pronoun, similar to 'we' or 'one' in English",
+          "cultural_note": "Commonly used in French for general statements or known facts"
+        },
+        "sait": {
+          "display_format": "**Knows:** (from 'savoir')",
+          "explanation": "Third-person singular present tense of 'savoir' (to know)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.2,
+        "relevance_score": 7.6000000000000005,
+        "importance_score": 8.0,
+        "total_score": 23.8
+      },
+      "curation_metadata": {
+        "curation_id": "bd14dae8-f2fc-4226-83d1-0a05f5a94910",
+        "curated_at": "2025-06-12T16:16:35.617371+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T16:19:54.441433+00:00",
+      "quality_score": 8.2,
+      "relevance_score": 7.6000000000000005,
+      "importance_score": 8.0,
+      "total_score": 23.8
+    },
+    {
+      "title": "Le Vietnam réduit son administration",
+      "english_title": "Vietnam Reduces Its Government Administration",
+      "simplified_french_title": "Le Vietnam réduit son administration",
+      "simplified_english_title": "Vietnam Reduces Its Government Administration",
+      "summary": "Le Vietnam lance un plan pour réduire le nombre d'employés dans son administration publique. C'est un grand changement pour ce pays communiste.",
+      "english_summary": "Vietnam is launching a plan to reduce the number of public sector employees. This represents a major change for this communist country.",
+      "french_summary": "Le Vietnam lance un plan pour réduire le nombre d'employés dans son administration publique. C'est un grand changement pour ce pays communiste.",
       "original_article_title": "Vietnam: cure d’austérité sans précédent dans l'administration du pays",
       "original_article_link": "https://www.rfi.fr/fr/asie-pacifique/20250612-vietnam-cure-d-aust%C3%A9rit%C3%A9-sans-pr%C3%A9c%C3%A9dent-dans-l-administration-du-pays",
       "link": "https://www.rfi.fr/fr/asie-pacifique/20250612-vietnam-cure-d-aust%C3%A9rit%C3%A9-sans-pr%C3%A9c%C3%A9dent-dans-l-administration-du-pays",
@@ -411,27 +881,22 @@
         "Vietnam": {
           "display_format": "**Vietnam:** A country in Southeast Asia",
           "explanation": "A socialist republic in Southeast Asia, bordered by China, Laos, and Cambodia",
-          "cultural_note": "Former French colony that gained independence in 1954, unified under communist rule in 1976"
-        },
-        ":": {
-          "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce an explanation or list",
-          "cultural_note": ""
+          "cultural_note": "Former French colony until 1954, followed by a period of division and war until reunification under communist rule in 1976"
         },
         "cure": {
           "display_format": "**Cure:** Treatment or remedy",
-          "explanation": "In this context, refers to a corrective measure or treatment program",
-          "cultural_note": "Often used in French media to describe economic or administrative reforms"
+          "explanation": "In this context, refers to a corrective measure or treatment, often used metaphorically for economic or administrative reforms",
+          "cultural_note": "In French political discourse, 'cure' often refers to strict economic measures or reforms"
         },
         "d'": {
-          "display_format": "**d' (de):** Of, from",
-          "explanation": "Preposition indicating possession or characteristic, shortened before vowel sounds",
+          "display_format": "**d' (de):** Of/from (preposition)",
+          "explanation": "Contraction of 'de' used before vowels, indicates possession or relationship",
           "cultural_note": ""
         },
         "austérité": {
           "display_format": "**Austerity:** Strict economic measures",
-          "explanation": "Economic policy of reduced spending and increased frugality",
-          "cultural_note": "Term gained prominence during European economic crisis of 2008-2015"
+          "explanation": "Economic policies aimed at reducing government spending and public sector costs",
+          "cultural_note": "A politically sensitive term associated with controversial economic reforms in many countries"
         },
         "sans": {
           "display_format": "**Sans:** Without",
@@ -439,28 +904,28 @@
           "cultural_note": ""
         },
         "précédent": {
-          "display_format": "**Unprecedented:** Never done or known before",
-          "explanation": "Refers to something that has never happened before in history",
+          "display_format": "**Unprecedented:** Never happened before",
+          "explanation": "Describes something that has never occurred before in history",
           "cultural_note": ""
         },
         "dans": {
-          "display_format": "**Dans:** In, within",
-          "explanation": "Preposition indicating location or position",
+          "display_format": "**Dans:** In/within",
+          "explanation": "Preposition indicating location or position within something",
           "cultural_note": ""
         },
         "l'": {
-          "display_format": "**l' (la/le):** The",
-          "explanation": "Definite article, shortened before vowel sounds",
+          "display_format": "**l' (le/la):** The",
+          "explanation": "Definite article, shortened form used before vowels",
           "cultural_note": ""
         },
         "administration": {
           "display_format": "**Administration:** Government bureaucracy",
-          "explanation": "The governmental organization and its employees that manage public affairs",
-          "cultural_note": "In France and Vietnam, 'administration' often refers to public sector bureaucracy"
+          "explanation": "The governmental organization and its employees who manage public affairs",
+          "cultural_note": "In France and Vietnam, 'administration' typically refers to public sector bureaucracy"
         },
         "du": {
           "display_format": "**Du (de + le):** Of the",
-          "explanation": "Contraction of preposition 'de' and article 'le'",
+          "explanation": "Contraction of the preposition 'de' and the article 'le'",
           "cultural_note": ""
         },
         "pays": {
@@ -478,521 +943,16 @@
         "total_score": 23.6
       },
       "curation_metadata": {
-        "curation_id": "4316ac7c-7c3d-4c85-8cd4-b5db5ad2d488",
-        "curated_at": "2025-06-12T14:43:26.404912+00:00",
+        "curation_id": "e020cb08-8279-47c8-9a29-bf1be050775e",
+        "curated_at": "2025-06-12T16:16:35.608004+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954018+00:00",
+      "added_at": "2025-06-12T16:19:54.441449+00:00",
       "quality_score": 8.6,
       "relevance_score": 5.0,
       "importance_score": 10,
       "total_score": 23.6
-    },
-    {
-      "title": "Nouvelle loi pour contrôler les prix des loyers",
-      "english_title": "New Law to Control Rental Prices",
-      "simplified_french_title": "Nouvelle loi pour contrôler les prix des loyers",
-      "simplified_english_title": "New Law to Control Rental Prices",
-      "summary": "Des députés de gauche proposent une nouvelle loi pour continuer à limiter les prix des loyers dans certaines villes françaises.",
-      "english_summary": "Left-wing lawmakers have proposed new legislation to continue controlling rental prices in certain French cities.",
-      "french_summary": "Des députés de gauche proposent une nouvelle loi pour continuer à limiter les prix des loyers dans certaines villes françaises.",
-      "original_article_title": "Logement : une proposition de loi pour pérenniser l’encadrement des loyers",
-      "original_article_link": "https://www.la-croix.com/politique/logement-une-proposition-de-loi-pour-perenniser-l-encadrement-des-loyers-20250612",
-      "link": "https://www.la-croix.com/politique/logement-une-proposition-de-loi-pour-perenniser-l-encadrement-des-loyers-20250612",
-      "source_name": "La Croix",
-      "published": "Thu, 12 Jun 2025 15:18:25 +0200",
-      "published_date": "Thu, 12 Jun 2025 15:18:25 +0200",
-      "contextual_title_explanations": {
-        "Logement": {
-          "display_format": "**Housing/Accommodation:** Housing or living space",
-          "explanation": "Refers to residential properties or places where people live. Can be used for both houses and apartments.",
-          "cultural_note": "Housing is a major political issue in France, especially in large cities where affordability is a growing concern."
-        },
-        ":": {
-          "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce an explanation or list. In French headlines, frequently used to separate the topic from the specific news.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A/An:** Indefinite article (feminine)",
-          "explanation": "Used before feminine nouns to indicate an unspecified item or concept.",
-          "cultural_note": ""
-        },
-        "proposition": {
-          "display_format": "**Proposal/Bill:** A formal suggestion or draft law",
-          "explanation": "In legislative context, refers to a bill or proposed law before it becomes enacted.",
-          "cultural_note": "In French politics, 'proposition de loi' comes from parliament members, while 'projet de loi' comes from the government."
-        },
-        "de": {
-          "display_format": "**Of/From:** Preposition",
-          "explanation": "Used to show possession, origin, or relationship between words.",
-          "cultural_note": ""
-        },
-        "loi": {
-          "display_format": "**Law:** Legislative act",
-          "explanation": "A rule or regulation enacted by a governing body.",
-          "cultural_note": "The French legislative system distinguishes between different types of laws and their origins."
-        },
-        "pour": {
-          "display_format": "**For/To:** Preposition",
-          "explanation": "Indicates purpose or intention.",
-          "cultural_note": ""
-        },
-        "pérenniser": {
-          "display_format": "**Make permanent:** To establish permanently",
-          "explanation": "To make something lasting or permanent, to ensure long-term continuation.",
-          "cultural_note": ""
-        },
-        "l'": {
-          "display_format": "**The:** Definite article (elided form)",
-          "explanation": "Used before words starting with vowels or silent h, replacing 'la' or 'le'.",
-          "cultural_note": ""
-        },
-        "encadrement": {
-          "display_format": "**Control/Regulation:** Framework or control system",
-          "explanation": "The act of setting limits or regulations around something.",
-          "cultural_note": "A common concept in French governance, where state regulation of prices is more accepted than in some other countries."
-        },
-        "des": {
-          "display_format": "**Of the:** Contracted form of 'de les'",
-          "explanation": "Used before plural nouns, combining 'de' and 'les'.",
-          "cultural_note": ""
-        },
-        "loyers": {
-          "display_format": "**Rents:** Monthly rental payments",
-          "explanation": "The amount paid by tenants to landlords for use of property.",
-          "cultural_note": "Rent control is a significant political issue in France, particularly in large cities like Paris where housing costs are high."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 7.3,
-        "importance_score": 7.5,
-        "total_score": 23.2
-      },
-      "curation_metadata": {
-        "curation_id": "d09a9e36-9c3a-42b2-a64d-cbd2752fb7b2",
-        "curated_at": "2025-06-12T14:43:26.408056+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954031+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 7.3,
-      "importance_score": 7.5,
-      "total_score": 23.2
-    },
-    {
-      "title": "Le recensement en Guinée continue, mais s'arrête pour les Guinéens en France",
-      "english_title": "Census in Guinea continues but stops for Guineans in France",
-      "simplified_french_title": "Le recensement en Guinée continue, mais s'arrête pour les Guinéens en France",
-      "simplified_english_title": "Census in Guinea continues but stops for Guineans in France",
-      "summary": "La Guinée prolonge son recensement jusqu'au 20 juin. En France, le processus est arrêté à cause de problèmes dans les centres d'inscription.",
-      "english_summary": "Guinea extends its census until June 20. In France, the process has been halted due to problems at registration centers.",
-      "french_summary": "La Guinée prolonge son recensement jusqu'au 20 juin. En France, le processus est arrêté à cause de problèmes dans les centres d'inscription.",
-      "original_article_title": "Le recensement prolongé en Guinée mais suspendu pour les expatriés en France",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250612-le-recensement-prolong%C3%A9-en-guin%C3%A9e-mais-suspendu-pour-les-expatri%C3%A9s-en-france",
-      "link": "https://www.rfi.fr/fr/afrique/20250612-le-recensement-prolong%C3%A9-en-guin%C3%A9e-mais-suspendu-pour-les-expatri%C3%A9s-en-france",
-      "source_name": "RFI",
-      "published": "Thu, 12 Jun 2025 09:22:57 GMT",
-      "published_date": "Thu, 12 Jun 2025 09:22:57 GMT",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**The:** (definite article, masculine singular)",
-          "explanation": "Used before masculine singular nouns to indicate something specific",
-          "cultural_note": ""
-        },
-        "recensement": {
-          "display_format": "**Census:** Official population count",
-          "explanation": "A systematic counting and recording of a population, typically including various demographic details",
-          "cultural_note": "In many African countries, census operations are crucial for electoral processes and often politically sensitive"
-        },
-        "prolongé": {
-          "display_format": "**Extended/Prolonged:** Extended in time",
-          "explanation": "Past participle of 'prolonger', meaning to extend or lengthen the duration of something",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In:** (preposition)",
-          "explanation": "Used to indicate location or position within a place",
-          "cultural_note": ""
-        },
-        "Guinée": {
-          "display_format": "**Guinea:** West African country",
-          "explanation": "A country in West Africa, formerly a French colony",
-          "cultural_note": "Gained independence from France in 1958 and maintains strong ties with France"
-        },
-        "mais": {
-          "display_format": "**But:** (conjunction)",
-          "explanation": "Used to introduce a contrasting idea or statement",
-          "cultural_note": ""
-        },
-        "suspendu": {
-          "display_format": "**Suspended:** Temporarily stopped",
-          "explanation": "Past participle of 'suspendre', meaning to temporarily halt or interrupt an activity",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For:** (preposition)",
-          "explanation": "Used to indicate who or what is affected by an action",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** (definite article, plural)",
-          "explanation": "Used before plural nouns to indicate specific items or people",
-          "cultural_note": ""
-        },
-        "expatriés": {
-          "display_format": "**Expatriates:** People living outside their native country",
-          "explanation": "Refers to people who have left their country to live or work in another country",
-          "cultural_note": "France has significant African expatriate communities, particularly from former colonies"
-        },
-        "en France": {
-          "display_format": "**In France:** (location)",
-          "explanation": "Indicates location within the country of France",
-          "cultural_note": "France maintains strong connections with its former African colonies through expatriate communities"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 6.8,
-        "importance_score": 7.0,
-        "total_score": 22.2
-      },
-      "curation_metadata": {
-        "curation_id": "0e43b9bd-cfa4-4021-9e50-fe3833e699de",
-        "curated_at": "2025-06-12T14:43:26.403054+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954044+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 6.8,
-      "importance_score": 7.0,
-      "total_score": 22.2
-    },
-    {
-      "title": "Le nouveau plan du gouvernement pour améliorer la santé mentale",
-      "english_title": "Government's New Mental Health Plan: Better Training and Faster Care",
-      "simplified_french_title": "Le nouveau plan du gouvernement pour améliorer la santé mentale",
-      "simplified_english_title": "Government's New Mental Health Plan: Better Training and Faster Care",
-      "summary": "Le gouvernement présente un plan pour mieux aider les jeunes qui ont des problèmes de santé mentale, avec formation spéciale pour le personnel médical.",
-      "english_summary": "The government presents a plan to better help young people with mental health issues, including special training for medical staff.",
-      "french_summary": "Le gouvernement présente un plan pour mieux aider les jeunes qui ont des problèmes de santé mentale, avec formation spéciale pour le personnel médical.",
-      "original_article_title": "Renforcement des formations, prise en charge plus rapide... Ce que contient le plan pour la santé mentale présenté par le gouvernement",
-      "original_article_link": "https://www.franceinfo.fr/sante/enfant-ado/formations-soutien-aux-generalistes-rendez-vous-d-urgence-ce-que-contient-le-plan-pour-la-sante-mentale-presente-par-legouvernement_7307598.html#xtor=RSS-3-[lestitres]",
-      "link": "https://www.franceinfo.fr/sante/enfant-ado/formations-soutien-aux-generalistes-rendez-vous-d-urgence-ce-que-contient-le-plan-pour-la-sante-mentale-presente-par-legouvernement_7307598.html#xtor=RSS-3-[lestitres]",
-      "source_name": "France Info",
-      "published": "Thu, 12 Jun 2025 13:36:34 +0200",
-      "published_date": "Thu, 12 Jun 2025 13:36:34 +0200",
-      "contextual_title_explanations": {
-        "Renforcement": {
-          "display_format": "**Strengthening/Reinforcement:** Making something stronger or more effective",
-          "explanation": "From the verb 'renforcer', meaning to strengthen or enhance. In this context, it refers to improving or intensifying training programs.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Of the:** (plural definite article)",
-          "explanation": "Contraction of 'de les', used before plural nouns to indicate possession or relationship",
-          "cultural_note": ""
-        },
-        "formations": {
-          "display_format": "**Training programs:** Educational or professional development courses",
-          "explanation": "Refers to structured educational programs designed to develop specific skills or knowledge",
-          "cultural_note": "In France, 'formation' has a broader meaning than just training, encompassing education and professional development"
-        },
-        "prise en charge": {
-          "display_format": "**Care/Treatment:** Taking responsibility for someone's care",
-          "explanation": "Literally 'taking into charge', refers to the process of providing care or treatment to patients",
-          "cultural_note": "Common term in French healthcare system, implying both medical care and administrative handling"
-        },
-        "plus": {
-          "display_format": "**More:** Indicates a greater degree",
-          "explanation": "Used to form comparatives, indicating an increase or higher degree of something",
-          "cultural_note": ""
-        },
-        "rapide": {
-          "display_format": "**Quick/Fast:** Swift or prompt",
-          "explanation": "Describes something that happens or is done quickly or efficiently",
-          "cultural_note": ""
-        },
-        "Ce que": {
-          "display_format": "**What:** That which",
-          "explanation": "Used to introduce a clause explaining or describing something",
-          "cultural_note": ""
-        },
-        "contient": {
-          "display_format": "**Contains:** (verb)",
-          "explanation": "From 'contenir', meaning to have within or include something",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** (masculine singular definite article)",
-          "explanation": "Used before masculine singular nouns",
-          "cultural_note": ""
-        },
-        "plan": {
-          "display_format": "**Plan:** Strategy or program",
-          "explanation": "A detailed proposal for doing or achieving something",
-          "cultural_note": "In French politics, 'plan' often refers to major government initiatives or strategies"
-        },
-        "pour": {
-          "display_format": "**For:** (preposition)",
-          "explanation": "Indicates purpose or destination",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (feminine singular definite article)",
-          "explanation": "Used before feminine singular nouns",
-          "cultural_note": ""
-        },
-        "santé mentale": {
-          "display_format": "**Mental health:** Psychological well-being",
-          "explanation": "Refers to emotional, psychological, and social well-being",
-          "cultural_note": "Mental health has become an increasingly important focus in French healthcare policy, especially post-COVID"
-        },
-        "présenté": {
-          "display_format": "**Presented:** Introduced or shown",
-          "explanation": "Past participle of 'présenter', meaning to show or introduce something formally",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** (preposition)",
-          "explanation": "Indicates the agent or doer of an action",
-          "cultural_note": ""
-        },
-        "le gouvernement": {
-          "display_format": "**The government:** The ruling administration",
-          "explanation": "Refers to the executive branch of the French state",
-          "cultural_note": "In France, 'le gouvernement' specifically refers to the executive branch led by the Prime Minister under the President"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.9,
-        "relevance_score": 5.7,
-        "importance_score": 8.5,
-        "total_score": 22.1
-      },
-      "curation_metadata": {
-        "curation_id": "7460e723-1794-49bb-a6e0-66ce432f6a2e",
-        "curated_at": "2025-06-12T14:43:26.403903+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954061+00:00",
-      "quality_score": 7.9,
-      "relevance_score": 5.7,
-      "importance_score": 8.5,
-      "total_score": 22.1
-    },
-    {
-      "title": "La fin des limites pour les étudiants en médecine permettra de former plus de médecins",
-      "english_title": "End of Medical School Enrollment Limits Will Allow Training More Doctors",
-      "simplified_french_title": "La fin des limites pour les étudiants en médecine permettra de former plus de médecins",
-      "simplified_english_title": "End of Medical School Enrollment Limits Will Allow Training More Doctors",
-      "summary": "Le ministre de la Santé annonce la suppression des limites d'admission en médecine et veut rendre la psychiatrie plus attractive pour les étudiants.",
-      "english_summary": "The Health Minister announces the removal of medical school admission limits and aims to make psychiatry more attractive to students.",
-      "french_summary": "Le ministre de la Santé annonce la suppression des limites d'admission en médecine et veut rendre la psychiatrie plus attractive pour les étudiants.",
-      "original_article_title": "Fin du numerus apertus: \"C'est une première mesure pour pouvoir permettre la formation de plus de médecins\", estime Bastien Bailleul, président du syndicat des internes en médecine générale",
-      "original_article_link": "https://www.bfmtv.com/sante/fin-du-numerus-apertus-c-est-une-premiere-mesure-pour-pouvoir-permettre-la-formation-de-plus-de-medecins-estime-bastien-bailleul-president-du-syndicat-des-internes-en-medecine-generale_VN-202506120527.html",
-      "link": "https://www.bfmtv.com/sante/fin-du-numerus-apertus-c-est-une-premiere-mesure-pour-pouvoir-permettre-la-formation-de-plus-de-medecins-estime-bastien-bailleul-president-du-syndicat-des-internes-en-medecine-generale_VN-202506120527.html",
-      "source_name": "BFM TV",
-      "published": "Thu, 12 Jun 2025 13:29:22 GMT",
-      "published_date": "Thu, 12 Jun 2025 13:29:22 GMT",
-      "contextual_title_explanations": {
-        "Fin": {
-          "display_format": "**End:** The termination or conclusion",
-          "explanation": "Indicates the termination or ending of something",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the:** (contraction of 'de' + 'le')",
-          "explanation": "A contracted form combining the preposition 'de' (of) with the definite article 'le' (the)",
-          "cultural_note": ""
-        },
-        "numerus apertus": {
-          "display_format": "**Numerus Apertus:** Open number system",
-          "explanation": "A Latin term used in French education system referring to flexible admission quotas in medical schools",
-          "cultural_note": "Replaced the stricter numerus clausus system in 2020 but still maintained certain limitations on medical student numbers"
-        },
-        "C'est": {
-          "display_format": "**It is:** (demonstrative phrase)",
-          "explanation": "Common French expression combining 'ce' (this/it) and 'est' (is)",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A/An:** (feminine indefinite article)",
-          "explanation": "Feminine indefinite article used before nouns",
-          "cultural_note": ""
-        },
-        "première": {
-          "display_format": "**First:** Initial or primary",
-          "explanation": "Indicates something that comes first in a sequence or is most important",
-          "cultural_note": ""
-        },
-        "mesure": {
-          "display_format": "**Measure/Step:** An action taken",
-          "explanation": "Refers to a policy decision or action implemented to achieve a goal",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For/To:** (preposition)",
-          "explanation": "Indicates purpose or intention",
-          "cultural_note": ""
-        },
-        "pouvoir": {
-          "display_format": "**To be able to:** (verb)",
-          "explanation": "Expresses ability or possibility",
-          "cultural_note": ""
-        },
-        "permettre": {
-          "display_format": "**To allow/enable:** (verb)",
-          "explanation": "To make something possible or give permission",
-          "cultural_note": ""
-        },
-        "la formation": {
-          "display_format": "**The training:** Education or preparation",
-          "explanation": "Refers to the educational process or professional preparation",
-          "cultural_note": ""
-        },
-        "de plus de": {
-          "display_format": "**Of more:** More numerous",
-          "explanation": "Phrase indicating an increase in quantity",
-          "cultural_note": ""
-        },
-        "médecins": {
-          "display_format": "**Doctors:** Medical practitioners",
-          "explanation": "Refers to qualified medical professionals",
-          "cultural_note": "France has been facing a shortage of doctors, particularly in rural areas"
-        },
-        "estime": {
-          "display_format": "**Believes/Estimates:** (verb)",
-          "explanation": "To express an opinion or make an assessment",
-          "cultural_note": ""
-        },
-        "Bastien Bailleul": {
-          "display_format": "**Bastien Bailleul:** Name of person quoted",
-          "explanation": "The person making the statement",
-          "cultural_note": "A prominent figure in French medical education"
-        },
-        "président": {
-          "display_format": "**President:** Leader or head",
-          "explanation": "The person in charge of an organization",
-          "cultural_note": ""
-        },
-        "du syndicat": {
-          "display_format": "**Of the union:** Professional organization",
-          "explanation": "Refers to a professional association or union",
-          "cultural_note": "Labor unions and professional associations play important roles in French society"
-        },
-        "des internes": {
-          "display_format": "**Of the residents:** Medical residents",
-          "explanation": "Refers to doctors in their residency training period",
-          "cultural_note": "Medical residency in France is called 'internat'"
-        },
-        "en médecine générale": {
-          "display_format": "**In general medicine:** Family medicine",
-          "explanation": "Refers to primary care or family medicine practice",
-          "cultural_note": "General practitioners are called 'médecins généralistes' in France"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.1,
-        "relevance_score": 6.5,
-        "importance_score": 7.5,
-        "total_score": 22.1
-      },
-      "curation_metadata": {
-        "curation_id": "b1821da3-670f-4b8f-89f1-c303ee669ac1",
-        "curated_at": "2025-06-12T14:43:26.404396+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954078+00:00",
-      "quality_score": 8.1,
-      "relevance_score": 6.5,
-      "importance_score": 7.5,
-      "total_score": 22.1
-    },
-    {
-      "title": "Le Sénat devient plus important au Parlement",
-      "english_title": "The Senate Becomes the Key Player in Parliament",
-      "simplified_french_title": "Le Sénat devient plus important au Parlement",
-      "simplified_english_title": "The Senate Becomes the Key Player in Parliament",
-      "summary": "Sans majorité à l'Assemblée nationale, le Sénat est devenu plus stable et plus influent dans la politique française depuis 2022.",
-      "english_summary": "With no majority in the National Assembly, the Senate has become more stable and influential in French politics since 2022.",
-      "french_summary": "Sans majorité à l'Assemblée nationale, le Sénat est devenu plus stable et plus influent dans la politique française depuis 2022.",
-      "original_article_title": "Un Sénat devenu maître du jeu parlementaire",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/12/depuis-la-dissolution-de-l-assemblee-nationale-le-senat-maitre-du-jeu-parlementaire_6612527_823448.html",
-      "link": "https://www.lemonde.fr/politique/article/2025/06/12/depuis-la-dissolution-de-l-assemblee-nationale-le-senat-maitre-du-jeu-parlementaire_6612527_823448.html",
-      "source_name": "Le Monde",
-      "published": "Thu, 12 Jun 2025 14:00:19 +0200",
-      "published_date": "Thu, 12 Jun 2025 14:00:19 +0200",
-      "contextual_title_explanations": {
-        "Un": {
-          "display_format": "**Un:** A/An (masculine indefinite article)",
-          "explanation": "Indefinite article used before masculine singular nouns",
-          "cultural_note": ""
-        },
-        "Sénat": {
-          "display_format": "**Senate:** Upper house of French Parliament",
-          "explanation": "The upper chamber of the French Parliament, consisting of 348 senators elected indirectly by regional and local officials",
-          "cultural_note": "Unlike the National Assembly, the Senate tends to be more conservative and has been dominated by the right-wing since the establishment of the Fifth Republic in 1958"
-        },
-        "devenu": {
-          "display_format": "**Become:** Past participle of 'devenir'",
-          "explanation": "Indicates a change of state or condition, used with être in compound tenses",
-          "cultural_note": ""
-        },
-        "maître": {
-          "display_format": "**Master:** One who controls or dominates",
-          "explanation": "Refers to someone or something that has control or authority over a situation",
-          "cultural_note": "The term carries connotations of authority and expertise in French culture"
-        },
-        "du": {
-          "display_format": "**Of the:** Contraction of 'de' + 'le'",
-          "explanation": "Contracted form combining the preposition 'de' (of) with the definite article 'le' (the)",
-          "cultural_note": ""
-        },
-        "jeu": {
-          "display_format": "**Game:** Game or play",
-          "explanation": "In this context, refers to political maneuvering or dynamics",
-          "cultural_note": "Often used metaphorically in French politics to describe power dynamics"
-        },
-        "parlementaire": {
-          "display_format": "**Parliamentary:** Relating to parliament",
-          "explanation": "Refers to activities, processes, or matters related to the parliament",
-          "cultural_note": "The French parliamentary system is bicameral, consisting of the National Assembly and the Senate"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.7,
-        "relevance_score": 6.8,
-        "importance_score": 8.5,
-        "total_score": 22.0
-      },
-      "curation_metadata": {
-        "curation_id": "f1284104-f81a-42ae-aea0-3b196c044a94",
-        "curated_at": "2025-06-12T14:43:26.406168+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T14:46:36.954086+00:00",
-      "quality_score": 6.7,
-      "relevance_score": 6.8,
-      "importance_score": 8.5,
-      "total_score": 22.0
     }
   ]
 }
