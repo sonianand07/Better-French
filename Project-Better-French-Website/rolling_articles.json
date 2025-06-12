@@ -1,51 +1,1944 @@
 {
   "metadata": {
-    "updated_at": "2025-06-12T19:21:33.612602+00:00",
-    "total_articles": 2,
+    "updated_at": "2025-06-12T20:23:03.978374+00:00",
+    "total_articles": 21,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
-    "curated_articles_count": 2,
-    "update_type": "curated_articles",
-    "average_score": 20.0
+    "ai_enhanced_count": 20,
+    "update_type": "ai_enhanced",
+    "average_score": 22.880952380952383
   },
   "articles": [
     {
-      "title": "Los Angeles: un sénateur démocrate violemment expulsé d'un événement d'une ministre de Donald Trump",
-      "summary": "Cette altercation intervient alors que la ville de Los Angeles est en proie à des manifestations d'ampleur pour protester contre la politique migratoire de Donald Trump. Le sénateur Alex Padilla avait notamment exprimé son désaccord avec le gouvernement.",
-      "link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/los-angeles-un-senateur-democrate-violemment-expulse-d-un-evenement-d-une-ministre-de-donald-trump_AN-202506120804.html",
-      "source_name": "BFM TV",
-      "published": "Thu, 12 Jun 2025 18:46:12 GMT",
-      "author": null,
-      "image_url": "https://images.bfmtv.com/5SPkt3xFD3F0Zqa31Urv6s9GLdo=/0x106:2048x1258/800x0/images/Le-senateur-americain-Alex-Padilla-democrate-de-Californie-evacue-apres-avoir-interrompu-une-conference-de-presse-de-la-ministre-de-la-Securite-interieure-Kristi-Noem-a-Los-Angeles-le-12-juin-2025-2096303.jpg",
-      "quality_score": 8.1,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 7.5,
-      "total_score": 20.5,
-      "breaking_news": true,
-      "urgency_score": 3.0,
-      "fast_tracked": true,
-      "curated_at": "2025-06-12T19:21:23.402662+00:00",
-      "curation_id": "96e48d17-b961-4569-9080-8cbab4e37a49",
-      "added_at": "2025-06-12T19:21:33.612556+00:00"
+      "title": "Le bonheur au travail n'est pas une question de yoga",
+      "english_title": "Workplace Happiness: Why Yoga Isn't the Solution to Structural Problems",
+      "simplified_french_title": "Le bonheur au travail n'est pas une question de yoga",
+      "simplified_english_title": "Workplace Happiness: Why Yoga Isn't the Solution to Structural Problems",
+      "summary": "Les experts expliquent que le bien-être au travail ne peut pas être résolu simplement par des activités comme le yoga, mais nécessite des changements plus profonds.",
+      "english_summary": "Experts explain that workplace well-being cannot be solved simply through activities like yoga, but requires deeper structural changes.",
+      "french_summary": "Les experts expliquent que le bien-être au travail ne peut pas être résolu simplement par des activités comme le yoga, mais nécessite des changements plus profonds.",
+      "original_article_title": "La science derrière le bonheur au travail : \"On ne résout pas des problèmes structurels à coups de yoga\"",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/la-science-derriere-le-bonheur-au-travail-on-ne-resout-pas-des-problemes-structurels-a-coups-de-yoga-HBH5HIN2NJCZXNK3ZSA2CREBXA/",
+      "link": "https://www.lexpress.fr/idees-et-debats/la-science-derriere-le-bonheur-au-travail-on-ne-resout-pas-des-problemes-structurels-a-coups-de-yoga-HBH5HIN2NJCZXNK3ZSA2CREBXA/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 16:00:00 +0000",
+      "published_date": "Thu, 12 Jun 2025 16:00:00 +0000",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "science": {
+          "display_format": "**Science:** Scientific knowledge or study",
+          "explanation": "Refers to systematic knowledge or study based on observable facts",
+          "cultural_note": ""
+        },
+        "derrière": {
+          "display_format": "**Behind:** (preposition)",
+          "explanation": "Used to indicate what exists beneath or beyond something, here used figuratively",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (masculine definite article)",
+          "explanation": "Definite article used before masculine nouns",
+          "cultural_note": ""
+        },
+        "bonheur": {
+          "display_format": "**Happiness:** State of well-being or contentment",
+          "explanation": "A state of feeling good or satisfied; derives from 'bon' (good) and 'heur' (fortune)",
+          "cultural_note": "The concept of 'bonheur' has been central to French philosophical thought since the Enlightenment"
+        },
+        "au": {
+          "display_format": "**At the/To the:** (contracted preposition)",
+          "explanation": "Contraction of 'à' + 'le', used to indicate location or connection",
+          "cultural_note": ""
+        },
+        "travail": {
+          "display_format": "**Work:** Employment or workplace",
+          "explanation": "Refers to professional activity or the workplace environment",
+          "cultural_note": "Work-life balance (équilibre travail-vie) is an important topic in French society"
+        },
+        "On": {
+          "display_format": "**One/We:** (indefinite pronoun)",
+          "explanation": "Informal way to say 'we' or 'people in general'",
+          "cultural_note": "Frequently used in French casual speech and writing"
+        },
+        "ne...pas": {
+          "display_format": "**Not:** (negation)",
+          "explanation": "Two-part negative construction in French",
+          "cultural_note": ""
+        },
+        "résout": {
+          "display_format": "**Resolves/Solves:** (verb)",
+          "explanation": "Present tense of 'résoudre' (to solve/resolve)",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/The:** (plural indefinite article)",
+          "explanation": "Used before plural nouns",
+          "cultural_note": ""
+        },
+        "problèmes structurels": {
+          "display_format": "**Structural problems:** Fundamental organizational issues",
+          "explanation": "Refers to deep-rooted, systemic issues within an organization",
+          "cultural_note": "Often discussed in French workplace debates about organizational reform"
+        },
+        "à coups de": {
+          "display_format": "**With/By means of:** (idiomatic expression)",
+          "explanation": "Literally 'by blows of', used to describe the means or method of doing something",
+          "cultural_note": "Common French expression indicating repeated attempts or actions"
+        },
+        "yoga": {
+          "display_format": "**Yoga:** Physical and mental practice",
+          "explanation": "Refers to the exercise and wellness practice originating from India",
+          "cultural_note": "Represents corporate wellness initiatives that may be superficial solutions to deeper problems"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 9.0,
+        "importance_score": 10,
+        "total_score": 28.6
+      },
+      "curation_metadata": {
+        "curation_id": "2ac13cbf-57dc-4a51-8361-319d790705f0",
+        "curated_at": "2025-06-12T20:14:36.640339+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977830+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 9.0,
+      "importance_score": 10,
+      "total_score": 28.6
     },
     {
-      "title": "Pollution de l'air: la ville de Marseille instaure la gratuité du stationnement pour les résidents",
-      "summary": "L'alerte de niveau 2 a été déclenchée pour la journée du vendredi 13 juin en raison de la pollution liée aux particules sahariennes. La ville de Marseille instaure la gratuité du stationnement pour les résidents et demande aux usagers de privilégier les transports en commun.",
-      "link": "https://www.bfmtv.com/marseille/pollution-de-l-air-la-ville-de-marseille-instaure-la-gratuite-du-stationnement-pour-les-residents_AN-202506120818.html",
-      "source_name": "BFM TV",
-      "published": "Thu, 12 Jun 2025 19:09:31 GMT",
-      "author": null,
-      "image_url": "https://images.bfmtv.com/9-7-raJpYiAlRfDhg0XdZHzLnA4=/0x0:1920x1080/800x0/images/stationnement-Marseille-1902340.jpg",
-      "quality_score": 7.9,
-      "relevance_score": 4.1,
+      "title": "La CIA utilisait des livres pendant la guerre froide",
+      "english_title": "The CIA Used Books During the Cold War",
+      "simplified_french_title": "La CIA utilisait des livres pendant la guerre froide",
+      "simplified_english_title": "The CIA Used Books During the Cold War",
+      "summary": "Pendant la guerre froide, la CIA a mené une opération secrète qui consistait à envoyer des livres au lieu d'armes pour influencer les esprits.",
+      "english_summary": "During the Cold War, the CIA conducted a secret operation sending books instead of weapons to influence minds and ideologies.",
+      "french_summary": "Pendant la guerre froide, la CIA a mené une opération secrète qui consistait à envoyer des livres au lieu d'armes pour influencer les esprits.",
+      "original_article_title": "\"Le secret le mieux gardé de la guerre froide\" : quand la CIA envoyait des livres plutôt que des armes",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/le-secret-le-mieux-garde-de-la-guerre-froide-quand-la-cia-envoyait-des-livres-plutot-que-des-armes-WHGAV2VQ6ZHKTPQ2F66WAQKIJE/",
+      "link": "https://www.lexpress.fr/idees-et-debats/le-secret-le-mieux-garde-de-la-guerre-froide-quand-la-cia-envoyait-des-livres-plutot-que-des-armes-WHGAV2VQ6ZHKTPQ2F66WAQKIJE/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 17:15:00 +0000",
+      "published_date": "Thu, 12 Jun 2025 17:15:00 +0000",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** (masculine definite article)",
+          "explanation": "Definite article used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "secret": {
+          "display_format": "**Secret:** Something kept hidden or concealed",
+          "explanation": "A piece of information that is kept hidden from others",
+          "cultural_note": ""
+        },
+        "le mieux": {
+          "display_format": "**The best:** Superlative form",
+          "explanation": "Used to indicate the highest degree of something",
+          "cultural_note": ""
+        },
+        "gardé": {
+          "display_format": "**Kept:** Past participle of 'garder' (to keep)",
+          "explanation": "Indicates something that has been maintained or preserved",
+          "cultural_note": ""
+        },
+        "de la": {
+          "display_format": "**Of the:** (feminine preposition + article)",
+          "explanation": "Indicates possession or relationship to something",
+          "cultural_note": ""
+        },
+        "guerre froide": {
+          "display_format": "**Cold War:** Historical period of geopolitical tension",
+          "explanation": "The period of political hostility between the Soviet Union and the West from 1947-1991",
+          "cultural_note": "Major historical period that shaped modern international relations and influenced French foreign policy"
+        },
+        "quand": {
+          "display_format": "**When:** Time conjunction",
+          "explanation": "Used to indicate the time or circumstance of an action",
+          "cultural_note": ""
+        },
+        "la CIA": {
+          "display_format": "**The CIA:** Central Intelligence Agency",
+          "explanation": "The United States' foreign intelligence service",
+          "cultural_note": "Often featured in French media and literature as a symbol of American influence and power"
+        },
+        "envoyait": {
+          "display_format": "**Was sending:** Imperfect tense of 'envoyer'",
+          "explanation": "Indicates a continuous or repeated action in the past",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/Several:** Plural indefinite article",
+          "explanation": "Used before plural nouns to indicate an unspecified quantity",
+          "cultural_note": ""
+        },
+        "livres": {
+          "display_format": "**Books:** Written or printed works",
+          "explanation": "Physical or digital publications containing text and/or images",
+          "cultural_note": "France has a strong literary tradition and books are considered important cultural artifacts"
+        },
+        "plutôt que": {
+          "display_format": "**Rather than:** Comparative expression",
+          "explanation": "Used to express preference or contrast between two options",
+          "cultural_note": ""
+        },
+        "des armes": {
+          "display_format": "**Weapons:** Tools or instruments used in warfare",
+          "explanation": "Military equipment or devices designed for combat",
+          "cultural_note": "The contrast between books and weapons is significant in French intellectual tradition, which often values cultural influence over military power"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 8.0,
+        "importance_score": 10,
+        "total_score": 26.6
+      },
+      "curation_metadata": {
+        "curation_id": "384958f7-e97b-4a2c-b81b-373902fb40c6",
+        "curated_at": "2025-06-12T20:14:36.632345+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977863+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 8.0,
+      "importance_score": 10,
+      "total_score": 26.6
+    },
+    {
+      "title": "Les armes que la France vend à Israël",
+      "english_title": "Weapons that France Sells to Israel",
+      "simplified_french_title": "Les armes que la France vend à Israël",
+      "simplified_english_title": "Weapons that France Sells to Israel",
+      "summary": "Un examen détaillé des ventes d'armes françaises à Israël, montrant les types d'équipements militaires et la valeur des contrats actuels.",
+      "english_summary": "A detailed examination of French arms sales to Israel, showing the types of military equipment and value of current contracts.",
+      "french_summary": "Un examen détaillé des ventes d'armes françaises à Israël, montrant les types d'équipements militaires et la valeur des contrats actuels.",
+      "original_article_title": "Ventes d’armes à Israël : ce que livre réellement la France à Tel-Aviv",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/ventes-darmes-a-israel-ce-que-livre-reellement-la-france-a-tel-aviv-WE6W4BG7LRGUNBA7LGS6D3MB5Q/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/ventes-darmes-a-israel-ce-que-livre-reellement-la-france-a-tel-aviv-WE6W4BG7LRGUNBA7LGS6D3MB5Q/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 16:19:22 +0000",
+      "published_date": "Thu, 12 Jun 2025 16:19:22 +0000",
+      "contextual_title_explanations": {
+        "Ventes": {
+          "display_format": "**Sales:** Commercial transactions",
+          "explanation": "The plural noun form of 'vente', referring to commercial transactions where goods are sold",
+          "cultural_note": ""
+        },
+        "d'": {
+          "display_format": "**Of:** (preposition, elided form of 'de')",
+          "explanation": "Used to show possession or type; changes to d' before vowels",
+          "cultural_note": ""
+        },
+        "armes": {
+          "display_format": "**Weapons/Arms:** Military equipment",
+          "explanation": "Refers to military weapons and equipment; can include everything from small arms to larger military systems",
+          "cultural_note": "France is one of the world's largest arms exporters, making this a significant economic and political issue"
+        },
+        "à": {
+          "display_format": "**To:** (preposition)",
+          "explanation": "Indicates the recipient or destination",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Country in the Middle East",
+          "explanation": "A country in the Middle East, established in 1948",
+          "cultural_note": "Arms sales to Israel are a sensitive political topic in France and internationally"
+        },
+        "ce que": {
+          "display_format": "**What:** (relative pronoun)",
+          "explanation": "Used to introduce a clause that explains or specifies something",
+          "cultural_note": ""
+        },
+        "livre": {
+          "display_format": "**Delivers/Supplies:** (verb)",
+          "explanation": "From the verb 'livrer', meaning to deliver, supply, or provide goods",
+          "cultural_note": ""
+        },
+        "réellement": {
+          "display_format": "**Actually/Really:** (adverb)",
+          "explanation": "Indicates the true or actual nature of something, as opposed to what might be assumed or reported",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Country",
+          "explanation": "The country of France",
+          "cultural_note": "France has a significant defense industry and is a major global arms exporter"
+        },
+        "Tel-Aviv": {
+          "display_format": "**Tel Aviv:** City in Israel",
+          "explanation": "Major city in Israel, often used metonymically to refer to the Israeli government",
+          "cultural_note": "While Jerusalem is Israel's declared capital, many countries maintain their embassies in Tel Aviv"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 8.5,
+        "importance_score": 9.5,
+        "total_score": 26.6
+      },
+      "curation_metadata": {
+        "curation_id": "4b625b70-2e9c-4c3a-adcd-996ddbfc1c69",
+        "curated_at": "2025-06-12T20:14:36.635796+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977887+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 8.5,
+      "importance_score": 9.5,
+      "total_score": 26.6
+    },
+    {
+      "title": "Un avion Boeing d'Air India s'est écrasé",
+      "english_title": "Air India Boeing Plane Crash: What We Know",
+      "simplified_french_title": "Un avion Boeing d'Air India s'est écrasé",
+      "simplified_english_title": "Air India Boeing Plane Crash: What We Know",
+      "summary": "Un avion d'Air India s'est écrasé, causant une catastrophe aérienne majeure. Les autorités enquêtent sur les causes de l'accident.",
+      "english_summary": "An Air India plane has crashed, resulting in a major aviation disaster. Authorities are investigating the causes of the accident.",
+      "french_summary": "Un avion d'Air India s'est écrasé, causant une catastrophe aérienne majeure. Les autorités enquêtent sur les causes de l'accident.",
+      "original_article_title": "Crash du Boeing d’Air India : ce que l’on sait sur la catastrophe aérienne",
+      "original_article_link": "https://www.lexpress.fr/monde/crash-du-boeing-dair-india-ce-que-lon-sait-sur-la-catastrophe-aerienne-J6K3VGOURVBIDJIPC4PKQCJF6E/",
+      "link": "https://www.lexpress.fr/monde/crash-du-boeing-dair-india-ce-que-lon-sait-sur-la-catastrophe-aerienne-J6K3VGOURVBIDJIPC4PKQCJF6E/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 17:52:40 +0000",
+      "published_date": "Thu, 12 Jun 2025 17:52:40 +0000",
+      "contextual_title_explanations": {
+        "Crash": {
+          "display_format": "**Crash:** Accident, collision (aviation)",
+          "explanation": "A borrowed English word commonly used in French to describe a serious aviation accident",
+          "cultural_note": "While 'écrasement' is the French equivalent, 'crash' is widely used in media headlines for impact"
+        },
+        "du": {
+          "display_format": "**Du:** Of the (contraction of 'de le')",
+          "explanation": "A contracted form combining 'de' (of) and 'le' (the), used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "Boeing": {
+          "display_format": "**Boeing:** American aircraft manufacturer",
+          "explanation": "A major commercial aircraft manufacturing company",
+          "cultural_note": "Boeing is one of the world's largest aerospace companies and a major supplier to many French airlines"
+        },
+        "d'": {
+          "display_format": "**D':** Of (contracted form of 'de')",
+          "explanation": "Used before words beginning with a vowel or silent h",
+          "cultural_note": ""
+        },
+        "Air India": {
+          "display_format": "**Air India:** Indian national airline",
+          "explanation": "The flag carrier airline of India",
+          "cultural_note": "One of the major airlines connecting France and India through international routes"
+        },
+        "ce que": {
+          "display_format": "**Ce que:** What (that which)",
+          "explanation": "Used to introduce an indirect question or statement about something",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**L':** The (contracted form of 'le' or 'la')",
+          "explanation": "Used before words beginning with a vowel or silent h",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**On:** We/One/People (indefinite pronoun)",
+          "explanation": "A versatile pronoun used to refer to people in general or a specific group",
+          "cultural_note": "Very commonly used in French, more so than its English equivalents"
+        },
+        "sait": {
+          "display_format": "**Sait:** Knows (from 'savoir')",
+          "explanation": "Third-person singular present tense of the verb 'savoir' (to know)",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**Sur:** About/Concerning",
+          "explanation": "Preposition indicating the subject or topic being discussed",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**La:** The (feminine singular)",
+          "explanation": "Definite article used before feminine singular nouns",
+          "cultural_note": ""
+        },
+        "catastrophe aérienne": {
+          "display_format": "**Catastrophe aérienne:** Aviation disaster",
+          "explanation": "A serious accident involving aircraft, typically resulting in significant damage or loss of life",
+          "cultural_note": "Term commonly used in French media when reporting major aviation incidents"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 7.199999999999999,
+        "importance_score": 10,
+        "total_score": 25.799999999999997
+      },
+      "curation_metadata": {
+        "curation_id": "b1151d48-51b5-4db0-ade7-adeda84914a7",
+        "curated_at": "2025-06-12T20:14:36.628456+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977910+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 7.199999999999999,
+      "importance_score": 10,
+      "total_score": 25.799999999999997
+    },
+    {
+      "title": "Les sondages montrent Trump en difficulté",
+      "english_title": "Polls Show Trump in Trouble",
+      "simplified_french_title": "Les sondages montrent Trump en difficulté",
+      "simplified_english_title": "Polls Show Trump in Trouble",
+      "summary": "Les sondages récents indiquent que Donald Trump perd du soutien populaire et fait face à des difficultés croissantes dans sa présidence.",
+      "english_summary": "Recent polls indicate Donald Trump is losing popular support and facing increasing difficulties in his presidency.",
+      "french_summary": "Les sondages récents indiquent que Donald Trump perd du soutien populaire et fait face à des difficultés croissantes dans sa présidence.",
+      "original_article_title": "Sondages : Donald Trump, un président à la dérive ?",
+      "original_article_link": "https://www.lexpress.fr/monde/amerique/sondages-donald-trump-un-president-a-la-derive-D3RACN7UYVETJH4LBCMZGHJFUI/",
+      "link": "https://www.lexpress.fr/monde/amerique/sondages-donald-trump-un-president-a-la-derive-D3RACN7UYVETJH4LBCMZGHJFUI/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 17:17:14 +0000",
+      "published_date": "Thu, 12 Jun 2025 17:17:14 +0000",
+      "contextual_title_explanations": {
+        "Sondages": {
+          "display_format": "**Polls/Surveys:** Opinion polls",
+          "explanation": "Statistical surveys designed to measure public opinion on various topics, especially political matters",
+          "cultural_note": "Polling ('sondages') plays a crucial role in French political culture, with regular polls being conducted and widely discussed in media"
+        },
+        ":": {
+          "display_format": "**Colon:** Punctuation mark",
+          "explanation": "Used to introduce an explanation or list; common in French headlines",
+          "cultural_note": "French journalism often uses colons in headlines to separate the topic from its analysis"
+        },
+        "Donald Trump": {
+          "display_format": "**Donald Trump:** 45th President of the United States",
+          "explanation": "American political figure and businessman who served as U.S. President from 2017 to 2021",
+          "cultural_note": "Frequently covered in French media due to his impact on international relations and global politics"
+        },
+        ",": {
+          "display_format": "**Comma:** Punctuation mark",
+          "explanation": "Used to separate elements in a sentence",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A/An:** Indefinite article (masculine)",
+          "explanation": "Used before masculine nouns to indicate a non-specific item or person",
+          "cultural_note": ""
+        },
+        "président": {
+          "display_format": "**President:** Head of state or organization",
+          "explanation": "The leader of a country or organization, specifically referring to the U.S. President in this context",
+          "cultural_note": "The French presidential system differs from the American one, making such comparisons interesting in French media"
+        },
+        "à": {
+          "display_format": "**At/To:** Preposition",
+          "explanation": "Links elements in a sentence, here used to connect to a state or condition",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** Definite article (feminine)",
+          "explanation": "Used before feminine nouns to indicate a specific item",
+          "cultural_note": ""
+        },
+        "dérive": {
+          "display_format": "**Drift/Decline:** Going off course",
+          "explanation": "Literally means 'drifting'; figuratively means losing direction or control",
+          "cultural_note": "Common metaphorical expression in French political journalism to describe leadership problems"
+        },
+        "?": {
+          "display_format": "**Question mark:** Punctuation",
+          "explanation": "Indicates that the statement is a question, here suggesting uncertainty or analysis",
+          "cultural_note": "French headlines often use question marks to prompt reflection or indicate analysis rather than straight news"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 7.199999999999999,
+        "importance_score": 10,
+        "total_score": 25.299999999999997
+      },
+      "curation_metadata": {
+        "curation_id": "e866d31b-1927-4c02-a5af-4212e539bd0a",
+        "curated_at": "2025-06-12T20:14:36.610246+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977929+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 7.199999999999999,
+      "importance_score": 10,
+      "total_score": 25.299999999999997
+    },
+    {
+      "title": "Est-ce possible d'avoir deux États séparés pour Israël et Palestine?",
+      "english_title": "Is a Two-State Solution for Israel and Palestine Possible?",
+      "simplified_french_title": "Est-ce possible d'avoir deux États séparés pour Israël et Palestine?",
+      "simplified_english_title": "Is a Two-State Solution for Israel and Palestine Possible?",
+      "summary": "Un forum à Paris réunit des participants israéliens et palestiniens pour discuter de la création de deux États séparés et de la paix.",
+      "english_summary": "A Paris forum brings together Israeli and Palestinian participants to discuss the creation of two separate states and peace.",
+      "french_summary": "Un forum à Paris réunit des participants israéliens et palestiniens pour discuter de la création de deux États séparés et de la paix.",
+      "original_article_title": "Israël/Palestine, la solution à deux États, est-elle crédible ?",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20250612-isra%C3%ABl-palestine-la-solution-%C3%A0-deux-%C3%A9tats-est-elle-cr%C3%A9dible",
+      "link": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20250612-isra%C3%ABl-palestine-la-solution-%C3%A0-deux-%C3%A9tats-est-elle-cr%C3%A9dible",
+      "source_name": "France 24",
+      "published": "Thu, 12 Jun 2025 18:16:32 GMT",
+      "published_date": "Thu, 12 Jun 2025 18:16:32 GMT",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** A country in the Middle East",
+          "explanation": "A sovereign state in the Middle East, established in 1948",
+          "cultural_note": "Central to ongoing regional conflicts and peace negotiations in the Middle East"
+        },
+        "Palestine": {
+          "display_format": "**Palestine:** A geographic region and proposed state",
+          "explanation": "A region in the Middle East and a proposed sovereign state",
+          "cultural_note": "Subject of ongoing territorial disputes and peace negotiations with Israel"
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Used before feminine nouns to indicate specificity",
+          "cultural_note": ""
+        },
+        "solution": {
+          "display_format": "**Solution:** Resolution or answer to a problem",
+          "explanation": "A way to resolve or address a difficult situation",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To/With:** (preposition)",
+          "explanation": "Links elements in a phrase, indicating relationship or connection",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**Two:** (number)",
+          "explanation": "The number 2, used as an adjective",
+          "cultural_note": ""
+        },
+        "États": {
+          "display_format": "**States:** Sovereign nations",
+          "explanation": "Independent political entities with recognized sovereignty",
+          "cultural_note": "In diplomatic context, refers to internationally recognized sovereign nations"
+        },
+        "est": {
+          "display_format": "**Is:** (verb être, third person singular)",
+          "explanation": "Present tense of the verb 'être' (to be)",
+          "cultural_note": ""
+        },
+        "elle": {
+          "display_format": "**It:** (feminine pronoun)",
+          "explanation": "Third-person feminine singular pronoun, referring to 'la solution'",
+          "cultural_note": ""
+        },
+        "crédible": {
+          "display_format": "**Credible:** Believable or realistic",
+          "explanation": "Describes something that can be believed or is realistically possible",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 7.7,
+        "importance_score": 8.5,
+        "total_score": 24.6
+      },
+      "curation_metadata": {
+        "curation_id": "1fd2675e-f1e9-42e0-8775-d6ad8f97ffbf",
+        "curated_at": "2025-06-12T20:14:36.607911+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977947+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 7.7,
+      "importance_score": 8.5,
+      "total_score": 24.6
+    },
+    {
+      "title": "Est-ce que la France donne des armes à Israël ?",
+      "english_title": "Is France Supplying Weapons to Israel?",
+      "simplified_french_title": "Est-ce que la France donne des armes à Israël ?",
+      "simplified_english_title": "Is France Supplying Weapons to Israel?",
+      "summary": "Une entreprise française est accusée de fournir des pièces d'armes à Israël. Le gouvernement dit qu'il envoie seulement des composants de défense.",
+      "english_summary": "A French company is accused of supplying weapon parts to Israel. The government claims it only sends defense components.",
+      "french_summary": "Une entreprise française est accusée de fournir des pièces d'armes à Israël. Le gouvernement dit qu'il envoie seulement des composants de défense.",
+      "original_article_title": "La France livre-t-elle des armes à Israël ? Ce que l'on sait",
+      "original_article_link": "https://www.france24.com/fr/france/20250612-la-france-livre-t-elle-des-armes-%C3%A0-isra%C3%ABl-ce-que-l-on-sait",
+      "link": "https://www.france24.com/fr/france/20250612-la-france-livre-t-elle-des-armes-%C3%A0-isra%C3%ABl-ce-que-l-on-sait",
+      "source_name": "France 24",
+      "published": "Thu, 12 Jun 2025 15:59:26 GMT",
+      "published_date": "Thu, 12 Jun 2025 15:59:26 GMT",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** The country",
+          "explanation": "The French Republic, a country in Western Europe",
+          "cultural_note": "One of the world's major arms exporters and has strict regulations on weapons sales"
+        },
+        "livre": {
+          "display_format": "**Delivers/Supplies:** (from 'livrer')",
+          "explanation": "The verb 'livrer' means to deliver, supply, or provide something",
+          "cultural_note": ""
+        },
+        "-t-elle": {
+          "display_format": "**Does she/it:** (interrogative form)",
+          "explanation": "A grammatical construction used to form questions in French, where 't' is added for euphony",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/Any:** (plural indefinite article)",
+          "explanation": "Used before plural nouns to indicate an undefined quantity",
+          "cultural_note": ""
+        },
+        "armes": {
+          "display_format": "**Weapons/Arms:** Military equipment",
+          "explanation": "Refers to military weapons and ammunition",
+          "cultural_note": "Arms exports are a sensitive political issue in France"
+        },
+        "à": {
+          "display_format": "**To:** (preposition)",
+          "explanation": "Indicates the recipient or destination",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** The country",
+          "explanation": "A country in the Middle East",
+          "cultural_note": "Subject of international debate regarding arms supplies during ongoing conflicts"
+        },
+        "Ce que": {
+          "display_format": "**What:** (relative pronoun phrase)",
+          "explanation": "Used to introduce indirect questions or statements about known facts",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**The:** (elided definite article)",
+          "explanation": "The letter 'l' with apostrophe replaces 'le' or 'la' before vowels",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**One/We:** (indefinite pronoun)",
+          "explanation": "General purpose pronoun similar to 'one' or 'we' in English",
+          "cultural_note": "Commonly used in French news headlines to indicate general knowledge"
+        },
+        "sait": {
+          "display_format": "**Knows:** (from 'savoir')",
+          "explanation": "Third person singular of 'savoir' (to know)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.2,
+        "relevance_score": 7.6000000000000005,
+        "importance_score": 8.0,
+        "total_score": 23.8
+      },
+      "curation_metadata": {
+        "curation_id": "a431361c-ff2b-4c43-8ba5-f7362e89ade6",
+        "curated_at": "2025-06-12T20:14:36.620629+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977969+00:00",
+      "quality_score": 8.2,
+      "relevance_score": 7.6000000000000005,
+      "importance_score": 8.0,
+      "total_score": 23.8
+    },
+    {
+      "title": "Les impôts et les théories économiques en débat",
+      "english_title": "Taxes and Economic Theories Under Debate",
+      "simplified_french_title": "Les impôts et les théories économiques en débat",
+      "simplified_english_title": "Taxes and Economic Theories Under Debate",
+      "summary": "Le gouvernement devra négocier avec les socialistes pour faire passer la loi de finances, comme l'année dernière.",
+      "english_summary": "The government will need to negotiate with the Socialist Party to pass the finance bill, just like last year.",
+      "french_summary": "Le gouvernement devra négocier avec les socialistes pour faire passer la loi de finances, comme l'année dernière.",
+      "original_article_title": "L’éditorial de Gaëtan de Capèle : «Impôts, pikettisme et zucmania»",
+      "original_article_link": "https://www.lefigaro.fr/vox/economie/l-editorial-de-gaetan-de-capele-impots-pikettisme-et-zucmania-20250612",
+      "link": "https://www.lefigaro.fr/vox/economie/l-editorial-de-gaetan-de-capele-impots-pikettisme-et-zucmania-20250612",
+      "source_name": "Le Figaro",
+      "published": "Thu, 12 Jun 2025 20:00:58 +0200",
+      "published_date": "Thu, 12 Jun 2025 20:00:58 +0200",
+      "contextual_title_explanations": {
+        "L'": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Contracted form of 'le' or 'la' before a vowel sound",
+          "cultural_note": ""
+        },
+        "éditorial": {
+          "display_format": "**Editorial:** Opinion piece written by an editor",
+          "explanation": "A newspaper article expressing the editor's opinion on current events",
+          "cultural_note": "Editorials hold significant weight in French media and often shape public discourse"
+        },
+        "de": {
+          "display_format": "**Of/By:** (preposition)",
+          "explanation": "Indicates possession or attribution",
+          "cultural_note": ""
+        },
+        "Gaëtan de Capèle": {
+          "display_format": "**Gaëtan de Capèle:** Name of the editorial writer",
+          "explanation": "Editorial director at Le Figaro newspaper",
+          "cultural_note": "Le Figaro is one of France's oldest and most respected conservative newspapers"
+        },
+        "Impôts": {
+          "display_format": "**Taxes:** Government levies",
+          "explanation": "Money collected by the government from citizens and businesses",
+          "cultural_note": "Taxation is a particularly sensitive topic in French politics and society"
+        },
+        "pikettisme": {
+          "display_format": "**Pikettism:** Economic theories of Thomas Piketty",
+          "explanation": "References the economic philosophy of French economist Thomas Piketty",
+          "cultural_note": "Piketty is known for his work on wealth and income inequality, particularly in his book 'Capital in the Twenty-First Century'"
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Used to join words or phrases together",
+          "cultural_note": ""
+        },
+        "zucmania": {
+          "display_format": "**Zucmania:** Reference to Mark Zuckerberg",
+          "explanation": "A neologism combining 'Zuckerberg' and 'mania', referring to the influence of tech giants",
+          "cultural_note": "Reflects current debates in France about the influence of American tech companies and digital taxation"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.4,
+        "relevance_score": 5.8999999999999995,
+        "importance_score": 10,
+        "total_score": 23.3
+      },
+      "curation_metadata": {
+        "curation_id": "62d9cbce-ee4c-457a-b9d3-3e2c7c717995",
+        "curated_at": "2025-06-12T20:14:36.615361+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.977987+00:00",
+      "quality_score": 7.4,
+      "relevance_score": 5.8999999999999995,
+      "importance_score": 10,
+      "total_score": 23.3
+    },
+    {
+      "title": "Des militants indépendantistes de Nouvelle-Calédonie sont libérés",
+      "english_title": "New Caledonia Independence Activists Released from Detention",
+      "simplified_french_title": "Des militants indépendantistes de Nouvelle-Calédonie sont libérés",
+      "simplified_english_title": "New Caledonia Independence Activists Released from Detention",
+      "summary": "La cour d'appel de Paris a libéré quatre militants indépendantistes de Nouvelle-Calédonie, dont leur chef Christian Tein, après un an de détention.",
+      "english_summary": "The Paris Court of Appeal released four New Caledonian independence activists, including their leader Christian Tein, after one year in detention.",
+      "french_summary": "La cour d'appel de Paris a libéré quatre militants indépendantistes de Nouvelle-Calédonie, dont leur chef Christian Tein, après un an de détention.",
+      "original_article_title": "Nouvelle-Calédonie: le leader indépendantiste Christian Tein et ses camarades sont remis en liberté",
+      "original_article_link": "https://www.mediapart.fr/journal/france/120625/nouvelle-caledonie-le-leader-independantiste-christian-tein-et-ses-camarades-sont-remis-en-liberte",
+      "link": "https://www.mediapart.fr/journal/france/120625/nouvelle-caledonie-le-leader-independantiste-christian-tein-et-ses-camarades-sont-remis-en-liberte",
+      "source_name": "Mediapart",
+      "published": "Thu, 12 Jun 2025 18:53:58 +0200",
+      "published_date": "Thu, 12 Jun 2025 18:53:58 +0200",
+      "contextual_title_explanations": {
+        "Nouvelle-Calédonie": {
+          "display_format": "**New Caledonia:** French territory in the South Pacific",
+          "explanation": "A French special collectivity located in the South Pacific Ocean",
+          "cultural_note": "Has been the subject of independence debates since the 1980s, with several referendums held on the territory's status"
+        },
+        "le": {
+          "display_format": "**The:** (masculine definite article)",
+          "explanation": "Definite article used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "leader": {
+          "display_format": "**Leader:** Person in charge",
+          "explanation": "An anglicism commonly used in French to describe someone who leads a group or movement",
+          "cultural_note": "While 'chef' is the traditional French word, 'leader' is widely accepted in modern French"
+        },
+        "indépendantiste": {
+          "display_format": "**Independence activist:** Person who advocates for independence",
+          "explanation": "Someone who supports or fights for political independence from another country or entity",
+          "cultural_note": "A significant political movement in French overseas territories, particularly in New Caledonia"
+        },
+        "Christian Tein": {
+          "display_format": "**Christian Tein:** Name of independence movement leader",
+          "explanation": "The leader of the New Caledonian independence movement mentioned in the article",
+          "cultural_note": "A prominent figure in New Caledonian politics and independence movement"
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Basic conjunction used to connect words or phrases",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**His/Her:** (possessive adjective plural)",
+          "explanation": "Possessive adjective indicating ownership of multiple items",
+          "cultural_note": ""
+        },
+        "camarades": {
+          "display_format": "**Comrades/Colleagues:** Fellow members of a group",
+          "explanation": "People who share the same political beliefs or belong to the same movement",
+          "cultural_note": "Often used in political contexts to denote solidarity among members of the same cause"
+        },
+        "sont": {
+          "display_format": "**Are:** (verb être, present tense)",
+          "explanation": "Third person plural of the verb 'être' (to be)",
+          "cultural_note": ""
+        },
+        "remis": {
+          "display_format": "**Put back/Released:** (past participle)",
+          "explanation": "Past participle of 'remettre', meaning to put back or release",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In/Into:** (preposition)",
+          "explanation": "Preposition indicating state or condition",
+          "cultural_note": ""
+        },
+        "liberté": {
+          "display_format": "**Freedom/Liberty:** State of being free",
+          "explanation": "The state of being free, particularly from detention or imprisonment",
+          "cultural_note": "A fundamental value in French society, reflected in the national motto 'Liberté, Égalité, Fraternité'"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 6.7,
+        "importance_score": 6.0,
+        "total_score": 22.3
+      },
+      "curation_metadata": {
+        "curation_id": "984cf016-d11d-4d8a-8633-4ce541271d33",
+        "curated_at": "2025-06-12T20:14:36.610549+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978009+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 6.7,
+      "importance_score": 6.0,
+      "total_score": 22.3
+    },
+    {
+      "title": "La France va lutter contre le plastique",
+      "english_title": "France Presents New Plan Against Plastic Pollution",
+      "simplified_french_title": "La France va lutter contre le plastique",
+      "simplified_english_title": "France Presents New Plan Against Plastic Pollution",
+      "summary": "Le gouvernement français a créé un nouveau programme pour réduire la pollution plastique et améliorer le recyclage dans le pays.",
+      "english_summary": "The French government has created a new program to reduce plastic pollution and improve recycling efforts across the country.",
+      "french_summary": "Le gouvernement français a créé un nouveau programme pour réduire la pollution plastique et améliorer le recyclage dans le pays.",
+      "original_article_title": "La France présente son nouveau plan contre la pollution plastique",
+      "original_article_link": "https://www.europe1.fr/politique/la-france-presente-son-nouveau-plan-contre-la-pollution-plastique-758448",
+      "link": "https://www.europe1.fr/politique/la-france-presente-son-nouveau-plan-contre-la-pollution-plastique-758448",
+      "source_name": "Europe 1",
+      "published": "Thu, 12 Jun 2025 18:21:03 +0200",
+      "published_date": "Thu, 12 Jun 2025 18:21:03 +0200",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** The country",
+          "explanation": "The French Republic, a country in Western Europe",
+          "cultural_note": "One of the founding members of the European Union and a major global economic power"
+        },
+        "présente": {
+          "display_format": "**Presents:** (verb, to present)",
+          "explanation": "From 'présenter', meaning to show or introduce something new",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its:** (possessive adjective)",
+          "explanation": "Possessive adjective indicating ownership, agrees with the following noun",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**New:** (adjective)",
+          "explanation": "Indicates something recent or just created",
+          "cultural_note": ""
+        },
+        "plan": {
+          "display_format": "**Plan:** Strategy or program",
+          "explanation": "A structured approach or strategy to address a specific issue",
+          "cultural_note": "In French politics, 'plan' often refers to government initiatives or policy programs"
+        },
+        "contre": {
+          "display_format": "**Against:** (preposition)",
+          "explanation": "Indicates opposition to or protection from something",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "pollution": {
+          "display_format": "**Pollution:** Environmental contamination",
+          "explanation": "The presence or introduction of harmful substances into the environment",
+          "cultural_note": "Environmental protection is a major political and social issue in France"
+        },
+        "plastique": {
+          "display_format": "**Plastic:** (noun/adjective)",
+          "explanation": "Refers to synthetic materials made from polymers",
+          "cultural_note": "France has been implementing increasingly strict regulations on plastic use since 2020"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.2,
+        "relevance_score": 7.6000000000000005,
+        "importance_score": 7.5,
+        "total_score": 22.3
+      },
+      "curation_metadata": {
+        "curation_id": "bfc98e5f-7023-4493-97d1-54ef86e71a95",
+        "curated_at": "2025-06-12T20:14:36.610806+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978027+00:00",
+      "quality_score": 7.2,
+      "relevance_score": 7.6000000000000005,
       "importance_score": 7.5,
-      "total_score": 19.5,
-      "breaking_news": true,
-      "urgency_score": 3.0,
-      "fast_tracked": true,
-      "curated_at": "2025-06-12T19:21:23.402484+00:00",
-      "curation_id": "c0c1b659-de8e-4456-b9fc-fe141ec03b81",
-      "added_at": "2025-06-12T19:21:33.612545+00:00"
+      "total_score": 22.3
+    },
+    {
+      "title": "Un leader kanak de Nouvelle-Calédonie sort de prison",
+      "english_title": "New Caledonian Independence Leader Released from Prison",
+      "simplified_french_title": "Un leader kanak de Nouvelle-Calédonie sort de prison",
+      "simplified_english_title": "New Caledonian Independence Leader Released from Prison",
+      "summary": "Christian Tein, un leader kanak emprisonné en France après des violences en Nouvelle-Calédonie, a été libéré par la justice à Paris.",
+      "english_summary": "Christian Tein, a Kanak leader imprisoned in France following violence in New Caledonia, has been released by the courts in Paris.",
+      "french_summary": "Christian Tein, un leader kanak emprisonné en France après des violences en Nouvelle-Calédonie, a été libéré par la justice à Paris.",
+      "original_article_title": "Nouvelle-Calédonie : le leader indépendantiste kanak Christian Tein libéré",
+      "original_article_link": "https://www.france24.com/fr/france/20250612-nouvelle-cal%C3%A9donie-leader-ind%C3%A9pendantiste-kanak-christian-tein-lib%C3%A9r%C3%A9",
+      "link": "https://www.france24.com/fr/france/20250612-nouvelle-cal%C3%A9donie-leader-ind%C3%A9pendantiste-kanak-christian-tein-lib%C3%A9r%C3%A9",
+      "source_name": "France 24",
+      "published": "Thu, 12 Jun 2025 15:39:42 GMT",
+      "published_date": "Thu, 12 Jun 2025 15:39:42 GMT",
+      "contextual_title_explanations": {
+        "Nouvelle-Calédonie": {
+          "display_format": "**New Caledonia:** French territory in the South Pacific",
+          "explanation": "A special collectivity of France located in the southwest Pacific Ocean",
+          "cultural_note": "Subject of ongoing independence debates and referendums, with complex relations between indigenous Kanak people and French administration"
+        },
+        "le": {
+          "display_format": "**The:** Definite article (masculine singular)",
+          "explanation": "Used before masculine singular nouns to indicate a specific person or thing",
+          "cultural_note": ""
+        },
+        "leader": {
+          "display_format": "**Leader:** Political or community leader",
+          "explanation": "An English loanword commonly used in French to describe someone in a position of leadership",
+          "cultural_note": "While 'chef' is the traditional French word, 'leader' is increasingly common in political contexts"
+        },
+        "indépendantiste": {
+          "display_format": "**Independence advocate/supporter:** Person who supports independence",
+          "explanation": "Someone who advocates for political independence from France",
+          "cultural_note": "A key term in French territorial politics, especially regarding overseas territories"
+        },
+        "kanak": {
+          "display_format": "**Kanak:** Indigenous people of New Caledonia",
+          "explanation": "Refers to the indigenous Melanesian inhabitants of New Caledonia",
+          "cultural_note": "The term is invariable in French and represents a strong cultural and political identity in New Caledonian society"
+        },
+        "Christian Tein": {
+          "display_format": "**Christian Tein:** Name of the independence leader",
+          "explanation": "A prominent figure in the New Caledonian independence movement",
+          "cultural_note": "Known for his involvement in pro-independence activism in New Caledonia"
+        },
+        "libéré": {
+          "display_format": "**Released:** Set free, released from custody",
+          "explanation": "Past participle of 'libérer', meaning to free or release someone",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 6.7,
+        "importance_score": 7.0,
+        "total_score": 22.1
+      },
+      "curation_metadata": {
+        "curation_id": "1a1725a9-91ac-4a0c-a9ff-4f0377ff7370",
+        "curated_at": "2025-06-12T20:14:36.620857+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978043+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 6.7,
+      "importance_score": 7.0,
+      "total_score": 22.1
+    },
+    {
+      "title": "Le Sénat refuse une nouvelle taxe sur les plus riches",
+      "english_title": "Senate Rejects New Wealth Tax on Ultra-Rich",
+      "simplified_french_title": "Le Sénat refuse une nouvelle taxe sur les plus riches",
+      "simplified_english_title": "Senate Rejects New Wealth Tax on Ultra-Rich",
+      "summary": "Une proposition de taxer les très riches a été acceptée par l'Assemblée nationale mais rejetée par le Sénat. Le gouvernement cherche une autre solution.",
+      "english_summary": "A proposal to tax the ultra-wealthy was approved by the National Assembly but rejected by the Senate. The government is seeking an alternative solution.",
+      "french_summary": "Une proposition de taxer les très riches a été acceptée par l'Assemblée nationale mais rejetée par le Sénat. Le gouvernement cherche une autre solution.",
+      "original_article_title": "La « taxe Zucman » sur le patrimoine des ultrariches a été rejetée par le Sénat",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/12/la-taxe-zucman-sur-les-ultrariches-a-ete-rejetee-par-le-senat_6612580_823448.html",
+      "link": "https://www.lemonde.fr/politique/article/2025/06/12/la-taxe-zucman-sur-les-ultrariches-a-ete-rejetee-par-le-senat_6612580_823448.html",
+      "source_name": "Le Monde Politique",
+      "published": "Thu, 12 Jun 2025 18:36:42 +0200",
+      "published_date": "Thu, 12 Jun 2025 18:36:42 +0200",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "taxe": {
+          "display_format": "**Tax:** A financial charge or levy",
+          "explanation": "A mandatory financial contribution imposed by a government",
+          "cultural_note": "France has a long history of progressive taxation and wealth redistribution policies"
+        },
+        "Zucman": {
+          "display_format": "**Zucman:** Gabriel Zucman, French economist",
+          "explanation": "A French economist known for his work on wealth inequality and tax havens",
+          "cultural_note": "Zucman is a prominent advocate for global wealth taxation and has influenced policy debates worldwide"
+        },
+        "sur": {
+          "display_format": "**On:** (preposition)",
+          "explanation": "Indicates the object or target of the tax",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (masculine definite article)",
+          "explanation": "Definite article used before masculine nouns",
+          "cultural_note": ""
+        },
+        "patrimoine": {
+          "display_format": "**Wealth/Assets:** Total owned assets",
+          "explanation": "Refers to the total financial and material assets owned by an individual",
+          "cultural_note": "The concept of 'patrimoine' in French culture often includes both material and cultural heritage"
+        },
+        "des": {
+          "display_format": "**Of the:** (contraction of 'de les')",
+          "explanation": "Plural definite article used to indicate possession or association",
+          "cultural_note": ""
+        },
+        "ultrariches": {
+          "display_format": "**Ultra-wealthy:** Extremely rich individuals",
+          "explanation": "Refers to individuals with exceptional wealth, typically in the highest wealth brackets",
+          "cultural_note": "Wealth inequality is a significant political issue in French society"
+        },
+        "a été": {
+          "display_format": "**Has been:** (past tense auxiliary verb)",
+          "explanation": "Compound past tense (passé composé) of the verb 'être' (to be)",
+          "cultural_note": ""
+        },
+        "rejetée": {
+          "display_format": "**Rejected:** (past participle)",
+          "explanation": "To be refused or denied approval",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates the agent performing the action",
+          "cultural_note": ""
+        },
+        "le Sénat": {
+          "display_format": "**The Senate:** Upper house of French Parliament",
+          "explanation": "The upper chamber of the French Parliament, representing territorial communities",
+          "cultural_note": "The French Senate tends to be more conservative than the National Assembly and often acts as a counterbalance"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 6.5,
+        "importance_score": 8.5,
+        "total_score": 21.9
+      },
+      "curation_metadata": {
+        "curation_id": "bca03f69-63ed-48af-9656-d5dda8a71531",
+        "curated_at": "2025-06-12T20:14:36.610704+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978063+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 6.5,
+      "importance_score": 8.5,
+      "total_score": 21.9
+    },
+    {
+      "title": "Les experts critiquent le plan santé mentale du gouvernement",
+      "english_title": "Mental Health Plan: Experts Say Government Lacks Overall Vision",
+      "simplified_french_title": "Les experts critiquent le plan santé mentale du gouvernement",
+      "simplified_english_title": "Mental Health Plan: Experts Say Government Lacks Overall Vision",
+      "summary": "Le ministre présente un nouveau plan pour la santé mentale en 2025. Les professionnels trouvent les idées bonnes mais manquent d'informations pratiques.",
+      "english_summary": "The Health Minister presented a new mental health plan for 2025. Professionals approve of ideas but lack practical implementation details.",
+      "french_summary": "Le ministre présente un nouveau plan pour la santé mentale en 2025. Les professionnels trouvent les idées bonnes mais manquent d'informations pratiques.",
+      "original_article_title": "Plan pour la santé mentale : « Le gouvernement n’a pas de vision globale », estiment des acteurs du secteur",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250612.OBS104883/plan-pour-la-sante-mentale-le-gouvernement-n-a-pas-de-vision-globale-estiment-des-acteurs-du-secteur.html",
+      "link": "https://www.nouvelobs.com/politique/20250612.OBS104883/plan-pour-la-sante-mentale-le-gouvernement-n-a-pas-de-vision-globale-estiment-des-acteurs-du-secteur.html",
+      "source_name": "L'Obs",
+      "published": "Thu, 12 Jun 2025 19:20:10 +0200",
+      "published_date": "Thu, 12 Jun 2025 19:20:10 +0200",
+      "contextual_title_explanations": {
+        "Plan": {
+          "display_format": "**Plan:** Strategy or program",
+          "explanation": "A detailed proposal for achieving specific objectives",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose or destination",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Used before feminine nouns to indicate specificity",
+          "cultural_note": ""
+        },
+        "santé mentale": {
+          "display_format": "**Mental health:** Psychological well-being",
+          "explanation": "Refers to emotional, psychological, and social well-being",
+          "cultural_note": "Has become a major focus in French healthcare policy, particularly post-COVID"
+        },
+        "Le gouvernement": {
+          "display_format": "**The government:** The ruling administration",
+          "explanation": "Refers to the executive branch of the French state",
+          "cultural_note": "In France, refers to the administration under President Macron and Prime Minister Gabriel Attal"
+        },
+        "n'a pas": {
+          "display_format": "**Does not have:** (negative construction)",
+          "explanation": "French negative construction using 'ne...pas' around the verb",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Used to show possession or connection",
+          "cultural_note": ""
+        },
+        "vision": {
+          "display_format": "**Vision:** Perspective or outlook",
+          "explanation": "A way of thinking about or planning for the future",
+          "cultural_note": ""
+        },
+        "globale": {
+          "display_format": "**Global/Overall:** Comprehensive",
+          "explanation": "Covering or affecting all parts of something",
+          "cultural_note": ""
+        },
+        "estiment": {
+          "display_format": "**Consider/Believe:** (verb)",
+          "explanation": "Third person plural of 'estimer' - to think or believe",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some/The:** (plural indefinite article)",
+          "explanation": "Used before plural nouns",
+          "cultural_note": ""
+        },
+        "acteurs": {
+          "display_format": "**Stakeholders/Players:** People involved",
+          "explanation": "People or organizations actively involved in a sector",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** (contraction of 'de' + 'le')",
+          "explanation": "Contracted form used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "secteur": {
+          "display_format": "**Sector:** Field or industry",
+          "explanation": "A distinct part or branch of an area or sphere of activity",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 5.8999999999999995,
+        "importance_score": 7.5,
+        "total_score": 21.8
+      },
+      "curation_metadata": {
+        "curation_id": "05997319-05e4-4f66-96df-47b3a1381883",
+        "curated_at": "2025-06-12T20:14:36.609653+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978085+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 5.8999999999999995,
+      "importance_score": 7.5,
+      "total_score": 21.8
+    },
+    {
+      "title": "Le gouvernement pense à augmenter les impôts en 2026",
+      "english_title": "Government Considers Tax Increases for 2026",
+      "simplified_french_title": "Le gouvernement pense à augmenter les impôts en 2026",
+      "simplified_english_title": "Government Considers Tax Increases for 2026",
+      "summary": "Malgré les promesses de ne pas augmenter les impôts, le gouvernement cherche de nouvelles sources de revenus pour équilibrer le budget de l'État.",
+      "english_summary": "Despite promises not to raise taxes, the government is seeking new revenue sources to balance the state budget.",
+      "french_summary": "Malgré les promesses de ne pas augmenter les impôts, le gouvernement cherche de nouvelles sources de revenus pour équilibrer le budget de l'État.",
+      "original_article_title": "Budget 2026 : malgré les promesses, la tentation de l’impôt revient en force",
+      "original_article_link": "https://www.lefigaro.fr/conjoncture/budget-2026-malgre-les-promesses-la-tentation-de-l-impot-revient-en-force-20250612",
+      "link": "https://www.lefigaro.fr/conjoncture/budget-2026-malgre-les-promesses-la-tentation-de-l-impot-revient-en-force-20250612",
+      "source_name": "Le Figaro",
+      "published": "Thu, 12 Jun 2025 20:24:31 +0200",
+      "published_date": "Thu, 12 Jun 2025 20:24:31 +0200",
+      "contextual_title_explanations": {
+        "Budget": {
+          "display_format": "**Budget:** Financial plan",
+          "explanation": "A detailed plan for managing income and expenses, typically for a specific period.",
+          "cultural_note": "In France, the national budget is a crucial annual political event that generates significant debate."
+        },
+        "2026": {
+          "display_format": "**2026:** Year",
+          "explanation": "The fiscal year being discussed.",
+          "cultural_note": "French budgets are typically planned several years in advance as part of medium-term financial planning."
+        },
+        "malgré": {
+          "display_format": "**Despite/In spite of:** (preposition)",
+          "explanation": "Used to express contrast between two situations or ideas.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (definite article, plural)",
+          "explanation": "Used before plural nouns to indicate specific items being discussed.",
+          "cultural_note": ""
+        },
+        "promesses": {
+          "display_format": "**Promises:** Commitments or pledges",
+          "explanation": "Formal assurances or commitments made to do or not do something.",
+          "cultural_note": "Political promises about taxes are particularly sensitive in French politics."
+        },
+        "la": {
+          "display_format": "**The:** (definite article, feminine singular)",
+          "explanation": "Used before feminine singular nouns to indicate a specific item.",
+          "cultural_note": ""
+        },
+        "tentation": {
+          "display_format": "**Temptation:** Strong urge or inclination",
+          "explanation": "A desire or impulse, especially one that is difficult to resist.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Used to show possession or connection between words.",
+          "cultural_note": ""
+        },
+        "l'impôt": {
+          "display_format": "**Tax:** Government levy",
+          "explanation": "A compulsory financial charge imposed by the government on individuals or entities.",
+          "cultural_note": "Taxation is a particularly sensitive political issue in France, with a history of tax-related social movements."
+        },
+        "revient": {
+          "display_format": "**Returns/Comes back:** (verb)",
+          "explanation": "From 'revenir' - to come back or return. Here used to indicate the reappearance of an idea.",
+          "cultural_note": ""
+        },
+        "en force": {
+          "display_format": "**Strongly/With force:** (idiomatic expression)",
+          "explanation": "With renewed vigor or intensity; powerfully.",
+          "cultural_note": "Common French expression indicating something returning or appearing with particular strength or intensity."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 6.300000000000001,
+        "importance_score": 8.5,
+        "total_score": 21.700000000000003
+      },
+      "curation_metadata": {
+        "curation_id": "e6b56d71-41f0-4d3e-a261-0f10fa2a6f22",
+        "curated_at": "2025-06-12T20:14:36.614899+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978106+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 6.300000000000001,
+      "importance_score": 8.5,
+      "total_score": 21.700000000000003
+    },
+    {
+      "title": "Bruno Retailleau influence les lois conservatrices au Sénat",
+      "english_title": "Bruno Retailleau Controls Conservative Laws Through Senate Majority",
+      "simplified_french_title": "Bruno Retailleau influence les lois conservatrices au Sénat",
+      "simplified_english_title": "Bruno Retailleau Controls Conservative Laws Through Senate Majority",
+      "summary": "Des sénateurs socialistes critiquent le fait que la droite sénatoriale propose des lois à la place du gouvernement, ce qui pose un problème démocratique.",
+      "english_summary": "Socialist senators criticize the Senate's right-wing for proposing laws instead of the government, viewing it as a democratic issue.",
+      "french_summary": "Des sénateurs socialistes critiquent le fait que la droite sénatoriale propose des lois à la place du gouvernement, ce qui pose un problème démocratique.",
+      "original_article_title": "« Bruno Retailleau téléguide des textes ultraconservateurs par le biais de la majorité sénatoriale »",
+      "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/12/bruno-retailleau-teleguide-des-textes-ultraconservateurs-par-le-biais-de-la-majorite-senatoriale_6612559_3232.html",
+      "link": "https://www.lemonde.fr/idees/article/2025/06/12/bruno-retailleau-teleguide-des-textes-ultraconservateurs-par-le-biais-de-la-majorite-senatoriale_6612559_3232.html",
+      "source_name": "Le Monde Politique",
+      "published": "Thu, 12 Jun 2025 17:00:20 +0200",
+      "published_date": "Thu, 12 Jun 2025 17:00:20 +0200",
+      "contextual_title_explanations": {
+        "Bruno Retailleau": {
+          "display_format": "**Bruno Retailleau:** French politician",
+          "explanation": "President of the Republicans group in the French Senate since 2014",
+          "cultural_note": "A prominent figure of the French right-wing, known for his conservative positions on social issues"
+        },
+        "téléguide": {
+          "display_format": "**Remote controls/Manipulates:** (verb)",
+          "explanation": "To control or direct from a distance, metaphorically meaning to manipulate or influence",
+          "cultural_note": "In political context, suggests behind-the-scenes manipulation of political processes"
+        },
+        "des": {
+          "display_format": "**Some/The:** (article)",
+          "explanation": "Plural indefinite or definite article in French",
+          "cultural_note": ""
+        },
+        "textes": {
+          "display_format": "**Texts:** Legislative texts or bills",
+          "explanation": "In political context, refers to draft laws or legislative proposals",
+          "cultural_note": "In French politics, 'textes' commonly refers to legislative documents"
+        },
+        "ultraconservateurs": {
+          "display_format": "**Ultra-conservative:** Extremely conservative",
+          "explanation": "Describing political positions or policies that are very traditional or right-wing",
+          "cultural_note": "Term often used critically by opponents to describe far-right or extremely traditional positions"
+        },
+        "par": {
+          "display_format": "**By/Through:** (preposition)",
+          "explanation": "Indicates means or method",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Masculine singular definite article",
+          "cultural_note": ""
+        },
+        "biais": {
+          "display_format": "**Means/Channel:** Way or method",
+          "explanation": "Indicates the method or channel through which something is accomplished",
+          "cultural_note": "Often used in the expression 'par le biais de' meaning 'through the means of'"
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Indicates possession or connection",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Feminine singular definite article",
+          "cultural_note": ""
+        },
+        "majorité sénatoriale": {
+          "display_format": "**Senate majority:** The dominant political group in the Senate",
+          "explanation": "The political group holding the most seats in the French Senate",
+          "cultural_note": "The French Senate traditionally leans conservative, with the right-wing usually holding the majority"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.1,
+        "relevance_score": 6.0,
+        "importance_score": 8.5,
+        "total_score": 21.6
+      },
+      "curation_metadata": {
+        "curation_id": "8311546d-327f-4257-951f-8c9cd687ee49",
+        "curated_at": "2025-06-12T20:14:36.611263+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978124+00:00",
+      "quality_score": 7.1,
+      "relevance_score": 6.0,
+      "importance_score": 8.5,
+      "total_score": 21.6
+    },
+    {
+      "title": "Trump contre la Californie sur les voitures électriques",
+      "english_title": "Trump vs. California over Electric Cars",
+      "simplified_french_title": "Trump contre la Californie sur les voitures électriques",
+      "simplified_english_title": "Trump vs. California over Electric Cars",
+      "summary": "Trump veut arrêter la politique des voitures électriques en Californie. L'État s'oppose à cette décision et va porter plainte.",
+      "english_summary": "Trump aims to end California's electric car policy. The state opposes this decision and plans to take legal action.",
+      "french_summary": "Trump veut arrêter la politique des voitures électriques en Californie. L'État s'oppose à cette décision et va porter plainte.",
+      "original_article_title": "L'affrontement Trump-Californie se poursuit autour des voitures électriques",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250612-l-affrontement-trump-californie-se-poursuit-autour-des-voitures-%C3%A9lectriques",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250612-l-affrontement-trump-californie-se-poursuit-autour-des-voitures-%C3%A9lectriques",
+      "source_name": "RFI",
+      "published": "Thu, 12 Jun 2025 19:47:46 GMT",
+      "published_date": "Thu, 12 Jun 2025 19:47:46 GMT",
+      "contextual_title_explanations": {
+        "L'": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Contracted form of 'le/la' before a vowel sound",
+          "cultural_note": ""
+        },
+        "affrontement": {
+          "display_format": "**Confrontation/Clash:** A conflict or opposition between parties",
+          "explanation": "Describes a direct opposition or conflict between two sides",
+          "cultural_note": "Often used in political contexts to describe institutional conflicts"
+        },
+        "Trump": {
+          "display_format": "**Trump:** Donald Trump, 45th US President",
+          "explanation": "Former US President (2017-2021)",
+          "cultural_note": "Known for controversial environmental policies and conflicts with California"
+        },
+        "-": {
+          "display_format": "**Hyphen:** Connecting punctuation mark",
+          "explanation": "Used here to indicate opposition between two entities",
+          "cultural_note": ""
+        },
+        "Californie": {
+          "display_format": "**California:** US state",
+          "explanation": "Most populous US state, located on the west coast",
+          "cultural_note": "Known for progressive environmental policies and frequent opposition to Trump administration"
+        },
+        "se": {
+          "display_format": "**Itself:** Reflexive pronoun",
+          "explanation": "Used with reflexive verbs to indicate the action reflects back on the subject",
+          "cultural_note": ""
+        },
+        "poursuit": {
+          "display_format": "**Continues:** From 'poursuivre' (to continue/pursue)",
+          "explanation": "Indicates an ongoing action or situation",
+          "cultural_note": ""
+        },
+        "autour": {
+          "display_format": "**Around/Regarding:** Concerning a specific topic",
+          "explanation": "Indicates the subject or focus of the conflict",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of the:** Contraction of 'de les'",
+          "explanation": "Plural definite article used as a preposition",
+          "cultural_note": ""
+        },
+        "voitures": {
+          "display_format": "**Cars:** Automobiles",
+          "explanation": "Plural form of 'voiture' (car)",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**Electric:** Powered by electricity",
+          "explanation": "Adjective describing vehicles powered by electric motors",
+          "cultural_note": "A key focus in environmental policy debates and climate change initiatives"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 4.3999999999999995,
+        "importance_score": 8.5,
+        "total_score": 21.3
+      },
+      "curation_metadata": {
+        "curation_id": "d7495f60-e324-4702-b874-cdb3a4a8c853",
+        "curated_at": "2025-06-12T20:14:36.608743+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978144+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 4.3999999999999995,
+      "importance_score": 8.5,
+      "total_score": 21.3
+    },
+    {
+      "title": "Le Sénat dit non à une nouvelle taxe sur les plus riches",
+      "english_title": "Senate Rejects New Tax on the Ultra-Wealthy",
+      "simplified_french_title": "Le Sénat dit non à une nouvelle taxe sur les plus riches",
+      "simplified_english_title": "Senate Rejects New Tax on the Ultra-Wealthy",
+      "summary": "Le Sénat français a voté contre un projet de loi qui voulait créer un nouvel impôt sur les personnes très riches.",
+      "english_summary": "The French Senate voted against a bill that would have created a new tax on very wealthy individuals, with 188 votes against it.",
+      "french_summary": "Le Sénat français a voté contre un projet de loi qui voulait créer un nouvel impôt sur les personnes très riches.",
+      "original_article_title": "Taxe pour les ultra-riches : le Sénat rejette la proposition de loi « Zucman »",
+      "original_article_link": "https://www.la-croix.com/economie/taxe-pour-les-ultra-riches-le-senat-rejette-la-proposition-de-loi-zucman-20250612",
+      "link": "https://www.la-croix.com/economie/taxe-pour-les-ultra-riches-le-senat-rejette-la-proposition-de-loi-zucman-20250612",
+      "source_name": "La Croix",
+      "published": "Thu, 12 Jun 2025 19:39:28 +0200",
+      "published_date": "Thu, 12 Jun 2025 19:39:28 +0200",
+      "contextual_title_explanations": {
+        "Taxe": {
+          "display_format": "**Tax:** A mandatory financial charge",
+          "explanation": "A compulsory contribution to state revenue levied by the government",
+          "cultural_note": "Taxation is a particularly sensitive topic in French politics, with France having one of the highest tax rates in Europe"
+        },
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose or intended recipient",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (definite article, plural)",
+          "explanation": "Used before plural nouns to specify a particular group",
+          "cultural_note": ""
+        },
+        "ultra-riches": {
+          "display_format": "**Ultra-wealthy:** Extremely rich people",
+          "explanation": "Refers to individuals with exceptional wealth, typically billionaires or multi-millionaires",
+          "cultural_note": "Term gained prominence in French political discourse during debates about wealth inequality"
+        },
+        "le": {
+          "display_format": "**The:** (definite article, masculine singular)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "Sénat": {
+          "display_format": "**Senate:** Upper house of French Parliament",
+          "explanation": "One of two chambers of the French Parliament, representing territorial collectivities",
+          "cultural_note": "The French Senate is generally more conservative than the National Assembly and often acts as a counterweight"
+        },
+        "rejette": {
+          "display_format": "**Rejects:** (verb, present tense of 'rejeter')",
+          "explanation": "To refuse to accept or approve something",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article, feminine singular)",
+          "explanation": "Used before feminine singular nouns",
+          "cultural_note": ""
+        },
+        "proposition": {
+          "display_format": "**Proposal:** A suggested plan or idea",
+          "explanation": "A formal suggestion put forward for consideration",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Indicates possession or connection between words",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**Law:** Legislative text",
+          "explanation": "A bill or piece of legislation proposed to Parliament",
+          "cultural_note": ""
+        },
+        "« Zucman »": {
+          "display_format": "**'Zucman':** Named after economist Gabriel Zucman",
+          "explanation": "Refers to a tax proposal developed by French economist Gabriel Zucman",
+          "cultural_note": "Gabriel Zucman is a prominent French economist known for his work on tax havens and wealth inequality"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 5.4,
+        "importance_score": 7.5,
+        "total_score": 21.3
+      },
+      "curation_metadata": {
+        "curation_id": "472c7716-13bb-4503-957f-fa75b91fd3d7",
+        "curated_at": "2025-06-12T20:14:36.629282+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978162+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 5.4,
+      "importance_score": 7.5,
+      "total_score": 21.3
+    },
+    {
+      "title": "Le COR modifie son rapport sur les retraites",
+      "english_title": "Pensions: The COR Removes Controversial Content from Report",
+      "simplified_french_title": "Le COR modifie son rapport sur les retraites",
+      "simplified_english_title": "Pensions: The COR Removes Controversial Content from Report",
+      "summary": "Le Conseil d'orientation des retraites a modifié son rapport en supprimant certains éléments controversés concernant les dépenses de retraite.",
+      "english_summary": "The French Pensions Advisory Council has modified its report by removing controversial elements about pension spending data.",
+      "french_summary": "Le Conseil d'orientation des retraites a modifié son rapport en supprimant certains éléments controversés concernant les dépenses de retraite.",
+      "original_article_title": "Retraites : le COR retire les mots et le tableau qui fâchent",
+      "original_article_link": "https://www.lexpress.fr/economie/retraites-le-cor-retire-les-mots-et-le-tableau-qui-fachent-KI6JLZHVQZB7DIKKHEGKUVLAPE/",
+      "link": "https://www.lexpress.fr/economie/retraites-le-cor-retire-les-mots-et-le-tableau-qui-fachent-KI6JLZHVQZB7DIKKHEGKUVLAPE/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 17:47:29 +0000",
+      "published_date": "Thu, 12 Jun 2025 17:47:29 +0000",
+      "contextual_title_explanations": {
+        "Retraites": {
+          "display_format": "**Pensions/Retirement:** The French pension/retirement system",
+          "explanation": "Refers to the state pension system and retirement benefits in France",
+          "cultural_note": "Pensions are a highly sensitive political issue in France, often sparking major debates and protests"
+        },
+        "le": {
+          "display_format": "**The:** Definite article (masculine singular)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "COR": {
+          "display_format": "**COR (Conseil d'orientation des retraites):** Pensions Advisory Council",
+          "explanation": "An independent French government body that analyzes and monitors the pension system",
+          "cultural_note": "Created in 2000, it plays a crucial role in French pension policy debates"
+        },
+        "retire": {
+          "display_format": "**Removes/Withdraws:** (verb 'retirer')",
+          "explanation": "Present tense of 'retirer', meaning to take away or remove something",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** Definite article (plural)",
+          "explanation": "Used before plural nouns of either gender",
+          "cultural_note": ""
+        },
+        "mots": {
+          "display_format": "**Words:** (noun, plural)",
+          "explanation": "Refers to specific terms or expressions in a text",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Used to connect words or phrases",
+          "cultural_note": ""
+        },
+        "le tableau": {
+          "display_format": "**The table/chart:** Data presentation format",
+          "explanation": "Refers to a data table or chart containing information",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Which/That:** (relative pronoun)",
+          "explanation": "Used to introduce a relative clause describing the preceding noun",
+          "cultural_note": ""
+        },
+        "fâchent": {
+          "display_format": "**Anger/Upset:** (verb 'fâcher')",
+          "explanation": "Present tense of 'fâcher', meaning to make angry or cause controversy",
+          "cultural_note": "In this context, refers to contentious or controversial elements that caused disagreement"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.6,
+        "relevance_score": 7.6,
+        "importance_score": 6.0,
+        "total_score": 21.2
+      },
+      "curation_metadata": {
+        "curation_id": "3eb0f08e-44ed-4593-b6a2-694b0214b5ea",
+        "curated_at": "2025-06-12T20:14:36.629125+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978179+00:00",
+      "quality_score": 7.6,
+      "relevance_score": 7.6,
+      "importance_score": 6.0,
+      "total_score": 21.2
+    },
+    {
+      "title": "Trump et Newsom se disputent sur un appel téléphonique",
+      "english_title": "Trump and Newsom Argue Over a Phone Call",
+      "simplified_french_title": "Trump et Newsom se disputent sur un appel téléphonique",
+      "simplified_english_title": "Trump and Newsom Argue Over a Phone Call",
+      "summary": "Donald Trump et le gouverneur de Californie Gavin Newsom sont en désaccord sur la date de leur dernière conversation téléphonique.",
+      "english_summary": "Donald Trump and California Governor Gavin Newsom disagree about when they last spoke on the phone.",
+      "french_summary": "Donald Trump et le gouverneur de Californie Gavin Newsom sont en désaccord sur la date de leur dernière conversation téléphonique.",
+      "original_article_title": "Newsom - Trump : le coup de fil de la discorde",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20250612-newsom-trump-le-coup-de-fil-de-la-discorde",
+      "link": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20250612-newsom-trump-le-coup-de-fil-de-la-discorde",
+      "source_name": "France 24",
+      "published": "Thu, 12 Jun 2025 16:52:31 GMT",
+      "published_date": "Thu, 12 Jun 2025 16:52:31 GMT",
+      "contextual_title_explanations": {
+        "Newsom": {
+          "display_format": "**Newsom:** Gavin Newsom, Governor of California",
+          "explanation": "The current Governor of California, member of the Democratic Party",
+          "cultural_note": "Known for frequently opposing Trump's policies and representing progressive Democratic values"
+        },
+        "-": {
+          "display_format": "**-:** (hyphen)",
+          "explanation": "Used here to indicate opposition or contrast between two parties",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Donald Trump",
+          "explanation": "45th President of the United States (2017-2021)",
+          "cultural_note": "Known for his contentious relationship with Democratic state governors, especially from California"
+        },
+        "le": {
+          "display_format": "**Le:** The (masculine singular definite article)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "coup de fil": {
+          "display_format": "**Coup de fil:** Phone call",
+          "explanation": "A common French idiom meaning 'phone call' (literally 'strike of wire')",
+          "cultural_note": "This informal expression dates from the early days of telephone technology when calls were made through wire connections"
+        },
+        "de": {
+          "display_format": "**De:** Of/from (preposition)",
+          "explanation": "Used to show possession or connection between two nouns",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**La:** The (feminine singular definite article)",
+          "explanation": "Used before feminine singular nouns",
+          "cultural_note": ""
+        },
+        "discorde": {
+          "display_format": "**Discorde:** Discord/disagreement",
+          "explanation": "A state of conflict or disagreement between people",
+          "cultural_note": "Derives from Roman mythology where 'Discordia' was the goddess of discord"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 5.4,
+        "importance_score": 7.0,
+        "total_score": 21.0
+      },
+      "curation_metadata": {
+        "curation_id": "6a03b719-b391-4a08-b5ed-91445e8f5f9a",
+        "curated_at": "2025-06-12T20:14:36.608038+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978193+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.4,
+      "importance_score": 7.0,
+      "total_score": 21.0
+    },
+    {
+      "title": "Paris organise un forum sur la reconnaissance de la Palestine",
+      "english_title": "Paris Hosts Peace Forum on Palestine Recognition",
+      "simplified_french_title": "Paris organise un forum sur la reconnaissance de la Palestine",
+      "simplified_english_title": "Paris Hosts Peace Forum on Palestine Recognition",
+      "summary": "Un forum à Paris discute de la reconnaissance de la Palestine avant une conférence à l'ONU. Macron doit encore décider sa position.",
+      "english_summary": "A forum in Paris discusses Palestine recognition ahead of UN conference. Macron still needs to decide his position on the matter.",
+      "french_summary": "Un forum à Paris discute de la reconnaissance de la Palestine avant une conférence à l'ONU. Macron doit encore décider sa position.",
+      "original_article_title": "À Paris, le Forum pour la paix prépare la conférence à l’ONU sur la reconnaissance de la Palestine",
+      "original_article_link": "https://www.lefigaro.fr/international/a-paris-le-forum-pour-la-paix-prepare-la-conference-a-l-onu-sur-la-reconnaissance-de-la-palestine-20250612",
+      "link": "https://www.lefigaro.fr/international/a-paris-le-forum-pour-la-paix-prepare-la-conference-a-l-onu-sur-la-reconnaissance-de-la-palestine-20250612",
+      "source_name": "Le Figaro",
+      "published": "Thu, 12 Jun 2025 19:56:21 +0200",
+      "published_date": "Thu, 12 Jun 2025 19:56:21 +0200",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**In/At:** (preposition)",
+          "explanation": "Basic preposition indicating location or position",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capital city of France",
+          "explanation": "The capital and largest city of France",
+          "cultural_note": "Often hosts major international diplomatic meetings and peace conferences"
+        },
+        "le": {
+          "display_format": "**The:** (definite article, masculine singular)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "Forum": {
+          "display_format": "**Forum:** Meeting or conference",
+          "explanation": "A gathering for open discussion of public matters",
+          "cultural_note": "France often organizes international forums to discuss global issues"
+        },
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose or goal",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article, feminine singular)",
+          "explanation": "Used before feminine singular nouns",
+          "cultural_note": ""
+        },
+        "paix": {
+          "display_format": "**Peace:** State of harmony",
+          "explanation": "Absence of conflict or war; state of tranquility",
+          "cultural_note": "France has historically played a significant role in international peace negotiations"
+        },
+        "prépare": {
+          "display_format": "**Prepares:** (verb)",
+          "explanation": "To make ready in advance; to get something ready",
+          "cultural_note": ""
+        },
+        "la conférence": {
+          "display_format": "**The conference:** Formal meeting",
+          "explanation": "A formal meeting for discussion, exchange of information, or negotiation",
+          "cultural_note": ""
+        },
+        "à l'ONU": {
+          "display_format": "**At the UN:** United Nations",
+          "explanation": "ONU stands for 'Organisation des Nations Unies' (United Nations)",
+          "cultural_note": "France is one of the five permanent members of the UN Security Council"
+        },
+        "sur": {
+          "display_format": "**On/About:** (preposition)",
+          "explanation": "Concerning or regarding a topic",
+          "cultural_note": ""
+        },
+        "la reconnaissance": {
+          "display_format": "**Recognition:** Formal acceptance",
+          "explanation": "The formal acknowledgment of something's existence, validity, or legality",
+          "cultural_note": "Diplomatic recognition is a significant aspect of international relations"
+        },
+        "de la": {
+          "display_format": "**Of the:** (preposition + article)",
+          "explanation": "Indicates possession or relationship",
+          "cultural_note": ""
+        },
+        "Palestine": {
+          "display_format": "**Palestine:** Geographic and political entity",
+          "explanation": "A geographic region and proposed state in the Middle East",
+          "cultural_note": "The recognition of Palestine as a state is a major international diplomatic issue"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.7,
+        "relevance_score": 6.199999999999999,
+        "importance_score": 7.0,
+        "total_score": 20.9
+      },
+      "curation_metadata": {
+        "curation_id": "1a98b20c-b7c5-4be1-8b07-175759e35a43",
+        "curated_at": "2025-06-12T20:14:36.615505+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:23:03.978212+00:00",
+      "quality_score": 7.7,
+      "relevance_score": 6.199999999999999,
+      "importance_score": 7.0,
+      "total_score": 20.9
+    },
+    {
+      "title": "La violence des jeunes augmente, selon le préfet de Paris",
+      "english_title": "Police Chief Warns About Rising Youth Violence",
+      "simplified_french_title": "La violence des jeunes augmente, selon le préfet de Paris",
+      "simplified_english_title": "Police Chief Warns About Rising Youth Violence",
+      "summary": "Le préfet de police de Paris signale une augmentation inquiétante de la violence chez les jeunes, notamment avec des armes blanches.",
+      "english_summary": "The Paris police chief reports a concerning increase in youth violence, particularly involving knives and other weapons.",
+      "french_summary": "Le préfet de police de Paris signale une augmentation inquiétante de la violence chez les jeunes, notamment avec des armes blanches.",
+      "original_article_title": "Usages d'armes blanches, \"dissociation\"... Laurent Nuñez alerte sur la \"désinhibition de la violence\" des mineurs",
+      "original_article_link": "https://www.bfmtv.com/police-justice/usages-d-armes-blanches-dissociation-laurent-nunez-alerte-sur-la-desinhibition-de-la-violence-des-mineurs_AV-202506120834.html",
+      "link": "https://www.bfmtv.com/police-justice/usages-d-armes-blanches-dissociation-laurent-nunez-alerte-sur-la-desinhibition-de-la-violence-des-mineurs_AV-202506120834.html",
+      "source_name": "BFM TV",
+      "published": "Thu, 12 Jun 2025 19:28:26 GMT",
+      "published_date": "Thu, 12 Jun 2025 19:28:26 GMT",
+      "contextual_title_explanations": {
+        "Usages": {
+          "display_format": "**Uses/Usage:** The act of using something",
+          "explanation": "Refers to the employment or utilization of something, in this case weapons",
+          "cultural_note": ""
+        },
+        "d'": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Contraction of 'de' before a vowel, used to show possession or relationship",
+          "cultural_note": ""
+        },
+        "armes blanches": {
+          "display_format": "**Bladed weapons:** Non-firearm weapons",
+          "explanation": "Refers to weapons with a blade or sharp edge like knives, swords, or other cutting instruments",
+          "cultural_note": "The term 'armes blanches' is commonly used in French law enforcement and legal contexts"
+        },
+        "dissociation": {
+          "display_format": "**Dissociation:** Psychological detachment",
+          "explanation": "Refers to a psychological state where someone becomes disconnected from their actions or reality",
+          "cultural_note": "In the context of youth violence, it refers to a concerning psychological trend among young offenders"
+        },
+        "Laurent Nuñez": {
+          "display_format": "**Laurent Nuñez:** Paris Police Prefect",
+          "explanation": "The head of the Paris police force, appointed as Prefect of Police for Paris",
+          "cultural_note": "A prominent figure in French law enforcement and security administration"
+        },
+        "alerte": {
+          "display_format": "**Warns/Alerts:** (verb)",
+          "explanation": "To bring attention to a dangerous or concerning situation",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**About/On:** (preposition)",
+          "explanation": "Used to indicate the subject or topic being discussed",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "désinhibition": {
+          "display_format": "**Disinhibition:** Loss of restraint",
+          "explanation": "The removal or reduction of normal social inhibitions or restraints on behavior",
+          "cultural_note": "A term increasingly used in French social discourse about youth behavior"
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Used to show relationship or connection between words",
+          "cultural_note": ""
+        },
+        "la violence": {
+          "display_format": "**Violence:** Violent behavior",
+          "explanation": "Physical force intended to hurt, damage, or kill",
+          "cultural_note": "A growing concern in French society, particularly regarding youth"
+        },
+        "des": {
+          "display_format": "**Of the:** (plural definite article)",
+          "explanation": "Contraction of 'de les', used before plural nouns",
+          "cultural_note": ""
+        },
+        "mineurs": {
+          "display_format": "**Minors:** People under 18",
+          "explanation": "Refers to individuals who have not reached legal adulthood",
+          "cultural_note": "In France, the age of majority is 18, and there are special legal provisions for juvenile offenders"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.7,
+        "relevance_score": 3.8,
+        "importance_score": 6.0,
+        "total_score": 16.5
+      },
+      "curation_metadata": {
+        "curation_id": "2bf26c66-6e31-4c27-85a6-430cc759d7ea",
+        "curated_at": "2025-06-12T20:14:15.190457+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T20:14:34.124156+00:00",
+      "quality_score": 6.7,
+      "relevance_score": 3.8,
+      "importance_score": 6.0,
+      "total_score": 16.5
     }
   ]
 }
