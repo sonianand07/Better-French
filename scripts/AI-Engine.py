@@ -568,9 +568,9 @@ Based on the article above, provide the complete JSON response:
             return False
 
     def load_existing_processed_articles(self) -> Dict[str, Any]:
-        """Load already processed articles from current_articles.json to avoid reprocessing"""
+        """Load already processed articles from rolling_articles.json to avoid reprocessing"""
         try:
-            website_file = os.path.join(os.path.dirname(__file__), '..', 'Project-Better-French-Website', 'current_articles.json')
+            website_file = os.path.join(os.path.dirname(__file__), '..', 'Project-Better-French-Website', 'rolling_articles.json')
             if os.path.exists(website_file):
                 with open(website_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)

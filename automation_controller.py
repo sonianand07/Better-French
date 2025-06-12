@@ -233,7 +233,7 @@ class AutomationController:
                 logger.info(f"📰 Publishing {len(website_articles)} AI-enhanced articles")
                 self.website_updater.update_with_ai_enhanced_articles(website_articles)
                 publication_result = {
-                    'filename': 'current_articles.json',
+                    'filename': 'rolling_articles.json',
                     'website_url': 'http://localhost:8003',
                     'update_type': 'ai_enhanced'
                 }
@@ -242,7 +242,7 @@ class AutomationController:
                 logger.info(f"📰 Publishing {len(website_articles)} curated articles (no AI enhancement)")
                 self.website_updater.update_with_curated_articles(curated_articles)
                 publication_result = {
-                    'filename': 'current_articles.json', 
+                    'filename': 'rolling_articles.json', 
                     'website_url': 'http://localhost:8003',
                     'update_type': 'curated_only'
                 }
@@ -251,7 +251,7 @@ class AutomationController:
                 logger.warning("⚠️ No website articles available - attempting direct curated publication")
                 self.website_updater.update_with_curated_articles(curated_articles)
                 publication_result = {
-                    'filename': 'current_articles.json', 
+                    'filename': 'rolling_articles.json', 
                     'website_url': 'http://localhost:8003',
                     'update_type': 'curated_fallback'
                 }

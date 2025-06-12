@@ -74,7 +74,7 @@ class LiveWebsiteUpdater:
     <script>
         async function loadArticles() {
             try {
-                const response = await fetch('current_articles.json');
+                const response = await fetch('rolling_articles.json');
                 const data = await response.json();
                 displayArticles(data.articles || []);
             } catch (error) {
@@ -143,7 +143,7 @@ class LiveWebsiteUpdater:
     
     def _backup_current_data(self):
         """Backup current website data"""
-        current_file = os.path.join(self.website_dir, 'current_articles.json')
+        current_file = os.path.join(self.website_dir, 'rolling_articles.json')
         if os.path.exists(current_file):
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             backup_file = os.path.join(self.backup_dir, f"backup_{timestamp}.json")
@@ -164,7 +164,7 @@ class LiveWebsiteUpdater:
         }
         
         # Save to website directory
-        website_file = os.path.join(self.website_dir, 'current_articles.json')
+        website_file = os.path.join(self.website_dir, 'rolling_articles.json')
         with open(website_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
@@ -172,6 +172,8 @@ class LiveWebsiteUpdater:
         data_file = os.path.join(self.data_dir, 'website_data.json')
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        
+        # Legacy file (current_articles.json) removed; single-source strategy
         
         self.last_update = datetime.now(timezone.utc)
         logger.info(f"💾 Website data updated: {len(articles)} articles available")
@@ -191,17 +193,31 @@ class LiveWebsiteUpdater:
             article_data['added_at'] = datetime.now(timezone.utc).isoformat()
             breaking_data.append(article_data)
         
-        # Load existing articles
-        try:
-            current_file = os.path.join(self.website_dir, 'current_articles.json')
-            if os.path.exists(current_file):
-                with open(current_file, 'r', encoding='utf-8') as f:
+        # Load existing articles from rolling file (primary)
+        existing_articles: List[Dict[str, Any]] = []
+        rolling_path = os.path.join(self.website_dir, 'rolling_articles.json')
+        if os.path.exists(rolling_path):
+            try:
+                with open(rolling_path, 'r', encoding='utf-8') as f:
                     existing_data = json.load(f)
                 existing_articles = existing_data.get('articles', [])
-            else:
+            except Exception:
                 existing_articles = []
-        except:
-            existing_articles = []
+
+        # MIGRATION: also pull in any AI-enhanced articles that might still linger
+        # in legacy current_articles.json so they are not lost.
+        legacy_path = os.path.join(self.website_dir, 'current_articles.json')
+        if os.path.exists(legacy_path):
+            try:
+                with open(legacy_path, 'r', encoding='utf-8') as lf:
+                    legacy_data = json.load(lf)
+                legacy_articles = legacy_data.get('articles', [])
+                existing_articles.extend(legacy_articles)
+            except Exception:
+                pass  # ignore legacy read errors – migration best-effort
+
+        # Keep AI-enhanced articles only
+        existing_articles = [a for a in existing_articles if a.get('ai_enhanced', False)]
         
         # Merge breaking news at the top
         all_articles = breaking_data + existing_articles
@@ -228,17 +244,31 @@ class LiveWebsiteUpdater:
         earlier in *new_batch*) win.
         """
 
-        # Load existing articles (if any)
-        current_file = os.path.join(self.website_dir, 'current_articles.json')
-        if os.path.exists(current_file):
+        # Load existing articles from rolling file (primary)
+        existing_articles: List[Dict[str, Any]] = []
+        rolling_path = os.path.join(self.website_dir, 'rolling_articles.json')
+        if os.path.exists(rolling_path):
             try:
-                with open(current_file, 'r', encoding='utf-8') as f:
+                with open(rolling_path, 'r', encoding='utf-8') as f:
                     existing_data = json.load(f)
                 existing_articles = existing_data.get('articles', [])
             except Exception:
                 existing_articles = []
-        else:
-            existing_articles = []
+
+        # MIGRATION: also pull in any AI-enhanced articles that might still linger
+        # in legacy current_articles.json so they are not lost.
+        legacy_path = os.path.join(self.website_dir, 'current_articles.json')
+        if os.path.exists(legacy_path):
+            try:
+                with open(legacy_path, 'r', encoding='utf-8') as lf:
+                    legacy_data = json.load(lf)
+                legacy_articles = legacy_data.get('articles', [])
+                existing_articles.extend(legacy_articles)
+            except Exception:
+                pass  # ignore legacy read errors – migration best-effort
+
+        # Keep AI-enhanced articles only
+        existing_articles = [a for a in existing_articles if a.get('ai_enhanced', False)]
 
         combined = new_batch + existing_articles
 
@@ -398,7 +428,7 @@ class LiveWebsiteUpdater:
     
     def get_website_status(self) -> Dict[str, Any]:
         """Get the current status of the website"""
-        current_file = os.path.join(self.website_dir, 'current_articles.json')
+        current_file = os.path.join(self.website_dir, 'rolling_articles.json')
         if os.path.exists(current_file):
             with open(current_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
