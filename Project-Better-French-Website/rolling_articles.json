@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updated_at": "2025-06-12T18:13:46.579243",
+    "updated_at": "2025-06-12T18:18:17.586690",
     "total_articles": 100,
     "collection_type": "rolling_chronological",
     "max_articles": 100,
@@ -470,6 +470,38 @@
       "total_score": 18.7,
       "curated_at": "2025-06-12T18:12:45.767943+00:00",
       "article_id": "4e842f875be044eae8181f718388c416"
+    },
+    {
+      "title": "Finances publiques : comment les plus «favorisés» pourraient être mis à contribution",
+      "summary": "DÉCRYPTAGE - Un effort de «tous, à commencer par les favorisés» sera nécessaire pour corriger le déficit, estime le gouverneur de la Banque de France. Le gouvernement travaille sur différents dispositifs fiscaux pour le plan budgétaire qu’il présentera avant le 14 juillet.",
+      "link": "https://www.lefigaro.fr/conjoncture/finances-publiques-comment-les-plus-favorises-pourraient-etre-mis-a-contribution-20250612",
+      "published": "Thu, 12 Jun 2025 19:30:34 +0200",
+      "published_parsed": "2025-06-12T17:30:34",
+      "source_name": "Le Figaro",
+      "source_url": "www.lefigaro.fr",
+      "feed_url": "http://www.lefigaro.fr/rss/figaro_actualites.xml",
+      "author": null,
+      "category": "Conjoncture",
+      "tags": [
+        "Conjoncture"
+      ],
+      "content": "Ce n’est pas un secret : le gouvernement travaille à faire contribuer plus justement les Français les plus aisés. Reste à comprendre comment.",
+      "image_url": null,
+      "image_title": null,
+      "guid": "https://www.lefigaro.fr/conjoncture/finances-publiques-comment-les-plus-favorises-pourraient-etre-mis-a-contribution-20250612",
+      "language": "fr",
+      "scraped_at": "2025-06-12T18:17:11.603768+00:00",
+      "article_hash": "7da6c89c224a0e469ee8a0156c3dea73",
+      "content_hash": "3b50ee51ff33c167ed20827858c891ab",
+      "breaking_news": false,
+      "urgency_score": 2.0,
+      "metadata": null,
+      "quality_score": 7.1,
+      "relevance_score": 5.199999999999999,
+      "importance_score": 7.0,
+      "total_score": 19.299999999999997,
+      "curated_at": "2025-06-12T18:17:13.618402+00:00",
+      "article_id": "88b831be8f1febb9f339402496c205d1"
     },
     {
       "title": "Pascal Gauthier (Ledger) : Crypto, comment assurer la sécurité ? - 12/06",
@@ -3049,38 +3081,6 @@
       "total_score": 19.6,
       "curated_at": "2025-06-12T14:14:03.781061+00:00",
       "article_id": "7c8ac4f706dbd2a2d8ef25fbef743420"
-    },
-    {
-      "title": "Mayotte : les députés adoptent en commission le projet de loi de «refondation»",
-      "summary": "Ce texte, adopté largement par le Sénat fin mai, est très attendu dans le département le plus pauvre de France, où la catastrophe naturelle n’a fait qu’exacerber des défaillances préexistantes.",
-      "link": "https://www.lefigaro.fr/politique/mayotte-les-deputes-adoptent-en-commission-le-projet-de-loi-de-refondation-20250612",
-      "published": "Thu, 12 Jun 2025 16:02:21 +0200",
-      "published_parsed": "2025-06-12T14:02:21",
-      "source_name": "Le Figaro",
-      "source_url": "www.lefigaro.fr",
-      "feed_url": "http://www.lefigaro.fr/rss/figaro_actualites.xml",
-      "author": null,
-      "category": "Politique",
-      "tags": [
-        "Politique"
-      ],
-      "content": "Philippe Gosselin (LR), s’est dit «un peu dépité» face à la série d’articles supprimés par la gauche.",
-      "image_url": null,
-      "image_title": null,
-      "guid": "https://www.lefigaro.fr/politique/mayotte-les-deputes-adoptent-en-commission-le-projet-de-loi-de-refondation-20250612",
-      "language": "fr",
-      "scraped_at": "2025-06-12T14:13:54.449034+00:00",
-      "article_hash": "b84f5396d71efbe38b4c535947ef5893",
-      "content_hash": "af28991fdd0925f25442c6f58d0671a8",
-      "breaking_news": false,
-      "urgency_score": 0.0,
-      "metadata": null,
-      "quality_score": 7.1,
-      "relevance_score": 6.7,
-      "importance_score": 7.0,
-      "total_score": 20.8,
-      "curated_at": "2025-06-12T14:14:03.770018+00:00",
-      "article_id": "f98c2df039f3a782aa36544471f4f5ed"
     }
   ]
 }
