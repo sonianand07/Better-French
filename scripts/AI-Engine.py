@@ -331,6 +331,29 @@ Based on the article above, provide the complete JSON response:
             if response.status_code == 200:
                 result = response.json()
                 
+                # Track costs with accurate OpenRouter pricing FIRST
+                usage = result.get('usage', {})
+                input_tokens = usage.get('prompt_tokens', 0)
+                output_tokens = usage.get('completion_tokens', 0)
+                total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
+                
+                # Claude 3.5 Sonnet pricing via OpenRouter (approximate)
+                input_cost_per_1k = 0.003  # $3 per 1M tokens = $0.003 per 1K
+                output_cost_per_1k = 0.015  # $15 per 1M tokens = $0.015 per 1K
+                
+                # Calculate actual cost
+                input_cost = (input_tokens / 1000) * input_cost_per_1k
+                output_cost = (output_tokens / 1000) * output_cost_per_1k
+                article_cost = input_cost + output_cost
+                
+                self.daily_cost += article_cost
+                self.daily_api_calls += 1
+                
+                # Log detailed cost info
+                logger.info(f"💰 API Usage: {input_tokens} input + {output_tokens} output = {total_tokens} total tokens")
+                logger.info(f"💰 Article cost: ${article_cost:.4f} (${input_cost:.4f} input + ${output_cost:.4f} output)")
+                logger.info(f"💰 Running total today: ${self.daily_cost:.4f}")
+                
                 # Extract AI response
                 ai_content = result['choices'][0]['message']['content'].strip()
                 logger.info(f"🤖 AI raw response length: {len(ai_content)} characters")
@@ -364,7 +387,7 @@ Based on the article above, provide the complete JSON response:
                         logger.info(f"   📝 Explanations: {len(contextual_explanations)} items")
                         
                         # Return in the format expected by our system
-                        return {
+                        ai_result = {
                             "simplified_french_title": simplified_french,
                             "simplified_english_title": simplified_english,
                             "french_summary": french_summary,
@@ -373,24 +396,20 @@ Based on the article above, provide the complete JSON response:
                             "key_vocabulary": [],
                             "cultural_context": {}
                         }
+                        
+                        return (ai_result, article_cost)
                     else:
                         logger.warning(f"❌ AI returned non-dict: {type(ai_result)}")
-                        return None
+                        return (None, article_cost)  # Return cost even if parsing failed
                     
                 except json.JSONDecodeError as e:
                     logger.warning(f"⚠️ Failed to parse AI JSON response: {e}")
                     logger.warning(f"Raw response: {ai_content[:200]}...")
-                    return None
-                
-                # Track costs
-                usage = result.get('usage', {})
-                estimated_cost = (usage.get('total_tokens', 500) / 1000) * 0.01
-                self.daily_cost += estimated_cost
-                self.daily_api_calls += 1
+                    return (None, article_cost)  # Return cost even if parsing failed
                 
             else:
                 logger.error(f"❌ OpenRouter API error {response.status_code}: {response.text}")
-                return None
+                return (None, 0.0)
                 
         except requests.RequestException as e:
             logger.error(f"❌ API request failed: {e}")
@@ -459,12 +478,19 @@ Based on the article above, provide the complete JSON response:
             
             # Call OpenRouter API
             start_time = time.time()
-            ai_result = self.call_openrouter_api(prompt, original_data)
+            api_response = self.call_openrouter_api(prompt, original_data)
             processing_time = time.time() - start_time
             
-            if not ai_result:
+            if not api_response:
                 logger.warning(f"⚠️ AI processing failed for: {original_data.get('title', 'Unknown')[:50]}...")
                 return None
+            
+            # Extract AI result and cost
+            if isinstance(api_response, tuple):
+                ai_result, article_cost = api_response
+            else:
+                ai_result = api_response
+                article_cost = 0.0
             
             # Create processed article
             processed = ProcessedArticle(
@@ -513,9 +539,133 @@ Based on the article above, provide the complete JSON response:
             })
             return None
     
+    def is_article_already_processed(self, article_data: Dict[str, Any]) -> bool:
+        """Check if an article has already been AI-processed to avoid duplicate spending"""
+        try:
+            # Check if article already has AI enhancement flags
+            if article_data.get('ai_enhanced', False):
+                return True
+            
+            # Check if it has contextual explanations (main AI feature)
+            if article_data.get('contextual_title_explanations'):
+                return True
+            
+            # Check for AI-specific fields
+            if (article_data.get('simplified_french_title') and 
+                article_data.get('simplified_english_title') and
+                article_data.get('english_summary') and
+                article_data.get('french_summary')):
+                return True
+            
+            # For original_data nested structure
+            if 'original_data' in article_data:
+                return self.is_article_already_processed(article_data['original_data'])
+            
+            return False
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Error checking if article already processed: {e}")
+            return False
+
+    def load_existing_processed_articles(self) -> Dict[str, Any]:
+        """Load already processed articles from rolling_articles.json to avoid reprocessing"""
+        try:
+            website_file = os.path.join(os.path.dirname(__file__), '..', 'Project-Better-French-Website', 'rolling_articles.json')
+            if os.path.exists(website_file):
+                with open(website_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    articles = data.get('articles', [])
+                    
+                    # Create lookup by URL and title
+                    processed_lookup = {}
+                    for article in articles:
+                        # Index by original link
+                        link = article.get('link') or article.get('original_article_link', '')
+                        if link:
+                            processed_lookup[link] = article
+                        
+                        # Index by title (normalized)
+                        title = article.get('title') or article.get('original_article_title', '')
+                        if title:
+                            normalized_title = title.lower().strip()
+                            processed_lookup[f"title:{normalized_title}"] = article
+                    
+                    logger.info(f"🔍 Loaded {len(processed_lookup)} processed articles for duplicate detection")
+                    return processed_lookup
+            
+            return {}
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Could not load existing processed articles: {e}")
+            return {}
+
+    def filter_already_processed_articles(self, articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Filter out articles that have already been AI-processed"""
+        if not self.ai_config.get('skip_duplicate_processing', True):
+            logger.info("🔄 Duplicate processing check disabled in config")
+            return articles
+        
+        # Load existing processed articles
+        processed_lookup = self.load_existing_processed_articles()
+        
+        new_articles = []
+        skipped_count = 0
+        
+        for article in articles:
+            # Extract article data
+            if 'original_data' in article:
+                article_data = article['original_data']
+                article_title = article_data.get('title', '')
+                article_link = article_data.get('link', '')
+            else:
+                article_data = article
+                article_title = article.get('title', '')
+                article_link = article.get('link', '')
+            
+            # Check if already processed
+            is_duplicate = False
+            
+            # Check by link
+            if article_link and article_link in processed_lookup:
+                is_duplicate = True
+                logger.debug(f"🔄 Skipping already processed article (by link): {article_title[:50]}...")
+            
+            # Check by title
+            elif article_title:
+                normalized_title = article_title.lower().strip()
+                title_key = f"title:{normalized_title}"
+                if title_key in processed_lookup:
+                    is_duplicate = True
+                    logger.debug(f"🔄 Skipping already processed article (by title): {article_title[:50]}...")
+            
+            # Check internal AI flags
+            elif self.is_article_already_processed(article_data):
+                is_duplicate = True
+                logger.debug(f"🔄 Skipping already AI-enhanced article: {article_title[:50]}...")
+            
+            if is_duplicate:
+                skipped_count += 1
+            else:
+                new_articles.append(article)
+        
+        if skipped_count > 0:
+            logger.info(f"💰 Saved API credits: Skipped {skipped_count} already-processed articles")
+            logger.info(f"🔄 Processing {len(new_articles)} new articles (was {len(articles)})")
+        else:
+            logger.info(f"✅ All {len(articles)} articles are new - no duplicates found")
+        
+        return new_articles
+
     def batch_process_articles(self, articles: List[Dict[str, Any]]) -> List[ProcessedArticle]:
         """Process articles in cost-optimized batches"""
         logger.info(f"🤖 Starting batch AI processing of {len(articles)} articles...")
+        
+        # STEP 1: Filter out already processed articles to save API credits
+        articles_to_process = self.filter_already_processed_articles(articles)
+        
+        if not articles_to_process:
+            logger.info("✅ No new articles to process - all were already AI-enhanced")
+            return []
         
         # Check cost limits
         can_process, limit_message = self.check_cost_limits()
@@ -525,9 +675,8 @@ Based on the article above, provide the complete JSON response:
         
         # Limit to max articles per day
         max_articles = self.cost_config['max_ai_articles_per_day']
-        articles_to_process = articles[:max_articles]
-        
-        if len(articles) > max_articles:
+        if len(articles_to_process) > max_articles:
+            articles_to_process = articles_to_process[:max_articles]
             logger.info(f"📊 Processing top {max_articles} articles (limit applied)")
         
         processed_articles = []
@@ -547,21 +696,31 @@ Based on the article above, provide the complete JSON response:
             if processed:
                 processed_articles.append(processed)
             
-            # Rate limiting - small delay between API calls
-            if i < len(articles_to_process) - 1:  # Don't wait after the last article
+            # Rate limiting delay
+            if i < len(articles_to_process) - 1:  # Don't delay after last article
                 time.sleep(self.ai_config['rate_limit_delay'])
         
         # Calculate batch statistics
         batch_duration = time.time() - batch_start_time
-        success_rate = (len(processed_articles) / len(articles_to_process)) * 100 if articles_to_process else 100
+        success_count = len(processed_articles)
+        failure_count = len(articles_to_process) - success_count
+        success_rate = (success_count / len(articles_to_process)) * 100 if articles_to_process else 0
         
+        # Update processing statistics
+        self.processing_stats['articles_processed_today'] += success_count
+        if batch_duration > 0:
+            self.processing_stats['average_processing_time'] = batch_duration / len(articles_to_process)
         self.processing_stats['success_rate'] = success_rate
         
-        logger.info(f"🎉 Batch processing completed:")
-        logger.info(f"   ✅ Successfully processed: {len(processed_articles)}/{len(articles_to_process)} articles")
+        # Log batch completion
+        logger.info("🎉 Batch processing completed:")
+        logger.info(f"   ✅ Successfully processed: {success_count}/{len(articles_to_process)} articles")
         logger.info(f"   💰 Total cost: ${self.daily_cost:.4f}")
         logger.info(f"   ⏱️ Batch duration: {batch_duration:.2f}s")
         logger.info(f"   📊 Success rate: {success_rate:.1f}%")
+        
+        if failure_count > 0:
+            logger.warning(f"   ⚠️ Failed articles: {failure_count}")
         
         return processed_articles
     

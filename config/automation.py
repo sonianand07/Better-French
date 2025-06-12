@@ -142,7 +142,7 @@ WEBSITE_CONFIG = {
     'show_update_notifications': True,
     
     # Data paths (relative to automation system)
-    'website_data_path': 'data/live/current_articles.json',
+    'website_data_path': 'data/live/rolling_articles.json',
     'website_backup_path': 'data/live/backup_articles.json',
     'static_website_path': 'website/',
     

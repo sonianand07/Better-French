@@ -314,15 +314,8 @@ def main():
     logger.info("🚀 Starting Rolling Articles Manager v2.0...")
     
     try:
-        manager = RollingArticlesManager()
-        success = manager.create_rolling_collection()
-        
-        if success:
-            logger.info("✅ Rolling articles management completed successfully!")
-            return 0
-        else:
-            logger.error("❌ Rolling articles management failed!")
-            return 1
+        logger.info("⚠️ RollingArticlesManager disabled (AI-only strategy in effect). Skipping collection build.")
+        return 0
             
     except Exception as e:
         logger.error(f"❌ Critical system error: {e}")

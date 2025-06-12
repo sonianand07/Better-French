@@ -697,8 +697,8 @@ class SmartScraper:
         # Save to data directory with timestamp
         data_filename = f"../data/live/{filename_prefix}_{timestamp}.json"
         
-        # Save to website directory as current_articles.json
-        website_filename = f"../website/current_articles.json"
+        # Save to website directory as rolling_articles.json
+        website_filename = f"../website/rolling_articles.json"
         
         # Ensure directories exist
         os.makedirs(os.path.dirname(data_filename), exist_ok=True)

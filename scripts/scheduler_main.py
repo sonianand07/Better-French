@@ -263,9 +263,8 @@ class MasterScheduler:
                             self.website_updater.update_with_ai_enhanced_articles(enhanced_dicts)
                             logger.info(f"🚨 Website updated with {len(enhanced_articles)} AI-enhanced breaking news")
                         else:
-                            # Fallback to fast-tracked articles
-                            self.website_updater.update_with_curated_articles(fast_tracked)
-                            logger.info(f"🚨 Website updated with {len(fast_tracked)} fast-tracked breaking news")
+                            # Skip publishing curated-only articles; keep existing website data unchanged
+                            logger.info("🤖 AI enhancement unavailable; retaining existing published articles without adding curated-only items")
                     
                     self.system_stats['breaking_news_processed_today'] += len(fast_tracked)
                     self.system_stats['last_breaking_news'] = datetime.now(timezone.utc)
@@ -407,18 +406,8 @@ class MasterScheduler:
                         except Exception as e:
                             logger.debug(f"Could not update daily articles published status: {e}")
                     else:
-                        # Fallback to curated articles only
-                        self.website_updater.update_with_curated_articles(curated_articles)
-                        logger.info(f"🌐 Website updated with {len(curated_articles)} curated articles (AI fallback)")
-                        
-                        # Update daily articles to mark curated ones as published
-                        try:
-                            curated_links = {a.original_data.get('link') for a in curated_articles}
-                            for article in daily_articles:
-                                if article.get('link') in curated_links:
-                                    article['published_on_website'] = True
-                        except Exception as e:
-                            logger.debug(f"Could not update daily articles published status: {e}")
+                        # Skip publishing curated-only articles; keep existing website data unchanged
+                        logger.info("🤖 AI enhancement unavailable; retaining existing published articles without adding curated-only items")
                 
                 # Update daily articles file with published status
                 try:

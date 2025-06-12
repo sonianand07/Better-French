@@ -48,4 +48,7 @@ data/scraped_data/*.json
 
 # Keep sample data but ignore large datasets
 !data/processed_articles/sample.json
-!data/scraped_data/sample.json 
+!data/scraped_data/sample.json
+
+# Research and business documents
+Research Resources & Business Plan/ 

@@ -11,7 +11,7 @@ import json
 import shutil
 import logging
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Set
 from pathlib import Path
 import hashlib
 
@@ -74,7 +74,7 @@ class LiveWebsiteUpdater:
     <script>
         async function loadArticles() {
             try {
-                const response = await fetch('current_articles.json');
+                const response = await fetch('rolling_articles.json');
                 const data = await response.json();
                 displayArticles(data.articles || []);
             } catch (error) {
@@ -143,7 +143,7 @@ class LiveWebsiteUpdater:
     
     def _backup_current_data(self):
         """Backup current website data"""
-        current_file = os.path.join(self.website_dir, 'current_articles.json')
+        current_file = os.path.join(self.website_dir, 'rolling_articles.json')
         if os.path.exists(current_file):
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             backup_file = os.path.join(self.backup_dir, f"backup_{timestamp}.json")
@@ -164,7 +164,7 @@ class LiveWebsiteUpdater:
         }
         
         # Save to website directory
-        website_file = os.path.join(self.website_dir, 'current_articles.json')
+        website_file = os.path.join(self.website_dir, 'rolling_articles.json')
         with open(website_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
@@ -172,6 +172,8 @@ class LiveWebsiteUpdater:
         data_file = os.path.join(self.data_dir, 'website_data.json')
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        
+        # Legacy file (current_articles.json) removed; single-source strategy
         
         self.last_update = datetime.now(timezone.utc)
         logger.info(f"💾 Website data updated: {len(articles)} articles available")
@@ -191,17 +193,31 @@ class LiveWebsiteUpdater:
             article_data['added_at'] = datetime.now(timezone.utc).isoformat()
             breaking_data.append(article_data)
         
-        # Load existing articles
-        try:
-            current_file = os.path.join(self.website_dir, 'current_articles.json')
-            if os.path.exists(current_file):
-                with open(current_file, 'r', encoding='utf-8') as f:
+        # Load existing articles from rolling file (primary)
+        existing_articles: List[Dict[str, Any]] = []
+        rolling_path = os.path.join(self.website_dir, 'rolling_articles.json')
+        if os.path.exists(rolling_path):
+            try:
+                with open(rolling_path, 'r', encoding='utf-8') as f:
                     existing_data = json.load(f)
                 existing_articles = existing_data.get('articles', [])
-            else:
+            except Exception:
                 existing_articles = []
-        except:
-            existing_articles = []
+
+        # MIGRATION: also pull in any AI-enhanced articles that might still linger
+        # in legacy current_articles.json so they are not lost.
+        legacy_path = os.path.join(self.website_dir, 'current_articles.json')
+        if os.path.exists(legacy_path):
+            try:
+                with open(legacy_path, 'r', encoding='utf-8') as lf:
+                    legacy_data = json.load(lf)
+                legacy_articles = legacy_data.get('articles', [])
+                existing_articles.extend(legacy_articles)
+            except Exception:
+                pass  # ignore legacy read errors – migration best-effort
+
+        # Keep AI-enhanced articles only
+        existing_articles = [a for a in existing_articles if a.get('ai_enhanced', False)]
         
         # Merge breaking news at the top
         all_articles = breaking_data + existing_articles
@@ -219,6 +235,59 @@ class LiveWebsiteUpdater:
         
         logger.info(f"🚨 Added {len(breaking_data)} breaking news articles to website")
     
+    def _merge_with_existing(self, new_batch: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Prepend *new_batch* to currently published articles and return
+        a list limited to self.website_config['max_articles_displayed'].
+
+        Deduplication is done by `original_article_link` if present, else
+        by `link`, falling back to `title`. Most–recent items (i.e. those
+        earlier in *new_batch*) win.
+        """
+
+        # Load existing articles from rolling file (primary)
+        existing_articles: List[Dict[str, Any]] = []
+        rolling_path = os.path.join(self.website_dir, 'rolling_articles.json')
+        if os.path.exists(rolling_path):
+            try:
+                with open(rolling_path, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                existing_articles = existing_data.get('articles', [])
+            except Exception:
+                existing_articles = []
+
+        # MIGRATION: also pull in any AI-enhanced articles that might still linger
+        # in legacy current_articles.json so they are not lost.
+        legacy_path = os.path.join(self.website_dir, 'current_articles.json')
+        if os.path.exists(legacy_path):
+            try:
+                with open(legacy_path, 'r', encoding='utf-8') as lf:
+                    legacy_data = json.load(lf)
+                legacy_articles = legacy_data.get('articles', [])
+                existing_articles.extend(legacy_articles)
+            except Exception:
+                pass  # ignore legacy read errors – migration best-effort
+
+        # Keep AI-enhanced articles only
+        existing_articles = [a for a in existing_articles if a.get('ai_enhanced', False)]
+
+        combined = new_batch + existing_articles
+
+        # Deduplicate while preserving order (first occurrence kept)
+        seen: Set[str] = set()
+        unique: List[Dict[str, Any]] = []
+        for art in combined:
+            key = (
+                art.get('original_article_link')
+                or art.get('link')
+                or art.get('title')
+            )
+            if key not in seen:
+                seen.add(key)
+                unique.append(art)
+
+        max_articles = self.website_config['max_articles_displayed']
+        return unique[:max_articles]
+    
     def update_with_curated_articles(self, curated_articles: List[Any]):
         """Update website with curated articles (regular update)"""
         logger.info(f"🔄 Updating website with {len(curated_articles)} curated articles...")
@@ -233,12 +302,11 @@ class LiveWebsiteUpdater:
             article_data['added_at'] = datetime.now(timezone.utc).isoformat()
             website_articles.append(article_data)
         
-        # Sort by total score (highest first)
+        # Sort new batch by score (highest first)
         website_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-        
-        # Limit articles
-        max_articles = self.website_config['max_articles_displayed']
-        website_articles = website_articles[:max_articles]
+
+        # Merge with existing, dedupe and cap
+        website_articles = self._merge_with_existing(website_articles)
         
         # Save data
         metadata = {
@@ -309,12 +377,11 @@ class LiveWebsiteUpdater:
             
             website_articles.append(article_data)
         
-        # Sort by total score
+        # Sort new batch by total score
         website_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-        
-        # Limit articles
-        max_articles = self.website_config['max_articles_displayed']
-        website_articles = website_articles[:max_articles]
+
+        # Merge with existing set, dedupe and cap
+        website_articles = self._merge_with_existing(website_articles)
         
         # Save data
         metadata = {
@@ -361,7 +428,7 @@ class LiveWebsiteUpdater:
     
     def get_website_status(self) -> Dict[str, Any]:
         """Get the current status of the website"""
-        current_file = os.path.join(self.website_dir, 'current_articles.json')
+        current_file = os.path.join(self.website_dir, 'rolling_articles.json')
         if os.path.exists(current_file):
             with open(current_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
