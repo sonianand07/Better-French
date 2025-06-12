@@ -11,7 +11,7 @@ import json
 import shutil
 import logging
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Set
 from pathlib import Path
 import hashlib
 
@@ -219,6 +219,45 @@ class LiveWebsiteUpdater:
         
         logger.info(f"🚨 Added {len(breaking_data)} breaking news articles to website")
     
+    def _merge_with_existing(self, new_batch: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Prepend *new_batch* to currently published articles and return
+        a list limited to self.website_config['max_articles_displayed'].
+
+        Deduplication is done by `original_article_link` if present, else
+        by `link`, falling back to `title`. Most–recent items (i.e. those
+        earlier in *new_batch*) win.
+        """
+
+        # Load existing articles (if any)
+        current_file = os.path.join(self.website_dir, 'current_articles.json')
+        if os.path.exists(current_file):
+            try:
+                with open(current_file, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                existing_articles = existing_data.get('articles', [])
+            except Exception:
+                existing_articles = []
+        else:
+            existing_articles = []
+
+        combined = new_batch + existing_articles
+
+        # Deduplicate while preserving order (first occurrence kept)
+        seen: Set[str] = set()
+        unique: List[Dict[str, Any]] = []
+        for art in combined:
+            key = (
+                art.get('original_article_link')
+                or art.get('link')
+                or art.get('title')
+            )
+            if key not in seen:
+                seen.add(key)
+                unique.append(art)
+
+        max_articles = self.website_config['max_articles_displayed']
+        return unique[:max_articles]
+    
     def update_with_curated_articles(self, curated_articles: List[Any]):
         """Update website with curated articles (regular update)"""
         logger.info(f"🔄 Updating website with {len(curated_articles)} curated articles...")
@@ -233,12 +272,11 @@ class LiveWebsiteUpdater:
             article_data['added_at'] = datetime.now(timezone.utc).isoformat()
             website_articles.append(article_data)
         
-        # Sort by total score (highest first)
+        # Sort new batch by score (highest first)
         website_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-        
-        # Limit articles
-        max_articles = self.website_config['max_articles_displayed']
-        website_articles = website_articles[:max_articles]
+
+        # Merge with existing, dedupe and cap
+        website_articles = self._merge_with_existing(website_articles)
         
         # Save data
         metadata = {
@@ -309,12 +347,11 @@ class LiveWebsiteUpdater:
             
             website_articles.append(article_data)
         
-        # Sort by total score
+        # Sort new batch by total score
         website_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-        
-        # Limit articles
-        max_articles = self.website_config['max_articles_displayed']
-        website_articles = website_articles[:max_articles]
+
+        # Merge with existing set, dedupe and cap
+        website_articles = self._merge_with_existing(website_articles)
         
         # Save data
         metadata = {
