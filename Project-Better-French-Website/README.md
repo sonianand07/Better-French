@@ -68,13 +68,9 @@ better-french-website/
 
 The website automatically loads data from:
 ```
-04_Data_Output/Processed_AI/ai_processed_curated_news_data_*.json
+rolling_articles.json
 ```
-**Contains:** 30 curated French news articles with:
-- Original French headlines with interactive word explanations
-- Simplified English/French titles
-- Detailed summaries in both languages
-- Cultural context and definitions
+**Contains:** up to 100 AI-enhanced French news articles with contextual learning:
 
 ## 🖱️ Usage
 
@@ -98,6 +94,6 @@ The website automatically loads data from:
 
 ---
 
-**Note**: This website is part of the "Project Better French Max" system and includes all necessary French news data files. The one-command setup automatically handles all dependencies and opens the fully functional website with 30 curated French news articles ready for learning! 🎉
+**Note**: This website is part of the "Project Better French Max" system and includes all necessary French news data files. The one-command setup automatically handles all dependencies and opens the fully functional website with up to 100 AI-enhanced French news articles ready for learning! 🎉
 
 **Last Updated**: June 2025 - Ready to run locally with zero configuration needed. 
