@@ -1,119 +1,250 @@
 {
   "metadata": {
-    "updated_at": "2025-06-12T10:18:08.763038+00:00",
+    "updated_at": "2025-06-12T12:28:59.659082+00:00",
     "total_articles": 10,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
     "ai_enhanced_count": 10,
     "update_type": "ai_enhanced",
-    "average_score": 24.82
+    "average_score": 24.999999999999996
   },
   "articles": [
     {
-      "title": "Trump utilise les violences à Los Angeles pour montrer son autorité",
-      "english_title": "Los Angeles Riots Show Trump's Autocratic Tendencies",
-      "simplified_french_title": "Trump utilise les violences à Los Angeles pour montrer son autorité",
-      "simplified_english_title": "Los Angeles Riots Show Trump's Autocratic Tendencies",
-      "summary": "Les manifestations à Los Angeles deviennent un exemple de comment Trump montre son pouvoir autoritaire et sa vision du contrôle présidentiel.",
-      "english_summary": "The Los Angeles protests become an example of how Trump demonstrates his authoritarian power and his vision of presidential control.",
-      "french_summary": "Les manifestations à Los Angeles deviennent un exemple de comment Trump montre son pouvoir autoritaire et sa vision du contrôle présidentiel.",
-      "original_article_title": "Les émeutes à Los Angeles, symbole de la dérive autocratique de Donald Trump",
-      "original_article_link": "https://www.lexpress.fr/monde/amerique/les-emeutes-a-los-angeles-symbole-de-la-derive-autocratique-de-donald-trump-NB7HKNLQCREKLPGDDS4BA6LJLI/",
-      "link": "https://www.lexpress.fr/monde/amerique/les-emeutes-a-los-angeles-symbole-de-la-derive-autocratique-de-donald-trump-NB7HKNLQCREKLPGDDS4BA6LJLI/",
+      "title": "L'Australie regrette d'avoir annulé son accord avec la France",
+      "english_title": "Australia May Regret Canceling Its Agreement with France",
+      "simplified_french_title": "L'Australie regrette d'avoir annulé son accord avec la France",
+      "simplified_english_title": "Australia May Regret Canceling Its Agreement with France",
+      "summary": "L'Australie a annulé un contrat de sous-marins avec la France en 2021. Cette décision pourrait avoir des conséquences négatives pour l'Australie.",
+      "english_summary": "Australia canceled a submarine contract with France in 2021. This decision could now have negative consequences for Australia.",
+      "french_summary": "L'Australie a annulé un contrat de sous-marins avec la France en 2021. Cette décision pourrait avoir des conséquences négatives pour l'Australie.",
+      "original_article_title": "Sous-marins nucléaires : pourquoi l’Australie pourrait regretter d’avoir annulé son contrat avec la France",
+      "original_article_link": "https://www.lexpress.fr/monde/sous-marins-nucleaires-pourquoi-laustralie-pourrait-regretter-davoir-annule-son-contrat-avec-la-FFZXVDCVQ5D7FBBWM3VJ7HJHGE/",
+      "link": "https://www.lexpress.fr/monde/sous-marins-nucleaires-pourquoi-laustralie-pourrait-regretter-davoir-annule-son-contrat-avec-la-FFZXVDCVQ5D7FBBWM3VJ7HJHGE/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 07:09:21 +0000",
-      "published_date": "Thu, 12 Jun 2025 07:09:21 +0000",
+      "published": "Thu, 12 Jun 2025 10:25:31 +0000",
+      "published_date": "Thu, 12 Jun 2025 10:25:31 +0000",
       "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**The:** Definite article (plural)",
-          "explanation": "Used before plural nouns to indicate specific items being discussed",
+        "Sous-marins": {
+          "display_format": "**Submarines:** Naval vessels that can operate underwater",
+          "explanation": "Military vessels designed to operate underwater. The word is composed of 'sous' (under) and 'marins' (marine/sea).",
+          "cultural_note": "France has significant expertise in submarine construction and is one of few nations capable of building nuclear submarines."
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** Powered by nuclear energy",
+          "explanation": "Refers to submarines powered by nuclear reactors, as opposed to conventional diesel-electric propulsion.",
+          "cultural_note": "France is one of only six nations with nuclear submarine capability."
+        },
+        "pourquoi": {
+          "display_format": "**Why:** For what reason",
+          "explanation": "Interrogative word used to ask for reasons or explanations.",
           "cultural_note": ""
         },
-        "émeutes": {
-          "display_format": "**Riots:** Civil disturbances or violent public disorders",
-          "explanation": "Refers to violent demonstrations or civil unrest involving crowds of people",
-          "cultural_note": "The term carries strong political connotations and is often used differently from terms like 'manifestations' (protests) or 'troubles' (disturbances)"
-        },
-        "à": {
-          "display_format": "**In/At:** Preposition of location",
-          "explanation": "Used to indicate location or position",
+        "l'": {
+          "display_format": "**The:** Definite article (elided form)",
+          "explanation": "Used before words beginning with vowels or silent h. Here, it's the elided form of 'la' or 'le'.",
           "cultural_note": ""
         },
-        "Los Angeles": {
-          "display_format": "**Los Angeles:** Major city in California",
-          "explanation": "Second-largest city in the United States, located in Southern California",
-          "cultural_note": "Has a history of significant civil unrest and protests, including the 1992 riots"
+        "Australie": {
+          "display_format": "**Australia:** Country",
+          "explanation": "Nation in Oceania.",
+          "cultural_note": "Had a major diplomatic crisis with France in 2021 over the canceled submarine deal."
         },
-        "symbole": {
-          "display_format": "**Symbol:** Representative example or sign",
-          "explanation": "Something that represents or stands for something else, especially a material object representing something abstract",
+        "pourrait": {
+          "display_format": "**Could/Might:** Conditional form of 'pouvoir'",
+          "explanation": "Expresses possibility or potential. Conditional tense of the verb 'pouvoir' (to be able to).",
           "cultural_note": ""
         },
-        "de la": {
-          "display_format": "**Of the:** Feminine singular article with preposition",
-          "explanation": "Combines the preposition 'de' (of) with the feminine definite article 'la'",
+        "regretter": {
+          "display_format": "**Regret:** To feel sorry about",
+          "explanation": "Verb meaning to feel remorse or wish something hadn't happened.",
           "cultural_note": ""
         },
-        "dérive": {
-          "display_format": "**Drift/Decline:** A gradual deviation or deterioration",
-          "explanation": "Describes a movement away from an expected or desired course, often with negative implications",
+        "d'avoir": {
+          "display_format": "**Of having:** Infinitive construction",
+          "explanation": "Combination of 'de' and 'avoir', used after certain verbs to introduce an infinitive clause.",
           "cultural_note": ""
         },
-        "autocratique": {
-          "display_format": "**Autocratic:** Relating to absolute power or authority",
-          "explanation": "Describing a system or behavior where one person has absolute power, without restrictions",
-          "cultural_note": "In French political discourse, this term often carries strong negative connotations related to abuse of power"
-        },
-        "de": {
-          "display_format": "**Of:** Preposition showing possession or relation",
-          "explanation": "Used to show relationship between two nouns",
+        "annulé": {
+          "display_format": "**Canceled:** Past participle",
+          "explanation": "Past participle of 'annuler', meaning to cancel or terminate.",
           "cultural_note": ""
         },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** 45th President of the United States",
-          "explanation": "American political figure and former president (2017-2021)",
-          "cultural_note": "Frequently discussed in French media regarding his leadership style and its implications for democratic institutions"
+        "son": {
+          "display_format": "**Its:** Possessive adjective",
+          "explanation": "Possessive adjective indicating ownership, agrees with the following noun.",
+          "cultural_note": ""
+        },
+        "contrat": {
+          "display_format": "**Contract:** Legal agreement",
+          "explanation": "A formal agreement between parties.",
+          "cultural_note": "The submarine contract was worth approximately 56 billion euros."
+        },
+        "avec": {
+          "display_format": "**With:** Preposition",
+          "explanation": "Indicates relationship or association between entities.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** Feminine definite article",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Country",
+          "explanation": "European country and major naval power.",
+          "cultural_note": "One of the world's leading manufacturers of military vessels and nuclear technology."
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 9.0,
-        "importance_score": 10,
-        "total_score": 27.4
+        "quality_score": 9.6,
+        "relevance_score": 8.8,
+        "importance_score": 9.5,
+        "total_score": 27.9
       },
       "curation_metadata": {
-        "curation_id": "90115a8d-9f2e-4457-a03b-c99c9953a584",
-        "curated_at": "2025-06-12T10:14:39.947944+00:00",
+        "curation_id": "01230372-8e34-4ed9-bc52-98189564b51d",
+        "curated_at": "2025-06-12T12:25:31.240201+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762898+00:00",
-      "quality_score": 8.4,
+      "added_at": "2025-06-12T12:28:59.658904+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 8.8,
+      "importance_score": 9.5,
+      "total_score": 27.9
+    },
+    {
+      "title": "Tests de sécurité : Les portiques ne détectent pas bien les couteaux",
+      "english_title": "Security Tests: Metal Detectors Fail to Detect Knives",
+      "simplified_french_title": "Tests de sécurité : Les portiques ne détectent pas bien les couteaux",
+      "simplified_english_title": "Security Tests: Metal Detectors Fail to Detect Knives",
+      "summary": "Des tests récents montrent que les portiques de sécurité sont inefficaces pour détecter les couteaux, avec un taux d'échec très élevé.",
+      "english_summary": "Recent tests reveal that security gates are ineffective at detecting knives, with a very high failure rate in detection attempts.",
+      "french_summary": "Des tests récents montrent que les portiques de sécurité sont inefficaces pour détecter les couteaux, avec un taux d'échec très élevé.",
+      "original_article_title": "Agressions au couteau : \"Les tests sur les portiques de sécurité montrent un échec de 80 % !\"",
+      "original_article_link": "https://www.lexpress.fr/societe/agressions-au-couteau-les-tests-sur-les-portiques-de-securite-montrent-un-echec-de-80-HJSPBJZSTZDFNIC7X2LISNJYVQ/",
+      "link": "https://www.lexpress.fr/societe/agressions-au-couteau-les-tests-sur-les-portiques-de-securite-montrent-un-echec-de-80-HJSPBJZSTZDFNIC7X2LISNJYVQ/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 12:20:10 +0000",
+      "published_date": "Thu, 12 Jun 2025 12:20:10 +0000",
+      "contextual_title_explanations": {
+        "Agressions": {
+          "display_format": "**Attacks/Assaults:** Acts of violence against others",
+          "explanation": "Physical attacks or violent acts committed against people. The plural form indicates multiple incidents.",
+          "cultural_note": "Recent knife attacks in France have heightened concerns about public security."
+        },
+        "au": {
+          "display_format": "**With the:** (contraction of 'à' + 'le')",
+          "explanation": "Preposition indicating the method or means of attack",
+          "cultural_note": ""
+        },
+        "couteau": {
+          "display_format": "**Knife:** A cutting instrument",
+          "explanation": "A handheld cutting tool that can be used as a weapon",
+          "cultural_note": "Knife-related violence has become a significant concern in French public spaces."
+        },
+        "Les": {
+          "display_format": "**The:** (plural definite article)",
+          "explanation": "Used before plural nouns to indicate specific items being discussed",
+          "cultural_note": ""
+        },
+        "tests": {
+          "display_format": "**Tests:** Evaluations or trials",
+          "explanation": "Systematic trials or evaluations to assess effectiveness",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On/Of:** (preposition)",
+          "explanation": "Indicates the subject or target of the tests",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (plural definite article)",
+          "explanation": "Used before plural nouns to indicate specific items",
+          "cultural_note": ""
+        },
+        "portiques": {
+          "display_format": "**Security Gates/Metal Detectors:** Walk-through security screening devices",
+          "explanation": "Metal detection frames used for security screening at entrances",
+          "cultural_note": "Increasingly common in French public spaces due to security concerns"
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Links two nouns to show purpose or type",
+          "cultural_note": ""
+        },
+        "sécurité": {
+          "display_format": "**Security:** Safety measures",
+          "explanation": "Measures or equipment designed to protect people and prevent dangerous situations",
+          "cultural_note": "Security has become a major focus in French public policy"
+        },
+        "montrent": {
+          "display_format": "**Show:** (verb, present tense)",
+          "explanation": "To demonstrate or reveal results",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A/An:** (indefinite article)",
+          "explanation": "Used before masculine singular nouns",
+          "cultural_note": ""
+        },
+        "échec": {
+          "display_format": "**Failure:** Lack of success",
+          "explanation": "A negative result or unsuccessful outcome",
+          "cultural_note": ""
+        },
+        "de 80 %": {
+          "display_format": "**Of 80%:** Statistical measure",
+          "explanation": "Indicates the percentage of failure in the tests",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**!:** Exclamation mark",
+          "explanation": "Punctuation mark indicating emphasis or alarm",
+          "cultural_note": "In French headlines, exclamation marks are often used to emphasize shocking statistics or concerning information"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 9.0,
+        "importance_score": 9.5,
+        "total_score": 27.6
+      },
+      "curation_metadata": {
+        "curation_id": "93d90c49-3358-46c6-bf61-ef07dfaacc5a",
+        "curated_at": "2025-06-12T12:25:31.229769+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T12:28:59.658937+00:00",
+      "quality_score": 9.1,
       "relevance_score": 9.0,
-      "importance_score": 10,
-      "total_score": 27.4
+      "importance_score": 9.5,
+      "total_score": 27.6
     },
     {
       "title": "Internet ne fonctionne plus à Gaza après une attaque",
-      "english_title": "Internet Down in Gaza After Attack on Fiber Optic Line",
+      "english_title": "Internet Down in Gaza After Attack",
       "simplified_french_title": "Internet ne fonctionne plus à Gaza après une attaque",
-      "simplified_english_title": "Internet Down in Gaza After Attack on Fiber Optic Line",
-      "summary": "La connexion internet à Gaza est interrompue suite à une attaque qui a endommagé une ligne de fibre optique importante.",
-      "english_summary": "Internet connectivity in Gaza has been disrupted following an attack that damaged a major fiber optic cable line.",
-      "french_summary": "La connexion internet à Gaza est interrompue suite à une attaque qui a endommagé une ligne de fibre optique importante.",
+      "simplified_english_title": "Internet Down in Gaza After Attack",
+      "summary": "La connexion internet à Gaza est interrompue suite à des dommages sur les câbles de fibre optique. Cette coupure isole la région.",
+      "english_summary": "Internet connection in Gaza has been disrupted due to damage to fiber optic cables. This outage isolates the region.",
+      "french_summary": "La connexion internet à Gaza est interrompue suite à des dommages sur les câbles de fibre optique. Cette coupure isole la région.",
       "original_article_title": "Gaza : le réseau internet coupé après une attaque sur une ligne de fibre optique",
       "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-a-gaza-israel-annonce-le-retour-des-depouilles-de-deux-otages-H6XTJYJ4FJGANDTHFRDCG3VW6Y/",
       "link": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-a-gaza-israel-annonce-le-retour-des-depouilles-de-deux-otages-H6XTJYJ4FJGANDTHFRDCG3VW6Y/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 09:19:05 +0000",
-      "published_date": "Thu, 12 Jun 2025 09:19:05 +0000",
+      "published": "Thu, 12 Jun 2025 11:21:18 +0000",
+      "published_date": "Thu, 12 Jun 2025 11:21:18 +0000",
       "contextual_title_explanations": {
         "Gaza": {
           "display_format": "**Gaza:** Palestinian territory",
           "explanation": "A Palestinian territory located along the eastern coast of the Mediterranean Sea",
-          "cultural_note": "Currently a major focus of conflict between Israel and Hamas, with significant humanitarian concerns"
+          "cultural_note": "Currently a major focus of Middle Eastern conflict and humanitarian concerns"
         },
         "le": {
           "display_format": "**The:** (masculine definite article)",
@@ -127,17 +258,17 @@
         },
         "internet": {
           "display_format": "**Internet:** Global computer network",
-          "explanation": "The worldwide network that connects computer systems globally",
+          "explanation": "The worldwide network that connects computers and allows information sharing",
           "cultural_note": ""
         },
         "coupé": {
           "display_format": "**Cut off/Disconnected:** (past participle)",
-          "explanation": "Indicates something that has been disconnected or interrupted",
+          "explanation": "Indicates that something has been disconnected or interrupted",
           "cultural_note": ""
         },
         "après": {
           "display_format": "**After:** (preposition)",
-          "explanation": "Indicates that something happens following another event in time",
+          "explanation": "Indicates that one event follows another in time",
           "cultural_note": ""
         },
         "une": {
@@ -147,7 +278,7 @@
         },
         "attaque": {
           "display_format": "**Attack:** An offensive action",
-          "explanation": "A deliberate act of aggression or violence against something or someone",
+          "explanation": "An aggressive action intended to cause damage or harm",
           "cultural_note": ""
         },
         "sur": {
@@ -155,106 +286,20 @@
           "explanation": "Indicates the target or location of an action",
           "cultural_note": ""
         },
-        "ligne": {
-          "display_format": "**Line:** Physical connection or cable",
-          "explanation": "A physical connection or pathway, in this case for telecommunications",
+        "une ligne": {
+          "display_format": "**A line:** A connection or cable",
+          "explanation": "In this context, refers to a physical cable or connection path",
           "cultural_note": ""
         },
         "de": {
           "display_format": "**Of:** (preposition)",
-          "explanation": "Used to show possession or type/characteristic of something",
+          "explanation": "Used to show relationship or composition between things",
           "cultural_note": ""
         },
         "fibre optique": {
           "display_format": "**Fiber optic:** Technology for data transmission",
-          "explanation": "A type of cable using glass or plastic fibers to transmit data using light signals",
+          "explanation": "Cables made of thin glass or plastic fibers that transmit data using light signals",
           "cultural_note": "Critical modern infrastructure for internet and telecommunications"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.6,
-        "relevance_score": 9.0,
-        "importance_score": 9.5,
-        "total_score": 27.1
-      },
-      "curation_metadata": {
-        "curation_id": "251ff67e-8461-4a26-a31f-e6ad9a82e6b5",
-        "curated_at": "2025-06-12T10:14:39.940505+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762922+00:00",
-      "quality_score": 8.6,
-      "relevance_score": 9.0,
-      "importance_score": 9.5,
-      "total_score": 27.1
-    },
-    {
-      "title": "Trump utilise les troubles à Los Angeles contre ses opposants",
-      "english_title": "Trump Uses Los Angeles Riots Against His Opponents",
-      "simplified_french_title": "Trump utilise les troubles à Los Angeles contre ses opposants",
-      "simplified_english_title": "Trump Uses Los Angeles Riots Against His Opponents",
-      "summary": "Donald Trump tente de manipuler la situation des émeutes à Los Angeles pour créer un avantage politique contre ses adversaires démocrates.",
-      "english_summary": "Donald Trump is attempting to use the Los Angeles riot situation to create a political advantage against his Democratic opponents.",
-      "french_summary": "Donald Trump tente de manipuler la situation des émeutes à Los Angeles pour créer un avantage politique contre ses adversaires démocrates.",
-      "original_article_title": "Emeutes à Los Angeles : le piège tendu par Donald Trump à ses adversaires",
-      "original_article_link": "https://www.lexpress.fr/monde/amerique/emeutes-a-los-angeles-le-piege-tendu-par-donald-trump-a-ses-adversaires-PHC3GLXSHRG2HG2TQOHVG7T6F4/",
-      "link": "https://www.lexpress.fr/monde/amerique/emeutes-a-los-angeles-le-piege-tendu-par-donald-trump-a-ses-adversaires-PHC3GLXSHRG2HG2TQOHVG7T6F4/",
-      "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 07:25:58 +0000",
-      "published_date": "Thu, 12 Jun 2025 07:25:58 +0000",
-      "contextual_title_explanations": {
-        "Emeutes": {
-          "display_format": "**Riots:** Civil disturbances involving violence",
-          "explanation": "Violent public disorders or disturbances involving groups of people",
-          "cultural_note": "The French word 'émeutes' often appears in news coverage of social unrest, particularly in urban areas"
-        },
-        "à": {
-          "display_format": "**To/For:** (preposition)",
-          "explanation": "Indicates the recipient or target of an action",
-          "cultural_note": ""
-        },
-        "Los Angeles": {
-          "display_format": "**Los Angeles:** Major city in California",
-          "explanation": "Second-largest city in the United States, located in Southern California",
-          "cultural_note": "Often appears in French media as a symbol of American urban culture and social issues"
-        },
-        "le": {
-          "display_format": "**The:** (definite article, masculine singular)",
-          "explanation": "Used before masculine singular nouns",
-          "cultural_note": ""
-        },
-        "piège": {
-          "display_format": "**Trap:** A strategic deception or trick",
-          "explanation": "A situation designed to deceive or catch someone at a disadvantage",
-          "cultural_note": "Often used in political contexts to describe strategic maneuvers"
-        },
-        "tendu": {
-          "display_format": "**Set/Laid:** (past participle of 'tendre')",
-          "explanation": "Literally means 'stretched' or 'taut', but here means 'set' or 'laid' as in setting a trap",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** (preposition)",
-          "explanation": "Indicates the agent performing an action",
-          "cultural_note": ""
-        },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** Former US President",
-          "explanation": "45th President of the United States and prominent political figure",
-          "cultural_note": "Frequently featured in French media for his controversial political actions and statements"
-        },
-        "ses": {
-          "display_format": "**His:** (possessive adjective, plural)",
-          "explanation": "Indicates possession, referring to multiple items belonging to him",
-          "cultural_note": ""
-        },
-        "adversaires": {
-          "display_format": "**Opponents/Adversaries:** People who oppose or compete against someone",
-          "explanation": "Political rivals or competitors, particularly in a political context",
-          "cultural_note": "In French political discourse, 'adversaires' is less aggressive than 'ennemis' (enemies)"
         }
       },
       "key_vocabulary": [],
@@ -262,20 +307,20 @@
       "quality_scores": {
         "quality_score": 8.1,
         "relevance_score": 9.0,
-        "importance_score": 10,
-        "total_score": 27.1
+        "importance_score": 9.5,
+        "total_score": 26.6
       },
       "curation_metadata": {
-        "curation_id": "fbc1479f-d035-4c23-891e-cf0fe297d0a4",
-        "curated_at": "2025-06-12T10:14:39.946477+00:00",
+        "curation_id": "90c0ecdc-5ff4-46ec-b241-18d74d89e671",
+        "curated_at": "2025-06-12T12:25:31.236849+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762938+00:00",
+      "added_at": "2025-06-12T12:28:59.658960+00:00",
       "quality_score": 8.1,
       "relevance_score": 9.0,
-      "importance_score": 10,
-      "total_score": 27.1
+      "importance_score": 9.5,
+      "total_score": 26.6
     },
     {
       "title": "Le transport maritime a des problèmes",
@@ -283,7 +328,7 @@
       "simplified_french_title": "Le transport maritime a des problèmes",
       "simplified_english_title": "Global Shipping Industry Faces Crisis",
       "summary": "Le secteur du transport maritime mondial traverse une période difficile à cause des nouveaux tarifs douaniers et des tensions commerciales.",
-      "english_summary": "The global shipping industry is experiencing significant challenges due to new customs tariffs and increasing trade tensions worldwide.",
+      "english_summary": "The global shipping industry is experiencing significant challenges due to new customs tariffs and ongoing trade tensions.",
       "french_summary": "Le secteur du transport maritime mondial traverse une période difficile à cause des nouveaux tarifs douaniers et des tensions commerciales.",
       "original_article_title": "Droits de douane : le transport maritime mondial en pleine tempête",
       "original_article_link": "https://www.lexpress.fr/economie/politique-economique/droits-de-douane-le-transport-maritime-mondial-en-pleine-tempete-YIJSD377PRHT7CPNWPGVW55KLI/",
@@ -294,43 +339,43 @@
       "contextual_title_explanations": {
         "Droits de douane": {
           "display_format": "**Customs Duties/Tariffs:** Import/export taxes",
-          "explanation": "Taxes or fees imposed on goods when they cross international borders",
-          "cultural_note": "A major topic in international trade discussions and current economic tensions between nations"
+          "explanation": "Taxes imposed on goods when they cross international borders",
+          "cultural_note": "A major topic in international trade relations and current economic discussions"
         },
         "le": {
-          "display_format": "**The:** Definite article (masculine singular)",
+          "display_format": "**The:** (definite article, masculine singular)",
           "explanation": "Used before masculine singular nouns to indicate something specific",
           "cultural_note": ""
         },
         "transport": {
           "display_format": "**Transport/Transportation:** Movement of goods or people",
-          "explanation": "The system or means of moving goods or people from one place to another",
+          "explanation": "Refers to the industry or act of moving goods from one place to another",
           "cultural_note": ""
         },
         "maritime": {
           "display_format": "**Maritime:** Related to sea or ocean transport",
-          "explanation": "Referring to activities connected with the sea, especially shipping and navigation",
-          "cultural_note": "France has a significant maritime industry due to its extensive coastline"
+          "explanation": "Describes activities or things connected to sea travel or ocean-based commerce",
+          "cultural_note": "France has a strong maritime tradition with its extensive coastlines on multiple seas"
         },
         "mondial": {
           "display_format": "**Global/Worldwide:** Relating to the entire world",
-          "explanation": "Describing something that affects or involves the whole world",
+          "explanation": "Describes something that affects or involves the whole world",
           "cultural_note": ""
         },
         "en": {
-          "display_format": "**In:** Preposition",
-          "explanation": "Used to indicate state, condition, or location",
+          "display_format": "**In:** (preposition)",
+          "explanation": "Used to indicate state or condition",
           "cultural_note": ""
         },
         "pleine": {
-          "display_format": "**Full/Complete:** (feminine form of 'plein')",
+          "display_format": "**Full/Complete:** (adjective, feminine form)",
           "explanation": "Used to emphasize the completeness or intensity of something",
           "cultural_note": ""
         },
         "tempête": {
-          "display_format": "**Storm:** Literal or figurative turbulence",
-          "explanation": "Can refer to either a literal storm or, as in this case, a metaphor for a period of trouble or crisis",
-          "cultural_note": "Commonly used metaphorically in French media to describe crisis situations"
+          "display_format": "**Storm:** (literally) or **Crisis:** (figuratively)",
+          "explanation": "Used metaphorically to describe a period of trouble or turmoil",
+          "cultural_note": "Common metaphorical usage in French media to describe difficult situations or crises"
         }
       },
       "key_vocabulary": [],
@@ -342,212 +387,217 @@
         "total_score": 26.299999999999997
       },
       "curation_metadata": {
-        "curation_id": "c34b1b4d-0ef5-4fb3-b169-14e1ae7adae4",
-        "curated_at": "2025-06-12T10:14:39.934086+00:00",
+        "curation_id": "17e86682-7bb9-43f2-bea6-d9b712758f37",
+        "curated_at": "2025-06-12T12:25:31.242269+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762949+00:00",
+      "added_at": "2025-06-12T12:28:59.658977+00:00",
       "quality_score": 8.1,
       "relevance_score": 8.2,
       "importance_score": 10,
       "total_score": 26.299999999999997
     },
     {
-      "title": "Le ministre de la Santé va supprimer le système de limitation des étudiants en médecine",
-      "english_title": "Health Minister to Remove Medical Student Quota System",
-      "simplified_french_title": "Le ministre de la Santé va supprimer le système de limitation des étudiants en médecine",
-      "simplified_english_title": "Health Minister to Remove Medical Student Quota System",
-      "summary": "Le ministre Yannick Neuder annonce qu'il va supprimer la limitation du nombre d'étudiants en médecine lors d'une réunion au Sénat.",
-      "english_summary": "Minister Yannick Neuder announces he will eliminate the medical student quota system during an upcoming Senate meeting.",
-      "french_summary": "Le ministre Yannick Neuder annonce qu'il va supprimer la limitation du nombre d'étudiants en médecine lors d'une réunion au Sénat.",
-      "original_article_title": "Formation des médecins : \"Je vais supprimer le numerus apertus le 17 juin\", annonce le ministre chargé de la Santé Yannick Neuder",
-      "original_article_link": "https://www.franceinfo.fr/sante/formation-des-medecins-je-vais-supprimer-le-numerus-apertus-le-17-juin-annonce-le-ministre-charge-de-la-sante-yannick-neuder_7307568.html#xtor=RSS-3-[lestitres]",
-      "link": "https://www.franceinfo.fr/sante/formation-des-medecins-je-vais-supprimer-le-numerus-apertus-le-17-juin-annonce-le-ministre-charge-de-la-sante-yannick-neuder_7307568.html#xtor=RSS-3-[lestitres]",
-      "source_name": "France Info",
-      "published": "Thu, 12 Jun 2025 08:29:16 +0200",
-      "published_date": "Thu, 12 Jun 2025 08:29:16 +0200",
+      "title": "La transformation digitale des services publics",
+      "english_title": "How Public Services Are Going Digital",
+      "simplified_french_title": "La transformation digitale des services publics",
+      "simplified_english_title": "How Public Services Are Going Digital",
+      "summary": "Les administrations publiques françaises se modernisent avec des outils numériques pour mieux servir les citoyens et améliorer leur efficacité.",
+      "english_summary": "French public administration is modernizing with digital tools to better serve citizens and improve efficiency in government services.",
+      "french_summary": "Les administrations publiques françaises se modernisent avec des outils numériques pour mieux servir les citoyens et améliorer leur efficacité.",
+      "original_article_title": "VivaTech : comment la fonction publique opère sa mue numérique",
+      "original_article_link": "https://www.lexpress.fr/economie/high-tech/vivatech-comment-la-fonction-publique-opere-sa-mue-numerique-LW2WP2JYVBA3VMLNLZ7ZTZDU3Y/",
+      "link": "https://www.lexpress.fr/economie/high-tech/vivatech-comment-la-fonction-publique-opere-sa-mue-numerique-LW2WP2JYVBA3VMLNLZ7ZTZDU3Y/",
+      "source_name": "L'Express",
+      "published": "Thu, 12 Jun 2025 11:00:00 +0000",
+      "published_date": "Thu, 12 Jun 2025 11:00:00 +0000",
       "contextual_title_explanations": {
-        "Formation": {
-          "display_format": "**Training/Education:** Educational preparation",
-          "explanation": "The process of educating or training someone for a profession",
-          "cultural_note": "In France, professional training and education are highly regulated by the state"
+        "VivaTech": {
+          "display_format": "**VivaTech:** Major European technology conference",
+          "explanation": "An annual technology and startup conference held in Paris, bringing together business leaders, startups, and tech innovators",
+          "cultural_note": "Launched in 2016, it has become Europe's biggest startup and tech event, symbolizing France's ambitions in the digital economy"
         },
-        "des": {
-          "display_format": "**Of the:** (article)",
-          "explanation": "Contraction of 'de les', used to show possession or relationship",
+        "comment": {
+          "display_format": "**How:** (interrogative adverb)",
+          "explanation": "Used to ask about the way or manner in which something happens or is done",
           "cultural_note": ""
-        },
-        "médecins": {
-          "display_format": "**Doctors:** Medical practitioners",
-          "explanation": "Licensed medical professionals who practice medicine",
-          "cultural_note": "Medical education in France is state-funded and highly competitive"
-        },
-        "Je": {
-          "display_format": "**I:** (personal pronoun)",
-          "explanation": "First person singular subject pronoun",
-          "cultural_note": ""
-        },
-        "vais": {
-          "display_format": "**Am going to:** (verb)",
-          "explanation": "Conjugated form of 'aller', used to express near future",
-          "cultural_note": ""
-        },
-        "supprimer": {
-          "display_format": "**Remove/Eliminate:** To abolish",
-          "explanation": "To completely remove or eliminate something from a system",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Masculine singular definite article",
-          "cultural_note": ""
-        },
-        "numerus apertus": {
-          "display_format": "**Numerus Apertus:** Open number system",
-          "explanation": "Latin term referring to the current system limiting medical student numbers",
-          "cultural_note": "Replaced the stricter 'numerus clausus' system in 2020 in French medical education"
-        },
-        "le 17 juin": {
-          "display_format": "**On June 17:** (date)",
-          "explanation": "Specific date when the action will take place",
-          "cultural_note": ""
-        },
-        "annonce": {
-          "display_format": "**Announces:** (verb)",
-          "explanation": "To make a public declaration or statement",
-          "cultural_note": ""
-        },
-        "le ministre": {
-          "display_format": "**The minister:** Government official",
-          "explanation": "A high-ranking government official in charge of a ministry",
-          "cultural_note": "Ministers in France are appointed by the President and Prime Minister"
-        },
-        "chargé de": {
-          "display_format": "**In charge of:** Responsible for",
-          "explanation": "Indicates responsibility or oversight of a specific domain",
-          "cultural_note": ""
-        },
-        "la Santé": {
-          "display_format": "**Health:** Healthcare/Public Health",
-          "explanation": "The domain of public health and healthcare",
-          "cultural_note": "Healthcare is a major public service in France's social system"
-        },
-        "Yannick Neuder": {
-          "display_format": "**Yannick Neuder:** Name of the Health Minister",
-          "explanation": "Current French Minister responsible for Health",
-          "cultural_note": "Appointed as part of the French government's healthcare reform initiatives"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 7.3,
-        "importance_score": 10,
-        "total_score": 24.4
-      },
-      "curation_metadata": {
-        "curation_id": "aecd0537-9c7d-42f7-bc45-1d70de6c07ce",
-        "curated_at": "2025-06-12T10:14:39.919770+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762964+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 7.3,
-      "importance_score": 10,
-      "total_score": 24.4
-    },
-    {
-      "title": "Une mère mexicaine a créé un plan criminel",
-      "english_title": "A Mexican Mother's Sinister Plot",
-      "simplified_french_title": "Une mère mexicaine a créé un plan criminel",
-      "simplified_english_title": "A Mexican Mother's Sinister Plot",
-      "summary": "Une femme qui luttait contre les enlèvements au Mexique est accusée d'avoir organisé la disparition de son fils et fait torturer des innocents.",
-      "english_summary": "A woman who fought against kidnappings in Mexico is accused of staging her son's disappearance and having innocent people tortured.",
-      "french_summary": "Une femme qui luttait contre les enlèvements au Mexique est accusée d'avoir organisé la disparition de son fils et fait torturer des innocents.",
-      "original_article_title": "Au Mexique, la machination infernale d’une « mère courage »",
-      "original_article_link": "https://www.lemonde.fr/m-le-mag/article/2025/06/12/au-mexique-la-machination-infernale-d-une-mere-courage_6612469_4500055.html",
-      "link": "https://www.lemonde.fr/m-le-mag/article/2025/06/12/au-mexique-la-machination-infernale-d-une-mere-courage_6612469_4500055.html",
-      "source_name": "Le Monde International",
-      "published": "Thu, 12 Jun 2025 06:30:11 +0200",
-      "published_date": "Thu, 12 Jun 2025 06:30:11 +0200",
-      "contextual_title_explanations": {
-        "Au": {
-          "display_format": "**Au:** In the/In (contraction of à + le)",
-          "explanation": "A common French contraction combining the preposition 'à' (to/in) with the masculine definite article 'le' (the).",
-          "cultural_note": ""
-        },
-        "Mexique": {
-          "display_format": "**Mexico:** Country in North America",
-          "explanation": "A country bordering the United States, known for its rich culture and history.",
-          "cultural_note": "Currently facing significant challenges with drug cartels and kidnappings, which provides important context for this article."
         },
         "la": {
-          "display_format": "**The:** Feminine definite article",
-          "explanation": "Used before feminine nouns to indicate specificity.",
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Used before feminine nouns to indicate something specific",
           "cultural_note": ""
         },
-        "machination": {
-          "display_format": "**Plot/Scheme:** A complex, usually malicious plan",
-          "explanation": "Refers to a carefully planned and usually deceptive scheme designed to achieve a particular goal.",
+        "fonction publique": {
+          "display_format": "**Public service/Civil service:** Government administration",
+          "explanation": "The entire system of government employees and administrative organizations serving the state",
+          "cultural_note": "In France, the 'fonction publique' has a particularly important status and represents about 20% of total employment"
+        },
+        "opère": {
+          "display_format": "**Operates/Carries out:** (verb)",
+          "explanation": "From 'opérer', meaning to perform or carry out an action",
           "cultural_note": ""
         },
-        "infernale": {
-          "display_format": "**Infernal/Hellish:** Extremely evil or malicious",
-          "explanation": "An adjective describing something as particularly terrible, cruel, or hellish in nature.",
+        "sa": {
+          "display_format": "**Its:** (possessive adjective)",
+          "explanation": "Feminine possessive adjective indicating ownership",
           "cultural_note": ""
         },
-        "d'une": {
-          "display_format": "**Of a:** Contraction of 'de' + 'une'",
-          "explanation": "Combines the preposition 'de' (of/from) with the feminine indefinite article 'une' (a/an).",
-          "cultural_note": ""
+        "mue": {
+          "display_format": "**Transformation/Metamorphosis:** (noun)",
+          "explanation": "Literally means 'molting' or 'shedding skin', metaphorically used to describe a profound transformation",
+          "cultural_note": "Often used in French media to describe significant organizational or institutional changes"
         },
-        "mère": {
-          "display_format": "**Mother:** Female parent",
-          "explanation": "A woman in relation to her child or children.",
-          "cultural_note": ""
-        },
-        "courage": {
-          "display_format": "**Courage:** Bravery, valor",
-          "explanation": "The ability to face danger or difficulties without fear.",
-          "cultural_note": ""
-        },
-        "mère courage": {
-          "display_format": "**Mother Courage:** A reference to a brave, determined mother",
-          "explanation": "A term often used to describe a strong, resilient mother who fights against adversity.",
-          "cultural_note": "References Bertolt Brecht's play 'Mother Courage and Her Children,' which has become a common phrase in French to describe determined mothers fighting for their children."
+        "numérique": {
+          "display_format": "**Digital:** (adjective)",
+          "explanation": "Relating to digital technology or computerization",
+          "cultural_note": "France has been pushing for 'transformation numérique' as a national priority since 2017"
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 8.1,
-        "relevance_score": 5.8,
+        "relevance_score": 8.0,
         "importance_score": 10,
-        "total_score": 23.9
+        "total_score": 26.1
       },
       "curation_metadata": {
-        "curation_id": "fc9e6d3b-78ed-4f1c-8976-dae8ebfd39cb",
-        "curated_at": "2025-06-12T10:14:39.921824+00:00",
+        "curation_id": "4a709aa4-7c76-43bd-ac2e-12b2c1ff0489",
+        "curated_at": "2025-06-12T12:25:31.237952+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762976+00:00",
+      "added_at": "2025-06-12T12:28:59.658995+00:00",
       "quality_score": 8.1,
-      "relevance_score": 5.8,
+      "relevance_score": 8.0,
       "importance_score": 10,
-      "total_score": 23.9
+      "total_score": 26.1
+    },
+    {
+      "title": "Le gouvernement présente un nouveau plan pour améliorer la santé mentale",
+      "english_title": "Government Presents New Mental Health Plan",
+      "simplified_french_title": "Le gouvernement présente un nouveau plan pour améliorer la santé mentale",
+      "simplified_english_title": "Government Presents New Mental Health Plan",
+      "summary": "Le gouvernement lance un plan pour aider les jeunes qui ont des problèmes de santé mentale. Les écoles vont former leur personnel.",
+      "english_summary": "The government is launching a plan to help young people with mental health issues. Schools will train their staff to provide support.",
+      "french_summary": "Le gouvernement lance un plan pour aider les jeunes qui ont des problèmes de santé mentale. Les écoles vont former leur personnel.",
+      "original_article_title": "Formations, soutien aux généralistes, rendez-vous d'urgence… Ce que contient le plan pour la santé mentale présenté par le gouvernement",
+      "original_article_link": "https://www.franceinfo.fr/sante/enfant-ado/formations-soutien-aux-generalistes-rendez-vous-d-urgence-ce-que-contient-le-plan-pour-la-sante-mentale-presente-par-legouvernement_7307598.html#xtor=RSS-3-[lestitres]",
+      "link": "https://www.franceinfo.fr/sante/enfant-ado/formations-soutien-aux-generalistes-rendez-vous-d-urgence-ce-que-contient-le-plan-pour-la-sante-mentale-presente-par-legouvernement_7307598.html#xtor=RSS-3-[lestitres]",
+      "source_name": "France Info",
+      "published": "Thu, 12 Jun 2025 13:36:34 +0200",
+      "published_date": "Thu, 12 Jun 2025 13:36:34 +0200",
+      "contextual_title_explanations": {
+        "Formations": {
+          "display_format": "**Training:** Professional education or preparation",
+          "explanation": "Refers to professional development and educational programs designed to teach specific skills",
+          "cultural_note": "In France, professional training ('formation continue') is highly valued and often mandatory in many sectors"
+        },
+        "soutien": {
+          "display_format": "**Support:** Assistance or help",
+          "explanation": "Aid or backing provided to help someone or something function better",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**To the:** (contraction of 'à les')",
+          "explanation": "Preposition indicating direction or recipient of an action",
+          "cultural_note": ""
+        },
+        "généralistes": {
+          "display_format": "**General practitioners:** Primary care doctors",
+          "explanation": "Medical doctors who provide primary healthcare and are usually the first point of contact in the healthcare system",
+          "cultural_note": "In France, seeing a 'généraliste' is typically the first step in the healthcare journey"
+        },
+        "rendez-vous": {
+          "display_format": "**Appointments:** Scheduled meetings",
+          "explanation": "A pre-arranged meeting or appointment time",
+          "cultural_note": "The French healthcare system relies heavily on the appointment system, though emergency services exist"
+        },
+        "d'urgence": {
+          "display_format": "**Emergency:** Urgent or immediate",
+          "explanation": "Situations requiring immediate attention or action",
+          "cultural_note": ""
+        },
+        "Ce que": {
+          "display_format": "**What:** That which",
+          "explanation": "Used to introduce what follows or what is contained within something",
+          "cultural_note": ""
+        },
+        "contient": {
+          "display_format": "**Contains:** Includes or holds",
+          "explanation": "From the verb 'contenir', meaning to have within or include",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (masculine definite article)",
+          "explanation": "Definite article used before masculine nouns",
+          "cultural_note": ""
+        },
+        "plan": {
+          "display_format": "**Plan:** Strategy or program",
+          "explanation": "A detailed proposal for doing or achieving something",
+          "cultural_note": "French government often announces formal 'plans' for major policy initiatives"
+        },
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose or destination",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (feminine definite article)",
+          "explanation": "Definite article used before feminine nouns",
+          "cultural_note": ""
+        },
+        "santé mentale": {
+          "display_format": "**Mental health:** Psychological well-being",
+          "explanation": "Refers to emotional, psychological, and social well-being",
+          "cultural_note": "Mental health has become an increasingly important focus in French healthcare policy"
+        },
+        "présenté": {
+          "display_format": "**Presented:** Introduced or shown",
+          "explanation": "Past participle of 'présenter', meaning to show or introduce something formally",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates the agent or doer of an action",
+          "cultural_note": ""
+        },
+        "le gouvernement": {
+          "display_format": "**The government:** The ruling administration",
+          "explanation": "The central governing body of France",
+          "cultural_note": "France has a semi-presidential system where both the President and Prime Minister play important roles"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.9,
+        "relevance_score": 5.7,
+        "importance_score": 10,
+        "total_score": 23.6
+      },
+      "curation_metadata": {
+        "curation_id": "74f11e95-aaba-49e8-bc22-a0e07c591865",
+        "curated_at": "2025-06-12T12:25:31.212692+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T12:28:59.659014+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 5.7,
+      "importance_score": 10,
+      "total_score": 23.6
     },
     {
       "title": "Les mines forcent les habitants de Kolwezi à déménager",
-      "english_title": "Mining Operations Force Residents to Relocate in Kolwezi, DRC",
+      "english_title": "Mining Operations Force Residents to Relocate in Kolwezi",
       "simplified_french_title": "Les mines forcent les habitants de Kolwezi à déménager",
-      "simplified_english_title": "Mining Operations Force Residents to Relocate in Kolwezi, DRC",
-      "summary": "À Kolwezi, en République démocratique du Congo, les grandes mines de cobalt forcent les habitants à quitter leurs maisons, causant des problèmes économiques.",
-      "english_summary": "In Kolwezi, Democratic Republic of Congo, large cobalt mining operations are forcing residents to leave their homes, causing economic hardship.",
-      "french_summary": "À Kolwezi, en République démocratique du Congo, les grandes mines de cobalt forcent les habitants à quitter leurs maisons, causant des problèmes économiques.",
+      "simplified_english_title": "Mining Operations Force Residents to Relocate in Kolwezi",
+      "summary": "À Kolwezi, ville du cobalt en RDC, les mines s'agrandissent et forcent les habitants à partir. Les prix augmentent et la population souffre.",
+      "english_summary": "In Kolwezi, DRC's cobalt city, expanding mines force residents to relocate. This displacement causes price increases affecting the local population.",
+      "french_summary": "À Kolwezi, ville du cobalt en RDC, les mines s'agrandissent et forcent les habitants à partir. Les prix augmentent et la population souffre.",
       "original_article_title": "En RDC, l'extension des mines provoque le déplacement de population à Kolwezi",
       "original_article_link": "https://www.rfi.fr/fr/afrique/20250612-en-rdc-l-extension-des-mines-provoque-le-d%C3%A9placement-de-population-%C3%A0-kolwezi",
       "link": "https://www.rfi.fr/fr/afrique/20250612-en-rdc-l-extension-des-mines-provoque-le-d%C3%A9placement-de-population-%C3%A0-kolwezi",
@@ -556,69 +606,69 @@
       "published_date": "Thu, 12 Jun 2025 09:47:59 GMT",
       "contextual_title_explanations": {
         "En": {
-          "display_format": "**In:** (preposition)",
-          "explanation": "Used to indicate location or position within a place",
+          "display_format": "**En:** In/In the",
+          "explanation": "Preposition used to indicate location or position within a place",
           "cultural_note": ""
         },
         "RDC": {
-          "display_format": "**DRC (République Démocratique du Congo):** Democratic Republic of the Congo",
-          "explanation": "Common abbreviation for the Democratic Republic of the Congo, a central African country",
-          "cultural_note": "One of the world's largest producers of cobalt and other minerals, with a complex history of mining-related issues"
+          "display_format": "**RDC (République Démocratique du Congo):** Democratic Republic of the Congo",
+          "explanation": "A large country in Central Africa, formerly known as Zaire",
+          "cultural_note": "One of the world's richest countries in natural resources, particularly minerals like cobalt and copper"
         },
         "l'": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Contracted form of 'la' or 'le' before a vowel sound",
+          "display_format": "**l' (article):** the",
+          "explanation": "Definite article used before words beginning with a vowel or silent h",
           "cultural_note": ""
         },
         "extension": {
-          "display_format": "**Extension/Expansion:** Growth or enlargement",
-          "explanation": "The process of expanding or extending something to cover a larger area",
+          "display_format": "**Extension:** Expansion/growth",
+          "explanation": "The process of becoming larger or covering more area",
           "cultural_note": ""
         },
         "des": {
-          "display_format": "**Of the:** (plural definite article)",
-          "explanation": "Contraction of 'de les', used to show possession or relationship",
+          "display_format": "**des:** of the/the (plural)",
+          "explanation": "Plural definite article or contraction of 'de les'",
           "cultural_note": ""
         },
         "mines": {
-          "display_format": "**Mines:** Mining operations",
-          "explanation": "Excavations in the earth for extracting minerals or ore",
-          "cultural_note": "Mining is a crucial economic activity in the DRC, particularly for cobalt and copper"
+          "display_format": "**Mines:** Mining operations/mines",
+          "explanation": "Excavation sites where minerals are extracted from the earth",
+          "cultural_note": "Mining is a crucial economic activity in the DRC, particularly for cobalt production"
         },
         "provoque": {
-          "display_format": "**Causes/Triggers:** (verb)",
-          "explanation": "To cause something to happen or bring about an effect",
+          "display_format": "**Provoque:** Causes/triggers",
+          "explanation": "From the verb 'provoquer' - to cause or bring about something",
           "cultural_note": ""
         },
         "le": {
-          "display_format": "**The:** (masculine definite article)",
-          "explanation": "Used before masculine singular nouns",
+          "display_format": "**le:** the (masculine singular)",
+          "explanation": "Definite article used before masculine singular nouns",
           "cultural_note": ""
         },
         "déplacement": {
-          "display_format": "**Displacement/Relocation:** Movement from one place to another",
-          "explanation": "The forced or voluntary movement of people from their homes or regions",
+          "display_format": "**Déplacement:** Displacement/relocation",
+          "explanation": "The forced or voluntary movement of people from one area to another",
           "cultural_note": "A significant social issue in mining regions worldwide"
         },
         "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Used to show possession or origin",
+          "display_format": "**de:** of/from",
+          "explanation": "Preposition indicating possession, origin, or relationship",
           "cultural_note": ""
         },
         "population": {
-          "display_format": "**Population:** Inhabitants of an area",
-          "explanation": "The people living in a particular area or region",
+          "display_format": "**Population:** Population/inhabitants",
+          "explanation": "The people living in a particular area",
           "cultural_note": ""
         },
         "à": {
-          "display_format": "**In/At:** (preposition)",
-          "explanation": "Used to indicate location or destination",
+          "display_format": "**à:** in/at/to",
+          "explanation": "Preposition indicating location or destination",
           "cultural_note": ""
         },
         "Kolwezi": {
           "display_format": "**Kolwezi:** City in DRC",
-          "explanation": "A major mining city in the Democratic Republic of the Congo",
-          "cultural_note": "Known as the world's cobalt capital and a crucial center for mineral extraction"
+          "explanation": "A mining city in the Lualaba Province of the Democratic Republic of the Congo",
+          "cultural_note": "Known as the world's cobalt capital and a major mining center"
         }
       },
       "key_vocabulary": [],
@@ -630,25 +680,25 @@
         "total_score": 23.6
       },
       "curation_metadata": {
-        "curation_id": "9aa1107f-c4c7-4fc6-ba08-9cb9b5103f63",
-        "curated_at": "2025-06-12T10:14:39.936783+00:00",
+        "curation_id": "33e064c5-fe51-4df0-8691-7b21f07a186b",
+        "curated_at": "2025-06-12T12:25:31.244662+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.762990+00:00",
+      "added_at": "2025-06-12T12:28:59.659029+00:00",
       "quality_score": 8.4,
       "relevance_score": 5.199999999999999,
       "importance_score": 10,
       "total_score": 23.6
     },
     {
-      "title": "Les managers français critiqués en Suisse",
-      "english_title": "French Managers Criticized in Switzerland",
-      "simplified_french_title": "Les managers français critiqués en Suisse",
-      "simplified_english_title": "French Managers Criticized in Switzerland",
-      "summary": "Une étude suisse révèle que les managers français sont perçus comme trop hiérarchiques et difficiles dans leur style de management.",
-      "english_summary": "A Swiss study reveals that French managers are perceived as overly hierarchical and difficult in their management style.",
-      "french_summary": "Une étude suisse révèle que les managers français sont perçus comme trop hiérarchiques et difficiles dans leur style de management.",
+      "title": "Les dirigeants français critiqués en Suisse",
+      "english_title": "French Managers Criticized by the Swiss",
+      "simplified_french_title": "Les dirigeants français critiqués en Suisse",
+      "simplified_english_title": "French Managers Criticized by the Swiss",
+      "summary": "Une étude suisse montre que les managers français sont perçus comme arrogants et trop attachés à leur hiérarchie dans leur style de gestion.",
+      "english_summary": "A Swiss study reveals that French managers are perceived as arrogant and overly hierarchical in their management style.",
+      "french_summary": "Une étude suisse montre que les managers français sont perçus comme arrogants et trop attachés à leur hiérarchie dans leur style de gestion.",
       "original_article_title": "\"Claniques et arrogants…\" : les managers français vus de Suisse",
       "original_article_link": "https://www.lexpress.fr/idees-et-debats/claniques-et-arrogants-les-managers-francais-vus-de-suisse-X4MIG7PTTRHUBG765CS47JRTTE/",
       "link": "https://www.lexpress.fr/idees-et-debats/claniques-et-arrogants-les-managers-francais-vus-de-suisse-X4MIG7PTTRHUBG765CS47JRTTE/",
@@ -657,38 +707,38 @@
       "published_date": "Thu, 12 Jun 2025 09:50:00 +0000",
       "contextual_title_explanations": {
         "Claniques": {
-          "display_format": "**Clannish/Tribal:** Operating in closed groups",
-          "explanation": "Refers to behavior characteristic of clans or closed groups, suggesting exclusivity and favoritism",
-          "cultural_note": "This term often carries negative connotations in professional contexts, implying resistance to outside influence or change"
+          "display_format": "**Clannish:** Forming tight-knit groups",
+          "explanation": "Refers to behavior where people form exclusive groups or cliques, often with strong internal loyalty but exclusion of outsiders",
+          "cultural_note": "In French business culture, this term often criticizes the tendency of French managers to form closed networks, particularly among graduates of the same elite schools"
         },
         "et": {
           "display_format": "**And:** (conjunction)",
-          "explanation": "Basic conjunction used to connect words or phrases",
+          "explanation": "Basic coordinating conjunction connecting two elements",
           "cultural_note": ""
         },
         "arrogants": {
           "display_format": "**Arrogant:** Showing excessive pride or self-importance",
-          "explanation": "Adjective describing someone who acts in a superior or self-important manner",
-          "cultural_note": "In business contexts, this trait is often associated with traditional French management style stereotypes"
+          "explanation": "Describes someone who acts in a superior or condescending manner",
+          "cultural_note": "This stereotype of French managers often stems from cultural differences in communication styles between French and other business cultures"
         },
         "...": {
-          "display_format": "**Ellipsis:** (punctuation)",
-          "explanation": "Indicates omission of words or continuation of similar ideas",
-          "cultural_note": "In headlines, often suggests there are more similar criticisms not explicitly stated"
+          "display_format": "**Ellipsis:** Indicating omission or continuation",
+          "explanation": "Used to suggest there are more similar characteristics not explicitly listed",
+          "cultural_note": ""
         },
         "les": {
           "display_format": "**The:** (definite article, plural)",
-          "explanation": "Used before plural nouns to indicate specific items or groups",
+          "explanation": "Used before plural nouns to indicate a specific group",
           "cultural_note": ""
         },
         "managers": {
           "display_format": "**Managers:** Business leaders or supervisors",
-          "explanation": "People in charge of managing teams or departments in organizations",
-          "cultural_note": "This English loanword is commonly used in French business contexts"
+          "explanation": "People in charge of directing and supervising others in a professional context",
+          "cultural_note": "The English word 'manager' is commonly used in French business language, showing the influence of Anglo-Saxon business culture"
         },
         "français": {
-          "display_format": "**French:** (adjective)",
-          "explanation": "Relating to France or of French origin",
+          "display_format": "**French:** From France",
+          "explanation": "Adjective indicating nationality or origin from France",
           "cultural_note": ""
         },
         "vus": {
@@ -698,13 +748,13 @@
         },
         "de": {
           "display_format": "**From:** (preposition)",
-          "explanation": "Indicates origin, perspective, or point of view",
+          "explanation": "Indicates point of view or perspective",
           "cultural_note": ""
         },
         "Suisse": {
-          "display_format": "**Switzerland:** (proper noun)",
-          "explanation": "Country in central Europe",
-          "cultural_note": "Known for its banking sector and different business culture compared to France"
+          "display_format": "**Switzerland:** The country",
+          "explanation": "A neighboring country to France, known for its banking sector and multilingual business environment",
+          "cultural_note": "Switzerland and France have significant business relationships but different management cultures and approaches"
         }
       },
       "key_vocabulary": [],
@@ -716,222 +766,217 @@
         "total_score": 23.2
       },
       "curation_metadata": {
-        "curation_id": "da1cc69b-c45d-4968-8daa-3fdae47cddd5",
-        "curated_at": "2025-06-12T10:14:39.936599+00:00",
+        "curation_id": "582bfb6b-125d-4b8b-8228-f33524281d31",
+        "curated_at": "2025-06-12T12:25:31.244484+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.763002+00:00",
+      "added_at": "2025-06-12T12:28:59.659041+00:00",
       "quality_score": 8.1,
       "relevance_score": 7.1,
       "importance_score": 8.0,
       "total_score": 23.2
     },
     {
-      "title": "La Banque mondiale change d'avis sur l'énergie nucléaire",
-      "english_title": "World Bank Changes Its Position on Nuclear Energy",
-      "simplified_french_title": "La Banque mondiale change d'avis sur l'énergie nucléaire",
-      "simplified_english_title": "World Bank Changes Its Position on Nuclear Energy",
-      "summary": "La Banque mondiale modifie sa politique et accepte maintenant de financer des projets d'énergie nucléaire, marquant un changement important.",
-      "english_summary": "The World Bank has modified its policy and will now finance nuclear energy projects, marking a significant shift in its approach.",
-      "french_summary": "La Banque mondiale modifie sa politique et accepte maintenant de financer des projets d'énergie nucléaire, marquant un changement important.",
-      "original_article_title": "Nucléaire : ce revirement de la Banque mondiale qui confirme le retour en grâce de l’atome",
-      "original_article_link": "https://www.lexpress.fr/environnement/nucleaire-ce-revirement-de-la-banque-mondiale-qui-confirme-le-retour-en-grace-de-latome-PIJSMDYXLFACVJYJWKEWAO6P7I/",
-      "link": "https://www.lexpress.fr/environnement/nucleaire-ce-revirement-de-la-banque-mondiale-qui-confirme-le-retour-en-grace-de-latome-PIJSMDYXLFACVJYJWKEWAO6P7I/",
+      "title": "Un avion d'Air India s'écrase en Inde: pas de survivants",
+      "english_title": "Air India Plane Crashes in India: No Survivors",
+      "simplified_french_title": "Un avion d'Air India s'écrase en Inde: pas de survivants",
+      "simplified_english_title": "Air India Plane Crashes in India: No Survivors",
+      "summary": "Un avion d'Air India s'est écrasé pendant son vol vers Londres. Les autorités indiennes confirment qu'il n'y a aucun survivant parmi les passagers.",
+      "english_summary": "An Air India plane crashed during its flight to London. Indian authorities confirm there are no survivors among the passengers.",
+      "french_summary": "Un avion d'Air India s'est écrasé pendant son vol vers Londres. Les autorités indiennes confirment qu'il n'y a aucun survivant parmi les passagers.",
+      "original_article_title": "Inde : \"apparemment aucun survivant\" après le crash d’un avion d’Air India à destination de Londres",
+      "original_article_link": "https://www.lexpress.fr/monde/asie/inde-un-avion-dair-india-a-destination-de-londres-secrase-peu-apres-le-decollage-NNXUASIV3BA77JRTAEKBF3EKVU/",
+      "link": "https://www.lexpress.fr/monde/asie/inde-un-avion-dair-india-a-destination-de-londres-secrase-peu-apres-le-decollage-NNXUASIV3BA77JRTAEKBF3EKVU/",
       "source_name": "L'Express",
-      "published": "Thu, 12 Jun 2025 06:08:56 +0000",
-      "published_date": "Thu, 12 Jun 2025 06:08:56 +0000",
+      "published": "Thu, 12 Jun 2025 12:20:10 +0000",
+      "published_date": "Thu, 12 Jun 2025 12:20:10 +0000",
       "contextual_title_explanations": {
-        "Nucléaire": {
-          "display_format": "**Nuclear:** Relating to nuclear energy/power",
-          "explanation": "Refers to the production of electricity using nuclear fission reactions",
-          "cultural_note": "France relies heavily on nuclear power for its electricity, with about 70% of its power coming from nuclear plants"
+        "Inde": {
+          "display_format": "**India:** Country in South Asia",
+          "explanation": "The Republic of India, a country in South Asia known for its diverse culture and large population",
+          "cultural_note": "One of the world's fastest-growing major economies and an important global player"
         },
         ":": {
           "display_format": "**Colon:** Punctuation mark",
-          "explanation": "Used to introduce additional information or explanation",
+          "explanation": "Used to introduce additional information or a quote",
           "cultural_note": ""
         },
-        "ce": {
-          "display_format": "**This:** Demonstrative adjective",
-          "explanation": "Used to point to a specific thing being discussed",
+        "apparemment": {
+          "display_format": "**Apparently:** Seemingly; as far as one knows",
+          "explanation": "An adverb indicating that something appears to be true based on available information",
           "cultural_note": ""
         },
-        "revirement": {
-          "display_format": "**Reversal/U-turn:** A complete change in position or opinion",
-          "explanation": "Describes a significant change in direction or stance on an issue",
-          "cultural_note": "Often used in political or institutional contexts to describe policy changes"
-        },
-        "de": {
-          "display_format": "**Of/From:** Preposition",
-          "explanation": "Indicates possession or relationship between two elements",
+        "aucun": {
+          "display_format": "**No/None:** Negative adjective",
+          "explanation": "Used to indicate the complete absence of something",
           "cultural_note": ""
         },
-        "la": {
-          "display_format": "**The:** Feminine definite article",
-          "explanation": "Used before feminine nouns",
+        "survivant": {
+          "display_format": "**Survivor:** Person who remains alive",
+          "explanation": "Someone who has survived a dangerous or deadly event",
           "cultural_note": ""
         },
-        "Banque mondiale": {
-          "display_format": "**World Bank:** International financial institution",
-          "explanation": "An international financial institution that provides loans and grants to governments",
-          "cultural_note": "Major player in global development and environmental policy"
-        },
-        "qui": {
-          "display_format": "**Which/That:** Relative pronoun",
-          "explanation": "Connects a dependent clause to the main sentence",
-          "cultural_note": ""
-        },
-        "confirme": {
-          "display_format": "**Confirms:** Present tense of 'confirmer'",
-          "explanation": "To verify or establish the truth or accuracy of something",
+        "après": {
+          "display_format": "**After:** Following in time",
+          "explanation": "Preposition indicating that one event follows another",
           "cultural_note": ""
         },
         "le": {
-          "display_format": "**The:** Masculine definite article",
-          "explanation": "Used before masculine nouns",
+          "display_format": "**The:** Definite article",
+          "explanation": "Masculine singular definite article",
           "cultural_note": ""
         },
-        "retour en grâce": {
-          "display_format": "**Return to favor:** Idiomatic expression",
-          "explanation": "The restoration to a favorable position after a period of disfavor",
-          "cultural_note": "Similar to English expression 'return to grace' or 'comeback'"
-        },
-        "de l'atome": {
-          "display_format": "**Of the atom:** Reference to nuclear power",
-          "explanation": "'Atome' is commonly used as a metonym for nuclear power/energy",
-          "cultural_note": "In French media, 'l'atome' often serves as shorthand for the entire nuclear industry"
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 7.2,
-        "importance_score": 8.5,
-        "total_score": 22.8
-      },
-      "curation_metadata": {
-        "curation_id": "7815fb4d-b819-4588-b7a4-995f1b76ff0e",
-        "curated_at": "2025-06-12T10:14:39.921450+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.763014+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 7.2,
-      "importance_score": 8.5,
-      "total_score": 22.8
-    },
-    {
-      "title": "L'écrivaine Rachel Kushner observe la situation à Los Angeles pendant la crise",
-      "english_title": "Writer Rachel Kushner observes the situation in Los Angeles during the crisis",
-      "simplified_french_title": "L'écrivaine Rachel Kushner observe la situation à Los Angeles pendant la crise",
-      "simplified_english_title": "Writer Rachel Kushner observes the situation in Los Angeles during the crisis",
-      "summary": "Rachel Kushner, écrivaine américaine, décrit les événements à Los Angeles où Trump envoie des soldats pour contrôler les manifestations contre les arrestations de migrants.",
-      "english_summary": "American writer Rachel Kushner describes events in Los Angeles where Trump has sent troops to control protests against migrant arrests.",
-      "french_summary": "Rachel Kushner, écrivaine américaine, décrit les événements à Los Angeles où Trump envoie des soldats pour contrôler les manifestations contre les arrestations de migrants.",
-      "original_article_title": "« Trump rêve d’un Tiananmen à lui » : la situation à Los Angeles vue (de près) par l’écrivaine Rachel Kushner",
-      "original_article_link": "https://www.nouvelobs.com/monde/20250611.OBS104841/trump-reve-d-un-tiananmen-a-lui-la-situation-a-los-angeles-vue-de-pres-par-l-ecrivaine-rachel-kushner.html",
-      "link": "https://www.nouvelobs.com/monde/20250611.OBS104841/trump-reve-d-un-tiananmen-a-lui-la-situation-a-los-angeles-vue-de-pres-par-l-ecrivaine-rachel-kushner.html",
-      "source_name": "L'Obs",
-      "published": "Thu, 12 Jun 2025 08:58:51 +0200",
-      "published_date": "Thu, 12 Jun 2025 08:58:51 +0200",
-      "contextual_title_explanations": {
-        "Trump": {
-          "display_format": "**Trump:** Donald Trump",
-          "explanation": "45th President of the United States (2017-2021)",
-          "cultural_note": "Known for controversial policies on immigration and law enforcement"
-        },
-        "rêve": {
-          "display_format": "**Dreams/Wishes:** (from 'rêver')",
-          "explanation": "The verb 'rêver' means to dream or wish for something",
-          "cultural_note": ""
+        "crash": {
+          "display_format": "**Crash:** Accident/collision",
+          "explanation": "An anglicism commonly used in French to describe a serious accident involving vehicles, particularly aircraft",
+          "cultural_note": "While 'écrasement' is the French equivalent, 'crash' is widely used in modern French"
         },
         "d'": {
-          "display_format": "**Of:** (contraction of 'de')",
-          "explanation": "Preposition indicating possession or relationship",
+          "display_format": "**Of:** Possessive preposition",
+          "explanation": "Contracted form of 'de' used before vowels",
           "cultural_note": ""
         },
         "un": {
-          "display_format": "**A/An:** (indefinite article)",
+          "display_format": "**A/An:** Indefinite article",
           "explanation": "Masculine singular indefinite article",
           "cultural_note": ""
         },
-        "Tiananmen": {
-          "display_format": "**Tiananmen:** Historical reference",
-          "explanation": "Refers to the 1989 Tiananmen Square protests in Beijing",
-          "cultural_note": "Symbol of government military action against civilian protesters"
-        },
-        "à": {
-          "display_format": "**To/For:** (preposition)",
-          "explanation": "Indicates possession or attribution",
+        "avion": {
+          "display_format": "**Airplane:** Aircraft",
+          "explanation": "A powered flying vehicle with fixed wings",
           "cultural_note": ""
         },
-        "lui": {
-          "display_format": "**His/Him:** (personal pronoun)",
-          "explanation": "Third-person singular masculine pronoun",
+        "Air India": {
+          "display_format": "**Air India:** Indian national airline",
+          "explanation": "The flag carrier airline of India",
+          "cultural_note": "One of Asia's largest airlines and India's national carrier since 1932"
+        },
+        "à destination de": {
+          "display_format": "**Bound for/Heading to:** Indicating destination",
+          "explanation": "Phrase indicating the intended destination of a journey",
           "cultural_note": ""
         },
-        "la": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Feminine singular definite article",
-          "cultural_note": ""
-        },
-        "situation": {
-          "display_format": "**Situation:** State of affairs",
-          "explanation": "Current circumstances or conditions",
-          "cultural_note": ""
-        },
-        "à Los Angeles": {
-          "display_format": "**In Los Angeles:** Location reference",
-          "explanation": "Major city in California, United States",
-          "cultural_note": "Site of significant protests and social movements"
-        },
-        "vue": {
-          "display_format": "**Seen/Viewed:** (past participle)",
-          "explanation": "Past participle of 'voir' (to see)",
-          "cultural_note": ""
-        },
-        "de près": {
-          "display_format": "**Up Close:** (adverbial phrase)",
-          "explanation": "Literally 'from near', meaning from a close perspective",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** (preposition)",
-          "explanation": "Indicates the agent or doer of an action",
-          "cultural_note": ""
-        },
-        "l'écrivaine": {
-          "display_format": "**The Writer:** (feminine form)",
-          "explanation": "Feminine form of 'écrivain' (writer)",
-          "cultural_note": "The feminine form reflects modern inclusive language usage in French"
-        },
-        "Rachel Kushner": {
-          "display_format": "**Rachel Kushner:** Name",
-          "explanation": "American novelist and essayist",
-          "cultural_note": "Known for political and social commentary in her work"
+        "Londres": {
+          "display_format": "**London:** Capital of the UK",
+          "explanation": "The capital city of the United Kingdom",
+          "cultural_note": "A major global city and important destination for international flights"
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 8.9,
-        "relevance_score": 6.0,
-        "importance_score": 7.5,
-        "total_score": 22.4
+        "quality_score": 8.6,
+        "relevance_score": 5.6000000000000005,
+        "importance_score": 8.5,
+        "total_score": 22.7
       },
       "curation_metadata": {
-        "curation_id": "ac7ed4f3-0eb3-4b89-8805-a14cd121359f",
-        "curated_at": "2025-06-12T10:14:39.913910+00:00",
+        "curation_id": "99744b6f-7119-459f-ace2-ba341f2b33c0",
+        "curated_at": "2025-06-12T12:25:31.230509+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-12T10:18:08.763025+00:00",
-      "quality_score": 8.9,
-      "relevance_score": 6.0,
-      "importance_score": 7.5,
+      "added_at": "2025-06-12T12:28:59.659057+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.6000000000000005,
+      "importance_score": 8.5,
+      "total_score": 22.7
+    },
+    {
+      "title": "Le gouvernement interdit deux groupes : un antifasciste et un d'extrême droite",
+      "english_title": "Government Bans Two Groups: One Anti-fascist and One Far-right",
+      "simplified_french_title": "Le gouvernement interdit deux groupes : un antifasciste et un d'extrême droite",
+      "simplified_english_title": "Government Bans Two Groups: One Anti-fascist and One Far-right",
+      "summary": "Le gouvernement français a décidé d'interdire deux groupes opposés : la Jeune Garde, un groupe antifasciste, et Lyon Populaire, un groupe d'extrême droite.",
+      "english_summary": "The French government has decided to ban two opposing groups: Jeune Garde, an anti-fascist organization, and Lyon Populaire, a far-right group.",
+      "french_summary": "Le gouvernement français a décidé d'interdire deux groupes opposés : la Jeune Garde, un groupe antifasciste, et Lyon Populaire, un groupe d'extrême droite.",
+      "original_article_title": "Le Conseil des ministres dissout la Jeune Garde, mouvement antifasciste, et Lyon populaire, groupe d'ultradroite",
+      "original_article_link": "https://www.lefigaro.fr/actualite-france/le-conseil-des-ministres-dissout-la-jeune-garde-mouvement-antifasciste-et-lyon-populaire-groupe-d-ultradroite-20250612",
+      "link": "https://www.lefigaro.fr/actualite-france/le-conseil-des-ministres-dissout-la-jeune-garde-mouvement-antifasciste-et-lyon-populaire-groupe-d-ultradroite-20250612",
+      "source_name": "Le Figaro",
+      "published": "Thu, 12 Jun 2025 12:49:59 +0200",
+      "published_date": "Thu, 12 Jun 2025 12:49:59 +0200",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** (definite article, masculine singular)",
+          "explanation": "Used before masculine singular nouns to indicate something specific",
+          "cultural_note": ""
+        },
+        "Conseil des ministres": {
+          "display_format": "**Council of Ministers:** French cabinet meeting",
+          "explanation": "The weekly meeting of French government ministers, presided over by the President of the Republic",
+          "cultural_note": "A crucial institution in French politics where major government decisions are made, typically held every Wednesday at the Élysée Palace"
+        },
+        "dissout": {
+          "display_format": "**Dissolves/Bans:** (verb, dissolves officially)",
+          "explanation": "From 'dissoudre', meaning to officially terminate or ban an organization",
+          "cultural_note": "In France, the government has constitutional power to dissolve organizations deemed dangerous to public order"
+        },
+        "la": {
+          "display_format": "**The:** (definite article, feminine singular)",
+          "explanation": "Used before feminine singular nouns to indicate something specific",
+          "cultural_note": ""
+        },
+        "Jeune Garde": {
+          "display_format": "**Young Guard:** (name of organization)",
+          "explanation": "Name of an antifascist activist group in France",
+          "cultural_note": "A relatively recent antifascist organization known for its militant activism and street protests"
+        },
+        "mouvement": {
+          "display_format": "**Movement:** (noun, masculine)",
+          "explanation": "An organized group working toward specific political or social goals",
+          "cultural_note": ""
+        },
+        "antifasciste": {
+          "display_format": "**Antifascist:** Opposition to fascism",
+          "explanation": "Describing people or groups who actively oppose fascism and far-right ideologies",
+          "cultural_note": "Antifascist movements have a long history in France, dating back to the 1930s"
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Used to connect two elements or ideas",
+          "cultural_note": ""
+        },
+        "Lyon populaire": {
+          "display_format": "**Popular Lyon:** (name of organization)",
+          "explanation": "Name of a far-right group based in Lyon",
+          "cultural_note": "A local far-right organization from Lyon, France's third-largest city"
+        },
+        "groupe": {
+          "display_format": "**Group:** (noun, masculine)",
+          "explanation": "An organized collection of people with shared interests or goals",
+          "cultural_note": ""
+        },
+        "d'": {
+          "display_format": "**Of:** (preposition, contracted form)",
+          "explanation": "Contracted form of 'de' used before vowels, indicates association or belonging",
+          "cultural_note": ""
+        },
+        "ultradroite": {
+          "display_format": "**Far-right/Ultra-right:** (political term)",
+          "explanation": "Refers to extreme right-wing political ideology or groups",
+          "cultural_note": "Term used in French political discourse to describe groups considered more extreme than traditional right-wing parties"
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.7,
+        "relevance_score": 5.699999999999999,
+        "importance_score": 10,
+        "total_score": 22.4
+      },
+      "curation_metadata": {
+        "curation_id": "87986612-a4ab-4e42-99fc-07f7dd559f1b",
+        "curated_at": "2025-06-12T12:25:31.220216+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-12T12:28:59.659068+00:00",
+      "quality_score": 6.7,
+      "relevance_score": 5.699999999999999,
+      "importance_score": 10,
       "total_score": 22.4
     }
   ]
