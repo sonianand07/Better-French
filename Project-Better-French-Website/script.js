@@ -344,14 +344,18 @@ class BetterFrenchApp {
         const isAIEnhanced = article.ai_enhanced || !!article.contextual_title_explanations;
         
         // Primary (big) title should now be the simplified / translated one
-        let primaryTitle;
+        let primaryTitleRaw;
         if (isAIEnhanced) {
-            primaryTitle = this.currentMode === 'learner'
+            primaryTitleRaw = this.currentMode === 'learner'
                 ? article.simplified_english_title
                 : article.simplified_french_title;
         } else {
-            primaryTitle = article.title || 'Untitled Article';
+            primaryTitleRaw = article.title || 'Untitled Article';
         }
+
+        const primaryTitle = isAIEnhanced ?
+            this.createInteractiveTitle(primaryTitleRaw, article.contextual_title_explanations) :
+            primaryTitleRaw;
 
         // Secondary (smaller) title will show the original headline in French (interactive)
         const secondaryTitleRaw = article.original_article_title || article.title || 'Untitled Article';
