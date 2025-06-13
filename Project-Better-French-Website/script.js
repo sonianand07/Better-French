@@ -328,12 +328,7 @@ class BetterFrenchApp {
         return `
             <h2 class="article-title">${primaryTitle}</h2>
             ${showSummary ? `
-                <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
-                    <span class="summary-text-label">${summaryLabel}</span>
-                </button>
-                <div class="summary-content" id="${summaryId}" aria-hidden="true">
-                    <p class="summary-text">${summaryText}</p>
-                </div>
+                <p class="summary-text"><strong>${summaryLabel}:</strong> ${summaryText}</p>
             ` : ''}
             <h3 class="secondary-title">${secondaryTitle}</h3>
             <div class="article-meta">${source} | ${publishedDate}</div>
