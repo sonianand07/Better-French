@@ -915,4 +915,35 @@ body {
     font-weight: 500; /* keep same weight – prevent jump */
     /* Limit the animated properties so width doesn't animate */
     transition: background-color 150ms, color 150ms, box-shadow 150ms;
+}
+
+/* Restore interactive styling for original (secondary) headline words */
+.secondary-title .french-word {
+    /* mirror base styles from article-title */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 3px;
+    margin: 0 1px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    color: #2E7D32;
+    font-weight: 500;
+    background: rgba(46, 125, 50, 0.04);
+    transition: all 50ms cubic-bezier(0.16, 1, 0.3, 1);
+    text-shadow: 0 1px 2px rgba(46, 125, 50, 0.04);
+}
+
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    background: rgba(46, 125, 50, 0.08);
+    color: #1B5E20;
+    font-weight: 500; /* keep weight consistent */
+    text-shadow: 0 2px 4px rgba(46, 125, 50, 0.08);
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.1), inset 0 1px 0 rgba(255,255,255,0.4);
+    transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
 } 
