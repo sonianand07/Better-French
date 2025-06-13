@@ -343,19 +343,19 @@ class BetterFrenchApp {
         // Handle both AI-enhanced articles and basic curated articles
         const isAIEnhanced = article.ai_enhanced || !!article.contextual_title_explanations;
         
-        // Use appropriate title field
-        const displayTitle = article.original_article_title || article.title || 'Untitled Article';
-        
-        // For secondary title, use AI fields if available, otherwise use original title in learner mode
-        let secondaryTitle;
+        // Primary (big) title should now be the simplified / translated one
+        let primaryTitle;
         if (isAIEnhanced) {
-            secondaryTitle = this.currentMode === 'learner' 
-                ? article.simplified_english_title 
+            primaryTitle = this.currentMode === 'learner'
+                ? article.simplified_english_title
                 : article.simplified_french_title;
         } else {
-            // For basic articles, show title in both modes (no translation available)
-            secondaryTitle = this.currentMode === 'learner' ? article.title : article.title;
+            primaryTitle = article.title || 'Untitled Article';
         }
+
+        // Secondary (smaller) title will show the original headline in French (interactive)
+        const secondaryTitleRaw = article.original_article_title || article.title || 'Untitled Article';
+        const secondaryTitle = this.createInteractiveTitle(secondaryTitleRaw, article.contextual_title_explanations);
         
         // For summary, use AI fields if available, otherwise use basic summary
         let summaryText;
@@ -394,13 +394,8 @@ class BetterFrenchApp {
         const showSummary = summaryText && summaryText !== 'Summary not available' && summaryText.trim().length > 0;
 
         return `
-            <h2 class="article-title">
-                ${isAIEnhanced ? 
-                    this.createInteractiveTitle(displayTitle, article.contextual_title_explanations) : 
-                    displayTitle
-                }
-            </h2>
-            <h3 class="secondary-title">${secondaryTitle || displayTitle}</h3>
+            <h2 class="article-title">${primaryTitle}</h2>
+            <h3 class="secondary-title">${secondaryTitle}</h3>
             ${showSummary ? `
                 <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
                     <span class="summary-text-label">${summaryLabel}</span>
