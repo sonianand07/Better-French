@@ -651,16 +651,7 @@ class BetterFrenchApp {
     }
 
     setupArticleInteractions() {
-        // Article card hover to open summaries
-        document.querySelectorAll('.article-card').forEach(card => {
-            card.addEventListener('mouseenter', () => {
-                const summaryToggle = card.querySelector('.summary-toggle');
-                const summaryContent = card.querySelector('.summary-content');
-                if (summaryToggle && summaryContent) {
-                    this.openSummary(summaryToggle, summaryContent);
-                }
-            });
-        });
+        // (Hover-to-open disabled; user must click the Summary button)
 
         // Collapse button - Click to close
         document.addEventListener('click', (e) => {
