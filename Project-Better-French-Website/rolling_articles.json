@@ -1,14 +1,1251 @@
 {
   "metadata": {
-    "updated_at": "2025-06-13T08:23:47.615782+00:00",
-    "total_articles": 56,
+    "updated_at": "2025-06-13T10:21:31.994705+00:00",
+    "total_articles": 68,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
-    "ai_enhanced_count": 10,
+    "ai_enhanced_count": 11,
     "update_type": "ai_enhanced",
-    "average_score": 22.860714285714284
+    "average_score": 22.992647058823522
   },
   "articles": [
+    {
+      "title": "L'entreprise allemande où les employés sont très heureux",
+      "english_title": "The German company where employees are very happy",
+      "simplified_french_title": "L'entreprise allemande où les employés sont très heureux",
+      "simplified_english_title": "The German company where employees are very happy",
+      "summary": "Une entreprise allemande est reconnue pour le bonheur de ses employés.",
+      "english_summary": "A German company is recognized for the happiness of its employees.",
+      "french_summary": "Une entreprise allemande est reconnue pour le bonheur de ses employés.",
+      "original_article_title": "Cette étonnante entreprise allemande où les salariés sont les plus heureux d’Europe",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/cette-etonnante-entreprise-allemande-ou-les-salaries-sont-les-plus-heureux-deurope-5J4YFNCEZJBITHQ6YEO4ITAHKM/",
+      "link": "https://www.lexpress.fr/idees-et-debats/cette-etonnante-entreprise-allemande-ou-les-salaries-sont-les-plus-heureux-deurope-5J4YFNCEZJBITHQ6YEO4ITAHKM/",
+      "source_name": "L'Express",
+      "published": "Fri, 13 Jun 2025 09:45:00 +0000",
+      "published_date": "Fri, 13 Jun 2025 09:45:00 +0000",
+      "contextual_title_explanations": {
+        "Cette": {
+          "display_format": "**This:** (demonstrative adjective)",
+          "explanation": "Used to point out a specific thing or situation.",
+          "cultural_note": ""
+        },
+        "étonnante": {
+          "display_format": "**Amazing / Surprising:** (adjective)",
+          "explanation": "Used to describe something that is surprising or impressive.",
+          "cultural_note": ""
+        },
+        "entreprise": {
+          "display_format": "**Company / Business:** (noun)",
+          "explanation": "A commercial or industrial organization.",
+          "cultural_note": ""
+        },
+        "allemande": {
+          "display_format": "**German:** (adjective)",
+          "explanation": "Relating to Germany or its people.",
+          "cultural_note": ""
+        },
+        "où": {
+          "display_format": "**Where:** (conjunction)",
+          "explanation": "Used to introduce a clause indicating a location.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**Employees:** (noun)",
+          "explanation": "People who work for a company or organization.",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**Are:** (verb)",
+          "explanation": "The third person plural form of the verb 'être'.",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**Most:** (adverb)",
+          "explanation": "Used to indicate a high degree or maximum amount.",
+          "cultural_note": ""
+        },
+        "heureux": {
+          "display_format": "**Happy:** (adjective)",
+          "explanation": "Feeling or showing pleasure or contentment.",
+          "cultural_note": ""
+        },
+        "d’Europe": {
+          "display_format": "**Of Europe:** (preposition + noun)",
+          "explanation": "Relating to the continent of Europe.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.9,
+        "relevance_score": 7.9,
+        "importance_score": 10,
+        "total_score": 26.8
+      },
+      "curation_metadata": {
+        "curation_id": "e994f531-77e0-4264-a5a6-fba8ccb454ea",
+        "curated_at": "2025-06-13T10:14:03.232694+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992441+00:00",
+      "quality_score": 8.9,
+      "relevance_score": 7.9,
+      "importance_score": 10,
+      "total_score": 26.8
+    },
+    {
+      "title": "Budget américain : une clause inattendue",
+      "english_title": "American Budget: A Surprising Clause",
+      "simplified_french_title": "Budget américain : une clause inattendue",
+      "simplified_english_title": "American Budget: A Surprising Clause",
+      "summary": "Un détail du budget américain inquiète les investisseurs étrangers.",
+      "english_summary": "A detail in the American budget worries foreign investors.",
+      "french_summary": "Un détail du budget américain inquiète les investisseurs étrangers.",
+      "original_article_title": "Budget américain : cette discrète clause qui affole les investisseurs étrangers",
+      "original_article_link": "https://www.lexpress.fr/economie/politique-economique/budget-americain-cette-discrete-clause-qui-affole-les-investisseurs-etrangers-4HVN7QTHWRAX7LOCIYFUJ6GIVM/",
+      "link": "https://www.lexpress.fr/economie/politique-economique/budget-americain-cette-discrete-clause-qui-affole-les-investisseurs-etrangers-4HVN7QTHWRAX7LOCIYFUJ6GIVM/",
+      "source_name": "L'Express",
+      "published": "Fri, 13 Jun 2025 09:30:00 +0000",
+      "published_date": "Fri, 13 Jun 2025 09:30:00 +0000",
+      "contextual_title_explanations": {
+        "Budget": {
+          "display_format": "**Budget:** A plan for managing finances.",
+          "explanation": "A detailed financial plan outlining projected income and expenses.",
+          "cultural_note": "Government budgets are crucial for allocating resources and setting economic policies."
+        },
+        "américain": {
+          "display_format": "**American:** Relating to the United States of America.",
+          "explanation": "Referring to something connected to the USA.",
+          "cultural_note": ""
+        },
+        "cette": {
+          "display_format": "**This:** (demonstrative adjective)",
+          "explanation": "Used to point out a specific thing or situation.",
+          "cultural_note": ""
+        },
+        "discrète": {
+          "display_format": "**Discreet:** Quiet and careful not to attract attention.",
+          "explanation": "Not drawing attention to oneself or something.",
+          "cultural_note": ""
+        },
+        "clause": {
+          "display_format": "**Clause:** A section or provision in a document.",
+          "explanation": "A part of a contract, agreement, or law.",
+          "cultural_note": "Clauses can have significant implications in financial and legal contexts."
+        },
+        "qui": {
+          "display_format": "**Who / Which / That:** (relative pronoun)",
+          "explanation": "Used to connect a dependent clause to a main clause.",
+          "cultural_note": ""
+        },
+        "affole": {
+          "display_format": "**Alarms / Scares:** To cause sudden fear or anxiety.",
+          "explanation": "To shock or disturb someone.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "investisseurs": {
+          "display_format": "**Investors:** People or organizations that invest money.",
+          "explanation": "Those who put money into a business or project.",
+          "cultural_note": "Investors play a crucial role in the global economy."
+        },
+        "étrangers": {
+          "display_format": "**Foreign:** Coming from another country.",
+          "explanation": "Not from one's own country.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 8.0,
+        "importance_score": 10,
+        "total_score": 26.6
+      },
+      "curation_metadata": {
+        "curation_id": "62c405fc-f6bd-4a68-b160-eec696c4af8f",
+        "curated_at": "2025-06-13T10:14:03.234175+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992462+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 8.0,
+      "importance_score": 10,
+      "total_score": 26.6
+    },
+    {
+      "title": "« Signes des Temps » arrêté à France Culture",
+      "english_title": "« Signs of the Times » Stopped on France Culture",
+      "simplified_french_title": "« Signes des Temps » arrêté à France Culture",
+      "simplified_english_title": "« Signs of the Times » Stopped on France Culture",
+      "summary": "Le programme radio « Signes des Temps » est arrêté sur France Culture, une décision controversée.",
+      "english_summary": "The radio show « Signs of the Times » is stopped on France Culture, a controversial decision.",
+      "french_summary": "Le programme radio « Signes des Temps » est arrêté sur France Culture, une décision controversée.",
+      "original_article_title": "\"Signes des Temps\" arrêté sur France Culture : une sombre affaire d'ego de gauche, par Abnousse Shalmani",
+      "original_article_link": "https://www.lexpress.fr/societe/signes-des-temps-arrete-sur-france-culture-une-sombre-affaire-dego-de-gauche-par-abnousse-shalmani-PH6VJSVUAVCG5I74EPONWYXKPM/",
+      "link": "https://www.lexpress.fr/societe/signes-des-temps-arrete-sur-france-culture-une-sombre-affaire-dego-de-gauche-par-abnousse-shalmani-PH6VJSVUAVCG5I74EPONWYXKPM/",
+      "source_name": "L'Express",
+      "published": "Fri, 13 Jun 2025 10:00:00 +0000",
+      "published_date": "Fri, 13 Jun 2025 10:00:00 +0000",
+      "contextual_title_explanations": {
+        "Signes": {
+          "display_format": "**Signs:** Indicators or omens.",
+          "explanation": "Refers to events or circumstances that suggest something is happening or will happen.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of the:** (preposition)",
+          "explanation": "Indicates possession or relationship.",
+          "cultural_note": ""
+        },
+        "Temps": {
+          "display_format": "**Times:** Periods or eras.",
+          "explanation": "Refers to a specific time or era, often used to describe a particular context.",
+          "cultural_note": ""
+        },
+        "arrêté": {
+          "display_format": "**Stopped / Halted:** (verb)",
+          "explanation": "Indicates that something has been interrupted or discontinued.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On / At:** (preposition)",
+          "explanation": "Indicates a location or platform.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** A country in Western Europe.",
+          "explanation": "A sovereign nation with a rich history and culture.",
+          "cultural_note": "France is known for its contributions to art, literature, fashion, and cuisine."
+        },
+        "Culture": {
+          "display_format": "**Culture:** The arts, customs, and values of a society.",
+          "explanation": "Refers to the intellectual and artistic aspects of a country or community.",
+          "cultural_note": "In this context, France Culture is a French public radio station focused on cultural programming."
+        },
+        "une": {
+          "display_format": "**A / An:** (indefinite article)",
+          "explanation": "Used to indicate a non-specific noun.",
+          "cultural_note": ""
+        },
+        "sombre": {
+          "display_format": "**Dark / Gloomy:** (adjective)",
+          "explanation": "Describes something as unhappy, unpleasant, or ominous.",
+          "cultural_note": ""
+        },
+        "affaire": {
+          "display_format": "**Affair / Matter:** A situation or issue.",
+          "explanation": "Refers to a particular event, situation, or controversy.",
+          "cultural_note": ""
+        },
+        "d'ego": {
+          "display_format": "**Of ego:** Relating to pride or self-importance.",
+          "explanation": "Refers to an excessive sense of self-importance or pride.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "gauche": {
+          "display_format": "**Left-wing:** Relating to liberal or progressive politics.",
+          "explanation": "Describes a political stance that tends towards social equality and government intervention.",
+          "cultural_note": "In France, 'gauche' is often associated with the political left, which emphasizes social justice and state involvement in the economy."
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates the author or creator of a work.",
+          "cultural_note": ""
+        },
+        "Abnousse": {
+          "display_format": "**Abnousse:** A person's name.",
+          "explanation": "The author's first name, likely of Iranian origin.",
+          "cultural_note": ""
+        },
+        "Shalmani": {
+          "display_format": "**Shalmani:** A person's surname.",
+          "explanation": "The author's last name, likely of Iranian origin.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 7.4,
+        "importance_score": 9.5,
+        "total_score": 25.0
+      },
+      "curation_metadata": {
+        "curation_id": "4cb4c152-9647-4ff3-a0c1-90ba2424bb47",
+        "curated_at": "2025-06-13T10:14:03.229474+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992480+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 7.4,
+      "importance_score": 9.5,
+      "total_score": 25.0
+    },
+    {
+      "title": "Madagascar : députés et gouvernement s'affrontent",
+      "english_title": "Madagascar: Parliament Confronts Government",
+      "simplified_french_title": "Madagascar : députés et gouvernement s'affrontent",
+      "simplified_english_title": "Madagascar: Parliament Confronts Government",
+      "summary": "Les députés et le gouvernement de Madagascar se rencontrent pour discuter des problèmes sociaux et économiques.",
+      "english_summary": "Madagascar's parliament and government meet to discuss social and economic issues.",
+      "french_summary": "Les députés et le gouvernement de Madagascar se rencontrent pour discuter des problèmes sociaux et économiques.",
+      "original_article_title": "Madagascar: à l'Assemblée nationale, les députés entament un face-à-face attendu avec le gouvernement",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250613-madagascar-%C3%A0-l-assembl%C3%A9e-nationale-les-d%C3%A9put%C3%A9s-entament-un-face-%C3%A0-face-attendu-avec-le-gouvernement",
+      "link": "https://www.rfi.fr/fr/afrique/20250613-madagascar-%C3%A0-l-assembl%C3%A9e-nationale-les-d%C3%A9put%C3%A9s-entament-un-face-%C3%A0-face-attendu-avec-le-gouvernement",
+      "source_name": "RFI",
+      "published": "Fri, 13 Jun 2025 08:12:39 GMT",
+      "published_date": "Fri, 13 Jun 2025 08:12:39 GMT",
+      "contextual_title_explanations": {
+        "Madagascar": {
+          "display_format": "**Madagascar:** An island country located in the Indian Ocean, off the coast of East Africa.",
+          "explanation": "A sovereign state with a diverse geography and culture.",
+          "cultural_note": "Madagascar is known for its unique wildlife, including lemurs, and its complex history, having been a French colony."
+        },
+        "à": {
+          "display_format": "**At / In:** (preposition)",
+          "explanation": "Indicates a location or position.",
+          "cultural_note": ""
+        },
+        "l'Assemblée": {
+          "display_format": "**The Assembly:** A deliberative council, often referring to a national or regional legislative body.",
+          "explanation": "A group of people elected or appointed to make decisions or laws.",
+          "cultural_note": "In France and some other countries, the national legislative body is called 'Assemblée Nationale'."
+        },
+        "nationale": {
+          "display_format": "**National:** Relating to a nation or country.",
+          "explanation": "Pertaining to a country's government, politics, or identity.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "députés": {
+          "display_format": "**Deputies / Members of Parliament:** Elected representatives in a legislative assembly.",
+          "explanation": "Individuals chosen by citizens to represent their interests in government.",
+          "cultural_note": "In France, 'députés' are elected to the Assemblée Nationale for a five-year term."
+        },
+        "entament": {
+          "display_format": "**Begin / Start:** To initiate or commence an action or process.",
+          "explanation": "To take the first step or initiate a sequence of events.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A / An:** (indefinite article)",
+          "explanation": "Used to indicate a non-specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "face-à-face": {
+          "display_format": "**Face-to-Face / Confrontation:** A direct and often intense meeting or encounter.",
+          "explanation": "A situation where individuals or groups engage in a direct and often adversarial discussion.",
+          "cultural_note": "In a political context, face-to-face meetings can be crucial for resolving conflicts or addressing critical issues."
+        },
+        "attendu": {
+          "display_format": "**Expected / Anticipated:** (adjective)",
+          "explanation": "Predicted or forecasted to happen or occur.",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**With:** (preposition)",
+          "explanation": "Indicates a relationship or association between entities.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government:** The system or group of people that governs a country, state, or organization.",
+          "explanation": "The entity responsible for making and enforcing laws, policies, and decisions.",
+          "cultural_note": "In France, the government is divided into the executive, legislative, and judicial branches."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 5.8,
+        "importance_score": 9.0,
+        "total_score": 23.9
+      },
+      "curation_metadata": {
+        "curation_id": "caa69132-11e5-449b-b5ca-37f74e12b15d",
+        "curated_at": "2025-06-13T10:14:03.210092+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992496+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 5.8,
+      "importance_score": 9.0,
+      "total_score": 23.9
+    },
+    {
+      "title": "Les généraux iraniens tués par Israël",
+      "english_title": "Iranian Generals Killed by Israel",
+      "simplified_french_title": "Les généraux iraniens tués par Israël",
+      "simplified_english_title": "Iranian Generals Killed by Israel",
+      "summary": "Deux généraux iraniens de haut rang ont été tués par Israël dans une attaque en Iran.",
+      "english_summary": "Two high-ranking Iranian generals were killed by Israel in an attack in Iran.",
+      "french_summary": "Deux généraux iraniens de haut rang ont été tués par Israël dans une attaque en Iran.",
+      "original_article_title": "Frappes en Iran : qui étaient les deux généraux de premier plan éliminés par Israël ?",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/frappes-en-iran-qui-etaient-les-deux-generaux-de-premier-plan-elimines-par-israel-JPVYUCDT6BG7BPTFY5LUQKGEZQ/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/frappes-en-iran-qui-etaient-les-deux-generaux-de-premier-plan-elimines-par-israel-JPVYUCDT6BG7BPTFY5LUQKGEZQ/",
+      "source_name": "L'Express",
+      "published": "Fri, 13 Jun 2025 08:45:53 +0000",
+      "published_date": "Fri, 13 Jun 2025 08:45:53 +0000",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Strikes:** Attacks or hits.",
+          "explanation": "Refers to a military attack, often involving air strikes or bombings.",
+          "cultural_note": "In the context of Middle Eastern conflicts, 'frappes' often refers to Israeli military operations against Iranian targets."
+        },
+        "en": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Indicates a location or position within something.",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** A country in the Middle East.",
+          "explanation": "A country with a rich history and culture, currently involved in various regional conflicts.",
+          "cultural_note": "Iran has been a significant player in Middle Eastern politics and has had tensions with Israel and other countries in the region."
+        },
+        ":": {
+          "display_format": "**:** (punctuation)",
+          "explanation": "Used to separate clauses or indicate a pause.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who:** (interrogative pronoun)",
+          "explanation": "Used to ask for information about the identity of a person or thing.",
+          "cultural_note": ""
+        },
+        "étaient": {
+          "display_format": "**Were:** (verb)",
+          "explanation": "The plural form of the verb 'être' in the imperfect tense, indicating a past action.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**Two:** (number)",
+          "explanation": "A numerical value indicating the quantity of two items.",
+          "cultural_note": ""
+        },
+        "généraux": {
+          "display_format": "**Generals:** High-ranking military officers.",
+          "explanation": "Senior officers in the military, often responsible for strategic decisions.",
+          "cultural_note": "In the context of military conflicts, generals play a crucial role in planning and executing operations."
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "premier": {
+          "display_format": "**First:** (adjective)",
+          "explanation": "Indicates something or someone of highest rank or importance.",
+          "cultural_note": ""
+        },
+        "plan": {
+          "display_format": "**Rank:** (noun)",
+          "explanation": "A level or position within a hierarchy.",
+          "cultural_note": ""
+        },
+        "éliminés": {
+          "display_format": "**Eliminated:** Killed or removed.",
+          "explanation": "Refers to the act of killing or removing someone or something.",
+          "cultural_note": "In the context of military conflicts, 'éliminés' often implies a deliberate and targeted attack."
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates the agent or means of an action.",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** A country in the Middle East.",
+          "explanation": "A country with a complex history and politics, often involved in regional conflicts.",
+          "cultural_note": "Israel has been a significant player in Middle Eastern politics and has had tensions with Iran and other countries in the region."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.6,
+        "relevance_score": 6.6000000000000005,
+        "importance_score": 9.5,
+        "total_score": 23.7
+      },
+      "curation_metadata": {
+        "curation_id": "53590566-9e59-4621-b17e-b0ca0aebc9a4",
+        "curated_at": "2025-06-13T10:14:03.239074+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992513+00:00",
+      "quality_score": 7.6,
+      "relevance_score": 6.6000000000000005,
+      "importance_score": 9.5,
+      "total_score": 23.7
+    },
+    {
+      "title": "10 ans de Laudato si' : les pauvres oubliés de l'environnement ?",
+      "english_title": "10 Years of Laudato Si': Have the Poor Been Forgotten in Environmentalism?",
+      "simplified_french_title": "10 ans de Laudato si' : les pauvres oubliés de l'environnement ?",
+      "simplified_english_title": "10 Years of Laudato Si': Have the Poor Been Forgotten in Environmentalism?",
+      "summary": "Le pape François a souligné l'importance de la justice sociale dans la crise environnementale il y a dix ans.",
+      "english_summary": "Ten years ago, Pope Francis highlighted the importance of social justice in the environmental crisis.",
+      "french_summary": "Le pape François a souligné l'importance de la justice sociale dans la crise environnementale il y a dix ans.",
+      "original_article_title": "Dix ans de « Laudato si' » : les pauvres sont-ils les grands oubliés de l’écologie ?",
+      "original_article_link": "https://www.la-croix.com/planete/dix-ans-de-laudato-si-les-pauvres-sont-ils-les-grands-oublies-de-l-ecologie-20250613",
+      "link": "https://www.la-croix.com/planete/dix-ans-de-laudato-si-les-pauvres-sont-ils-les-grands-oublies-de-l-ecologie-20250613",
+      "source_name": "La Croix",
+      "published": "Fri, 13 Jun 2025 11:37:45 +0200",
+      "published_date": "Fri, 13 Jun 2025 11:37:45 +0200",
+      "contextual_title_explanations": {
+        "Dix": {
+          "display_format": "**Ten:** (number)",
+          "explanation": "The number ten, indicating a decade or a period of ten years.",
+          "cultural_note": ""
+        },
+        "ans": {
+          "display_format": "**Years:** (noun)",
+          "explanation": "A period of time, in this case, a decade.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** (preposition)",
+          "explanation": "Indicates possession or origin.",
+          "cultural_note": ""
+        },
+        "« Laudato si' »": {
+          "display_format": "**Laudato Si':** (encyclical letter)",
+          "explanation": "A papal encyclical letter published by Pope Francis in 2015, focusing on the environment and social justice.",
+          "cultural_note": "Laudato Si' is a significant document in the Catholic Church, emphasizing the importance of environmental protection and social responsibility."
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Indicates a specific group or category.",
+          "cultural_note": ""
+        },
+        "pauvres": {
+          "display_format": "**Poor:** (adjective)",
+          "explanation": "Those who lack financial resources or are in a state of poverty.",
+          "cultural_note": "The concept of poverty is a significant concern in social justice and environmental discussions."
+        },
+        "sont-ils": {
+          "display_format": "**Are they:** (verb)",
+          "explanation": "A question asking about the state or condition of the poor.",
+          "cultural_note": ""
+        },
+        "grands": {
+          "display_format": "**Great:** (adjective)",
+          "explanation": "Important or significant.",
+          "cultural_note": ""
+        },
+        "oubliés": {
+          "display_format": "**Forgotten:** (verb)",
+          "explanation": "Overlooked or neglected.",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**The:** (article)",
+          "explanation": "Indicates a specific item or concept.",
+          "cultural_note": ""
+        },
+        "écologie": {
+          "display_format": "**Ecology:** (noun)",
+          "explanation": "The study of the relationships between living organisms and their environment.",
+          "cultural_note": "Ecology is a crucial aspect of environmentalism and sustainability."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 5.8,
+        "importance_score": 9.0,
+        "total_score": 23.4
+      },
+      "curation_metadata": {
+        "curation_id": "8363d80d-1152-4f98-a246-16a4c3e9eea9",
+        "curated_at": "2025-06-13T10:14:03.209426+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992526+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.8,
+      "importance_score": 9.0,
+      "total_score": 23.4
+    },
+    {
+      "title": "Taxer les très riches pour une équité fiscale",
+      "english_title": "Taxing the Very Rich for Fair Taxation",
+      "simplified_french_title": "Taxer les très riches pour une équité fiscale",
+      "simplified_english_title": "Taxing the Very Rich for Fair Taxation",
+      "summary": "Le Sénat refuse de taxer les riches pour réduire la dette du pays.",
+      "english_summary": "The Senate rejects taxing the rich to reduce the country's debt.",
+      "french_summary": "Le Sénat refuse de taxer les riches pour réduire la dette du pays.",
+      "original_article_title": "L’équité fiscale passe par la taxation des ultrariches",
+      "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/13/l-equite-fiscale-passe-par-la-taxation-des-ultrariches_6612698_3232.html",
+      "link": "https://www.lemonde.fr/idees/article/2025/06/13/l-equite-fiscale-passe-par-la-taxation-des-ultrariches_6612698_3232.html",
+      "source_name": "Le Monde Politique",
+      "published": "Fri, 13 Jun 2025 11:00:09 +0200",
+      "published_date": "Fri, 13 Jun 2025 11:00:09 +0200",
+      "contextual_title_explanations": {
+        "L'équité": {
+          "display_format": "**Fairness/Equity:**",
+          "explanation": "The state of being fair and just.",
+          "cultural_note": ""
+        },
+        "fiscale": {
+          "display_format": "**Fiscal:** Relating to taxation or government revenue.",
+          "explanation": "Concerning the collection of taxes and public finance.",
+          "cultural_note": ""
+        },
+        "passe": {
+          "display_format": "**Passes/Requires:**",
+          "explanation": "To be achieved or fulfilled.",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By/Through:**",
+          "explanation": "Indicates the means or method of achieving something.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "taxation": {
+          "display_format": "**Taxation:** The act of imposing taxes.",
+          "explanation": "The process of levying and collecting taxes.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of/The:** (possessive adjective)",
+          "explanation": "Indicates possession or belonging.",
+          "cultural_note": ""
+        },
+        "ultrariches": {
+          "display_format": "**The Very Rich/Ultra-Rich:** Extremely wealthy individuals.",
+          "explanation": "Those who possess an extremely large amount of wealth.",
+          "cultural_note": "The term 'ultrariches' is often used in French media to describe the top 1% of the population in terms of wealth."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 7.9,
+        "importance_score": 8.5,
+        "total_score": 23.3
+      },
+      "curation_metadata": {
+        "curation_id": "7d21d3e9-2e04-463f-bd81-31c93cb4ee9c",
+        "curated_at": "2025-06-13T10:14:03.236401+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992536+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 7.9,
+      "importance_score": 8.5,
+      "total_score": 23.3
+    },
+    {
+      "title": "Les Africains dans l'armée russe en Ukraine",
+      "english_title": "Africans in the Russian Army in Ukraine",
+      "simplified_french_title": "Les Africains dans l'armée russe en Ukraine",
+      "simplified_english_title": "Africans in the Russian Army in Ukraine",
+      "summary": "Des centaines d'Africains ont rejoint l'armée russe pour se battre contre l'Ukraine.",
+      "english_summary": "Hundreds of Africans have joined the Russian army to fight against Ukraine.",
+      "french_summary": "Des centaines d'Africains ont rejoint l'armée russe pour se battre contre l'Ukraine.",
+      "original_article_title": "Les tirailleurs de Poutine : enquête sur ces Africains dans les rangs de l’armée russe en Ukraine",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/reporters/20250613-les-tirailleurs-de-poutine-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe-en-ukraine",
+      "link": "https://www.france24.com/fr/%C3%A9missions/reporters/20250613-les-tirailleurs-de-poutine-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe-en-ukraine",
+      "source_name": "France 24",
+      "published": "Fri, 13 Jun 2025 09:06:20 GMT",
+      "published_date": "Fri, 13 Jun 2025 09:06:20 GMT",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "tirailleurs": {
+          "display_format": "**Snipers / Marksmen:** Soldiers skilled in shooting at a target from a distance.",
+          "explanation": "Refers to a type of soldier specialized in long-range shooting.",
+          "cultural_note": "In the context of African soldiers fighting in Ukraine, it's essential to understand their roles within the Russian army."
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "Poutine": {
+          "display_format": "**Putin:** Russian President Vladimir Putin.",
+          "explanation": "The current President of Russia, known for his political influence and leadership.",
+          "cultural_note": "His presidency has been marked by significant global events, including the annexation of Crimea and involvement in the Ukraine conflict."
+        },
+        ":": {
+          "display_format": "**:** (punctuation)",
+          "explanation": "Used to separate clauses or items in a list.",
+          "cultural_note": ""
+        },
+        "enquête": {
+          "display_format": "**Investigation / Inquiry:** A thorough examination of a situation or issue.",
+          "explanation": "Refers to a systematic investigation or research to gather information.",
+          "cultural_note": "In the context of journalism, an enquête is a detailed report or exposé."
+        },
+        "sur": {
+          "display_format": "**On / About:** (preposition)",
+          "explanation": "Indicates a topic or subject.",
+          "cultural_note": ""
+        },
+        "ces": {
+          "display_format": "**These:** (demonstrative adjective)",
+          "explanation": "Used to point out specific items or options being discussed.",
+          "cultural_note": ""
+        },
+        "Africains": {
+          "display_format": "**Africans:** People from the continent of Africa.",
+          "explanation": "Refers to individuals from Africa, a continent with diverse cultures and countries.",
+          "cultural_note": "In this context, it's essential to understand the complex reasons behind African soldiers fighting in Ukraine."
+        },
+        "dans": {
+          "display_format": "**In / Within:** (preposition)",
+          "explanation": "Indicates a location or position.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "rangs": {
+          "display_format": "**Ranks:** Positions or levels within an organization or system.",
+          "explanation": "Refers to a level or position within a hierarchical structure.",
+          "cultural_note": "In the context of the military, ranks denote a soldier's level of authority and responsibility."
+        },
+        "l'": {
+          "display_format": "**The (contraction):** (article)",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "armée": {
+          "display_format": "**Army:** A large military force.",
+          "explanation": "Refers to a country's military forces, including soldiers, equipment, and organizational structure.",
+          "cultural_note": "Armies are a crucial part of a nation's defense and international relations."
+        },
+        "russe": {
+          "display_format": "**Russian:** Relating to Russia or its people.",
+          "explanation": "Refers to something or someone from Russia, a country with a distinct culture and history.",
+          "cultural_note": "Russia has played a significant role in global politics, economy, and international relations."
+        },
+        "en": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Indicates a location or position.",
+          "cultural_note": ""
+        },
+        "Ukraine": {
+          "display_format": "**Ukraine:** A country in Eastern Europe.",
+          "explanation": "Refers to a country with a complex history, cultural heritage, and current political situation.",
+          "cultural_note": "Ukraine has been involved in several international conflicts, including the ongoing war with Russia."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 4.7,
+        "importance_score": 8.5,
+        "total_score": 22.8
+      },
+      "curation_metadata": {
+        "curation_id": "239381d1-f64d-4284-b445-60104b9e9cf4",
+        "curated_at": "2025-06-13T10:14:03.221697+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992553+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 4.7,
+      "importance_score": 8.5,
+      "total_score": 22.8
+    },
+    {
+      "title": "Manifestation pour la Palestine",
+      "english_title": "Pro-Palestine Demonstration",
+      "simplified_french_title": "Manifestation pour la Palestine",
+      "simplified_english_title": "Pro-Palestine Demonstration",
+      "summary": "Des manifestants se sont réunis à Paris pour dénoncer le blocus humanitaire à Gaza.",
+      "english_summary": "Protesters gathered in Paris to denounce the humanitarian blockade in Gaza.",
+      "french_summary": "Des manifestants se sont réunis à Paris pour dénoncer le blocus humanitaire à Gaza.",
+      "original_article_title": "Manifestation de soutien à la Palestine : « C’est ça la France que j’aime ! »",
+      "original_article_link": "https://www.nouvelobs.com/societe/20250611.OBS104828/manifestation-de-soutien-a-la-palestine-c-est-ca-la-france-que-j-aime.html",
+      "link": "https://www.nouvelobs.com/societe/20250611.OBS104828/manifestation-de-soutien-a-la-palestine-c-est-ca-la-france-que-j-aime.html",
+      "source_name": "L'Obs",
+      "published": "Fri, 13 Jun 2025 10:14:19 +0200",
+      "published_date": "Fri, 13 Jun 2025 10:14:19 +0200",
+      "contextual_title_explanations": {
+        "Manifestation": {
+          "display_format": "**Demonstration / Protest:** A public gathering to express opinions or show support.",
+          "explanation": "A peaceful assembly of people to demonstrate their views or solidarity with a cause.",
+          "cultural_note": "In France, demonstrations are a common way for citizens to express their opinions on various issues, from politics to social justice."
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "soutien": {
+          "display_format": "**Support:** To give assistance or backing to someone or something.",
+          "explanation": "To provide help, encouragement, or approval.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To / In / At:** (preposition)",
+          "explanation": "Indicates direction, location, or relationship.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun or concept.",
+          "cultural_note": ""
+        },
+        "Palestine": {
+          "display_format": "**Palestine:** A geographic region in the Middle East, claimed by Palestinians as their homeland.",
+          "explanation": "A region with a complex history, currently divided between Israel and the Palestinian territories.",
+          "cultural_note": "The Israeli-Palestinian conflict is a long-standing issue in international politics, with many countries and organizations involved in the search for a peaceful resolution."
+        },
+        "C’est": {
+          "display_format": "**It is / This is:** (contraction of 'ce' and 'est')",
+          "explanation": "Used to introduce a sentence or describe a situation.",
+          "cultural_note": ""
+        },
+        "ça": {
+          "display_format": "**This / That:** (informal)",
+          "explanation": "Used to refer to a person, thing, or situation.",
+          "cultural_note": "In informal French, 'ça' is often used instead of 'ce' or 'cette'."
+        },
+        "France": {
+          "display_format": "**France:** A country in Western Europe.",
+          "explanation": "A nation with a rich history, culture, and politics.",
+          "cultural_note": "France is known for its contributions to art, literature, fashion, and cuisine, as well as its role in international affairs."
+        },
+        "que": {
+          "display_format": "**That / Which:** (conjunction)",
+          "explanation": "Used to introduce a subordinate clause or relative pronoun.",
+          "cultural_note": ""
+        },
+        "j’aime": {
+          "display_format": "**I love:** (first person singular of 'aimer')",
+          "explanation": "To have a strong affection or fondness for someone or something.",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**Exclamation mark:** (punctuation)",
+          "explanation": "Used to indicate strong emotions or emphasis.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 6.5,
+        "importance_score": 7.5,
+        "total_score": 22.6
+      },
+      "curation_metadata": {
+        "curation_id": "fb9e668e-37b1-42e0-93a9-ba7f89d672c9",
+        "curated_at": "2025-06-13T10:14:03.211445+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992566+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 6.5,
+      "importance_score": 7.5,
+      "total_score": 22.6
+    },
+    {
+      "title": "La Centrafrique et le pastoralisme, un problème de sécurité",
+      "english_title": "Central African Republic: How Pastoralism Became a Security Issue",
+      "simplified_french_title": "La Centrafrique et le pastoralisme, un problème de sécurité",
+      "simplified_english_title": "Central African Republic: How Pastoralism Became a Security Issue",
+      "summary": "Le pastoralisme occasionne des violences entre agriculteurs et éleveurs en Centrafrique, lié aux groupes armés.",
+      "english_summary": "Pastoralism sparks violence between farmers and herders in the Central African Republic, linked to armed groups.",
+      "french_summary": "Le pastoralisme occasionne des violences entre agriculteurs et éleveurs en Centrafrique, lié aux groupes armés.",
+      "original_article_title": "Centrafrique: comment le pastoralisme est devenu un enjeu sécuritaire, selon l’ONG ICG",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250613-centrafrique-comment-le-pastoralisme-est-devenu-un-enjeu-s%C3%A9curitaire-selon-l-ong-icg",
+      "link": "https://www.rfi.fr/fr/afrique/20250613-centrafrique-comment-le-pastoralisme-est-devenu-un-enjeu-s%C3%A9curitaire-selon-l-ong-icg",
+      "source_name": "RFI",
+      "published": "Fri, 13 Jun 2025 09:57:03 GMT",
+      "published_date": "Fri, 13 Jun 2025 09:57:03 GMT",
+      "contextual_title_explanations": {
+        "Centrafrique": {
+          "display_format": "**Central African Republic:** A country in Central Africa.",
+          "explanation": "A landlocked country with a history of conflict and instability.",
+          "cultural_note": "The Central African Republic has faced numerous crises, including a prolonged civil war, and is a significant focus of international humanitarian efforts."
+        },
+        "comment": {
+          "display_format": "**How:** (conjunction)",
+          "explanation": "Used to introduce a question or explanation.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (article)",
+          "explanation": "A definite article used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "pastoralisme": {
+          "display_format": "**Pastoralism:** The practice of herding livestock.",
+          "explanation": "A traditional way of life in many African countries, involving the movement of livestock in search of grazing land.",
+          "cultural_note": "Pastoralism is a vital part of the economy and culture in many African countries, but it can lead to conflicts over land use."
+        },
+        "est": {
+          "display_format": "**Is:** (verb)",
+          "explanation": "The third person singular form of the verb 'être', used to link the subject to additional information.",
+          "cultural_note": ""
+        },
+        "devenu": {
+          "display_format": "**Become:** (verb)",
+          "explanation": "The verb 'devenir', used to indicate a change of state or condition.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** (article)",
+          "explanation": "An indefinite article used to indicate a non-specific noun.",
+          "cultural_note": ""
+        },
+        "enjeu": {
+          "display_format": "**Issue:** A problem or challenge.",
+          "explanation": "A matter of concern or importance.",
+          "cultural_note": ""
+        },
+        "sécuritaire": {
+          "display_format": "**Security-related:** Concerning safety and protection.",
+          "explanation": "Relating to the protection of people, places, or assets from threats or harm.",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**According to:** (preposition)",
+          "explanation": "Used to indicate the source of information or opinion.",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**The:** (contraction of 'le')",
+          "explanation": "A contraction of the definite article 'le' and the preposition 'à'.",
+          "cultural_note": ""
+        },
+        "ONG": {
+          "display_format": "**NGO:** Non-Governmental Organization.",
+          "explanation": "A private organization independent of government, often focused on humanitarian or environmental issues.",
+          "cultural_note": "NGOs play a crucial role in international development, providing aid and advocacy for various causes."
+        },
+        "ICG": {
+          "display_format": "**International Crisis Group:** A non-profit organization analyzing and working to prevent deadly conflict.",
+          "explanation": "A global organization providing research and policy recommendations to prevent and resolve conflicts.",
+          "cultural_note": "The International Crisis Group is a well-respected organization in the field of conflict resolution and international relations."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.1,
+        "relevance_score": 4.3999999999999995,
+        "importance_score": 8.5,
+        "total_score": 22.0
+      },
+      "curation_metadata": {
+        "curation_id": "34ed8713-59c1-4308-8ec0-fb206b396f05",
+        "curated_at": "2025-06-13T10:14:03.209064+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992579+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 4.3999999999999995,
+      "importance_score": 8.5,
+      "total_score": 22.0
+    },
+    {
+      "title": "La répression à Los Angeles",
+      "english_title": "Repression in Los Angeles",
+      "simplified_french_title": "La répression à Los Angeles",
+      "simplified_english_title": "Repression in Los Angeles",
+      "summary": "À Los Angeles, les manifestations contre la politique migratoire de Trump continuent.",
+      "english_summary": "Protests against Trump's migration policy continue in Los Angeles.",
+      "french_summary": "À Los Angeles, les manifestations contre la politique migratoire de Trump continuent.",
+      "original_article_title": "Los Angeles : « La répression en cours répond à un programme visant à instaurer un État fort »",
+      "original_article_link": "https://www.la-croix.com/a-vif/los-angeles-la-repression-en-cours-repond-a-un-programme-visant-a-instaurer-un-etat-fort-20250613",
+      "link": "https://www.la-croix.com/a-vif/los-angeles-la-repression-en-cours-repond-a-un-programme-visant-a-instaurer-un-etat-fort-20250613",
+      "source_name": "La Croix",
+      "published": "Fri, 13 Jun 2025 11:29:33 +0200",
+      "published_date": "Fri, 13 Jun 2025 11:29:33 +0200",
+      "contextual_title_explanations": {
+        "Los": {
+          "display_format": "**Los:** (abbreviation)",
+          "explanation": "Short for Los Angeles, a city in California, USA.",
+          "cultural_note": "Los Angeles is a major cultural and economic center in the United States."
+        },
+        "Angeles": {
+          "display_format": "**Angeles:** (proper noun)",
+          "explanation": "The full name of the city in California, USA.",
+          "cultural_note": "Los Angeles is known for its diversity, entertainment industry, and cultural attractions."
+        },
+        "«": {
+          "display_format": "**«:** (quotation mark)",
+          "explanation": "Used to indicate the start of a quotation or direct speech.",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** (article)",
+          "explanation": "A definite article used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "répression": {
+          "display_format": "**Repression:** (noun)",
+          "explanation": "The act of suppressing or controlling something, often by force.",
+          "cultural_note": "Repression can be a controversial topic in politics and human rights."
+        },
+        "en": {
+          "display_format": "**En:** (preposition)",
+          "explanation": "Used to indicate a location or a point in time.",
+          "cultural_note": ""
+        },
+        "cours": {
+          "display_format": "**Cours:** (noun)",
+          "explanation": "Means 'in progress' or 'currently happening'.",
+          "cultural_note": ""
+        },
+        "répond": {
+          "display_format": "**Répond:** (verb)",
+          "explanation": "Means 'to respond' or 'to answer'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**À:** (preposition)",
+          "explanation": "Used to indicate a direction, movement, or relationship.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**Un:** (article)",
+          "explanation": "An indefinite article used to indicate a non-specific noun.",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**Programme:** (noun)",
+          "explanation": "A planned set of actions or a strategy.",
+          "cultural_note": "In a political context, a programme can refer to a government's or party's policy agenda."
+        },
+        "visant": {
+          "display_format": "**Visant:** (verb)",
+          "explanation": "Means 'aiming' or 'intending' to do something.",
+          "cultural_note": ""
+        },
+        "instaurer": {
+          "display_format": "**Instaurer:** (verb)",
+          "explanation": "Means 'to establish' or 'to set up' something.",
+          "cultural_note": ""
+        },
+        "État": {
+          "display_format": "**État:** (noun)",
+          "explanation": "Means 'state' or 'government'.",
+          "cultural_note": "In a political context, État can refer to the governing body or institution of a country."
+        },
+        "fort": {
+          "display_format": "**Fort:** (adjective)",
+          "explanation": "Means 'strong' or 'powerful'.",
+          "cultural_note": "In a political context, a strong state or government may imply a more authoritarian or centralized power structure."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 6.0,
+        "importance_score": 7.5,
+        "total_score": 21.9
+      },
+      "curation_metadata": {
+        "curation_id": "4d3b0ea7-ee1f-43b4-97c4-67d414936d38",
+        "curated_at": "2025-06-13T10:14:03.206815+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:21:31.992591+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 6.0,
+      "importance_score": 7.5,
+      "total_score": 21.9
+    },
+    {
+      "title": "Meurtre raciste à Puget-sur-Argens : une opinion de Marion Maréchal",
+      "english_title": "Racist Murder in Puget-sur-Argens: Marion Maréchal's Opinion",
+      "simplified_french_title": "Meurtre raciste à Puget-sur-Argens : une opinion de Marion Maréchal",
+      "simplified_english_title": "Racist Murder in Puget-sur-Argens: Marion Maréchal's Opinion",
+      "summary": "Marion Maréchal parle de l'attentat raciste à Puget-sur-Argens à RMC-BFMTV.",
+      "english_summary": "Marion Maréchal discusses the racist attack in Puget-sur-Argens on RMC-BFMTV.",
+      "french_summary": "Marion Maréchal parle de l'attentat raciste à Puget-sur-Argens à RMC-BFMTV.",
+      "original_article_title": "Meurtre raciste à Puget-sur-Argens: \"Un fait divers\" qui \"ne dit pas quelque chose de la société française\", pour Marion Maréchal",
+      "original_article_link": "https://www.bfmtv.com/politique/meurtre-raciste-a-puget-sur-argens-un-fait-divers-qui-ne-dit-pas-quelque-chose-de-la-societe-francaise-pour-marion-marechal_VN-202506130351.html",
+      "link": "https://www.bfmtv.com/politique/meurtre-raciste-a-puget-sur-argens-un-fait-divers-qui-ne-dit-pas-quelque-chose-de-la-societe-francaise-pour-marion-marechal_VN-202506130351.html",
+      "source_name": "BFM TV",
+      "published": "Fri, 13 Jun 2025 09:27:27 GMT",
+      "published_date": "Fri, 13 Jun 2025 09:27:27 GMT",
+      "contextual_title_explanations": {
+        "Meurtre": {
+          "display_format": "**Murder:** A deliberate act of killing another human being.",
+          "explanation": "A serious crime involving the intentional taking of someone's life.",
+          "cultural_note": ""
+        },
+        "raciste": {
+          "display_format": "**Racist:** Discriminatory or hateful towards a person or group based on their race.",
+          "explanation": "An adjective describing an act, attitude, or belief that is prejudiced against a particular racial or ethnic group.",
+          "cultural_note": "Racism is a significant social issue in many countries, including France, where it can manifest in various forms, such as discrimination, violence, or hate speech."
+        },
+        "à": {
+          "display_format": "**In / At:** (preposition)",
+          "explanation": "Indicates a location or direction.",
+          "cultural_note": ""
+        },
+        "Puget-sur-Argens": {
+          "display_format": "**Puget-sur-Argens:** A town in southeastern France.",
+          "explanation": "A commune in the Var department of Provence-Alpes-Côte d'Azur.",
+          "cultural_note": "Puget-sur-Argens is a small town with a population of around 8,000 people."
+        },
+        "Un": {
+          "display_format": "**A / An:** (indefinite article)",
+          "explanation": "Used to indicate a singular, non-specific noun.",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**Fact / Event:** A thing that happens or has happened.",
+          "explanation": "A noun referring to a situation, occurrence, or incident.",
+          "cultural_note": ""
+        },
+        "divers": {
+          "display_format": "**Miscellaneous / Various:** Not belonging to a specific category.",
+          "explanation": "An adjective describing something that is different or unrelated to the main topic.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who / Which / That:** (relative pronoun)",
+          "explanation": "Used to connect a dependent clause to a noun.",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**Not:** (negation)",
+          "explanation": "Used to indicate the opposite or absence of something.",
+          "cultural_note": ""
+        },
+        "dit": {
+          "display_format": "**Says / States:** (verb)",
+          "explanation": "A verb meaning to express an opinion or statement.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** (negation)",
+          "explanation": "Used to indicate the opposite or absence of something.",
+          "cultural_note": ""
+        },
+        "quelque": {
+          "display_format": "**Some / Any:** (determiner)",
+          "explanation": "Used to indicate an unspecified amount or quantity.",
+          "cultural_note": ""
+        },
+        "chose": {
+          "display_format": "**Thing:** An object, concept, or idea.",
+          "explanation": "A noun referring to a general or unspecified thing.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific, previously mentioned noun.",
+          "cultural_note": ""
+        },
+        "société": {
+          "display_format": "**Society:** A group of people living together in a more or less ordered community.",
+          "explanation": "A noun referring to a community or organization of people with shared interests or goals.",
+          "cultural_note": "In the context of social sciences, 'société' can refer to the entirety of human relationships and institutions within a specific geographic area."
+        },
+        "française": {
+          "display_format": "**French:** Relating to France or the French people.",
+          "explanation": "An adjective describing something as originating from or characteristic of France.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose, direction, or intended recipient.",
+          "cultural_note": ""
+        },
+        "Marion": {
+          "display_format": "**Marion:** A French given name.",
+          "explanation": "A common feminine first name in France.",
+          "cultural_note": ""
+        },
+        "Maréchal": {
+          "display_format": "**Maréchal:** A French surname.",
+          "explanation": "A common French family name.",
+          "cultural_note": "Marion Maréchal is a well-known French politician and former member of the National Front party."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 5.199999999999999,
+        "importance_score": 7.5,
+        "total_score": 21.299999999999997
+      },
+      "curation_metadata": {
+        "curation_id": "a4703ea7-a48d-4748-beb6-6e2957354c9d",
+        "curated_at": "2025-06-13T10:13:47.300907+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-13T10:13:59.873033+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.199999999999999,
+      "importance_score": 7.5,
+      "total_score": 21.299999999999997
+    },
     {
       "title": " Une surveillante tuée à Nogent : interdire les couteaux ?",
       "english_title": "A Security Guard Killed in Nogent: Should Knives Be Banned?",
