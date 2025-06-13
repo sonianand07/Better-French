@@ -161,79 +161,9 @@ class BetterFrenchApp {
     }
 
     animateModeSwitch(oldMode, newMode) {
-        const secondaryTitles = document.querySelectorAll('.secondary-title');
-        const summaryToggles = document.querySelectorAll('.summary-toggle');
-        const summaryContents = document.querySelectorAll('.summary-content');
-
-        // Collapse all expanded summaries first
-        summaryContents.forEach(content => {
-            if (content.classList.contains('expanded')) {
-                content.classList.remove('expanded');
-                content.style.height = '0';
-                content.setAttribute('aria-hidden', 'true');
-            }
-        });
-
-        // Update toggle button states
-        summaryToggles.forEach(toggle => {
-            toggle.setAttribute('aria-expanded', 'false');
-            const chevron = toggle.querySelector('.chevron');
-            if (chevron) {
-                chevron.classList.remove('expanded');
-            }
-        });
-
-        // Fade out current content
-        secondaryTitles.forEach(title => {
-            title.style.opacity = '0';
-        });
-
-        summaryToggles.forEach(toggle => {
-            toggle.style.opacity = '0';
-        });
-
-        // Update content after fade out
-        setTimeout(() => {
-            secondaryTitles.forEach((title, index) => {
-                const article = this.filteredArticles[index];
-                if (article) {
-                    title.textContent = newMode === 'learner' 
-                        ? article.simplified_english_title 
-                        : article.simplified_french_title;
-                }
-            });
-
-            summaryToggles.forEach((toggle, index) => {
-                const article = this.filteredArticles[index];
-                const summaryText = newMode === 'learner' ? 'English Summary' : 'Résumé français';
-                const textLabel = toggle.querySelector('.summary-text-label');
-                if (textLabel) {
-                    textLabel.textContent = summaryText;
-                }
-
-                // Update the summary content for the new mode
-                const summaryId = toggle.getAttribute('aria-controls');
-                const summaryContent = document.getElementById(summaryId);
-                if (summaryContent && article) {
-                    const summaryTextContent = newMode === 'learner' 
-                        ? article.english_summary 
-                        : article.french_summary;
-                    const summaryTextElement = summaryContent.querySelector('.summary-text');
-                    if (summaryTextElement) {
-                        summaryTextElement.textContent = summaryTextContent;
-                    }
-                }
-            });
-
-            // Fade in new content
-            secondaryTitles.forEach(title => {
-                title.style.opacity = '1';
-            });
-
-            summaryToggles.forEach(toggle => {
-                toggle.style.opacity = '1';
-            });
-        }, 150);
+        // Simply re-render all cards; this guarantees that titles and
+        // summaries match the current mode and keeps interactive spans intact.
+        this.renderArticles();
     }
 
     handleSearch(query) {
@@ -353,7 +283,7 @@ class BetterFrenchApp {
             primaryTitleRaw = article.title || 'Untitled Article';
         }
 
-        const primaryTitle = (isAIEnhanced && this.currentMode === 'native') ?
+        const primaryTitle = isAIEnhanced ?
             this.createInteractiveTitle(primaryTitleRaw, article.contextual_title_explanations) :
             primaryTitleRaw;
 
