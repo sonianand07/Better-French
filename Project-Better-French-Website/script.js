@@ -297,8 +297,8 @@ class BetterFrenchApp {
                 ? article.english_summary 
                 : article.french_summary;
             summaryLabel = this.currentMode === 'learner' 
-                ? 'English Summary' 
-                : 'Résumé français';
+                ? 'Summary' 
+                : 'Résumé';
         } else {
             // For basic articles, use the summary field or fallback
             summaryText = article.summary || 'Summary not available';
