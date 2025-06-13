@@ -901,4 +901,18 @@ body {
         outline: 2px solid var(--accent-color);
         outline-offset: 2px;
     }
+}
+
+/* -------------------------------------------------- */
+/* UI-refresh override: disable bold/width animation  */
+/* Applies to both desktop and mobile */
+/* -------------------------------------------------- */
+
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.article-title.has-active-word .french-word.active {
+    font-weight: 500; /* keep same weight – prevent jump */
+    /* Limit the animated properties so width doesn't animate */
+    transition: background-color 150ms, color 150ms, box-shadow 150ms;
 } 
