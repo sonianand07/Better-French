@@ -421,6 +421,11 @@ body {
     padding-top: var(--spacing-sm);
 }
 
+/* Inline summary label color */
+.summary-text strong {
+    color: var(--accent-color);
+}
+
 .article-meta {
     font-size: var(--font-size-meta);
     font-weight: 300;
