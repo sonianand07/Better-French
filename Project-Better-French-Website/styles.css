@@ -368,7 +368,7 @@ body {
     font-weight: 500;
     color: var(--primary-text);
     line-height: 1.4;
-    margin-bottom: var(--spacing-md);
+    margin-top: var(--spacing-lg);
     transition: opacity 200ms ease-in-out;
 }
 
@@ -386,7 +386,7 @@ body {
     align-items: center;
     gap: var(--spacing-xs);
     padding: var(--spacing-xs) 0;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .summary-toggle:hover {

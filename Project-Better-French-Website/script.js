@@ -327,7 +327,6 @@ class BetterFrenchApp {
 
         return `
             <h2 class="article-title">${primaryTitle}</h2>
-            <h3 class="secondary-title">${secondaryTitle}</h3>
             ${showSummary ? `
                 <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
                     <span class="summary-text-label">${summaryLabel}</span>
@@ -336,6 +335,7 @@ class BetterFrenchApp {
                     <p class="summary-text">${summaryText}</p>
                 </div>
             ` : ''}
+            <h3 class="secondary-title">${secondaryTitle}</h3>
             <div class="article-meta">${source} | ${publishedDate}</div>
             <button class="collapse-button" id="${collapseId}" aria-label="Close summary" style="display: none;">—</button>
         `;
