@@ -353,7 +353,9 @@ class BetterFrenchApp {
             primaryTitleRaw = article.title || 'Untitled Article';
         }
 
-        const primaryTitle = primaryTitleRaw;
+        const primaryTitle = (isAIEnhanced && this.currentMode === 'native') ?
+            this.createInteractiveTitle(primaryTitleRaw, article.contextual_title_explanations) :
+            primaryTitleRaw;
 
         // Secondary (smaller) title will show the original headline in French (interactive)
         const secondaryTitleRaw = article.original_article_title || article.title || 'Untitled Article';
