@@ -366,7 +366,7 @@ body {
 .secondary-title {
     font-size: var(--font-size-secondary);
     font-weight: 500;
-    color: var(--accent-color);
+    color: var(--primary-text);
     line-height: 1.4;
     margin-bottom: var(--spacing-md);
     transition: opacity 200ms ease-in-out;
@@ -946,4 +946,9 @@ body {
     text-shadow: 0 2px 4px rgba(46, 125, 50, 0.08);
     box-shadow: 0 2px 8px rgba(46, 125, 50, 0.1), inset 0 1px 0 rgba(255,255,255,0.4);
     transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* UI-refresh override: unify secondary-title base color (non-interactive words) */
+.secondary-title {
+    color: var(--primary-text);
 } 
