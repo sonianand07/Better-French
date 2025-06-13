@@ -202,7 +202,7 @@ INTEGRATION_CONFIG = {
 # 🤖 AI PROCESSING CONFIGURATION
 AI_PROCESSING_CONFIG = {
     # OpenRouter API settings (same as manual system)
-    'model': 'anthropic/claude-3.5-sonnet',  # Same model as manual system
+    'model': 'meta-llama/llama-3-70b-instruct',  # Default cost-efficient model
     'api_base_url': 'https://openrouter.ai/api/v1',
     'max_tokens': 1000,
     'temperature': 0.3,

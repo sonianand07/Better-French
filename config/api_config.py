@@ -23,8 +23,14 @@ OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 
 # 🤖 AI MODEL CONFIGURATION
 # Using proven models from the manual system
-PRIMARY_MODEL = "anthropic/claude-3.5-sonnet"  # Primary model for AI processing
-FALLBACK_MODEL = "nousresearch/nous-hermes-2-mixtral-8x7b-dpo"  # Fallback if primary fails
+# Default (cost-efficient) primary model – can be switched back easily
+PRIMARY_MODEL = "meta-llama/llama-3-70b-instruct"  # Cheaper but similar quality to Sonnet
+
+# Keep Claude Sonnet as the immediate fallback so quality isn't lost
+FALLBACK_MODEL = "anthropic/claude-3.5-sonnet"  # High-quality safety net
+
+# Other models we might test in future (uncomment as needed)
+# ALT_MODEL_MIXTRAL = "nousresearch/nous-hermes-2-mixtral-8x7b-dpo"
 
 # 📊 API LIMITS AND SETTINGS
 API_CONFIG = {
