@@ -161,79 +161,9 @@ class BetterFrenchApp {
     }
 
     animateModeSwitch(oldMode, newMode) {
-        const secondaryTitles = document.querySelectorAll('.secondary-title');
-        const summaryToggles = document.querySelectorAll('.summary-toggle');
-        const summaryContents = document.querySelectorAll('.summary-content');
-
-        // Collapse all expanded summaries first
-        summaryContents.forEach(content => {
-            if (content.classList.contains('expanded')) {
-                content.classList.remove('expanded');
-                content.style.height = '0';
-                content.setAttribute('aria-hidden', 'true');
-            }
-        });
-
-        // Update toggle button states
-        summaryToggles.forEach(toggle => {
-            toggle.setAttribute('aria-expanded', 'false');
-            const chevron = toggle.querySelector('.chevron');
-            if (chevron) {
-                chevron.classList.remove('expanded');
-            }
-        });
-
-        // Fade out current content
-        secondaryTitles.forEach(title => {
-            title.style.opacity = '0';
-        });
-
-        summaryToggles.forEach(toggle => {
-            toggle.style.opacity = '0';
-        });
-
-        // Update content after fade out
-        setTimeout(() => {
-            secondaryTitles.forEach((title, index) => {
-                const article = this.filteredArticles[index];
-                if (article) {
-                    title.textContent = newMode === 'learner' 
-                        ? article.simplified_english_title 
-                        : article.simplified_french_title;
-                }
-            });
-
-            summaryToggles.forEach((toggle, index) => {
-                const article = this.filteredArticles[index];
-                const summaryText = newMode === 'learner' ? 'English Summary' : 'Résumé français';
-                const textLabel = toggle.querySelector('.summary-text-label');
-                if (textLabel) {
-                    textLabel.textContent = summaryText;
-                }
-
-                // Update the summary content for the new mode
-                const summaryId = toggle.getAttribute('aria-controls');
-                const summaryContent = document.getElementById(summaryId);
-                if (summaryContent && article) {
-                    const summaryTextContent = newMode === 'learner' 
-                        ? article.english_summary 
-                        : article.french_summary;
-                    const summaryTextElement = summaryContent.querySelector('.summary-text');
-                    if (summaryTextElement) {
-                        summaryTextElement.textContent = summaryTextContent;
-                    }
-                }
-            });
-
-            // Fade in new content
-            secondaryTitles.forEach(title => {
-                title.style.opacity = '1';
-            });
-
-            summaryToggles.forEach(toggle => {
-                toggle.style.opacity = '1';
-            });
-        }, 150);
+        // Simply re-render all cards; this guarantees that titles and
+        // summaries match the current mode and keeps interactive spans intact.
+        this.renderArticles();
     }
 
     handleSearch(query) {
@@ -343,19 +273,21 @@ class BetterFrenchApp {
         // Handle both AI-enhanced articles and basic curated articles
         const isAIEnhanced = article.ai_enhanced || !!article.contextual_title_explanations;
         
-        // Use appropriate title field
-        const displayTitle = article.original_article_title || article.title || 'Untitled Article';
-        
-        // For secondary title, use AI fields if available, otherwise use original title in learner mode
-        let secondaryTitle;
+        // Primary (big) title should now be the simplified / translated one
+        let primaryTitleRaw;
         if (isAIEnhanced) {
-            secondaryTitle = this.currentMode === 'learner' 
-                ? article.simplified_english_title 
+            primaryTitleRaw = this.currentMode === 'learner'
+                ? article.simplified_english_title
                 : article.simplified_french_title;
         } else {
-            // For basic articles, show title in both modes (no translation available)
-            secondaryTitle = this.currentMode === 'learner' ? article.title : article.title;
+            primaryTitleRaw = article.title || 'Untitled Article';
         }
+
+        const primaryTitle = primaryTitleRaw;
+
+        // Secondary (smaller) title will show the original headline in French (interactive)
+        const secondaryTitleRaw = article.original_article_title || article.title || 'Untitled Article';
+        const secondaryTitle = this.createInteractiveTitle(secondaryTitleRaw, article.contextual_title_explanations);
         
         // For summary, use AI fields if available, otherwise use basic summary
         let summaryText;
@@ -365,8 +297,8 @@ class BetterFrenchApp {
                 ? article.english_summary 
                 : article.french_summary;
             summaryLabel = this.currentMode === 'learner' 
-                ? 'English Summary' 
-                : 'Résumé français';
+                ? 'Summary' 
+                : 'Résumé';
         } else {
             // For basic articles, use the summary field or fallback
             summaryText = article.summary || 'Summary not available';
@@ -394,21 +326,11 @@ class BetterFrenchApp {
         const showSummary = summaryText && summaryText !== 'Summary not available' && summaryText.trim().length > 0;
 
         return `
-            <h2 class="article-title">
-                ${isAIEnhanced ? 
-                    this.createInteractiveTitle(displayTitle, article.contextual_title_explanations) : 
-                    displayTitle
-                }
-            </h2>
-            <h3 class="secondary-title">${secondaryTitle || displayTitle}</h3>
+            <h2 class="article-title">${primaryTitle}</h2>
             ${showSummary ? `
-                <button class="summary-toggle" aria-expanded="false" aria-controls="${summaryId}">
-                    <span class="summary-text-label">${summaryLabel}</span>
-                </button>
-                <div class="summary-content" id="${summaryId}" aria-hidden="true">
-                    <p class="summary-text">${summaryText}</p>
-                </div>
+                <p class="summary-text"><strong>${summaryLabel}:</strong> ${summaryText}</p>
             ` : ''}
+            <h3 class="secondary-title">${secondaryTitle}</h3>
             <div class="article-meta">${source} | ${publishedDate}</div>
             <button class="collapse-button" id="${collapseId}" aria-label="Close summary" style="display: none;">—</button>
         `;
@@ -724,16 +646,7 @@ class BetterFrenchApp {
     }
 
     setupArticleInteractions() {
-        // Article card hover to open summaries
-        document.querySelectorAll('.article-card').forEach(card => {
-            card.addEventListener('mouseenter', () => {
-                const summaryToggle = card.querySelector('.summary-toggle');
-                const summaryContent = card.querySelector('.summary-content');
-                if (summaryToggle && summaryContent) {
-                    this.openSummary(summaryToggle, summaryContent);
-                }
-            });
-        });
+        // (Hover-to-open disabled; user must click the Summary button)
 
         // Collapse button - Click to close
         document.addEventListener('click', (e) => {
@@ -749,6 +662,28 @@ class BetterFrenchApp {
 
         // Enhanced French word interactions with focus management
         this.setupFrenchWordInteractions();
+
+        // Toggle summary visibility on main headline click
+        document.querySelectorAll('.article-title').forEach(titleEl => {
+            if (titleEl.dataset.summaryBound) return;
+            titleEl.dataset.summaryBound = 'true';
+
+            titleEl.addEventListener('click', () => {
+                const card = titleEl.closest('.article-card');
+                if (!card) return;
+                const summary = card.querySelector('.summary-text');
+                if (!summary) return;
+
+                const expanded = summary.classList.toggle('expanded');
+                // If expanding, ensure it is visible for the animation
+                if (expanded) {
+                    summary.style.maxHeight = summary.scrollHeight + 'px';
+                } else {
+                    // reset max-height so next open can compute correctly
+                    summary.style.maxHeight = '0';
+                }
+            });
+        });
     }
 
     setupFrenchWordInteractions() {

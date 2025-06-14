@@ -281,7 +281,7 @@ class MasterScheduler:
                             try:
                                 status = self.website_updater.get_website_status()
                                 if status.get('total_articles', 0) == 0 and fast_tracked:
-                                    self.website_updater.update_with_curated_articles(fast_tracked)
+                            self.website_updater.update_with_curated_articles(fast_tracked)
                                     logger.info(f"🚨 Fallback: Published {len(fast_tracked)} curated breaking news articles to prevent empty site")
                             except Exception as e:
                                 logger.error(f"❌ Fallback publication failed: {e}")
@@ -438,22 +438,22 @@ class MasterScheduler:
                                 logger.info(f"🌐 Fallback: Published {len(curated_articles)} curated articles to prevent empty site")
                         except Exception as e:
                             logger.error(f"❌ Fallback publication failed: {e}")
+                
+                # Update daily articles file with published status
+                try:
+                    published_articles = [a for a in daily_articles if a.get('published_on_website')]
+                    unpublished_articles = [a for a in daily_articles if not a.get('published_on_website')]
                     
-                    # Update daily articles file with published status
-                    try:
-                        published_articles = [a for a in daily_articles if a.get('published_on_website')]
-                        unpublished_articles = [a for a in daily_articles if not a.get('published_on_website')]
-                        
-                        with open(daily_file, 'w', encoding='utf-8') as f:
-                            json.dump({
-                                'date': today,
-                                'total_articles': len(daily_articles),
-                                'published_articles': published_articles,
-                                'unpublished_articles': unpublished_articles
-                            }, f, ensure_ascii=False, indent=2, default=str)
-                        logger.info(f"📁 Updated daily archive: {len(published_articles)} published, {len(unpublished_articles)} unpublished")
-                    except Exception as e:
-                        logger.error(f"❌ Failed to update daily articles file: {e}")
+                    with open(daily_file, 'w', encoding='utf-8') as f:
+                        json.dump({
+                            'date': today,
+                            'total_articles': len(daily_articles),
+                            'published_articles': published_articles,
+                            'unpublished_articles': unpublished_articles
+                        }, f, ensure_ascii=False, indent=2, default=str)
+                    logger.info(f"📁 Updated daily archive: {len(published_articles)} published, {len(unpublished_articles)} unpublished")
+                except Exception as e:
+                    logger.error(f"❌ Failed to update daily articles file: {e}")
                 
                 self.system_stats['articles_processed_today'] += len(curated_articles)
                 self.system_stats['last_successful_update'] = datetime.now(timezone.utc)
