@@ -1,0 +1,36 @@
+name: QA Smoke Test
+
+on:
+  pull_request:
+  push:
+    branches: [ ai-improve, main ]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Start local server
+        run: |
+          python -m http.server 8010 --directory Project-Better-French-Website &
+          echo "Server started in background"
+
+      - name: Wait for server
+        run: sleep 5
+
+      - name: Run smoke test
+        run: python qa/tests/test_smoke.py http://localhost:8010 
