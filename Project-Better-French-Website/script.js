@@ -16,6 +16,12 @@ class BetterFrenchApp {
         this.setupEventListeners();
         await this.loadLatestData();
         this.renderArticles();
+        this.setupArticleInteractions();
+
+        // Expose a flag for automated QA scripts to know the page is fully rendered
+        if (typeof window !== 'undefined') {
+            window.__BF_LOADED = true;
+        }
     }
 
     setupEventListeners() {
