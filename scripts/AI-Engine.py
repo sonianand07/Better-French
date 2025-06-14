@@ -132,11 +132,53 @@ class CostOptimizedAIProcessor:
         
         return True, "Within limits"
     
+    def _merge_proper_nouns(self, text: str) -> str:
+        """Merge runs of 2–3 consecutive capitalised tokens into a single proper-noun phrase.
+
+        The heuristic is intentionally lightweight:
+          • A token is considered *capitalised* if its first character is uppercase A-Z.
+          • Tokens containing digits or internal punctuation (e.g. «L'» or «–» or «/») are skipped.
+          • When 2 or 3 capitalised tokens appear back-to-back, they are joined with a single space and
+            treated as one phrase. Runs longer than 3 are left untouched to avoid over-merging (e.g. long
+            newspaper headlines listing multiple words).
+        """
+        if not text:
+            return text
+
+        tokens: List[str] = text.split()
+        merged: List[str] = []
+        i = 0
+        while i < len(tokens):
+            # Identify start of potential proper-noun run
+            if tokens[i][0].isupper() and tokens[i].isalpha():
+                run_start = i
+                run_end = i
+                # Extend run while next token is also capitalised and alpha-only, up to 3 tokens total
+                while (run_end + 1 < len(tokens) and
+                       tokens[run_end + 1][0].isupper() and
+                       tokens[run_end + 1].isalpha() and
+                       (run_end - run_start + 1) < 3):
+                    run_end += 1
+
+                # If we have at least two tokens in the run, merge them
+                if run_end > run_start:
+                    phrase = " ".join(tokens[run_start: run_end + 1])
+                    merged.append(phrase)
+                    i = run_end + 1
+                    continue  # Move to next token after the merged run
+            # Default behaviour: keep token as-is
+            merged.append(tokens[i])
+            i += 1
+
+        return " ".join(merged)
+
     def create_ai_prompt(self, article: Dict[str, Any]) -> str:
         """Create comprehensive AI prompt for all required outputs"""
         
         # Extract article data
-        title = article.get('title', '')
+        original_title = article.get('title', '')
+        # Merge proper nouns to guide the AI to treat them as single units
+        title = self._merge_proper_nouns(original_title)
         summary = article.get('summary', '')
         content = article.get('content', '')
         
