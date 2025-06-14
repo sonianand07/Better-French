@@ -281,7 +281,7 @@ class MasterScheduler:
                             try:
                                 status = self.website_updater.get_website_status()
                                 if status.get('total_articles', 0) == 0 and fast_tracked:
-                            self.website_updater.update_with_curated_articles(fast_tracked)
+                                    self.website_updater.update_with_curated_articles(fast_tracked)
                                     logger.info(f"🚨 Fallback: Published {len(fast_tracked)} curated breaking news articles to prevent empty site")
                             except Exception as e:
                                 logger.error(f"❌ Fallback publication failed: {e}")
