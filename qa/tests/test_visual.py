@@ -48,6 +48,15 @@ def main():
         page = browser.new_page(viewport={"width": 1280, "height": 900})
         page.goto(BASE_URL, wait_until="domcontentloaded", timeout=15000)
         page.wait_for_function("() => window.__BF_LOADED === true", timeout=15000)
+
+        # Ensure all articles loaded via pagination before taking screenshot
+        try:
+            while page.locator("#load-more").is_visible():
+                page.locator("#load-more").click()
+                page.wait_for_timeout(200)
+        except Exception:
+            pass
+
         png_bytes = screenshot_png(page)
         browser.close()
 

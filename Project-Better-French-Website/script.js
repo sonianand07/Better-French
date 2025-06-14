@@ -421,9 +421,11 @@ class BetterFrenchApp {
                 regexPattern = originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             } else {
                 // For single words, create patterns that handle quotes and plural forms
-                const escapedWord = originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                // Allow optional 's' at end for plurals and optional quotes around the word
-                regexPattern = `["""]?${escapedWord}s?["""]?`;
+                let escapedWord = originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                // Allow straight (') and curly (') apostrophes interchangeably
+                escapedWord = escapedWord.replace(/['\u2019]/g, "[\\u2019']");
+                // Allow optional 's' at end for plurals and optional straight/curly quotes around the word
+                regexPattern = `["'“”]?${escapedWord}s?["'“”]?`;
             }
             
             // Debug logging for problematic words
@@ -446,8 +448,8 @@ class BetterFrenchApp {
                 
                 // For single words, check if the match includes quotes
                 if (!isMultiWord) {
-                    const startQuote = cleanText.match(/^["""]/);
-                    const endQuote = cleanText.match(/["""]$/);
+                    const startQuote = cleanText.match(/^['"“"]/);
+                    const endQuote = cleanText.match(/['"“"]$/);
                     
                     if (startQuote) {
                         cleanText = cleanText.substring(1);
@@ -496,8 +498,8 @@ class BetterFrenchApp {
                     let adjustedStart = match.index;
                     let adjustedEnd = match.index + match[0].length;
                     
-                    const startQuote = cleanText.match(/^["""]/);
-                    const endQuote = cleanText.match(/["""]$/);
+                    const startQuote = cleanText.match(/^['"“"]/);
+                    const endQuote = cleanText.match(/['"“"]$/);
                     
                     if (startQuote) {
                         cleanText = cleanText.substring(1);
@@ -535,9 +537,9 @@ class BetterFrenchApp {
                 // AGGRESSIVE FALLBACK: Try to find word even inside quotes or with spaces
                 if (matches.filter(m => m.explanation.original_word === exp.original_word).length === 0) {
                     // Create a very permissive regex that handles quotes and plurals
-                    const escapedWord = originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    const escapedWord = originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/['\u2019]/g, "[\\u2019']");
                     // Match word with optional quotes (regular or curly) and optional 's' for plural
-                    const veryLoosePattern = `["""]?${escapedWord}s?["""]?`;
+                    const veryLoosePattern = `["'“”]?${escapedWord}s?["'“”]?`;
                     const veryLooseRegex = new RegExp(veryLoosePattern, 'gi');
                     veryLooseRegex.lastIndex = 0;
                     
@@ -550,8 +552,8 @@ class BetterFrenchApp {
                         if (!alreadyFound) {
                             // Strip quotes from the matched text for cleaner display
                             let cleanText = match[0];
-                            const startQuote = cleanText.match(/^["""]/);
-                            const endQuote = cleanText.match(/["""]$/);
+                            const startQuote = cleanText.match(/^['"“"]/);
+                            const endQuote = cleanText.match(/['"“"]$/);
                             let adjustedStart = match.index;
                             let adjustedEnd = match.index + match[0].length;
                             
@@ -579,6 +581,35 @@ class BetterFrenchApp {
                                 console.log(`🚀 AGGRESSIVE match found for "${originalWord}": "${match[0]}" → cleaned: "${cleanText}"`);
                             }
                         }
+                    }
+                }
+            }
+
+            // NEW AGGRESSIVE FALLBACK FOR MULTI-WORD PHRASES
+            if (isMultiWord && matches.filter(m => m.explanation.original_word === exp.original_word).length === 0) {
+                // Extremely permissive pattern: ignore straight vs curly quotes
+                // and allow optional leading/trailing quotes around the phrase.
+                const escapedPhrase = originalWord
+                    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                    .replace(/['\u2019]/g, "[\\u2019']");
+
+                const veryLooseRegex = new RegExp(`["'“”]?${escapedPhrase}["'“”]?`, 'gi');
+                let looseMatch;
+                while ((looseMatch = veryLooseRegex.exec(title)) !== null) {
+                    const alreadyFound = matches.some(m =>
+                        Math.abs(m.start - looseMatch.index) < 2 &&
+                        m.explanation.original_word === exp.original_word
+                    );
+                    if (!alreadyFound) {
+                        const cleaned = looseMatch[0].replace(/^['"“”]|['"“”]$/g, '');
+                        matches.push({
+                            start: looseMatch.index,
+                            end: looseMatch.index + looseMatch[0].length,
+                            text: cleaned,
+                            explanation: exp,
+                            length: cleaned.length,
+                            source: 'aggressive-phrase'
+                        });
                     }
                 }
             }
@@ -639,6 +670,13 @@ class BetterFrenchApp {
             
             result = beforeMatch + wrappedMatch + afterMatch;
         });
+
+        // ------- Diagnostic: list any tokens still not wrapped ---------
+        const wrappedKeys = validatedMatches.map(m => m.explanation.original_word);
+        const unmatched = explanationKeys.filter(k => !wrappedKeys.includes(k));
+        if (unmatched.length > 0) {
+            console.warn('🚩 Unmatched tokens after final pass:', unmatched);
+        }
 
         return result;
     }
@@ -753,8 +791,11 @@ class BetterFrenchApp {
     }
 
     setActiveWord(wordElement) {
-        // Clear any other active words in the same title
-        const titleContainer = wordElement.closest('.article-title');
+        // Active-state should be applied relative to the secondary title that
+        // actually contains the interactive <span class="french-word"> nodes.
+        // (The primary title .article-title only shows the simplified English/French
+        //  version and therefore does not include interactive spans.)
+        const titleContainer = wordElement.closest('.secondary-title');
         if (titleContainer) {
             titleContainer.querySelectorAll('.french-word').forEach(w => {
                 w.classList.remove('active');
@@ -769,7 +810,7 @@ class BetterFrenchApp {
     }
 
     clearActiveWord(wordElement) {
-        const titleContainer = wordElement.closest('.article-title');
+        const titleContainer = wordElement.closest('.secondary-title');
         if (titleContainer) {
             wordElement.classList.remove('active');
             
@@ -785,7 +826,7 @@ class BetterFrenchApp {
         document.querySelectorAll('.french-word.active').forEach(word => {
             word.classList.remove('active');
         });
-        document.querySelectorAll('.article-title.has-active-word').forEach(title => {
+        document.querySelectorAll('.secondary-title.has-active-word').forEach(title => {
             title.classList.remove('has-active-word');
         });
     }

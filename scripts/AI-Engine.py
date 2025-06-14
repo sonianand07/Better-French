@@ -15,9 +15,21 @@ from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
 
-# Add config directory to path
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'config'))
-from automation import AUTOMATION_CONFIG
+# Ensure project root is on PYTHONPATH so we can import 'config.*' and 'automation'
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
+    # Debug: confirm path addition
+    # print(f"🔧 Added PROJECT_ROOT to sys.path: {PROJECT_ROOT}")
+
+# Import automation config with fallback
+try:
+    from automation import AUTOMATION_CONFIG  # type: ignore
+except ModuleNotFoundError:
+    from config.automation import AUTOMATION_CONFIG  # type: ignore
+    # Expose under top-level name so downstream modules behave the same
+    import importlib, sys as _sys
+    _sys.modules['automation'] = importlib.import_module('config.automation')
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -208,7 +220,10 @@ Provide your response as a VALID JSON object with these exact keys:
       "original_word": "[exact word/phrase from title]",
       "display_format": "**[Word]:** [Brief translation]",
       "explanation": "[Detailed explanation in English]",
-      "cultural_note": "[Cultural context if relevant: historical significance, political context, French cultural aspects, or current events connection. Empty string if not applicable]"
+      "cultural_note": "[Cultural context if relevant: historical significance, political context, French cultural aspects, or current events connection. Empty string if not applicable]",
+      "part_of_speech": "[Part of speech of the word]",
+      "cefr": "[CEFR level of the word]",
+      "example": "[One short sentence, max 10 words, showing the word in context]"
     }}
   ]
 }}
@@ -219,9 +234,20 @@ CRITICAL REQUIREMENTS:
 - YOU MUST provide contextual explanations for EVERY SINGLE WORD AND PHRASE in the title - NO EXCEPTIONS
 - This includes: articles (le, la, une), prepositions (de, à, dans, pour), conjunctions (et, que, ou), pronouns (ce, l', on), basic verbs (est, sait), and ALL other words
 - EVERY word helps language learners understand grammar patterns and build vocabulary
+- When a proper noun consists of multiple capitalised words (e.g., "Donald Trump", "David A. Bell"), treat the entire name as **one** original_word and provide one combined explanation – do NOT split names into separate words
 - Even if a word seems "basic", it must be explained for learners at different proficiency levels
+- Punctuation **also** needs context: include brief usage notes for any punctuation marks appearing in the title (e.g., ":" colon introduces a clause, "," comma separates elements, "?" indicates a question) – double-check that commas, colons, slashes, hyphens, and question marks are not skipped.
+- FULL PUNCTUATION WHITELIST: you must add an entry for **each** occurrence of these characters if they appear in the title → . , ; : ! ? … — - / ( ) « » " ' ’
+- COVERAGE CHECK: If the number of objects in "contextual_title_explanations" is **not exactly equal** to the number of tokens (INCLUDING punctuation) in the original title, you must instead reply with ONLY the single word **ERROR**.
+- For **every** original_word you must add three extra teaching fields inside its JSON object:
+   • "part_of_speech"  (noun, verb, adj., etc.)
+   • "cefr"  (A1, A2, B1, B2, C1, C2)
+   • "example"  (ONE short sentence, max 10 words, showing the word in context)
 - Do NOT skip any words - complete coverage is mandatory
 - Ensure all French text uses proper accents and grammar
+- Hyphenated or slash-separated compounds (e.g., "Seine-Saint-Denis", "top/flop", "13/06") must be treated as **one** original_word – do NOT split on the hyphen or slash.
+- Contractions that use an apostrophe (straight ' or curly ’) such as "L'Iran", "n'est", "l'inauguration" must likewise be **one** original_word.
+- When punctuation appears *inside* such a compound/contraction, do **not** create a separate entry for that punctuation – the context belongs to the full word.
 
 Based on the article above, provide the complete JSON response:
 """
@@ -287,10 +313,22 @@ Based on the article above, provide the complete JSON response:
             },
             "Guerre à Gaza : Benyamin Netanyahou, le grand divorce avec les Israéliens": {
                 "contextual_title_explanations": [
-                    {"original_word": "Guerre à Gaza", "display_format": "**War in Gaza:** Referring to the conflict in the Gaza Strip.", "explanation": "The Gaza Strip is a Palestinian exclave on the eastern coast of the Mediterranean Sea.", "cultural_note": "This conflict is a long-standing and deeply divisive issue with significant international repercussions."},
-                    {"original_word": "Benyamin Netanyahou", "display_format": "**Benjamin Netanyahu:** Current Prime Minister of Israel.", "explanation": "A prominent Israeli politician who has served multiple terms as Prime Minister.", "cultural_note": "A highly polarizing figure both within Israel and internationally."},
-                    {"original_word": "le grand divorce", "display_format": "**The great divorce / The major split:** Signifies a significant separation or estrangement.", "explanation": "Implies a deep and serious disagreement or breakdown of a relationship.", "cultural_note": "Used metaphorically here to describe the relationship between Netanyahu and the Israeli public."},
-                    {"original_word": "avec les Israéliens", "display_format": "**With the Israelis:** Referring to the people of Israel.", "explanation": "The citizens of the State of Israel.", "cultural_note": ""}
+                    {"original_word": "Guerre à Gaza", "display_format": "**War in Gaza:**", "explanation": "Refers to the conflict in the Gaza Strip.", "cultural_note": "Long-standing conflict with global repercussions."},
+                    {"original_word": "Benyamin Netanyahou", "display_format": "**Benjamin Netanyahu:**", "explanation": "Prime Minister of Israel.", "cultural_note": "A polarizing political figure."},
+                    {"original_word": "le grand divorce", "display_format": "**The great divorce:**", "explanation": "Metaphor for a major split or estrangement.", "cultural_note": "Often used to describe political rifts."},
+                    {"original_word": "avec les Israéliens", "display_format": "**With the Israelis:**", "explanation": "Refers to the people of Israel.", "cultural_note": ""}
+                ]
+            },
+            "PS : les députés de Seine-Saint-Denis boycotteront l'inauguration": {
+                "contextual_title_explanations": [
+                    {"original_word": "PS", "display_format": "**PS (Parti socialiste):**", "explanation": "French Socialist Party.", "cultural_note": "A major centre-left political party in France."},
+                    {"original_word": ":", "display_format": "**Colon:**", "explanation": "Introduces an explanation.", "cultural_note": ""},
+                    {"original_word": "les", "display_format": "**The:** (article)", "explanation": "Definite article used before plural nouns.", "cultural_note": ""},
+                    {"original_word": "députés", "display_format": "**Deputies:**", "explanation": "Members of the National Assembly.", "cultural_note": "French parliamentarians."},
+                    {"original_word": "de", "display_format": "**Of / from:**", "explanation": "Preposition indicating origin or possession.", "cultural_note": ""},
+                    {"original_word": "Seine-Saint-Denis", "display_format": "**Seine-Saint-Denis:**", "explanation": "A department north of Paris.", "cultural_note": "Often referenced in socio-economic discussions."},
+                    {"original_word": "boycotteront", "display_format": "**Will boycott:**", "explanation": "Future tense of 'boycotter'.", "cultural_note": ""},
+                    {"original_word": "l'inauguration", "display_format": "**The inauguration:**", "explanation": "Official opening event.", "cultural_note": "Contraction kept as one token as required."}
                 ]
             },
             "Face à la Chine, l'Europe en quête d'une nouvelle stratégie industrielle": {
@@ -363,7 +401,9 @@ Based on the article above, provide the complete JSON response:
                         "content": prompt
                     }
                 ],
-                "max_tokens": 1500,
+                # Allow the model to finish the long JSON with POS/CEFR/example + punctuation entries.
+                # 3 000 output tokens stays inexpensive on Llama-3 and prevents truncation.
+                "max_tokens": 3000,
                 "temperature": 0.7
             }
             
@@ -535,7 +575,7 @@ Based on the article above, provide the complete JSON response:
             start_time = time.time()
             api_response = self.call_openrouter_api(prompt, original_data)
             processing_time = time.time() - start_time
-            
+
             if not api_response:
                 logger.warning(f"⚠️ AI processing failed for: {original_data.get('title', 'Unknown')[:50]}...")
                 return None

@@ -18,12 +18,16 @@ Exit code 1+ = failure (message printed).
 from __future__ import annotations
 import sys
 import re
+import json
+import urllib.parse
 
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
 BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8010"
 
 CAP_RE = re.compile(r"^[A-ZÉÈËÊÀÂÎÏÔÙÛÇ].*")
+
+PUNCT_ONLY_RE = re.compile(r"^[^\w\u00C0-\u017F]+$", re.UNICODE)
 
 
 def main() -> None:
@@ -34,6 +38,17 @@ def main() -> None:
             page.goto(BASE_URL, wait_until="domcontentloaded", timeout=15_000)
             # Wait for our global loaded flag (set in script.js after first render)
             page.wait_for_function("() => window.__BF_LOADED === true", timeout=15_000)
+
+            # --- ensure pagination is exhausted ---------------------------
+            # Click the "Load more" button repeatedly until it disappears
+            try:
+                while page.locator("#load-more").is_visible():
+                    page.locator("#load-more").click()
+                    # Give the DOM a brief moment to append cards
+                    page.wait_for_timeout(200)
+            except Exception:
+                # If the locator becomes detached mid-loop, restart check once
+                pass
 
             # --- basic presence checks --------------------------------------
             article_count = page.locator(".article-card, #featured-article").count()
@@ -57,7 +72,7 @@ def main() -> None:
                 print("❌ Hovering a french-word did not add the 'active' class")
                 sys.exit(5)
 
-            parent_title_has_flag = first_word.evaluate("e => e.closest('.article-title').classList.contains('has-active-word')")
+            parent_title_has_flag = first_word.evaluate("e => e.closest('.secondary-title').classList.contains('has-active-word')")
             if not parent_title_has_flag:
                 print("❌ Parent title missing 'has-active-word' after hover")
                 sys.exit(6)
@@ -81,6 +96,45 @@ def main() -> None:
                         sys.exit(4)
 
             print("✅ Smoke test passed (articles loaded, interactive words present, no split names detected).")
+
+            # ----------------------------------------------------------------
+            # Diagnostic: count punctuation-only tokens and duplicates
+            # ----------------------------------------------------------------
+            token_counts = {}
+            punct_counts = {}
+
+            for el in spans:
+                # Try to pull the original_word from data-word attribute first
+                data_attr = el.get_attribute("data-word")
+                original_word = None
+                if data_attr:
+                    try:
+                        decoded = json.loads(urllib.parse.unquote(data_attr))
+                        original_word = decoded.get("original_word") or decoded.get("word")
+                    except Exception:
+                        pass
+                if not original_word:
+                    original_word = el.inner_text().strip()
+
+                original_word = original_word.strip()
+                if not original_word:
+                    continue
+
+                token_counts[original_word] = token_counts.get(original_word, 0) + 1
+                if PUNCT_ONLY_RE.fullmatch(original_word):
+                    punct_counts[original_word] = punct_counts.get(original_word, 0) + 1
+
+            total_punct = sum(punct_counts.values())
+            if total_punct:
+                print(f"ℹ️  Punctuation-only tokens: {total_punct} across {len(punct_counts)} distinct symbols → {punct_counts}")
+            else:
+                print("👍 No punctuation-only tokens detected.")
+
+            duplicate_tokens = {t: c for t, c in token_counts.items() if c > 1}
+            if duplicate_tokens:
+                top_dupes = ", ".join(f"{tok}({cnt})" for tok, cnt in sorted(duplicate_tokens.items(), key=lambda it: it[1], reverse=True)[:10])
+                print(f"ℹ️  Tokens appearing more than once: {len(duplicate_tokens)} – Top: {top_dupes}")
+
             browser.close()
     except PlaywrightTimeout:
         print("❌ Timed out waiting for page to load (__BF_LOADED flag). Is the dev server running?")
