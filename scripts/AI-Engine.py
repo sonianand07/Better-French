@@ -149,14 +149,16 @@ class CostOptimizedAIProcessor:
         merged: List[str] = []
         i = 0
         while i < len(tokens):
-            # Identify start of potential proper-noun run
-            if tokens[i][0].isupper() and tokens[i].isalpha():
+            # Consider token without trailing punctuation
+            token_clean = tokens[i].rstrip('.,:;!?')
+            if token_clean and token_clean[0].isupper() and token_clean.isalpha():
                 run_start = i
                 run_end = i
                 # Extend run while next token is also capitalised and alpha-only, up to 3 tokens total
                 while (run_end + 1 < len(tokens) and
-                       tokens[run_end + 1][0].isupper() and
-                       tokens[run_end + 1].isalpha() and
+                       tokens[run_end + 1].rstrip('.,:;!?') and
+                       tokens[run_end + 1].rstrip('.,:;!?')[0].isupper() and
+                       tokens[run_end + 1].rstrip('.,:;!?').isalpha() and
                        (run_end - run_start + 1) < 3):
                     run_end += 1
 
