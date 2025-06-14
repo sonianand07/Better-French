@@ -46,6 +46,25 @@ def main() -> None:
                 print("❌ No interactive word spans found (class .french-word)")
                 sys.exit(3)
 
+            # --- tooltip interaction check (Step 5) ------------------------
+            # Hover the first interactive word and expect it (and its parent
+            # title) to gain the active classes set by the JS.
+            first_word = word_spans.nth(0)
+            first_word.hover()
+            page.wait_for_timeout(100)  # allow DOM to update
+
+            if not first_word.evaluate("e => e.classList.contains('active')"):
+                print("❌ Hovering a french-word did not add the 'active' class")
+                sys.exit(5)
+
+            parent_title_has_flag = first_word.evaluate("e => e.closest('.article-title').classList.contains('has-active-word')")
+            if not parent_title_has_flag:
+                print("❌ Parent title missing 'has-active-word' after hover")
+                sys.exit(6)
+
+            # Clear state with mouse move to body
+            page.mouse.move(0, 0)
+
             # --- split-name heuristic --------------------------------------
             # Iterate over secondary title spans in DOM order
             spans = word_spans.element_handles()
