@@ -662,6 +662,28 @@ class BetterFrenchApp {
 
         // Enhanced French word interactions with focus management
         this.setupFrenchWordInteractions();
+
+        // Toggle summary visibility on main headline click
+        document.querySelectorAll('.article-title').forEach(titleEl => {
+            if (titleEl.dataset.summaryBound) return;
+            titleEl.dataset.summaryBound = 'true';
+
+            titleEl.addEventListener('click', () => {
+                const card = titleEl.closest('.article-card');
+                if (!card) return;
+                const summary = card.querySelector('.summary-text');
+                if (!summary) return;
+
+                const expanded = summary.classList.toggle('expanded');
+                // If expanding, ensure it is visible for the animation
+                if (expanded) {
+                    summary.style.maxHeight = summary.scrollHeight + 'px';
+                } else {
+                    // reset max-height so next open can compute correctly
+                    summary.style.maxHeight = '0';
+                }
+            });
+        });
     }
 
     setupFrenchWordInteractions() {

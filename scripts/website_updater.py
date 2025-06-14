@@ -197,7 +197,7 @@ class LiveWebsiteUpdater:
         existing_articles: List[Dict[str, Any]] = []
         rolling_path = os.path.join(self.website_dir, 'rolling_articles.json')
         if os.path.exists(rolling_path):
-            try:
+        try:
                 with open(rolling_path, 'r', encoding='utf-8') as f:
                     existing_data = json.load(f)
                 existing_articles = existing_data.get('articles', [])

@@ -186,7 +186,7 @@ body {
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: var(--border-radius-md);
-    padding: var(--spacing-xl);
+    padding: var(--spacing-xl) 12px !important;
     transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
     position: relative;
     overflow: hidden;
@@ -194,6 +194,7 @@ body {
         0 4px 24px rgba(0, 0, 0, 0.06),
         0 1px 4px rgba(0, 0, 0, 0.04),
         inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    padding-bottom: 12px !important;
 }
 
 .article-card::before {
@@ -269,11 +270,11 @@ body {
 
 /* Article Content */
 .article-title {
-    font-size: var(--font-size-headline);
+    font-size: 22px !important;
     font-weight: 600;
     color: var(--primary-text);
     line-height: 1.5;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 12px;
 }
 
 .article-title .french-word {
@@ -335,95 +336,59 @@ body {
     transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* When any word in a title is hovered/active, fade other words elegantly */
+/* Fade other words when one is hovered/focused/active */
 .article-title:has(.french-word:hover) .french-word:not(:hover),
 .article-title:has(.french-word:focus) .french-word:not(:focus),
-.article-title:has(.french-word.active) .french-word:not(.active) {
+.article-title:has(.french-word.active) .french-word:not(.active),
+.article-title.has-active-word .french-word:not(.active) {
     opacity: 0.4;
-    background: rgba(46, 125, 50, 0.02);
     color: var(--secondary-text);
+    background: none;
     transform: none;
 }
 
-/* Fallback for browsers that don't support :has() selector */
-.article-title.has-active-word .french-word {
+.secondary-title:has(.french-word:hover) .french-word:not(:hover),
+.secondary-title:has(.french-word:focus) .french-word:not(:focus) {
     opacity: 0.4;
-    background: rgba(46, 125, 50, 0.02);
     color: var(--secondary-text);
-}
-
-.article-title.has-active-word .french-word.active {
-    opacity: 1;
-    background: rgba(46, 125, 50, 0.08);
-    color: #1B5E20;
-    font-weight: bolder;
-    text-shadow: 0 2px 4px rgba(46, 125, 50, 0.08);
-    box-shadow: 
-        0 2px 8px rgba(46, 125, 50, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    background: none;
 }
 
 .secondary-title {
-    font-size: var(--font-size-secondary);
-    font-weight: 500;
-    color: var(--primary-text);
-    line-height: 1.4;
-    margin-top: var(--spacing-lg);
+    font-size: 22px !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+    margin-top: 0; /* no gap by default */
+    margin-bottom: 12px !important;
     transition: opacity 200ms ease-in-out;
 }
 
-.summary-toggle {
-    background: none;
-    border: none;
-    color: var(--accent-color);
-    font-family: var(--font-family);
-    font-size: var(--font-size-body);
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 200ms ease-out;
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-xs);
-    padding: var(--spacing-xs) 0;
-    margin-bottom: var(--spacing-sm);
+/* Add gap only when summary is expanded */
+.summary-text.expanded + .secondary-title {
+    margin-top: 12px;
 }
 
-.summary-toggle:hover {
-    text-decoration: none;
-}
-
-.summary-toggle:focus {
-    outline: 2px solid var(--accent-color);
-    outline-offset: 2px;
-}
-
-.chevron {
-    display: none;
-}
-
-.summary-content {
-    overflow: hidden;
-    transition: height 200ms ease-in-out;
-    height: 0;
-}
-
-.summary-content.expanded {
-    height: auto;
-    margin-bottom: var(--spacing-md);
-}
-
+/* --- Collapsible summary (headline click) --- */
 .summary-text {
-    font-size: var(--font-size-body);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 350ms ease, opacity 350ms ease;
+    margin: 0; /* no gap when hidden */
+    font-size: 18px !important;
+    font-style: italic;
     font-weight: 400;
-    color: var(--primary-text);
-    line-height: 1.5;
-    padding-top: var(--spacing-sm);
 }
 
-/* Inline summary label color */
+.summary-text.expanded {
+    opacity: 1;
+    max-height: 200px; /* enough for one-line summary */
+    margin-top: 4px; /* ultra-tight gap below headline */
+}
+
 .summary-text strong {
     color: var(--accent-color);
+    font-weight: 400;
 }
 
 .article-meta {
@@ -432,7 +397,7 @@ body {
     color: var(--secondary-text);
     margin-top: auto;
     border-top: 1px solid #F0F0F0;
-    padding-top: var(--spacing-md);
+    padding-top: 6px !important;
 }
 
 /* Load More Button */
@@ -849,6 +814,10 @@ body {
     .article-title .french-word::after {
         display: none;
     }
+    
+    .article-title .french-word {
+        margin: 0;
+    }
 }
 
 /* Reduced motion support */
@@ -919,7 +888,25 @@ body {
 .article-title.has-active-word .french-word.active {
     font-weight: 500; /* keep same weight – prevent jump */
     /* Limit the animated properties so width doesn't animate */
-    transition: background-color 150ms, color 150ms, box-shadow 150ms;
+    transition: background-color 300ms, color 300ms, box-shadow 300ms;
+}
+
+/* Richer feel: slower base transition for all interactive words */
+.article-title .french-word,
+.secondary-title .french-word {
+    background: none; /* no tile in resting, allows hover override */
+    transition: color 5000ms, background-color 5000ms, opacity 5000ms;
+}
+
+/* Richer feel: slower hover/focus/active transition */
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.article-title.has-active-word .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    transition: background-color 300ms, color 300ms, box-shadow 300ms;
 }
 
 /* Restore interactive styling for original (secondary) headline words */
@@ -956,4 +943,62 @@ body {
 /* UI-refresh override: unify secondary-title base color (non-interactive words) */
 .secondary-title {
     color: var(--primary-text);
+}
+
+/* -------------------------------------------------- */
+/* UI-refresh override: remove green tile in resting state */
+.article-title .french-word,
+.secondary-title .french-word {
+    padding: 0; /* uniform spacing */
+}
+
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    padding: 0; /* remove cushion on hover */
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* FINAL override: ensure no resting background */
+.article-title .french-word,
+.secondary-title .french-word {
+    background: none !important;
+}
+/* -------------------------------------------------- */
+
+/* Ensure green highlight on interaction */
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    background: rgba(46, 125, 50, 0.08) !important;
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* FINAL timing override for interactive French words */
+.article-title .french-word,
+.secondary-title .french-word {
+    transition: color 5000ms ease, opacity 5000ms ease !important;
+}
+/* -------------------------------------------------- */
+
+/* Base (return) transition: 2s */
+.article-title .french-word,
+.secondary-title .french-word {
+    transition: color 2000ms ease, opacity 2000ms ease !important;
+}
+
+/* Fade-to-grey (on hover) faster: 0.5s */
+.article-title:has(.french-word:hover) .french-word:not(:hover),
+.article-title:has(.french-word:focus) .french-word:not(:focus),
+.secondary-title:has(.french-word:hover) .french-word:not(:hover),
+.secondary-title:has(.french-word:focus) .french-word:not(:focus) {
+    transition: color 500ms ease, opacity 500ms ease !important;
 } 
