@@ -35,6 +35,7 @@ pytest>=7.4.0              # Testing framework
 black>=23.0.0               # Code formatting
 flake8>=6.0.0               # Code linting
 playwright>=1.44.0          # Headless browser for automated UI checks
+Pillow>=10.3.0            # Image processing for visual diff
 
 # Optional advanced features (can be installed separately)
 # nltk>=3.8                 # Advanced NLP (future feature)
