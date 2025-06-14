@@ -379,9 +379,19 @@ Based on the article above, provide the complete JSON response:
                 output_tokens = usage.get('completion_tokens', 0)
                 total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
                 
-                # Claude 3.5 Sonnet pricing via OpenRouter (approximate)
-                input_cost_per_1k = 0.003  # $3 per 1M tokens = $0.003 per 1K
-                output_cost_per_1k = 0.015  # $15 per 1M tokens = $0.015 per 1K
+                # --- Dynamic cost table so model swaps don't require code edits elsewhere ---
+                PRICE_TABLE = {
+                    "anthropic/claude-3.5-sonnet":      (0.00300, 0.01500),  # $3 / $15 per 1M
+                    "meta-llama/llama-3-70b-instruct": (0.00035, 0.00070),  # $0.35 / $0.70 per 1M
+                    "google/gemini-2-flash":            (0.00025, 0.00050),
+                    # Add new models here ➜ "vendor/model": (in_cost, out_cost)
+                }
+
+                # Fallback: default to Sonnet rates if unknown model string
+                input_cost_per_1k, output_cost_per_1k = PRICE_TABLE.get(
+                    self.model,
+                    PRICE_TABLE.get("anthropic/claude-3.5-sonnet")
+                )
                 
                 # Calculate actual cost
                 input_cost = (input_tokens / 1000) * input_cost_per_1k
