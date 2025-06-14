@@ -164,7 +164,8 @@ class CostOptimizedAIProcessor:
 
                 # If we have at least two tokens in the run, merge them
                 if run_end > run_start:
-                    phrase = " ".join(tokens[run_start: run_end + 1])
+                    # Build phrase without trailing punctuation on individual tokens
+                    phrase = " ".join(t.rstrip('.,:;!?') for t in tokens[run_start: run_end + 1])
                     merged.append(phrase)
                     i = run_end + 1
                     continue  # Move to next token after the merged run
