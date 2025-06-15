@@ -1,14 +1,320 @@
 {
   "metadata": {
-    "updated_at": "2025-06-15T19:29:09.700592+00:00",
+    "updated_at": "2025-06-15T20:19:23.909664+00:00",
     "total_articles": 100,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
-    "ai_enhanced_count": 8,
+    "ai_enhanced_count": 4,
     "update_type": "ai_enhanced",
-    "average_score": 21.322000000000003
+    "average_score": 21.287999999999997
   },
   "articles": [
+    {
+      "title": "Luca de Meo quitte Renault",
+      "english_title": "Luca de Meo leaves Renault",
+      "simplified_french_title": "Luca de Meo quitte Renault",
+      "simplified_english_title": "Luca de Meo leaves Renault",
+      "summary": "Luca de Meo, directeur général de Renault, va quitter l'entreprise. Il a pris la direction en 2020.",
+      "english_summary": "Luca de Meo, Renault's CEO, is leaving the company. He took the helm in 2020.",
+      "french_summary": "Luca de Meo, directeur général de Renault, va quitter l'entreprise. Il a pris la direction en 2020.",
+      "original_article_title": "Renault : le directeur général Luca de Meo va quitter l'entreprise",
+      "original_article_link": "https://www.lexpress.fr/economie/renault-le-directeur-general-luca-de-meo-va-quitter-lentreprise-P4CETW5Z2FFOHPO52GXG2UBWWQ/",
+      "link": "https://www.lexpress.fr/economie/renault-le-directeur-general-luca-de-meo-va-quitter-lentreprise-P4CETW5Z2FFOHPO52GXG2UBWWQ/",
+      "source_name": "L'Express",
+      "published": "Sun, 15 Jun 2025 19:54:27 +0000",
+      "published_date": "Sun, 15 Jun 2025 19:54:27 +0000",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.1,
+        "relevance_score": 7.6,
+        "importance_score": 8.5,
+        "total_score": 23.2
+      },
+      "curation_metadata": {
+        "curation_id": "f2afc66c-bd4b-4daf-865f-ba8073d936bc",
+        "curated_at": "2025-06-15T20:15:23.653222+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T20:19:23.905537+00:00",
+      "quality_score": 7.1,
+      "relevance_score": 7.6,
+      "importance_score": 8.5,
+      "total_score": 23.2
+    },
+    {
+      "title": "Députés macronistes votent contre suppression ZFE",
+      "english_title": "Macronist MPs vote against ZFE abolition",
+      "simplified_french_title": "Députés macronistes votent contre suppression ZFE",
+      "simplified_english_title": "Macronist MPs vote against ZFE abolition",
+      "summary": "Samedi, LR et RN ont adopté la suppression des ZFE, avec des voix du bloc central et de La France insoumise, opposées à son application territoriale.",
+      "english_summary": "On Saturday, LR and RN adopted the abolition of ZFE, with central bloc and La France insoumise votes, opposing its territorial application.",
+      "french_summary": "Samedi, LR et RN ont adopté la suppression des ZFE, avec des voix du bloc central et de La France insoumise, opposées à son application territoriale.",
+      "original_article_title": "Les députés macronistes voteront contre le projet de loi qui supprime les ZFE",
+      "original_article_link": "https://www.lefigaro.fr/politique/les-macronistes-voteront-contre-le-projet-de-loi-qui-supprime-les-zfe-20250615",
+      "link": "https://www.lefigaro.fr/politique/les-macronistes-voteront-contre-le-projet-de-loi-qui-supprime-les-zfe-20250615",
+      "source_name": "Le Figaro",
+      "published": "Sun, 15 Jun 2025 21:43:58 +0200",
+      "published_date": "Sun, 15 Jun 2025 21:43:58 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 6.199999999999999,
+        "importance_score": 7.0,
+        "total_score": 20.1
+      },
+      "curation_metadata": {
+        "curation_id": "21efc857-3142-4fc8-9711-d4e0a7a555a9",
+        "curated_at": "2025-06-15T20:15:23.645144+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T20:19:23.905566+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 6.199999999999999,
+      "importance_score": 7.0,
+      "total_score": 20.1
+    },
+    {
+      "title": "Sommet des océans 2025 : Agnès Pannier-Runacher fait le b…",
+      "english_title": "Ocean Summit 2025: Agnès Pannier-Runacher Assesses Progress",
+      "simplified_french_title": "Sommet des océans 2025 : Agnès Pannier-Runacher fait le b…",
+      "simplified_english_title": "Ocean Summit 2025: Agnès Pannier-Runacher Assesses Progress",
+      "summary": "À Nice, le Sommet des océans 2025 a réuni des leaders pour protéger les aires maritimes mondiales. Agnès Pannier-Runacher, ministre, a fait le bilan de cette semaine.",
+      "english_summary": "In Nice, the Ocean Summit 2025 brought together leaders to protect global maritime areas. Minister Agnès Pannier-Runacher assessed the week's progress.",
+      "french_summary": "À Nice, le Sommet des océans 2025 a réuni des leaders pour protéger les aires maritimes mondiales. Agnès Pannier-Runacher, ministre, a fait le bilan de cette semaine.",
+      "original_article_title": "Sommet des océans 2025 : Agnès Pannier-Runacher, Ministre de la Transition écologique, fait le bilan",
+      "original_article_link": "https://www.franceinfo.fr/environnement/sommet-des-oceans-2025-agnes-pannier-runacher-ministre-de-la-transition-ecologique-fait-le-bilan_7315614.html#xtor=RSS-3-[lestitres]",
+      "link": "https://www.franceinfo.fr/environnement/sommet-des-oceans-2025-agnes-pannier-runacher-ministre-de-la-transition-ecologique-fait-le-bilan_7315614.html#xtor=RSS-3-[lestitres]",
+      "source_name": "France Info",
+      "published": "Sun, 15 Jun 2025 20:01:39 +0200",
+      "published_date": "Sun, 15 Jun 2025 20:01:39 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 3.0,
+        "importance_score": 9.0,
+        "total_score": 20.1
+      },
+      "curation_metadata": {
+        "curation_id": "61e5d7f8-c9bb-43ed-a140-635a2d1094ef",
+        "curated_at": "2025-06-15T20:15:23.647788+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T20:19:23.905573+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 3.0,
+      "importance_score": 9.0,
+      "total_score": 20.1
+    },
+    {
+      "title": "Tchad: procureur interdit enquête sur violences à Mandakao",
+      "english_title": "Chad: Prosecutor Bans Investigation into Mandakao Violence",
+      "simplified_french_title": "Tchad: procureur interdit enquête sur violences à Mandakao",
+      "simplified_english_title": "Chad: Prosecutor Bans Investigation into Mandakao Violence",
+      "summary": "Au Tchad, le procureur interdit aux journalistes et à la société civile d'enquêter sur les violences à Mandakao, où 40 personnes sont mortes début mai. Il menace de poursuites judiciaires.",
+      "english_summary": "In Chad, the prosecutor bans journalists and civil society from investigating the Mandakao violence, where 40 people died in early May, threatening legal action.",
+      "french_summary": "Au Tchad, le procureur interdit aux journalistes et à la société civile d'enquêter sur les violences à Mandakao, où 40 personnes sont mortes début mai. Il menace de poursuites judiciaires.",
+      "original_article_title": "Tchad: le procureur interdit la presse et la société civile d'enquêter sur les violences de Mandakao",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250615-tchad-le-procureur-interdit-la-presse-et-la-soci%C3%A9t%C3%A9-civile-d-enqu%C3%AAter-sur-les-violences-de-mandakao",
+      "link": "https://www.rfi.fr/fr/afrique/20250615-tchad-le-procureur-interdit-la-presse-et-la-soci%C3%A9t%C3%A9-civile-d-enqu%C3%AAter-sur-les-violences-de-mandakao",
+      "source_name": "RFI",
+      "published": "Sun, 15 Jun 2025 20:14:04 GMT",
+      "published_date": "Sun, 15 Jun 2025 20:14:04 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.9,
+        "relevance_score": 3.6,
+        "importance_score": 7.5,
+        "total_score": 20.0
+      },
+      "curation_metadata": {
+        "curation_id": "a1896acb-baaf-4d7c-8896-f207fea98c2c",
+        "curated_at": "2025-06-15T20:15:23.644366+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T20:19:23.905578+00:00",
+      "quality_score": 8.9,
+      "relevance_score": 3.6,
+      "importance_score": 7.5,
+      "total_score": 20.0
+    },
+    {
+      "title": "Israël-Iran : zones touchées après salve de missiles",
+      "english_title": "Israel-Iran: Areas hit after missile barrage",
+      "simplified_french_title": "Israël-Iran : zones touchées après salve de missiles",
+      "simplified_english_title": "Israel-Iran: Areas hit after missile barrage",
+      "summary": "L'armée israélienne a levé l'alerte maximale, la population peut sortir des abris. Les opérations militaires se poursuivent.",
+      "english_summary": "The Israeli army has lifted the maximum alert, allowing people to leave shelters. Military operations continue.",
+      "french_summary": "L'armée israélienne a levé l'alerte maximale, la population peut sortir des abris. Les opérations militaires se poursuivent.",
+      "original_article_title": "En direct, Israël-Iran : plusieurs zones ont été « touchées » en Israël à la suite de la dernière salve de missiles tirés dimanche soir par l’Iran",
+      "original_article_link": "https://www.lemonde.fr/international/live/2025/06/15/en-direct-israel-iran-plusieurs-zones-ont-ete-touchees-en-israel-a-la-suite-de-la-derniere-salve-de-missiles-tires-dimanche-soir-par-l-iran_6612642_3210.html",
+      "link": "https://www.lemonde.fr/international/live/2025/06/15/en-direct-israel-iran-plusieurs-zones-ont-ete-touchees-en-israel-a-la-suite-de-la-derniere-salve-de-missiles-tires-dimanche-soir-par-l-iran_6612642_3210.html",
+      "source_name": "Le Monde",
+      "published": "Sun, 15 Jun 2025 21:18:22 +0200",
+      "published_date": "Sun, 15 Jun 2025 21:18:22 +0200",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**In / On:** (preposition)",
+          "explanation": "Indicates a location or a specific time.",
+          "cultural_note": ""
+        },
+        "direct": {
+          "display_format": "**Live / Direct:** (adverb)",
+          "explanation": "Happening or broadcast in real-time.",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** (proper noun)",
+          "explanation": "Refers to the conflict or relations between Israel and Iran.",
+          "cultural_note": "The Israel-Iran conflict is a significant geopolitical issue in the Middle East."
+        },
+        ":": {
+          "display_format": "**:** (punctuation)",
+          "explanation": "Colon introducing an explanation or listing.",
+          "cultural_note": ""
+        },
+        "plusieurs": {
+          "display_format": "**Several:** (determiner)",
+          "explanation": "Indicates an unspecified number of items or people.",
+          "cultural_note": ""
+        },
+        "zones": {
+          "display_format": "**Areas / Zones:** (noun)",
+          "explanation": "Regions or parts of a larger area.",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**Have:** (verb)",
+          "explanation": "Third person plural form of 'avoir' (to have).",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**Been:** (verb)",
+          "explanation": "Past participle of 'être' (to be).",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** (punctuation)",
+          "explanation": "Opening French quotation mark.",
+          "cultural_note": ""
+        },
+        "touchées": {
+          "display_format": "**Affected / Hit:** (verb)",
+          "explanation": "Past participle of 'toucher' (to touch or hit).",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** (punctuation)",
+          "explanation": "Closing French quotation mark.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In / On:** (preposition)",
+          "explanation": "Indicates a location or a specific time.",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** (proper noun)",
+          "explanation": "Country in the Middle East.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To / At:** (preposition)",
+          "explanation": "Indicates direction, location, or purpose.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (article)",
+          "explanation": "Definite article indicating a specific noun.",
+          "cultural_note": ""
+        },
+        "suite": {
+          "display_format": "**Aftermath / Following:** (noun)",
+          "explanation": "Consequence or result of an event.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "dernière": {
+          "display_format": "**Last / Latest:** (adjective)",
+          "explanation": "Indicates the most recent or final item.",
+          "cultural_note": ""
+        },
+        "salve": {
+          "display_format": "**Salvo / Burst:** (noun)",
+          "explanation": "A simultaneous release of multiple projectiles or missiles.",
+          "cultural_note": ""
+        },
+        "missiles": {
+          "display_format": "**Missiles:** (noun)",
+          "explanation": "Self-propelled weapons.",
+          "cultural_note": ""
+        },
+        "tirés": {
+          "display_format": "**Fired / Launched:** (verb)",
+          "explanation": "Past participle of 'tirer' (to fire or launch).",
+          "cultural_note": ""
+        },
+        "dimanche": {
+          "display_format": "**Sunday:** (noun)",
+          "explanation": "Day of the week.",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**Evening:** (noun)",
+          "explanation": "Part of the day.",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** (preposition)",
+          "explanation": "Indicates agency or means.",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**The:** (article)",
+          "explanation": "Definite article indicating a specific noun.",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** (proper noun)",
+          "explanation": "Country in the Middle East.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 3.6,
+        "importance_score": 7.0,
+        "total_score": 17.5
+      },
+      "curation_metadata": {
+        "curation_id": "b9d3765a-f6c3-416f-b278-98a9f6e93ad4",
+        "curated_at": "2025-06-15T20:13:15.196828+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T20:15:21.419615+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 3.6,
+      "importance_score": 7.0,
+      "total_score": 17.5
+    },
     {
       "title": "Gouvernement Starmer au Royaume-Uni",
       "english_title": "Starmer Government in the UK",
@@ -9797,571 +10103,6 @@
       "relevance_score": 3.8,
       "importance_score": 7.0,
       "total_score": 20.4
-    },
-    {
-      "title": "L'AFP économisera 12 millions d'euros",
-      "english_title": "AFP Announces 12 Million Euro Cost-Cutting Plan",
-      "simplified_french_title": "L'AFP économisera 12 millions d'euros",
-      "simplified_english_title": "AFP Announces 12 Million Euro Cost-Cutting Plan",
-      "summary": "L'agence de presse AFP doit réduire ses coûts pour préserver son indépendance face à la crise des médias.",
-      "english_summary": "AFP must cut costs to preserve independence amid media crisis.",
-      "french_summary": "L'agence de presse AFP doit réduire ses coûts pour préserver son indépendance face à la crise des médias.",
-      "original_article_title": "Touchée par la crise des médias, l’AFP annonce un « programme d’économies » d’au moins 12 millions d’euros",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/13/touchee-par-la-crise-des-medias-l-agence-france-presse-annonce-un-programme-d-economies-d-au-moins-12-millions-d-euros_6612749_3234.html",
-      "link": "https://www.lemonde.fr/economie/article/2025/06/13/touchee-par-la-crise-des-medias-l-agence-france-presse-annonce-un-programme-d-economies-d-au-moins-12-millions-d-euros_6612749_3234.html",
-      "source_name": "Le Monde Economie",
-      "published": "Fri, 13 Jun 2025 15:57:15 +0200",
-      "published_date": "Fri, 13 Jun 2025 15:57:15 +0200",
-      "contextual_title_explanations": {
-        "Touchée": {
-          "display_format": "**Affected / Touched:** (verb)",
-          "explanation": "Means being influenced or affected by something.",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By / Through:** (preposition)",
-          "explanation": "Indicates the means or agent of an action.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "crise": {
-          "display_format": "**Crisis:** A time of great difficulty or danger.",
-          "explanation": "A situation where there is intense difficulty or instability.",
-          "cultural_note": "In the context of the media industry, a crisis often refers to a significant decline in revenue or viewership."
-        },
-        "des": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or belonging.",
-          "cultural_note": ""
-        },
-        "médias": {
-          "display_format": "**Media:** Channels of mass communication.",
-          "explanation": "Includes newspapers, television, radio, and online news outlets.",
-          "cultural_note": "The media crisis in France refers to the decline of traditional media outlets and the rise of digital media."
-        },
-        "l’AFP": {
-          "display_format": "**AFP (Agence France-Presse):** French news agency.",
-          "explanation": "A leading international news agency based in France.",
-          "cultural_note": "AFP is one of the largest and most respected news agencies in the world, providing news coverage to media outlets globally."
-        },
-        "annonce": {
-          "display_format": "**Announces:** (verb)",
-          "explanation": "To declare or make known something publicly.",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate a non-specific noun.",
-          "cultural_note": ""
-        },
-        "programme": {
-          "display_format": "**Program / Plan:** A set of actions to achieve a goal.",
-          "explanation": "A detailed proposal for doing or achieving something.",
-          "cultural_note": ""
-        },
-        "d’économies": {
-          "display_format": "**Of cost-cutting / Savings:** Reducing expenses to save money.",
-          "explanation": "A strategy to reduce costs and improve financial efficiency.",
-          "cultural_note": "In the context of a company, cost-cutting measures are often necessary to ensure financial sustainability."
-        },
-        "d’au": {
-          "display_format": "**Of at least:** (preposition)",
-          "explanation": "Indicates a minimum amount or quantity.",
-          "cultural_note": ""
-        },
-        "moins": {
-          "display_format": "**At least / Minimum:** (adverb)",
-          "explanation": "Indicates a minimum amount or quantity.",
-          "cultural_note": ""
-        },
-        "12": {
-          "display_format": "**12:** (number)",
-          "explanation": "A numerical value.",
-          "cultural_note": ""
-        },
-        "millions": {
-          "display_format": "**Millions:** (noun)",
-          "explanation": "A unit of currency or quantity.",
-          "cultural_note": ""
-        },
-        "d’euros": {
-          "display_format": "**Of euros:** (currency)",
-          "explanation": "The official currency of the European Union.",
-          "cultural_note": "The euro is used by 19 of the 27 member states of the European Union, including France."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 4.8999999999999995,
-        "importance_score": 8.5,
-        "total_score": 20.3
-      },
-      "curation_metadata": {
-        "curation_id": "ec47a2b3-c184-43e7-b008-613cb2ae0762",
-        "curated_at": "2025-06-13T18:19:07.178719+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T18:23:03.309861+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 8.5,
-      "total_score": 20.3
-    },
-    {
-      "title": "Le Sommet de Nice pour les océans",
-      "english_title": "The Nice Summit for the Oceans",
-      "simplified_french_title": "Le Sommet de Nice pour les océans",
-      "simplified_english_title": "The Nice Summit for the Oceans",
-      "summary": "La conférence onusienne sur l'océan a pris des décisions pour défendre les écosystèmes marins et lutter contre la pollution.",
-      "english_summary": "The UN ocean conference made decisions to defend marine ecosystems and fight against plastic pollution.",
-      "french_summary": "La conférence onusienne sur l'océan a pris des décisions pour défendre les écosystèmes marins et lutter contre la pollution.",
-      "original_article_title": "Le Sommet de Nice accouche d’engagements pour les océans en deçà de l’urgence écologique",
-      "original_article_link": "https://www.mediapart.fr/journal/ecologie/130625/le-sommet-de-nice-accouche-d-engagements-pour-les-oceans-en-deca-de-l-urgence-ecologique",
-      "link": "https://www.mediapart.fr/journal/ecologie/130625/le-sommet-de-nice-accouche-d-engagements-pour-les-oceans-en-deca-de-l-urgence-ecologique",
-      "source_name": "Mediapart",
-      "published": "Fri, 13 Jun 2025 20:07:14 +0200",
-      "published_date": "Fri, 13 Jun 2025 20:07:14 +0200",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**The:** (article)",
-          "explanation": "Indicates that the noun it precedes is specific or previously mentioned.",
-          "cultural_note": ""
-        },
-        "Sommet": {
-          "display_format": "**Summit:** A high-level meeting or conference.",
-          "explanation": "A gathering of high-ranking officials or leaders to discuss important issues.",
-          "cultural_note": "In international relations, summits are crucial for resolving conflicts, setting policies, or making agreements."
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "Nice": {
-          "display_format": "**Nice:** A city in southeastern France.",
-          "explanation": "A popular tourist destination known for its mild climate and scenic beaches.",
-          "cultural_note": "Nice is a significant location for international conferences and diplomatic meetings."
-        },
-        "accouche": {
-          "display_format": "**Gives birth to / Produces:** (verb)",
-          "explanation": "To give birth to an idea, a project, or a result.",
-          "cultural_note": "The verb 'accoucher' is often used figuratively to describe the outcome of a process or effort."
-        },
-        "d'engagements": {
-          "display_format": "**Of commitments / Pledges:** (noun)",
-          "explanation": "Promises or obligations to take action or achieve a goal.",
-          "cultural_note": "In international diplomacy, commitments and pledges are crucial for building trust and cooperation."
-        },
-        "pour": {
-          "display_format": "**For:** (preposition)",
-          "explanation": "Indicates direction, purpose, or intended recipient.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** (article)",
-          "explanation": "Indicates that the noun it precedes is specific or previously mentioned.",
-          "cultural_note": ""
-        },
-        "océans": {
-          "display_format": "**Oceans:** The world's five interconnected bodies of saltwater.",
-          "explanation": "The vast, continuous expanse of saltwater that covers over 70% of the Earth's surface.",
-          "cultural_note": "Ocean conservation is a pressing global issue, with many countries working together to protect marine ecosystems."
-        },
-        "en": {
-          "display_format": "**In / At:** (preposition)",
-          "explanation": "Indicates location, position, or circumstance.",
-          "cultural_note": ""
-        },
-        "deçà": {
-          "display_format": "**Below / Under:** (preposition)",
-          "explanation": "Indicates a position lower than something else.",
-          "cultural_note": "In this context, 'deçà' suggests that the commitments made at the summit do not meet the urgency of the ecological crisis."
-        },
-        "l'urgence": {
-          "display_format": "**The urgency:** A pressing need or emergency.",
-          "explanation": "A situation that requires immediate attention or action.",
-          "cultural_note": "The ecological crisis is a pressing global issue, with many countries working together to address its consequences."
-        },
-        "écologique": {
-          "display_format": "**Ecological:** Relating to the environment and conservation.",
-          "explanation": "Concerned with the relationships between living organisms and their environment.",
-          "cultural_note": "Ecological issues are a major concern in modern politics, with many countries prioritizing sustainability and environmental protection."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 4.3999999999999995,
-        "importance_score": 7.5,
-        "total_score": 20.3
-      },
-      "curation_metadata": {
-        "curation_id": "e2e93b8e-e3e9-484b-af2c-dcfdfbf573d4",
-        "curated_at": "2025-06-13T18:19:07.181445+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T18:23:03.309872+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 4.3999999999999995,
-      "importance_score": 7.5,
-      "total_score": 20.3
-    },
-    {
-      "title": "Sénateur démocrate expulsé d'une conférence de presse aux États-Unis",
-      "english_title": "Democratic Senator Ejected from Press Conference in the US",
-      "simplified_french_title": "Sénateur démocrate expulsé d'une conférence de presse aux États-Unis",
-      "simplified_english_title": "Democratic Senator Ejected from Press Conference in the US",
-      "summary": "Un sénateur américain a été expulsé d'une conférence de presse à Los Angeles lors de manifestations contre Trump.",
-      "english_summary": "A US senator was ejected from a press conference in Los Angeles during protests against Trump's policies.",
-      "french_summary": "Un sénateur américain a été expulsé d'une conférence de presse à Los Angeles lors de manifestations contre Trump.",
-      "original_article_title": "États-Unis: un sénateur démocrate violemment expulsé et menotté lors d’une conférence de presse d'une ministre de Donald Trump",
-      "original_article_link": "https://www.bfmtv.com/international/etats-unis-un-senateur-democrate-violemment-expulse-et-menotte-lors-d-une-conference-de-presse-d-une-ministre-de-donald-trump_VN-202506130664.html",
-      "link": "https://www.bfmtv.com/international/etats-unis-un-senateur-democrate-violemment-expulse-et-menotte-lors-d-une-conference-de-presse-d-une-ministre-de-donald-trump_VN-202506130664.html",
-      "source_name": "BFM TV",
-      "published": "Fri, 13 Jun 2025 17:01:45 GMT",
-      "published_date": "Fri, 13 Jun 2025 17:01:45 GMT",
-      "contextual_title_explanations": {
-        "États-Unis": {
-          "display_format": "**United States:** Country in North America",
-          "explanation": "A federal republic consisting of 50 states, a federal district, and several territories.",
-          "cultural_note": "A global superpower with significant influence in international politics and economy."
-        },
-        "un": {
-          "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate that the noun it precedes is singular and indefinite.",
-          "cultural_note": ""
-        },
-        "sénateur": {
-          "display_format": "**Senator:** Member of a legislative body",
-          "explanation": "A member of the upper house of a bicameral legislature, such as the US Senate.",
-          "cultural_note": "In the US, senators are elected by the people of their state and serve six-year terms."
-        },
-        "démocrate": {
-          "display_format": "**Democratic:** Relating to the Democratic Party",
-          "explanation": "The Democratic Party is one of the two major political parties in the US.",
-          "cultural_note": "The party is generally associated with liberal or progressive policies and values."
-        },
-        "violemment": {
-          "display_format": "**Violently:** With violence or force",
-          "explanation": "Indicates that an action was performed with intense physical force or aggression.",
-          "cultural_note": ""
-        },
-        "expulsé": {
-          "display_format": "**Ejected:** Forced to leave",
-          "explanation": "To be removed or forced to leave a place, often suddenly or forcibly.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And:** (conjunction)",
-          "explanation": "Used to connect words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "menotté": {
-          "display_format": "**Handcuffed:** Restrained with handcuffs",
-          "explanation": "To be restrained with metal cuffs, typically by law enforcement.",
-          "cultural_note": ""
-        },
-        "lors": {
-          "display_format": "**When:** (preposition)",
-          "explanation": "Indicates a specific time or occasion.",
-          "cultural_note": ""
-        },
-        "d'une": {
-          "display_format": "**Of a:** (preposition + article)",
-          "explanation": "Used to indicate possession or origin.",
-          "cultural_note": ""
-        },
-        "conférence": {
-          "display_format": "**Conference:** Meeting of people to discuss a topic",
-          "explanation": "A formal meeting for discussion, often with a specific agenda or topic.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "presse": {
-          "display_format": "**Press:** News media",
-          "explanation": "The news media, including journalists and publications.",
-          "cultural_note": ""
-        },
-        "ministre": {
-          "display_format": "**Minister:** High-ranking government official",
-          "explanation": "A high-ranking government official responsible for a specific department or portfolio.",
-          "cultural_note": "In the US, analogous to a Cabinet member."
-        },
-        "Donald": {
-          "display_format": "**Donald:** First name of the 45th US President",
-          "explanation": "A prominent American businessman and politician.",
-          "cultural_note": "His presidency was marked by significant changes to US trade policy, including the imposition of tariffs on goods from various countries."
-        },
-        "Trump": {
-          "display_format": "**Trump:** Last name of the 45th US President",
-          "explanation": "A prominent American businessman and politician.",
-          "cultural_note": "His presidency was marked by significant changes to US trade policy, including the imposition of tariffs on goods from various countries."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.1,
-        "relevance_score": 5.199999999999999,
-        "importance_score": 7.5,
-        "total_score": 20.799999999999997
-      },
-      "curation_metadata": {
-        "curation_id": "e7ec323b-1772-436c-bb23-1107dc348093",
-        "curated_at": "2025-06-13T18:17:25.560119+00:00",
-        "fast_tracked": true
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T18:19:04.191570+00:00",
-      "quality_score": 8.1,
-      "relevance_score": 5.199999999999999,
-      "importance_score": 7.5,
-      "total_score": 20.799999999999997
-    },
-    {
-      "title": "Pollution de l'air dans le Sud-Est et l'Alsace",
-      "english_title": "Air Pollution in Southeastern France and Alsace",
-      "simplified_french_title": "Pollution de l'air dans le Sud-Est et l'Alsace",
-      "simplified_english_title": "Air Pollution in Southeastern France and Alsace",
-      "summary": "Des mesures sont prises contre la pollution de l'air dans plusieurs régions.",
-      "english_summary": "Measures are being taken against air pollution in several regions.",
-      "french_summary": "Des mesures sont prises contre la pollution de l'air dans plusieurs régions.",
-      "original_article_title": "Pollution de l’air : des départements du Sud-Est et l’Alsace en alerte, circulation différenciée dans les Bouches-du-Rhône",
-      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/13/pollution-de-l-air-des-departements-du-sud-est-et-l-alsace-en-alerte-circulation-differenciee-dans-les-bouches-du-rhone_6612783_3244.html",
-      "link": "https://www.lemonde.fr/planete/article/2025/06/13/pollution-de-l-air-des-departements-du-sud-est-et-l-alsace-en-alerte-circulation-differenciee-dans-les-bouches-du-rhone_6612783_3244.html",
-      "source_name": "Le Monde",
-      "published": "Fri, 13 Jun 2025 19:27:19 +0200",
-      "published_date": "Fri, 13 Jun 2025 19:27:19 +0200",
-      "contextual_title_explanations": {
-        "Pollution": {
-          "display_format": "**Pollution:** Environmental contamination.",
-          "explanation": "The introduction of harmful substances into the environment, causing damage to the ecosystem.",
-          "cultural_note": "Air pollution is a significant concern in urban areas, particularly in France where vehicle emissions are a major contributor."
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "l’air": {
-          "display_format": "**The air:** The atmosphere surrounding the Earth.",
-          "explanation": "The invisible mixture of gases that surrounds the planet.",
-          "cultural_note": "Air quality is a critical aspect of environmental health, and France has implemented various measures to reduce pollution."
-        },
-        "des": {
-          "display_format": "**Some / Several:** (plural article)",
-          "explanation": "Indicates an unspecified number of items or regions.",
-          "cultural_note": ""
-        },
-        "départements": {
-          "display_format": "**Departments:** Administrative divisions of a country.",
-          "explanation": "In France, departments are the second-level administrative divisions, below regions.",
-          "cultural_note": "France is divided into 101 departments, each with its own administration and responsibilities."
-        },
-        "du": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or origin.",
-          "cultural_note": ""
-        },
-        "Sud-Est": {
-          "display_format": "**Southeast:** A region in southeastern France.",
-          "explanation": "A geographic area comprising several departments, known for its Mediterranean climate and scenic landscapes.",
-          "cultural_note": "The Southeast is a popular tourist destination, with famous cities like Marseille and Nice."
-        },
-        "et": {
-          "display_format": "**And:** (conjunction)",
-          "explanation": "Used to connect words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "l’Alsace": {
-          "display_format": "**Alsace:** A region in northeastern France.",
-          "explanation": "A historic region bordering Germany and Switzerland, known for its unique cultural heritage and wine production.",
-          "cultural_note": "Alsace has a distinct cultural identity, with a blend of French and German influences."
-        },
-        "en": {
-          "display_format": "**In / On:** (preposition)",
-          "explanation": "Indicates location or position.",
-          "cultural_note": ""
-        },
-        "alerte": {
-          "display_format": "**Alert:** A warning or notification.",
-          "explanation": "A state of heightened awareness or warning, often due to a potential danger or risk.",
-          "cultural_note": "Air quality alerts are common in France, especially during peak pollution periods."
-        },
-        "circulation": {
-          "display_format": "**Traffic / Circulation:** The movement of vehicles or people.",
-          "explanation": "The flow of traffic or the movement of people in a particular area.",
-          "cultural_note": "Traffic management is a crucial aspect of urban planning, and France has implemented various measures to reduce congestion."
-        },
-        "différenciée": {
-          "display_format": "**Differentiated:** Varied or adapted to specific circumstances.",
-          "explanation": "Tailored to meet specific needs or requirements.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In / Within:** (preposition)",
-          "explanation": "Indicates location or position.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** (plural article)",
-          "explanation": "Indicates a specific or previously mentioned group.",
-          "cultural_note": ""
-        },
-        "Bouches-du-Rhône": {
-          "display_format": "**Bouches-du-Rhône:** A department in southeastern France.",
-          "explanation": "A department in the Provence-Alpes-Côte d'Azur region, known for its Mediterranean coastline and port city of Marseille.",
-          "cultural_note": "Bouches-du-Rhône is a significant economic and cultural hub in southern France."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 4.8999999999999995,
-        "importance_score": 7.0,
-        "total_score": 19.0
-      },
-      "curation_metadata": {
-        "curation_id": "e94c5aeb-f91b-4d31-a40e-b17ba8004ba8",
-        "curated_at": "2025-06-13T18:17:25.559917+00:00",
-        "fast_tracked": true
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T18:19:04.191540+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 7.0,
-      "total_score": 19.0
-    },
-    {
-      "title": "Arnaud Teyssier : La dette publique et l'immigration",
-      "english_title": "Arnaud Teyssier: Linking Public Debt to Mass Immigration",
-      "simplified_french_title": "Arnaud Teyssier : La dette publique et l'immigration",
-      "simplified_english_title": "Arnaud Teyssier: Linking Public Debt to Mass Immigration",
-      "summary": "Arnaud Teyssier explique les causes de l'endettement de la France et critique la droite pour ne pas aborder le problème à la racine.",
-      "english_summary": "Arnaud Teyssier explains the causes of France's debt and criticizes the right for not addressing the root of the problem.",
-      "french_summary": "Arnaud Teyssier explique les causes de l'endettement de la France et critique la droite pour ne pas aborder le problème à la racine.",
-      "original_article_title": "Arnaud Teyssier : «Il est temps de faire le lien entre la “submersion migratoire” et la dérive des comptes publics»",
-      "original_article_link": "https://www.lefigaro.fr/vox/politique/arnaud-teyssier-il-est-temps-de-faire-le-lien-entre-la-submersion-migratoire-et-la-derive-des-comptes-publics-20250612",
-      "link": "https://www.lefigaro.fr/vox/politique/arnaud-teyssier-il-est-temps-de-faire-le-lien-entre-la-submersion-migratoire-et-la-derive-des-comptes-publics-20250612",
-      "source_name": "Le Figaro",
-      "published": "Fri, 13 Jun 2025 16:36:54 +0200",
-      "published_date": "Fri, 13 Jun 2025 16:36:54 +0200",
-      "contextual_title_explanations": {
-        "Arnaud Teyssier": {
-          "display_format": "**Arnaud Teyssier:** French historian and specialist in Gaullism and the Fifth Republic.",
-          "explanation": "A prominent French historian and expert on the Gaullist movement and the Fifth Republic.",
-          "cultural_note": "Gaullism refers to the political ideology of Charles de Gaulle, a key figure in French history."
-        },
-        "Il": {
-          "display_format": "**He / It:** (pronoun)",
-          "explanation": "Used to refer to a person or thing.",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**Is:** (verb)",
-          "explanation": "A form of the verb 'être' indicating a state or condition.",
-          "cultural_note": ""
-        },
-        "temps": {
-          "display_format": "**Time:** A period or moment.",
-          "explanation": "Refers to a specific point or duration.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "faire": {
-          "display_format": "**To do / To make:** (verb)",
-          "explanation": "A versatile verb with various meanings depending on context.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** (article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "lien": {
-          "display_format": "**Link / Connection:** A relationship or bond.",
-          "explanation": "Refers to an association or tie between two things.",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**Between:** (preposition)",
-          "explanation": "Indicates a position or relationship between two things.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "“submersion migratoire”": {
-          "display_format": "**Mass immigration:** A large-scale influx of people into a country.",
-          "explanation": "A situation where a large number of immigrants enter a country, often causing social and economic changes.",
-          "cultural_note": "Mass immigration is a controversial topic in many countries, including France."
-        },
-        "et": {
-          "display_format": "**And:** (conjunction)",
-          "explanation": "Used to connect words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "dérive": {
-          "display_format": "**Drift / Slide:** A gradual change or decline.",
-          "explanation": "Refers to a slow and often negative development or movement.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or relationship.",
-          "cultural_note": ""
-        },
-        "comptes": {
-          "display_format": "**Accounts / Finances:** Financial records or situations.",
-          "explanation": "Refers to the management of money or financial resources.",
-          "cultural_note": ""
-        },
-        "publics": {
-          "display_format": "**Public:** Relating to the people or government.",
-          "explanation": "Refers to something that affects or is related to the general population.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.6,
-        "relevance_score": 6.8,
-        "importance_score": 8.5,
-        "total_score": 23.9
-      },
-      "curation_metadata": {
-        "curation_id": "dbd460a6-9179-4cd1-8d8b-0cb64dac7d62",
-        "curated_at": "2025-06-13T16:16:27.977009+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034177+00:00",
-      "quality_score": 8.6,
-      "relevance_score": 6.8,
-      "importance_score": 8.5,
-      "total_score": 23.9
     }
   ]
 }
