@@ -3,8 +3,10 @@
 Run: python scripts/generate_sample_batch.py
 The file will be written to Project-Better-French-Website/test_articles.json
 """
-import json, pathlib, datetime
+import json, pathlib, datetime, os
 from importlib.util import spec_from_file_location, module_from_spec
+# Load local secrets if present
+from os import getenv
 
 # Dynamically import AI-Engine (filename has a dash)
 ai_engine_path = pathlib.Path(__file__).parent / "AI-Engine.py"
