@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import json, pathlib, argparse, importlib.util, sys, textwrap, logging, datetime, os
 from typing import List, Dict, Any
+from scripts.note_logger import log_task
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ROLLING_JSON = ROOT / 'Project-Better-French-Website' / 'rolling_articles.json'
@@ -183,7 +184,12 @@ def main(limit: int):
                     'details': details}, f, ensure_ascii=False, indent=2)
     logger.info('📝 Detailed report saved to %s', report_path)
 
-    # Daily-note update removed per project owner request; detailed JSON report remains.
+    # Log high-level summary for humans
+    log_task(
+        "Quality repair run",
+        f"Scanned {scanned}, fixed {total_fixed} tokens, cost ${total_cost:.4f}",
+        status="done" if total_fixed else "noop",
+    )
 
     if not total_fixed:
         logger.info('🎉 Nothing to repair – data already complete.')
