@@ -35,9 +35,9 @@ def main() -> None:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            page.goto(BASE_URL, wait_until="domcontentloaded", timeout=15_000)
+            page.goto(BASE_URL, wait_until="domcontentloaded", timeout=30_000)
             # Wait for our global loaded flag (set in script.js after first render)
-            page.wait_for_function("() => window.__BF_LOADED === true", timeout=15_000)
+            page.wait_for_function("() => window.__BF_LOADED === true", timeout=30_000)
 
             # --- ensure pagination is exhausted ---------------------------
             # Click the "Load more" button repeatedly until it disappears

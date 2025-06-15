@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Git pre-commit hook – verify today's daily note exists.
+
+python scripts/check_daily_note.py || exit 1 

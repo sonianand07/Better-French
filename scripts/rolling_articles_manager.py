@@ -315,8 +315,7 @@ def main():
     
     try:
         logger.info("⚠️ RollingArticlesManager disabled (AI-only strategy in effect). Skipping collection build.")
-            return 0
-            
+        return 0
     except Exception as e:
         logger.error(f"❌ Critical system error: {e}")
         return 1

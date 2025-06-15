@@ -115,11 +115,24 @@ class BetterFrenchApp {
     }
 
     async getLatestProcessedFile() {
-        // Use the rolling collection file that the system generates
-        // For local testing we want to use a smaller deterministic fixture so that
-        // design iterations are quicker and production data remains untouched.
-        // Swap back to 'rolling_articles.json' when deploying.
-        return './test_articles.json';
+        // Decide which JSON to fetch.
+        // • In production (Netlify, any non-localhost host) → use live rolling_articles.json
+        // • During local development (localhost or file protocol) → use small deterministic fixture.
+
+        try {
+            const host = (typeof window !== 'undefined') ? window.location.hostname : '';
+            const isLocal = host === 'localhost' || host === '127.0.0.1' || host === '';
+
+            if (isLocal) {
+                return './test_articles.json';
+            }
+
+            // Prefer the live dataset
+            return './rolling_articles.json';
+        } catch (err) {
+            // Safe fallback – never break rendering just because env detection failed
+            return './rolling_articles.json';
+        }
     }
 
     toggleMobileMode() {
