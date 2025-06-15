@@ -1,5 +1,9 @@
 name: Auto Update French News
 
+concurrency:
+  group: auto-update
+  cancel-in-progress: true
+
 on:
   schedule:
     - cron: '0 6,8,10,12,14,16,18,20 * * *'   # DAYTIME ONLY: 8AM-10PM Paris time, NO NIGHT PROCESSING
@@ -102,4 +106,4 @@ jobs:
           playwright install --with-deps chromium
       - name: Check Netlify deploy & run smoke test
         run: |
-          python qa/tests/test_prod_deploy.py https://ephemeral-florentine-48f9c7.netlify.app 
+          python qa/prod/test_prod_deploy.py https://ephemeral-florentine-48f9c7.netlify.app 

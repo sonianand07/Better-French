@@ -33,7 +33,7 @@ jobs:
         run: sleep 5
 
       - name: Run smoke test
-        run: python qa/tests/test_smoke.py http://localhost:8010
+        run: python qa/local/test_smoke.py http://localhost:8010
 
       - name: Run accessibility audit
-        run: python qa/tests/test_accessibility.py http://localhost:8010 
+        run: python qa/local/test_accessibility.py http://localhost:8010 

@@ -26,7 +26,7 @@ import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SMOKE_PATH = REPO_ROOT / "qa/tests/test_smoke.py"
+SMOKE_PATH = REPO_ROOT / "qa/local/test_smoke.py"
 
 
 def fetch_updated_at(url: str) -> dt.datetime | None:
