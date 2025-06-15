@@ -211,6 +211,11 @@ EXAMPLE B
 Original Title: Palestine : « L'heure viendra où la justice demandera des comptes à Israël et à tous ceux qui l'ont soutenu »
 "simplified_french_title": "La justice demandera des comptes à Israël et à ses soutiens"
 "simplified_english_title": "Justice will hold Israel and its backers accountable"
+
+EXAMPLE C
+Original Title: Marcos Perestrello : « L'Iran n'est pas un ami, mais une menace pour la sécurité régionale »
+"simplified_french_title": "Marcos Perestrello : l'Iran est une menace pour la sécurité régionale"
+"simplified_english_title": "Marcos Perestrello: Iran is a regional security threat"
 """
 
         # COMPREHENSIVE prompt for all outputs
@@ -246,6 +251,8 @@ CRITICAL REQUIREMENTS:
 - Only return the JSON object, no other text
 - Make simplified titles clear and accessible  
 - Simplified titles must be ≤ 60 characters, keep all key actors/action/place, remove click-bait prefixes and quotes, keep original tense.
+- If the original headline names a speaker or source (text before the first colon or within quotes), retain that attribution in the simplified titles.
+- Preserve important scope words such as "régional", "mondial", etc.
 - YOU MUST provide contextual explanations for EVERY SINGLE WORD AND PHRASE in the title - NO EXCEPTIONS
 - This includes: articles (le, la, une), prepositions (de, à, dans, pour), conjunctions (et, que, ou), pronouns (ce, l', on), basic verbs (est, sait), and ALL other words
 - EVERY word helps language learners understand grammar patterns and build vocabulary
