@@ -42,6 +42,13 @@ jobs:
           # scan first 500 articles for any missing tokens and auto-fix
           python scripts/quality_repair.py --limit 500
 
+      - name: Ensure today\'s daily note exists
+        run: |
+          python - <<'PY'
+          from scripts.note_logger import log_task
+          log_task("workflow run", "Initialised daily note", status="noop")
+          PY
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
