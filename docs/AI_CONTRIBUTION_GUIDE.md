@@ -27,6 +27,23 @@ Save notes in UTC date order inside `docs/daily_notes/`.
 
 A ready-made stub lives at `docs/daily_notes/template.md`.  Copy and rename it to the current date before filling it in.
 
+### 3.1 Task-tracker table
+
+Each daily note now contains a **Task tracker** table with columns:
+
+| Task | Purpose | Status |
+|------|---------|--------|
+
+Allowed **Status** values:
+
+* `✅ Done` – Code merged **and** verified (tests pass, no regressions observed).
+* `🚧 In Progress` – Actively being developed in a branch or PR.
+* `❌ Pending` – Agreed task but work not started yet.
+* `🛑 Blocked` – Cannot proceed until external dependency resolved.
+* `🗑️ Dropped` – Decision made to abandon/replace task.
+
+Do **not** mark a task `Done` until its effect is observable (e.g. CI green, feature working in staging/prod).  This avoids "done-ish" claims that later revert.
+
 ## 4. Commit policy
 
 * **Code + notes belong in the *same* commit.**  No PR should modify code without an accompanying daily note update.

@@ -8,6 +8,12 @@
 
 * 
 
+## Task tracker
+
+| Task | Purpose | Status |
+|------|---------|--------|
+| | | |
+
 ## Action items for tomorrow
 
 1. 
