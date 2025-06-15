@@ -14,6 +14,8 @@ import requests
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
+from pathlib import Path
+from checkpoint_utils import load_checkpoint, append_article, clear_checkpoint
 
 # Ensure project root is on PYTHONPATH so we can import 'config.*' and 'automation'
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -755,9 +757,30 @@ Based on the article above, provide the complete JSON response:
         """Process articles in cost-optimized batches"""
         logger.info(f"🤖 Starting batch AI processing of {len(articles)} articles...")
         
-        # STEP 1: Filter out already processed articles to save API credits
+        # STEP 1a: filter out items that were already committed
         articles_to_process = self.filter_already_processed_articles(articles)
-        
+
+        # STEP 1b: filter out items already stored in an unfinished checkpoint
+        cp = load_checkpoint()
+        cp_seen = set()
+        for a in cp.get('articles', []):
+            link = a.get('original_article_link') or a.get('link', '')
+            if link:
+                cp_seen.add(link)
+            title = a.get('original_article_title') or a.get('title', '')
+            if title:
+                cp_seen.add(f"title:{title.lower().strip()}")
+
+        if cp_seen:
+            _pre = len(articles_to_process)
+            articles_to_process = [art for art in articles_to_process if not (
+                ((art.get('original_data', art)).get('link') in cp_seen) or
+                (f"title:{(art.get('original_data', art)).get('title','').lower().strip()}" in cp_seen)
+            )]
+            skipped_cp = _pre - len(articles_to_process)
+            if skipped_cp:
+                logger.info(f"💾 Checkpoint resume: skipping {skipped_cp} articles already processed in previous run")
+
         if not articles_to_process:
             logger.info("✅ No new articles to process - all were already AI-enhanced")
             return []
@@ -790,6 +813,11 @@ Based on the article above, provide the complete JSON response:
             processed = self.process_single_article(article)
             if processed:
                 processed_articles.append(processed)
+                # Persist checkpoint after every successful article to prevent re-processing on crash
+                try:
+                    append_article(asdict(processed))
+                except Exception as cp_err:
+                    logger.warning(f"⚠️ Could not update checkpoint file: {cp_err}")
             
             # Rate limiting delay
             if i < len(articles_to_process) - 1:  # Don't delay after last article
@@ -816,6 +844,13 @@ Based on the article above, provide the complete JSON response:
         
         if failure_count > 0:
             logger.warning(f"   ⚠️ Failed articles: {failure_count}")
+        
+        # If we processed everything without failures, clear checkpoint
+        if failure_count == 0:
+            try:
+                clear_checkpoint()
+            except Exception as cp_err:
+                logger.warning(f"⚠️ Could not clear checkpoint file: {cp_err}")
         
         return processed_articles
     

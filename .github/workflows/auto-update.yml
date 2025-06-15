@@ -43,6 +43,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Restore checkpoint if it exists from previous failed run
+      - name: Download checkpoint artifact
+        if: always()
+        uses: actions/download-artifact@v4
+        with:
+          name: batch_wip
+          path: temp
+
       - name: Set up OpenRouter API key
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" >> $GITHUB_ENV
 
@@ -67,6 +75,16 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Always upload current checkpoint so next run can resume
+      - name: Upload checkpoint artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch_wip
+          path: temp/batch_WIP.json
+          if-no-files-found: ignore
+          retention-days: 7
 
   prod-smoke:
     needs: update
