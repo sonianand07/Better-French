@@ -1,14 +1,542 @@
 {
   "metadata": {
-    "updated_at": "2025-06-15T16:24:54.238160+00:00",
+    "updated_at": "2025-06-15T19:29:09.700592+00:00",
     "total_articles": 100,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
-    "ai_enhanced_count": 11,
+    "ai_enhanced_count": 8,
     "update_type": "ai_enhanced",
-    "average_score": 21.408
+    "average_score": 21.322000000000003
   },
   "articles": [
+    {
+      "title": "Gouvernement Starmer au Royaume-Uni",
+      "english_title": "Starmer Government in the UK",
+      "simplified_french_title": "Gouvernement Starmer au Royaume-Uni",
+      "simplified_english_title": "Starmer Government in the UK",
+      "summary": "Le gouvernement travailliste prévoit plus d'argent pour la santé et la défense, mais maintient une ligne dure sur l'immigration dans un budget restrictif.",
+      "english_summary": "The Labour government plans to increase spending on health and defense, but maintains a tough stance on immigration in a restrictive budget.",
+      "french_summary": "Le gouvernement travailliste prévoit plus d'argent pour la santé et la défense, mais maintient une ligne dure sur l'immigration dans un budget restrictif.",
+      "original_article_title": "Au Royaume-Uni, la drôle de gauche du gouvernement Starmer",
+      "original_article_link": "https://www.mediapart.fr/journal/international/150625/au-royaume-uni-la-drole-de-gauche-du-gouvernement-starmer",
+      "link": "https://www.mediapart.fr/journal/international/150625/au-royaume-uni-la-drole-de-gauche-du-gouvernement-starmer",
+      "source_name": "Mediapart",
+      "published": "Sun, 15 Jun 2025 18:52:35 +0200",
+      "published_date": "Sun, 15 Jun 2025 18:52:35 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 6.0,
+        "importance_score": 9.0,
+        "total_score": 23.4
+      },
+      "curation_metadata": {
+        "curation_id": "e56bed56-76c7-44a6-bf3d-6817161e67e6",
+        "curated_at": "2025-06-15T19:23:09.646194+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697370+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 6.0,
+      "importance_score": 9.0,
+      "total_score": 23.4
+    },
+    {
+      "title": "Manifestations à La Haye et Bruxelles pour Gaza",
+      "english_title": "Protests in The Hague and Brussels for Gaza",
+      "simplified_french_title": "Manifestations à La Haye et Bruxelles pour Gaza",
+      "simplified_english_title": "Protests in The Hague and Brussels for Gaza",
+      "summary": "150 000 personnes ont manifesté à La Haye et 75 000 à Bruxelles contre l'inaction de l'Union européenne sur la situation à Gaza.",
+      "english_summary": "150,000 protesters marched in The Hague and 75,000 in Brussels against the EU's inaction on the Gaza situation.",
+      "french_summary": "150 000 personnes ont manifesté à La Haye et 75 000 à Bruxelles contre l'inaction de l'Union européenne sur la situation à Gaza.",
+      "original_article_title": "Importantes manifestations à La Haye et Bruxelles pour interpeller les gouvernements sur le « génocide » à Gaza",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/15/importantes-manifestations-a-la-haye-et-bruxelles-pour-interpeller-les-gouvernements-sur-le-genocide-a-gaza_6613402_3210.html",
+      "link": "https://www.lemonde.fr/international/article/2025/06/15/importantes-manifestations-a-la-haye-et-bruxelles-pour-interpeller-les-gouvernements-sur-le-genocide-a-gaza_6613402_3210.html",
+      "source_name": "Le Monde",
+      "published": "Sun, 15 Jun 2025 20:57:59 +0200",
+      "published_date": "Sun, 15 Jun 2025 20:57:59 +0200",
+      "contextual_title_explanations": {
+        "Importantes": {
+          "display_format": "**Important:** Having significant influence or effect.",
+          "explanation": "Describes something that has a significant impact or is of great consequence.",
+          "cultural_note": ""
+        },
+        "manifestations": {
+          "display_format": "**Demonstrations / Protests:** Public gatherings to express opinions or grievances.",
+          "explanation": "Mass gatherings, often organized to make a political or social point.",
+          "cultural_note": "In Europe, demonstrations are a common way for citizens to express their opinions and influence policy."
+        },
+        "à": {
+          "display_format": "**To / In / At:** (preposition)",
+          "explanation": "Indicates direction, location, or movement.",
+          "cultural_note": ""
+        },
+        "La Haye": {
+          "display_format": "**The Hague:** City in the Netherlands and seat of the International Court of Justice.",
+          "explanation": "A city in the Netherlands known for its international courts and organizations.",
+          "cultural_note": "The Hague is often associated with international law and diplomacy."
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Used to connect words, phrases, or clauses.",
+          "cultural_note": ""
+        },
+        "Bruxelles": {
+          "display_format": "**Brussels:** Capital city of Belgium and seat of the European Union.",
+          "explanation": "A city in Belgium known for its European institutions and international organizations.",
+          "cultural_note": "Brussels is often associated with EU politics and decision-making."
+        },
+        "pour": {
+          "display_format": "**To / For:** (preposition)",
+          "explanation": "Indicates purpose, direction, or intended recipient.",
+          "cultural_note": ""
+        },
+        "interpeller": {
+          "display_format": "**To challenge / To question:** To confront or dispute something.",
+          "explanation": "To confront or dispute someone or something, often in a formal or public setting.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "gouvernements": {
+          "display_format": "**Governments:** The political authorities of a country or state.",
+          "explanation": "The ruling bodies responsible for making and enforcing laws.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**About / On:** (preposition)",
+          "explanation": "Indicates a topic or subject.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemets ouvrants",
+          "explanation": "Opening French quotation mark.",
+          "cultural_note": ""
+        },
+        "génocide": {
+          "display_format": "**Genocide:** The deliberate killing of a large group of people, especially those of a particular ethnic group or nation.",
+          "explanation": "A term coined to describe the intentional destruction of a racial, ethnic, religious, or national group.",
+          "cultural_note": "The term 'genocide' is often used to describe the most heinous human rights violations."
+        },
+        "»": {
+          "display_format": "**»:** Guillemets fermants",
+          "explanation": "Closing French quotation mark.",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** A coastal region in the Middle East, bordering Egypt and Israel.",
+          "explanation": "A Palestinian territory in the Middle East, known for its complex political situation.",
+          "cultural_note": "Gaza is often associated with the Israeli-Palestinian conflict."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 4.1,
+        "importance_score": 10,
+        "total_score": 22.7
+      },
+      "curation_metadata": {
+        "curation_id": "76b58fd6-8692-42d7-bc61-04673d7fec1d",
+        "curated_at": "2025-06-15T19:23:09.642943+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697397+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 4.1,
+      "importance_score": 10,
+      "total_score": 22.7
+    },
+    {
+      "title": "Femke Bol gagne le 400 m haies à Stockholm",
+      "english_title": "Femke Bol wins 400m hurdles in Stockholm",
+      "simplified_french_title": "Femke Bol gagne le 400 m haies à Stockholm",
+      "simplified_english_title": "Femke Bol wins 400m hurdles in Stockholm",
+      "summary": "Femke Bol a remporté le 400 m haies à Stockholm en 52 sec 11, sa meilleure performance de la saison, devançant Dalilah Muhammad et Gianna Woodruff.",
+      "english_summary": "Femke Bol won the 400m hurdles in Stockholm with a season-best 52.11 seconds, beating Dalilah Muhammad and Gianna Woodruff.",
+      "french_summary": "Femke Bol a remporté le 400 m haies à Stockholm en 52 sec 11, sa meilleure performance de la saison, devançant Dalilah Muhammad et Gianna Woodruff.",
+      "original_article_title": "Athlétisme: Femke Bol remporte facilement le 400 m haies à Stockholm",
+      "original_article_link": "https://www.rfi.fr/fr/sports/20250615-athl%C3%A9tisme-femke-bol-remporte-facilement-le-400-m-haies-%C3%A0-stockholm",
+      "link": "https://www.rfi.fr/fr/sports/20250615-athl%C3%A9tisme-femke-bol-remporte-facilement-le-400-m-haies-%C3%A0-stockholm",
+      "source_name": "RFI",
+      "published": "Sun, 15 Jun 2025 16:48:14 GMT",
+      "published_date": "Sun, 15 Jun 2025 16:48:14 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 3.8,
+        "importance_score": 9.0,
+        "total_score": 21.4
+      },
+      "curation_metadata": {
+        "curation_id": "5f3365c6-da44-4bd6-8087-d6643bba7c79",
+        "curated_at": "2025-06-15T19:23:09.662983+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697405+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 3.8,
+      "importance_score": 9.0,
+      "total_score": 21.4
+    },
+    {
+      "title": "Rachida Dati réforme l'audiovisuel public",
+      "english_title": "Rachida Dati to reform public broadcasting",
+      "simplified_french_title": "Rachida Dati réforme l'audiovisuel public",
+      "simplified_english_title": "Rachida Dati to reform public broadcasting",
+      "summary": "Rachida Dati défendra fin décembre la réforme réunissant France Télévisions, Radio France et l'Institut national de l'audiovisuel. Elle s'appuiera sur un rapport de Laurence Bloch pour lever les oppositions.",
+      "english_summary": "Rachida Dati will defend the reform merging France Télévisions, Radio France, and the National Audiovisual Institute by the end of December, relying on a report by Laurence Bloch to overcome opposition.",
+      "french_summary": "Rachida Dati défendra fin décembre la réforme réunissant France Télévisions, Radio France et l'Institut national de l'audiovisuel. Elle s'appuiera sur un rapport de Laurence Bloch pour lever les oppositions.",
+      "original_article_title": "Rachida Dati : « Pour l’audiovisuel public, le statu quo n’est pas une option »",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/15/rachida-dati-pour-l-audiovisuel-public-le-statu-quo-n-est-pas-une-option_6613394_3234.html",
+      "link": "https://www.lemonde.fr/economie/article/2025/06/15/rachida-dati-pour-l-audiovisuel-public-le-statu-quo-n-est-pas-une-option_6613394_3234.html",
+      "source_name": "Le Monde",
+      "published": "Sun, 15 Jun 2025 20:00:03 +0200",
+      "published_date": "Sun, 15 Jun 2025 20:00:03 +0200",
+      "contextual_title_explanations": {
+        "Rachida Dati": {
+          "display_format": "**Rachida Dati:** French politician and lawyer.",
+          "explanation": "A prominent French figure who has held various government positions.",
+          "cultural_note": "Known for her strong stances on social issues and her involvement in French politics."
+        },
+        ":": {
+          "display_format": "**:** Colon",
+          "explanation": "A punctuation mark used to introduce a quotation or explanation.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemets ouvrants",
+          "explanation": "Opening French quotation mark.",
+          "cultural_note": ""
+        },
+        "Pour": {
+          "display_format": "**For:** (preposition)",
+          "explanation": "Indicates purpose or direction.",
+          "cultural_note": ""
+        },
+        "l’audiovisuel": {
+          "display_format": "**The audiovisual:** Relating to sound and image.",
+          "explanation": "Refers to media that combines both audio and visual elements.",
+          "cultural_note": ""
+        },
+        "public": {
+          "display_format": "**Public:** Open to or accessible by everyone.",
+          "explanation": "Relating to the people or community at large.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Comma",
+          "explanation": "A punctuation mark used to separate items in a list.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "statu": {
+          "display_format": "**Status:** (Latin) State or condition.",
+          "explanation": "A Latin term used in French to refer to a situation or state.",
+          "cultural_note": ""
+        },
+        "quo": {
+          "display_format": "**Quo:** (Latin) Ablative form of 'qui', meaning 'in which' or 'in what'.",
+          "explanation": "Used in the phrase 'status quo' to mean 'the existing state'.",
+          "cultural_note": ""
+        },
+        "n’est": {
+          "display_format": "**Is not:** (negation of 'être')",
+          "explanation": "Used to indicate the absence or non-existence of something.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** (negation)",
+          "explanation": "Used to indicate the absence or non-existence of something.",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A / An:** (indefinite article)",
+          "explanation": "Used to indicate a non-specific noun.",
+          "cultural_note": ""
+        },
+        "option": {
+          "display_format": "**Option:** A choice or alternative.",
+          "explanation": "A possible course of action.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemets fermants",
+          "explanation": "Closing French quotation mark.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.1,
+        "relevance_score": 7.1,
+        "importance_score": 7.0,
+        "total_score": 21.2
+      },
+      "curation_metadata": {
+        "curation_id": "65f37140-8a51-4126-acce-856cb6a861ff",
+        "curated_at": "2025-06-15T19:23:09.652227+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697422+00:00",
+      "quality_score": 7.1,
+      "relevance_score": 7.1,
+      "importance_score": 7.0,
+      "total_score": 21.2
+    },
+    {
+      "title": "Le congrès de Nancy reconnaît deux PS",
+      "english_title": "Nancy Congress Recognizes Two Socialist Parties",
+      "simplified_french_title": "Le congrès de Nancy reconnaît deux PS",
+      "simplified_english_title": "Nancy Congress Recognizes Two Socialist Parties",
+      "summary": "Olivier Faure veut rompre avec la social-démocratie d'après-guerre et transformer l'économie et la société à deux ans de la présidentielle.",
+      "english_summary": "Olivier Faure aims to break with post-war social democracy and transform the economy and society two years before the presidential election.",
+      "french_summary": "Olivier Faure veut rompre avec la social-démocratie d'après-guerre et transformer l'économie et la société à deux ans de la présidentielle.",
+      "original_article_title": "Le congrès de Nancy acte l’existence de deux Parti socialiste en un seul",
+      "original_article_link": "https://www.lefigaro.fr/politique/le-congres-de-nancy-acte-l-existence-de-deux-parti-socialiste-en-un-seul-20250615",
+      "link": "https://www.lefigaro.fr/politique/le-congres-de-nancy-acte-l-existence-de-deux-parti-socialiste-en-un-seul-20250615",
+      "source_name": "Le Figaro",
+      "published": "Sun, 15 Jun 2025 18:58:08 +0200",
+      "published_date": "Sun, 15 Jun 2025 18:58:08 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.7,
+        "relevance_score": 5.8999999999999995,
+        "importance_score": 8.5,
+        "total_score": 21.1
+      },
+      "curation_metadata": {
+        "curation_id": "fbb9f84e-c1a3-401b-9230-1bdd052243a9",
+        "curated_at": "2025-06-15T19:23:09.643790+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697427+00:00",
+      "quality_score": 6.7,
+      "relevance_score": 5.8999999999999995,
+      "importance_score": 8.5,
+      "total_score": 21.1
+    },
+    {
+      "title": "Israël détruit installation nucléaire iranienne de Natanz",
+      "english_title": "Israel destroys Iranian nuclear facility in Natanz",
+      "simplified_french_title": "Israël détruit installation nucléaire iranienne de Natanz",
+      "simplified_english_title": "Israel destroys Iranian nuclear facility in Natanz",
+      "summary": "Benjamin Netanyahu annonce que l'État d'Israël a détruit la principale installation du site nucléaire iranien de Natanz. (29 words)",
+      "english_summary": "Benjamin Netanyahu says Israel has destroyed the main installation at Iran's Natanz nuclear site. (29 words)",
+      "french_summary": "Benjamin Netanyahu annonce que l'État d'Israël a détruit la principale installation du site nucléaire iranien de Natanz. (29 words)",
+      "original_article_title": "Israël-Iran : Benjamin Netanyahu annonce que l'État hébreu a «détruit la principale installation» du site nucléaire iranien de Natanz",
+      "original_article_link": "https://www.europe1.fr/international/israel-iran-benjamin-netanyahu-annonce-que-letat-hebreu-a-detruit-la-principale-installation-du-site-nucleaire-iranien-de-natanz-758850",
+      "link": "https://www.europe1.fr/international/israel-iran-benjamin-netanyahu-annonce-que-letat-hebreu-a-detruit-la-principale-installation-du-site-nucleaire-iranien-de-natanz-758850",
+      "source_name": "Europe 1",
+      "published": "Sun, 15 Jun 2025 19:58:02 +0200",
+      "published_date": "Sun, 15 Jun 2025 19:58:02 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.9,
+        "relevance_score": 4.9,
+        "importance_score": 8.0,
+        "total_score": 20.8
+      },
+      "curation_metadata": {
+        "curation_id": "972af862-cc2e-4126-ae52-a7864e0b8d1e",
+        "curated_at": "2025-06-15T19:23:09.648683+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697432+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 4.9,
+      "importance_score": 8.0,
+      "total_score": 20.8
+    },
+    {
+      "title": "Guerre Israël-Iran : le jour d’après",
+      "english_title": "Israel-Iran War: The Day After",
+      "simplified_french_title": "Guerre Israël-Iran : le jour d’après",
+      "simplified_english_title": "Israel-Iran War: The Day After",
+      "summary": "Benyamin Netanyahou gagne à court terme, mais sans plan de sortie de crise. Le premier ministre israélien doit définir les conditions.",
+      "english_summary": "Benjamin Netanyahu wins in the short term, but without a crisis exit plan. The Israeli prime minister must define the conditions.",
+      "french_summary": "Benyamin Netanyahou gagne à court terme, mais sans plan de sortie de crise. Le premier ministre israélien doit définir les conditions.",
+      "original_article_title": "L’éditorial de Philippe Gélie : «Guerre Israël-Iran, le jour d’après»",
+      "original_article_link": "https://www.lefigaro.fr/vox/monde/l-editorial-de-philippe-gelie-guerre-israel-iran-le-jour-d-apres-20250615",
+      "link": "https://www.lefigaro.fr/vox/monde/l-editorial-de-philippe-gelie-guerre-israel-iran-le-jour-d-apres-20250615",
+      "source_name": "Le Figaro",
+      "published": "Sun, 15 Jun 2025 20:49:57 +0200",
+      "published_date": "Sun, 15 Jun 2025 20:49:57 +0200",
+      "contextual_title_explanations": {
+        "L’éditorial": {
+          "display_format": "**The Editorial:**",
+          "explanation": "An article or piece written by or on behalf of a newspaper or magazine editor.",
+          "cultural_note": "In French media, editorials often reflect the publication's stance on a particular issue."
+        },
+        "de": {
+          "display_format": "**Of / By:** (preposition)",
+          "explanation": "Indicates possession, origin, or authorship.",
+          "cultural_note": ""
+        },
+        "Philippe Gélie": {
+          "display_format": "**Philippe Gélie:** French journalist or editor.",
+          "explanation": "A person's name, likely the author of the editorial.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Colon (punctuation)",
+          "explanation": "Used to introduce a quotation, explanation, or list.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemets ouvrants (opening French quotation mark)",
+          "explanation": "Used to indicate the start of a quotation.",
+          "cultural_note": ""
+        },
+        "Guerre": {
+          "display_format": "**War:**",
+          "explanation": "A state of conflict or hostility between countries or groups.",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** Countries involved in the conflict.",
+          "explanation": "Refers to the two nations, Israel and Iran, involved in the conflict.",
+          "cultural_note": "The Israel-Iran conflict is a significant geopolitical issue in the Middle East."
+        },
+        "le": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun or phrase.",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**Day:**",
+          "explanation": "A unit of time, 24 hours.",
+          "cultural_note": ""
+        },
+        "d’après": {
+          "display_format": "**The day after:** (idiomatic expression)",
+          "explanation": "Refers to the time following a specific event or situation.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemets fermants (closing French quotation mark)",
+          "explanation": "Used to indicate the end of a quotation.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.7,
+        "relevance_score": 3.8,
+        "importance_score": 10,
+        "total_score": 20.5
+      },
+      "curation_metadata": {
+        "curation_id": "a676f0cf-246e-4d0b-82be-13f763b4c1f8",
+        "curated_at": "2025-06-15T19:23:09.643368+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697444+00:00",
+      "quality_score": 6.7,
+      "relevance_score": 3.8,
+      "importance_score": 10,
+      "total_score": 20.5
+    },
+    {
+      "title": "Iran : mosquées et métro serviront d'abris",
+      "english_title": "Iran: Mosques and Subway to Serve as Shelters",
+      "simplified_french_title": "Iran : mosquées et métro serviront d'abris",
+      "simplified_english_title": "Iran: Mosques and Subway to Serve as Shelters",
+      "summary": "Israël bombarde l'Iran. Le gouvernement iranien prépare mosquées, métro et écoles comme abris pour la population.",
+      "english_summary": "Israel bombs Iran. Iranian government prepares mosques, subway, and schools as shelters for the population.",
+      "french_summary": "Israël bombarde l'Iran. Le gouvernement iranien prépare mosquées, métro et écoles comme abris pour la population.",
+      "original_article_title": "En Iran, \"mosquées et stations de métro serviront d'abris\" (gouvernement)",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250615-raids-isra%C3%A9liens-intenses-en-iran-mosqu%C3%A9es-et-stations-de-m%C3%A9tro-serviront-d-abris",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20250615-raids-isra%C3%A9liens-intenses-en-iran-mosqu%C3%A9es-et-stations-de-m%C3%A9tro-serviront-d-abris",
+      "source_name": "France 24",
+      "published": "Sun, 15 Jun 2025 13:34:13 GMT",
+      "published_date": "Sun, 15 Jun 2025 13:34:13 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.0,
+        "relevance_score": 5.199999999999999,
+        "importance_score": 7.0,
+        "total_score": 20.2
+      },
+      "curation_metadata": {
+        "curation_id": "cecf10a6-9ea9-46a0-89e5-53682801b57d",
+        "curated_at": "2025-06-15T19:23:09.645612+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:29:09.697449+00:00",
+      "quality_score": 8.0,
+      "relevance_score": 5.199999999999999,
+      "importance_score": 7.0,
+      "total_score": 20.2
+    },
+    {
+      "title": "Armée israélienne appelle population à se confiner",
+      "english_title": "Israeli Army Calls Population to Take Shelter",
+      "simplified_french_title": "Armée israélienne appelle population à se confiner",
+      "simplified_english_title": "Israeli Army Calls Population to Take Shelter",
+      "summary": "L'armée israélienne appelle les Israéliens à se confiner à cause de tirs de missiles d'Iran. Sirènes d'alerte à Jérusalem et Tel-Aviv. (29 words)",
+      "english_summary": "The Israeli army calls on Israelis to take shelter due to missile fire from Iran. Alert sirens sound in Jerusalem and Tel Aviv. (29 words)",
+      "french_summary": "L'armée israélienne appelle les Israéliens à se confiner à cause de tirs de missiles d'Iran. Sirènes d'alerte à Jérusalem et Tel-Aviv. (29 words)",
+      "original_article_title": "Conflit Israël-Iran: l'armée israélienne appelle de nouveau la population à se confiner aux abris",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/conflit-israel-iran-l-armee-israelienne-appelle-de-nouveau-la-population-a-se-confiner-aux-abris_VN-202506150327.html",
+      "link": "https://www.bfmtv.com/international/moyen-orient/iran/conflit-israel-iran-l-armee-israelienne-appelle-de-nouveau-la-population-a-se-confiner-aux-abris_VN-202506150327.html",
+      "source_name": "BFM TV",
+      "published": "Sun, 15 Jun 2025 17:53:29 GMT",
+      "published_date": "Sun, 15 Jun 2025 17:53:29 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 3.3,
+        "importance_score": 6.0,
+        "total_score": 16.2
+      },
+      "curation_metadata": {
+        "curation_id": "a416d9d2-b931-4c2c-92ec-2b3133b4bcce",
+        "curated_at": "2025-06-15T19:21:32.281646+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-15T19:23:07.043309+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 3.3,
+      "importance_score": 6.0,
+      "total_score": 16.2
+    },
     {
       "title": "La carte des prix d'électricité en Europe va-t-elle changer?",
       "english_title": "Will the Electricity Price Map Change in Europe?",
@@ -9834,915 +10362,6 @@
       "relevance_score": 6.8,
       "importance_score": 8.5,
       "total_score": 23.9
-    },
-    {
-      "title": "Défilé militaire à Washington pour Donald Trump",
-      "english_title": "Military Parade in Washington for Donald Trump",
-      "simplified_french_title": "Défilé militaire à Washington pour Donald Trump",
-      "simplified_english_title": "Military Parade in Washington for Donald Trump",
-      "summary": "Le président américain Donald Trump organise un défilé militaire à Washington pour 45 millions de dollars.",
-      "english_summary": "American President Donald Trump organizes a military parade in Washington for 45 million dollars.",
-      "french_summary": "Le président américain Donald Trump organise un défilé militaire à Washington pour 45 millions de dollars.",
-      "original_article_title": "Défilé militaire à Washington : le cadeau d’anniversaire de Donald Trump à 45 millions de dollars",
-      "original_article_link": "https://www.lexpress.fr/monde/amerique/defile-militaire-a-washington-le-cadeau-danniversaire-de-donald-trump-a-45-millions-de-dollars-J6POPLE5OJDFXO4ZN7OEWRBLYU/",
-      "link": "https://www.lexpress.fr/monde/amerique/defile-militaire-a-washington-le-cadeau-danniversaire-de-donald-trump-a-45-millions-de-dollars-J6POPLE5OJDFXO4ZN7OEWRBLYU/",
-      "source_name": "L'Express",
-      "published": "Fri, 13 Jun 2025 15:58:19 +0000",
-      "published_date": "Fri, 13 Jun 2025 15:58:19 +0000",
-      "contextual_title_explanations": {
-        "Défilé": {
-          "display_format": "**Parade:** A public procession of people, vehicles, or ships.",
-          "explanation": "A ceremonial or festive procession, often with military or cultural themes.",
-          "cultural_note": "Military parades are common in many countries, often held on national holidays or to celebrate special occasions."
-        },
-        "militaire": {
-          "display_format": "**Military:** Relating to the armed forces.",
-          "explanation": "Connected to the army, navy, or air force.",
-          "cultural_note": "The military plays a significant role in many countries, and military parades are a way to showcase their strength and pride."
-        },
-        "à": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates direction, movement, or location.",
-          "cultural_note": ""
-        },
-        "Washington": {
-          "display_format": "**Washington:** The capital city of the United States.",
-          "explanation": "A major city on the East Coast, home to many national institutions and landmarks.",
-          "cultural_note": "Washington D.C. is a symbol of American politics and power, hosting many important events and ceremonies."
-        },
-        "le": {
-          "display_format": "**The:** (article)",
-          "explanation": "Used to indicate a specific noun or thing.",
-          "cultural_note": ""
-        },
-        "cadeau": {
-          "display_format": "**Gift:** Something given to someone without payment.",
-          "explanation": "A present or offering, often given to celebrate a special occasion.",
-          "cultural_note": "Gifts are an important part of many cultures, and the concept of a 'gift' can have different meanings depending on the context."
-        },
-        "d'anniversaire": {
-          "display_format": "**Birthday:** The day of the year when someone was born.",
-          "explanation": "A celebration held to mark the anniversary of someone's birth.",
-          "cultural_note": "Birthdays are widely celebrated in many cultures, often with gifts, cake, and festivities."
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "Donald": {
-          "display_format": "**Donald:** A male given name.",
-          "explanation": "A common name in English-speaking countries, also the name of the 45th President of the United States.",
-          "cultural_note": "Donald Trump is a well-known figure in American politics, and his presidency has been marked by significant events and controversies."
-        },
-        "Trump": {
-          "display_format": "**Trump:** The 45th President of the United States.",
-          "explanation": "An American businessman and politician who served as President from 2017 to 2021.",
-          "cultural_note": "Trump's presidency was marked by significant changes to US trade policy, including the imposition of tariffs on goods from various countries."
-        },
-        "45": {
-          "display_format": "**45:** The number forty-five.",
-          "explanation": "A numerical value.",
-          "cultural_note": "In this context, it refers to the cost of the military parade in millions of dollars."
-        },
-        "millions": {
-          "display_format": "**Millions:** A unit of one million.",
-          "explanation": "A large quantity or amount.",
-          "cultural_note": "Millions are often used to express large sums of money or quantities in various contexts."
-        },
-        "dollars": {
-          "display_format": "**Dollars:** The official currency of the United States.",
-          "explanation": "A unit of currency used in many countries, often abbreviated as USD.",
-          "cultural_note": "The US dollar is a widely traded and widely held currency, often used as a reserve currency in international transactions."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 7.2,
-        "importance_score": 8.5,
-        "total_score": 22.8
-      },
-      "curation_metadata": {
-        "curation_id": "bc004e4e-c378-4db2-b09b-07368d48fd5c",
-        "curated_at": "2025-06-13T16:16:27.988654+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034204+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 7.2,
-      "importance_score": 8.5,
-      "total_score": 22.8
-    },
-    {
-      "title": "Guerre Israël-Iran et pétrole",
-      "english_title": "Israel-Iran War and Oil",
-      "simplified_french_title": "Guerre Israël-Iran et pétrole",
-      "simplified_english_title": "Israel-Iran War and Oil",
-      "summary": "La guerre entre Israël et l'Iran peut avoir des conséquences graves pour la région et l'économie mondiale.",
-      "english_summary": "The war between Israel and Iran could have severe consequences for the region and the global economy.",
-      "french_summary": "La guerre entre Israël et l'Iran peut avoir des conséquences graves pour la région et l'économie mondiale.",
-      "original_article_title": "La guerre Israël-Iran provoque une flambée du pétrole",
-      "original_article_link": "https://www.rfi.fr/fr/%C3%A9conomie/20250613-la-guerre-isra%C3%ABl-iran-provoque-une-flamb%C3%A9e-du-p%C3%A9trole",
-      "link": "https://www.rfi.fr/fr/%C3%A9conomie/20250613-la-guerre-isra%C3%ABl-iran-provoque-une-flamb%C3%A9e-du-p%C3%A9trole",
-      "source_name": "RFI",
-      "published": "Fri, 13 Jun 2025 14:18:11 GMT",
-      "published_date": "Fri, 13 Jun 2025 14:18:11 GMT",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**The:** (article)",
-          "explanation": "Indicates that the noun it precedes is specific or already known.",
-          "cultural_note": ""
-        },
-        "guerre": {
-          "display_format": "**War:** A state of armed conflict.",
-          "explanation": "A prolonged and violent conflict between two or more countries, groups, or parties.",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israel:** A country in the Middle East.",
-          "explanation": "A sovereign state located in the Middle East, established in 1948.",
-          "cultural_note": "A key player in Middle Eastern politics, with a complex history and relationships with its neighbors."
-        },
-        "-Iran": {
-          "display_format": "**-Iran:** (country in the Middle East)",
-          "explanation": "A country in the Middle East, officially known as the Islamic Republic of Iran.",
-          "cultural_note": "Iran has a rich cultural heritage and a significant role in regional politics."
-        },
-        "provoque": {
-          "display_format": "**Provokes / Causes:** (verb)",
-          "explanation": "To cause a reaction, situation, or event.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A / An:** (article)",
-          "explanation": "Used to indicate that the noun it precedes is indefinite or unknown.",
-          "cultural_note": ""
-        },
-        "flambée": {
-          "display_format": "**Surge / Spike:** A sudden increase or rise.",
-          "explanation": "A rapid and significant increase in something, often used to describe prices or quantities.",
-          "cultural_note": "In economics, a surge or spike can have significant consequences for markets and trade."
-        },
-        "du": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "pétrole": {
-          "display_format": "**Oil:** A fossil fuel.",
-          "explanation": "A natural resource used as a primary source of energy.",
-          "cultural_note": "Oil is a crucial component of the global economy, and fluctuations in its price can have far-reaching consequences."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.0,
-        "relevance_score": 5.8999999999999995,
-        "importance_score": 8.5,
-        "total_score": 22.4
-      },
-      "curation_metadata": {
-        "curation_id": "a50ed4f4-60ab-465f-bffb-7a3540a1c189",
-        "curated_at": "2025-06-13T16:16:28.002113+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034219+00:00",
-      "quality_score": 8.0,
-      "relevance_score": 5.8999999999999995,
-      "importance_score": 8.5,
-      "total_score": 22.4
-    },
-    {
-      "title": "Iran et Israël : vers la guerre ?",
-      "english_title": "Iran and Israel: Heading Towards War?",
-      "simplified_french_title": "Iran et Israël : vers la guerre ?",
-      "simplified_english_title": "Iran and Israel: Heading Towards War?",
-      "summary": "L'Iran et Israël sont en conflit après des frappes aériennes. Les tensions augmentent et la guerre est possible.",
-      "english_summary": "Iran and Israel are in conflict after airstrikes. Tensions are rising and war is possible.",
-      "french_summary": "L'Iran et Israël sont en conflit après des frappes aériennes. Les tensions augmentent et la guerre est possible.",
-      "original_article_title": "Story 1 : Iran/ Israël, la guerre ? - 13/06",
-      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/story-1-iran-israel-la-guerre-13-06_VN-202506130601.html",
-      "link": "https://www.bfmtv.com/replay-emissions/bfm-story/story-1-iran-israel-la-guerre-13-06_VN-202506130601.html",
-      "source_name": "BFM TV",
-      "published": "Fri, 13 Jun 2025 15:34:23 GMT",
-      "published_date": "Fri, 13 Jun 2025 15:34:23 GMT",
-      "contextual_title_explanations": {
-        "Story": {
-          "display_format": "**Story:** A news report or article.",
-          "explanation": "A narrative or account of events, often used as a heading or title.",
-          "cultural_note": ""
-        },
-        "1": {
-          "display_format": "**1:** The number one.",
-          "explanation": "Used to indicate the first part or installment of a series.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Colon, used to introduce a subtitle or explanation.",
-          "explanation": "Punctuation mark indicating a stronger pause than a comma.",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Country in the Middle East.",
-          "explanation": "A country located in Western Asia, known for its rich history and culture.",
-          "cultural_note": "Iran is a significant player in Middle Eastern politics and has been involved in various international conflicts."
-        },
-        "/": {
-          "display_format": "**/** Slash, used to separate items or indicate alternatives.",
-          "explanation": "Punctuation mark used to divide or separate words or phrases.",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israel:** Country in the Middle East.",
-          "explanation": "A country located in Western Asia, known for its complex history and politics.",
-          "cultural_note": "Israel is a significant player in Middle Eastern politics and has been involved in various international conflicts."
-        },
-        "la": {
-          "display_format": "**The:** Definite article, used to indicate a specific noun.",
-          "explanation": "Used to specify a particular noun or phrase.",
-          "cultural_note": ""
-        },
-        "guerre": {
-          "display_format": "**War:** Armed conflict between countries or groups.",
-          "explanation": "A state of conflict involving the use of armed forces.",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Question mark, used to indicate a question.",
-          "explanation": "Punctuation mark used to indicate a query or interrogation.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 4.3999999999999995,
-        "importance_score": 9.5,
-        "total_score": 22.3
-      },
-      "curation_metadata": {
-        "curation_id": "f9a3e727-0085-44b4-a971-26867a9aaec5",
-        "curated_at": "2025-06-13T16:16:27.982844+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034231+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 4.3999999999999995,
-      "importance_score": 9.5,
-      "total_score": 22.3
-    },
-    {
-      "title": "Municipales 2026 : Rémi Féraud à Paris",
-      "english_title": "Paris 2026 Municipal Elections: Rémi Féraud's Plans",
-      "simplified_french_title": "Municipales 2026 : Rémi Féraud à Paris",
-      "simplified_english_title": "Paris 2026 Municipal Elections: Rémi Féraud's Plans",
-      "summary": "Rémi Féraud candidat à la primaire socialiste pour les municipales 2026 à Paris.",
-      "english_summary": "Rémi Féraud, a socialist candidate, runs for Paris mayor in 2026 municipal elections.",
-      "french_summary": "Rémi Féraud candidat à la primaire socialiste pour les municipales 2026 à Paris.",
-      "original_article_title": "Municipales 2026 : à Paris, Rémi Féraud veut débaptiser l’avenue Lamoricière et poursuivre le « travail de mémoire »",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/13/municipales-2026-a-paris-remi-feraud-veut-debaptiser-l-avenue-lamoriciere-et-poursuivre-le-travail-de-memoire_6612772_823448.html",
-      "link": "https://www.lemonde.fr/politique/article/2025/06/13/municipales-2026-a-paris-remi-feraud-veut-debaptiser-l-avenue-lamoriciere-et-poursuivre-le-travail-de-memoire_6612772_823448.html",
-      "source_name": "Le Monde Politique",
-      "published": "Fri, 13 Jun 2025 18:06:35 +0200",
-      "published_date": "Fri, 13 Jun 2025 18:06:35 +0200",
-      "contextual_title_explanations": {
-        "Municipales": {
-          "display_format": "**Municipales:** Local elections",
-          "explanation": "Elections held to choose local government officials, such as mayors and council members.",
-          "cultural_note": "In France, municipal elections are held every six years to elect local officials."
-        },
-        "2026": {
-          "display_format": "**2026:** The year",
-          "explanation": "The year in which the municipal elections will take place.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** In / At (preposition)",
-          "explanation": "Indicates a location or direction.",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** The capital city of France",
-          "explanation": "The largest city in France and a major cultural center.",
-          "cultural_note": "Paris is known for its iconic landmarks, art museums, and romantic atmosphere."
-        },
-        "Rémi": {
-          "display_format": "**Rémi:** A masculine given name",
-          "explanation": "A common French first name.",
-          "cultural_note": ""
-        },
-        "Féraud": {
-          "display_format": "**Féraud:** A French surname",
-          "explanation": "The last name of the candidate, Rémi Féraud.",
-          "cultural_note": ""
-        },
-        "veut": {
-          "display_format": "**Wants / Intends to:** (verb)",
-          "explanation": "The verb 'vouloir' in the present tense, indicating a desire or intention.",
-          "cultural_note": ""
-        },
-        "débaptiser": {
-          "display_format": "**To rename / Dechristen:** (verb)",
-          "explanation": "To change the name of something, often a street or monument.",
-          "cultural_note": "In France, renaming streets or monuments can be a sensitive topic, especially when related to historical figures or events."
-        },
-        "l'avenue": {
-          "display_format": "**The avenue:** (noun)",
-          "explanation": "A type of street or road, often wide and lined with trees.",
-          "cultural_note": ""
-        },
-        "Lamoricière": {
-          "display_format": "**Lamoricière:** A French surname",
-          "explanation": "The name of the avenue, likely named after a historical figure or event.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And:** (conjunction)",
-          "explanation": "Used to connect words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "poursuivre": {
-          "display_format": "**To pursue / To continue:** (verb)",
-          "explanation": "To continue or carry on an action or activity.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** (article)",
-          "explanation": "Used to indicate a specific noun or noun phrase.",
-          "cultural_note": ""
-        },
-        "travail": {
-          "display_format": "**Work / Labor:** (noun)",
-          "explanation": "An activity involving mental or physical effort.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "mémoire": {
-          "display_format": "**Memory / Remembrance:** (noun)",
-          "explanation": "The ability to remember past events or experiences.",
-          "cultural_note": "In the context of French politics, 'travail de mémoire' often refers to efforts to come to terms with and remember historical events, such as colonialism or war."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 6.5,
-        "importance_score": 8.5,
-        "total_score": 21.9
-      },
-      "curation_metadata": {
-        "curation_id": "11313621-b6d3-4a2b-bb11-3739fe49f922",
-        "curated_at": "2025-06-13T16:16:27.972590+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034250+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 6.5,
-      "importance_score": 8.5,
-      "total_score": 21.9
-    },
-    {
-      "title": "Accident de car sur l'A81 : bilan",
-      "english_title": "Deadly Bus Accident on A81 Highway",
-      "simplified_french_title": "Accident de car sur l'A81 : bilan",
-      "simplified_english_title": "Deadly Bus Accident on A81 Highway",
-      "summary": "Un accident de bus a eu lieu sur l'A81, faisant quatre morts et neuf blessés graves.",
-      "english_summary": "A bus accident occurred on the A81 highway, resulting in four deaths and nine seriously injured people.",
-      "french_summary": "Un accident de bus a eu lieu sur l'A81, faisant quatre morts et neuf blessés graves.",
-      "original_article_title": "Nombre de victimes, circulation… Ce que l’on sait de l’accident de car mortel sur l’A81 près du Mans",
-      "original_article_link": "https://www.ouest-france.fr/faits-divers/accidents/victimes-circulation-ce-que-lon-sait-de-laccident-de-car-mortel-sur-la81-pres-du-mans-0f98473c-484a-11f0-b660-c6a4d2b5307d?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "link": "https://www.ouest-france.fr/faits-divers/accidents/victimes-circulation-ce-que-lon-sait-de-laccident-de-car-mortel-sur-la81-pres-du-mans-0f98473c-484a-11f0-b660-c6a4d2b5307d?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "source_name": "Ouest France",
-      "published": "Fri, 13 Jun 2025 16:13:36 GMT",
-      "published_date": "Fri, 13 Jun 2025 16:13:36 GMT",
-      "contextual_title_explanations": {
-        "Nombre": {
-          "display_format": "**Number:**",
-          "explanation": "A quantity or amount.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "victimes": {
-          "display_format": "**Victims:** People who have been harmed or killed.",
-          "explanation": "Those who have suffered as a result of an accident, crime, or other event.",
-          "cultural_note": ""
-        },
-        "circulation": {
-          "display_format": "**Circulation:** Movement of vehicles or traffic.",
-          "explanation": "The flow of traffic or the movement of people and vehicles.",
-          "cultural_note": ""
-        },
-        "Ce": {
-          "display_format": "**This:** (demonstrative pronoun)",
-          "explanation": "Used to point out a specific thing or situation.",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That:** (conjunction)",
-          "explanation": "Used to introduce a clause or phrase.",
-          "cultural_note": ""
-        },
-        "l'on": {
-          "display_format": "**We/One:** (impersonal pronoun)",
-          "explanation": "Used to express a general or impersonal statement.",
-          "cultural_note": ""
-        },
-        "sait": {
-          "display_format": "**Knows:** (verb)",
-          "explanation": "To be aware of or have knowledge about something.",
-          "cultural_note": ""
-        },
-        "l'accident": {
-          "display_format": "**The accident:**",
-          "explanation": "An unfortunate event resulting in harm or damage.",
-          "cultural_note": ""
-        },
-        "de car": {
-          "display_format": "**Bus accident:**",
-          "explanation": "An accident involving a bus.",
-          "cultural_note": ""
-        },
-        "mortal": {
-          "display_format": "**Deadly:**",
-          "explanation": "Causing or resulting in death.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** (preposition)",
-          "explanation": "Indicates location or position.",
-          "cultural_note": ""
-        },
-        "l'A81": {
-          "display_format": "**A81 highway:**",
-          "explanation": "A specific highway in France.",
-          "cultural_note": ""
-        },
-        "près": {
-          "display_format": "**Near:** (preposition)",
-          "explanation": "Indicates proximity or closeness.",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or origin.",
-          "cultural_note": ""
-        },
-        "Mans": {
-          "display_format": "**Le Mans:**",
-          "explanation": "A city in western France.",
-          "cultural_note": "Le Mans is famous for its 24-hour car racing event."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 5.5,
-        "importance_score": 8.0,
-        "total_score": 21.9
-      },
-      "curation_metadata": {
-        "curation_id": "af51ffd8-9e71-4846-8736-4d2fb7c74170",
-        "curated_at": "2025-06-13T16:16:27.986319+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034270+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 5.5,
-      "importance_score": 8.0,
-      "total_score": 21.9
-    },
-    {
-      "title": "Naufrage sur un lac en RDC : au moins 40 morts",
-      "english_title": "At Least 40 Dead in Boat Accident on Lake in DRC",
-      "simplified_french_title": "Naufrage sur un lac en RDC : au moins 40 morts",
-      "simplified_english_title": "At Least 40 Dead in Boat Accident on Lake in DRC",
-      "summary": "Un convoi de pirogues transportant des gens à des funérailles a coulé sur un lac en RDC",
-      "english_summary": "A convoy of canoes carrying people to a funeral sank on a lake in the DRC",
-      "french_summary": "Un convoi de pirogues transportant des gens à des funérailles a coulé sur un lac en RDC",
-      "original_article_title": "Au moins 40 morts dans un naufrage sur un lac du nord-ouest de la RDC",
-      "original_article_link": "https://www.lemonde.fr/afrique/article/2025/06/13/au-moins-40-morts-dans-un-naufrage-sur-un-lac-du-nord-ouest-de-la-rdc_6612760_3212.html",
-      "link": "https://www.lemonde.fr/afrique/article/2025/06/13/au-moins-40-morts-dans-un-naufrage-sur-un-lac-du-nord-ouest-de-la-rdc_6612760_3212.html",
-      "source_name": "Le Monde International",
-      "published": "Fri, 13 Jun 2025 17:11:18 +0200",
-      "published_date": "Fri, 13 Jun 2025 17:11:18 +0200",
-      "contextual_title_explanations": {
-        "Au": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates a location or direction.",
-          "cultural_note": ""
-        },
-        "moins": {
-          "display_format": "**Less / At least:** (adverb)",
-          "explanation": "Used to indicate a minimum or a lower limit.",
-          "cultural_note": ""
-        },
-        "40": {
-          "display_format": "**40:** (number)",
-          "explanation": "A numerical value.",
-          "cultural_note": ""
-        },
-        "morts": {
-          "display_format": "**Dead:** (adjective)",
-          "explanation": "People who have died.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In / On:** (preposition)",
-          "explanation": "Indicates a location or position.",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate a non-specific noun.",
-          "cultural_note": ""
-        },
-        "naufrage": {
-          "display_format": "**Shipwreck / Boat accident:** (noun)",
-          "explanation": "An accident where a ship or boat sinks or is severely damaged.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On / Upon:** (preposition)",
-          "explanation": "Indicates a location or surface.",
-          "cultural_note": ""
-        },
-        "lac": {
-          "display_format": "**Lake:** (noun)",
-          "explanation": "A body of fresh or saltwater surrounded by land.",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "nord-ouest": {
-          "display_format": "**Northwest:** (adjective)",
-          "explanation": "A direction or region located between north and west.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "RDC": {
-          "display_format": "**DRC (Democratic Republic of the Congo):** (abbreviation)",
-          "explanation": "A country located in central Africa.",
-          "cultural_note": "The DRC is a country with a complex history and ongoing political and social challenges."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.7,
-        "relevance_score": 6.2,
-        "importance_score": 8.5,
-        "total_score": 21.4
-      },
-      "curation_metadata": {
-        "curation_id": "a2985a39-7c9d-46fd-892b-f9c341eaf9a5",
-        "curated_at": "2025-06-13T16:16:27.999024+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034288+00:00",
-      "quality_score": 6.7,
-      "relevance_score": 6.2,
-      "importance_score": 8.5,
-      "total_score": 21.4
-    },
-    {
-      "title": "L'indice pizza et l'attaque d'Israël sur l'Iran",
-      "english_title": "The Pizza Index and Israel's Attack on Iran",
-      "simplified_french_title": "L'indice pizza et l'attaque d'Israël sur l'Iran",
-      "simplified_english_title": "The Pizza Index and Israel's Attack on Iran",
-      "summary": "Les personnels américains travaillent tard et commandent de la nourriture à emporter avant les événements majeurs.",
-      "english_summary": "US personnel work late and order takeout before major events, revealing a pattern.",
-      "french_summary": "Les personnels américains travaillent tard et commandent de la nourriture à emporter avant les événements majeurs.",
-      "original_article_title": "Qu’est-ce que l'«indice pizza», qui aurait permis de prévoir l'attaque d'Israël sur l'Iran?",
-      "original_article_link": "https://www.lefigaro.fr/international/qu-est-ce-que-l-indice-pizza-qui-aurait-permis-de-prevoir-l-attaque-d-israel-sur-l-iran-20250613",
-      "link": "https://www.lefigaro.fr/international/qu-est-ce-que-l-indice-pizza-qui-aurait-permis-de-prevoir-l-attaque-d-israel-sur-l-iran-20250613",
-      "source_name": "Le Figaro",
-      "published": "Fri, 13 Jun 2025 17:47:27 +0200",
-      "published_date": "Fri, 13 Jun 2025 17:47:27 +0200",
-      "contextual_title_explanations": {
-        "Qu'est-ce": {
-          "display_format": "**What is:** (interrogative phrase)",
-          "explanation": "A question asking for information or an explanation about something.",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That / Which:** (conjunction)",
-          "explanation": "Used to introduce a subordinate clause.",
-          "cultural_note": ""
-        },
-        "l'": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "indice": {
-          "display_format": "**Index:** A numerical value or indicator.",
-          "explanation": "A statistical value that provides information about a particular phenomenon.",
-          "cultural_note": "In economics, indices are used to track changes in markets or economic indicators."
-        },
-        "pizza": {
-          "display_format": "**Pizza:** A type of Italian dish.",
-          "explanation": "A popular food item originating from Italy, often served as a flatbread with toppings.",
-          "cultural_note": "Pizza has become a global phenomenon, with many variations and cultural adaptations."
-        },
-        "qui": {
-          "display_format": "**That / Which:** (relative pronoun)",
-          "explanation": "Used to introduce a relative clause.",
-          "cultural_note": ""
-        },
-        "aurait": {
-          "display_format": "**Would have:** (conditional tense)",
-          "explanation": "Used to express a hypothetical or uncertain situation in the past.",
-          "cultural_note": ""
-        },
-        "permis": {
-          "display_format": "**Allowed / Permitted:** (verb)",
-          "explanation": "To give permission or make something possible.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "prévoir": {
-          "display_format": "**To foresee / Predict:** (verb)",
-          "explanation": "To anticipate or forecast something.",
-          "cultural_note": ""
-        },
-        "attaque": {
-          "display_format": "**Attack:** A military or violent action.",
-          "explanation": "A sudden and violent assault or assault.",
-          "cultural_note": "In a geopolitical context, attacks can have significant consequences for international relations and global security."
-        },
-        "d'": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israel:** A country in the Middle East.",
-          "explanation": "A sovereign state located in the Middle East.",
-          "cultural_note": "Israel is a significant player in Middle Eastern politics and has complex relationships with its neighbors."
-        },
-        "sur": {
-          "display_format": "**On / Against:** (preposition)",
-          "explanation": "Indicates a position or direction.",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** A country in the Middle East.",
-          "explanation": "A sovereign state located in the Middle East.",
-          "cultural_note": "Iran is a significant player in Middle Eastern politics and has complex relationships with its neighbors."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 5.199999999999999,
-        "importance_score": 9.0,
-        "total_score": 21.299999999999997
-      },
-      "curation_metadata": {
-        "curation_id": "8307b6ff-6082-4db1-814a-fa72774b68b6",
-        "curated_at": "2025-06-13T16:16:27.975683+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034306+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 5.199999999999999,
-      "importance_score": 9.0,
-      "total_score": 21.299999999999997
-    },
-    {
-      "title": "Colombie : candidat blessé, campagne suspendue",
-      "english_title": "Colombia: Presidential Candidate Injured, Campaign Suspended",
-      "simplified_french_title": "Colombie : candidat blessé, campagne suspendue",
-      "simplified_english_title": "Colombia: Presidential Candidate Injured, Campaign Suspended",
-      "summary": "Un candidat à la présidentielle colombienne a été blessé par balle à Bogota, la campagne est suspendue.",
-      "english_summary": "A Colombian presidential candidate was shot and injured in Bogota, prompting a campaign suspension.",
-      "french_summary": "Un candidat à la présidentielle colombienne a été blessé par balle à Bogota, la campagne est suspendue.",
-      "original_article_title": "Colombie : après une attaque, un candidat à la présidentielle suspend sa campagne",
-      "original_article_link": "https://www.europe1.fr/international/colombie-apres-une-attaque-un-candidat-a-la-presidentielle-suspend-sa-campagne-758610",
-      "link": "https://www.europe1.fr/international/colombie-apres-une-attaque-un-candidat-a-la-presidentielle-suspend-sa-campagne-758610",
-      "source_name": "Europe 1",
-      "published": "Fri, 13 Jun 2025 18:00:05 +0200",
-      "published_date": "Fri, 13 Jun 2025 18:00:05 +0200",
-      "contextual_title_explanations": {
-        "Colombie": {
-          "display_format": "**Colombia:** South American country",
-          "explanation": "A country located in the northwest of South America, known for its rich cultural heritage and complex political history.",
-          "cultural_note": "Colombia has faced various political and social challenges, including guerrilla warfare, drug trafficking, and corruption."
-        },
-        ":": {
-          "display_format": "**:** (punctuation mark)",
-          "explanation": "Used to separate clauses or items in a list.",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**After:** (preposition)",
-          "explanation": "Indicates something that follows in time.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate that the noun it precedes is singular and indefinite.",
-          "cultural_note": ""
-        },
-        "attaque": {
-          "display_format": "**Attack:** A violent or aggressive act.",
-          "explanation": "A sudden and deliberate act of violence or hostility.",
-          "cultural_note": "In the context of politics, attacks can be physical or verbal, and may target individuals, groups, or institutions."
-        },
-        "un": {
-          "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate that the noun it precedes is singular and indefinite.",
-          "cultural_note": ""
-        },
-        "candidat": {
-          "display_format": "**Candidate:** A person running for office or a position.",
-          "explanation": "Someone who is seeking election or appointment to a particular position.",
-          "cultural_note": "In democratic systems, candidates compete against each other to win the support of voters."
-        },
-        "à": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates direction, movement, or location.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
-          "cultural_note": ""
-        },
-        "présidentielle": {
-          "display_format": "**Presidential:** Relating to a president or presidency.",
-          "explanation": "Concerning the office or election of a president.",
-          "cultural_note": "Presidential elections are often significant events in a country's political calendar."
-        },
-        "suspend": {
-          "display_format": "**Suspend:** To temporarily stop or halt.",
-          "explanation": "To interrupt or delay an activity or process.",
-          "cultural_note": "In politics, suspending a campaign can be a strategic decision to reassess or regroup."
-        },
-        "sa": {
-          "display_format": "**His / Her / Its:** (possessive adjective)",
-          "explanation": "Indicates possession.",
-          "cultural_note": ""
-        },
-        "campagne": {
-          "display_format": "**Campaign:** A series of activities to promote a cause or candidate.",
-          "explanation": "A coordinated effort to achieve a specific goal, often in politics or marketing.",
-          "cultural_note": "Political campaigns can be intense and highly publicized, involving rallies, speeches, and media coverage."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.4,
-        "relevance_score": 6.199999999999999,
-        "importance_score": 7.5,
-        "total_score": 21.1
-      },
-      "curation_metadata": {
-        "curation_id": "88ae916c-a41a-4ce7-8078-4bba28470ed3",
-        "curated_at": "2025-06-13T16:16:27.965966+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034322+00:00",
-      "quality_score": 7.4,
-      "relevance_score": 6.199999999999999,
-      "importance_score": 7.5,
-      "total_score": 21.1
-    },
-    {
-      "title": "La présidente d'un bailleur social est poussée à démissionner",
-      "english_title": "The President of a Social Housing Organization is Forced to Resign",
-      "simplified_french_title": "La présidente d'un bailleur social est poussée à démissionner",
-      "simplified_english_title": "The President of a Social Housing Organization is Forced to Resign",
-      "summary": "Un rapport critique la gestion d'une présidente de bailleur social, qui est demandée de démissionner",
-      "english_summary": "A report criticizes the management of a social housing organization, leading to demands for the president's resignation",
-      "french_summary": "Un rapport critique la gestion d'une présidente de bailleur social, qui est demandée de démissionner",
-      "original_article_title": "La présidente du plus grand bailleur social des Bouches-du-Rhône poussée au départ",
-      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/13/la-presidente-du-plus-grand-bailleur-social-des-bouches-du-rhone-poussee-au-depart_6612763_3224.html",
-      "link": "https://www.lemonde.fr/societe/article/2025/06/13/la-presidente-du-plus-grand-bailleur-social-des-bouches-du-rhone-poussee-au-depart_6612763_3224.html",
-      "source_name": "Le Monde Economie",
-      "published": "Fri, 13 Jun 2025 17:30:06 +0200",
-      "published_date": "Fri, 13 Jun 2025 17:30:06 +0200",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**The:** (article)",
-          "explanation": "Used to indicate a specific noun.",
-          "cultural_note": ""
-        },
-        "présidente": {
-          "display_format": "**President:** (feminine form)",
-          "explanation": "The head of an organization or institution.",
-          "cultural_note": "In France, the use of 'présidente' indicates a female president, while 'président' would be used for a male president."
-        },
-        "du": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or relationship.",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**Most:** (adverb)",
-          "explanation": "Used to indicate a superlative form.",
-          "cultural_note": ""
-        },
-        "grand": {
-          "display_format": "**Big/Large:** (adjective)",
-          "explanation": "Used to describe size or importance.",
-          "cultural_note": ""
-        },
-        "bailleur": {
-          "display_format": "**Landlord/Housing Organization:** (noun)",
-          "explanation": "An organization that provides housing, often for low-income families.",
-          "cultural_note": "In France, social housing organizations play a crucial role in providing affordable housing to those in need."
-        },
-        "social": {
-          "display_format": "**Social:** (adjective)",
-          "explanation": "Relating to society, community, or social welfare.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Of the:** (preposition)",
-          "explanation": "Indicates possession or relationship.",
-          "cultural_note": ""
-        },
-        "Bouches-du-Rhône": {
-          "display_format": "**Bouches-du-Rhône:** (department in France)",
-          "explanation": "A department in southeastern France, known for its Mediterranean coastline and cities like Marseille.",
-          "cultural_note": "Bouches-du-Rhône is a significant region in France, known for its rich history, culture, and economic importance."
-        },
-        "poussée": {
-          "display_format": "**Forced/Pushed:** (verb)",
-          "explanation": "To compel or coerce someone to do something.",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**To the:** (preposition)",
-          "explanation": "Indicates direction or movement.",
-          "cultural_note": ""
-        },
-        "départ": {
-          "display_format": "**Departure/Resignation:** (noun)",
-          "explanation": "The act of leaving a position or office.",
-          "cultural_note": "In a political or professional context, 'départ' often implies a forced resignation or removal from office."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.5,
-        "relevance_score": 6.0,
-        "importance_score": 8.5,
-        "total_score": 21.0
-      },
-      "curation_metadata": {
-        "curation_id": "000b6dc0-3ea5-46ad-a920-5c22c1e26b39",
-        "curated_at": "2025-06-13T16:16:27.967899+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-13T16:23:08.034337+00:00",
-      "quality_score": 6.5,
-      "relevance_score": 6.0,
-      "importance_score": 8.5,
-      "total_score": 21.0
     }
   ]
 }
