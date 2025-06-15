@@ -71,10 +71,23 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/live/raw_articles_*.json data/live/curated_articles_*.json Project-Better-French-Website/rolling_articles.json Project-Better-French-Website/rolling_articles_backup.json logs/daily_report_*.json || true
+          git add data/live/raw_articles_*.json \
+                 data/live/curated_articles_*.json \
+                 Project-Better-French-Website/rolling_articles.json \
+                 Project-Better-French-Website/rolling_articles_backup.json \
+                 logs/daily_report_*.json || true
+
+          # Only create a commit if there is something staged.
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Auto-update: Fresh French articles and daily reports"
-            git push
+
+            # Rebase on the latest main to avoid non-fast-forward errors that occur
+            # when another run (or a manual push) has updated the branch.
+            git pull --rebase --autostash origin main || true
+
+            # Use --force-with-lease to push our rebased commit while protecting
+            # against accidental overwrites.
+            git push --force-with-lease origin HEAD:main
           else
             echo "No changes to commit."
           fi
