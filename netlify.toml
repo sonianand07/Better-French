@@ -1,0 +1,11 @@
+# Netlify configuration for Better French
+
+[build]
+  command = ""
+  publish = "Project-Better-French-Website"
+
+# Redirect all 404s to index.html (single-page app behavior)
+[[redirects]]
+  from = "/404"
+  to = "/index.html"
+  status = 200 
