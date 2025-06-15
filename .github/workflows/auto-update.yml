@@ -44,8 +44,9 @@ jobs:
           pip install -r requirements.txt
 
       # Restore checkpoint if it exists from previous failed run
-      - name: Download checkpoint artifact
+      - name: Download checkpoint artifact (optional)
         if: always()
+        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
           name: batch_wip
