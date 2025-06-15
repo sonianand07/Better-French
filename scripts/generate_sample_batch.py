@@ -3,7 +3,7 @@
 Run: python scripts/generate_sample_batch.py
 The file will be written to Project-Better-French-Website/test_articles.json
 """
-import json, pathlib, datetime
+import json, pathlib, datetime, argparse
 from importlib.util import spec_from_file_location, module_from_spec
 
 # Dynamically import AI-Engine (filename has a dash)
@@ -12,6 +12,11 @@ _spec = spec_from_file_location("ai_engine", ai_engine_path)
 ai_engine = module_from_spec(_spec)
 _spec.loader.exec_module(ai_engine)  # type: ignore
 CostOptimizedAIProcessor = ai_engine.CostOptimizedAIProcessor
+
+# CLI args
+parser = argparse.ArgumentParser(description="Generate AI-enhanced sample batch for UI testing")
+parser.add_argument("--sample-size", type=int, default=5, help="Number of articles to process (default 5)")
+args = parser.parse_args()
 
 # Pick a recent curated file
 curated_files = sorted((pathlib.Path("data/live").glob("curated_articles_*.json")), reverse=True)
@@ -23,9 +28,9 @@ print(f"📄 Using {latest}")
 # Handle both structures 'articles' and 'curated_articles'
 raw = json.load(latest.open())
 if 'articles' in raw:
-    articles = raw['articles'][:10]
+    articles = raw['articles'][: args.sample_size]
 elif 'curated_articles' in raw:
-    articles = raw['curated_articles'][:10]
+    articles = raw['curated_articles'][: args.sample_size]
 else:
     raise SystemExit('No articles array found in chosen file')
 
