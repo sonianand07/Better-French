@@ -24,7 +24,15 @@ from __future__ import annotations
 
 import json, pathlib, argparse, importlib.util, sys, textwrap, logging, datetime, os
 from typing import List, Dict, Any
-from scripts.note_logger import log_task
+
+# Allow running script directly: add current directory to PYTHONPATH
+import pathlib, sys as _sys
+_sys.path.append(str(pathlib.Path(__file__).parent))
+
+try:
+    from note_logger import log_task  # when run as standalone script
+except ImportError:
+    from scripts.note_logger import log_task  # when invoked as module
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ROLLING_JSON = ROOT / 'Project-Better-French-Website' / 'rolling_articles.json'
