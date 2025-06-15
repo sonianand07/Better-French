@@ -14,14 +14,8 @@ import requests
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
-import re
-# spaCy NER for robust name detection
-try:
-    import spacy
-    _NLP_EN = spacy.load("en_core_web_sm", disable=["tagger", "parser"])
-    _NLP_FR = spacy.load("fr_core_news_sm", disable=["tagger", "parser"])
-except Exception:
-    _NLP_EN = _NLP_FR = None
+from pathlib import Path
+from checkpoint_utils import load_checkpoint, append_article, clear_checkpoint
 
 # Ensure project root is on PYTHONPATH so we can import 'config.*' and 'automation'
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -153,14 +147,14 @@ class CostOptimizedAIProcessor:
         return True, "Within limits"
     
     def _merge_proper_nouns(self, text: str) -> str:
-        """Merge 2-5 consecutive capitalised tokens (names, places) into one phrase.
+        """Merge runs of 2–3 consecutive capitalised tokens into a single proper-noun phrase.
 
-        Heuristic rules:
-        • A token is considered *cap-initial* when its first char is A-Z.
-        • Internal hyphens, apostrophes or periods inside the token are allowed (Jean-Luc, O'Neill, J.).
-        • Digits inside the token break the run.
-        • Merge runs of length 2-5; single tokens are left untouched; runs >5 are rare and skipped to
-          avoid over-merging lists.
+        The heuristic is intentionally lightweight:
+          • A token is considered *capitalised* if its first character is uppercase A-Z.
+          • Tokens containing digits or internal punctuation (e.g. «L'» or «–» or «/») are skipped.
+          • When 2 or 3 capitalised tokens appear back-to-back, they are joined with a single space and
+            treated as one phrase. Runs longer than 3 are left untouched to avoid over-merging (e.g. long
+            newspaper headlines listing multiple words).
         """
         if not text:
             return text
@@ -169,30 +163,29 @@ class CostOptimizedAIProcessor:
         merged: List[str] = []
         i = 0
         while i < len(tokens):
-            run: List[str] = []
+            # Consider token without trailing punctuation
+            token_clean = tokens[i].rstrip('.,:;!?')
+            if token_clean and token_clean[0].isupper() and token_clean.isalpha():
+                run_start = i
+                run_end = i
+                # Extend run while next token is also capitalised and alpha-only, up to 3 tokens total
+                while (run_end + 1 < len(tokens) and
+                       tokens[run_end + 1].rstrip('.,:;!?') and
+                       tokens[run_end + 1].rstrip('.,:;!?')[0].isupper() and
+                       tokens[run_end + 1].rstrip('.,:;!?').isalpha() and
+                       (run_end - run_start + 1) < 3):
+                    run_end += 1
 
-            def _is_cap_token(tok: str) -> bool:
-                tok = tok.rstrip('.,:;!?')
-                if not tok or not tok[0].isupper():
-                    return False
-                # Allow hyphen, apostrophe, period inside but no digits
-                return all(c.isalpha() or c in "-.''" for c in tok)
-
-            while i < len(tokens) and _is_cap_token(tokens[i]):
-                run.append(tokens[i].rstrip('.,:;!?'))
-                i += 1
-                if len(run) == 5:
-                    break
-
-            if 2 <= len(run) <= 5:
-                merged.append(" ".join(run))
-            else:
-                # Not a valid run; push back tokens as-is
-                if run:
-                    merged.extend(run)
-                else:
-                    merged.append(tokens[i])
-                    i += 1
+                # If we have at least two tokens in the run, merge them
+                if run_end > run_start:
+                    # Build phrase without trailing punctuation on individual tokens
+                    phrase = " ".join(t.rstrip('.,:;!?') for t in tokens[run_start: run_end + 1])
+                    merged.append(phrase)
+                    i = run_end + 1
+                    continue  # Move to next token after the merged run
+            # Default behaviour: keep token as-is
+            merged.append(tokens[i])
+            i += 1
 
         return " ".join(merged)
 
@@ -200,49 +193,21 @@ class CostOptimizedAIProcessor:
         """Create comprehensive AI prompt for all required outputs"""
         
         # Extract article data
-        original_title = article.get('title') or article.get('original_data', {}).get('title', '')
-        original_title = self._merge_proper_nouns(original_title)
-        summary = article.get('summary') or article.get('original_data', {}).get('summary', '')
+        original_title = article.get('title', '')
+        # Merge proper nouns to guide the AI to treat them as single units
+        title = self._merge_proper_nouns(original_title)
+        summary = article.get('summary', '')
         content = article.get('content', '')
         
         # Use the exact few-shot examples from the proven system
         few_shot_examples = self._get_few_shot_examples()
 
-        # New examples (1 title pair + 5 summaries, 30-40 words each)
-        simplified_examples = """
-TITLE EXAMPLE
-Original Title: Inflation : les prix alimentaires vont-ils enfin baisser ?
-"simplified_french_title": "Inflation : les prix alimentaires vont-ils enfin baisser ?"  # 57 chars
-"simplified_english_title": "Inflation: Will food prices finally fall?"  # 48 chars
-
-SUMMARY EXAMPLE 1 (FR & EN, 34 / 35 words)
-"french_summary": "La nouvelle loi climat oblige les grandes entreprises à publier chaque année un bilan carbone détaillé. Des ONG saluent un pas majeur, mais avertissent que des contrôles sérieux seront essentiels pour éviter le greenwashing."
-"english_summary": "A new climate law forces large companies to publish an annual, detailed carbon report. NGOs welcome the major step yet warn that strong enforcement is crucial to stop firms from green-washing their public image."
-
-SUMMARY EXAMPLE 2 (32 / 33 words)
-"french_summary": "Après deux semaines de grève, la SNCF accepte une hausse salariale de 4 %. Les syndicats considèrent l'accord comme une première victoire et suspendent le mouvement pour laisser place aux négociations sectorielles."
-"english_summary": "After two weeks of strikes, French Railways agreed to a 4 % pay rise. Unions call the deal an initial victory and pause the stoppage, opening room for detailed talks in each job category."
-
-SUMMARY EXAMPLE 3 (37 / 36 words)
-"french_summary": "Le Parlement européen interdit dès 2035 la vente de voitures diesel et essence neuves. Les constructeurs saluent une visibilité claire, mais s'inquiètent du retard des bornes de recharge dans plusieurs États membres."
-"english_summary": "The European Parliament has banned sales of new petrol and diesel cars from 2035. Carmakers welcome the clear timeline yet worry many member states still lag in building a dense fast-charging network."
-
-SUMMARY EXAMPLE 4 (31 / 32 words)
-"french_summary": "Un séisme de magnitude 6,2 a frappé le sud du Chili sans faire de victime grave. Les autorités rappellent cependant l'importance de renforcer les bâtiments anciens situés dans les zones sismiques."
-"english_summary": "A 6.2-magnitude earthquake shook southern Chile causing no serious casualties. Officials nevertheless stress the urgent need to reinforce older buildings that sit in the country's high-risk seismic corridor."
-
-SUMMARY EXAMPLE 5 (35 / 34 words)
-"french_summary": "La finale de Roland-Garros se jouera finalement sous le toit fermé à cause d'orages annoncés. Les organisateurs assurent que cette décision garantit la sécurité du public tout en préservant la qualité du jeu."
-"english_summary": "The French Open final will be played under the closed roof because thunderstorms are forecast. Organisers say the move protects spectators' safety while ensuring consistent playing conditions for the athletes."
-"""
-
         # COMPREHENSIVE prompt for all outputs
         full_prompt = f"""{few_shot_examples}
-{simplified_examples}
 
 Please analyze the following French news article and provide ALL the following outputs:
 
-Original Title: {original_title}
+Original Title: {title}
 Original Summary: {summary}
 
 Provide your response as a VALID JSON object with these exact keys:
@@ -268,9 +233,6 @@ Provide your response as a VALID JSON object with these exact keys:
 CRITICAL REQUIREMENTS:
 - Only return the JSON object, no other text
 - Make simplified titles clear and accessible  
-- Simplified titles must be ≤ 60 characters, keep all key actors/action/place, remove click-bait prefixes and quotes, keep original tense.
-- If the original headline names a speaker or source (text before the first colon or within quotes), retain that attribution in the simplified titles.
-- Preserve important scope words such as "régional", "mondial", etc.
 - YOU MUST provide contextual explanations for EVERY SINGLE WORD AND PHRASE in the title - NO EXCEPTIONS
 - This includes: articles (le, la, une), prepositions (de, à, dans, pour), conjunctions (et, que, ou), pronouns (ce, l', on), basic verbs (est, sait), and ALL other words
 - EVERY word helps language learners understand grammar patterns and build vocabulary
@@ -293,93 +255,6 @@ Based on the article above, provide the complete JSON response:
 """
         
         return full_prompt
-
-    # ------------------------------------------------------------------
-    # NEW: two-step prompting helpers (titles+summaries, explanations)
-    # ------------------------------------------------------------------
-
-    def build_title_prompt(self, article: Dict[str, Any]) -> str:
-        """Return prompt asking only for simplified titles and 20-25-word summaries."""
-        original_title = article.get('title') or article.get('original_data', {}).get('title', '')
-        original_title = self._merge_proper_nouns(original_title)
-        summary = article.get('summary') or article.get('original_data', {}).get('summary', '')
-
-        # Explicit JSON schema that the model must follow
-        json_schema = (
-            '{\n'
-            '  "simplified_french_title": "",\n'
-            '  "simplified_english_title": "",\n'
-            '  "french_summary": "",\n'
-            '  "english_summary": ""\n'
-            '}'
-        )
-
-        return (
-            "You are Better French assistant. Return ONLY a VALID JSON object exactly matching this schema:\n"
-            f"{json_schema}\n"
-            "DO NOT add any other keys or explanatory text.\n\n"
-            "Key requirements:\n"
-            "  • simplified_french_title – concise French ≤ 60 chars, keep speaker & scope.\n"
-            "  • simplified_english_title – faithful English translation ≤ 60 chars.\n"
-            "  • french_summary – simple French, 30-40 words – count them.\n"
-            "  • english_summary – clear English, 30-40 words – count them.\n"
-            "Rules for titles: preserve actors/places/actions, drop click-bait prefixes, maintain tense.\n\n"
-            f"Original Title: {original_title}\n"
-            f"Original Summary: {summary}"
-        )
-
-    def build_explanation_prompt(self, article: Dict[str, Any]) -> str:
-        """Prompt that asks only for contextual_title_explanations covering every token."""
-        original_title = article.get('title') or article.get('original_data', {}).get('title', '')
-        original_title = self._merge_proper_nouns(original_title)
-        few_shot = self._get_few_shot_examples()
-        json_schema = '[\n  {\n    "original_word": "",\n    "display_format": "",\n    "explanation": "",\n    "cultural_note": "",\n    "part_of_speech": "",\n    "cefr": "",\n    "example": ""\n  }\n]'
-
-        name_rule = (
-            "IMPORTANT : treat a person's full name (all consecutive capitalised words, including hyphens, apostrophes or middle initials) as **one** original_word."
-        )
-
-        name_examples = """
-EX 1 — simple two-word name
-Title: "Donald Trump promet un accord"
-contextual_title_explanations: [ {"original_word": "Donald Trump" , "display_format": "**Donald Trump:** 45e président des États-Unis", "explanation": "American politician and businessman."} ]
-
-EX 2 — hyphenated name
-Title: "Jean-Luc Mélenchon critique le budget"
-contextual_title_explanations: [ {"original_word": "Jean-Luc Mélenchon", "display_format": "**Jean-Luc Mélenchon:** Chef du parti LFI", "explanation": "French left-wing political leader."} ]
-
-EX 3 — accented first name
-Title: "Nicolás Maduro annonce des réformes"
-contextual_title_explanations: [ {"original_word": "Nicolás Maduro", "display_format": "**Nicolás Maduro:** Président du Venezuela", "explanation": "Venezuelan head of state."} ]
-
-EX 4 — apostrophe contraction (capital)
-Title: "L'Iran répond aux sanctions"
-contextual_title_explanations: [ {"original_word": "L'Iran", "display_format": "**L'Iran:** Pays du Moyen-Orient", "explanation": "Middle-Eastern country."} ]
-
-EX 5 — apostrophe contraction (lower-case)
-Title: "d'Europe vient une nouvelle directive"
-contextual_title_explanations: [ {"original_word": "d'Europe", "display_format": "**d'Europe:** De l'Europe", "explanation": "Refers to Europe as origin."} ]
-
-EX 6 — place name with accent + hyphen
-Title: "Sécheresse en Île-de-France cet été"
-contextual_title_explanations: [ {"original_word": "Île-de-France", "display_format": "**Île-de-France:** Région de Paris", "explanation": "Region surrounding Paris."} ]
-
-EX 7 — multi-word proper noun with digits
-Title: "Les Jeux Olympiques 2024 approchent"
-contextual_title_explanations: [ {"original_word": "Jeux Olympiques 2024", "display_format": "**Jeux Olympiques 2024:** Événement sportif mondial", "explanation": "2024 Summer Olympic Games."} ]
-
-EX 8 — punctuation token example
-Title: "« Liberté » : un mot chargé d'histoire"
-contextual_title_explanations: [ {"original_word": "«", "display_format": "**«:** Guillemets ouvrants", "explanation": "Opening French quotation mark."}, {"original_word": "Liberté", "display_format": "**Liberté:** Freedom", "explanation": "Abstract noun meaning freedom."}, {"original_word": "»", "display_format": "**»:** Guillemets fermants", "explanation": "Closing French quotation mark."}, {"original_word": ":", "display_format": "**:** Deux-points", "explanation": "Colon introducing an explanation."} ]
-"""
-
-        return (
-            f"{few_shot}\n\n{name_rule}\n\n{name_examples}\n\n"
-            "Return ONLY a valid JSON array named contextual_title_explanations exactly matching this template:\n"
-            f"{json_schema}\n\n"
-            "Requirements: one object per token (word or punctuation), complete coverage.\n"
-            f"Title: {original_title}"
-        )
 
     def _get_few_shot_examples(self, num_examples=2):
         """Get comprehensive few-shot examples from the proven original system"""
@@ -540,81 +415,99 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
                 timeout=30
             )
             
-            # ------------------------------------------------------------------
-            # §1  Non-200 HTTP → log and abort this call
-            # ------------------------------------------------------------------
-            if response.status_code != 200:
-                logger.error(f"❌ OpenRouter HTTP {response.status_code}: {response.text[:200]}…")
-                return (None, 0.0)
-            
-            # ------------------------------------------------------------------
-            # §2  Safe JSON decode. Some error pages are still 200 w/ HTML.
-            # ------------------------------------------------------------------
-            try:
+            if response.status_code == 200:
                 result = response.json()
-            except ValueError:
-                logger.error("❌ OpenRouter returned non-JSON payload (first 200 chars shown) → %s…", response.text[:200])
-                return (None, 0.0)
-            
-            # ------------------------------------------------------------------
-            # From here we assume 'result' is a proper dict from the API
-            # ------------------------------------------------------------------
-
-            # Track costs with accurate OpenRouter pricing FIRST
-            usage = result.get('usage', {})
-            input_tokens = usage.get('prompt_tokens', 0)
-            output_tokens = usage.get('completion_tokens', 0)
-            total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
-            
-            # --- Dynamic cost table so model swaps don't require code edits elsewhere ---
-            PRICE_TABLE = {
-                "anthropic/claude-3.5-sonnet":      (0.00300, 0.01500),  # $3 / $15 per 1M
-                "meta-llama/llama-3-70b-instruct": (0.00035, 0.00070),  # $0.35 / $0.70 per 1M
-                "google/gemini-2-flash":            (0.00025, 0.00050),
-                # Add new models here ➜ "vendor/model": (in_cost, out_cost)
-            }
-
-            # Fallback: default to Sonnet rates if unknown model string
-            input_cost_per_1k, output_cost_per_1k = PRICE_TABLE.get(
-                self.model,
-                PRICE_TABLE.get("anthropic/claude-3.5-sonnet")
-            )
-            
-            # Calculate actual cost
-            input_cost = (input_tokens / 1000) * input_cost_per_1k
-            output_cost = (output_tokens / 1000) * output_cost_per_1k
-            article_cost = input_cost + output_cost
-            
-            self.daily_cost += article_cost
-            self.daily_api_calls += 1
-            
-            # Log detailed cost info
-            logger.info(f"💰 API Usage: {input_tokens} input + {output_tokens} output = {total_tokens} total tokens")
-            logger.info(f"💰 Article cost: ${article_cost:.4f} (${input_cost:.4f} input + ${output_cost:.4f} output)")
-            logger.info(f"💰 Running total today: ${self.daily_cost:.4f}")
-            
-            # Extract AI response
-            ai_content = result['choices'][0]['message']['content'].strip()
-            logger.info(f"🤖 AI raw response length: {len(ai_content)} characters")
-            
-            # Try robust JSON extraction ➜ tolerate leading prose / ``` fences / trailing text
-            parsed_json = self._safe_json_loads(ai_content)
-            if parsed_json is None:
-                logger.warning("⚠️ Could not extract JSON from AI response (first 120 chars shown) → %s…", ai_content[:120])
-                return (None, article_cost)
-            
-            # Accept both dict and list top-level shapes
-            if isinstance(parsed_json, list):
-                ai_result = {
-                    "contextual_title_explanations": parsed_json,
-                    "key_vocabulary": [],
-                    "cultural_context": {}
+                
+                # Track costs with accurate OpenRouter pricing FIRST
+                usage = result.get('usage', {})
+                input_tokens = usage.get('prompt_tokens', 0)
+                output_tokens = usage.get('completion_tokens', 0)
+                total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
+                
+                # --- Dynamic cost table so model swaps don't require code edits elsewhere ---
+                PRICE_TABLE = {
+                    "anthropic/claude-3.5-sonnet":      (0.00300, 0.01500),  # $3 / $15 per 1M
+                    "meta-llama/llama-3-70b-instruct": (0.00035, 0.00070),  # $0.35 / $0.70 per 1M
+                    "google/gemini-2-flash":            (0.00025, 0.00050),
+                    # Add new models here ➜ "vendor/model": (in_cost, out_cost)
                 }
+
+                # Fallback: default to Sonnet rates if unknown model string
+                input_cost_per_1k, output_cost_per_1k = PRICE_TABLE.get(
+                    self.model,
+                    PRICE_TABLE.get("anthropic/claude-3.5-sonnet")
+                )
+                
+                # Calculate actual cost
+                input_cost = (input_tokens / 1000) * input_cost_per_1k
+                output_cost = (output_tokens / 1000) * output_cost_per_1k
+                article_cost = input_cost + output_cost
+                
+                self.daily_cost += article_cost
+                self.daily_api_calls += 1
+                
+                # Log detailed cost info
+                logger.info(f"💰 API Usage: {input_tokens} input + {output_tokens} output = {total_tokens} total tokens")
+                logger.info(f"💰 Article cost: ${article_cost:.4f} (${input_cost:.4f} input + ${output_cost:.4f} output)")
+                logger.info(f"💰 Running total today: ${self.daily_cost:.4f}")
+                
+                # Extract AI response
+                ai_content = result['choices'][0]['message']['content'].strip()
+                logger.info(f"🤖 AI raw response length: {len(ai_content)} characters")
+                
+                # Parse the contextual explanations (exact approach from original)
+                try:
+                    # Clean up the response to extract JSON
+                    if ai_content.startswith('```json'):
+                        ai_content = ai_content[7:]
+                    if ai_content.endswith('```'):
+                        ai_content = ai_content[:-3]
+                    
+                    ai_content = ai_content.strip()
+                    
+                    # Parse the complete JSON response
+                    ai_result = json.loads(ai_content)
+                    
+                    if isinstance(ai_result, dict):
+                        logger.info(f"✅ Successfully parsed complete AI response!")
+                        
+                        # Extract and validate required fields
+                        simplified_french = ai_result.get('simplified_french_title', article.get('title', ''))
+                        simplified_english = ai_result.get('simplified_english_title', article.get('title', ''))
+                        french_summary = ai_result.get('french_summary', 'Résumé français non disponible.')
+                        english_summary = ai_result.get('english_summary', 'English summary not available.')
+                        contextual_explanations = ai_result.get('contextual_title_explanations', [])
+                        
+                        # Log successful processing
+                        logger.info(f"   🇫🇷 French: {simplified_french[:50]}...")
+                        logger.info(f"   🇬🇧 English: {simplified_english[:50]}...")
+                        logger.info(f"   📝 Explanations: {len(contextual_explanations)} items")
+                        
+                        # Return in the format expected by our system
+                        ai_result = {
+                            "simplified_french_title": simplified_french,
+                            "simplified_english_title": simplified_english,
+                            "french_summary": french_summary,
+                            "english_summary": english_summary,
+                            "contextual_title_explanations": contextual_explanations,
+                            "key_vocabulary": [],
+                            "cultural_context": {}
+                        }
+                        
+                        return (ai_result, article_cost)
+                    else:
+                        logger.warning(f"❌ AI returned non-dict: {type(ai_result)}")
+                        return (None, article_cost)  # Return cost even if parsing failed
+                    
+                except json.JSONDecodeError as e:
+                    logger.warning(f"⚠️ Failed to parse AI JSON response: {e}")
+                    logger.warning(f"Raw response: {ai_content[:200]}...")
+                    return (None, article_cost)  # Return cost even if parsing failed
+                
             else:
-                ai_result = parsed_json
-            
-            return (ai_result, article_cost)
-            
+                logger.error(f"❌ OpenRouter API error {response.status_code}: {response.text}")
+                return (None, 0.0)
+                
         except requests.RequestException as e:
             logger.error(f"❌ API request failed: {e}")
             return None
@@ -664,98 +557,6 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
     def process_single_article(self, scored_article: Dict[str, Any]) -> Optional[ProcessedArticle]:
         """Process a single article with AI enhancement"""
         try:
-            start_time = time.time()  # Track processing duration per article
-
-            # STEP 1: Get simplified titles and summaries
-            title_prompt = self.build_title_prompt(scored_article)
-            ai_titles_resp = self.call_openrouter_api(title_prompt, scored_article)
-            if not ai_titles_resp or ai_titles_resp[0] is None:
-                logger.error("❌ AI title+summary call failed for: %s", scored_article.get('title'))
-                return None
-            ai_titles, cost_titles = ai_titles_resp
-
-            # ------------------------------------------------------------------
-            # Validate summary word count (30-40). If out of range, retry once.
-            # ------------------------------------------------------------------
-            def _wcount(txt):
-                import re, textwrap
-                return len(re.findall(r"\\w+", txt or ""))
-
-            needs_retry = False
-            for key in ("french_summary", "english_summary"):
-                wc = _wcount(ai_titles.get(key, ""))
-                if wc < 30 or wc > 40:
-                    needs_retry = True
-                    logger.info(f"⚠️ {key} word-count {wc} out of range – will retry once")
-                    break
-
-            if needs_retry:
-                retry_resp = self.call_openrouter_api(title_prompt, scored_article)
-                if retry_resp and retry_resp[0]:
-                    ai_titles, add_cost = retry_resp
-                    cost_titles += add_cost
-
-            # Enforce 60-char limit on simplified titles (truncate with …)
-            for key in ("simplified_french_title", "simplified_english_title"):
-                title_txt = ai_titles.get(key, "")
-                if len(title_txt) > 60:
-                    ai_titles[key] = title_txt[:57].rstrip() + "…"
-
-            # Merge back into article dict for later saving
-            scored_article.update({
-                'simplified_french_title': ai_titles.get('simplified_french_title', ''),
-                'simplified_english_title': ai_titles.get('simplified_english_title', ''),
-                'french_summary': ai_titles.get('french_summary', ''),
-                'english_summary': ai_titles.get('english_summary', ''),
-            })
-
-            # STEP 2: Get contextual explanations
-            explain_prompt = self.build_explanation_prompt(scored_article)
-            retries = 0
-            max_retries = 1
-            while True:
-                ai_content_resp = self.call_openrouter_api(explain_prompt, scored_article)
-                if not ai_content_resp or ai_content_resp[0] is None:
-                    logger.error("❌ AI explanation call failed for: %s", scored_article.get('title'))
-                    return None
-                ai_content, cost_explain = ai_content_resp
-
-                # ---------------- Inline validation: names & contractions ----------------
-                def _expected_tokens(title: str):
-                    import re
-                    merged_title = self._merge_proper_nouns(title)
-                    tokens = merged_title.split()
-                    expect = []
-                    # collect multi-word proper nouns (spaces)
-                    for tok in tokens:
-                        if ' ' in tok:
-                            expect.append(tok)
-                    # collect apostrophe contractions l'Iran etc.
-                    expect.extend(re.findall(r"\b\w+'\w+", merged_title))
-                    return set(expect)
-
-                title_src = scored_article.get('title') or scored_article.get('original_data', {}).get('title', '')
-                expected = _expected_tokens(title_src)
-                expected.update(self._spacy_entities(title_src))  # spaCy NER supplement
-                provided = set()
-                if isinstance(ai_content.get('contextual_title_explanations'), list):
-                    provided = {e.get('original_word') for e in ai_content['contextual_title_explanations']}
-                elif isinstance(ai_content.get('contextual_title_explanations'), dict):
-                    provided = set(ai_content['contextual_title_explanations'].keys())
-
-                missing = [t for t in expected if (" " in t or "'" in t) and t not in provided]
-
-                if not missing or retries >= max_retries:
-                    break  # accept result
-
-                # Retry once with explicit correction prompt
-                logger.info(f"🔄 Retry explanation: missing tokens {missing}")
-                explain_prompt = (
-                    f"Your previous answer missed these tokens or split them: {', '.join(missing)}. "
-                    f"Return corrected contextual_title_explanations JSON array ONLY, full coverage. Title: {title_src}"
-                )
-                retries += 1
-
             # Extract original article data
             if 'original_data' in scored_article:
                 original_data = scored_article['original_data']
@@ -768,10 +569,26 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
             else:
                 original_data = scored_article
                 quality_scores = {}
+            
+            # Create AI prompt
+            prompt = self.create_ai_prompt(original_data)
+            
+            # Call OpenRouter API
+            start_time = time.time()
+            api_response = self.call_openrouter_api(prompt, original_data)
+            processing_time = time.time() - start_time
 
-            # Total cost for this article (two API calls)
-            article_processing_cost = cost_titles + cost_explain
-
+            if not api_response:
+                logger.warning(f"⚠️ AI processing failed for: {original_data.get('title', 'Unknown')[:50]}...")
+                return None
+            
+            # Extract AI result and cost
+            if isinstance(api_response, tuple):
+                ai_result, article_cost = api_response
+            else:
+                ai_result = api_response
+                article_cost = 0.0
+            
             # Create processed article
             processed = ProcessedArticle(
                 original_article_title=original_data.get('title', ''),
@@ -779,13 +596,13 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
                 original_article_published_date=original_data.get('published', ''),
                 source_name=original_data.get('source_name', ''),
                 quality_scores=quality_scores,
-                simplified_french_title=scored_article.get('simplified_french_title', ''),
-                simplified_english_title=scored_article.get('simplified_english_title', ''),
-                french_summary=scored_article.get('french_summary', ''),
-                english_summary=scored_article.get('english_summary', ''),
-                contextual_title_explanations=ai_content.get('contextual_title_explanations', []),
-                key_vocabulary=ai_content.get('key_vocabulary', []),
-                cultural_context=ai_content.get('cultural_context', {}),
+                simplified_french_title=ai_result.get('simplified_french_title', ''),
+                simplified_english_title=ai_result.get('simplified_english_title', ''),
+                french_summary=ai_result.get('french_summary', ''),
+                english_summary=ai_result.get('english_summary', ''),
+                contextual_title_explanations=ai_result.get('contextual_title_explanations', []),
+                key_vocabulary=ai_result.get('key_vocabulary', []),
+                cultural_context=ai_result.get('cultural_context', {}),
                 processed_at=datetime.now(timezone.utc).isoformat(),
                 processing_id=f"ai_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{hash(original_data.get('link', '')) % 10000}",
                 curation_metadata={
@@ -793,21 +610,21 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
                     'curated_at': scored_article.get('curated_at', ''),
                     'fast_tracked': scored_article.get('fast_tracked', False)
                 },
-                api_calls_used=2,
-                processing_cost=article_processing_cost
+                api_calls_used=1,
+                processing_cost=self.daily_cost - (self.processing_stats['total_cost_today'])
             )
-
+            
             # Update statistics
             self.processing_stats['articles_processed_today'] += 1
             self.processing_stats['total_cost_today'] = self.daily_cost
             self.processing_stats['average_processing_time'] = (
-                (self.processing_stats['average_processing_time'] * (self.processing_stats['articles_processed_today'] - 1) + (time.time() - start_time)) /
+                (self.processing_stats['average_processing_time'] * (self.processing_stats['articles_processed_today'] - 1) + processing_time) /
                 self.processing_stats['articles_processed_today']
             )
-
+            
             logger.info(f"✨ AI processed: {processed.simplified_french_title[:50]}...")
-            logger.debug(f"💰 Cost: ${processed.processing_cost:.4f}, Time: {time.time() - start_time:.2f}s")
-
+            logger.debug(f"💰 Cost: ${processed.processing_cost:.4f}, Time: {processing_time:.2f}s")
+            
             return processed
             
         except Exception as e:
@@ -940,9 +757,30 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
         """Process articles in cost-optimized batches"""
         logger.info(f"🤖 Starting batch AI processing of {len(articles)} articles...")
         
-        # STEP 1: Filter out already processed articles to save API credits
+        # STEP 1a: filter out items that were already committed
         articles_to_process = self.filter_already_processed_articles(articles)
-        
+
+        # STEP 1b: filter out items already stored in an unfinished checkpoint
+        cp = load_checkpoint()
+        cp_seen = set()
+        for a in cp.get('articles', []):
+            link = a.get('original_article_link') or a.get('link', '')
+            if link:
+                cp_seen.add(link)
+            title = a.get('original_article_title') or a.get('title', '')
+            if title:
+                cp_seen.add(f"title:{title.lower().strip()}")
+
+        if cp_seen:
+            _pre = len(articles_to_process)
+            articles_to_process = [art for art in articles_to_process if not (
+                ((art.get('original_data', art)).get('link') in cp_seen) or
+                (f"title:{(art.get('original_data', art)).get('title','').lower().strip()}" in cp_seen)
+            )]
+            skipped_cp = _pre - len(articles_to_process)
+            if skipped_cp:
+                logger.info(f"💾 Checkpoint resume: skipping {skipped_cp} articles already processed in previous run")
+
         if not articles_to_process:
             logger.info("✅ No new articles to process - all were already AI-enhanced")
             return []
@@ -975,6 +813,11 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
             processed = self.process_single_article(article)
             if processed:
                 processed_articles.append(processed)
+                # Persist checkpoint after every successful article to prevent re-processing on crash
+                try:
+                    append_article(asdict(processed))
+                except Exception as cp_err:
+                    logger.warning(f"⚠️ Could not update checkpoint file: {cp_err}")
             
             # Rate limiting delay
             if i < len(articles_to_process) - 1:  # Don't delay after last article
@@ -1001,6 +844,13 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
         
         if failure_count > 0:
             logger.warning(f"   ⚠️ Failed articles: {failure_count}")
+        
+        # If we processed everything without failures, clear checkpoint
+        if failure_count == 0:
+            try:
+                clear_checkpoint()
+            except Exception as cp_err:
+                logger.warning(f"⚠️ Could not clear checkpoint file: {cp_err}")
         
         return processed_articles
     
@@ -1080,58 +930,6 @@ contextual_title_explanations: [ {"original_word": "«", "display_format": "**«
             'failed_articles': []
         }
         logger.info("🔄 Daily AI processing counters reset")
-
-    # ------------------------------------------------------------------
-    # Helper: more forgiving JSON extraction from LLM output
-    # ------------------------------------------------------------------
-    def _safe_json_loads(self, text: str):
-        """Attempt to load JSON even if the model wrapped it with prose or code fences."""
-        text = text.strip()
-
-        # Strip ```json fences
-        if text.startswith('```'):
-            # keep after first newline following opening fence
-            first_newline = text.find('\n')
-            if first_newline != -1:
-                text = text[first_newline+1:]
-            if text.startswith('{') or text.startswith('['):
-                pass
-        if text.endswith('```'):
-            text = text[:-3].rstrip()
-
-        # If it still starts with prose, try to find first { or [
-        first_curly = text.find('{')
-        first_square = text.find('[')
-        starts = [i for i in (first_curly, first_square) if i != -1]
-        if starts:
-            start = min(starts)
-            if start > 0:
-                text = text[start:]
-
-        # Likewise trim any trailing prose after the last } or ]
-        last_curly = text.rfind('}')
-        last_square = text.rfind(']')
-        ends = [i for i in (last_curly, last_square) if i != -1]
-        if ends:
-            end = max(ends) + 1
-            text = text[:end]
-
-        try:
-            return json.loads(text)
-        except Exception:
-            return None
-
-    # ------------------------------------------------------------------
-    # Named-entity extraction using spaCy (PERSON / GPE / LOC)
-    # ------------------------------------------------------------------
-    def _spacy_entities(self, text: str) -> set[str]:
-        if not text or _NLP_EN is None or _NLP_FR is None:
-            return set()
-        ents = []
-        for nlp in (_NLP_EN, _NLP_FR):
-            doc = nlp(text)
-            ents.extend([span.text for span in doc.ents if span.label_ in ("PERSON", "GPE", "LOC")])
-        return set(ents)
 
 # Test function for development
 def test_ai_processor():
