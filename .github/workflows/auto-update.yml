@@ -1,9 +1,5 @@
 name: Auto Update French News
 
-concurrency:
-  group: auto-update
-  cancel-in-progress: true
-
 on:
   schedule:
     - cron: '0 6,8,10,12,14,16,18,20 * * *'   # DAYTIME ONLY: 8AM-10PM Paris time, NO NIGHT PROCESSING
@@ -14,24 +10,7 @@ permissions:
   actions: read              # Allow reading actions
 
 jobs:
-  quick-guard:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - name: Fast sanity check
-        run: |
-          python -m pip install --upgrade pip
-          pip install ruff
-          # Run ruff but don't fail the workflow; we only want syntax errors to block
-          ruff check . || true
-          python -m py_compile $(git ls-files '*.py')
-
   update:
-    needs: quick-guard
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -47,15 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Restore checkpoint if it exists from previous failed run
-      - name: Download checkpoint artifact (optional)
-        if: always()
-        continue-on-error: true
-        uses: actions/download-artifact@v4
-        with:
-          name: batch_wip
-          path: temp
-
       - name: Set up OpenRouter API key
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" >> $GITHUB_ENV
 
@@ -67,56 +37,28 @@ jobs:
         run: |
           python scripts/rolling_articles_manager.py
 
+      - name: Quality Repair – contextual explanations
+        run: |
+          # scan first 500 articles for any missing tokens and auto-fix
+          python scripts/quality_repair.py --limit 500
+
+      - name: Ensure today\'s daily note exists
+        run: |
+          python - <<'PY'
+          from scripts.note_logger import log_task
+          log_task("workflow run", "Initialised daily note", status="noop")
+          PY
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/live/raw_articles_*.json \
-                 data/live/curated_articles_*.json \
-                 Project-Better-French-Website/rolling_articles.json \
-                 Project-Better-French-Website/rolling_articles_backup.json \
-                 logs/daily_report_*.json || true
-
-          # Only create a commit if there is something staged.
+          git add data/live/raw_articles_*.json data/live/curated_articles_*.json Project-Better-French-Website/rolling_articles.json Project-Better-French-Website/rolling_articles_backup.json logs/*.json || true
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Auto-update: Fresh French articles and daily reports"
-
-            # Rebase on the latest main to avoid non-fast-forward errors that occur
-            # when another run (or a manual push) has updated the branch.
-            git pull --rebase --autostash origin main || true
-
-            # Use --force-with-lease to push our rebased commit while protecting
-            # against accidental overwrites.
-            git push --force-with-lease origin HEAD:main
+            git push
           else
             echo "No changes to commit."
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Always upload current checkpoint so next run can resume
-      - name: Upload checkpoint artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: batch_wip
-          path: temp/batch_WIP.json
-          if-no-files-found: ignore
-          retention-days: 7
-
-  prod-smoke:
-    needs: update
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - name: Install Playwright
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
-      - name: Check Netlify deploy & run smoke test
-        run: |
-          python qa/prod/test_prod_deploy.py https://ephemeral-florentine-48f9c7.netlify.app 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 

@@ -45,4 +45,8 @@ Pillow>=10.3.0            # Image processing for visual diff
 
 fastapi>=0.111.0
 uvicorn[standard]>=0.29.0
-httpx>=0.28.0 
+httpx>=0.28.0
+
+spaCy>=3.7.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0-py3-none-any.whl 
