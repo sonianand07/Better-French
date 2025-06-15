@@ -276,6 +276,36 @@ Based on the article above, provide the complete JSON response:
         
         return full_prompt
 
+    # ------------------------------------------------------------------
+    # NEW: two-step prompting helpers (titles+summaries, explanations)
+    # ------------------------------------------------------------------
+
+    def build_title_prompt(self, article: Dict[str, Any]) -> str:
+        """Return prompt asking only for simplified titles and 20-25-word summaries."""
+        original_title = self._merge_proper_nouns(article.get('title', ''))
+        summary = article.get('summary', '')
+
+        return (
+            "You are Better French assistant. Provide a VALID JSON with exactly these keys:\n"
+            "  simplified_french_title – simplified French version ≤ 60 chars, keep speaker & scope.\n"
+            "  simplified_english_title – faithful English translation ≤ 60 chars.\n"
+            "  french_summary – simple French, 20-25 words.\n"
+            "  english_summary – clear English, 20-25 words.\n"
+            "Rules for titles: keep actors/places/actions, remove click-bait prefixes, keep tense.\n"
+            f"Original Title: {original_title}\nOriginal Summary: {summary}"
+        )
+
+    def build_explanation_prompt(self, article: Dict[str, Any]) -> str:
+        """Prompt that asks only for contextual_title_explanations covering every token."""
+        original_title = self._merge_proper_nouns(article.get('title', ''))
+        few_shot = self._get_few_shot_examples()
+        return (
+            f"{few_shot}\n\n"
+            "Provide contextual_title_explanations as a JSON list covering EVERY word and punctuation in the title (see examples).\n"
+            "Return JSON only.\n"
+            f"Title: {original_title}"
+        )
+
     def _get_few_shot_examples(self, num_examples=2):
         """Get comprehensive few-shot examples from the proven original system"""
         # COMPLETE pre_designed_data from the original proven system
@@ -577,6 +607,28 @@ Based on the article above, provide the complete JSON response:
     def process_single_article(self, scored_article: Dict[str, Any]) -> Optional[ProcessedArticle]:
         """Process a single article with AI enhancement"""
         try:
+            # STEP 1: Get simplified titles and summaries
+            title_prompt = self.build_title_prompt(scored_article)
+            ai_titles = self.call_openrouter_api(title_prompt, scored_article)
+            if not ai_titles:
+                logger.error("❌ AI title+summary call failed for: %s", scored_article.get('title'))
+                return None
+
+            # Merge back into article dict for later saving
+            scored_article.update({
+                'simplified_french_title': ai_titles.get('simplified_french_title',''),
+                'simplified_english_title': ai_titles.get('simplified_english_title',''),
+                'french_summary': ai_titles.get('french_summary',''),
+                'english_summary': ai_titles.get('english_summary',''),
+            })
+
+            # STEP 2: Get contextual explanations
+            explain_prompt = self.build_explanation_prompt(scored_article)
+            ai_content = self.call_openrouter_api(explain_prompt, scored_article)
+            if not ai_content:
+                logger.error("❌ AI explanation call failed for: %s", scored_article.get('title'))
+                return None
+
             # Extract original article data
             if 'original_data' in scored_article:
                 original_data = scored_article['original_data']
@@ -590,25 +642,6 @@ Based on the article above, provide the complete JSON response:
                 original_data = scored_article
                 quality_scores = {}
             
-            # Create AI prompt
-            prompt = self.create_ai_prompt(original_data)
-            
-            # Call OpenRouter API
-            start_time = time.time()
-            api_response = self.call_openrouter_api(prompt, original_data)
-            processing_time = time.time() - start_time
-
-            if not api_response:
-                logger.warning(f"⚠️ AI processing failed for: {original_data.get('title', 'Unknown')[:50]}...")
-                return None
-            
-            # Extract AI result and cost
-            if isinstance(api_response, tuple):
-                ai_result, article_cost = api_response
-            else:
-                ai_result = api_response
-                article_cost = 0.0
-            
             # Create processed article
             processed = ProcessedArticle(
                 original_article_title=original_data.get('title', ''),
@@ -616,13 +649,13 @@ Based on the article above, provide the complete JSON response:
                 original_article_published_date=original_data.get('published', ''),
                 source_name=original_data.get('source_name', ''),
                 quality_scores=quality_scores,
-                simplified_french_title=ai_result.get('simplified_french_title', ''),
-                simplified_english_title=ai_result.get('simplified_english_title', ''),
-                french_summary=ai_result.get('french_summary', ''),
-                english_summary=ai_result.get('english_summary', ''),
-                contextual_title_explanations=ai_result.get('contextual_title_explanations', []),
-                key_vocabulary=ai_result.get('key_vocabulary', []),
-                cultural_context=ai_result.get('cultural_context', {}),
+                simplified_french_title=scored_article.get('simplified_french_title', ''),
+                simplified_english_title=scored_article.get('simplified_english_title', ''),
+                french_summary=scored_article.get('french_summary', ''),
+                english_summary=scored_article.get('english_summary', ''),
+                contextual_title_explanations=ai_content.get('contextual_title_explanations', []),
+                key_vocabulary=ai_content.get('key_vocabulary', []),
+                cultural_context=ai_content.get('cultural_context', {}),
                 processed_at=datetime.now(timezone.utc).isoformat(),
                 processing_id=f"ai_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{hash(original_data.get('link', '')) % 10000}",
                 curation_metadata={
@@ -638,12 +671,12 @@ Based on the article above, provide the complete JSON response:
             self.processing_stats['articles_processed_today'] += 1
             self.processing_stats['total_cost_today'] = self.daily_cost
             self.processing_stats['average_processing_time'] = (
-                (self.processing_stats['average_processing_time'] * (self.processing_stats['articles_processed_today'] - 1) + processing_time) /
+                (self.processing_stats['average_processing_time'] * (self.processing_stats['articles_processed_today'] - 1) + (time.time() - start_time)) /
                 self.processing_stats['articles_processed_today']
             )
             
             logger.info(f"✨ AI processed: {processed.simplified_french_title[:50]}...")
-            logger.debug(f"💰 Cost: ${processed.processing_cost:.4f}, Time: {processing_time:.2f}s")
+            logger.debug(f"💰 Cost: ${processed.processing_cost:.4f}, Time: {time.time() - start_time:.2f}s")
             
             return processed
             
