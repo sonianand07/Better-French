@@ -102,6 +102,8 @@ class BetterFrenchApp {
             
             const data = await response.json();
             this.articles = data.articles || [];
+            // Exclude articles that have not yet been AI-enhanced to avoid duplicate titles and missing context
+            this.articles = this.articles.filter(a => a.ai_enhanced || a.contextual_title_explanations);
             this.filteredArticles = [...this.articles];
             
             console.log(`Loaded ${this.articles.length} AI-enhanced articles with contextual learning`);
