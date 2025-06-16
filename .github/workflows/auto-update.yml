@@ -33,14 +33,13 @@ jobs:
         run: |
           python scripts/scheduler_main.py --once
 
+      - name: Quality Repair – contextual explanations
+        run: |
+          python scripts/quality_repair.py
+
       - name: Create Rolling 100 Articles Collection
         run: |
           python scripts/rolling_articles_manager.py
-
-      - name: Quality Repair – contextual explanations
-        run: |
-          # scan first 500 articles for any missing tokens and auto-fix
-          python scripts/quality_repair.py --limit 500
 
       - name: Ensure today\'s daily note exists
         run: |
