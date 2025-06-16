@@ -15,7 +15,10 @@ advanced learners all get value:
 
 Usage
 -----
-    python3 scripts/quality_repair.py [--limit 20]
+    python3 scripts/quality_repair.py [--limit 0]
+
+Passing `--limit 0` (the default) processes **all** articles. Any positive
+integer restricts the scan to that many recent articles.
 
 The script obeys the OpenRouter API key already configured for AI-Engine.
 """
@@ -93,7 +96,7 @@ def build_repair_prompt(title: str, missing: List[str]) -> str:
 # Main routine
 # ---------------------------------------------------------------------------
 
-def main(limit: int):
+def main(limit: int | None = None):
     if not ROLLING_JSON.exists():
         logger.error('❌ %s not found', ROLLING_JSON)
         sys.exit(1)
@@ -108,7 +111,10 @@ def main(limit: int):
 
     proc = Processor()  # reuse API session & cost tracking
 
-    for idx, art in enumerate(articles[:limit]):
+    # Respect limit (0 or negative = unlimited)
+    subset = articles if (limit is None or limit <= 0) else articles[:limit]
+
+    for idx, art in enumerate(subset):
         title = art.get('title') or art.get('original_article_title', '')
         if not title:
             continue
@@ -204,6 +210,7 @@ def main(limit: int):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Repair contextual explanations')
-    parser.add_argument('--limit', type=int, default=50, help='Number of articles to scan (default 50)')
+    parser.add_argument('--limit', type=int, default=0,
+                        help='Number of articles to scan (0 = all, default 0)')
     args = parser.parse_args()
     main(args.limit) 
