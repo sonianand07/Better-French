@@ -1,88 +1,184 @@
 {
   "metadata": {
-    "updated_at": "2025-06-16T10:22:18.893662+00:00",
-    "total_articles": 48,
+    "updated_at": "2025-06-16T12:33:58.596936+00:00",
+    "total_articles": 49,
     "automation_system": "Better French Max Automated System",
     "website_version": "1.0",
-    "ai_enhanced_count": 11,
+    "ai_enhanced_count": 8,
     "update_type": "ai_enhanced",
-    "average_score": 22.408333333333335
+    "average_score": 22.561224489795922
   },
   "articles": [
     {
-      "title": "France interdit stands israéliens au salon du Bourget",
-      "english_title": "France bans Israeli arms stands at Bourget airshow",
-      "simplified_french_title": "France interdit stands israéliens au salon du Bourget",
-      "simplified_english_title": "France bans Israeli arms stands at Bourget airshow",
-      "summary": "Le gouvernement français interdit la présence de stands israéliens d'armement au salon du Bourget. Cette décision fait suite à des plaintes.",
-      "english_summary": "The French government bans Israeli arms stands at the Bourget airshow following complaints.",
-      "french_summary": "Le gouvernement français interdit la présence de stands israéliens d'armement au salon du Bourget. Cette décision fait suite à des plaintes.",
-      "original_article_title": "Gaza : le gouvernement français interdit des stands israéliens d'armement au salon du Bourget",
-      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/bateau-pour-gaza-les-deux-derniers-passagers-francais-expulses-en-jordanie-GTB5XHUC3NCE7KH5M3ZR7MMZBE/",
-      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/bateau-pour-gaza-les-deux-derniers-passagers-francais-expulses-en-jordanie-GTB5XHUC3NCE7KH5M3ZR7MMZBE/",
+      "title": "Netanyahou devrait prendre garde au syndrome Saddam",
+      "english_title": "Netanyahu Should Beware of Saddam Hussein Syndrome",
+      "simplified_french_title": "Netanyahou devrait prendre garde au syndrome Saddam",
+      "simplified_english_title": "Netanyahu Should Beware of Saddam Hussein Syndrome",
+      "summary": "Mohsen Milani met en garde Israël contre une erreur stratégique. Selon lui, Netanyahou risque de répéter les erreurs de Saddam Hussein.",
+      "english_summary": "Mohsen Milani warns Israel against a strategic mistake. He believes Netanyahu risks repeating Saddam Hussein's errors.",
+      "french_summary": "Mohsen Milani met en garde Israël contre une erreur stratégique. Selon lui, Netanyahou risque de répéter les erreurs de Saddam Hussein.",
+      "original_article_title": "Mohsen Milani : \"Benyamin Netanyahou devrait prendre garde au syndrome Saddam Hussein\"",
+      "original_article_link": "https://www.lexpress.fr/idees-et-debats/mohsen-milani-benyamin-netanyahou-devrait-prendre-garde-au-syndrome-saddam-hussein-EDMEK43ZJVDOTKUNPOOZ3OCWSI/",
+      "link": "https://www.lexpress.fr/idees-et-debats/mohsen-milani-benyamin-netanyahou-devrait-prendre-garde-au-syndrome-saddam-hussein-EDMEK43ZJVDOTKUNPOOZ3OCWSI/",
       "source_name": "L'Express",
-      "published": "Mon, 16 Jun 2025 10:01:02 +0000",
-      "published_date": "Mon, 16 Jun 2025 10:01:02 +0000",
+      "published": "Mon, 16 Jun 2025 11:03:11 +0000",
+      "published_date": "Mon, 16 Jun 2025 11:03:11 +0000",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 9.0,
+        "importance_score": 9.5,
+        "total_score": 28.1
+      },
+      "curation_metadata": {
+        "curation_id": "2eddfe34-83b1-4f85-8b33-64d1e4a7fc7f",
+        "curated_at": "2025-06-16T12:27:03.509581+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595748+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 9.0,
+      "importance_score": 9.5,
+      "total_score": 28.1
+    },
+    {
+      "title": "Israël attaque Téhéran avec des drones",
+      "english_title": "Israel attacks Tehran with drones",
+      "simplified_french_title": "Israël attaque Téhéran avec des drones",
+      "simplified_english_title": "Israel attacks Tehran with drones",
+      "summary": "Le Mossad, service secret israélien, a envoyé des drones en Iran pour attaquer des cibles à Téhéran. L'opération a été menée en secret.",
+      "english_summary": "Israel's Mossad sent drones to Iran to attack targets in Tehran. The operation was carried out in secret.",
+      "french_summary": "Le Mossad, service secret israélien, a envoyé des drones en Iran pour attaquer des cibles à Téhéran. L'opération a été menée en secret.",
+      "original_article_title": "Attaque d’Israël contre Téhéran : comment le Mossad a fait entrer des drones en cachette en Iran",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/attaque-disrael-contre-teheran-comment-le-mossad-a-fait-entrer-des-drones-en-cachette-en-iran-RNEMNGO2NJFQRK2WC2KTYE2VRI/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/attaque-disrael-contre-teheran-comment-le-mossad-a-fait-entrer-des-drones-en-cachette-en-iran-RNEMNGO2NJFQRK2WC2KTYE2VRI/",
+      "source_name": "L'Express",
+      "published": "Mon, 16 Jun 2025 11:21:10 +0000",
+      "published_date": "Mon, 16 Jun 2025 11:21:10 +0000",
       "contextual_title_explanations": {
-        "Gaza": {
-          "display_format": "**Gaza:** Palestinian territory",
-          "explanation": "A coastal region in the Middle East that borders Egypt and Israel.",
-          "cultural_note": "A highly contested region with a complex history of conflict and political tensions."
+        "Attaque": {
+          "display_format": "**Attack:** A sudden and violent incident.",
+          "explanation": "A hostile action or assault.",
+          "cultural_note": ""
+        },
+        "d’Israël": {
+          "display_format": "**Of Israel:** Relating to the state of Israel.",
+          "explanation": "Referring to the country in the Middle East.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against:** In opposition to.",
+          "explanation": "Indicates opposition or contrast.",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Capital city of Iran.",
+          "explanation": "The largest city in Iran and its political center.",
+          "cultural_note": ""
         },
         ":": {
-          "display_format": "**:** Colon",
-          "explanation": "Used to indicate that what follows is a direct explanation or elaboration.",
+          "display_format": "**:** Colon.",
+          "explanation": "Punctuation mark used to introduce a list or explanation.",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**How:** In what way.",
+          "explanation": "Asking for an explanation or description of a process.",
           "cultural_note": ""
         },
         "le": {
-          "display_format": "**The:** Definite article",
-          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "display_format": "**The:** Definite article.",
+          "explanation": "Used to indicate a specific noun or noun phrase.",
           "cultural_note": ""
         },
-        "gouvernement": {
-          "display_format": "**Government:** The system or group of people that govern a country, state, or organization.",
-          "explanation": "Responsible for making and enforcing laws, policies, and decisions.",
+        "Mossad": {
+          "display_format": "**Mossad:** Israeli national intelligence agency.",
+          "explanation": "Responsible for intelligence gathering, covert operations, and counter-terrorism.",
+          "cultural_note": "The Mossad is known for its secretive nature and high-profile operations."
+        },
+        "a": {
+          "display_format": "**Has:** Auxiliary verb.",
+          "explanation": "Used to form the present perfect tense.",
           "cultural_note": ""
         },
-        "français": {
-          "display_format": "**French:** Relating to France or the French language.",
-          "explanation": "Adjective used to describe something associated with France or its culture.",
+        "fait": {
+          "display_format": "**Done:** Past participle of 'faire'.",
+          "explanation": "Used to form the present perfect tense.",
           "cultural_note": ""
         },
-        "interdit": {
-          "display_format": "**Prohibits:** To formally forbid something.",
-          "explanation": "To officially disallow or ban something.",
+        "entrer": {
+          "display_format": "**To enter:** Verb.",
+          "explanation": "To go or come into a place.",
           "cultural_note": ""
         },
         "des": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
+          "display_format": "**Some:** Plural indefinite article.",
+          "explanation": "Used to indicate an unspecified quantity.",
           "cultural_note": ""
         },
-        "stands": {
-          "display_format": "**Stands:** Booths or displays",
-          "explanation": "Areas where goods or services are showcased.",
-          "cultural_note": "Commonly used in trade fairs, exhibitions, and markets."
+        "drones": {
+          "display_format": "**Drones:** Unmanned aerial vehicles.",
+          "explanation": "Remotely controlled or autonomous flying machines.",
+          "cultural_note": "Drones have various applications, including military, surveillance, and recreational uses."
         },
-        "israéliens": {
-          "display_format": "**Israeli:** Relating to Israel or its people.",
-          "explanation": "Adjective used to describe something associated with Israel or its culture.",
+        "en": {
+          "display_format": "**In:** Preposition.",
+          "explanation": "Indicates location or position.",
           "cultural_note": ""
         },
-        "d'armement": {
-          "display_format": "**Of armaments:** Relating to weapons or military equipment.",
-          "explanation": "Used to describe goods or services related to the production or sale of arms.",
+        "cachette": {
+          "display_format": "**Secretly:** Adverb.",
+          "explanation": "In a hidden or covert manner.",
           "cultural_note": ""
         },
-        "au": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates direction, location, or destination.",
+        "Iran": {
+          "display_format": "**Iran:** Country in the Middle East.",
+          "explanation": "Officially known as the Islamic Republic of Iran.",
           "cultural_note": ""
-        },
-        "salon": {
-          "display_format": "**Trade fair / Exhibition:** A gathering of people to display or promote goods or services.",
-          "explanation": "An event where businesses showcase their products or services.",
-          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 7.9,
+        "importance_score": 8.5,
+        "total_score": 25.0
+      },
+      "curation_metadata": {
+        "curation_id": "6f78f404-34ea-4d30-a14c-0d7cabd1f671",
+        "curated_at": "2025-06-16T12:27:03.506408+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595774+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 7.9,
+      "importance_score": 8.5,
+      "total_score": 25.0
+    },
+    {
+      "title": "Israël : stands d'armement interdits au Bourget",
+      "english_title": "Israel: Arms Stands Banned at Bourget",
+      "simplified_french_title": "Israël : stands d'armement interdits au Bourget",
+      "simplified_english_title": "Israel: Arms Stands Banned at Bourget",
+      "summary": "Le gouvernement français a interdit l'accès aux stands de cinq industriels israéliens exposant des armes offensives au salon aéronautique du Bourget.",
+      "english_summary": "The French government has banned access to stands of five Israeli arms manufacturers showcasing offensive weapons at the Bourget air show.",
+      "french_summary": "Le gouvernement français a interdit l'accès aux stands de cinq industriels israéliens exposant des armes offensives au salon aéronautique du Bourget.",
+      "original_article_title": "Salon du Bourget : des stands israéliens d'armement interdits d'accès sur décision du gouvernement français",
+      "original_article_link": "https://www.europe1.fr/international/salon-du-bourget-des-stands-israeliens-darmement-interdits-dacces-sur-decision-du-gouvernement-francais-759003",
+      "link": "https://www.europe1.fr/international/salon-du-bourget-des-stands-israeliens-darmement-interdits-dacces-sur-decision-du-gouvernement-francais-759003",
+      "source_name": "Europe 1",
+      "published": "Mon, 16 Jun 2025 12:24:19 +0200",
+      "published_date": "Mon, 16 Jun 2025 12:24:19 +0200",
+      "contextual_title_explanations": {
+        "Salon": {
+          "display_format": "**Salon:** Exhibition hall or show",
+          "explanation": "A large hall or building for exhibitions, shows, or displays.",
+          "cultural_note": "In this context, it refers to the Paris Air Show, a major international aerospace event."
         },
         "du": {
           "display_format": "**Of / From:** (preposition)",
@@ -90,312 +186,762 @@
           "cultural_note": ""
         },
         "Bourget": {
-          "display_format": "**Bourget:** A suburb of Paris, France",
-          "explanation": "A location known for hosting trade fairs and exhibitions.",
-          "cultural_note": "The Paris Air Show, a major international aerospace event, is held at the Bourget airport."
+          "display_format": "**Bourget:** A location in Paris, France",
+          "explanation": "A suburb of Paris, known for its airfield and the Paris Air Show.",
+          "cultural_note": "The Salon du Bourget is a major event in the aerospace industry."
+        },
+        ":": {
+          "display_format": "**:** Colon",
+          "explanation": "Used to introduce a list, explanation, or quotation.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some / Of the:** (determiner)",
+          "explanation": "Used to indicate a part of a whole or a quantity.",
+          "cultural_note": ""
+        },
+        "stands": {
+          "display_format": "**Stands:** Exhibition booths or stalls",
+          "explanation": "Used to display goods or services at an exhibition or trade show.",
+          "cultural_note": ""
+        },
+        "israéliens": {
+          "display_format": "**Israeli:** Relating to Israel",
+          "explanation": "Adjective used to describe something or someone from Israel.",
+          "cultural_note": "In this context, it refers to the origin of the arms manufacturers."
+        },
+        "d'armement": {
+          "display_format": "**Of armaments / Arms:** Relating to weapons or military equipment",
+          "explanation": "Used to describe the industry or production of weapons.",
+          "cultural_note": ""
+        },
+        "interdits": {
+          "display_format": "**Banned / Prohibited:** Forbidden or not allowed",
+          "explanation": "Used to describe something that is not permitted or is forbidden.",
+          "cultural_note": ""
+        },
+        "d'accès": {
+          "display_format": "**Access:** The right or opportunity to use or enter",
+          "explanation": "Used to describe the ability to enter or use something.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On / Upon:** (preposition)",
+          "explanation": "Indicates a surface, location, or condition.",
+          "cultural_note": ""
+        },
+        "décision": {
+          "display_format": "**Decision:** A choice or conclusion",
+          "explanation": "Used to describe a conclusion or judgment made after consideration.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government:** The group of people with the authority to govern",
+          "explanation": "Used to describe the body of people responsible for making and enforcing laws.",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**French:** Relating to France or the French language",
+          "explanation": "Adjective used to describe something or someone from France.",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 8.1,
-        "relevance_score": 7.800000000000001,
-        "importance_score": 10,
-        "total_score": 25.9
+        "quality_score": 7.9,
+        "relevance_score": 7.8,
+        "importance_score": 8.0,
+        "total_score": 23.7
       },
       "curation_metadata": {
-        "curation_id": "22ba05a6-1c5a-4600-8b2d-4dc4d7172228",
-        "curated_at": "2025-06-16T10:15:52.486003+00:00",
+        "curation_id": "965f22f7-1a25-4dc0-851a-c06da0fa42f2",
+        "curated_at": "2025-06-16T12:27:03.482880+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892593+00:00",
-      "quality_score": 8.1,
-      "relevance_score": 7.800000000000001,
-      "importance_score": 10,
-      "total_score": 25.9
+      "added_at": "2025-06-16T12:33:58.595792+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 7.8,
+      "importance_score": 8.0,
+      "total_score": 23.7
     },
     {
-      "title": "Renault dévisse après départ de Luca de Meo",
-      "english_title": "Renault Plummets after Luca de Meo's Departure",
-      "simplified_french_title": "Renault dévisse après départ de Luca de Meo",
-      "simplified_english_title": "Renault Plummets after Luca de Meo's Departure",
-      "summary": "Le cours de l'action Renault chute après l'annonce du départ de son directeur général Luca de Meo. Les investisseurs s'inquiètent de l'avenir de la marque.",
-      "english_summary": "Renault's stock price plummets after the announcement of CEO Luca de Meo's departure. Investors worry about the brand's future.",
-      "french_summary": "Le cours de l'action Renault chute après l'annonce du départ de son directeur général Luca de Meo. Les investisseurs s'inquiètent de l'avenir de la marque.",
-      "original_article_title": "Renault dévisse en Bourse après l’annonce du départ de son directeur général Luca de Meo",
-      "original_article_link": "https://www.lexpress.fr/economie/entreprises/renault-devisse-en-bourse-apres-lannonce-du-depart-de-son-directeur-general-luca-de-meo-YALRWIELNFFSTOVF2O3QASJFP4/",
-      "link": "https://www.lexpress.fr/economie/entreprises/renault-devisse-en-bourse-apres-lannonce-du-depart-de-son-directeur-general-luca-de-meo-YALRWIELNFFSTOVF2O3QASJFP4/",
-      "source_name": "L'Express",
-      "published": "Mon, 16 Jun 2025 08:40:20 +0000",
-      "published_date": "Mon, 16 Jun 2025 08:40:20 +0000",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.4,
-        "relevance_score": 8.2,
-        "importance_score": 9.5,
-        "total_score": 25.1
-      },
-      "curation_metadata": {
-        "curation_id": "b0c7d8a8-80e6-497b-9207-db275c240e6a",
-        "curated_at": "2025-06-16T10:15:52.489956+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892606+00:00",
-      "quality_score": 7.4,
-      "relevance_score": 8.2,
-      "importance_score": 9.5,
-      "total_score": 25.1
-    },
-    {
-      "title": "Le business de l'assistance aux étrangers",
-      "english_title": "The business of assisting foreigners",
-      "simplified_french_title": "Le business de l'assistance aux étrangers",
-      "simplified_english_title": "The business of assisting foreigners",
-      "summary": "Des entreprises se font payer pour aider les étrangers à obtenir des papiers ou des logements. Un business lucratif qui soulève des questions éthiques.",
-      "english_summary": "Companies get paid to help foreigners obtain papers or housing. A lucrative business raising ethical questions.",
-      "french_summary": "Des entreprises se font payer pour aider les étrangers à obtenir des papiers ou des logements. Un business lucratif qui soulève des questions éthiques.",
-      "original_article_title": "\"On gagne de l'argent, c’est notre métier\" : le business derrière l’assistance aux étrangers",
-      "original_article_link": "https://www.lexpress.fr/societe/on-gagne-de-largent-cest-notre-metier-le-business-derriere-lassistance-aux-etrangers-G4OSLNUSQNC4RHBEFSCDJDSAAI/",
-      "link": "https://www.lexpress.fr/societe/on-gagne-de-largent-cest-notre-metier-le-business-derriere-lassistance-aux-etrangers-G4OSLNUSQNC4RHBEFSCDJDSAAI/",
-      "source_name": "L'Express",
-      "published": "Mon, 16 Jun 2025 10:00:00 +0000",
-      "published_date": "Mon, 16 Jun 2025 10:00:00 +0000",
+      "title": "Tensions au Moyen-Orient perturbent le salon de l'aéronau…",
+      "english_title": "Mideast Tensions Disrupt Paris Air Show",
+      "simplified_french_title": "Tensions au Moyen-Orient perturbent le salon de l'aéronau…",
+      "simplified_english_title": "Mideast Tensions Disrupt Paris Air Show",
+      "summary": "Le salon du Bourget a ouvert lundi. L'attaque israélienne contre l'Iran et le crash d'un Boeing créent une atmosphère tendue. Les stands israéliens d'armement sont au centre de l'attention.",
+      "english_summary": "The Paris Air Show opened on Monday amid tensions. The Israeli attack on Iran and the Boeing crash create a tense atmosphere. Israeli defense companies' stands are under scrutiny.",
+      "french_summary": "Le salon du Bourget a ouvert lundi. L'attaque israélienne contre l'Iran et le crash d'un Boeing créent une atmosphère tendue. Les stands israéliens d'armement sont au centre de l'attention.",
+      "original_article_title": "France: les tensions géopolitiques au Moyen-Orient perturbent le salon de l'aéronautique du Bourget",
+      "original_article_link": "https://www.rfi.fr/fr/%C3%A9conomie/20250616-france-les-tensions-g%C3%A9opolitiques-au-moyen-orient-perturbent-le-salon-de-l-a%C3%A9ronautique-du-bourget",
+      "link": "https://www.rfi.fr/fr/%C3%A9conomie/20250616-france-les-tensions-g%C3%A9opolitiques-au-moyen-orient-perturbent-le-salon-de-l-a%C3%A9ronautique-du-bourget",
+      "source_name": "RFI",
+      "published": "Mon, 16 Jun 2025 12:14:34 GMT",
+      "published_date": "Mon, 16 Jun 2025 12:14:34 GMT",
       "contextual_title_explanations": {
-        "On": {
-          "display_format": "**We:** (subject pronoun)",
-          "explanation": "First person plural subject pronoun.",
+        "France": {
+          "display_format": "**France:** Country in Western Europe.",
+          "explanation": "A sovereign nation with a rich history and culture.",
+          "cultural_note": "France is known for its iconic landmarks, fashion, and cuisine."
+        },
+        "les": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate a specific noun or nouns.",
           "cultural_note": ""
         },
-        "gagne": {
-          "display_format": "**Earns:** (verb)",
-          "explanation": "To obtain money in return for work or services.",
+        "tensions": {
+          "display_format": "**Tensions:** State of anxiety or stress.",
+          "explanation": "A feeling of strain or unease, often between nations or groups.",
+          "cultural_note": "Geopolitical tensions can lead to conflicts or diplomatic crises."
+        },
+        "géopolitiques": {
+          "display_format": "**Geopolitical:** Relating to the study of the relationship between politics and geography.",
+          "explanation": "The study of how geography influences politics and international relations.",
+          "cultural_note": "Understanding geopolitics is crucial in international relations and global affairs."
+        },
+        "au": {
+          "display_format": "**To / In:** (preposition)",
+          "explanation": "Indicates movement or location.",
           "cultural_note": ""
         },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Region in southwestern Asia and northeastern Africa.",
+          "explanation": "A region known for its rich cultural heritage and strategic importance.",
+          "cultural_note": "The Middle East is a region of significant geopolitical importance."
         },
-        "l'argent": {
-          "display_format": "**Money:** (noun)",
-          "explanation": "Currency or financial means.",
-          "cultural_note": ""
-        },
-        "c’est": {
-          "display_format": "**It is / This is:** (contraction)",
-          "explanation": "Short form of 'ce' (this) and 'est' (is).",
-          "cultural_note": "Common contraction in spoken French."
-        },
-        "notre": {
-          "display_format": "**Our:** (possessive adjective)",
-          "explanation": "Indicates possession or belonging to us.",
-          "cultural_note": ""
-        },
-        "métier": {
-          "display_format": "**Job / Profession:** (noun)",
-          "explanation": "Occupation or career.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** (punctuation)",
-          "explanation": "Colon introducing an explanation or quote.",
+        "perturbent": {
+          "display_format": "**Disrupt / Perturb:** To cause trouble or disturbance.",
+          "explanation": "To upset or interfere with a situation or process.",
           "cultural_note": ""
         },
         "le": {
           "display_format": "**The:** (article)",
-          "explanation": "Definite article.",
+          "explanation": "Used to indicate a specific noun or nouns.",
           "cultural_note": ""
         },
-        "business": {
-          "display_format": "**Business:** (noun)",
-          "explanation": "Commercial or industrial activity.",
-          "cultural_note": "Borrowed from English."
+        "salon": {
+          "display_format": "**Show / Exhibition:** An event where products or services are displayed.",
+          "explanation": "A public exhibition of goods or services.",
+          "cultural_note": "Trade shows and exhibitions are important for businesses and industries."
         },
-        "derrière": {
-          "display_format": "**Behind:** (preposition)",
-          "explanation": "Indicates location or support.",
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession or origin.",
           "cultural_note": ""
         },
-        "l’assistance": {
-          "display_format": "**Assistance:** (noun)",
-          "explanation": "Help or support provided to someone.",
+        "l'aéronautique": {
+          "display_format": "**Aviation:** The art or science of designing, building, and operating aircraft.",
+          "explanation": "The industry and activities related to air travel and aircraft.",
+          "cultural_note": "Aviation plays a vital role in global transportation and commerce."
+        },
+        "du": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession or origin.",
           "cultural_note": ""
         },
-        "aux": {
-          "display_format": "**To the:** (preposition)",
-          "explanation": "Indicates direction or recipients.",
-          "cultural_note": ""
-        },
-        "étrangers": {
-          "display_format": "**Foreigners:** (noun)",
-          "explanation": "People from another country.",
-          "cultural_note": ""
+        "Bourget": {
+          "display_format": "**Le Bourget:** A suburb of Paris, France, known for its airport and air shows.",
+          "explanation": "A location in France famous for its aviation industry and events.",
+          "cultural_note": "The Paris Air Show is held at Le Bourget Airport."
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 9.1,
-        "relevance_score": 6.0,
-        "importance_score": 10,
-        "total_score": 25.1
-      },
-      "curation_metadata": {
-        "curation_id": "e44f0f1c-6fdd-452d-b61d-9131caf7375a",
-        "curated_at": "2025-06-16T10:15:52.504419+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892623+00:00",
-      "quality_score": 9.1,
-      "relevance_score": 6.0,
-      "importance_score": 10,
-      "total_score": 25.1
-    },
-    {
-      "title": "Tirailleurs africains dans l'armée russe",
-      "english_title": "African Soldiers in Russian Army",
-      "simplified_french_title": "Tirailleurs africains dans l'armée russe",
-      "simplified_english_title": "African Soldiers in Russian Army",
-      "summary": "Des Africains ont rejoint l'armée russe pour des salaires élevés ou la nationalité. Mais d'autres auraient été manipulés et enrôlés de force. (34 words)",
-      "english_summary": "Africans joined the Russian army for high salaries or citizenship. But others were allegedly manipulated and forced to enlist. (29 words)",
-      "french_summary": "Des Africains ont rejoint l'armée russe pour des salaires élevés ou la nationalité. Mais d'autres auraient été manipulés et enrôlés de force. (34 words)",
-      "original_article_title": "Les tirailleurs de Poutine : récit de l'enquête sur ces Africains dans les rangs de l'armée russe",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250616-les-tirailleurs-de-poutine-r%C3%A9cit-de-l-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20250616-les-tirailleurs-de-poutine-r%C3%A9cit-de-l-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe",
-      "source_name": "France 24",
-      "published": "Mon, 16 Jun 2025 09:15:59 GMT",
-      "published_date": "Mon, 16 Jun 2025 09:15:59 GMT",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 9.6,
-        "relevance_score": 5.7,
+        "quality_score": 8.4,
+        "relevance_score": 5.8999999999999995,
         "importance_score": 8.5,
-        "total_score": 23.8
+        "total_score": 22.8
       },
       "curation_metadata": {
-        "curation_id": "6350d25a-8abf-48ff-814c-1866fd4d395d",
-        "curated_at": "2025-06-16T10:15:52.500678+00:00",
+        "curation_id": "d613dfb5-60eb-4c8b-928f-7847a05a9b29",
+        "curated_at": "2025-06-16T12:27:03.499245+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892630+00:00",
-      "quality_score": 9.6,
-      "relevance_score": 5.7,
+      "added_at": "2025-06-16T12:33:58.595807+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 5.8999999999999995,
       "importance_score": 8.5,
-      "total_score": 23.8
+      "total_score": 22.8
     },
     {
-      "title": "Le PS doit-il sacrifier ses valeurs pour gagner ?",
-      "english_title": "Should the PS sacrifice its values to win?",
-      "simplified_french_title": "Le PS doit-il sacrifier ses valeurs pour gagner ?",
-      "simplified_english_title": "Should the PS sacrifice its values to win?",
-      "summary": "Le congrès du Parti socialiste débat sur la stratégie pour gagner les élections. Faut-il sacrifier les valeurs de gauche pour attirer les électeurs de centre ?",
-      "english_summary": "The Socialist Party congress debates its strategy to win elections. Should it sacrifice left-wing values to attract centrist voters?",
-      "french_summary": "Le congrès du Parti socialiste débat sur la stratégie pour gagner les élections. Faut-il sacrifier les valeurs de gauche pour attirer les électeurs de centre ?",
-      "original_article_title": "Congrès du PS : la gauche doit-elle vendre son âme pour gagner une élection ?",
-      "original_article_link": "https://www.lexpress.fr/politique/congres-du-ps-la-gauche-doit-elle-vendre-son-ame-pour-gagner-une-election-IO55RKOSFNAQVCMCORMLFKTVEY/",
-      "link": "https://www.lexpress.fr/politique/congres-du-ps-la-gauche-doit-elle-vendre-son-ame-pour-gagner-une-election-IO55RKOSFNAQVCMCORMLFKTVEY/",
-      "source_name": "L'Express",
-      "published": "Mon, 16 Jun 2025 10:07:20 +0000",
-      "published_date": "Mon, 16 Jun 2025 10:07:20 +0000",
+      "title": "Naufrage d'un studio d'animation français",
+      "english_title": "Downfall of a French Animation Studio",
+      "simplified_french_title": "Naufrage d'un studio d'animation français",
+      "simplified_english_title": "Downfall of a French Animation Studio",
+      "summary": "Ex-salariés de Andarta Pictures à Valence dénoncent conditions de travail dégradées et management autoritaire.",
+      "english_summary": "Former employees of Andarta Pictures in Valence denounce poor working conditions and authoritarian management.",
+      "french_summary": "Ex-salariés de Andarta Pictures à Valence dénoncent conditions de travail dégradées et management autoritaire.",
+      "original_article_title": "Andarta Pictures: récit du naufrage d’un studio d’animation français",
+      "original_article_link": "https://www.mediapart.fr/journal/economie-et-social/160625/andarta-pictures-recit-du-naufrage-d-un-studio-d-animation-francais",
+      "link": "https://www.mediapart.fr/journal/economie-et-social/160625/andarta-pictures-recit-du-naufrage-d-un-studio-d-animation-francais",
+      "source_name": "Mediapart",
+      "published": "Mon, 16 Jun 2025 12:47:17 +0200",
+      "published_date": "Mon, 16 Jun 2025 12:47:17 +0200",
       "contextual_title_explanations": {
-        "Congrès": {
-          "display_format": "**Congress:** A formal meeting of a political party or organization.",
-          "explanation": "A gathering of party members to discuss policy and make decisions.",
-          "cultural_note": "In French politics, party congresses are crucial events where leaders are elected and party lines are defined."
+        "Andarta": {
+          "display_format": "**Andarta:** (proper noun)",
+          "explanation": "A French animation studio.",
+          "cultural_note": ""
+        },
+        "Pictures": {
+          "display_format": "**Pictures:** (noun)",
+          "explanation": "A company or studio that produces films or animations.",
+          "cultural_note": ""
+        },
+        "récit": {
+          "display_format": "**Story / Account:** (noun)",
+          "explanation": "A narrative or description of an event or experience.",
+          "cultural_note": ""
         },
         "du": {
           "display_format": "**Of / From:** (preposition)",
           "explanation": "Indicates possession, origin, or relationship.",
           "cultural_note": ""
         },
-        "PS": {
-          "display_format": "**PS (Parti Socialiste):** French Socialist Party.",
-          "explanation": "A major center-left political party in France.",
-          "cultural_note": "The PS has been a dominant force in French politics, with several of its members holding the presidency."
+        "naufrage": {
+          "display_format": "**Shipwreck / Bankruptcy:** (noun)",
+          "explanation": "A situation where a ship sinks or a company goes bankrupt.",
+          "cultural_note": ""
         },
-        ":": {
-          "display_format": "**:** Colon (punctuation)",
-          "explanation": "Used to introduce a explanation or a list.",
+        "d’un": {
+          "display_format": "**Of a:** (preposition + indefinite article)",
+          "explanation": "Indicates possession or relationship with an unspecified noun.",
+          "cultural_note": ""
+        },
+        "studio": {
+          "display_format": "**Studio:** (noun)",
+          "explanation": "A place where artistic or creative work is done, such as film or animation production.",
+          "cultural_note": ""
+        },
+        "d’animation": {
+          "display_format": "**Of animation:** (preposition + noun)",
+          "explanation": "Relating to the creation of animated films or videos.",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**French:** (adjective)",
+          "explanation": "Relating to France or the French language.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.2,
+        "relevance_score": 7.0,
+        "importance_score": 7.5,
+        "total_score": 22.7
+      },
+      "curation_metadata": {
+        "curation_id": "caf5b297-c1eb-40a8-8528-9c151627f13e",
+        "curated_at": "2025-06-16T12:27:03.510630+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595817+00:00",
+      "quality_score": 8.2,
+      "relevance_score": 7.0,
+      "importance_score": 7.5,
+      "total_score": 22.7
+    },
+    {
+      "title": "Planning familial : baisse des financements publics",
+      "english_title": "Family Planning: Decrease in Public Funding",
+      "simplified_french_title": "Planning familial : baisse des financements publics",
+      "simplified_english_title": "Family Planning: Decrease in Public Funding",
+      "summary": "9 associations sur 82 sont touchées par les coupes budgétaires. Le Planning familial dénonce le choix politique et lance une campagne de soutien.",
+      "english_summary": "9 out of 82 associations are affected by budget cuts. Family Planning denounces the political choice and launches a support campaign.",
+      "french_summary": "9 associations sur 82 sont touchées par les coupes budgétaires. Le Planning familial dénonce le choix politique et lance une campagne de soutien.",
+      "original_article_title": "Le Planning familial alerte sur la baisse de ses financements publics et la menace sur l’accès à la santé sexuelle en France",
+      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/16/le-planning-familial-alerte-sur-la-baisse-de-ses-financements-publics-et-la-menace-sur-l-acces-a-la-sante-sexuelle-en-france_6613546_3224.html",
+      "link": "https://www.lemonde.fr/societe/article/2025/06/16/le-planning-familial-alerte-sur-la-baisse-de-ses-financements-publics-et-la-menace-sur-l-acces-a-la-sante-sexuelle-en-france_6613546_3224.html",
+      "source_name": "Le Monde Sciences",
+      "published": "Mon, 16 Jun 2025 14:14:02 +0200",
+      "published_date": "Mon, 16 Jun 2025 14:14:02 +0200",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** (article)",
+          "explanation": "A definite article used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "Planning": {
+          "display_format": "**Family Planning:** Organization providing reproductive health services.",
+          "explanation": "A non-profit organization that provides information, education, and medical services related to family planning and reproductive health.",
+          "cultural_note": "In France, family planning organizations play a crucial role in promoting sexual and reproductive health."
+        },
+        "familial": {
+          "display_format": "**Family:** Relating to family or domestic life.",
+          "explanation": "Adjective used to describe something related to family or domestic life.",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**Alerts / Warns:** To give warning or notification of a potential problem.",
+          "explanation": "Verb meaning to give warning or notification of a potential problem.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On / About:** (preposition)",
+          "explanation": "Preposition used to indicate a topic or subject.",
           "cultural_note": ""
         },
         "la": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun or concept.",
+          "display_format": "**The:** (article)",
+          "explanation": "A definite article used to indicate that the noun it precedes is specific or previously mentioned.",
           "cultural_note": ""
         },
-        "gauche": {
-          "display_format": "**Left-wing / Leftist:** Related to progressive or liberal political ideologies.",
-          "explanation": "Refers to political views that emphasize social equality and government intervention.",
-          "cultural_note": "In French politics, the left-wing is often associated with the Parti Socialiste and other progressive parties."
-        },
-        "doit-elle": {
-          "display_format": "**Should it:** (verb conjugation)",
-          "explanation": "Form of the verb 'devoir' (to must) in the present tense, used to express obligation or necessity.",
-          "cultural_note": "In French, the verb 'devoir' is often used to express moral obligation or duty."
-        },
-        "vendre": {
-          "display_format": "**To sell:** (verb)",
-          "explanation": "To transfer ownership of something in exchange for money or other compensation.",
+        "baisse": {
+          "display_format": "**Decrease / Drop:** A reduction in amount or level.",
+          "explanation": "Noun meaning a reduction in amount or level.",
           "cultural_note": ""
         },
-        "son": {
-          "display_format": "**Its / Her / His:** (possessive adjective)",
-          "explanation": "Indicates possession or belonging.",
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Preposition used to indicate possession, origin, or relationship.",
           "cultural_note": ""
         },
-        "âme": {
-          "display_format": "**Soul:** (figurative expression)",
-          "explanation": "Used metaphorically to refer to one's conscience, values, or moral principles.",
-          "cultural_note": "In French, the expression 'vendre son âme' means to compromise one's values or principles for personal gain."
-        },
-        "pour": {
-          "display_format": "**For / To:** (preposition)",
-          "explanation": "Indicates purpose, direction, or intended recipient.",
+        "ses": {
+          "display_format": "**Its / His / Her:** (possessive adjective)",
+          "explanation": "Possessive adjective used to indicate possession.",
           "cultural_note": ""
         },
-        "gagner": {
-          "display_format": "**To win:** (verb)",
-          "explanation": "To achieve victory or success in a competition or election.",
+        "financements": {
+          "display_format": "**Funding:** Financial support or resources.",
+          "explanation": "Noun meaning financial support or resources.",
+          "cultural_note": ""
+        },
+        "publics": {
+          "display_format": "**Public:** Relating to the people or government.",
+          "explanation": "Adjective used to describe something related to the people or government.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** (conjunction)",
+          "explanation": "Conjunction used to connect words, phrases, or clauses.",
+          "cultural_note": ""
+        },
+        "menace": {
+          "display_format": "**Threat:** A situation or person that could cause harm or danger.",
+          "explanation": "Noun meaning a situation or person that could cause harm or danger.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** (article)",
+          "explanation": "A definite article used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "accès": {
+          "display_format": "**Access:** The means or opportunity to approach or enter a place or system.",
+          "explanation": "Noun meaning the means or opportunity to approach or enter a place or system.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To / At:** (preposition)",
+          "explanation": "Preposition used to indicate direction or location.",
+          "cultural_note": ""
+        },
+        "santé": {
+          "display_format": "**Health:** The state of being free from disease or illness.",
+          "explanation": "Noun meaning the state of being free from disease or illness.",
+          "cultural_note": ""
+        },
+        "sexuelle": {
+          "display_format": "**Sexual:** Relating to sexual activity or reproduction.",
+          "explanation": "Adjective used to describe something related to sexual activity or reproduction.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** (preposition)",
+          "explanation": "Preposition used to indicate location or position.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Country in Western Europe.",
+          "explanation": "A country located in Western Europe.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.9,
+        "relevance_score": 4.699999999999999,
+        "importance_score": 10,
+        "total_score": 22.6
+      },
+      "curation_metadata": {
+        "curation_id": "29a320e0-6d84-4ea2-8633-ead6e2652667",
+        "curated_at": "2025-06-16T12:27:03.479140+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595841+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 4.699999999999999,
+      "importance_score": 10,
+      "total_score": 22.6
+    },
+    {
+      "title": "Français de 34 ans jugé en Malaisie, risque la peine de mort",
+      "english_title": "34-year-old Frenchman on trial in Malaysia, faces death p…",
+      "simplified_french_title": "Français de 34 ans jugé en Malaisie, risque la peine de mort",
+      "simplified_english_title": "34-year-old Frenchman on trial in Malaysia, faces death p…",
+      "summary": "Tom Félix, 34 ans, est jugé en Malaisie pour possession de cannabis. Il risque la peine de mort. Le président Macron veut le libérer.",
+      "english_summary": "Tom Félix, 34, is on trial in Malaysia for cannabis possession, facing the death penalty. President Macron wants him released.",
+      "french_summary": "Tom Félix, 34 ans, est jugé en Malaisie pour possession de cannabis. Il risque la peine de mort. Le président Macron veut le libérer.",
+      "original_article_title": "Malaisie : pourquoi Tom Félix, Français de 34 ans, risque-t-il la peine de mort ?",
+      "original_article_link": "https://www.europe1.fr/international/malaisie-pourquoi-tom-felix-francais-de-34-ans-risque-t-il-la-peine-de-mort-759001",
+      "link": "https://www.europe1.fr/international/malaisie-pourquoi-tom-felix-francais-de-34-ans-risque-t-il-la-peine-de-mort-759001",
+      "source_name": "Europe 1",
+      "published": "Mon, 16 Jun 2025 13:32:03 +0200",
+      "published_date": "Mon, 16 Jun 2025 13:32:03 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 7.0,
+        "importance_score": 7.5,
+        "total_score": 22.6
+      },
+      "curation_metadata": {
+        "curation_id": "535023f1-a90a-419c-a16f-416490bfe693",
+        "curated_at": "2025-06-16T12:27:03.482460+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595851+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 7.0,
+      "importance_score": 7.5,
+      "total_score": 22.6
+    },
+    {
+      "title": "Burundi face à pénuries et hausse des prix",
+      "english_title": "Burundi faces shortages and price hikes",
+      "simplified_french_title": "Burundi face à pénuries et hausse des prix",
+      "simplified_english_title": "Burundi faces shortages and price hikes",
+      "summary": "Le Burundi élit de nouveaux parlementaires face à une crise économique structurelle, avec pénuries et inflation record. La population doit revoir son quotidien à Bujumbura.",
+      "english_summary": "Burundi has elected new parliamentarians amidst a structural economic crisis, with shortages and record inflation. The population must rethink their daily lives in Bujumbura.",
+      "french_summary": "Le Burundi élit de nouveaux parlementaires face à une crise économique structurelle, avec pénuries et inflation record. La population doit revoir son quotidien à Bujumbura.",
+      "original_article_title": "Pénuries, hausse des prix : le Burundi face à une crise économique structurelle",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250616-p%C3%A9nuries-hausse-des-prix-le-burundi-face-%C3%A0-une-crise-%C3%A9conomique-structurelle",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20250616-p%C3%A9nuries-hausse-des-prix-le-burundi-face-%C3%A0-une-crise-%C3%A9conomique-structurelle",
+      "source_name": "France 24",
+      "published": "Mon, 16 Jun 2025 10:43:11 GMT",
+      "published_date": "Mon, 16 Jun 2025 10:43:11 GMT",
+      "contextual_title_explanations": {
+        "Pénuries": {
+          "display_format": "**Shortages:** Lack of essential goods.",
+          "explanation": "Refers to a situation where there is not enough of something.",
+          "cultural_note": "Pénuries can have significant impacts on the economy and daily life."
+        },
+        "hausse": {
+          "display_format": "**Increase/Rise:** To become or make something greater in amount or degree.",
+          "explanation": "Can refer to an increase in prices, temperatures, or other quantities.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "prix": {
+          "display_format": "**Prices:** Amounts of money paid or charged for goods or services.",
+          "explanation": "The cost of something.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Colon (punctuation mark)",
+          "explanation": "Used to indicate that what follows is a direct explanation or elaboration.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (article)",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "Burundi": {
+          "display_format": "**Burundi:** A small country in East Africa.",
+          "explanation": "A landlocked country with a tumultuous history.",
+          "cultural_note": "Burundi has faced several economic and political challenges in recent years."
+        },
+        "face": {
+          "display_format": "**Face:** To confront or deal with a challenge or problem.",
+          "explanation": "To be in a situation where one must cope with something.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To / At:** (preposition)",
+          "explanation": "Indicates direction, movement, or position.",
           "cultural_note": ""
         },
         "une": {
           "display_format": "**A / An:** (indefinite article)",
-          "explanation": "Used to indicate a non-specific noun or concept.",
+          "explanation": "Used to indicate that the noun it precedes is not specific or previously mentioned.",
           "cultural_note": ""
         },
-        "élection": {
-          "display_format": "**Election:** (noun)",
-          "explanation": "A formal process of selecting a candidate or candidates for public office.",
-          "cultural_note": "In France, elections are a crucial aspect of democratic life, with presidential and legislative elections held regularly."
+        "crise": {
+          "display_format": "**Crisis:** A time of great difficulty or danger.",
+          "explanation": "A situation that requires urgent action or attention.",
+          "cultural_note": ""
+        },
+        "économique": {
+          "display_format": "**Economic:** Relating to the economy or financial systems.",
+          "explanation": "Concerned with the production, distribution, and consumption of goods and services.",
+          "cultural_note": ""
+        },
+        "structurelle": {
+          "display_format": "**Structural:** Relating to the underlying organization or framework.",
+          "explanation": "Concerned with the fundamental nature or underlying structure of something.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 5.199999999999999,
+        "importance_score": 8.5,
+        "total_score": 22.299999999999997
+      },
+      "curation_metadata": {
+        "curation_id": "1c1855b2-2a29-48d4-9c72-a9b77fd78f88",
+        "curated_at": "2025-06-16T12:27:03.480808+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:33:58.595861+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.199999999999999,
+      "importance_score": 8.5,
+      "total_score": 22.299999999999997
+    },
+    {
+      "title": "Gouvernement français interdit stands israéliens au Bourget",
+      "english_title": "French government bans Israeli stands at Bourget",
+      "simplified_french_title": "Gouvernement français interdit stands israéliens au Bourget",
+      "simplified_english_title": "French government bans Israeli stands at Bourget",
+      "summary": "Le gouvernement français a interdit les stands d'industriels d'armement israéliens au salon aéronautique du Bourget, une décision dénoncée par le président israélien.",
+      "english_summary": "The French government has banned Israeli arms industry stands at the Bourget air show, a decision denounced by the Israeli president.",
+      "french_summary": "Le gouvernement français a interdit les stands d'industriels d'armement israéliens au salon aéronautique du Bourget, une décision dénoncée par le président israélien.",
+      "original_article_title": "Salon aéronautique du Bourget: le gouvernement français fait interdire les stands israéliens",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/salon-aeronautique-du-bourget-le-gouvernement-francais-fait-interdire-les-stands-israeliens_VN-202506160447.html",
+      "link": "https://www.bfmtv.com/international/moyen-orient/israel/salon-aeronautique-du-bourget-le-gouvernement-francais-fait-interdire-les-stands-israeliens_VN-202506160447.html",
+      "source_name": "BFM TV",
+      "published": "Mon, 16 Jun 2025 12:11:09 GMT",
+      "published_date": "Mon, 16 Jun 2025 12:11:09 GMT",
+      "contextual_title_explanations": {
+        "Salon": {
+          "display_format": "**Salon:** Exhibition or fair",
+          "explanation": "A gathering of people to display and discuss a particular topic or industry.",
+          "cultural_note": "In France, salons are often used to promote industries, arts, or culture."
+        },
+        "aéronautique": {
+          "display_format": "**Aéronautique:** Relating to aviation or aerospace",
+          "explanation": "Concerned with the design, manufacture, and operation of aircraft and spacecraft.",
+          "cultural_note": "France has a rich history in aeronautics and is home to several major aerospace companies."
+        },
+        "du": {
+          "display_format": "**du:** Of the (preposition)",
+          "explanation": "Indicates possession or origin.",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** A suburb of Paris, France",
+          "explanation": "Location of the Paris Air Show, a major international aerospace exhibition.",
+          "cultural_note": "The Bourget airfield has been hosting the Paris Air Show since 1909."
+        },
+        "le": {
+          "display_format": "**le:** The (article)",
+          "explanation": "Used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Gouvernement:** Government",
+          "explanation": "The group of people who make and enforce the laws of a country.",
+          "cultural_note": "In France, the government is divided into three branches: the executive, legislative, and judicial."
+        },
+        "français": {
+          "display_format": "**Français:** French",
+          "explanation": "Relating to France or the French language.",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**Fait:** Does / Makes (verb)",
+          "explanation": "To cause something to happen or to be in a certain state.",
+          "cultural_note": ""
+        },
+        "interdire": {
+          "display_format": "**Interdire:** To ban or prohibit",
+          "explanation": "To officially forbid something from happening or being done.",
+          "cultural_note": "In this context, the French government is prohibiting the presence of Israeli stands."
+        },
+        "les": {
+          "display_format": "**Les:** The (article)",
+          "explanation": "Used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "stands": {
+          "display_format": "**Stands:** Booths or displays",
+          "explanation": "Temporary structures used to showcase products or services.",
+          "cultural_note": "In the context of the Paris Air Show, stands are used by companies to display their aircraft and aerospace technology."
+        },
+        "israéliens": {
+          "display_format": "**Israéliens:** Israeli",
+          "explanation": "Relating to Israel or the Israeli people.",
+          "cultural_note": "In this context, the Israeli stands are being banned from the Paris Air Show."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.9,
+        "relevance_score": 4.199999999999999,
+        "importance_score": 8.0,
+        "total_score": 20.1
+      },
+      "curation_metadata": {
+        "curation_id": "07f9d8ea-cca7-4700-8d5c-0a0fbf67c6c4",
+        "curated_at": "2025-06-16T12:25:45.916152+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:26:59.966381+00:00",
+      "quality_score": 7.9,
+      "relevance_score": 4.199999999999999,
+      "importance_score": 8.0,
+      "total_score": 20.1
+    },
+    {
+      "title": "Sujets corrigés du bac de philo 2025",
+      "english_title": "Corrected Philosophy Baccalaureate Topics 2025",
+      "simplified_french_title": "Sujets corrigés du bac de philo 2025",
+      "simplified_english_title": "Corrected Philosophy Baccalaureate Topics 2025",
+      "summary": "Les sujets du bac de philo 2025 sont corrigés par Olivier Dhilly et Aïda N'diaye, professeurs agrégés de philosophie.",
+      "english_summary": "The 2025 philosophy baccalaureate topics are corrected by Olivier Dhilly and Aïda N'diaye, aggregated philosophy professors.",
+      "french_summary": "Les sujets du bac de philo 2025 sont corrigés par Olivier Dhilly et Aïda N'diaye, professeurs agrégés de philosophie.",
+      "original_article_title": "Sujets corrigés du bac de philo 2025 voie générale et techno avec les textes de John Rawls et Adam Smith",
+      "original_article_link": "https://etudiant.lefigaro.fr/article/bac/decouvrez-les-sujets-du-bac-de-philo-2025-avec-les-textes-de-john-rawls-et-d-adam-smith-20250616/",
+      "link": "https://etudiant.lefigaro.fr/article/bac/decouvrez-les-sujets-du-bac-de-philo-2025-avec-les-textes-de-john-rawls-et-d-adam-smith-20250616/",
+      "source_name": "Le Figaro",
+      "published": "Mon, 16 Jun 2025 13:25:22 +0200",
+      "published_date": "Mon, 16 Jun 2025 13:25:22 +0200",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.4,
+        "relevance_score": 3.0,
+        "importance_score": 5.0,
+        "total_score": 15.4
+      },
+      "curation_metadata": {
+        "curation_id": "cf992cef-bfeb-494b-b181-4df26b3029f0",
+        "curated_at": "2025-06-16T12:25:45.916381+00:00",
+        "fast_tracked": true
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T12:26:59.966395+00:00",
+      "quality_score": 7.4,
+      "relevance_score": 3.0,
+      "importance_score": 5.0,
+      "total_score": 15.4
+    },
+    {
+      "title": "Emmanuel Viellard : Le Salon du Bourget offre visibilité…",
+      "english_title": "Emmanuel Viellard: Bourget Show Offers Global Visibility",
+      "simplified_french_title": "Emmanuel Viellard : Le Salon du Bourget offre visibilité…",
+      "simplified_english_title": "Emmanuel Viellard: Bourget Show Offers Global Visibility",
+      "summary": "Le commissaire général explique les enjeux pour la filière aéronautique, touchée par les tensions géopolitiques et les surtaxes douanières. (34 words)",
+      "english_summary": "The general commissioner explains the challenges for the aerospace industry, affected by geopolitical tensions and customs duties. (29 words)",
+      "french_summary": "Le commissaire général explique les enjeux pour la filière aéronautique, touchée par les tensions géopolitiques et les surtaxes douanières. (34 words)",
+      "original_article_title": "Emmanuel Viellard: «Le Salon du Bourget offre une visibilité mondiale»",
+      "original_article_link": "https://www.lefigaro.fr/societes/emmanuel-viellard-le-salon-du-bourget-offre-une-visibilite-mondiale-20250616",
+      "link": "https://www.lefigaro.fr/societes/emmanuel-viellard-le-salon-du-bourget-offre-une-visibilite-mondiale-20250616",
+      "source_name": "Le Figaro",
+      "published": "Mon, 16 Jun 2025 12:15:00 +0200",
+      "published_date": "Mon, 16 Jun 2025 12:15:00 +0200",
+      "contextual_title_explanations": {
+        "Emmanuel Viellard": {
+          "display_format": "**Emmanuel Viellard:** French politician or businessman",
+          "explanation": "A French public figure, possibly involved in the aviation industry",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemets ouvrants",
+          "explanation": "Opening French quotation mark",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**Le:** The (definite article)",
+          "explanation": "Used to indicate a specific noun",
+          "cultural_note": ""
+        },
+        "Salon": {
+          "display_format": "**Salon:** Exhibition or Show",
+          "explanation": "A gathering or event where products or services are displayed",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Of the (preposition)",
+          "explanation": "Indicates possession or origin",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** Location in France",
+          "explanation": "A suburb of Paris, known for its airshows",
+          "cultural_note": "The Paris Air Show is held at the Bourget Airport"
+        },
+        "offre": {
+          "display_format": "**offre:** Offers (verb)",
+          "explanation": "To provide or make available",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** A / An (indefinite article)",
+          "explanation": "Used to indicate a non-specific noun",
+          "cultural_note": ""
+        },
+        "visibilité": {
+          "display_format": "**visibilité:** Visibility",
+          "explanation": "The state of being able to be seen or noticed",
+          "cultural_note": ""
+        },
+        "mondiale": {
+          "display_format": "**mondiale:** Global / Worldwide",
+          "explanation": "Relating to the entire world",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemets fermants",
+          "explanation": "Closing French quotation mark",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 7.6,
-        "relevance_score": 6.300000000000001,
-        "importance_score": 9.5,
-        "total_score": 23.4
+        "relevance_score": 4.1,
+        "importance_score": 10,
+        "total_score": 21.7
       },
       "curation_metadata": {
-        "curation_id": "229bef4e-7c7b-459c-9710-3624c2bab1cb",
-        "curated_at": "2025-06-16T10:15:52.488534+00:00",
+        "curation_id": "5e5cdff9-7f54-4b72-ba2f-830f25ce02ed",
+        "curated_at": "2025-06-16T10:15:52.488225+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892646+00:00",
+      "added_at": "2025-06-16T10:22:18.892703+00:00",
       "quality_score": 7.6,
-      "relevance_score": 6.300000000000001,
-      "importance_score": 9.5,
-      "total_score": 23.4
+      "relevance_score": 4.1,
+      "importance_score": 10,
+      "total_score": 21.7,
+      "article_id": "68921eadf43dd868cd707ae21cff0821"
     },
     {
       "title": "Stands d'armement israéliens fermés au Salon du Bourget",
@@ -501,318 +1047,246 @@
       "quality_score": 8.700000000000001,
       "relevance_score": 4.199999999999999,
       "importance_score": 9.5,
-      "total_score": 22.4
+      "total_score": 22.4,
+      "article_id": "bb59e981d06cb575526891393f59562d"
     },
     {
-      "title": "Ghana reporte taxe sur carburant en raison de conflit Isr…",
-      "english_title": "Ghana delays fuel tax due to Israel-Iran conflict",
-      "simplified_french_title": "Ghana reporte taxe sur carburant en raison de conflit Isr…",
-      "simplified_english_title": "Ghana delays fuel tax due to Israel-Iran conflict",
-      "summary": "Au Ghana, le gouvernement reporte une taxe sur le carburant à cause des tensions géopolitiques entre l'Iran et Israël, craignant une hausse du prix du pétrole. (34 words)",
-      "english_summary": "Ghana's government delays a fuel tax due to geopolitical tensions between Iran and Israel, fearing a rise in oil prices. (29 words)",
-      "french_summary": "Au Ghana, le gouvernement reporte une taxe sur le carburant à cause des tensions géopolitiques entre l'Iran et Israël, craignant une hausse du prix du pétrole. (34 words)",
-      "original_article_title": "Guerre Israël-Iran: le Ghana reporte l’instauration d’une taxe décriée sur le prix du carburant",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250616-guerre-isra%C3%ABl-iran-le-ghana-reporte-l-instauration-d-une-taxe-d%C3%A9cri%C3%A9e-sur-le-prix-du-carburant",
-      "link": "https://www.rfi.fr/fr/afrique/20250616-guerre-isra%C3%ABl-iran-le-ghana-reporte-l-instauration-d-une-taxe-d%C3%A9cri%C3%A9e-sur-le-prix-du-carburant",
-      "source_name": "RFI",
-      "published": "Mon, 16 Jun 2025 09:17:11 GMT",
-      "published_date": "Mon, 16 Jun 2025 09:17:11 GMT",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.6,
-        "relevance_score": 3.8,
-        "importance_score": 10,
-        "total_score": 22.4
-      },
-      "curation_metadata": {
-        "curation_id": "5ab266a7-fb26-443b-b875-ee32e903fcf2",
-        "curated_at": "2025-06-16T10:15:52.486677+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892668+00:00",
-      "quality_score": 8.6,
-      "relevance_score": 3.8,
-      "importance_score": 10,
-      "total_score": 22.4
-    },
-    {
-      "title": "Nucléaire iranien : programme au coeur de l'escalade avec…",
-      "english_title": "Iranian Nuclear Program at the Heart of Escalation with I…",
-      "simplified_french_title": "Nucléaire iranien : programme au coeur de l'escalade avec…",
-      "simplified_english_title": "Iranian Nuclear Program at the Heart of Escalation with I…",
-      "summary": "L'Iran poursuit son programme nucléaire, malgré les tensions avec Israël. Découvrez les enjeux de cette crise régionale. (34 words)",
-      "english_summary": "Iran continues its nuclear program despite tensions with Israel. Discover the stakes of this regional crisis. (34 words)",
-      "french_summary": "L'Iran poursuit son programme nucléaire, malgré les tensions avec Israël. Découvrez les enjeux de cette crise régionale. (34 words)",
-      "original_article_title": "Nucléaire iranien : notre enquête sur ce programme au coeur de l'escalade avec Israël",
-      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-et-la-bombe-nucleaire-2025-lannee-de-la-diplomatie-ou-de-la-guerre-MUBKQXMNVVH33MX7YEPS4NF4RQ/",
-      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-et-la-bombe-nucleaire-2025-lannee-de-la-diplomatie-ou-de-la-guerre-MUBKQXMNVVH33MX7YEPS4NF4RQ/",
+      "title": "Le PS doit-il sacrifier ses valeurs pour gagner ?",
+      "english_title": "Should the PS sacrifice its values to win?",
+      "simplified_french_title": "Le PS doit-il sacrifier ses valeurs pour gagner ?",
+      "simplified_english_title": "Should the PS sacrifice its values to win?",
+      "summary": "Le congrès du Parti socialiste débat sur la stratégie pour gagner les élections. Faut-il sacrifier les valeurs de gauche pour attirer les électeurs de centre ?",
+      "english_summary": "The Socialist Party congress debates its strategy to win elections. Should it sacrifice left-wing values to attract centrist voters?",
+      "french_summary": "Le congrès du Parti socialiste débat sur la stratégie pour gagner les élections. Faut-il sacrifier les valeurs de gauche pour attirer les électeurs de centre ?",
+      "original_article_title": "Congrès du PS : la gauche doit-elle vendre son âme pour gagner une élection ?",
+      "original_article_link": "https://www.lexpress.fr/politique/congres-du-ps-la-gauche-doit-elle-vendre-son-ame-pour-gagner-une-election-IO55RKOSFNAQVCMCORMLFKTVEY/",
+      "link": "https://www.lexpress.fr/politique/congres-du-ps-la-gauche-doit-elle-vendre-son-ame-pour-gagner-une-election-IO55RKOSFNAQVCMCORMLFKTVEY/",
       "source_name": "L'Express",
-      "published": "Mon, 16 Jun 2025 09:33:36 +0000",
-      "published_date": "Mon, 16 Jun 2025 09:33:36 +0000",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.6,
-        "relevance_score": 5.5,
-        "importance_score": 8.0,
-        "total_score": 22.1
-      },
-      "curation_metadata": {
-        "curation_id": "92ac7a16-4819-47e1-9964-8f02219f196a",
-        "curated_at": "2025-06-16T10:15:52.508366+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892673+00:00",
-      "quality_score": 8.6,
-      "relevance_score": 5.5,
-      "importance_score": 8.0,
-      "total_score": 22.1
-    },
-    {
-      "title": "Les \"golden share\" pour renforcer la souveraineté",
-      "english_title": "\"Golden shares\" to strengthen sovereignty",
-      "simplified_french_title": "Les \"golden share\" pour renforcer la souveraineté",
-      "simplified_english_title": "\"Golden shares\" to strengthen sovereignty",
-      "summary": "Les \"golden share\" donnent à la puissance publique des droits de veto sur des décisions-clés dans les entreprises sensibles. L'Union européenne hésite à utiliser ce pouvoir.",
-      "english_summary": "\"Golden shares\" give public authorities veto power over key decisions in sensitive companies, but the European Union is hesitant to use this power.",
-      "french_summary": "Les \"golden share\" donnent à la puissance publique des droits de veto sur des décisions-clés dans les entreprises sensibles. L'Union européenne hésite à utiliser ce pouvoir.",
-      "original_article_title": "« Les “golden share”, un atout, alors que les Etats surendettés doivent renforcer leur souveraineté »",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/16/les-golden-share-un-atout-alors-que-les-etats-surendettes-doivent-renforcer-leur-souverainete_6613527_3234.html",
-      "link": "https://www.lemonde.fr/economie/article/2025/06/16/les-golden-share-un-atout-alors-que-les-etats-surendettes-doivent-renforcer-leur-souverainete_6613527_3234.html",
-      "source_name": "Le Monde Economie",
-      "published": "Mon, 16 Jun 2025 11:39:23 +0200",
-      "published_date": "Mon, 16 Jun 2025 11:39:23 +0200",
+      "published": "Mon, 16 Jun 2025 10:07:20 +0000",
+      "published_date": "Mon, 16 Jun 2025 10:07:20 +0000",
       "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«:** Guillemets ouvrants",
-          "explanation": "Opening French quotation mark.",
-          "cultural_note": ""
-        },
-        "Les": {
-          "display_format": "**The:** Definite article",
-          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
-          "cultural_note": ""
-        },
-        "“golden": {
-          "display_format": "**“golden:** Adjective meaning valuable or highly prized",
-          "explanation": "Used to describe something as highly valuable or desirable.",
-          "cultural_note": "The term 'golden share' is often used in economics and finance to refer to a special type of share that gives its owner significant control or influence."
-        },
-        "share”": {
-          "display_format": "**share:** A portion of ownership in a company",
-          "explanation": "A unit of ownership in a company, often traded on a stock exchange.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Comma",
-          "explanation": "Punctuation mark used to separate items in a list or to set off nonessential clauses.",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**a:** Indefinite article",
-          "explanation": "Used to indicate that the noun it precedes is singular and indefinite.",
-          "cultural_note": ""
-        },
-        "atout": {
-          "display_format": "**trump card:** A valuable resource or advantage",
-          "explanation": "A French word used to describe a strong advantage or a valuable asset.",
-          "cultural_note": "In English, the idiomatic expression 'trump card' is often used to convey a similar meaning."
-        },
-        "alors": {
-          "display_format": "**then:** Adverb indicating a consequence or a logical connection",
-          "explanation": "Used to indicate a logical consequence or a connection between two clauses.",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**that:** Subordinating conjunction",
-          "explanation": "Used to introduce a subordinate clause.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**the:** Definite article",
-          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
-          "cultural_note": ""
-        },
-        "Etats": {
-          "display_format": "**States:** Countries or nations",
-          "explanation": "Used to refer to independent nations or countries.",
-          "cultural_note": ""
-        },
-        "surendettés": {
-          "display_format": "**heavily indebted:** Having excessive debt",
-          "explanation": "Used to describe countries or entities that have an unsustainable level of debt.",
-          "cultural_note": "Heavily indebted countries often face significant economic challenges and may require external assistance."
-        },
-        "doivent": {
-          "display_format": "**must:** Auxiliary verb indicating obligation or necessity",
-          "explanation": "Used to express obligation, necessity, or a strong recommendation.",
-          "cultural_note": ""
-        },
-        "renforcer": {
-          "display_format": "**strengthen:** To make something stronger or more robust",
-          "explanation": "Used to describe the act of increasing the power or effectiveness of something.",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**their:** Possessive adjective",
-          "explanation": "Used to indicate possession or belonging.",
-          "cultural_note": ""
-        },
-        "souveraineté": {
-          "display_format": "**sovereignty:** Supreme authority or power over a territory",
-          "explanation": "Used to describe the supreme authority or power of a state or nation over its territory.",
-          "cultural_note": "Sovereignty is a fundamental concept in international relations and is often a sensitive topic in diplomatic discussions."
-        },
-        "»": {
-          "display_format": "**»:** Guillemets fermants",
-          "explanation": "Closing French quotation mark.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 4.8999999999999995,
-        "importance_score": 10,
-        "total_score": 21.8
-      },
-      "curation_metadata": {
-        "curation_id": "5a26bb2e-fdb1-471b-9d54-6570d25685ac",
-        "curated_at": "2025-06-16T10:15:52.505912+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892690+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 10,
-      "total_score": 21.8
-    },
-    {
-      "title": "Emmanuel Viellard : Le Salon du Bourget offre visibilité…",
-      "english_title": "Emmanuel Viellard: Bourget Show Offers Global Visibility",
-      "simplified_french_title": "Emmanuel Viellard : Le Salon du Bourget offre visibilité…",
-      "simplified_english_title": "Emmanuel Viellard: Bourget Show Offers Global Visibility",
-      "summary": "Le commissaire général explique les enjeux pour la filière aéronautique, touchée par les tensions géopolitiques et les surtaxes douanières. (34 words)",
-      "english_summary": "The general commissioner explains the challenges for the aerospace industry, affected by geopolitical tensions and customs duties. (29 words)",
-      "french_summary": "Le commissaire général explique les enjeux pour la filière aéronautique, touchée par les tensions géopolitiques et les surtaxes douanières. (34 words)",
-      "original_article_title": "Emmanuel Viellard: «Le Salon du Bourget offre une visibilité mondiale»",
-      "original_article_link": "https://www.lefigaro.fr/societes/emmanuel-viellard-le-salon-du-bourget-offre-une-visibilite-mondiale-20250616",
-      "link": "https://www.lefigaro.fr/societes/emmanuel-viellard-le-salon-du-bourget-offre-une-visibilite-mondiale-20250616",
-      "source_name": "Le Figaro",
-      "published": "Mon, 16 Jun 2025 12:15:00 +0200",
-      "published_date": "Mon, 16 Jun 2025 12:15:00 +0200",
-      "contextual_title_explanations": {
-        "Emmanuel Viellard": {
-          "display_format": "**Emmanuel Viellard:** French politician or businessman",
-          "explanation": "A French public figure, possibly involved in the aviation industry",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemets ouvrants",
-          "explanation": "Opening French quotation mark",
-          "cultural_note": ""
-        },
-        "Le": {
-          "display_format": "**Le:** The (definite article)",
-          "explanation": "Used to indicate a specific noun",
-          "cultural_note": ""
-        },
-        "Salon": {
-          "display_format": "**Salon:** Exhibition or Show",
-          "explanation": "A gathering or event where products or services are displayed",
-          "cultural_note": ""
+        "Congrès": {
+          "display_format": "**Congress:** A formal meeting of a political party or organization.",
+          "explanation": "A gathering of party members to discuss policy and make decisions.",
+          "cultural_note": "In French politics, party congresses are crucial events where leaders are elected and party lines are defined."
         },
         "du": {
-          "display_format": "**du:** Of the (preposition)",
-          "explanation": "Indicates possession or origin",
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
           "cultural_note": ""
         },
-        "Bourget": {
-          "display_format": "**Bourget:** Location in France",
-          "explanation": "A suburb of Paris, known for its airshows",
-          "cultural_note": "The Paris Air Show is held at the Bourget Airport"
+        "PS": {
+          "display_format": "**PS (Parti Socialiste):** French Socialist Party.",
+          "explanation": "A major center-left political party in France.",
+          "cultural_note": "The PS has been a dominant force in French politics, with several of its members holding the presidency."
         },
-        "offre": {
-          "display_format": "**offre:** Offers (verb)",
-          "explanation": "To provide or make available",
+        ":": {
+          "display_format": "**:** Colon (punctuation)",
+          "explanation": "Used to introduce a explanation or a list.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** (definite article)",
+          "explanation": "Used to indicate a specific noun or concept.",
+          "cultural_note": ""
+        },
+        "gauche": {
+          "display_format": "**Left-wing / Leftist:** Related to progressive or liberal political ideologies.",
+          "explanation": "Refers to political views that emphasize social equality and government intervention.",
+          "cultural_note": "In French politics, the left-wing is often associated with the Parti Socialiste and other progressive parties."
+        },
+        "doit-elle": {
+          "display_format": "**Should it:** (verb conjugation)",
+          "explanation": "Form of the verb 'devoir' (to must) in the present tense, used to express obligation or necessity.",
+          "cultural_note": "In French, the verb 'devoir' is often used to express moral obligation or duty."
+        },
+        "vendre": {
+          "display_format": "**To sell:** (verb)",
+          "explanation": "To transfer ownership of something in exchange for money or other compensation.",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its / Her / His:** (possessive adjective)",
+          "explanation": "Indicates possession or belonging.",
+          "cultural_note": ""
+        },
+        "âme": {
+          "display_format": "**Soul:** (figurative expression)",
+          "explanation": "Used metaphorically to refer to one's conscience, values, or moral principles.",
+          "cultural_note": "In French, the expression 'vendre son âme' means to compromise one's values or principles for personal gain."
+        },
+        "pour": {
+          "display_format": "**For / To:** (preposition)",
+          "explanation": "Indicates purpose, direction, or intended recipient.",
+          "cultural_note": ""
+        },
+        "gagner": {
+          "display_format": "**To win:** (verb)",
+          "explanation": "To achieve victory or success in a competition or election.",
           "cultural_note": ""
         },
         "une": {
-          "display_format": "**une:** A / An (indefinite article)",
-          "explanation": "Used to indicate a non-specific noun",
+          "display_format": "**A / An:** (indefinite article)",
+          "explanation": "Used to indicate a non-specific noun or concept.",
           "cultural_note": ""
         },
-        "visibilité": {
-          "display_format": "**visibilité:** Visibility",
-          "explanation": "The state of being able to be seen or noticed",
-          "cultural_note": ""
-        },
-        "mondiale": {
-          "display_format": "**mondiale:** Global / Worldwide",
-          "explanation": "Relating to the entire world",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemets fermants",
-          "explanation": "Closing French quotation mark",
-          "cultural_note": ""
+        "élection": {
+          "display_format": "**Election:** (noun)",
+          "explanation": "A formal process of selecting a candidate or candidates for public office.",
+          "cultural_note": "In France, elections are a crucial aspect of democratic life, with presidential and legislative elections held regularly."
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
         "quality_score": 7.6,
-        "relevance_score": 4.1,
-        "importance_score": 10,
-        "total_score": 21.7
+        "relevance_score": 6.300000000000001,
+        "importance_score": 9.5,
+        "total_score": 23.4
       },
       "curation_metadata": {
-        "curation_id": "5e5cdff9-7f54-4b72-ba2f-830f25ce02ed",
-        "curated_at": "2025-06-16T10:15:52.488225+00:00",
+        "curation_id": "229bef4e-7c7b-459c-9710-3624c2bab1cb",
+        "curated_at": "2025-06-16T10:15:52.488534+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892703+00:00",
+      "added_at": "2025-06-16T10:22:18.892646+00:00",
       "quality_score": 7.6,
-      "relevance_score": 4.1,
-      "importance_score": 10,
-      "total_score": 21.7
+      "relevance_score": 6.300000000000001,
+      "importance_score": 9.5,
+      "total_score": 23.4,
+      "article_id": "1721332da8a3731caae20c1df00127a7"
     },
     {
-      "title": "Colombie : marches de solidarité avec le sénateur Miguel…",
-      "english_title": "Colombia: Solidarity marches with Senator Miguel Uribe",
-      "simplified_french_title": "Colombie : marches de solidarité avec le sénateur Miguel…",
-      "simplified_english_title": "Colombia: Solidarity marches with Senator Miguel Uribe",
-      "summary": "Des milliers de personnes ont marché en silence pour soutenir le sénateur Miguel Uribe, victime d'un attentat il y a 8 jours et toujours dans un état critique. L'auteur, un adolescent de 15 ans, a été arrêté.",
-      "english_summary": "Thousands marched in silence to support Senator Miguel Uribe, a victim of an assassination attempt 8 days ago and still in critical condition. The 15-year-old perpetrator was arrested.",
-      "french_summary": "Des milliers de personnes ont marché en silence pour soutenir le sénateur Miguel Uribe, victime d'un attentat il y a 8 jours et toujours dans un état critique. L'auteur, un adolescent de 15 ans, a été arrêté.",
-      "original_article_title": "Colombie: des milliers de personnes aux marches de solidarité avec le sénateur Miguel Uribe",
-      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-colombie-des-milliers-de-personnes-aux-marches-de-solidarit%C3%A9-avec-le-s%C3%A9nateur-miguel-uribe",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-colombie-des-milliers-de-personnes-aux-marches-de-solidarit%C3%A9-avec-le-s%C3%A9nateur-miguel-uribe",
-      "source_name": "RFI",
-      "published": "Mon, 16 Jun 2025 08:35:17 GMT",
-      "published_date": "Mon, 16 Jun 2025 08:35:17 GMT",
+      "title": "France interdit stands israéliens au salon du Bourget",
+      "english_title": "France bans Israeli arms stands at Bourget airshow",
+      "simplified_french_title": "France interdit stands israéliens au salon du Bourget",
+      "simplified_english_title": "France bans Israeli arms stands at Bourget airshow",
+      "summary": "Le gouvernement français interdit la présence de stands israéliens d'armement au salon du Bourget. Cette décision fait suite à des plaintes.",
+      "english_summary": "The French government bans Israeli arms stands at the Bourget airshow following complaints.",
+      "french_summary": "Le gouvernement français interdit la présence de stands israéliens d'armement au salon du Bourget. Cette décision fait suite à des plaintes.",
+      "original_article_title": "Gaza : le gouvernement français interdit des stands israéliens d'armement au salon du Bourget",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/bateau-pour-gaza-les-deux-derniers-passagers-francais-expulses-en-jordanie-GTB5XHUC3NCE7KH5M3ZR7MMZBE/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/bateau-pour-gaza-les-deux-derniers-passagers-francais-expulses-en-jordanie-GTB5XHUC3NCE7KH5M3ZR7MMZBE/",
+      "source_name": "L'Express",
+      "published": "Mon, 16 Jun 2025 10:01:02 +0000",
+      "published_date": "Mon, 16 Jun 2025 10:01:02 +0000",
       "contextual_title_explanations": {
-        "Colombie": {
-          "display_format": "**Colombie:** Country in South America",
-          "explanation": "A country located in the northwest of South America.",
-          "cultural_note": "Colombia has a rich cultural heritage and has undergone significant economic growth in recent years."
+        "Gaza": {
+          "display_format": "**Gaza:** Palestinian territory",
+          "explanation": "A coastal region in the Middle East that borders Egypt and Israel.",
+          "cultural_note": "A highly contested region with a complex history of conflict and political tensions."
+        },
+        ":": {
+          "display_format": "**:** Colon",
+          "explanation": "Used to indicate that what follows is a direct explanation or elaboration.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** Definite article",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government:** The system or group of people that govern a country, state, or organization.",
+          "explanation": "Responsible for making and enforcing laws, policies, and decisions.",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**French:** Relating to France or the French language.",
+          "explanation": "Adjective used to describe something associated with France or its culture.",
+          "cultural_note": ""
+        },
+        "interdit": {
+          "display_format": "**Prohibits:** To formally forbid something.",
+          "explanation": "To officially disallow or ban something.",
+          "cultural_note": ""
         },
         "des": {
           "display_format": "**Of / From:** (preposition)",
           "explanation": "Indicates possession, origin, or relationship.",
           "cultural_note": ""
         },
-        "milliers": {
-          "display_format": "**Thousands:** A large number of people or things.",
-          "explanation": "A plural noun indicating a large quantity.",
+        "stands": {
+          "display_format": "**Stands:** Booths or displays",
+          "explanation": "Areas where goods or services are showcased.",
+          "cultural_note": "Commonly used in trade fairs, exhibitions, and markets."
+        },
+        "israéliens": {
+          "display_format": "**Israeli:** Relating to Israel or its people.",
+          "explanation": "Adjective used to describe something associated with Israel or its culture.",
+          "cultural_note": ""
+        },
+        "d'armement": {
+          "display_format": "**Of armaments:** Relating to weapons or military equipment.",
+          "explanation": "Used to describe goods or services related to the production or sale of arms.",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To / At:** (preposition)",
+          "explanation": "Indicates direction, location, or destination.",
+          "cultural_note": ""
+        },
+        "salon": {
+          "display_format": "**Trade fair / Exhibition:** A gathering of people to display or promote goods or services.",
+          "explanation": "An event where businesses showcase their products or services.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** A suburb of Paris, France",
+          "explanation": "A location known for hosting trade fairs and exhibitions.",
+          "cultural_note": "The Paris Air Show, a major international aerospace event, is held at the Bourget airport."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.1,
+        "relevance_score": 7.800000000000001,
+        "importance_score": 10,
+        "total_score": 25.9
+      },
+      "curation_metadata": {
+        "curation_id": "22ba05a6-1c5a-4600-8b2d-4dc4d7172228",
+        "curated_at": "2025-06-16T10:15:52.486003+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892593+00:00",
+      "quality_score": 8.1,
+      "relevance_score": 7.800000000000001,
+      "importance_score": 10,
+      "total_score": 25.9,
+      "article_id": "0b5a6dbfb88d360726d51cbb6797012e"
+    },
+    {
+      "title": "Le business de l'assistance aux étrangers",
+      "english_title": "The business of assisting foreigners",
+      "simplified_french_title": "Le business de l'assistance aux étrangers",
+      "simplified_english_title": "The business of assisting foreigners",
+      "summary": "Des entreprises se font payer pour aider les étrangers à obtenir des papiers ou des logements. Un business lucratif qui soulève des questions éthiques.",
+      "english_summary": "Companies get paid to help foreigners obtain papers or housing. A lucrative business raising ethical questions.",
+      "french_summary": "Des entreprises se font payer pour aider les étrangers à obtenir des papiers ou des logements. Un business lucratif qui soulève des questions éthiques.",
+      "original_article_title": "\"On gagne de l'argent, c’est notre métier\" : le business derrière l’assistance aux étrangers",
+      "original_article_link": "https://www.lexpress.fr/societe/on-gagne-de-largent-cest-notre-metier-le-business-derriere-lassistance-aux-etrangers-G4OSLNUSQNC4RHBEFSCDJDSAAI/",
+      "link": "https://www.lexpress.fr/societe/on-gagne-de-largent-cest-notre-metier-le-business-derriere-lassistance-aux-etrangers-G4OSLNUSQNC4RHBEFSCDJDSAAI/",
+      "source_name": "L'Express",
+      "published": "Mon, 16 Jun 2025 10:00:00 +0000",
+      "published_date": "Mon, 16 Jun 2025 10:00:00 +0000",
+      "contextual_title_explanations": {
+        "On": {
+          "display_format": "**We:** (subject pronoun)",
+          "explanation": "First person plural subject pronoun.",
+          "cultural_note": ""
+        },
+        "gagne": {
+          "display_format": "**Earns:** (verb)",
+          "explanation": "To obtain money in return for work or services.",
           "cultural_note": ""
         },
         "de": {
@@ -820,66 +1294,82 @@
           "explanation": "Indicates possession, origin, or relationship.",
           "cultural_note": ""
         },
-        "personnes": {
-          "display_format": "**People:** Humans, individuals.",
-          "explanation": "A plural noun referring to human beings.",
+        "l'argent": {
+          "display_format": "**Money:** (noun)",
+          "explanation": "Currency or financial means.",
           "cultural_note": ""
         },
-        "aux": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates direction or location.",
+        "c’est": {
+          "display_format": "**It is / This is:** (contraction)",
+          "explanation": "Short form of 'ce' (this) and 'est' (is).",
+          "cultural_note": "Common contraction in spoken French."
+        },
+        "notre": {
+          "display_format": "**Our:** (possessive adjective)",
+          "explanation": "Indicates possession or belonging to us.",
           "cultural_note": ""
         },
-        "marches": {
-          "display_format": "**Marches / Demonstrations:** Public protests or rallies.",
-          "explanation": "A plural noun referring to public gatherings, often for political or social purposes.",
-          "cultural_note": "Marches and demonstrations are common forms of peaceful protest in many countries."
+        "métier": {
+          "display_format": "**Job / Profession:** (noun)",
+          "explanation": "Occupation or career.",
+          "cultural_note": ""
         },
-        "solidarité": {
-          "display_format": "**Solidarity:** Unity or mutual support.",
-          "explanation": "A noun referring to a feeling of unity or shared commitment among individuals or groups.",
-          "cultural_note": "Solidarity is a key concept in social and political movements."
-        },
-        "avec": {
-          "display_format": "**With:** (preposition)",
-          "explanation": "Indicates accompaniment or association.",
+        ":": {
+          "display_format": "**:** (punctuation)",
+          "explanation": "Colon introducing an explanation or quote.",
           "cultural_note": ""
         },
         "le": {
           "display_format": "**The:** (article)",
-          "explanation": "A definite article used to indicate a specific noun.",
+          "explanation": "Definite article.",
           "cultural_note": ""
         },
-        "sénateur": {
-          "display_format": "**Senator:** A member of a senate or legislative body.",
-          "explanation": "A noun referring to an elected or appointed member of a legislative body.",
-          "cultural_note": "Senators play important roles in governing many countries."
+        "business": {
+          "display_format": "**Business:** (noun)",
+          "explanation": "Commercial or industrial activity.",
+          "cultural_note": "Borrowed from English."
         },
-        "Miguel Uribe": {
-          "display_format": "**Miguel Uribe:** Colombian politician and senator.",
-          "explanation": "A Colombian politician who is a member of the senate.",
-          "cultural_note": "Miguel Uribe is a prominent figure in Colombian politics."
+        "derrière": {
+          "display_format": "**Behind:** (preposition)",
+          "explanation": "Indicates location or support.",
+          "cultural_note": ""
+        },
+        "l’assistance": {
+          "display_format": "**Assistance:** (noun)",
+          "explanation": "Help or support provided to someone.",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**To the:** (preposition)",
+          "explanation": "Indicates direction or recipients.",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**Foreigners:** (noun)",
+          "explanation": "People from another country.",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": [],
       "cultural_context": {},
       "quality_scores": {
-        "quality_score": 8.4,
-        "relevance_score": 5.7,
-        "importance_score": 7.0,
-        "total_score": 21.1
+        "quality_score": 9.1,
+        "relevance_score": 6.0,
+        "importance_score": 10,
+        "total_score": 25.1
       },
       "curation_metadata": {
-        "curation_id": "83e0f619-59ba-43ef-aaba-0b60f4d939f9",
-        "curated_at": "2025-06-16T10:15:52.482869+00:00",
+        "curation_id": "e44f0f1c-6fdd-452d-b61d-9131caf7375a",
+        "curated_at": "2025-06-16T10:15:52.504419+00:00",
         "fast_tracked": false
       },
       "ai_enhanced": true,
-      "added_at": "2025-06-16T10:22:18.892713+00:00",
-      "quality_score": 8.4,
-      "relevance_score": 5.7,
-      "importance_score": 7.0,
-      "total_score": 21.1
+      "added_at": "2025-06-16T10:22:18.892623+00:00",
+      "quality_score": 9.1,
+      "relevance_score": 6.0,
+      "importance_score": 10,
+      "total_score": 25.1,
+      "article_id": "3c15af384b8c658a91c5ec05f0e7bd84"
     },
     {
       "title": "Israël frappe des sites de lancements de missiles iraniens",
@@ -1010,7 +1500,371 @@
       "quality_score": 6.9,
       "relevance_score": 4.6,
       "importance_score": 7.0,
-      "total_score": 18.5
+      "total_score": 18.5,
+      "article_id": "3f59c057b872a3bfd4fc6c8949e8813d"
+    },
+    {
+      "title": "Les \"golden share\" pour renforcer la souveraineté",
+      "english_title": "\"Golden shares\" to strengthen sovereignty",
+      "simplified_french_title": "Les \"golden share\" pour renforcer la souveraineté",
+      "simplified_english_title": "\"Golden shares\" to strengthen sovereignty",
+      "summary": "Les \"golden share\" donnent à la puissance publique des droits de veto sur des décisions-clés dans les entreprises sensibles. L'Union européenne hésite à utiliser ce pouvoir.",
+      "english_summary": "\"Golden shares\" give public authorities veto power over key decisions in sensitive companies, but the European Union is hesitant to use this power.",
+      "french_summary": "Les \"golden share\" donnent à la puissance publique des droits de veto sur des décisions-clés dans les entreprises sensibles. L'Union européenne hésite à utiliser ce pouvoir.",
+      "original_article_title": "« Les “golden share”, un atout, alors que les Etats surendettés doivent renforcer leur souveraineté »",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/16/les-golden-share-un-atout-alors-que-les-etats-surendettes-doivent-renforcer-leur-souverainete_6613527_3234.html",
+      "link": "https://www.lemonde.fr/economie/article/2025/06/16/les-golden-share-un-atout-alors-que-les-etats-surendettes-doivent-renforcer-leur-souverainete_6613527_3234.html",
+      "source_name": "Le Monde Economie",
+      "published": "Mon, 16 Jun 2025 11:39:23 +0200",
+      "published_date": "Mon, 16 Jun 2025 11:39:23 +0200",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemets ouvrants",
+          "explanation": "Opening French quotation mark.",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**The:** Definite article",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "“golden": {
+          "display_format": "**“golden:** Adjective meaning valuable or highly prized",
+          "explanation": "Used to describe something as highly valuable or desirable.",
+          "cultural_note": "The term 'golden share' is often used in economics and finance to refer to a special type of share that gives its owner significant control or influence."
+        },
+        "share”": {
+          "display_format": "**share:** A portion of ownership in a company",
+          "explanation": "A unit of ownership in a company, often traded on a stock exchange.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Comma",
+          "explanation": "Punctuation mark used to separate items in a list or to set off nonessential clauses.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**a:** Indefinite article",
+          "explanation": "Used to indicate that the noun it precedes is singular and indefinite.",
+          "cultural_note": ""
+        },
+        "atout": {
+          "display_format": "**trump card:** A valuable resource or advantage",
+          "explanation": "A French word used to describe a strong advantage or a valuable asset.",
+          "cultural_note": "In English, the idiomatic expression 'trump card' is often used to convey a similar meaning."
+        },
+        "alors": {
+          "display_format": "**then:** Adverb indicating a consequence or a logical connection",
+          "explanation": "Used to indicate a logical consequence or a connection between two clauses.",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**that:** Subordinating conjunction",
+          "explanation": "Used to introduce a subordinate clause.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**the:** Definite article",
+          "explanation": "Used to indicate that the noun it precedes is specific or previously mentioned.",
+          "cultural_note": ""
+        },
+        "Etats": {
+          "display_format": "**States:** Countries or nations",
+          "explanation": "Used to refer to independent nations or countries.",
+          "cultural_note": ""
+        },
+        "surendettés": {
+          "display_format": "**heavily indebted:** Having excessive debt",
+          "explanation": "Used to describe countries or entities that have an unsustainable level of debt.",
+          "cultural_note": "Heavily indebted countries often face significant economic challenges and may require external assistance."
+        },
+        "doivent": {
+          "display_format": "**must:** Auxiliary verb indicating obligation or necessity",
+          "explanation": "Used to express obligation, necessity, or a strong recommendation.",
+          "cultural_note": ""
+        },
+        "renforcer": {
+          "display_format": "**strengthen:** To make something stronger or more robust",
+          "explanation": "Used to describe the act of increasing the power or effectiveness of something.",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**their:** Possessive adjective",
+          "explanation": "Used to indicate possession or belonging.",
+          "cultural_note": ""
+        },
+        "souveraineté": {
+          "display_format": "**sovereignty:** Supreme authority or power over a territory",
+          "explanation": "Used to describe the supreme authority or power of a state or nation over its territory.",
+          "cultural_note": "Sovereignty is a fundamental concept in international relations and is often a sensitive topic in diplomatic discussions."
+        },
+        "»": {
+          "display_format": "**»:** Guillemets fermants",
+          "explanation": "Closing French quotation mark.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 6.9,
+        "relevance_score": 4.8999999999999995,
+        "importance_score": 10,
+        "total_score": 21.8
+      },
+      "curation_metadata": {
+        "curation_id": "5a26bb2e-fdb1-471b-9d54-6570d25685ac",
+        "curated_at": "2025-06-16T10:15:52.505912+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892690+00:00",
+      "quality_score": 6.9,
+      "relevance_score": 4.8999999999999995,
+      "importance_score": 10,
+      "total_score": 21.8,
+      "article_id": "96002dd34fbfb682dcfda5b0a540a726"
+    },
+    {
+      "title": "Nucléaire iranien : programme au coeur de l'escalade avec…",
+      "english_title": "Iranian Nuclear Program at the Heart of Escalation with I…",
+      "simplified_french_title": "Nucléaire iranien : programme au coeur de l'escalade avec…",
+      "simplified_english_title": "Iranian Nuclear Program at the Heart of Escalation with I…",
+      "summary": "L'Iran poursuit son programme nucléaire, malgré les tensions avec Israël. Découvrez les enjeux de cette crise régionale. (34 words)",
+      "english_summary": "Iran continues its nuclear program despite tensions with Israel. Discover the stakes of this regional crisis. (34 words)",
+      "french_summary": "L'Iran poursuit son programme nucléaire, malgré les tensions avec Israël. Découvrez les enjeux de cette crise régionale. (34 words)",
+      "original_article_title": "Nucléaire iranien : notre enquête sur ce programme au coeur de l'escalade avec Israël",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-et-la-bombe-nucleaire-2025-lannee-de-la-diplomatie-ou-de-la-guerre-MUBKQXMNVVH33MX7YEPS4NF4RQ/",
+      "link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-et-la-bombe-nucleaire-2025-lannee-de-la-diplomatie-ou-de-la-guerre-MUBKQXMNVVH33MX7YEPS4NF4RQ/",
+      "source_name": "L'Express",
+      "published": "Mon, 16 Jun 2025 09:33:36 +0000",
+      "published_date": "Mon, 16 Jun 2025 09:33:36 +0000",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 5.5,
+        "importance_score": 8.0,
+        "total_score": 22.1
+      },
+      "curation_metadata": {
+        "curation_id": "92ac7a16-4819-47e1-9964-8f02219f196a",
+        "curated_at": "2025-06-16T10:15:52.508366+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892673+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 5.5,
+      "importance_score": 8.0,
+      "total_score": 22.1,
+      "article_id": "832e8b808601bdba123d4fa2b9dedeef"
+    },
+    {
+      "title": "Ghana reporte taxe sur carburant en raison de conflit Isr…",
+      "english_title": "Ghana delays fuel tax due to Israel-Iran conflict",
+      "simplified_french_title": "Ghana reporte taxe sur carburant en raison de conflit Isr…",
+      "simplified_english_title": "Ghana delays fuel tax due to Israel-Iran conflict",
+      "summary": "Au Ghana, le gouvernement reporte une taxe sur le carburant à cause des tensions géopolitiques entre l'Iran et Israël, craignant une hausse du prix du pétrole. (34 words)",
+      "english_summary": "Ghana's government delays a fuel tax due to geopolitical tensions between Iran and Israel, fearing a rise in oil prices. (29 words)",
+      "french_summary": "Au Ghana, le gouvernement reporte une taxe sur le carburant à cause des tensions géopolitiques entre l'Iran et Israël, craignant une hausse du prix du pétrole. (34 words)",
+      "original_article_title": "Guerre Israël-Iran: le Ghana reporte l’instauration d’une taxe décriée sur le prix du carburant",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250616-guerre-isra%C3%ABl-iran-le-ghana-reporte-l-instauration-d-une-taxe-d%C3%A9cri%C3%A9e-sur-le-prix-du-carburant",
+      "link": "https://www.rfi.fr/fr/afrique/20250616-guerre-isra%C3%ABl-iran-le-ghana-reporte-l-instauration-d-une-taxe-d%C3%A9cri%C3%A9e-sur-le-prix-du-carburant",
+      "source_name": "RFI",
+      "published": "Mon, 16 Jun 2025 09:17:11 GMT",
+      "published_date": "Mon, 16 Jun 2025 09:17:11 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.6,
+        "relevance_score": 3.8,
+        "importance_score": 10,
+        "total_score": 22.4
+      },
+      "curation_metadata": {
+        "curation_id": "5ab266a7-fb26-443b-b875-ee32e903fcf2",
+        "curated_at": "2025-06-16T10:15:52.486677+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892668+00:00",
+      "quality_score": 8.6,
+      "relevance_score": 3.8,
+      "importance_score": 10,
+      "total_score": 22.4,
+      "article_id": "e52668a5e48ab99929086b0b420ec91b"
+    },
+    {
+      "title": "Tirailleurs africains dans l'armée russe",
+      "english_title": "African Soldiers in Russian Army",
+      "simplified_french_title": "Tirailleurs africains dans l'armée russe",
+      "simplified_english_title": "African Soldiers in Russian Army",
+      "summary": "Des Africains ont rejoint l'armée russe pour des salaires élevés ou la nationalité. Mais d'autres auraient été manipulés et enrôlés de force. (34 words)",
+      "english_summary": "Africans joined the Russian army for high salaries or citizenship. But others were allegedly manipulated and forced to enlist. (29 words)",
+      "french_summary": "Des Africains ont rejoint l'armée russe pour des salaires élevés ou la nationalité. Mais d'autres auraient été manipulés et enrôlés de force. (34 words)",
+      "original_article_title": "Les tirailleurs de Poutine : récit de l'enquête sur ces Africains dans les rangs de l'armée russe",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250616-les-tirailleurs-de-poutine-r%C3%A9cit-de-l-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20250616-les-tirailleurs-de-poutine-r%C3%A9cit-de-l-enqu%C3%AAte-sur-ces-africains-dans-les-rangs-de-l-arm%C3%A9e-russe",
+      "source_name": "France 24",
+      "published": "Mon, 16 Jun 2025 09:15:59 GMT",
+      "published_date": "Mon, 16 Jun 2025 09:15:59 GMT",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 9.6,
+        "relevance_score": 5.7,
+        "importance_score": 8.5,
+        "total_score": 23.8
+      },
+      "curation_metadata": {
+        "curation_id": "6350d25a-8abf-48ff-814c-1866fd4d395d",
+        "curated_at": "2025-06-16T10:15:52.500678+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892630+00:00",
+      "quality_score": 9.6,
+      "relevance_score": 5.7,
+      "importance_score": 8.5,
+      "total_score": 23.8,
+      "article_id": "7d40e26cf429580cbcdaa5a84dea20d5"
+    },
+    {
+      "title": "Renault dévisse après départ de Luca de Meo",
+      "english_title": "Renault Plummets after Luca de Meo's Departure",
+      "simplified_french_title": "Renault dévisse après départ de Luca de Meo",
+      "simplified_english_title": "Renault Plummets after Luca de Meo's Departure",
+      "summary": "Le cours de l'action Renault chute après l'annonce du départ de son directeur général Luca de Meo. Les investisseurs s'inquiètent de l'avenir de la marque.",
+      "english_summary": "Renault's stock price plummets after the announcement of CEO Luca de Meo's departure. Investors worry about the brand's future.",
+      "french_summary": "Le cours de l'action Renault chute après l'annonce du départ de son directeur général Luca de Meo. Les investisseurs s'inquiètent de l'avenir de la marque.",
+      "original_article_title": "Renault dévisse en Bourse après l’annonce du départ de son directeur général Luca de Meo",
+      "original_article_link": "https://www.lexpress.fr/economie/entreprises/renault-devisse-en-bourse-apres-lannonce-du-depart-de-son-directeur-general-luca-de-meo-YALRWIELNFFSTOVF2O3QASJFP4/",
+      "link": "https://www.lexpress.fr/economie/entreprises/renault-devisse-en-bourse-apres-lannonce-du-depart-de-son-directeur-general-luca-de-meo-YALRWIELNFFSTOVF2O3QASJFP4/",
+      "source_name": "L'Express",
+      "published": "Mon, 16 Jun 2025 08:40:20 +0000",
+      "published_date": "Mon, 16 Jun 2025 08:40:20 +0000",
+      "contextual_title_explanations": {},
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 7.4,
+        "relevance_score": 8.2,
+        "importance_score": 9.5,
+        "total_score": 25.1
+      },
+      "curation_metadata": {
+        "curation_id": "b0c7d8a8-80e6-497b-9207-db275c240e6a",
+        "curated_at": "2025-06-16T10:15:52.489956+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892606+00:00",
+      "quality_score": 7.4,
+      "relevance_score": 8.2,
+      "importance_score": 9.5,
+      "total_score": 25.1,
+      "article_id": "67ce7d1b8e1d02b8be1e65e84abd1d4d"
+    },
+    {
+      "title": "Colombie : marches de solidarité avec le sénateur Miguel…",
+      "english_title": "Colombia: Solidarity marches with Senator Miguel Uribe",
+      "simplified_french_title": "Colombie : marches de solidarité avec le sénateur Miguel…",
+      "simplified_english_title": "Colombia: Solidarity marches with Senator Miguel Uribe",
+      "summary": "Des milliers de personnes ont marché en silence pour soutenir le sénateur Miguel Uribe, victime d'un attentat il y a 8 jours et toujours dans un état critique. L'auteur, un adolescent de 15 ans, a été arrêté.",
+      "english_summary": "Thousands marched in silence to support Senator Miguel Uribe, a victim of an assassination attempt 8 days ago and still in critical condition. The 15-year-old perpetrator was arrested.",
+      "french_summary": "Des milliers de personnes ont marché en silence pour soutenir le sénateur Miguel Uribe, victime d'un attentat il y a 8 jours et toujours dans un état critique. L'auteur, un adolescent de 15 ans, a été arrêté.",
+      "original_article_title": "Colombie: des milliers de personnes aux marches de solidarité avec le sénateur Miguel Uribe",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-colombie-des-milliers-de-personnes-aux-marches-de-solidarit%C3%A9-avec-le-s%C3%A9nateur-miguel-uribe",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-colombie-des-milliers-de-personnes-aux-marches-de-solidarit%C3%A9-avec-le-s%C3%A9nateur-miguel-uribe",
+      "source_name": "RFI",
+      "published": "Mon, 16 Jun 2025 08:35:17 GMT",
+      "published_date": "Mon, 16 Jun 2025 08:35:17 GMT",
+      "contextual_title_explanations": {
+        "Colombie": {
+          "display_format": "**Colombie:** Country in South America",
+          "explanation": "A country located in the northwest of South America.",
+          "cultural_note": "Colombia has a rich cultural heritage and has undergone significant economic growth in recent years."
+        },
+        "des": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "milliers": {
+          "display_format": "**Thousands:** A large number of people or things.",
+          "explanation": "A plural noun indicating a large quantity.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of / From:** (preposition)",
+          "explanation": "Indicates possession, origin, or relationship.",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**People:** Humans, individuals.",
+          "explanation": "A plural noun referring to human beings.",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**To / At:** (preposition)",
+          "explanation": "Indicates direction or location.",
+          "cultural_note": ""
+        },
+        "marches": {
+          "display_format": "**Marches / Demonstrations:** Public protests or rallies.",
+          "explanation": "A plural noun referring to public gatherings, often for political or social purposes.",
+          "cultural_note": "Marches and demonstrations are common forms of peaceful protest in many countries."
+        },
+        "solidarité": {
+          "display_format": "**Solidarity:** Unity or mutual support.",
+          "explanation": "A noun referring to a feeling of unity or shared commitment among individuals or groups.",
+          "cultural_note": "Solidarity is a key concept in social and political movements."
+        },
+        "avec": {
+          "display_format": "**With:** (preposition)",
+          "explanation": "Indicates accompaniment or association.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** (article)",
+          "explanation": "A definite article used to indicate a specific noun.",
+          "cultural_note": ""
+        },
+        "sénateur": {
+          "display_format": "**Senator:** A member of a senate or legislative body.",
+          "explanation": "A noun referring to an elected or appointed member of a legislative body.",
+          "cultural_note": "Senators play important roles in governing many countries."
+        },
+        "Miguel Uribe": {
+          "display_format": "**Miguel Uribe:** Colombian politician and senator.",
+          "explanation": "A Colombian politician who is a member of the senate.",
+          "cultural_note": "Miguel Uribe is a prominent figure in Colombian politics."
+        }
+      },
+      "key_vocabulary": [],
+      "cultural_context": {},
+      "quality_scores": {
+        "quality_score": 8.4,
+        "relevance_score": 5.7,
+        "importance_score": 7.0,
+        "total_score": 21.1
+      },
+      "curation_metadata": {
+        "curation_id": "83e0f619-59ba-43ef-aaba-0b60f4d939f9",
+        "curated_at": "2025-06-16T10:15:52.482869+00:00",
+        "fast_tracked": false
+      },
+      "ai_enhanced": true,
+      "added_at": "2025-06-16T10:22:18.892713+00:00",
+      "quality_score": 8.4,
+      "relevance_score": 5.7,
+      "importance_score": 7.0,
+      "total_score": 21.1,
+      "article_id": "2b8deeccc73cc34fddafd8b7f3c8ab8a"
     },
     {
       "title": "Gouvernement interdit écrans pour enfants de moins de 3 ans",
@@ -3064,497 +3918,6 @@
       "importance_score": 8.5,
       "total_score": 22.0,
       "article_id": "216c669d6728ae00904c304a5adc935a"
-    },
-    {
-      "title": "Energie et climat : débats à l'Assemblée nationale",
-      "english_title": "Energy and Climate: Debates at National Assembly",
-      "simplified_french_title": "Energie et climat : débats à l'Assemblée nationale",
-      "simplified_english_title": "Energy and Climate: Debates at National Assembly",
-      "summary": "Les députés examinent la proposition de loi de Daniel Gremillet sur les orientations énergétiques du pays pour les 10 prochaines années.",
-      "english_summary": "Deputies examine Senator Daniel Gremillet's bill on the country's energy orientations for the next 10 years.",
-      "french_summary": "Les députés examinent la proposition de loi de Daniel Gremillet sur les orientations énergétiques du pays pour les 10 prochaines années.",
-      "original_article_title": "Energie et climat : des débats cruciaux commencent à l’Assemblée nationale sur les grandes orientations du pays pour les dix prochaines années",
-      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/16/energie-et-climat-des-debats-cruciaux-commencent-a-l-assemblee-nationale-sur-les-grandes-orientations-du-pays-pour-les-dix-prochaines-annees_6613485_3244.html",
-      "link": "https://www.lemonde.fr/planete/article/2025/06/16/energie-et-climat-des-debats-cruciaux-commencent-a-l-assemblee-nationale-sur-les-grandes-orientations-du-pays-pour-les-dix-prochaines-annees_6613485_3244.html",
-      "source_name": "Le Monde Politique",
-      "published": "Mon, 16 Jun 2025 05:30:06 +0200",
-      "published_date": "Mon, 16 Jun 2025 05:30:06 +0200",
-      "contextual_title_explanations": {
-        "Energie": {
-          "display_format": "**Energy:** Power derived from various sources.",
-          "explanation": "Refers to the ability to do work, often in the context of fuel or electricity.",
-          "cultural_note": "A critical aspect of modern societies, with growing concerns about sustainability and environmental impact."
-        },
-        "et": {
-          "display_format": "**And:** (conjunction)",
-          "explanation": "Used to connect words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "climat": {
-          "display_format": "**Climate:** Long-term atmospheric conditions.",
-          "explanation": "Refers to the average weather patterns in a region over a prolonged period.",
-          "cultural_note": "A critical aspect of environmental concerns, with ongoing debates about global warming and its consequences."
-        },
-        ":": {
-          "display_format": "**:** Colon (punctuation)",
-          "explanation": "Used to introduce a list, quotation, or explanation.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "débats": {
-          "display_format": "**Debates:** Formal discussions or arguments.",
-          "explanation": "Refers to the exchange of views or opinions on a particular topic.",
-          "cultural_note": "A crucial aspect of democratic decision-making processes."
-        },
-        "cruciaux": {
-          "display_format": "**Crucial:** Extremely important or critical.",
-          "explanation": "Describes a situation or decision that has significant consequences.",
-          "cultural_note": ""
-        },
-        "commencent": {
-          "display_format": "**Begin:** To start or initiate something.",
-          "explanation": "Refers to the act of starting a process or activity.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**To / At:** (preposition)",
-          "explanation": "Indicates direction, location, or movement.",
-          "cultural_note": ""
-        },
-        "l’": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun or phrase.",
-          "cultural_note": ""
-        },
-        "Assemblée": {
-          "display_format": "**Assembly:** A group of people gathered for a specific purpose.",
-          "explanation": "Refers to a formal meeting or deliberative body.",
-          "cultural_note": "In France, the Assemblée Nationale is the lower house of the parliament."
-        },
-        "nationale": {
-          "display_format": "**National:** Relating to a country or nation.",
-          "explanation": "Describes something that is related to a nation or country.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On / About:** (preposition)",
-          "explanation": "Indicates a topic, subject, or location.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** (definite article)",
-          "explanation": "Used to indicate a specific noun or phrase.",
-          "cultural_note": ""
-        },
-        "grandes": {
-          "display_format": "**Major / Significant:** (adjective)",
-          "explanation": "Describes something as important, large, or influential.",
-          "cultural_note": ""
-        },
-        "orientations": {
-          "display_format": "**Orientations:** Directions or goals.",
-          "explanation": "Refers to the general direction or approach taken.",
-          "cultural_note": "In this context, it refers to the overall strategy or policy direction."
-        },
-        "du": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "pays": {
-          "display_format": "**Country:** A nation or state.",
-          "explanation": "Refers to a geographical area with defined borders and governance.",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For:** (preposition)",
-          "explanation": "Indicates purpose, direction, or benefit.",
-          "cultural_note": ""
-        },
-        "dix": {
-          "display_format": "**Ten:** (number)",
-          "explanation": "A numerical value.",
-          "cultural_note": ""
-        },
-        "prochaines": {
-          "display_format": "**Next / Upcoming:** (adjective)",
-          "explanation": "Describes something that will happen in the near future.",
-          "cultural_note": ""
-        },
-        "années": {
-          "display_format": "**Years:** (noun)",
-          "explanation": "A unit of time.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.9,
-        "relevance_score": 8.8,
-        "importance_score": 7.0,
-        "total_score": 23.700000000000003
-      },
-      "curation_metadata": {
-        "curation_id": "004ca97a-db3a-4c33-bd34-269ba6d74aac",
-        "curated_at": "2025-06-16T06:23:03.929051+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365147+00:00",
-      "quality_score": 7.9,
-      "relevance_score": 8.8,
-      "importance_score": 7.0,
-      "total_score": 23.700000000000003,
-      "article_id": "ba1a7f55cc011b5c32af009cd2264f9d"
-    },
-    {
-      "title": "RDC : Parlement autorise poursuites contre ministre Mutamba",
-      "english_title": "DRC: Parliament authorizes prosecution of Minister Mutamba",
-      "simplified_french_title": "RDC : Parlement autorise poursuites contre ministre Mutamba",
-      "simplified_english_title": "DRC: Parliament authorizes prosecution of Minister Mutamba",
-      "summary": "Le Parlement RDC a autorisé le procureur à poursuivre le ministre de la Justice Constant Mutamba pour détournement de deniers publics dans un projet de prison à Kisangani.",
-      "english_summary": "The DRC Parliament has authorized the prosecutor to prosecute Justice Minister Constant Mutamba for embezzlement of public funds in a prison project in Kisangani.",
-      "french_summary": "Le Parlement RDC a autorisé le procureur à poursuivre le ministre de la Justice Constant Mutamba pour détournement de deniers publics dans un projet de prison à Kisangani.",
-      "original_article_title": "RDC: le Parlement autorise les poursuites contre le ministre de la justice Constant Mutamba",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250616-rdc-le-parlement-autorise-les-poursuites-contre-le-ministre-de-la-justice-constant-mutamba",
-      "link": "https://www.rfi.fr/fr/afrique/20250616-rdc-le-parlement-autorise-les-poursuites-contre-le-ministre-de-la-justice-constant-mutamba",
-      "source_name": "RFI",
-      "published": "Mon, 16 Jun 2025 03:27:35 GMT",
-      "published_date": "Mon, 16 Jun 2025 03:27:35 GMT",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 9.1,
-        "relevance_score": 6.6000000000000005,
-        "importance_score": 8.5,
-        "total_score": 24.2
-      },
-      "curation_metadata": {
-        "curation_id": "6ec8302b-2206-43c2-a6a5-04edb8e140fe",
-        "curated_at": "2025-06-16T06:23:03.929337+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365119+00:00",
-      "quality_score": 9.1,
-      "relevance_score": 6.6000000000000005,
-      "importance_score": 8.5,
-      "total_score": 24.2,
-      "article_id": "91437d322934bd1cdcedd2a2f6ff92c3"
-    },
-    {
-      "title": "États-Unis ajoutent 25 pays africains à liste d'interdiction",
-      "english_title": "US adds 25 African countries to entry ban list",
-      "simplified_french_title": "États-Unis ajoutent 25 pays africains à liste d'interdiction",
-      "simplified_english_title": "US adds 25 African countries to entry ban list",
-      "summary": "Les États-Unis vont ajouter 25 pays africains à la liste des interdictions de voyages. Ils doivent remplir des conditions de sécurité dans 60 jours.",
-      "english_summary": "The US will add 25 African countries to its travel ban list. They must meet security conditions within 60 days.",
-      "french_summary": "Les États-Unis vont ajouter 25 pays africains à la liste des interdictions de voyages. Ils doivent remplir des conditions de sécurité dans 60 jours.",
-      "original_article_title": "Les États-Unis envisagent d’ajouter 25 pays africains à la liste des pays interdits d’entrée sur le territoire",
-      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-les-%C3%A9tats-unis-envisagent-d-ajouter-25-pays-africains-%C3%A0-la-liste-des-pays-interdits-d-entr%C3%A9e-sur-le-territoire",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20250616-les-%C3%A9tats-unis-envisagent-d-ajouter-25-pays-africains-%C3%A0-la-liste-des-pays-interdits-d-entr%C3%A9e-sur-le-territoire",
-      "source_name": "RFI",
-      "published": "Mon, 16 Jun 2025 03:08:19 GMT",
-      "published_date": "Mon, 16 Jun 2025 03:08:19 GMT",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.2,
-        "relevance_score": 5.199999999999999,
-        "importance_score": 8.5,
-        "total_score": 21.9
-      },
-      "curation_metadata": {
-        "curation_id": "2846d57b-0254-40b0-9777-c4948a06e0ba",
-        "curated_at": "2025-06-16T06:23:03.905316+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365184+00:00",
-      "quality_score": 8.2,
-      "relevance_score": 5.199999999999999,
-      "importance_score": 8.5,
-      "total_score": 21.9,
-      "article_id": "15f27353e6a355d2d7fcb177fed702e9"
-    },
-    {
-      "title": "Macron au Groenland avant le G7",
-      "english_title": "Macron in Greenland before G7",
-      "simplified_french_title": "Macron au Groenland avant le G7",
-      "simplified_english_title": "Macron in Greenland before G7",
-      "summary": "Le président assure que la situation au Groenland, convoité par Trump, est un signal d'alerte pour les Européens.",
-      "english_summary": "The President says the situation in Greenland, coveted by Trump, is a warning signal for Europeans.",
-      "french_summary": "Le président assure que la situation au Groenland, convoité par Trump, est un signal d'alerte pour les Européens.",
-      "original_article_title": "Avant le G7 de Kananaskis, l’échauffement géopolitique d’Emmanuel Macron au Groenland",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/16/avant-le-g7-de-kananaskis-l-echauffement-geopolitique-d-emmanuel-macron-au-groenland_6613478_3210.html",
-      "link": "https://www.lemonde.fr/international/article/2025/06/16/avant-le-g7-de-kananaskis-l-echauffement-geopolitique-d-emmanuel-macron-au-groenland_6613478_3210.html",
-      "source_name": "Le Monde",
-      "published": "Mon, 16 Jun 2025 05:00:01 +0200",
-      "published_date": "Mon, 16 Jun 2025 05:00:01 +0200",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 4.8999999999999995,
-        "importance_score": 9.0,
-        "total_score": 20.8
-      },
-      "curation_metadata": {
-        "curation_id": "d394e105-0e79-4683-8a2f-8632e432dac2",
-        "curated_at": "2025-06-16T06:23:03.903199+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365243+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 4.8999999999999995,
-      "importance_score": 9.0,
-      "total_score": 20.8,
-      "article_id": "020c4801d978936bfc77d704c1a4dc6b"
-    },
-    {
-      "title": "Députés macronistes votent contre loi de simplification",
-      "english_title": "Macronist MPs Vote Against Simplification Law",
-      "simplified_french_title": "Députés macronistes votent contre loi de simplification",
-      "simplified_english_title": "Macronist MPs Vote Against Simplification Law",
-      "summary": "Les députés Renaissance s'opposent au projet de loi de simplification de la vie économique, jugeant le texte dénaturé.",
-      "english_summary": "Renaissance MPs oppose the economic simplification law, deeming the text disfigured.",
-      "french_summary": "Les députés Renaissance s'opposent au projet de loi de simplification de la vie économique, jugeant le texte dénaturé.",
-      "original_article_title": "Les députés macronistes vont voter contre la loi de « simplification » portée par le gouvernement",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/16/les-deputes-macronistes-vont-voter-contre-la-loi-de-simplification-portee-par-le-gouvernement_6613476_823448.html",
-      "link": "https://www.lemonde.fr/politique/article/2025/06/16/les-deputes-macronistes-vont-voter-contre-la-loi-de-simplification-portee-par-le-gouvernement_6613476_823448.html",
-      "source_name": "Le Monde",
-      "published": "Mon, 16 Jun 2025 04:45:12 +0200",
-      "published_date": "Mon, 16 Jun 2025 04:45:12 +0200",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 7.3,
-        "importance_score": 7.0,
-        "total_score": 21.2
-      },
-      "curation_metadata": {
-        "curation_id": "b8b6ae28-29bf-4620-8ffa-1ac94ddd336b",
-        "curated_at": "2025-06-16T06:23:03.903888+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365236+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 7.3,
-      "importance_score": 7.0,
-      "total_score": 21.2,
-      "article_id": "4d3ed3452c5ea9d01d95760f05ab381b"
-    },
-    {
-      "title": "Trump ordonne opérations anti-immigration à 3 villes",
-      "english_title": "Trump orders anti-immigration operations in 3 cities",
-      "simplified_french_title": "Trump ordonne opérations anti-immigration à 3 villes",
-      "simplified_english_title": "Trump orders anti-immigration operations in 3 cities",
-      "summary": "Le président Trump a annoncé de nouvelles opérations d'expulsion d'immigrés à Los Angeles, Chicago et New York. Il critique les maires démocrates de ces villes.",
-      "english_summary": "President Trump announced new immigrant expulsion operations in Los Angeles, Chicago, and New York. He criticizes the Democratic mayors of these cities.",
-      "french_summary": "Le président Trump a annoncé de nouvelles opérations d'expulsion d'immigrés à Los Angeles, Chicago et New York. Il critique les maires démocrates de ces villes.",
-      "original_article_title": "Donald Trump ordonne de nouvelles opérations anti-immigration à Los Angeles, Chicago et New York",
-      "original_article_link": "https://www.france24.com/fr/am%C3%A9riques/20250616-donald-trump-ordonne-nouvelles-op%C3%A9rations-anti-immigration-los-angeles-chicago-new-york-immigration-ice-etats-unis-expulsion-clandestine",
-      "link": "https://www.france24.com/fr/am%C3%A9riques/20250616-donald-trump-ordonne-nouvelles-op%C3%A9rations-anti-immigration-los-angeles-chicago-new-york-immigration-ice-etats-unis-expulsion-clandestine",
-      "source_name": "France 24",
-      "published": "Mon, 16 Jun 2025 02:26:54 GMT",
-      "published_date": "Mon, 16 Jun 2025 02:26:54 GMT",
-      "contextual_title_explanations": {
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** 45th President of the United States.",
-          "explanation": "American politician and businessman.",
-          "cultural_note": "His presidency was marked by significant changes to US immigration policy."
-        },
-        "ordonne": {
-          "display_format": "**Orders:** Gives instructions or commands.",
-          "explanation": "Verb indicating an authoritative direction.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of / From:** (preposition)",
-          "explanation": "Indicates possession, origin, or relationship.",
-          "cultural_note": ""
-        },
-        "nouvelles": {
-          "display_format": "**New:** Recently created or introduced.",
-          "explanation": "Adjective indicating something has been recently introduced or created.",
-          "cultural_note": ""
-        },
-        "opérations": {
-          "display_format": "**Operations:** Planned activities or actions.",
-          "explanation": "Noun referring to coordinated efforts or activities.",
-          "cultural_note": ""
-        },
-        "anti-immigration": {
-          "display_format": "**Anti-Immigration:** Opposed to immigration.",
-          "explanation": "Adjective describing policies or attitudes against immigration.",
-          "cultural_note": "A highly debated topic in many countries, including the US."
-        },
-        "à": {
-          "display_format": "**In / At:** (preposition)",
-          "explanation": "Indicates location or direction.",
-          "cultural_note": ""
-        },
-        "Los Angeles": {
-          "display_format": "**Los Angeles:** City in California, USA.",
-          "explanation": "Major city in the United States.",
-          "cultural_note": "Known for its cultural and economic significance."
-        },
-        "Chicago": {
-          "display_format": "**Chicago:** City in Illinois, USA.",
-          "explanation": "Major city in the United States.",
-          "cultural_note": "Known for its cultural and economic significance."
-        },
-        "et": {
-          "display_format": "**And:** Conjunction connecting words or phrases.",
-          "explanation": "Used to link words, phrases, or clauses.",
-          "cultural_note": ""
-        },
-        "New York": {
-          "display_format": "**New York:** City in New York State, USA.",
-          "explanation": "Major city in the United States.",
-          "cultural_note": "Known for its cultural and economic significance."
-        }
-      },
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.700000000000001,
-        "relevance_score": 4.6,
-        "importance_score": 7.0,
-        "total_score": 20.3
-      },
-      "curation_metadata": {
-        "curation_id": "c472aced-dbfa-49c3-8312-89e78814ca3e",
-        "curated_at": "2025-06-16T06:23:03.904242+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-16T06:37:52.365259+00:00",
-      "quality_score": 8.700000000000001,
-      "relevance_score": 4.6,
-      "importance_score": 7.0,
-      "total_score": 20.3,
-      "article_id": "b2f24af809b6b67746c83f58233c8a94"
-    },
-    {
-      "title": "Tchad: procureur interdit enquête sur violences à Mandakao",
-      "english_title": "Chad: Prosecutor Bans Investigation into Mandakao Violence",
-      "simplified_french_title": "Tchad: procureur interdit enquête sur violences à Mandakao",
-      "simplified_english_title": "Chad: Prosecutor Bans Investigation into Mandakao Violence",
-      "summary": "Au Tchad, le procureur interdit aux journalistes et à la société civile d'enquêter sur les violences à Mandakao, où 40 personnes sont mortes début mai. Il menace de poursuites judiciaires.",
-      "english_summary": "In Chad, the prosecutor bans journalists and civil society from investigating the Mandakao violence, where 40 people died in early May, threatening legal action.",
-      "french_summary": "Au Tchad, le procureur interdit aux journalistes et à la société civile d'enquêter sur les violences à Mandakao, où 40 personnes sont mortes début mai. Il menace de poursuites judiciaires.",
-      "original_article_title": "Tchad: le procureur interdit la presse et la société civile d'enquêter sur les violences de Mandakao",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250615-tchad-le-procureur-interdit-la-presse-et-la-soci%C3%A9t%C3%A9-civile-d-enqu%C3%AAter-sur-les-violences-de-mandakao",
-      "link": "https://www.rfi.fr/fr/afrique/20250615-tchad-le-procureur-interdit-la-presse-et-la-soci%C3%A9t%C3%A9-civile-d-enqu%C3%AAter-sur-les-violences-de-mandakao",
-      "source_name": "RFI",
-      "published": "Sun, 15 Jun 2025 20:14:04 GMT",
-      "published_date": "Sun, 15 Jun 2025 20:14:04 GMT",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 8.9,
-        "relevance_score": 3.6,
-        "importance_score": 7.5,
-        "total_score": 20.0
-      },
-      "curation_metadata": {
-        "curation_id": "a1896acb-baaf-4d7c-8896-f207fea98c2c",
-        "curated_at": "2025-06-15T20:15:23.644366+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-15T20:19:23.905578+00:00",
-      "quality_score": 8.9,
-      "relevance_score": 3.6,
-      "importance_score": 7.5,
-      "total_score": 20.0,
-      "article_id": "3c4f0f4fe9b4444424f9f9f825557612"
-    },
-    {
-      "title": "Luca de Meo quitte Renault",
-      "english_title": "Luca de Meo leaves Renault",
-      "simplified_french_title": "Luca de Meo quitte Renault",
-      "simplified_english_title": "Luca de Meo leaves Renault",
-      "summary": "Luca de Meo, directeur général de Renault, va quitter l'entreprise. Il a pris la direction en 2020.",
-      "english_summary": "Luca de Meo, Renault's CEO, is leaving the company. He took the helm in 2020.",
-      "french_summary": "Luca de Meo, directeur général de Renault, va quitter l'entreprise. Il a pris la direction en 2020.",
-      "original_article_title": "Renault : le directeur général Luca de Meo va quitter l'entreprise",
-      "original_article_link": "https://www.lexpress.fr/economie/renault-le-directeur-general-luca-de-meo-va-quitter-lentreprise-P4CETW5Z2FFOHPO52GXG2UBWWQ/",
-      "link": "https://www.lexpress.fr/economie/renault-le-directeur-general-luca-de-meo-va-quitter-lentreprise-P4CETW5Z2FFOHPO52GXG2UBWWQ/",
-      "source_name": "L'Express",
-      "published": "Sun, 15 Jun 2025 19:54:27 +0000",
-      "published_date": "Sun, 15 Jun 2025 19:54:27 +0000",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 7.1,
-        "relevance_score": 7.6,
-        "importance_score": 8.5,
-        "total_score": 23.2
-      },
-      "curation_metadata": {
-        "curation_id": "f2afc66c-bd4b-4daf-865f-ba8073d936bc",
-        "curated_at": "2025-06-15T20:15:23.653222+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-15T20:19:23.905537+00:00",
-      "quality_score": 7.1,
-      "relevance_score": 7.6,
-      "importance_score": 8.5,
-      "total_score": 23.2,
-      "article_id": "5c08316120939107c1d83c6ec882221d"
-    },
-    {
-      "title": "Députés macronistes votent contre suppression ZFE",
-      "english_title": "Macronist MPs vote against ZFE abolition",
-      "simplified_french_title": "Députés macronistes votent contre suppression ZFE",
-      "simplified_english_title": "Macronist MPs vote against ZFE abolition",
-      "summary": "Samedi, LR et RN ont adopté la suppression des ZFE, avec des voix du bloc central et de La France insoumise, opposées à son application territoriale.",
-      "english_summary": "On Saturday, LR and RN adopted the abolition of ZFE, with central bloc and La France insoumise votes, opposing its territorial application.",
-      "french_summary": "Samedi, LR et RN ont adopté la suppression des ZFE, avec des voix du bloc central et de La France insoumise, opposées à son application territoriale.",
-      "original_article_title": "Les députés macronistes voteront contre le projet de loi qui supprime les ZFE",
-      "original_article_link": "https://www.lefigaro.fr/politique/les-macronistes-voteront-contre-le-projet-de-loi-qui-supprime-les-zfe-20250615",
-      "link": "https://www.lefigaro.fr/politique/les-macronistes-voteront-contre-le-projet-de-loi-qui-supprime-les-zfe-20250615",
-      "source_name": "Le Figaro",
-      "published": "Sun, 15 Jun 2025 21:43:58 +0200",
-      "published_date": "Sun, 15 Jun 2025 21:43:58 +0200",
-      "contextual_title_explanations": {},
-      "key_vocabulary": [],
-      "cultural_context": {},
-      "quality_scores": {
-        "quality_score": 6.9,
-        "relevance_score": 6.199999999999999,
-        "importance_score": 7.0,
-        "total_score": 20.1
-      },
-      "curation_metadata": {
-        "curation_id": "21efc857-3142-4fc8-9711-d4e0a7a555a9",
-        "curated_at": "2025-06-15T20:15:23.645144+00:00",
-        "fast_tracked": false
-      },
-      "ai_enhanced": true,
-      "added_at": "2025-06-15T20:19:23.905566+00:00",
-      "quality_score": 6.9,
-      "relevance_score": 6.199999999999999,
-      "importance_score": 7.0,
-      "total_score": 20.1,
-      "article_id": "7463cdc0061d86b561ac70bbf893866f"
     }
   ]
 }
