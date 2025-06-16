@@ -1,12 +1,13 @@
 """High-level orchestrator for AI-Engine v2."""
 from __future__ import annotations
 
-import logging, hashlib, json
+import logging, hashlib, json, re
 from typing import List
 
 from .models import Article
 from .client import LLMClient
 from .storage import Storage
+from .prompt_loader import render
 
 logger = logging.getLogger(__name__)
 
@@ -17,10 +18,20 @@ class ProcessorV2:
 
     # ---------------- Prompt helpers (placeholder) ----------------
     def _render_title_prompt(self, article: Article) -> str:
-        return f"Simplify and translate title: {article.original_article_title}"
+        return render("titles_summaries.jinja", title=article.original_article_title)
 
     def _render_explain_prompt(self, article: Article) -> str:
-        return f"Provide contextual explanations for: {article.original_article_title}"
+        return render("explanations.jinja", title=article.original_article_title)
+
+    def _safe_json(self, text: str):
+        """Extract first JSON object/array from text."""
+        match = re.search(r"({[\s\S]+}|\[[\s\S]+])", text)
+        if not match:
+            return None
+        try:
+            return json.loads(match.group(0))
+        except json.JSONDecodeError:
+            return None
 
     # ---------------- Core processing ----------------
     def process_article(self, article: Article) -> Article:
@@ -31,16 +42,18 @@ class ProcessorV2:
         ]
         resp1 = self.llm.chat(messages)
         if resp1:
-            # Placeholder parse logic
-            article.simplified_french_title = article.original_article_title  # TODO parse
-            article.simplified_english_title = article.original_article_title
-            article.french_summary = "..."  # TODO
-            article.english_summary = "..."
+            data = self._safe_json(resp1)
+            if isinstance(data, dict):
+                article.simplified_french_title = data.get("simplified_french_title")
+                article.simplified_english_title = data.get("simplified_english_title")
+                article.french_summary = data.get("french_summary")
+                article.english_summary = data.get("english_summary")
         # Step 2 explanations
         messages[1]["content"] = self._render_explain_prompt(article)
         resp2 = self.llm.chat(messages)
         if resp2:
-            article.contextual_title_explanations = []  # TODO parse
+            data2 = self._safe_json(resp2)
+            article.contextual_title_explanations = data2 if isinstance(data2, list) else None
         article.ai_enhanced = True
         return article
 
