@@ -299,6 +299,11 @@ SCRAPING_CONFIG = {
     'retry_delay_minutes': 30,                 # Wait time before retry
 }
 
+AI_ENGINE_CONFIG = {
+    # Switch to the new modular AI-Engine v2 when true
+    'use_ai_engine_v2': False,
+}
+
 def get_config_summary():
     """Get a summary of current automation configuration"""
     return {
@@ -348,5 +353,6 @@ AUTOMATION_CONFIG = {
     'features': FEATURE_FLAGS,
     'security': SECURITY_CONFIG,
     'scraping': SCRAPING_CONFIG,
+    'ai_engine': AI_ENGINE_CONFIG,
     'meta': get_config_summary()
 } 

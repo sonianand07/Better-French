@@ -91,19 +91,21 @@ class MasterScheduler:
             # Initialize AI processor if enabled
             if self.config['cost']['enable_realtime_ai_processing']:
                 try:
-                    import importlib.util
-                    spec = importlib.util.spec_from_file_location("AI_Engine", os.path.join(os.path.dirname(__file__), "AI-Engine.py"))
-                    AI_Engine = importlib.util.module_from_spec(spec)
-                    spec.loader.exec_module(AI_Engine)
-                    CostOptimizedAIProcessor = AI_Engine.CostOptimizedAIProcessor
-                    self.ai_processor = CostOptimizedAIProcessor()
-                    logger.info("✅ AI processor enabled for automation")
+                    if AUTOMATION_CONFIG['ai_engine'].get('use_ai_engine_v2'):
+                        from ai_engine_v2.processor import ProcessorV2
+                        self.ai_processor = ProcessorV2()
+                        logger.info("✅ AI-Engine v2 enabled for automation")
+                    else:
+                        import importlib.util, os
+                        spec = importlib.util.spec_from_file_location("AI_Engine", os.path.join(os.path.dirname(__file__), "AI-Engine.py"))
+                        AI_Engine = importlib.util.module_from_spec(spec)
+                        spec.loader.exec_module(AI_Engine)
+                        CostOptimizedAIProcessor = AI_Engine.CostOptimizedAIProcessor
+                        self.ai_processor = CostOptimizedAIProcessor()
+                        logger.info("✅ Legacy AI processor enabled for automation")
                 except ImportError as e:
                     logger.warning(f"⚠️ Could not load AI processor: {e}")
                     self.ai_processor = None
-            else:
-                logger.info("📊 AI processing disabled in configuration")
-                self.ai_processor = None
             
             try:
                 from website_updater import LiveWebsiteUpdater
