@@ -148,6 +148,9 @@ def main(limit: int | None = None):
             continue
         new_items, extra_cost = resp
         total_cost += extra_cost
+        # Accept both dict-wrapped and plain list results from AI-Engine
+        if isinstance(new_items, dict) and 'contextual_title_explanations' in new_items:
+            new_items = new_items['contextual_title_explanations']
 
         if not isinstance(new_items, list):
             logger.warning('⚠️  Unexpected AI response shape (not a list) – skipping merge for this article')
