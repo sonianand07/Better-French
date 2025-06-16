@@ -745,6 +745,23 @@ def main():
             scheduler.run_breaking_news_check()
             scheduler.run_regular_update()
             scheduler.update_website_if_needed()
+
+            # ---------------- Local parity with CI ----------------
+            try:
+                from quality_repair import main as quality_repair_main
+                logger.info("🔧 Running quality repair for contextual explanations (local one-shot)")
+                quality_repair_main(limit=0)
+            except Exception as e:
+                logger.error(f"⚠️ Quality repair step failed: {e}")
+
+            try:
+                from rolling_articles_manager import RollingArticlesManager
+                logger.info("📚 Rebuilding rolling articles collection (local one-shot)")
+                mgr = RollingArticlesManager()
+                mgr.create_rolling_collection()
+            except Exception as e:
+                logger.error(f"⚠️ Rolling articles manager step failed: {e}")
+
             scheduler.generate_daily_report()
             logger.info("✅ One-shot pipeline complete. Exiting.")
         else:
