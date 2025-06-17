@@ -40,6 +40,8 @@ jobs:
           python -m spacy download en_core_web_sm
 
       - name: Run unit tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest -q tests/ai_engine_v2
 
       - name: Smoke-run pipeline (limit 2) — verifies end-to-end

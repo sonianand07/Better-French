@@ -1,8 +1,10 @@
 name: Auto Update French News
 
 on:
-  schedule:
-    - cron: '0 6,8,10,12,14,16,18,20 * * *'   # DAYTIME ONLY: 8AM-10PM Paris time, NO NIGHT PROCESSING
+  # Legacy workflow disabled – keeping file for reference.
+  # Commented-out schedule so it no longer runs automatically.
+  # schedule:
+  #   - cron: '0 6,8,10,12,14,16,18,20 * * *'   # DAYTIME ONLY: 8AM-10PM Paris time, NO NIGHT PROCESSING
   workflow_dispatch:         # Allow manual trigger
 
 permissions:

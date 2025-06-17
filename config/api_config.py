@@ -14,10 +14,10 @@ import sys
 
 # 🔑 OPENROUTER API CONFIGURATION
 # Load API key from environment variable if available, otherwise use the hardcoded key for demo purposes
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")  # Must be provided via environment or GitHub secret
 
-if OPENROUTER_API_KEY == "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":
-    print("⚠️ WARNING: Using hardcoded demo API key. For production, please set the OPENROUTER_API_KEY environment variable.")
+if not OPENROUTER_API_KEY:
+    raise RuntimeError("OPENROUTER_API_KEY environment variable is required but not set.")
 
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 
