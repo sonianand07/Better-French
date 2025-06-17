@@ -48,7 +48,7 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          python -m ai_engine_v2.pipeline.runner --limit 2
+          python -m ai_engine_v2.pipeline.runner --limit 5 --backfill-limit 10
           ls -R ai_engine_v2/website | head
 
       - name: Upload rolling feed artifact
