@@ -8,4 +8,5 @@ __all__ = [
     "client",
     "storage",
     "processor",
+    "validator",
 ] 
