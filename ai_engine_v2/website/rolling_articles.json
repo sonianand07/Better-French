@@ -1,3 +1,1738 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran-Israël: \"Je ne vois pas aujourd’hui les États-Unis s’engager dans une escalade\", affirme Jean-Pierre Raffarin, ancien Premier ministre et ex-président de la commission des Affaires étrangères du Sénat",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-iran-israel-je-ne-vois-pas-aujourd-hui-les-etats-unis-s-engager-dans-une-escalade-affirme-jean-pierre-raffarin-ancien-premier-ministre-et-ex-president-de-la-commission-des-affaires-etrangeres-du-senat_VN-202506170715.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 17:43:33 GMT",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 3.659,
+        "relevance_score": 4.0,
+        "importance_score": 6.47,
+        "total_score": 10.975999999999999
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Iran-Israël: Les États-Unis n'escaladeront pas, dit Raffarin",
+      "simplified_english_title": "Iran-Israel: US won't escalate, says Raffarin",
+      "french_summary": "Jean-Pierre Raffarin, ancien Premier ministre, pense que les États-Unis ne vont pas participer à une escalade du conflit entre l'Iran et Israël. Il ne voit pas d'engagement américain.",
+      "english_summary": "Jean-Pierre Raffarin, former Prime Minister, believes the United States will not participate in an escalation of the conflict between Iran and Israel. He does not foresee American involvement.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T18:40:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "[BONUS] - Rodney Alcala, le tueur de « Tournez Manège»",
+      "original_article_link": "https://www.europe1.fr/emissions/hondelatte-raconte/bonus-rodney-alcala-le-tueur-de-tournez-manege-756774",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:45:03 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.384,
+        "relevance_score": 4.0,
+        "importance_score": 6.6899999999999995,
+        "total_score": 10.152000000000001
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rodney Alcala, le tueur de l'émission de télévision",
+      "simplified_english_title": "Rodney Alcala, the Killer from the TV Show",
+      "french_summary": "Rodney Alcala, un tueur en série célèbre, a participé à un jeu télévisé américain appelé \"The Dating Game\" en 1978. Il a été condamné pour plusieurs meurtres.",
+      "english_summary": "Rodney Alcala, a famous serial killer, appeared on an American TV show called \"The Dating Game\" in 1978. He was convicted of multiple murders.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 2
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"La solution, c’est le travail\" : les propositions chocs de deux experts",
+      "original_article_link": "https://www.lexpress.fr/economie/politique-economique/la-solution-cest-le-travail-les-propositions-chocs-de-deux-experts-6JV4KLX5S5BS7JOEEAHY4HCIJ4/",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:45:00 +0000",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.2,
+        "relevance_score": 9.0,
+        "importance_score": 6.0,
+        "total_score": 15.6
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le travail est la solution : idées fortes de deux experts",
+      "simplified_english_title": "Work is the solution: strong proposals from two experts",
+      "french_summary": "Deux experts présentent des idées importantes, parfois surprenantes, sur l'importance du travail pour résoudre certains problèmes. Leurs propositions sont discutées.",
+      "english_summary": "Two experts present important, sometimes surprising, ideas about the importance of work to solve certain problems. Their proposals are being discussed.",
+      "contextual_title_explanations": {
+        "\"": {
+          "display_format": "**\"** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "solution": {
+          "display_format": "**solution:** Réponse à problème",
+          "explanation": "Answer or resolution to a problem",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "c’est": {
+          "display_format": "**c’est:** Cela est",
+          "explanation": "It is; this is",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "travail": {
+          "display_format": "**travail:** Activité professionnelle",
+          "explanation": "Work, labor, employment",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introducing explanation or list",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "propositions": {
+          "display_format": "**propositions:** Idées, suggestions",
+          "explanation": "Proposals, suggestions, offers",
+          "cultural_note": ""
+        },
+        "chocs": {
+          "display_format": "**chocs:** Qui frappent l'esprit",
+          "explanation": "Striking, shocking, impactful (plural)",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, appartenance",
+          "explanation": "Of, from, belonging to",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**deux:** Chiffre 2",
+          "explanation": "Two (number)",
+          "cultural_note": ""
+        },
+        "experts": {
+          "display_format": "**experts:** Spécialistes reconnus",
+          "explanation": "Experts, specialists (plural)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "JJG, Annie Cordy, The Verve : les succès du TOP 50",
+      "original_article_link": "https://www.europe1.fr/emissions/les-annees-top-502/jjg-annie-cordy-the-verve-les-succes-du-top-50-759663",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:35:21 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.616,
+        "relevance_score": 4.0,
+        "importance_score": 6.31,
+        "total_score": 10.847999999999999
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les hits du Top 50 : JJG, Annie Cordy, The Verve",
+      "simplified_english_title": "Top 50 Hits: JJG, Annie Cordy, The Verve",
+      "french_summary": "Cet article explore les chansons populaires qui ont eu du succès dans le Top 50. Il mentionne des artistes comme Jean-Jacques Goldman, Annie Cordy et le groupe The Verve.",
+      "english_summary": "This article explores popular songs that were successful in the Top 50. It mentions artists like Jean-Jacques Goldman, Annie Cordy, and the group The Verve.",
+      "contextual_title_explanations": {
+        "JJG": {
+          "display_format": "**JJG:** Jean-Jacques Goldman",
+          "explanation": "Initials of a very famous French singer-songwriter.",
+          "cultural_note": "Jean-Jacques Goldman is one of France's most popular and best-selling musical artists."
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating items in a list.",
+          "cultural_note": ""
+        },
+        "Annie Cordy": {
+          "display_format": "**Annie Cordy:** Chanteuse, actrice belge",
+          "explanation": "Belgian singer and actress, popular for her joyful songs.",
+          "cultural_note": "Known for her long career and energetic stage presence."
+        },
+        "The Verve": {
+          "display_format": "**The Verve:** Groupe rock anglais",
+          "explanation": "British rock band, famous for 'Bitter Sweet Symphony'.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introducing an explanation or list.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les (article défini)",
+          "explanation": "The (plural definite article).",
+          "cultural_note": ""
+        },
+        "succès": {
+          "display_format": "**succès:** Réussites, chansons populaires",
+          "explanation": "Successes, popular songs or hits.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le (préposition+article)",
+          "explanation": "Of the (masculine singular contraction of 'de' and 'le').",
+          "cultural_note": ""
+        },
+        "TOP 50": {
+          "display_format": "**TOP 50:** Classement musical français",
+          "explanation": "A famous French music chart show, popular in the 80s and 90s.",
+          "cultural_note": "Equivalent to Billboard Hot 100 or UK Top 40 for its era."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La libre antenne d'Olivier Delacroix - 16/06/2025",
+      "original_article_link": "https://www.europe1.fr/emissions/La-libre-antenne/la-libre-antenne-dolivier-delacroix-16-06-2025-759662",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:32:15 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.773,
+        "relevance_score": 4.0,
+        "importance_score": 6.9,
+        "total_score": 11.32
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'émission d'Olivier Delacroix : 16 juin 2025",
+      "simplified_english_title": "Olivier Delacroix's Show: June 16, 2025",
+      "french_summary": "Ceci est le titre d'une émission de radio ou de télévision. Elle est animée par Olivier Delacroix. La date de diffusion est le 16 juin 2025.",
+      "english_summary": "This is the title of a radio or TV show. It is hosted by Olivier Delacroix. The broadcast date is June 16, 2025.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "Feminine singular definite article 'the'",
+          "cultural_note": ""
+        },
+        "libre": {
+          "display_format": "**libre:** Non contrainte, autonome",
+          "explanation": "Free, unrestrained, not controlled by others",
+          "cultural_note": ""
+        },
+        "antenne": {
+          "display_format": "**antenne:** Émission radio interactive",
+          "explanation": "Radio show where listeners call in; literally 'antenna'",
+          "cultural_note": "Refers to a call-in or open-line radio program."
+        },
+        "d'": {
+          "display_format": "**d':** De (élision)",
+          "explanation": "Contraction of 'de' (of/from) before a vowel",
+          "cultural_note": ""
+        },
+        "Olivier Delacroix": {
+          "display_format": "**Olivier Delacroix:** Animateur, réalisateur français",
+          "explanation": "French host and documentary filmmaker, known for his talk shows.",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret, séparateur",
+          "explanation": "Hyphen or dash, used here as a separator",
+          "cultural_note": ""
+        },
+        "16/06/2025": {
+          "display_format": "**16/06/2025:** Date de l'émission",
+          "explanation": "The specific date: June 16, 2025",
+          "cultural_note": "French date format is Day/Month/Year."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Europe 1 nuit du 16/06/2025 avec Philippe Doucet",
+      "original_article_link": "https://www.europe1.fr/emissions/Europe-1-Nuit/philippe-doucet-759659",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:30:38 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.621,
+        "relevance_score": 4.0,
+        "importance_score": 6.33,
+        "total_score": 10.864
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Europe 1 : Émission de nuit du 16 juin 2025",
+      "simplified_english_title": "Europe 1: Night Broadcast of June 16, 2025",
+      "french_summary": "Ceci est une annonce pour l'émission de radio nocturne d'Europe 1. Elle aura lieu dans la nuit du 16 juin 2025 et sera animée par Philippe Doucet.",
+      "english_summary": "This is an announcement for Europe 1's nighttime radio show. It will take place on the night of June 16, 2025, and will be hosted by Philippe Doucet.",
+      "contextual_title_explanations": {
+        "Europe 1": {
+          "display_format": "**Europe 1:** Radio française nationale",
+          "explanation": "A major French national radio station.",
+          "cultural_note": ""
+        },
+        "nuit": {
+          "display_format": "**nuit:** Période nocturne",
+          "explanation": "Night; here likely refers to a night-time show or broadcast.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de' (of/from) and 'le' (the); indicates possession or origin.",
+          "cultural_note": ""
+        },
+        "16/06/2025": {
+          "display_format": "**16/06/2025:** Date spécifique",
+          "explanation": "Specific date: June 16, 2025.",
+          "cultural_note": "Dates are often written day/month/year in French."
+        },
+        "avec": {
+          "display_format": "**avec:** En compagnie de",
+          "explanation": "With; indicating accompaniment or involvement.",
+          "cultural_note": ""
+        },
+        "Philippe Doucet": {
+          "display_format": "**Philippe Doucet:** Nom propre",
+          "explanation": "A person's name, likely a host or guest on the show.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La réduction du budget de la NASA menace d’annulation des dizaines de missions scientifiques",
+      "original_article_link": "https://www.lemonde.fr/sciences/article/2025/06/17/la-reduction-du-budget-de-la-nasa-menace-d-annulation-des-dizaines-de-missions-scientifiques_6613609_1650684.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:30:08 +0200",
+      "source_name": "Le Monde Sciences",
+      "quality_scores": {
+        "quality_score": 3.605,
+        "relevance_score": 4.0,
+        "importance_score": 6.27,
+        "total_score": 10.815999999999999
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Moins d'argent pour la NASA: des missions annulées?",
+      "simplified_english_title": "NASA budget cut: Will missions be canceled?",
+      "french_summary": "La NASA pourrait devoir annuler de nombreuses missions scientifiques importantes. C'est à cause d'une réduction de son budget.",
+      "english_summary": "NASA might have to cancel many important scientific missions. This is due to a reduction in its budget.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "réduction": {
+          "display_format": "**réduction:** Diminution, baisse",
+          "explanation": "Reduction, decrease",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "budget": {
+          "display_format": "**budget:** Ensemble des dépenses prévues",
+          "explanation": "Budget, allocated funds",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Indique la quantité",
+          "explanation": "Of, indicating quantity",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "NASA": {
+          "display_format": "**NASA:** Agence spatiale américaine",
+          "explanation": "U.S. space agency (National Aeronautics and Space Administration)",
+          "cultural_note": "Pronounced as 'nah-sah' in French, not 'nay-sah'."
+        },
+        "menace": {
+          "display_format": "**menace:** Risque, danger imminent",
+          "explanation": "Threatens, puts at risk",
+          "cultural_note": ""
+        },
+        "d’annulation": {
+          "display_format": "**d’annulation:** De l'annulation",
+          "explanation": "Of cancellation, of annulling",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** De les",
+          "explanation": "Of the (plural), or indefinite plural",
+          "cultural_note": ""
+        },
+        "dizaines": {
+          "display_format": "**dizaines:** Groupes de dix",
+          "explanation": "Dozens (tens of something)",
+          "cultural_note": ""
+        },
+        "missions": {
+          "display_format": "**missions:** Tâches, objectifs à remplir",
+          "explanation": "Missions, specific assignments",
+          "cultural_note": ""
+        },
+        "scientifiques": {
+          "display_format": "**scientifiques:** Liées à la science",
+          "explanation": "Scientific, related to science",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T10:20:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À Madagascar, la société civile dénonce l’opacité autour de l’adoption des lois",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250617-%C3%A0-madagascar-la-soci%C3%A9t%C3%A9-civile-d%C3%A9nonce-l-opacit%C3%A9-autour-de-l-adoption-des-lois",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:26:03 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 3.704,
+        "relevance_score": 4.0,
+        "importance_score": 6.64,
+        "total_score": 11.112
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Madagascar : la société civile critique les lois opaques",
+      "simplified_english_title": "Madagascar: Civil Society Criticizes Opaque Laws",
+      "french_summary": "À Madagascar, des groupes civiques expriment leur inquiétude. Ils dénoncent le manque de transparence dans l'adoption des nouvelles lois, demandant plus de clarté et de participation publique.",
+      "english_summary": "In Madagascar, civic groups are expressing concern. They criticize the lack of transparency in the adoption of new laws, requesting more clarity and public participation.",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**À:** Préposition de lieu",
+          "explanation": "To, at, in (a place)",
+          "cultural_note": ""
+        },
+        "Madagascar": {
+          "display_format": "**Madagascar:** Pays africain, île",
+          "explanation": "Madagascar, an island nation off the southeast coast of Africa",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "société": {
+          "display_format": "**société:** Groupe humain organisé",
+          "explanation": "Society, a community of people",
+          "cultural_note": ""
+        },
+        "civile": {
+          "display_format": "**civile:** Lié aux citoyens",
+          "explanation": "Civil, relating to citizens or ordinary people",
+          "cultural_note": ""
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** Accuser publiquement",
+          "explanation": "Denounces, publicly condemns or exposes",
+          "cultural_note": ""
+        },
+        "l’opacité": {
+          "display_format": "**l’opacité:** Manque de transparence",
+          "explanation": "Opacity, lack of transparency or clarity",
+          "cultural_note": ""
+        },
+        "autour": {
+          "display_format": "**autour:** Dans l'entourage de",
+          "explanation": "Around, concerning or in the vicinity of",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition de possession",
+          "explanation": "Of, from, concerning",
+          "cultural_note": ""
+        },
+        "l’adoption": {
+          "display_format": "**l’adoption:** Action d'adopter",
+          "explanation": "Adoption, the process of formally accepting something",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini contracté",
+          "explanation": "Of the (plural), 'de' + 'les'",
+          "cultural_note": ""
+        },
+        "lois": {
+          "display_format": "**lois:** Règles juridiques",
+          "explanation": "Laws, rules established by authority",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Mali: la mine d’or de Loulo-Gounkoto mise sous administration provisoire pour six mois",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250617-mali-la-mine-d-or-de-loulo-gounkoto-mise-sous-administration-provisoire-pour-six-mois",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:25:50 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 3.728,
+        "relevance_score": 4.0,
+        "importance_score": 6.73,
+        "total_score": 11.184000000000001
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La mine d'or du Mali sous administration temporaire",
+      "simplified_english_title": "Mali's Gold Mine Under Temporary Administration",
+      "french_summary": "La mine d'or de Loulo-Gounkoto au Mali est placée sous administration provisoire pour six mois. Cette décision vise à gérer la mine temporairement.",
+      "english_summary": "The Loulo-Gounkoto gold mine in Mali is placed under temporary administration for six months. This decision aims to manage the mine for a limited period.",
+      "contextual_title_explanations": {
+        "Mali": {
+          "display_format": "**Mali:** Pays africain",
+          "explanation": "An African country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin singulier",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "mine": {
+          "display_format": "**mine:** Lieu d'extraction",
+          "explanation": "A place where minerals are extracted from the earth",
+          "cultural_note": ""
+        },
+        "d’or": {
+          "display_format": "**d’or:** De métal précieux",
+          "explanation": "Made of gold; refers to a gold mine",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, appartenance",
+          "explanation": "Preposition indicating possession or origin; 'of'",
+          "cultural_note": ""
+        },
+        "Loulo-Gounkoto": {
+          "display_format": "**Loulo-Gounkoto:** Nom de mine",
+          "explanation": "Name of a specific gold mine in Mali",
+          "cultural_note": ""
+        },
+        "mise": {
+          "display_format": "**mise:** Action de placer",
+          "explanation": "Past participle of 'mettre', here meaning 'placed' or 'put'",
+          "cultural_note": ""
+        },
+        "sous": {
+          "display_format": "**sous:** Préposition, inférieur à",
+          "explanation": "Under, beneath; indicating subjection to something",
+          "cultural_note": ""
+        },
+        "administration": {
+          "display_format": "**administration:** Gestion, direction",
+          "explanation": "Management or governance of an organization",
+          "cultural_note": ""
+        },
+        "provisoire": {
+          "display_format": "**provisoire:** Temporaire, non définitive",
+          "explanation": "Temporary, not permanent",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition, durée, but",
+          "explanation": "For (indicating duration or purpose)",
+          "cultural_note": ""
+        },
+        "six": {
+          "display_format": "**six:** Nombre, 6",
+          "explanation": "The number six",
+          "cultural_note": ""
+        },
+        "mois": {
+          "display_format": "**mois:** Période de 30 jours",
+          "explanation": "A period of 30 or 31 days; a month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Présidentielle 2025 en Côte d’Ivoire: le député Antoine Tiémoko Assalé se lance en indépendant",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250617-pr%C3%A9sidentielle-2025-en-c%C3%B4te-d-ivoire-le-d%C3%A9put%C3%A9-antoine-ti%C3%A9moko-assal%C3%A9-se-lance-en-ind%C3%A9pendant",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:24:11 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 3.333,
+        "relevance_score": 4.0,
+        "importance_score": 6.5,
+        "total_score": 10.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Élection en Côte d'Ivoire: un député se présente",
+      "simplified_english_title": "Ivory Coast Election: A Deputy Runs",
+      "french_summary": "Antoine Tiémoko Assalé, qui est député, a annoncé sa candidature indépendante à l'élection présidentielle de 2025 en Côte d'Ivoire. Il ne fait pas partie d'un grand parti.",
+      "english_summary": "Antoine Tiémoko Assalé, a deputy, announced his independent candidacy for the 2025 presidential election in Ivory Coast. He is not part of a major party.",
+      "contextual_title_explanations": {
+        "Présidentielle": {
+          "display_format": "**Présidentielle:** Élection du président",
+          "explanation": "Presidential election, referring to the process",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "The specific year the event is planned for",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Comme, en tant que",
+          "explanation": "Preposition meaning 'as' or 'in the capacity of'",
+          "cultural_note": ""
+        },
+        "Côte d’Ivoire": {
+          "display_format": "**Côte d’Ivoire:** Pays d'Afrique de l'Ouest",
+          "explanation": "Country in West Africa, known as Ivory Coast in English",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introduces an explanation or elaboration",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The definite article 'the' (masculine singular)",
+          "cultural_note": ""
+        },
+        "député": {
+          "display_format": "**député:** Membre du parlement",
+          "explanation": "Elected member of a legislative assembly or parliament",
+          "cultural_note": ""
+        },
+        "Antoine Tiémoko Assalé": {
+          "display_format": "**Antoine Tiémoko Assalé:** Nom d'une personne",
+          "explanation": "The full name of the individual mentioned",
+          "cultural_note": ""
+        },
+        "se lance": {
+          "display_format": "**se lance:** Démarre sa candidature",
+          "explanation": "Lights off, starts, or launches himself (into a campaign)",
+          "cultural_note": ""
+        },
+        "indépendant": {
+          "display_format": "**indépendant:** Sans parti politique",
+          "explanation": "As an independent candidate, not affiliated with a political party",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Afrique du Sud: Pretoria décroche 2,6 milliards de dollars pour financer sa transition énergétique",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250617-afrique-du-sud-pretoria-d%C3%A9croche-2-6-milliards-de-dollars-pour-financer-sa-transition-%C3%A9nerg%C3%A9tique",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:23:51 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 3.683,
+        "relevance_score": 4.0,
+        "importance_score": 6.5600000000000005,
+        "total_score": 11.048000000000002
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Afrique du Sud obtient de l'argent pour l'énergie verte",
+      "simplified_english_title": "South Africa Gets Money for Green Energy",
+      "french_summary": "L'Afrique du Sud reçoit 2,6 milliards de dollars. Cet argent va aider le pays à changer son système énergétique. Il passera des énergies fossiles à des énergies plus propres.",
+      "english_summary": "South Africa receives 2.6 billion dollars. This money will help the country change its energy system. It will switch from fossil fuels to cleaner energy sources.",
+      "contextual_title_explanations": {
+        "Afrique du Sud": {
+          "display_format": "**Afrique du Sud:** Pays africain, république",
+          "explanation": "Country in Southern Africa",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introduces an explanation or elaboration",
+          "cultural_note": ""
+        },
+        "Pretoria": {
+          "display_format": "**Pretoria:** Capitale administrative d'Afrique du Sud",
+          "explanation": "Administrative capital of South Africa, often used to refer to the South African government",
+          "cultural_note": "One of South Africa's three capital cities"
+        },
+        "décroche": {
+          "display_format": "**décroche:** Obtient, gagne",
+          "explanation": "Obtains, secures (often after effort)",
+          "cultural_note": ""
+        },
+        "2,6": {
+          "display_format": "**2,6:** Deux virgule six",
+          "explanation": "Two point six (decimal separator is comma in French)",
+          "cultural_note": ""
+        },
+        "milliards": {
+          "display_format": "**milliards:** Mille millions",
+          "explanation": "Billions (10^9)",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, indique possession",
+          "explanation": "Preposition, indicates belonging or origin",
+          "cultural_note": ""
+        },
+        "dollars": {
+          "display_format": "**dollars:** Unité monétaire",
+          "explanation": "Currency unit",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En vue de",
+          "explanation": "For, in order to",
+          "cultural_note": ""
+        },
+        "financer": {
+          "display_format": "**financer:** Apporter des fonds",
+          "explanation": "To provide funds for, to pay for",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Déterminant possessif",
+          "explanation": "Its (feminine singular possessive adjective)",
+          "cultural_note": ""
+        },
+        "transition": {
+          "display_format": "**transition:** Passage d'un état à un autre",
+          "explanation": "Transition, shift from one state to another",
+          "cultural_note": ""
+        },
+        "énergétique": {
+          "display_format": "**énergétique:** Relatif à l'énergie",
+          "explanation": "Relating to energy, energy-related",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Visas américains: l’angoisse des Sénégalais monte face aux potentielles restrictions",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250617-visas-am%C3%A9ricains-l-angoisse-des-s%C3%A9n%C3%A9galais-monte-face-aux-potentielles-restrictions",
+      "original_article_published_date": "Tue, 17 Jun 2025 03:21:14 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.331,
+        "relevance_score": 9.0,
+        "importance_score": 6.49,
+        "total_score": 15.991999999999999
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Visas américains : Inquiétude au Sénégal",
+      "simplified_english_title": "US Visas: Senegal's Anxiety Grows",
+      "french_summary": "Les Sénégalais s'inquiètent de plus en plus des restrictions possibles sur les visas américains. Leur angoisse monte face à ces potentielles limitations de voyage.",
+      "english_summary": "Senegalese people are increasingly worried about potential restrictions on US visas. Their anxiety is growing regarding these possible travel limitations.",
+      "contextual_title_explanations": {
+        "Visas": {
+          "display_format": "**Visas:** Documents de voyage",
+          "explanation": "Official endorsements allowing entry to a country",
+          "cultural_note": ""
+        },
+        "américains": {
+          "display_format": "**américains:** Des États-Unis",
+          "explanation": "Pertaining to the United States",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing an explanation or elaboration",
+          "cultural_note": ""
+        },
+        "l’angoisse": {
+          "display_format": "**l’angoisse:** La grande peur",
+          "explanation": "Intense anxiety or dread",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini contracté",
+          "explanation": "Contraction of 'de les' (of the/from the)",
+          "cultural_note": ""
+        },
+        "Sénégalais": {
+          "display_format": "**Sénégalais:** Habitants du Sénégal",
+          "explanation": "People from Senegal, a country in West Africa",
+          "cultural_note": ""
+        },
+        "monte": {
+          "display_format": "**monte:** Augmente, s'élève",
+          "explanation": "Is increasing or rising",
+          "cultural_note": ""
+        },
+        "face": {
+          "display_format": "**face:** En présence de",
+          "explanation": "In the face of; confronted by",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** Article défini contracté",
+          "explanation": "Contraction of 'à les' (to the/at the)",
+          "cultural_note": ""
+        },
+        "potentielles": {
+          "display_format": "**potentielles:** Possibles, éventuelles",
+          "explanation": "Likely to happen or be developed",
+          "cultural_note": ""
+        },
+        "restrictions": {
+          "display_format": "**restrictions:** Limitations, contraintes",
+          "explanation": "Limitations or controls on something",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Corse, les plages noires de Nonza et d’Albo menacées par la fièvre du nickel",
+      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/17/en-corse-les-plages-noires-de-nonza-et-d-albo-menacees-par-la-fievre-du-nickel_6613606_3244.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:00:15 +0200",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 3.659,
+        "relevance_score": 4.0,
+        "importance_score": 6.47,
+        "total_score": 10.975999999999999
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Corse : Plages de Nonza et Albo menacées par le nickel",
+      "simplified_english_title": "Corsica: Nonza and Albo beaches threatened by nickel",
+      "french_summary": "En Corse, les plages noires de Nonza et Albo sont en danger. L'extraction du nickel dans la région pourrait les abîmer.",
+      "english_summary": "In Corsica, the black beaches of Nonza and Albo are in danger. Nickel mining in the area could damage them.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Préposition de lieu",
+          "explanation": "In/At (location)",
+          "cultural_note": ""
+        },
+        "Corse": {
+          "display_format": "**Corse:** Île française méditerranéenne",
+          "explanation": "Corsica, a large French island in the Mediterranean Sea",
+          "cultural_note": "Known for its distinctive culture and landscapes."
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses or items",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "plages": {
+          "display_format": "**plages:** Étendues de sable/galets",
+          "explanation": "Beaches, sandy or pebbly areas by the sea",
+          "cultural_note": ""
+        },
+        "noires": {
+          "display_format": "**noires:** De couleur très foncée",
+          "explanation": "Black (feminine plural), referring to their dark color",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition de possession",
+          "explanation": "Of/from (indicating origin or possession)",
+          "cultural_note": ""
+        },
+        "Nonza": {
+          "display_format": "**Nonza:** Commune corse",
+          "explanation": "Nonza, a commune (municipality) in Corsica",
+          "cultural_note": "A village in Cap Corse, known for its black pebble beach."
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And, connecting two elements",
+          "cultural_note": ""
+        },
+        "d’Albo": {
+          "display_format": "**d’Albo:** Hameau corse",
+          "explanation": "Albo, a hamlet (small village) in Corsica",
+          "cultural_note": "Another location in Cap Corse, also with a black beach."
+        },
+        "menacées": {
+          "display_format": "**menacées:** En danger, sous menace",
+          "explanation": "Threatened (feminine plural), put at risk",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Préposition d'agent",
+          "explanation": "By, indicating the agent of an action",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini singulier",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "fièvre": {
+          "display_format": "**fièvre:** Excitation intense, engouement",
+          "explanation": "Fever (figurative), intense excitement or craze",
+          "cultural_note": "Used metaphorically to describe strong, often uncontrolled, enthusiasm or activity."
+        },
+        "du": {
+          "display_format": "**du:** Contraction de 'de le'",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "nickel": {
+          "display_format": "**nickel:** Métal argenté, très résistant",
+          "explanation": "Nickel, a silvery-white metallic element",
+          "cultural_note": "Often mined for industrial uses, implying a potential for mining exploitation here."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : jusqu’où ira la guerre ?",
+      "original_article_link": "https://www.lemonde.fr/podcasts/article/2025/06/17/israel-iran-jusqu-ou-ira-la-guerre_6613605_5463015.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 05:00:13 +0200",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 3.675,
+        "relevance_score": 4.0,
+        "importance_score": 6.53,
+        "total_score": 11.024000000000001
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël-Iran : La guerre continuera-t-elle ?",
+      "simplified_english_title": "Israel-Iran: How far will the war go?",
+      "french_summary": "Cet article explore l'escalade des tensions entre Israël et l'Iran. Il se demande si le conflit va s'intensifier ou non dans la région.",
+      "english_summary": "This article explores the escalation of tensions between Israel and Iran. It questions whether the conflict will intensify or not in the region.",
+      "contextual_title_explanations": {
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Pays du Proche-Orient",
+          "explanation": "Two countries involved in current geopolitical tensions",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Punctuation introducing a question or explanation",
+          "cultural_note": ""
+        },
+        "jusqu’où": {
+          "display_format": "**jusqu’où:** À quel point",
+          "explanation": "Indicates the extent or limit of something",
+          "cultural_note": ""
+        },
+        "ira": {
+          "display_format": "**ira:** Aller (futur simple)",
+          "explanation": "Future tense of 'aller' (to go), implying progression",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Feminine singular definite article 'the'",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "Armed conflict between states or groups",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Punctuation marking a question",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Donald Trump quitte le sommet du G7, chamboulé par la crise au Moyen-Orient",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250617-fr-nw-grab-rihouay-from-3h-to-4h-hausfater-florine",
+      "original_article_published_date": "Tue, 17 Jun 2025 01:37:41 GMT",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 3.643,
+        "relevance_score": 4.0,
+        "importance_score": 6.41,
+        "total_score": 10.928
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump quitte le G7 à cause de la crise au Moyen-Orient",
+      "simplified_english_title": "Trump leaves G7 summit due to Middle East crisis",
+      "french_summary": "Donald Trump a quitté le sommet du G7 plus tôt que prévu. La situation au Moyen-Orient a rendu la réunion difficile pour les participants.",
+      "english_summary": "Donald Trump left the G7 summit earlier than planned. The Middle East situation made the meeting difficult for the participants.",
+      "contextual_title_explanations": {
+        "Donald Trump": {
+          "display_format": "**Donald Trump:** Ancien président américain",
+          "explanation": "45th President of the United States",
+          "cultural_note": ""
+        },
+        "quitte": {
+          "display_format": "**quitte:** Partir de, quitter",
+          "explanation": "Leaves, departs from",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "sommet": {
+          "display_format": "**sommet:** Réunion de dirigeants",
+          "explanation": "Summit, a high-level meeting",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le, appartenance",
+          "explanation": "Of the (contraction of 'de' and 'le')",
+          "cultural_note": ""
+        },
+        "G7": {
+          "display_format": "**G7:** Groupe des Sept",
+          "explanation": "Group of Seven, intergovernmental political forum",
+          "cultural_note": "Includes Canada, France, Germany, Italy, Japan, UK, US"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses or items",
+          "cultural_note": ""
+        },
+        "chamboulé": {
+          "display_format": "**chamboulé:** Bouleversé, perturbé fortement",
+          "explanation": "Thrown into disarray, disrupted, turned upside down",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Introduit l'agent",
+          "explanation": "By (preposition indicating agent or means)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "crise": {
+          "display_format": "**crise:** Période difficile, problème",
+          "explanation": "Crisis, a time of intense difficulty",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le, lieu, destination",
+          "explanation": "At the, to the (contraction of 'à' and 'le')",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Moyen-Orient:** Région géographique",
+          "explanation": "Middle East, a geopolitical region",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le sommet du G7 perturbé par le départ prématuré de Donald Trump",
+      "original_article_link": "https://www.france24.com/fr/am%C3%A9riques/20250617-sommet-g7-perturb%C3%A9-par-d%C3%A9part-pr%C3%A9matur%C3%A9-donald-trump-moyen-orient-iran-israel-canada-etats-unis",
+      "original_article_published_date": "Tue, 17 Jun 2025 01:32:42 GMT",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 3.667,
+        "relevance_score": 4.0,
+        "importance_score": 6.5,
+        "total_score": 11.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le G7 perturbé par le départ de Trump",
+      "simplified_english_title": "G7 disturbed by Trump's departure",
+      "french_summary": "Le sommet du G7 a été affecté par le départ anticipé de l'ancien président américain Donald Trump. Son absence a modifié le déroulement des discussions.",
+      "english_summary": "The G7 summit was affected by the early departure of former U.S. President Donald Trump. His absence changed the course of discussions.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "sommet": {
+          "display_format": "**sommet:** Réunion de dirigeants",
+          "explanation": "Summit, high-level meeting",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (contraction of 'de' and 'le')",
+          "cultural_note": ""
+        },
+        "G7": {
+          "display_format": "**G7:** Groupe des Sept",
+          "explanation": "Group of Seven, intergovernmental political forum",
+          "cultural_note": "Includes Canada, France, Germany, Italy, Japan, UK, US"
+        },
+        "perturbé": {
+          "display_format": "**perturbé:** Dérangé, troublé",
+          "explanation": "Disturbed, disrupted, troubled",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Préposition, moyen",
+          "explanation": "By, through (indicates agent or means)",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "départ": {
+          "display_format": "**départ:** Action de partir",
+          "explanation": "Departure, leaving",
+          "cultural_note": ""
+        },
+        "prématuré": {
+          "display_format": "**prématuré:** Trop tôt",
+          "explanation": "Premature, too early",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, possession",
+          "explanation": "Of, from (indicates origin or possession)",
+          "cultural_note": ""
+        },
+        "Donald Trump": {
+          "display_format": "**Donald Trump:** Ancien président américain",
+          "explanation": "Former President of the United States",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Trump quitte le sommet du G7 à cause du conflit Israël-Iran",
+      "original_article_link": "https://www.20min.ch/fr/story/diplomatie-trump-quitte-le-sommet-du-g7-a-cause-du-conflit-israel-iran-103365685",
+      "original_article_published_date": "Tue, 17 Jun 2025 00:53:51 GMT",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 3.605,
+        "relevance_score": 4.0,
+        "importance_score": 6.27,
+        "total_score": 10.815999999999999
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump quitte le G7 à cause du conflit Israël-Iran",
+      "simplified_english_title": "Trump leaves G7 because of Israel-Iran conflict",
+      "french_summary": "Le président Trump a quitté le sommet du G7 plus tôt que prévu. La raison est un désaccord sur la situation entre Israël et l'Iran.",
+      "english_summary": "President Trump left the G7 summit earlier than planned. The reason is a disagreement about the situation between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Refers to Donald Trump, former US President.",
+          "cultural_note": ""
+        },
+        "quitte": {
+          "display_format": "**quitte:** Partir de",
+          "explanation": "Leaves or departs from.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article).",
+          "cultural_note": ""
+        },
+        "sommet": {
+          "display_format": "**sommet:** Réunion importante",
+          "explanation": "A summit, a high-level meeting.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (contraction of 'de' and 'le').",
+          "cultural_note": ""
+        },
+        "G7": {
+          "display_format": "**G7:** Groupe des sept",
+          "explanation": "Group of Seven, an intergovernmental political forum.",
+          "cultural_note": "Includes Canada, France, Germany, Italy, Japan, UK, US."
+        },
+        "à": {
+          "display_format": "**à:** Préposition de lieu",
+          "explanation": "At, to, or for.",
+          "cultural_note": ""
+        },
+        "cause": {
+          "display_format": "**cause:** Raison, motif",
+          "explanation": "Reason or cause.",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**conflit:** Opposition armée",
+          "explanation": "A conflict or dispute.",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Nations du Moyen-Orient",
+          "explanation": "Refers to the two countries, Israel and Iran.",
+          "cultural_note": "Highlights the ongoing geopolitical tension between them."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les experts en vaccination congédiés par l’administration Trump « profondément préoccupés » par Robert Kennedy Jr",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/17/les-experts-en-vaccination-congedies-par-l-administration-trump-profondement-preoccupes-par-robert-kennedy-jr_6613601_3210.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 02:44:29 +0200",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.269,
+        "relevance_score": 9.0,
+        "importance_score": 6.26,
+        "total_score": 15.808
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Experts vaccination et Robert Kennedy Jr : inquiétude",
+      "simplified_english_title": "Vaccine experts and Robert Kennedy Jr: concern",
+      "french_summary": "Des experts en vaccination, renvoyés par l'administration Trump, expriment une forte inquiétude concernant les déclarations de Robert Kennedy Jr. sur les vaccins.",
+      "english_summary": "Vaccination experts, dismissed by the Trump administration, express strong concern about Robert Kennedy Jr.'s statements on vaccines.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini pluriel",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "experts": {
+          "display_format": "**experts:** Spécialistes dans un domaine",
+          "explanation": "Experts, specialists",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition, indique le domaine",
+          "explanation": "In, concerning",
+          "cultural_note": ""
+        },
+        "vaccination": {
+          "display_format": "**vaccination:** Acte de vacciner",
+          "explanation": "Vaccination, the act of vaccinating",
+          "cultural_note": ""
+        },
+        "congédiés": {
+          "display_format": "**congédiés:** Renvois, mis à l'écart",
+          "explanation": "Dismissed, fired, let go",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Préposition, indique la cause",
+          "explanation": "By, because of (introduces the cause)",
+          "cultural_note": ""
+        },
+        "l’administration": {
+          "display_format": "**l’administration:** Gouvernement, pouvoir exécutif",
+          "explanation": "The administration, government",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Donald Trump, former U.S. president",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guimet ouvrant",
+          "explanation": "Opening quotation mark (French style)",
+          "cultural_note": "French uses guillemets (« ») for quotes."
+        },
+        "profondément": {
+          "display_format": "**profondément:** Très fort, intensément",
+          "explanation": "Deeply, profoundly, intensely",
+          "cultural_note": ""
+        },
+        "préoccupés": {
+          "display_format": "**préoccupés:** Inquiets, soucieux",
+          "explanation": "Concerned, worried, preoccupied",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guimet fermant",
+          "explanation": "Closing quotation mark (French style)",
+          "cultural_note": "French uses guillemets (« ») for quotes."
+        },
+        "Robert Kennedy Jr": {
+          "display_format": "**Robert Kennedy Jr:** Politicien américain",
+          "explanation": "Robert F. Kennedy Jr., American environmental lawyer and anti-vaccine activist",
+          "cultural_note": "Son of Robert F. Kennedy and nephew of John F. Kennedy."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Benjamin Netanyahu assure que son armée \"contrôle le ciel de Téhéran\"",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250617-netanyahu-assure-que-son-arm%C3%A9e-contr%C3%B4le-le-ciel-de-t%C3%A9h%C3%A9ran",
+      "original_article_published_date": "Tue, 17 Jun 2025 00:02:18 GMT",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 3.365,
+        "relevance_score": 4.0,
+        "importance_score": 6.62,
+        "total_score": 10.096
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Netanyahu: Israël contrôle le ciel de Téhéran",
+      "simplified_english_title": "Netanyahu: Israel controls Tehran's sky",
+      "french_summary": "Le Premier ministre israélien, Benjamin Netanyahu, a déclaré que l'armée israélienne avait la maîtrise de l'espace aérien de Téhéran, la capitale de l'Iran.",
+      "english_summary": "Israeli Prime Minister Benjamin Netanyahu stated that the Israeli army has control over the airspace of Tehran, the capital of Iran.",
+      "contextual_title_explanations": {
+        "Benjamin Netanyahu": {
+          "display_format": "**Benjamin Netanyahu:** Premier ministre israélien",
+          "explanation": "Current Prime Minister of Israel",
+          "cultural_note": ""
+        },
+        "assure": {
+          "display_format": "**assure:** Affirme, déclare avec certitude",
+          "explanation": "States or affirms with certainty",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Conjonction de subordination",
+          "explanation": "Conjunction meaning 'that'",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Déterminant possessif masculin",
+          "explanation": "Possessive determinant meaning 'his' or 'its'",
+          "cultural_note": ""
+        },
+        "armée": {
+          "display_format": "**armée:** Force militaire pays",
+          "explanation": "Military force of a country",
+          "cultural_note": ""
+        },
+        "\"": {
+          "display_format": "**\":** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "contrôle": {
+          "display_format": "**contrôle:** Maîtrise, a le pouvoir sur",
+          "explanation": "Has power or mastery over",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "ciel": {
+          "display_format": "**ciel:** Espace au-dessus terre",
+          "explanation": "The space above the earth; the sky",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition possession, origine",
+          "explanation": "Preposition indicating possession or origin; 'of'",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "The capital city of Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Polémique au salon du Bourget : des stands d'armement israéliens interdits",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250617-pol%C3%A9mique-au-salon-du-bourget-des-stands-d-armement-isra%C3%A9liens-interdits",
+      "original_article_published_date": "Tue, 17 Jun 2025 00:01:15 GMT",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 3.709,
+        "relevance_score": 4.0,
+        "importance_score": 6.66,
+        "total_score": 11.128
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Stands israéliens d'armement interdits au Bourget",
+      "simplified_english_title": "Israeli weapons stands banned at Le Bourget fair",
+      "french_summary": "Des stands d'entreprises d'armement israéliennes ont été interdits au salon aéronautique du Bourget, causant une controverse. La décision est liée à la situation actuelle.",
+      "english_summary": "Stands of Israeli defense companies were banned from the Le Bourget air show, causing controversy. The decision is linked to the current situation.",
+      "contextual_title_explanations": {
+        "Polémique": {
+          "display_format": "**Polémique:** Vif débat public",
+          "explanation": "Controversy, heated public debate",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Contraction of 'à' (at, to) and 'le' (the)",
+          "cultural_note": ""
+        },
+        "salon": {
+          "display_format": "**salon:** Exposition, foire",
+          "explanation": "Trade fair, exhibition",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de' (of, from) and 'le' (the)",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** Ville française",
+          "explanation": "A town near Paris, famous for its air show",
+          "cultural_note": "Le Bourget hosts a major international air show (Salon International de l'Aéronautique et de l'Espace)."
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introduces an explanation or list",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Indefinite article, 'some' or 'any' (plural)",
+          "cultural_note": ""
+        },
+        "stands": {
+          "display_format": "**stands:** Kiosques, emplacements",
+          "explanation": "Booths, exhibition stands",
+          "cultural_note": ""
+        },
+        "d'armement": {
+          "display_format": "**d'armement:** De fabrication d'armes",
+          "explanation": "Of weaponry, arms manufacturing",
+          "cultural_note": ""
+        },
+        "israéliens": {
+          "display_format": "**israéliens:** Qui viennent d'Israël",
+          "explanation": "Israeli, from Israel",
+          "cultural_note": ""
+        },
+        "interdits": {
+          "display_format": "**interdits:** Non autorisés",
+          "explanation": "Forbidden, prohibited",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’Etat français promet 500 millions d’euros pour soutenir la filière musicale d’ici à 2030",
+      "original_article_link": "https://www.lemonde.fr/culture/article/2025/06/17/l-etat-francais-promet-500-millions-d-euros-pour-soutenir-la-filiere-musicale-d-ici-2030_6613600_3246.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 01:54:08 +0200",
+      "source_name": "Le Monde Politique",
+      "quality_scores": {
+        "quality_score": 3.619,
+        "relevance_score": 4.0,
+        "importance_score": 6.32,
+        "total_score": 10.856000000000002
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France aide la musique avec 500 millions d'euros",
+      "simplified_english_title": "France aids music industry with 500 million euros",
+      "french_summary": "L'État français va investir 500 millions d'euros pour soutenir l'industrie musicale. Ce financement est prévu d'ici 2030 pour aider les artistes et entreprises du secteur.",
+      "english_summary": "The French government will invest 500 million euros to support the music industry. This funding is planned by 2030 to help artists and businesses in the sector.",
+      "contextual_title_explanations": {
+        "L'": {
+          "display_format": "**L':** Article défini élidé",
+          "explanation": "The definite article 'la' (the) contracted before a vowel.",
+          "cultural_note": ""
+        },
+        "Etat": {
+          "display_format": "**Etat:** Gouvernement, administration publique",
+          "explanation": "The State; refers to the French government and its administration.",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De la France",
+          "explanation": "French; indicates belonging to or originating from France.",
+          "cultural_note": ""
+        },
+        "promet": {
+          "display_format": "**promet:** S'engage à donner",
+          "explanation": "Promises; states a firm intention to give or do something.",
+          "cultural_note": ""
+        },
+        "500": {
+          "display_format": "**500:** Cinq cents",
+          "explanation": "Five hundred; a numerical value.",
+          "cultural_note": ""
+        },
+        "millions": {
+          "display_format": "**millions:** Unité de nombre",
+          "explanation": "Millions; a large numerical unit.",
+          "cultural_note": ""
+        },
+        "d'euros": {
+          "display_format": "**d'euros:** Monnaie européenne",
+          "explanation": "Of euros; the currency used in France and the Eurozone.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Dans le but de",
+          "explanation": "For; indicates purpose or objective.",
+          "cultural_note": ""
+        },
+        "soutenir": {
+          "display_format": "**soutenir:** Apporter son aide",
+          "explanation": "To support; to provide assistance or backing.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The; feminine definite article.",
+          "cultural_note": ""
+        },
+        "filière": {
+          "display_format": "**filière:** Secteur économique, branche",
+          "explanation": "Sector or industry; a specific branch of economic activity.",
+          "cultural_note": "Often used in economic contexts to refer to a complete value chain."
+        },
+        "musicale": {
+          "display_format": "**musicale:** Liée à la musique",
+          "explanation": "Musical; pertaining to music.",
+          "cultural_note": ""
+        },
+        "d'ici": {
+          "display_format": "**d'ici:** Avant cette date",
+          "explanation": "By (a certain time); indicates a deadline.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de temps",
+          "explanation": "To, until; indicates a point in time.",
+          "cultural_note": ""
+        },
+        "2030": {
+          "display_format": "**2030:** Année future",
+          "explanation": "Two thousand thirty; a specific year in the future.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T08:25:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    }
+  ]
 }
