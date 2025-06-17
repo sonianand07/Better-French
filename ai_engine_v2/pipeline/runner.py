@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 ROOT = pathlib.Path(__file__).resolve().parent.parent  # ai_engine_v2/
 
 
-def run_pipeline(limit: int | None = None):
+def run_pipeline(limit: int | None = None, backfill_limit: int | None = None):
     logger.info("\n🟢🟢🟢  Better French AI-Engine v2 Run  🟢🟢🟢\n")
     logger.info("📡 Scraping sources …")
     scraper = SmartScraper()
@@ -59,9 +59,11 @@ def run_pipeline(limit: int | None = None):
     proc = ProcessorV2()
     proc.batch_process(pending[:limit] if limit else pending)
 
-    # ---------------- Back-fill pass for items still missing explanations ----------------
+    # ---------------- Back-fill pass (optional cap) ----------------
     to_fix = [a for a in Storage.load_pending()
               if not a.contextual_title_explanations and a.backfill_attempts < 3]
+    if backfill_limit:
+        to_fix = to_fix[:backfill_limit]
     if to_fix:
         logger.info("🔄 Back-filling explanations for %d earlier articles", len(to_fix))
         proc.batch_process(to_fix)
@@ -84,7 +86,8 @@ def serve_ui(port: int = 8010):
 
 def main():
     parser = argparse.ArgumentParser(description="Run full AI-Engine v2 pipeline")
-    parser.add_argument("--limit", type=int, default=None, help="Max articles to AI-process")
+    parser.add_argument("--limit", type=int, default=None, help="Max fresh articles to AI-process")
+    parser.add_argument("--backfill-limit", type=int, default=None, help="Max backlog articles to AI-process")
     parser.add_argument("--serve", action="store_true", help="Serve website after processing")
     parser.add_argument("--serve-only", action="store_true", help="Only serve website, skip pipeline")
     args = parser.parse_args()
@@ -93,7 +96,7 @@ def main():
         serve_ui()
         return
 
-    run_pipeline(args.limit)
+    run_pipeline(args.limit, args.backfill_limit)
     if args.serve:
         serve_ui()
 

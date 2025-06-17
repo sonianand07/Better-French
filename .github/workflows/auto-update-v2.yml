@@ -43,7 +43,7 @@ jobs:
       - name: Run AI-Engine v2 pipeline (limit 20)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python -m ai_engine_v2.pipeline.runner --limit 20
+        run: python -m ai_engine_v2.pipeline.runner --limit 20 --backfill-limit 20
 
       - name: Commit & push new rolling feed
         run: |
