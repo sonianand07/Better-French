@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 class ProcessorV2:
     def __init__(self, model: str | None = None):
         # Passing None lets LLMClient fall back to env override or the new
-        # default "google/gemini-flash-2.5-128k".
+        # default "google/gemini-2.5-flash".
         self.llm = LLMClient(model=model)
         self.total_cost_usd: float = 0.0  # crude running total
 

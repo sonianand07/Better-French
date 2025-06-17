@@ -17,7 +17,7 @@ class LLMClient:
         # Allow dynamic override so we can A/B different LLMs without code edits.
         # Priority: explicit arg > env var AI_ENGINE_MODEL > default (Gemini 2.5 Flash)
         if model is None:
-            model = os.getenv("AI_ENGINE_MODEL", "google/gemini-flash-2.5-128k")
+            model = os.getenv("AI_ENGINE_MODEL", "google/gemini-2.5-flash")
         self.model = model
 
     def _get_api_key(self) -> str:
