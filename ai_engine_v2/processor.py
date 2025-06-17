@@ -19,7 +19,9 @@ logger = logging.getLogger(__name__)
 
 
 class ProcessorV2:
-    def __init__(self, model: str = "meta-llama/llama-3-70b-instruct"):
+    def __init__(self, model: str | None = None):
+        # Passing None lets LLMClient fall back to env override or the new
+        # default "google/gemini-flash-2.5-128k".
         self.llm = LLMClient(model=model)
         self.total_cost_usd: float = 0.0  # crude running total
 
@@ -131,6 +133,10 @@ class ProcessorV2:
             merged[upd.original_article_link] = upd
         Storage.save_pending(list(merged.values()))
 
-        # 2. Append display-ready to rolling feed
-        Storage.save_rolling(Storage.load_rolling() + [a for a in processed if a.display_ready])
+        # 2. Append *all* processed articles to rolling feed. ``Storage.save_rolling``
+        #    itself will prioritise fully display-ready items, but will gracefully
+        #    fall back to ``ai_enhanced`` ones if none are ready.  This guarantees
+        #    the website always has some content even when contextual
+        #    explanations are missing.
+        Storage.save_rolling(Storage.load_rolling() + processed)
         logger.info("Processed %d articles", len(processed)) 

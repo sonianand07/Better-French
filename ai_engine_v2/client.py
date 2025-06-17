@@ -3,19 +3,24 @@ from __future__ import annotations
 
 import requests, time, random, logging
 from typing import Dict, Any, Optional
+import os
 
 logger = logging.getLogger(__name__)
 
 
 class LLMClient:
-    def __init__(self, model: str = "meta-llama/llama-3-70b-instruct", api_base: str = "https://openrouter.ai/api/v1"):
-        self.model = model
+    def __init__(self, model: str | None = None, api_base: str = "https://openrouter.ai/api/v1"):
         self.base = api_base
         self.session = requests.Session()
         self.session.headers["Authorization"] = f"Bearer {self._get_api_key()}"
 
+        # Allow dynamic override so we can A/B different LLMs without code edits.
+        # Priority: explicit arg > env var AI_ENGINE_MODEL > default (Gemini 2.5 Flash)
+        if model is None:
+            model = os.getenv("AI_ENGINE_MODEL", "google/gemini-flash-2.5-128k")
+        self.model = model
+
     def _get_api_key(self) -> str:
-        import os
         key = os.getenv("OPENROUTER_API_KEY")
         if not key:
             raise RuntimeError("OPENROUTER_API_KEY env var not set")
