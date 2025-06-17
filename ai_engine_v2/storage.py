@@ -66,16 +66,26 @@ class Storage:
         if ROLLING_FILE.exists():
             ts = datetime.datetime.utcnow().strftime("%Y%m%d_%H%M%S")
             shutil.copy2(ROLLING_FILE, BACKUP_DIR / f"rolling_{ts}.json")
-        # Prefer fully display-ready first, but fall back to partially enhanced
-        ready = [a for a in articles if a.display_ready]
+
+        # ---------------- Aggregate & deduplicate ----------------
+        # keep the latest version of each unique article (by link)
+        dedup: dict[str, Article] = {}
+        for art in sorted(articles, key=lambda a: a.processed_at or "", reverse=True):
+            dedup.setdefault(art.original_article_link, art)
+
+        pool = list(dedup.values())
+
+        # Prefer fully display-ready first, but fall back progressively so the feed
+        # never goes empty.
+        ready = [a for a in pool if a.display_ready]
 
         # If no fully ready articles, include those that at least have simplified titles
         if not ready:
-            ready = [a for a in articles if a.ai_enhanced]
+            ready = [a for a in pool if a.ai_enhanced]
 
         # Final safety: if still empty (unlikely) keep originals to avoid empty site
         if not ready:
-            ready = articles
+            ready = pool
 
         ready.sort(key=lambda a: a.processed_at or "", reverse=True)
         cls._save(ROLLING_FILE, ready[:100]) 
