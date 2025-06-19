@@ -3,89 +3,74 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Les Los Angeles Dodgers refusent l’entrée de leur parking à la police fédérale de l’immigration",
-      "original_article_link": "https://www.ouest-france.fr/sport/baseball/les-los-angeles-dodgers-refusent-lentree-de-leur-parking-a-la-police-federale-de-limmigration-d112a74a-4d4f-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-19T21:03:49",
-      "source_name": "Ouest France",
+      "original_article_title": "Les Dodgers refoulent la police de l’immigration de leur stade",
+      "original_article_link": "https://www.20min.ch/fr/story/los-angeles-les-dodgers-refoulent-la-police-de-l-immigration-de-leur-stade-103367442",
+      "original_article_published_date": "2025-06-19T21:29:36",
+      "source_name": "20 Minutes",
       "quality_scores": {
-        "quality_score": 5.664,
+        "quality_score": 5.272,
         "relevance_score": 9.0,
-        "importance_score": 6.49,
-        "total_score": 16.992
+        "importance_score": 6.27,
+        "total_score": 15.816
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Les Dodgers refusent l'accès à la police de l'immigration",
-      "simplified_english_title": "Dodgers deny entry to immigration police",
-      "french_summary": "Le club de baseball des Los Angeles Dodgers a refusé que la police fédérale de l'immigration entre dans son parking. C'est le résultat d'une nouvelle politique.",
-      "english_summary": "The Los Angeles Dodgers baseball team denied federal immigration police access to their parking lot. This is due to a new policy.",
+      "simplified_french_title": "Les Dodgers refusent l'entrée à la police de l'immigration",
+      "simplified_english_title": "Dodgers refuse entry to immigration police",
+      "french_summary": "Le club de baseball des Dodgers a empêché les agents de l'immigration d'entrer dans leur stade. Cette décision a été prise pour protéger les fans et le personnel. Les raisons exactes ne sont pas claires.",
+      "english_summary": "The Dodgers baseball club prevented immigration officers from entering their stadium. This decision was made to protect fans and staff. The exact reasons are not clear.",
       "contextual_title_explanations": {
         "Les": {
           "display_format": "**Les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
+          "explanation": "The (plural)",
           "cultural_note": ""
         },
-        "Los Angeles Dodgers": {
-          "display_format": "**Los Angeles Dodgers:** Équipe de baseball américaine",
-          "explanation": "Major League Baseball team based in Los Angeles",
+        "Dodgers": {
+          "display_format": "**Dodgers:** Équipe de baseball de LA",
+          "explanation": "Los Angeles professional baseball team",
           "cultural_note": ""
         },
-        "refusent": {
-          "display_format": "**refusent:** Ne pas accepter",
-          "explanation": "They refuse, they deny (third person plural present tense of 'refuser')",
-          "cultural_note": ""
-        },
-        "l’entrée": {
-          "display_format": "**l’entrée:** Accès à un lieu",
-          "explanation": "The entry, access (feminine noun, singular)",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Indique la provenance",
-          "explanation": "Of, from (preposition indicating origin or association)",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**leur:** Possessif, à eux",
-          "explanation": "Their (possessive adjective, singular form for plural possessors)",
-          "cultural_note": ""
-        },
-        "parking": {
-          "display_format": "**parking:** Aire de stationnement",
-          "explanation": "Parking lot, car park (masculine noun, common anglicism in French)",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Indique la destination",
-          "explanation": "To, at (preposition indicating destination or attribution)",
+        "refoulent": {
+          "display_format": "**refoulent:** Repoussent, rejettent",
+          "explanation": "To turn back, to repel, to refuse entry",
           "cultural_note": ""
         },
         "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine definite article)",
+          "display_format": "**la:** Article défini singulier",
+          "explanation": "The (feminine singular)",
           "cultural_note": ""
         },
         "police": {
           "display_format": "**police:** Force de l'ordre",
-          "explanation": "Police (feminine noun)",
+          "explanation": "Police force",
           "cultural_note": ""
         },
-        "fédérale": {
-          "display_format": "**fédérale:** Du gouvernement central",
-          "explanation": "Federal (feminine adjective, referring to a federal government)",
+        "de": {
+          "display_format": "**de:** Préposition, indique origine",
+          "explanation": "From, out of",
           "cultural_note": ""
         },
         "l’immigration": {
           "display_format": "**l’immigration:** Mouvement de personnes",
-          "explanation": "Immigration (feminine noun, referring to the movement of people into a country)",
+          "explanation": "Immigration, movement into a country",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**leur:** Déterminant possessif pluriel",
+          "explanation": "Their",
+          "cultural_note": ""
+        },
+        "stade": {
+          "display_format": "**stade:** Terrain de sport",
+          "explanation": "Stadium, sports arena",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T21:17:22",
+      "processed_at": "2025-06-19T22:17:53",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
