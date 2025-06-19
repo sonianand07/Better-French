@@ -3,94 +3,94 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Nucléaire: le Livret A pourrait financer la relance de l'atome sans priver le logement social",
-      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/nucleaire-le-livret-a-pourrait-financer-la-relance-de-l-atome-sans-priver-le-logement-social_AD-202506190747.html",
-      "original_article_published_date": "2025-06-19T18:50:17",
-      "source_name": "BFM TV",
+      "original_article_title": "Narcotrafic : Abdelkader Bouguettaia, un important narcotrafiquant français, extradé en France depuis Dubaï",
+      "original_article_link": "https://www.franceinfo.fr/societe/drogue/narcotrafic-abdelkader-bouguettaia-un-important-narcotrafiquant-francais-extrade-en-france-depuis-dubai_7324539.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-19T19:24:21",
+      "source_name": "France Info",
       "quality_scores": {
-        "quality_score": 5.611,
+        "quality_score": 5.315,
         "relevance_score": 9.0,
-        "importance_score": 6.29,
-        "total_score": 16.832
+        "importance_score": 6.43,
+        "total_score": 15.944
       },
-      "difficulty": "B2",
+      "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Le Livret A pourrait financer le nucléaire",
-      "simplified_english_title": "Livret A could finance nuclear energy",
-      "french_summary": "Le gouvernement français étudie l'utilisation de l'argent du Livret A pour investir dans l'énergie nucléaire, sans affecter le financement du logement social.",
-      "english_summary": "The French government is considering using money from the Livret A savings account to invest in nuclear energy, without affecting social housing funding.",
+      "simplified_french_title": "Un grand trafiquant de drogue extradé à Dubaï",
+      "simplified_english_title": "Major drug trafficker extradited from Dubai",
+      "french_summary": "Abdelkader Bouguettaia, un narcotrafiquant français très important, a été extradé de Dubaï vers la France. Il est désormais en France pour répondre de ses actes.",
+      "english_summary": "Abdelkader Bouguettaia, a very important French drug trafficker, has been extradited from Dubai to France. He is now in France to face justice.",
       "contextual_title_explanations": {
-        "Nucléaire": {
-          "display_format": "**Nucléaire:** Énergie atomique",
-          "explanation": "Relating to nuclear energy or power",
+        "Narcotrafic": {
+          "display_format": "**Narcotrafic:** Trafic de drogue",
+          "explanation": "Drug trafficking",
           "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or specification",
+          "explanation": "Colon introducing explanation",
           "cultural_note": ""
         },
-        "le": {
-          "display_format": "**le:** Article défini masculin",
-          "explanation": "The (masculine singular definite article)",
+        "Abdelkader Bouguettaia": {
+          "display_format": "**Abdelkader Bouguettaia:** Nom propre",
+          "explanation": "Name of the individual mentioned",
           "cultural_note": ""
         },
-        "Livret A": {
-          "display_format": "**Livret A:** Compte d'épargne populaire",
-          "explanation": "Popular, tax-free savings account in France",
-          "cultural_note": "A widely used, state-regulated savings account in France."
-        },
-        "pourrait": {
-          "display_format": "**pourrait:** Verbe pouvoir conditionnel",
-          "explanation": "Could, might (conditional tense of 'pouvoir')",
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses",
           "cultural_note": ""
         },
-        "financer": {
-          "display_format": "**financer:** Apporter des fonds",
-          "explanation": "To finance, to fund",
+        "un": {
+          "display_format": "**un:** Article indéfini masculin",
+          "explanation": "A, an (masculine singular)",
           "cultural_note": ""
         },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article)",
+        "important": {
+          "display_format": "**important:** Qui a de l'importance",
+          "explanation": "Important, significant",
           "cultural_note": ""
         },
-        "relance": {
-          "display_format": "**relance:** Nouvelle impulsion, reprise",
-          "explanation": "Revival, relaunch, new impetus",
+        "narcotrafiquant": {
+          "display_format": "**narcotrafiquant:** Personne qui fait du trafic de drogue",
+          "explanation": "Drug trafficker",
           "cultural_note": ""
         },
-        "de": {
-          "display_format": "**de:** Préposition, appartenance",
-          "explanation": "Of, from (preposition indicating origin or possession)",
+        "français": {
+          "display_format": "**français:** De nationalité française",
+          "explanation": "French (nationality)",
           "cultural_note": ""
         },
-        "l'atome": {
-          "display_format": "**l'atome:** Énergie nucléaire",
-          "explanation": "The atom; often used metonymically for nuclear energy",
+        "extradé": {
+          "display_format": "**extradé:** Livré par un État",
+          "explanation": "Extradited, handed over by one state to another",
           "cultural_note": ""
         },
-        "sans": {
-          "display_format": "**sans:** Préposition, absence",
-          "explanation": "Without (preposition indicating lack or absence)",
+        "en": {
+          "display_format": "**en:** Préposition de lieu",
+          "explanation": "In, to (preposition of place)",
           "cultural_note": ""
         },
-        "priver": {
-          "display_format": "**priver:** Retirer à quelqu'un",
-          "explanation": "To deprive, to strip of",
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France, European country",
           "cultural_note": ""
         },
-        "logement social": {
-          "display_format": "**logement social:** Habitation à loyer modéré",
-          "explanation": "Social housing; affordable housing provided by public entities",
-          "cultural_note": "Crucial aspect of French social policy, often referred to as HLM (Habitation à Loyer Modéré)."
+        "depuis": {
+          "display_format": "**depuis:** À partir de",
+          "explanation": "From, since",
+          "cultural_note": ""
+        },
+        "Dubaï": {
+          "display_format": "**Dubaï:** Ville des Émirats arabes unis",
+          "explanation": "Dubai, city in the United Arab Emirates",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T19:13:54",
+      "processed_at": "2025-06-19T20:22:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -99,109 +99,336 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Basket. Après des visas refusés, l’équipe féminine du Sénégal annule son stage aux États-Unis",
-      "original_article_link": "https://www.ouest-france.fr/sport/basket/basket-apres-des-visas-refuses-lequipe-feminine-du-senegal-annule-son-stage-aux-etats-unis-49637488-4d3a-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-19T18:44:41",
-      "source_name": "Ouest France",
+      "original_article_title": "PMA, adoption : le Parlement entérine une loi protégeant les salariés engagés dans un projet parental",
+      "original_article_link": "https://www.nouvelobs.com/societe/20250619.OBS105115/pma-adoption-le-parlement-enterine-une-loi-protegeant-les-salaries-engages-dans-un-projet-parental.html",
+      "original_article_published_date": "2025-06-19T19:55:37",
+      "source_name": "L'Obs",
       "quality_scores": {
-        "quality_score": 5.317,
+        "quality_score": 5.627,
         "relevance_score": 9.0,
-        "importance_score": 6.44,
-        "total_score": 15.952
+        "importance_score": 6.35,
+        "total_score": 16.88
       },
-      "difficulty": "B1",
+      "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Basket : Le Sénégal annule son stage aux États-Unis",
-      "simplified_english_title": "Basketball: Senegal cancels US training camp",
-      "french_summary": "L'équipe féminine de basket du Sénégal a annulé son voyage d'entraînement aux États-Unis. Les joueuses n'ont pas reçu les visas nécessaires pour entrer dans le pays.",
-      "english_summary": "Senegal's women's basketball team canceled its training trip to the United States. The players did not receive the necessary visas to enter the country.",
+      "simplified_french_title": "PMA, adoption : une nouvelle loi pour les parents salariés",
+      "simplified_english_title": "PMA, adoption: A new law for employee parents",
+      "french_summary": "Le Parlement a approuvé une loi qui aide les employés qui veulent devenir parents par PMA ou adoption. Cette loi protège leurs droits au travail.",
+      "english_summary": "Parliament has approved a law that helps employees who want to become parents through assisted reproduction or adoption. This law protects their rights at work.",
       "contextual_title_explanations": {
-        "Basket": {
-          "display_format": "**Basket:** Sport de ballon",
-          "explanation": "Basketball, the sport.",
-          "cultural_note": ""
-        },
-        ".": {
-          "display_format": "**.:** Point",
-          "explanation": "Period, used here to separate headline elements.",
-          "cultural_note": ""
-        },
-        "Après": {
-          "display_format": "**Après:** Suite à",
-          "explanation": "After; indicates a sequence of events.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Plural indefinite article: 'some' or 'any'.",
-          "cultural_note": ""
-        },
-        "visas": {
-          "display_format": "**visas:** Autorisations de séjour",
-          "explanation": "Visas; official endorsements allowing entry or stay.",
-          "cultural_note": ""
-        },
-        "refusés": {
-          "display_format": "**refusés:** Non accordés",
-          "explanation": "Refused; not granted or approved.",
+        "PMA": {
+          "display_format": "**PMA:** Procréation Médicalement Assistée",
+          "explanation": "Medically Assisted Procreation, a fertility treatment",
           "cultural_note": ""
         },
         ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, used to separate clauses.",
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separates list items",
           "cultural_note": ""
         },
-        "l’équipe": {
-          "display_format": "**l’équipe:** Le groupe sportif",
-          "explanation": "The team; 'l’' is a contraction of 'la'.",
+        "adoption": {
+          "display_format": "**adoption:** Acte d'adopter un enfant",
+          "explanation": "The legal process of becoming a parent to a child not biologically one's own",
           "cultural_note": ""
         },
-        "féminine": {
-          "display_format": "**féminine:** De femmes",
-          "explanation": "Feminine; composed of women.",
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introduces an explanation or elaboration",
           "cultural_note": ""
         },
-        "du": {
-          "display_format": "**du:** De le",
-          "explanation": "Contraction of 'de' (of) and 'le' (the).",
+        "le": {
+          "display_format": "**le:** Article défini masculin singulier",
+          "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
         },
-        "Sénégal": {
-          "display_format": "**Sénégal:** Pays africain",
-          "explanation": "Senegal; a country in West Africa.",
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative française",
+          "explanation": "The French Parliament, consisting of the National Assembly and the Senate",
           "cultural_note": ""
         },
-        "annule": {
-          "display_format": "**annule:** Met fin à",
-          "explanation": "Cancels; calls off or revokes.",
+        "entérine": {
+          "display_format": "**entérine:** Approuve officiellement, valide",
+          "explanation": "Officially approves, ratifies, or confirms something",
           "cultural_note": ""
         },
-        "son": {
-          "display_format": "**son:** Déterminant possessif",
-          "explanation": "Its/her/his; possessive determiner.",
+        "une": {
+          "display_format": "**une:** Article indéfini féminin singulier",
+          "explanation": "A/an (feminine singular indefinite article)",
           "cultural_note": ""
         },
-        "stage": {
-          "display_format": "**stage:** Entraînement intensif",
-          "explanation": "Training camp or internship; intensive period of practice.",
+        "loi": {
+          "display_format": "**loi:** Règle juridique, législation",
+          "explanation": "A law, a piece of legislation",
           "cultural_note": ""
         },
-        "aux": {
-          "display_format": "**aux:** À les",
-          "explanation": "Contraction of 'à' (to/at) and 'les' (the).",
+        "protégeant": {
+          "display_format": "**protégeant:** Qui offre protection à",
+          "explanation": "Protecting, safeguarding, offering protection to",
           "cultural_note": ""
         },
-        "États-Unis": {
-          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
-          "explanation": "United States; country in North America.",
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**salariés:** Employés, personnes travaillant",
+          "explanation": "Employees, salaried workers",
+          "cultural_note": ""
+        },
+        "engagés": {
+          "display_format": "**engagés:** Impliqués dans, participant à",
+          "explanation": "Involved in, committed to, participating in",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition, à l'intérieur de",
+          "explanation": "In, within, inside of",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini masculin singulier",
+          "explanation": "A/an (masculine singular indefinite article)",
+          "cultural_note": ""
+        },
+        "projet": {
+          "display_format": "**projet:** Plan, entreprise, dessein",
+          "explanation": "A project, a plan, an undertaking",
+          "cultural_note": ""
+        },
+        "parental": {
+          "display_format": "**parental:** Relatif aux parents",
+          "explanation": "Relating to parents or parenthood",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T19:13:54",
+      "processed_at": "2025-06-19T20:22:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Arrêts de travail : les médecins généralistes dénoncent une campagne de l'Assurance maladie pour limiter les congés maladie prescrits",
+      "original_article_link": "https://www.franceinfo.fr/sante/arrets-de-travail-les-medecins-generalistes-denoncent-une-campagne-de-l-assurance-maladie-pour-limiter-les-conges-maladie-prescrits_7324572.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-19T20:02:00",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.251,
+        "relevance_score": 9.0,
+        "importance_score": 6.19,
+        "total_score": 15.752
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les médecins critiquent l'Assurance maladie sur les arrêts de travail",
+      "simplified_english_title": "Doctors criticize Health Insurance over sick leave",
+      "french_summary": "Les médecins généralistes pensent que l'Assurance maladie essaie de limiter le nombre de congés maladie qu'ils prescrivent. Ils dénoncent cette action.",
+      "english_summary": "General practitioners believe Health Insurance is trying to reduce the number of sick leaves they prescribe. They are criticizing this campaign.",
+      "contextual_title_explanations": {
+        "Arrêts": {
+          "display_format": "**Arrêts:** Interruptions",
+          "explanation": "Stoppages, breaks, or sick leaves",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "travail": {
+          "display_format": "**travail:** Activité professionnelle",
+          "explanation": "Work, employment",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "médecins": {
+          "display_format": "**médecins:** Praticiens de médecine",
+          "explanation": "Doctors, physicians",
+          "cultural_note": ""
+        },
+        "généralistes": {
+          "display_format": "**généralistes:** Médecins de famille",
+          "explanation": "General practitioners, family doctors",
+          "cultural_note": ""
+        },
+        "dénoncent": {
+          "display_format": "**dénoncent:** Critiquent publiquement",
+          "explanation": "Denounce, condemn, publicly criticize",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A, an (feminine singular)",
+          "cultural_note": ""
+        },
+        "campagne": {
+          "display_format": "**campagne:** Opération organisée",
+          "explanation": "Campaign, organized effort",
+          "cultural_note": ""
+        },
+        "l'Assurance maladie": {
+          "display_format": "**l'Assurance maladie:** Sécurité sociale française",
+          "explanation": "French health insurance system",
+          "cultural_note": "Part of the French social security system."
+        },
+        "pour": {
+          "display_format": "**pour:** En vue de",
+          "explanation": "For, in order to",
+          "cultural_note": ""
+        },
+        "limiter": {
+          "display_format": "**limiter:** Réduire, restreindre",
+          "explanation": "To limit, to restrict, to reduce",
+          "cultural_note": ""
+        },
+        "congés": {
+          "display_format": "**congés:** Périodes d'absence",
+          "explanation": "Leaves, time off",
+          "cultural_note": ""
+        },
+        "maladie": {
+          "display_format": "**maladie:** État de santé",
+          "explanation": "Sickness, illness",
+          "cultural_note": ""
+        },
+        "prescrits": {
+          "display_format": "**prescrits:** Ordonnés par médecin",
+          "explanation": "Prescribed, ordered by a doctor",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T20:22:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«C'est qui le Patron ?!», l'entreprise qui rémunère au juste prix les producteurs !",
+      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge/cest-qui-le-patron-lentreprise-qui-remunere-au-juste-prix-les-producteurs-760167",
+      "original_article_published_date": "2025-06-19T20:05:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.357,
+        "relevance_score": 9.0,
+        "importance_score": 6.59,
+        "total_score": 16.072
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "« C'est qui le Patron ?! », l'entreprise qui paie bien les producteurs",
+      "simplified_english_title": "\"Who's the Boss?!\", the company that pays producers fairly",
+      "french_summary": "« C'est qui le Patron ?! » est une entreprise qui s'assure que les producteurs reçoivent un prix juste pour leurs produits, aidant ainsi les agriculteurs.",
+      "english_summary": "\"Who's the Boss?!\" is a company that ensures producers receive a fair price for their products, helping farmers.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**« :** Guillemet ouvrant",
+          "explanation": "Opening French quotation mark",
+          "cultural_note": ""
+        },
+        "C'est": {
+          "display_format": "**C'est :** Cela est",
+          "explanation": "It is; this is",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui :** Pronom relatif",
+          "explanation": "Which, that (subject)",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le :** Article défini",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "Patron": {
+          "display_format": "**Patron :** Chef, dirigeant",
+          "explanation": "Boss, leader, owner",
+          "cultural_note": ""
+        },
+        "?!": {
+          "display_format": "**?! :** Ponctuation expressive",
+          "explanation": "Interrogative and exclamatory punctuation, often used for emphasis or surprise",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**» :** Guillemet fermant",
+          "explanation": "Closing French quotation mark",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**, :** Virgule",
+          "explanation": "Comma, separating elements",
+          "cultural_note": ""
+        },
+        "l'entreprise": {
+          "display_format": "**l'entreprise :** La société",
+          "explanation": "The company, the business",
+          "cultural_note": ""
+        },
+        "rémunère": {
+          "display_format": "**rémunère :** Paie, rétribue",
+          "explanation": "Pays, remunerates, compensates",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au :** À le",
+          "explanation": "At the, to the (contraction)",
+          "cultural_note": ""
+        },
+        "juste": {
+          "display_format": "**juste :** Équitable, correct",
+          "explanation": "Fair, just, right",
+          "cultural_note": ""
+        },
+        "prix": {
+          "display_format": "**prix :** Coût, valeur",
+          "explanation": "Price, cost, value",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les :** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "producteurs": {
+          "display_format": "**producteurs :** Personnes qui produisent",
+          "explanation": "Producers, growers",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**! :** Point d'exclamation",
+          "explanation": "Exclamation mark, indicating emphasis or strong feeling",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T20:22:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
