@@ -110,9 +110,13 @@ def main():
 
     blended.sort(key=lambda x: x[0], reverse=True)
 
-    remaining_slots = DAILY_CAP - state["published_today"]
+    PER_RUN_CAP = int(os.getenv("BF_PER_RUN_CAP", "20"))
+
+    # honour both limits: daily and per-run
+    remaining_slots = min(PER_RUN_CAP, DAILY_CAP - state["published_today"])
+
     if remaining_slots <= 0:
-        logger.info("Daily cap of %d already reached", DAILY_CAP)
+        logger.info("Run skipped – cap reached (daily %d or per-run %d)", DAILY_CAP, PER_RUN_CAP)
         return
 
     # Bucket balancing -------------------------------------------------
