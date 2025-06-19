@@ -3,109 +3,94 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Dominique Reynié : «Comment le débat sur l’immigration est asphyxié par la stratégie de l’étouffoir»",
-      "original_article_link": "https://www.lefigaro.fr/vox/politique/dominique-reynie-comment-le-debat-sur-l-immigration-est-asphyxie-par-la-strategie-de-l-etouffoir-20250619",
-      "original_article_published_date": "2025-06-19T18:27:49",
-      "source_name": "Le Figaro",
+      "original_article_title": "Nucléaire: le Livret A pourrait financer la relance de l'atome sans priver le logement social",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/nucleaire-le-livret-a-pourrait-financer-la-relance-de-l-atome-sans-priver-le-logement-social_AD-202506190747.html",
+      "original_article_published_date": "2025-06-19T18:50:17",
+      "source_name": "BFM TV",
       "quality_scores": {
-        "quality_score": 5.309,
+        "quality_score": 5.611,
         "relevance_score": 9.0,
-        "importance_score": 6.41,
-        "total_score": 15.928
+        "importance_score": 6.29,
+        "total_score": 16.832
       },
       "difficulty": "B2",
-      "tone": "opinion",
+      "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Débat sur l'immigration : une stratégie qui l'étouffe",
-      "simplified_english_title": "Immigration debate: a strategy that stifles it",
-      "french_summary": "Dominique Reynié explique comment la discussion sur l'immigration est rendue difficile. Il pense qu'une stratégie empêche le débat de se faire correctement.",
-      "english_summary": "Dominique Reynié explains how the discussion about immigration is made difficult. He believes a strategy prevents the debate from happening properly.",
+      "simplified_french_title": "Le Livret A pourrait financer le nucléaire",
+      "simplified_english_title": "Livret A could finance nuclear energy",
+      "french_summary": "Le gouvernement français étudie l'utilisation de l'argent du Livret A pour investir dans l'énergie nucléaire, sans affecter le financement du logement social.",
+      "english_summary": "The French government is considering using money from the Livret A savings account to invest in nuclear energy, without affecting social housing funding.",
       "contextual_title_explanations": {
-        "Dominique Reynié": {
-          "display_format": "**Dominique Reynié:** Politologue, directeur de la Fondapol",
-          "explanation": "French political scientist, director of Fondapol, a liberal think tank.",
+        "Nucléaire": {
+          "display_format": "**Nucléaire:** Énergie atomique",
+          "explanation": "Relating to nuclear energy or power",
           "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon, indicates direct speech or an explanation follows.",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening guillemet, a type of quotation mark used in French.",
-          "cultural_note": "Used in pairs ( « » ) to enclose direct speech or quoted text."
-        },
-        "Comment": {
-          "display_format": "**Comment:** De quelle manière",
-          "explanation": "How, in what way.",
+          "explanation": "Colon introducing an explanation or specification",
           "cultural_note": ""
         },
         "le": {
           "display_format": "**le:** Article défini masculin",
-          "explanation": "The (masculine singular definite article).",
+          "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
         },
-        "débat": {
-          "display_format": "**débat:** Discussion, controverse",
-          "explanation": "Debate, discussion, controversy.",
+        "Livret A": {
+          "display_format": "**Livret A:** Compte d'épargne populaire",
+          "explanation": "Popular, tax-free savings account in France",
+          "cultural_note": "A widely used, state-regulated savings account in France."
+        },
+        "pourrait": {
+          "display_format": "**pourrait:** Verbe pouvoir conditionnel",
+          "explanation": "Could, might (conditional tense of 'pouvoir')",
           "cultural_note": ""
         },
-        "sur": {
-          "display_format": "**sur:** Concernant, à propos de",
-          "explanation": "On, about, concerning.",
-          "cultural_note": ""
-        },
-        "l’immigration": {
-          "display_format": "**l’immigration:** Mouvement de personnes",
-          "explanation": "Immigration, the movement of people into a country.",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**est:** Verbe être (3e pers.)",
-          "explanation": "Is (third person singular of the verb 'être' - to be).",
-          "cultural_note": ""
-        },
-        "asphyxié": {
-          "display_format": "**asphyxié:** Étouffé, privé d'air",
-          "explanation": "Asphyxiated, stifled, suffocated, deprived of air.",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Au moyen de",
-          "explanation": "By, through.",
+        "financer": {
+          "display_format": "**financer:** Apporter des fonds",
+          "explanation": "To finance, to fund",
           "cultural_note": ""
         },
         "la": {
           "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article).",
+          "explanation": "The (feminine singular definite article)",
           "cultural_note": ""
         },
-        "stratégie": {
-          "display_format": "**stratégie:** Plan d'action",
-          "explanation": "Strategy, a plan of action.",
+        "relance": {
+          "display_format": "**relance:** Nouvelle impulsion, reprise",
+          "explanation": "Revival, relaunch, new impetus",
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**de:** Préposition, indique possession",
-          "explanation": "Of, from (preposition, indicates possession or relation).",
+          "display_format": "**de:** Préposition, appartenance",
+          "explanation": "Of, from (preposition indicating origin or possession)",
           "cultural_note": ""
         },
-        "l’étouffoir": {
-          "display_format": "**l’étouffoir:** Moyen d'étouffer",
-          "explanation": "The 'stifler' or 'smotherer', a means to suppress or silence something.",
-          "cultural_note": "Figurative term implying an attempt to suppress debate or information."
+        "l'atome": {
+          "display_format": "**l'atome:** Énergie nucléaire",
+          "explanation": "The atom; often used metonymically for nuclear energy",
+          "cultural_note": ""
         },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing guillemet, a type of quotation mark used in French.",
-          "cultural_note": "Used in pairs ( « » ) to enclose direct speech or quoted text."
+        "sans": {
+          "display_format": "**sans:** Préposition, absence",
+          "explanation": "Without (preposition indicating lack or absence)",
+          "cultural_note": ""
+        },
+        "priver": {
+          "display_format": "**priver:** Retirer à quelqu'un",
+          "explanation": "To deprive, to strip of",
+          "cultural_note": ""
+        },
+        "logement social": {
+          "display_format": "**logement social:** Habitation à loyer modéré",
+          "explanation": "Social housing; affordable housing provided by public entities",
+          "cultural_note": "Crucial aspect of French social policy, often referred to as HLM (Habitation à Loyer Modéré)."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T18:35:44",
+      "processed_at": "2025-06-19T19:13:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -114,94 +99,109 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Trafic de drogue : un important narcotrafiquant français extradé en France depuis Dubaï",
-      "original_article_link": "https://www.lefigaro.fr/flash-actu/trafic-de-drogue-un-important-narcotrafiquant-francais-extrade-en-france-depuis-dubai-20250619",
-      "original_article_published_date": "2025-06-19T18:30:06",
-      "source_name": "Le Figaro",
+      "original_article_title": "Basket. Après des visas refusés, l’équipe féminine du Sénégal annule son stage aux États-Unis",
+      "original_article_link": "https://www.ouest-france.fr/sport/basket/basket-apres-des-visas-refuses-lequipe-feminine-du-senegal-annule-son-stage-aux-etats-unis-49637488-4d3a-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-19T18:44:41",
+      "source_name": "Ouest France",
       "quality_scores": {
-        "quality_score": 5.256,
+        "quality_score": 5.317,
         "relevance_score": 9.0,
-        "importance_score": 6.21,
-        "total_score": 15.768
+        "importance_score": 6.44,
+        "total_score": 15.952
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Un grand trafiquant de drogue de retour en France",
-      "simplified_english_title": "Major drug trafficker extradited to France",
-      "french_summary": "Un grand trafiquant de drogue français a été renvoyé de Dubaï vers la France. Il est maintenant en France pour affronter la justice.",
-      "english_summary": "A major French drug trafficker was sent back from Dubai to France. He is now in France to face legal proceedings.",
+      "simplified_french_title": "Basket : Le Sénégal annule son stage aux États-Unis",
+      "simplified_english_title": "Basketball: Senegal cancels US training camp",
+      "french_summary": "L'équipe féminine de basket du Sénégal a annulé son voyage d'entraînement aux États-Unis. Les joueuses n'ont pas reçu les visas nécessaires pour entrer dans le pays.",
+      "english_summary": "Senegal's women's basketball team canceled its training trip to the United States. The players did not receive the necessary visas to enter the country.",
       "contextual_title_explanations": {
-        "Trafic": {
-          "display_format": "**Trafic:** Commerce illégal",
-          "explanation": "Illegal trade or trafficking",
+        "Basket": {
+          "display_format": "**Basket:** Sport de ballon",
+          "explanation": "Basketball, the sport.",
           "cultural_note": ""
         },
-        "de": {
-          "display_format": "**de:** Particule génitive",
-          "explanation": "Of, belonging to (preposition)",
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, used here to separate headline elements.",
           "cultural_note": ""
         },
-        "drogue": {
-          "display_format": "**drogue:** Substance illicite",
-          "explanation": "Illicit drug",
+        "Après": {
+          "display_format": "**Après:** Suite à",
+          "explanation": "After; indicates a sequence of events.",
           "cultural_note": ""
         },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or specification",
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Plural indefinite article: 'some' or 'any'.",
           "cultural_note": ""
         },
-        "un": {
-          "display_format": "**un:** Article indéfini masculin",
-          "explanation": "A, an (masculine singular indefinite article)",
+        "visas": {
+          "display_format": "**visas:** Autorisations de séjour",
+          "explanation": "Visas; official endorsements allowing entry or stay.",
           "cultural_note": ""
         },
-        "important": {
-          "display_format": "**important:** De grande taille/valeur",
-          "explanation": "Significant, major, important",
+        "refusés": {
+          "display_format": "**refusés:** Non accordés",
+          "explanation": "Refused; not granted or approved.",
           "cultural_note": ""
         },
-        "narcotrafiquant": {
-          "display_format": "**narcotrafiquant:** Trafiquant de stupéfiants",
-          "explanation": "Drug trafficker (a more formal or specific term)",
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, used to separate clauses.",
           "cultural_note": ""
         },
-        "français": {
-          "display_format": "**français:** De nationalité française",
-          "explanation": "French (adjective indicating nationality)",
+        "l’équipe": {
+          "display_format": "**l’équipe:** Le groupe sportif",
+          "explanation": "The team; 'l’' is a contraction of 'la'.",
           "cultural_note": ""
         },
-        "extradé": {
-          "display_format": "**extradé:** Livré à un pays",
-          "explanation": "Extradited (past participle of 'to extradite')",
+        "féminine": {
+          "display_format": "**féminine:** De femmes",
+          "explanation": "Feminine; composed of women.",
           "cultural_note": ""
         },
-        "en": {
-          "display_format": "**en:** Préposition de lieu",
-          "explanation": "To, in (preposition indicating direction or location)",
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de' (of) and 'le' (the).",
           "cultural_note": ""
         },
-        "France": {
-          "display_format": "**France:** Pays européen",
-          "explanation": "France (country)",
+        "Sénégal": {
+          "display_format": "**Sénégal:** Pays africain",
+          "explanation": "Senegal; a country in West Africa.",
           "cultural_note": ""
         },
-        "depuis": {
-          "display_format": "**depuis:** À partir de",
-          "explanation": "From, since (preposition indicating origin or starting point)",
+        "annule": {
+          "display_format": "**annule:** Met fin à",
+          "explanation": "Cancels; calls off or revokes.",
           "cultural_note": ""
         },
-        "Dubaï": {
-          "display_format": "**Dubaï:** Ville des Émirats",
-          "explanation": "Dubai (city in the United Arab Emirates)",
+        "son": {
+          "display_format": "**son:** Déterminant possessif",
+          "explanation": "Its/her/his; possessive determiner.",
+          "cultural_note": ""
+        },
+        "stage": {
+          "display_format": "**stage:** Entraînement intensif",
+          "explanation": "Training camp or internship; intensive period of practice.",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "Contraction of 'à' (to/at) and 'les' (the).",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
+          "explanation": "United States; country in North America.",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T18:35:44",
+      "processed_at": "2025-06-19T19:13:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
