@@ -513,114 +513,74 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "« J’ai vu des observateurs soutenir que beaucoup d’Iraniens ont applaudi les frappes israéliennes. C’est faux »",
-      "original_article_link": "https://www.nouvelobs.com/monde/20250617.OBS105027/j-ai-vu-des-observateurs-soutenir-que-beaucoup-d-iraniens-ont-applaudi-les-frappes-israeliennes-c-est-faux.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 16:55:18 +0200",
-      "source_name": "L'Obs",
+      "original_article_title": "Au Salon du Bourget, l'épineuse question de la prise en charge des débris spatiaux",
+      "original_article_link": "https://www.rfi.fr/fr/%C3%A9conomie/20250617-au-salon-du-bourget-l-%C3%A9pineuse-question-de-la-prise-en-charge-des-d%C3%A9bris-spatiaux",
+      "original_article_published_date": "Tue, 17 Jun 2025 09:44:24 GMT",
+      "source_name": "RFI",
       "quality_scores": {
-        "quality_score": 3.613,
+        "quality_score": 3.797,
         "relevance_score": 4.0,
-        "importance_score": 6.3,
-        "total_score": 10.84
+        "importance_score": 6.99,
+        "total_score": 11.392
       },
-      "difficulty": "B2",
-      "tone": "opinion",
+      "difficulty": "B1",
+      "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Iran : Les Iraniens n'ont pas applaudi les frappes israéliennes",
-      "simplified_english_title": "Iran: Iranians did not applaud Israeli strikes",
-      "french_summary": "Un expert affirme que les rapports sur le soutien iranien aux frappes israéliennes sont incorrects. La population n'a pas célébré ces attaques militaires.",
-      "english_summary": "An expert states that reports about Iranian support for Israeli strikes are incorrect. The population did not celebrate these military attacks.",
+      "simplified_french_title": "Débris spatiaux : un problème à résoudre au Salon du Bourget",
+      "simplified_english_title": "Space debris: a problem to solve at Paris Air Show",
+      "french_summary": "Le Salon du Bourget discute de la gestion des débris spatiaux. C'est un sujet difficile car il faut trouver des solutions pour nettoyer l'espace.",
+      "english_summary": "The Paris Air Show is discussing space debris management. It is a difficult topic because solutions for cleaning space must be found.",
       "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«** Guimet",
-          "explanation": "Opening guillemet (French quotation mark)",
-          "cultural_note": "French quotation marks differ from English ones."
-        },
-        "J’ai": {
-          "display_format": "**J’ai:** J'ai (avoir)",
-          "explanation": "Contraction of 'je' (I) and 'ai' (have), past tense auxiliary",
+        "Au": {
+          "display_format": "**Au:** À le",
+          "explanation": "Contraction of 'à' (at, to) and 'le' (the), meaning 'at the'",
           "cultural_note": ""
         },
-        "vu": {
-          "display_format": "**vu:** Apercevoir (voir)",
-          "explanation": "Past participle of 'voir' (to see)",
+        "Salon du Bourget": {
+          "display_format": "**Salon du Bourget:** Salon aéronautique de Paris",
+          "explanation": "The Paris Air Show, a major international aerospace exhibition held at Le Bourget Airport.",
+          "cultural_note": "One of the oldest and largest air shows in the world, held biennially."
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, used to separate clauses",
           "cultural_note": ""
+        },
+        "l'épineuse": {
+          "display_format": "**l'épineuse:** La difficile",
+          "explanation": "The thorny, meaning difficult or problematic",
+          "cultural_note": ""
+        },
+        "question": {
+          "display_format": "**question:** Interrogation, problème",
+          "explanation": "Question, issue, or problem",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Exprime la possession",
+          "explanation": "Of, from, or about",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "prise en charge": {
+          "display_format": "**prise en charge:** Gestion, responsabilité",
+          "explanation": "Taking charge of, management, or responsibility for",
+          "cultural_note": "A common idiom meaning to handle or assume responsibility for something."
         },
         "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Indefinite article, 'some' or 'any'",
+          "display_format": "**des:** De les",
+          "explanation": "Contraction of 'de' (of) and 'les' (the), meaning 'of the'",
           "cultural_note": ""
         },
-        "observateurs": {
-          "display_format": "**observateurs:** Personnes qui observent",
-          "explanation": "Observers, people who watch or monitor",
-          "cultural_note": ""
-        },
-        "soutenir": {
-          "display_format": "**soutenir:** Affirmer, appuyer",
-          "explanation": "To claim, to assert, to support",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**que:** Conjonction de subordination",
-          "explanation": "That (introducing a clause)",
-          "cultural_note": ""
-        },
-        "beaucoup": {
-          "display_format": "**beaucoup:** Grande quantité",
-          "explanation": "A lot, many",
-          "cultural_note": ""
-        },
-        "d’Iraniens": {
-          "display_format": "**d’Iraniens:** Habitants de l'Iran",
-          "explanation": "Of Iranians, people from Iran",
-          "cultural_note": ""
-        },
-        "ont": {
-          "display_format": "**ont:** Avoir (3e pl.)",
-          "explanation": "Third person plural of 'avoir' (to have), auxiliary verb",
-          "cultural_note": ""
-        },
-        "applaudi": {
-          "display_format": "**applaudi:** Exprimer approbation (applaudir)",
-          "explanation": "Past participle of 'applaudir' (to applaud, to cheer)",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**frappes:** Attaques militaires",
-          "explanation": "Strikes, military attacks",
-          "cultural_note": ""
-        },
-        "israéliennes": {
-          "display_format": "**israéliennes:** Qui viennent d'Israël",
-          "explanation": "Israeli (feminine plural adjective)",
-          "cultural_note": ""
-        },
-        ".": {
-          "display_format": "**.:** Point",
-          "explanation": "Period, full stop",
-          "cultural_note": ""
-        },
-        "C’est": {
-          "display_format": "**C’est:** Cela est",
-          "explanation": "Contraction of 'ce' (that) and 'est' (is), 'it is'",
-          "cultural_note": ""
-        },
-        "faux": {
-          "display_format": "**faux:** Non vrai, erroné",
-          "explanation": "False, incorrect",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»** Guimet",
-          "explanation": "Closing guillemet (French quotation mark)",
-          "cultural_note": ""
+        "débris spatiaux": {
+          "display_format": "**débris spatiaux:** Ordures dans l'espace",
+          "explanation": "Space debris, also known as space junk",
+          "cultural_note": "A growing concern for space agencies due to collision risks with active satellites."
         }
       },
       "key_vocabulary": null,
@@ -694,79 +654,735 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Israël-Iran : \"Emmanuel ne comprend jamais rien\", Trump tacle Macron après avoir quitté le G7",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250617-isra%C3%ABl-iran-emmanuel-ne-comprend-jamais-rien-trump-tacle-macron-apr%C3%A8s-avoir-quitt%C3%A9-le-g7",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:52:22 GMT",
-      "source_name": "France 24",
+      "original_article_title": "Enquête ouverte après la plainte pour harcèlement d'Hamraoui contre le PSG",
+      "original_article_link": "https://www.europe1.fr/Police-Justice/enquete-ouverte-apres-la-plainte-pour-harcelement-dhamraoui-contre-le-psg-759820",
+      "original_article_published_date": "Tue, 17 Jun 2025 16:12:03 +0200",
+      "source_name": "Europe 1",
       "quality_scores": {
-        "quality_score": 3.64,
+        "quality_score": 3.683,
         "relevance_score": 4.0,
-        "importance_score": 6.4,
-        "total_score": 10.920000000000002
+        "importance_score": 6.5600000000000005,
+        "total_score": 11.048000000000002
       },
       "difficulty": "B1",
-      "tone": "opinion",
+      "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Trump critique Macron après le G7 sur Israël-Iran",
-      "simplified_english_title": "Trump criticizes Macron after G7 on Israel-Iran",
-      "french_summary": "Donald Trump a critiqué Emmanuel Macron après le sommet du G7. Il a dit que Macron ne comprenait rien sur la situation entre Israël et l'Iran.",
-      "english_summary": "Donald Trump criticized Emmanuel Macron after the G7 summit. He said Macron did not understand anything about the situation between Israel and Iran.",
+      "simplified_french_title": "Une enquête après la plainte d'Hamraoui contre le PSG",
+      "simplified_english_title": "Investigation after Hamraoui's complaint against PSG",
+      "french_summary": "Une enquête a commencé. La joueuse Kheira Hamraoui a porté plainte contre le Paris Saint-Germain pour harcèlement moral. Elle était joueuse de football. Elle demande la reconnaissance de ce harcèlement.",
+      "english_summary": "An investigation has started. Football player Kheira Hamraoui filed a complaint against Paris Saint-Germain for moral harassment. She is seeking recognition of this harassment.",
       "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** pays du Moyen-Orient",
-          "explanation": "Two countries in the Middle East, often in conflict",
+        "Enquête": {
+          "display_format": "**Enquête:** Investigation policière",
+          "explanation": "Police or judicial investigation",
+          "cultural_note": ""
+        },
+        "ouverte": {
+          "display_format": "**ouverte:** Initiée, commencée",
+          "explanation": "Opened, initiated, started",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After, following",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "plainte": {
+          "display_format": "**plainte:** Accusation formelle",
+          "explanation": "Formal complaint, accusation (legal)",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En raison de",
+          "explanation": "For, concerning, on account of",
+          "cultural_note": ""
+        },
+        "harcèlement": {
+          "display_format": "**harcèlement:** Conduite abusive répétée",
+          "explanation": "Harassment, repeated abusive behavior",
+          "cultural_note": ""
+        },
+        "d'Hamraoui": {
+          "display_format": "**d'Hamraoui:** De la personne Hamraoui",
+          "explanation": "Of Hamraoui (referring to Kheira Hamraoui, a French footballer)",
+          "cultural_note": "Refers to Kheira Hamraoui, a well-known French female footballer."
+        },
+        "contre": {
+          "display_format": "**contre:** À l'encontre de",
+          "explanation": "Against, in opposition to",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "PSG": {
+          "display_format": "**PSG:** Paris Saint-Germain (club)",
+          "explanation": "Paris Saint-Germain, major French football club",
+          "cultural_note": "One of the most famous football clubs in France and Europe."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T18:40:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conclave sur les retraites : ce qui est (plus ou moins) acté, ce qui coince, ce qu’il reste à régler d’ici à ce soir",
+      "original_article_link": "https://www.nouvelobs.com/economie/20250617.OBS105023/conclave-sur-les-retraites-ce-qui-est-plus-ou-moins-acte-ce-qui-coince-ce-qu-il-reste-a-regler-d-ici-ce-soir.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 14:43:52 +0200",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 4.851,
+        "relevance_score": 7.0,
+        "importance_score": 6.44,
+        "total_score": 14.552000000000001
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réforme des retraites : ce qui est décidé et ce qui reste à faire",
+      "simplified_english_title": "Pension reform: what is decided and what is left to do",
+      "french_summary": "Un accord sur la réforme des retraites est en discussion. Certains points sont clairs, d'autres posent problème, et il y a encore des décisions à prendre d'ici ce soir.",
+      "english_summary": "An agreement on pension reform is being discussed. Some points are clear, others are problematic, and there are still decisions to be made by this evening.",
+      "contextual_title_explanations": {
+        "Conclave": {
+          "display_format": "**Conclave:** Réunion importante",
+          "explanation": "A significant, often secret, meeting, typically for an election or major decision.",
+          "cultural_note": "Originally refers to the meeting of cardinals to elect a Pope."
+        },
+        "sur": {
+          "display_format": "**sur:** À propos de",
+          "explanation": "About, concerning, regarding.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article).",
+          "cultural_note": ""
+        },
+        "retraites": {
+          "display_format": "**retraites:** Pensions de retraite",
+          "explanation": "Retirement pensions, the system of retirement.",
+          "cultural_note": "A major political and social issue in France."
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing an explanation or list.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Démonstratif",
+          "explanation": "This (demonstrative adjective).",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Which, that (relative pronoun, subject).",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** Verbe être",
+          "explanation": "Is (third person singular of 'être' - to be).",
+          "cultural_note": ""
+        },
+        "(plus": {
+          "display_format": "**(plus:** Plus de",
+          "explanation": "More (part of 'plus ou moins').",
+          "cultural_note": ""
+        },
+        "ou": {
+          "display_format": "**ou:** Conjonction de coordination",
+          "explanation": "Or (conjunction).",
+          "cultural_note": ""
+        },
+        "moins)": {
+          "display_format": "**moins):** Moins de",
+          "explanation": "Less (part of 'plus ou moins').",
+          "cultural_note": ""
+        },
+        "acté": {
+          "display_format": "**acté:** Décidé, confirmé",
+          "explanation": "Decided, confirmed, made official.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separating clauses or items.",
+          "cultural_note": ""
+        },
+        "coince": {
+          "display_format": "**coince:** Pose problème",
+          "explanation": "Is stuck, causes a problem, is difficult.",
+          "cultural_note": "Figurative use of 'coincer' (to jam, to wedge)."
+        },
+        "qu’il": {
+          "display_format": "**qu’il:** Que il",
+          "explanation": "That it, which it (contraction of 'que' and 'il').",
+          "cultural_note": ""
+        },
+        "reste": {
+          "display_format": "**reste:** Demeure",
+          "explanation": "Remains, is left (from 'rester' - to remain).",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To, until (indicating a point in time).",
+          "cultural_note": ""
+        },
+        "régler": {
+          "display_format": "**régler:** Résoudre, décider",
+          "explanation": "To settle, to resolve, to sort out.",
+          "cultural_note": ""
+        },
+        "d’ici": {
+          "display_format": "**d’ici:** Avant",
+          "explanation": "By, from here to (indicating a deadline).",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**soir:** Fin de journée",
+          "explanation": "Evening, tonight.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T16:23:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La surveillante tuée en Haute-Marne recevra la Légion d'honneur à titre posthume, annonce le ministère de l'Education nationale",
+      "original_article_link": "https://www.franceinfo.fr/faits-divers/meurtre-d-une-surveillante-par-un-collegien-en-haute-marne/la-surveillante-tuee-en-haute-marne-recevra-la-legion-d-honneur-a-titre-posthume-annonce-le-ministere-de-l-education-nationale_7319433.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "Tue, 17 Jun 2025 12:40:23 +0200",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 3.597,
+        "relevance_score": 4.0,
+        "importance_score": 6.24,
+        "total_score": 10.792000000000002
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Surveillante tuée : Légion d'honneur posthume",
+      "simplified_english_title": "Slain Supervisor to Receive Posthumous Legion of Honor",
+      "french_summary": "Une surveillante scolaire, victime d'un meurtre, recevra la plus haute distinction française. Le ministère de l'Éducation nationale a fait cette annonce.",
+      "english_summary": "A school supervisor, who was murdered, will receive France's highest honor. The Ministry of National Education made this announcement.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "surveillante": {
+          "display_format": "**surveillante:** Personne qui surveille",
+          "explanation": "Female supervisor or warden",
+          "cultural_note": ""
+        },
+        "tuée": {
+          "display_format": "**tuée:** Mise à mort",
+          "explanation": "Killed (past participle, feminine singular)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans, à l'intérieur",
+          "explanation": "In, within (preposition)",
+          "cultural_note": ""
+        },
+        "Haute-Marne": {
+          "display_format": "**Haute-Marne:** Département français",
+          "explanation": "A department in northeastern France",
+          "cultural_note": ""
+        },
+        "recevra": {
+          "display_format": "**recevra:** Va obtenir",
+          "explanation": "Will receive (future tense of 'recevoir')",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "Légion d'honneur": {
+          "display_format": "**Légion d'honneur:** Ordre honorifique français",
+          "explanation": "France's highest order of merit",
+          "cultural_note": "A prestigious award created by Napoleon Bonaparte."
+        },
+        "à titre posthume": {
+          "display_format": "**à titre posthume:** Après la mort",
+          "explanation": "Posthumously, after death",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Déclare publiquement",
+          "explanation": "Announces (present tense of 'annoncer')",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "ministère de l'Education nationale": {
+          "display_format": "**ministère de l'Education nationale:** Département gouvernemental français",
+          "explanation": "French Ministry of National Education",
+          "cultural_note": "The government body responsible for public education in France."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T16:23:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À Marseille, la permanence du Parti socialiste recouverte de tags antisémites",
+      "original_article_link": "https://www.europe1.fr/societe/a-marseille-la-permanence-du-parti-socialiste-recouverte-de-tags-antisemites-759775",
+      "original_article_published_date": "Tue, 17 Jun 2025 11:29:17 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.621,
+        "relevance_score": 4.0,
+        "importance_score": 6.33,
+        "total_score": 10.864
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tags antisémites sur un local du Parti socialiste à Marseille",
+      "simplified_english_title": "Antisemitic graffiti on Socialist Party office in Marseille",
+      "french_summary": "À Marseille, le bureau local du Parti socialiste a été tagué avec des messages antisémites. Une enquête est ouverte pour retrouver les responsables de ces dégradations.",
+      "english_summary": "In Marseille, the local Socialist Party office was vandalized with antisemitic messages. An investigation is underway to find those responsible for these acts.",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**À:** Préposition de lieu",
+          "explanation": "Preposition meaning 'in' or 'at'",
+          "cultural_note": ""
+        },
+        "Marseille": {
+          "display_format": "**Marseille:** Grande ville française",
+          "explanation": "Major city in Southern France",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Feminine singular definite article 'the'",
+          "cultural_note": ""
+        },
+        "permanence": {
+          "display_format": "**permanence:** Bureau, local",
+          "explanation": "Office or local headquarters, often political",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le, possession",
+          "explanation": "Contraction of 'de' (of/from) and 'le' (the)",
+          "cultural_note": ""
+        },
+        "Parti socialiste": {
+          "display_format": "**Parti socialiste:** Parti politique français",
+          "explanation": "French Socialist Party, a center-left political party",
+          "cultural_note": "A major political party in France, historically significant."
+        },
+        "recouverte": {
+          "display_format": "**recouverte:** Couverte entièrement",
+          "explanation": "Covered completely, past participle of 'recouvrir'",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, par",
+          "explanation": "Preposition meaning 'with' or 'by'",
+          "cultural_note": ""
+        },
+        "tags": {
+          "display_format": "**tags:** Graffitis, inscriptions",
+          "explanation": "Graffiti, spray-painted markings, often illegal",
+          "cultural_note": "English loanword widely used in French for graffiti."
+        },
+        "antisémites": {
+          "display_format": "**antisémites:** Hostiles aux Juifs",
+          "explanation": "Anti-Semitic, hostile or prejudiced against Jewish people",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T16:23:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Derrière le conflit entre Israël et l'Iran, la position ambiguë de Donald Trump : les États-Unis vont-ils entrer en guerre ?",
+      "original_article_link": "https://www.europe1.fr/international/derriere-le-conflit-entre-israel-et-liran-la-position-ambigue-de-donald-trump-les-etats-unis-vont-ils-entrer-en-guerre-759764",
+      "original_article_published_date": "Tue, 17 Jun 2025 10:43:03 +0200",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 3.341,
+        "relevance_score": 4.0,
+        "importance_score": 6.53,
+        "total_score": 10.024000000000001
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit Israël-Iran et Trump : les États-Unis en guerre ?",
+      "simplified_english_title": "Israel-Iran Conflict and Trump: Will US Go to War?",
+      "french_summary": "Derrière la tension entre Israël et l'Iran, la position de Donald Trump est incertaine. La question est de savoir si les États-Unis participeront à un conflit armé.",
+      "english_summary": "Behind the tension between Israel and Iran, Donald Trump's position is unclear. The question is whether the United States will enter an armed conflict.",
+      "contextual_title_explanations": {
+        "Derrière": {
+          "display_format": "**Derrière:** À l'arrière de",
+          "explanation": "Behind, often implying 'underlying' or 'behind the scenes'",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**conflit:** Désaccord, affrontement",
+          "explanation": "Conflict, dispute, confrontation",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Au milieu de",
+          "explanation": "Between, among",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Israel (country)",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And (conjunction)",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran (country), 'l' ' is a contracted definite article",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma (punctuation mark)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "position": {
+          "display_format": "**position:** Posture, opinion",
+          "explanation": "Position, stance, viewpoint",
+          "cultural_note": ""
+        },
+        "ambiguë": {
+          "display_format": "**ambiguë:** Incertaine, indécise",
+          "explanation": "Ambiguous, unclear, hesitant",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from (preposition)",
+          "cultural_note": ""
+        },
+        "Donald Trump": {
+          "display_format": "**Donald Trump:** Ancien président américain",
+          "explanation": "Donald Trump (former US President)",
           "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon, introduces direct speech or explanation",
+          "explanation": "Colon introducing an explanation or a question",
           "cultural_note": ""
         },
-        "&#34;": {
-          "display_format": "**&#34;:** Guillemet fermant",
-          "explanation": "Closing double quotation mark",
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article)",
           "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
+          "explanation": "United States (country)",
+          "cultural_note": ""
+        },
+        "vont-ils": {
+          "display_format": "**vont-ils:** Iront-ils (verbe aller)",
+          "explanation": "Will they go? (Future tense of 'aller' - to go, inverted for question)",
+          "cultural_note": "Implies future action, often 'will they' rather than literally 'will they go?'"
+        },
+        "entrer": {
+          "display_format": "**entrer:** Pénétrer, débuter",
+          "explanation": "To enter, to start, to become involved",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In, into (preposition)",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War (armed conflict)",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark (punctuation mark)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T16:23:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Emmanuel se trompe toujours » : ce que révèle le tacle de Trump à Macron au G7",
+      "original_article_link": "https://www.lepoint.fr/monde/emmanuel-se-trompe-toujours-ce-que-revele-le-tacle-de-trump-a-macron-au-g7--17-06-2025-2592169_24.php",
+      "original_article_published_date": "Tue, 17 Jun 2025 09:42:00 +0200",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 3.611,
+        "relevance_score": 4.0,
+        "importance_score": 6.29,
+        "total_score": 10.832
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le tacle de Trump à Macron au G7",
+      "simplified_english_title": "Trump's jab at Macron at the G7",
+      "french_summary": "Donald Trump a critiqué Emmanuel Macron lors du sommet du G7, déclarant que le président français \"se trompe toujours\" sur certaines questions.",
+      "english_summary": "Donald Trump criticized Emmanuel Macron at the G7 summit, stating the French president \"is always wrong\" on certain issues.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark in French typography.",
+          "cultural_note": "French uses guillemets (« ») for quotes, not “ ”."
         },
         "Emmanuel": {
-          "display_format": "**Emmanuel:** Prénom, ici Macron",
-          "explanation": "First name, referring to Emmanuel Macron",
-          "cultural_note": "Commonly used in French media to refer to Macron"
+          "display_format": "**Emmanuel:** Prénom masculin",
+          "explanation": "Refers to Emmanuel Macron, the current French President.",
+          "cultural_note": ""
         },
-        "ne comprend jamais rien": {
-          "display_format": "**ne comprend jamais rien:** ne saisit rien",
-          "explanation": "Understands absolutely nothing, a strong negative phrasing",
-          "cultural_note": "A common informal, dismissive French expression"
+        "se": {
+          "display_format": "**se:** Pronom réfléchi",
+          "explanation": "Reflexive pronoun, 'himself' or 'oneself'.",
+          "cultural_note": ""
         },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separates clauses",
+        "trompe": {
+          "display_format": "**trompe:** Fait erreur",
+          "explanation": "From 'se tromper', meaning to make a mistake or be wrong.",
+          "cultural_note": ""
+        },
+        "toujours": {
+          "display_format": "**toujours:** À chaque fois",
+          "explanation": "Always, continuously.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»** Guillemet fermant",
+          "explanation": "Closing quotation mark in French typography.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introducing an explanation or elaboration.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce que",
+          "explanation": "Demonstrative pronoun, 'that' or 'what'.",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Ce qui",
+          "explanation": "Relative pronoun, 'what' or 'that'.",
+          "cultural_note": ""
+        },
+        "révèle": {
+          "display_format": "**révèle:** Met en lumière",
+          "explanation": "From 'révéler', meaning to reveal or disclose.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article, 'the'.",
+          "cultural_note": ""
+        },
+        "tacle": {
+          "display_format": "**tacle:** Critique vive",
+          "explanation": "Figurative 'tackle' from sports, meaning a sharp criticism or attack.",
+          "cultural_note": "Commonly used in political discourse to mean a harsh remark."
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of' or 'from'.",
           "cultural_note": ""
         },
         "Trump": {
           "display_format": "**Trump:** Ancien président américain",
-          "explanation": "Donald Trump, former US President",
+          "explanation": "Refers to Donald Trump, former US President.",
           "cultural_note": ""
         },
-        "tacle": {
-          "display_format": "**tacle:** critique vivement",
-          "explanation": "Verb, to criticize sharply or tackle (as in sports)",
-          "cultural_note": "Figurative use, from football/soccer"
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition, 'to' or 'at'.",
+          "cultural_note": ""
         },
         "Macron": {
           "display_format": "**Macron:** Président français",
-          "explanation": "Emmanuel Macron, current French President",
+          "explanation": "Refers to Emmanuel Macron, the current French President.",
           "cultural_note": ""
         },
-        "après avoir quitté": {
-          "display_format": "**après avoir quitté:** suite à son départ",
-          "explanation": "After having left, indicates sequence of events",
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Contraction of 'à le', meaning 'at the' or 'to the'.",
           "cultural_note": ""
         },
-        "le G7": {
-          "display_format": "**le G7:** Groupe des sept",
-          "explanation": "Group of Seven, intergovernmental political forum of leading industrialized countries",
+        "G7": {
+          "display_format": "**G7:** Groupe des sept",
+          "explanation": "Group of Seven, an intergovernmental political forum.",
+          "cultural_note": "Comprises Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T16:23:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le fil du jour. L’Iran dénonce la «rhétorique unilatérale» du G7",
+      "original_article_link": "https://www.mediapart.fr/journal/international/170625/le-fil-du-jour-l-iran-denonce-la-rhetorique-unilaterale-du-g7",
+      "original_article_published_date": "Tue, 17 Jun 2025 08:11:38 +0200",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 3.677,
+        "relevance_score": 4.0,
+        "importance_score": 6.54,
+        "total_score": 11.032
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran critique les déclarations du G7",
+      "simplified_english_title": "Iran criticizes G7 statements",
+      "french_summary": "L'Iran exprime son désaccord avec les paroles du G7, qu'il juge unilatérales. Cette déclaration fait partie des nouvelles importantes du jour.",
+      "english_summary": "Iran expresses its disagreement with the G7's statements, which it considers unilateral. This declaration is among the important news of the day.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
+        },
+        "fil": {
+          "display_format": "**fil:** Suite logique, enchaînement",
+          "explanation": "Thread, sequence (of events/news)",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (contraction of 'de' and 'le')",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**jour:** Période de 24h",
+          "explanation": "Day",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point final",
+          "explanation": "Period, full stop",
+          "cultural_note": ""
+        },
+        "L’Iran": {
+          "display_format": "**L’Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran (country in the Middle East)",
+          "cultural_note": ""
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** Critique fortement, accuse",
+          "explanation": "Denounces, condemns, criticizes strongly",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "«rhétorique": {
+          "display_format": "**«rhétorique:** Art de persuader",
+          "explanation": "Rhetoric, art of persuasion (within quotation marks)",
+          "cultural_note": ""
+        },
+        "unilatérale»": {
+          "display_format": "**unilatérale»:** D'un seul côté",
+          "explanation": "Unilateral, one-sided (within quotation marks)",
+          "cultural_note": ""
+        },
+        "G7": {
+          "display_format": "**G7:** Groupe des Sept",
+          "explanation": "Group of Seven (intergovernmental political forum)",
+          "cultural_note": "Includes Canada, France, Germany, Italy, Japan, UK, US"
         }
       },
       "key_vocabulary": null,
@@ -1350,291 +1966,129 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Conclave sur les retraites : Bayrou doit-il se préparer à être censuré ?",
-      "original_article_link": "https://www.lepoint.fr/politique/conclave-sur-les-retraites-bayrou-doit-il-se-preparer-a-etre-censure-17-06-2025-2592211_20.php",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:52:00 +0200",
-      "source_name": "Le Point",
+      "original_article_title": "Tirs de missiles, départ anticipé de Trump du sommet du G7, interview de Netanyahou… Ce que l’on sait de la 5ᵉ nuit de frappes entre l’Iran et Israël",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250617.OBS105021/tirs-de-missiles-depart-anticipe-de-trump-du-sommet-du-g7-interview-de-netanyahou-ce-que-l-on-sait-de-la-5e-nuit-de-frappes-entre-l-iran-et-israel.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 10:16:23 +0200",
+      "source_name": "L'Obs",
       "quality_scores": {
-        "quality_score": 4.792,
-        "relevance_score": 7.0,
-        "importance_score": 6.22,
-        "total_score": 14.376000000000001
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Réforme des retraites : Bayrou risque-t-il la censure ?",
-      "simplified_english_title": "Pension reform: Is Bayrou at risk of censorship?",
-      "french_summary": "Lors d'un débat sur les retraites, la question se pose : le parti de François Bayrou pourrait-il être visé par une motion de censure parlementaire ?",
-      "english_summary": "During a debate on pension reform, the question arises: could François Bayrou's party face a parliamentary no-confidence vote?",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Conclave:** Réunion secrète importante",
-          "explanation": "A secret or private meeting, often with religious or political connotations.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About, concerning.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article).",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**retraites:** Pensions de vieillesse",
-          "explanation": "Retirement pensions; refers to the system of retirement benefits.",
-          "cultural_note": "A frequent subject of political debate and reform in France."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introducing an explanation or question.",
-          "cultural_note": ""
-        },
-        "Bayrou": {
-          "display_format": "**Bayrou:** Homme politique français",
-          "explanation": "François Bayrou, a prominent French centrist politician.",
-          "cultural_note": "Leader of the MoDem party, often a key figure in coalition governments."
-        },
-        "doit-il": {
-          "display_format": "**doit-il:** Est-ce qu'il doit",
-          "explanation": "Should he? (Inverted subject-verb for question).",
-          "cultural_note": ""
-        },
-        "se préparer": {
-          "display_format": "**se préparer:** S'apprêter à",
-          "explanation": "To prepare oneself, to get ready.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de but",
-          "explanation": "To, in order to (preposition indicating purpose).",
-          "cultural_note": ""
-        },
-        "être censuré": {
-          "display_format": "**être censuré:** Subir une censure",
-          "explanation": "To be censored, to face criticism or disapproval, potentially leading to a no-confidence vote.",
-          "cultural_note": "In French politics, 'censure' can refer to a motion of no-confidence against the government."
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark, indicating an interrogative sentence.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T14:19:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Conclave\" sur les retraites : \"S'il n'y a pas d'accord, la réforme telle qu'elle a été adoptée s'appliquera\", prévient François Bayrou",
-      "original_article_link": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/direct-conclave-sur-les-retraites-la-negociation-n-a-pas-avance-a-la-mi-journee-deplore-la-cfdt_7319391.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "Tue, 17 Jun 2025 15:46:37 +0200",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 4.464,
-        "relevance_score": 7.0,
-        "importance_score": 6.24,
-        "total_score": 13.392000000000001
+        "quality_score": 3.685,
+        "relevance_score": 4.0,
+        "importance_score": 6.57,
+        "total_score": 11.056000000000001
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Retraites : Bayrou prévient qu'il n'y aura pas d'accord",
-      "simplified_english_title": "Pensions: Bayrou warns there will be no agreement",
-      "french_summary": "François Bayrou a dit que si les discussions sur les retraites échouent, la réforme déjà votée sera appliquée.",
-      "english_summary": "François Bayrou stated that if pension discussions fail, the reform already passed will be implemented.",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Conclave:** Réunion secrète importante",
-          "explanation": "A private, important meeting, often with serious decisions",
-          "cultural_note": "Originally refers to the meeting of cardinals to elect a Pope"
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About, concerning",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**retraites:** Pensions de vieillesse",
-          "explanation": "Retirement pensions; the system of retirement",
-          "cultural_note": "A highly debated topic in France"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or direct speech",
-          "cultural_note": ""
-        },
-        "S'il": {
-          "display_format": "**S'il:** Si il",
-          "explanation": "If he/it",
-          "cultural_note": ""
-        },
-        "n'y": {
-          "display_format": "**n'y:** Ne y",
-          "explanation": "Negative particle + adverbial pronoun 'there'",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**a:** Verbe avoir",
-          "explanation": "Has (from avoir, to have)",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** Négation",
-          "explanation": "Not (part of negative construction ne...pas)",
-          "cultural_note": ""
-        },
-        "d'accord": {
-          "display_format": "**d'accord:** Un consentement",
-          "explanation": "An agreement, consensus",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separating clauses",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "réforme": {
-          "display_format": "**réforme:** Changement majeur",
-          "explanation": "A reform, a major change",
-          "cultural_note": ""
-        },
-        "telle": {
-          "display_format": "**telle:** De cette manière",
-          "explanation": "Such as, in such a way",
-          "cultural_note": ""
-        },
-        "qu'elle": {
-          "display_format": "**qu'elle:** Que elle",
-          "explanation": "That she/it",
-          "cultural_note": ""
-        },
-        "été": {
-          "display_format": "**été:** Participe passé de être",
-          "explanation": "Been (past participle of 'to be')",
-          "cultural_note": ""
-        },
-        "adoptée": {
-          "display_format": "**adoptée:** Acceptée, votée",
-          "explanation": "Adopted, passed (feminine singular)",
-          "cultural_note": ""
-        },
-        "s'appliquera": {
-          "display_format": "**s'appliquera:** Sera mise en œuvre",
-          "explanation": "Will apply, will be implemented (future tense)",
-          "cultural_note": ""
-        },
-        "\"": {
-          "display_format": "**\":** Guillemet fermant",
-          "explanation": "Closing double quotation mark",
-          "cultural_note": ""
-        },
-        "prévient": {
-          "display_format": "**prévient:** Avertit, annonce",
-          "explanation": "Warns, announces (from prévenir)",
-          "cultural_note": ""
-        },
-        "François Bayrou": {
-          "display_format": "**François Bayrou:** Homme politique français",
-          "explanation": "French politician, leader of the MoDem party",
-          "cultural_note": ""
-        }
-      },
+      "simplified_french_title": "Iran-Israël : Nuit de frappes, Trump quitte le G7",
+      "simplified_english_title": "Iran-Israel: Night of Strikes, Trump Leaves G7",
+      "french_summary": "Une cinquième nuit de frappes a eu lieu entre l'Iran et Israël. Des missiles ont été tirés. Le président Trump a quitté le sommet du G7 plus tôt que prévu.",
+      "english_summary": "A fifth night of strikes occurred between Iran and Israel, with missiles fired. President Trump left the G7 summit earlier than planned.",
+      "contextual_title_explanations": null,
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-17T14:19:49",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
-      "backfill_attempts": 0
+      "backfill_attempts": 1
     },
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Grosse claque du Parlement contre les salaires minimaux cantonaux",
-      "original_article_link": "https://www.20min.ch/fr/story/conseil-national-grosse-claque-du-parlement-contre-les-salaires-minimaux-cantonaux-103365901",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:40:54 GMT",
-      "source_name": "20 Minutes",
+      "original_article_title": "A l’Assemblée, la drôle d’attitude des députés Renaissance sur la suppression des zones à faibles émissions",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250617.OBS105022/a-l-assemblee-la-drole-d-attitude-des-deputes-renaissance-sur-la-suppression-des-zones-a-faibles-emissions.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 10:00:14 +0200",
+      "source_name": "L'Obs",
       "quality_scores": {
-        "quality_score": 5.608,
-        "relevance_score": 9.0,
-        "importance_score": 6.28,
-        "total_score": 16.823999999999998
+        "quality_score": 3.659,
+        "relevance_score": 4.0,
+        "importance_score": 6.47,
+        "total_score": 10.975999999999999
       },
       "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Le Parlement rejette les salaires minimaux des cantons",
-      "simplified_english_title": "Parliament rejects cantonal minimum wages",
-      "french_summary": "Le Parlement suisse a voté contre l'introduction de salaires minimaux fixés par les cantons. Cette décision marque un revers important pour les initiateurs de ces mesures.",
-      "english_summary": "The Swiss Parliament voted against introducing minimum wages set by the cantons. This decision represents a significant setback for those who proposed these measures.",
+      "simplified_french_title": "Les députés Renaissance et les zones à faibles émissions",
+      "simplified_english_title": "Renaissance MPs and low-emission zones",
+      "french_summary": "Les députés du parti Renaissance ont eu une attitude inhabituelle sur la question de la suppression des zones à faibles émissions à l'Assemblée Nationale.",
+      "english_summary": "Renaissance party MPs showed an unusual attitude regarding the removal of low-emission zones in the National Assembly.",
       "contextual_title_explanations": {
-        "Grosse": {
-          "display_format": "**Grosse:** Grande, importante",
-          "explanation": "Large, significant (feminine form)",
+        "A": {
+          "display_format": "**A:** Préposition de lieu",
+          "explanation": "Indicates location, 'at' or 'in'.",
           "cultural_note": ""
         },
-        "claque": {
-          "display_format": "**claque:** Coup, défaite humiliante",
-          "explanation": "Slap; here, a resounding defeat or rejection",
+        "l’Assemblée": {
+          "display_format": "**l’Assemblée:** Assemblée nationale",
+          "explanation": "Refers to the French National Assembly, the lower house of Parliament.",
+          "cultural_note": "Commonly refers to the Assemblée Nationale in France."
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separates clauses or items.",
           "cultural_note": ""
         },
-        "du": {
-          "display_format": "**du:** De le",
-          "explanation": "Of the (masculine singular)",
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Feminine definite article, 'the'.",
           "cultural_note": ""
         },
-        "Parlement": {
-          "display_format": "**Parlement:** Assemblée législative",
-          "explanation": "The legislative body; in this context, likely the Swiss Parliament",
-          "cultural_note": "Switzerland has a bicameral parliament."
-        },
-        "contre": {
-          "display_format": "**contre:** Opposition à",
-          "explanation": "Against, in opposition to",
+        "drôle": {
+          "display_format": "**drôle:** Étrange, singulier",
+          "explanation": "Strange, peculiar, or funny.",
           "cultural_note": ""
         },
-        "les": {
-          "display_format": "**les:** Articles définis pluriels",
-          "explanation": "The (plural)",
+        "d’attitude": {
+          "display_format": "**d’attitude:** Comportement, manière d'être",
+          "explanation": "Behavior or demeanor.",
           "cultural_note": ""
         },
-        "salaires": {
-          "display_format": "**salaires:** Rémunérations de travail",
-          "explanation": "Wages, salaries",
+        "des": {
+          "display_format": "**des:** Article contracté",
+          "explanation": "Contraction of 'de les', meaning 'of the' or 'some'.",
           "cultural_note": ""
         },
-        "minimaux": {
-          "display_format": "**minimaux:** Les plus bas",
-          "explanation": "Minimum (plural masculine)",
+        "députés": {
+          "display_format": "**députés:** Membres de l'Assemblée",
+          "explanation": "Members of Parliament, elected representatives.",
           "cultural_note": ""
         },
-        "cantonaux": {
-          "display_format": "**cantonaux:** Relatifs aux cantons",
-          "explanation": "Pertaining to the cantons (Swiss states)",
-          "cultural_note": "Switzerland is divided into 26 cantons, each with significant autonomy."
+        "Renaissance": {
+          "display_format": "**Renaissance:** Parti politique français",
+          "explanation": "The political party of French President Emmanuel Macron.",
+          "cultural_note": "Formerly 'La République En Marche!' (LREM)."
+        },
+        "sur": {
+          "display_format": "**sur:** Préposition de sujet",
+          "explanation": "Means 'on' or 'about' a topic.",
+          "cultural_note": ""
+        },
+        "suppression": {
+          "display_format": "**suppression:** Action d'abolir",
+          "explanation": "The act of removing or abolishing something.",
+          "cultural_note": ""
+        },
+        "zones": {
+          "display_format": "**zones:** Espaces délimités",
+          "explanation": "Defined areas or regions.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de but",
+          "explanation": "Indicates purpose, 'for' or 'to'.",
+          "cultural_note": ""
+        },
+        "faibles": {
+          "display_format": "**faibles:** Peu intenses",
+          "explanation": "Low, weak, or reduced.",
+          "cultural_note": ""
+        },
+        "émissions": {
+          "display_format": "**émissions:** Rejets polluants",
+          "explanation": "Pollutant discharges, especially from vehicles.",
+          "cultural_note": "Refers to air pollution."
         }
       },
       "key_vocabulary": null,
@@ -1648,149 +2102,230 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Pascal Praud et vous - ZFE : «Un coup d’État légal pour imposer à la nation ce qu’elle ne veut pas», juge Alexandre Jardin",
-      "original_article_link": "https://www.europe1.fr/Environnement/pascal-praud-et-vous-zfe-un-coup-detat-legal-pour-imposer-a-la-nation-ce-quelle-ne-veut-pas-juge-alexandre-jardin-759783",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:28:16 +0200",
-      "source_name": "Europe 1",
+      "original_article_title": "Serge Letchimy : « Le narcotrafic ronge la Martinique, et l’Etat regarde ailleurs »",
+      "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/17/le-narcotrafic-ronge-la-martinique-et-l-etat-regarde-ailleurs_6613761_3232.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 10:00:09 +0200",
+      "source_name": "Le Monde",
       "quality_scores": {
-        "quality_score": 3.64,
+        "quality_score": 5.659,
+        "relevance_score": 9.0,
+        "importance_score": 6.47,
+        "total_score": 16.976
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Martinique face à la drogue : l'État ne réagit pas",
+      "simplified_english_title": "Martinique faces drug problem: State not reacting",
+      "french_summary": "Serge Letchimy déclare que le trafic de drogue détruit la Martinique. Il critique l'État français qui ne fait rien pour arrêter ce problème grave.",
+      "english_summary": "Serge Letchimy states that drug trafficking is harming Martinique. He criticizes the French government for not taking action to stop this serious issue.",
+      "contextual_title_explanations": {
+        "Serge Letchimy": {
+          "display_format": "**Serge Letchimy:** Homme politique martiniquais",
+          "explanation": "A French politician from Martinique, currently President of the Executive Council of Martinique.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, indicates a direct quote follows.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening guillemet, indicates the beginning of a direct quotation.",
+          "cultural_note": "French quotation marks are guillemets, not inverted commas."
+        },
+        "Le": {
+          "display_format": "**Le:** Article défini masculin",
+          "explanation": "The (masculine singular definite article).",
+          "cultural_note": ""
+        },
+        "narcotrafic": {
+          "display_format": "**narcotrafic:** Trafic de drogues",
+          "explanation": "Drug trafficking, illegal trade in narcotics.",
+          "cultural_note": ""
+        },
+        "ronge": {
+          "display_format": "**ronge:** Détruit lentement",
+          "explanation": "Gnaws, erodes, slowly destroys or consumes.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article).",
+          "cultural_note": ""
+        },
+        "Martinique": {
+          "display_format": "**Martinique:** Île française, Caraïbes",
+          "explanation": "An island and French overseas department in the Caribbean.",
+          "cultural_note": "A French overseas collectivity, part of the European Union."
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separates clauses.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And, connects two parts of a sentence.",
+          "cultural_note": ""
+        },
+        "l’Etat": {
+          "display_format": "**l’Etat:** Le gouvernement national",
+          "explanation": "The State, referring to the national government (of France).",
+          "cultural_note": "Often capitalized to refer to the governing body of a country."
+        },
+        "regarde": {
+          "display_format": "**regarde:** Observe, ne réagit pas",
+          "explanation": "Looks, watches; in this context, implies inaction or turning a blind eye.",
+          "cultural_note": ""
+        },
+        "ailleurs": {
+          "display_format": "**ailleurs:** À un autre endroit",
+          "explanation": "Elsewhere, in another place; here, implies ignoring the issue.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing guillemet, indicates the end of a direct quotation.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Coke, FN et jets privés : « Y a-t-il un dealer dans l’avion ? » est la série Netflix à voir absolument",
+      "original_article_link": "https://www.lepoint.fr/culture/coke-fn-et-jets-prives-y-a-t-il-un-dealer-dans-l-avion-est-la-serie-netflix-a-voir-absolument-17-06-2025-2592171_3.php",
+      "original_article_published_date": "Tue, 17 Jun 2025 10:00:00 +0200",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 3.603,
         "relevance_score": 4.0,
-        "importance_score": 6.4,
-        "total_score": 10.920000000000002
+        "importance_score": 6.26,
+        "total_score": 10.808
       },
       "difficulty": "B2",
       "tone": "opinion",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "ZFE : «Coup d'État légal» selon Alexandre Jardin",
-      "simplified_english_title": "ZFE: \"Legal Coup d'État\" According to Alexandre Jardin",
-      "french_summary": "Alexandre Jardin critique les Zones à Faibles Émissions, les qualifiant de «coup d'État légal» pour imposer des règles que la population ne souhaite pas.",
-      "english_summary": "Alexandre Jardin criticizes Low Emission Zones, calling them a \"legal coup d'état\" to impose rules that the population does not want.",
+      "simplified_french_title": "Nouvelle série Netflix sur la drogue et la politique",
+      "simplified_english_title": "New Netflix series about drugs and politics",
+      "french_summary": "Une série Netflix explore le monde de la drogue, du Front National et des jets privés, posant la question de la présence d'un trafiquant d'un avion. C'est une série à ne pas manquer.",
+      "english_summary": "A Netflix series explores the world of drugs, the National Front, and private jets, asking if there's a dealer on the plane. It is a must-watch series.",
       "contextual_title_explanations": {
-        "Pascal Praud": {
-          "display_format": "**Pascal Praud:** Journaliste, animateur télé",
-          "explanation": "Well-known French journalist and TV host.",
-          "cultural_note": "Known for his talk shows and often controversial opinions."
-        },
-        "et": {
-          "display_format": "**Et:** Conjonction de coordination",
-          "explanation": "And, used to connect words or clauses.",
-          "cultural_note": ""
-        },
-        "vous": {
-          "display_format": "**Vous:** Pronom personnel",
-          "explanation": "You (formal or plural).",
-          "cultural_note": ""
-        },
-        "-": {
-          "display_format": "**-:** Tiret, trait d'union",
-          "explanation": "Dash, often used to separate parts of a title.",
-          "cultural_note": ""
-        },
-        "ZFE": {
-          "display_format": "**ZFE:** Zone à faibles émissions",
-          "explanation": "Low Emission Zone, urban areas restricting polluting vehicles.",
-          "cultural_note": "Implemented in many French cities to improve air quality."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introducing a direct quote or explanation.",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guimet ouvrant",
-          "explanation": "Opening guillemet (French quotation mark).",
-          "cultural_note": "French uses these instead of “ ”."
-        },
-        "Un": {
-          "display_format": "**Un:** Article indéfini masculin",
-          "explanation": "A, an (masculine singular).",
-          "cultural_note": ""
-        },
-        "coup": {
-          "display_format": "**Coup:** Action, mouvement rapide",
-          "explanation": "Blow, strike, or sudden action.",
-          "cultural_note": ""
-        },
-        "d’État": {
-          "display_format": "**D’État:** Relatif à l'État",
-          "explanation": "Of the state, related to government.",
-          "cultural_note": "Commonly used in 'coup d'État' (coup d'état)."
-        },
-        "légal": {
-          "display_format": "**Légal:** Conforme à la loi",
-          "explanation": "Legal, in accordance with the law.",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**Pour:** Préposition de but",
-          "explanation": "For, in order to.",
-          "cultural_note": ""
-        },
-        "imposer": {
-          "display_format": "**Imposer:** Rendre obligatoire",
-          "explanation": "To impose, to enforce.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**À:** Préposition de lieu",
-          "explanation": "To, at, in.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**La:** Article défini féminin",
-          "explanation": "The (feminine singular).",
-          "cultural_note": ""
-        },
-        "nation": {
-          "display_format": "**Nation:** Ensemble de citoyens",
-          "explanation": "Nation, the people of a country.",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**Ce:** Pronom démonstratif",
-          "explanation": "This, that (neuter demonstrative pronoun).",
-          "cultural_note": ""
-        },
-        "qu’elle": {
-          "display_format": "**Qu’elle:** Que + elle",
-          "explanation": "That she, what she.",
-          "cultural_note": ""
-        },
-        "ne": {
-          "display_format": "**Ne:** Adverbe de négation",
-          "explanation": "Not (part of a negation, often paired with 'pas').",
-          "cultural_note": "Often omitted in informal spoken French."
-        },
-        "veut": {
-          "display_format": "**Veut:** Forme de 'vouloir'",
-          "explanation": "Wants (from the verb 'vouloir' - to want).",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**Pas:** Adverbe de négation",
-          "explanation": "Not (completes the negation with 'ne').",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guimet fermant",
-          "explanation": "Closing guillemet (French quotation mark).",
+        "Coke": {
+          "display_format": "**Coke:** Cocaïne, drogue illégale",
+          "explanation": "Illegal drug, short for cocaine",
           "cultural_note": ""
         },
         ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, indicating a pause or separating clauses.",
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating items in a list",
           "cultural_note": ""
         },
-        "juge": {
-          "display_format": "**Juge:** Verbe 'juger'",
-          "explanation": "Judges, deems (from the verb 'juger' - to judge).",
+        "FN": {
+          "display_format": "**FN:** Front National (ancien)",
+          "explanation": "Former name of a far-right French political party, now Rassemblement National",
+          "cultural_note": "Now called Rassemblement National (RN)"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And, connecting two elements",
           "cultural_note": ""
         },
-        "Alexandre Jardin": {
-          "display_format": "**Alexandre Jardin:** Écrivain français",
-          "explanation": "French writer and filmmaker.",
-          "cultural_note": "Known for his novels and civic engagement."
+        "jets privés": {
+          "display_format": "**jets privés:** Avions personnels, de luxe",
+          "explanation": "Luxury private airplanes",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing an explanation or quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark (French style)",
+          "cultural_note": "French quotation marks are guillemets, often used with spaces"
+        },
+        "Y a-t-il": {
+          "display_format": "**Y a-t-il:** Est-ce qu'il y a",
+          "explanation": "Is there, inverted form of 'il y a'",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini masculin",
+          "explanation": "A, an (masculine singular indefinite article)",
+          "cultural_note": ""
+        },
+        "dealer": {
+          "display_format": "**dealer:** Trafiquant de drogue",
+          "explanation": "Drug trafficker or seller",
+          "cultural_note": "English loanword, commonly used in French for drug sellers"
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition de lieu",
+          "explanation": "In, inside (preposition of place)",
+          "cultural_note": ""
+        },
+        "l’avion": {
+          "display_format": "**l’avion:** L'aéronef",
+          "explanation": "The plane, the aircraft",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark, indicating an interrogative sentence",
+          "cultural_note": "In French typography, a space precedes the question mark"
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark (French style)",
+          "cultural_note": "French quotation marks are guillemets, often used with spaces"
+        },
+        "est": {
+          "display_format": "**est:** Verbe être (3e pers.)",
+          "explanation": "Is, third person singular of 'être' (to be)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular definite article)",
+          "cultural_note": ""
+        },
+        "série": {
+          "display_format": "**série:** Succession d'épisodes",
+          "explanation": "Series, a sequence of episodes",
+          "cultural_note": ""
+        },
+        "Netflix": {
+          "display_format": "**Netflix:** Plateforme de streaming",
+          "explanation": "Online streaming service for films and TV series",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition, indique le but",
+          "explanation": "To, at (preposition, indicates purpose)",
+          "cultural_note": ""
+        },
+        "voir": {
+          "display_format": "**voir:** Regarder, visionner",
+          "explanation": "To see, to watch",
+          "cultural_note": ""
+        },
+        "absolument": {
+          "display_format": "**absolument:** De manière certaine",
+          "explanation": "Absolutely, definitely, without doubt",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": null,
@@ -1804,10 +2339,243 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Habillement : les Français ont acheté en moyenne 42 pièces par personne en 2024, un record",
-      "original_article_link": "https://www.la-croix.com/economie/habillement-les-francais-ont-achete-en-moyenne-42-pieces-par-personne-en-2024-un-record-20250617",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:23:20 +0200",
+      "original_article_title": "Denis Peiron, journaliste à La Croix, lauréat du Grand prix AFJA 2025 du journalisme agricole et agroalimentaire",
+      "original_article_link": "https://www.la-croix.com/service/denis-peiron-journaliste-a-la-croix-laureat-du-grand-prix-afja-2025-du-journalisme-agricole-et-agroalimentaire-20250617",
+      "original_article_published_date": "Tue, 17 Jun 2025 09:56:53 +0200",
       "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 4.837,
+        "relevance_score": 7.0,
+        "importance_score": 6.39,
+        "total_score": 14.512
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Denis Peiron, journaliste, gagne un prix important",
+      "simplified_english_title": "Journalist Denis Peiron wins major award",
+      "french_summary": "Denis Peiron, journaliste du journal La Croix, a reçu le Grand prix AFJA 2025. Ce prix récompense son travail dans le journalisme agricole et agroalimentaire.",
+      "english_summary": "Denis Peiron, a journalist from La Croix newspaper, received the AFJA Grand Prize 2025. This award recognizes his work in agricultural and food journalism.",
+      "contextual_title_explanations": {
+        "Denis Peiron": {
+          "display_format": "**Denis Peiron:** Nom propre",
+          "explanation": "Proper noun, name of a person",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating elements in a list or phrase",
+          "cultural_note": ""
+        },
+        "journaliste": {
+          "display_format": "**journaliste:** Personne qui écrit",
+          "explanation": "Journalist, a person who writes for a newspaper or magazine",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de lieu",
+          "explanation": "Preposition 'at' or 'in', indicating location",
+          "cultural_note": ""
+        },
+        "La Croix": {
+          "display_format": "**La Croix:** Journal français quotidien",
+          "explanation": "French daily newspaper, known for its Catholic perspective",
+          "cultural_note": "A major national newspaper in France."
+        },
+        "lauréat": {
+          "display_format": "**lauréat:** Gagnant d'un prix",
+          "explanation": "Laureate, winner of an award or prize",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de' (of/from) and 'le' (the)",
+          "cultural_note": ""
+        },
+        "Grand prix AFJA 2025": {
+          "display_format": "**Grand prix AFJA 2025:** Prix important",
+          "explanation": "Major award given by AFJA in 2025",
+          "cultural_note": "AFJA stands for Association Française des Journalistes Agricoles."
+        },
+        "journalisme": {
+          "display_format": "**journalisme:** Métier de journaliste",
+          "explanation": "Journalism, the profession of writing for newspapers/magazines",
+          "cultural_note": ""
+        },
+        "agricole": {
+          "display_format": "**agricole:** Relatif à l'agriculture",
+          "explanation": "Agricultural, related to farming or agriculture",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "Conjunction 'and', connecting words or phrases",
+          "cultural_note": ""
+        },
+        "agroalimentaire": {
+          "display_format": "**agroalimentaire:** Lié à l'alimentation",
+          "explanation": "Agri-food, related to the food industry from farm to table",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Mondial des clubs: Flamengo ne rate pas ses débuts face à l'Espérance de Tunis",
+      "original_article_link": "https://www.rfi.fr/fr/sports/20250617-mondial-des-clubs-flamengo-ne-rate-pas-ses-d%C3%A9buts-face-%C3%A0-l-esp%C3%A9rance-de-tunis",
+      "original_article_published_date": "Tue, 17 Jun 2025 07:34:19 GMT",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 4.056,
+        "relevance_score": 4.0,
+        "importance_score": 7.96,
+        "total_score": 12.168
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Mondial des clubs : Flamengo gagne son premier match",
+      "simplified_english_title": "Club World Cup: Flamengo wins first match",
+      "french_summary": "Flamengo a bien commencé sa participation au Mondial des clubs en battant l'équipe de l'Espérance de Tunis lors de son premier match. Ils se sont qualifiés pour la suite de la compétition.",
+      "english_summary": "Flamengo started their Club World Cup campaign successfully by defeating Espérance de Tunis in their first match. They have now qualified for the next stage of the competition.",
+      "contextual_title_explanations": {
+        "Mondial": {
+          "display_format": "**Mondial:** Compétition mondiale",
+          "explanation": "Refers to a global competition or championship.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini contracté",
+          "explanation": "Contraction of 'de' (of/from) and 'les' (the).",
+          "cultural_note": ""
+        },
+        "clubs": {
+          "display_format": "**clubs:** Équipes sportives",
+          "explanation": "Refers to sports teams or associations.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, used here to introduce an explanation or elaboration.",
+          "cultural_note": ""
+        },
+        "Flamengo": {
+          "display_format": "**Flamengo:** Club de football brésilien",
+          "explanation": "Brazilian football club, very popular.",
+          "cultural_note": "One of Brazil's most successful and popular football clubs."
+        },
+        "ne": {
+          "display_format": "**ne:** Négation (première partie)",
+          "explanation": "First part of a two-part negation in French.",
+          "cultural_note": ""
+        },
+        "rate": {
+          "display_format": "**rate:** Manque, échoue",
+          "explanation": "From the verb 'rater', meaning to miss or fail.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation (deuxième partie)",
+          "explanation": "Second part of a two-part negation in French, meaning 'not'.",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Déterminant possessif",
+          "explanation": "Possessive determiner, meaning 'his/her/its' (plural).",
+          "cultural_note": ""
+        },
+        "débuts": {
+          "display_format": "**débuts:** Premières apparitions",
+          "explanation": "Refers to the first appearances or beginnings (e.g., in a competition).",
+          "cultural_note": ""
+        },
+        "face": {
+          "display_format": "**face:** En opposition à",
+          "explanation": "Preposition meaning 'facing' or 'against'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition meaning 'to' or 'at'.",
+          "cultural_note": ""
+        },
+        "l'": {
+          "display_format": "**l':** Article défini élidé",
+          "explanation": "Elided definite article 'la' or 'le', meaning 'the'.",
+          "cultural_note": ""
+        },
+        "Espérance de Tunis": {
+          "display_format": "**Espérance de Tunis:** Club de football tunisien",
+          "explanation": "Tunisian football club, officially Espérance Sportive de Tunis.",
+          "cultural_note": "A major and successful football club from Tunisia."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Une chanson",
+      "original_article_link": "https://www.la-croix.com/a-vif/une-chanson-20250617",
+      "original_article_published_date": "Tue, 17 Jun 2025 09:11:40 +0200",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 3.608,
+        "relevance_score": 4.0,
+        "importance_score": 6.28,
+        "total_score": 10.824000000000002
+      },
+      "difficulty": "A1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une chanson",
+      "simplified_english_title": "A Song",
+      "french_summary": "Cet article parle d'une chanson. Il pourrait s'agir d'une nouvelle chanson, d'une chanson populaire ou d'un événement lié à la musique.",
+      "english_summary": "This article is about a song. It could be a new song, a popular song, or an event related to music.",
+      "contextual_title_explanations": {
+        "Une": {
+          "display_format": "**Une:** Article indéfini féminin",
+          "explanation": "An, a (feminine singular)",
+          "cultural_note": ""
+        },
+        "chanson": {
+          "display_format": "**chanson:** Œuvre musicale vocale",
+          "explanation": "A song",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Réforme de l'audiovisuel public : «Le statu quo n'est plus possible», assure Rachida Dati",
+      "original_article_link": "https://www.europe1.fr/politique/reforme-de-laudiovisuel-public-le-statu-quo-nest-plus-possible-assure-rachida-dati-759693",
+      "original_article_published_date": "Tue, 17 Jun 2025 09:04:53 +0200",
+      "source_name": "Europe 1",
       "quality_scores": {
         "quality_score": 3.667,
         "relevance_score": 4.0,
@@ -1818,453 +2586,65 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Les Français achètent beaucoup de vêtements en 2024",
-      "simplified_english_title": "French people bought many clothes in 2024",
-      "french_summary": "En 2024, chaque personne en France a acheté en moyenne 42 vêtements. C'est un nouveau record pour les achats d'habits.",
-      "english_summary": "In 2024, each person in France bought an average of 42 clothing items. This is a new record for clothing purchases.",
+      "simplified_french_title": "Réforme de l'audiovisuel public : \"Le statu quo n'est plus possible\"",
+      "simplified_english_title": "Public broadcasting reform: \"The status quo is no longer possible\"",
+      "french_summary": "La ministre Rachida Dati déclare que la situation actuelle de l'audiovisuel public ne peut pas continuer. Une réforme est nécessaire pour changer les choses.",
+      "english_summary": "Minister Rachida Dati states that the current situation of public broadcasting cannot continue. A reform is necessary to change things.",
       "contextual_title_explanations": {
-        "Habillement": {
-          "display_format": "**Habillement:** Vêtements, façon de s'habiller",
-          "explanation": "Clothing, way of dressing. Refers to the sector or act of dressing.",
+        "Réforme": {
+          "display_format": "**Réforme:** Changement, amélioration",
+          "explanation": "A change or improvement to a system or law.",
           "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartient à",
+          "explanation": "Indicates belonging or origin; 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "l'audiovisuel public": {
+          "display_format": "**l'audiovisuel public:** Médias d'État",
+          "explanation": "State-owned broadcasting and media sector (TV, radio).",
+          "cultural_note": "Refers to public services like France Télévisions and Radio France."
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon, used here to introduce an explanation or a list.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article). Refers to specific people or things.",
-          "cultural_note": ""
-        },
-        "Français": {
-          "display_format": "**Français:** Citoyens de la France",
-          "explanation": "French people. Refers to the inhabitants of France.",
-          "cultural_note": ""
-        },
-        "ont": {
-          "display_format": "**ont:** Forme du verbe avoir",
-          "explanation": "Have (third person plural present tense of 'avoir'). Indicates possession or completion of an action.",
-          "cultural_note": ""
-        },
-        "acheté": {
-          "display_format": "**acheté:** Participe passé d'acheter",
-          "explanation": "Bought (past participle of 'acheter'). Indicates a completed action of purchasing.",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition, indiquant année",
-          "explanation": "In. Used to indicate a year or period of time.",
-          "cultural_note": ""
-        },
-        "moyenne": {
-          "display_format": "**moyenne:** Valeur centrale, estimation",
-          "explanation": "Average. Part of the idiom 'en moyenne' (on average).",
-          "cultural_note": ""
-        },
-        "42": {
-          "display_format": "**42:** Quarante-deux, nombre",
-          "explanation": "Forty-two. A specific numerical quantity.",
-          "cultural_note": ""
-        },
-        "pièces": {
-          "display_format": "**pièces:** Articles, éléments individuels",
-          "explanation": "Pieces, items. Refers to individual articles of clothing.",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Préposition, indiquant distribution",
-          "explanation": "Per, by. Indicates a distribution or rate.",
-          "cultural_note": ""
-        },
-        "personne": {
-          "display_format": "**personne:** Individu, être humain",
-          "explanation": "Person. Refers to each individual.",
-          "cultural_note": ""
-        },
-        "2024": {
-          "display_format": "**2024:** L'année deux-mille-vingt-quatre",
-          "explanation": "The year 2024. A specific calendar year.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, used to separate clauses or items in a list.",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini singulier",
-          "explanation": "A, an (masculine singular indefinite article). Introduces something non-specific or new.",
-          "cultural_note": ""
-        },
-        "record": {
-          "display_format": "**record:** Performance inégalée, maximum",
-          "explanation": "Record. An unprecedented or highest achievement.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T14:19:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Retraite : en quoi consiste la « prime » que Bayrou propose de verser aux seniors actifs ?",
-      "original_article_link": "https://www.la-croix.com/politique/retraite-en-quoi-consiste-la-prime-que-bayrou-propose-de-verser-aux-seniors-actifs-20250617",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:21:33 +0200",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.328,
-        "relevance_score": 9.0,
-        "importance_score": 6.48,
-        "total_score": 15.984
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Retraite : la proposition de Bayrou pour les seniors",
-      "simplified_english_title": "Retirement: Bayrou's proposal for active seniors",
-      "french_summary": "François Bayrou propose de donner une « prime » aux seniors qui continuent de travailler après l'âge de la retraite. Il explique le principe de cette aide financière.",
-      "english_summary": "François Bayrou suggests giving a \"bonus\" to seniors who continue working after retirement age. He explains the idea behind this financial aid.",
-      "contextual_title_explanations": {
-        "Retraite": {
-          "display_format": "**Retraite:** Fin d'activité professionnelle",
-          "explanation": "Retirement; end of professional activity due to age.",
-          "cultural_note": "A major topic in French social and political debate, especially regarding pension reforms."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or further detail.",
-          "cultural_note": ""
-        },
-        "en quoi": {
-          "display_format": "**en quoi:** De quelle manière",
-          "explanation": "In what way; how does it consist?",
-          "cultural_note": ""
-        },
-        "consiste": {
-          "display_format": "**consiste:** Est composée de",
-          "explanation": "Consists of; what it is made of.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article).",
+          "explanation": "Colon, often introduces a quote or explanation.",
           "cultural_note": ""
         },
         "«": {
           "display_format": "**«:** Guimet ouvrant",
           "explanation": "Opening guillemet (French quotation mark).",
-          "cultural_note": "French uses « » for quotes, not “ ”."
+          "cultural_note": "French uses « » for quotes, often with a space inside."
         },
-        "prime": {
-          "display_format": "**prime:** Somme d'argent",
-          "explanation": "Bonus or premium; an extra payment.",
-          "cultural_note": ""
+        "Le statu quo": {
+          "display_format": "**Le statu quo:** État actuel",
+          "explanation": "The existing state of affairs; Latin for 'the state in which'.",
+          "cultural_note": "A common international term from Latin."
+        },
+        "n'est plus possible": {
+          "display_format": "**n'est plus possible:** Impossible désormais",
+          "explanation": "Is no longer possible; indicates a change is necessary.",
+          "cultural_note": "The 'ne...plus' structure indicates 'no longer'."
         },
         "»": {
           "display_format": "**»:** Guimet fermant",
           "explanation": "Closing guillemet (French quotation mark).",
           "cultural_note": ""
         },
-        "que": {
-          "display_format": "**que:** Pronom relatif",
-          "explanation": "That/which (relative pronoun, direct object).",
-          "cultural_note": ""
-        },
-        "Bayrou": {
-          "display_format": "**Bayrou:** Homme politique français",
-          "explanation": "François Bayrou, a prominent French centrist politician and former minister.",
-          "cultural_note": "Leader of the MoDem party, often involved in government coalitions."
-        },
-        "propose": {
-          "display_format": "**propose:** Suggère, offre",
-          "explanation": "Proposes, suggests, offers.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition, indique le but",
-          "explanation": "Of, from; here, indicates purpose or infinitive complement.",
-          "cultural_note": ""
-        },
-        "verser": {
-          "display_format": "**verser:** Payer, allouer",
-          "explanation": "To pay, to allocate, to disburse (money).",
-          "cultural_note": ""
-        },
-        "aux": {
-          "display_format": "**aux:** À les, pour",
-          "explanation": "To the (contraction of à + les). Here, 'to' or 'for'.",
-          "cultural_note": ""
-        },
-        "seniors": {
-          "display_format": "**seniors:** Personnes âgées",
-          "explanation": "Seniors; older people, often referring to retirees or those nearing retirement.",
-          "cultural_note": "Borrowed from English, widely used in French for older adults."
-        },
-        "actifs": {
-          "display_format": "**actifs:** Qui travaillent encore",
-          "explanation": "Active; refers to seniors who are still working or engaged in professional activity.",
-          "cultural_note": "Highlights a specific group of seniors, distinguishing them from fully retired individuals."
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark, indicating an interrogative sentence.",
-          "cultural_note": "In French, a space precedes question marks and other double punctuation."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T14:19:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "«Que des enfants qui ont grandi»: des enfants de jihadistes français demandent un rapatriement de Syrie",
-      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250617-que-des-enfants-qui-ont-grandi-des-enfants-de-jihadistes-fran%C3%A7ais-demandent-un-rapatriement-de-syrie",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:18:11 GMT",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 3.731,
-        "relevance_score": 4.0,
-        "importance_score": 6.74,
-        "total_score": 11.192
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Enfants de jihadistes français demandent leur retour",
-      "simplified_english_title": "French jihadists' children ask to come home",
-      "french_summary": "Des enfants français, nés ou ayant vécu en Syrie avec leurs parents jihadistes, demandent à revenir en France. Ils souhaitent quitter les camps syriens pour être rapatriés.",
-      "english_summary": "French children, born or having lived in Syria with their jihadist parents, are asking to return to France. They wish to leave Syrian camps to be repatriated.",
-      "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": "French uses guillemets « » for quotes, often with a space before and after."
-        },
-        "Que": {
-          "display_format": "**Que:** Seulement, uniquement",
-          "explanation": "Only, just. Implies restriction.",
-          "cultural_note": "Often used in the 'ne... que' construction to mean 'only'."
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Indefinite article: 'some' or 'any' (plural)",
-          "cultural_note": ""
-        },
-        "enfants": {
-          "display_format": "**enfants:** Jeunes êtres humains",
-          "explanation": "Children, youngsters",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**qui:** Pronom relatif (sujet)",
-          "explanation": "Relative pronoun: 'who' or 'which' (subject)",
-          "cultural_note": ""
-        },
-        "ont": {
-          "display_format": "**ont:** Avoir (3e pers. plur.)",
-          "explanation": "Form of 'avoir' (to have), used here as an auxiliary verb",
-          "cultural_note": ""
-        },
-        "grandi": {
-          "display_format": "**grandi:** Devenir plus grand",
-          "explanation": "Grown up, become larger (past participle of 'grandir')",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": "French uses guillemets « » for quotes, often with a space before and after."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introduces an explanation or list",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition d'origine",
-          "explanation": "Preposition: 'from'",
-          "cultural_note": ""
-        },
-        "jihadistes": {
-          "display_format": "**jihadistes:** Partisans du jihad",
-          "explanation": "Jihadists, individuals involved in jihad",
-          "cultural_note": ""
-        },
-        "français": {
-          "display_format": "**français:** De nationalité française",
-          "explanation": "French (adjective, plural)",
-          "cultural_note": ""
-        },
-        "demandent": {
-          "display_format": "**demandent:** Solliciter, exiger",
-          "explanation": "Are asking for, demanding (from 'demander')",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini singulier",
-          "explanation": "Indefinite article: 'a' or 'an' (masculine singular)",
-          "cultural_note": ""
-        },
-        "rapatriement": {
-          "display_format": "**rapatriement:** Retour au pays d'origine",
-          "explanation": "Repatriation, return to one's home country",
-          "cultural_note": ""
-        },
-        "Syrie": {
-          "display_format": "**Syrie:** Pays du Moyen-Orient",
-          "explanation": "Syria, a country in the Middle East",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T14:19:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "« Pour nous, c’est une ligne rouge » : à l’approche des élections municipales, les ZFE sèment la zizanie à gauche",
-      "original_article_link": "https://www.nouvelobs.com/politique/20250617.OBS105025/pour-nous-c-est-une-ligne-rouge-a-l-approche-des-elections-municipales-les-zfe-sement-la-zizanie-a-gauche.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:00:08 +0200",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 3.605,
-        "relevance_score": 4.0,
-        "importance_score": 6.27,
-        "total_score": 10.815999999999999
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les ZFE créent des tensions à gauche avant les élections",
-      "simplified_english_title": "Low Emission Zones cause tension on the left before elections",
-      "french_summary": "Les Zones à Faibles Émissions, ou ZFE, sont un sujet de désaccord important pour les partis de gauche. Elles divisent les opinions avant les prochaines élections municipales.",
-      "english_summary": "Low Emission Zones, or ZFE, are a major point of disagreement for left-wing parties. They are causing divisions in opinions before the upcoming municipal elections.",
-      "contextual_title_explanations": {
-        "«": {
-          "display_format": "**« :** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "Pour": {
-          "display_format": "**Pour:** En faveur de",
-          "explanation": "For, in favor of",
-          "cultural_note": ""
-        },
-        "nous": {
-          "display_format": "**nous:** Pronom personnel, première personne",
-          "explanation": "Us, for us",
-          "cultural_note": ""
-        },
         ",": {
-          "display_format": "**, :** Virgule",
-          "explanation": "Comma, separating clauses",
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separates clauses or items in a list.",
           "cultural_note": ""
         },
-        "c’est": {
-          "display_format": "**c’est:** Cela est",
-          "explanation": "It is, this is",
+        "assure": {
+          "display_format": "**assure:** Affirme, déclare",
+          "explanation": "States or affirms with certainty.",
           "cultural_note": ""
         },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin",
-          "explanation": "A, an (feminine singular)",
-          "cultural_note": ""
-        },
-        "ligne": {
-          "display_format": "**ligne:** Trait, limite",
-          "explanation": "Line, limit",
-          "cultural_note": ""
-        },
-        "rouge": {
-          "display_format": "**rouge:** Couleur vive, danger",
-          "explanation": "Red; an absolute limit not to be crossed",
-          "cultural_note": "Common idiom for an unacceptable limit or boundary"
-        },
-        "»": {
-          "display_format": "**» :** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introducing explanation or consequence",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu",
-          "explanation": "At, in",
-          "cultural_note": ""
-        },
-        "l’approche": {
-          "display_format": "**l’approche:** À l'arrivée de",
-          "explanation": "Approaching, nearing",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article défini contracté",
-          "explanation": "Of the (plural)",
-          "cultural_note": ""
-        },
-        "élections": {
-          "display_format": "**élections:** Choix par vote",
-          "explanation": "Elections, act of choosing by vote",
-          "cultural_note": ""
-        },
-        "municipales": {
-          "display_format": "**municipales:** Relatif à la commune",
-          "explanation": "Municipal, relating to a town/city",
-          "cultural_note": "Elections held every six years in France for local councils"
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "ZFE": {
-          "display_format": "**ZFE:** Zones à faibles émissions",
-          "explanation": "Low Emission Zones, areas limiting polluting vehicles",
-          "cultural_note": "Acronym for Zones à Faibles Émissions, a key environmental policy in French cities"
-        },
-        "sèment": {
-          "display_format": "**sèment:** Distribuent, causent",
-          "explanation": "Sow, spread, cause",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "zizanie": {
-          "display_format": "**zizanie:** Désordre, discorde",
-          "explanation": "Discord, strife, disorder",
-          "cultural_note": "Common idiom 'semer la zizanie' meaning 'to sow discord'"
-        },
-        "gauche": {
-          "display_format": "**gauche:** Parti politique, progressiste",
-          "explanation": "Left (political wing, progressive parties)",
-          "cultural_note": "Refers to the political left, often encompassing socialist, communist, and green parties"
+        "Rachida Dati": {
+          "display_format": "**Rachida Dati:** Ministre française",
+          "explanation": "French politician, currently Minister of Culture.",
+          "cultural_note": "A prominent figure in French politics, often associated with the right-wing."
         }
       },
       "key_vocabulary": null,
@@ -2278,53 +2658,149 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "MaPrimeRénov’ : face au mécontentement, le dispositif maintenu pour les travaux isolés de rénovation",
-      "original_article_link": "https://www.nouvelobs.com/ecologie/20250616.OBS105013/maprimerenov-face-au-mecontentement-le-dispositif-maintenu-pour-les-travaux-isoles-de-renovation.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 11:44:01 +0200",
-      "source_name": "L'Obs",
+      "original_article_title": "Toulon: le local de l'association Amitié Cité victime d'un incendie, une enquête en cours",
+      "original_article_link": "https://www.bfmtv.com/var/toulon-le-local-de-l-association-amitie-cite-victime-d-un-incendie-une-enquete-en-cours_AN-202506170537.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 13:39:37 GMT",
+      "source_name": "BFM TV",
       "quality_scores": {
-        "quality_score": 5.648,
-        "relevance_score": 9.0,
-        "importance_score": 6.43,
-        "total_score": 16.944
+        "quality_score": 3.584,
+        "relevance_score": 4.0,
+        "importance_score": 6.19,
+        "total_score": 10.752
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "MaPrimeRénov' : Le dispositif de rénovation reste en place",
-      "simplified_english_title": "MaPrimeRénov': Renovation scheme remains available",
-      "french_summary": "Malgré des critiques, le programme MaPrimeRénov' continuera de financer les travaux isolés de rénovation énergétique, offrant un soutien aux ménages. Le gouvernement a décidé de maintenir cette aide importante.",
-      "english_summary": "Despite criticism, the MaPrimeRénov' program will continue to fund isolated energy renovation works, offering support to households. The government decided to maintain this important aid.",
+      "simplified_french_title": "Toulon : Incendie au local de l'association Amitié Cité",
+      "simplified_english_title": "Toulon: Fire at Amitié Cité association's premises",
+      "french_summary": "À Toulon, le bâtiment de l'association Amitié Cité a brûlé. Une enquête est ouverte pour comprendre pourquoi l'incendie a commencé.",
+      "english_summary": "In Toulon, the building of the Amitié Cité association caught fire. An investigation is open to understand why the fire started.",
       "contextual_title_explanations": {
-        "MaPrimeRénov’": {
-          "display_format": "**MaPrimeRénov’:** Aide financière rénovation énergétique",
-          "explanation": "French government financial aid for energy renovation",
-          "cultural_note": "A major state-funded program in France to encourage housing renovation for energy efficiency."
+        "Toulon": {
+          "display_format": "**Toulon:** Ville française",
+          "explanation": "A city in southeastern France",
+          "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or consequence",
+          "explanation": "Colon introducing an explanation or detail",
           "cultural_note": ""
         },
-        "face": {
-          "display_format": "**face:** En présence de",
-          "explanation": "In the face of, confronted with",
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
         },
-        "au": {
-          "display_format": "**au:** À le",
-          "explanation": "To the, at the (contraction of à + le)",
+        "local": {
+          "display_format": "**local:** Lieu, pièce",
+          "explanation": "Premises, a room or building",
           "cultural_note": ""
         },
-        "mécontentement": {
-          "display_format": "**mécontentement:** Insatisfaction générale",
-          "explanation": "Discontent, dissatisfaction, unhappiness",
+        "de": {
+          "display_format": "**de:** Préposition, appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "l&#39;association": {
+          "display_format": "**l'association:** Organisation, groupe",
+          "explanation": "The association (l' is a contracted definite article)",
+          "cultural_note": ""
+        },
+        "Amitié Cité": {
+          "display_format": "**Amitié Cité:** Nom d'association",
+          "explanation": "Name of a specific association, lit. 'Friendship City'",
+          "cultural_note": ""
+        },
+        "victime": {
+          "display_format": "**victime:** Personne ou chose affectée",
+          "explanation": "Victim, something that suffered harm",
+          "cultural_note": ""
+        },
+        "d&#39;un": {
+          "display_format": "**d'un:** De + un",
+          "explanation": "Of a (d' is a contraction of 'de' before 'un')",
+          "cultural_note": ""
+        },
+        "incendie": {
+          "display_format": "**incendie:** Feu destructeur",
+          "explanation": "A fire, a blaze",
           "cultural_note": ""
         },
         ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma, indicating a pause or separation",
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A, an (feminine singular indefinite article)",
+          "cultural_note": ""
+        },
+        "enquête": {
+          "display_format": "**enquête:** Investigation, recherche",
+          "explanation": "An investigation, inquiry",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition, état",
+          "explanation": "In, within; indicating a state or process",
+          "cultural_note": ""
+        },
+        "cours": {
+          "display_format": "**cours:** En progression",
+          "explanation": "Ongoing, in progress",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Faut-il alléger Renault après le départ de Luca de Meo?",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/video-faut-il-alleger-renault-apres-le-depart-de-luca-de-meo_VN-202506170567.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 14:17:21 GMT",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 3.56,
+        "relevance_score": 4.0,
+        "importance_score": 6.1,
+        "total_score": 10.68
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Faut-il réduire les activités de Renault?",
+      "simplified_english_title": "Should Renault's activities be reduced?",
+      "french_summary": "Après le départ de Luca de Meo, la question se pose. Faut-il restructurer Renault et alléger ses activités pour l'avenir de l'entreprise?",
+      "english_summary": "After Luca de Meo's departure, the question arises. Should Renault be restructured and its activities lightened for the company's future?",
+      "contextual_title_explanations": {
+        "Faut-il": {
+          "display_format": "**Faut-il:** Est-il nécessaire de",
+          "explanation": "Is it necessary to / Should we",
+          "cultural_note": ""
+        },
+        "alléger": {
+          "display_format": "**alléger:** Rendre plus léger",
+          "explanation": "To lighten, to reduce the burden on",
+          "cultural_note": ""
+        },
+        "Renault": {
+          "display_format": "**Renault:** Constructeur automobile français",
+          "explanation": "Major French car manufacturer",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After, following",
           "cultural_note": ""
         },
         "le": {
@@ -2332,45 +2808,81 @@
           "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
         },
-        "dispositif": {
-          "display_format": "**dispositif:** Système mis en place",
-          "explanation": "Scheme, system, mechanism, measure",
+        "départ": {
+          "display_format": "**départ:** Action de partir",
+          "explanation": "Departure, leaving",
           "cultural_note": ""
-        },
-        "maintenu": {
-          "display_format": "**maintenu:** Conservé, gardé",
-          "explanation": "Maintained, kept, continued",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** En vue de",
-          "explanation": "For, in order to",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
-          "cultural_note": ""
-        },
-        "travaux": {
-          "display_format": "**travaux:** Ouvrages, chantiers",
-          "explanation": "Works, construction, projects",
-          "cultural_note": ""
-        },
-        "isolés": {
-          "display_format": "**isolés:** Séparés, non groupés",
-          "explanation": "Isolated, standalone, individual",
-          "cultural_note": "Refers to individual renovation actions, not part of a larger, global project."
         },
         "de": {
-          "display_format": "**de:** Préposition marquant appartenance",
-          "explanation": "Of, from (preposition)",
+          "display_format": "**de:** Préposition, appartenance/origine",
+          "explanation": "Of, from (preposition indicating possession or origin)",
           "cultural_note": ""
         },
-        "rénovation": {
-          "display_format": "**rénovation:** Action de rénover",
-          "explanation": "Renovation, renewal, modernization",
+        "Luca de Meo": {
+          "display_format": "**Luca de Meo:** Ancien dirigeant de Renault",
+          "explanation": "Former CEO of Renault",
           "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark, indicates an interrogation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-17T14:19:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Portefeuille trading - 17/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-le-portefeuille-trading-17-06_VN-202506170564.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 14:12:31 GMT",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 3.688,
+        "relevance_score": 4.0,
+        "importance_score": 6.58,
+        "total_score": 11.064
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le portefeuille d'investissement du 17 juin",
+      "simplified_english_title": "The investment portfolio for June 17",
+      "french_summary": "Ce titre fait référence à un portefeuille d'investissements utilisé pour des opérations de trading, mis à jour à la date du 17 juin.",
+      "english_summary": "This title refers to an investment portfolio used for trading operations, updated as of June 17.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini masculin singulier",
+          "explanation": "The (masculine singular definite article)",
+          "cultural_note": ""
+        },
+        "Portefeuille": {
+          "display_format": "**Portefeuille:** Objet pour argent/cartes",
+          "explanation": "Wallet; also refers to an investment portfolio",
+          "cultural_note": ""
+        },
+        "trading": {
+          "display_format": "**trading:** Opérations d'achat/vente boursières",
+          "explanation": "Trading (financial transactions)",
+          "cultural_note": "English loanword, commonly used"
+        },
+        "-": {
+          "display_format": "**-:** Trait d'union",
+          "explanation": "Hyphen, here used as a separator",
+          "cultural_note": ""
+        },
+        "17/06": {
+          "display_format": "**17/06:** Dix-sept juin",
+          "explanation": "June 17th (date)",
+          "cultural_note": "Date format DD/MM"
         }
       },
       "key_vocabulary": null,
@@ -2474,10 +2986,10 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Votre Santé du mardi 17 juin 2025 - Au Vinatier, se préparer à vivre après un AVC",
-      "original_article_link": "https://www.bfmtv.com/lyon/replay-emissions/votre-sante/video-votre-sante-du-mardi-17-juin-2025-au-vinatier-se-preparer-a-vivre-apres-un-avc_VN-202506170435.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:59:11 GMT",
-      "source_name": "BFM TV",
+      "original_article_title": "Les mille-pattes et les insectes perles sont dans une situation préoccupante en France",
+      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/17/les-mille-pattes-et-les-insectes-perles-sont-dans-une-situation-preoccupante-en-france_6613838_3244.html",
+      "original_article_published_date": "Tue, 17 Jun 2025 11:00:01 +0200",
+      "source_name": "Le Monde",
       "quality_scores": {
         "quality_score": 3.627,
         "relevance_score": 4.0,
@@ -2488,922 +3000,74 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Vivre après un AVC : Préparation à l'hôpital Vinatier",
-      "simplified_english_title": "Living after a Stroke: Preparation at Vinatier Hospital",
-      "french_summary": "Cet article du 17 juin 2025 parle de l'hôpital Vinatier. Il explique comment cet hôpital aide les patients à se préparer à vivre après un accident vasculaire cérébral (AVC).",
-      "english_summary": "This article from June 17, 2025, discusses Vinatier Hospital. It explains how this hospital helps patients prepare to live after a stroke.",
+      "simplified_french_title": "Les mille-pattes et insectes en danger en France",
+      "simplified_english_title": "Millipedes and insects in trouble in France",
+      "french_summary": "En France, les mille-pattes et les insectes perles sont dans une situation difficile. Leur population diminue, ce qui est inquiétant pour l'environnement.",
+      "english_summary": "In France, millipedes and pearl insects are in a difficult situation. Their population is decreasing, which is worrying for the environment.",
       "contextual_title_explanations": {
-        "Votre": {
-          "display_format": "**Votre:** Déterminant possessif",
-          "explanation": "Your (plural or formal singular)",
+        "Les": {
+          "display_format": "**Les:** Article défini pluriel",
+          "explanation": "The (plural)",
           "cultural_note": ""
         },
-        "Santé": {
-          "display_format": "**Santé:** État de bien-être",
-          "explanation": "Health, well-being",
+        "mille-pattes": {
+          "display_format": "**mille-pattes:** Arthropode terrestre",
+          "explanation": "Millipedes or centipedes",
           "cultural_note": ""
         },
-        "du": {
-          "display_format": "**du:** De le",
-          "explanation": "Of the (masculine singular)",
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And",
           "cultural_note": ""
         },
-        "mardi": {
-          "display_format": "**mardi:** Deuxième jour semaine",
-          "explanation": "Tuesday",
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural)",
           "cultural_note": ""
         },
-        "17": {
-          "display_format": "**17:** Dix-sept",
-          "explanation": "Seventeen",
+        "insectes": {
+          "display_format": "**insectes:** Animaux invertébrés",
+          "explanation": "Insects",
           "cultural_note": ""
         },
-        "juin": {
-          "display_format": "**juin:** Sixième mois année",
-          "explanation": "June",
+        "perles": {
+          "display_format": "**perles:** Référence aux cloportes",
+          "explanation": "Refers to woodlice, also known as pill bugs or roly-polies",
+          "cultural_note": "A less common, more poetic term for cloportes (woodlice)."
+        },
+        "sont": {
+          "display_format": "**sont:** Verbe être",
+          "explanation": "Are (third person plural of 'to be')",
           "cultural_note": ""
         },
-        "2025": {
-          "display_format": "**2025:** Deux mille vingt-cinq",
-          "explanation": "Year two thousand twenty-five",
+        "dans": {
+          "display_format": "**dans:** Préposition de lieu",
+          "explanation": "In, inside",
           "cultural_note": ""
         },
-        "-": {
-          "display_format": "**-:** Tiret",
-          "explanation": "Dash, separating parts of title",
+        "une": {
+          "display_format": "**une:** Article indéfini féminin",
+          "explanation": "A, an (feminine singular)",
           "cultural_note": ""
         },
-        "Au": {
-          "display_format": "**Au:** À le",
-          "explanation": "To the, at the (masculine singular)",
+        "situation": {
+          "display_format": "**situation:** État, position",
+          "explanation": "Situation, condition",
           "cultural_note": ""
         },
-        "Vinatier": {
-          "display_format": "**Vinatier:** Hôpital psychiatrique Lyon",
-          "explanation": "Psychiatric hospital in Lyon",
-          "cultural_note": "A well-known psychiatric hospital in France."
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separating clauses",
+        "préoccupante": {
+          "display_format": "**préoccupante:** Inquiétante, alarmante",
+          "explanation": "Worrying, concerning, alarming",
           "cultural_note": ""
         },
-        "se": {
-          "display_format": "**se:** Pronom réfléchi",
-          "explanation": "Reflexive pronoun (oneself)",
-          "cultural_note": ""
-        },
-        "préparer": {
-          "display_format": "**préparer:** Rendre prêt",
-          "explanation": "To prepare (oneself)",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition direction",
-          "explanation": "To, at (preposition)",
-          "cultural_note": ""
-        },
-        "vivre": {
-          "display_format": "**vivre:** Exister, être en vie",
-          "explanation": "To live, to exist",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**après:** Postérieur à",
-          "explanation": "After (preposition)",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini",
-          "explanation": "A, an (masculine singular)",
-          "cultural_note": ""
-        },
-        "AVC": {
-          "display_format": "**AVC:** Accident vasculaire cérébral",
-          "explanation": "Stroke (Cerebrovascular Accident)",
-          "cultural_note": "Common acronym for stroke, very frequently used in medical contexts."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Beaucoup d'avantages à Lille\": la France candidate à l'accueil de l'Autorité douanière de l'Union européenne",
-      "original_article_link": "https://www.bfmtv.com/grand-lille/beaucoup-d-avantages-a-lille-la-france-candidate-a-l-accueil-de-l-autorite-douaniere-de-l-union-europeenne_AV-202506170431.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:58:37 GMT",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 3.632,
-        "relevance_score": 4.0,
-        "importance_score": 6.37,
-        "total_score": 10.896
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France propose Lille pour l'Autorité douanière de l'UE",
-      "simplified_english_title": "France suggests Lille for the EU Customs Authority",
-      "french_summary": "La France propose la ville de Lille pour accueillir la nouvelle Autorité douanière de l'Union européenne, mettant en avant ses nombreux atouts.",
-      "english_summary": "France suggests the city of Lille to host the new European Union Customs Authority, highlighting its many advantages.",
-      "contextual_title_explanations": {
-        "Beaucoup": {
-          "display_format": "**Beaucoup:** Grande quantité",
-          "explanation": "A large quantity or number of something",
-          "cultural_note": ""
-        },
-        "d'avantages": {
-          "display_format": "**d'avantages:** De bénéfices, d'atouts",
-          "explanation": "Of benefits or advantages",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de but",
-          "explanation": "Preposition indicating purpose or goal",
-          "cultural_note": ""
-        },
-        "Lille": {
-          "display_format": "**Lille:** Ville du nord",
-          "explanation": "Major city in northern France",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or direct quote",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "Feminine singular definite article 'the'",
+        "en": {
+          "display_format": "**en:** Préposition de lieu",
+          "explanation": "In (used for countries, regions)",
           "cultural_note": ""
         },
         "France": {
           "display_format": "**France:** Pays européen",
-          "explanation": "The country of France",
-          "cultural_note": ""
-        },
-        "candidate": {
-          "display_format": "**candidate:** Propose sa candidature",
-          "explanation": "Is applying or putting forward its candidacy",
-          "cultural_note": ""
-        },
-        "l'accueil": {
-          "display_format": "**l'accueil:** L'action de recevoir",
-          "explanation": "The act of hosting or welcoming",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition de possession",
-          "explanation": "Preposition indicating possession or origin",
-          "cultural_note": ""
-        },
-        "l'Autorité douanière de l'Union européenne": {
-          "display_format": "**l'Autorité douanière de l'Union européenne:** Organisme de l'UE",
-          "explanation": "The European Union's customs authority",
-          "cultural_note": "Refers to a specific EU body responsible for customs matters."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Kiev: au moins 14 personnes tuées dans des frappes russes",
-      "original_article_link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-kiev-au-moins-14-personnes-tuees-dans-des-frappes-russes_VN-202506170430.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:57:09 GMT",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 3.341,
-        "relevance_score": 4.0,
-        "importance_score": 6.53,
-        "total_score": 10.024000000000001
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Kiev: 14 morts après des attaques russes",
-      "simplified_english_title": "Kyiv: 14 dead after Russian attacks",
-      "french_summary": "Au moins quatorze personnes ont été tuées à Kiev. La capitale ukrainienne a été touchée par des frappes de l'armée russe aujourd'hui.",
-      "english_summary": "At least fourteen people were killed in Kyiv. The Ukrainian capital was hit by strikes from the Russian army today.",
-      "contextual_title_explanations": {
-        "Kiev": {
-          "display_format": "**Kiev:** Capitale de l'Ukraine",
-          "explanation": "Capital city of Ukraine",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing information",
-          "cultural_note": ""
-        },
-        "au moins": {
-          "display_format": "**au moins:** Minimum de",
-          "explanation": "At least, indicating a minimum number",
-          "cultural_note": ""
-        },
-        "14": {
-          "display_format": "**14:** Quatorze",
-          "explanation": "The number fourteen",
-          "cultural_note": ""
-        },
-        "personnes": {
-          "display_format": "**personnes:** Êtres humains",
-          "explanation": "People, human beings",
-          "cultural_note": ""
-        },
-        "tuées": {
-          "display_format": "**tuées:** Ayant perdu la vie",
-          "explanation": "Killed, having lost their lives (feminine plural)",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** À l'intérieur de",
-          "explanation": "In, inside of",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Indefinite article, plural (some)",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**frappes:** Attaques militaires, bombardements",
-          "explanation": "Strikes, military attacks, bombings",
-          "cultural_note": ""
-        },
-        "russes": {
-          "display_format": "**russes:** De la Russie",
-          "explanation": "Russian, originating from Russia",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Propos de Donald Trump sur Emmanuel Macron: \"nouvelle humiliation de notre pays\", pour Mathilde Panot",
-      "original_article_link": "https://www.bfmtv.com/politique/la-france-insoumise/video-propos-de-donald-trump-sur-emmanuel-macron-nouvelle-humiliation-de-notre-pays-pour-mathlide-panot_VN-202506170429.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:56:43 GMT",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 3.627,
-        "relevance_score": 4.0,
-        "importance_score": 6.35,
-        "total_score": 10.879999999999999
-      },
-      "difficulty": "B1",
-      "tone": "opinion",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Propos de Trump sur Macron : \"nouvelle humiliation\"",
-      "simplified_english_title": "Trump's comments on Macron: \"new humiliation\"",
-      "french_summary": "Mathilde Panot juge que les propos de Donald Trump sur Emmanuel Macron sont une \"nouvelle humiliation\" pour la France.",
-      "english_summary": "Mathilde Panot believes Donald Trump's comments about Emmanuel Macron represent a \"new humiliation\" for France.",
-      "contextual_title_explanations": {
-        "Propos": {
-          "display_format": "**Propos:** Paroles, déclarations",
-          "explanation": "Words or statements, often implying opinions or remarks.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Appartient à",
-          "explanation": "Of, belonging to.",
-          "cultural_note": ""
-        },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** Ancien président américain",
-          "explanation": "Former President of the United States.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About or concerning.",
-          "cultural_note": ""
-        },
-        "Emmanuel Macron": {
-          "display_format": "**Emmanuel Macron:** Président français actuel",
-          "explanation": "Current President of France.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introducing a quotation or explanation.",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**&#34;:** Guillemet fermant",
-          "explanation": "Closing double quotation mark.",
-          "cultural_note": ""
-        },
-        "nouvelle": {
-          "display_format": "**nouvelle:** Fraîche, récente",
-          "explanation": "New, recent.",
-          "cultural_note": ""
-        },
-        "humiliation": {
-          "display_format": "**humiliation:** Action d'humilier",
-          "explanation": "The act of humiliating or being humiliated.",
-          "cultural_note": ""
-        },
-        "notre": {
-          "display_format": "**notre:** Possessif, à nous",
-          "explanation": "Our, belonging to us.",
-          "cultural_note": ""
-        },
-        "pays": {
-          "display_format": "**pays:** Nation, patrie",
-          "explanation": "Country, nation, homeland.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separating clauses or items.",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Selon, d'après",
-          "explanation": "According to, in the opinion of.",
-          "cultural_note": ""
-        },
-        "Mathilde Panot": {
-          "display_format": "**Mathilde Panot:** Femme politique LFI",
-          "explanation": "French politician, leader of the La France Insoumise group in the National Assembly.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Surveillante tuée à Nogent : Mélanie G. recevra la Légion d'honneur à titre posthume",
-      "original_article_link": "https://www.lefigaro.fr/actualite-france/surveillante-tuee-a-nogent-melanie-g-recevra-la-legion-d-honneur-a-titre-posthume-20250617",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:54:16 +0200",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 3.621,
-        "relevance_score": 4.0,
-        "importance_score": 6.33,
-        "total_score": 10.864
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Surveillante tuée : Légion d'honneur posthume pour Mélanie G.",
-      "simplified_english_title": "Killed Supervisor: Posthumous Legion of Honor for Mélanie G.",
-      "french_summary": "Mélanie G., une surveillante décédée à Nogent, recevra la Légion d'honneur après sa mort. C'est une haute distinction française.",
-      "english_summary": "Mélanie G., a supervisor who died in Nogent, will receive the Legion of Honor after her death. It is a high French award.",
-      "contextual_title_explanations": {
-        "Surveillante": {
-          "display_format": "**Surveillante:** Femme qui surveille",
-          "explanation": "Female supervisor or guard, often in a school or prison setting.",
-          "cultural_note": ""
-        },
-        "tuée": {
-          "display_format": "**tuée:** Mise à mort",
-          "explanation": "Killed, past participle of 'tuer'.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "Preposition 'to' or 'for'.",
-          "cultural_note": ""
-        },
-        "Nogent": {
-          "display_format": "**Nogent:** Ville française",
-          "explanation": "A common place name in France, here referring to a specific town.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introducing an explanation or elaboration.",
-          "cultural_note": ""
-        },
-        "Mélanie G.": {
-          "display_format": "**Mélanie G.:** Nom propre",
-          "explanation": "The name of the person, with an initial for the surname.",
-          "cultural_note": ""
-        },
-        "recevra": {
-          "display_format": "**recevra:** Va obtenir",
-          "explanation": "Will receive, future tense of 'recevoir'.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular definite article).",
-          "cultural_note": ""
-        },
-        "Légion d'honneur": {
-          "display_format": "**Légion d'honneur:** Ordre national français",
-          "explanation": "France's highest order of merit, awarded for outstanding achievements.",
-          "cultural_note": "Created by Napoleon Bonaparte, it recognizes military and civilian merits."
-        },
-        "titre": {
-          "display_format": "**titre:** Qualité, capacité",
-          "explanation": "Capacity, standing, or as a title.",
-          "cultural_note": ""
-        },
-        "posthume": {
-          "display_format": "**posthume:** Après la mort",
-          "explanation": "Posthumous, occurring or continuing after one's death.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Vers une baisse de la consommation mondiale de pétrole, mais pas tout de suite, prévient l'AIE",
-      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/vers-une-baisse-de-la-consommation-mondiale-de-petrole-mais-pas-tout-de-suite-previent-l-aie_AD-202506170421.html",
-      "original_article_published_date": "Tue, 17 Jun 2025 10:45:00 GMT",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 3.613,
-        "relevance_score": 4.0,
-        "importance_score": 6.3,
-        "total_score": 10.84
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Consommation de pétrole : une baisse future, dit l'AIE",
-      "simplified_english_title": "Oil consumption: a future decrease, says IEA",
-      "french_summary": "L'Agence Internationale de l'Énergie (AIE) prévoit que la consommation mondiale de pétrole diminuera un jour. Cependant, cette baisse n'arrivera pas immédiatement.",
-      "english_summary": "The International Energy Agency (IEA) predicts that global oil consumption will eventually decrease. However, this reduction will not happen right away.",
-      "contextual_title_explanations": {
-        "Vers": {
-          "display_format": "**Vers:** En direction de",
-          "explanation": "Towards, in the direction of",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin",
-          "explanation": "A, an (feminine singular indefinite article)",
-          "cultural_note": ""
-        },
-        "baisse": {
-          "display_format": "**baisse:** Diminution, réduction",
-          "explanation": "Decrease, reduction, fall",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition, part de locution",
-          "explanation": "Of, from (part of fixed expression)",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article)",
-          "cultural_note": ""
-        },
-        "consommation": {
-          "display_format": "**consommation:** Utilisation, dépense",
-          "explanation": "Consumption, usage, expenditure",
-          "cultural_note": ""
-        },
-        "mondiale": {
-          "display_format": "**mondiale:** Qui concerne le monde",
-          "explanation": "Worldwide, global (feminine singular adjective)",
-          "cultural_note": ""
-        },
-        "pétrole": {
-          "display_format": "**pétrole:** Hydrocarbure fossile, huile minérale",
-          "explanation": "Oil, petroleum",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule, pause courte",
-          "explanation": "Comma, indicating a short pause or separation",
-          "cultural_note": ""
-        },
-        "mais": {
-          "display_format": "**mais:** Conjonction d'opposition",
-          "explanation": "But (conjunction expressing contrast)",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** Négation, adverbe",
-          "explanation": "Not (part of a negative construction)",
-          "cultural_note": ""
-        },
-        "tout": {
-          "display_format": "**tout:** Adverbe, complètement",
-          "explanation": "Quite, completely, entirely",
-          "cultural_note": ""
-        },
-        "suite": {
-          "display_format": "**suite:** Immédiatement, sans délai",
-          "explanation": "Immediately, right away (part of 'tout de suite')",
-          "cultural_note": ""
-        },
-        "prévient": {
-          "display_format": "**prévient:** Avertir, annoncer d'avance",
-          "explanation": "Warns, informs beforehand (from verb 'prévenir')",
-          "cultural_note": ""
-        },
-        "l&#39;AIE": {
-          "display_format": "**l'AIE:** Agence Internationale Énergie",
-          "explanation": "IEA (International Energy Agency), an intergovernmental organization",
-          "cultural_note": "Commonly referred to by its acronym."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Salon du Bourget : Airbus enregistre 105 commandes fermes dès le premier jour",
-      "original_article_link": "https://www.franceinfo.fr/economie/salon-du-bourget-airbus-enregistre-105-commandes-fermes-des-le-premier-jour_7319211.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:29:01 +0200",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 3.6,
-        "relevance_score": 4.0,
-        "importance_score": 6.25,
-        "total_score": 10.8
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Airbus reçoit de nombreuses commandes au Salon du Bourget",
-      "simplified_english_title": "Airbus gets many orders at Le Bourget Air Show",
-      "french_summary": "Au premier jour du Salon du Bourget, Airbus a reçu 105 commandes fermes d'avions. C'est un bon début pour l'entreprise européenne.",
-      "english_summary": "On the first day of the Le Bourget Air Show, Airbus received 105 firm orders for planes. This is a good start for the European company.",
-      "contextual_title_explanations": {
-        "Salon du Bourget": {
-          "display_format": "**Salon du Bourget:** Exposition aéronautique internationale",
-          "explanation": "International Air Show held near Paris",
-          "cultural_note": "One of the oldest and largest air shows in the world."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation or elaboration.",
-          "cultural_note": ""
-        },
-        "Airbus": {
-          "display_format": "**Airbus:** Fabricant d'avions européen",
-          "explanation": "Major European aircraft manufacturer.",
-          "cultural_note": ""
-        },
-        "enregistre": {
-          "display_format": "**enregistre:** comptabilise, déclare",
-          "explanation": "Registers, records, or logs.",
-          "cultural_note": ""
-        },
-        "105": {
-          "display_format": "**105:** Cent cinq",
-          "explanation": "The number 105.",
-          "cultural_note": ""
-        },
-        "commandes": {
-          "display_format": "**commandes:** ordres d'achat",
-          "explanation": "Orders for products or services.",
-          "cultural_note": ""
-        },
-        "fermes": {
-          "display_format": "**fermes:** définitives, confirmées",
-          "explanation": "Firm, confirmed, or definitive (orders).",
-          "cultural_note": ""
-        },
-        "dès": {
-          "display_format": "**dès:** à partir de",
-          "explanation": "From, as early as, or starting from.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini masculin singulier",
-          "explanation": "The (masculine singular definite article).",
-          "cultural_note": ""
-        },
-        "premier": {
-          "display_format": "**premier:** premier dans l'ordre",
-          "explanation": "First (ordinal number).",
-          "cultural_note": ""
-        },
-        "jour": {
-          "display_format": "**jour:** période de 24 heures",
-          "explanation": "Day.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave sur les retraites : LFI va déposer une motion de censure s'il n'y a pas d'accord sur l'abrogation des 64 ans",
-      "original_article_link": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/conclave-sur-les-retraites-lfi-va-deposer-une-motion-de-censure-s-il-n-y-a-pas-d-accord-sur-l-abrogation-des-64-ans_7319379.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "Tue, 17 Jun 2025 12:11:09 +0200",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 4.784,
-        "relevance_score": 7.0,
-        "importance_score": 6.19,
-        "total_score": 14.352
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Retraites : LFI menace de censure si l'âge de 64 ans reste",
-      "simplified_english_title": "Pensions: LFI threatens no-confidence vote if 64-year age remains",
-      "french_summary": "Le parti LFI pourrait déposer une motion de censure sur la réforme des retraites. Ils le feront s'il n'y a pas d'accord pour annuler l'âge de départ à 64 ans.",
-      "english_summary": "The LFI party might file a no-confidence motion over pension reform. They will do so if there is no agreement to cancel the 64-year retirement age.",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Conclave:** Réunion fermée, secrète",
-          "explanation": "A private, often secret, meeting or assembly, typically for a significant decision.",
-          "cultural_note": "Often used in French beyond its religious origin (papal election)."
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About, concerning, regarding.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article).",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**retraites:** Pensions de vieillesse",
-          "explanation": "Retirement systems or pensions.",
-          "cultural_note": "A major political and social issue in France."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or elaboration.",
-          "cultural_note": ""
-        },
-        "LFI": {
-          "display_format": "**LFI:** La France Insoumise",
-          "explanation": "A major left-wing political party in France.",
-          "cultural_note": "Literally 'France Unbowed'."
-        },
-        "va": {
-          "display_format": "**va:** Aller (futur proche)",
-          "explanation": "Is going to (auxiliary for near future).",
-          "cultural_note": ""
-        },
-        "déposer": {
-          "display_format": "**déposer:** Présenter officiellement",
-          "explanation": "To formally submit or file (e.g., a bill, a motion).",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin",
-          "explanation": "A, an (feminine singular indefinite article).",
-          "cultural_note": ""
-        },
-        "motion": {
-          "display_format": "**motion:** Proposition, demande officielle",
-          "explanation": "A formal proposal or request, often in a legislative body.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition (appartenance)",
-          "explanation": "Of, pertaining to.",
-          "cultural_note": ""
-        },
-        "censure": {
-          "display_format": "**censure:** Condamnation, désapprobation",
-          "explanation": "A vote of no confidence against a government or minister.",
-          "cultural_note": "In French politics, a 'motion de censure' can force the government to resign."
-        },
-        "s'il": {
-          "display_format": "**s'il:** Si il",
-          "explanation": "If he/it; contraction of 'si' (if) and 'il' (he/it).",
-          "cultural_note": ""
-        },
-        "n'y": {
-          "display_format": "**n'y:** Ne y (négation)",
-          "explanation": "Not there; part of a negative construction with 'il y a' (there is).",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**a:** Avoir (présent)",
-          "explanation": "Has; third person singular of 'avoir' (to have).",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** Négation",
-          "explanation": "Not; part of a negative construction, often with 'ne'.",
-          "cultural_note": ""
-        },
-        "d'accord": {
-          "display_format": "**d'accord:** Accord (contraction)",
-          "explanation": "Agreement; contraction of 'de' and 'accord'.",
-          "cultural_note": ""
-        },
-        "l'abrogation": {
-          "display_format": "**l'abrogation:** Annulation, suppression",
-          "explanation": "The repeal or abolition of a law or rule.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** De les",
-          "explanation": "Of the (contraction of 'de' and 'les').",
-          "cultural_note": ""
-        },
-        "64": {
-          "display_format": "**64:** Soixante-quatre",
-          "explanation": "Sixty-four (referring to the retirement age).",
-          "cultural_note": "The contentious new legal retirement age in France, raised from 62."
-        },
-        "ans": {
-          "display_format": "**ans:** Années",
-          "explanation": "Years (unit of time or age).",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-17T12:38:20",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre en Ukraine : Macron appelle à «aller beaucoup plus loin dans les sanctions» contre la Russie, Trump sceptique",
-      "original_article_link": "https://www.lefigaro.fr/conjoncture/guerre-en-ukraine-macron-appelle-a-aller-beaucoup-plus-loin-dans-les-sanctions-contre-la-russie-trump-sceptique-20250617",
-      "original_article_published_date": "Tue, 17 Jun 2025 11:49:14 +0200",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 3.619,
-        "relevance_score": 4.0,
-        "importance_score": 6.32,
-        "total_score": 10.856000000000002
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Guerre en Ukraine : Macron veut plus de sanctions",
-      "simplified_english_title": "Ukraine War: Macron Wants More Sanctions",
-      "french_summary": "Pendant la guerre en Ukraine, le président Macron demande des sanctions plus fortes contre la Russie. L'ancien président Trump est moins sûr de cette idée.",
-      "english_summary": "During the war in Ukraine, President Macron calls for stronger sanctions against Russia. Former President Trump expresses skepticism about this idea.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "Armed conflict between nations or groups.",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans, à l'intérieur de",
-          "explanation": "Preposition indicating location or state.",
-          "cultural_note": ""
-        },
-        "Ukraine": {
-          "display_format": "**Ukraine:** Pays d'Europe de l'Est",
-          "explanation": "Large country in Eastern Europe.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or list.",
-          "cultural_note": ""
-        },
-        "Macron": {
-          "display_format": "**Macron:** Président français actuel",
-          "explanation": "Emmanuel Macron, current President of France.",
-          "cultural_note": ""
-        },
-        "appelle": {
-          "display_format": "**appelle:** Demande instamment",
-          "explanation": "Calls for, urges, makes an appeal.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Vers, pour",
-          "explanation": "Preposition indicating direction or purpose.",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark (French style).",
-          "cultural_note": "French quotation marks are guillemets."
-        },
-        "aller": {
-          "display_format": "**aller:** Progresser, se diriger",
-          "explanation": "To go, to move forward, to proceed.",
-          "cultural_note": ""
-        },
-        "beaucoup": {
-          "display_format": "**beaucoup:** En grande quantité",
-          "explanation": "A lot, much, in large quantity.",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**plus:** Davantage, additionnel",
-          "explanation": "More, further, additional.",
-          "cultural_note": ""
-        },
-        "loin": {
-          "display_format": "**loin:** À grande distance",
-          "explanation": "Far, at a great distance.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** À l'intérieur de",
-          "explanation": "In, inside of, within.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article).",
-          "cultural_note": ""
-        },
-        "sanctions": {
-          "display_format": "**sanctions:** Mesures punitives",
-          "explanation": "Punitive measures, penalties, usually economic.",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing quotation mark (French style).",
-          "cultural_note": "French quotation marks are guillemets."
-        },
-        "contre": {
-          "display_format": "**contre:** En opposition à",
-          "explanation": "Against, in opposition to.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article).",
-          "cultural_note": ""
-        },
-        "Russie": {
-          "display_format": "**Russie:** Pays d'Europe de l'Est",
-          "explanation": "Largest country in the world, in Eastern Europe and Asia.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, indicating a pause or separation.",
-          "cultural_note": ""
-        },
-        "Trump": {
-          "display_format": "**Trump:** Ancien président américain",
-          "explanation": "Donald Trump, former President of the United States.",
-          "cultural_note": ""
-        },
-        "sceptique": {
-          "display_format": "**sceptique:** Qui doute",
-          "explanation": "Skeptical, doubting, showing doubt.",
+          "explanation": "France (country)",
           "cultural_note": ""
         }
       },
