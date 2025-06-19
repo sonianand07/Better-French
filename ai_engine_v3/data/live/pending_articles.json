@@ -3,402 +3,84 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "La réouverture de la centrale nucléaire de Fessenheim est-elle réellement possible ?",
-      "original_article_link": "https://www.ouest-france.fr/environnement/nucleaire/la-reouverture-de-la-centrale-nucleaire-de-fessenheim-est-elle-reellement-possible-9af48296-4d0e-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-19T17:24:38",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.691,
-        "relevance_score": 9.0,
-        "importance_score": 6.59,
-        "total_score": 17.072
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Peut-on rouvrir la centrale nucléaire de Fessenheim ?",
-      "simplified_english_title": "Can the Fessenheim nuclear power plant really reopen?",
-      "french_summary": "La question se pose de savoir si la centrale nucléaire de Fessenheim, déjà fermée, pourrait être remise en service un jour.",
-      "english_summary": "The question is whether the Fessenheim nuclear power plant, which is already closed, could be restarted one day.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "réouverture": {
-          "display_format": "**réouverture:** Action de rouvrir",
-          "explanation": "Reopening; act of opening again",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition, appartenance",
-          "explanation": "Of, from; indicates belonging or origin",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "centrale": {
-          "display_format": "**centrale:** Usine de production d'énergie",
-          "explanation": "Power plant; central facility",
-          "cultural_note": ""
-        },
-        "nucléaire": {
-          "display_format": "**nucléaire:** Relatif au noyau atomique",
-          "explanation": "Nuclear; related to atomic energy",
-          "cultural_note": ""
-        },
-        "Fessenheim": {
-          "display_format": "**Fessenheim:** Nom de lieu, centrale",
-          "explanation": "Fessenheim, a town in France known for its nuclear power plant, now decommissioned",
-          "cultural_note": "Former site of France's oldest nuclear power plant, closed in 2020."
-        },
-        "est-elle": {
-          "display_format": "**est-elle:** Verbe être, interrogation",
-          "explanation": "Is it (feminine subject)? Inverted for question",
-          "cultural_note": ""
-        },
-        "réellement": {
-          "display_format": "**réellement:** Vraiment, en réalité",
-          "explanation": "Really, actually, in reality",
-          "cultural_note": ""
-        },
-        "possible": {
-          "display_format": "**possible:** Qui peut arriver",
-          "explanation": "Possible; that can happen",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark; indicates an interrogative sentence",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T17:50:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : les évacuations des ressortissants étrangers ont déjà commencé",
-      "original_article_link": "https://www.ouest-france.fr/monde/iran/israel-iran-les-evacuations-des-ressortissants-etrangers-ont-deja-commence-5827596a-4d0f-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-19T17:19:05",
-      "source_name": "Ouest France",
+      "original_article_title": "Energies renouvelables: un moratoire adopté à l'Assemblée à la surprise générale",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/energies-renouvelables-un-moratoire-adopte-a-l-assemblee-a-la-surprise-generale_AD-202506190707.html",
+      "original_article_published_date": "2025-06-19T17:52:02",
+      "source_name": "BFM TV",
       "quality_scores": {
         "quality_score": 5.264,
         "relevance_score": 9.0,
         "importance_score": 6.24,
         "total_score": 15.792
       },
-      "difficulty": "B1",
+      "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Conflit Israël-Iran : Début des évacuations étrangères",
-      "simplified_english_title": "Israel-Iran Conflict: Foreign Evacuations Begin",
-      "french_summary": "Les ressortissants étrangers sont évacués d'Israël et d'Iran. Cette mesure est prise en raison des tensions croissantes entre les deux pays. La sécurité est la priorité.",
-      "english_summary": "Foreign citizens are being evacuated from Israel and Iran. This action is due to increasing tensions between the two countries. Safety is the top priority.",
+      "simplified_french_title": "Énergies renouvelables : l'Assemblée vote un arrêt inattendu",
+      "simplified_english_title": "Renewable Energy: Assembly Votes for Unexpected Halt",
+      "french_summary": "L'Assemblée nationale a voté un moratoire, c'est-à-dire un arrêt temporaire, sur les projets d'énergies renouvelables. Cette décision a surpris tout le monde.",
+      "english_summary": "The National Assembly voted for a moratorium, meaning a temporary halt, on renewable energy projects. This decision surprised everyone.",
       "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre Israël et l'Iran",
-          "explanation": "Refers to the ongoing geopolitical tensions and potential conflict between Israel and Iran.",
+        "Energies": {
+          "display_format": "**Energies:** Sources de puissance",
+          "explanation": "Sources of power or force",
+          "cultural_note": ""
+        },
+        "renouvelables": {
+          "display_format": "**renouvelables:** Qui peuvent être renouvelées",
+          "explanation": "Capable of being replenished naturally",
           "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon, used here to introduce an explanation or elaboration.",
+          "explanation": "Colon introducing explanation or elaboration",
           "cultural_note": ""
         },
-        "les": {
-          "display_format": "**les:** Articles définis pluriels",
-          "explanation": "The (plural definite article).",
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "An indefinite article, singular masculine",
           "cultural_note": ""
         },
-        "évacuations": {
-          "display_format": "**évacuations:** Actes de quitter un lieu",
-          "explanation": "Evacuations; the process of moving people out of a dangerous area.",
+        "moratoire": {
+          "display_format": "**moratoire:** Arrêt temporaire officiel",
+          "explanation": "A temporary halt or suspension of an activity",
           "cultural_note": ""
         },
-        "des": {
-          "display_format": "**des:** Article contracté de + les",
-          "explanation": "Of the (contraction of 'de' and 'les').",
-          "cultural_note": ""
-        },
-        "ressortissants": {
-          "display_format": "**ressortissants:** Citoyens d'un pays",
-          "explanation": "Nationals or citizens, typically referring to those living abroad.",
-          "cultural_note": ""
-        },
-        "étrangers": {
-          "display_format": "**étrangers:** Non-nationaux, d'autres pays",
-          "explanation": "Foreigners or foreign (adjective modifying 'ressortissants').",
-          "cultural_note": ""
-        },
-        "ont": {
-          "display_format": "**ont:** Verbe avoir, 3ème personne pluriel",
-          "explanation": "Have (third person plural of the verb 'avoir', to have).",
-          "cultural_note": ""
-        },
-        "déjà": {
-          "display_format": "**déjà:** Adverbe, avant maintenant",
-          "explanation": "Already (adverb indicating something happened prior to the present).",
-          "cultural_note": ""
-        },
-        "commencé": {
-          "display_format": "**commencé:** Participe passé de commencer",
-          "explanation": "Started or begun (past participle of the verb 'commencer', to start).",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T17:50:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Les généralistes en colère contre la campagne visant à réduire la durée des arrêts de travail",
-      "original_article_link": "https://www.lefigaro.fr/conjoncture/les-generalistes-en-colere-contre-la-campagne-visant-a-reduire-la-duree-des-arrets-de-travail-20250619",
-      "original_article_published_date": "2025-06-19T17:42:06",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.627,
-        "relevance_score": 9.0,
-        "importance_score": 6.35,
-        "total_score": 16.88
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les médecins en colère contre une idée du gouvernement",
-      "simplified_english_title": "Doctors angry about government idea",
-      "french_summary": "Les médecins généralistes sont mécontents d'une campagne qui veut raccourcir les arrêts maladie. Ils pensent que cela complique leur travail et met la pression.",
-      "english_summary": "General practitioners are unhappy with a campaign that aims to shorten sick leave. They believe it complicates their work and adds pressure.",
-      "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**Les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
-          "cultural_note": ""
-        },
-        "généralistes": {
-          "display_format": "**généralistes:** Médecins traitants",
-          "explanation": "General practitioners, family doctors",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "In, as, by (preposition)",
-          "cultural_note": ""
-        },
-        "colère": {
-          "display_format": "**colère:** Sentiment de fureur",
-          "explanation": "Anger, wrath",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**contre:** En opposition à",
-          "explanation": "Against, in opposition to",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini singulier",
-          "explanation": "The (singular definite article, feminine)",
-          "cultural_note": ""
-        },
-        "campagne": {
-          "display_format": "**campagne:** Action organisée",
-          "explanation": "Campaign, organized effort",
-          "cultural_note": ""
-        },
-        "visant": {
-          "display_format": "**visant:** Ayant pour but",
-          "explanation": "Aiming at, targeting",
+        "adopté": {
+          "display_format": "**adopté:** Approuvé, accepté",
+          "explanation": "Approved or formally accepted, passed",
           "cultural_note": ""
         },
         "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "To, at (preposition)",
+          "display_format": "**à:** Préposition de manière",
+          "explanation": "Preposition indicating manner or circumstance",
           "cultural_note": ""
         },
-        "réduire": {
-          "display_format": "**réduire:** Diminuer, raccourcir",
-          "explanation": "To reduce, to shorten",
-          "cultural_note": ""
-        },
-        "durée": {
-          "display_format": "**durée:** Temps d'un événement",
-          "explanation": "Duration, length of time",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Of the, some (plural indefinite article)",
-          "cultural_note": ""
-        },
-        "arrêts": {
-          "display_format": "**arrêts:** Suspensions de travail",
-          "explanation": "Stops, breaks; here: sick leaves",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of, from (preposition)",
-          "cultural_note": ""
-        },
-        "travail": {
-          "display_format": "**travail:** Activité professionnelle",
-          "explanation": "Work, labor",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T17:50:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Radio France : six syndicats appellent à une grève illimitée à partir du 26 juin contre les mesures d'économie et contre la réforme de l'audiovisuel public",
-      "original_article_link": "https://www.franceinfo.fr/economie/medias/greve-a-radio-france/radio-france-six-syndicats-appellent-a-une-greve-illimitee-a-partir-du-26-juin-contre-les-mesures-d-economie-et-contre-la-reforme-de-l-audiovisuel-public_7324446.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-19T17:29:44",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.64,
-        "relevance_score": 9.0,
-        "importance_score": 6.4,
-        "total_score": 16.92
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Radio France : grève illimitée contre les économies",
-      "simplified_english_title": "Radio France: indefinite strike against budget cuts",
-      "french_summary": "Six syndicats de Radio France appellent à une grève illimitée dès le 26 juin. Ils protestent contre les mesures d'économie et la réforme de l'audiovisuel public.",
-      "english_summary": "Six unions at Radio France call for an indefinite strike starting June 26. They are protesting against budget cuts and public broadcasting reform.",
-      "contextual_title_explanations": {
-        "Radio France": {
-          "display_format": "**Radio France:** Groupe radiophonique public français",
-          "explanation": "French public radio broadcasting group.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation or list.",
-          "cultural_note": ""
-        },
-        "six": {
-          "display_format": "**six:** Nombre 6",
-          "explanation": "The number before seven.",
-          "cultural_note": ""
-        },
-        "syndicats": {
-          "display_format": "**syndicats:** Organisations de travailleurs",
-          "explanation": "Unions representing workers' interests.",
-          "cultural_note": ""
-        },
-        "appellent": {
-          "display_format": "**appellent:** Invitent à participer",
-          "explanation": "Call upon or invite to an action.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu/but",
-          "explanation": "Preposition indicating direction, location, or purpose.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin",
-          "explanation": "Feminine indefinite article, 'a' or 'an'.",
-          "cultural_note": ""
-        },
-        "grève": {
-          "display_format": "**grève:** Arrêt de travail",
-          "explanation": "A strike, cessation of work by employees.",
-          "cultural_note": "Strikes are a common form of protest in France."
-        },
-        "illimitée": {
-          "display_format": "**illimitée:** Sans fin fixée",
-          "explanation": "Without a set end, indefinite.",
-          "cultural_note": ""
-        },
-        "à partir du": {
-          "display_format": "**à partir du:** Dès le",
-          "explanation": "Starting from a specific date or time.",
-          "cultural_note": ""
-        },
-        "26 juin": {
-          "display_format": "**26 juin:** Date calendaire",
-          "explanation": "The specific date of June 26th.",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**contre:** En opposition à",
-          "explanation": "Against, in opposition to something.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "Plural definite article, 'the'.",
-          "cultural_note": ""
-        },
-        "mesures": {
-          "display_format": "**mesures:** Dispositions, actions",
-          "explanation": "Actions or steps taken to achieve an aim.",
-          "cultural_note": ""
-        },
-        "d'économie": {
-          "display_format": "**d'économie:** De réduction des dépenses",
-          "explanation": "Related to saving money, cost-cutting.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction de coordination",
-          "explanation": "Conjunction meaning 'and'.",
-          "cultural_note": ""
+        "l'Assemblée": {
+          "display_format": "**l'Assemblée:** Assemblée Nationale",
+          "explanation": "Refers to the French National Assembly, the lower house of Parliament",
+          "cultural_note": "Common abbreviation for Assemblée Nationale in French media."
         },
         "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "Feminine singular definite article, 'the'.",
+          "display_format": "**la:** Article défini",
+          "explanation": "A definite article, singular feminine",
           "cultural_note": ""
         },
-        "réforme": {
-          "display_format": "**réforme:** Changement pour améliorer",
-          "explanation": "A change or improvement, often to a system.",
-          "cultural_note": "Reforms often spark social debate in France."
-        },
-        "de": {
-          "display_format": "**de:** Préposition de possession",
-          "explanation": "Preposition indicating possession or origin, 'of'.",
+        "surprise": {
+          "display_format": "**surprise:** Étonnement inattendu",
+          "explanation": "An unexpected feeling of astonishment or wonder",
           "cultural_note": ""
         },
-        "l'audiovisuel public": {
-          "display_format": "**l'audiovisuel public:** Secteur radio-télévision d'État",
-          "explanation": "Public broadcasting sector (radio and television).",
-          "cultural_note": "Refers to state-funded media like Radio France and France Télévisions."
+        "générale": {
+          "display_format": "**générale:** Qui concerne tous",
+          "explanation": "Pertaining to everyone or everything; widespread",
+          "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T17:50:55",
+      "processed_at": "2025-06-19T18:21:23",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
@@ -407,99 +89,246 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Justice des mineurs : le Conseil constitutionnel censure six articles clés de la loi de Gabriel Attal",
-      "original_article_link": "https://www.franceinfo.fr/societe/justice/justice-des-mineurs-le-conseil-constitutionnel-censure-six-articles-cles-de-la-loi-de-gabriel-attal_7324410.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-19T17:35:37",
-      "source_name": "France Info",
+      "original_article_title": "Retraites : la capitalisation fait son chemin - 19/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts-du-soir/video-retraites-la-capitalisation-fait-son-chemin-19-06_VN-202506190722.html",
+      "original_article_published_date": "2025-06-19T18:01:14",
+      "source_name": "BFM TV",
       "quality_scores": {
-        "quality_score": 5.619,
-        "relevance_score": 9.0,
-        "importance_score": 6.32,
-        "total_score": 16.856
+        "quality_score": 4.949,
+        "relevance_score": 7.0,
+        "importance_score": 6.81,
+        "total_score": 14.848
       },
       "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Justice des mineurs : articles de loi censurés",
-      "simplified_english_title": "Juvenile justice: Law articles rejected",
-      "french_summary": "Le Conseil constitutionnel a annulé six articles importants d'une loi sur la justice des mineurs. Cette loi avait été proposée par Gabriel Attal.",
-      "english_summary": "The Constitutional Council has invalidated six key articles of a law concerning juvenile justice. This law was proposed by Gabriel Attal.",
+      "simplified_french_title": "Retraites : la capitalisation devient plus populaire",
+      "simplified_english_title": "Pensions: capitalization method gains ground",
+      "french_summary": "La capitalisation est une méthode pour financer les retraites où chacun épargne pour sa propre retraite. Cette idée progresse dans le débat public.",
+      "english_summary": "Capitalization is a method for funding pensions where individuals save for their own retirement. This idea is gaining traction in public discussion.",
       "contextual_title_explanations": {
-        "Justice": {
-          "display_format": "**Justice:** Système judiciaire",
-          "explanation": "The system of law and courts.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** De les",
-          "explanation": "Contraction of 'de' (of/from) and 'les' (the, plural).",
-          "cultural_note": ""
-        },
-        "mineurs": {
-          "display_format": "**mineurs:** Personnes de moins 18 ans",
-          "explanation": "Minors; individuals under the age of legal majority.",
-          "cultural_note": ""
+        "Retraites": {
+          "display_format": "**Retraites:** Pensions de vieillesse",
+          "explanation": "Refers to the retirement system or pensions.",
+          "cultural_note": "A highly debated topic in French politics."
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon, indicating an explanation or elaboration to follow.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini masculin",
-          "explanation": "Definite article, masculine singular: 'the'.",
-          "cultural_note": ""
-        },
-        "Conseil constitutionnel": {
-          "display_format": "**Conseil constitutionnel:** Cour suprême constitutionnelle",
-          "explanation": "France's highest constitutional authority, ensuring laws comply with the Constitution.",
-          "cultural_note": "Plays a key role in French institutional life, checking the constitutionality of laws."
-        },
-        "censure": {
-          "display_format": "**censure:** Déclare inconstitutionnel",
-          "explanation": "To invalidate or strike down, often in a legal context.",
-          "cultural_note": ""
-        },
-        "six": {
-          "display_format": "**six:** Nombre",
-          "explanation": "The number 6.",
-          "cultural_note": ""
-        },
-        "articles": {
-          "display_format": "**articles:** Sections d'une loi",
-          "explanation": "Specific numbered sections or clauses within a legal text or law.",
-          "cultural_note": ""
-        },
-        "clés": {
-          "display_format": "**clés:** Essentiels, importants",
-          "explanation": "Key or essential, indicating their importance.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition meaning 'of' or 'from'.",
+          "explanation": "Colon, introducing an explanation or specification.",
           "cultural_note": ""
         },
         "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "Definite article, feminine singular: 'the'.",
+          "display_format": "**la:** Article défini féminin singulier",
+          "explanation": "The (feminine singular definite article).",
           "cultural_note": ""
         },
-        "loi": {
-          "display_format": "**loi:** Règle, législation",
-          "explanation": "A rule or set of rules established by authority.",
+        "capitalisation": {
+          "display_format": "**capitalisation:** Accumulation de capital",
+          "explanation": "The act of accumulating capital, often for investments.",
+          "cultural_note": "In pensions, refers to funding by investment rather than pay-as-you-go."
+        },
+        "fait": {
+          "display_format": "**fait:** Verbe faire, troisième personne",
+          "explanation": "Does, makes (from the verb 'faire').",
           "cultural_note": ""
         },
-        "Gabriel Attal": {
-          "display_format": "**Gabriel Attal:** Ancien Premier ministre français",
-          "explanation": "A prominent French politician, formerly Prime Minister.",
-          "cultural_note": "Known for his rapid rise in French politics."
+        "son": {
+          "display_format": "**son:** Déterminant possessif masculin singulier",
+          "explanation": "His/her/its (masculine singular possessive adjective).",
+          "cultural_note": ""
+        },
+        "chemin": {
+          "display_format": "**chemin:** Voie, progression",
+          "explanation": "Path or way; 'faire son chemin' means to make progress or gain acceptance.",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash, often used to separate parts of a title or add information.",
+          "cultural_note": ""
+        },
+        "19/06": {
+          "display_format": "**19/06:** Date (19 juin)",
+          "explanation": "Date: June 19th (day/month format).",
+          "cultural_note": "Common date format in French-speaking countries."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T17:50:55",
+      "processed_at": "2025-06-19T18:21:23",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Arrêts de travail: les généralistes dénoncent les tentatives de contrôle de l'Assurance maladie",
+      "original_article_link": "https://www.bfmtv.com/economie/economie-social/finances-publiques/arrets-de-travail-les-generalistes-denoncent-les-tentatives-de-controle-de-l-assurance-maladie_AD-202506190724.html",
+      "original_article_published_date": "2025-06-19T18:08:06",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.264,
+        "relevance_score": 9.0,
+        "importance_score": 6.24,
+        "total_score": 15.792
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les médecins critiquent le contrôle des arrêts maladie",
+      "simplified_english_title": "Doctors criticize control over sick leave",
+      "french_summary": "Les médecins généralistes français expriment leur mécontentement face aux tentatives de l'Assurance maladie de contrôler les arrêts de travail qu'ils prescrivent. Ils dénoncent une pression excessive.",
+      "english_summary": "French general practitioners are unhappy with attempts by the health insurance system to control the sick leave they prescribe. They criticize excessive pressure.",
+      "contextual_title_explanations": {
+        "Arrêts de travail": {
+          "display_format": "**Arrêts de travail:** Absences maladie, congés payés",
+          "explanation": "Work stoppages, sick leaves, or temporary disability leaves",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation or list",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "généralistes": {
+          "display_format": "**généralistes:** Médecins généralistes",
+          "explanation": "General practitioners, family doctors",
+          "cultural_note": ""
+        },
+        "dénoncent": {
+          "display_format": "**dénoncent:** Critiquent publiquement, révèlent",
+          "explanation": "Denounce, condemn, expose",
+          "cultural_note": ""
+        },
+        "tentatives": {
+          "display_format": "**tentatives:** Essais, démarches",
+          "explanation": "Attempts, efforts",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, indique possession",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "contrôle": {
+          "display_format": "**contrôle:** Vérification, supervision",
+          "explanation": "Control, check, supervision",
+          "cultural_note": ""
+        },
+        "l'Assurance maladie": {
+          "display_format": "**l'Assurance maladie:** Système sécurité sociale santé",
+          "explanation": "French national health insurance system",
+          "cultural_note": "Often referred to as 'La Sécu'. Manages healthcare reimbursement and sick leave."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T18:21:23",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Hautes-Pyrénées : démantèlement d'un trafic d'anabolisants dans des salles de sport à Tarbes",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/hautes-pyrenees-demantelement-d-un-trafic-d-anabolisants-dans-des-salles-de-sport-a-tarbes-20250619",
+      "original_article_published_date": "2025-06-19T17:58:15",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.277,
+        "relevance_score": 9.0,
+        "importance_score": 6.29,
+        "total_score": 15.832
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trafic de produits dopants démantelé dans les Hautes-Pyrénées",
+      "simplified_english_title": "Doping product trafficking dismantled in Hautes-Pyrénées",
+      "french_summary": "La police a découvert un réseau de vente de produits dopants interdits. Ces produits étaient vendus dans des salles de sport à Tarbes. Plusieurs personnes ont été arrêtées.",
+      "english_summary": "Police discovered a network selling illegal doping products. These products were sold in gyms in Tarbes. Several people have been arrested.",
+      "contextual_title_explanations": {
+        "Hautes-Pyrénées": {
+          "display_format": "**Hautes-Pyrénées:** Département français",
+          "explanation": "A department (administrative division) in southwestern France, known for its mountains.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introducing an explanation or elaboration.",
+          "cultural_note": ""
+        },
+        "démantèlement": {
+          "display_format": "**démantèlement:** Destruction, démantèlement d'un réseau",
+          "explanation": "The dismantling or breaking up of something, often a network or organization.",
+          "cultural_note": ""
+        },
+        "d&#39;un": {
+          "display_format": "**d'un:** De un",
+          "explanation": "Contraction of 'de' (of/from) and 'un' (a/an).",
+          "cultural_note": ""
+        },
+        "trafic": {
+          "display_format": "**trafic:** Commerce illégal",
+          "explanation": "Illegal trade or trafficking, often of prohibited goods.",
+          "cultural_note": ""
+        },
+        "d&#39;anabolisants": {
+          "display_format": "**d'anabolisants:** De produits anabolisants",
+          "explanation": "Contraction of 'de' (of/from) and 'anabolisants' (anabolic steroids).",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "Preposition meaning 'in' or 'inside'.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Indefinite article, plural form, meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "salles": {
+          "display_format": "**salles:** Pièces, lieux",
+          "explanation": "Rooms or halls.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, appartenance",
+          "explanation": "Preposition meaning 'of' or 'from', indicating possession or type.",
+          "cultural_note": ""
+        },
+        "sport": {
+          "display_format": "**sport:** Activité physique",
+          "explanation": "Sport or physical activity.",
+          "cultural_note": "Often used in 'salle de sport' for gym."
+        },
+        "à": {
+          "display_format": "**à:** Préposition, lieu",
+          "explanation": "Preposition meaning 'at' or 'in', indicating location.",
+          "cultural_note": ""
+        },
+        "Tarbes": {
+          "display_format": "**Tarbes:** Ville française",
+          "explanation": "A city in southwestern France, prefecture of the Hautes-Pyrénées department.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T18:21:23",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
