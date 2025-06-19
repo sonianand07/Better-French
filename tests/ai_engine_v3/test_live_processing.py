@@ -1,4 +1,5 @@
-import os, pytest
+import os
+import pytest
 from ai_engine_v3.models import Article, QualityScores
 from ai_engine_v3.processor import ProcessorV2
 
