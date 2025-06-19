@@ -3,74 +3,94 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Les Dodgers refoulent la police de l’immigration de leur stade",
-      "original_article_link": "https://www.20min.ch/fr/story/los-angeles-les-dodgers-refoulent-la-police-de-l-immigration-de-leur-stade-103367442",
-      "original_article_published_date": "2025-06-19T21:29:36",
-      "source_name": "20 Minutes",
+      "original_article_title": "«Vendanges de la honte» en Champagne: peines de prison ferme requises pour traite d'êtres humains",
+      "original_article_link": "https://www.rfi.fr/fr/france/20250619-vendanges-de-la-honte-en-champagne-peines-de-prison-ferme-requises-pour-traite-d-%C3%AAtres-humains",
+      "original_article_published_date": "2025-06-19T22:40:30",
+      "source_name": "RFI",
       "quality_scores": {
-        "quality_score": 5.272,
+        "quality_score": 5.32,
         "relevance_score": 9.0,
-        "importance_score": 6.27,
-        "total_score": 15.816
+        "importance_score": 6.45,
+        "total_score": 15.96
       },
-      "difficulty": "B1",
+      "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Les Dodgers refusent l'entrée à la police de l'immigration",
-      "simplified_english_title": "Dodgers refuse entry to immigration police",
-      "french_summary": "Le club de baseball des Dodgers a empêché les agents de l'immigration d'entrer dans leur stade. Cette décision a été prise pour protéger les fans et le personnel. Les raisons exactes ne sont pas claires.",
-      "english_summary": "The Dodgers baseball club prevented immigration officers from entering their stadium. This decision was made to protect fans and staff. The exact reasons are not clear.",
+      "simplified_french_title": "Prison requise pour la traite humaine en Champagne",
+      "simplified_english_title": "Prison requested for human trafficking in Champagne",
+      "french_summary": "Des peines de prison sont demandées pour des personnes impliquées dans la traite d'êtres humains lors des vendanges en Champagne. Des travailleurs étaient exploités dans des conditions difficiles.",
+      "english_summary": "Prison sentences are requested for individuals involved in human trafficking during the grape harvest in Champagne. Workers were exploited under difficult conditions.",
       "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**Les:** Article défini pluriel",
-          "explanation": "The (plural)",
+        "«": {
+          "display_format": "**« :** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "Used in French for direct speech or specific terms."
+        },
+        "Vendanges de la honte": {
+          "display_format": "**Vendanges de la honte :** Récolte déshonorante",
+          "explanation": "Literally 'harvests of shame,' referring to scandalous or exploitative grape harvests.",
+          "cultural_note": "Highlights ethical issues in agricultural labor."
+        },
+        "»": {
+          "display_format": "**» :** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": "Used in French for direct speech or specific terms."
+        },
+        "en": {
+          "display_format": "**en :** Dans, à l'intérieur",
+          "explanation": "In, within (preposition)",
           "cultural_note": ""
         },
-        "Dodgers": {
-          "display_format": "**Dodgers:** Équipe de baseball de LA",
-          "explanation": "Los Angeles professional baseball team",
+        "Champagne": {
+          "display_format": "**Champagne :** Région viticole française",
+          "explanation": "A region in France famous for producing sparkling wine.",
+          "cultural_note": "The name 'Champagne' is protected for wines from this specific region."
+        },
+        ":": {
+          "display_format": "** :** Deux-points",
+          "explanation": "Colon introducing an explanation or list.",
           "cultural_note": ""
         },
-        "refoulent": {
-          "display_format": "**refoulent:** Repoussent, rejettent",
-          "explanation": "To turn back, to repel, to refuse entry",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini singulier",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "police": {
-          "display_format": "**police:** Force de l'ordre",
-          "explanation": "Police force",
+        "peines": {
+          "display_format": "**peines :** Sanctions judiciaires",
+          "explanation": "Punishments, sentences (legal term).",
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**de:** Préposition, indique origine",
-          "explanation": "From, out of",
+          "display_format": "**de :** Appartenance, origine",
+          "explanation": "Of, from (preposition)",
           "cultural_note": ""
         },
-        "l’immigration": {
-          "display_format": "**l’immigration:** Mouvement de personnes",
-          "explanation": "Immigration, movement into a country",
+        "prison": {
+          "display_format": "**prison :** Lieu de détention",
+          "explanation": "Jail, prison (noun).",
           "cultural_note": ""
         },
-        "leur": {
-          "display_format": "**leur:** Déterminant possessif pluriel",
-          "explanation": "Their",
+        "ferme": {
+          "display_format": "**ferme :** Sans sursis",
+          "explanation": "Strict, firm; in legal context, a sentence without suspension.",
+          "cultural_note": "A 'peine ferme' means actual time served in prison."
+        },
+        "requises": {
+          "display_format": "**requises :** Demandées officiellement",
+          "explanation": "Requested, demanded (formally, often in a legal context).",
+          "cultural_note": "Indicates what the prosecution has asked for."
+        },
+        "pour": {
+          "display_format": "**pour :** En vue de",
+          "explanation": "For, in order to (preposition).",
           "cultural_note": ""
         },
-        "stade": {
-          "display_format": "**stade:** Terrain de sport",
-          "explanation": "Stadium, sports arena",
-          "cultural_note": ""
+        "traite d'êtres humains": {
+          "display_format": "**traite d'êtres humains :** Trafic de personnes",
+          "explanation": "Human trafficking, the illegal trade of people for exploitation.",
+          "cultural_note": "A serious crime involving modern slavery."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T22:17:53",
+      "processed_at": "2025-06-19T23:18:33",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
