@@ -1,58 +1,13 @@
-name: AI-Engine v2 CI
+name: "AI-Engine v2 CI (disabled)"
 
-on:
-  push:
-    branches: [ main, ai-pipeline-audit ]
-    paths:
-      - "ai_engine_v2/**"
-      - "requirements.txt"
-      - ".github/workflows/ai-engine-v2.yml"
-  pull_request:
-    branches: [ main ]
-    paths:
-      - "ai_engine_v2/**"
-      - "requirements.txt"
+# Workflow retained for historical reference. All triggers have been removed so it no
+# longer executes. Delete this file entirely if you no longer need to consult it.
+
+on: {}
 
 jobs:
-  test:
+  noop:
+    if: false
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.12"
-
-      - name: Install system-level dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential libxml2-dev libxslt1-dev
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-          # make sure spaCy models are available for CuratorV2
-          python -m spacy download fr_core_news_sm
-          python -m spacy download en_core_web_sm
-
-      - name: Run unit tests
-        env:
-          PYTHONPATH: ${{ github.workspace }}
-        run: pytest -q tests/ai_engine_v2
-
-      - name: Smoke-run pipeline (limit 2) — verifies end-to-end
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: |
-          python -m ai_engine_v2.pipeline.runner --limit 5 --backfill-limit 10
-          ls -R ai_engine_v2/website | head
-
-      - name: Upload rolling feed artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: rolling_articles_json
-          path: ai_engine_v2/website/rolling_articles.json 
+      - run: echo "noop" 
