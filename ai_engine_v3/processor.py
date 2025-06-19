@@ -113,25 +113,26 @@ class ProcessorV2:
         )
 
         if ok2 and payload2:
-            # Convert list to dict keyed by original_word to match website expectations
+            # Convert list → dict keyed by the word itself (website expects that)
             if isinstance(payload2, list):
                 article.contextual_title_explanations = {
                     obj.get("original_word"): {k: v for k, v in obj.items() if k != "original_word"}
-                    for obj in payload2 if isinstance(obj, dict) and obj.get("original_word")
+                    for obj in payload2
+                    if isinstance(obj, dict) and obj.get("original_word")
                 }
             else:
                 article.contextual_title_explanations = payload2
-            # Coverage guard (allow small gaps)
-            if not coverage_ok(article.original_article_title, article.contextual_title_explanations):
-                logger.warning(
-                    "Coverage not perfect for '%s' – will accept but mark not display-ready",
-                    article.original_article_title[:60],
-                )
-                article.display_ready = False
+
         else:
-            logger.warning("Explanations failed validation for '%s'", article.original_article_title[:60])
+            logger.warning(
+                "Explanations missing or invalid for '%s' – storing without contextual words",
+                article.original_article_title[:60],
+            )
             article.backfill_attempts += 1
 
+        # From v3-1.1 onward we accept any article that has simplified titles & summaries
+        # as 'display-ready'. Contextual words are a nice-to-have, not a blocker.
+        article.display_ready = True
         article.ai_enhanced = True
         return article
 
