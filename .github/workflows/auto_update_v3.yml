@@ -28,8 +28,8 @@ jobs:
 
       - name: Run pipeline
         run: |
-          python ai_engine_v3/scripts/fetch_news.py
-          python ai_engine_v3/scripts/qualify_news.py
+          python -m ai_engine_v3.scripts.fetch_news
+          python -m ai_engine_v3.scripts.qualify_news
 
       - name: Commit & push results
         run: |
