@@ -3,94 +3,109 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "EDF envisage des baisses de production nucléaire à cause de la canicule à partir de mercredi",
-      "original_article_link": "https://www.lefigaro.fr/societes/edf-envisage-des-baisses-de-production-nucleaire-a-cause-de-la-canicule-a-partir-de-mercredi-20250619",
-      "original_article_published_date": "2025-06-19T16:00:34",
-      "source_name": "Le Figaro",
+      "original_article_title": "Les États-Unis vont scruter les réseaux sociaux des étudiants étrangers avant de leur donner un visa",
+      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/visas-les-etats-unis-vont-inspecter-les-reseaux-sociaux-de-leurs-etudiants-etrangers-e86f5e5c-4d12-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-19T16:58:44",
+      "source_name": "Ouest France",
       "quality_scores": {
-        "quality_score": 5.613,
+        "quality_score": 5.635,
         "relevance_score": 9.0,
-        "importance_score": 6.3,
-        "total_score": 16.84
+        "importance_score": 6.38,
+        "total_score": 16.904
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "EDF prévoit de réduire sa production nucléaire à cause de la chaleur",
-      "simplified_english_title": "EDF plans to reduce nuclear output due to heatwave",
-      "french_summary": "EDF, l'entreprise d'électricité, pourrait diminuer sa production d'énergie nucléaire dès mercredi. La raison est la chaleur, qui rend difficile le refroidissement des centrales.",
-      "english_summary": "EDF, the electricity company, might reduce its nuclear power production starting Wednesday. The reason is the heat, which makes cooling the power plants difficult.",
+      "simplified_french_title": "USA: contrôle des réseaux sociaux pour les visas étudiants",
+      "simplified_english_title": "US to check foreign students' social media for visas",
+      "french_summary": "Les États-Unis vont examiner les comptes de réseaux sociaux des étudiants étrangers. Ceci se fera avant de leur accorder un visa pour étudier dans le pays.",
+      "english_summary": "The United States will examine foreign students' social media accounts. This will happen before giving them a visa to study in the country.",
       "contextual_title_explanations": {
-        "EDF": {
-          "display_format": "**EDF:** Électricité de France",
-          "explanation": "Major French state-owned electricity company, primarily involved in nuclear power.",
+        "Les": {
+          "display_format": "**Les:** Article défini pluriel",
+          "explanation": "Definite article, plural, masculine or feminine",
           "cultural_note": ""
         },
-        "envisage": {
-          "display_format": "**envisage:** Considérer, projeter",
-          "explanation": "To consider, to envision, to plan for something.",
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
+          "explanation": "The United States of America",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** Aller, futur proche",
+          "explanation": "Third person plural of 'aller' (to go), used for near future",
+          "cultural_note": ""
+        },
+        "scruter": {
+          "display_format": "**scruter:** Examiner attentivement",
+          "explanation": "To scrutinize, examine closely",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Definite article, plural, masculine or feminine",
+          "cultural_note": ""
+        },
+        "réseaux": {
+          "display_format": "**réseaux:** Systèmes de connexion",
+          "explanation": "Networks",
+          "cultural_note": ""
+        },
+        "sociaux": {
+          "display_format": "**sociaux:** Relatifs à la société",
+          "explanation": "Social (plural, masculine)",
           "cultural_note": ""
         },
         "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Indefinite article, meaning 'some' or 'any' (plural).",
+          "display_format": "**des:** De les, possession",
+          "explanation": "Contraction of 'de' (of/from) and 'les' (the)",
           "cultural_note": ""
         },
-        "baisses": {
-          "display_format": "**baisses:** Diminutions, réductions",
-          "explanation": "Decreases, drops, reductions.",
+        "étudiants": {
+          "display_format": "**étudiants:** Personnes qui étudient",
+          "explanation": "Students (masculine plural)",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**étrangers:** Qui viennent d'ailleurs",
+          "explanation": "Foreigners, foreign (masculine plural)",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**avant:** Précédemment, auparavant",
+          "explanation": "Before (adverb or preposition)",
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**de:** Préposition, indique possession",
-          "explanation": "Preposition meaning 'of' or 'from'.",
+          "display_format": "**de:** Préposition, introduit infinitif",
+          "explanation": "Preposition, often used before an infinitive",
           "cultural_note": ""
         },
-        "production": {
-          "display_format": "**production:** Fabrication, création",
-          "explanation": "The act of producing or manufacturing something.",
+        "leur": {
+          "display_format": "**leur:** À eux, à elles",
+          "explanation": "Indirect object pronoun, to them",
           "cultural_note": ""
         },
-        "nucléaire": {
-          "display_format": "**nucléaire:** Relatif à l'atome",
-          "explanation": "Relating to nuclear energy or nuclear power.",
+        "donner": {
+          "display_format": "**donner:** Remettre, accorder",
+          "explanation": "To give",
           "cultural_note": ""
         },
-        "à": {
-          "display_format": "**à:** Préposition, indique lieu/temps",
-          "explanation": "Preposition meaning 'at', 'to', or 'in'.",
+        "un": {
+          "display_format": "**un:** Article indéfini masculin",
+          "explanation": "An, a (masculine singular indefinite article)",
           "cultural_note": ""
         },
-        "cause": {
-          "display_format": "**cause:** Raison, motif",
-          "explanation": "Reason or motive for something; 'à cause de' means 'because of'.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "Definite article, meaning 'the' (feminine singular).",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**canicule:** Forte chaleur estivale",
-          "explanation": "Heatwave, period of very hot weather.",
-          "cultural_note": "A significant concern in France, especially impacting infrastructure and health."
-        },
-        "partir": {
-          "display_format": "**partir:** Commencer à un moment",
-          "explanation": "To start from a point in time; 'à partir de' means 'starting from'.",
-          "cultural_note": ""
-        },
-        "mercredi": {
-          "display_format": "**mercredi:** Troisième jour semaine",
-          "explanation": "Wednesday, the third day of the week.",
+        "visa": {
+          "display_format": "**visa:** Autorisation d'entrée",
+          "explanation": "Visa, official endorsement",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T16:23:58",
+      "processed_at": "2025-06-19T17:17:53",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
@@ -99,84 +114,170 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Le développement de l’avion chinois Comac C919 entravé par les tensions internationales",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/19/le-developpement-de-l-avion-chinois-comac-c919-entrave-par-les-tensions-internationales_6614660_3234.html",
-      "original_article_published_date": "2025-06-19T16:15:03",
-      "source_name": "Le Monde International",
+      "original_article_title": "Sous la menace de frappes américaines, l’Iran refuse de capituler",
+      "original_article_link": "https://www.lefigaro.fr/international/sous-la-menace-de-frappes-americaines-l-iran-refuse-de-capituler-20250619",
+      "original_article_published_date": "2025-06-19T16:47:31",
+      "source_name": "Le Figaro",
       "quality_scores": {
-        "quality_score": 5.651,
+        "quality_score": 5.261,
         "relevance_score": 9.0,
-        "importance_score": 6.44,
-        "total_score": 16.952
+        "importance_score": 6.23,
+        "total_score": 15.784
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran refuse de céder face aux menaces américaines",
+      "simplified_english_title": "Iran refuses to yield to US threats",
+      "french_summary": "Malgré la menace de frappes militaires des États-Unis, l'Iran déclare qu'il ne changera pas sa position politique et ne capitulera pas.",
+      "english_summary": "Despite the threat of US military strikes, Iran states it will not change its political stance and will not surrender.",
+      "contextual_title_explanations": {
+        "Sous": {
+          "display_format": "**Sous:** En dessous de",
+          "explanation": "Indicates being subjected to something or under the influence of something.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Feminine singular definite article.",
+          "cultural_note": ""
+        },
+        "menace": {
+          "display_format": "**menace:** Danger imminent",
+          "explanation": "A statement or action that indicates potential harm or danger.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, introduit infinitif",
+          "explanation": "Preposition, used before an infinitive verb.",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques militaires",
+          "explanation": "Military attacks, typically from the air.",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Relatif aux États-Unis",
+          "explanation": "Pertaining to the United States of America.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule, pause",
+          "explanation": "Comma, indicates a pause or separates clauses.",
+          "cultural_note": ""
+        },
+        "l’Iran": {
+          "display_format": "**l’Iran:** Pays du Moyen-Orient",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": ""
+        },
+        "refuse": {
+          "display_format": "**refuse:** Dit non",
+          "explanation": "To decline or reject something.",
+          "cultural_note": ""
+        },
+        "capituler": {
+          "display_format": "**capituler:** Se rendre, abandonner",
+          "explanation": "To surrender or give in, especially in a conflict.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T17:17:53",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La loi Attal visant à durcir la justice des mineurs largement censurée",
+      "original_article_link": "https://www.lefigaro.fr/actualite-france/la-loi-attal-visant-a-durcir-la-justice-des-mineurs-largement-censuree-20250619",
+      "original_article_published_date": "2025-06-19T17:11:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.611,
+        "relevance_score": 9.0,
+        "importance_score": 6.29,
+        "total_score": 16.832
       },
       "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "L'avion chinois C919 face à des difficultés internationales",
-      "simplified_english_title": "Chinese C919 Aircraft Faces International Difficulties",
-      "french_summary": "Le développement de l'avion chinois Comac C919 rencontre des obstacles. Les tensions entre pays limitent l'accès aux pièces et technologies nécessaires pour sa fabrication et sa certification.",
-      "english_summary": "The development of the Chinese Comac C919 aircraft faces hurdles. Tensions between countries restrict access to necessary parts and technologies for its manufacturing and certification.",
+      "simplified_french_title": "La loi Attal sur la justice des mineurs est censurée",
+      "simplified_english_title": "Attal's law on juvenile justice is censored",
+      "french_summary": "La loi proposée par Gabriel Attal pour rendre la justice des mineurs plus sévère a été en grande partie annulée par le Conseil constitutionnel.",
+      "english_summary": "The law proposed by Gabriel Attal to make juvenile justice stricter was largely invalidated by the Constitutional Council.",
       "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**Le:** Article défini masculin",
-          "explanation": "The (masculine singular definite article)",
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "Feminine singular definite article 'the'",
           "cultural_note": ""
         },
-        "développement": {
-          "display_format": "**développement:** Action de développer",
-          "explanation": "Development, growth, progress",
+        "loi": {
+          "display_format": "**loi:** Règle établie par État",
+          "explanation": "Law, statute, act (of parliament)",
           "cultural_note": ""
         },
-        "de": {
-          "display_format": "**de:** Préposition, possession/origine",
-          "explanation": "Of, from, belonging to",
+        "Attal": {
+          "display_format": "**Attal:** Nom de personne",
+          "explanation": "Refers to Gabriel Attal, then Prime Minister of France",
+          "cultural_note": "Gabriel Attal was Prime Minister when this law was proposed."
+        },
+        "visant": {
+          "display_format": "**visant:** Ayant pour but de",
+          "explanation": "Aiming at, seeking to, targeting",
           "cultural_note": ""
         },
-        "l’avion": {
-          "display_format": "**l’avion:** L'aéronef",
-          "explanation": "The airplane (l' is a contracted form of le)",
+        "à": {
+          "display_format": "**à:** Préposition indiquant but",
+          "explanation": "Preposition 'to', indicating purpose",
           "cultural_note": ""
         },
-        "chinois": {
-          "display_format": "**chinois:** De Chine",
-          "explanation": "Chinese (adjective)",
+        "durcir": {
+          "display_format": "**durcir:** Rendre plus sévère",
+          "explanation": "To toughen, to stiffen, to make harsher",
           "cultural_note": ""
         },
-        "Comac C919": {
-          "display_format": "**Comac C919:** Avion de ligne chinois",
-          "explanation": "Chinese narrow-body airliner, competitor to Airbus A320 and Boeing 737",
-          "cultural_note": "COMAC is a state-owned Chinese aerospace manufacturer."
-        },
-        "entravé": {
-          "display_format": "**entravé:** Gêné, bloqué",
-          "explanation": "Hindered, obstructed, hampered (past participle of entraver)",
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Feminine singular definite article 'the'",
           "cultural_note": ""
         },
-        "par": {
-          "display_format": "**par:** Indique l'agent",
-          "explanation": "By (indicates the agent in a passive construction)",
+        "justice": {
+          "display_format": "**justice:** Système judiciaire",
+          "explanation": "Justice system, judiciary",
           "cultural_note": ""
         },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
+        "des": {
+          "display_format": "**des:** Contraction de 'de les'",
+          "explanation": "Contraction of 'of the' or 'from the'",
           "cultural_note": ""
         },
-        "tensions": {
-          "display_format": "**tensions:** Conflits, désaccords",
-          "explanation": "Tensions, strained relations",
+        "mineurs": {
+          "display_format": "**mineurs:** Personnes sous 18 ans",
+          "explanation": "Minors, underage individuals",
+          "cultural_note": "In France, the age of majority is 18."
+        },
+        "largement": {
+          "display_format": "**largement:** Dans une grande mesure",
+          "explanation": "Largely, widely, extensively",
           "cultural_note": ""
         },
-        "internationales": {
-          "display_format": "**internationales:** Entre les nations",
-          "explanation": "International (feminine plural adjective)",
-          "cultural_note": ""
+        "censurée": {
+          "display_format": "**censurée:** Jugée inconstitutionnelle",
+          "explanation": "Censored, here meaning deemed unconstitutional or rejected",
+          "cultural_note": "Refers to the Constitutional Council (Conseil constitutionnel) striking down parts of the law."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T16:23:58",
+      "processed_at": "2025-06-19T17:17:53",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
@@ -185,43 +286,129 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Israël - Iran : comment s’organise l’évacuation des ressortissants étrangers",
-      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/israel-iran-comment-sorganise-levacuation-des-ressortissants-etrangers-E6BNMVTHYRHW3EKU45COHKUILQ/",
-      "original_article_published_date": "2025-06-19T15:35:01",
-      "source_name": "L'Express",
+      "original_article_title": "Hausse significative d'intoxications par des produits au CBD contenant d'autres substances",
+      "original_article_link": "https://www.europe1.fr/sante/hausse-significative-dintoxications-par-des-produits-au-cbd-contenant-dautres-substances-760188",
+      "original_article_published_date": "2025-06-19T17:03:02",
+      "source_name": "Europe 1",
       "quality_scores": {
-        "quality_score": 5.2,
+        "quality_score": 5.669,
         "relevance_score": 9.0,
-        "importance_score": 6.0,
-        "total_score": 15.6
+        "importance_score": 6.51,
+        "total_score": 17.008
       },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Israël - Iran : L'évacuation des étrangers s'organise",
-      "simplified_english_title": "Israel - Iran: Evacuation of foreign nationals organized",
-      "french_summary": "Face aux tensions entre Israël et l'Iran, les pays préparent le départ de leurs citoyens. Des vols spéciaux peuvent être mis en place.",
-      "english_summary": "Due to tensions between Israel and Iran, countries are preparing for their citizens to leave. Special flights may be organized.",
+      "simplified_french_title": "Plus d'intoxications avec des produits au CBD",
+      "simplified_english_title": "Increase in poisonings from CBD products",
+      "french_summary": "Les intoxications liées à des produits au CBD augmentent. Ces produits contiennent souvent d'autres substances dangereuses pour la santé. La vigilance est recommandée.",
+      "english_summary": "Poisonings from CBD products are increasing. These products often contain other substances dangerous for health. Caution is recommended.",
       "contextual_title_explanations": {
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
+        "Hausse": {
+          "display_format": "**Hausse:** Augmentation, élévation",
+          "explanation": "Increase, rise, an upward trend",
           "cultural_note": ""
         },
-        "-": {
-          "display_format": "**-:** Trait d'union",
-          "explanation": "Hyphen separating two entities",
+        "significative": {
+          "display_format": "**significative:** Importante, notable",
+          "explanation": "Significant, substantial, noticeable",
           "cultural_note": ""
         },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
+        "d'intoxications": {
+          "display_format": "**d'intoxications:** Empoisonnements, intoxications",
+          "explanation": "Of intoxications, poisonings, cases of being poisoned",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Au moyen de",
+          "explanation": "By, through, indicating the agent or means",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some, a few, an indefinite plural article",
+          "cultural_note": ""
+        },
+        "produits": {
+          "display_format": "**produits:** Marchandises, articles",
+          "explanation": "Products, goods, items of commerce",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le (contracté)",
+          "explanation": "To the, at the (contraction of à + le)",
+          "cultural_note": ""
+        },
+        "CBD": {
+          "display_format": "**CBD:** Cannabidiol",
+          "explanation": "Cannabidiol, a non-psychoactive compound found in cannabis",
+          "cultural_note": "CBD products are legal in France if THC levels are very low."
+        },
+        "contenant": {
+          "display_format": "**contenant:** Qui contient",
+          "explanation": "Containing, holding, having within",
+          "cultural_note": ""
+        },
+        "d'autres": {
+          "display_format": "**d'autres:** Autres, supplémentaires",
+          "explanation": "Other, additional, different ones",
+          "cultural_note": ""
+        },
+        "substances": {
+          "display_format": "**substances:** Matières, éléments",
+          "explanation": "Substances, materials, chemical compounds",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T17:17:53",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : comment aménager son logement face aux températures élevées ?",
+      "original_article_link": "https://www.ouest-france.fr/societe/logement/vague-de-chaleur-comment-amenager-son-logement-face-aux-temperatures-elevees-7423318c-4d25-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-19T16:49:48",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.275,
+        "relevance_score": 9.0,
+        "importance_score": 6.28,
+        "total_score": 15.824
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Comment préparer sa maison pour la chaleur ?",
+      "simplified_english_title": "How to prepare your home for the heat?",
+      "french_summary": "Face aux températures très élevées, cet article donne des conseils pratiques pour adapter son logement et mieux supporter la chaleur.",
+      "english_summary": "With very high temperatures, this article gives practical advice on how to adapt your home and better tolerate the heat.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Mouvement d'eau, phénomène",
+          "explanation": "A wave, or a general phenomenon/period",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartient à, indique",
+          "explanation": "Of, from, belonging to",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, warmth",
           "cultural_note": ""
         },
         ":": {
           "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing an explanation or topic",
+          "explanation": "Colon introducing an explanation or question",
           "cultural_note": ""
         },
         "comment": {
@@ -229,262 +416,50 @@
           "explanation": "How, in what way",
           "cultural_note": ""
         },
-        "s’organise": {
-          "display_format": "**s’organise:** Est organisé",
-          "explanation": "Is organized, takes shape (reflexive verb)",
+        "aménager": {
+          "display_format": "**aménager:** Organiser, adapter un lieu",
+          "explanation": "To arrange, fit out, adapt a space",
           "cultural_note": ""
         },
-        "l’évacuation": {
-          "display_format": "**l’évacuation:** Le retrait, le départ",
-          "explanation": "The evacuation, the removal of people",
+        "son": {
+          "display_format": "**son:** Déterminant possessif masculin",
+          "explanation": "His, her, its (possessive adjective for a masculine noun)",
           "cultural_note": ""
         },
-        "des": {
-          "display_format": "**des:** De les",
-          "explanation": "Contraction of 'de' (of/from) and 'les' (the)",
+        "logement": {
+          "display_format": "**logement:** Lieu d'habitation",
+          "explanation": "Housing, dwelling, accommodation",
           "cultural_note": ""
         },
-        "ressortissants": {
-          "display_format": "**ressortissants:** Citoyens d'un pays",
-          "explanation": "Nationals, citizens of a country residing abroad",
+        "face": {
+          "display_format": "**face:** En présence de",
+          "explanation": "Facing, in front of, confronting",
           "cultural_note": ""
         },
-        "étrangers": {
-          "display_format": "**étrangers:** Non-nationaux, étrangers",
-          "explanation": "Foreigners, non-citizens",
+        "aux": {
+          "display_format": "**aux:** À + les",
+          "explanation": "To the (contraction of 'à' and 'les')",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** Degré de chaleur/froid",
+          "explanation": "Temperatures (degree of heat or cold)",
+          "cultural_note": ""
+        },
+        "élevées": {
+          "display_format": "**élevées:** Hautes, fortes",
+          "explanation": "High, elevated (referring to temperatures, meaning hot)",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark, indicates an interrogative sentence",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T16:23:58",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "C'est une fuite massive: 22.000 touristes veulent quitter Israël dans un pays qui a déjà perdu 64% de ses visiteurs en un an",
-      "original_article_link": "https://www.bfmtv.com/economie/international/c-est-une-fuite-massive-22-000-touristes-veulent-quitter-israel-dans-un-pays-qui-a-deja-perdu-64-de-ses-visiteurs-en-un-an_AN-202506190569.html",
-      "original_article_published_date": "2025-06-19T15:48:18",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.256,
-        "relevance_score": 9.0,
-        "importance_score": 6.21,
-        "total_score": 15.768
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "22 000 touristes veulent quitter Israël",
-      "simplified_english_title": "22,000 Tourists Want to Leave Israel",
-      "french_summary": "Beaucoup de touristes veulent quitter Israël. Le pays a déjà perdu 64% de ses visiteurs en une année. C'est une situation difficile pour le tourisme.",
-      "english_summary": "Many tourists want to leave Israel. The country has already lost 64% of its visitors in one year. This is a difficult situation for tourism.",
-      "contextual_title_explanations": {
-        "C'est": {
-          "display_format": "**C'est:** Cela est",
-          "explanation": "It is; This is",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin singulier",
-          "explanation": "a, an (feminine singular)",
-          "cultural_note": ""
-        },
-        "fuite": {
-          "display_format": "**fuite:** Écoulement, évasion",
-          "explanation": "leak, escape, flight",
-          "cultural_note": ""
-        },
-        "massive": {
-          "display_format": "**massive:** Très grande, énorme",
-          "explanation": "massive, huge",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation or elaboration",
-          "cultural_note": ""
-        },
-        "22.000": {
-          "display_format": "**22.000:** Vingt-deux mille",
-          "explanation": "Twenty-two thousand",
-          "cultural_note": "In French, a period is used as a thousands separator."
-        },
-        "touristes": {
-          "display_format": "**touristes:** Personnes en voyage",
-          "explanation": "tourists",
-          "cultural_note": ""
-        },
-        "veulent": {
-          "display_format": "**veulent:** Désirent, souhaitent",
-          "explanation": "they want (from 'vouloir')",
-          "cultural_note": ""
-        },
-        "quitter": {
-          "display_format": "**quitter:** Partir de, laisser",
-          "explanation": "to leave, to quit",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Proche-Orient",
-          "explanation": "Israel (country in the Middle East)",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** À l'intérieur de",
-          "explanation": "in, into, within",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Nombre un",
-          "explanation": "one",
-          "cultural_note": ""
-        },
-        "pays": {
-          "display_format": "**pays:** Nation, État",
-          "explanation": "country",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**qui:** Pronom relatif sujet",
-          "explanation": "who, which, that (subject pronoun)",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**a:** Possède (verbe avoir)",
-          "explanation": "has (from 'avoir')",
-          "cultural_note": ""
-        },
-        "déjà": {
-          "display_format": "**déjà:** Antérieurement, auparavant",
-          "explanation": "already",
-          "cultural_note": ""
-        },
-        "perdu": {
-          "display_format": "**perdu:** Ayant subi une perte",
-          "explanation": "lost (past participle of 'perdre')",
-          "cultural_note": ""
-        },
-        "64%": {
-          "display_format": "**64%:** Soixante-quatre pour cent",
-          "explanation": "Sixty-four percent",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Indique l'appartenance",
-          "explanation": "of, from",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**ses:** Possessif pluriel (à lui/elle)",
-          "explanation": "his, her, its (plural possessive adjective)",
-          "cultural_note": ""
-        },
-        "visiteurs": {
-          "display_format": "**visiteurs:** Personnes qui visitent",
-          "explanation": "visitors",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Pendant, dans (durée)",
-          "explanation": "in, within (referring to a time period)",
-          "cultural_note": ""
-        },
-        "an": {
-          "display_format": "**an:** Période de 12 mois",
-          "explanation": "year",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T16:23:58",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Le salaire minimum n'a pas entraîné de suppressions d'emplois",
-      "original_article_link": "https://www.20min.ch/fr/story/geneve-le-salaire-minimum-n-a-pas-entraine-de-suppressions-d-emplois-103367268",
-      "original_article_published_date": "2025-06-19T15:46:14",
-      "source_name": "20 Minutes",
-      "quality_scores": {
-        "quality_score": 5.275,
-        "relevance_score": 9.0,
-        "importance_score": 6.28,
-        "total_score": 15.824
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le salaire minimum n'a pas causé de pertes d'emplois",
-      "simplified_english_title": "Minimum wage did not cause job losses",
-      "french_summary": "Une étude montre que l'augmentation du salaire minimum n'a pas entraîné de suppression d'emplois, contrairement à certaines prévisions économiques.",
-      "english_summary": "A study shows that the increase in the minimum wage did not lead to job losses, contrary to some economic predictions.",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**Le:** Article défini masculin",
-          "explanation": "The (masculine singular)",
-          "cultural_note": ""
-        },
-        "salaire": {
-          "display_format": "**salaire:** Rémunération travail",
-          "explanation": "Wage, salary",
-          "cultural_note": ""
-        },
-        "minimum": {
-          "display_format": "**minimum:** Plus bas niveau",
-          "explanation": "Minimum, lowest",
-          "cultural_note": ""
-        },
-        "n'": {
-          "display_format": "**n':** Négation (ne)",
-          "explanation": "Negative particle, short for 'ne'",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**a:** Verbe avoir",
-          "explanation": "Has (from verb 'avoir' - to have)",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** Négation",
-          "explanation": "Not (completes the negation with 'ne')",
-          "cultural_note": ""
-        },
-        "entraîné": {
-          "display_format": "**entraîné:** Causé, provoqué",
-          "explanation": "Caused, led to (past participle of 'entraîner')",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Article indéfini/préposition",
-          "explanation": "Of, some, any (here, part of 'pas de' meaning 'no')",
-          "cultural_note": ""
-        },
-        "suppressions": {
-          "display_format": "**suppressions:** Actes d'éliminer",
-          "explanation": "Eliminations, abolitions, job cuts",
-          "cultural_note": ""
-        },
-        "d'emplois": {
-          "display_format": "**d'emplois:** Postes de travail",
-          "explanation": "Of jobs (short for 'de emplois')",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T16:23:58",
+      "processed_at": "2025-06-19T17:17:53",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
