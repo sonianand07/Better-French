@@ -2,7 +2,7 @@
 
 [build]
   command = ""
-  publish = "ai_engine_v2/website"
+  publish = "ai_engine_v3/website"
 
 # Redirect all 404s to index.html (single-page app behavior)
 [[redirects]]
