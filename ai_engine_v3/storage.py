@@ -44,8 +44,10 @@ class Storage:
     @staticmethod
     def _save(path: pathlib.Path, articles: List[Article]):
         serializable = [a.model_dump(mode="json", by_alias=True) for a in articles]
-        with open(path, "w", encoding="utf-8") as f:
+        tmp = path.with_suffix(".tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump({"articles": serializable}, f, ensure_ascii=False, indent=2)
+        tmp.replace(path)
 
     # Public helpers -------------------------------------------------------
     @classmethod

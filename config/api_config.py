@@ -4,8 +4,9 @@ API Configuration for Better French Max - Automated System
 Contains API keys and external service configurations
 """
 
-import os
-import sys
+import os, sys
+from pathlib import Path
+from configparser import ConfigParser
 
 # ⚠️ SECURITY NOTE: This file contains sensitive API keys
 # - Never commit this file to public repositories
@@ -13,11 +14,29 @@ import sys
 # - Consider using environment variables in production
 
 # 🔑 OPENROUTER API CONFIGURATION
-# Load API key from environment variable if available, otherwise use the hardcoded key for demo purposes
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")  # Must be provided via environment or GitHub secret
+# Priority
+#   1. Explicit environment variable (OPENROUTER_API_KEY)
+#   2. `config/config.ini` file under section [secrets] -> OPENROUTER_API_KEY
+#      (the file is expected to be git-ignored so the key stays local)
+# ---------------------------------------------------------------------------
 
+# 1. Try environment variable first (works well in CI / prod containers)
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+# 2. Fallback: attempt to read from optional config.ini so that local helpers
+#    work even if the user hasn't exported the variable in their shell.
 if not OPENROUTER_API_KEY:
-    raise RuntimeError("OPENROUTER_API_KEY environment variable is required but not set.")
+    cfg_path = Path(__file__).resolve().parent / "config.ini"
+    if cfg_path.exists():
+        parser = ConfigParser()
+        parser.read(cfg_path)
+        OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback=None)
+
+# 3. Final guard
+if not OPENROUTER_API_KEY:
+    raise RuntimeError(
+        "OPENROUTER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_API_KEY=sk-..."
+    )
 
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 
