@@ -20,8 +20,25 @@ STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger(__name__)
 
-# Allow env override for experiments
-DAILY_CAP = int(os.getenv("BF_DAILY_CAP", "20"))
+# ------------------------------------------------------------------
+# Publication caps
+# ------------------------------------------------------------------
+# BF_PER_RUN_CAP (env) keeps the hourly batch small (default 20 -> 5 in CI).
+# BF_DAILY_CAP controls the total allowed in one calendar day.
+#   • If unset, "0", "none" or "unlimited"  ⇒  no daily ceiling (effectively ∞).
+#   • Otherwise, use the integer value provided.
+
+_daily_cap_raw = os.getenv("BF_DAILY_CAP", "").strip().lower()
+
+if _daily_cap_raw in {"", "0", "none", "unlimited"}:
+    # No daily limit
+    DAILY_CAP = 999_999  # a very large number that we will never hit
+else:
+    try:
+        DAILY_CAP = int(_daily_cap_raw)
+    except ValueError:
+        DAILY_CAP = 999_999  # fallback – treat as unlimited
+
 MIN_RULE_SCORE = float(os.getenv("BF_MIN_RULE_SCORE", "14"))
 
 # ----------------------------------------------------- state helpers
