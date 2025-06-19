@@ -3,297 +3,9 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "La France appelle ses ressortissants souhaitant quitter l'Iran à partir via l'Arménie et la Turquie",
-      "original_article_link": "https://www.europe1.fr/international/la-france-appelle-ses-ressortissants-souhaitant-quitter-liran-a-partir-via-larmenie-et-la-turquie-760121",
-      "original_article_published_date": "2025-06-19T10:59:02",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.643,
-        "relevance_score": 9.0,
-        "importance_score": 6.41,
-        "total_score": 16.928
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France conseille à ses citoyens de quitter l'Iran",
-      "simplified_english_title": "France advises its citizens to leave Iran",
-      "french_summary": "La France demande à ses citoyens en Iran de partir, en utilisant les chemins par l'Arménie et la Turquie, si ils veulent quitter le pays.",
-      "english_summary": "France asks its citizens in Iran to leave the country, suggesting they use routes through Armenia and Turkey if they wish to depart.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** Pays européen",
-          "explanation": "France",
-          "cultural_note": ""
-        },
-        "appelle": {
-          "display_format": "**appelle:** Demander à venir",
-          "explanation": "Calls, urges",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**ses:** Possessif pluriel",
-          "explanation": "Its (plural)",
-          "cultural_note": ""
-        },
-        "ressortissants": {
-          "display_format": "**ressortissants:** Citoyens d'un pays",
-          "explanation": "Nationals, citizens",
-          "cultural_note": ""
-        },
-        "souhaitant": {
-          "display_format": "**souhaitant:** Qui désire, veut",
-          "explanation": "Wishing, wanting",
-          "cultural_note": ""
-        },
-        "quitter": {
-          "display_format": "**quitter:** Partir de",
-          "explanation": "To leave",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Iran (Middle Eastern country)",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu",
-          "explanation": "To, at (preposition)",
-          "cultural_note": ""
-        },
-        "partir": {
-          "display_format": "**partir:** S'en aller",
-          "explanation": "To depart, to leave",
-          "cultural_note": ""
-        },
-        "via": {
-          "display_format": "**via:** Par le chemin de",
-          "explanation": "Via, by way of",
-          "cultural_note": ""
-        },
-        "l'Arménie": {
-          "display_format": "**l'Arménie:** Pays du Caucase",
-          "explanation": "Armenia (country in the Caucasus region)",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction de coordination",
-          "explanation": "And (conjunction)",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "Turquie": {
-          "display_format": "**Turquie:** Pays transcontinental",
-          "explanation": "Turkey (transcontinental country)",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T15:21:11",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La guerre en Ukraine, un ascenseur social pour une partie de la population russe",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/19/la-guerre-ascenseur-social-pour-une-partie-de-la-population-russe_6614627_3210.html",
-      "original_article_published_date": "2025-06-19T13:00:06",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.605,
-        "relevance_score": 9.0,
-        "importance_score": 6.27,
-        "total_score": 16.816
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La guerre en Ukraine : une chance pour des Russes ?",
-      "simplified_english_title": "Ukraine war: An opportunity for some Russians?",
-      "french_summary": "Pour certains Russes, la guerre en Ukraine offre des opportunités d'améliorer leur situation sociale et financière, notamment dans l'armée ou l'industrie de la défense.",
-      "english_summary": "For some Russians, the war in Ukraine provides opportunities to improve their social and financial status, especially in the military or defense industry.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini féminin singulier",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "guerre": {
-          "display_format": "**guerre:** Conflit armé",
-          "explanation": "War, armed conflict",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition de lieu",
-          "explanation": "In, to (preposition of place)",
-          "cultural_note": ""
-        },
-        "Ukraine": {
-          "display_format": "**Ukraine:** Pays d'Europe de l'Est",
-          "explanation": "Country in Eastern Europe",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separates clauses",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini masculin singulier",
-          "explanation": "A, an (masculine singular)",
-          "cultural_note": ""
-        },
-        "ascenseur social": {
-          "display_format": "**ascenseur social:** Mobilité sociale ascendante",
-          "explanation": "Social mobility, upward social ladder",
-          "cultural_note": "Common French idiom for upward social mobility."
-        },
-        "pour": {
-          "display_format": "**pour:** Préposition de but",
-          "explanation": "For, in order to",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini féminin singulier",
-          "explanation": "A, an (feminine singular)",
-          "cultural_note": ""
-        },
-        "partie": {
-          "display_format": "**partie:** Portion, section",
-          "explanation": "Part, portion",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition de possession",
-          "explanation": "Of, from",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin singulier",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "population": {
-          "display_format": "**population:** Ensemble d'habitants",
-          "explanation": "Population, inhabitants of a place",
-          "cultural_note": ""
-        },
-        "russe": {
-          "display_format": "**russe:** Relatif à la Russie",
-          "explanation": "Russian (adjective, referring to Russia)",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T15:21:11",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'Assemblée nationale approuve un objectif de production d'énergie renouvelable",
-      "original_article_link": "https://www.europe1.fr/politique/lassemblee-nationale-approuve-un-objectif-de-production-denergie-renouvelable-760164",
-      "original_article_published_date": "2025-06-19T13:59:25",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 4.819,
-        "relevance_score": 7.0,
-        "importance_score": 6.32,
-        "total_score": 14.456
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Assemblée approuve un plan pour l'énergie verte",
-      "simplified_english_title": "National Assembly approves green energy target",
-      "french_summary": "Les députés français ont voté pour fixer un objectif de production d'énergie renouvelable. Cela vise à augmenter la part des énergies propres dans le pays.",
-      "english_summary": "French deputies voted to set a renewable energy production target. This aims to increase the share of clean energy in the country.",
-      "contextual_title_explanations": {
-        "L'": {
-          "display_format": "**L':** Article défini élidé",
-          "explanation": "The (feminine, singular) before a vowel",
-          "cultural_note": ""
-        },
-        "Assemblée nationale": {
-          "display_format": "**Assemblée nationale:** Chambre basse du Parlement",
-          "explanation": "The lower house of the French Parliament",
-          "cultural_note": "Equivalent to the House of Representatives or House of Commons"
-        },
-        "approuve": {
-          "display_format": "**approuve:** Donne son accord",
-          "explanation": "Approves, endorses, or gives its consent to something",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini masculin",
-          "explanation": "A or an (masculine singular)",
-          "cultural_note": ""
-        },
-        "objectif": {
-          "display_format": "**objectif:** But à atteindre",
-          "explanation": "A goal, aim, or target to be reached",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition, possession/origine",
-          "explanation": "Of, from, or belonging to",
-          "cultural_note": ""
-        },
-        "production": {
-          "display_format": "**production:** Action de produire",
-          "explanation": "The act or process of creating or manufacturing something",
-          "cultural_note": ""
-        },
-        "d'": {
-          "display_format": "**d':** Préposition élidée",
-          "explanation": "Of or from, before a vowel",
-          "cultural_note": ""
-        },
-        "énergie": {
-          "display_format": "**énergie:** Capacité de travail",
-          "explanation": "Energy, power, or capacity for work",
-          "cultural_note": ""
-        },
-        "renouvelable": {
-          "display_format": "**renouvelable:** Se régénère naturellement",
-          "explanation": "Renewable; capable of being replenished naturally",
-          "cultural_note": "Often refers to sources like solar, wind, or hydro power"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-19T15:21:11",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": false,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : Tsahal diffuse les images d’une frappe sur un «réacteur nucléaire inactif» en Iran",
-      "original_article_link": "https://www.lefigaro.fr/flash-actu/guerre-israel-iran-tsahal-diffuse-les-images-d-une-frappe-sur-un-reacteur-nucleaire-inactif-en-iran-20250619",
-      "original_article_published_date": "2025-06-19T15:13:42",
+      "original_article_title": "EDF envisage des baisses de production nucléaire à cause de la canicule à partir de mercredi",
+      "original_article_link": "https://www.lefigaro.fr/societes/edf-envisage-des-baisses-de-production-nucleaire-a-cause-de-la-canicule-a-partir-de-mercredi-20250619",
+      "original_article_published_date": "2025-06-19T16:00:34",
       "source_name": "Le Figaro",
       "quality_scores": {
         "quality_score": 5.613,
@@ -305,95 +17,80 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Israël frappe un réacteur inactif en Iran : vidéos",
-      "simplified_english_title": "Israel strikes inactive reactor in Iran: videos",
-      "french_summary": "L'armée israélienne a montré des vidéos d'une frappe sur un réacteur nucléaire iranien. Israël dit que le réacteur est inactif.",
-      "english_summary": "The Israeli army showed videos of a strike on an Iranian nuclear reactor. Israel states the reactor is inactive.",
+      "simplified_french_title": "EDF prévoit de réduire sa production nucléaire à cause de la chaleur",
+      "simplified_english_title": "EDF plans to reduce nuclear output due to heatwave",
+      "french_summary": "EDF, l'entreprise d'électricité, pourrait diminuer sa production d'énergie nucléaire dès mercredi. La raison est la chaleur, qui rend difficile le refroidissement des centrales.",
+      "english_summary": "EDF, the electricity company, might reduce its nuclear power production starting Wednesday. The reason is the heat, which makes cooling the power plants difficult.",
       "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "Armed conflict between states or groups.",
+        "EDF": {
+          "display_format": "**EDF:** Électricité de France",
+          "explanation": "Major French state-owned electricity company, primarily involved in nuclear power.",
           "cultural_note": ""
         },
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Pays du Moyen-Orient",
-          "explanation": "Refers to the two countries, Israel and Iran.",
-          "cultural_note": "Often represents a geopolitical rivalry."
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon, introduces an explanation or elaboration.",
+        "envisage": {
+          "display_format": "**envisage:** Considérer, projeter",
+          "explanation": "To consider, to envision, to plan for something.",
           "cultural_note": ""
         },
-        "Tsahal": {
-          "display_format": "**Tsahal:** Forces armées israéliennes",
-          "explanation": "Acronym for the Israel Defense Forces (IDF).",
-          "cultural_note": "Commonly used in French media for the IDF."
-        },
-        "diffuse": {
-          "display_format": "**diffuse:** Rend public, propage",
-          "explanation": "To broadcast or disseminate information/images.",
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Indefinite article, meaning 'some' or 'any' (plural).",
           "cultural_note": ""
         },
-        "les": {
-          "display_format": "**les:** Article défini pluriel",
-          "explanation": "The (plural definite article).",
+        "baisses": {
+          "display_format": "**baisses:** Diminutions, réductions",
+          "explanation": "Decreases, drops, reductions.",
           "cultural_note": ""
         },
-        "images": {
-          "display_format": "**images:** Représentations visuelles",
-          "explanation": "Pictures or video footage.",
+        "de": {
+          "display_format": "**de:** Préposition, indique possession",
+          "explanation": "Preposition meaning 'of' or 'from'.",
           "cultural_note": ""
         },
-        "d’une": {
-          "display_format": "**d’une:** De + une (article indéfini)",
-          "explanation": "Of a/an (contraction of 'de' and 'une').",
+        "production": {
+          "display_format": "**production:** Fabrication, création",
+          "explanation": "The act of producing or manufacturing something.",
           "cultural_note": ""
-        },
-        "frappe": {
-          "display_format": "**frappe:** Attaque militaire, bombardement",
-          "explanation": "A military strike, often an airstrike.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Préposition de lieu",
-          "explanation": "On, upon (indicating location).",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini masculin",
-          "explanation": "A, an (masculine indefinite article).",
-          "cultural_note": ""
-        },
-        "«réacteur": {
-          "display_format": "**«réacteur:** Installation nucléaire",
-          "explanation": "A nuclear reactor, enclosed in quotation marks.",
-          "cultural_note": "Quotes indicate it's a specific claim or designation."
         },
         "nucléaire": {
           "display_format": "**nucléaire:** Relatif à l'atome",
-          "explanation": "Relating to nuclear energy or weapons.",
+          "explanation": "Relating to nuclear energy or nuclear power.",
           "cultural_note": ""
         },
-        "inactif»": {
-          "display_format": "**inactif»:** Non opérationnel, à l'arrêt",
-          "explanation": "Inactive, not currently functioning, enclosed in quotation marks.",
-          "cultural_note": "Quotes indicate it's a specific claim or designation."
-        },
-        "en": {
-          "display_format": "**en:** Préposition de lieu",
-          "explanation": "In (indicating location within a country).",
+        "à": {
+          "display_format": "**à:** Préposition, indique lieu/temps",
+          "explanation": "Preposition meaning 'at', 'to', or 'in'.",
           "cultural_note": ""
         },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in Western Asia.",
+        "cause": {
+          "display_format": "**cause:** Raison, motif",
+          "explanation": "Reason or motive for something; 'à cause de' means 'because of'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "Definite article, meaning 'the' (feminine singular).",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Forte chaleur estivale",
+          "explanation": "Heatwave, period of very hot weather.",
+          "cultural_note": "A significant concern in France, especially impacting infrastructure and health."
+        },
+        "partir": {
+          "display_format": "**partir:** Commencer à un moment",
+          "explanation": "To start from a point in time; 'à partir de' means 'starting from'.",
+          "cultural_note": ""
+        },
+        "mercredi": {
+          "display_format": "**mercredi:** Troisième jour semaine",
+          "explanation": "Wednesday, the third day of the week.",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T15:21:11",
+      "processed_at": "2025-06-19T16:23:58",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
@@ -402,99 +99,392 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Jean-Noël Barrot clarifie la situation de la France sur Gaza et le conflit entre Israël et l'Iran",
-      "original_article_link": "https://www.europe1.fr/international/jean-noel-barrot-clarifie-la-situation-de-la-france-sur-gaza-et-le-conflit-entre-israel-et-liran-760140",
-      "original_article_published_date": "2025-06-19T13:15:57",
-      "source_name": "Europe 1",
+      "original_article_title": "Le développement de l’avion chinois Comac C919 entravé par les tensions internationales",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/19/le-developpement-de-l-avion-chinois-comac-c919-entrave-par-les-tensions-internationales_6614660_3234.html",
+      "original_article_published_date": "2025-06-19T16:15:03",
+      "source_name": "Le Monde International",
       "quality_scores": {
-        "quality_score": 5.683,
+        "quality_score": 5.651,
         "relevance_score": 9.0,
-        "importance_score": 6.56,
-        "total_score": 17.048
+        "importance_score": 6.44,
+        "total_score": 16.952
       },
-      "difficulty": "B1",
+      "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Jean-Noël Barrot explique la position française sur Gaza et l'Iran",
-      "simplified_english_title": "Jean-Noël Barrot explains French position on Gaza and Iran",
-      "french_summary": "Jean-Noël Barrot explique clairement la position de la France concernant la situation à Gaza et le conflit entre Israël et l'Iran.",
-      "english_summary": "Jean-Noël Barrot clearly explains France's position regarding the situation in Gaza and the conflict between Israel and Iran.",
+      "simplified_french_title": "L'avion chinois C919 face à des difficultés internationales",
+      "simplified_english_title": "Chinese C919 Aircraft Faces International Difficulties",
+      "french_summary": "Le développement de l'avion chinois Comac C919 rencontre des obstacles. Les tensions entre pays limitent l'accès aux pièces et technologies nécessaires pour sa fabrication et sa certification.",
+      "english_summary": "The development of the Chinese Comac C919 aircraft faces hurdles. Tensions between countries restrict access to necessary parts and technologies for its manufacturing and certification.",
       "contextual_title_explanations": {
-        "Jean-Noël Barrot": {
-          "display_format": "**Jean-Noël Barrot:** Nom d'une personne",
-          "explanation": "A French politician, currently Minister Delegate for Europe",
-          "cultural_note": ""
-        },
-        "clarifie": {
-          "display_format": "**clarifie:** Rend clair",
-          "explanation": "Makes clear or explains",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini féminin",
-          "explanation": "The (feminine singular definite article)",
-          "cultural_note": ""
-        },
-        "situation": {
-          "display_format": "**situation:** État actuel des choses",
-          "explanation": "Current state of affairs or position",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition, appartenance",
-          "explanation": "Of, from (preposition indicating possession or origin)",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** Pays européen",
-          "explanation": "A country in Western Europe",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Préposition, à propos de",
-          "explanation": "On, about, concerning (preposition)",
-          "cultural_note": ""
-        },
-        "Gaza": {
-          "display_format": "**Gaza:** Territoire palestinien",
-          "explanation": "A Palestinian territory on the eastern coast of the Mediterranean Sea",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction de coordination",
-          "explanation": "And (conjunction connecting words or clauses)",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini masculin",
+        "Le": {
+          "display_format": "**Le:** Article défini masculin",
           "explanation": "The (masculine singular definite article)",
           "cultural_note": ""
         },
-        "conflit": {
-          "display_format": "**conflit:** Opposition, lutte armée",
-          "explanation": "Conflict, dispute, or armed struggle",
+        "développement": {
+          "display_format": "**développement:** Action de développer",
+          "explanation": "Development, growth, progress",
           "cultural_note": ""
         },
-        "entre": {
-          "display_format": "**entre:** Préposition, parmi deux",
-          "explanation": "Between, among (preposition)",
+        "de": {
+          "display_format": "**de:** Préposition, possession/origine",
+          "explanation": "Of, from, belonging to",
           "cultural_note": ""
         },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "A country in the Middle East",
+        "l’avion": {
+          "display_format": "**l’avion:** L'aéronef",
+          "explanation": "The airplane (l' is a contracted form of le)",
           "cultural_note": ""
         },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "A country in Western Asia",
+        "chinois": {
+          "display_format": "**chinois:** De Chine",
+          "explanation": "Chinese (adjective)",
+          "cultural_note": ""
+        },
+        "Comac C919": {
+          "display_format": "**Comac C919:** Avion de ligne chinois",
+          "explanation": "Chinese narrow-body airliner, competitor to Airbus A320 and Boeing 737",
+          "cultural_note": "COMAC is a state-owned Chinese aerospace manufacturer."
+        },
+        "entravé": {
+          "display_format": "**entravé:** Gêné, bloqué",
+          "explanation": "Hindered, obstructed, hampered (past participle of entraver)",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Indique l'agent",
+          "explanation": "By (indicates the agent in a passive construction)",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "tensions": {
+          "display_format": "**tensions:** Conflits, désaccords",
+          "explanation": "Tensions, strained relations",
+          "cultural_note": ""
+        },
+        "internationales": {
+          "display_format": "**internationales:** Entre les nations",
+          "explanation": "International (feminine plural adjective)",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-19T15:21:11",
+      "processed_at": "2025-06-19T16:23:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël - Iran : comment s’organise l’évacuation des ressortissants étrangers",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/israel-iran-comment-sorganise-levacuation-des-ressortissants-etrangers-E6BNMVTHYRHW3EKU45COHKUILQ/",
+      "original_article_published_date": "2025-06-19T15:35:01",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.2,
+        "relevance_score": 9.0,
+        "importance_score": 6.0,
+        "total_score": 15.6
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël - Iran : L'évacuation des étrangers s'organise",
+      "simplified_english_title": "Israel - Iran: Evacuation of foreign nationals organized",
+      "french_summary": "Face aux tensions entre Israël et l'Iran, les pays préparent le départ de leurs citoyens. Des vols spéciaux peuvent être mis en place.",
+      "english_summary": "Due to tensions between Israel and Iran, countries are preparing for their citizens to leave. Special flights may be organized.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Trait d'union",
+          "explanation": "Hyphen separating two entities",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing an explanation or topic",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** De quelle manière",
+          "explanation": "How, in what way",
+          "cultural_note": ""
+        },
+        "s’organise": {
+          "display_format": "**s’organise:** Est organisé",
+          "explanation": "Is organized, takes shape (reflexive verb)",
+          "cultural_note": ""
+        },
+        "l’évacuation": {
+          "display_format": "**l’évacuation:** Le retrait, le départ",
+          "explanation": "The evacuation, the removal of people",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** De les",
+          "explanation": "Contraction of 'de' (of/from) and 'les' (the)",
+          "cultural_note": ""
+        },
+        "ressortissants": {
+          "display_format": "**ressortissants:** Citoyens d'un pays",
+          "explanation": "Nationals, citizens of a country residing abroad",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**étrangers:** Non-nationaux, étrangers",
+          "explanation": "Foreigners, non-citizens",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T16:23:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "C'est une fuite massive: 22.000 touristes veulent quitter Israël dans un pays qui a déjà perdu 64% de ses visiteurs en un an",
+      "original_article_link": "https://www.bfmtv.com/economie/international/c-est-une-fuite-massive-22-000-touristes-veulent-quitter-israel-dans-un-pays-qui-a-deja-perdu-64-de-ses-visiteurs-en-un-an_AN-202506190569.html",
+      "original_article_published_date": "2025-06-19T15:48:18",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.256,
+        "relevance_score": 9.0,
+        "importance_score": 6.21,
+        "total_score": 15.768
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "22 000 touristes veulent quitter Israël",
+      "simplified_english_title": "22,000 Tourists Want to Leave Israel",
+      "french_summary": "Beaucoup de touristes veulent quitter Israël. Le pays a déjà perdu 64% de ses visiteurs en une année. C'est une situation difficile pour le tourisme.",
+      "english_summary": "Many tourists want to leave Israel. The country has already lost 64% of its visitors in one year. This is a difficult situation for tourism.",
+      "contextual_title_explanations": {
+        "C'est": {
+          "display_format": "**C'est:** Cela est",
+          "explanation": "It is; This is",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini féminin singulier",
+          "explanation": "a, an (feminine singular)",
+          "cultural_note": ""
+        },
+        "fuite": {
+          "display_format": "**fuite:** Écoulement, évasion",
+          "explanation": "leak, escape, flight",
+          "cultural_note": ""
+        },
+        "massive": {
+          "display_format": "**massive:** Très grande, énorme",
+          "explanation": "massive, huge",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation or elaboration",
+          "cultural_note": ""
+        },
+        "22.000": {
+          "display_format": "**22.000:** Vingt-deux mille",
+          "explanation": "Twenty-two thousand",
+          "cultural_note": "In French, a period is used as a thousands separator."
+        },
+        "touristes": {
+          "display_format": "**touristes:** Personnes en voyage",
+          "explanation": "tourists",
+          "cultural_note": ""
+        },
+        "veulent": {
+          "display_format": "**veulent:** Désirent, souhaitent",
+          "explanation": "they want (from 'vouloir')",
+          "cultural_note": ""
+        },
+        "quitter": {
+          "display_format": "**quitter:** Partir de, laisser",
+          "explanation": "to leave, to quit",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Proche-Orient",
+          "explanation": "Israel (country in the Middle East)",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "in, into, within",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Nombre un",
+          "explanation": "one",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** Nation, État",
+          "explanation": "country",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif sujet",
+          "explanation": "who, which, that (subject pronoun)",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** Possède (verbe avoir)",
+          "explanation": "has (from 'avoir')",
+          "cultural_note": ""
+        },
+        "déjà": {
+          "display_format": "**déjà:** Antérieurement, auparavant",
+          "explanation": "already",
+          "cultural_note": ""
+        },
+        "perdu": {
+          "display_format": "**perdu:** Ayant subi une perte",
+          "explanation": "lost (past participle of 'perdre')",
+          "cultural_note": ""
+        },
+        "64%": {
+          "display_format": "**64%:** Soixante-quatre pour cent",
+          "explanation": "Sixty-four percent",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Indique l'appartenance",
+          "explanation": "of, from",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif pluriel (à lui/elle)",
+          "explanation": "his, her, its (plural possessive adjective)",
+          "cultural_note": ""
+        },
+        "visiteurs": {
+          "display_format": "**visiteurs:** Personnes qui visitent",
+          "explanation": "visitors",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Pendant, dans (durée)",
+          "explanation": "in, within (referring to a time period)",
+          "cultural_note": ""
+        },
+        "an": {
+          "display_format": "**an:** Période de 12 mois",
+          "explanation": "year",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T16:23:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": false,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le salaire minimum n'a pas entraîné de suppressions d'emplois",
+      "original_article_link": "https://www.20min.ch/fr/story/geneve-le-salaire-minimum-n-a-pas-entraine-de-suppressions-d-emplois-103367268",
+      "original_article_published_date": "2025-06-19T15:46:14",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.275,
+        "relevance_score": 9.0,
+        "importance_score": 6.28,
+        "total_score": 15.824
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le salaire minimum n'a pas causé de pertes d'emplois",
+      "simplified_english_title": "Minimum wage did not cause job losses",
+      "french_summary": "Une étude montre que l'augmentation du salaire minimum n'a pas entraîné de suppression d'emplois, contrairement à certaines prévisions économiques.",
+      "english_summary": "A study shows that the increase in the minimum wage did not lead to job losses, contrary to some economic predictions.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini masculin",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "salaire": {
+          "display_format": "**salaire:** Rémunération travail",
+          "explanation": "Wage, salary",
+          "cultural_note": ""
+        },
+        "minimum": {
+          "display_format": "**minimum:** Plus bas niveau",
+          "explanation": "Minimum, lowest",
+          "cultural_note": ""
+        },
+        "n'": {
+          "display_format": "**n':** Négation (ne)",
+          "explanation": "Negative particle, short for 'ne'",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** Verbe avoir",
+          "explanation": "Has (from verb 'avoir' - to have)",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not (completes the negation with 'ne')",
+          "cultural_note": ""
+        },
+        "entraîné": {
+          "display_format": "**entraîné:** Causé, provoqué",
+          "explanation": "Caused, led to (past participle of 'entraîner')",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Article indéfini/préposition",
+          "explanation": "Of, some, any (here, part of 'pas de' meaning 'no')",
+          "cultural_note": ""
+        },
+        "suppressions": {
+          "display_format": "**suppressions:** Actes d'éliminer",
+          "explanation": "Eliminations, abolitions, job cuts",
+          "cultural_note": ""
+        },
+        "d'emplois": {
+          "display_format": "**d'emplois:** Postes de travail",
+          "explanation": "Of jobs (short for 'de emplois')",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-19T16:23:58",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": false,
