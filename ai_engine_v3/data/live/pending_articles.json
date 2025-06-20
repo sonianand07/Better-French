@@ -2819,6 +2819,971 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël/Iran: la France appelle l'Iran à \"choisir une solution diplomatique\" lors du Conseil de sécurité de l'Onu",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/video-israel-iran-la-france-appelle-l-iran-a-choisir-une-solution-diplomatique-lors-du-conseil-de-securite-de-l-onu_VN-202506200610.html",
+      "original_article_published_date": "2025-06-20T15:57:06",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France veut une solution diplomatique avec l'Iran",
+      "simplified_english_title": "France urges diplomatic solution with Iran",
+      "french_summary": "La France demande à l'Iran de choisir la diplomatie lors d'une réunion du Conseil de sécurité de l'ONU.",
+      "english_summary": "France asks Iran to choose diplomacy during a UN Security Council meeting.",
+      "contextual_title_explanations": {
+        "Israël/Iran": {
+          "display_format": "**Israël/Iran:** Deux pays en conflit",
+          "explanation": "Israel and Iran, countries in conflict",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        },
+        "appelle": {
+          "display_format": "**appelle:** Demander publiquement",
+          "explanation": "Publicly asks or urges",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a Middle Eastern country",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition indicating direction or purpose",
+          "cultural_note": ""
+        },
+        "choisir": {
+          "display_format": "**choisir:** Faire un choix",
+          "explanation": "To choose or select",
+          "cultural_note": ""
+        },
+        "une solution diplomatique": {
+          "display_format": "**une solution diplomatique:** Résolution pacifique",
+          "explanation": "A peaceful diplomatic solution",
+          "cultural_note": ""
+        },
+        "lors du": {
+          "display_format": "**lors du:** Pendant le",
+          "explanation": "During the",
+          "cultural_note": ""
+        },
+        "Conseil de sécurité": {
+          "display_format": "**Conseil de sécurité:** Organe de l'ONU",
+          "explanation": "United Nations Security Council",
+          "cultural_note": ""
+        },
+        "de l'Onu": {
+          "display_format": "**de l'Onu:** Organisation des Nations Unies",
+          "explanation": "Of the United Nations",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Philippe Étienne : \"C'est l'Iran et les États-Unis qui ont échoué, pas les Européens\"",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/ici-l-europe/20250620-philippe-%C3%A9tienne-c-est-l-iran-et-les-%C3%A9tats-unis-qui-ont-%C3%A9chou%C3%A9-pas-les-europ%C3%A9ens",
+      "original_article_published_date": "2025-06-20T16:02:06",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Philippe Étienne parle de l'échec de l'Iran et des États-Unis",
+      "simplified_english_title": "Philippe Étienne on Iran and US failure",
+      "french_summary": "Philippe Étienne dit que l'Iran et les États-Unis ont échoué, pas l'Europe, dans une situation internationale difficile.",
+      "english_summary": "Philippe Étienne says Iran and the US failed, not Europe, in a difficult international situation.",
+      "contextual_title_explanations": {
+        "Philippe Étienne": {
+          "display_format": "**Philippe Étienne:** Diplomate français",
+          "explanation": "French diplomat and ambassador",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing a quote",
+          "cultural_note": ""
+        },
+        "C'est": {
+          "display_format": "**C'est:** C'est",
+          "explanation": "It is",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a Middle Eastern country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les États-Unis": {
+          "display_format": "**les États-Unis:** Pays d'Amérique",
+          "explanation": "United States, a country in America",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Who, which",
+          "cultural_note": ""
+        },
+        "ont échoué": {
+          "display_format": "**ont échoué:** Avoir échoué",
+          "explanation": "Have failed",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "les Européens": {
+          "display_format": "**les Européens:** Habitants de l'Europe",
+          "explanation": "Europeans",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Loi de programmation énergétique : un signal « désastreux » pour les énergies renouvelables",
+      "original_article_link": "https://www.la-croix.com/economie/loi-de-programmation-energetique-un-signal-desastreux-pour-les-energies-renouvelables-20250620",
+      "original_article_published_date": "2025-06-20T16:04:44",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouvelle loi énergétique inquiète pour les énergies vertes",
+      "simplified_english_title": "New energy law worries renewable energy sector",
+      "french_summary": "La nouvelle loi sur l'énergie envoie un mauvais signal pour les énergies renouvelables, selon les experts.",
+      "english_summary": "The new energy law sends a bad signal for renewable energies, according to experts.",
+      "contextual_title_explanations": {
+        "Loi": {
+          "display_format": "**Loi:** Règle légale",
+          "explanation": "Law or legal rule",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "programmation": {
+          "display_format": "**programmation:** Planification",
+          "explanation": "Planning or scheduling",
+          "cultural_note": ""
+        },
+        "énergétique": {
+          "display_format": "**énergétique:** Relatif à l'énergie",
+          "explanation": "Related to energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "signal": {
+          "display_format": "**signal:** Signe",
+          "explanation": "Sign or indication",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "désastreux": {
+          "display_format": "**désastreux:** Très mauvais",
+          "explanation": "Disastrous or very bad",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For or in favor of",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "énergies": {
+          "display_format": "**énergies:** Sources d'énergie",
+          "explanation": "Energies or power sources",
+          "cultural_note": ""
+        },
+        "renouvelables": {
+          "display_format": "**renouvelables:** Durables",
+          "explanation": "Renewable or sustainable",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vagues de chaleur : pourquoi la France et le monde devront s’y habituer",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/vagues-de-chaleur-pourquoi-la-france-et-le-monde-devront-sy-habituer-9413d01e-4d25-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T15:49:39",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France doit s'habituer aux vagues de chaleur",
+      "simplified_english_title": "France must adapt to heatwaves",
+      "french_summary": "La France et le monde doivent s'adapter aux vagues de chaleur à cause du changement climatique.",
+      "english_summary": "France and the world must adapt to heatwaves because of climate change.",
+      "contextual_title_explanations": {
+        "Vagues": {
+          "display_format": "**Vagues:** Ondes",
+          "explanation": "Waves, often used for heatwaves",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Particule",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Chaud",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**pourquoi:** Pourquoi",
+          "explanation": "Why, the reason",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And, conjunction",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "monde": {
+          "display_format": "**monde:** Terre",
+          "explanation": "World, the Earth",
+          "cultural_note": ""
+        },
+        "devront": {
+          "display_format": "**devront:** Devoir futur",
+          "explanation": "Will have to, future tense",
+          "cultural_note": ""
+        },
+        "s’y": {
+          "display_format": "**s’y:** Se y",
+          "explanation": "Themselves there, reflexive pronoun",
+          "cultural_note": ""
+        },
+        "habituer": {
+          "display_format": "**habituer:** S'adapter",
+          "explanation": "To get used to, to adapt",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Story 1 : Paris, Berlin, Londres proposent à l'Iran de négocier - 20/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-1-paris-berlin-londres-proposent-a-l-iran-de-negocier-20-06_VN-202506200596.html",
+      "original_article_published_date": "2025-06-20T15:34:54",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris, Berlin et Londres veulent parler à l'Iran",
+      "simplified_english_title": "Paris, Berlin, and London want to talk to Iran",
+      "french_summary": "La France, l'Allemagne et le Royaume-Uni ont proposé à l'Iran de commencer des négociations pour discuter des tensions actuelles.",
+      "english_summary": "France, Germany, and the UK have proposed to Iran to start negotiations to discuss current tensions.",
+      "contextual_title_explanations": {
+        "Story 1": {
+          "display_format": "**Story 1:** Histoire",
+          "explanation": "Story number one",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a list or explanation",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "Capital city of France",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Separates items in a list",
+          "cultural_note": ""
+        },
+        "Berlin": {
+          "display_format": "**Berlin:** Capitale de l'Allemagne",
+          "explanation": "Capital city of Germany",
+          "cultural_note": ""
+        },
+        "Londres": {
+          "display_format": "**Londres:** Capitale du Royaume-Uni",
+          "explanation": "Capital city of the UK",
+          "cultural_note": ""
+        },
+        "proposent": {
+          "display_format": "**proposent:** suggèrent",
+          "explanation": "Verb: to propose or suggest",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** à",
+          "explanation": "Preposition: to",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Preposition: of or to",
+          "cultural_note": ""
+        },
+        "négocier": {
+          "display_format": "**négocier:** discuter",
+          "explanation": "Verb: to negotiate",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating a pause or separation",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Date",
+          "explanation": "Date format: day/month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La Data Room : 3x = l'écart sur les 40 ans entre la croissance du PIB US et celle du salaire médian - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-data-room-3x-l-ecart-sur-les-40-ans-entre-la-croissance-du-pib-us-et-celle-du-salaire-median-20-06_VN-202506200617.html",
+      "original_article_published_date": "2025-06-20T16:02:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Écart entre PIB et salaire médian aux États-Unis",
+      "simplified_english_title": "Gap between US GDP and median wage",
+      "french_summary": "Aux États-Unis, en 40 ans, le PIB a augmenté trois fois plus que le salaire médian, selon les données.",
+      "english_summary": "In the US, over 40 years, GDP has grown three times more than the median wage, data shows.",
+      "contextual_title_explanations": {
+        "La Data Room": {
+          "display_format": "**La Data Room:** Espace de données",
+          "explanation": "Section dealing with data analysis",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "3x": {
+          "display_format": "**3x:** Trois fois",
+          "explanation": "Three times",
+          "cultural_note": ""
+        },
+        "=": {
+          "display_format": "**=:** Égal",
+          "explanation": "Equals sign",
+          "cultural_note": ""
+        },
+        "l'écart": {
+          "display_format": "**l'écart:** La différence",
+          "explanation": "The gap or difference",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "Regarding or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "40 ans": {
+          "display_format": "**40 ans:** Quarante années",
+          "explanation": "Forty years",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Entre deux",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "la croissance": {
+          "display_format": "**la croissance:** L'augmentation",
+          "explanation": "The growth",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Combined preposition and article, 'of the'",
+          "cultural_note": ""
+        },
+        "PIB": {
+          "display_format": "**PIB:** Produit intérieur brut",
+          "explanation": "Gross Domestic Product",
+          "cultural_note": ""
+        },
+        "US": {
+          "display_format": "**US:** États-Unis",
+          "explanation": "United States",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "celle": {
+          "display_format": "**celle:** Celle-là",
+          "explanation": "That one, referring to growth",
+          "cultural_note": ""
+        },
+        "salaire médian": {
+          "display_format": "**salaire médian:** Salaire moyen",
+          "explanation": "Median wage",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash indicating separation",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date, 20th of June",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Story 2 : Iran, pourquoi Trump hésite-t-il à frapper ? - 20/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-2-iran-pourquoi-trump-hesite-t-il-a-frapper-20-06_VN-202506200605.html",
+      "original_article_published_date": "2025-06-20T15:51:03",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pourquoi Trump hésite à frapper l'Iran",
+      "simplified_english_title": "Why Trump hesitates to strike Iran",
+      "french_summary": "Donald Trump réfléchit avant d'attaquer l'Iran car il craint des conséquences graves pour la région.",
+      "english_summary": "Donald Trump is thinking carefully before attacking Iran because he fears serious consequences for the region.",
+      "contextual_title_explanations": {
+        "Story 2": {
+          "display_format": "**Story 2:** Deuxième partie",
+          "explanation": "Second part of a series",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**pourquoi:** Pourquoi",
+          "explanation": "Why or for what reason",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Former US president",
+          "cultural_note": ""
+        },
+        "hésite-t-il": {
+          "display_format": "**hésite-t-il:** Est-il indécis",
+          "explanation": "Is he hesitating",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "frapper": {
+          "display_format": "**frapper:** Attaquer",
+          "explanation": "To strike or attack",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash for separation",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "États-Unis : comment les démocrates tentent désespérément de s’opposer à une intervention en Iran",
+      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/etats-unis-comment-les-democrates-tentent-desesperement-de-sopposer-a-une-intervention-en-iran-4517432e-4dd9-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T15:41:23",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les démocrates contre une intervention en Iran",
+      "simplified_english_title": "Democrats oppose intervention in Iran",
+      "french_summary": "Les démocrates aux États-Unis essayent de bloquer une intervention militaire en Iran, mais c'est difficile pour eux.",
+      "english_summary": "Democrats in the US are trying to block military intervention in Iran, but it is difficult for them.",
+      "contextual_title_explanations": {
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays nord-américain",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** De quelle manière",
+          "explanation": "How",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "démocrates": {
+          "display_format": "**démocrates:** Membre du parti démocrate",
+          "explanation": "Democrats",
+          "cultural_note": "One of the two major political parties in the U.S."
+        },
+        "tentent": {
+          "display_format": "**tentent:** Essayer",
+          "explanation": "Attempt or try",
+          "cultural_note": ""
+        },
+        "désespérément": {
+          "display_format": "**désespérément:** Avec désespoir",
+          "explanation": "Desperately",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or to",
+          "cultural_note": ""
+        },
+        "s’opposer": {
+          "display_format": "**s’opposer:** Résister à",
+          "explanation": "To oppose",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "intervention": {
+          "display_format": "**intervention:** Action d’intervenir",
+          "explanation": "Intervention",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : les Européens veulent donner « une chance à la paix »",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/iran-israel-donner-une-chance-a-la-paix-759b3e10-4dd9-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T15:56:28",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Europe veut éviter la guerre Iran-Israël",
+      "simplified_english_title": "Europe seeks to prevent Iran-Israel war",
+      "french_summary": "Les pays européens essaient de promouvoir la paix pour éviter un conflit entre l'Iran et Israël.",
+      "english_summary": "European countries are trying to promote peace to avoid conflict between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Deux pays",
+          "explanation": "Iran and Israel, two countries",
+          "cultural_note": "Ongoing tensions between these nations"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "Européens": {
+          "display_format": "**Européens:** Habitants de l'Europe",
+          "explanation": "Europeans, people from Europe",
+          "cultural_note": ""
+        },
+        "veulent": {
+          "display_format": "**veulent:** Vouloir",
+          "explanation": "Want, verb indicating desire",
+          "cultural_note": ""
+        },
+        "donner": {
+          "display_format": "**donner:** Offrir",
+          "explanation": "To give, to offer",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A, an (indefinite article)",
+          "cultural_note": ""
+        },
+        "chance": {
+          "display_format": "**chance:** Opportunité",
+          "explanation": "Chance, opportunity",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To, at (preposition)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "paix": {
+          "display_format": "**paix:** Tranquillité",
+          "explanation": "Peace, tranquility",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Club : \"La Bourse israélienne en forte hausse malgré le conflit\" - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-le-club-la-bourse-israelienne-en-forte-hausse-malgre-le-conflit-20-06_VN-202506200611.html",
+      "original_article_published_date": "2025-06-20T15:54:44",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Bourse d'Israël monte malgré la guerre",
+      "simplified_english_title": "Israeli stock market rises despite conflict",
+      "french_summary": "La Bourse israélienne connaît une forte hausse malgré le conflit en cours dans la région.",
+      "english_summary": "The Israeli stock market is rising strongly despite the ongoing conflict in the region.",
+      "contextual_title_explanations": {
+        "Le Club": {
+          "display_format": "**Le Club:** Section du journal",
+          "explanation": "Section of a newspaper",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "La Bourse israélienne": {
+          "display_format": "**La Bourse israélienne:** Marché financier d'Israël",
+          "explanation": "Israeli stock market",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans un état",
+          "explanation": "In a state of",
+          "cultural_note": ""
+        },
+        "forte": {
+          "display_format": "**forte:** Grande",
+          "explanation": "Strong or high",
+          "cultural_note": ""
+        },
+        "hausse": {
+          "display_format": "**hausse:** Augmentation",
+          "explanation": "Increase or rise",
+          "cultural_note": ""
+        },
+        "malgré": {
+          "display_format": "**malgré:** En dépit de",
+          "explanation": "Despite",
+          "cultural_note": ""
+        },
+        "le conflit": {
+          "display_format": "**le conflit:** La dispute",
+          "explanation": "The conflict",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating range or pause",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T16:24:10",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
