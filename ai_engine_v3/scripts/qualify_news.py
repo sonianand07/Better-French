@@ -12,10 +12,10 @@ from ai_engine_v3.storage import Storage
 from ai_engine_v3.processor import ProcessorV2
 from ai_engine_v3.models import Article
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root
-RAW_DIR = ROOT / "data" / "raw_archive"
-STATE_FILE = ROOT / "ai_engine_v3" / "data" / "state.json"
-OVERFLOW_FILE = ROOT / "ai_engine_v3" / "data" / "live" / "overflow.json"
+PKG_ROOT = pathlib.Path(__file__).resolve().parent.parent  # ai_engine_v3/
+RAW_DIR = PKG_ROOT / "data" / "raw_archive"
+STATE_FILE = PKG_ROOT / "data" / "state.json"
+OVERFLOW_FILE = PKG_ROOT / "data" / "live" / "overflow.json"
 STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")

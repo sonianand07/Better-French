@@ -11,11 +11,11 @@ import shutil
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger(__name__)
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root
-RAW_DIR = ROOT / "data" / "raw_archive"
+PKG_ROOT = pathlib.Path(__file__).resolve().parent.parent  # ai_engine_v3/
+RAW_DIR = PKG_ROOT / "data" / "raw_archive"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-VISITED_PATH = ROOT / "ai_engine_v3" / "data" / "_cache" / "visited_hashes.json"
+VISITED_PATH = PKG_ROOT / "data" / "_cache" / "visited_hashes.json"
 VISITED_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 def _link_hash(link: str) -> str:

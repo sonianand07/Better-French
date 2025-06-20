@@ -876,7 +876,7 @@ class SmartScraper:
 
     def _archive_raw(self, raw: List[NewsArticle]):
         """Save the full unfiltered scrape to data/archive for analytics."""
-        out_dir = Path(__file__).resolve().parent.parent / ".." / "data" / "raw_archive"
+        out_dir = Path(__file__).resolve().parent.parent / "data" / "raw_archive"
         out_dir = out_dir.resolve()
         out_dir.mkdir(parents=True, exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
