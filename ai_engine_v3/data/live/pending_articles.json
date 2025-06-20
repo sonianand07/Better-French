@@ -3,109 +3,104 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Les métaux rares, arme brandie par le Nigeria menacé à son tour par le «travel ban» de Donald Trump",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250620-les-m%C3%A9taux-rares-arme-brandie-par-le-nigeria-menac%C3%A9-%C3%A0-son-tour-par-le-travel-ban-de-donald-trump",
-      "original_article_published_date": "2025-06-20T03:04:00",
-      "source_name": "RFI",
+      "original_article_title": "La nouvelle « étiquette énergie » pour les smartphones, une avancée en Europe critiquée en France",
+      "original_article_link": "https://www.la-croix.com/economie/la-nouvelle-etiquette-energie-pour-les-smartphones-une-avancee-en-europe-critiquee-en-france-20250619",
+      "original_article_published_date": "2025-06-20T03:35:36",
+      "source_name": "La Croix",
       "quality_scores": {
-        "quality_score": 4.907,
+        "quality_score": 4.867,
         "relevance_score": 7.0,
-        "importance_score": 6.65,
-        "total_score": 14.72
+        "importance_score": 6.5,
+        "total_score": 14.6
       },
       "difficulty": "B2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Le Nigeria utilise les métaux rares contre le «travel ban»",
-      "simplified_english_title": "Nigeria uses rare metals against \"travel ban\"",
-      "french_summary": "Le Nigeria pourrait utiliser ses métaux rares comme moyen de pression. Le pays est menacé par une interdiction de voyager de la part des États-Unis.",
-      "english_summary": "Nigeria might use its rare metals as leverage. The country is threatened by a travel ban from the United States.",
+      "simplified_french_title": "Nouvelle étiquette énergie pour smartphones : l'Europe avance, la France critique",
+      "simplified_english_title": "New energy label for smartphones: Europe advances, France criticizes",
+      "french_summary": "Une nouvelle étiquette énergie pour les smartphones arrive en Europe. Elle informe sur la consommation et la réparabilité. En France, certains pensent qu'elle ne va pas assez loin.",
+      "english_summary": "A new energy label for smartphones is coming to Europe. It informs about consumption and repairability. In France, some believe it does not go far enough.",
       "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**Les:** Article défini pluriel",
-          "explanation": "The (plural definite article)",
+        "La": {
+          "display_format": "**La:** Article défini féminin",
+          "explanation": "Feminine definite article, 'the'",
           "cultural_note": ""
         },
-        "métaux": {
-          "display_format": "**métaux:** Éléments chimiques solides",
-          "explanation": "Metals, chemical elements that are good conductors",
+        "nouvelle": {
+          "display_format": "**nouvelle:** Adjectif, récente",
+          "explanation": "Adjective meaning 'new' or 'recent'",
           "cultural_note": ""
         },
-        "rares": {
-          "display_format": "**rares:** Peu communs",
-          "explanation": "Rare, not found in large quantities",
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening guillemet (French quotation mark)",
+          "cultural_note": "Used in France instead of “"
+        },
+        "étiquette énergie": {
+          "display_format": "**étiquette énergie:** Label d'efficacité, performance",
+          "explanation": "Energy label, indicating efficiency or performance",
+          "cultural_note": "Common on appliances in Europe"
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing guillemet (French quotation mark)",
+          "cultural_note": "Used in France instead of ”"
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition, destinée à",
+          "explanation": "Preposition meaning 'for' or 'intended for'",
           "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Plural definite article, 'the'",
+          "cultural_note": ""
+        },
+        "smartphones": {
+          "display_format": "**smartphones:** Téléphones intelligents",
+          "explanation": "Smartphones",
+          "cultural_note": "English loanword commonly used in French"
         },
         ",": {
           "display_format": "**,:** Virgule",
           "explanation": "Comma, separating clauses or items",
           "cultural_note": ""
         },
-        "arme": {
-          "display_format": "**arme:** Instrument de combat",
-          "explanation": "Weapon, an instrument used in fighting",
+        "une": {
+          "display_format": "**une:** Article indéfini féminin",
+          "explanation": "Feminine indefinite article, 'a' or 'an'",
           "cultural_note": ""
         },
-        "brandie": {
-          "display_format": "**brandie:** Agitée, menacée",
-          "explanation": "Wielded, brandished, threatened with",
+        "avancée": {
+          "display_format": "**avancée:** Progrès, développement",
+          "explanation": "Feminine noun meaning 'advance' or 'progress'",
           "cultural_note": ""
         },
-        "par": {
-          "display_format": "**par:** Indique l'agent",
-          "explanation": "By, indicates the agent of an action",
+        "en": {
+          "display_format": "**en:** Préposition, dans",
+          "explanation": "Preposition meaning 'in' or 'within'",
           "cultural_note": ""
         },
-        "le": {
-          "display_format": "**le:** Article défini masculin",
-          "explanation": "The (masculine singular definite article)",
+        "Europe": {
+          "display_format": "**Europe:** Continent, Union européenne",
+          "explanation": "Europe, referring to the continent or the European Union",
           "cultural_note": ""
         },
-        "Nigeria": {
-          "display_format": "**Nigeria:** Pays africain",
-          "explanation": "Nigeria, a country in West Africa",
-          "cultural_note": ""
+        "critiquée": {
+          "display_format": "**critiquée:** Adjectif, remise en question",
+          "explanation": "Past participle used as adjective, 'criticized'",
+          "cultural_note": "Agrees in gender and number with 'avancée'"
         },
-        "menacé": {
-          "display_format": "**menacé:** Sous la menace",
-          "explanation": "Threatened, under threat",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu/temps",
-          "explanation": "To, at (preposition indicating place or time)",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**son:** Possessif, sien",
-          "explanation": "His, her, its (possessive adjective)",
-          "cultural_note": ""
-        },
-        "tour": {
-          "display_format": "**tour:** Séquence, alternance",
-          "explanation": "Turn, in its turn, in rotation",
-          "cultural_note": ""
-        },
-        "«travel ban»": {
-          "display_format": "**«travel ban»:** Interdiction de voyager",
-          "explanation": "Travel ban, a restriction on travel (English term used in French)",
-          "cultural_note": "Direct anglicism, often used in French media for the specific policy."
-        },
-        "de": {
-          "display_format": "**de:** Possessif, origine",
-          "explanation": "Of, from (preposition indicating possession or origin)",
-          "cultural_note": ""
-        },
-        "Donald Trump": {
-          "display_format": "**Donald Trump:** Ancien président américain",
-          "explanation": "Donald Trump, former US President",
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France, a country in Western Europe",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-20T03:16:03",
+      "processed_at": "2025-06-20T04:26:39",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -114,109 +109,331 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "L'Italie accueille un sommet pour donner un coup d'accélérateur à son plan de développement pour l'Afrique",
-      "original_article_link": "https://www.rfi.fr/fr/europe/20250620-l-italie-accueille-un-sommet-pour-donner-un-coup-d-acc%C3%A9l%C3%A9rateur-%C3%A0-son-plan-de-d%C3%A9veloppement-pour-l-afrique",
-      "original_article_published_date": "2025-06-20T03:05:57",
-      "source_name": "RFI",
+      "original_article_title": "Comment Dacia pourrait vendre une voiture électrique à moins de 15.000 euros",
+      "original_article_link": "https://www.bfmtv.com/auto/nouveautes/comment-dacia-pourrait-vendre-une-voiture-electrique-a-moins-de-15-000-euros_AN-202506200073.html",
+      "original_article_published_date": "2025-06-20T04:12:29",
+      "source_name": "BFM TV",
       "quality_scores": {
-        "quality_score": 5.688,
-        "relevance_score": 9.0,
-        "importance_score": 6.58,
-        "total_score": 17.064
+        "quality_score": 4.837,
+        "relevance_score": 7.0,
+        "importance_score": 6.39,
+        "total_score": 14.512
       },
-      "difficulty": "B2",
+      "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "L'Italie organise un sommet sur son plan pour l'Afrique",
-      "simplified_english_title": "Italy hosts summit on its development plan for Africa",
-      "french_summary": "L'Italie tient une réunion importante pour accélérer son projet de développement. Ce plan vise à renforcer la coopération économique avec les pays africains, en se concentrant sur les investissements et les partenariats stratégiques.",
-      "english_summary": "Italy is holding an important meeting to speed up its development project. This plan aims to strengthen economic cooperation with African countries, focusing on investments and strategic partnerships.",
+      "simplified_french_title": "Comment Dacia pourrait vendre une voiture électrique bon marché",
+      "simplified_english_title": "How Dacia could sell a cheap electric car",
+      "french_summary": "Dacia, constructeur automobile, pourrait proposer une voiture électrique à moins de 15 000 euros. Cela serait possible grâce à l'utilisation de technologies existantes et une production simplifiée.",
+      "english_summary": "Dacia, a car manufacturer, might offer an electric car for less than 15,000 euros. This could be possible by using existing technologies and simplified production.",
       "contextual_title_explanations": {
-        "L'": {
-          "display_format": "**L':** Le, la",
-          "explanation": "The (definite article, feminine singular)",
+        "Comment": {
+          "display_format": "**Comment:** La manière dont",
+          "explanation": "How, in what way",
           "cultural_note": ""
         },
-        "Italie": {
-          "display_format": "**Italie:** Pays européen",
-          "explanation": "Italy (country)",
+        "Dacia": {
+          "display_format": "**Dacia:** Marque automobile roumaine",
+          "explanation": "Romanian car brand, part of Renault Group",
           "cultural_note": ""
         },
-        "accueille": {
-          "display_format": "**accueille:** Reçoit des personnes",
-          "explanation": "Hosts, welcomes (from 'accueillir')",
+        "pourrait": {
+          "display_format": "**pourrait:** A la possibilité de",
+          "explanation": "Could, might be able to (conditional of 'pouvoir')",
           "cultural_note": ""
         },
-        "un": {
-          "display_format": "**un:** Article indéfini masculin",
-          "explanation": "A, an (indefinite article, masculine singular)",
+        "vendre": {
+          "display_format": "**vendre:** Céder contre argent",
+          "explanation": "To sell",
           "cultural_note": ""
         },
-        "sommet": {
-          "display_format": "**sommet:** Réunion de dirigeants",
-          "explanation": "Summit (meeting of leaders)",
+        "une": {
+          "display_format": "**une:** Article indéfini féminin",
+          "explanation": "A, an (feminine singular indefinite article)",
           "cultural_note": ""
         },
-        "pour": {
-          "display_format": "**pour:** En faveur de",
-          "explanation": "For (preposition indicating beneficiary)",
+        "voiture": {
+          "display_format": "**voiture:** Véhicule automobile",
+          "explanation": "Car, automobile",
           "cultural_note": ""
         },
-        "donner": {
-          "display_format": "**donner:** Offrir, fournir",
-          "explanation": "To give, to provide",
-          "cultural_note": ""
-        },
-        "coup": {
-          "display_format": "**coup:** Action, mouvement rapide",
-          "explanation": "A hit, a blow; here, part of an idiom",
-          "cultural_note": ""
-        },
-        "d'accélérateur": {
-          "display_format": "**d'accélérateur:** Qui accélère",
-          "explanation": "Of accelerator; 'donner un coup d'accélérateur' means to speed up or boost",
+        "électrique": {
+          "display_format": "**électrique:** Fonctionne à l'électricité",
+          "explanation": "Electric, powered by electricity",
           "cultural_note": ""
         },
         "à": {
-          "display_format": "**à:** Vers, pour",
-          "explanation": "To, at (preposition)",
+          "display_format": "**à:** Préposition de prix",
+          "explanation": "At, for (indicating price)",
           "cultural_note": ""
         },
-        "son": {
-          "display_format": "**son:** Adjectif possessif (masculin)",
-          "explanation": "Its (possessive adjective, masculine singular)",
-          "cultural_note": ""
-        },
-        "plan": {
-          "display_format": "**plan:** Programme, projet",
-          "explanation": "Plan, scheme, program",
+        "moins": {
+          "display_format": "**moins:** Quantité inférieure",
+          "explanation": "Less, fewer",
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**de:** Indique l'appartenance",
-          "explanation": "Of, from (preposition)",
+          "display_format": "**de:** Préposition de quantité",
+          "explanation": "Of, from (used after 'moins')",
           "cultural_note": ""
         },
-        "développement": {
-          "display_format": "**développement:** Croissance, progrès",
-          "explanation": "Development, growth",
-          "cultural_note": ""
+        "15.000": {
+          "display_format": "**15.000:** Quinze mille",
+          "explanation": "Fifteen thousand (number)",
+          "cultural_note": "In French, a period is used as a thousands separator, not a comma."
         },
-        "l'": {
-          "display_format": "**l':** Le, la",
-          "explanation": "The (definite article, feminine singular)",
-          "cultural_note": ""
-        },
-        "Afrique": {
-          "display_format": "**Afrique:** Continent",
-          "explanation": "Africa (continent)",
+        "euros": {
+          "display_format": "**euros:** Monnaie européenne",
+          "explanation": "Euros (European currency)",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-20T03:16:03",
+      "processed_at": "2025-06-20T04:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Je trouve ça trop dangereux» : les ressortissants français d'Iran et d'Israël mécontents de l'aide du gouvernement",
+      "original_article_link": "https://www.europe1.fr/international/je-trouve-ca-trop-dangereux-les-ressortissants-francais-diran-et-disrael-mecontents-de-laide-du-gouvernement-760216",
+      "original_article_published_date": "2025-06-20T04:21:35",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.691,
+        "relevance_score": 9.0,
+        "importance_score": 6.59,
+        "total_score": 17.072
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Français en Iran et Israël : mécontents de l'aide du gouvernement",
+      "simplified_english_title": "French citizens in Iran and Israel: Unhappy with government help",
+      "french_summary": "Des Français vivant en Iran et en Israël expriment leur mécontentement face au soutien du gouvernement. Ils jugent l'aide insuffisante et dangereuse dans le contexte actuel.",
+      "english_summary": "French citizens living in Iran and Israel are unhappy with the government's support. They find the assistance insufficient and dangerous given the current situation.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T04:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Etats-Unis: une cour d'appel fédérale autorise Trump à déployer la Garde nationale à Los Angeles",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/etats-unis-une-cour-d-appel-federale-autorise-trump-a-deployer-la-garde-nationale-a-los-angeles-20250620",
+      "original_article_published_date": "2025-06-20T03:56:14",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.533,
+        "relevance_score": 9.0,
+        "importance_score": 6.0,
+        "total_score": 16.6
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump peut envoyer la Garde nationale à Los Angeles",
+      "simplified_english_title": "Trump can send National Guard to Los Angeles",
+      "french_summary": "Une cour d'appel fédérale américaine a autorisé l'ancien président Trump à utiliser la Garde nationale dans la ville de Los Angeles. C'est une décision importante.",
+      "english_summary": "A US federal appeals court has allowed former President Trump to deploy the National Guard in the city of Los Angeles. This is an important decision.",
+      "contextual_title_explanations": {
+        "Etats-Unis": {
+          "display_format": "**Etats-Unis:** Pays d'Amérique du Nord",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon, introducing an explanation",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini féminin",
+          "explanation": "A, an (feminine singular)",
+          "cultural_note": ""
+        },
+        "cour": {
+          "display_format": "**cour:** Tribunal, instance judiciaire",
+          "explanation": "Court (of law)",
+          "cultural_note": ""
+        },
+        "d'appel": {
+          "display_format": "**d'appel:** Qui réexamine jugement",
+          "explanation": "Of appeal, appellate",
+          "cultural_note": ""
+        },
+        "fédérale": {
+          "display_format": "**fédérale:** Liée à l'État central",
+          "explanation": "Federal, relating to a central government",
+          "cultural_note": ""
+        },
+        "autorise": {
+          "display_format": "**autorise:** Donne la permission de",
+          "explanation": "Authorizes, permits",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Donald Trump, 45th U.S. President",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de lieu",
+          "explanation": "To, at (preposition)",
+          "cultural_note": ""
+        },
+        "déployer": {
+          "display_format": "**déployer:** Mettre en place, étendre",
+          "explanation": "To deploy, to roll out",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini féminin",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "Garde nationale": {
+          "display_format": "**Garde nationale:** Milice citoyenne volontaire",
+          "explanation": "National Guard (U.S. military reserve force)",
+          "cultural_note": ""
+        },
+        "Los Angeles": {
+          "display_format": "**Los Angeles:** Grande ville californienne",
+          "explanation": "Major city in California, USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T04:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Immigration : « Pour lutter contre les passeurs, il faut élargir les voies légales de migration »",
+      "original_article_link": "https://www.la-croix.com/a-vif/immigration-pour-lutter-contre-les-passeurs-il-faut-elargir-les-voies-legales-de-migration-20250619",
+      "original_article_published_date": "2025-06-20T03:43:10",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.339,
+        "relevance_score": 9.0,
+        "importance_score": 6.52,
+        "total_score": 16.016
+      },
+      "difficulty": "B2",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Immigration : Plus de voies légales pour lutter contre les passeurs",
+      "simplified_english_title": "Immigration: More legal paths to fight smugglers",
+      "french_summary": "Pour combattre les passeurs, il est nécessaire d'augmenter les opportunités légales pour les personnes de migrer. C'est une stratégie pour gérer l'immigration plus humainement et efficacement.",
+      "english_summary": "To combat smugglers, it is necessary to increase legal opportunities for people to migrate. This is a strategy to manage immigration more humanely and effectively.",
+      "contextual_title_explanations": {
+        "Immigration": {
+          "display_format": "**Immigration:** Mouvement de personnes",
+          "explanation": "The act of moving to a new country to live there permanently",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Punctuation mark introducing an explanation or list",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark in French typography",
+          "cultural_note": "French uses guillemets (« ») for quotes, often with a space."
+        },
+        "Pour": {
+          "display_format": "**Pour:** Afin de",
+          "explanation": "In order to, for the purpose of",
+          "cultural_note": ""
+        },
+        "lutter": {
+          "display_format": "**lutter:** Combattre, s'opposer",
+          "explanation": "To fight, to struggle against",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** En opposition à",
+          "explanation": "Against, in opposition to",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "passeurs": {
+          "display_format": "**passeurs:** Trafiquants d'êtres humains",
+          "explanation": "Smugglers, especially those who facilitate illegal border crossings",
+          "cultural_note": "Often refers to human traffickers in the context of migration."
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Punctuation mark indicating a pause",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**il:** Pronom impersonnel",
+          "explanation": "It (impersonal subject pronoun, like in 'it is necessary')",
+          "cultural_note": ""
+        },
+        "faut": {
+          "display_format": "**faut:** Il est nécessaire",
+          "explanation": "It is necessary, one must (from 'falloir')",
+          "cultural_note": ""
+        },
+        "élargir": {
+          "display_format": "**élargir:** Rendre plus large",
+          "explanation": "To broaden, to widen, to expand",
+          "cultural_note": ""
+        },
+        "voies": {
+          "display_format": "**voies:** Chemins, méthodes",
+          "explanation": "Ways, paths, channels",
+          "cultural_note": ""
+        },
+        "légales": {
+          "display_format": "**légales:** Conformes à la loi",
+          "explanation": "Legal, in accordance with the law",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition, de",
+          "explanation": "Of, from (preposition)",
+          "cultural_note": ""
+        },
+        "migration": {
+          "display_format": "**migration:** Déplacement de population",
+          "explanation": "The movement of people from one place to another",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark in French typography",
+          "cultural_note": "French uses guillemets (« ») for quotes, often with a space."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T04:26:39",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
