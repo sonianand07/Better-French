@@ -1,5 +1,0 @@
-[secrets]
-# Copy this file to config.ini (same directory) and replace the placeholder
-# with your real OpenRouter API key. The engine will load it automatically
-# if the OPENROUTER_API_KEY environment variable is not set.
-OPENROUTER_API_KEY = sk-or-v1-your_openrouter_key_here 
