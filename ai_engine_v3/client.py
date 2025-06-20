@@ -21,7 +21,7 @@ class LLMClient:
         # Allow dynamic override so we can A/B different LLMs without code edits.
         # Priority: explicit arg > env var AI_ENGINE_MODEL > default (Gemini 2.5 Flash)
         if model is None:
-            model = os.getenv("AI_ENGINE_MODEL", "mistral/mistral-medium-3")
+            model = os.getenv("AI_ENGINE_MODEL", "mistralai/mistral-medium-3")
         self.model = model
 
     def _get_api_key(self) -> str:
@@ -40,6 +40,8 @@ class LLMClient:
         backoff = 2
         # Reset usage for this call
         self.last_usage: Dict[str, int] = {}
+        fallback_model = "google/gemini-2.5-flash"
+        switched = False  # ensure we only switch once
         for attempt in range(1, retries + 1):
             try:
                 r = self.session.post(f"{self.base}/chat/completions", json=payload, timeout=30)
@@ -48,6 +50,18 @@ class LLMClient:
                     # Store token usage so the caller can estimate cost
                     self.last_usage = data.get("usage", {}) or {}
                     return data["choices"][0]["message"]["content"].strip()
+                # Invalid-model guard → switch to fallback once
+                if (
+                    r.status_code == 400
+                    and "not a valid model" in r.text.lower()
+                    and not switched
+                    and self.model != fallback_model
+                ):
+                    logger.warning("Model '%s' invalid – falling back to %s", self.model, fallback_model)
+                    self.model = fallback_model
+                    switched = True
+                    continue  # retry immediately with fallback
+
                 logger.warning("OpenRouter HTTP %s: %s", r.status_code, r.text[:120])
             except requests.RequestException as e:
                 logger.warning("Request error: %s", e)
