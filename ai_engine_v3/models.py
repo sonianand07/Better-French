@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import List, Dict, Any, Optional, Literal
+from typing import List, Dict, Any, Optional, Literal, Union
 
 from pydantic import BaseModel, Field, HttpUrl, validator
 
@@ -51,7 +51,10 @@ class Article(BaseModel):
     simplified_english_title: Optional[str] = None
     french_summary: Optional[str] = None
     english_summary: Optional[str] = None
-    contextual_title_explanations: Optional[List[ContextualExplanation]] = None
+    # Accept both list (new schema) and dict (legacy website format)
+    contextual_title_explanations: Optional[
+        Union[List[ContextualExplanation], Dict[str, Dict[str, str]]]
+    ] = None
     key_vocabulary: Optional[List[Dict[str, Any]]] = None
     cultural_context: Optional[Dict[str, Any]] = None
 
@@ -75,7 +78,7 @@ class Article(BaseModel):
         required = (
             values.get("simplified_french_title")
             and values.get("simplified_english_title")
-            and values.get("contextual_title_explanations")
+            and values.get("contextual_title_explanations") is not None
         )
         return bool(required)
 
