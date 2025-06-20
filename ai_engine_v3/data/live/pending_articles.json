@@ -1044,6 +1044,871 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "BFM Crypto, les Pros : Israël/Iran, le conflit s'étend aux cryptos - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-pros-des-cryptos/video-bfm-crypto-les-pros-israel-iran-le-conflit-s-etend-aux-cryptos-20-06_VN-202506200532.html",
+      "original_article_published_date": "2025-06-20T14:02:22",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit Israël-Iran affecte les cryptos",
+      "simplified_english_title": "Israel-Iran conflict impacts cryptos",
+      "french_summary": "Le conflit entre Israël et Iran influence désormais le marché des cryptomonnaies, selon BFM Crypto.",
+      "english_summary": "The conflict between Israel and Iran now affects the cryptocurrency market, reports BFM Crypto.",
+      "contextual_title_explanations": {
+        "BFM Crypto": {
+          "display_format": "**BFM Crypto:** Chaîne d'info crypto",
+          "explanation": "Cryptocurrency news channel",
+          "cultural_note": "Part of BFM TV group"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "les Pros": {
+          "display_format": "**les Pros:** Les professionnels",
+          "explanation": "The professionals",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing topic",
+          "cultural_note": ""
+        },
+        "Israël/Iran": {
+          "display_format": "**Israël/Iran:** Pays en conflit",
+          "explanation": "Countries in conflict",
+          "cultural_note": ""
+        },
+        "le conflit": {
+          "display_format": "**le conflit:** Le désaccord",
+          "explanation": "The conflict",
+          "cultural_note": ""
+        },
+        "s'étend": {
+          "display_format": "**s'étend:** Se propage",
+          "explanation": "Is spreading",
+          "cultural_note": ""
+        },
+        "aux cryptos": {
+          "display_format": "**aux cryptos:** Aux cryptomonnaies",
+          "explanation": "To cryptocurrencies",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash for connection",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date: June 20th",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël-Iran : au Bourget, Emmanuel Macron appelle à la désescalade et annonce un débat au Parlement",
+      "original_article_link": "https://www.europe1.fr/politique/conflit-israel-iran-au-bourget-emmanuel-macron-appelle-a-la-desescalade-et-annonce-un-debat-au-parlement-760307",
+      "original_article_published_date": "2025-06-20T11:55:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut calmer le conflit Israël-Iran",
+      "simplified_english_title": "Macron seeks to calm Israel-Iran conflict",
+      "french_summary": "Emmanuel Macron a parlé au Bourget pour demander la fin des tensions et a annoncé un débat au Parlement.",
+      "english_summary": "Emmanuel Macron spoke at Le Bourget to call for an end to tensions and announced a parliamentary debate.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or violent disagreement",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays en tension",
+          "explanation": "Israel and Iran, two countries in tension",
+          "cultural_note": "These countries have a long history of conflict."
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the (masculine singular)",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** Aéroport français",
+          "explanation": "French airport near Paris",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French President",
+          "cultural_note": ""
+        },
+        "appelle": {
+          "display_format": "**appelle:** Demande",
+          "explanation": "Calls or asks for",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Vers",
+          "explanation": "To or towards",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "désescalade": {
+          "display_format": "**désescalade:** Réduction tension",
+          "explanation": "De-escalation or reduction of tension",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Déclare",
+          "explanation": "Announces or declares",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A or an (masculine singular)",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion",
+          "explanation": "Debate or discussion",
+          "cultural_note": ""
+        },
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative",
+          "explanation": "Parliament or legislative assembly",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Macron fait de l'entrée de l'État français au capital d'Eutelsat un «enjeu de souveraineté»",
+      "original_article_link": "https://www.rfi.fr/fr/%C3%A9conomie/20250620-macron-fait-de-l-entr%C3%A9e-de-l-%C3%A9tat-fran%C3%A7ais-au-capital-d-eutelsat-un-un-enjeu-de-souverainet%C3%A9",
+      "original_article_published_date": "2025-06-20T12:26:21",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut que l'État ait des parts d'Eutelsat",
+      "simplified_english_title": "Macron wants state to own Eutelsat shares",
+      "french_summary": "Le président Macron considère que l'État doit avoir des parts dans Eutelsat pour des raisons de souveraineté nationale.",
+      "english_summary": "President Macron believes the state should own shares in Eutelsat for national sovereignty reasons.",
+      "contextual_title_explanations": {
+        "Macron": {
+          "display_format": "**Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** rend",
+          "explanation": "Makes or does",
+          "cultural_note": ""
+        },
+        "de l'entrée": {
+          "display_format": "**de l'entrée:** de la participation",
+          "explanation": "Of the entry or participation",
+          "cultural_note": ""
+        },
+        "de l'État français": {
+          "display_format": "**de l'État français:** du pays France",
+          "explanation": "Of the French state",
+          "cultural_note": ""
+        },
+        "au capital": {
+          "display_format": "**au capital:** dans les actions",
+          "explanation": "In the capital or shares",
+          "cultural_note": ""
+        },
+        "d'Eutelsat": {
+          "display_format": "**d'Eutelsat:** de la société Eutelsat",
+          "explanation": "Of the company Eutelsat",
+          "cultural_note": "Eutelsat is a French satellite operator"
+        },
+        "un": {
+          "display_format": "**un:** un",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "enjeu": {
+          "display_format": "**enjeu:** défi important",
+          "explanation": "Important challenge or issue",
+          "cultural_note": ""
+        },
+        "de souveraineté»": {
+          "display_format": "**de souveraineté»:** d'indépendance nationale»",
+          "explanation": "Of national sovereignty",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Programmation énergétique: le cri d’alarme des acteurs du renouvelable",
+      "original_article_link": "https://www.lefigaro.fr/societes/programmation-energetique-le-cri-d-alarme-des-acteurs-du-renouvelable-20250620",
+      "original_article_published_date": "2025-06-20T14:14:57",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Alerte sur l'énergie renouvelable",
+      "simplified_english_title": "Alert on renewable energy",
+      "french_summary": "Les professionnels de l'énergie renouvelable tirent la sonnette d'alarme sur la programmation énergétique actuelle.",
+      "english_summary": "Renewable energy professionals raise the alarm about the current energy planning.",
+      "contextual_title_explanations": {
+        "Programmation": {
+          "display_format": "**Programmation:** Planification",
+          "explanation": "Planning or scheduling",
+          "cultural_note": ""
+        },
+        "énergétique": {
+          "display_format": "**énergétique:** Relatif à l'énergie",
+          "explanation": "Related to energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "cri": {
+          "display_format": "**cri:** Exclamation",
+          "explanation": "Shout or cry",
+          "cultural_note": ""
+        },
+        "d’alarme": {
+          "display_format": "**d’alarme:** D'avertissement",
+          "explanation": "Alarm or warning",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Plural indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "acteurs": {
+          "display_format": "**acteurs:** Personnes impliquées",
+          "explanation": "People or entities involved",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "renouvelable": {
+          "display_format": "**renouvelable:** Énergie renouvelable",
+          "explanation": "Renewable energy",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La bourse cash : \"Israël versus Iran : un drame humain, mais un pétard mouillé pour les investisseurs\" - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-israel-versus-iran-un-drame-humain-mais-un-petard-mouille-pour-les-investisseurs-20-06_VN-202506200531.html",
+      "original_article_published_date": "2025-06-20T14:04:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit Israël-Iran : peu d'impact financier",
+      "simplified_english_title": "Israel-Iran conflict: little financial impact",
+      "french_summary": "Le conflit entre Israël et Iran a peu d'effets sur les marchés financiers malgré les tensions humaines.",
+      "english_summary": "The conflict between Israel and Iran has little effect on financial markets despite human tensions.",
+      "contextual_title_explanations": {
+        "La bourse cash": {
+          "display_format": "**La bourse cash:** Marché financier immédiat",
+          "explanation": "Financial market for immediate transactions",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Israël versus Iran": {
+          "display_format": "**Israël versus Iran:** Conflit entre deux pays",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": ""
+        },
+        "un drame humain": {
+          "display_format": "**un drame humain:** Tragédie humaine",
+          "explanation": "Human tragedy",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**mais:** Cependant",
+          "explanation": "But, however",
+          "cultural_note": ""
+        },
+        "un pétard mouillé": {
+          "display_format": "**un pétard mouillé:** Événement sans impact",
+          "explanation": "Damp squib, event with no impact",
+          "cultural_note": "Idiom meaning something expected to be exciting but turns out to be uneventful"
+        },
+        "pour les investisseurs": {
+          "display_format": "**pour les investisseurs:** Concernant les investisseurs",
+          "explanation": "For investors",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating date",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date: June 20th",
+          "cultural_note": "Date format: day/month"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : le rapatriement des ressortissants français s'organise",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-isra%C3%ABl-iran-le-rapatriement-des-ressortissants-fran%C3%A7ais-s-organise",
+      "original_article_published_date": "2025-06-20T13:50:29",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France organise le retour de ses citoyens",
+      "simplified_english_title": "France organizes return of its citizens",
+      "french_summary": "La France prépare le retour de ses ressortissants après les tensions entre Israël et l'Iran.",
+      "english_summary": "France prepares to bring back its citizens after tensions between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays",
+          "explanation": "Israel and Iran, two countries",
+          "cultural_note": "Often mentioned together in geopolitical contexts"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "rapatriement": {
+          "display_format": "**rapatriement:** Retour au pays",
+          "explanation": "Repatriation, returning to home country",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Plural indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "ressortissants": {
+          "display_format": "**ressortissants:** Citoyens",
+          "explanation": "Nationals, citizens",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De France",
+          "explanation": "French, from France",
+          "cultural_note": ""
+        },
+        "s'organise": {
+          "display_format": "**s'organise:** Se prépare",
+          "explanation": "Is being organized, prepared",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Septième jour de guerre entre Israël et l'Iran : la délicate stratégie d'Emmanuel Macron",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/politique/20250620-septi%C3%A8me-jour-de-guerre-entre-isra%C3%ABl-et-l-iran-la-d%C3%A9licate-strat%C3%A9gie-d-emmanuel-macron",
+      "original_article_published_date": "2025-06-20T11:05:44",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Guerre Israël-Iran : la stratégie de Macron",
+      "simplified_english_title": "Israel-Iran conflict: Macron's strategy",
+      "french_summary": "Emmanuel Macron gère la crise entre Israël et l'Iran avec prudence. Les tensions durent depuis sept jours.",
+      "english_summary": "Emmanuel Macron carefully manages the crisis between Israel and Iran. Tensions have lasted for seven days.",
+      "contextual_title_explanations": {
+        "Septième": {
+          "display_format": "**Septième:** septième",
+          "explanation": "Seventh",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**jour:** jour",
+          "explanation": "Day",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** guerre",
+          "explanation": "War",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** entre",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Israël",
+          "explanation": "Israel",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** l'Iran",
+          "explanation": "Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** la",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "délicate": {
+          "display_format": "**délicate:** délicate",
+          "explanation": "Delicate",
+          "cultural_note": ""
+        },
+        "stratégie": {
+          "display_format": "**stratégie:** stratégie",
+          "explanation": "Strategy",
+          "cultural_note": ""
+        },
+        "d'": {
+          "display_format": "**d':** de",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "French President",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : la France vit sa première canicule de l'année 2025",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-vague-de-chaleur-la-france-vit-sa-premi%C3%A8re-canicule-de-l-ann%C3%A9e-2025",
+      "original_article_published_date": "2025-06-20T13:02:06",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France a sa première canicule de 2025",
+      "simplified_english_title": "France experiences first heatwave of 2025",
+      "french_summary": "La France subit actuellement une vague de chaleur intense, la première de l'année 2025, avec des températures très élevées.",
+      "english_summary": "France is currently experiencing an intense heatwave, the first of the year 2025, with very high temperatures.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Onde",
+          "explanation": "Wave, often used for heatwaves",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Particule",
+          "explanation": "Of, indicates possession or relation",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        },
+        "vit": {
+          "display_format": "**vit:** Vécu",
+          "explanation": "Experiences, lives through",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "Its, her, possessive adjective",
+          "cultural_note": ""
+        },
+        "première": {
+          "display_format": "**première:** Premier",
+          "explanation": "First, initial",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Période chaude",
+          "explanation": "Heatwave, period of intense heat",
+          "cultural_note": ""
+        },
+        "l'année": {
+          "display_format": "**l'année:** Année",
+          "explanation": "The year",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year 2025",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Orange prépare un plan de réorganisation en France",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/20/orange-prepare-un-plan-de-reorganisation-en-france_6614820_3234.html",
+      "original_article_published_date": "2025-06-20T14:41:42",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Orange va réorganiser ses activités en France",
+      "simplified_english_title": "Orange to reorganize its operations in France",
+      "french_summary": "Orange prépare un plan pour réorganiser ses activités en France afin d'améliorer son efficacité et sa performance.",
+      "english_summary": "Orange is preparing a plan to reorganize its operations in France to improve efficiency and performance.",
+      "contextual_title_explanations": {
+        "Orange": {
+          "display_format": "**Orange:** Entreprise de télécommunications",
+          "explanation": "Major French telecom company",
+          "cultural_note": "Formerly France Télécom"
+        },
+        "prépare": {
+          "display_format": "**prépare:** Se préparer",
+          "explanation": "To prepare, getting ready",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "plan": {
+          "display_format": "**plan:** Projet organisé",
+          "explanation": "Organized project or scheme",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Article défini",
+          "explanation": "Definite article, 'of'",
+          "cultural_note": ""
+        },
+        "réorganisation": {
+          "display_format": "**réorganisation:** Réorganiser",
+          "explanation": "Reorganization, restructuring",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, at, or to",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Libye: une nouvelle conférence à Berlin dans l’espoir de relancer le processus politique",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250620-libye-une-nouvelle-conf%C3%A9rence-%C3%A0-berlin-dans-l-espoir-de-relancer-le-processus-politique",
+      "original_article_published_date": "2025-06-20T12:11:08",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouvelle réunion à Berlin pour la Libye",
+      "simplified_english_title": "New Berlin meeting for Libya",
+      "french_summary": "Une conférence à Berlin veut relancer le processus politique en Libye. Les dirigeants internationaux se réunissent pour discuter.",
+      "english_summary": "A conference in Berlin aims to restart the political process in Libya. International leaders meet to discuss.",
+      "contextual_title_explanations": {
+        "Libye": {
+          "display_format": "**Libye:** Pays d'Afrique",
+          "explanation": "North African country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, feminine singular",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** Qui est récente",
+          "explanation": "New, recent",
+          "cultural_note": ""
+        },
+        "conférence": {
+          "display_format": "**conférence:** Réunion officielle",
+          "explanation": "Official meeting or conference",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de lieu",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "Berlin": {
+          "display_format": "**Berlin:** Capitale allemande",
+          "explanation": "Capital city of Germany",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition de lieu",
+          "explanation": "Preposition indicating inside",
+          "cultural_note": ""
+        },
+        "l’espoir": {
+          "display_format": "**l’espoir:** L'espoir de",
+          "explanation": "Hope of",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or association",
+          "cultural_note": ""
+        },
+        "relancer": {
+          "display_format": "**relancer:** Redémarrer",
+          "explanation": "To restart or relaunch",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article, masculine singular",
+          "cultural_note": ""
+        },
+        "processus": {
+          "display_format": "**processus:** Déroulement",
+          "explanation": "Process or procedure",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Relating to politics",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:03:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
