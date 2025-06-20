@@ -1909,6 +1909,916 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Genève : pourparlers entre Européens et Iran sur le nucléaire",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-gen%C3%A8ve-pourparlers-entre-europ%C3%A9ens-et-iran-sur-le-nucl%C3%A9aire",
+      "original_article_published_date": "2025-06-20T15:08:43",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réunion à Genève sur le nucléaire iranien",
+      "simplified_english_title": "Geneva meeting on Iran nuclear issue",
+      "french_summary": "Des représentants européens et iraniens se rencontrent à Genève pour discuter du programme nucléaire de l'Iran.",
+      "english_summary": "European and Iranian representatives meet in Geneva to discuss Iran's nuclear program.",
+      "contextual_title_explanations": {
+        "Genève": {
+          "display_format": "**Genève:** Ville suisse",
+          "explanation": "Swiss city, home to international organizations",
+          "cultural_note": "Known for diplomacy and watchmaking"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "pourparlers": {
+          "display_format": "**pourparlers:** Négociations",
+          "explanation": "Talks or negotiations",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Entre",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "Européens": {
+          "display_format": "**Européens:** Personnes de l'Europe",
+          "explanation": "Europeans",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** À propos de",
+          "explanation": "About or concerning",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif à l'énergie atomique",
+          "explanation": "Related to nuclear energy",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : Macron souhaite un débat au Parlement",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250620.OBS105131/guerre-iran-israel-macron-souhaite-un-debat-au-parlement.html",
+      "original_article_published_date": "2025-06-20T13:48:22",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut un débat sur la guerre Iran-Israël",
+      "simplified_english_title": "Macron wants debate on Iran-Israel war",
+      "french_summary": "Le président Macron souhaite organiser un débat au Parlement sur la guerre entre l'Iran et Israël.",
+      "english_summary": "President Macron wants to organize a debate in Parliament about the war between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Conflit entre deux pays",
+          "explanation": "Conflict between Iran and Israel",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Macron": {
+          "display_format": "**Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "souhaite": {
+          "display_format": "**souhaite:** Veut",
+          "explanation": "Wishes or wants",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion",
+          "explanation": "Debate or discussion",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the, at the",
+          "cultural_note": ""
+        },
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative",
+          "explanation": "Parliament or legislative assembly",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gaza : 43 nouvelles personnes tuées par l’armée israélienne, dont 26 attendaient de l’aide près du corridor de Netzarim, selon la défense civile de l’enclave",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/20/gaza-43-nouvelles-personnes-tuees-par-l-armee-israelienne-dont-26-attendaient-de-l-aide-pres-du-corridor-de-netzarim-selon-la-defense-civile-de-l-enclave_6614832_3210.html",
+      "original_article_published_date": "2025-06-20T15:06:52",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "43 morts à Gaza par l'armée israélienne",
+      "simplified_english_title": "43 killed in Gaza by Israeli army",
+      "french_summary": "L'armée israélienne a tué 43 personnes à Gaza, dont 26 attendaient de l'aide près de Netzarim, selon la défense civile.",
+      "english_summary": "The Israeli army killed 43 people in Gaza, including 26 waiting for aid near Netzarim, according to civil defense.",
+      "contextual_title_explanations": {
+        "Gaza": {
+          "display_format": "**Gaza :** Territoire palestinien",
+          "explanation": "Palestinian territory on Mediterranean coast",
+          "cultural_note": "Often in news due to conflict"
+        },
+        "43": {
+          "display_format": "**43 :** Quarante-trois",
+          "explanation": "Number forty-three",
+          "cultural_note": ""
+        },
+        "nouvelles": {
+          "display_format": "**nouvelles :** Récentes",
+          "explanation": "Recent, new",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**personnes :** Gens",
+          "explanation": "People",
+          "cultural_note": ""
+        },
+        "tuées": {
+          "display_format": "**tuées :** Mortes",
+          "explanation": "Killed",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par :** Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "l’armée israélienne": {
+          "display_format": "**l’armée israélienne :** Forces militaires d'Israël",
+          "explanation": "Israeli military forces",
+          "cultural_note": ""
+        },
+        "dont": {
+          "display_format": "**dont :** Parmi lesquelles",
+          "explanation": "Of which",
+          "cultural_note": ""
+        },
+        "26": {
+          "display_format": "**26 :** Vingt-six",
+          "explanation": "Number twenty-six",
+          "cultural_note": ""
+        },
+        "attendaient": {
+          "display_format": "**attendaient :** En attente",
+          "explanation": "Were waiting",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de :** De",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "l’aide": {
+          "display_format": "**l’aide :** Assistance",
+          "explanation": "Help, aid",
+          "cultural_note": ""
+        },
+        "près": {
+          "display_format": "**près :** Proche de",
+          "explanation": "Near",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du :** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "corridor": {
+          "display_format": "**corridor :** Couloir",
+          "explanation": "Corridor",
+          "cultural_note": ""
+        },
+        "Netzarim": {
+          "display_format": "**Netzarim :** Lieu à Gaza",
+          "explanation": "Location in Gaza",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**, :** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**selon :** D'après",
+          "explanation": "According to",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la :** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "défense civile": {
+          "display_format": "**défense civile :** Protection civile",
+          "explanation": "Civil defense",
+          "cultural_note": ""
+        },
+        "l’enclave": {
+          "display_format": "**l’enclave :** Territoire entouré",
+          "explanation": "Enclave, surrounded territory",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les combats de Pavel Durov, le discret créateur de Telegram",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/tech-24/20250620-les-combats-de-pavel-durov-le-discret-cr%C3%A9ateur-de-telegram",
+      "original_article_published_date": "2025-06-20T14:19:36",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pavel Durov, le créateur de Telegram",
+      "simplified_english_title": "Pavel Durov, the creator of Telegram",
+      "french_summary": "Pavel Durov, le fondateur de Telegram, est connu pour son style discret et ses combats pour la vie privée.",
+      "english_summary": "Pavel Durov, the founder of Telegram, is known for his discreet style and fights for privacy.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "combats": {
+          "display_format": "**combats:** Luttes",
+          "explanation": "Fights or struggles",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or by",
+          "cultural_note": ""
+        },
+        "Pavel Durov": {
+          "display_format": "**Pavel Durov:** Fondateur de Telegram",
+          "explanation": "Russian entrepreneur",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (singular masculine)",
+          "cultural_note": ""
+        },
+        "discret": {
+          "display_format": "**discret:** Réservé",
+          "explanation": "Discreet or low-key",
+          "cultural_note": ""
+        },
+        "créateur": {
+          "display_format": "**créateur:** Fondateur",
+          "explanation": "Creator or founder",
+          "cultural_note": ""
+        },
+        "Telegram": {
+          "display_format": "**Telegram:** Application de messagerie",
+          "explanation": "Messaging app",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : les citoyens français évacués par la Turquie et l'Arménie",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-isra%C3%ABl-iran-les-citoyens-fran%C3%A7ais-%C3%A9vacu%C3%A9s-par-la-turquie-et-l-arm%C3%A9nie",
+      "original_article_published_date": "2025-06-20T13:07:06",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français quittent Israël via la Turquie",
+      "simplified_english_title": "French citizens leave Israel via Turkey",
+      "french_summary": "Des Français en Israël sont évacués par la Turquie et l'Arménie à cause des tensions entre Israël et l'Iran.",
+      "english_summary": "French citizens in Israel are evacuated through Turkey and Armenia due to tensions between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre deux pays",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": "Ongoing geopolitical tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "citoyens": {
+          "display_format": "**citoyens:** Personnes d'un pays",
+          "explanation": "Citizens of a country",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De la France",
+          "explanation": "French, from France",
+          "cultural_note": ""
+        },
+        "évacués": {
+          "display_format": "**évacués:** Mis en sécurité",
+          "explanation": "Evacuated, moved to safety",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par l'intermédiaire de",
+          "explanation": "By, through the means of",
+          "cultural_note": ""
+        },
+        "la Turquie": {
+          "display_format": "**la Turquie:** Pays voisin",
+          "explanation": "Turkey, a neighboring country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And, conjunction",
+          "cultural_note": ""
+        },
+        "l'Arménie": {
+          "display_format": "**l'Arménie:** Pays du Caucase",
+          "explanation": "Armenia, a country in the Caucasus",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : la guerre jusqu’où ?",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/le-monde-dans-tous-ses-%C3%A9tats/20250620-isra%C3%ABl-iran-la-guerre-jusqu-o%C3%B9",
+      "original_article_published_date": "2025-06-20T15:14:23",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions entre Israël et Iran",
+      "simplified_english_title": "Tensions between Israel and Iran",
+      "french_summary": "Les tensions entre Israël et Iran augmentent, suscitant des inquiétudes sur une escalade possible du conflit dans la région.",
+      "english_summary": "Tensions between Israel and Iran are rising, raising concerns about a possible escalation of conflict in the region.",
+      "contextual_title_explanations": {
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre deux pays",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": "Ongoing geopolitical tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "jusqu’où": {
+          "display_format": "**jusqu’où:** Jusqu'à quel point",
+          "explanation": "To what extent",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël/Iran: 3 blessés graves en Israël suite à de nouvelles salves de missiles iraniens",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-conflit-israel-iran-3-blesses-graves-en-israel-suite-a-de-nouvelles-salves-de-missiles-iraniens_VN-202506200557.html",
+      "original_article_published_date": "2025-06-20T14:40:41",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran attaque Israël avec des missiles",
+      "simplified_english_title": "Iran attacks Israel with missiles",
+      "french_summary": "Trois personnes sont gravement blessées en Israël après une nouvelle attaque de missiles iraniens.",
+      "english_summary": "Three people are seriously injured in Israel after a new Iranian missile attack.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or violent disagreement",
+          "cultural_note": ""
+        },
+        "Israël/Iran": {
+          "display_format": "**Israël/Iran:** Pays en conflit",
+          "explanation": "Countries in conflict",
+          "cultural_note": "Israël and Iran are long-standing geopolitical rivals"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "3": {
+          "display_format": "**3:** Trois",
+          "explanation": "The number three",
+          "cultural_note": ""
+        },
+        "blessés": {
+          "display_format": "**blessés:** Personnes blessées",
+          "explanation": "Injured people",
+          "cultural_note": ""
+        },
+        "graves": {
+          "display_format": "**graves:** Très sérieux",
+          "explanation": "Serious or severe",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or within",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "suite à": {
+          "display_format": "**suite à:** À cause de",
+          "explanation": "Following or due to",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Des",
+          "explanation": "Some or of",
+          "cultural_note": ""
+        },
+        "nouvelles": {
+          "display_format": "**nouvelles:** Récentes",
+          "explanation": "New or recent",
+          "cultural_note": ""
+        },
+        "salves": {
+          "display_format": "**salves:** Séries de coups",
+          "explanation": "Series of shots or attacks",
+          "cultural_note": ""
+        },
+        "missiles": {
+          "display_format": "**missiles:** Projectiles",
+          "explanation": "Missiles or projectiles",
+          "cultural_note": ""
+        },
+        "iraniens": {
+          "display_format": "**iraniens:** De l'Iran",
+          "explanation": "From Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël/Iran: l'Iran refuse de négocier tant que les attaques israéliennes se poursuivent",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-conflit-israel-iran-l-iran-refuse-de-negocier-tant-que-les-attaques-israeliennes-se-poursuivent_VN-202506200581.html",
+      "original_article_published_date": "2025-06-20T15:13:12",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran refuse les négociations avec Israël",
+      "simplified_english_title": "Iran refuses talks with Israel",
+      "french_summary": "L'Iran ne veut pas négocier tant qu'Israël continue ses attaques, selon une déclaration officielle.",
+      "english_summary": "Iran refuses to negotiate as long as Israel continues its attacks, according to an official statement.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or violent disagreement",
+          "cultural_note": ""
+        },
+        "Israël/Iran": {
+          "display_format": "**Israël/Iran:** Pays en conflit",
+          "explanation": "Countries in conflict",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "refuse": {
+          "display_format": "**refuse:** Rejeter catégoriquement",
+          "explanation": "To refuse or reject outright",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        "négocier": {
+          "display_format": "**négocier:** Discuter pour un accord",
+          "explanation": "To negotiate or discuss for an agreement",
+          "cultural_note": ""
+        },
+        "tant que": {
+          "display_format": "**tant que:** Pendant que",
+          "explanation": "As long as or while",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article for plural nouns",
+          "cultural_note": ""
+        },
+        "attaques": {
+          "display_format": "**attaques:** Actions violentes",
+          "explanation": "Attacks or violent actions",
+          "cultural_note": ""
+        },
+        "israéliennes": {
+          "display_format": "**israéliennes:** Relatif à Israël",
+          "explanation": "Related to Israel",
+          "cultural_note": ""
+        },
+        "se poursuivent": {
+          "display_format": "**se poursuivent:** Continuer",
+          "explanation": "To continue or go on",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Aucune guerre ne libère les peuples\" : la diaspora iranienne se rassemble",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-aucune-guerre-ne-lib%C3%A8re-les-peuples-la-diaspora-iranienne-se-rassemble",
+      "original_article_published_date": "2025-06-20T14:08:17",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La diaspora iranienne manifeste pour la paix",
+      "simplified_english_title": "Iranian diaspora rallies for peace",
+      "french_summary": "Des Iraniens vivent à l'étranger se réunissent pour dire que la guerre ne donne pas la liberté aux peuples.",
+      "english_summary": "Iranians living abroad gather to say that war does not bring freedom to people.",
+      "contextual_title_explanations": {
+        "\"": {
+          "display_format": "\" : Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "Aucune": {
+          "display_format": "**Aucune:** Pas une seule",
+          "explanation": "Not a single one",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Negation marker",
+          "cultural_note": ""
+        },
+        "libère": {
+          "display_format": "**libère:** Rendre libre",
+          "explanation": "Sets free, liberates",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article (the)",
+          "cultural_note": ""
+        },
+        "peuples": {
+          "display_format": "**peuples:** Groupes ethniques",
+          "explanation": "Peoples, ethnic groups",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article (the)",
+          "cultural_note": ""
+        },
+        "diaspora": {
+          "display_format": "**diaspora:** Communauté dispersée",
+          "explanation": "Dispersed community",
+          "cultural_note": ""
+        },
+        "iranienne": {
+          "display_format": "**iranienne:** Relatif à l'Iran",
+          "explanation": "Iranian, related to Iran",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**se:** Pronom réfléchi",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": ""
+        },
+        "rassemble": {
+          "display_format": "**rassemble:** Réunir",
+          "explanation": "Gathers, unites",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Le retour au tout-nucléaire intervient alors que le parc historique montre des faiblesses structurelles »",
+      "original_article_link": "https://www.la-croix.com/a-vif/le-retour-au-tout-nucleaire-intervient-alors-que-le-parc-historique-montre-des-faiblesses-structurelles-20250620",
+      "original_article_published_date": "2025-06-20T15:14:07",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France revient au nucléaire malgré les problèmes",
+      "simplified_english_title": "France returns to nuclear despite issues",
+      "french_summary": "La France veut utiliser plus d'énergie nucléaire, mais les centrales ont des problèmes structurels.",
+      "english_summary": "France wants to use more nuclear energy, but power plants have structural problems.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "retour": {
+          "display_format": "**retour:** Retour",
+          "explanation": "Return or comeback",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** à le",
+          "explanation": "To the (contraction)",
+          "cultural_note": ""
+        },
+        "tout-nucléaire": {
+          "display_format": "**tout-nucléaire:** Tout nucléaire",
+          "explanation": "All-nuclear (policy)",
+          "cultural_note": ""
+        },
+        "intervient": {
+          "display_format": "**intervient:** Intervenir",
+          "explanation": "Occurs or happens",
+          "cultural_note": ""
+        },
+        "alors": {
+          "display_format": "**alors:** Alors",
+          "explanation": "While or whereas",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Que",
+          "explanation": "That (conjunction)",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "parc": {
+          "display_format": "**parc:** Parc",
+          "explanation": "Park or fleet",
+          "cultural_note": ""
+        },
+        "historique": {
+          "display_format": "**historique:** Historique",
+          "explanation": "Historical or existing",
+          "cultural_note": ""
+        },
+        "montre": {
+          "display_format": "**montre:** Montrer",
+          "explanation": "Shows or displays",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some (plural indefinite article)",
+          "cultural_note": ""
+        },
+        "faiblesses": {
+          "display_format": "**faiblesses:** Faiblesses",
+          "explanation": "Weaknesses",
+          "cultural_note": ""
+        },
+        "structurelles": {
+          "display_format": "**structurelles:** Structurelles",
+          "explanation": "Structural",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T15:19:59",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
