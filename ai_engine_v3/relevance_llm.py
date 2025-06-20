@@ -14,7 +14,11 @@ _PROMPT = (
     "HEADLINE: \"{headline}\"\n\nRespond with ONLY the number."
 )
 
-_llm = LLMClient(model="anthropic/claude-3.5-sonnet")
+_llm = LLMClient(model="mistralai/mistral-large-2411")
+
+# Cost constants for current model (USD per 1k tokens)
+_IN_PRICE = 0.00200
+_OUT_PRICE = 0.00600
 
 def score(headline: str):
     """Return (score, usd_cost) tuple."""
@@ -28,7 +32,7 @@ def score(headline: str):
                 usage = _llm.last_usage or {}
                 in_t = usage.get("prompt_tokens", 0)
                 out_t = usage.get("completion_tokens", 0)
-                usd = (in_t/1000)*0.003 + (out_t/1000)*0.015  # Sonnet pricing
+                usd = (in_t/1000)*_IN_PRICE + (out_t/1000)*_OUT_PRICE
                 return value, usd
     except Exception as e:
         logger.warning("LLM relevance scoring failed: %s", e)

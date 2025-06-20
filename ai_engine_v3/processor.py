@@ -75,6 +75,7 @@ class ProcessorV2:
             "meta-llama/llama-3-70b-instruct": (0.00035, 0.00070),
             "google/gemini-2.5-flash": (0.00025, 0.00050),
             "google/gemini-2-flash": (0.00025, 0.00050),
+            "mistral/mistral-medium-3": (0.00040, 0.00200),
         }
         in_price, out_price = PRICE_TABLE.get(self.llm.model, (0.00300, 0.01500))
         prompt_t = usage.get("prompt_tokens", 0)
