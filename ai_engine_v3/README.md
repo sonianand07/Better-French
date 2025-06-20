@@ -41,7 +41,7 @@ graph TD;
   1. Loads only *_delta.json files (state keeps track).
   2. Hard filters with rule-based CuratorV2 (env-var `BF_MIN_RULE_SCORE`).
   3. Calls `relevance_llm.py` (Claude-Sonnet via OpenRouter) for nuanced scoring.
-  4. Applies bucket balancing & daily cap (`BF_DAILY_CAP`, default 20).
+  4. Merges with 24-h **overflow queue** and publishes the best `BF_PER_RUN_CAP` (10).
   5. Converts to `Article` schema and writes:
      • `website/rolling_articles.json`
      • Archives under `website/04_Data_Output/`.
@@ -53,9 +53,9 @@ graph TD;
 | Item | Location / Env var | Notes |
 |------|-------------------|-------|
 | OpenRouter API key | `OPENROUTER_API_KEY` (GitHub + local `.env`) | Required for LLM scoring. |
-| Rule threshold | `BF_MIN_RULE_SCORE` | default 14.0 |
-| Daily cap | `BF_DAILY_CAP` | default 20 |
-| Per-run cap | `BF_PER_RUN_CAP` | set to 5 by the hourly Action |
+| Rule threshold | `BF_MIN_RULE_SCORE` | **default 12.0** (was 14) |
+| Daily cap | `BF_DAILY_CAP` | unlimited unless set (GitHub runner sets 9999) |
+| Per-run cap | `BF_PER_RUN_CAP` | **10** in production Action (was 5) |
 
 Runtime state lives in `ai_engine_v3/data/state.json`:
 
@@ -100,17 +100,29 @@ PYTHONPATH=. python3 scripts/run_v3_pipeline.py --serve
 5. Open PR → once merged the hourly Action will include your changes.
 
 ---
-## 6.  On-boarding checklist for new LLMs
+## 6.  Overflow queue (June 2025)
+
+Every run stores surplus, high-scoring articles in `ai_engine_v3/data/live/overflow.json`.
+
+* Max 90 items, auto-expires after 24 h.
+* Items already on the website are filtered out.
+* Scores are reused; the LLM is **not** re-called for queued items → zero cost.
+
+At the start of a new run, the queue is loaded, merged with freshly-scraped
+articles, sorted by blended score, and the top 10 are published.  Leftovers go
+back to the queue.
+
+This guarantees that strong stories eventually surface even if multiple hours
+produce large candidate sets.
+
+---
+## 7.  On-boarding checklist for new LLMs
 
 1. Export secrets locally:
    ```bash
    export OPENROUTER_API_KEY="sk-or-..."
    ```
-2. `pip install -e ./ai_engine_v3[dev]` (editable install)
-3. Run unit tests: `pytest -q tests/ai_engine_v3`
-4. `python -m ai_engine_v3.scripts.fetch_news` → produces raw file.
-5. `python -m ai_engine_v3.scripts.qualify_news` → writes website files.
-6. `python -m http.server 8010 -d ai_engine_v3/website` → open browser.
+2. `pip install -e ./ai_engine_v3[dev]`
 
 Happy hacking — and bienvenue à Better French 🇫🇷!
 
@@ -128,4 +140,4 @@ contextual-word coverage is incomplete.
 3. Only downgrade to the relaxed rule if after two attempts coverage is still
    insufficient.
 
-This note is a reminder to implement that backfill strategy before EOM. 
+This note is a reminder to implement that backfill strategy before EOM.
