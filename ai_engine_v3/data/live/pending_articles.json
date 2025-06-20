@@ -6669,6 +6669,976 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pourparlers Iran / Europe à Genève et pas de position commune pour l'Ukraine lors du G7",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20250620-pourparlers-iran-europe-%C3%A0-gen%C3%A8ve-et-pas-de-position-commune-pour-l-ukraine-lors-du-g7",
+      "original_article_published_date": "2025-06-20T18:31:45",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réunion Iran-Europe à Genève, pas d'accord G7 sur l'Ukraine",
+      "simplified_english_title": "Iran-Europe talks in Geneva, no G7 Ukraine agreement",
+      "french_summary": "Les dirigeants européens et iraniens se rencontrent à Genève. Les pays du G7 n'ont pas trouvé d'accord commun sur l'Ukraine.",
+      "english_summary": "European and Iranian leaders meet in Geneva. G7 countries did not reach a common position on Ukraine.",
+      "contextual_title_explanations": {
+        "Pourparlers": {
+          "display_format": "**Pourparlers:** Négociations",
+          "explanation": "Talks or negotiations between parties",
+          "cultural_note": ""
+        },
+        "Iran / Europe": {
+          "display_format": "**Iran / Europe:** Pays / Continent",
+          "explanation": "Iran is a country; Europe is a continent",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At, in, or to (indicating location)",
+          "cultural_note": ""
+        },
+        "Genève": {
+          "display_format": "**Genève:** Ville suisse",
+          "explanation": "A city in Switzerland",
+          "cultural_note": "Known for diplomacy and international organizations"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And (connecting two ideas)",
+          "cultural_note": ""
+        },
+        "pas de": {
+          "display_format": "**pas de:** Négation",
+          "explanation": "No or not any",
+          "cultural_note": ""
+        },
+        "position commune": {
+          "display_format": "**position commune:** Accord",
+          "explanation": "Common or shared position",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For or in favor of",
+          "cultural_note": ""
+        },
+        "l'Ukraine": {
+          "display_format": "**l'Ukraine:** Pays européen",
+          "explanation": "A country in Eastern Europe",
+          "cultural_note": ""
+        },
+        "lors du": {
+          "display_format": "**lors du:** Pendant le",
+          "explanation": "During or at the time of",
+          "cultural_note": ""
+        },
+        "G7": {
+          "display_format": "**G7:** Groupe des sept",
+          "explanation": "Group of seven major advanced economies",
+          "cultural_note": "Includes Canada, France, Germany, Italy, Japan, UK, and US"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Programme nucléaire, guerre avec Israël… Ce qu’il faut retenir des discussions entre l’Iran et les pays européens",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250620.OBS105145/programme-nucleaire-guerre-avec-israel-ce-qu-il-faut-retenir-des-discussions-entre-l-iran-et-les-pays-europeens.html",
+      "original_article_published_date": "2025-06-20T19:49:55",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran parle avec l'Europe du nucléaire et d'Israël",
+      "simplified_english_title": "Iran talks with Europe on nuclear and Israel",
+      "french_summary": "Les pays européens ont discuté avec l'Iran sur le programme nucléaire et les tensions avec Israël lors de réunions récentes.",
+      "english_summary": "European countries discussed Iran's nuclear program and tensions with Israel in recent meetings.",
+      "contextual_title_explanations": {
+        "Programme": {
+          "display_format": "**Programme:** Plan d'action",
+          "explanation": "A structured plan or schedule",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif au noyau",
+          "explanation": "Relating to nuclear energy or weapons",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** En compagnie de",
+          "explanation": "With or in company of",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Indicates an incomplete list",
+          "cultural_note": ""
+        },
+        "Ce qu’il faut retenir": {
+          "display_format": "**Ce qu’il faut retenir:** L'essentiel",
+          "explanation": "Key points to remember",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles définis",
+          "explanation": "Plural definite article",
+          "cultural_note": ""
+        },
+        "discussions": {
+          "display_format": "**discussions:** Conversations",
+          "explanation": "Talks or conversations",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Parmi",
+          "explanation": "Between or among",
+          "cultural_note": ""
+        },
+        "l’Iran": {
+          "display_format": "**l’Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les pays européens": {
+          "display_format": "**les pays européens:** Nations d'Europe",
+          "explanation": "European countries",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "LE CHOIX D'OLIVIER - Centrale nucléaire de Bouchehr, Fordo: l'AIEA craint une catastrophe nucléaire en Iran",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-le-choix-d-olivier-centrale-nucleaire-de-bouchehr-fordo-l-aiea-craint-une-catastrophe-nucleaire-en-iran_VN-202506200750.html",
+      "original_article_published_date": "2025-06-20T19:39:51",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'AIEA craint un accident nucléaire en Iran",
+      "simplified_english_title": "IAEA fears nuclear accident in Iran",
+      "french_summary": "L'Agence internationale de l'énergie atomique s'inquiète des centrales nucléaires de Bouchehr et Fordo en Iran.",
+      "english_summary": "The International Atomic Energy Agency is worried about the Bouchehr and Fordo nuclear plants in Iran.",
+      "contextual_title_explanations": {
+        "LE": {
+          "display_format": "**LE:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "CHOIX": {
+          "display_format": "**CHOIX:** Sélection",
+          "explanation": "Choice or selection",
+          "cultural_note": ""
+        },
+        "D'OLIVIER": {
+          "display_format": "**D'OLIVIER:** De Olivier",
+          "explanation": "Of Olivier (possessive)",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash indicating continuation",
+          "cultural_note": ""
+        },
+        "Centrale nucléaire": {
+          "display_format": "**Centrale nucléaire:** Usine d'énergie atomique",
+          "explanation": "Nuclear power plant",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "Bouchehr": {
+          "display_format": "**Bouchehr:** Ville iranienne",
+          "explanation": "City in Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "Fordo": {
+          "display_format": "**Fordo:** Site nucléaire",
+          "explanation": "Nuclear site in Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'AIEA": {
+          "display_format": "**l'AIEA:** Agence internationale de l'énergie atomique",
+          "explanation": "International Atomic Energy Agency",
+          "cultural_note": ""
+        },
+        "craint": {
+          "display_format": "**craint:** A peur de",
+          "explanation": "Fears or is afraid of",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A or an (indefinite article)",
+          "cultural_note": ""
+        },
+        "catastrophe nucléaire": {
+          "display_format": "**catastrophe nucléaire:** Désastre atomique",
+          "explanation": "Nuclear disaster",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Iran/Israël: \"Pourquoi l'Iran aurait besoin du nucléaire ?\", déclare Donald Trump",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-conflit-iran-israel-pourquoi-l-iran-aurait-besoin-du-nucleaire-declare-donald-trump_VN-202506200752.html",
+      "original_article_published_date": "2025-06-20T19:53:39",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump parle du nucléaire iranien",
+      "simplified_english_title": "Trump discusses Iranian nuclear issue",
+      "french_summary": "Donald Trump questionne pourquoi l'Iran aurait besoin de l'arme nucléaire dans le contexte du conflit avec Israël.",
+      "english_summary": "Donald Trump questions why Iran would need nuclear weapons in the context of the conflict with Israel.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or serious disagreement",
+          "cultural_note": ""
+        },
+        "Iran/Israël": {
+          "display_format": "**Iran/Israël:** Pays en conflit",
+          "explanation": "Countries in conflict",
+          "cultural_note": "Iran and Israel have long-standing tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "Pourquoi": {
+          "display_format": "**Pourquoi:** Pourquoi",
+          "explanation": "Why",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays moyen-oriental",
+          "explanation": "Middle Eastern country",
+          "cultural_note": ""
+        },
+        "aurait": {
+          "display_format": "**aurait:** Conditionnel de avoir",
+          "explanation": "Conditional form of 'have'",
+          "cultural_note": ""
+        },
+        "besoin": {
+          "display_format": "**besoin:** Nécessité",
+          "explanation": "Need",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif au noyau",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "déclare": {
+          "display_format": "**déclare:** Affirme",
+          "explanation": "Declares or states",
+          "cultural_note": ""
+        },
+        "Donald Trump": {
+          "display_format": "**Donald Trump:** Ancien président américain",
+          "explanation": "Former US president",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La semaine de l'économie - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/c-est-votre-argent/video-la-semaine-de-l-economie-20-06_VN-202506200759.html",
+      "original_article_published_date": "2025-06-20T20:04:42",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Semaine de l'économie en juin",
+      "simplified_english_title": "Economy Week in June",
+      "french_summary": "Un événement spécial pour discuter de l'économie aura lieu la semaine du 20 juin.",
+      "english_summary": "A special event to discuss the economy will take place the week of June 20.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "semaine": {
+          "display_format": "**semaine:** Période de sept jours",
+          "explanation": "Week",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of'",
+          "cultural_note": ""
+        },
+        "l'économie": {
+          "display_format": "**l'économie:** Activité économique",
+          "explanation": "The economy",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Date",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les syndicats de France télévisions appellent à une grève illimitée à partir du 30 juin",
+      "original_article_link": "https://www.ouest-france.fr/medias/france-televisions/les-syndicats-de-france-televisions-appellent-a-une-greve-illimitee-a-partir-du-30-juin-7c468934-4de0-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T15:06:55",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Grève illimitée à France Télévisions fin juin",
+      "simplified_english_title": "Unlimited strike at France Télévisions late June",
+      "french_summary": "Les syndicats de France Télévisions demandent une grève sans limite de temps à partir du 30 juin.",
+      "english_summary": "Unions at France Télévisions are calling for an unlimited strike starting June 30th.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "syndicats": {
+          "display_format": "**syndicats:** Groupes de travailleurs",
+          "explanation": "Labor unions",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "France télévisions": {
+          "display_format": "**France télévisions:** Groupe audiovisuel public",
+          "explanation": "French public TV group",
+          "cultural_note": ""
+        },
+        "appellent": {
+          "display_format": "**appellent:** Demander",
+          "explanation": "Call for",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To/at",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A/an",
+          "cultural_note": ""
+        },
+        "grève": {
+          "display_format": "**grève:** Arrêt de travail",
+          "explanation": "Strike",
+          "cultural_note": ""
+        },
+        "illimitée": {
+          "display_format": "**illimitée:** Sans fin",
+          "explanation": "Unlimited/indeterminate",
+          "cultural_note": ""
+        },
+        "partir": {
+          "display_format": "**partir:** Commencer",
+          "explanation": "Starting from",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "30": {
+          "display_format": "**30:** Trente",
+          "explanation": "30th",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**juin:** Mois de l'année",
+          "explanation": "June",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Marine Le Pen défend Caroline Parmentier, l’une de ses proches, épinglée pour des écrits racistes",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/20/marine-le-pen-defend-caroline-parmentier-l-une-de-ses-proches-epinglee-pour-des-ecrits-racistes_6614821_823448.html",
+      "original_article_published_date": "2025-06-20T14:46:57",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Marine Le Pen défend une alliée accusée de racisme",
+      "simplified_english_title": "Marine Le Pen defends ally accused of racism",
+      "french_summary": "Marine Le Pen soutient Caroline Parmentier, une proche, critiquée pour des écrits jugés racistes.",
+      "english_summary": "Marine Le Pen defends Caroline Parmentier, an ally, criticized for writings deemed racist.",
+      "contextual_title_explanations": {
+        "Marine Le Pen": {
+          "display_format": "**Marine Le Pen:** Politicienne française",
+          "explanation": "French far-right political leader",
+          "cultural_note": "Leader of the National Rally party"
+        },
+        "défend": {
+          "display_format": "**défend:** Prendre la défense",
+          "explanation": "Defends or supports someone",
+          "cultural_note": ""
+        },
+        "Caroline Parmentier": {
+          "display_format": "**Caroline Parmentier:** Nom d'une personne",
+          "explanation": "A person's name",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "l’une": {
+          "display_format": "**l’une:** L'une des",
+          "explanation": "One of the",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif",
+          "explanation": "Her or his, possessive",
+          "cultural_note": ""
+        },
+        "proches": {
+          "display_format": "**proches:** Personnes proches",
+          "explanation": "Close associates or friends",
+          "cultural_note": ""
+        },
+        "epinglée": {
+          "display_format": "**epinglée:** Critiquée",
+          "explanation": "Criticized or called out",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** À cause de",
+          "explanation": "For or because of",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Some or any, indefinite article",
+          "cultural_note": ""
+        },
+        "écrits": {
+          "display_format": "**écrits:** Textes écrits",
+          "explanation": "Written texts or writings",
+          "cultural_note": ""
+        },
+        "racistes": {
+          "display_format": "**racistes:** Relatif au racisme",
+          "explanation": "Racist or related to racism",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "48 000 morts prématurés par an ? Les défenseurs des ZFE pris en flagrant délit de manipulation statistique",
+      "original_article_link": "https://www.lefigaro.fr/actualite-france/48-000-morts-prematures-par-an-les-defenseurs-des-zfe-pris-en-flagrant-delit-de-manipulation-statistique-20250620",
+      "original_article_published_date": "2025-06-20T09:09:54",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "48 000 morts par an : manipulation des chiffres ?",
+      "simplified_english_title": "48,000 deaths per year: manipulated statistics?",
+      "french_summary": "Les défenseurs des ZFE sont accusés de manipuler les statistiques sur les morts prématurées.",
+      "english_summary": "Supporters of low-emission zones are accused of manipulating premature death statistics.",
+      "contextual_title_explanations": {
+        "48 000": {
+          "display_format": "**48 000:** quarante-huit mille",
+          "explanation": "Forty-eight thousand",
+          "cultural_note": ""
+        },
+        "morts": {
+          "display_format": "**morts:** décès",
+          "explanation": "Deaths",
+          "cultural_note": ""
+        },
+        "prématurés": {
+          "display_format": "**prématurés:** avant l'heure",
+          "explanation": "Premature",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** chaque",
+          "explanation": "Per",
+          "cultural_note": ""
+        },
+        "an": {
+          "display_format": "**an:** année",
+          "explanation": "Year",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Les",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "défenseurs": {
+          "display_format": "**défenseurs:** partisans",
+          "explanation": "Defenders",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** des",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "ZFE": {
+          "display_format": "**ZFE:** Zones à Faibles Émissions",
+          "explanation": "Low Emission Zones",
+          "cultural_note": "Areas restricting high-emission vehicles"
+        },
+        "pris": {
+          "display_format": "**pris:** capturés",
+          "explanation": "Caught",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "flagrant délit": {
+          "display_format": "**flagrant délit:** acte évident",
+          "explanation": "Red-handed",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "manipulation": {
+          "display_format": "**manipulation:** falsification",
+          "explanation": "Manipulation",
+          "cultural_note": ""
+        },
+        "statistique": {
+          "display_format": "**statistique:** données",
+          "explanation": "Statistical",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Roumanie, le pro-européen Ilie Bolojan a été nommé Premier ministre, mettant fin à des mois de chaos politique",
+      "original_article_link": "https://www.franceinfo.fr/monde/europe/en-roumanie-le-pro-europeen-ilie-bolojan-nomme-premier-ministre-mettant-fin-a-des-mois-de-chaos-politique_7326759.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T17:17:31",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouveau Premier ministre en Roumanie",
+      "simplified_english_title": "Romania gets new Prime Minister",
+      "french_summary": "Ilie Bolojan, pro-européen, est nommé Premier ministre de Roumanie après des mois de crise politique.",
+      "english_summary": "Pro-European Ilie Bolojan is appointed Romania's Prime Minister after months of political crisis.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Dans",
+          "explanation": "In, inside (location)",
+          "cultural_note": ""
+        },
+        "Roumanie": {
+          "display_format": "**Roumanie:** Pays d'Europe",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, short pause",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "pro-européen": {
+          "display_format": "**pro-européen:** En faveur de l'Europe",
+          "explanation": "Pro-European, supporting EU",
+          "cultural_note": ""
+        },
+        "Ilie Bolojan": {
+          "display_format": "**Ilie Bolojan:** Nom d'une personne",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "a été nommé": {
+          "display_format": "**a été nommé:** A été choisi",
+          "explanation": "Has been appointed",
+          "cultural_note": ""
+        },
+        "Premier ministre": {
+          "display_format": "**Premier ministre:** Chef du gouvernement",
+          "explanation": "Prime Minister, head of government",
+          "cultural_note": ""
+        },
+        "mettant fin": {
+          "display_format": "**mettant fin:** Terminant",
+          "explanation": "Putting an end to",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À, vers",
+          "explanation": "To, at",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some, plural indefinite article",
+          "cultural_note": ""
+        },
+        "mois": {
+          "display_format": "**mois:** Période de temps",
+          "explanation": "Months",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De, provenant de",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "chaos": {
+          "display_format": "**chaos:** Désordre total",
+          "explanation": "Chaos, total disorder",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Political, related to politics",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : Paris, Berlin et Londres vont faire \"une offre de négociation complète\" aux Iraniens",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-isra%C3%ABl-iran-paris-berlin-et-londres-vont-faire-une-offre-de-n%C3%A9gociation-compl%C3%A8te-aux-iraniens",
+      "original_article_published_date": "2025-06-20T12:55:50",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris, Berlin et Londres proposent des négociations à l'Iran",
+      "simplified_english_title": "Paris, Berlin, and London offer talks to Iran",
+      "french_summary": "La France, l'Allemagne et le Royaume-Uni veulent négocier avec l'Iran pour résoudre les tensions avec Israël.",
+      "english_summary": "France, Germany, and the UK want to negotiate with Iran to resolve tensions with Israel.",
+      "contextual_title_explanations": {
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre deux pays",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "Capital city of France",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "Berlin": {
+          "display_format": "**Berlin:** Capitale de l'Allemagne",
+          "explanation": "Capital city of Germany",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Londres": {
+          "display_format": "**Londres:** Capitale du Royaume-Uni",
+          "explanation": "Capital city of the UK",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** Aller",
+          "explanation": "Are going to",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**faire:** Faire",
+          "explanation": "To make or do",
+          "cultural_note": ""
+        },
+        "\"une": {
+          "display_format": "\"\"une:** Une",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "offre": {
+          "display_format": "**offre:** Proposition",
+          "explanation": "Offer or proposal",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "négociation": {
+          "display_format": "**négociation:** Négociation",
+          "explanation": "Negotiation",
+          "cultural_note": ""
+        },
+        "complète\"": {
+          "display_format": "**complète\":** Complète",
+          "explanation": "Complete",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "Iraniens": {
+          "display_format": "**Iraniens:** Habitants de l'Iran",
+          "explanation": "People of Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
