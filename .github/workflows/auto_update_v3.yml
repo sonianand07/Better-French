@@ -14,7 +14,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      BF_PER_RUN_CAP: 5
+      BF_PER_RUN_CAP: 10
       BF_DAILY_CAP: 9999
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 

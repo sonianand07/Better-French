@@ -15,6 +15,7 @@ from ai_engine_v3.models import Article
 ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root
 RAW_DIR = ROOT / "data" / "raw_archive"
 STATE_FILE = ROOT / "ai_engine_v3" / "data" / "state.json"
+OVERFLOW_FILE = ROOT / "ai_engine_v3" / "data" / "live" / "overflow.json"
 STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -39,7 +40,7 @@ else:
     except ValueError:
         DAILY_CAP = 999_999  # fallback – treat as unlimited
 
-MIN_RULE_SCORE = float(os.getenv("BF_MIN_RULE_SCORE", "14"))
+MIN_RULE_SCORE = float(os.getenv("BF_MIN_RULE_SCORE", "12"))
 
 # ----------------------------------------------------- state helpers
 
@@ -110,22 +111,57 @@ def main():
 
     logger.info("%d articles remain after removing already-published links", len(fresh))
 
-    # 4. LLM relevance score -------------------------------------
-    blended = []
+    # 4. LLM relevance score  (only for fresh candidates) --------------
+    blended: list[tuple[float, Any]] = []  # (score, curator_obj)
     rel_cost_total = 0.0
-    logger.info("Scoring relevance for %d candidate articles via LLM …", len(fresh))
+    if fresh:
+        logger.info("Scoring relevance for %d candidate articles via LLM …", len(fresh))
 
     for idx, art in enumerate(fresh, 1):
-        # Give the operator a clear, human-friendly progress line.
         if len(fresh) <= 40 or idx % 10 == 1:
             logger.info("  [LLM] %3d/%d · %s", idx, len(fresh), art.original_data.get("title", "")[:80])
 
         rel, usd = llm_score(art.original_data.get("title", ""))
         rel_cost_total += usd
         blended_score = 0.6 * art.total_score + 0.4 * rel
+        # attach for downstream use
+        art.original_data["blended_score"] = blended_score
+        art.original_data["queued_at"] = datetime.datetime.utcnow().isoformat()
         blended.append((blended_score, art))
 
     blended.sort(key=lambda x: x[0], reverse=True)
+
+    # ------------------------------------------------------------------
+    # 5. Load overflow queue -------------------------------------------
+    # ------------------------------------------------------------------
+    carry_over: list[tuple[float, dict]] = []
+    if OVERFLOW_FILE.exists():
+        try:
+            overflow_payload = json.loads(OVERFLOW_FILE.read_text())
+            for item in overflow_payload:
+                score = item.get("score", 0)
+                data = item.get("article") or {}
+                ts = item.get("queued_at") or item.get("saved_at")
+                # expire after 24h
+                if ts:
+                    try:
+                        age_h = (datetime.datetime.utcnow() - datetime.datetime.fromisoformat(ts)).total_seconds() / 3600.0
+                        if age_h > 24:
+                            continue
+                    except Exception:
+                        pass
+                # skip if already on site
+                if data.get("link") in existing_links:
+                    continue
+                carry_over.append((score, data))
+        except Exception as e:
+            logger.warning("Could not read overflow queue: %s", e)
+
+    # ------------------------------------------------------------------
+    # 6. Merge pools and choose top ------------------------------------
+    # ------------------------------------------------------------------
+    pool: list[tuple[float, Any]] = carry_over + [(sc, art.original_data) for sc, art in blended]
+    pool.sort(key=lambda x: x[0], reverse=True)
 
     PER_RUN_CAP = int(os.getenv("BF_PER_RUN_CAP", "20"))
 
@@ -136,50 +172,54 @@ def main():
         logger.info("Run skipped – cap reached (daily %d or per-run %d)", DAILY_CAP, PER_RUN_CAP)
         return
 
-    # Bucket balancing -------------------------------------------------
-    work_kw = {"tech", "énergie", "energy", "numérique", "digital", "ia", "start-up", "startup"}
+    # After bucket filtering we now have pool already; apply same bucket logic? For simplicity keep old logic on pool order.
+    selected_raw = pool[:remaining_slots]
+    leftover_raw = pool[remaining_slots:100]  # cap queue to 100
 
-    work, global_news, france_general = [], [], []
-    for _score, art in blended:
-        title_lower = art.original_data.get("title", "").lower()
-        if art.original_data.get("global_event"):
-            global_news.append(art)
-        elif any(k in title_lower for k in work_kw):
-            work.append(art)
-        else:
-            france_general.append(art)
+    selected = []
+    for score, data in selected_raw:
+        if isinstance(data, dict):
+            selected.append(data)
+        else:  # curator object
+            selected.append(data.original_data)
 
-    def take(lst, n):
-        out, rest = lst[:n], lst[n:]
-        return out, rest
-
-    need_work = min(10, remaining_slots)
-    need_global = min(10, remaining_slots - need_work)
-
-    pick_work, work = take(work, need_work)
-    pick_global, global_news = take(global_news, need_global)
-
-    remaining = remaining_slots - len(pick_work) - len(pick_global)
-    filler_pool = work + global_news + france_general
-    selected = pick_work + pick_global + filler_pool[:remaining]
-
-    logger.info("Selected %d articles for today (cap %d) – %d work, %d world, %d other",
-                len(selected), DAILY_CAP, len(pick_work), len(pick_global), len(selected)-len(pick_work)-len(pick_global))
+    # save overflow
+    try:
+        out_items = [
+            {
+                "score": sc,
+                "article": d if isinstance(d, dict) else d.original_data,
+                "queued_at": (d.get("queued_at") if isinstance(d, dict) else datetime.datetime.utcnow().isoformat()),
+            }
+            for sc, d in leftover_raw
+        ]
+        OVERFLOW_FILE.parent.mkdir(parents=True, exist_ok=True)
+        OVERFLOW_FILE.write_text(json.dumps(out_items, ensure_ascii=False, indent=2))
+    except Exception as e:
+        logger.warning("Could not write overflow queue: %s", e)
 
     # Convert curator objects to Article model expected by Processor
-    def _to_article(obj):
-        data = obj.original_data.copy()
-        # Ensure required quality_scores field exists and is proper dataclass
-        if isinstance(data.get("quality_scores"), dict):
-            qs_dict = data["quality_scores"]
+    def _to_article(data_in):
+        # data_in may be dict (from queue) or curator obj
+        if not isinstance(data_in, dict):
+            data = data_in.original_data.copy()
+            qual = getattr(data_in, "quality_score", None)
+            rel_sc = getattr(data_in, "relevance_score", None)
+            imp_sc = getattr(data_in, "importance_score", None)
+            total_sc = getattr(data_in, "total_score", None)
         else:
-            qs_dict = {
-                "quality_score": round(obj.quality_score, 3) if hasattr(obj, "quality_score") else 5.0,
-                "relevance_score": round(obj.relevance_score, 3) if hasattr(obj, "relevance_score") else 5.0,
-                "importance_score": round(obj.importance_score, 3) if hasattr(obj, "importance_score") else 5.0,
-                "total_score": round(obj.total_score, 3) if hasattr(obj, "total_score") else 15.0,
-            }
-        data["quality_scores"] = qs_dict
+            data = data_in.copy()
+            qs = data.get("quality_scores", {})
+            qual = qs.get("quality_score")
+            rel_sc = qs.get("relevance_score")
+            imp_sc = qs.get("importance_score")
+            total_sc = qs.get("total_score")
+        data["quality_scores"] = {
+            "quality_score": round(qual, 3) if qual is not None else 5.0,
+            "relevance_score": round(rel_sc, 3) if rel_sc is not None else 5.0,
+            "importance_score": round(imp_sc, 3) if imp_sc is not None else 5.0,
+            "total_score": round(total_sc, 3) if total_sc is not None else 15.0,
+        }
         # Map mandatory Article keys if missing
         if "original_article_title" not in data and data.get("title"):
             data["original_article_title"] = data.pop("title")

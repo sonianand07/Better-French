@@ -46,10 +46,19 @@ HIGH_RELEVANCE_KEYWORDS = [
     "grève", "SNCF", "RATP", "trafic", "panne",
     # Health & social security
     "sécurité sociale", "ameli", "mutuelle", "assurance maladie",
+    # --- Added June 20 2025 ---------------------------------------
+    # Civic & daily-life topics that matter to any resident of France
+    "france", "politique", "économie", "justice", "santé", "écologie",
+    # Day-to-day admin & services
+    "assurance habitation", "ram", "carte vitale", "taxe d'habitation",
+    "mutuelle étudiante", "doctolib", "carte navigo",
 ]
 
 MEDIUM_RELEVANCE_KEYWORDS = [
     "retraite", "impôts", "URSSAF", "CAF", "énergie", "inflation", "prix", "taxe foncière",
+    # --- Added June 20 2025 ---------------------------------------
+    "olympiques", "jeux olympiques", "élections", "météo", "météo-extrême",
+    "grève nationale", "canicule", "tempête", "sécheresse",
 ]
 
 CURATOR_WEIGHTS = {

@@ -57,6 +57,9 @@ class CuratorV2:
             return 9.0
         if any(kw in txt for kw in self.medium_kw):
             return 7.0
+        # France-wide catch-all so big national topics aren't missed
+        if "france" in txt or "français" in txt:
+            return 7.0
         if self.profile_kw and any(kw in txt for kw in self.profile_kw):
             return 6.0
         return 4.0
