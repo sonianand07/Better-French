@@ -9404,6 +9404,866 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Aéronautique : comment répondre aux besoins d'une industrie exigeante - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-emissions-partenaires/video-aeronautique-comment-repondre-aux-besoins-d-une-industrie-exigeante-20-06_VN-202506200802.html",
+      "original_article_published_date": "2025-06-20T22:42:43",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'industrie aéronautique a des besoins précis",
+      "simplified_english_title": "Aeronautics industry has specific needs",
+      "french_summary": "L'industrie aéronautique a des exigences élevées et cherche des solutions pour y répondre efficacement.",
+      "english_summary": "The aeronautics industry has high demands and seeks solutions to meet them effectively.",
+      "contextual_title_explanations": {
+        "Aéronautique": {
+          "display_format": "**Aéronautique:** Aviation",
+          "explanation": "Field of aerospace industry",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** manière",
+          "explanation": "How to",
+          "cultural_note": ""
+        },
+        "répondre": {
+          "display_format": "**répondre:** répondre à",
+          "explanation": "To answer or meet",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** à les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "besoins": {
+          "display_format": "**besoins:** nécessités",
+          "explanation": "Needs or requirements",
+          "cultural_note": ""
+        },
+        "d'une": {
+          "display_format": "**d'une:** de une",
+          "explanation": "Of a (feminine)",
+          "cultural_note": ""
+        },
+        "industrie": {
+          "display_format": "**industrie:** secteur industriel",
+          "explanation": "Industry or sector",
+          "cultural_note": ""
+        },
+        "exigeante": {
+          "display_format": "**exigeante:** difficile",
+          "explanation": "Demanding or exacting",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash indicating a pause",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date format: day/month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tesla va construire en Chine sa plus grande usine de batteries pour le réseau électrique",
+      "original_article_link": "https://www.ouest-france.fr/economie/entreprises/tesla/tesla-va-construire-en-chine-sa-plus-grande-usine-de-batteries-pour-le-reseau-electrique-f651655c-4e29-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T23:14:48",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tesla construit une grande usine de batteries en Chine",
+      "simplified_english_title": "Tesla builds large battery factory in China",
+      "french_summary": "Tesla va construire sa plus grande usine de batteries en Chine pour soutenir le réseau électrique.",
+      "english_summary": "Tesla will build its largest battery factory in China to support the electrical grid.",
+      "contextual_title_explanations": {
+        "Tesla": {
+          "display_format": "**Tesla:** Entreprise de voitures électriques",
+          "explanation": "American electric car company",
+          "cultural_note": "Named after inventor Nikola Tesla"
+        },
+        "va": {
+          "display_format": "**va:** Aller (futur proche)",
+          "explanation": "Is going to (near future)",
+          "cultural_note": ""
+        },
+        "construire": {
+          "display_format": "**construire:** Bâtir",
+          "explanation": "To build or construct",
+          "cultural_note": ""
+        },
+        "en Chine": {
+          "display_format": "**en Chine:** Dans ce pays",
+          "explanation": "In China",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "Its (feminine possessive)",
+          "cultural_note": ""
+        },
+        "plus grande": {
+          "display_format": "**plus grande:** Superlatif",
+          "explanation": "Biggest or largest",
+          "cultural_note": ""
+        },
+        "usine": {
+          "display_format": "**usine:** Lieu de production",
+          "explanation": "Factory or plant",
+          "cultural_note": ""
+        },
+        "de batteries": {
+          "display_format": "**de batteries:** Pour le stockage",
+          "explanation": "Of batteries (storage)",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "For the purpose of",
+          "cultural_note": ""
+        },
+        "le réseau électrique": {
+          "display_format": "**le réseau électrique:** Système de distribution",
+          "explanation": "The electrical grid",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La stratégie ambiguë du Parti populaire européen vis-à-vis de l’extrême droite",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/20/la-strategie-ambigue-du-parti-populaire-europeen-vis-a-vis-de-l-extreme-droite_6614806_823448.html",
+      "original_article_published_date": "2025-06-20T12:00:10",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Parti populaire européen et l’extrême droite",
+      "simplified_english_title": "European People's Party and the far right",
+      "french_summary": "Le Parti populaire européen a une position peu claire envers l’extrême droite, ce qui crée des débats.",
+      "english_summary": "The European People's Party has an unclear position towards the far right, causing debates.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "stratégie": {
+          "display_format": "**stratégie:** Plan d'action",
+          "explanation": "Strategy or plan",
+          "cultural_note": ""
+        },
+        "ambiguë": {
+          "display_format": "**ambiguë:** Qui a plusieurs sens",
+          "explanation": "Ambiguous, unclear",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "Parti populaire européen": {
+          "display_format": "**Parti populaire européen:** Groupe politique",
+          "explanation": "European People's Party",
+          "cultural_note": "Major European political group"
+        },
+        "vis-à-vis": {
+          "display_format": "**vis-à-vis:** Concernant",
+          "explanation": "Regarding or towards",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Article",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "l’extrême": {
+          "display_format": "**l’extrême:** Très éloigné",
+          "explanation": "Extreme",
+          "cultural_note": ""
+        },
+        "droite": {
+          "display_format": "**droite:** Opposition politique",
+          "explanation": "Right-wing",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tout pour investir - Vendredi 20 juin",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-patrimoine/video-tout-pour-investir-vendredi-20-juin_VN-202506200409.html",
+      "original_article_published_date": "2025-06-20T10:07:31",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conseils pour investir aujourd'hui",
+      "simplified_english_title": "Tips for investing today",
+      "french_summary": "Découvrez les meilleures stratégies et conseils pour investir votre argent de manière intelligente et sécurisée.",
+      "english_summary": "Discover the best strategies and tips to invest your money in a smart and secure way.",
+      "contextual_title_explanations": {
+        "Tout": {
+          "display_format": "**Tout:** complet",
+          "explanation": "Everything or all",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** afin de",
+          "explanation": "For the purpose of",
+          "cultural_note": ""
+        },
+        "investir": {
+          "display_format": "**investir:** placer de l'argent",
+          "explanation": "To invest money",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** trait d'union",
+          "explanation": "Dash or hyphen",
+          "cultural_note": ""
+        },
+        "Vendredi": {
+          "display_format": "**Vendredi:** jour de la semaine",
+          "explanation": "Friday, day of the week",
+          "cultural_note": ""
+        },
+        "20": {
+          "display_format": "**20:** vingt",
+          "explanation": "Number twenty",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**juin:** sixième mois",
+          "explanation": "June, sixth month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Présidentielle en Côte d’Ivoire : les deux principaux partis d’opposition créent un « front commun »",
+      "original_article_link": "https://www.lemonde.fr/afrique/article/2025/06/20/presidentielle-en-cote-d-ivoire-les-deux-principaux-partis-d-opposition-creent-un-front-commun_6614772_3212.html",
+      "original_article_published_date": "2025-06-20T07:54:11",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Deux partis s'unissent contre le président",
+      "simplified_english_title": "Two parties unite against the president",
+      "french_summary": "En Côte d'Ivoire, les deux principaux partis d'opposition forment une alliance pour la présidentielle.",
+      "english_summary": "In Ivory Coast, the two main opposition parties form an alliance for the presidential election.",
+      "contextual_title_explanations": {
+        "Présidentielle": {
+          "display_format": "**Présidentielle:** Élection présidentielle",
+          "explanation": "Presidential election",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Côte d’Ivoire": {
+          "display_format": "**Côte d’Ivoire:** Pays d'Afrique de l'Ouest",
+          "explanation": "Country in West Africa",
+          "cultural_note": "Also known as Ivory Coast"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**deux:** Nombre",
+          "explanation": "Two",
+          "cultural_note": ""
+        },
+        "principaux": {
+          "display_format": "**principaux:** Principaux",
+          "explanation": "Main",
+          "cultural_note": ""
+        },
+        "partis": {
+          "display_format": "**partis:** Groupes politiques",
+          "explanation": "Political parties",
+          "cultural_note": ""
+        },
+        "d’opposition": {
+          "display_format": "**d’opposition:** Contre le gouvernement",
+          "explanation": "Opposition",
+          "cultural_note": ""
+        },
+        "créent": {
+          "display_format": "**créent:** Former",
+          "explanation": "Create",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "front": {
+          "display_format": "**front:** Coalition",
+          "explanation": "Front",
+          "cultural_note": ""
+        },
+        "commun": {
+          "display_format": "**commun:** Unis",
+          "explanation": "Common",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Une grande victoire\": la justice autorise le déploiement de la Garde nationale à Los Angeles par Donald Trump",
+      "original_article_link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/une-grande-victoire-la-justice-autorise-le-deploiement-de-la-garde-nationale-a-los-angeles-par-donald-trump_AD-202506200208.html",
+      "original_article_published_date": "2025-06-20T06:28:44",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La justice permet la Garde nationale à Los Angeles",
+      "simplified_english_title": "Court allows National Guard in Los Angeles",
+      "french_summary": "Donald Trump peut déployer la Garde nationale à Los Angeles après une décision de justice favorable.",
+      "english_summary": "Donald Trump can deploy the National Guard in Los Angeles after a court decision in his favor.",
+      "contextual_title_explanations": {
+        "\"Une": {
+          "display_format": "\"Une: Une",
+          "explanation": "Indefinite article, feminine singular",
+          "cultural_note": ""
+        },
+        "grande": {
+          "display_format": "grande: Grande",
+          "explanation": "Big, large",
+          "cultural_note": ""
+        },
+        "victoire\"": {
+          "display_format": "victoire\": Victoire",
+          "explanation": "Victory",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": ": Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "la: La",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "justice": {
+          "display_format": "justice: Justice",
+          "explanation": "Justice system",
+          "cultural_note": ""
+        },
+        "autorise": {
+          "display_format": "autorise: Autoriser",
+          "explanation": "To authorize",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "le: Le",
+          "explanation": "Definite article, masculine singular",
+          "cultural_note": ""
+        },
+        "déploiement": {
+          "display_format": "déploiement: Déploiement",
+          "explanation": "Deployment",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "de: De",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "Garde nationale": {
+          "display_format": "Garde nationale: Garde nationale",
+          "explanation": "National Guard",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "à: À",
+          "explanation": "To, at",
+          "cultural_note": ""
+        },
+        "Los Angeles": {
+          "display_format": "Los Angeles: Los Angeles",
+          "explanation": "City in California",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "par: Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "Donald Trump": {
+          "display_format": "Donald Trump: Donald Trump",
+          "explanation": "Former US President",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Moratoire sur l’éolien et le solaire : le \"sentiment d’un énorme gâchis\", se désole le président du Syndicat des énergies renouvelables",
+      "original_article_link": "https://www.franceinfo.fr/environnement/energie/moratoire-sur-l-eolien-et-le-solaire-le-sentiment-d-un-enorme-gachis-se-desole-le-president-du-syndicat-des-energies-renouvelables_7326342.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T11:52:04",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pause sur l'éolien et le solaire : un gâchis",
+      "simplified_english_title": "Pause on wind and solar: a waste",
+      "french_summary": "Le président du Syndicat des énergies renouvelables est triste à cause du moratoire sur l'éolien et le solaire.",
+      "english_summary": "The president of the Renewable Energy Union is sad about the pause on wind and solar energy.",
+      "contextual_title_explanations": {
+        "Moratoire": {
+          "display_format": "**Moratoire:** Pause temporaire",
+          "explanation": "Temporary suspension or delay",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** au sujet de",
+          "explanation": "About or concerning",
+          "cultural_note": ""
+        },
+        "l’éolien": {
+          "display_format": "**l’éolien:** Énergie du vent",
+          "explanation": "Wind energy",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** également",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "le solaire": {
+          "display_format": "**le solaire:** Énergie du soleil",
+          "explanation": "Solar energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "\"sentiment d’un énorme gâchis\"": {
+          "display_format": "\"sentiment d’un énorme gâchis\": **Sentiment:** sensation",
+          "explanation": "Feeling of a huge waste",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "se désole": {
+          "display_format": "**se désole:** être triste",
+          "explanation": "Is distressed or saddened",
+          "cultural_note": ""
+        },
+        "le président": {
+          "display_format": "**le président:** chef",
+          "explanation": "The president or head",
+          "cultural_note": ""
+        },
+        "du Syndicat des énergies renouvelables": {
+          "display_format": "**du Syndicat des énergies renouvelables:** Organisation des énergies vertes",
+          "explanation": "Of the Renewable Energy Union",
+          "cultural_note": "A major French renewable energy industry group"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Roumanie, le pro-européen Ilie Bolojan nommé premier ministre",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/20/en-roumanie-le-pro-europeen-ilie-bolojan-nomme-premier-ministre_6614815_3210.html",
+      "original_article_published_date": "2025-06-20T13:29:00",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouveau premier ministre en Roumanie",
+      "simplified_english_title": "Romania gets new prime minister",
+      "french_summary": "Ilie Bolojan, un homme politique pro-européen, est devenu le nouveau premier ministre de la Roumanie.",
+      "english_summary": "Ilie Bolojan, a pro-European politician, has become Romania's new prime minister.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Dans",
+          "explanation": "In (location)",
+          "cultural_note": ""
+        },
+        "Roumanie": {
+          "display_format": "**Roumanie:** Pays d'Europe",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma (separation)",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "pro-européen": {
+          "display_format": "**pro-européen:** En faveur de l'Europe",
+          "explanation": "Pro-European (supporting EU)",
+          "cultural_note": ""
+        },
+        "Ilie Bolojan": {
+          "display_format": "**Ilie Bolojan:** Nom d'une personne",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "nommé": {
+          "display_format": "**nommé:** Désigné",
+          "explanation": "Appointed (chosen for a role)",
+          "cultural_note": ""
+        },
+        "premier ministre": {
+          "display_format": "**premier ministre:** Chef du gouvernement",
+          "explanation": "Prime minister (head of government)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'État français va devenir le premier actionnaire d'Eutelsat, l'opérateur de satellites européen",
+      "original_article_link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/l-etat-francais-va-devenir-le-premier-actionnaire-d-eutelsat-l-operateur-de-satellites-europeen_7295154.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T06:56:33",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France devient actionnaire principal d'Eutelsat",
+      "simplified_english_title": "France becomes main shareholder of Eutelsat",
+      "french_summary": "Le gouvernement français va devenir le plus grand actionnaire d'Eutelsat, une entreprise européenne de satellites.",
+      "english_summary": "The French government will become the largest shareholder of Eutelsat, a European satellite company.",
+      "contextual_title_explanations": {
+        "L'État français": {
+          "display_format": "**L'État français:** État de France",
+          "explanation": "The French state or government",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**va:** aller au présent",
+          "explanation": "Verb indicating future action",
+          "cultural_note": ""
+        },
+        "devenir": {
+          "display_format": "**devenir:** devenir quelque chose",
+          "explanation": "To become",
+          "cultural_note": ""
+        },
+        "le premier actionnaire": {
+          "display_format": "**le premier actionnaire:** principal propriétaire",
+          "explanation": "The main shareholder",
+          "cultural_note": ""
+        },
+        "d'Eutelsat": {
+          "display_format": "**d'Eutelsat:** de cette entreprise",
+          "explanation": "Of Eutelsat, a satellite company",
+          "cultural_note": ""
+        },
+        "l'opérateur": {
+          "display_format": "**l'opérateur:** gestionnaire de service",
+          "explanation": "The operator",
+          "cultural_note": ""
+        },
+        "de satellites": {
+          "display_format": "**de satellites:** des satellites",
+          "explanation": "Of satellites",
+          "cultural_note": ""
+        },
+        "européen": {
+          "display_format": "**européen:** relatif à l'Europe",
+          "explanation": "European",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire: le groupe français Orano dénonce la \"nationalisation\" de sa filiale Somaïr au Niger",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/nucleaire-le-groupe-francais-orano-denonce-la-nationalisation-de-sa-filiale-somair-au-niger_AD-202506200667.html",
+      "original_article_published_date": "2025-06-20T17:01:41",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Orano critique la nationalisation de sa filiale au Niger",
+      "simplified_english_title": "Orano criticizes Niger's nationalization move",
+      "french_summary": "Le groupe français Orano exprime son mécontentement face à la nationalisation de sa filiale Somaïr par le gouvernement du Niger.",
+      "english_summary": "The French group Orano expresses discontent over the nationalization of its subsidiary Somaïr by the Niger government.",
+      "contextual_title_explanations": {
+        "Nucléaire": {
+          "display_format": "**Nucléaire:** Relatif à l'énergie atomique",
+          "explanation": "Concerning nuclear energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "groupe": {
+          "display_format": "**groupe:** Ensemble d'entreprises",
+          "explanation": "Group of companies",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De France",
+          "explanation": "French, from France",
+          "cultural_note": ""
+        },
+        "Orano": {
+          "display_format": "**Orano:** Entreprise nucléaire",
+          "explanation": "French nuclear energy company",
+          "cultural_note": "Formerly known as Areva"
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** Critique publiquement",
+          "explanation": "Publicly criticizes",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "\"nationalisation\"": {
+          "display_format": "**\"nationalisation\":** Prise de contrôle par l'État",
+          "explanation": "State takeover",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "Its, possessive",
+          "cultural_note": ""
+        },
+        "filiale": {
+          "display_format": "**filiale:** Société contrôlée",
+          "explanation": "Subsidiary company",
+          "cultural_note": ""
+        },
+        "Somaïr": {
+          "display_format": "**Somaïr:** Société minière",
+          "explanation": "Mining company in Niger",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the, in the",
+          "cultural_note": ""
+        },
+        "Niger": {
+          "display_format": "**Niger:** Pays africain",
+          "explanation": "African country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
