@@ -26,7 +26,7 @@ jobs:
 
       - name: Start local server
         run: |
-          python -m http.server 8010 --directory Project-Better-French-Website &
+          python -m http.server 8010 --directory ai_engine_v3/website &
           echo "Server started in background"
 
       - name: Wait for server

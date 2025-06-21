@@ -1,0 +1,49 @@
+name: v3-ci
+
+on:
+  push:
+    branches: [ ai-engine-v3-main, ai-pipeline-audit ]
+  pull_request:
+    branches: [ ai-engine-v3-main, ai-pipeline-audit ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    env:
+      PYTHONPATH: "${{ github.workspace }}"
+
+    strategy:
+      matrix:
+        python-version: [ '3.11' ]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e ./ai_engine_v3
+
+      - name: Lint (ruff)
+        run: |
+          pip install ruff
+          ruff check ai_engine_v3 || true  # warnings only for now
+
+      - name: Run unit tests
+        run: |
+          pip install pytest
+          pytest --ignore=tests/ai_engine_v2
+
+      - name: Smoke-run v3 pipeline (fast mode)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY || 'dummy' }}
+        run: |
+          BF_MIN_RULE_SCORE=14 BF_DAILY_CAP=2 \
+          PYTHONPATH=. python ai_engine_v3/scripts/qualify_news.py || true  # allow to fail if API key dummy 

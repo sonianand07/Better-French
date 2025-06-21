@@ -8,7 +8,7 @@ python-dateutil>=2.8.2       # Date parsing and manipulation
 # Data processing (inherited from manual system)
 feedparser>=6.0.10           # RSS feed parsing
 requests>=2.31.0             # HTTP requests
-openai>=1.0.0               # AI processing (OpenRouter compatible)
+# openai>=1.0.0               # OPTIONAL: legacy engine only; ai_engine_v2 uses raw HTTP via requests
 
 # Website and JSON handling
 beautifulsoup4>=4.12.0       # HTML parsing (if needed)
@@ -49,4 +49,11 @@ httpx>=0.28.0
 
 spaCy>=3.7.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0-py3-none-any.whl 
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0-py3-none-any.whl
+
+Jinja2>=3.0.0
+
+langdetect>=1.0.9
+
+# Data models
+pydantic>=2.7.0              # Used throughout ai_engine_v2 for schema validation

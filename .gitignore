@@ -54,4 +54,7 @@ data/scraped_data/*.json
 Research Resources & Business Plan/
 
 # End of file
-+.env.local 
++.env.local
+
+# Ignore v3 raw archive
+ai_engine_v3/data/raw_archive/ 

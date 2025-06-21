@@ -4,8 +4,9 @@ API Configuration for Better French Max - Automated System
 Contains API keys and external service configurations
 """
 
-import os
-import sys
+import os, sys
+from pathlib import Path
+from configparser import ConfigParser
 
 # ⚠️ SECURITY NOTE: This file contains sensitive API keys
 # - Never commit this file to public repositories
@@ -13,11 +14,29 @@ import sys
 # - Consider using environment variables in production
 
 # 🔑 OPENROUTER API CONFIGURATION
-# Load API key from environment variable if available, otherwise use the hardcoded key for demo purposes
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+# Priority
+#   1. Explicit environment variable (OPENROUTER_API_KEY)
+#   2. `config/config.ini` file under section [secrets] -> OPENROUTER_API_KEY
+#      (the file is expected to be git-ignored so the key stays local)
+# ---------------------------------------------------------------------------
 
-if OPENROUTER_API_KEY == "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":
-    print("⚠️ WARNING: Using hardcoded demo API key. For production, please set the OPENROUTER_API_KEY environment variable.")
+# 1. Try environment variable first (works well in CI / prod containers)
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+# 2. Fallback: attempt to read from optional config.ini so that local helpers
+#    work even if the user hasn't exported the variable in their shell.
+if not OPENROUTER_API_KEY:
+    cfg_path = Path(__file__).resolve().parent / "config.ini"
+    if cfg_path.exists():
+        parser = ConfigParser()
+        parser.read(cfg_path)
+        OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback=None)
+
+# 3. Final guard
+if not OPENROUTER_API_KEY:
+    raise RuntimeError(
+        "OPENROUTER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_API_KEY=sk-..."
+    )
 
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 

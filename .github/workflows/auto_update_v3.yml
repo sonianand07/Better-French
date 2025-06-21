@@ -1,0 +1,48 @@
+name: Auto Update French News – v3
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+  workflow_dispatch:
+
+# Allow this workflow to push commits back to the repository.
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      BF_PER_RUN_CAP: 10
+      BF_DAILY_CAP: 9999
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e ./ai_engine_v3
+
+      - name: Run pipeline
+        run: |
+          python -m ai_engine_v3.scripts.fetch_news
+          python -m ai_engine_v3.scripts.qualify_news
+
+      - name: Commit & push results
+        run: |
+          git config --global user.email "bot@betterfrench.io"
+          git config --global user.name "BetterFrenchBot"
+          git config --global core.hooksPath .githooks
+          git add ai_engine_v3/data ai_engine_v3/website || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(pipeline): hourly auto-update"
+            git push
+          fi 
