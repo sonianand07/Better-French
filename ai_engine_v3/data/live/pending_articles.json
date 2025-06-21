@@ -26739,6 +26739,936 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: 13 départements maintenus en vigilance orange",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/canicule-13-departements-places-en-vigilance-orange_AN-202506210319.html",
+      "original_article_published_date": "2025-06-21T20:34:40",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud dans 13 départements",
+      "simplified_english_title": "Heatwave continues in 13 departments",
+      "french_summary": "Treize départements restent en vigilance orange à cause de la canicule qui continue en France.",
+      "english_summary": "Thirteen departments remain on orange alert due to the ongoing heatwave in France.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "13": {
+          "display_format": "**13:** Treize",
+          "explanation": "Number thirteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions administratives",
+          "explanation": "French administrative regions",
+          "cultural_note": "Similar to counties"
+        },
+        "maintenus": {
+          "display_format": "**maintenus:** Gardés",
+          "explanation": "Kept, maintained",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, indicates state",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** Surveillance",
+          "explanation": "Vigilance, watchfulness",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Second-highest alert level",
+          "cultural_note": "Color-coded alert system"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Stade toulousain-Aviron bayonnais : revivez la qualification des Toulousains en finale du Top 14, après avoir résisté aux Bayonnais",
+      "original_article_link": "https://www.lemonde.fr/sport/live/2025/06/20/en-direct-stade-toulousain-aviron-bayonnais-suivez-la-demi-finale-du-top-14_6614853_3242.html",
+      "original_article_published_date": "2025-06-20T17:05:07",
+      "source_name": "Le Monde Sport",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Toulouse en finale du Top 14",
+      "simplified_english_title": "Toulouse reaches Top 14 final",
+      "french_summary": "Le Stade Toulousain a gagné contre Bayonne et va jouer en finale du Top 14.",
+      "english_summary": "Stade Toulousain won against Bayonne and will play in the Top 14 final.",
+      "contextual_title_explanations": {
+        "Stade toulousain": {
+          "display_format": "**Stade toulousain:** Club de rugby",
+          "explanation": "Rugby team from Toulouse",
+          "cultural_note": "One of the most successful French rugby clubs"
+        },
+        "-": {
+          "display_format": "-: Tiret",
+          "explanation": "Dash indicating opposition",
+          "cultural_note": ""
+        },
+        "Aviron bayonnais": {
+          "display_format": "**Aviron bayonnais:** Club de rugby",
+          "explanation": "Rugby team from Bayonne",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "revivez": {
+          "display_format": "**revivez:** Revivez",
+          "explanation": "Relive or experience again",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "qualification": {
+          "display_format": "**qualification:** Qualification",
+          "explanation": "Advancement to next stage",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini",
+          "explanation": "Definite article 'the' (plural)",
+          "cultural_note": ""
+        },
+        "Toulousains": {
+          "display_format": "**Toulousains:** Habitants de Toulouse",
+          "explanation": "People from Toulouse",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition 'in' or 'to'",
+          "cultural_note": ""
+        },
+        "finale": {
+          "display_format": "**finale:** Finale",
+          "explanation": "Final match",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article défini",
+          "explanation": "Definite article 'of the'",
+          "cultural_note": ""
+        },
+        "Top 14": {
+          "display_format": "**Top 14:** Championnat de rugby",
+          "explanation": "French rugby championship",
+          "cultural_note": "Top tier of French rugby union"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Après",
+          "explanation": "After or following",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Avoir",
+          "explanation": "To have (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "résisté": {
+          "display_format": "**résisté:** Résister",
+          "explanation": "Resisted or held out",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** Article défini",
+          "explanation": "Definite article 'to the'",
+          "cultural_note": ""
+        },
+        "Bayonnais": {
+          "display_format": "**Bayonnais:** Habitants de Bayonne",
+          "explanation": "People from Bayonne",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique : une playlist des pompiers pour «sauver des vies»",
+      "original_article_link": "https://www.europe1.fr/societe/fete-de-la-musique-une-playlist-des-pompiers-pour-sauver-des-vies-760448",
+      "original_article_published_date": "2025-06-21T14:27:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les pompiers créent une playlist pour la Fête de la Musique",
+      "simplified_english_title": "Firefighters create a playlist for Music Day",
+      "french_summary": "Pour la Fête de la Musique, les pompiers ont fait une playlist pour sensibiliser et sauver des vies.",
+      "english_summary": "For Music Day, firefighters made a playlist to raise awareness and save lives.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Annual music festival",
+          "cultural_note": "Held on June 21st"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Une",
+          "explanation": "Indefinite article, singular feminine",
+          "cultural_note": ""
+        },
+        "playlist": {
+          "display_format": "**playlist:** Liste de lecture",
+          "explanation": "List of music tracks",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Des",
+          "explanation": "Plural indefinite article",
+          "cultural_note": ""
+        },
+        "pompiers": {
+          "display_format": "**pompiers:** Sapeurs-pompiers",
+          "explanation": "Firefighters",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For the purpose of",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "sauver": {
+          "display_format": "**sauver:** Sauver",
+          "explanation": "To save",
+          "cultural_note": ""
+        },
+        "vies": {
+          "display_format": "**vies:** Vies",
+          "explanation": "Lives",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Il fera encore très chaud ce samedi avec du soleil partout en France",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/video-il-fera-encore-tres-chaud-ce-samedi-avec-du-soleil-partout-en-france_VN-202506210061.html",
+      "original_article_published_date": "2025-06-21T05:06:16",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Samedi chaud et ensoleillé en France",
+      "simplified_english_title": "Hot and sunny Saturday in France",
+      "french_summary": "Ce samedi sera très chaud avec du soleil dans toute la France. Les températures resteront élevées.",
+      "english_summary": "This Saturday will be very hot with sunshine all over France. Temperatures will remain high.",
+      "contextual_title_explanations": {
+        "Il": {
+          "display_format": "**Il:** Pronom personnel",
+          "explanation": "Personal pronoun meaning 'he' or 'it'",
+          "cultural_note": ""
+        },
+        "fera": {
+          "display_format": "**fera:** Futur de faire",
+          "explanation": "Future tense of 'to make' or 'to do'",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**encore:** Encore",
+          "explanation": "Adverb meaning 'still' or 'again'",
+          "cultural_note": ""
+        },
+        "très": {
+          "display_format": "**très:** Très",
+          "explanation": "Adverb meaning 'very'",
+          "cultural_note": ""
+        },
+        "chaud": {
+          "display_format": "**chaud:** Chaud",
+          "explanation": "Adjective meaning 'hot'",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce",
+          "explanation": "Demonstrative adjective meaning 'this'",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Samedi",
+          "explanation": "Noun meaning 'Saturday'",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Avec",
+          "explanation": "Preposition meaning 'with'",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Du",
+          "explanation": "Partitive article meaning 'some'",
+          "cultural_note": ""
+        },
+        "soleil": {
+          "display_format": "**soleil:** Soleil",
+          "explanation": "Noun meaning 'sun'",
+          "cultural_note": ""
+        },
+        "partout": {
+          "display_format": "**partout:** Partout",
+          "explanation": "Adverb meaning 'everywhere'",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** En",
+          "explanation": "Preposition meaning 'in'",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** France",
+          "explanation": "Noun meaning 'France'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rugby : la France renverse l'Angleterre en fin de match dans un Crunch amical pour préparer la tournée d'été",
+      "original_article_link": "https://www.franceinfo.fr/sports/rugby/xv-de-france/rugby-la-france-renverse-l-angleterre-en-fin-de-match-dans-un-crunch-amical-pour-preparer-la-tournee-d-ete_7328760.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T16:41:20",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France bat l'Angleterre au rugby",
+      "simplified_english_title": "France beats England in rugby",
+      "french_summary": "L'équipe de France a gagné contre l'Angleterre à la fin du match amical pour préparer la tournée d'été.",
+      "english_summary": "The French team won against England at the end of the friendly match to prepare for the summer tour.",
+      "contextual_title_explanations": {
+        "Rugby": {
+          "display_format": "**Rugby:** Sport collectif",
+          "explanation": "Team sport with an oval ball",
+          "cultural_note": "Popular in France and England"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a title or explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "European country, the French team",
+          "cultural_note": ""
+        },
+        "renverse": {
+          "display_format": "**renverse:** Bat à la fin",
+          "explanation": "Defeats at the end",
+          "cultural_note": ""
+        },
+        "l'Angleterre": {
+          "display_format": "**l'Angleterre:** Pays européen",
+          "explanation": "European country, the English team",
+          "cultural_note": ""
+        },
+        "en fin de match": {
+          "display_format": "**en fin de match:** À la fin",
+          "explanation": "At the end of the game",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "Inside or within",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "Crunch": {
+          "display_format": "**Crunch:** Match intense",
+          "explanation": "Intense match, often used for France vs England",
+          "cultural_note": "Specific to rugby matches between France and England"
+        },
+        "amical": {
+          "display_format": "**amical:** Match non officiel",
+          "explanation": "Friendly, non-competitive match",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "préparer": {
+          "display_format": "**préparer:** Se préparer",
+          "explanation": "To prepare",
+          "cultural_note": ""
+        },
+        "la tournée d'été": {
+          "display_format": "**la tournée d'été:** Série de matchs",
+          "explanation": "Series of matches in summer",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Qui est Marine Rosset, la nouvelle présidente des Scouts et guides de France qui dérange ?",
+      "original_article_link": "https://www.lepoint.fr/societe/qui-est-marine-rosset-la-nouvelle-presidente-des-scouts-et-guides-de-france-qui-derange-21-06-2025-2592581_23.php",
+      "original_article_published_date": "2025-06-21T14:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Marine Rosset, nouvelle présidente des Scouts de France",
+      "simplified_english_title": "Marine Rosset, new president of Scouts of France",
+      "french_summary": "Marine Rosset est la nouvelle présidente des Scouts et Guides de France. Sa nomination provoque des discussions.",
+      "english_summary": "Marine Rosset is the new president of the Scouts and Guides of France. Her appointment is causing discussions.",
+      "contextual_title_explanations": {
+        "Qui": {
+          "display_format": "**Qui:** Qui",
+          "explanation": "Who",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** être",
+          "explanation": "Is",
+          "cultural_note": ""
+        },
+        "Marine Rosset": {
+          "display_format": "**Marine Rosset:** Nom propre",
+          "explanation": "Full name of the person",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** Nouvelle",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "présidente": {
+          "display_format": "**présidente:** Présidente",
+          "explanation": "President (female)",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini pluriel",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "Scouts et guides de France": {
+          "display_format": "**Scouts et guides de France:** Organisation de jeunesse",
+          "explanation": "French scouting organization",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Qui",
+          "explanation": "Who",
+          "cultural_note": ""
+        },
+        "dérange": {
+          "display_format": "**dérange:** Déranger",
+          "explanation": "Disturbs or bothers",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les replays du week-end : mystère sous-marin, secret algérien, relations toxiques…",
+      "original_article_link": "https://www.lemonde.fr/culture/article/2025/06/21/les-replays-du-week-end-mystere-sous-marin-secret-algerien-relations-toxiques_6614973_3246.html",
+      "original_article_published_date": "2025-06-21T03:00:16",
+      "source_name": "Le Monde Culture",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Événements du week-end à revoir",
+      "simplified_english_title": "Weekend events to rewatch",
+      "french_summary": "Découvrez les rediffusions du week-end avec des histoires sur un mystère sous-marin, un secret algérien et des relations toxiques.",
+      "english_summary": "Watch the weekend reruns featuring stories about an underwater mystery, an Algerian secret, and toxic relationships.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "replays": {
+          "display_format": "**replays:** Rediffusions",
+          "explanation": "Rebroadcasts or replays",
+          "cultural_note": "Commonly used in media contexts"
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "week-end": {
+          "display_format": "**week-end:** Fin de semaine",
+          "explanation": "Weekend",
+          "cultural_note": "Used as in English"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing list",
+          "cultural_note": ""
+        },
+        "mystère": {
+          "display_format": "**mystère:** Secret",
+          "explanation": "Mystery",
+          "cultural_note": ""
+        },
+        "sous-marin": {
+          "display_format": "**sous-marin:** Sous l'eau",
+          "explanation": "Underwater",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "secret": {
+          "display_format": "**secret:** Caché",
+          "explanation": "Secret",
+          "cultural_note": ""
+        },
+        "algérien": {
+          "display_format": "**algérien:** Relatif à l'Algérie",
+          "explanation": "Algerian",
+          "cultural_note": ""
+        },
+        "relations": {
+          "display_format": "**relations:** Liens",
+          "explanation": "Relationships",
+          "cultural_note": ""
+        },
+        "toxiques": {
+          "display_format": "**toxiques:** Nocifs",
+          "explanation": "Toxic",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Ellipsis indicating continuation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La chaîne franceinfo interrompue pendant plusieurs heures en raison d'une panne de la climatisation à France Télévisions",
+      "original_article_link": "https://www.franceinfo.fr/economie/medias/la-chaine-franceinfo-dans-l-incapacite-de-reprendre-des-programmes-en-direct-en-raison-d-une-panne-de-la-climatisation-a-france-televisions_7328271.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T08:15:05",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Franceinfo arrêtée à cause d'une panne",
+      "simplified_english_title": "Franceinfo halted due to technical issue",
+      "french_summary": "La chaîne franceinfo a arrêté de diffuser pendant plusieurs heures à cause d'un problème de climatisation.",
+      "english_summary": "The franceinfo channel stopped broadcasting for several hours due to an air conditioning issue.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "chaîne": {
+          "display_format": "**chaîne:** Chaîne de télévision",
+          "explanation": "TV channel",
+          "cultural_note": ""
+        },
+        "franceinfo": {
+          "display_format": "**franceinfo:** Nom de la chaîne",
+          "explanation": "Name of the news channel",
+          "cultural_note": "A French news channel"
+        },
+        "interrompue": {
+          "display_format": "**interrompue:** Arrêtée",
+          "explanation": "Interrupted",
+          "cultural_note": ""
+        },
+        "pendant": {
+          "display_format": "**pendant:** Pour une durée",
+          "explanation": "For a duration of",
+          "cultural_note": ""
+        },
+        "plusieurs": {
+          "display_format": "**plusieurs:** Plusieurs",
+          "explanation": "Several",
+          "cultural_note": ""
+        },
+        "heures": {
+          "display_format": "**heures:** Heures",
+          "explanation": "Hours",
+          "cultural_note": ""
+        },
+        "en raison d'": {
+          "display_format": "**en raison d':** À cause de",
+          "explanation": "Due to",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A/An (feminine singular)",
+          "cultural_note": ""
+        },
+        "panne": {
+          "display_format": "**panne:** Défaillance",
+          "explanation": "Breakdown",
+          "cultural_note": ""
+        },
+        "de la": {
+          "display_format": "**de la:** Article défini",
+          "explanation": "Of the (feminine singular)",
+          "cultural_note": ""
+        },
+        "climatisation": {
+          "display_format": "**climatisation:** Système de climatisation",
+          "explanation": "Air conditioning",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At",
+          "cultural_note": ""
+        },
+        "France Télévisions": {
+          "display_format": "**France Télévisions:** Groupe audiovisuel public",
+          "explanation": "French public broadcasting group",
+          "cultural_note": "Major French public television group"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : le jour le plus chaud - 21/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/week-end-3-d/video-canicule-le-jour-le-plus-chaud-21-06_VN-202506210267.html",
+      "original_article_published_date": "2025-06-21T16:21:04",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud aujourd'hui",
+      "simplified_english_title": "It is very hot today",
+      "french_summary": "Le 21 juin est le jour le plus chaud de l'année à cause de la canicule.",
+      "english_summary": "June 21st is the hottest day of the year because of the heatwave.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extremely hot period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le jour le plus chaud": {
+          "display_format": "**le jour le plus chaud:** La journée la plus chaude",
+          "explanation": "The hottest day",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating date",
+          "cultural_note": ""
+        },
+        "21/06": {
+          "display_format": "**21/06:** Vingt et un juin",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rugby, Angleterre XV-France A : revivez le succès inespéré des Bleus à Twickenham",
+      "original_article_link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/en-direct-rugby-france-angleterre-sans-leurs-cadres-les-bleus-debutent-un-ete-studieux-20250621",
+      "original_article_published_date": "2025-06-21T16:16:40",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France gagne contre l'Angleterre en rugby",
+      "simplified_english_title": "France wins against England in rugby",
+      "french_summary": "L'équipe de France a remporté une victoire surprise contre l'Angleterre à Twickenham. C'était un match important pour les Bleus.",
+      "english_summary": "The French team achieved an unexpected victory against England at Twickenham. It was an important match for the French.",
+      "contextual_title_explanations": {
+        "Rugby": {
+          "display_format": "**Rugby:** Sport d'équipe",
+          "explanation": "Team sport with an oval ball",
+          "cultural_note": "Popular sport in France"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "Angleterre": {
+          "display_format": "**Angleterre:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": "Part of the United Kingdom"
+        },
+        "XV": {
+          "display_format": "**XV:** Quinze",
+          "explanation": "Fifteen, representing the team",
+          "cultural_note": "Common in rugby team names"
+        },
+        "-": {
+          "display_format": "-",
+          "explanation": "Hyphen connecting teams",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": ""
+        },
+        "A": {
+          "display_format": "**A:** Équipe secondaire",
+          "explanation": "Secondary team designation",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "revivez": {
+          "display_format": "**revivez:** Revivez l'action",
+          "explanation": "Relive the action",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "succès": {
+          "display_format": "**succès:** Victoire",
+          "explanation": "Success or victory",
+          "cultural_note": ""
+        },
+        "inespéré": {
+          "display_format": "**inespéré:** Non attendu",
+          "explanation": "Unexpected or hoped for",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "Bleus": {
+          "display_format": "**Bleus:** Équipe de France",
+          "explanation": "Nickname for France's team",
+          "cultural_note": "Refers to the team's blue jerseys"
+        },
+        "à": {
+          "display_format": "**à:** À la place",
+          "explanation": "At or in the place",
+          "cultural_note": ""
+        },
+        "Twickenham": {
+          "display_format": "**Twickenham:** Stade anglais",
+          "explanation": "English rugby stadium",
+          "cultural_note": "Famous rugby venue in England"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T20:53:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
