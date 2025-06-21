@@ -3,6 +3,561 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Téhéran, Fordo, Bouchehr… Les principales installations nucléaires iraniennes",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/21/teheran-fordo-bouchehr-les-principales-installations-nucleaires-iraniennes_6615048_3210.html",
+      "original_article_published_date": "2025-06-21T04:15:03",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les sites nucléaires importants en Iran",
+      "simplified_english_title": "Important nuclear sites in Iran",
+      "french_summary": "L'Iran a plusieurs installations nucléaires importantes comme Téhéran, Fordo et Bouchehr. Ces sites sont cruciaux pour leur programme nucléaire.",
+      "english_summary": "Iran has several important nuclear facilities like Tehran, Fordo, and Bouchehr. These sites are crucial for their nuclear program.",
+      "contextual_title_explanations": {
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating list items",
+          "cultural_note": ""
+        },
+        "Fordo": {
+          "display_format": "**Fordo:** Site nucléaire",
+          "explanation": "Nuclear site in Iran",
+          "cultural_note": ""
+        },
+        "Bouchehr": {
+          "display_format": "**Bouchehr:** Ville portuaire",
+          "explanation": "Port city in Iran",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Indicates incomplete list",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "principales": {
+          "display_format": "**principales:** Principaux",
+          "explanation": "Main or primary",
+          "cultural_note": ""
+        },
+        "installations": {
+          "display_format": "**installations:** Sites",
+          "explanation": "Facilities or sites",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Nucléaire",
+          "explanation": "Related to nuclear energy",
+          "cultural_note": ""
+        },
+        "iraniennes": {
+          "display_format": "**iraniennes:** D'Iran",
+          "explanation": "Iranian, from Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vigilance canicule: jusqu’à 39 °C ce samedi, fortes chaleurs dans l’ouest, 16 départements en alerte",
+      "original_article_link": "https://www.ouest-france.fr/meteo/vigilance-canicule-jusqua-39-c-ce-samedi-louest-en-surchauffe-16-departements-en-alerte-abe54418-4e27-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:10:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Forte chaleur ce samedi en France",
+      "simplified_english_title": "High heat this Saturday in France",
+      "french_summary": "Il fera jusqu'à 39 degrés samedi, surtout dans l'ouest. Seize départements sont en alerte.",
+      "english_summary": "Temperatures will reach up to 39 degrees on Saturday, especially in the west. Sixteen departments are on alert.",
+      "contextual_title_explanations": {
+        "Vigilance": {
+          "display_format": "**Vigilance:** attention",
+          "explanation": "state of alert or watchfulness",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** vague de chaleur",
+          "explanation": "heatwave, extreme heat",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "jusqu’à": {
+          "display_format": "**jusqu’à:** jusqu'à",
+          "explanation": "up to, as far as",
+          "cultural_note": ""
+        },
+        "39 °C": {
+          "display_format": "**39 °C:** trente-neuf degrés Celsius",
+          "explanation": "39 degrees Celsius",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** ce",
+          "explanation": "this, these",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** samedi",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** virgule",
+          "explanation": "comma, separates clauses",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**fortes:** fortes",
+          "explanation": "strong, intense",
+          "cultural_note": ""
+        },
+        "chaleurs": {
+          "display_format": "**chaleurs:** chaleurs",
+          "explanation": "heats, high temperatures",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** dans",
+          "explanation": "in, inside",
+          "cultural_note": ""
+        },
+        "l’ouest": {
+          "display_format": "**l’ouest:** l'ouest",
+          "explanation": "the west",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** seize",
+          "explanation": "sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** départements",
+          "explanation": "departments, administrative regions",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** en",
+          "explanation": "in, on",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** alerte",
+          "explanation": "alert, warning",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Un conflit \"qui fait taire les critiques\": avec l'attaque en Iran, Benjamin Netanyahu joue-t-il sa survie politique?",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/un-conflit-qui-fait-taire-les-critiques-avec-l-attaque-en-iran-benjamin-netanyahu-joue-t-il-sa-survie-politique_AN-202506210036.html",
+      "original_article_published_date": "2025-06-21T04:02:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Netanyahu et l'attaque en Iran",
+      "simplified_english_title": "Netanyahu and the attack in Iran",
+      "french_summary": "Benjamin Netanyahu pourrait utiliser l'attaque en Iran pour réduire les critiques et améliorer sa situation politique.",
+      "english_summary": "Benjamin Netanyahu might use the attack in Iran to silence critics and improve his political situation.",
+      "contextual_title_explanations": {
+        "Un": {
+          "display_format": "**Un:** Article indéfini",
+          "explanation": "Indefinite article meaning 'a'",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**conflit:** Désaccord violent",
+          "explanation": "Conflict or disagreement",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Relative pronoun meaning 'that'",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** Verbe faire",
+          "explanation": "Third person singular of 'to do'",
+          "cultural_note": ""
+        },
+        "taire": {
+          "display_format": "**taire:** Rendre silencieux",
+          "explanation": "To silence or make quiet",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "critiques": {
+          "display_format": "**critiques:** Remarques négatives",
+          "explanation": "Criticisms or negative remarks",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Préposition",
+          "explanation": "Preposition meaning 'with'",
+          "cultural_note": ""
+        },
+        "l'attaque": {
+          "display_format": "**l'attaque:** Action violente",
+          "explanation": "The attack or violent action",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition meaning 'in'",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "Benjamin Netanyahu": {
+          "display_format": "**Benjamin Netanyahu:** Premier ministre israélien",
+          "explanation": "Israeli Prime Minister",
+          "cultural_note": ""
+        },
+        "joue-t-il": {
+          "display_format": "**joue-t-il:** Verbe jouer",
+          "explanation": "Does he play or gamble",
+          "cultural_note": "Inversion for question form"
+        },
+        "sa": {
+          "display_format": "**sa:** Adjectif possessif",
+          "explanation": "Possessive adjective meaning 'his'",
+          "cultural_note": ""
+        },
+        "survie": {
+          "display_format": "**survie:** Action de survivre",
+          "explanation": "Survival or act of surviving",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Political or related to politics",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Patrick Artus : « Aux Etats-Unis, les attaques sur le système de recherche publique et les universités compromettent les perspectives de croissance »",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/patrick-artus-aux-etats-unis-les-attaques-sur-le-systeme-de-recherche-publique-et-les-universites-compromettent-les-perspectives-de-croissance_6615045_3234.html",
+      "original_article_published_date": "2025-06-21T04:00:27",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les attaques sur les universités américaines nuisent à la croissance",
+      "simplified_english_title": "Attacks on US universities harm growth prospects",
+      "french_summary": "Patrick Artus dit que les attaques contre les universités américaines réduisent les chances de croissance économique du pays.",
+      "english_summary": "Patrick Artus says attacks on US universities are reducing the country's economic growth prospects.",
+      "contextual_title_explanations": {
+        "Patrick Artus": {
+          "display_format": "**Patrick Artus:** Économiste français",
+          "explanation": "French economist and commentator",
+          "cultural_note": "Well-known in financial circles"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing a quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        },
+        "Aux": {
+          "display_format": "**Aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique du Nord",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "attaques": {
+          "display_format": "**attaques:** Agressions",
+          "explanation": "Attacks or criticisms",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Concernant",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "système": {
+          "display_format": "**système:** Structure organisée",
+          "explanation": "System or structure",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "recherche": {
+          "display_format": "**recherche:** Investigation",
+          "explanation": "Research or study",
+          "cultural_note": ""
+        },
+        "publique": {
+          "display_format": "**publique:** Gouvernementale",
+          "explanation": "Public or governmental",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "universités": {
+          "display_format": "**universités:** Établissements d'enseignement supérieur",
+          "explanation": "Universities",
+          "cultural_note": ""
+        },
+        "compromettent": {
+          "display_format": "**compromettent:** Mettent en danger",
+          "explanation": "Compromise or endanger",
+          "cultural_note": ""
+        },
+        "perspectives": {
+          "display_format": "**perspectives:** Avenir possible",
+          "explanation": "Perspectives or outlook",
+          "cultural_note": ""
+        },
+        "croissance": {
+          "display_format": "**croissance:** Développement économique",
+          "explanation": "Growth or development",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le dessin de Chaunu : la venue d’Emmanuel Macron au Bourget en A400M pour parler de l’espace",
+      "original_article_link": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-la-venue-demmanuel-macron-au-bourget-en-a400m-pour-parler-de-lespace-eff8c0da-4df0-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:00:10",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron visite le Bourget en avion militaire",
+      "simplified_english_title": "Macron visits Bourget in military plane",
+      "french_summary": "Emmanuel Macron est arrivé au Bourget en A400M pour discuter de l'espace. Chaunu a fait un dessin sur cet événement.",
+      "english_summary": "Emmanuel Macron arrived at Le Bourget in an A400M to discuss space. Chaunu made a drawing of this event.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "dessin": {
+          "display_format": "**dessin:** Croquis",
+          "explanation": "Drawing or sketch",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "About or of",
+          "cultural_note": ""
+        },
+        "Chaunu": {
+          "display_format": "**Chaunu:** Nom de famille",
+          "explanation": "Surname (historian)",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "venue": {
+          "display_format": "**venue:** Arrivée",
+          "explanation": "Arrival or coming",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**d’:** De élidé",
+          "explanation": "Of or by (elided form)",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "French President",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** Aéroport parisien",
+          "explanation": "Paris airport (Le Bourget)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In or by",
+          "cultural_note": ""
+        },
+        "A400M": {
+          "display_format": "**A400M:** Avion militaire",
+          "explanation": "Military aircraft model",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "For or in order to",
+          "cultural_note": ""
+        },
+        "parler": {
+          "display_format": "**parler:** Discuter",
+          "explanation": "To speak or talk",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**l’:** Le élidé",
+          "explanation": "The (elided form)",
+          "cultural_note": ""
+        },
+        "espace": {
+          "display_format": "**espace:** Cosmos",
+          "explanation": "Space (cosmos)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Nationalisation de la Somaïr au Niger: Orano s'insurge contre «la volonté des autorités de l'évincer» du pays",
       "original_article_link": "https://www.rfi.fr/fr/afrique/20250621-nationalisation-de-la-soma%C3%AFr-au-niger-orano-s-insurge-contre-la-volont%C3%A9-des-autorit%C3%A9s-de-l-%C3%A9vincer-du-pays",
       "original_article_published_date": "2025-06-21T02:51:42",
@@ -4753,6 +5308,117 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Les sites pornographiques YouPorn et Pornhub sont de nouveau accessibles en France après un revers gouvernemental",
+      "original_article_link": "https://www.franceinfo.fr/societe/pornographie/les-sites-pornographiques-youporn-et-pornhub-sont-de-nouveau-accessibles-en-france-apres-un-revers-gouvernemental_7326621.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T16:18:21",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "YouPorn et Pornhub accessibles en France",
+      "simplified_english_title": "YouPorn and Pornhub accessible in France",
+      "french_summary": "Les sites YouPorn et Pornhub sont de nouveau disponibles en France après une décision du gouvernement.",
+      "english_summary": "YouPorn and Pornhub are accessible again in France after a government decision.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux web",
+          "explanation": "Websites",
+          "cultural_note": ""
+        },
+        "pornographiques": {
+          "display_format": "**pornographiques:** Adultes explicites",
+          "explanation": "Pornographic",
+          "cultural_note": ""
+        },
+        "YouPorn": {
+          "display_format": "**YouPorn:** Site porno",
+          "explanation": "Popular pornographic website",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Pornhub": {
+          "display_format": "**Pornhub:** Site porno",
+          "explanation": "Popular pornographic website",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être (3e pluriel)",
+          "explanation": "Are",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Encore",
+          "explanation": "Again",
+          "cultural_note": ""
+        },
+        "accessibles": {
+          "display_format": "**accessibles:** Disponibles",
+          "explanation": "Accessible",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "revers": {
+          "display_format": "**revers:** Échec",
+          "explanation": "Setback",
+          "cultural_note": ""
+        },
+        "gouvernemental": {
+          "display_format": "**gouvernemental:** Du gouvernement",
+          "explanation": "Government-related",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Le désert d’Atacama, nouvelle victime de la fast fashion",
       "original_article_link": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre-le-reportage/20250620-%F0%9F%8C%8D-le-d%C3%A9sert-d-atacama-nouvelle-victime-de-la-fast-fashion",
       "original_article_published_date": "2025-06-20T16:14:55",
@@ -8184,6 +8850,67 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Les enquêteurs au siège du Parti socialiste espagnol",
+      "original_article_link": "https://www.europe1.fr/international/les-enqueteurs-au-siege-du-parti-socialiste-espagnol-760330",
+      "original_article_published_date": "2025-06-20T14:04:35",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Enquête au siège du parti socialiste espagnol",
+      "simplified_english_title": "Investigation at Spanish Socialist Party HQ",
+      "french_summary": "Des enquêteurs sont au siège du Parti socialiste espagnol pour une investigation officielle. Les détails ne sont pas encore connus.",
+      "english_summary": "Investigators are at the Spanish Socialist Party headquarters for an official inquiry. Details are not yet known.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "enquêteurs": {
+          "display_format": "**enquêteurs:** Personnes qui enquêtent",
+          "explanation": "Investigators or detectives",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Combined preposition 'à le'",
+          "cultural_note": ""
+        },
+        "siège": {
+          "display_format": "**siège:** Lieu principal",
+          "explanation": "Headquarters or main office",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Combined preposition 'de le'",
+          "cultural_note": ""
+        },
+        "Parti socialiste espagnol": {
+          "display_format": "**Parti socialiste espagnol:** Parti politique espagnol",
+          "explanation": "Spanish Socialist Workers' Party",
+          "cultural_note": "Major political party in Spain"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "La bourse cash : \"Israël versus Iran : un drame humain, mais un pétard mouillé pour les investisseurs\" - 20/06",
       "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-la-bourse-cash-israel-versus-iran-un-drame-humain-mais-un-petard-mouille-pour-les-investisseurs-20-06_VN-202506200531.html",
       "original_article_published_date": "2025-06-20T14:04:02",
@@ -8584,6 +9311,67 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Aide à mourir: les députés britanniques votent en faveur d'une loi historique",
+      "original_article_link": "https://www.rfi.fr/fr/europe/20250620-aide-%C3%A0-mourir-les-d%C3%A9put%C3%A9s-britanniques-votent-en-faveur-d-une-loi-historique",
+      "original_article_published_date": "2025-06-20T13:42:41",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les députés britanniques votent pour une loi sur l'aide à mourir",
+      "simplified_english_title": "British MPs vote for right-to-die law",
+      "french_summary": "Les députés britanniques ont voté en faveur d'une loi permettant l'aide à mourir, marquant une étape historique.",
+      "english_summary": "British MPs voted in favor of a law allowing assisted dying, marking a historic step.",
+      "contextual_title_explanations": {
+        "Aide à mourir": {
+          "display_format": "**Aide à mourir:** Assistance pour la mort",
+          "explanation": "Help to die, assisted suicide",
+          "cultural_note": "Controversial topic in France"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les députés britanniques": {
+          "display_format": "**les députés britanniques:** Membres du Parlement britannique",
+          "explanation": "British members of parliament",
+          "cultural_note": ""
+        },
+        "votent": {
+          "display_format": "**votent:** Voter",
+          "explanation": "They vote",
+          "cultural_note": ""
+        },
+        "en faveur d'une loi": {
+          "display_format": "**en faveur d'une loi:** Soutien pour une loi",
+          "explanation": "In favor of a law",
+          "cultural_note": ""
+        },
+        "historique": {
+          "display_format": "**historique:** Important",
+          "explanation": "Historic, significant",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "En Roumanie, le pro-européen Ilie Bolojan nommé premier ministre",
       "original_article_link": "https://www.lemonde.fr/international/article/2025/06/20/en-roumanie-le-pro-europeen-ilie-bolojan-nomme-premier-ministre_6614815_3210.html",
       "original_article_published_date": "2025-06-20T13:29:00",
@@ -8641,694 +9429,6 @@
         "premier ministre": {
           "display_format": "**premier ministre:** Chef du gouvernement",
           "explanation": "Prime minister (head of government)",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T23:18:30",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Roumanie : le pro-européen Ilie Bolojan nommé premier ministre",
-      "original_article_link": "https://www.la-croix.com/international/roumanie-le-pro-europeen-ilie-bolojan-nomme-premier-ministre-20250620",
-      "original_article_published_date": "2025-06-20T13:21:26",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Nouveau premier ministre en Roumanie",
-      "simplified_english_title": "New prime minister in Romania",
-      "french_summary": "Ilie Bolojan, un homme politique pro-européen, est devenu le nouveau premier ministre de la Roumanie.",
-      "english_summary": "Ilie Bolojan, a pro-European politician, has become Romania's new prime minister.",
-      "contextual_title_explanations": {
-        "Roumanie": {
-          "display_format": "**Roumanie:** Pays d'Europe",
-          "explanation": "Country in Eastern Europe",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces related information",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "Definite article 'the'",
-          "cultural_note": ""
-        },
-        "pro-européen": {
-          "display_format": "**pro-européen:** En faveur de l'UE",
-          "explanation": "In favor of the European Union",
-          "cultural_note": ""
-        },
-        "Ilie Bolojan": {
-          "display_format": "**Ilie Bolojan:** Nom d'une personne",
-          "explanation": "Name of the appointed prime minister",
-          "cultural_note": ""
-        },
-        "nommé": {
-          "display_format": "**nommé:** Désigné",
-          "explanation": "Appointed or named to a position",
-          "cultural_note": ""
-        },
-        "premier ministre": {
-          "display_format": "**premier ministre:** Chef du gouvernement",
-          "explanation": "Head of government, like a prime minister",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T03:12:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : les citoyens français évacués par la Turquie et l'Arménie",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-isra%C3%ABl-iran-les-citoyens-fran%C3%A7ais-%C3%A9vacu%C3%A9s-par-la-turquie-et-l-arm%C3%A9nie",
-      "original_article_published_date": "2025-06-20T13:07:06",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les Français quittent Israël via la Turquie",
-      "simplified_english_title": "French citizens leave Israel via Turkey",
-      "french_summary": "Des Français en Israël sont évacués par la Turquie et l'Arménie à cause des tensions entre Israël et l'Iran.",
-      "english_summary": "French citizens in Israel are evacuated through Turkey and Armenia due to tensions between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre deux pays",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Ongoing geopolitical tensions"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Les articles définis",
-          "explanation": "Definite article, 'the'",
-          "cultural_note": ""
-        },
-        "citoyens": {
-          "display_format": "**citoyens:** Personnes d'un pays",
-          "explanation": "Citizens of a country",
-          "cultural_note": ""
-        },
-        "français": {
-          "display_format": "**français:** De la France",
-          "explanation": "French, from France",
-          "cultural_note": ""
-        },
-        "évacués": {
-          "display_format": "**évacués:** Mis en sécurité",
-          "explanation": "Evacuated, moved to safety",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Par l'intermédiaire de",
-          "explanation": "By, through the means of",
-          "cultural_note": ""
-        },
-        "la Turquie": {
-          "display_format": "**la Turquie:** Pays voisin",
-          "explanation": "Turkey, a neighboring country",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And, conjunction",
-          "cultural_note": ""
-        },
-        "l'Arménie": {
-          "display_format": "**l'Arménie:** Pays du Caucase",
-          "explanation": "Armenia, a country in the Caucasus",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:19:59",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Brésil: Bolsonaro en procès, l’extrême droite prépare les prochaines élections",
-      "original_article_link": "https://www.mediapart.fr/journal/international/200625/bresil-bolsonaro-en-proces-l-extreme-droite-prepare-les-prochaines-elections",
-      "original_article_published_date": "2025-06-20T13:03:44",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Bolsonaro en procès au Brésil",
-      "simplified_english_title": "Bolsonaro on trial in Brazil",
-      "french_summary": "L'ancien président Bolsonaro est en procès tandis que l'extrême droite se prépare pour les prochaines élections.",
-      "english_summary": "Former president Bolsonaro is on trial while the far right prepares for the next elections.",
-      "contextual_title_explanations": {
-        "Brésil": {
-          "display_format": "**Brésil:** Pays d'Amérique du Sud",
-          "explanation": "Country in South America",
-          "cultural_note": "French spelling of Brazil"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Bolsonaro": {
-          "display_format": "**Bolsonaro:** Nom de famille",
-          "explanation": "Last name of Brazilian president",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans un état",
-          "explanation": "In a state or process",
-          "cultural_note": ""
-        },
-        "procès": {
-          "display_format": "**procès:** Jugement juridique",
-          "explanation": "Legal trial or process",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "l’extrême droite": {
-          "display_format": "**l’extrême droite:** Aile politique",
-          "explanation": "Far-right political wing",
-          "cultural_note": ""
-        },
-        "prépare": {
-          "display_format": "**prépare:** Se préparer",
-          "explanation": "Prepares or gets ready",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "Definite articles (the)",
-          "cultural_note": ""
-        },
-        "prochaines": {
-          "display_format": "**prochaines:** Qui suivent",
-          "explanation": "Next or following",
-          "cultural_note": ""
-        },
-        "élections": {
-          "display_format": "**élections:** Votes publics",
-          "explanation": "Public elections",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Vague de chaleur : la France vit sa première canicule de l'année 2025",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-vague-de-chaleur-la-france-vit-sa-premi%C3%A8re-canicule-de-l-ann%C3%A9e-2025",
-      "original_article_published_date": "2025-06-20T13:02:06",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France a sa première canicule de 2025",
-      "simplified_english_title": "France experiences first heatwave of 2025",
-      "french_summary": "La France subit actuellement une vague de chaleur intense, la première de l'année 2025, avec des températures très élevées.",
-      "english_summary": "France is currently experiencing an intense heatwave, the first of the year 2025, with very high temperatures.",
-      "contextual_title_explanations": {
-        "Vague": {
-          "display_format": "**Vague:** Onde",
-          "explanation": "Wave, often used for heatwaves",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Particule",
-          "explanation": "Of, indicates possession or relation",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**chaleur:** Température élevée",
-          "explanation": "Heat, high temperature",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "la France": {
-          "display_format": "**la France:** Pays européen",
-          "explanation": "France, a European country",
-          "cultural_note": ""
-        },
-        "vit": {
-          "display_format": "**vit:** Vécu",
-          "explanation": "Experiences, lives through",
-          "cultural_note": ""
-        },
-        "sa": {
-          "display_format": "**sa:** Possessif",
-          "explanation": "Its, her, possessive adjective",
-          "cultural_note": ""
-        },
-        "première": {
-          "display_format": "**première:** Premier",
-          "explanation": "First, initial",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**canicule:** Période chaude",
-          "explanation": "Heatwave, period of intense heat",
-          "cultural_note": ""
-        },
-        "l'année": {
-          "display_format": "**l'année:** Année",
-          "explanation": "The year",
-          "cultural_note": ""
-        },
-        "2025": {
-          "display_format": "**2025:** Année",
-          "explanation": "Year 2025",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:03:32",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : Paris, Berlin et Londres vont faire \"une offre de négociation complète\" aux Iraniens",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-isra%C3%ABl-iran-paris-berlin-et-londres-vont-faire-une-offre-de-n%C3%A9gociation-compl%C3%A8te-aux-iraniens",
-      "original_article_published_date": "2025-06-20T12:55:50",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Paris, Berlin et Londres proposent des négociations à l'Iran",
-      "simplified_english_title": "Paris, Berlin, and London offer talks to Iran",
-      "french_summary": "La France, l'Allemagne et le Royaume-Uni veulent négocier avec l'Iran pour résoudre les tensions avec Israël.",
-      "english_summary": "France, Germany, and the UK want to negotiate with Iran to resolve tensions with Israel.",
-      "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre deux pays",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** Capitale de la France",
-          "explanation": "Capital city of France",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma separating items",
-          "cultural_note": ""
-        },
-        "Berlin": {
-          "display_format": "**Berlin:** Capitale de l'Allemagne",
-          "explanation": "Capital city of Germany",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Et",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "Londres": {
-          "display_format": "**Londres:** Capitale du Royaume-Uni",
-          "explanation": "Capital city of the UK",
-          "cultural_note": ""
-        },
-        "vont": {
-          "display_format": "**vont:** Aller",
-          "explanation": "Are going to",
-          "cultural_note": ""
-        },
-        "faire": {
-          "display_format": "**faire:** Faire",
-          "explanation": "To make or do",
-          "cultural_note": ""
-        },
-        "\"une": {
-          "display_format": "\"\"une:** Une",
-          "explanation": "A or an",
-          "cultural_note": ""
-        },
-        "offre": {
-          "display_format": "**offre:** Proposition",
-          "explanation": "Offer or proposal",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** De",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "négociation": {
-          "display_format": "**négociation:** Négociation",
-          "explanation": "Negotiation",
-          "cultural_note": ""
-        },
-        "complète\"": {
-          "display_format": "**complète\":** Complète",
-          "explanation": "Complete",
-          "cultural_note": ""
-        },
-        "aux": {
-          "display_format": "**aux:** À les",
-          "explanation": "To the",
-          "cultural_note": ""
-        },
-        "Iraniens": {
-          "display_format": "**Iraniens:** Habitants de l'Iran",
-          "explanation": "People of Iran",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T20:20:45",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Macron fait de l'entrée de l'État français au capital d'Eutelsat un «enjeu de souveraineté»",
-      "original_article_link": "https://www.rfi.fr/fr/%C3%A9conomie/20250620-macron-fait-de-l-entr%C3%A9e-de-l-%C3%A9tat-fran%C3%A7ais-au-capital-d-eutelsat-un-un-enjeu-de-souverainet%C3%A9",
-      "original_article_published_date": "2025-06-20T12:26:21",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron veut que l'État ait des parts d'Eutelsat",
-      "simplified_english_title": "Macron wants state to own Eutelsat shares",
-      "french_summary": "Le président Macron considère que l'État doit avoir des parts dans Eutelsat pour des raisons de souveraineté nationale.",
-      "english_summary": "President Macron believes the state should own shares in Eutelsat for national sovereignty reasons.",
-      "contextual_title_explanations": {
-        "Macron": {
-          "display_format": "**Macron:** Président français",
-          "explanation": "Current French president",
-          "cultural_note": ""
-        },
-        "fait": {
-          "display_format": "**fait:** rend",
-          "explanation": "Makes or does",
-          "cultural_note": ""
-        },
-        "de l'entrée": {
-          "display_format": "**de l'entrée:** de la participation",
-          "explanation": "Of the entry or participation",
-          "cultural_note": ""
-        },
-        "de l'État français": {
-          "display_format": "**de l'État français:** du pays France",
-          "explanation": "Of the French state",
-          "cultural_note": ""
-        },
-        "au capital": {
-          "display_format": "**au capital:** dans les actions",
-          "explanation": "In the capital or shares",
-          "cultural_note": ""
-        },
-        "d'Eutelsat": {
-          "display_format": "**d'Eutelsat:** de la société Eutelsat",
-          "explanation": "Of the company Eutelsat",
-          "cultural_note": "Eutelsat is a French satellite operator"
-        },
-        "un": {
-          "display_format": "**un:** un",
-          "explanation": "A or an",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "enjeu": {
-          "display_format": "**enjeu:** défi important",
-          "explanation": "Important challenge or issue",
-          "cultural_note": ""
-        },
-        "de souveraineté»": {
-          "display_format": "**de souveraineté»:** d'indépendance nationale»",
-          "explanation": "Of national sovereignty",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:03:32",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Libye: une nouvelle conférence à Berlin dans l’espoir de relancer le processus politique",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250620-libye-une-nouvelle-conf%C3%A9rence-%C3%A0-berlin-dans-l-espoir-de-relancer-le-processus-politique",
-      "original_article_published_date": "2025-06-20T12:11:08",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Nouvelle réunion à Berlin pour la Libye",
-      "simplified_english_title": "New Berlin meeting for Libya",
-      "french_summary": "Une conférence à Berlin veut relancer le processus politique en Libye. Les dirigeants internationaux se réunissent pour discuter.",
-      "english_summary": "A conference in Berlin aims to restart the political process in Libya. International leaders meet to discuss.",
-      "contextual_title_explanations": {
-        "Libye": {
-          "display_format": "**Libye:** Pays d'Afrique",
-          "explanation": "North African country",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article, feminine singular",
-          "cultural_note": ""
-        },
-        "nouvelle": {
-          "display_format": "**nouvelle:** Qui est récente",
-          "explanation": "New, recent",
-          "cultural_note": ""
-        },
-        "conférence": {
-          "display_format": "**conférence:** Réunion officielle",
-          "explanation": "Official meeting or conference",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu",
-          "explanation": "Preposition indicating location",
-          "cultural_note": ""
-        },
-        "Berlin": {
-          "display_format": "**Berlin:** Capitale allemande",
-          "explanation": "Capital city of Germany",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** Préposition de lieu",
-          "explanation": "Preposition indicating inside",
-          "cultural_note": ""
-        },
-        "l’espoir": {
-          "display_format": "**l’espoir:** L'espoir de",
-          "explanation": "Hope of",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition indicating possession or association",
-          "cultural_note": ""
-        },
-        "relancer": {
-          "display_format": "**relancer:** Redémarrer",
-          "explanation": "To restart or relaunch",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "Definite article, masculine singular",
-          "cultural_note": ""
-        },
-        "processus": {
-          "display_format": "**processus:** Déroulement",
-          "explanation": "Process or procedure",
-          "cultural_note": ""
-        },
-        "politique": {
-          "display_format": "**politique:** Relatif à la politique",
-          "explanation": "Relating to politics",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:03:32",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La stratégie ambiguë du Parti populaire européen vis-à-vis de l’extrême droite",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/20/la-strategie-ambigue-du-parti-populaire-europeen-vis-a-vis-de-l-extreme-droite_6614806_823448.html",
-      "original_article_published_date": "2025-06-20T12:00:10",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Parti populaire européen et l’extrême droite",
-      "simplified_english_title": "European People's Party and the far right",
-      "french_summary": "Le Parti populaire européen a une position peu claire envers l’extrême droite, ce qui crée des débats.",
-      "english_summary": "The European People's Party has an unclear position towards the far right, causing debates.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "stratégie": {
-          "display_format": "**stratégie:** Plan d'action",
-          "explanation": "Strategy or plan",
-          "cultural_note": ""
-        },
-        "ambiguë": {
-          "display_format": "**ambiguë:** Qui a plusieurs sens",
-          "explanation": "Ambiguous, unclear",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** Article contracté",
-          "explanation": "Of the (masculine singular)",
-          "cultural_note": ""
-        },
-        "Parti populaire européen": {
-          "display_format": "**Parti populaire européen:** Groupe politique",
-          "explanation": "European People's Party",
-          "cultural_note": "Major European political group"
-        },
-        "vis-à-vis": {
-          "display_format": "**vis-à-vis:** Concernant",
-          "explanation": "Regarding or towards",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Article",
-          "explanation": "Of or about",
-          "cultural_note": ""
-        },
-        "l’extrême": {
-          "display_format": "**l’extrême:** Très éloigné",
-          "explanation": "Extreme",
-          "cultural_note": ""
-        },
-        "droite": {
-          "display_format": "**droite:** Opposition politique",
-          "explanation": "Right-wing",
           "cultural_note": ""
         }
       },

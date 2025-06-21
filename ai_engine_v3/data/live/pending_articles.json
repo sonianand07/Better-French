@@ -12204,6 +12204,961 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Téhéran, Fordo, Bouchehr… Les principales installations nucléaires iraniennes",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/21/teheran-fordo-bouchehr-les-principales-installations-nucleaires-iraniennes_6615048_3210.html",
+      "original_article_published_date": "2025-06-21T04:15:03",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les sites nucléaires importants en Iran",
+      "simplified_english_title": "Important nuclear sites in Iran",
+      "french_summary": "L'Iran a plusieurs installations nucléaires importantes comme Téhéran, Fordo et Bouchehr. Ces sites sont cruciaux pour leur programme nucléaire.",
+      "english_summary": "Iran has several important nuclear facilities like Tehran, Fordo, and Bouchehr. These sites are crucial for their nuclear program.",
+      "contextual_title_explanations": {
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating list items",
+          "cultural_note": ""
+        },
+        "Fordo": {
+          "display_format": "**Fordo:** Site nucléaire",
+          "explanation": "Nuclear site in Iran",
+          "cultural_note": ""
+        },
+        "Bouchehr": {
+          "display_format": "**Bouchehr:** Ville portuaire",
+          "explanation": "Port city in Iran",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Indicates incomplete list",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "principales": {
+          "display_format": "**principales:** Principaux",
+          "explanation": "Main or primary",
+          "cultural_note": ""
+        },
+        "installations": {
+          "display_format": "**installations:** Sites",
+          "explanation": "Facilities or sites",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Nucléaire",
+          "explanation": "Related to nuclear energy",
+          "cultural_note": ""
+        },
+        "iraniennes": {
+          "display_format": "**iraniennes:** D'Iran",
+          "explanation": "Iranian, from Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vigilance canicule: jusqu’à 39 °C ce samedi, fortes chaleurs dans l’ouest, 16 départements en alerte",
+      "original_article_link": "https://www.ouest-france.fr/meteo/vigilance-canicule-jusqua-39-c-ce-samedi-louest-en-surchauffe-16-departements-en-alerte-abe54418-4e27-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:10:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Forte chaleur ce samedi en France",
+      "simplified_english_title": "High heat this Saturday in France",
+      "french_summary": "Il fera jusqu'à 39 degrés samedi, surtout dans l'ouest. Seize départements sont en alerte.",
+      "english_summary": "Temperatures will reach up to 39 degrees on Saturday, especially in the west. Sixteen departments are on alert.",
+      "contextual_title_explanations": {
+        "Vigilance": {
+          "display_format": "**Vigilance:** attention",
+          "explanation": "state of alert or watchfulness",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** vague de chaleur",
+          "explanation": "heatwave, extreme heat",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "jusqu’à": {
+          "display_format": "**jusqu’à:** jusqu'à",
+          "explanation": "up to, as far as",
+          "cultural_note": ""
+        },
+        "39 °C": {
+          "display_format": "**39 °C:** trente-neuf degrés Celsius",
+          "explanation": "39 degrees Celsius",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** ce",
+          "explanation": "this, these",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** samedi",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** virgule",
+          "explanation": "comma, separates clauses",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**fortes:** fortes",
+          "explanation": "strong, intense",
+          "cultural_note": ""
+        },
+        "chaleurs": {
+          "display_format": "**chaleurs:** chaleurs",
+          "explanation": "heats, high temperatures",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** dans",
+          "explanation": "in, inside",
+          "cultural_note": ""
+        },
+        "l’ouest": {
+          "display_format": "**l’ouest:** l'ouest",
+          "explanation": "the west",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** seize",
+          "explanation": "sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** départements",
+          "explanation": "departments, administrative regions",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** en",
+          "explanation": "in, on",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** alerte",
+          "explanation": "alert, warning",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Un conflit \"qui fait taire les critiques\": avec l'attaque en Iran, Benjamin Netanyahu joue-t-il sa survie politique?",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/un-conflit-qui-fait-taire-les-critiques-avec-l-attaque-en-iran-benjamin-netanyahu-joue-t-il-sa-survie-politique_AN-202506210036.html",
+      "original_article_published_date": "2025-06-21T04:02:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Netanyahu et l'attaque en Iran",
+      "simplified_english_title": "Netanyahu and the attack in Iran",
+      "french_summary": "Benjamin Netanyahu pourrait utiliser l'attaque en Iran pour réduire les critiques et améliorer sa situation politique.",
+      "english_summary": "Benjamin Netanyahu might use the attack in Iran to silence critics and improve his political situation.",
+      "contextual_title_explanations": {
+        "Un": {
+          "display_format": "**Un:** Article indéfini",
+          "explanation": "Indefinite article meaning 'a'",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**conflit:** Désaccord violent",
+          "explanation": "Conflict or disagreement",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Relative pronoun meaning 'that'",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** Verbe faire",
+          "explanation": "Third person singular of 'to do'",
+          "cultural_note": ""
+        },
+        "taire": {
+          "display_format": "**taire:** Rendre silencieux",
+          "explanation": "To silence or make quiet",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "critiques": {
+          "display_format": "**critiques:** Remarques négatives",
+          "explanation": "Criticisms or negative remarks",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Préposition",
+          "explanation": "Preposition meaning 'with'",
+          "cultural_note": ""
+        },
+        "l'attaque": {
+          "display_format": "**l'attaque:** Action violente",
+          "explanation": "The attack or violent action",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition meaning 'in'",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "Benjamin Netanyahu": {
+          "display_format": "**Benjamin Netanyahu:** Premier ministre israélien",
+          "explanation": "Israeli Prime Minister",
+          "cultural_note": ""
+        },
+        "joue-t-il": {
+          "display_format": "**joue-t-il:** Verbe jouer",
+          "explanation": "Does he play or gamble",
+          "cultural_note": "Inversion for question form"
+        },
+        "sa": {
+          "display_format": "**sa:** Adjectif possessif",
+          "explanation": "Possessive adjective meaning 'his'",
+          "cultural_note": ""
+        },
+        "survie": {
+          "display_format": "**survie:** Action de survivre",
+          "explanation": "Survival or act of surviving",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Political or related to politics",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le dessin de Chaunu : la venue d’Emmanuel Macron au Bourget en A400M pour parler de l’espace",
+      "original_article_link": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-la-venue-demmanuel-macron-au-bourget-en-a400m-pour-parler-de-lespace-eff8c0da-4df0-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:00:10",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron visite le Bourget en avion militaire",
+      "simplified_english_title": "Macron visits Bourget in military plane",
+      "french_summary": "Emmanuel Macron est arrivé au Bourget en A400M pour discuter de l'espace. Chaunu a fait un dessin sur cet événement.",
+      "english_summary": "Emmanuel Macron arrived at Le Bourget in an A400M to discuss space. Chaunu made a drawing of this event.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "dessin": {
+          "display_format": "**dessin:** Croquis",
+          "explanation": "Drawing or sketch",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "About or of",
+          "cultural_note": ""
+        },
+        "Chaunu": {
+          "display_format": "**Chaunu:** Nom de famille",
+          "explanation": "Surname (historian)",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "venue": {
+          "display_format": "**venue:** Arrivée",
+          "explanation": "Arrival or coming",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**d’:** De élidé",
+          "explanation": "Of or by (elided form)",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "French President",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "Bourget": {
+          "display_format": "**Bourget:** Aéroport parisien",
+          "explanation": "Paris airport (Le Bourget)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In or by",
+          "cultural_note": ""
+        },
+        "A400M": {
+          "display_format": "**A400M:** Avion militaire",
+          "explanation": "Military aircraft model",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "For or in order to",
+          "cultural_note": ""
+        },
+        "parler": {
+          "display_format": "**parler:** Discuter",
+          "explanation": "To speak or talk",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**l’:** Le élidé",
+          "explanation": "The (elided form)",
+          "cultural_note": ""
+        },
+        "espace": {
+          "display_format": "**espace:** Cosmos",
+          "explanation": "Space (cosmos)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Patrick Artus : « Aux Etats-Unis, les attaques sur le système de recherche publique et les universités compromettent les perspectives de croissance »",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/patrick-artus-aux-etats-unis-les-attaques-sur-le-systeme-de-recherche-publique-et-les-universites-compromettent-les-perspectives-de-croissance_6615045_3234.html",
+      "original_article_published_date": "2025-06-21T04:00:27",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les attaques sur les universités américaines nuisent à la croissance",
+      "simplified_english_title": "Attacks on US universities harm growth prospects",
+      "french_summary": "Patrick Artus dit que les attaques contre les universités américaines réduisent les chances de croissance économique du pays.",
+      "english_summary": "Patrick Artus says attacks on US universities are reducing the country's economic growth prospects.",
+      "contextual_title_explanations": {
+        "Patrick Artus": {
+          "display_format": "**Patrick Artus:** Économiste français",
+          "explanation": "French economist and commentator",
+          "cultural_note": "Well-known in financial circles"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing a quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        },
+        "Aux": {
+          "display_format": "**Aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique du Nord",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "attaques": {
+          "display_format": "**attaques:** Agressions",
+          "explanation": "Attacks or criticisms",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Concernant",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "système": {
+          "display_format": "**système:** Structure organisée",
+          "explanation": "System or structure",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "recherche": {
+          "display_format": "**recherche:** Investigation",
+          "explanation": "Research or study",
+          "cultural_note": ""
+        },
+        "publique": {
+          "display_format": "**publique:** Gouvernementale",
+          "explanation": "Public or governmental",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "universités": {
+          "display_format": "**universités:** Établissements d'enseignement supérieur",
+          "explanation": "Universities",
+          "cultural_note": ""
+        },
+        "compromettent": {
+          "display_format": "**compromettent:** Mettent en danger",
+          "explanation": "Compromise or endanger",
+          "cultural_note": ""
+        },
+        "perspectives": {
+          "display_format": "**perspectives:** Avenir possible",
+          "explanation": "Perspectives or outlook",
+          "cultural_note": ""
+        },
+        "croissance": {
+          "display_format": "**croissance:** Développement économique",
+          "explanation": "Growth or development",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pourquoi France Télévisions se lance-t-elle dans une météo de l'eau ?",
+      "original_article_link": "https://www.franceinfo.fr/une-information-transparente-franceinfo/transparence-pourquoi-france-televisions-se-lance-t-elle-dans-une-meteo-de-l-eau_7268028.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T05:00:02",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "France Télévisions lance une météo de l'eau",
+      "simplified_english_title": "France Télévisions launches water weather",
+      "french_summary": "France Télévisions commence un nouveau service pour informer sur la qualité de l'eau, comme une météo.",
+      "english_summary": "France Télévisions starts a new service to inform about water quality, like a weather report.",
+      "contextual_title_explanations": {
+        "Pourquoi": {
+          "display_format": "**Pourquoi:** Pourquoi",
+          "explanation": "Why",
+          "cultural_note": ""
+        },
+        "France Télévisions": {
+          "display_format": "**France Télévisions:** Groupe audiovisuel public",
+          "explanation": "French public broadcasting group",
+          "cultural_note": ""
+        },
+        "se lance-t-elle": {
+          "display_format": "**se lance-t-elle:** Se lancer (forme interrogative)",
+          "explanation": "Is it launching itself?",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Dans",
+          "explanation": "In/into",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Une",
+          "explanation": "A/an",
+          "cultural_note": ""
+        },
+        "météo": {
+          "display_format": "**météo:** Météorologie",
+          "explanation": "Weather forecast",
+          "cultural_note": ""
+        },
+        "de l'eau": {
+          "display_format": "**de l'eau:** De l'eau",
+          "explanation": "Of the water",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Aide à mourir: les députés britanniques votent en faveur d'une loi historique",
+      "original_article_link": "https://www.rfi.fr/fr/europe/20250620-aide-%C3%A0-mourir-les-d%C3%A9put%C3%A9s-britanniques-votent-en-faveur-d-une-loi-historique",
+      "original_article_published_date": "2025-06-20T13:42:41",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les députés britanniques votent pour une loi sur l'aide à mourir",
+      "simplified_english_title": "British MPs vote for right-to-die law",
+      "french_summary": "Les députés britanniques ont voté en faveur d'une loi permettant l'aide à mourir, marquant une étape historique.",
+      "english_summary": "British MPs voted in favor of a law allowing assisted dying, marking a historic step.",
+      "contextual_title_explanations": {
+        "Aide à mourir": {
+          "display_format": "**Aide à mourir:** Assistance pour la mort",
+          "explanation": "Help to die, assisted suicide",
+          "cultural_note": "Controversial topic in France"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les députés britanniques": {
+          "display_format": "**les députés britanniques:** Membres du Parlement britannique",
+          "explanation": "British members of parliament",
+          "cultural_note": ""
+        },
+        "votent": {
+          "display_format": "**votent:** Voter",
+          "explanation": "They vote",
+          "cultural_note": ""
+        },
+        "en faveur d'une loi": {
+          "display_format": "**en faveur d'une loi:** Soutien pour une loi",
+          "explanation": "In favor of a law",
+          "cultural_note": ""
+        },
+        "historique": {
+          "display_format": "**historique:** Important",
+          "explanation": "Historic, significant",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les enquêteurs au siège du Parti socialiste espagnol",
+      "original_article_link": "https://www.europe1.fr/international/les-enqueteurs-au-siege-du-parti-socialiste-espagnol-760330",
+      "original_article_published_date": "2025-06-20T14:04:35",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Enquête au siège du parti socialiste espagnol",
+      "simplified_english_title": "Investigation at Spanish Socialist Party HQ",
+      "french_summary": "Des enquêteurs sont au siège du Parti socialiste espagnol pour une investigation officielle. Les détails ne sont pas encore connus.",
+      "english_summary": "Investigators are at the Spanish Socialist Party headquarters for an official inquiry. Details are not yet known.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "enquêteurs": {
+          "display_format": "**enquêteurs:** Personnes qui enquêtent",
+          "explanation": "Investigators or detectives",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Combined preposition 'à le'",
+          "cultural_note": ""
+        },
+        "siège": {
+          "display_format": "**siège:** Lieu principal",
+          "explanation": "Headquarters or main office",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Combined preposition 'de le'",
+          "cultural_note": ""
+        },
+        "Parti socialiste espagnol": {
+          "display_format": "**Parti socialiste espagnol:** Parti politique espagnol",
+          "explanation": "Spanish Socialist Workers' Party",
+          "cultural_note": "Major political party in Spain"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Intoxications alimentaires sévères: deux boucheries fermées provisoirement après la mort d'une enfant",
+      "original_article_link": "https://www.bfmtv.com/sante/intoxications-alimentaires-d-enfants-deux-boucheries-fermees-provisoirement-apres-la-mort-d-une-enfant_AN-202506200357.html",
+      "original_article_published_date": "2025-06-20T09:23:56",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Deux boucheries fermées après un décès",
+      "simplified_english_title": "Two butcher shops closed after a death",
+      "french_summary": "Deux boucheries sont fermées après la mort d'une enfant due à une intoxication alimentaire grave.",
+      "english_summary": "Two butcher shops are closed after a child died from severe food poisoning.",
+      "contextual_title_explanations": {
+        "Intoxications": {
+          "display_format": "**Intoxications:** Empoisonnements",
+          "explanation": "Food poisonings",
+          "cultural_note": ""
+        },
+        "alimentaires": {
+          "display_format": "**alimentaires:** Liées à la nourriture",
+          "explanation": "Related to food",
+          "cultural_note": ""
+        },
+        "sévères": {
+          "display_format": "**sévères:** Graves",
+          "explanation": "Severe, serious",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**deux:** Nombre 2",
+          "explanation": "Two",
+          "cultural_note": ""
+        },
+        "boucheries": {
+          "display_format": "**boucheries:** Magasins de viande",
+          "explanation": "Butcher shops",
+          "cultural_note": ""
+        },
+        "fermées": {
+          "display_format": "**fermées:** Arrêtées",
+          "explanation": "Closed",
+          "cultural_note": ""
+        },
+        "provisoirement": {
+          "display_format": "**provisoirement:** Temporairement",
+          "explanation": "Temporarily",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "mort": {
+          "display_format": "**mort:** Décès",
+          "explanation": "Death",
+          "cultural_note": ""
+        },
+        "d'une": {
+          "display_format": "**d'une:** De une",
+          "explanation": "Of a",
+          "cultural_note": ""
+        },
+        "enfant": {
+          "display_format": "**enfant:** Jeune humain",
+          "explanation": "Child",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les sites pornographiques YouPorn et Pornhub sont de nouveau accessibles en France après un revers gouvernemental",
+      "original_article_link": "https://www.franceinfo.fr/societe/pornographie/les-sites-pornographiques-youporn-et-pornhub-sont-de-nouveau-accessibles-en-france-apres-un-revers-gouvernemental_7326621.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T16:18:21",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "YouPorn et Pornhub accessibles en France",
+      "simplified_english_title": "YouPorn and Pornhub accessible in France",
+      "french_summary": "Les sites YouPorn et Pornhub sont de nouveau disponibles en France après une décision du gouvernement.",
+      "english_summary": "YouPorn and Pornhub are accessible again in France after a government decision.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux web",
+          "explanation": "Websites",
+          "cultural_note": ""
+        },
+        "pornographiques": {
+          "display_format": "**pornographiques:** Adultes explicites",
+          "explanation": "Pornographic",
+          "cultural_note": ""
+        },
+        "YouPorn": {
+          "display_format": "**YouPorn:** Site porno",
+          "explanation": "Popular pornographic website",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Pornhub": {
+          "display_format": "**Pornhub:** Site porno",
+          "explanation": "Popular pornographic website",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être (3e pluriel)",
+          "explanation": "Are",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Encore",
+          "explanation": "Again",
+          "cultural_note": ""
+        },
+        "accessibles": {
+          "display_format": "**accessibles:** Disponibles",
+          "explanation": "Accessible",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "revers": {
+          "display_format": "**revers:** Échec",
+          "explanation": "Setback",
+          "cultural_note": ""
+        },
+        "gouvernemental": {
+          "display_format": "**gouvernemental:** Du gouvernement",
+          "explanation": "Government-related",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
