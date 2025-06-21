@@ -20144,6 +20144,811 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Environnement: l'ONU valide la création d'un «Giec» de la pollution chimique",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250621-environnement-l-onu-valide-la-cr%C3%A9ation-d-un-giec-de-la-pollution-chimique",
+      "original_article_published_date": "2025-06-21T12:38:54",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'ONU crée un groupe pour la pollution chimique",
+      "simplified_english_title": "UN creates group for chemical pollution",
+      "french_summary": "L'ONU a validé la création d'un groupe scientifique pour étudier la pollution chimique, similaire au GIEC pour le climat.",
+      "english_summary": "The UN has approved the creation of a scientific group to study chemical pollution, similar to the IPCC for climate.",
+      "contextual_title_explanations": {
+        "Environnement": {
+          "display_format": "**Environnement:** Nature",
+          "explanation": "Environment or natural surroundings",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'ONU": {
+          "display_format": "**l'ONU:** Organisation des Nations Unies",
+          "explanation": "The United Nations",
+          "cultural_note": ""
+        },
+        "valide": {
+          "display_format": "**valide:** approuve",
+          "explanation": "Validates or approves",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "création": {
+          "display_format": "**création:** établissement",
+          "explanation": "Creation or establishment",
+          "cultural_note": ""
+        },
+        "d'un": {
+          "display_format": "**d'un:** d'un",
+          "explanation": "Contraction of 'de un' meaning 'of a'",
+          "cultural_note": ""
+        },
+        "«Giec»": {
+          "display_format": "«**Giec**» Groupe d'experts intergouvernemental sur l'évolution du climat",
+          "explanation": "IPCC, climate science body",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "pollution": {
+          "display_format": "**pollution:** pollution",
+          "explanation": "Pollution or contamination",
+          "cultural_note": ""
+        },
+        "chimique": {
+          "display_format": "**chimique:** chimique",
+          "explanation": "Chemical",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire iranien: Emmanuel Macron affirme que la France et ses alliés européens vont \"accélérer les négociations\"",
+      "original_article_link": "https://www.bfmtv.com/politique/video-nucleaire-iranien-emmanuel-macron-affirme-que-la-france-et-ses-allies-europeens-vont-accelerer-les-negociations_VN-202506210213.html",
+      "original_article_published_date": "2025-06-21T12:46:09",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut accélérer les négociations sur le nucléaire",
+      "simplified_english_title": "Macron pushes for faster Iran nuclear talks",
+      "french_summary": "Emmanuel Macron dit que la France et ses alliés européens vont accélérer les négociations sur le nucléaire iranien.",
+      "english_summary": "Emmanuel Macron says France and its European allies will speed up negotiations on Iran's nuclear program.",
+      "contextual_title_explanations": {
+        "Nucléaire iranien": {
+          "display_format": "**Nucléaire iranien:** Programme nucléaire de l'Iran",
+          "explanation": "Iran's nuclear program",
+          "cultural_note": "Major international diplomatic issue"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "affirme": {
+          "display_format": "**affirme:** déclare",
+          "explanation": "States or asserts firmly",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** qui",
+          "explanation": "Relative pronoun meaning 'that'",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "French Republic",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** ses alliés",
+          "explanation": "Its",
+          "cultural_note": ""
+        },
+        "alliés européens": {
+          "display_format": "**alliés européens:** Partenaires en Europe",
+          "explanation": "European allies",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** futur proche",
+          "explanation": "Are going to",
+          "cultural_note": ""
+        },
+        "\"accélérer les négociations\"": {
+          "display_format": "\"**accélérer les négociations:**\" hâter les discussions",
+          "explanation": "Speed up the negotiations",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Trump ne peut pas interdire les admissions d'étudiants étrangers à Harvard",
+      "original_article_link": "https://www.europe1.fr/international/trump-ne-peut-pas-interdire-les-admissions-detudiants-etrangers-a-harvard-760442",
+      "original_article_published_date": "2025-06-21T12:58:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump ne peut pas bloquer les étudiants étrangers",
+      "simplified_english_title": "Trump cannot block foreign students",
+      "french_summary": "Un tribunal dit que Trump ne peut pas empêcher les étudiants étrangers d'entrer à Harvard.",
+      "english_summary": "A court says Trump cannot stop foreign students from entering Harvard.",
+      "contextual_title_explanations": {
+        "Trump": {
+          "display_format": "**Trump:** Nom de famille",
+          "explanation": "Name of a U.S. political figure",
+          "cultural_note": "Former U.S. President"
+        },
+        "ne": {
+          "display_format": "**ne:** Particule de négation",
+          "explanation": "Negation particle, used with 'pas'",
+          "cultural_note": ""
+        },
+        "peut pas": {
+          "display_format": "**peut pas:** Ne peut pas",
+          "explanation": "Cannot, informal for 'ne peut pas'",
+          "cultural_note": ""
+        },
+        "interdire": {
+          "display_format": "**interdire:** Empêcher",
+          "explanation": "To forbid or prevent",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "admissions": {
+          "display_format": "**admissions:** Acceptations",
+          "explanation": "Admissions or acceptances",
+          "cultural_note": ""
+        },
+        "d'étudiants": {
+          "display_format": "**d'étudiants:** Des étudiants",
+          "explanation": "Of students, contraction of 'de'",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**étrangers:** Non-nationaux",
+          "explanation": "Foreign or international",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition, 'to' or 'at'",
+          "cultural_note": ""
+        },
+        "Harvard": {
+          "display_format": "**Harvard:** Université célèbre",
+          "explanation": "Famous university in the U.S.",
+          "cultural_note": "Ivy League school"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attentat-suicide: 20 combattants anti-jihadistes tués",
+      "original_article_link": "https://www.20min.ch/fr/story/nigeria-attentat-suicide-20-combattants-anti-jihadistes-tues-103368070",
+      "original_article_published_date": "2025-06-21T10:27:53",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "20 soldats tués dans un attentat-suicide",
+      "simplified_english_title": "20 soldiers killed in suicide attack",
+      "french_summary": "Un attentat-suicide a causé la mort de 20 combattants qui luttaient contre les jihadistes.",
+      "english_summary": "A suicide attack killed 20 fighters who were battling jihadists.",
+      "contextual_title_explanations": {
+        "Attentat-suicide": {
+          "display_format": "**Attentat-suicide:** Attentat mortel",
+          "explanation": "Suicide attack",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "20": {
+          "display_format": "**20:** Vingt",
+          "explanation": "Number twenty",
+          "cultural_note": ""
+        },
+        "combattants": {
+          "display_format": "**combattants:** Personnes combattantes",
+          "explanation": "Fighters or combatants",
+          "cultural_note": ""
+        },
+        "anti-jihadistes": {
+          "display_format": "**anti-jihadistes:** Opposés aux jihadistes",
+          "explanation": "Anti-jihadist",
+          "cultural_note": ""
+        },
+        "tués": {
+          "display_format": "**tués:** Mis à mort",
+          "explanation": "Killed",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En raison de la canicule, les Ehpad sont extrêmement vigilants envers les personnes vulnérables",
+      "original_article_link": "https://www.bfmtv.com/societe/video-en-raison-de-la-canicule-les-ehpad-sont-extremement-vigilants-envers-les-personnes-vulnerables_VN-202506210180.html",
+      "original_article_published_date": "2025-06-21T10:20:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Canicule : les Ehpad protègent les personnes fragiles",
+      "simplified_english_title": "Heatwave: Nursing homes protect vulnerable people",
+      "french_summary": "Les maisons de retraite prennent des mesures spéciales pour protéger les résidents pendant la vague de chaleur.",
+      "english_summary": "Nursing homes are taking special measures to protect residents during the heatwave.",
+      "contextual_title_explanations": {
+        "En raison de": {
+          "display_format": "**En raison de:** À cause de",
+          "explanation": "Due to, because of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "Ehpad": {
+          "display_format": "**Ehpad:** Établissement d'hébergement pour personnes âgées dépendantes",
+          "explanation": "Nursing homes for elderly",
+          "cultural_note": "French term for elderly care homes"
+        },
+        "sont": {
+          "display_format": "**sont:** Forme du verbe être",
+          "explanation": "Are (third person plural)",
+          "cultural_note": ""
+        },
+        "extrêmement": {
+          "display_format": "**extrêmement:** Très",
+          "explanation": "Extremely, very",
+          "cultural_note": ""
+        },
+        "vigilants": {
+          "display_format": "**vigilants:** Attentifs",
+          "explanation": "Vigilant, watchful",
+          "cultural_note": ""
+        },
+        "envers": {
+          "display_format": "**envers:** À l'égard de",
+          "explanation": "Towards, regarding",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**personnes:** Individus",
+          "explanation": "People, individuals",
+          "cultural_note": ""
+        },
+        "vulnérables": {
+          "display_format": "**vulnérables:** Fragiles",
+          "explanation": "Vulnerable, at-risk",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Collège de France au secours des chercheurs en danger",
+      "original_article_link": "https://www.lepoint.fr/science/le-college-de-france-au-secours-des-chercheurs-en-danger-21-06-2025-2592574_25.php",
+      "original_article_published_date": "2025-06-21T12:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Collège de France aide les chercheurs en danger",
+      "simplified_english_title": "Collège de France helps researchers in danger",
+      "french_summary": "Le Collège de France offre un soutien aux chercheurs menacés dans leur pays. Ils peuvent continuer leur travail en sécurité.",
+      "english_summary": "The Collège de France supports researchers threatened in their home countries. They can continue their work safely.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "Collège de France": {
+          "display_format": "**Collège de France:** Institution prestigieuse",
+          "explanation": "Prestigious French research institution",
+          "cultural_note": "Unique institution for advanced research"
+        },
+        "au": {
+          "display_format": "**au:** à le",
+          "explanation": "To the (contraction)",
+          "cultural_note": ""
+        },
+        "secours": {
+          "display_format": "**secours:** Aide urgente",
+          "explanation": "Emergency aid or assistance",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some (plural indefinite article)",
+          "cultural_note": ""
+        },
+        "chercheurs": {
+          "display_format": "**chercheurs:** Scientifiques",
+          "explanation": "Researchers or scientists",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans un état",
+          "explanation": "In a state (preposition)",
+          "cultural_note": ""
+        },
+        "danger": {
+          "display_format": "**danger:** Risque grave",
+          "explanation": "Serious risk or danger",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ces quatre chercheurs ne désespèrent pas de comprendre le trumpisme",
+      "original_article_link": "https://www.nouvelobs.com/idees/20250621.OBS105152/ces-quatre-chercheurs-ne-desesperent-pas-de-comprendre-le-trumpisme.html",
+      "original_article_published_date": "2025-06-21T07:00:13",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des chercheurs étudient le trumpisme",
+      "simplified_english_title": "Researchers study Trumpism",
+      "french_summary": "Quatre chercheurs continuent leurs études pour mieux comprendre le phénomène politique appelé trumpisme.",
+      "english_summary": "Four researchers continue their studies to better understand the political phenomenon called Trumpism.",
+      "contextual_title_explanations": {
+        "Ces": {
+          "display_format": "**Ces:** Ces",
+          "explanation": "These",
+          "cultural_note": ""
+        },
+        "quatre": {
+          "display_format": "**quatre:** nombre",
+          "explanation": "Four",
+          "cultural_note": ""
+        },
+        "chercheurs": {
+          "display_format": "**chercheurs:** scientifiques",
+          "explanation": "Researchers",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** négation",
+          "explanation": "Not",
+          "cultural_note": "Part of a negative construction"
+        },
+        "désespèrent": {
+          "display_format": "**désespèrent:** ne perdent pas espoir",
+          "explanation": "Do not despair",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** négation",
+          "explanation": "Not",
+          "cultural_note": "Part of a negative construction"
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "comprendre": {
+          "display_format": "**comprendre:** saisir",
+          "explanation": "To understand",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** le",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "trumpisme": {
+          "display_format": "**trumpisme:** phénomène politique",
+          "explanation": "Trumpism",
+          "cultural_note": "Political ideology associated with Donald Trump"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La Semaine Politique du 21/06/2025",
+      "original_article_link": "https://www.europe1.fr/emissions/la-semaine-politique/la-semaine-politique-du-21-06-2025-760441",
+      "original_article_published_date": "2025-06-21T09:38:25",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Actualités politiques de la semaine",
+      "simplified_english_title": "Weekly Political News",
+      "french_summary": "Les dernières nouvelles politiques de la semaine sont présentées et analysées dans cette émission spéciale.",
+      "english_summary": "The latest political news of the week is presented and analyzed in this special program.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "Semaine": {
+          "display_format": "**Semaine:** Période de sept jours",
+          "explanation": "Week",
+          "cultural_note": ""
+        },
+        "Politique": {
+          "display_format": "**Politique:** Relatif à la politique",
+          "explanation": "Political",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Contraction de 'de le'",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "21/06/2025": {
+          "display_format": "**21/06/2025:** Date",
+          "explanation": "Date format: day/month/year",
+          "cultural_note": "French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "1776 : comment des colons britanniques ont posé les bases de l’impérialisme américain",
+      "original_article_link": "https://www.nouvelobs.com/idees/20250621.OBS105154/1776-comment-des-colons-britanniques-ont-pose-les-bases-de-l-imperialisme-americain.html",
+      "original_article_published_date": "2025-06-21T08:00:08",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "1776 : les débuts de l'impérialisme américain",
+      "simplified_english_title": "1776: The start of American imperialism",
+      "french_summary": "En 1776, des colons britanniques ont créé les États-Unis, posant les bases de son futur impérialisme.",
+      "english_summary": "In 1776, British colonists created the United States, laying the foundation for its future imperialism.",
+      "contextual_title_explanations": {
+        "1776": {
+          "display_format": "**1776:** année",
+          "explanation": "Year of American Independence",
+          "cultural_note": "Key date in US history"
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Introduces an explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** manière",
+          "explanation": "How, in what way",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** articles indéfinis",
+          "explanation": "Plural indefinite article",
+          "cultural_note": ""
+        },
+        "colons britanniques": {
+          "display_format": "**colons britanniques:** sujets du Royaume-Uni",
+          "explanation": "British settlers",
+          "cultural_note": ""
+        },
+        "ont posé": {
+          "display_format": "**ont posé:** ont établi",
+          "explanation": "Have set",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** articles définis",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "bases": {
+          "display_format": "**bases:** fondations",
+          "explanation": "Foundations, principles",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** préposition",
+          "explanation": "Preposition indicating possession",
+          "cultural_note": ""
+        },
+        "l’impérialisme": {
+          "display_format": "**l’impérialisme:** domination politique",
+          "explanation": "Policy of extending power",
+          "cultural_note": ""
+        },
+        "américain": {
+          "display_format": "**américain:** des États-Unis",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Il faut modérer ses consommations d’alcool» : écrasée de chaleur, la France fête la musique",
+      "original_article_link": "https://www.lefigaro.fr/culture/il-faut-moderer-ses-consommations-d-alcool-ecrasee-de-chaleur-la-france-fete-la-musique-20250621",
+      "original_article_published_date": "2025-06-21T12:18:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France fête la musique malgré la chaleur",
+      "simplified_english_title": "France celebrates music despite the heat",
+      "french_summary": "La France célèbre la Fête de la Musique avec des températures élevées. Les autorités conseillent de boire moins d'alcool.",
+      "english_summary": "France celebrates Music Day with high temperatures. Authorities advise to drink less alcohol.",
+      "contextual_title_explanations": {
+        "\"": {
+          "display_format": "\" : Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "Il faut": {
+          "display_format": "**Il faut:** Il est nécessaire",
+          "explanation": "It is necessary",
+          "cultural_note": ""
+        },
+        "modérer": {
+          "display_format": "**modérer:** réduire",
+          "explanation": "To moderate or reduce",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** ses propres",
+          "explanation": "One's own",
+          "cultural_note": ""
+        },
+        "consommations": {
+          "display_format": "**consommations:** usages",
+          "explanation": "Consumption or usage",
+          "cultural_note": ""
+        },
+        "d’alcool": {
+          "display_format": "**d’alcool:** de l'alcool",
+          "explanation": "Of alcohol",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "écrasée": {
+          "display_format": "**écrasée:** accablée",
+          "explanation": "Overwhelmed",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** température élevée",
+          "explanation": "Heat",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        },
+        "fête": {
+          "display_format": "**fête:** célèbre",
+          "explanation": "Celebrates",
+          "cultural_note": ""
+        },
+        "musique": {
+          "display_format": "**musique:** art sonore",
+          "explanation": "Music",
+          "cultural_note": "Fête de la Musique is a popular annual event in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }

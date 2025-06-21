@@ -3,259 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Trump ne peut pas interdire les admissions d'étudiants étrangers à Harvard",
-      "original_article_link": "https://www.europe1.fr/international/trump-ne-peut-pas-interdire-les-admissions-detudiants-etrangers-a-harvard-760442",
-      "original_article_published_date": "2025-06-21T12:58:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Trump ne peut pas bloquer les étudiants étrangers",
-      "simplified_english_title": "Trump cannot block foreign students",
-      "french_summary": "Un tribunal dit que Trump ne peut pas empêcher les étudiants étrangers d'entrer à Harvard.",
-      "english_summary": "A court says Trump cannot stop foreign students from entering Harvard.",
-      "contextual_title_explanations": {
-        "Trump": {
-          "display_format": "**Trump:** Nom de famille",
-          "explanation": "Name of a U.S. political figure",
-          "cultural_note": "Former U.S. President"
-        },
-        "ne": {
-          "display_format": "**ne:** Particule de négation",
-          "explanation": "Negation particle, used with 'pas'",
-          "cultural_note": ""
-        },
-        "peut pas": {
-          "display_format": "**peut pas:** Ne peut pas",
-          "explanation": "Cannot, informal for 'ne peut pas'",
-          "cultural_note": ""
-        },
-        "interdire": {
-          "display_format": "**interdire:** Empêcher",
-          "explanation": "To forbid or prevent",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "Definite article, 'the'",
-          "cultural_note": ""
-        },
-        "admissions": {
-          "display_format": "**admissions:** Acceptations",
-          "explanation": "Admissions or acceptances",
-          "cultural_note": ""
-        },
-        "d'étudiants": {
-          "display_format": "**d'étudiants:** Des étudiants",
-          "explanation": "Of students, contraction of 'de'",
-          "cultural_note": ""
-        },
-        "étrangers": {
-          "display_format": "**étrangers:** Non-nationaux",
-          "explanation": "Foreign or international",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "Preposition, 'to' or 'at'",
-          "cultural_note": ""
-        },
-        "Harvard": {
-          "display_format": "**Harvard:** Université célèbre",
-          "explanation": "Famous university in the U.S.",
-          "cultural_note": "Ivy League school"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Nucléaire iranien: Emmanuel Macron affirme que la France et ses alliés européens vont \"accélérer les négociations\"",
-      "original_article_link": "https://www.bfmtv.com/politique/video-nucleaire-iranien-emmanuel-macron-affirme-que-la-france-et-ses-allies-europeens-vont-accelerer-les-negociations_VN-202506210213.html",
-      "original_article_published_date": "2025-06-21T12:46:09",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron veut accélérer les négociations sur le nucléaire",
-      "simplified_english_title": "Macron pushes for faster Iran nuclear talks",
-      "french_summary": "Emmanuel Macron dit que la France et ses alliés européens vont accélérer les négociations sur le nucléaire iranien.",
-      "english_summary": "Emmanuel Macron says France and its European allies will speed up negotiations on Iran's nuclear program.",
-      "contextual_title_explanations": {
-        "Nucléaire iranien": {
-          "display_format": "**Nucléaire iranien:** Programme nucléaire de l'Iran",
-          "explanation": "Iran's nuclear program",
-          "cultural_note": "Major international diplomatic issue"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Emmanuel Macron": {
-          "display_format": "**Emmanuel Macron:** Président français",
-          "explanation": "Current French president",
-          "cultural_note": ""
-        },
-        "affirme": {
-          "display_format": "**affirme:** déclare",
-          "explanation": "States or asserts firmly",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**que:** qui",
-          "explanation": "Relative pronoun meaning 'that'",
-          "cultural_note": ""
-        },
-        "la France": {
-          "display_format": "**la France:** Pays européen",
-          "explanation": "French Republic",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** aussi",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**ses:** ses alliés",
-          "explanation": "Its",
-          "cultural_note": ""
-        },
-        "alliés européens": {
-          "display_format": "**alliés européens:** Partenaires en Europe",
-          "explanation": "European allies",
-          "cultural_note": ""
-        },
-        "vont": {
-          "display_format": "**vont:** futur proche",
-          "explanation": "Are going to",
-          "cultural_note": ""
-        },
-        "\"accélérer les négociations\"": {
-          "display_format": "\"**accélérer les négociations:**\" hâter les discussions",
-          "explanation": "Speed up the negotiations",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Environnement: l'ONU valide la création d'un «Giec» de la pollution chimique",
-      "original_article_link": "https://www.rfi.fr/fr/environnement/20250621-environnement-l-onu-valide-la-cr%C3%A9ation-d-un-giec-de-la-pollution-chimique",
-      "original_article_published_date": "2025-06-21T12:38:54",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'ONU crée un groupe pour la pollution chimique",
-      "simplified_english_title": "UN creates group for chemical pollution",
-      "french_summary": "L'ONU a validé la création d'un groupe scientifique pour étudier la pollution chimique, similaire au GIEC pour le climat.",
-      "english_summary": "The UN has approved the creation of a scientific group to study chemical pollution, similar to the IPCC for climate.",
-      "contextual_title_explanations": {
-        "Environnement": {
-          "display_format": "**Environnement:** Nature",
-          "explanation": "Environment or natural surroundings",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "l'ONU": {
-          "display_format": "**l'ONU:** Organisation des Nations Unies",
-          "explanation": "The United Nations",
-          "cultural_note": ""
-        },
-        "valide": {
-          "display_format": "**valide:** approuve",
-          "explanation": "Validates or approves",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** article défini",
-          "explanation": "Definite article 'the'",
-          "cultural_note": ""
-        },
-        "création": {
-          "display_format": "**création:** établissement",
-          "explanation": "Creation or establishment",
-          "cultural_note": ""
-        },
-        "d'un": {
-          "display_format": "**d'un:** d'un",
-          "explanation": "Contraction of 'de un' meaning 'of a'",
-          "cultural_note": ""
-        },
-        "«Giec»": {
-          "display_format": "«**Giec**» Groupe d'experts intergouvernemental sur l'évolution du climat",
-          "explanation": "IPCC, climate science body",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** de",
-          "explanation": "Of or about",
-          "cultural_note": ""
-        },
-        "pollution": {
-          "display_format": "**pollution:** pollution",
-          "explanation": "Pollution or contamination",
-          "cultural_note": ""
-        },
-        "chimique": {
-          "display_format": "**chimique:** chimique",
-          "explanation": "Chemical",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Leila Sansour, cinéaste : « La reconnaissance de la Palestine par la France inciterait d’autres pays à lui emboîter le pas »",
       "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/21/leila-sansour-cineaste-la-reconnaissance-de-la-palestine-par-la-france-inciterait-d-autres-pays-a-lui-emboiter-le-pas_6615084_3232.html",
       "original_article_published_date": "2025-06-21T12:30:11",
@@ -384,183 +131,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T12:35:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "«Il faut modérer ses consommations d’alcool» : écrasée de chaleur, la France fête la musique",
-      "original_article_link": "https://www.lefigaro.fr/culture/il-faut-moderer-ses-consommations-d-alcool-ecrasee-de-chaleur-la-france-fete-la-musique-20250621",
-      "original_article_published_date": "2025-06-21T12:18:00",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France fête la musique malgré la chaleur",
-      "simplified_english_title": "France celebrates music despite the heat",
-      "french_summary": "La France célèbre la Fête de la Musique avec des températures élevées. Les autorités conseillent de boire moins d'alcool.",
-      "english_summary": "France celebrates Music Day with high temperatures. Authorities advise to drink less alcohol.",
-      "contextual_title_explanations": {
-        "\"": {
-          "display_format": "\" : Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "Il faut": {
-          "display_format": "**Il faut:** Il est nécessaire",
-          "explanation": "It is necessary",
-          "cultural_note": ""
-        },
-        "modérer": {
-          "display_format": "**modérer:** réduire",
-          "explanation": "To moderate or reduce",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**ses:** ses propres",
-          "explanation": "One's own",
-          "cultural_note": ""
-        },
-        "consommations": {
-          "display_format": "**consommations:** usages",
-          "explanation": "Consumption or usage",
-          "cultural_note": ""
-        },
-        "d’alcool": {
-          "display_format": "**d’alcool:** de l'alcool",
-          "explanation": "Of alcohol",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** deux-points",
-          "explanation": "Colon",
-          "cultural_note": ""
-        },
-        "écrasée": {
-          "display_format": "**écrasée:** accablée",
-          "explanation": "Overwhelmed",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** par",
-          "explanation": "By",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**chaleur:** température élevée",
-          "explanation": "Heat",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** pays européen",
-          "explanation": "France, a European country",
-          "cultural_note": ""
-        },
-        "fête": {
-          "display_format": "**fête:** célèbre",
-          "explanation": "Celebrates",
-          "cultural_note": ""
-        },
-        "musique": {
-          "display_format": "**musique:** art sonore",
-          "explanation": "Music",
-          "cultural_note": "Fête de la Musique is a popular annual event in France"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Le Collège de France au secours des chercheurs en danger",
-      "original_article_link": "https://www.lepoint.fr/science/le-college-de-france-au-secours-des-chercheurs-en-danger-21-06-2025-2592574_25.php",
-      "original_article_published_date": "2025-06-21T12:00:00",
-      "source_name": "Le Point",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Collège de France aide les chercheurs en danger",
-      "simplified_english_title": "Collège de France helps researchers in danger",
-      "french_summary": "Le Collège de France offre un soutien aux chercheurs menacés dans leur pays. Ils peuvent continuer leur travail en sécurité.",
-      "english_summary": "The Collège de France supports researchers threatened in their home countries. They can continue their work safely.",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**Le:** Article défini",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "Collège de France": {
-          "display_format": "**Collège de France:** Institution prestigieuse",
-          "explanation": "Prestigious French research institution",
-          "cultural_note": "Unique institution for advanced research"
-        },
-        "au": {
-          "display_format": "**au:** à le",
-          "explanation": "To the (contraction)",
-          "cultural_note": ""
-        },
-        "secours": {
-          "display_format": "**secours:** Aide urgente",
-          "explanation": "Emergency aid or assistance",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Some (plural indefinite article)",
-          "cultural_note": ""
-        },
-        "chercheurs": {
-          "display_format": "**chercheurs:** Scientifiques",
-          "explanation": "Researchers or scientists",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans un état",
-          "explanation": "In a state (preposition)",
-          "cultural_note": ""
-        },
-        "danger": {
-          "display_format": "**danger:** Risque grave",
-          "explanation": "Serious risk or danger",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1261,67 +831,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Attentat-suicide: 20 combattants anti-jihadistes tués",
-      "original_article_link": "https://www.20min.ch/fr/story/nigeria-attentat-suicide-20-combattants-anti-jihadistes-tues-103368070",
-      "original_article_published_date": "2025-06-21T10:27:53",
-      "source_name": "20 Minutes",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "20 soldats tués dans un attentat-suicide",
-      "simplified_english_title": "20 soldiers killed in suicide attack",
-      "french_summary": "Un attentat-suicide a causé la mort de 20 combattants qui luttaient contre les jihadistes.",
-      "english_summary": "A suicide attack killed 20 fighters who were battling jihadists.",
-      "contextual_title_explanations": {
-        "Attentat-suicide": {
-          "display_format": "**Attentat-suicide:** Attentat mortel",
-          "explanation": "Suicide attack",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "20": {
-          "display_format": "**20:** Vingt",
-          "explanation": "Number twenty",
-          "cultural_note": ""
-        },
-        "combattants": {
-          "display_format": "**combattants:** Personnes combattantes",
-          "explanation": "Fighters or combatants",
-          "cultural_note": ""
-        },
-        "anti-jihadistes": {
-          "display_format": "**anti-jihadistes:** Opposés aux jihadistes",
-          "explanation": "Anti-jihadist",
-          "cultural_note": ""
-        },
-        "tués": {
-          "display_format": "**tués:** Mis à mort",
-          "explanation": "Killed",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Guerre Israël-Iran : en bloquant le détroit d'Ormuz, Téhéran \"signerait son arrêt de mort\"",
       "original_article_link": "https://www.france24.com/fr/moyen-orient/20250621-guerre-isra%C3%ABl-iran-bloquant-d%C3%A9troit-ormuz-t%C3%A9h%C3%A9ran-signerait-arr%C3%AAt-de-mort",
       "original_article_published_date": "2025-06-21T10:24:30",
@@ -1531,97 +1040,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T10:55:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "En raison de la canicule, les Ehpad sont extrêmement vigilants envers les personnes vulnérables",
-      "original_article_link": "https://www.bfmtv.com/societe/video-en-raison-de-la-canicule-les-ehpad-sont-extremement-vigilants-envers-les-personnes-vulnerables_VN-202506210180.html",
-      "original_article_published_date": "2025-06-21T10:20:24",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Canicule : les Ehpad protègent les personnes fragiles",
-      "simplified_english_title": "Heatwave: Nursing homes protect vulnerable people",
-      "french_summary": "Les maisons de retraite prennent des mesures spéciales pour protéger les résidents pendant la vague de chaleur.",
-      "english_summary": "Nursing homes are taking special measures to protect residents during the heatwave.",
-      "contextual_title_explanations": {
-        "En raison de": {
-          "display_format": "**En raison de:** À cause de",
-          "explanation": "Due to, because of",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**canicule:** Vague de chaleur",
-          "explanation": "Heatwave, extreme heat",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, indicating a pause",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "Ehpad": {
-          "display_format": "**Ehpad:** Établissement d'hébergement pour personnes âgées dépendantes",
-          "explanation": "Nursing homes for elderly",
-          "cultural_note": "French term for elderly care homes"
-        },
-        "sont": {
-          "display_format": "**sont:** Forme du verbe être",
-          "explanation": "Are (third person plural)",
-          "cultural_note": ""
-        },
-        "extrêmement": {
-          "display_format": "**extrêmement:** Très",
-          "explanation": "Extremely, very",
-          "cultural_note": ""
-        },
-        "vigilants": {
-          "display_format": "**vigilants:** Attentifs",
-          "explanation": "Vigilant, watchful",
-          "cultural_note": ""
-        },
-        "envers": {
-          "display_format": "**envers:** À l'égard de",
-          "explanation": "Towards, regarding",
-          "cultural_note": ""
-        },
-        "personnes": {
-          "display_format": "**personnes:** Individus",
-          "explanation": "People, individuals",
-          "cultural_note": ""
-        },
-        "vulnérables": {
-          "display_format": "**vulnérables:** Fragiles",
-          "explanation": "Vulnerable, at-risk",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -2208,62 +1626,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T11:16:24",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La Semaine Politique du 21/06/2025",
-      "original_article_link": "https://www.europe1.fr/emissions/la-semaine-politique/la-semaine-politique-du-21-06-2025-760441",
-      "original_article_published_date": "2025-06-21T09:38:25",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Actualités politiques de la semaine",
-      "simplified_english_title": "Weekly Political News",
-      "french_summary": "Les dernières nouvelles politiques de la semaine sont présentées et analysées dans cette émission spéciale.",
-      "english_summary": "The latest political news of the week is presented and analyzed in this special program.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "Semaine": {
-          "display_format": "**Semaine:** Période de sept jours",
-          "explanation": "Week",
-          "cultural_note": ""
-        },
-        "Politique": {
-          "display_format": "**Politique:** Relatif à la politique",
-          "explanation": "Political",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** Contraction de 'de le'",
-          "explanation": "Of the",
-          "cultural_note": ""
-        },
-        "21/06/2025": {
-          "display_format": "**21/06/2025:** Date",
-          "explanation": "Date format: day/month/year",
-          "cultural_note": "French date format"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -3677,92 +3039,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "1776 : comment des colons britanniques ont posé les bases de l’impérialisme américain",
-      "original_article_link": "https://www.nouvelobs.com/idees/20250621.OBS105154/1776-comment-des-colons-britanniques-ont-pose-les-bases-de-l-imperialisme-americain.html",
-      "original_article_published_date": "2025-06-21T08:00:08",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "1776 : les débuts de l'impérialisme américain",
-      "simplified_english_title": "1776: The start of American imperialism",
-      "french_summary": "En 1776, des colons britanniques ont créé les États-Unis, posant les bases de son futur impérialisme.",
-      "english_summary": "In 1776, British colonists created the United States, laying the foundation for its future imperialism.",
-      "contextual_title_explanations": {
-        "1776": {
-          "display_format": "**1776:** année",
-          "explanation": "Year of American Independence",
-          "cultural_note": "Key date in US history"
-        },
-        ":": {
-          "display_format": "**:** deux-points",
-          "explanation": "Introduces an explanation",
-          "cultural_note": ""
-        },
-        "comment": {
-          "display_format": "**comment:** manière",
-          "explanation": "How, in what way",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** articles indéfinis",
-          "explanation": "Plural indefinite article",
-          "cultural_note": ""
-        },
-        "colons britanniques": {
-          "display_format": "**colons britanniques:** sujets du Royaume-Uni",
-          "explanation": "British settlers",
-          "cultural_note": ""
-        },
-        "ont posé": {
-          "display_format": "**ont posé:** ont établi",
-          "explanation": "Have set",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** articles définis",
-          "explanation": "Definite article",
-          "cultural_note": ""
-        },
-        "bases": {
-          "display_format": "**bases:** fondations",
-          "explanation": "Foundations, principles",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** préposition",
-          "explanation": "Preposition indicating possession",
-          "cultural_note": ""
-        },
-        "l’impérialisme": {
-          "display_format": "**l’impérialisme:** domination politique",
-          "explanation": "Policy of extending power",
-          "cultural_note": ""
-        },
-        "américain": {
-          "display_format": "**américain:** des États-Unis",
-          "explanation": "Relating to the USA",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "« Tu ne vas quand même pas acheter des bouteilles en plastique ? » : quand les enfants éduquent leurs parents",
       "original_article_link": "https://www.lemonde.fr/m-le-mag/article/2025/06/21/tu-ne-vas-quand-meme-pas-acheter-des-bouteilles-en-plastique-quand-les-enfants-eduquent-leurs-parents_6615062_4500055.html",
       "original_article_published_date": "2025-06-21T08:00:03",
@@ -4285,87 +3561,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T08:23:16",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Ces quatre chercheurs ne désespèrent pas de comprendre le trumpisme",
-      "original_article_link": "https://www.nouvelobs.com/idees/20250621.OBS105152/ces-quatre-chercheurs-ne-desesperent-pas-de-comprendre-le-trumpisme.html",
-      "original_article_published_date": "2025-06-21T07:00:13",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des chercheurs étudient le trumpisme",
-      "simplified_english_title": "Researchers study Trumpism",
-      "french_summary": "Quatre chercheurs continuent leurs études pour mieux comprendre le phénomène politique appelé trumpisme.",
-      "english_summary": "Four researchers continue their studies to better understand the political phenomenon called Trumpism.",
-      "contextual_title_explanations": {
-        "Ces": {
-          "display_format": "**Ces:** Ces",
-          "explanation": "These",
-          "cultural_note": ""
-        },
-        "quatre": {
-          "display_format": "**quatre:** nombre",
-          "explanation": "Four",
-          "cultural_note": ""
-        },
-        "chercheurs": {
-          "display_format": "**chercheurs:** scientifiques",
-          "explanation": "Researchers",
-          "cultural_note": ""
-        },
-        "ne": {
-          "display_format": "**ne:** négation",
-          "explanation": "Not",
-          "cultural_note": "Part of a negative construction"
-        },
-        "désespèrent": {
-          "display_format": "**désespèrent:** ne perdent pas espoir",
-          "explanation": "Do not despair",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** négation",
-          "explanation": "Not",
-          "cultural_note": "Part of a negative construction"
-        },
-        "de": {
-          "display_format": "**de:** de",
-          "explanation": "Of/from",
-          "cultural_note": ""
-        },
-        "comprendre": {
-          "display_format": "**comprendre:** saisir",
-          "explanation": "To understand",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** le",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "trumpisme": {
-          "display_format": "**trumpisme:** phénomène politique",
-          "explanation": "Trumpism",
-          "cultural_note": "Political ideology associated with Donald Trump"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T13:26:49",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -9730,6 +8925,976 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-20T19:15:05",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"C'est une catastrophe\": plus de 30°C relevés au sein d'une école de Villeurbanne",
+      "original_article_link": "https://www.bfmtv.com/lyon/c-est-une-catastrophe-des-temperatures-tres-elevees-dans-le-groupe-scolaire-anatole-france-de-villeurbanne_AV-202506200706.html",
+      "original_article_published_date": "2025-06-20T17:58:03",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait trop chaud dans une école",
+      "simplified_english_title": "School too hot in Villeurbanne",
+      "french_summary": "Une école à Villeurbanne a enregistré plus de 30 degrés, ce qui pose un problème pour les élèves et les enseignants.",
+      "english_summary": "A school in Villeurbanne recorded temperatures over 30 degrees, causing issues for students and teachers.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "C'est": {
+          "display_format": "**C'est:** Cela est",
+          "explanation": "This is",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, singular feminine",
+          "cultural_note": ""
+        },
+        "catastrophe": {
+          "display_format": "**catastrophe:** Désastre",
+          "explanation": "Disaster or catastrophe",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Davantage",
+          "explanation": "More or plus",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Article partitif",
+          "explanation": "Partitive article or of",
+          "cultural_note": ""
+        },
+        "30°C": {
+          "display_format": "**30°C:** Trente degrés Celsius",
+          "explanation": "Thirty degrees Celsius",
+          "cultural_note": ""
+        },
+        "relevés": {
+          "display_format": "**relevés:** Mesurés",
+          "explanation": "Recorded or measured",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the or at the",
+          "cultural_note": ""
+        },
+        "sein": {
+          "display_format": "**sein:** Intérieur",
+          "explanation": "Within or inside",
+          "cultural_note": ""
+        },
+        "d'une": {
+          "display_format": "**d'une:** De une",
+          "explanation": "Of a or from a",
+          "cultural_note": ""
+        },
+        "école": {
+          "display_format": "**école:** École",
+          "explanation": "School",
+          "cultural_note": ""
+        },
+        "Villeurbanne": {
+          "display_format": "**Villeurbanne:** Ville française",
+          "explanation": "French city near Lyon",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Chaleur intense: les panneaux solaires tournent à plein régime",
+      "original_article_link": "https://www.bfmtv.com/economie/video-chaleur-intense-les-panneaux-solaires-tournent-a-plein-regime_VN-202506200707.html",
+      "original_article_published_date": "2025-06-20T17:57:20",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait chaud, les panneaux solaires fonctionnent bien",
+      "simplified_english_title": "Heatwave boosts solar panel output",
+      "french_summary": "Avec les fortes chaleurs, les panneaux solaires produisent beaucoup d'électricité en France.",
+      "english_summary": "The intense heat is causing solar panels to generate a lot of electricity in France.",
+      "contextual_title_explanations": {
+        "Chaleur": {
+          "display_format": "**Chaleur:** température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        "intense": {
+          "display_format": "**intense:** très forte",
+          "explanation": "Intense, very strong",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "panneaux solaires": {
+          "display_format": "**panneaux solaires:** dispositifs énergie solaire",
+          "explanation": "Solar panels, devices capturing solar energy",
+          "cultural_note": ""
+        },
+        "tournent": {
+          "display_format": "**tournent:** fonctionnent",
+          "explanation": "Verb, 'are running' or 'are working'",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** préposition",
+          "explanation": "Preposition, 'at' or 'to'",
+          "cultural_note": ""
+        },
+        "plein": {
+          "display_format": "**plein:** complet",
+          "explanation": "Full, complete",
+          "cultural_note": ""
+        },
+        "régime": {
+          "display_format": "**régime:** capacité maximale",
+          "explanation": "Full capacity, maximum output",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran: «Nous craignons vraiment pour la vie des prisonniers en Iran»",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250620-guerre-isra%C3%ABl-iran-nous-craignons-vraiment-pour-la-vie-des-prisonniers-en-iran",
+      "original_article_published_date": "2025-06-20T17:52:34",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Peur pour les prisonniers en Iran",
+      "simplified_english_title": "Fear for prisoners in Iran",
+      "french_summary": "Des craintes existent pour la vie des prisonniers en Iran à cause de la guerre entre Israël et l'Iran.",
+      "english_summary": "There are fears for the lives of prisoners in Iran due to the war between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays",
+          "explanation": "Israel and Iran",
+          "cultural_note": "Countries with tense relations"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "«: Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Nous": {
+          "display_format": "**Nous:** Nous-mêmes",
+          "explanation": "We, us",
+          "cultural_note": ""
+        },
+        "craignons": {
+          "display_format": "**craignons:** Avoir peur",
+          "explanation": "Fear, are afraid",
+          "cultural_note": ""
+        },
+        "vraiment": {
+          "display_format": "**vraiment:** Réellement",
+          "explanation": "Really, truly",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For, on behalf of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "vie": {
+          "display_format": "**vie:** Existence",
+          "explanation": "Life",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Some (plural)",
+          "cultural_note": ""
+        },
+        "prisonniers": {
+          "display_format": "**prisonniers:** Détenus",
+          "explanation": "Prisoners",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays",
+          "explanation": "Iran, country",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire iranien: les Européens appellent Téhéran à négocier \"sans attendre l'arrêt des frappes\" israéliennes",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/nucleaire-iranien-les-europeens-assurent-qu-il-n-existe-pas-de-solution-definitive-par-la-voie-militaire_AD-202506200693.html",
+      "original_article_published_date": "2025-06-20T17:46:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Europe veut des négociations avec l'Iran",
+      "simplified_english_title": "Europe urges talks with Iran",
+      "french_summary": "Les pays européens demandent à l'Iran de commencer des négociations sans attendre la fin des frappes israéliennes.",
+      "english_summary": "European countries ask Iran to start negotiations without waiting for the end of Israeli strikes.",
+      "contextual_title_explanations": {
+        "Nucléaire": {
+          "display_format": "**Nucléaire:** Relatif à l'énergie atomique",
+          "explanation": "Relating to nuclear energy or weapons",
+          "cultural_note": ""
+        },
+        "iranien": {
+          "display_format": "**iranien:** Relatif à l'Iran",
+          "explanation": "Relating to Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les Européens": {
+          "display_format": "**les Européens:** Habitants de l'Europe",
+          "explanation": "Europeans",
+          "cultural_note": ""
+        },
+        "appellent": {
+          "display_format": "**appellent:** Demandent",
+          "explanation": "Call or urge",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition meaning 'to'",
+          "cultural_note": ""
+        },
+        "négocier": {
+          "display_format": "**négocier:** Discuter pour un accord",
+          "explanation": "To negotiate",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**sans:** Sans délai",
+          "explanation": "Without",
+          "cultural_note": ""
+        },
+        "attendre": {
+          "display_format": "**attendre:** Patienter",
+          "explanation": "To wait",
+          "cultural_note": ""
+        },
+        "l'arrêt": {
+          "display_format": "**l'arrêt:** La cessation",
+          "explanation": "The stoppage",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Indefinite article",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "israéliennes": {
+          "display_format": "**israéliennes:** Relatif à Israël",
+          "explanation": "Relating to Israel",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël/Iran: \"Pas de solution définitive par la voie militaire\", réagit Jean-Noël Barrot après les négociations à Genève",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-conflit-israel-iran-pas-de-solution-definitive-par-la-voie-militaire-reagit-jean-noel-barrot-apres-les-negociations-a-geneve_VN-202506200685.html",
+      "original_article_published_date": "2025-06-20T17:32:44",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pas de solution militaire pour Israël et Iran",
+      "simplified_english_title": "No military solution for Israel and Iran",
+      "french_summary": "Jean-Noël Barrot dit qu'il n'y a pas de solution militaire après les négociations à Genève entre Israël et l'Iran.",
+      "english_summary": "Jean-Noël Barrot says there is no military solution after the Geneva negotiations between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or violent disagreement",
+          "cultural_note": ""
+        },
+        "Israël/Iran": {
+          "display_format": "**Israël/Iran:** Pays du Moyen-Orient",
+          "explanation": "Countries in the Middle East",
+          "cultural_note": ""
+        },
+        "Pas de": {
+          "display_format": "**Pas de:** Négation",
+          "explanation": "Negation, meaning 'no'",
+          "cultural_note": ""
+        },
+        "solution": {
+          "display_format": "**solution:** Résolution",
+          "explanation": "Solution or resolution",
+          "cultural_note": ""
+        },
+        "définitive": {
+          "display_format": "**définitive:** Permanente",
+          "explanation": "Permanent or final",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par le moyen de",
+          "explanation": "By means of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "voie": {
+          "display_format": "**voie:** Chemin",
+          "explanation": "Way or path",
+          "cultural_note": ""
+        },
+        "militaire": {
+          "display_format": "**militaire:** Relatif à l'armée",
+          "explanation": "Related to the military",
+          "cultural_note": ""
+        },
+        "réagit": {
+          "display_format": "**réagit:** Répond",
+          "explanation": "Responds or reacts",
+          "cultural_note": ""
+        },
+        "Jean-Noël Barrot": {
+          "display_format": "**Jean-Noël Barrot:** Homme politique français",
+          "explanation": "French politician",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite temporelle",
+          "explanation": "After in time",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Plural definite article 'the'",
+          "cultural_note": ""
+        },
+        "négociations": {
+          "display_format": "**négociations:** Discussions",
+          "explanation": "Negotiations or discussions",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition de lieu",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "Genève": {
+          "display_format": "**Genève:** Ville suisse",
+          "explanation": "City in Switzerland",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Roumanie, le pro-européen Ilie Bolojan a été nommé Premier ministre, mettant fin à des mois de chaos politique",
+      "original_article_link": "https://www.franceinfo.fr/monde/europe/en-roumanie-le-pro-europeen-ilie-bolojan-nomme-premier-ministre-mettant-fin-a-des-mois-de-chaos-politique_7326759.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T17:17:31",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouveau Premier ministre en Roumanie",
+      "simplified_english_title": "Romania gets new Prime Minister",
+      "french_summary": "Ilie Bolojan, pro-européen, est nommé Premier ministre de Roumanie après des mois de crise politique.",
+      "english_summary": "Pro-European Ilie Bolojan is appointed Romania's Prime Minister after months of political crisis.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Dans",
+          "explanation": "In, inside (location)",
+          "cultural_note": ""
+        },
+        "Roumanie": {
+          "display_format": "**Roumanie:** Pays d'Europe",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, short pause",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "pro-européen": {
+          "display_format": "**pro-européen:** En faveur de l'Europe",
+          "explanation": "Pro-European, supporting EU",
+          "cultural_note": ""
+        },
+        "Ilie Bolojan": {
+          "display_format": "**Ilie Bolojan:** Nom d'une personne",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "a été nommé": {
+          "display_format": "**a été nommé:** A été choisi",
+          "explanation": "Has been appointed",
+          "cultural_note": ""
+        },
+        "Premier ministre": {
+          "display_format": "**Premier ministre:** Chef du gouvernement",
+          "explanation": "Prime Minister, head of government",
+          "cultural_note": ""
+        },
+        "mettant fin": {
+          "display_format": "**mettant fin:** Terminant",
+          "explanation": "Putting an end to",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À, vers",
+          "explanation": "To, at",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some, plural indefinite article",
+          "cultural_note": ""
+        },
+        "mois": {
+          "display_format": "**mois:** Période de temps",
+          "explanation": "Months",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De, provenant de",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "chaos": {
+          "display_format": "**chaos:** Désordre total",
+          "explanation": "Chaos, total disorder",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Political, related to politics",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T20:20:45",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran: quels sont les risques des bombardements des sites nucléaires?",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250620-guerre-isra%C3%ABl-iran-quels-sont-les-risques-des-bombardements-des-sites-nucl%C3%A9aires",
+      "original_article_published_date": "2025-06-20T17:15:57",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Risques des attaques sur les sites nucléaires iranien",
+      "simplified_english_title": "Risks of attacks on Iranian nuclear sites",
+      "french_summary": "Les bombardements des sites nucléaires en Iran pourraient avoir des conséquences graves et étendre le conflit.",
+      "english_summary": "Bombing Iranian nuclear sites could have serious consequences and widen the conflict.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays en conflit",
+          "explanation": "Israel and Iran, countries in conflict",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "quels": {
+          "display_format": "**quels:** Quels sont",
+          "explanation": "Which or what are",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être (3e personne pluriel)",
+          "explanation": "Are (third person plural)",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "risques": {
+          "display_format": "**risques:** Dangers potentiels",
+          "explanation": "Potential dangers or risks",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Some (indefinite article)",
+          "cultural_note": ""
+        },
+        "bombardements": {
+          "display_format": "**bombardements:** Attaques aériennes",
+          "explanation": "Aerial attacks or bombings",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux spécifiques",
+          "explanation": "Specific locations or sites",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Relatif à l'énergie nucléaire",
+          "explanation": "Related to nuclear energy",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T18:26:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël maintient la pression en menaçant de faire tomber la République islamique",
+      "original_article_link": "https://www.lefigaro.fr/international/israel-maintient-la-pression-en-menacant-de-faire-tomber-la-republique-islamique-20250620",
+      "original_article_published_date": "2025-06-20T17:15:20",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël menace la République islamique",
+      "simplified_english_title": "Israel threatens the Islamic Republic",
+      "french_summary": "Israël continue d'exercer des pressions en menaçant la République islamique, créant des tensions internationales.",
+      "english_summary": "Israel continues to pressure by threatening the Islamic Republic, causing international tensions.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "maintient": {
+          "display_format": "**maintient:** garde, continue",
+          "explanation": "Keeps, continues to apply",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "pression": {
+          "display_format": "**pression:** force exercée",
+          "explanation": "Pressure, influence exerted",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** par, au moyen de",
+          "explanation": "By, through",
+          "cultural_note": ""
+        },
+        "menaçant": {
+          "display_format": "**menaçant:** menaçant",
+          "explanation": "Threatening",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of, to",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**faire:** réaliser",
+          "explanation": "To make, to do",
+          "cultural_note": ""
+        },
+        "tomber": {
+          "display_format": "**tomber:** renverser",
+          "explanation": "To fall, to overthrow",
+          "cultural_note": ""
+        },
+        "République islamique": {
+          "display_format": "**République islamique:** État gouverné par l'islam",
+          "explanation": "Islamic Republic, state governed by Islamic laws",
+          "cultural_note": "Often refers to Iran"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T19:15:05",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Immigration : 620 étrangers en situation irrégulière interpellés, selon le ministère de l'Intérieur",
+      "original_article_link": "https://www.europe1.fr/politique/immigration-620-etrangers-en-situation-irreguliere-interpelles-selon-le-ministere-de-linterieur-760353",
+      "original_article_published_date": "2025-06-20T17:12:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "620 étrangers arrêtés sans papiers",
+      "simplified_english_title": "620 foreigners arrested without papers",
+      "french_summary": "Le ministère de l'Intérieur a annoncé l'arrestation de 620 étrangers sans papiers légaux en France.",
+      "english_summary": "The Interior Ministry announced the arrest of 620 foreigners without legal papers in France.",
+      "contextual_title_explanations": {
+        "Immigration": {
+          "display_format": "**Immigration:** Entrée dans un pays",
+          "explanation": "Movement of people into a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "620": {
+          "display_format": "**620:** Six cent vingt",
+          "explanation": "Number six hundred twenty",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**étrangers:** Personnes non nationales",
+          "explanation": "Foreigners, non-nationals",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In a certain state",
+          "cultural_note": ""
+        },
+        "situation irrégulière": {
+          "display_format": "**situation irrégulière:** Statut illégal",
+          "explanation": "Illegal status, undocumented",
+          "cultural_note": ""
+        },
+        "interpellés": {
+          "display_format": "**interpellés:** Arrêtés",
+          "explanation": "Arrested, detained",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separates clauses",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**selon:** D'après",
+          "explanation": "According to",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "ministère de l'Intérieur": {
+          "display_format": "**ministère de l'Intérieur:** Autorité gouvernementale",
+          "explanation": "Government authority for internal affairs",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T03:12:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire: le groupe français Orano dénonce la \"nationalisation\" de sa filiale Somaïr au Niger",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/nucleaire-le-groupe-francais-orano-denonce-la-nationalisation-de-sa-filiale-somair-au-niger_AD-202506200667.html",
+      "original_article_published_date": "2025-06-20T17:01:41",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Orano critique la nationalisation de sa filiale au Niger",
+      "simplified_english_title": "Orano criticizes Niger's nationalization move",
+      "french_summary": "Le groupe français Orano exprime son mécontentement face à la nationalisation de sa filiale Somaïr par le gouvernement du Niger.",
+      "english_summary": "The French group Orano expresses discontent over the nationalization of its subsidiary Somaïr by the Niger government.",
+      "contextual_title_explanations": {
+        "Nucléaire": {
+          "display_format": "**Nucléaire:** Relatif à l'énergie atomique",
+          "explanation": "Concerning nuclear energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "groupe": {
+          "display_format": "**groupe:** Ensemble d'entreprises",
+          "explanation": "Group of companies",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De France",
+          "explanation": "French, from France",
+          "cultural_note": ""
+        },
+        "Orano": {
+          "display_format": "**Orano:** Entreprise nucléaire",
+          "explanation": "French nuclear energy company",
+          "cultural_note": "Formerly known as Areva"
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** Critique publiquement",
+          "explanation": "Publicly criticizes",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "\"nationalisation\"": {
+          "display_format": "**\"nationalisation\":** Prise de contrôle par l'État",
+          "explanation": "State takeover",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "Its, possessive",
+          "cultural_note": ""
+        },
+        "filiale": {
+          "display_format": "**filiale:** Société contrôlée",
+          "explanation": "Subsidiary company",
+          "cultural_note": ""
+        },
+        "Somaïr": {
+          "display_format": "**Somaïr:** Société minière",
+          "explanation": "Mining company in Niger",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the, in the",
+          "cultural_note": ""
+        },
+        "Niger": {
+          "display_format": "**Niger:** Pays africain",
+          "explanation": "African country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
