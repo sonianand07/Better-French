@@ -29624,6 +29624,946 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gaza : la population a « désespérément besoin de plus d’aide » alerte la fondation humanitaire GHF",
+      "original_article_link": "https://www.ouest-france.fr/monde/gaza/gaza-la-population-a-desesperement-besoin-de-plus-daide-alerte-la-fondation-humanitaire-ghf-9830b458-4ee4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T21:51:36",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Gaza a besoin de plus d'aide",
+      "simplified_english_title": "Gaza needs more aid urgently",
+      "french_summary": "La fondation GHF dit que la population de Gaza a besoin de plus d'aide humanitaire de toute urgence.",
+      "english_summary": "The GHF foundation says the population in Gaza urgently needs more humanitarian aid.",
+      "contextual_title_explanations": {
+        "Gaza": {
+          "display_format": "**Gaza:** Territoire palestinien",
+          "explanation": "Palestinian territory in Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "population": {
+          "display_format": "**population:** Habitants",
+          "explanation": "People living in a place",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** Avoir (présent)",
+          "explanation": "Third person singular of 'avoir'",
+          "cultural_note": ""
+        },
+        "désespérément": {
+          "display_format": "**désespérément:** Urgemment",
+          "explanation": "Desperately, urgently",
+          "cultural_note": ""
+        },
+        "besoin": {
+          "display_format": "**besoin:** Nécessité",
+          "explanation": "Need, requirement",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of'",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Davantage",
+          "explanation": "More, additional",
+          "cultural_note": ""
+        },
+        "d’aide": {
+          "display_format": "**d’aide:** De l'assistance",
+          "explanation": "Of help, assistance",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertit",
+          "explanation": "Warns, alerts",
+          "cultural_note": ""
+        },
+        "fondation": {
+          "display_format": "**fondation:** Organisation",
+          "explanation": "Foundation, organization",
+          "cultural_note": ""
+        },
+        "humanitaire": {
+          "display_format": "**humanitaire:** D'aide",
+          "explanation": "Humanitarian, providing aid",
+          "cultural_note": ""
+        },
+        "GHF": {
+          "display_format": "**GHF:** Nom d'organisation",
+          "explanation": "Name of humanitarian organization",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Football: la célébration du titre du MC Alger vire au drame",
+      "original_article_link": "https://www.rfi.fr/fr/afrique-foot/20250621-football-la-c%C3%A9l%C3%A9bration-du-titre-du-mc-alger-vire-au-drame",
+      "original_article_published_date": "2025-06-21T21:46:49",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Fête du titre du MC Alger devient tragique",
+      "simplified_english_title": "MC Alger title celebration turns tragic",
+      "french_summary": "La célébration du titre du MC Alger a mal tourné, causant des scènes de panique et des blessures parmi les supporters.",
+      "english_summary": "The MC Alger title celebration went wrong, causing panic and injuries among the fans.",
+      "contextual_title_explanations": {
+        "Football": {
+          "display_format": "**Football:** Sport populaire",
+          "explanation": "Soccer in American English",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "célébration": {
+          "display_format": "**célébration:** Fête joyeuse",
+          "explanation": "Celebration or festivity",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "titre": {
+          "display_format": "**titre:** Victoire remportée",
+          "explanation": "Title or championship won",
+          "cultural_note": ""
+        },
+        "MC Alger": {
+          "display_format": "**MC Alger:** Club de football",
+          "explanation": "Algerian football club",
+          "cultural_note": "Mouloudia Club d'Alger, based in Algiers"
+        },
+        "vire": {
+          "display_format": "**vire:** Tourne mal",
+          "explanation": "Turns or goes wrong",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** Article contracté",
+          "explanation": "To the (masculine singular)",
+          "cultural_note": ""
+        },
+        "drame": {
+          "display_format": "**drame:** Événement tragique",
+          "explanation": "Drama or tragic event",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Football. Une barrière tombe et entraîne la mort d’un supporter en marge de célébrations en Algérie",
+      "original_article_link": "https://www.ouest-france.fr/sport/football/football-une-barriere-tombe-et-entraine-la-mort-dun-supporter-en-marge-de-celebrations-en-algerie-a541d570-4ee7-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T21:49:35",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un supporter meurt lors des célébrations en Algérie",
+      "simplified_english_title": "Fan dies during celebrations in Algeria",
+      "french_summary": "Un supporter est mort après qu'une barrière est tombée pendant les célébrations de football en Algérie.",
+      "english_summary": "A fan died after a barrier fell during football celebrations in Algeria.",
+      "contextual_title_explanations": {
+        "Football": {
+          "display_format": "**Football:** Sport populaire",
+          "explanation": "Soccer in American English",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Une": {
+          "display_format": "**Une:** Article indéfini",
+          "explanation": "Indefinite article, feminine singular",
+          "cultural_note": ""
+        },
+        "barrière": {
+          "display_format": "**barrière:** Obstacle physique",
+          "explanation": "Barrier or fence",
+          "cultural_note": ""
+        },
+        "tombe": {
+          "display_format": "**tombe:** Chute soudaine",
+          "explanation": "Falls suddenly",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "entraîne": {
+          "display_format": "**entraîne:** Cause",
+          "explanation": "Leads to or causes",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "mort": {
+          "display_format": "**mort:** Décès",
+          "explanation": "Death",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** De un",
+          "explanation": "Of a (masculine singular)",
+          "cultural_note": ""
+        },
+        "supporter": {
+          "display_format": "**supporter:** Fan de sport",
+          "explanation": "Sports fan or supporter",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "marge": {
+          "display_format": "**marge:** Bordure",
+          "explanation": "Margin or edge",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "célébrations": {
+          "display_format": "**célébrations:** Fêtes",
+          "explanation": "Celebrations",
+          "cultural_note": ""
+        },
+        "Algérie": {
+          "display_format": "**Algérie:** Pays d'Afrique",
+          "explanation": "Algeria, a country in North Africa",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ligue des nations féminine de volley. La France s’offre la Serbie et rêve de la phase finale",
+      "original_article_link": "https://www.ouest-france.fr/sport/volley/ligue-des-nations-feminine-de-volley-la-france-soffre-la-serbie-et-reve-de-la-phase-finale-9c9e17ec-4ee4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T21:20:36",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France bat la Serbie en volley féminin",
+      "simplified_english_title": "France beats Serbia in women's volleyball",
+      "french_summary": "L'équipe de France féminine de volley a gagné contre la Serbie et espère se qualifier pour la phase finale.",
+      "english_summary": "The French women's volleyball team won against Serbia and hopes to qualify for the final phase.",
+      "contextual_title_explanations": {
+        "Ligue des nations féminine de volley": {
+          "display_format": "**Ligue des nations féminine de volley:** Compétition internationale",
+          "explanation": "International women's volleyball competition",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "La France": {
+          "display_format": "**La France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        "s’offre": {
+          "display_format": "**s’offre:** Se donne",
+          "explanation": "Gives itself, achieves",
+          "cultural_note": ""
+        },
+        "la Serbie": {
+          "display_format": "**la Serbie:** Pays des Balkans",
+          "explanation": "Balkan country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "rêve": {
+          "display_format": "**rêve:** Espère",
+          "explanation": "Dreams, hopes",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of, about",
+          "cultural_note": ""
+        },
+        "la phase finale": {
+          "display_format": "**la phase finale:** Dernière étape",
+          "explanation": "Final stage",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "A Berlin, le prix de l’immobilier ancien a plus que triplé depuis 2010",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/a-berlin-le-prix-de-l-immobilier-ancien-a-plus-que-triple-depuis-2010_6615082_3234.html",
+      "original_article_published_date": "2025-06-21T12:00:08",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les prix de l'immobilier ont triplé à Berlin",
+      "simplified_english_title": "Berlin property prices tripled",
+      "french_summary": "Depuis 2010, le coût des logements anciens à Berlin a augmenté de plus de trois fois.",
+      "english_summary": "Since 2010, the cost of old housing in Berlin has more than tripled.",
+      "contextual_title_explanations": {
+        "A": {
+          "display_format": "**A:** Préposition",
+          "explanation": "In, at, to",
+          "cultural_note": ""
+        },
+        "Berlin": {
+          "display_format": "**Berlin:** Capitale de l'Allemagne",
+          "explanation": "Capital city of Germany",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "le prix": {
+          "display_format": "**le prix:** Coût",
+          "explanation": "The price",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "l’immobilier": {
+          "display_format": "**l’immobilier:** Biens immobiliers",
+          "explanation": "Real estate",
+          "cultural_note": ""
+        },
+        "ancien": {
+          "display_format": "**ancien:** Vieux",
+          "explanation": "Old, former",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** Auxiliaire avoir",
+          "explanation": "Has, auxiliary verb",
+          "cultural_note": ""
+        },
+        "plus que triplé": {
+          "display_format": "**plus que triplé:** Multiplié par trois",
+          "explanation": "More than tripled",
+          "cultural_note": ""
+        },
+        "depuis": {
+          "display_format": "**depuis:** Depuis",
+          "explanation": "Since, from",
+          "cultural_note": ""
+        },
+        "2010": {
+          "display_format": "**2010:** Année",
+          "explanation": "Year 2010",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le fléau du logement cher d’Athènes à Copenhague",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/le-fleau-du-logement-cher-d-athenes-a-copenhague_6615046_3234.html",
+      "original_article_published_date": "2025-06-21T04:00:34",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les logements sont chers en Europe",
+      "simplified_english_title": "Housing is expensive in Europe",
+      "french_summary": "Les prix des logements sont très élevés dans plusieurs villes européennes, comme Athènes et Copenhague.",
+      "english_summary": "Housing prices are very high in several European cities, including Athens and Copenhagen.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "fléau": {
+          "display_format": "**fléau:** Calamité",
+          "explanation": "Scourge or plague",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De + le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "logement": {
+          "display_format": "**logement:** Habitat",
+          "explanation": "Housing or accommodation",
+          "cultural_note": ""
+        },
+        "cher": {
+          "display_format": "**cher:** Coûteux",
+          "explanation": "Expensive or dear",
+          "cultural_note": ""
+        },
+        "d’Athènes": {
+          "display_format": "**d’Athènes:** De Athènes",
+          "explanation": "From Athens",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Vers",
+          "explanation": "To or towards",
+          "cultural_note": ""
+        },
+        "Copenhague": {
+          "display_format": "**Copenhague:** Capitale du Danemark",
+          "explanation": "Copenhagen, capital of Denmark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Lutte contre le narcotrafic : à Marseille, un colloque pour sortir les mineurs des réseaux de trafiquants",
+      "original_article_link": "https://www.franceinfo.fr/societe/drogue/reportage-lutte-contre-le-narcotrafic-marseille-veut-s-inspirer-de-l-ile-de-france-et-de-l-italie-pour-sortir-les-mineurs-des-reseaux-de-trafiquants_7326942.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T13:09:47",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Colloque à Marseille contre le trafic de drogue",
+      "simplified_english_title": "Conference in Marseille against drug trafficking",
+      "french_summary": "Un colloque à Marseille vise à protéger les mineurs des réseaux de trafic de drogue et à lutter contre le narcotrafic.",
+      "english_summary": "A conference in Marseille aims to protect minors from drug trafficking networks and combat drug trafficking.",
+      "contextual_title_explanations": {
+        "Lutte": {
+          "display_format": "**Lutte:** Combat",
+          "explanation": "Fight or struggle against something",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "narcotrafic": {
+          "display_format": "**narcotrafic:** Trafic de drogues",
+          "explanation": "Drug trafficking",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Dans la ville de",
+          "explanation": "In the city of",
+          "cultural_note": ""
+        },
+        "Marseille": {
+          "display_format": "**Marseille:** Ville française",
+          "explanation": "French city",
+          "cultural_note": "Second largest city in France"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A (indefinite article)",
+          "cultural_note": ""
+        },
+        "colloque": {
+          "display_format": "**colloque:** Conférence",
+          "explanation": "Conference or seminar",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "sortir": {
+          "display_format": "**sortir:** Faire sortir",
+          "explanation": "To get out or remove",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "mineurs": {
+          "display_format": "**mineurs:** Enfants",
+          "explanation": "Minors or children",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some (plural indefinite article)",
+          "cultural_note": ""
+        },
+        "réseaux": {
+          "display_format": "**réseaux:** Groupes organisés",
+          "explanation": "Networks or organized groups",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "trafiquants": {
+          "display_format": "**trafiquants:** Vendeurs illégaux",
+          "explanation": "Traffickers or illegal dealers",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Comment la Corse est devenue la région la plus endettée de France",
+      "original_article_link": "https://www.lepoint.fr/politique/comment-la-corse-est-devenue-la-region-la-plus-endettee-de-france-21-06-2025-2592546_20.php",
+      "original_article_published_date": "2025-06-21T07:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Corse, région très endettée",
+      "simplified_english_title": "Corsica, a highly indebted region",
+      "french_summary": "La Corse a accumulé beaucoup de dettes et est maintenant la région la plus endettée de France.",
+      "english_summary": "Corsica has accumulated a lot of debt and is now the most indebted region in France.",
+      "contextual_title_explanations": {
+        "Comment": {
+          "display_format": "**Comment:** De quelle manière",
+          "explanation": "How, in what way",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "Corse": {
+          "display_format": "**Corse:** Île méditerranéenne",
+          "explanation": "Corsica, a French island",
+          "cultural_note": "Known for its autonomy movements"
+        },
+        "est devenue": {
+          "display_format": "**est devenue:** Verbe devenir",
+          "explanation": "Has become (feminine singular)",
+          "cultural_note": ""
+        },
+        "région": {
+          "display_format": "**région:** Territoire administratif",
+          "explanation": "Region, administrative area",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Superlatif",
+          "explanation": "Most",
+          "cultural_note": ""
+        },
+        "endettée": {
+          "display_format": "**endettée:** Qui a des dettes",
+          "explanation": "In debt (feminine singular)",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Policier en congé grièvement blessé par arme blanche",
+      "original_article_link": "https://www.20min.ch/fr/story/geneve-policier-en-conge-grievement-blesse-par-arme-blanche-103368024",
+      "original_article_published_date": "2025-06-21T07:47:30",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un policier blessé par un couteau",
+      "simplified_english_title": "Police officer injured by knife",
+      "french_summary": "Un policier en congé a été gravement blessé par une arme blanche. L'incident est en cours d'investigation par les autorités.",
+      "english_summary": "An off-duty police officer was seriously injured by a knife. The incident is under investigation by the authorities.",
+      "contextual_title_explanations": {
+        "Policier": {
+          "display_format": "**Policier:** Agent de police",
+          "explanation": "Police officer",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans un état",
+          "explanation": "In a state of",
+          "cultural_note": ""
+        },
+        "congé": {
+          "display_format": "**congé:** Permission d'absence",
+          "explanation": "Leave of absence",
+          "cultural_note": ""
+        },
+        "grièvement": {
+          "display_format": "**grièvement:** Gravement",
+          "explanation": "Seriously",
+          "cultural_note": ""
+        },
+        "blessé": {
+          "display_format": "**blessé:** Ayant une blessure",
+          "explanation": "Injured",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par le moyen de",
+          "explanation": "By means of",
+          "cultural_note": ""
+        },
+        "arme blanche": {
+          "display_format": "**arme blanche:** Couteau ou objet tranchant",
+          "explanation": "Bladed weapon",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La consommation de bière recule dans le monde, une mauvaise nouvelle pour la France qui produit à elle seule 30% du malt de la planète",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/agriculture/la-consommation-de-biere-recule-dans-le-monde-une-mauvaise-nouvelle-pour-la-france-qui-produit-a-elle-seule-30-du-malt-de-la-planete_AD-202506210228.html",
+      "original_article_published_date": "2025-06-21T13:32:07",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La consommation de bière baisse dans le monde",
+      "simplified_english_title": "Beer consumption falls worldwide",
+      "french_summary": "La consommation de bière diminue globalement, ce qui affecte la France, producteur majeur de malt.",
+      "english_summary": "Global beer consumption is decreasing, impacting France, a major malt producer.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "consommation": {
+          "display_format": "**consommation:** Acte de consommer",
+          "explanation": "Consumption, act of consuming",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "bière": {
+          "display_format": "**bière:** Boisson alcoolisée",
+          "explanation": "Beer",
+          "cultural_note": ""
+        },
+        "recule": {
+          "display_format": "**recule:** Diminue",
+          "explanation": "Decreases, goes backward",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "monde": {
+          "display_format": "**monde:** Terre",
+          "explanation": "World",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A, an (feminine singular)",
+          "cultural_note": ""
+        },
+        "mauvaise": {
+          "display_format": "**mauvaise:** Pas bonne",
+          "explanation": "Bad",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** Information récente",
+          "explanation": "News",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Who, which",
+          "cultural_note": ""
+        },
+        "produit": {
+          "display_format": "**produit:** Fabrique",
+          "explanation": "Produces",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To, at",
+          "cultural_note": ""
+        },
+        "elle": {
+          "display_format": "**elle:** Pronom personnel",
+          "explanation": "She, her",
+          "cultural_note": ""
+        },
+        "seule": {
+          "display_format": "**seule:** Uniquement",
+          "explanation": "Alone, only",
+          "cultural_note": ""
+        },
+        "30%": {
+          "display_format": "**30%:** Pourcentage",
+          "explanation": "30 percent",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "malt": {
+          "display_format": "**malt:** Ingrédient de bière",
+          "explanation": "Malt",
+          "cultural_note": ""
+        },
+        "planète": {
+          "display_format": "**planète:** Terre",
+          "explanation": "Planet",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T22:17:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
