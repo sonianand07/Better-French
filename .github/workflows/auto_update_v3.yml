@@ -41,6 +41,7 @@ jobs:
           git config --global user.email "bot@betterfrench.io"
           git config --global user.name "BetterFrenchBot"
           git config --global core.hooksPath .githooks
+          # Always stage the root-level website feed as well; Netlify deploys from there.
           git add ai_engine_v3/data ai_engine_v3/website Project-Better-French-Website/rolling_articles.json || true
           if ! git diff --cached --quiet; then
             git commit -m "chore(pipeline): hourly auto-update"
