@@ -14229,6 +14229,901 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Écologie : le débat impossible ?",
+      "original_article_link": "https://www.la-croix.com/planete/ecologie-le-debat-impossible-20250619",
+      "original_article_published_date": "2025-06-21T06:02:09",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le débat sur l'écologie est difficile",
+      "simplified_english_title": "Debate on ecology is difficult",
+      "french_summary": "Discuter de l'écologie est complexe car les opinions sont très différentes et les solutions ne sont pas faciles.",
+      "english_summary": "Discussing ecology is complex because opinions vary widely and solutions are not easy.",
+      "contextual_title_explanations": {
+        "Écologie": {
+          "display_format": "**Écologie:** Environnement naturel",
+          "explanation": "Study of environment and living organisms",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion publique",
+          "explanation": "Public discussion or argument",
+          "cultural_note": ""
+        },
+        "impossible": {
+          "display_format": "**impossible:** Qui ne peut pas être",
+          "explanation": "Not possible, unable to be done",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La vague de chaleur s'accentue samedi en France, 16 départements toujours en vigilance orange",
+      "original_article_link": "https://www.france24.com/fr/info-en-continu/20250621-la-vague-de-chaleur-%C3%A0-son-z%C3%A9nith-samedi-16-d%C3%A9partements-toujours-en-vigilance-orange",
+      "original_article_published_date": "2025-06-21T02:21:13",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France ce samedi",
+      "simplified_english_title": "France experiences intense heat this Saturday",
+      "french_summary": "La chaleur augmente en France samedi, avec 16 départements en vigilance orange pour la canicule.",
+      "english_summary": "The heat intensifies in France on Saturday, with 16 departments on orange alert for the heatwave.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "vague": {
+          "display_format": "**vague:** Onde de chaleur",
+          "explanation": "Heat wave",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat",
+          "cultural_note": ""
+        },
+        "s'accentue": {
+          "display_format": "**s'accentue:** Devenir plus intense",
+          "explanation": "Intensifies",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Jour de la semaine",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Nombre",
+          "explanation": "Sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions administratives",
+          "explanation": "Administrative divisions",
+          "cultural_note": "Similar to counties"
+        },
+        "toujours": {
+          "display_format": "**toujours:** Encore",
+          "explanation": "Still",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** État d'alerte",
+          "explanation": "Alert state",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Second highest alert level",
+          "cultural_note": "Color-coded alert system"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: le département de la Vendée est déjà en alerte sécheresse",
+      "original_article_link": "https://www.bfmtv.com/societe/video-canicule-le-departement-de-la-vendee-est-deja-en-alerte-secheresse_VN-202506210077.html",
+      "original_article_published_date": "2025-06-21T05:47:15",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Vendée en alerte à cause de la sécheresse",
+      "simplified_english_title": "Vendée on drought alert due to heatwave",
+      "french_summary": "La Vendée est en alerte sécheresse à cause de la canicule. Les autorités demandent d'économiser l'eau.",
+      "english_summary": "Vendée is on drought alert due to the heatwave. Authorities ask to save water.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le département de la Vendée": {
+          "display_format": "**le département de la Vendée:** Région française",
+          "explanation": "French administrative region",
+          "cultural_note": "Located in western France"
+        },
+        "est": {
+          "display_format": "**est:** Être verbe",
+          "explanation": "Is, form of 'to be'",
+          "cultural_note": ""
+        },
+        "déjà": {
+          "display_format": "**déjà:** Dès maintenant",
+          "explanation": "Already, by this time",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans un état",
+          "explanation": "In a state of",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertissement urgent",
+          "explanation": "Alert, urgent warning",
+          "cultural_note": ""
+        },
+        "sécheresse": {
+          "display_format": "**sécheresse:** Manque de pluie",
+          "explanation": "Drought, lack of rain",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bolivie: comprendre la crise économique qui frappe le pays",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250621-bolivie-comprendre-la-crise-%C3%A9conomique-qui-frappe-le-pays",
+      "original_article_published_date": "2025-06-21T06:15:45",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La crise économique en Bolivie expliquée",
+      "simplified_english_title": "Bolivia's economic crisis explained",
+      "french_summary": "La Bolivie traverse une crise économique difficile. Les prix augmentent et les gens ont du mal à acheter des produits de base.",
+      "english_summary": "Bolivia is facing a tough economic crisis. Prices are rising, and people are struggling to buy basic goods.",
+      "contextual_title_explanations": {
+        "Bolivie": {
+          "display_format": "**Bolivie:** Pays d'Amérique du Sud",
+          "explanation": "South American country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comprendre": {
+          "display_format": "**comprendre:** Saisir, connaître",
+          "explanation": "To understand",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "crise": {
+          "display_format": "**crise:** Situation difficile",
+          "explanation": "Crisis, difficult situation",
+          "cultural_note": ""
+        },
+        "économique": {
+          "display_format": "**économique:** Relatif à l'économie",
+          "explanation": "Economic, related to economy",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Relative pronoun 'who' or 'which'",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**frappe:** Affecte durement",
+          "explanation": "Hits or affects severely",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** Nation, État",
+          "explanation": "Country, nation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Avec la canicule, l’été débute et la France suffoque déjà : « Impossible de dormir avant 3 heures du matin »",
+      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/21/avec-la-canicule-l-ete-debute-et-la-france-suffoque-deja-impossible-de-dormir-avant-3-heures-du-matin_6615044_3244.html",
+      "original_article_published_date": "2025-06-21T04:00:16",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La canicule étouffe la France",
+      "simplified_english_title": "Heatwave suffocates France",
+      "french_summary": "La France souffre d'une forte canicule. Les températures élevées rendent la vie difficile, surtout la nuit.",
+      "english_summary": "France is suffering from a severe heatwave. High temperatures make life difficult, especially at night.",
+      "contextual_title_explanations": {
+        "Avec": {
+          "display_format": "**Avec:** En compagnie de",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Période de chaleur intense",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "l’été": {
+          "display_format": "**l’été:** La saison estivale",
+          "explanation": "Summer",
+          "cultural_note": ""
+        },
+        "débute": {
+          "display_format": "**débute:** Commence",
+          "explanation": "Begins",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "suffoque": {
+          "display_format": "**suffoque:** Étouffe",
+          "explanation": "Suffocates",
+          "cultural_note": ""
+        },
+        "déjà": {
+          "display_format": "**déjà:** Dès maintenant",
+          "explanation": "Already",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Impossible": {
+          "display_format": "**Impossible:** Qui ne peut pas être",
+          "explanation": "Impossible",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "dormir": {
+          "display_format": "**dormir:** Se reposer",
+          "explanation": "To sleep",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**avant:** Plus tôt que",
+          "explanation": "Before",
+          "cultural_note": ""
+        },
+        "3": {
+          "display_format": "**3:** Trois",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "heures": {
+          "display_format": "**heures:** Unité de temps",
+          "explanation": "Hours",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "matin": {
+          "display_format": "**matin:** Période du jour",
+          "explanation": "Morning",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : la France suffoque, jusqu’à 39 degrés attendus en Poitou-Charentes",
+      "original_article_link": "https://www.lefigaro.fr/meteo/canicule-16-departements-toujours-en-vigilance-orange-ce-samedi-20250621",
+      "original_article_published_date": "2025-06-21T06:24:09",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France",
+      "simplified_english_title": "France experiences extreme heat",
+      "french_summary": "La France connaît une vague de chaleur intense avec des températures jusqu'à 39 degrés dans certaines régions.",
+      "english_summary": "France is experiencing an intense heatwave with temperatures up to 39 degrees in some regions.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Le pays",
+          "explanation": "The country France",
+          "cultural_note": ""
+        },
+        "suffoque": {
+          "display_format": "**suffoque:** Étouffe",
+          "explanation": "Suffocates, struggles with heat",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, brief pause",
+          "cultural_note": ""
+        },
+        "jusqu’à": {
+          "display_format": "**jusqu’à:** Jusqu'au point",
+          "explanation": "Up to, until",
+          "cultural_note": ""
+        },
+        "39": {
+          "display_format": "**39:** Trente-neuf",
+          "explanation": "Number thirty-nine",
+          "cultural_note": ""
+        },
+        "degrés": {
+          "display_format": "**degrés:** Unités de température",
+          "explanation": "Degrees, temperature units",
+          "cultural_note": ""
+        },
+        "attendus": {
+          "display_format": "**attendus:** Prévus",
+          "explanation": "Expected, forecasted",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, located within",
+          "cultural_note": ""
+        },
+        "Poitou-Charentes": {
+          "display_format": "**Poitou-Charentes:** Région française",
+          "explanation": "Former French region",
+          "cultural_note": "Now part of Nouvelle-Aquitaine"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Chaleur à Niort: comment les habitants s'adaptent aux fortes températures ?",
+      "original_article_link": "https://www.bfmtv.com/societe/video-chaleur-a-niort-comment-les-habitants-s-adaptent-aux-fortes-temperatures_VN-202506210080.html",
+      "original_article_published_date": "2025-06-21T05:51:53",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Niort fait face à la chaleur",
+      "simplified_english_title": "Niort faces intense heat",
+      "french_summary": "Les habitants de Niort trouvent des moyens pour rester au frais pendant la vague de chaleur.",
+      "english_summary": "Residents of Niort find ways to stay cool during the heatwave.",
+      "contextual_title_explanations": {
+        "Chaleur": {
+          "display_format": "**Chaleur:** température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** préposition",
+          "explanation": "In, at, to",
+          "cultural_note": ""
+        },
+        "Niort": {
+          "display_format": "**Niort:** ville française",
+          "explanation": "City in western France",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** de quelle manière",
+          "explanation": "How",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "habitants": {
+          "display_format": "**habitants:** résidents",
+          "explanation": "Inhabitants, residents",
+          "cultural_note": ""
+        },
+        "s'adaptent": {
+          "display_format": "**s'adaptent:** s'acclimatent",
+          "explanation": "Adapt themselves",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** à les",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**fortes:** intenses",
+          "explanation": "Strong, intense",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** degrés",
+          "explanation": "Temperatures",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ÉDITORIAL. Vive la France associative !",
+      "original_article_link": "https://www.ouest-france.fr/reflexion/editorial/editorial-vive-la-france-associative-d1e9db5c-4db3-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T05:00:38",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France aime les associations",
+      "simplified_english_title": "France loves associations",
+      "french_summary": "La France célèbre le rôle important des associations dans la société et leur impact positif sur la vie des gens.",
+      "english_summary": "France celebrates the important role of associations in society and their positive impact on people's lives.",
+      "contextual_title_explanations": {
+        "ÉDITORIAL": {
+          "display_format": "**ÉDITORIAL:** Article de fond",
+          "explanation": "Editorial piece expressing opinion",
+          "cultural_note": "Often found in newspapers"
+        },
+        ".": {
+          "display_format": "**.** Point",
+          "explanation": "Period marking end of sentence",
+          "cultural_note": ""
+        },
+        "Vive": {
+          "display_format": "**Vive:** Longue vie à",
+          "explanation": "Long live, expressing support",
+          "cultural_note": "Common in slogans"
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": ""
+        },
+        "associative": {
+          "display_format": "**associative:** liée aux associations",
+          "explanation": "Related to associations or groups",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**!:** Point d'exclamation",
+          "explanation": "Exclamation mark for emphasis",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’inauguration du nouveau musée du Caire une nouvelle fois reportée en raison de la guerre Israël-Iran",
+      "original_article_link": "https://www.lefigaro.fr/culture/patrimoine/l-inauguration-du-nouveau-musee-du-caire-une-nouvelle-fois-reportee-en-raison-de-la-guerre-israel-iran-20250621",
+      "original_article_published_date": "2025-06-21T04:00:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le musée du Caire est encore retardé",
+      "simplified_english_title": "Cairo museum opening delayed again",
+      "french_summary": "L'ouverture du nouveau musée du Caire est retardée à cause de la guerre entre Israël et l'Iran.",
+      "english_summary": "The opening of the new Cairo museum is delayed due to the war between Israel and Iran.",
+      "contextual_title_explanations": {
+        "L’inauguration": {
+          "display_format": "**L’inauguration:** Ouverture officielle",
+          "explanation": "Official opening ceremony",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Nouveau",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "musée": {
+          "display_format": "**musée:** Musée",
+          "explanation": "Museum",
+          "cultural_note": ""
+        },
+        "du Caire": {
+          "display_format": "**du Caire:** De la ville du Caire",
+          "explanation": "Of the city of Cairo",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Une",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** Nouvelle",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "fois": {
+          "display_format": "**fois:** Fois",
+          "explanation": "Time",
+          "cultural_note": ""
+        },
+        "reportée": {
+          "display_format": "**reportée:** Retardée",
+          "explanation": "Delayed",
+          "cultural_note": ""
+        },
+        "en raison de": {
+          "display_format": "**en raison de:** À cause de",
+          "explanation": "Because of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Guerre",
+          "explanation": "War",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre Israël et l'Iran",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Royaume-Uni : une étape de plus dans l'adoption d'une loi historique sur l'aide à mourir",
+      "original_article_link": "https://www.france24.com/fr/europe/20250620-royaume-uni-une-%C3%A9tape-de-plus-dans-l-adoption-d-une-loi-historique-sur-l-aide-%C3%A0-mourir",
+      "original_article_published_date": "2025-06-20T14:50:25",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Royaume-Uni avance une loi sur l'aide à mourir",
+      "simplified_english_title": "UK progresses law on assisted dying",
+      "french_summary": "Le Royaume-Uni franchit une nouvelle étape dans l'adoption d'une loi importante sur l'aide à mourir.",
+      "english_summary": "The UK takes another step towards passing a significant law on assisted dying.",
+      "contextual_title_explanations": {
+        "Royaume-Uni": {
+          "display_format": "**Royaume-Uni:** Pays européen",
+          "explanation": "United Kingdom",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces an explanation",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, feminine singular",
+          "cultural_note": ""
+        },
+        "étape": {
+          "display_format": "**étape:** Phase ou moment",
+          "explanation": "Step or stage",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or part of",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Davantage",
+          "explanation": "More",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition de lieu",
+          "explanation": "Preposition indicating inside or during",
+          "cultural_note": ""
+        },
+        "l'adoption": {
+          "display_format": "**l'adoption:** Acceptation formelle",
+          "explanation": "The adoption",
+          "cultural_note": ""
+        },
+        "d'une": {
+          "display_format": "**d'une:** Article contracté",
+          "explanation": "Contraction of 'de' and 'une'",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**loi:** Règle légale",
+          "explanation": "Law",
+          "cultural_note": ""
+        },
+        "historique": {
+          "display_format": "**historique:** Importante dans l'histoire",
+          "explanation": "Historic",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Préposition de sujet",
+          "explanation": "Preposition indicating about or on",
+          "cultural_note": ""
+        },
+        "l'aide": {
+          "display_format": "**l'aide:** Assistance",
+          "explanation": "The help",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition indicating to or at",
+          "cultural_note": ""
+        },
+        "mourir": {
+          "display_format": "**mourir:** Décéder",
+          "explanation": "To die",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }

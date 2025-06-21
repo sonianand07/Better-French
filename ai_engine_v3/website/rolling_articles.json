@@ -3,6 +3,396 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Canicule : la France suffoque, jusqu’à 39 degrés attendus en Poitou-Charentes",
+      "original_article_link": "https://www.lefigaro.fr/meteo/canicule-16-departements-toujours-en-vigilance-orange-ce-samedi-20250621",
+      "original_article_published_date": "2025-06-21T06:24:09",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France",
+      "simplified_english_title": "France experiences extreme heat",
+      "french_summary": "La France connaît une vague de chaleur intense avec des températures jusqu'à 39 degrés dans certaines régions.",
+      "english_summary": "France is experiencing an intense heatwave with temperatures up to 39 degrees in some regions.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Le pays",
+          "explanation": "The country France",
+          "cultural_note": ""
+        },
+        "suffoque": {
+          "display_format": "**suffoque:** Étouffe",
+          "explanation": "Suffocates, struggles with heat",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, brief pause",
+          "cultural_note": ""
+        },
+        "jusqu’à": {
+          "display_format": "**jusqu’à:** Jusqu'au point",
+          "explanation": "Up to, until",
+          "cultural_note": ""
+        },
+        "39": {
+          "display_format": "**39:** Trente-neuf",
+          "explanation": "Number thirty-nine",
+          "cultural_note": ""
+        },
+        "degrés": {
+          "display_format": "**degrés:** Unités de température",
+          "explanation": "Degrees, temperature units",
+          "cultural_note": ""
+        },
+        "attendus": {
+          "display_format": "**attendus:** Prévus",
+          "explanation": "Expected, forecasted",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, located within",
+          "cultural_note": ""
+        },
+        "Poitou-Charentes": {
+          "display_format": "**Poitou-Charentes:** Région française",
+          "explanation": "Former French region",
+          "cultural_note": "Now part of Nouvelle-Aquitaine"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bolivie: comprendre la crise économique qui frappe le pays",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250621-bolivie-comprendre-la-crise-%C3%A9conomique-qui-frappe-le-pays",
+      "original_article_published_date": "2025-06-21T06:15:45",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La crise économique en Bolivie expliquée",
+      "simplified_english_title": "Bolivia's economic crisis explained",
+      "french_summary": "La Bolivie traverse une crise économique difficile. Les prix augmentent et les gens ont du mal à acheter des produits de base.",
+      "english_summary": "Bolivia is facing a tough economic crisis. Prices are rising, and people are struggling to buy basic goods.",
+      "contextual_title_explanations": {
+        "Bolivie": {
+          "display_format": "**Bolivie:** Pays d'Amérique du Sud",
+          "explanation": "South American country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comprendre": {
+          "display_format": "**comprendre:** Saisir, connaître",
+          "explanation": "To understand",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "crise": {
+          "display_format": "**crise:** Situation difficile",
+          "explanation": "Crisis, difficult situation",
+          "cultural_note": ""
+        },
+        "économique": {
+          "display_format": "**économique:** Relatif à l'économie",
+          "explanation": "Economic, related to economy",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Relative pronoun 'who' or 'which'",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**frappe:** Affecte durement",
+          "explanation": "Hits or affects severely",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** Nation, État",
+          "explanation": "Country, nation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Écologie : le débat impossible ?",
+      "original_article_link": "https://www.la-croix.com/planete/ecologie-le-debat-impossible-20250619",
+      "original_article_published_date": "2025-06-21T06:02:09",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le débat sur l'écologie est difficile",
+      "simplified_english_title": "Debate on ecology is difficult",
+      "french_summary": "Discuter de l'écologie est complexe car les opinions sont très différentes et les solutions ne sont pas faciles.",
+      "english_summary": "Discussing ecology is complex because opinions vary widely and solutions are not easy.",
+      "contextual_title_explanations": {
+        "Écologie": {
+          "display_format": "**Écologie:** Environnement naturel",
+          "explanation": "Study of environment and living organisms",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion publique",
+          "explanation": "Public discussion or argument",
+          "cultural_note": ""
+        },
+        "impossible": {
+          "display_format": "**impossible:** Qui ne peut pas être",
+          "explanation": "Not possible, unable to be done",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Chaleur à Niort: comment les habitants s'adaptent aux fortes températures ?",
+      "original_article_link": "https://www.bfmtv.com/societe/video-chaleur-a-niort-comment-les-habitants-s-adaptent-aux-fortes-temperatures_VN-202506210080.html",
+      "original_article_published_date": "2025-06-21T05:51:53",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Niort fait face à la chaleur",
+      "simplified_english_title": "Niort faces intense heat",
+      "french_summary": "Les habitants de Niort trouvent des moyens pour rester au frais pendant la vague de chaleur.",
+      "english_summary": "Residents of Niort find ways to stay cool during the heatwave.",
+      "contextual_title_explanations": {
+        "Chaleur": {
+          "display_format": "**Chaleur:** température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** préposition",
+          "explanation": "In, at, to",
+          "cultural_note": ""
+        },
+        "Niort": {
+          "display_format": "**Niort:** ville française",
+          "explanation": "City in western France",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** de quelle manière",
+          "explanation": "How",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "habitants": {
+          "display_format": "**habitants:** résidents",
+          "explanation": "Inhabitants, residents",
+          "cultural_note": ""
+        },
+        "s'adaptent": {
+          "display_format": "**s'adaptent:** s'acclimatent",
+          "explanation": "Adapt themselves",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** à les",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**fortes:** intenses",
+          "explanation": "Strong, intense",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** degrés",
+          "explanation": "Temperatures",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: le département de la Vendée est déjà en alerte sécheresse",
+      "original_article_link": "https://www.bfmtv.com/societe/video-canicule-le-departement-de-la-vendee-est-deja-en-alerte-secheresse_VN-202506210077.html",
+      "original_article_published_date": "2025-06-21T05:47:15",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Vendée en alerte à cause de la sécheresse",
+      "simplified_english_title": "Vendée on drought alert due to heatwave",
+      "french_summary": "La Vendée est en alerte sécheresse à cause de la canicule. Les autorités demandent d'économiser l'eau.",
+      "english_summary": "Vendée is on drought alert due to the heatwave. Authorities ask to save water.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le département de la Vendée": {
+          "display_format": "**le département de la Vendée:** Région française",
+          "explanation": "French administrative region",
+          "cultural_note": "Located in western France"
+        },
+        "est": {
+          "display_format": "**est:** Être verbe",
+          "explanation": "Is, form of 'to be'",
+          "cultural_note": ""
+        },
+        "déjà": {
+          "display_format": "**déjà:** Dès maintenant",
+          "explanation": "Already, by this time",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans un état",
+          "explanation": "In a state of",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertissement urgent",
+          "explanation": "Alert, urgent warning",
+          "cultural_note": ""
+        },
+        "sécheresse": {
+          "display_format": "**sécheresse:** Manque de pluie",
+          "explanation": "Drought, lack of rain",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Chaleur: à Nice, les habitants enchaînent les nuits tropicales",
       "original_article_link": "https://www.bfmtv.com/societe/video-chaleur-a-nice-les-habitants-enchainent-les-nuits-tropicales_VN-202506210062.html",
       "original_article_published_date": "2025-06-21T05:09:45",
@@ -616,6 +1006,72 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T05:18:25",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ÉDITORIAL. Vive la France associative !",
+      "original_article_link": "https://www.ouest-france.fr/reflexion/editorial/editorial-vive-la-france-associative-d1e9db5c-4db3-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T05:00:38",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France aime les associations",
+      "simplified_english_title": "France loves associations",
+      "french_summary": "La France célèbre le rôle important des associations dans la société et leur impact positif sur la vie des gens.",
+      "english_summary": "France celebrates the important role of associations in society and their positive impact on people's lives.",
+      "contextual_title_explanations": {
+        "ÉDITORIAL": {
+          "display_format": "**ÉDITORIAL:** Article de fond",
+          "explanation": "Editorial piece expressing opinion",
+          "cultural_note": "Often found in newspapers"
+        },
+        ".": {
+          "display_format": "**.** Point",
+          "explanation": "Period marking end of sentence",
+          "cultural_note": ""
+        },
+        "Vive": {
+          "display_format": "**Vive:** Longue vie à",
+          "explanation": "Long live, expressing support",
+          "cultural_note": "Common in slogans"
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": ""
+        },
+        "associative": {
+          "display_format": "**associative:** liée aux associations",
+          "explanation": "Related to associations or groups",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**!:** Point d'exclamation",
+          "explanation": "Exclamation mark for emphasis",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1512,6 +1968,142 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Avec la canicule, l’été débute et la France suffoque déjà : « Impossible de dormir avant 3 heures du matin »",
+      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/21/avec-la-canicule-l-ete-debute-et-la-france-suffoque-deja-impossible-de-dormir-avant-3-heures-du-matin_6615044_3244.html",
+      "original_article_published_date": "2025-06-21T04:00:16",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La canicule étouffe la France",
+      "simplified_english_title": "Heatwave suffocates France",
+      "french_summary": "La France souffre d'une forte canicule. Les températures élevées rendent la vie difficile, surtout la nuit.",
+      "english_summary": "France is suffering from a severe heatwave. High temperatures make life difficult, especially at night.",
+      "contextual_title_explanations": {
+        "Avec": {
+          "display_format": "**Avec:** En compagnie de",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Période de chaleur intense",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "l’été": {
+          "display_format": "**l’été:** La saison estivale",
+          "explanation": "Summer",
+          "cultural_note": ""
+        },
+        "débute": {
+          "display_format": "**débute:** Commence",
+          "explanation": "Begins",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "suffoque": {
+          "display_format": "**suffoque:** Étouffe",
+          "explanation": "Suffocates",
+          "cultural_note": ""
+        },
+        "déjà": {
+          "display_format": "**déjà:** Dès maintenant",
+          "explanation": "Already",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Impossible": {
+          "display_format": "**Impossible:** Qui ne peut pas être",
+          "explanation": "Impossible",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "dormir": {
+          "display_format": "**dormir:** Se reposer",
+          "explanation": "To sleep",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**avant:** Plus tôt que",
+          "explanation": "Before",
+          "cultural_note": ""
+        },
+        "3": {
+          "display_format": "**3:** Trois",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "heures": {
+          "display_format": "**heures:** Unité de temps",
+          "explanation": "Hours",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "matin": {
+          "display_format": "**matin:** Période du jour",
+          "explanation": "Morning",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Le dessin de Chaunu : la venue d’Emmanuel Macron au Bourget en A400M pour parler de l’espace",
       "original_article_link": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-la-venue-demmanuel-macron-au-bourget-en-a400m-pour-parler-de-lespace-eff8c0da-4df0-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-21T04:00:10",
@@ -1620,6 +2212,102 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T04:23:34",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’inauguration du nouveau musée du Caire une nouvelle fois reportée en raison de la guerre Israël-Iran",
+      "original_article_link": "https://www.lefigaro.fr/culture/patrimoine/l-inauguration-du-nouveau-musee-du-caire-une-nouvelle-fois-reportee-en-raison-de-la-guerre-israel-iran-20250621",
+      "original_article_published_date": "2025-06-21T04:00:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le musée du Caire est encore retardé",
+      "simplified_english_title": "Cairo museum opening delayed again",
+      "french_summary": "L'ouverture du nouveau musée du Caire est retardée à cause de la guerre entre Israël et l'Iran.",
+      "english_summary": "The opening of the new Cairo museum is delayed due to the war between Israel and Iran.",
+      "contextual_title_explanations": {
+        "L’inauguration": {
+          "display_format": "**L’inauguration:** Ouverture officielle",
+          "explanation": "Official opening ceremony",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Nouveau",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "musée": {
+          "display_format": "**musée:** Musée",
+          "explanation": "Museum",
+          "cultural_note": ""
+        },
+        "du Caire": {
+          "display_format": "**du Caire:** De la ville du Caire",
+          "explanation": "Of the city of Cairo",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Une",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** Nouvelle",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "fois": {
+          "display_format": "**fois:** Fois",
+          "explanation": "Time",
+          "cultural_note": ""
+        },
+        "reportée": {
+          "display_format": "**reportée:** Retardée",
+          "explanation": "Delayed",
+          "cultural_note": ""
+        },
+        "en raison de": {
+          "display_format": "**en raison de:** À cause de",
+          "explanation": "Because of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Guerre",
+          "explanation": "War",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre Israël et l'Iran",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1741,6 +2429,107 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T03:12:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La vague de chaleur s'accentue samedi en France, 16 départements toujours en vigilance orange",
+      "original_article_link": "https://www.france24.com/fr/info-en-continu/20250621-la-vague-de-chaleur-%C3%A0-son-z%C3%A9nith-samedi-16-d%C3%A9partements-toujours-en-vigilance-orange",
+      "original_article_published_date": "2025-06-21T02:21:13",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France ce samedi",
+      "simplified_english_title": "France experiences intense heat this Saturday",
+      "french_summary": "La chaleur augmente en France samedi, avec 16 départements en vigilance orange pour la canicule.",
+      "english_summary": "The heat intensifies in France on Saturday, with 16 departments on orange alert for the heatwave.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "vague": {
+          "display_format": "**vague:** Onde de chaleur",
+          "explanation": "Heat wave",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat",
+          "cultural_note": ""
+        },
+        "s'accentue": {
+          "display_format": "**s'accentue:** Devenir plus intense",
+          "explanation": "Intensifies",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Jour de la semaine",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Nombre",
+          "explanation": "Sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions administratives",
+          "explanation": "Administrative divisions",
+          "cultural_note": "Similar to counties"
+        },
+        "toujours": {
+          "display_format": "**toujours:** Encore",
+          "explanation": "Still",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** État d'alerte",
+          "explanation": "Alert state",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Second highest alert level",
+          "cultural_note": "Color-coded alert system"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T06:26:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -8881,860 +9670,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La star de NBA Kevin Durant devient actionnaire minoritaire du Paris SG",
-      "original_article_link": "https://www.ouest-france.fr/sport/football/paris-sg/la-star-de-nba-kevin-durant-devient-actionnaire-minoritaire-du-paris-sg-2c51bb64-4de6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-20T15:02:44",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Kevin Durant investit dans le Paris SG",
-      "simplified_english_title": "Kevin Durant invests in Paris SG",
-      "french_summary": "Kevin Durant, joueur de la NBA, devient actionnaire minoritaire du Paris Saint-Germain, club de football français.",
-      "english_summary": "Kevin Durant, NBA player, becomes a minority shareholder of Paris Saint-Germain, a French football club.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "star": {
-          "display_format": "**star:** Star",
-          "explanation": "Celebrity or prominent figure",
-          "cultural_note": "Commonly used in French for sports or entertainment figures"
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "NBA": {
-          "display_format": "**NBA:** National Basketball Association",
-          "explanation": "Major US basketball league",
-          "cultural_note": ""
-        },
-        "Kevin Durant": {
-          "display_format": "**Kevin Durant:** Joueur de basketball",
-          "explanation": "Famous American basketball player",
-          "cultural_note": ""
-        },
-        "devient": {
-          "display_format": "**devient:** Devenir",
-          "explanation": "Becomes",
-          "cultural_note": ""
-        },
-        "actionnaire": {
-          "display_format": "**actionnaire:** Propriétaire d'actions",
-          "explanation": "Shareholder",
-          "cultural_note": ""
-        },
-        "minoritair": {
-          "display_format": "**minoritair:** Minoritaire",
-          "explanation": "Minority",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** De le",
-          "explanation": "Of the (masculine singular)",
-          "cultural_note": ""
-        },
-        "Paris SG": {
-          "display_format": "**Paris SG:** Paris Saint-Germain",
-          "explanation": "French professional football club",
-          "cultural_note": "Commonly referred to as PSG"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T21:17:09",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "À Mayotte, six mois après le cyclone Chido, l’école comme îlot d’espoir et de stabilité",
-      "original_article_link": "https://www.la-croix.com/societe/a-mayotte-six-mois-apres-le-cyclone-chido-l-ecole-comme-ilot-despoir-et-de-stabilite-20250619",
-      "original_article_published_date": "2025-06-20T15:00:48",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Mayotte se relève après le cyclone Chido",
-      "simplified_english_title": "Mayotte recovers after cyclone Chido",
-      "french_summary": "Six mois après le cyclone Chido, les écoles de Mayotte aident à retrouver espoir et stabilité.",
-      "english_summary": "Six months after Cyclone Chido, schools in Mayotte help bring back hope and stability.",
-      "contextual_title_explanations": {
-        "À": {
-          "display_format": "**À:** Préposition",
-          "explanation": "At, in, or to",
-          "cultural_note": ""
-        },
-        "Mayotte": {
-          "display_format": "**Mayotte:** Département français",
-          "explanation": "French overseas department",
-          "cultural_note": "Located in the Indian Ocean"
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma for separation",
-          "cultural_note": ""
-        },
-        "six": {
-          "display_format": "**six:** Nombre",
-          "explanation": "Number six",
-          "cultural_note": ""
-        },
-        "mois": {
-          "display_format": "**mois:** Période de temps",
-          "explanation": "Months",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**après:** Plus tard",
-          "explanation": "After",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "cyclone": {
-          "display_format": "**cyclone:** Tempête violente",
-          "explanation": "Cyclone",
-          "cultural_note": ""
-        },
-        "Chido": {
-          "display_format": "**Chido:** Nom du cyclone",
-          "explanation": "Name of the cyclone",
-          "cultural_note": ""
-        },
-        "l’école": {
-          "display_format": "**l’école:** Établissement scolaire",
-          "explanation": "The school",
-          "cultural_note": ""
-        },
-        "comme": {
-          "display_format": "**comme:** En tant que",
-          "explanation": "As",
-          "cultural_note": ""
-        },
-        "îlot": {
-          "display_format": "**îlot:** Petit espace",
-          "explanation": "Small area or island",
-          "cultural_note": ""
-        },
-        "d’espoir": {
-          "display_format": "**d’espoir:** D'espoir",
-          "explanation": "Of hope",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "stabilité": {
-          "display_format": "**stabilité:** État stable",
-          "explanation": "Stability",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T03:12:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Un maire et une députée d’extrême droite seront jugés en décembre pour détournement de fonds publics",
-      "original_article_link": "https://www.ouest-france.fr/societe/justice/un-maire-et-une-deputee-dextreme-droite-seront-juges-en-decembre-pour-detournement-de-fonds-publics-2f98d708-4ddc-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-20T14:54:59",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un maire et une députée jugés pour fraude",
-      "simplified_english_title": "Mayor and MP to be tried for fraud",
-      "french_summary": "Un maire et une députée d’extrême droite iront au tribunal en décembre pour avoir utilisé de l'argent public incorrectement.",
-      "english_summary": "A mayor and a far-right MP will go to court in December for misusing public funds.",
-      "contextual_title_explanations": {
-        "Un": {
-          "display_format": "**Un:** Article indéfini",
-          "explanation": "Indefinite article, 'a' or 'an'",
-          "cultural_note": ""
-        },
-        "maire": {
-          "display_format": "**maire:** Chef municipal",
-          "explanation": "Mayor, head of a town or city",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And, connecting words",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article, 'a' or 'an'",
-          "cultural_note": ""
-        },
-        "députée": {
-          "display_format": "**députée:** Membre du parlement",
-          "explanation": "Member of parliament, female",
-          "cultural_note": ""
-        },
-        "d’extrême droite": {
-          "display_format": "**d’extrême droite:** Parti politique",
-          "explanation": "Far-right political party",
-          "cultural_note": ""
-        },
-        "seront": {
-          "display_format": "**seront:** Futur de être",
-          "explanation": "Future tense of 'to be'",
-          "cultural_note": ""
-        },
-        "jugés": {
-          "display_format": "**jugés:** Juger au passé",
-          "explanation": "Past participle of 'to judge'",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "In, during",
-          "cultural_note": ""
-        },
-        "décembre": {
-          "display_format": "**décembre:** Mois de l'année",
-          "explanation": "December, month of the year",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Préposition",
-          "explanation": "For, because of",
-          "cultural_note": ""
-        },
-        "détournement": {
-          "display_format": "**détournement:** Dérive illégale",
-          "explanation": "Misappropriation, illegal use",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of, from",
-          "cultural_note": ""
-        },
-        "fonds publics": {
-          "display_format": "**fonds publics:** Argent public",
-          "explanation": "Public funds, government money",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T22:18:02",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Marine Le Pen défend Caroline Parmentier, l’une de ses proches, épinglée pour des écrits racistes",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/20/marine-le-pen-defend-caroline-parmentier-l-une-de-ses-proches-epinglee-pour-des-ecrits-racistes_6614821_823448.html",
-      "original_article_published_date": "2025-06-20T14:46:57",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Marine Le Pen défend une alliée accusée de racisme",
-      "simplified_english_title": "Marine Le Pen defends ally accused of racism",
-      "french_summary": "Marine Le Pen soutient Caroline Parmentier, une proche, critiquée pour des écrits jugés racistes.",
-      "english_summary": "Marine Le Pen defends Caroline Parmentier, an ally, criticized for writings deemed racist.",
-      "contextual_title_explanations": {
-        "Marine Le Pen": {
-          "display_format": "**Marine Le Pen:** Politicienne française",
-          "explanation": "French far-right political leader",
-          "cultural_note": "Leader of the National Rally party"
-        },
-        "défend": {
-          "display_format": "**défend:** Prendre la défense",
-          "explanation": "Defends or supports someone",
-          "cultural_note": ""
-        },
-        "Caroline Parmentier": {
-          "display_format": "**Caroline Parmentier:** Nom d'une personne",
-          "explanation": "A person's name",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "l’une": {
-          "display_format": "**l’une:** L'une des",
-          "explanation": "One of the",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Appartenance",
-          "explanation": "Of or belonging to",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**ses:** Possessif",
-          "explanation": "Her or his, possessive",
-          "cultural_note": ""
-        },
-        "proches": {
-          "display_format": "**proches:** Personnes proches",
-          "explanation": "Close associates or friends",
-          "cultural_note": ""
-        },
-        "epinglée": {
-          "display_format": "**epinglée:** Critiquée",
-          "explanation": "Criticized or called out",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** À cause de",
-          "explanation": "For or because of",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles indéfinis",
-          "explanation": "Some or any, indefinite article",
-          "cultural_note": ""
-        },
-        "écrits": {
-          "display_format": "**écrits:** Textes écrits",
-          "explanation": "Written texts or writings",
-          "cultural_note": ""
-        },
-        "racistes": {
-          "display_format": "**racistes:** Relatif au racisme",
-          "explanation": "Racist or related to racism",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T20:20:45",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Orange prépare un plan de réorganisation en France",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/20/orange-prepare-un-plan-de-reorganisation-en-france_6614820_3234.html",
-      "original_article_published_date": "2025-06-20T14:41:42",
-      "source_name": "Le Monde Economie",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Orange va réorganiser ses activités en France",
-      "simplified_english_title": "Orange to reorganize its operations in France",
-      "french_summary": "Orange prépare un plan pour réorganiser ses activités en France afin d'améliorer son efficacité et sa performance.",
-      "english_summary": "Orange is preparing a plan to reorganize its operations in France to improve efficiency and performance.",
-      "contextual_title_explanations": {
-        "Orange": {
-          "display_format": "**Orange:** Entreprise de télécommunications",
-          "explanation": "Major French telecom company",
-          "cultural_note": "Formerly France Télécom"
-        },
-        "prépare": {
-          "display_format": "**prépare:** Se préparer",
-          "explanation": "To prepare, getting ready",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini",
-          "explanation": "Indefinite article, 'a'",
-          "cultural_note": ""
-        },
-        "plan": {
-          "display_format": "**plan:** Projet organisé",
-          "explanation": "Organized project or scheme",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Article défini",
-          "explanation": "Definite article, 'of'",
-          "cultural_note": ""
-        },
-        "réorganisation": {
-          "display_format": "**réorganisation:** Réorganiser",
-          "explanation": "Reorganization, restructuring",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In, at, or to",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** Pays européen",
-          "explanation": "Country in Europe",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:03:32",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conflit Israël/Iran: 3 blessés graves en Israël suite à de nouvelles salves de missiles iraniens",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-conflit-israel-iran-3-blesses-graves-en-israel-suite-a-de-nouvelles-salves-de-missiles-iraniens_VN-202506200557.html",
-      "original_article_published_date": "2025-06-20T14:40:41",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran attaque Israël avec des missiles",
-      "simplified_english_title": "Iran attacks Israel with missiles",
-      "french_summary": "Trois personnes sont gravement blessées en Israël après une nouvelle attaque de missiles iraniens.",
-      "english_summary": "Three people are seriously injured in Israel after a new Iranian missile attack.",
-      "contextual_title_explanations": {
-        "Conflit": {
-          "display_format": "**Conflit:** Désaccord violent",
-          "explanation": "Conflict or violent disagreement",
-          "cultural_note": ""
-        },
-        "Israël/Iran": {
-          "display_format": "**Israël/Iran:** Pays en conflit",
-          "explanation": "Countries in conflict",
-          "cultural_note": "Israël and Iran are long-standing geopolitical rivals"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "3": {
-          "display_format": "**3:** Trois",
-          "explanation": "The number three",
-          "cultural_note": ""
-        },
-        "blessés": {
-          "display_format": "**blessés:** Personnes blessées",
-          "explanation": "Injured people",
-          "cultural_note": ""
-        },
-        "graves": {
-          "display_format": "**graves:** Très sérieux",
-          "explanation": "Serious or severe",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In or within",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "suite à": {
-          "display_format": "**suite à:** À cause de",
-          "explanation": "Following or due to",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Des",
-          "explanation": "Some or of",
-          "cultural_note": ""
-        },
-        "nouvelles": {
-          "display_format": "**nouvelles:** Récentes",
-          "explanation": "New or recent",
-          "cultural_note": ""
-        },
-        "salves": {
-          "display_format": "**salves:** Séries de coups",
-          "explanation": "Series of shots or attacks",
-          "cultural_note": ""
-        },
-        "missiles": {
-          "display_format": "**missiles:** Projectiles",
-          "explanation": "Missiles or projectiles",
-          "cultural_note": ""
-        },
-        "iraniens": {
-          "display_format": "**iraniens:** De l'Iran",
-          "explanation": "From Iran",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:19:59",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"On est abandonnés par l'ambassade de France\": cette Française de retour d'Israël raconte son périple avec un passeur pour revenir en France",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-on-est-abandonne-par-l-ambassade-de-france-cette-francaise-de-retour-d-israel-raconte-son-periple-avec-un-passeur-pour-revenir-en-france_VN-202506200553.html",
-      "original_article_published_date": "2025-06-20T14:32:41",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Une Française raconte son retour difficile d'Israël",
-      "simplified_english_title": "French woman tells of difficult return from Israel",
-      "french_summary": "Une Française explique comment elle a dû utiliser un passeur pour revenir en France, se sentant abandonnée par l'ambassade.",
-      "english_summary": "A French woman explains how she had to use a smuggler to return to France, feeling abandoned by the embassy.",
-      "contextual_title_explanations": {
-        "\"": {
-          "display_format": "\" : Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "On": {
-          "display_format": "**On:** Nous",
-          "explanation": "Informal 'we'",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**est:** Être (présent)",
-          "explanation": "Is/are (present tense)",
-          "cultural_note": ""
-        },
-        "abandonnés": {
-          "display_format": "**abandonnés:** Laisser tomber",
-          "explanation": "Abandoned, left behind",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Par (agent)",
-          "explanation": "By (agent marker)",
-          "cultural_note": ""
-        },
-        "l'ambassade": {
-          "display_format": "**l'ambassade:** Représentation diplomatique",
-          "explanation": "The embassy",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Provenance",
-          "explanation": "From",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** Pays européen",
-          "explanation": "France, the country",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "cette": {
-          "display_format": "**cette:** Cette (féminin)",
-          "explanation": "This/that (feminine)",
-          "cultural_note": ""
-        },
-        "Française": {
-          "display_format": "**Française:** Femme de France",
-          "explanation": "French woman",
-          "cultural_note": ""
-        },
-        "retour": {
-          "display_format": "**retour:** Retour",
-          "explanation": "Return",
-          "cultural_note": ""
-        },
-        "d'Israël": {
-          "display_format": "**d'Israël:** De Israël",
-          "explanation": "From Israel",
-          "cultural_note": ""
-        },
-        "raconte": {
-          "display_format": "**raconte:** Narrateur",
-          "explanation": "Tells, narrates",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**son:** Possessif",
-          "explanation": "His/her (possessive)",
-          "cultural_note": ""
-        },
-        "périple": {
-          "display_format": "**périple:** Voyage difficile",
-          "explanation": "Difficult journey",
-          "cultural_note": ""
-        },
-        "avec": {
-          "display_format": "**avec:** En compagnie de",
-          "explanation": "With",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini",
-          "explanation": "A/an (masculine)",
-          "cultural_note": ""
-        },
-        "passeur": {
-          "display_format": "**passeur:** Guide clandestin",
-          "explanation": "Smuggler, guide",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** But",
-          "explanation": "In order to",
-          "cultural_note": ""
-        },
-        "revenir": {
-          "display_format": "**revenir:** Retourner",
-          "explanation": "To return",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** À l'intérieur de",
-          "explanation": "In/to",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T22:18:02",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Comment l’État français a été capté par le capital",
-      "original_article_link": "https://www.mediapart.fr/journal/economie-et-social/200625/comment-l-etat-francais-ete-capte-par-le-capital",
-      "original_article_published_date": "2025-06-20T14:32:19",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'État français et le capital",
-      "simplified_english_title": "French state and capital",
-      "french_summary": "Un article explique comment le capital a influencé l'État français et ses politiques économiques récentes.",
-      "english_summary": "An article explains how capital has influenced the French state and its recent economic policies.",
-      "contextual_title_explanations": {
-        "Comment": {
-          "display_format": "**Comment:** De quelle manière",
-          "explanation": "How, in what way",
-          "cultural_note": ""
-        },
-        "l’État": {
-          "display_format": "**l’État:** L'autorité publique",
-          "explanation": "The state, government",
-          "cultural_note": ""
-        },
-        "français": {
-          "display_format": "**français:** Relatif à la France",
-          "explanation": "French, relating to France",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**a:** Auxiliaire avoir",
-          "explanation": "Has, auxiliary verb",
-          "cultural_note": ""
-        },
-        "été": {
-          "display_format": "**été:** Participe passé",
-          "explanation": "Been, past participle",
-          "cultural_note": ""
-        },
-        "capté": {
-          "display_format": "**capté:** Pris contrôle",
-          "explanation": "Captured, taken control of",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Par l'intermédiaire de",
-          "explanation": "By, through",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The, definite article",
-          "cultural_note": ""
-        },
-        "capital": {
-          "display_format": "**capital:** Capital économique",
-          "explanation": "Capital, economic resources",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T19:15:05",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Les combats de Pavel Durov, le discret créateur de Telegram",
-      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/tech-24/20250620-les-combats-de-pavel-durov-le-discret-cr%C3%A9ateur-de-telegram",
-      "original_article_published_date": "2025-06-20T14:19:36",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Pavel Durov, le créateur de Telegram",
-      "simplified_english_title": "Pavel Durov, the creator of Telegram",
-      "french_summary": "Pavel Durov, le fondateur de Telegram, est connu pour son style discret et ses combats pour la vie privée.",
-      "english_summary": "Pavel Durov, the founder of Telegram, is known for his discreet style and fights for privacy.",
-      "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**Les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "combats": {
-          "display_format": "**combats:** Luttes",
-          "explanation": "Fights or struggles",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or by",
-          "cultural_note": ""
-        },
-        "Pavel Durov": {
-          "display_format": "**Pavel Durov:** Fondateur de Telegram",
-          "explanation": "Russian entrepreneur",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The (singular masculine)",
-          "cultural_note": ""
-        },
-        "discret": {
-          "display_format": "**discret:** Réservé",
-          "explanation": "Discreet or low-key",
-          "cultural_note": ""
-        },
-        "créateur": {
-          "display_format": "**créateur:** Fondateur",
-          "explanation": "Creator or founder",
-          "cultural_note": ""
-        },
-        "Telegram": {
-          "display_format": "**Telegram:** Application de messagerie",
-          "explanation": "Messaging app",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:19:59",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
