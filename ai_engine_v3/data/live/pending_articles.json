@@ -21974,6 +21974,916 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Première vague de chaleur en 2025 en France: 16 département en vigilance orange",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-premi%C3%A8re-vague-de-chaleur-en-2025-en-france-16-d%C3%A9partement-en-vigilance-orange",
+      "original_article_published_date": "2025-06-21T14:19:40",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France en 2025",
+      "simplified_english_title": "Heatwave in France in 2025",
+      "french_summary": "En 2025, la France connaît sa première vague de chaleur. Seize départements sont en vigilance orange à cause des températures élevées.",
+      "english_summary": "In 2025, France experiences its first heatwave. Sixteen departments are on orange alert due to high temperatures.",
+      "contextual_title_explanations": {
+        "Première": {
+          "display_format": "**Première:** Initial",
+          "explanation": "First in a series",
+          "cultural_note": ""
+        },
+        "vague": {
+          "display_format": "**vague:** Onde",
+          "explanation": "Wave, often used for heatwaves",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Du",
+          "explanation": "Of, indicating possession or relation",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Températures élevées",
+          "explanation": "Heat, high temperatures",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans l'état de",
+          "explanation": "In the state of",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year 2025",
+          "cultural_note": ""
+        },
+        "en France": {
+          "display_format": "**en France:** Dans le pays",
+          "explanation": "In France, the country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Seize",
+          "explanation": "Number sixteen",
+          "cultural_note": ""
+        },
+        "département": {
+          "display_format": "**département:** Division administrative",
+          "explanation": "Administrative division in France",
+          "cultural_note": "Similar to counties in other countries"
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** Alerte",
+          "explanation": "Alert, state of watchfulness",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Orange alert level",
+          "cultural_note": "Second highest level in France's alert system"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nouveaux échanges de tirs en ce 9ème jour de guerre entre l'Iran et Israël",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-nouveaux-%C3%A9changes-de-tirs-en-ce-9%C3%A8me-jour-de-guerre-entre-l-iran-et-isra%C3%ABl",
+      "original_article_published_date": "2025-06-21T14:15:23",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La guerre entre Iran et Israël continue",
+      "simplified_english_title": "War between Iran and Israel continues",
+      "french_summary": "Les combats entre l'Iran et Israël durent depuis neuf jours avec de nouveaux échanges de tirs aujourd'hui.",
+      "english_summary": "The conflict between Iran and Israel has lasted nine days with new exchanges of fire today.",
+      "contextual_title_explanations": {
+        "Nouveaux": {
+          "display_format": "**Nouveaux:** Récents",
+          "explanation": "Recent or new events",
+          "cultural_note": ""
+        },
+        "échanges de tirs": {
+          "display_format": "**échanges de tirs:** Combats",
+          "explanation": "Exchange of gunfire or attacks",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** pendant",
+          "explanation": "During or in the course of",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** ce jour",
+          "explanation": "This day",
+          "cultural_note": ""
+        },
+        "9ème": {
+          "display_format": "**9ème:** Neuvième",
+          "explanation": "Ninth",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**jour:** Jour",
+          "explanation": "Day",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Entre",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La réouverture de la ligne Montréjeau-Luchon, petite voie vers la relance des trains régionaux",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/la-reouverture-de-la-ligne-montrejeau-luchon-petite-voie-vers-la-relance-des-trains-regionaux_6615094_3234.html",
+      "original_article_published_date": "2025-06-21T15:00:03",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La ligne Montréjeau-Luchon rouvre",
+      "simplified_english_title": "Montréjeau-Luchon train line reopens",
+      "french_summary": "La ligne de train entre Montréjeau et Luchon rouvre, ce qui est un bon signe pour les trains régionaux.",
+      "english_summary": "The train line between Montréjeau and Luchon reopens, which is a good sign for regional trains.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "réouverture": {
+          "display_format": "**réouverture:** Ouverture à nouveau",
+          "explanation": "Reopening",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "ligne": {
+          "display_format": "**ligne:** Voie ferrée",
+          "explanation": "Railway line",
+          "cultural_note": ""
+        },
+        "Montréjeau-Luchon": {
+          "display_format": "**Montréjeau-Luchon:** Ligne ferroviaire",
+          "explanation": "Railway line name",
+          "cultural_note": "Connects Montréjeau and Luchon"
+        },
+        ",": {
+          "display_format": "****,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "petite": {
+          "display_format": "**petite:** Petit (féminin)",
+          "explanation": "Small (feminine)",
+          "cultural_note": ""
+        },
+        "voie": {
+          "display_format": "**voie:** Chemin",
+          "explanation": "Way/path",
+          "cultural_note": ""
+        },
+        "vers": {
+          "display_format": "**vers:** En direction de",
+          "explanation": "Towards",
+          "cultural_note": ""
+        },
+        "relance": {
+          "display_format": "**relance:** Redémarrage",
+          "explanation": "Restart/boost",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some (plural)",
+          "cultural_note": ""
+        },
+        "trains": {
+          "display_format": "**trains:** Trains",
+          "explanation": "Trains",
+          "cultural_note": ""
+        },
+        "régionaux": {
+          "display_format": "**régionaux:** Locaux",
+          "explanation": "Regional",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bélarus : l'opposant Sergueï Tikhanovski a été libéré de prison",
+      "original_article_link": "https://www.lefigaro.fr/international/belarus-l-opposant-serguei-tikhanovski-a-ete-libere-de-prison-20250621",
+      "original_article_published_date": "2025-06-21T14:59:54",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Sergueï Tikhanovski est libre",
+      "simplified_english_title": "Sergei Tikhanovski is free",
+      "french_summary": "Sergueï Tikhanovski, opposant biélorusse, a été libéré de prison après plusieurs années d'emprisonnement.",
+      "english_summary": "Sergei Tikhanovski, Belarusian opponent, has been released from prison after several years of imprisonment.",
+      "contextual_title_explanations": {
+        "Bélarus": {
+          "display_format": "**Bélarus:** Pays d'Europe de l'Est",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": "Also known as Belarus"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces related information",
+          "cultural_note": ""
+        },
+        "l'opposant": {
+          "display_format": "**l'opposant:** Personne qui s'oppose",
+          "explanation": "Opposition figure",
+          "cultural_note": ""
+        },
+        "Sergueï Tikhanovski": {
+          "display_format": "**Sergueï Tikhanovski:** Nom d'une personne",
+          "explanation": "Belarusian opposition figure",
+          "cultural_note": ""
+        },
+        "a été libéré": {
+          "display_format": "**a été libéré:** Être rendu libre",
+          "explanation": "Has been released",
+          "cultural_note": ""
+        },
+        "de prison": {
+          "display_format": "**de prison:** De la détention",
+          "explanation": "From prison",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : Israël a mené une nouvelle frappe contre le site nucléaire d'Ispahan en Iran",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-au-moyen-orient-israel-a-mene-une-nouvelle-frappe-contre-le-site-nucleaire-d-ispahan-en-iran_7328550.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T14:14:22",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël attaque un site nucléaire en Iran",
+      "simplified_english_title": "Israel strikes nuclear site in Iran",
+      "french_summary": "Israël a frappé un site nucléaire près d'Ispahan en Iran, augmentant les tensions au Moyen-Orient.",
+      "english_summary": "Israel struck a nuclear site near Isfahan in Iran, increasing tensions in the Middle East.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** à le",
+          "explanation": "Combination of 'à' and 'le'",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Moyen-Orient:** Région asiatique",
+          "explanation": "Middle East region",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Proche-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** a",
+          "explanation": "Has (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "mené": {
+          "display_format": "**mené:** conduit",
+          "explanation": "Led or carried out",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** une",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**nouvelle:** récente",
+          "explanation": "New or recent",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**frappe:** attaque",
+          "explanation": "Strike or attack",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** envers",
+          "explanation": "Against or towards",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** le",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "site": {
+          "display_format": "**site:** lieu",
+          "explanation": "Site or location",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** atomique",
+          "explanation": "Nuclear or atomic",
+          "cultural_note": ""
+        },
+        "d'Ispahan": {
+          "display_format": "**d'Ispahan:** de Ispahan",
+          "explanation": "From Isfahan (city in Iran)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "S'hydrater régulièrement, diminuer les activités physiques... comment se protéger efficacement de la canicule ?",
+      "original_article_link": "https://www.bfmtv.com/sante/video-s-hydrater-regulierement-diminuer-les-activites-physiques-comment-se-proteger-efficacement-de-la-canicule_VN-202506210241.html",
+      "original_article_published_date": "2025-06-21T14:21:34",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conseils pour se protéger de la canicule",
+      "simplified_english_title": "Tips to protect yourself from the heatwave",
+      "french_summary": "Il faut boire régulièrement et réduire les activités physiques pour bien se protéger de la canicule et rester en bonne santé.",
+      "english_summary": "Drink regularly and reduce physical activities to protect yourself effectively from the heatwave and stay healthy.",
+      "contextual_title_explanations": {
+        "S'hydrater": {
+          "display_format": "**S'hydrater:** S'alimenter en eau",
+          "explanation": "To hydrate oneself",
+          "cultural_note": ""
+        },
+        "régulièrement": {
+          "display_format": "**régulièrement:** de manière régulière",
+          "explanation": "Regularly",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** virgule",
+          "explanation": "Comma, separates items",
+          "cultural_note": ""
+        },
+        "diminuer": {
+          "display_format": "**diminuer:** réduire",
+          "explanation": "To decrease",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "activités physiques": {
+          "display_format": "**activités physiques:** exercices corporels",
+          "explanation": "Physical activities",
+          "cultural_note": ""
+        },
+        "...": {
+          "display_format": "**...:** points de suspension",
+          "explanation": "Ellipsis, indicates omission",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** de quelle manière",
+          "explanation": "How",
+          "cultural_note": ""
+        },
+        "se protéger": {
+          "display_format": "**se protéger:** se défendre",
+          "explanation": "To protect oneself",
+          "cultural_note": ""
+        },
+        "efficacement": {
+          "display_format": "**efficacement:** de manière efficace",
+          "explanation": "Effectively",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** préposition",
+          "explanation": "From, of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** vague de chaleur",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Biélorussie : l’opposant Sergueï Tikhanovski est sorti de prison",
+      "original_article_link": "https://www.ouest-france.fr/europe/bielorussie/bielorussie-lopposant-serguei-tikhanovski-est-sorti-de-prison-86d6ac10-4eaf-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T15:11:40",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un opposant biélorusse est libéré de prison",
+      "simplified_english_title": "Belarus opposition figure released from prison",
+      "french_summary": "Sergueï Tikhanovski, un opposant politique en Biélorussie, a été libéré de prison après une longue détention.",
+      "english_summary": "Sergueï Tikhanovski, a political opponent in Belarus, has been released from prison after a long detention.",
+      "contextual_title_explanations": {
+        "Biélorussie": {
+          "display_format": "**Biélorussie:** Pays d'Europe de l'Est",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": "Also known as Belarus"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l’opposant": {
+          "display_format": "**l’opposant:** Personne qui s'oppose",
+          "explanation": "Person who opposes",
+          "cultural_note": ""
+        },
+        "Sergueï Tikhanovski": {
+          "display_format": "**Sergueï Tikhanovski:** Nom d'une personne",
+          "explanation": "Name of a person",
+          "cultural_note": "Belarusian opposition figure"
+        },
+        "est sorti": {
+          "display_format": "**est sorti:** A quitté",
+          "explanation": "Has left",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Provenance",
+          "explanation": "From",
+          "cultural_note": ""
+        },
+        "prison": {
+          "display_format": "**prison:** Lieu de détention",
+          "explanation": "Place of detention",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique 2025 : grand concert autour de la vasque olympique à Paris",
+      "original_article_link": "https://www.europe1.fr/culture/fete-de-la-musique-2025-grand-concert-autour-de-la-vasque-olympique-a-paris-760450",
+      "original_article_published_date": "2025-06-21T15:01:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Concert pour la Fête de la Musique 2025 à Paris",
+      "simplified_english_title": "Music Day 2025 concert in Paris",
+      "french_summary": "Un grand concert aura lieu autour de la vasque olympique à Paris pour la Fête de la Musique en 2025.",
+      "english_summary": "A big concert will take place around the Olympic basin in Paris for Music Day in 2025.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Annual music festival",
+          "cultural_note": "Held on June 21st"
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year of the event",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing details",
+          "cultural_note": ""
+        },
+        "grand concert": {
+          "display_format": "**grand concert:** Événement musical",
+          "explanation": "Large musical performance",
+          "cultural_note": ""
+        },
+        "autour de": {
+          "display_format": "**autour de:** Près de",
+          "explanation": "Around or near",
+          "cultural_note": ""
+        },
+        "la vasque olympique": {
+          "display_format": "**la vasque olympique:** Structure olympique",
+          "explanation": "Olympic basin or structure",
+          "cultural_note": "Symbolic site for events"
+        },
+        "à": {
+          "display_format": "**à:** Dans",
+          "explanation": "In or at",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale française",
+          "explanation": "Capital city of France",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pic de chaleur: la ville de Paris est la capitale européenne la plus mortelle durant les épisodes de canicule",
+      "original_article_link": "https://www.bfmtv.com/paris/pic-de-chaleur-la-ville-de-paris-est-la-capitale-europeenne-la-plus-mortelle-durant-les-episodes-de-canicule_AV-202506210246.html",
+      "original_article_published_date": "2025-06-21T14:31:52",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris est très chaude et dangereuse en été",
+      "simplified_english_title": "Paris is very hot and dangerous in summer",
+      "french_summary": "Pendant les vagues de chaleur, Paris est la capitale européenne avec le plus de morts à cause des températures élevées.",
+      "english_summary": "During heat waves, Paris is the European capital with the most deaths due to high temperatures.",
+      "contextual_title_explanations": {
+        "Pic": {
+          "display_format": "**Pic:** Pointe maximale",
+          "explanation": "Peak or highest point",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat or high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "ville": {
+          "display_format": "**ville:** Ville",
+          "explanation": "City",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "Capital city of France",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** Verbe être",
+          "explanation": "Is (third person singular)",
+          "cultural_note": ""
+        },
+        "capitale": {
+          "display_format": "**capitale:** Ville principale",
+          "explanation": "Capital city",
+          "cultural_note": ""
+        },
+        "européenne": {
+          "display_format": "**européenne:** Relatif à l'Europe",
+          "explanation": "European",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Superlatif",
+          "explanation": "Most",
+          "cultural_note": ""
+        },
+        "mortelle": {
+          "display_format": "**mortelle:** Causant la mort",
+          "explanation": "Deadly or lethal",
+          "cultural_note": ""
+        },
+        "durant": {
+          "display_format": "**durant:** Pendant",
+          "explanation": "During",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "épisodes": {
+          "display_format": "**épisodes:** Périodes",
+          "explanation": "Episodes or periods",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Vague de chaleur",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Flambée des températures sur tout le pays, 16 départements en vigilance orange canicule",
+      "original_article_link": "https://www.la-croix.com/la-vague-de-chaleur-a-son-zenith-samedi-16-departements-toujours-en-vigilance-orange-20250621",
+      "original_article_published_date": "2025-06-21T07:34:19",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France",
+      "simplified_english_title": "France experiences extreme heat",
+      "french_summary": "Les températures montent dans tout le pays. Seize départements sont en vigilance orange canicule.",
+      "english_summary": "Temperatures are rising across the country. Sixteen departments are on orange heatwave alert.",
+      "contextual_title_explanations": {
+        "Flambée": {
+          "display_format": "**Flambée:** Hausse soudaine",
+          "explanation": "Sudden increase or rise",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles définis",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** Degrés de chaleur",
+          "explanation": "Temperatures, heat levels",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On, above, or over",
+          "cultural_note": ""
+        },
+        "tout": {
+          "display_format": "**tout:** Entièrement",
+          "explanation": "All, entire, or whole",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article, singular",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** Nation",
+          "explanation": "Country or nation",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Seize",
+          "explanation": "Number sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions administratives",
+          "explanation": "Administrative divisions of France",
+          "cultural_note": "Similar to counties or states"
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, into, or to",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** Surveillance",
+          "explanation": "Vigilance or alertness",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Couleur",
+          "explanation": "Color orange",
+          "cultural_note": "Indicates a high level of alert"
+        },
+        "canicule": {
+          "display_format": "**canicule:** Vague de chaleur",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T15:18:13",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
