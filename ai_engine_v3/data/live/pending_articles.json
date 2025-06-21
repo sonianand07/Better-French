@@ -19144,6 +19144,1006 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rénovation énergétique des logements: le gouvernement accélère à contresens",
+      "original_article_link": "https://www.mediapart.fr/journal/ecologie/210625/renovation-energetique-des-logements-le-gouvernement-accelere-contresens",
+      "original_article_published_date": "2025-06-21T11:40:57",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le gouvernement accélère les rénovations énergétiques",
+      "simplified_english_title": "Government speeds up energy renovations",
+      "french_summary": "Le gouvernement veut accélérer les rénovations énergétiques des logements, mais certains pensent que c'est dans la mauvaise direction.",
+      "english_summary": "The government wants to speed up energy renovations for homes, but some think it's going in the wrong direction.",
+      "contextual_title_explanations": {
+        "Rénovation": {
+          "display_format": "**Rénovation:** Remise à neuf",
+          "explanation": "Renovation or refurbishment",
+          "cultural_note": ""
+        },
+        "énergétique": {
+          "display_format": "**énergétique:** Relatif à l'énergie",
+          "explanation": "Related to energy",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article contracté",
+          "explanation": "Combined article 'de + les'",
+          "cultural_note": ""
+        },
+        "logements": {
+          "display_format": "**logements:** Habitations",
+          "explanation": "Housing or dwellings",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le gouvernement": {
+          "display_format": "**le gouvernement:** Autorité exécutive",
+          "explanation": "The government or executive authority",
+          "cultural_note": ""
+        },
+        "accélère": {
+          "display_format": "**accélère:** Va plus vite",
+          "explanation": "Speeds up or accelerates",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition 'to' or 'at'",
+          "cultural_note": ""
+        },
+        "contresens": {
+          "display_format": "**contresens:** Sens inverse",
+          "explanation": "Opposite direction or wrong way",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire iranien: Emmanuel Macron affirme que la France et ses alliés européens vont \"accélérer les négociations\"",
+      "original_article_link": "https://www.bfmtv.com/politique/elysee/nucleaire-iranien-emmanuel-macron-affirme-que-la-france-et-ses-allies-europeens-vont-accelerer-les-negociations_AN-202506210202.html",
+      "original_article_published_date": "2025-06-21T11:45:28",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut accélérer les négociations sur le nucléaire",
+      "simplified_english_title": "Macron pushes for faster nuclear negotiations",
+      "french_summary": "Emmanuel Macron dit que la France et ses alliés européens vont accélérer les négociations sur le nucléaire iranien.",
+      "english_summary": "Emmanuel Macron says France and its European allies will speed up negotiations on the Iranian nuclear issue.",
+      "contextual_title_explanations": {
+        "Nucléaire iranien": {
+          "display_format": "**Nucléaire iranien:** Programme nucléaire de l'Iran",
+          "explanation": "Iran's nuclear program",
+          "cultural_note": "Key geopolitical issue"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "French President",
+          "cultural_note": ""
+        },
+        "affirme": {
+          "display_format": "**affirme:** déclare",
+          "explanation": "states or asserts",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** que",
+          "explanation": "that",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** pays européen",
+          "explanation": "France, European country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et",
+          "explanation": "and",
+          "cultural_note": ""
+        },
+        "ses alliés européens": {
+          "display_format": "**ses alliés européens:** partenaires européens",
+          "explanation": "European allies",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** futur proche",
+          "explanation": "are going to",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "accélérer": {
+          "display_format": "**accélérer:** hâter",
+          "explanation": "to speed up",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** les",
+          "explanation": "the",
+          "cultural_note": ""
+        },
+        "négociations": {
+          "display_format": "**négociations:** discussions",
+          "explanation": "negotiations",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : les Européens vont « accélérer les négociations », affirme Emmanuel Macron",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/guerre-iran-israel-les-europeens-vont-accelerer-les-negociations-affirme-emmanuel-macron-822d1a58-4e93-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T11:57:55",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Europe veut des négociations rapides Iran-Israël",
+      "simplified_english_title": "Europe pushes for quick Iran-Israel talks",
+      "french_summary": "Emmanuel Macron dit que les pays européens veulent accélérer les négociations entre l'Iran et Israël pour éviter plus de conflits.",
+      "english_summary": "Emmanuel Macron says European countries want to speed up negotiations between Iran and Israel to prevent further conflict.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Conflit entre deux pays",
+          "explanation": "Conflict between Iran and Israel",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "Européens": {
+          "display_format": "**Européens:** Habitants de l'Europe",
+          "explanation": "Europeans, people from Europe",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** Aller (futur proche)",
+          "explanation": "'are going to' (near future)",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "accélérer": {
+          "display_format": "**accélérer:** Rendre plus rapide",
+          "explanation": "To accelerate, speed up",
+          "cultural_note": ""
+        },
+        "négociations": {
+          "display_format": "**négociations:** Discussions pour un accord",
+          "explanation": "Negotiations, talks for agreement",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»**:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "affirme": {
+          "display_format": "**affirme:** Déclare avec assurance",
+          "explanation": "Affirms, states with assurance",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "French President",
+          "cultural_note": "Current President of France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "De la taille d'un moineau à celle d'un avion de combat, les drones militaires occupent de plus en plus de terrains",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/defense/de-la-taille-d-un-moineau-a-celle-d-un-avion-de-combat-les-drones-militaires-occupent-de-plus-en-plus-de-terrains_AV-202506210194.html",
+      "original_article_published_date": "2025-06-21T10:59:32",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les drones militaires grandissent",
+      "simplified_english_title": "Military drones are growing",
+      "french_summary": "Les drones militaires deviennent de plus en plus grands, allant de la taille d'un oiseau à celle d'un avion de combat.",
+      "english_summary": "Military drones are becoming increasingly larger, ranging from the size of a bird to that of a fighter jet.",
+      "contextual_title_explanations": {
+        "De": {
+          "display_format": "**De:** À propos de",
+          "explanation": "About or concerning",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "taille": {
+          "display_format": "**taille:** Dimension",
+          "explanation": "Size or dimension",
+          "cultural_note": ""
+        },
+        "d'un": {
+          "display_format": "**d'un:** De un",
+          "explanation": "Of a",
+          "cultural_note": ""
+        },
+        "moineau": {
+          "display_format": "**moineau:** Petit oiseau",
+          "explanation": "Sparrow, a small bird",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Jusqu'à",
+          "explanation": "To or up to",
+          "cultural_note": ""
+        },
+        "celle": {
+          "display_format": "**celle:** Celle-là",
+          "explanation": "That one (feminine)",
+          "cultural_note": ""
+        },
+        "avion": {
+          "display_format": "**avion:** Aéronef",
+          "explanation": "Airplane",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "combat": {
+          "display_format": "**combat:** Bataille",
+          "explanation": "Combat or battle",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,: Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "drones": {
+          "display_format": "**drones:** Véhicules aériens sans pilote",
+          "explanation": "Unmanned aerial vehicles",
+          "cultural_note": ""
+        },
+        "militaires": {
+          "display_format": "**militaires:** Relatif à l'armée",
+          "explanation": "Military or related to the army",
+          "cultural_note": ""
+        },
+        "occupent": {
+          "display_format": "**occupent:** Prennent place",
+          "explanation": "Occupy or take place",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Davantage",
+          "explanation": "More",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Quantité",
+          "explanation": "Amount or quantity",
+          "cultural_note": ""
+        },
+        "terrains": {
+          "display_format": "**terrains:** Zones",
+          "explanation": "Areas or zones",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule en France: des températures jusqu'à 39 degrés ce samedi",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-canicule-en-france-des-temp%C3%A9ratures-jusqu-%C3%A0-39-degr%C3%A9s-ce-samedi",
+      "original_article_published_date": "2025-06-21T09:23:03",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France ce samedi",
+      "simplified_english_title": "Very hot in France this Saturday",
+      "french_summary": "La France connaît des températures élevées ce samedi, jusqu'à 39 degrés. Il fait chaud dans tout le pays.",
+      "english_summary": "France experiences high temperatures this Saturday, up to 39 degrees. It is hot throughout the country.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** articles indéfinis",
+          "explanation": "Some, plural indefinite article",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** degrés de chaleur",
+          "explanation": "Temperatures, heat levels",
+          "cultural_note": ""
+        },
+        "jusqu'à": {
+          "display_format": "**jusqu'à:** jusqu'au point de",
+          "explanation": "Up to, as high as",
+          "cultural_note": ""
+        },
+        "39": {
+          "display_format": "**39:** trente-neuf",
+          "explanation": "Number thirty-nine",
+          "cultural_note": ""
+        },
+        "degrés": {
+          "display_format": "**degrés:** unités de température",
+          "explanation": "Degrees, temperature units",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** ce, cet",
+          "explanation": "This, current",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** jour de la semaine",
+          "explanation": "Saturday, day of the week",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Leila Sansour, cinéaste : « La reconnaissance de la Palestine par la France inciterait d’autres pays à lui emboîter le pas »",
+      "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/21/leila-sansour-cineaste-la-reconnaissance-de-la-palestine-par-la-france-inciterait-d-autres-pays-a-lui-emboiter-le-pas_6615084_3232.html",
+      "original_article_published_date": "2025-06-21T12:30:11",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France pourrait reconnaître la Palestine",
+      "simplified_english_title": "France may recognize Palestine",
+      "french_summary": "Leila Sansour, une cinéaste, dit que si la France reconnaît la Palestine, d'autres pays pourraient suivre.",
+      "english_summary": "Leila Sansour, a filmmaker, says France recognizing Palestine could encourage other countries to follow.",
+      "contextual_title_explanations": {
+        "Leila Sansour": {
+          "display_format": "**Leila Sansour:** Nom propre",
+          "explanation": "Palestinian filmmaker's name",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating elements",
+          "cultural_note": ""
+        },
+        "cinéaste": {
+          "display_format": "**cinéaste:** Réalisateur",
+          "explanation": "Filmmaker or director",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "reconnaissance": {
+          "display_format": "**reconnaissance:** Acceptation",
+          "explanation": "Recognition or acknowledgment",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "Palestine": {
+          "display_format": "**Palestine:** Territoire palestinien",
+          "explanation": "Palestinian territory",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par",
+          "explanation": "Preposition, 'by'",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        "inciterait": {
+          "display_format": "**inciterait:** Encouragerait",
+          "explanation": "Would encourage",
+          "cultural_note": ""
+        },
+        "d’autres": {
+          "display_format": "**d’autres:** D'autres",
+          "explanation": "Other, more",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** Nations",
+          "explanation": "Countries",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "Preposition, 'to'",
+          "cultural_note": ""
+        },
+        "lui": {
+          "display_format": "**lui:** Elle",
+          "explanation": "Pronoun, 'her'",
+          "cultural_note": ""
+        },
+        "emboîter": {
+          "display_format": "**emboîter:** Suivre",
+          "explanation": "To follow suit",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Marche",
+          "explanation": "Step or pace",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le ministre de la Santé Yannick Neuder indique que la France va connaître \"un été caniculaire\"",
+      "original_article_link": "https://www.bfmtv.com/politique/video-le-ministre-de-la-sante-yannick-neuder-indique-que-la-france-va-connaitre-un-ete-caniculaire_VN-202506210160.html",
+      "original_article_published_date": "2025-06-21T09:22:33",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France aura un été très chaud",
+      "simplified_english_title": "France will have a very hot summer",
+      "french_summary": "Le ministre de la Santé annonce que la France va avoir un été avec des températures très élevées.",
+      "english_summary": "The Health Minister announces that France will have a summer with very high temperatures.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "ministre": {
+          "display_format": "**ministre:** Membre du gouvernement",
+          "explanation": "Minister, government member",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from (preposition)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "Santé": {
+          "display_format": "**Santé:** Ministère de la santé",
+          "explanation": "Health (ministry)",
+          "cultural_note": ""
+        },
+        "Yannick Neuder": {
+          "display_format": "**Yannick Neuder:** Nom du ministre",
+          "explanation": "Name of the health minister",
+          "cultural_note": ""
+        },
+        "indique": {
+          "display_format": "**indique:** Verbe dire",
+          "explanation": "Says, indicates (verb)",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Conjonction",
+          "explanation": "That (conjunction)",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France (country)",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**va:** Verbe aller",
+          "explanation": "Is going to (verb)",
+          "cultural_note": ""
+        },
+        "connaître": {
+          "display_format": "**connaître:** Verbe savoir",
+          "explanation": "To know, experience (verb)",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A, an (indefinite article)",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**été:** Saison chaude",
+          "explanation": "Summer (season)",
+          "cultural_note": ""
+        },
+        "caniculaire": {
+          "display_format": "**caniculaire:** Très chaud",
+          "explanation": "Very hot, scorching",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: les conseils d'Adrien Ponin-Sinapayen, porte-parole de la sécurité civile pour affronter la chaleur",
+      "original_article_link": "https://www.bfmtv.com/societe/video-canicule-les-conseils-d-adrien-ponin-sinapayen-porte-parole-de-la-securite-civile-pour-affronter-la-chaleur_VN-202506210145.html",
+      "original_article_published_date": "2025-06-21T08:31:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conseils pour la canicule",
+      "simplified_english_title": "Advice for the heatwave",
+      "french_summary": "Adrien Ponin-Sinapayen donne des conseils pour rester en sécurité pendant la canicule.",
+      "english_summary": "Adrien Ponin-Sinapayen gives advice to stay safe during the heatwave.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "conseils": {
+          "display_format": "**conseils:** Recommandations",
+          "explanation": "Advice, tips",
+          "cultural_note": ""
+        },
+        "d'Adrien Ponin-Sinapayen": {
+          "display_format": "**d'Adrien Ponin-Sinapayen:** Nom propre",
+          "explanation": "Name of the spokesperson",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separates clauses",
+          "cultural_note": ""
+        },
+        "porte-parole": {
+          "display_format": "**porte-parole:** Représentant officiel",
+          "explanation": "Official spokesperson",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "sécurité civile": {
+          "display_format": "**sécurité civile:** Service public",
+          "explanation": "Civil protection service",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "Preposition, 'for'",
+          "cultural_note": ""
+        },
+        "affronter": {
+          "display_format": "**affronter:** Faire face",
+          "explanation": "To face, confront",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Météo : la France va connaître un «été caniculaire», alerte le ministre de la Santé",
+      "original_article_link": "https://www.lefigaro.fr/meteo/meteo-la-france-va-connaitre-un-ete-caniculaire-alerte-le-ministre-de-la-sante-20250621",
+      "original_article_published_date": "2025-06-21T10:03:03",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un été très chaud arrive en France",
+      "simplified_english_title": "A very hot summer is coming to France",
+      "french_summary": "Le ministre de la Santé avertit que la France va avoir un été avec des températures très élevées.",
+      "english_summary": "The Health Minister warns that France will experience a summer with very high temperatures.",
+      "contextual_title_explanations": {
+        "Météo": {
+          "display_format": "**Météo:** Temps",
+          "explanation": "Weather",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**va:** Aller futur proche",
+          "explanation": "Is going to",
+          "cultural_note": ""
+        },
+        "connaître": {
+          "display_format": "**connaître:** Subir",
+          "explanation": "To experience",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**été:** Saison chaude",
+          "explanation": "Summer",
+          "cultural_note": ""
+        },
+        "caniculaire»": {
+          "display_format": "**caniculaire»:** Très chaud",
+          "explanation": "Extremely hot",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertit",
+          "explanation": "Alerts",
+          "cultural_note": ""
+        },
+        "le ministre": {
+          "display_format": "**le ministre:** Membre du gouvernement",
+          "explanation": "Government minister",
+          "cultural_note": ""
+        },
+        "de la Santé": {
+          "display_format": "**de la Santé:** Responsable santé",
+          "explanation": "Of Health",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"On galère\", \"je trouve ça génial\": la zone à trafic limité officiellement lancée à Lyon, les habitants sont divisés",
+      "original_article_link": "https://www.bfmtv.com/lyon/on-galere-je-trouve-ca-genial-la-zone-a-trafic-limite-officiellement-lancee-a-lyon-les-habitants-sont-divises_AV-202506210188.html",
+      "original_article_published_date": "2025-06-21T10:42:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouvelle zone de trafic à Lyon divise les habitants",
+      "simplified_english_title": "Lyon's new traffic zone divides residents",
+      "french_summary": "La nouvelle zone à trafic limité à Lyon est lancée, certains habitants trouvent cela difficile, d'autres aiment bien.",
+      "english_summary": "Lyon's new low-traffic zone is launched, some residents find it difficult, others like it.",
+      "contextual_title_explanations": {
+        "\"On galère\"": {
+          "display_format": "**On galère:** On souffre",
+          "explanation": "We're struggling",
+          "cultural_note": "Colloquial expression for difficulty"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "\"je trouve ça génial\"": {
+          "display_format": "**je trouve ça génial:** J'aime beaucoup",
+          "explanation": "I find it great",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la zone à trafic limité": {
+          "display_format": "**la zone à trafic limité:** Zone de circulation restreinte",
+          "explanation": "Low traffic zone",
+          "cultural_note": ""
+        },
+        "officiellement": {
+          "display_format": "**officiellement:** De manière officielle",
+          "explanation": "Officially",
+          "cultural_note": ""
+        },
+        "lancée": {
+          "display_format": "**lancée:** Commencée",
+          "explanation": "Launched",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Dans la ville de",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Lyon": {
+          "display_format": "**Lyon:** Ville française",
+          "explanation": "French city",
+          "cultural_note": ""
+        },
+        "les habitants": {
+          "display_format": "**les habitants:** Les résidents",
+          "explanation": "The inhabitants",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Sont",
+          "explanation": "Are",
+          "cultural_note": ""
+        },
+        "divisés": {
+          "display_format": "**divisés:** En désaccord",
+          "explanation": "Divided",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
