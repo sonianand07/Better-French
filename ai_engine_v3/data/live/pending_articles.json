@@ -23929,6 +23929,896 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "CARTE. Vague de chaleur : ville par ville, les températures maximales atteintes ce samedi 21 juin",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/carte-vague-de-chaleur-ville-par-ville-les-temperatures-maximales-atteintes-ce-samedi-21-juin-a30027e2-4eb7-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T17:00:22",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Températures élevées ce samedi en France",
+      "simplified_english_title": "High temperatures this Saturday in France",
+      "french_summary": "Une vague de chaleur touche la France ce samedi. Les températures maximales varient selon les villes.",
+      "english_summary": "A heatwave affects France this Saturday. Maximum temperatures vary by city.",
+      "contextual_title_explanations": {
+        "CARTE": {
+          "display_format": "**CARTE:** Plan visuel",
+          "explanation": "Map or chart",
+          "cultural_note": "Often used in headlines for visual aids"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "Vague": {
+          "display_format": "**Vague:** Mouvement",
+          "explanation": "Wave, surge",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Possession",
+          "explanation": "Of, indicates possession",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**::** Deux-points",
+          "explanation": "Colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "ville": {
+          "display_format": "**ville:** Municipalité",
+          "explanation": "City, town",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par le biais de",
+          "explanation": "By, through",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separates items",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**températures:** Degrés",
+          "explanation": "Temperatures",
+          "cultural_note": ""
+        },
+        "maximales": {
+          "display_format": "**maximales:** Plus élevées",
+          "explanation": "Maximum, highest",
+          "cultural_note": ""
+        },
+        "atteintes": {
+          "display_format": "**atteintes:** Réalisé",
+          "explanation": "Reached, achieved",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce jour",
+          "explanation": "This, that",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Jour de la semaine",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        "21": {
+          "display_format": "**21:** Vingt et un",
+          "explanation": "Twenty-one",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**juin:** Mois de l'année",
+          "explanation": "June",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Monaco, havre accueillant pour blanchir les «produits du crime»",
+      "original_article_link": "https://www.mediapart.fr/journal/international/210625/monaco-havre-accueillant-pour-blanchir-les-produits-du-crime",
+      "original_article_published_date": "2025-06-21T17:03:37",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Monaco aide à cacher l'argent sale",
+      "simplified_english_title": "Monaco helps hide dirty money",
+      "french_summary": "Monaco est un endroit où les criminels cachent facilement leur argent illégal, selon un rapport récent.",
+      "english_summary": "Monaco is a place where criminals easily hide their illegal money, according to a recent report.",
+      "contextual_title_explanations": {
+        "Monaco": {
+          "display_format": "**Monaco:** Principauté",
+          "explanation": "Wealthy city-state on French Riviera",
+          "cultural_note": "Known for luxury and tax benefits"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "havre": {
+          "display_format": "**havre:** Refuge",
+          "explanation": "Safe place, haven",
+          "cultural_note": ""
+        },
+        "accueillant": {
+          "display_format": "**accueillant:** Qui reçoit bien",
+          "explanation": "Welcoming, hospitable",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to, for",
+          "cultural_note": ""
+        },
+        "blanchir": {
+          "display_format": "**blanchir:** Nettoyer",
+          "explanation": "Launder, make clean",
+          "cultural_note": "Often used for money laundering"
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "produits du crime": {
+          "display_format": "**produits du crime:** Argent illégal",
+          "explanation": "Proceeds of crime",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule et Fête de la musique : le ministre de la Santé, Yannick Neuder, appelle à modérer la consommation d'alcool",
+      "original_article_link": "https://www.europe1.fr/sante/canicule-et-fete-de-la-musique-le-ministre-de-la-sante-yannick-neuder-appelle-a-moderer-la-consommation-dalcool-760456",
+      "original_article_published_date": "2025-06-21T16:26:02",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Canicule : moins d'alcool pendant la musique",
+      "simplified_english_title": "Heatwave: drink less alcohol at music fest",
+      "french_summary": "Le ministre de la Santé conseille de boire moins d'alcool à cause de la chaleur pendant la Fête de la Musique.",
+      "english_summary": "The Health Minister advises drinking less alcohol due to the heat during the Music Festival.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And, connecting words",
+          "cultural_note": ""
+        },
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Événement musical",
+          "explanation": "Music festival celebrated nationwide",
+          "cultural_note": "Held annually on June 21st"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le ministre de la Santé": {
+          "display_format": "**le ministre de la Santé:** Responsable santé",
+          "explanation": "Health minister, government official",
+          "cultural_note": ""
+        },
+        "Yannick Neuder": {
+          "display_format": "**Yannick Neuder:** Nom du ministre",
+          "explanation": "Name of the current health minister",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "appelle à": {
+          "display_format": "**appelle à:** Demande",
+          "explanation": "Calls for, urges to",
+          "cultural_note": ""
+        },
+        "modérer": {
+          "display_format": "**modérer:** Limiter",
+          "explanation": "To moderate, reduce",
+          "cultural_note": ""
+        },
+        "la consommation d'alcool": {
+          "display_format": "**la consommation d'alcool:** Boire alcool",
+          "explanation": "Alcohol consumption, drinking",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: le zoo de La Flèche s'adapte pour prendre soin des animaux",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/video-canicule-le-zoo-de-la-fleche-s-adapte-pour-prendre-soin-des-animaux_VN-202506210269.html",
+      "original_article_published_date": "2025-06-21T16:28:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le zoo protège les animaux de la chaleur",
+      "simplified_english_title": "Zoo protects animals from heatwave",
+      "french_summary": "Le zoo de La Flèche prend des mesures pour protéger les animaux pendant la canicule.",
+      "english_summary": "La Flèche Zoo takes measures to protect animals during the heatwave.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le zoo de La Flèche": {
+          "display_format": "**le zoo de La Flèche:** Parc zoologique",
+          "explanation": "Zoo located in La Flèche",
+          "cultural_note": "Famous zoo in the Sarthe department"
+        },
+        "s'adapte": {
+          "display_format": "**s'adapte:** S'adapter",
+          "explanation": "Adapts itself, adjusts",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to, for",
+          "cultural_note": ""
+        },
+        "prendre soin des animaux": {
+          "display_format": "**prendre soin des animaux:** Soigner les animaux",
+          "explanation": "Take care of animals",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Soudan: le Premier ministre annonce son intention de former un nouveau gouvernement",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250621-soudan-le-premier-ministre-annonce-son-intention-de-former-un-nouveau-gouvernement",
+      "original_article_published_date": "2025-06-21T03:16:13",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Premier ministre du Soudan veut un nouveau gouvernement",
+      "simplified_english_title": "Sudan's Prime Minister wants a new government",
+      "french_summary": "Le Premier ministre du Soudan a annoncé son intention de former un nouveau gouvernement pour le pays.",
+      "english_summary": "The Prime Minister of Sudan announced his intention to form a new government for the country.",
+      "contextual_title_explanations": {
+        "Soudan": {
+          "display_format": "**Soudan:** Pays africain",
+          "explanation": "Country in Northeast Africa",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "Premier ministre": {
+          "display_format": "**Premier ministre:** Chef du gouvernement",
+          "explanation": "Head of government",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rendre public",
+          "explanation": "To make known publicly",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Possessif",
+          "explanation": "Possessive adjective 'his'",
+          "cultural_note": ""
+        },
+        "intention": {
+          "display_format": "**intention:** Projet",
+          "explanation": "Plan or purpose",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'to' or 'of'",
+          "cultural_note": ""
+        },
+        "former": {
+          "display_format": "**former:** Créer",
+          "explanation": "To create or establish",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article 'a'",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Récent",
+          "explanation": "New or recent",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**gouvernement:** Autorité exécutive",
+          "explanation": "Executive authority of a state",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nouveaux anti-obésité: vers un remboursement en France mais à quel prix pour la Sécu ?",
+      "original_article_link": "https://www.bfmtv.com/economie/economie-social/nouveaux-anti-obesite-vers-un-remboursement-en-france-mais-a-quel-prix-pour-la-secu_AD-202506200645.html",
+      "original_article_published_date": "2025-06-20T16:40:29",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouveaux médicaments contre l'obésité",
+      "simplified_english_title": "New anti-obesity drugs in France",
+      "french_summary": "La France envisage de rembourser de nouveaux médicaments contre l'obésité, mais cela pourrait coûter cher à la Sécurité sociale.",
+      "english_summary": "France considers covering new anti-obesity drugs, but it may be costly for social security.",
+      "contextual_title_explanations": {
+        "Nouveaux": {
+          "display_format": "**Nouveaux:** Récents",
+          "explanation": "New or recent",
+          "cultural_note": ""
+        },
+        "anti-obésité": {
+          "display_format": "**anti-obésité:** Contre l'obésité",
+          "explanation": "Against obesity",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "vers": {
+          "display_format": "**vers:** En direction de",
+          "explanation": "Towards",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "remboursement": {
+          "display_format": "**remboursement:** Remboursement",
+          "explanation": "Reimbursement",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** La France",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**mais:** Cependant",
+          "explanation": "But or however",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "At or to",
+          "cultural_note": ""
+        },
+        "quel": {
+          "display_format": "**quel:** Quel",
+          "explanation": "What or which",
+          "cultural_note": ""
+        },
+        "prix": {
+          "display_format": "**prix:** Coût",
+          "explanation": "Price or cost",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Sécu": {
+          "display_format": "**Sécu:** Sécurité sociale",
+          "explanation": "French social security system",
+          "cultural_note": "Short for 'Sécurité sociale'"
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’opposante rwandaise Victoire Ingabire arrêtée à Kigali au Rwanda",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-l-opposante-rwandaise-victoire-ingabire-arr%C3%AAt%C3%A9e-%C3%A0-kigali-au-rwanda",
+      "original_article_published_date": "2025-06-21T10:11:57",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Victoire Ingabire arrêtée au Rwanda",
+      "simplified_english_title": "Victoire Ingabire arrested in Rwanda",
+      "french_summary": "Victoire Ingabire, une opposante politique, a été arrêtée à Kigali, la capitale du Rwanda.",
+      "english_summary": "Victoire Ingabire, a political opponent, was arrested in Kigali, the capital of Rwanda.",
+      "contextual_title_explanations": {
+        "L’opposante": {
+          "display_format": "**L’opposante:** Femme opposée",
+          "explanation": "Female opponent or dissident",
+          "cultural_note": ""
+        },
+        "rwandaise": {
+          "display_format": "**rwandaise:** Du Rwanda",
+          "explanation": "Rwandan, from Rwanda",
+          "cultural_note": ""
+        },
+        "Victoire Ingabire": {
+          "display_format": "**Victoire Ingabire:** Nom propre",
+          "explanation": "Rwandan political figure",
+          "cultural_note": "Known opposition leader"
+        },
+        "arrêtée": {
+          "display_format": "**arrêtée:** Mise en détention",
+          "explanation": "Arrested, detained",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Dans la ville",
+          "explanation": "In, at (location)",
+          "cultural_note": ""
+        },
+        "Kigali": {
+          "display_format": "**Kigali:** Capitale du Rwanda",
+          "explanation": "Capital city of Rwanda",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** Dans le pays",
+          "explanation": "In the country of",
+          "cultural_note": ""
+        },
+        "Rwanda": {
+          "display_format": "**Rwanda:** Pays d'Afrique",
+          "explanation": "Country in East Africa",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Europe 1 Matin week-end - 21/06/2025",
+      "original_article_link": "https://www.europe1.fr/emissions/Europe-1-Week-end2/europe-1-matin-week-end-21-06-2025-760412",
+      "original_article_published_date": "2025-06-21T08:04:15",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouvelles du week-end sur Europe 1",
+      "simplified_english_title": "Weekend news on Europe 1",
+      "french_summary": "Europe 1 présente les actualités du week-end avec des informations variées et des interviews exclusives ce matin.",
+      "english_summary": "Europe 1 presents weekend news with various information and exclusive interviews this morning.",
+      "contextual_title_explanations": {
+        "Europe 1": {
+          "display_format": "**Europe 1:** Station de radio",
+          "explanation": "Popular French radio station",
+          "cultural_note": "Known for news and talk shows"
+        },
+        "Matin": {
+          "display_format": "**Matin:** Le matin",
+          "explanation": "Morning",
+          "cultural_note": ""
+        },
+        "week-end": {
+          "display_format": "**week-end:** Fin de semaine",
+          "explanation": "Weekend",
+          "cultural_note": "French spelling of 'weekend'"
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Hyphen or dash",
+          "cultural_note": ""
+        },
+        "21/06/2025": {
+          "display_format": "**21/06/2025:** Date",
+          "explanation": "Date format: day/month/year",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : un bébé héliporté vers un CHU de Corrèze après avoir été oublié dans une voiture",
+      "original_article_link": "https://www.ouest-france.fr/societe/faits-divers/vague-de-chaleur-un-bebe-heliporte-vers-un-chu-de-correze-apres-avoir-ete-oublie-dans-une-voiture-97b6b408-4e00-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T18:09:40",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un bébé oublié dans une voiture héliporté",
+      "simplified_english_title": "Baby forgotten in car airlifted to hospital",
+      "french_summary": "Un bébé oublié dans une voiture pendant la chaleur a été transporté par hélicoptère à l'hôpital.",
+      "english_summary": "A baby forgotten in a car during the heatwave was airlifted to the hospital.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Ondée",
+          "explanation": "Wave, often used for heatwaves",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Chaud",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "bébé": {
+          "display_format": "**bébé:** Nourrisson",
+          "explanation": "Baby, infant",
+          "cultural_note": ""
+        },
+        "héliporté": {
+          "display_format": "**héliporté:** Transporté par hélicoptère",
+          "explanation": "Transported by helicopter",
+          "cultural_note": ""
+        },
+        "vers": {
+          "display_format": "**vers:** En direction de",
+          "explanation": "Towards, in the direction of",
+          "cultural_note": ""
+        },
+        "CHU": {
+          "display_format": "**CHU:** Centre hospitalier universitaire",
+          "explanation": "University hospital center",
+          "cultural_note": "Major hospitals in France often affiliated with universities"
+        },
+        "Corrèze": {
+          "display_format": "**Corrèze:** Département français",
+          "explanation": "French department in Nouvelle-Aquitaine region",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite temporelle",
+          "explanation": "After, following in time",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Posséder",
+          "explanation": "To have, possess",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**été:** Participe passé",
+          "explanation": "Past participle of 'être' (to be)",
+          "cultural_note": ""
+        },
+        "oublié": {
+          "display_format": "**oublié:** Laissé par inadvertance",
+          "explanation": "Forgotten, left unintentionally",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "voiture": {
+          "display_format": "**voiture:** Automobile",
+          "explanation": "Car, automobile",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Une ligne de train rouvre ce dimanche dans les Pyrénées, grâce à un financement inédit",
+      "original_article_link": "https://www.la-croix.com/economie/une-ligne-de-train-rouvre-ce-dimanche-dans-les-pyrenees-grace-a-un-financement-inedit-20250621",
+      "original_article_published_date": "2025-06-21T12:33:55",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une ligne de train rouvre dans les Pyrénées",
+      "simplified_english_title": "Train line reopens in the Pyrenees",
+      "french_summary": "Une ligne de train dans les Pyrénées rouvre ce dimanche grâce à un financement spécial.",
+      "english_summary": "A train line in the Pyrenees reopens this Sunday thanks to special funding.",
+      "contextual_title_explanations": {
+        "Une": {
+          "display_format": "**Une:** Une",
+          "explanation": "Indefinite article, singular feminine",
+          "cultural_note": ""
+        },
+        "ligne": {
+          "display_format": "**ligne:** Ligne",
+          "explanation": "Line or route",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Preposition indicating possession or association",
+          "cultural_note": ""
+        },
+        "train": {
+          "display_format": "**train:** Train",
+          "explanation": "Train",
+          "cultural_note": ""
+        },
+        "rouvre": {
+          "display_format": "**rouvre:** Réouvrir",
+          "explanation": "Reopens",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce",
+          "explanation": "Demonstrative adjective, this",
+          "cultural_note": ""
+        },
+        "dimanche": {
+          "display_format": "**dimanche:** Dimanche",
+          "explanation": "Sunday",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Dans",
+          "explanation": "In or into",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "Pyrénées": {
+          "display_format": "**Pyrénées:** Pyrénées",
+          "explanation": "Pyrenees mountain range",
+          "cultural_note": "Mountain range between France and Spain"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "grâce à": {
+          "display_format": "**grâce à:** Grâce à",
+          "explanation": "Thanks to",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un",
+          "explanation": "Indefinite article, singular masculine",
+          "cultural_note": ""
+        },
+        "financement": {
+          "display_format": "**financement:** Financement",
+          "explanation": "Funding",
+          "cultural_note": ""
+        },
+        "inédit": {
+          "display_format": "**inédit:** Inédit",
+          "explanation": "Unprecedented or novel",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
