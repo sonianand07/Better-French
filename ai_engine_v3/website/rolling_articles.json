@@ -3,6 +3,632 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Panne géante à France Télévisions : que s’est-il passé dans la nuit de vendredi à samedi ?",
+      "original_article_link": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/panne-geante-a-france-televisions-que-s-est-il-passe-dans-la-nuit-de-vendredi-a-samedi-20250621",
+      "original_article_published_date": "2025-06-21T08:07:34",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Problème technique à France Télévisions",
+      "simplified_english_title": "Technical issue at France Télévisions",
+      "french_summary": "France Télévisions a connu une panne technique majeure pendant la nuit, perturbant les émissions.",
+      "english_summary": "France Télévisions experienced a major technical issue overnight, disrupting broadcasts.",
+      "contextual_title_explanations": {
+        "Panne": {
+          "display_format": "**Panne:** Défaillance technique",
+          "explanation": "Breakdown or failure",
+          "cultural_note": ""
+        },
+        "géante": {
+          "display_format": "**géante:** Très grande",
+          "explanation": "Giant or very large",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To",
+          "cultural_note": ""
+        },
+        "France Télévisions": {
+          "display_format": "**France Télévisions:** Groupe audiovisuel public",
+          "explanation": "French public broadcasting group",
+          "cultural_note": "Major French TV network"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Pronom interrogatif",
+          "explanation": "What",
+          "cultural_note": ""
+        },
+        "s’est-il passé": {
+          "display_format": "**s’est-il passé:** Événement survenu",
+          "explanation": "What happened",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "la nuit": {
+          "display_format": "**la nuit:** Période nocturne",
+          "explanation": "The night",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "From",
+          "cultural_note": ""
+        },
+        "vendredi": {
+          "display_format": "**vendredi:** Jour de semaine",
+          "explanation": "Friday",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Jour de semaine",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Tu ne vas quand même pas acheter des bouteilles en plastique ? » : quand les enfants éduquent leurs parents",
+      "original_article_link": "https://www.lemonde.fr/m-le-mag/article/2025/06/21/tu-ne-vas-quand-meme-pas-acheter-des-bouteilles-en-plastique-quand-les-enfants-eduquent-leurs-parents_6615062_4500055.html",
+      "original_article_published_date": "2025-06-21T08:00:03",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les enfants apprennent l'écologie à leurs parents",
+      "simplified_english_title": "Children teach their parents about ecology",
+      "french_summary": "Des enfants rappellent à leurs parents de ne pas acheter des bouteilles en plastique pour protéger l'environnement.",
+      "english_summary": "Children remind their parents not to buy plastic bottles to protect the environment.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "French opening quotation mark",
+          "cultural_note": ""
+        },
+        "Tu": {
+          "display_format": "**Tu:** Pronom personnel",
+          "explanation": "Informal 'you' singular",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Adverbe de négation",
+          "explanation": "Negation particle, used with 'pas'",
+          "cultural_note": ""
+        },
+        "vas": {
+          "display_format": "**vas:** Aller (présent)",
+          "explanation": "You go (present tense)",
+          "cultural_note": ""
+        },
+        "quand": {
+          "display_format": "**quand:** Conjonction temporelle",
+          "explanation": "When, while",
+          "cultural_note": ""
+        },
+        "même": {
+          "display_format": "**même:** Adverbe d'insistance",
+          "explanation": "Even, emphasizes the action",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Adverbe de négation",
+          "explanation": "Not, negation particle",
+          "cultural_note": ""
+        },
+        "acheter": {
+          "display_format": "**acheter:** Verbe d'action",
+          "explanation": "To buy",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some, plural indefinite article",
+          "cultural_note": ""
+        },
+        "bouteilles": {
+          "display_format": "**bouteilles:** Contenants en verre/plastique",
+          "explanation": "Bottles",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In, made of",
+          "cultural_note": ""
+        },
+        "plastique": {
+          "display_format": "**plastique:** Matériau synthétique",
+          "explanation": "Plastic",
+          "cultural_note": ""
+        },
+        "?»": {
+          "display_format": "**?»:** guillemet fermant et point d'interrogation",
+          "explanation": "Closing quotation mark and question mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "The, plural definite article",
+          "cultural_note": ""
+        },
+        "enfants": {
+          "display_format": "**enfants:** Jeunes humains",
+          "explanation": "Children",
+          "cultural_note": ""
+        },
+        "éduquent": {
+          "display_format": "**éduquent:** Verbe éduquer (présent)",
+          "explanation": "Educate, teach",
+          "cultural_note": ""
+        },
+        "leurs": {
+          "display_format": "**leurs:** Adjectif possessif",
+          "explanation": "Their, possessive adjective",
+          "cultural_note": ""
+        },
+        "parents": {
+          "display_format": "**parents:** Mère et père",
+          "explanation": "Parents",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« On trouve de tout dans les eaux usées » : elle s’assure que les eaux rejetées sont bien épurées",
+      "original_article_link": "https://www.ouest-france.fr/education/orientation/on-trouve-de-tout-dans-les-eaux-usees-elle-sassure-que-les-eaux-rejetees-sont-bien-epurees-9a551ab8-3b15-11f0-88b0-943c4d024772?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T07:54:01",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Elle vérifie la propreté des eaux usées",
+      "simplified_english_title": "She checks the cleanliness of wastewater",
+      "french_summary": "Une femme s'assure que les eaux usées sont bien nettoyées avant d'être rejetées dans l'environnement.",
+      "english_summary": "A woman ensures that wastewater is properly cleaned before being released into the environment.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "Used in French instead of double quotes"
+        },
+        "On": {
+          "display_format": "**On:** Pronom indéfini",
+          "explanation": "Indefinite pronoun meaning 'we' or 'one'",
+          "cultural_note": ""
+        },
+        "trouve": {
+          "display_format": "**trouve:** Trouver au présent",
+          "explanation": "Verb 'to find' in present tense",
+          "cultural_note": ""
+        },
+        "de tout": {
+          "display_format": "**de tout:** Beaucoup de choses",
+          "explanation": "A lot of things",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "Preposition meaning 'in' or 'inside'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "eaux usées": {
+          "display_format": "**eaux usées:** Eaux sales",
+          "explanation": "Wastewater",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": "Used in French instead of double quotes"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "elle": {
+          "display_format": "**elle:** Pronom personnel",
+          "explanation": "Personal pronoun meaning 'she'",
+          "cultural_note": ""
+        },
+        "s’assure": {
+          "display_format": "**s’assure:** S’assurer au présent",
+          "explanation": "Verb 'to make sure' in present tense",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Conjonction",
+          "explanation": "Conjunction meaning 'that'",
+          "cultural_note": ""
+        },
+        "eaux": {
+          "display_format": "**eaux:** Eau au pluriel",
+          "explanation": "Plural form of 'water'",
+          "cultural_note": ""
+        },
+        "rejetées": {
+          "display_format": "**rejetées:** Rejeter au participe passé",
+          "explanation": "Past participle of 'to discharge'",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être au présent",
+          "explanation": "Verb 'to be' in present tense",
+          "cultural_note": ""
+        },
+        "bien": {
+          "display_format": "**bien:** Adverbe",
+          "explanation": "Adverb meaning 'well'",
+          "cultural_note": ""
+        },
+        "épurées": {
+          "display_format": "**épurées:** Épurer au participe passé",
+          "explanation": "Past participle of 'to purify'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La vague de chaleur à son zénith samedi, 16 départements toujours en vigilance orange",
+      "original_article_link": "https://www.europe1.fr/Environnement/la-vague-de-chaleur-a-son-zenith-samedi-16-departements-toujours-en-vigilance-orange-760413",
+      "original_article_published_date": "2025-06-21T07:43:58",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud samedi",
+      "simplified_english_title": "Extreme heat peaks on Saturday",
+      "french_summary": "Samedi, la chaleur sera très forte. Seize départements restent en vigilance orange à cause de cette vague.",
+      "english_summary": "Saturday will be extremely hot. Sixteen departments remain on orange alert due to this heatwave.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "vague": {
+          "display_format": "**vague:** Mouvement d'eau",
+          "explanation": "Wave, surge",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At, to",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Possessif",
+          "explanation": "Its, his, her",
+          "cultural_note": ""
+        },
+        "zénith": {
+          "display_format": "**zénith:** Point culminant",
+          "explanation": "Zenith, peak",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**samedi:** Jour de la semaine",
+          "explanation": "Saturday",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Nombre",
+          "explanation": "Sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions administratives",
+          "explanation": "Departments, regions",
+          "cultural_note": "French administrative regions"
+        },
+        "toujours": {
+          "display_format": "**toujours:** En continu",
+          "explanation": "Still, always",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** État d'alerte",
+          "explanation": "Vigilance, alert",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Couleur d'alerte",
+          "explanation": "Orange (alert level)",
+          "cultural_note": "Second highest level of alert in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: 16 départements sont placés en vigilance orange",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/video-canicule-16-departements-sont-places-en-vigilance-orange_VN-202506210124.html",
+      "original_article_published_date": "2025-06-21T07:39:20",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "16 départements en alerte canicule",
+      "simplified_english_title": "16 regions on heatwave alert",
+      "french_summary": "La France place seize départements en vigilance orange à cause de la canicule prévue cette semaine.",
+      "english_summary": "France puts sixteen regions on orange alert due to the expected heatwave this week.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "16": {
+          "display_format": "**16:** Seize",
+          "explanation": "Number sixteen",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** Divisions territoriales",
+          "explanation": "Administrative regions in France",
+          "cultural_note": "Similar to counties"
+        },
+        "sont": {
+          "display_format": "**sont:** Être au pluriel",
+          "explanation": "Are, form of 'to be'",
+          "cultural_note": ""
+        },
+        "placés": {
+          "display_format": "**placés:** Mis en position",
+          "explanation": "Placed, put",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, into",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** État d'alerte",
+          "explanation": "Vigilance, alert state",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Orange alert level",
+          "cultural_note": "Second highest alert level in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "François Bayrou effectue un aller-retour express en jet privé à Biarritz pour 27 minutes de discours sur place",
+      "original_article_link": "https://www.bfmtv.com/politique/video-francois-bayrou-effectue-un-aller-retour-express-en-jet-prive-a-biarritz-pour-27-minutes-de-discours-sur-place_VN-202506210120.html",
+      "original_article_published_date": "2025-06-21T07:27:35",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bayrou prend un jet privé pour un court discours",
+      "simplified_english_title": "Bayrou takes private jet for short speech",
+      "french_summary": "François Bayrou a utilisé un jet privé pour aller à Biarritz et faire un discours de 27 minutes.",
+      "english_summary": "François Bayrou used a private jet to go to Biarritz and give a 27-minute speech.",
+      "contextual_title_explanations": {
+        "François Bayrou": {
+          "display_format": "**François Bayrou:** Homme politique français",
+          "explanation": "French centrist politician",
+          "cultural_note": "Founder of the MoDem party"
+        },
+        "effectue": {
+          "display_format": "**effectue:** Fait",
+          "explanation": "Carries out or performs",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "aller-retour": {
+          "display_format": "**aller-retour:** Voyage aller et retour",
+          "explanation": "Round trip",
+          "cultural_note": ""
+        },
+        "express": {
+          "display_format": "**express:** Rapide",
+          "explanation": "Express, very quick",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or by",
+          "cultural_note": ""
+        },
+        "jet privé": {
+          "display_format": "**jet privé:** Avion privé",
+          "explanation": "Private jet",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Vers",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "Biarritz": {
+          "display_format": "**Biarritz:** Ville française",
+          "explanation": "French coastal city",
+          "cultural_note": "Known for surfing and luxury tourism"
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "For or in order to",
+          "cultural_note": ""
+        },
+        "27 minutes": {
+          "display_format": "**27 minutes:** Vingt-sept minutes",
+          "explanation": "Twenty-seven minutes",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Du",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "discours": {
+          "display_format": "**discours:** Allocution",
+          "explanation": "Speech or address",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "place": {
+          "display_format": "**place:** Lieu",
+          "explanation": "Place or location",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T08:23:16",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Transition énergétique et défense : la BCE va-t-elle rouvrir les vannes du crédit ?",
       "original_article_link": "https://www.lepoint.fr/economie/transition-energetique-et-defense-la-bce-va-t-elle-rouvrir-les-vannes-du-credit-21-06-2025-2592547_28.php",
       "original_article_published_date": "2025-06-21T07:00:00",
@@ -9129,537 +9755,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-20T16:24:10",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "États-Unis : comment les démocrates tentent désespérément de s’opposer à une intervention en Iran",
-      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/etats-unis-comment-les-democrates-tentent-desesperement-de-sopposer-a-une-intervention-en-iran-4517432e-4dd9-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-20T15:41:23",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les démocrates contre une intervention en Iran",
-      "simplified_english_title": "Democrats oppose intervention in Iran",
-      "french_summary": "Les démocrates aux États-Unis essayent de bloquer une intervention militaire en Iran, mais c'est difficile pour eux.",
-      "english_summary": "Democrats in the US are trying to block military intervention in Iran, but it is difficult for them.",
-      "contextual_title_explanations": {
-        "États-Unis": {
-          "display_format": "**États-Unis:** Pays nord-américain",
-          "explanation": "United States of America",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "comment": {
-          "display_format": "**comment:** De quelle manière",
-          "explanation": "How",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "démocrates": {
-          "display_format": "**démocrates:** Membre du parti démocrate",
-          "explanation": "Democrats",
-          "cultural_note": "One of the two major political parties in the U.S."
-        },
-        "tentent": {
-          "display_format": "**tentent:** Essayer",
-          "explanation": "Attempt or try",
-          "cultural_note": ""
-        },
-        "désespérément": {
-          "display_format": "**désespérément:** Avec désespoir",
-          "explanation": "Desperately",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or to",
-          "cultural_note": ""
-        },
-        "s’opposer": {
-          "display_format": "**s’opposer:** Résister à",
-          "explanation": "To oppose",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "To",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "A or an",
-          "cultural_note": ""
-        },
-        "intervention": {
-          "display_format": "**intervention:** Action d’intervenir",
-          "explanation": "Intervention",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T16:24:10",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Story 1 : Paris, Berlin, Londres proposent à l'Iran de négocier - 20/06",
-      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-1-paris-berlin-londres-proposent-a-l-iran-de-negocier-20-06_VN-202506200596.html",
-      "original_article_published_date": "2025-06-20T15:34:54",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Paris, Berlin et Londres veulent parler à l'Iran",
-      "simplified_english_title": "Paris, Berlin, and London want to talk to Iran",
-      "french_summary": "La France, l'Allemagne et le Royaume-Uni ont proposé à l'Iran de commencer des négociations pour discuter des tensions actuelles.",
-      "english_summary": "France, Germany, and the UK have proposed to Iran to start negotiations to discuss current tensions.",
-      "contextual_title_explanations": {
-        "Story 1": {
-          "display_format": "**Story 1:** Histoire",
-          "explanation": "Story number one",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces a list or explanation",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** Capitale de la France",
-          "explanation": "Capital city of France",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Separates items in a list",
-          "cultural_note": ""
-        },
-        "Berlin": {
-          "display_format": "**Berlin:** Capitale de l'Allemagne",
-          "explanation": "Capital city of Germany",
-          "cultural_note": ""
-        },
-        "Londres": {
-          "display_format": "**Londres:** Capitale du Royaume-Uni",
-          "explanation": "Capital city of the UK",
-          "cultural_note": ""
-        },
-        "proposent": {
-          "display_format": "**proposent:** suggèrent",
-          "explanation": "Verb: to propose or suggest",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** à",
-          "explanation": "Preposition: to",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** de",
-          "explanation": "Preposition: of or to",
-          "cultural_note": ""
-        },
-        "négocier": {
-          "display_format": "**négocier:** discuter",
-          "explanation": "Verb: to negotiate",
-          "cultural_note": ""
-        },
-        "-": {
-          "display_format": "**-** Tiret",
-          "explanation": "Dash indicating a pause or separation",
-          "cultural_note": ""
-        },
-        "20/06": {
-          "display_format": "**20/06:** Date",
-          "explanation": "Date format: day/month",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T16:24:10",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Reprise des visas étudiants aux États-Unis : une éclaircie de courte durée ?",
-      "original_article_link": "https://www.lepoint.fr/monde/reprise-des-visas-etudiants-aux-etats-unis-une-eclaircie-de-courte-duree-20-06-2025-2592523_24.php",
-      "original_article_published_date": "2025-06-20T15:34:00",
-      "source_name": "Le Point",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les visas étudiants pour les USA reviennent",
-      "simplified_english_title": "US student visas resume",
-      "french_summary": "Les États-Unis recommencent à délivrer des visas étudiants, mais cette reprise pourrait être temporaire selon les experts.",
-      "english_summary": "The United States resumes issuing student visas, but experts say this resumption might be temporary.",
-      "contextual_title_explanations": {
-        "Reprise": {
-          "display_format": "**Reprise:** Redémarrage",
-          "explanation": "Resumption or restart",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles définis",
-          "explanation": "Plural definite article",
-          "cultural_note": ""
-        },
-        "visas": {
-          "display_format": "**visas:** Autorisations",
-          "explanation": "Official travel permits",
-          "cultural_note": ""
-        },
-        "étudiants": {
-          "display_format": "**étudiants:** Apprenants",
-          "explanation": "Students",
-          "cultural_note": ""
-        },
-        "aux": {
-          "display_format": "**aux:** À les",
-          "explanation": "To the (plural)",
-          "cultural_note": ""
-        },
-        "États-Unis": {
-          "display_format": "**États-Unis:** Pays",
-          "explanation": "United States",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article (feminine)",
-          "cultural_note": ""
-        },
-        "éclaircie": {
-          "display_format": "**éclaircie:** Amélioration",
-          "explanation": "Improvement or clearing",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition (of, from)",
-          "cultural_note": ""
-        },
-        "courte": {
-          "display_format": "**courte:** Brève",
-          "explanation": "Short in duration",
-          "cultural_note": ""
-        },
-        "durée": {
-          "display_format": "**durée:** Période",
-          "explanation": "Duration or period",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T03:12:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Jusqu'à -60% sur les produits invendus: Lidl se lance dans le déstockage",
-      "original_article_link": "https://rmc.bfmtv.com/conso/alimentation/grande-distribution/jusqu-a-60-sur-les-produits-invendus-lidl-se-lance-dans-le-destockage_AN-202506200587.html",
-      "original_article_published_date": "2025-06-20T15:24:22",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Lidl vend des produits à prix réduit",
-      "simplified_english_title": "Lidl sells products at reduced prices",
-      "french_summary": "Lidl propose des réductions jusqu'à 60% sur les produits invendus pour les écouler.",
-      "english_summary": "Lidl offers discounts up to 60% on unsold products to clear stock.",
-      "contextual_title_explanations": {
-        "Jusqu'à": {
-          "display_format": "**Jusqu'à:** Jusqu'à",
-          "explanation": "Up to, until",
-          "cultural_note": ""
-        },
-        "-60%": {
-          "display_format": "**-60%:** Moins soixante pour cent",
-          "explanation": "Sixty percent off",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** sur",
-          "explanation": "On, about",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** les",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "produits": {
-          "display_format": "**produits:** produits",
-          "explanation": "Products",
-          "cultural_note": ""
-        },
-        "invendus": {
-          "display_format": "**invendus:** invendus",
-          "explanation": "Unsold",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon",
-          "cultural_note": ""
-        },
-        "Lidl": {
-          "display_format": "**Lidl:** Lidl",
-          "explanation": "German supermarket chain",
-          "cultural_note": ""
-        },
-        "se lance": {
-          "display_format": "**se lance:** se lance",
-          "explanation": "Launches itself",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** dans",
-          "explanation": "Into",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** le",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "déstockage": {
-          "display_format": "**déstockage:** déstockage",
-          "explanation": "Clearance sale",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T07:17:32",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Iran : le chef de l'AIEA affirme que son organisation peut \"garantir\" que l'Iran ne développerait pas l'arme nucléaire",
-      "original_article_link": "https://www.bfmtv.com/international/europe/ukraine/video-iran-le-chef-de-l-aiea-affirme-que-son-organisation-peut-garantir-que-l-iran-ne-developperait-pas-l-arme-nucleaire_VN-202506200585.html",
-      "original_article_published_date": "2025-06-20T15:19:10",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'AIEA peut empêcher l'arme nucléaire iranienne",
-      "simplified_english_title": "IAEA can prevent Iranian nuclear weapon",
-      "french_summary": "Le chef de l'AIEA déclare que son organisation peut garantir que l'Iran ne développera pas d'arme nucléaire.",
-      "english_summary": "The IAEA chief states his organization can ensure Iran does not develop a nuclear weapon.",
-      "contextual_title_explanations": {
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "le chef de l'AIEA": {
-          "display_format": "**le chef de l'AIEA:** Dirigeant de l'Agence internationale de l'énergie atomique",
-          "explanation": "Head of the International Atomic Energy Agency",
-          "cultural_note": ""
-        },
-        "affirme": {
-          "display_format": "**affirme:** Déclare avec assurance",
-          "explanation": "States with confidence",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**que:** Que",
-          "explanation": "That (conjunction)",
-          "cultural_note": ""
-        },
-        "son organisation": {
-          "display_format": "**son organisation:** Son agence",
-          "explanation": "His organization",
-          "cultural_note": ""
-        },
-        "peut": {
-          "display_format": "**peut:** Est capable de",
-          "explanation": "Can, is able to",
-          "cultural_note": ""
-        },
-        "garantir": {
-          "display_format": "**garantir:** Assurer",
-          "explanation": "To guarantee",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "ne développerait pas": {
-          "display_format": "**ne développerait pas:** N'acquerrait pas",
-          "explanation": "Would not develop",
-          "cultural_note": ""
-        },
-        "l'arme nucléaire": {
-          "display_format": "**l'arme nucléaire:** Arme atomique",
-          "explanation": "Nuclear weapon",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T21:17:09",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : la guerre jusqu’où ?",
-      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/le-monde-dans-tous-ses-%C3%A9tats/20250620-isra%C3%ABl-iran-la-guerre-jusqu-o%C3%B9",
-      "original_article_published_date": "2025-06-20T15:14:23",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Tensions entre Israël et Iran",
-      "simplified_english_title": "Tensions between Israel and Iran",
-      "french_summary": "Les tensions entre Israël et Iran augmentent, suscitant des inquiétudes sur une escalade possible du conflit dans la région.",
-      "english_summary": "Tensions between Israel and Iran are rising, raising concerns about a possible escalation of conflict in the region.",
-      "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre deux pays",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Ongoing geopolitical tensions"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article 'the'",
-          "cultural_note": ""
-        },
-        "guerre": {
-          "display_format": "**guerre:** Conflit armé",
-          "explanation": "War or armed conflict",
-          "cultural_note": ""
-        },
-        "jusqu’où": {
-          "display_format": "**jusqu’où:** Jusqu'à quel point",
-          "explanation": "To what extent",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-20T15:19:59",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
