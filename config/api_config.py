@@ -21,7 +21,7 @@ from configparser import ConfigParser
 # ---------------------------------------------------------------------------
 
 # 1. Try environment variable first (works well in CI / prod containers)
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
 
 # 2. Fallback: attempt to read from optional config.ini so that local helpers
 #    work even if the user hasn't exported the variable in their shell.
@@ -30,7 +30,7 @@ if not OPENROUTER_API_KEY:
     if cfg_path.exists():
         parser = ConfigParser()
         parser.read(cfg_path)
-        OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback=None)
+        OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback="").strip() or None
 
 # 3. Final guard
 if not OPENROUTER_API_KEY:
