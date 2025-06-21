@@ -1,9 +1,19 @@
 from __future__ import annotations
-"""End-to-end runner for AI-Engine v2.
+"""End-to-end runner for **AI-Engine v3**.
 
-Usage:
-  OPENROUTER_API_KEY=sk-... python -m ai_engine_v2.pipeline.runner --limit 20 --serve
+Key usage patterns:
+
+• Process 5 fresh articles, skip backlog, and serve website:
+
+    OPENROUTER_API_KEY=sk-… python -m ai_engine_v3.pipeline.runner --limit 5 --backfill-limit 0 --serve
+
+• Back-fill at most 20 older articles:
+
+    python -m ai_engine_v3.pipeline.runner --backfill-limit 20
 """
+# Ensure API key from config.ini / env is available before any LLM calls
+import config.api_config  # noqa: F401
+
 import argparse, logging, pathlib, subprocess, sys, http.server, socketserver, webbrowser
 
 from . import config  # type: ignore
@@ -18,7 +28,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent  # ai_engine_v2/
 
 
 def run_pipeline(limit: int | None = None, backfill_limit: int | None = None):
-    logger.info("\n🟢🟢🟢  Better French AI-Engine v2 Run  🟢🟢🟢\n")
+    logger.info("\n🟢🟢🟢  Better French AI-Engine v3 Run  🟢🟢🟢\n")
     logger.info("📡 Scraping sources …")
     scraper = SmartScraper()
     raw_articles = scraper.comprehensive_scrape()
@@ -46,6 +56,7 @@ def run_pipeline(limit: int | None = None, backfill_limit: int | None = None):
                 original_article_published_date=art.original_data.get("published", ""),
                 source_name=art.original_data.get("source_name", "unknown"),
                 quality_scores=qs,
+                original_article_content=art.original_data.get("content", ""),
             )
         )
 
@@ -59,10 +70,19 @@ def run_pipeline(limit: int | None = None, backfill_limit: int | None = None):
     proc = ProcessorV2()
     proc.batch_process(pending[:limit] if limit else pending)
 
-    # ---------------- Back-fill pass (optional cap) ----------------
-    to_fix = [a for a in Storage.load_pending()
-              if not a.contextual_title_explanations and a.backfill_attempts < 3]
-    if backfill_limit:
+    # ---------------- Back-fill pass (optional) ----------------
+    to_fix = [
+        a
+        for a in Storage.load_pending()
+        if not a.contextual_title_explanations and a.backfill_attempts < 3
+    ]
+
+    if backfill_limit is None:
+        # Unlimited backlog (default)
+        pass
+    elif backfill_limit <= 0:
+        to_fix = []
+    else:
         to_fix = to_fix[:backfill_limit]
     if to_fix:
         logger.info("🔄 Back-filling explanations for %d earlier articles", len(to_fix))
@@ -85,9 +105,14 @@ def serve_ui(port: int = 8010):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run full AI-Engine v2 pipeline")
+    parser = argparse.ArgumentParser(description="Run full AI-Engine v3 pipeline")
     parser.add_argument("--limit", type=int, default=None, help="Max fresh articles to AI-process")
-    parser.add_argument("--backfill-limit", type=int, default=None, help="Max backlog articles to AI-process")
+    parser.add_argument(
+        "--backfill-limit",
+        type=int,
+        default=None,
+        help="Max backlog articles to AI-process (0 = skip, omit for unlimited)",
+    )
     parser.add_argument("--serve", action="store_true", help="Serve website after processing")
     parser.add_argument("--serve-only", action="store_true", help="Only serve website, skip pipeline")
     args = parser.parse_args()

@@ -45,7 +45,12 @@ def validate_titles_payload(raw_text: str) -> Tuple[bool, Optional[Dict[str, Any
     except json.JSONDecodeError as e:
         return False, None, f"JSON decode error: {e}"
 
-    required_keys = {
+    # ------------------------------------------------------------------
+    # v2 schema includes extra context fields. We accept either v1 or v2
+    # as long as all *base* keys exist; the new keys are mandatory for v2.
+    # ------------------------------------------------------------------
+
+    base_keys = {
         "simplified_french_title",
         "simplified_english_title",
         "french_summary",
@@ -53,13 +58,39 @@ def validate_titles_payload(raw_text: str) -> Tuple[bool, Optional[Dict[str, Any
         "difficulty",
         "tone",
     }
-    if not required_keys.issubset(data.keys()):
-        return False, None, "Missing required keys"
-    # quick length checks – keep summaries ≤ 400 chars each
-    if len(data["french_summary"]) > 800 or len(data["english_summary"]) > 800:
-        return False, None, "Summary too long"
 
-    # CEFR and tone validation
+    has_context = "context_summary_en" in data or "key_facts" in data
+
+    # All base keys must be present
+    if not base_keys.issubset(data):
+        return False, None, "Missing required keys"
+
+    if has_context:
+        if "context_summary_en" not in data or "key_facts" not in data:
+            return False, None, "Missing context fields"
+        # Validate word limits (simple split on whitespace)
+        if len(data["context_summary_en"].split()) > 80:
+            return False, None, "Context summary too long"
+        # key_facts list requirements
+        key_facts = data["key_facts"]
+        if not isinstance(key_facts, list):
+            return False, None, "key_facts must be a list"
+        if not (3 <= len(key_facts) <= 8):
+            return False, None, "key_facts length invalid"
+        if any((not isinstance(item, str) or len(item) > 80 or not item.strip()) for item in key_facts):
+            return False, None, "Invalid key_facts item(s)"
+
+    # Title length ≤ 70 chars each
+    if len(data["simplified_french_title"]) > 70 or len(data["simplified_english_title"]) > 70:
+        return False, None, "Title too long"
+
+    # Summary 30–40 words (allow slight tolerance ±2)
+    for field in ("french_summary", "english_summary"):
+        words = data[field].split()
+        if not (28 <= len(words) <= 42):
+            return False, None, f"{field} word count out of range"
+
+    # CEFR & tone validation
     if data["difficulty"] not in {"A1", "A2", "B1", "B2", "C1", "C2"}:
         return False, None, "Invalid difficulty"
     if data["tone"] not in {"neutral", "opinion", "satire", "other"}:

@@ -1,117 +1,84 @@
-# Better French – Roadmap (May 2025)
+# Better-French – Roadmap (v3 era, updated June 2025)
 
-This document tracks **the next wave of improvements** that we will implement in the Better-French code-base and website.  
-It complements—but does not replace—the main `README.md`.  Think of it as a checklist / single point of truth for anyone joining the project mid-stream.
+_This is the high-level **where-we-re-going** document.  For the granular, always-changing backlog see `docs/future_features.md`._
 
 ---
 
-## 1  Branch layout
+## 0  Snapshot – what's already shipped in v3
+
+| Date | Delivery | Notes |
+|------|----------|-------|
+| 31 May 2025 | **AI-Engine v3 in production** | Hourly GitHub Action scrapes → curates → AI-enhances → commits to `ai_engine_v3/website` and Netlify auto-deploys. |
+| 12 Jun 2025 | **Contextual-word validation fixes** | Model accepts dict or list; live feed now shows >100 underlined words. |
+| 16 Jun 2025 | **Repository clean-up** | Removed all v2 code, legacy scripts, large root `data/` folder. |
+| 19 Jun 2025 | **Raw-archive refactor** | Hourly deltas stored under `ai_engine_v3/data/raw_archive/` (local only). |
+| 20 Jun 2025 | **CI + pre-commit hook enforced** | Daily note check & Ruff lint run on every PR. |
+| 21 Jun 2025 | **QA suite (Playwright + Axe + visual diff)** | Smoke tests run on PR via `qa.yml`. |
+
+---
+
+## 1  Branch strategy  
+_We now run a single trunk-based flow._
 
 | Branch | Purpose |
 |--------|---------|
-| `ui-refresh` | Purely visual & UX tweaks for the static site (no schema changes) |
-| `ai-improve` | ⓐ Enhance the AI engine, ⓑ extend the data schema & storage format, ⓒ ship a one-off migration script |
+| `ai-engine-v3-main` (default) | All normal work; hourly pipeline points here. |
+| feature branches | Short-lived, named `feat/<topic>`; merge via PR. |
 
-> We **keep the data-model work together with the AI code** to avoid painful sequencing issues.
-
----
-
-## 2  Feature buckets
-
-### 2.1  Smarter data processing
-1. **Swap/finetune LLM chain**: keep Llama-3-70B as default with Claude-Sonnet fallback.
-2. **Batch token optimisation**: group shorter prompts; compress system messages.
-3. **Programmatic safety checks** (toxicity, malformed JSON, hallucination guard).  
-   • Add pytest coverage for edge cases.
-
-### 2.2  Expanded article schema
-The AI will start emitting new fields.  Draft v2 schema (JSON keys → type):
-
-```jsonc
-{
-  "schema_version": 2,
-  "id": "uuid4",
-  "title": "string",
-  "url": "string",
-  "published_at": "ISO-8601",
-  "summary": "markdown",
-  "vocab": [
-    { "word": "string", "definition": "string", "example": "string" }
-  ],
-  "difficulty": "A1 | A2 | B1 | B2 | C1 | C2",
-  "tone": "neutral | opinion | satire | other",
-  "keywords": ["string"],
-  "audio_url": "string|null"  // reserved for future TTS
-}
-```
-
-Tasks:
-- [ ] Update `Article` dataclass / Pydantic model.
-- [ ] Modify `ai_processor.py` to fill the new fields.
-- [ ] Write migration script `scripts/migrate_v1_to_v2.py` (back-fills defaults).
-- [ ] Adjust unit tests & CI.
-
-### 2.3  UI & UX enhancements
-- Surface new metadata (tone badges, CEFR difficulty chips, keyword pills).
-- Add filters (difficulty dropdown, topic chips).
-- Tighten typography & colour palette.
-- Ensure graceful fallback if `schema_version < 2`.
-
-### 2.4  Audio integration (coming soon)
-- Generate TTS MP3 via ElevenLabs (or similar) in the pipeline.
-- Upload audio to S3 → produce a public `audio_url` in the JSON.
-- Add play-button component to article view.
-
-### 2.5  Data flow & branch coordination (v1 ↔ v2)
-While the schema is in transition, **both branches can build successfully** by following these rules:
-
-| Branch | JSON it should contain | Purpose |
-|--------|-----------------------|---------|
-| `ui-refresh` | Latest *stable* `current_articles.json` (v1) | Let us style components without worrying about missing fields. |
-| `ai-improve` | Experimental v2 JSON produced by the new pipeline | Validate schema, run CI, and publish as an artefact. |
-
-How to test the UI with v2 early:
-1. Copy the generated v2 JSON from `ai-improve` (CI artefact or local run) into `ui-refresh/data/live/current_articles.json`.
-2. Commit or **git stash** (if you don't want to pollute history) and push to spawn a Netlify preview.
-3. Revert once done; the real integration will happen after `ai-improve` is merged.
-
-> The static site simply embeds the JSON at build time, so whatever file is in the branch is what the preview will display.
+Large/risky changes (schema bumps, infra) get a design doc in `docs/proposals/` before coding.
 
 ---
 
-## 3  Timeline (tentative)
+## 2  Near-term feature waves (Q3 2025)
 
-| Week | Milestone |
-|------|-----------|
-| **W-1** | Finalise v2 schema; open `ai-improve` PR with scaffolding |
-| **W-2** | Migration script + CI dry-run artefacts |
-| **W-3** | UI consumes v2 JSON (Netlify preview) |
-| **W-4** | Merge `ai-improve` → main; release v2 live |
-| **W-5** | Ship audio MVP; merge UI polish from `ui-refresh` |
+### Wave 1 – Site reliability & feedback (target **July**)  
+1. **MCP server v2** – health endpoints `/status`, `/advice`, `/chat`  
+2. **One-click tooltip feedback** – Netlify Function writes `config/manual_overrides.json`  
+3. **Playwright UI checker bot** – Percy visual snapshots + Axe in CI  
+4. **Backup pruning** – keep last 200 `rolling_*.json` files
 
-Timelines are indicative—prefer working software over arbitrary dates.
+### Wave 2 – Storage & performance (target **August**)  
+1. **Supabase raw-archive** – upload hourly deltas, keep 30-day local cache  
+2. **Lighthouse performance budget** – fail PR when CWV drop below threshold  
+3. **TTS prototype** – ElevenLabs MP3 generation & play-button
+
+### Wave 3 – Personalisation (target **September**)  
+1. **Personalised ranking service** (`personaliser.py`)  
+2. **UI filters** – difficulty dropdown, tone chips, tag cloud  
+3. **Email digest MVP** – top 5 personalised articles per week
+
+> Detailed WHAT / WHY / HOW for each item lives in `future_features.md`.
 
 ---
 
-## 4  Definition of Done
-1. Netlify build passes with v2 JSON.
-2. GitHub Actions pipeline succeeds end-to-end (scrape → AI → commit → Netlify).
-3. Website displays new fields & audio button without console errors.
-4. Unit tests ≥ 90 % coverage for new code.
+## 3  Tentative timeline
+
+| Month | Key milestone |
+|-------|---------------|
+| **July 2025** | MCP v2 live; tooltip feedback closed beta |
+| **Aug 2025** | Supabase storage; audio TTS alpha; perf budget in CI |
+| **Sep 2025** | Personalised ranking & UI filters → public beta |
+| **Oct 2025** | Mobile-first design sprint + push-notification PWA |
+
+Dates are aspirational; quality trumps calendar.
 
 ---
 
-## 5  Contributing guidelines (v2-specific)
-- **Small, focused PRs**: one logical change per PR.
-- Update this roadmap's checkboxes as work lands.
-- Keep commit messages in the present tense ("Add tone classifier", not "Added").
+## 4  Success metrics
+1. **Feed freshness** – ≥100 display-ready articles at all times.  
+2. **Tooltip accuracy** – <2 % user-flagged errors per week.  
+3. **CI health** – `main` green >95 % of the time.  
+4. **Performance** – LCP ≤2.5 s on mobile, CLS ≤0.1.
 
-### 6  Context recap & rationale for two branches
-- Separation lets us ship safe, incremental UI wins while the heavier AI/data work continues in parallel.
-- Rollbacks stay trivial: each PR touches only its concern (visual vs. data-model logic).
-- CI remains green: UI PRs won't break when the experimental pipeline fails, and vice-versa.
-- If desired, we can merge `ai-improve` *into* `ui-refresh` locally for one-off combined previews.
+---
 
-This recap is here so future contributors—or when the chat history is gone—understand **why** the repo has two concurrent long-lived feature branches.
+## 5  How to contribute
 
-Let's build! 🚀 
+1. Read `CURSOR_RULES.md` (assistant + human workflow).  
+2. Create/append today's note in `docs/daily_notes/`.  
+3. Small PRs; link to a proposal if touching >10 files.  
+4. Keep **roadmap checkboxes** up-to-date when work lands.
+
+---
+
+_Last edit: 21 June 2025_ 

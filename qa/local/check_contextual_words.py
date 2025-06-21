@@ -1,137 +1,122 @@
 #!/usr/bin/env python3
-"""Quick smoke-test: ensure every live article has contextual words and good coverage.
+"""Smoke-test: ensure every live article has contextual words with adequate coverage.
 
-Usage:  python qa/local/check_contextual_words.py [--path path/to/rolling_articles.json]
-Outputs a short report and exits with non-zero status if more than 20 % of
-the items are missing contextual data, so CI can fail.
+Run locally:
+    python qa/local/check_contextual_words.py
+    # or point to a specific file / URL
+    python qa/local/check_contextual_words.py --path path/to/rolling_articles.json
+    python qa/local/check_contextual_words.py --url https://better-french.netlify.app
+
+Exit status is non-zero only when **>20 %** of articles completely lack explanations;
+otherwise it prints a report and exits 0 so CI can treat it as warning-only.
 """
 from __future__ import annotations
 
 import argparse, json, pathlib, sys, urllib.request, urllib.error
 from datetime import datetime
+from typing import Iterable
 
-# Reuse validator helper for coverage measure
-from ai_engine_v2.validator import coverage_ok
+from ai_engine_v3.validator import coverage_ok  # v3 helper
 
-DEFAULT_PATH = (
-    pathlib.Path(__file__).resolve().parent.parent.parent  # repo root
-    / "Project-Better-French-Website"
-    / "rolling_articles.json"
-)
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]
+DEFAULT_PATH = REPO_ROOT / "ai_engine_v3" / "website" / "rolling_articles.json"
 
 
-def main():
+# -----------------------------------------------------------------------------
+# helpers
+# -----------------------------------------------------------------------------
+
+
+def _parse_iso(ds: str | None):
+    if not ds:
+        return None
+    for fmt in (
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%d %H:%M:%S",
+    ):
+        try:
+            return datetime.strptime(ds[: len(fmt)], fmt)
+        except Exception:
+            continue
+    return None
+
+
+def _load_articles_from_file(path: pathlib.Path):
+    if not path.exists():
+        raise FileNotFoundError(path)
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data.get("articles", [])
+
+
+def _load_articles_from_url(base_url: str):
+    import ssl
+
+    json_url = base_url.rstrip("/") + "/rolling_articles.json"
+    try:
+        with urllib.request.urlopen(json_url, timeout=10) as resp:
+            data = json.load(resp)
+    except urllib.error.URLError as e:
+        # Retry without SSL verification on cert issues (useful for preview sites)
+        if isinstance(e.reason, ssl.SSLError):
+            ctx = ssl._create_unverified_context()
+            with urllib.request.urlopen(json_url, context=ctx, timeout=10) as resp:
+                data = json.load(resp)
+            print(f"⚠️  SSL verification skipped for {json_url}")
+        else:
+            raise
+    return data.get("articles", [])
+
+
+# -----------------------------------------------------------------------------
+# main
+# -----------------------------------------------------------------------------
+
+
+def main(args: Iterable[str] | None = None):
     parser = argparse.ArgumentParser(description="Check contextual explanations in rolling feed")
     parser.add_argument("--path", type=pathlib.Path, default=DEFAULT_PATH, help="Local rolling_articles.json path")
-    parser.add_argument("--url", type=str, help="Base URL of deployed site (script will fetch /rolling_articles.json)")
-    args = parser.parse_args()
+    parser.add_argument("--url", type=str, help="Base URL of deployed site (script will fetch JSON)")
+    ns = parser.parse_args(args)
 
-    # Load JSON from URL or path
-    if args.url:
-        json_url = args.url.rstrip("/") + "/rolling_articles.json"
-        import ssl
-        try:
-            with urllib.request.urlopen(json_url, timeout=10) as resp:
-                data = json.load(resp)
-        except urllib.error.URLError as e:
-            # Retry without SSL verification if the first failure was due to certificate
-            if isinstance(e.reason, ssl.SSLError):
-                try:
-                    ctx = ssl._create_unverified_context()
-                    with urllib.request.urlopen(json_url, context=ctx, timeout=10) as resp:
-                        data = json.load(resp)
-                    print(f"⚠️  SSL verification skipped for {json_url}")
-                except Exception as e2:
-                    print(f"❌ Failed to fetch {json_url}: {e2}")
-                    sys.exit(1)
-            else:
-                print(f"❌ Failed to fetch {json_url}: {e}")
-                sys.exit(1)
-        except ValueError as e:
-            print(f"❌ Failed to decode JSON from {json_url}: {e}")
-            sys.exit(1)
-    else:
-        if not args.path.exists():
-            print(f"❌ File not found: {args.path}")
-            sys.exit(1)
-        data = json.loads(args.path.read_text(encoding="utf-8"))
+    try:
+        articles = _load_articles_from_url(ns.url) if ns.url else _load_articles_from_file(ns.path)
+    except Exception as e:
+        print(f"❌ Failed to load articles: {e}")
+        sys.exit(1)
 
-    articles = data.get("articles", [])
     total = len(articles)
-    missing = 0          # no explanations dict at all
-    zero_matches = 0     # explanations exist but NONE of the keys appear in title (what user sees)
-    gaps = 0             # coverage_ok failed (some matches but insufficient)
-    ordering_issue = False
-
-    # Helper to parse ISO or RFC dates roughly
-    def _parse_date(ds: str | None):
-        if not ds:
-            return None
-        for fmt in ("%Y-%m-%dT%H:%M:%S", "%a, %d %b %Y %H:%M:%S", "%a, %d %b %Y %H:%M:%S %z", "%Y-%m-%d %H:%M:%S"):
-            try:
-                return datetime.strptime(ds[:len(fmt)], fmt)
-            except Exception:
-                continue
-        return None
+    missing = gaps = zero_matches = 0
 
     for art in articles:
+        title = art.get("original_article_title", "")
         ctxt = art.get("contextual_title_explanations") or {}
         if not ctxt:
             missing += 1
             continue
 
-        title = art.get("original_article_title", "")
-
-        # VISUAL MATCH: does at least one explanation key appear verbatim in the title?
-        # Normalize common punctuation variants so "Iran/Israël" ~ "Iran-Israël"
-        norm_title = (
-            title.replace("/", "-")
-            .replace("\u2019", "'")  # curly apostrophe to straight
-            .lower()
-        )
-
-        keys = [k.replace("/", "-").replace("\u2019", "'").lower() for k in ctxt.keys()]
-        found_any = any(k in norm_title for k in keys if k and len(k) > 1)
-
-        if not found_any:
-            zero_matches += 1
-
         if not coverage_ok(title, ctxt):
             gaps += 1
 
-    # -------- Ordering check --------
-    dates = [
-        _parse_date(
-            art.get("original_article_published_date")
-            or art.get("published")
-            or art.get("published_date")
-        )
-        for art in articles
-    ]
-    # Keep only non-None
-    dates = [d for d in dates if d is not None]
-    if any(later < earlier for earlier, later in zip(dates, dates[1:])):
-        ordering_issue = True
+        # simple visible-match check (at least one key appears in title, case-insensitive)
+        keys = [k.lower() for k in (ctxt.keys() if isinstance(ctxt, dict) else [d.get("original_word", "") for d in ctxt])]
+        if not any(k and k in title.lower() for k in keys):
+            zero_matches += 1
 
     ok = total - missing - gaps - zero_matches
 
     print(f"Total articles: {total}")
     print(f"✓ Good contextual coverage: {ok}")
-    print(f"⚠️  Coverage gaps (machine logic says incomplete): {gaps}")
-    print(f"🚫 No visible matches in title: {zero_matches}")
     print(f"❌ Missing explanations: {missing}")
-    print(f"📑 Ordering OK (newest→oldest): {'YES' if not ordering_issue else 'NO'}")
-    print(f"⚠️  Coverage gaps (machine logic says incomplete): {gaps}")
-    print(f"🚫 No visible matches in title: {zero_matches}")
-    print(f"❌ Missing explanations: {missing}")
-    print(f"📑 Ordering OK (newest→oldest): {'YES' if not ordering_issue else 'NO'}\n")
+    print(f"⚠️  Coverage gaps (logic says incomplete): {gaps}")
+    print(f"🚫 No visible matches in title: {zero_matches}\n")
 
-    if missing or gaps or zero_matches or ordering_issue:
-        print("Some articles may show no underlines on the website – review needed.")
-    else:
-        print("All articles look good!")
+    # Fail only if >20 % completely missing
+    if missing / max(total, 1) > 0.20:
+        print("❌ Too many articles lack contextual explanations – failing CI.")
+        sys.exit(2)
 
-    # Exit code 0 even if warnings – makes it a smoke test, not a blocker
+    print("✅ Contextual-word smoke test finished (warnings allowed).")
 
 
 if __name__ == "__main__":

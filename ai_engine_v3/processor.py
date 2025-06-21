@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import logging, hashlib, json, re
+# Ensure API key from config.ini is loaded into env before LLMClient instantiation
+import config.api_config  # noqa: F401  # side-effect: sets OPENROUTER_API_KEY
 from typing import List
 
 from .models import Article
@@ -25,12 +27,22 @@ class ProcessorV2:
         self.llm = LLMClient(model=model)
         self.total_cost_usd: float = 0.0  # crude running total
 
-    # ---------------- Prompt helpers (placeholder) ----------------
+    # ---------------- v3-context helpers ----------------
     def _render_title_prompt(self, article: Article) -> str:
-        return render("simplify_titles_summaries.jinja", title=article.original_article_title)
+        """Use the new v2 prompt; pass title & up to 1500 chars of article text."""
+        body_excerpt = (article.original_article_content or "")[:1500]
+        return render(
+            "simplify_titles_summaries_v2.jinja",
+            title=article.original_article_title,
+            article_text=body_excerpt,
+        )
 
     def _render_explain_prompt(self, article: Article) -> str:
-        return render("contextual_words.jinja", title=article.original_article_title)
+        return render(
+            "contextual_words_v2.jinja",
+            title=article.original_article_title,
+            context_block=article.context_block or "",
+        )
 
     def _safe_json(self, text: str):
         """Extract first JSON object/array from text."""
@@ -100,12 +112,21 @@ class ProcessorV2:
                 "Title prompt failed validation for '%s'", article.original_article_title[:60]
             )
             return article  # skip – keep non-enhanced
+        # --- assign basic fields ---
         article.simplified_french_title = payload1["simplified_french_title"]
         article.simplified_english_title = payload1["simplified_english_title"]
         article.french_summary = payload1["french_summary"]
         article.english_summary = payload1["english_summary"]
         article.difficulty = payload1["difficulty"]
         article.tone = payload1["tone"]
+
+        # --- build context_block if present ---
+        if "context_summary_en" in payload1 and "key_facts" in payload1:
+            context_summary = payload1["context_summary_en"].strip()
+            key_facts_list = payload1["key_facts"]
+            block_lines = [f"Summary: {context_summary}", "Key facts:"]
+            block_lines.extend(f"• {fact.strip()}" for fact in key_facts_list)
+            article.context_block = "\n".join(block_lines)
 
         # ----- EXPLANATIONS phase with retry -----
         msg_stack[1]["content"] = self._render_explain_prompt(article)

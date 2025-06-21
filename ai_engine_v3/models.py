@@ -47,6 +47,12 @@ class Article(BaseModel):
     audio_url: Optional[HttpUrl] = None
 
     # AI-enhanced fields (optional until processed)
+    # Raw article body – used by summariser prompt (not shown on site)
+    original_article_content: Optional[str] = None
+
+    # Rich context block built from summary + key facts (internal use)
+    context_block: Optional[str] = None
+
     simplified_french_title: Optional[str] = None
     simplified_english_title: Optional[str] = None
     french_summary: Optional[str] = None
