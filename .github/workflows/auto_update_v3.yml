@@ -41,7 +41,7 @@ jobs:
           git config --global user.email "bot@betterfrench.io"
           git config --global user.name "BetterFrenchBot"
           git config --global core.hooksPath .githooks
-          git add data/raw_archive ai_engine_v3/data ai_engine_v3/website || true
+          git add ai_engine_v3/data ai_engine_v3/website || true
           if ! git diff --cached --quiet; then
             git commit -m "chore(pipeline): hourly auto-update"
             git push
