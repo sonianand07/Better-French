@@ -18164,6 +18164,986 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Cessons d’empiler les objectifs incohérents dans la composition du mix électrique français »",
+      "original_article_link": "https://www.lepoint.fr/sciences-nature/electricite-le-cout-de-l-indecision-politique-21-06-2025-2592570_1924.php",
+      "original_article_published_date": "2025-06-21T11:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Arrêtons les objectifs incohérents pour l'électricité",
+      "simplified_english_title": "Stop inconsistent goals for electricity mix",
+      "french_summary": "Un appel est lancé pour arrêter les objectifs contradictoires dans la production d'électricité en France.",
+      "english_summary": "A call is made to stop contradictory goals in France's electricity production.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        },
+        "Cessons": {
+          "display_format": "**Cessons:** Arrêtons",
+          "explanation": "Let's stop (first person plural)",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**d’:** De (élidé)",
+          "explanation": "Elided form of 'de'",
+          "cultural_note": ""
+        },
+        "empiler": {
+          "display_format": "**empiler:** Entasser",
+          "explanation": "To pile up",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (definite article plural)",
+          "cultural_note": ""
+        },
+        "objectifs": {
+          "display_format": "**objectifs:** Buts",
+          "explanation": "Goals or targets",
+          "cultural_note": ""
+        },
+        "incohérents": {
+          "display_format": "**incohérents:** Incompatibles",
+          "explanation": "Incoherent or inconsistent",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "In or inside",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article feminine)",
+          "cultural_note": ""
+        },
+        "composition": {
+          "display_format": "**composition:** Structure",
+          "explanation": "Composition or makeup",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le (contracté)",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "mix": {
+          "display_format": "**mix:** Mélange",
+          "explanation": "Mix (borrowed from English)",
+          "cultural_note": ""
+        },
+        "électrique": {
+          "display_format": "**électrique:** Relatif à l'électricité",
+          "explanation": "Electric or electrical",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De France",
+          "explanation": "French",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "IA: Perplexity menacé de poursuites par la BBC pour usage non autorisé de ses contenus",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250621-ia-perplexity-menac%C3%A9-de-poursuites-par-la-bbc-pour-usage-non-autoris%C3%A9-de-ses-contenus",
+      "original_article_published_date": "2025-06-21T11:09:21",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Perplexity en problème avec la BBC",
+      "simplified_english_title": "Perplexity in trouble with BBC",
+      "french_summary": "La BBC menace Perplexity de poursuites pour avoir utilisé ses contenus sans autorisation.",
+      "english_summary": "The BBC threatens Perplexity with legal action for using its content without permission.",
+      "contextual_title_explanations": {
+        "IA": {
+          "display_format": "**IA:** Intelligence artificielle",
+          "explanation": "Artificial Intelligence",
+          "cultural_note": "Common abbreviation in tech contexts"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Perplexity": {
+          "display_format": "**Perplexity:** Nom d'entreprise",
+          "explanation": "Name of an AI company",
+          "cultural_note": ""
+        },
+        "menacé": {
+          "display_format": "**menacé:** Sous menace",
+          "explanation": "Threatened",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "poursuites": {
+          "display_format": "**poursuites:** Actions en justice",
+          "explanation": "Legal actions",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par (agent)",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "BBC": {
+          "display_format": "**BBC:** British Broadcasting Corporation",
+          "explanation": "British public broadcaster",
+          "cultural_note": "Well-known international media"
+        },
+        "pour": {
+          "display_format": "**pour:** En raison de",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "usage": {
+          "display_format": "**usage:** Utilisation",
+          "explanation": "Use",
+          "cultural_note": ""
+        },
+        "non autorisé": {
+          "display_format": "**non autorisé:** Sans permission",
+          "explanation": "Unauthorized",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif",
+          "explanation": "Its",
+          "cultural_note": ""
+        },
+        "contenus": {
+          "display_format": "**contenus:** Contenu médiatique",
+          "explanation": "Contents or media",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran-Israël: un espoir d'une sortie de crise après les discussions à Genève?",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-iran-isra%C3%ABl-un-espoir-d-une-sortie-de-crise-apr%C3%A8s-les-discussions-%C3%A0-gen%C3%A8ve",
+      "original_article_published_date": "2025-06-21T09:10:24",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Espoir de paix entre Iran et Israël",
+      "simplified_english_title": "Hope for peace between Iran and Israel",
+      "french_summary": "Des discussions à Genève laissent espérer une sortie de crise entre l'Iran et Israël.",
+      "english_summary": "Talks in Geneva raise hopes for a resolution to the crisis between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Deux pays",
+          "explanation": "Iran and Israel",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un article",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "espoir": {
+          "display_format": "**espoir:** Espérance",
+          "explanation": "Hope",
+          "cultural_note": ""
+        },
+        "d'une": {
+          "display_format": "**d'une:** De une",
+          "explanation": "Contraction of 'de' and 'une'",
+          "cultural_note": ""
+        },
+        "sortie": {
+          "display_format": "**sortie:** Issue",
+          "explanation": "Way out, resolution",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "crise": {
+          "display_format": "**crise:** Conflit",
+          "explanation": "Crisis",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "discussions": {
+          "display_format": "**discussions:** Négociations",
+          "explanation": "Discussions, talks",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition, 'at' or 'in'",
+          "cultural_note": ""
+        },
+        "Genève": {
+          "display_format": "**Genève:** Ville suisse",
+          "explanation": "Geneva, Swiss city",
+          "cultural_note": "Known for international diplomacy"
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : à quand remonte la dernière année sans épisode de ce type ?",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/vague-de-chaleur-a-quand-remonte-la-derniere-annee-sans-episode-de-ce-type-65936830-4df2-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T10:00:36",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Quand était la dernière année sans vague de chaleur ?",
+      "simplified_english_title": "When was the last year without a heatwave?",
+      "french_summary": "Les vagues de chaleur deviennent plus fréquentes. La dernière année sans aucun épisode de ce type remonte à plusieurs décennies.",
+      "english_summary": "Heatwaves are becoming more frequent. The last year without any such episode dates back several decades.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Mouvement de l'eau",
+          "explanation": "Wave, often refers to heatwave in this context",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "quand": {
+          "display_format": "**quand:** Question temporelle",
+          "explanation": "When",
+          "cultural_note": ""
+        },
+        "remonte": {
+          "display_format": "**remonte:** Retour en arrière",
+          "explanation": "Goes back",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "dernière": {
+          "display_format": "**dernière:** Dernier dans le temps",
+          "explanation": "Last",
+          "cultural_note": ""
+        },
+        "année": {
+          "display_format": "**année:** Période de 12 mois",
+          "explanation": "Year",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**sans:** Absence de",
+          "explanation": "Without",
+          "cultural_note": ""
+        },
+        "épisode": {
+          "display_format": "**épisode:** Événement notable",
+          "explanation": "Episode or event",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Pronom démonstratif",
+          "explanation": "This",
+          "cultural_note": ""
+        },
+        "type": {
+          "display_format": "**type:** Catégorie",
+          "explanation": "Type",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Maxime Pechenkyn (Gatekeeper Systems) : Gatekeeper Systems, la prévention de vols - 21/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/l-hebdo-des-pme/video-maxime-pechenkyn-gatekeeper-systems-gatekeeper-systems-la-prevention-de-vols-21-06_VN-202506210174.html",
+      "original_article_published_date": "2025-06-21T10:03:21",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Gatekeeper Systems contre les vols",
+      "simplified_english_title": "Gatekeeper Systems prevents thefts",
+      "french_summary": "Maxime Pechenkyn parle de Gatekeeper Systems, une solution pour prévenir les vols, présentée le 21 juin.",
+      "english_summary": "Maxime Pechenkyn discusses Gatekeeper Systems, a solution to prevent thefts, presented on June 21st.",
+      "contextual_title_explanations": {
+        "Maxime Pechenkyn": {
+          "display_format": "**Maxime Pechenkyn:** Nom propre",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "(": {
+          "display_format": "( Parenthèse ouvrante",
+          "explanation": "Opening parenthesis",
+          "cultural_note": ""
+        },
+        "Gatekeeper Systems": {
+          "display_format": "**Gatekeeper Systems:** Nom de société",
+          "explanation": "Name of a company",
+          "cultural_note": ""
+        },
+        ")": {
+          "display_format": "**)** Parenthèse fermante",
+          "explanation": "Closing parenthesis",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "prévention": {
+          "display_format": "**prévention:** Action préventive",
+          "explanation": "Prevention or deterrence",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "vols": {
+          "display_format": "**vols:** Délits de vol",
+          "explanation": "Thefts or robberies",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash separating elements",
+          "cultural_note": ""
+        },
+        "21/06": {
+          "display_format": "**21/06:** Date",
+          "explanation": "Date format day/month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule en France: le point presse du ministre de la Santé Yannick Neuder",
+      "original_article_link": "https://www.bfmtv.com/politique/video-canicule-en-france-le-point-presse-du-ministre-de-la-sante-yannick-neuder_VN-202506210164.html",
+      "original_article_published_date": "2025-06-21T09:28:27",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le ministre parle de la canicule",
+      "simplified_english_title": "Minister speaks about heatwave",
+      "french_summary": "Le ministre de la Santé, Yannick Neuder, donne des informations sur la canicule en France lors d'une conférence de presse.",
+      "english_summary": "The Health Minister, Yannick Neuder, provides information about the heatwave in France during a press conference.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "point": {
+          "display_format": "**point:** Mise à jour",
+          "explanation": "Update, briefing",
+          "cultural_note": ""
+        },
+        "presse": {
+          "display_format": "**presse:** Conférence de presse",
+          "explanation": "Press conference",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the, contraction",
+          "cultural_note": ""
+        },
+        "ministre": {
+          "display_format": "**ministre:** Membre du gouvernement",
+          "explanation": "Minister, government member",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "Santé": {
+          "display_format": "**Santé:** Ministère de la Santé",
+          "explanation": "Health, ministry of health",
+          "cultural_note": ""
+        },
+        "Yannick Neuder": {
+          "display_format": "**Yannick Neuder:** Ministre de la Santé",
+          "explanation": "Current French Health Minister",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : en bloquant le détroit d'Ormuz, Téhéran \"signerait son arrêt de mort\"",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250621-guerre-isra%C3%ABl-iran-bloquant-d%C3%A9troit-ormuz-t%C3%A9h%C3%A9ran-signerait-arr%C3%AAt-de-mort",
+      "original_article_published_date": "2025-06-21T10:24:30",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions Israël-Iran au détroit d'Ormuz",
+      "simplified_english_title": "Israel-Iran tensions at Strait of Hormuz",
+      "french_summary": "L'Iran menace de bloquer le détroit d'Ormuz, ce qui pourrait causer de graves problèmes économiques pour le pays.",
+      "english_summary": "Iran threatens to block the Strait of Hormuz, which could cause serious economic problems for the country.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Conflit entre deux pays",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Par",
+          "explanation": "By or through",
+          "cultural_note": ""
+        },
+        "bloquant": {
+          "display_format": "**bloquant:** Fermant",
+          "explanation": "Blocking or closing",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "détroit": {
+          "display_format": "**détroit:** Passage maritime étroit",
+          "explanation": "Narrow sea passage",
+          "cultural_note": ""
+        },
+        "d'Ormuz": {
+          "display_format": "**d'Ormuz:** Nom d'un détroit",
+          "explanation": "Name of a strait",
+          "cultural_note": "Strategic location for oil shipping"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital of Iran",
+          "cultural_note": ""
+        },
+        "\"signerait": {
+          "display_format": "\"**signerait:** Condamnerait",
+          "explanation": "Would sign or condemn",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Possessif",
+          "explanation": "Its or his (possessive)",
+          "cultural_note": ""
+        },
+        "arrêt": {
+          "display_format": "**arrêt:** Fin",
+          "explanation": "End or stop",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "mort\"": {
+          "display_format": "**mort\"** Mort",
+          "explanation": "Death",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Redémarrage de Fessenheim, moratoire sur les énergies renouvelables… Une dérive inquiétante des débats",
+      "original_article_link": "https://www.nouvelobs.com/ecologie/20250621.OBS105156/redemarrage-de-fessenheim-moratoire-sur-les-energies-renouvelables-une-derive-inquietante-des-debats.html",
+      "original_article_published_date": "2025-06-21T09:02:44",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Fessenheim redémarre, pause sur les énergies vertes",
+      "simplified_english_title": "Fessenheim restarts, pause on renewable energy",
+      "french_summary": "La centrale de Fessenheim redémarre et les énergies renouvelables sont en pause, ce qui inquiète beaucoup de gens.",
+      "english_summary": "The Fessenheim plant restarts and renewable energy is on hold, which worries many people.",
+      "contextual_title_explanations": {
+        "Redémarrage": {
+          "display_format": "**Redémarrage:** Relancement",
+          "explanation": "Restarting or resuming",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Du",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "Fessenheim": {
+          "display_format": "**Fessenheim:** Centrale nucléaire",
+          "explanation": "Name of a nuclear power plant",
+          "cultural_note": "Located in France, near Germany"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "moratoire": {
+          "display_format": "**moratoire:** Suspension",
+          "explanation": "Temporary halt or delay",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Concernant",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "énergies renouvelables": {
+          "display_format": "**énergies renouvelables:** Énergies vertes",
+          "explanation": "Renewable energy sources",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Indicates an omission",
+          "cultural_note": ""
+        },
+        "Une": {
+          "display_format": "**Une:** Une",
+          "explanation": "A or an (feminine)",
+          "cultural_note": ""
+        },
+        "dérive": {
+          "display_format": "**dérive:** Déviation",
+          "explanation": "Drift or deviation",
+          "cultural_note": ""
+        },
+        "inquiétante": {
+          "display_format": "**inquiétante:** Préoccupante",
+          "explanation": "Worrisome or concerning",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Des",
+          "explanation": "Some (plural)",
+          "cultural_note": ""
+        },
+        "débats": {
+          "display_format": "**débats:** Discussions",
+          "explanation": "Debates or discussions",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gaza: au moins 43 tués dont certains lors d'une distribution alimentaire",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-gaza-au-moins-43-tu%C3%A9s-dont-certains-lors-d-une-distribution-alimentaire",
+      "original_article_published_date": "2025-06-21T09:38:56",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Gaza : 43 morts lors d'une aide alimentaire",
+      "simplified_english_title": "Gaza: 43 dead during food aid distribution",
+      "french_summary": "Au moins 43 personnes sont mortes à Gaza, certaines lors d'une distribution de nourriture.",
+      "english_summary": "At least 43 people died in Gaza, some during a food distribution event.",
+      "contextual_title_explanations": {
+        "Gaza": {
+          "display_format": "**Gaza:** Territoire palestinien",
+          "explanation": "Palestinian territory in Middle East",
+          "cultural_note": "Often in news due to conflicts"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "au moins": {
+          "display_format": "**au moins:** Minimum",
+          "explanation": "At least, minimum quantity",
+          "cultural_note": ""
+        },
+        "43": {
+          "display_format": "**43:** Quarante-trois",
+          "explanation": "Number forty-three",
+          "cultural_note": ""
+        },
+        "tués": {
+          "display_format": "**tués:** Morts",
+          "explanation": "Killed, deceased people",
+          "cultural_note": ""
+        },
+        "dont": {
+          "display_format": "**dont:** Dont",
+          "explanation": "Of which, of whom",
+          "cultural_note": ""
+        },
+        "certains": {
+          "display_format": "**certains:** Quelques-uns",
+          "explanation": "Some, certain ones",
+          "cultural_note": ""
+        },
+        "lors d'une": {
+          "display_format": "**lors d'une:** Pendant une",
+          "explanation": "During a, at the time of a",
+          "cultural_note": ""
+        },
+        "distribution": {
+          "display_format": "**distribution:** Répartition",
+          "explanation": "Distribution, handing out",
+          "cultural_note": ""
+        },
+        "alimentaire": {
+          "display_format": "**alimentaire:** Nourriture",
+          "explanation": "Related to food",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Un roi du sud du Nigeria réclame 12 milliards de dollars en justice à Shell pour pollution pétrolière",
+      "original_article_link": "https://www.franceinfo.fr/monde/afrique/nigeria/un-roi-du-sud-du-nigeria-reclame-12-milliards-de-dollars-en-justice-a-shell-pour-pollution-petroliere_7328313.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T08:59:27",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un roi nigérian demande 12 milliards à Shell",
+      "simplified_english_title": "Nigerian king sues Shell for $12 billion",
+      "french_summary": "Un roi du sud du Nigeria demande 12 milliards de dollars à Shell pour pollution pétrolière dans son royaume.",
+      "english_summary": "A Nigerian king sues Shell for $12 billion over oil pollution in his kingdom.",
+      "contextual_title_explanations": {
+        "Un": {
+          "display_format": "**Un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "roi": {
+          "display_format": "**roi:** Souverain masculin",
+          "explanation": "King or monarch",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Contraction of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "sud": {
+          "display_format": "**sud:** Direction cardinale",
+          "explanation": "South, cardinal direction",
+          "cultural_note": ""
+        },
+        "du Nigeria": {
+          "display_format": "**du Nigeria:** Pays africain",
+          "explanation": "Country in Africa",
+          "cultural_note": "Nigeria is an African country with significant oil reserves"
+        },
+        "réclame": {
+          "display_format": "**réclame:** Demande avec insistance",
+          "explanation": "Demands or claims",
+          "cultural_note": ""
+        },
+        "12 milliards de dollars": {
+          "display_format": "**12 milliards de dollars:** Montant d'argent",
+          "explanation": "Twelve billion dollars",
+          "cultural_note": ""
+        },
+        "en justice": {
+          "display_format": "**en justice:** Par voie légale",
+          "explanation": "Through legal means",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition 'to' or 'at'",
+          "cultural_note": ""
+        },
+        "Shell": {
+          "display_format": "**Shell:** Multinationale pétrolière",
+          "explanation": "Multinational oil company",
+          "cultural_note": "Shell is a major global oil and gas company"
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "Preposition 'for'",
+          "cultural_note": ""
+        },
+        "pollution pétrolière": {
+          "display_format": "**pollution pétrolière:** Contamination par le pétrole",
+          "explanation": "Oil pollution or contamination",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
