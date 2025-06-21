@@ -24819,6 +24819,951 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : comment mieux protéger les travailleurs à l’épreuve de la chaleur",
+      "original_article_link": "https://www.la-croix.com/planete/canicule-comment-mieux-proteger-les-travailleurs-a-l-epreuve-de-la-chaleur-20250621",
+      "original_article_published_date": "2025-06-21T17:30:08",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Protéger les travailleurs pendant la canicule",
+      "simplified_english_title": "Protecting workers during the heatwave",
+      "french_summary": "Des mesures sont nécessaires pour protéger les travailleurs pendant les fortes chaleurs de l'été.",
+      "english_summary": "Measures are needed to protect workers during the intense summer heat.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** De quelle manière",
+          "explanation": "How, in what way",
+          "cultural_note": ""
+        },
+        "mieux": {
+          "display_format": "**mieux:** Plus bien",
+          "explanation": "Better, more effectively",
+          "cultural_note": ""
+        },
+        "protéger": {
+          "display_format": "**protéger:** Mettre à l'abri",
+          "explanation": "To protect, safeguard",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "travailleurs": {
+          "display_format": "**travailleurs:** Personnes qui travaillent",
+          "explanation": "Workers, laborers",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At, to, in",
+          "cultural_note": ""
+        },
+        "l’épreuve": {
+          "display_format": "**l’épreuve:** Le test",
+          "explanation": "The test, challenge",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Salon du Bourget : manifestation contre «l'économie de guerre» et le «business de la mort»",
+      "original_article_link": "https://www.europe1.fr/societe/salon-du-bourget-manifestation-contre-leconomie-de-guerre-et-le-business-de-la-mort-760457",
+      "original_article_published_date": "2025-06-21T17:59:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Manifestation contre la guerre au Salon du Bourget",
+      "simplified_english_title": "Protest against war at Bourget Air Show",
+      "french_summary": "Des manifestants protestent contre l'économie de guerre au Salon du Bourget, un événement aéronautique important.",
+      "english_summary": "Protesters demonstrate against the war economy at the Bourget Air Show, a major aeronautics event.",
+      "contextual_title_explanations": {
+        "Salon du Bourget": {
+          "display_format": "**Salon du Bourget:** Exposition aéronautique",
+          "explanation": "Major international airshow near Paris",
+          "cultural_note": "Held biennially at Le Bourget Airport"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "manifestation": {
+          "display_format": "**manifestation:** Protestation publique",
+          "explanation": "Public demonstration or protest",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against or opposing something",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "l'économie de guerre": {
+          "display_format": "**l'économie de guerre:** Économie militaire",
+          "explanation": "War economy or military economy",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And, in addition to",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "business de la mort": {
+          "display_format": "**business de la mort:** Commerce mortuaire",
+          "explanation": "Death industry or trade",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Salon du Bourget : 25.000 postes à pourvoir, la filière mise sur les reconversions",
+      "original_article_link": "https://www.europe1.fr/economie/salon-du-bourget-25000-postes-a-pourvoir-la-filiere-mise-sur-les-reconversions-760473",
+      "original_article_published_date": "2025-06-21T18:24:02",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Salon du Bourget offre 25.000 emplois",
+      "simplified_english_title": "Bourget Air Show offers 25,000 jobs",
+      "french_summary": "Le Salon du Bourget propose 25.000 postes et encourage les reconversions professionnelles dans l'industrie.",
+      "english_summary": "The Bourget Air Show offers 25,000 jobs and encourages career changes in the industry.",
+      "contextual_title_explanations": {
+        "Salon du Bourget": {
+          "display_format": "**Salon du Bourget:** Événement aéronautique",
+          "explanation": "Major international air show near Paris",
+          "cultural_note": "Held biennially at Le Bourget Airport"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "25.000": {
+          "display_format": "**25.000:** Vingt-cinq mille",
+          "explanation": "Twenty-five thousand",
+          "cultural_note": "In French, periods separate thousands"
+        },
+        "postes": {
+          "display_format": "**postes:** Emplois",
+          "explanation": "Jobs or positions",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "pourvoir": {
+          "display_format": "**pourvoir:** Remplir",
+          "explanation": "To fill or provide",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "filière": {
+          "display_format": "**filière:** Secteur",
+          "explanation": "Industry or sector",
+          "cultural_note": ""
+        },
+        "mise": {
+          "display_format": "**mise:** Parie",
+          "explanation": "Bets or relies",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Sur",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "reconversions": {
+          "display_format": "**reconversions:** Changements de carrière",
+          "explanation": "Career changes or retraining",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "4 questions pour comprendre le bras de fer entre Niamey et le Français Orano",
+      "original_article_link": "https://www.lepoint.fr/afrique/4-questions-pour-comprendre-le-bras-de-fer-entre-niamey-et-le-francais-orano-21-06-2025-2592587_3826.php",
+      "original_article_published_date": "2025-06-21T17:08:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit entre Niamey et la société Orano",
+      "simplified_english_title": "Conflict between Niamey and Orano",
+      "french_summary": "Le gouvernement de Niamey et Orano ont un désaccord. Orano est une entreprise française qui travaille dans le nucléaire.",
+      "english_summary": "The government of Niamey and Orano are in disagreement. Orano is a French company working in nuclear energy.",
+      "contextual_title_explanations": {
+        "4": {
+          "display_format": "**4:** Quatre",
+          "explanation": "Number four",
+          "cultural_note": ""
+        },
+        "questions": {
+          "display_format": "**questions:** interrogations",
+          "explanation": "Questions or inquiries",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "comprendre": {
+          "display_format": "**comprendre:** saisir",
+          "explanation": "To understand",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "bras de fer": {
+          "display_format": "**bras de fer:** conflit",
+          "explanation": "Conflict or standoff",
+          "cultural_note": "Literally 'arm of iron'"
+        },
+        "entre": {
+          "display_format": "**entre:** parmi",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "Niamey": {
+          "display_format": "**Niamey:** capitale du Niger",
+          "explanation": "Capital city of Niger",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** de France",
+          "explanation": "French",
+          "cultural_note": ""
+        },
+        "Orano": {
+          "display_format": "**Orano:** entreprise nucléaire",
+          "explanation": "French nuclear company",
+          "cultural_note": "Formerly known as Areva"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Né dans l’Ouest, ce modèle de complexe de sports et loisirs part à l’assaut de toute la France",
+      "original_article_link": "https://www.ouest-france.fr/pays-de-la-loire/maine-et-loire/ne-dans-louest-ce-modele-de-complexe-de-sports-et-loisirs-part-a-lassaut-de-toute-la-france-d1530e24-4e9f-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T17:48:27",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un complexe sportif s'étend en France",
+      "simplified_english_title": "Sports complex expands across France",
+      "french_summary": "Un modèle de complexe sportif né dans l'Ouest de la France se développe maintenant dans tout le pays.",
+      "english_summary": "A sports complex model born in western France is now expanding nationwide.",
+      "contextual_title_explanations": {
+        "Né": {
+          "display_format": "**Né:** Naître",
+          "explanation": "Born",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "l’Ouest": {
+          "display_format": "**l’Ouest:** L'ouest de la France",
+          "explanation": "The West (of France)",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce modèle",
+          "explanation": "This",
+          "cultural_note": ""
+        },
+        "modèle": {
+          "display_format": "**modèle:** Exemple",
+          "explanation": "Model, example",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "complexe": {
+          "display_format": "**complexe:** Ensemble",
+          "explanation": "Complex, set",
+          "cultural_note": ""
+        },
+        "sports": {
+          "display_format": "**sports:** Activités physiques",
+          "explanation": "Sports",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "loisirs": {
+          "display_format": "**loisirs:** Activités de détente",
+          "explanation": "Leisure activities",
+          "cultural_note": ""
+        },
+        "part": {
+          "display_format": "**part:** Commence",
+          "explanation": "Starts, sets out",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Direction",
+          "explanation": "To, towards",
+          "cultural_note": ""
+        },
+        "l’assaut": {
+          "display_format": "**l’assaut:** Attaque",
+          "explanation": "Assault, attack",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**toute:** Entière",
+          "explanation": "All, entire",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "France, the country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Paris à Solex électrique : le French Way & Les aubergines",
+      "original_article_link": "https://www.europe1.fr/emissions/les-sorties-du-week-end/paris-a-solex-electrique-le-french-way-les-aubergines-760391",
+      "original_article_published_date": "2025-06-21T05:07:49",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris utilise des Solex électriques",
+      "simplified_english_title": "Paris uses electric Solex",
+      "french_summary": "Paris introduit des Solex électriques pour un transport écologique. C'est une initiative des entreprises French Way et Les Aubergines.",
+      "english_summary": "Paris introduces electric Solex for eco-friendly transport. It's an initiative by French Way and Les Aubergines.",
+      "contextual_title_explanations": {
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "City in France",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition meaning 'to' or 'with'",
+          "cultural_note": ""
+        },
+        "Solex": {
+          "display_format": "**Solex:** Véhicule léger",
+          "explanation": "Light motorized bicycle",
+          "cultural_note": "Iconic French vehicle"
+        },
+        "électrique": {
+          "display_format": "**électrique:** Fonctionnant à l'électricité",
+          "explanation": "Electric, powered by electricity",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "French Way": {
+          "display_format": "**French Way:** Manière française",
+          "explanation": "French style or manner",
+          "cultural_note": ""
+        },
+        "&": {
+          "display_format": "**&:** Et",
+          "explanation": "Ampersand meaning 'and'",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "aubergines": {
+          "display_format": "**aubergines:** Légume violet",
+          "explanation": "Eggplants",
+          "cultural_note": "Common in French cuisine"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. « Ce n’est pas la croisière s’amuse » : à peine née, cette équipe de basket 3x3 cartonne",
+      "original_article_link": "https://www.ouest-france.fr/sport/basket/basket-3x3/entretien-ce-nest-pas-la-croisiere-samuse-a-peine-nee-cette-equipe-de-basket-3x3-cartonne-9ba6a27a-4d1b-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:03:02",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une nouvelle équipe de basket 3x3 réussit",
+      "simplified_english_title": "New 3x3 basketball team succeeds",
+      "french_summary": "Cette nouvelle équipe de basket 3x3 connaît un grand succès dès son début.",
+      "english_summary": "This new 3x3 basketball team is very successful from the start.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**ENTRETIEN:** Interview",
+          "explanation": "Conversation with someone",
+          "cultural_note": "Common in French media headlines"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**Ce:** Cela",
+          "explanation": "This or it",
+          "cultural_note": ""
+        },
+        "n’est": {
+          "display_format": "**n’est:** N'est",
+          "explanation": "Is not",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Ne...pas",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "croisière": {
+          "display_format": "**croisière:** Voyage en bateau",
+          "explanation": "Cruise",
+          "cultural_note": ""
+        },
+        "s’amuse": {
+          "display_format": "**s’amuse:** S'amuser",
+          "explanation": "Having fun",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces an explanation",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "peine": {
+          "display_format": "**peine:** Difficilement",
+          "explanation": "Hardly or barely",
+          "cultural_note": ""
+        },
+        "née": {
+          "display_format": "**née:** Naître",
+          "explanation": "Born",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "cette": {
+          "display_format": "**cette:** Cette",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "équipe": {
+          "display_format": "**équipe:** Équipe",
+          "explanation": "Team",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "basket": {
+          "display_format": "**basket:** Basketball",
+          "explanation": "Basketball",
+          "cultural_note": ""
+        },
+        "3x3": {
+          "display_format": "**3x3:** Trois contre trois",
+          "explanation": "Three on three",
+          "cultural_note": "A variant of basketball"
+        },
+        "cartonne": {
+          "display_format": "**cartonne:** A du succès",
+          "explanation": "Is successful",
+          "cultural_note": "Slang for being very successful"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La société Carmat, à l’origine du cœur artificiel, au bord de la cessation de paiement",
+      "original_article_link": "https://www.ouest-france.fr/economie/entreprises/la-societe-carmat-a-lorigine-du-cur-artificiel-au-bord-de-la-cessation-de-paiement-54c92c3a-4e04-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-20T18:48:47",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Carmat, créateur du cœur artificiel, en difficulté",
+      "simplified_english_title": "Carmat, maker of artificial hearts, struggles",
+      "french_summary": "Carmat, l'entreprise qui a créé le cœur artificiel, risque de ne plus pouvoir payer ses dettes.",
+      "english_summary": "Carmat, the company behind the artificial heart, risks being unable to pay its debts.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "société": {
+          "display_format": "**société:** Compagnie",
+          "explanation": "Company or society",
+          "cultural_note": ""
+        },
+        "Carmat": {
+          "display_format": "**Carmat:** Nom de société",
+          "explanation": "Name of the company",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "à l’origine": {
+          "display_format": "**à l’origine:** À la source",
+          "explanation": "At the origin",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "cœur": {
+          "display_format": "**cœur:** Organe vital",
+          "explanation": "Heart (organ)",
+          "cultural_note": ""
+        },
+        "artificiel": {
+          "display_format": "**artificiel:** Non naturel",
+          "explanation": "Artificial or man-made",
+          "cultural_note": ""
+        },
+        "au bord": {
+          "display_format": "**au bord:** Près de",
+          "explanation": "On the verge of",
+          "cultural_note": ""
+        },
+        "de la": {
+          "display_format": "**de la:** De le (féminin)",
+          "explanation": "Of the (feminine singular)",
+          "cultural_note": ""
+        },
+        "cessation": {
+          "display_format": "**cessation:** Arrêt",
+          "explanation": "Stoppage or cessation",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "paiement": {
+          "display_format": "**paiement:** Paiement",
+          "explanation": "Payment",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nathalie Van Stichelen (LDRH) : LDRH, recrutement et conseil RH - 21/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/l-hebdo-des-pme/video-nathalie-van-stichelen-ldrh-ldrh-recrutement-et-conseil-rh-21-06_VN-202506210278.html",
+      "original_article_published_date": "2025-06-21T17:08:31",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nathalie Van Stichelen parle de LDRH",
+      "simplified_english_title": "Nathalie Van Stichelen on LDRH",
+      "french_summary": "Nathalie Van Stichelen discute des activités de LDRH, y compris le recrutement et le conseil en ressources humaines.",
+      "english_summary": "Nathalie Van Stichelen discusses LDRH activities, including recruitment and human resources consulting.",
+      "contextual_title_explanations": {
+        "Nathalie Van Stichelen": {
+          "display_format": "**Nathalie Van Stichelen:** Nom propre",
+          "explanation": "A person's name",
+          "cultural_note": ""
+        },
+        "(LDRH)": {
+          "display_format": "**LDRH:** Abréviation",
+          "explanation": "Abbreviation for a company or organization",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "LDRH": {
+          "display_format": "**LDRH:** Acronyme",
+          "explanation": "Abbreviation for a company or organization",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "recrutement": {
+          "display_format": "**recrutement:** Embauche",
+          "explanation": "Hiring or recruitment",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "conseil RH": {
+          "display_format": "**conseil RH:** Conseil en ressources humaines",
+          "explanation": "Human resources consulting",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating range or connection",
+          "cultural_note": ""
+        },
+        "21/06": {
+          "display_format": "**21/06:** Date",
+          "explanation": "Date format day/month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pourquoi la Fête de la musique attire particulièrement les touristes étrangers cette année",
+      "original_article_link": "https://www.nouvelobs.com/culture/20250621.OBS105165/pourquoi-la-fete-de-la-musique-attire-particulierement-les-touristes-etrangers-cette-annee.html",
+      "original_article_published_date": "2025-06-21T12:25:39",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Fête de la Musique plaît aux touristes",
+      "simplified_english_title": "Music Festival Attracts Tourists",
+      "french_summary": "Cette année, la Fête de la Musique attire plus de touristes étrangers grâce à sa réputation et à des événements spéciaux.",
+      "english_summary": "This year, the Music Festival attracts more foreign tourists due to its reputation and special events.",
+      "contextual_title_explanations": {
+        "Pourquoi": {
+          "display_format": "**Pourquoi:** Pourquoi",
+          "explanation": "Why",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Événement musical",
+          "explanation": "Music festival",
+          "cultural_note": "Celebrated annually on June 21st"
+        },
+        "attire": {
+          "display_format": "**attire:** Attirer",
+          "explanation": "Attracts",
+          "cultural_note": ""
+        },
+        "particulièrement": {
+          "display_format": "**particulièrement:** De manière particulière",
+          "explanation": "Particularly",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "touristes": {
+          "display_format": "**touristes:** Personnes voyageant",
+          "explanation": "Tourists",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**étrangers:** Venant d'autres pays",
+          "explanation": "Foreign",
+          "cultural_note": ""
+        },
+        "cette": {
+          "display_format": "**cette:** Ce, cette",
+          "explanation": "This",
+          "cultural_note": ""
+        },
+        "année": {
+          "display_format": "**année:** Année en cours",
+          "explanation": "Year",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T18:24:37",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
