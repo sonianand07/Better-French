@@ -94,4 +94,17 @@ class Storage:
             return article.original_article_published_date or article.processed_at or ""
 
         ready.sort(key=_date_key, reverse=True)
-        cls._save(ROLLING_FILE, ready[:100]) 
+        cls._save(ROLLING_FILE, ready[:100])
+
+        # ---------------------------------------------
+        # Mirror curated feed into root-level website
+        # ---------------------------------------------
+        repo_root = ROOT.parent  # project root
+        root_site = repo_root / "Project-Better-French-Website"
+        if root_site.exists():
+            try:
+                dest = root_site / "rolling_articles.json"
+                shutil.copy2(ROLLING_FILE, dest)
+            except Exception as e:
+                # Non-fatal – just log for debugging
+                print(f"[storage] Could not copy rolling feed to root site: {e}") 

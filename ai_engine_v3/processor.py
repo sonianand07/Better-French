@@ -166,6 +166,7 @@ class ProcessorV2:
                 new_art = self.process_article(art)
                 # Accept any article that received *some* AI enhancement
                 if new_art.ai_enhanced or article_is_display_ready(new_art):
+                    logger.info("✅ Added: %s", new_art.simplified_french_title or new_art.original_article_title[:80])
                     processed.append(new_art)
             except Exception as e:
                 logger.error("Failed to process article %s: %s", art.original_article_title[:50], e)
