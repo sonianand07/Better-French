@@ -3,183 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "L’administration Trump formalise le renvoi massif des employés du média Voice of America",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/21/l-administration-trump-formalise-le-renvoi-massif-des-employes-du-media-voice-of-america_6614871_3210.html",
-      "original_article_published_date": "2025-06-20T23:41:01",
-      "source_name": "Le Monde International",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Trump renvoie des employés de Voice of America",
-      "simplified_english_title": "Trump fires Voice of America employees",
-      "french_summary": "L'administration Trump a officiellement renvoyé plusieurs employés du média Voice of America.",
-      "english_summary": "The Trump administration has officially fired several Voice of America employees.",
-      "contextual_title_explanations": {
-        "L'administration": {
-          "display_format": "**L'administration:** Le gouvernement",
-          "explanation": "The government or executive branch",
-          "cultural_note": ""
-        },
-        "Trump": {
-          "display_format": "**Trump:** Nom de famille",
-          "explanation": "Name of the 45th U.S. President",
-          "cultural_note": ""
-        },
-        "formalise": {
-          "display_format": "**formalise:** officialise",
-          "explanation": "To make something official",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** article défini",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "renvoi": {
-          "display_format": "**renvoi:** licenciement",
-          "explanation": "Dismissal or firing",
-          "cultural_note": ""
-        },
-        "massif": {
-          "display_format": "**massif:** large échelle",
-          "explanation": "Large-scale or massive",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** article indéfini pluriel",
-          "explanation": "Some (plural indefinite article)",
-          "cultural_note": ""
-        },
-        "employés": {
-          "display_format": "**employés:** travailleurs",
-          "explanation": "Employees or workers",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** de le",
-          "explanation": "Of the (contraction)",
-          "cultural_note": ""
-        },
-        "média": {
-          "display_format": "**média:** moyen de communication",
-          "explanation": "Media or communication outlet",
-          "cultural_note": ""
-        },
-        "Voice of America": {
-          "display_format": "**Voice of America:** média américain",
-          "explanation": "U.S. government-funded media",
-          "cultural_note": "International broadcasting service"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Nucléaire: les Européens exhortent l'Iran à négocier, Téhéran réclame la fin des frappes",
-      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250620-nucl%C3%A9aire-les-europ%C3%A9ens-exhortent-l-iran-%C3%A0-n%C3%A9gocier-t%C3%A9h%C3%A9ran-r%C3%A9clame-la-fin-des-frappes",
-      "original_article_published_date": "2025-06-20T23:16:07",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Europe demande à l'Iran de discuter",
-      "simplified_english_title": "Europe urges Iran to negotiate",
-      "french_summary": "Les pays européens veulent que l'Iran négocie, mais l'Iran demande l'arrêt des attaques.",
-      "english_summary": "European countries want Iran to negotiate, but Iran demands an end to the strikes.",
-      "contextual_title_explanations": {
-        "Nucléaire": {
-          "display_format": "**Nucléaire:** Relatif à l'énergie atomique",
-          "explanation": "Relating to nuclear energy or weapons",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "les Européens": {
-          "display_format": "**les Européens:** Habitants de l'Europe",
-          "explanation": "Europeans, people from Europe",
-          "cultural_note": ""
-        },
-        "exhortent": {
-          "display_format": "**exhortent:** Encouragent fortement",
-          "explanation": "Strongly urge or encourage",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Iran, a country in the Middle East",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "Preposition indicating direction or purpose",
-          "cultural_note": ""
-        },
-        "négocier": {
-          "display_format": "**négocier:** Discuter pour un accord",
-          "explanation": "To negotiate or discuss for an agreement",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "Téhéran": {
-          "display_format": "**Téhéran:** Capitale de l'Iran",
-          "explanation": "Tehran, capital city of Iran",
-          "cultural_note": ""
-        },
-        "réclame": {
-          "display_format": "**réclame:** Demande avec insistance",
-          "explanation": "Demands insistently",
-          "cultural_note": ""
-        },
-        "la fin": {
-          "display_format": "**la fin:** La terminaison",
-          "explanation": "The end or termination",
-          "cultural_note": ""
-        },
-        "des frappes": {
-          "display_format": "**des frappes:** Attaques militaires",
-          "explanation": "Military strikes or attacks",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Tesla va construire en Chine sa plus grande usine de batteries pour le réseau électrique",
       "original_article_link": "https://www.ouest-france.fr/economie/entreprises/tesla/tesla-va-construire-en-chine-sa-plus-grande-usine-de-batteries-pour-le-reseau-electrique-f651655c-4e29-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-20T23:14:48",
@@ -339,183 +162,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-20T23:18:30",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : une aubaine pour la Russie ?",
-      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20250620-isra%C3%ABl-iran-une-aubaine-pour-la-russie",
-      "original_article_published_date": "2025-06-20T22:00:19",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La tension Israël-Iran aide la Russie",
-      "simplified_english_title": "Israel-Iran tension benefits Russia",
-      "french_summary": "Les tensions entre Israël et l'Iran pourraient profiter à la Russie. La situation crée des opportunités pour Moscou.",
-      "english_summary": "Tensions between Israel and Iran may benefit Russia. The situation creates opportunities for Moscow.",
-      "contextual_title_explanations": {
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre deux pays",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Ongoing geopolitical tensions"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article, 'a' or 'an'",
-          "cultural_note": ""
-        },
-        "aubaine": {
-          "display_format": "**aubaine:** Bonne occasion",
-          "explanation": "Windfall or stroke of luck",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** En faveur de",
-          "explanation": "For, in favor of",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article, 'the'",
-          "cultural_note": ""
-        },
-        "Russie": {
-          "display_format": "**Russie:** Pays d'Europe de l'Est",
-          "explanation": "Russia, country in Eastern Europe",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Trump ne peut pas interdire les admissions d'étudiants étrangers à Harvard, dit une juge",
-      "original_article_link": "https://www.lefigaro.fr/flash-actu/trump-ne-peut-pas-interdire-les-admissions-d-etudiants-etrangers-a-harvard-dit-une-juge-20250620",
-      "original_article_published_date": "2025-06-20T21:51:44",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un juge dit que Trump ne peut pas bloquer les étudiants étrangers",
-      "simplified_english_title": "Judge says Trump can't block foreign students",
-      "french_summary": "Une juge a décidé que Trump ne peut pas empêcher les étudiants étrangers d'entrer à Harvard.",
-      "english_summary": "A judge ruled that Trump cannot stop foreign students from entering Harvard.",
-      "contextual_title_explanations": {
-        "Trump": {
-          "display_format": "**Trump:** Nom de famille",
-          "explanation": "Name of the 45th U.S. President",
-          "cultural_note": "Often associated with controversial policies"
-        },
-        "ne": {
-          "display_format": "**ne:** Adverbe de négation",
-          "explanation": "Negation particle, often with 'pas'",
-          "cultural_note": ""
-        },
-        "peut": {
-          "display_format": "**peut:** Verbe pouvoir",
-          "explanation": "Can, to be able to",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**pas:** Adverbe de négation",
-          "explanation": "Not, negation particle",
-          "cultural_note": ""
-        },
-        "interdire": {
-          "display_format": "**interdire:** Empêcher",
-          "explanation": "To forbid, prohibit",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The, definite article",
-          "cultural_note": ""
-        },
-        "admissions": {
-          "display_format": "**admissions:** Acceptations",
-          "explanation": "Admissions, acceptances",
-          "cultural_note": ""
-        },
-        "d'étudiants": {
-          "display_format": "**d'étudiants:** Des élèves",
-          "explanation": "Of students",
-          "cultural_note": ""
-        },
-        "étrangers": {
-          "display_format": "**étrangers:** Non-nationaux",
-          "explanation": "Foreign, not from the country",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "To, at",
-          "cultural_note": ""
-        },
-        "Harvard": {
-          "display_format": "**Harvard:** Université américaine",
-          "explanation": "Prestigious U.S. university",
-          "cultural_note": "One of the Ivy League schools"
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma, separates clauses",
-          "cultural_note": ""
-        },
-        "dit": {
-          "display_format": "**dit:** Verbe dire",
-          "explanation": "Says, third person singular",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "A, an, indefinite article",
-          "cultural_note": ""
-        },
-        "juge": {
-          "display_format": "**juge:** Magistrat",
-          "explanation": "Judge, legal official",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6320,112 +5966,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Pouria Amirshahi, député écologiste, pourra se rendre aux Etats-Unis, après s’être vu refuser un visa",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/20/pouria-amirshahi-depute-ecologiste-pourra-se-rendre-aux-etats-unis-apres-s-etre-vu-refuser-un-visa_6614831_3210.html",
-      "original_article_published_date": "2025-06-20T15:06:46",
-      "source_name": "Le Monde Politique",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un député écologiste obtient un visa pour les États-Unis",
-      "simplified_english_title": "Green MP gets US visa after refusal",
-      "french_summary": "Pouria Amirshahi, député écologiste, a finalement obtenu un visa pour les États-Unis après un premier refus.",
-      "english_summary": "Pouria Amirshahi, a Green Party MP, finally got a US visa after being refused initially.",
-      "contextual_title_explanations": {
-        "Pouria Amirshahi": {
-          "display_format": "**Pouria Amirshahi:** Nom propre",
-          "explanation": "Name of a French-Iranian politician",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "député": {
-          "display_format": "**député:** Membre du Parlement",
-          "explanation": "Member of French Parliament",
-          "cultural_note": ""
-        },
-        "écologiste": {
-          "display_format": "**écologiste:** Membre des Verts",
-          "explanation": "Member of the Green Party",
-          "cultural_note": ""
-        },
-        "pourra": {
-          "display_format": "**pourra:** Futur de pouvoir",
-          "explanation": "Future tense of 'can'",
-          "cultural_note": ""
-        },
-        "se": {
-          "display_format": "**se:** Pronom réfléchi",
-          "explanation": "Reflexive pronoun",
-          "cultural_note": ""
-        },
-        "rendre": {
-          "display_format": "**rendre:** Aller",
-          "explanation": "To go",
-          "cultural_note": ""
-        },
-        "aux": {
-          "display_format": "**aux:** À les",
-          "explanation": "To the (plural)",
-          "cultural_note": ""
-        },
-        "Etats-Unis": {
-          "display_format": "**Etats-Unis:** Pays",
-          "explanation": "United States",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**après:** Suite à",
-          "explanation": "After",
-          "cultural_note": ""
-        },
-        "s’être": {
-          "display_format": "**s’être:** Se être",
-          "explanation": "Reflexive form of 'to be'",
-          "cultural_note": ""
-        },
-        "vu": {
-          "display_format": "**vu:** Participe passé de voir",
-          "explanation": "Past participle of 'to see'",
-          "cultural_note": ""
-        },
-        "refuser": {
-          "display_format": "**refuser:** Dire non",
-          "explanation": "To refuse",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini",
-          "explanation": "Indefinite article",
-          "cultural_note": ""
-        },
-        "visa": {
-          "display_format": "**visa:** Document de voyage",
-          "explanation": "Travel document",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "La star de NBA Kevin Durant devient actionnaire minoritaire du Paris SG",
       "original_article_link": "https://www.ouest-france.fr/sport/football/paris-sg/la-star-de-nba-kevin-durant-devient-actionnaire-minoritaire-du-paris-sg-2c51bb64-4de6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-20T15:02:44",
@@ -7898,92 +7438,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Brésil: Bolsonaro en procès, l’extrême droite prépare les prochaines élections",
-      "original_article_link": "https://www.mediapart.fr/journal/international/200625/bresil-bolsonaro-en-proces-l-extreme-droite-prepare-les-prochaines-elections",
-      "original_article_published_date": "2025-06-20T13:03:44",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Bolsonaro en procès au Brésil",
-      "simplified_english_title": "Bolsonaro on trial in Brazil",
-      "french_summary": "L'ancien président Bolsonaro est en procès tandis que l'extrême droite se prépare pour les prochaines élections.",
-      "english_summary": "Former president Bolsonaro is on trial while the far right prepares for the next elections.",
-      "contextual_title_explanations": {
-        "Brésil": {
-          "display_format": "**Brésil:** Pays d'Amérique du Sud",
-          "explanation": "Country in South America",
-          "cultural_note": "French spelling of Brazil"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Bolsonaro": {
-          "display_format": "**Bolsonaro:** Nom de famille",
-          "explanation": "Last name of Brazilian president",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans un état",
-          "explanation": "In a state or process",
-          "cultural_note": ""
-        },
-        "procès": {
-          "display_format": "**procès:** Jugement juridique",
-          "explanation": "Legal trial or process",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "l’extrême droite": {
-          "display_format": "**l’extrême droite:** Aile politique",
-          "explanation": "Far-right political wing",
-          "cultural_note": ""
-        },
-        "prépare": {
-          "display_format": "**prépare:** Se préparer",
-          "explanation": "Prepares or gets ready",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "Definite articles (the)",
-          "cultural_note": ""
-        },
-        "prochaines": {
-          "display_format": "**prochaines:** Qui suivent",
-          "explanation": "Next or following",
-          "cultural_note": ""
-        },
-        "élections": {
-          "display_format": "**élections:** Votes publics",
-          "explanation": "Public elections",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T01:27:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Vague de chaleur : la France vit sa première canicule de l'année 2025",
       "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-vague-de-chaleur-la-france-vit-sa-premi%C3%A8re-canicule-de-l-ann%C3%A9e-2025",
       "original_article_published_date": "2025-06-20T13:02:06",
@@ -9335,6 +8789,542 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran-Israël: Emmanuel Macron annonce un débat au Parlement et une rencontre avec les chefs de partis",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/iran-israel-emmanuel-macron-annonce-un-debat-au-parlement-et-une-rencontre-avec-les-chefs-de-partis_AD-202506200414.html",
+      "original_article_published_date": "2025-06-20T10:34:22",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron organise un débat sur Iran-Israël",
+      "simplified_english_title": "Macron organizes debate on Iran-Israel",
+      "french_summary": "Emmanuel Macron a annoncé un débat au Parlement et une réunion avec les chefs de partis sur la situation entre l'Iran et Israël.",
+      "english_summary": "Emmanuel Macron announced a parliamentary debate and a meeting with party leaders on the situation between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Relations internationales",
+          "explanation": "Iran-Israel international relations",
+          "cultural_note": "Ongoing conflict and tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French President",
+          "cultural_note": "Leader of La République En Marche! party"
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rendre public",
+          "explanation": "Announces or makes public",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion publique",
+          "explanation": "Public debate or discussion",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** Article contracté",
+          "explanation": "Contraction of 'à le' meaning 'to the'",
+          "cultural_note": ""
+        },
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative",
+          "explanation": "French legislative body",
+          "cultural_note": "Consists of National Assembly and Senate"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "Conjunction meaning 'and'",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "rencontre": {
+          "display_format": "**rencontre:** Réunion",
+          "explanation": "Meeting or gathering",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Préposition",
+          "explanation": "Preposition meaning 'with'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "chefs de partis": {
+          "display_format": "**chefs de partis:** Dirigeants politiques",
+          "explanation": "Political party leaders",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "EXTRAIT - Satellites, missiles, robotique en orbite. L’espace, frontière de l’infini pour la défense… Quelles perspectives, quelle stratégie pour la France ?",
+      "original_article_link": "https://www.europe1.fr/emissions/le-brief/extrait-satellites-missiles-robotique-en-orbite-lespace-frontiere-de-linfini-pour-la-defense-quelles-perspectives-quelle-strategie-pour-la-france-760246",
+      "original_article_published_date": "2025-06-20T10:30:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France et l'espace pour la défense",
+      "simplified_english_title": "France and space for defense",
+      "french_summary": "La France explore l'utilisation de satellites, missiles et robotique dans l'espace pour renforcer sa défense et sa stratégie militaire.",
+      "english_summary": "France explores using satellites, missiles, and robotics in space to strengthen its defense and military strategy.",
+      "contextual_title_explanations": {
+        "EXTRAIT": {
+          "display_format": "**EXTRAIT:** Extrait",
+          "explanation": "Excerpt or extract",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "-: Tiret",
+          "explanation": "Dash indicating a pause",
+          "cultural_note": ""
+        },
+        "Satellites": {
+          "display_format": "**Satellites:** Satellites",
+          "explanation": "Objects orbiting Earth",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": ",: Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "missiles": {
+          "display_format": "**missiles:** Missiles",
+          "explanation": "Projectiles for defense",
+          "cultural_note": ""
+        },
+        "robotique": {
+          "display_format": "**robotique:** Robotique",
+          "explanation": "Robotics technology",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or on",
+          "cultural_note": ""
+        },
+        "orbite": {
+          "display_format": "**orbite:** Orbite",
+          "explanation": "Orbit around Earth",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": ". : Point",
+          "explanation": "Period ending sentence",
+          "cultural_note": ""
+        },
+        "L’espace": {
+          "display_format": "**L’espace:** L'espace",
+          "explanation": "Space",
+          "cultural_note": ""
+        },
+        "frontière": {
+          "display_format": "**frontière:** Frontière",
+          "explanation": "Frontier or boundary",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "l’infini": {
+          "display_format": "**l’infini:** L'infini",
+          "explanation": "The infinite",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "défense…": {
+          "display_format": "**défense…:** Défense",
+          "explanation": "Defense with ellipsis",
+          "cultural_note": ""
+        },
+        "Quelles": {
+          "display_format": "**Quelles:** Quelles",
+          "explanation": "What or which",
+          "cultural_note": ""
+        },
+        "perspectives": {
+          "display_format": "**perspectives:** Perspectives",
+          "explanation": "Outlooks or prospects",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**quelle:** Quelle",
+          "explanation": "What or which",
+          "cultural_note": ""
+        },
+        "stratégie": {
+          "display_format": "**stratégie:** Stratégie",
+          "explanation": "Strategy",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** France",
+          "explanation": "France the country",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "?: Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Russie : le gouvernement et la Banque centrale s’opposent en public alors que l’économie ralentit",
+      "original_article_link": "https://www.lexpress.fr/monde/europe/russie-le-gouvernement-et-la-banque-centrale-sopposent-en-public-alors-que-leconomie-ralentit-ULUDY4SAMVE65GWQ7A42NJ73JM/",
+      "original_article_published_date": "2025-06-20T10:22:04",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Russie a des problèmes économiques",
+      "simplified_english_title": "Russia faces economic troubles",
+      "french_summary": "Le gouvernement russe et la Banque centrale ont des désaccords publics. L'économie du pays ralentit en ce moment.",
+      "english_summary": "The Russian government and the Central Bank have public disagreements. The country's economy is slowing down.",
+      "contextual_title_explanations": {
+        "Russie": {
+          "display_format": "**Russie:** Pays d'Europe de l'Est",
+          "explanation": "Russia, a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le gouvernement": {
+          "display_format": "**le gouvernement:** Autorité dirigeante",
+          "explanation": "The government",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "la Banque centrale": {
+          "display_format": "**la Banque centrale:** Institution financière",
+          "explanation": "The central bank",
+          "cultural_note": ""
+        },
+        "s’opposent": {
+          "display_format": "**s’opposent:** Être en désaccord",
+          "explanation": "Are opposing",
+          "cultural_note": ""
+        },
+        "en public": {
+          "display_format": "**en public:** De manière ouverte",
+          "explanation": "Publicly",
+          "cultural_note": ""
+        },
+        "alors que": {
+          "display_format": "**alors que:** Pendant que",
+          "explanation": "While",
+          "cultural_note": ""
+        },
+        "l’économie": {
+          "display_format": "**l’économie:** Système de production",
+          "explanation": "The economy",
+          "cultural_note": ""
+        },
+        "ralentit": {
+          "display_format": "**ralentit:** Devient plus lent",
+          "explanation": "Is slowing down",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Immigration illégale : 4 000 membres des forces de l’ordre mobilisés en France",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250620-immigration-ill%C3%A9gale-4-000-membres-des-forces-de-l-ordre-mobilis%C3%A9s-en-france",
+      "original_article_published_date": "2025-06-20T10:20:46",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "4000 policiers contre l'immigration illégale",
+      "simplified_english_title": "4000 police against illegal immigration",
+      "french_summary": "La France envoie 4000 policiers pour lutter contre l'immigration illégale dans le pays.",
+      "english_summary": "France deploys 4000 police officers to combat illegal immigration in the country.",
+      "contextual_title_explanations": {
+        "Immigration": {
+          "display_format": "**Immigration:** Entrée dans un pays",
+          "explanation": "Movement of people into a country",
+          "cultural_note": ""
+        },
+        "illégale": {
+          "display_format": "**illégale:** Contraire à la loi",
+          "explanation": "Against the law, unauthorized",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "4 000": {
+          "display_format": "**4 000:** Quatre mille",
+          "explanation": "Four thousand",
+          "cultural_note": "In French, spaces are used to separate thousands"
+        },
+        "membres": {
+          "display_format": "**membres:** Personnes appartenant à",
+          "explanation": "Members belonging to a group",
+          "cultural_note": ""
+        },
+        "des forces de l’ordre": {
+          "display_format": "**des forces de l’ordre:** Police et gendarmerie",
+          "explanation": "Law enforcement personnel",
+          "cultural_note": ""
+        },
+        "mobilisés": {
+          "display_format": "**mobilisés:** Déployés, activés",
+          "explanation": "Deployed, activated for a task",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, within",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T21:17:09",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tout pour investir - Vendredi 20 juin",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-patrimoine/video-tout-pour-investir-vendredi-20-juin_VN-202506200409.html",
+      "original_article_published_date": "2025-06-20T10:07:31",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conseils pour investir aujourd'hui",
+      "simplified_english_title": "Tips for investing today",
+      "french_summary": "Découvrez les meilleures stratégies et conseils pour investir votre argent de manière intelligente et sécurisée.",
+      "english_summary": "Discover the best strategies and tips to invest your money in a smart and secure way.",
+      "contextual_title_explanations": {
+        "Tout": {
+          "display_format": "**Tout:** complet",
+          "explanation": "Everything or all",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** afin de",
+          "explanation": "For the purpose of",
+          "cultural_note": ""
+        },
+        "investir": {
+          "display_format": "**investir:** placer de l'argent",
+          "explanation": "To invest money",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** trait d'union",
+          "explanation": "Dash or hyphen",
+          "cultural_note": ""
+        },
+        "Vendredi": {
+          "display_format": "**Vendredi:** jour de la semaine",
+          "explanation": "Friday, day of the week",
+          "cultural_note": ""
+        },
+        "20": {
+          "display_format": "**20:** vingt",
+          "explanation": "Number twenty",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**juin:** sixième mois",
+          "explanation": "June, sixth month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T23:18:30",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tout pour investir : Partie 2 - 20/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-patrimoine/video-tout-pour-investir-partie-2-20-06_VN-202506200405.html",
+      "original_article_published_date": "2025-06-20T10:04:43",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Guide d'investissement : Partie 2",
+      "simplified_english_title": "Investment Guide: Part 2",
+      "french_summary": "C'est la deuxième partie d'un guide pour apprendre à investir. Il donne des conseils et des informations utiles.",
+      "english_summary": "This is the second part of a guide to learn about investing. It provides useful tips and information.",
+      "contextual_title_explanations": {
+        "Tout": {
+          "display_format": "**Tout:** Tout",
+          "explanation": "All or everything",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For or in order to",
+          "cultural_note": ""
+        },
+        "investir": {
+          "display_format": "**investir:** Investir",
+          "explanation": "To invest",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Partie": {
+          "display_format": "**Partie:** Partie",
+          "explanation": "Part",
+          "cultural_note": ""
+        },
+        "2": {
+          "display_format": "**2:** Deux",
+          "explanation": "Number two",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Hyphen or dash",
+          "cultural_note": ""
+        },
+        "20/06": {
+          "display_format": "**20/06:** Vingt juin",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T21:17:09",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
