@@ -160,3 +160,76 @@ Better French bridges the gap between classroom apps (Duolingo) and real-world c
 
 ### Maintainers
 *Human*: @[your-github]  |  *Assistant*: ChatGPT-4o 
+
+---
+
+## 11. Environment variables & config flags
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `OPENROUTER_API_KEY` | **required** | Auth token for all LLM calls |
+| `BF_PER_RUN_CAP` | `20` | Max articles published each hourly run |
+| `BF_DAILY_CAP` | `999999` | 24-h publication ceiling |
+| `BF_MIN_RULE_SCORE` | `12` | Curator rule threshold |
+| `BF_MODEL_PRIMARY` | `mistralai/mistral-medium-3` | Override default model |
+| `BF_MODEL_FALLBACK` | `google/gemini-2.5-flash` | Used if primary slug invalid |
+| `BF_SITE_URL` | `https://better-french.netlify.app` | For link generation in future emails |
+
+Values can go in **`config/config.ini`** for local runs; CI sets them via workflow `env:` block.
+
+---
+
+## 12. LLM pricing model (as of 2025-06-20)
+
+| Model | Input / 1k | Output / 1k | Used for |
+|-------|------------|-------------|----------|
+| `mistralai/mistral-medium-3` | $0.00040 | $0.00200 | Main processor (titles + vocab) |
+| `mistralai/mistral-large-2411` | $0.00200 | $0.00600 | Relevance scorer |
+| `google/gemini-2.5-flash` | $0.00025 | $0.00050 | Fallback |
+
+`processor._estimate_cost()` keeps a running total; the workflow prints cost per batch in the logs.
+
+---
+
+## 13. File-naming conventions
+
+* **Raw deltas** – `YYYYMMDD_HHMMSS_delta.json` under `raw_archive/DATE/`
+* **Full scrape** – `raw_scrape_YYYYMMDD_HHMMSS.json`
+* **Rolling feed backup** – `website/backups/rolling_YYYYMMDD_HHMMSS.json`
+* **Curated rejects** – `data/live/rejected_articles_TIMESTAMP.json` (rare)
+
+Timestamps are UTC to avoid daylight-savings confusion.
+
+---
+
+## 14. Netlify & domain
+
+* `netlify.toml` lives at repo root → Netlify auto-detects; publish dir is `ai_engine_v3/website`.
+* No build command; it simply serves static files.
+* Custom domain can be added via Netlify UI – SSL is provisioned automatically.
+
+---
+
+## 15. Extending the system
+
+1. **Add a new RSS source**  → Append to `feed_urls` dict in `scraper.py`; push.
+2. **Change curator rules**   → Tweak weights in `curator_v2.py` or adjust `BF_MIN_RULE_SCORE`.
+3. **New LLM fields**        → Update `models.Article`, prompts, website template.
+4. **Personal e-mail digests**→ Build a small FastAPI endpoint in `mcp_server/` that emails the latest rolling feed nightly.
+5. **Mobile app**             → Consume `rolling_articles.json` directly; same schema.
+
+---
+
+## 16. Quick glossary (file → meaning)
+
+| Path | Meaning |
+|------|---------|
+| `ai_engine_v3/data/state.json` | Tracks `last_delta` processed and per-day publish count |
+| `ai_engine_v3/data/live/pending_articles.json` | Queue awaiting AI enhancement |
+| `ai_engine_v3/data/live/overflow.json` | Articles held for future runs |
+| `ai_engine_v3/data/_cache/visited_hashes.json` | SHA-1 of links seen in raw scrape (dedup) |
+| `ai_engine_v3/website/rolling_articles.json` | What Netlify serves |
+
+---
+
+> **This overview is meant to be living documentation.**  If you touch any piece of the pipeline, append your changes here in the relevant section so future contributors (human or AI) stay in sync.
