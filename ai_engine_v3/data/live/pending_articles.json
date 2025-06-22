@@ -43294,6 +43294,946 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes américaines sur des installations nucléaires en Iran: Mélenchon dénonce un «crime de guerre»",
+      "original_article_link": "https://www.europe1.fr/politique/frappes-americaines-sur-des-installations-nucleaires-en-iran-melenchon-denonce-un-crime-de-guerre-760542",
+      "original_article_published_date": "2025-06-22T13:08:02",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent des sites nucléaires en Iran",
+      "simplified_english_title": "US strikes nuclear sites in Iran",
+      "french_summary": "Les États-Unis ont attaqué des installations nucléaires en Iran. Mélenchon critique cette action, la qualifiant de crime de guerre.",
+      "english_summary": "The United States attacked nuclear facilities in Iran. Mélenchon criticizes this action, calling it a war crime.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** attaques militaires",
+          "explanation": "Military strikes or attacks",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** des États-Unis",
+          "explanation": "Relating to the United States",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** contre",
+          "explanation": "On or against",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** articles indéfinis",
+          "explanation": "Indefinite article (some)",
+          "cultural_note": ""
+        },
+        "installations": {
+          "display_format": "**installations:** sites",
+          "explanation": "Facilities or sites",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** atomiques",
+          "explanation": "Relating to nuclear energy",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Mélenchon": {
+          "display_format": "**Mélenchon:** Jean-Luc Mélenchon",
+          "explanation": "French politician",
+          "cultural_note": "Leader of La France Insoumise"
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** condamne",
+          "explanation": "Denounces or condemns",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** article indéfini",
+          "explanation": "Indefinite article (a)",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "crime de guerre": {
+          "display_format": "**crime de guerre:** violation grave",
+          "explanation": "Serious violation of laws of war",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Agnès Pannier-Runacher estime que le moratoire sur l'éolien et le photovoltaïque \"n'a pas de sens\"",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/agnes-pannier-runacher-estime-que-le-moratoire-sur-l-eolien-et-le-photovoltaique-n-a-pas-de-sens_AD-202506220193.html",
+      "original_article_published_date": "2025-06-22T13:15:08",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le moratoire sur l'éolien critiqué",
+      "simplified_english_title": "Criticism of wind energy moratorium",
+      "french_summary": "Agnès Pannier-Runacher dit que le moratoire sur l'éolien et le solaire n'a pas de sens.",
+      "english_summary": "Agnès Pannier-Runacher says the moratorium on wind and solar energy makes no sense.",
+      "contextual_title_explanations": {
+        "Agnès Pannier-Runacher": {
+          "display_format": "**Agnès Pannier-Runacher:** Ministre française",
+          "explanation": "French minister, government official",
+          "cultural_note": "Current minister of Energy Transition"
+        },
+        "estime": {
+          "display_format": "**estime:** pense que",
+          "explanation": "believes or thinks",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** qui",
+          "explanation": "that",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** article défini",
+          "explanation": "the (definite article)",
+          "cultural_note": ""
+        },
+        "moratoire": {
+          "display_format": "**moratoire:** suspension temporaire",
+          "explanation": "temporary suspension or delay",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** concernant",
+          "explanation": "on or about",
+          "cultural_note": ""
+        },
+        "l'éolien": {
+          "display_format": "**l'éolien:** énergie du vent",
+          "explanation": "wind energy",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et aussi",
+          "explanation": "and",
+          "cultural_note": ""
+        },
+        "photovoltaïque": {
+          "display_format": "**photovoltaïque:** énergie solaire",
+          "explanation": "solar energy",
+          "cultural_note": ""
+        },
+        "n'a pas de sens": {
+          "display_format": "**n'a pas de sens:** est absurde",
+          "explanation": "makes no sense",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Impôts : la taxe sur les résidences secondaires augmente, voici pourquoi",
+      "original_article_link": "https://www.ouest-france.fr/economie/impots-fiscalite/impots/impots-la-taxe-sur-les-residences-secondaires-augmente-voici-pourquoi-fa09689c-4d3a-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T13:12:10",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La taxe sur les résidences secondaires augmente",
+      "simplified_english_title": "Tax on second homes increases",
+      "french_summary": "Le gouvernement a décidé d'augmenter la taxe sur les résidences secondaires pour financer des projets sociaux.",
+      "english_summary": "The government decided to increase the tax on second homes to fund social projects.",
+      "contextual_title_explanations": {
+        "Impôts": {
+          "display_format": "**Impôts:** Taxes",
+          "explanation": "Money paid to government",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "taxe": {
+          "display_format": "**taxe:** Impôt",
+          "explanation": "Tax or fee",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "résidences secondaires": {
+          "display_format": "**résidences secondaires:** Maisons de vacances",
+          "explanation": "Vacation or second homes",
+          "cultural_note": "Common in France as holiday homes"
+        },
+        "augmente": {
+          "display_format": "**augmente:** Monte",
+          "explanation": "Increases or goes up",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "voici": {
+          "display_format": "**voici:** Voilà",
+          "explanation": "Here is or here are",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**pourquoi:** Pourquoi",
+          "explanation": "Why or the reason",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’armée israélienne annonce avoir ramené les corps de trois otages retenus à Gaza",
+      "original_article_link": "https://www.leparisien.fr/international/israel/larmee-israelienne-annonce-avoir-ramene-les-corps-de-trois-otages-retenus-a-gaza-22-06-2025-5LNDYZD2MRENZDI44XJP24RLTM.php",
+      "original_article_published_date": "2025-06-22T13:26:39.133127",
+      "source_name": "Le Parisien",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'armée israélienne récupère trois otages de Gaza",
+      "simplified_english_title": "Israeli army retrieves three hostages from Gaza",
+      "french_summary": "L'armée israélienne a annoncé avoir récupéré les corps de trois otages qui étaient détenus à Gaza.",
+      "english_summary": "The Israeli army announced it retrieved the bodies of three hostages held in Gaza.",
+      "contextual_title_explanations": {
+        "L’armée": {
+          "display_format": "**L’armée:** Les forces armées",
+          "explanation": "The military forces",
+          "cultural_note": ""
+        },
+        "israélienne": {
+          "display_format": "**israélienne:** D'Israël",
+          "explanation": "Of Israel",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Déclare",
+          "explanation": "Announces or declares",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Posséder",
+          "explanation": "To have",
+          "cultural_note": ""
+        },
+        "ramené": {
+          "display_format": "**ramené:** Rapporté",
+          "explanation": "Brought back",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "corps": {
+          "display_format": "**corps:** Cadavres",
+          "explanation": "Bodies (dead)",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**trois:** Nombre 3",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "otages": {
+          "display_format": "**otages:** Personnes capturées",
+          "explanation": "Hostages",
+          "cultural_note": ""
+        },
+        "retenus": {
+          "display_format": "**retenus:** Détenus",
+          "explanation": "Held or detained",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** Territoire palestinien",
+          "explanation": "Gaza Strip",
+          "cultural_note": "Palestinian territory often in conflict"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Budget : \"tous les groupes politiques\" seront reçus au ministère de l'Economie avant le 11 juillet",
+      "original_article_link": "https://www.franceinfo.fr/economie/budget/budget-tous-les-groupes-politiques-seront-recus-au-ministere-de-l-economie-avant-le-11-juillet_7330470.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T13:18:15",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réunions au ministère de l'Économie avant le 11 juillet",
+      "simplified_english_title": "Meetings at Economy Ministry before July 11",
+      "french_summary": "Tous les groupes politiques vont rencontrer le ministère de l'Économie avant le 11 juillet pour discuter du budget.",
+      "english_summary": "All political groups will meet with the Ministry of Economy before July 11 to discuss the budget.",
+      "contextual_title_explanations": {
+        "Budget": {
+          "display_format": "**Budget:** Plan financier",
+          "explanation": "Financial plan of government",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or list",
+          "cultural_note": ""
+        },
+        "tous les groupes politiques": {
+          "display_format": "**tous les groupes politiques:** Tous les partis",
+          "explanation": "All political parties",
+          "cultural_note": ""
+        },
+        "seront": {
+          "display_format": "**seront:** Futur de être",
+          "explanation": "Future tense of 'to be'",
+          "cultural_note": ""
+        },
+        "reçus": {
+          "display_format": "**reçus:** Accueillis",
+          "explanation": "Received or welcomed",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Combined preposition 'à le'",
+          "cultural_note": ""
+        },
+        "ministère de l'Economie": {
+          "display_format": "**ministère de l'Economie:** Département économique",
+          "explanation": "Ministry of Economy",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**avant:** Avant",
+          "explanation": "Before a certain time",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "11 juillet": {
+          "display_format": "**11 juillet:** Date",
+          "explanation": "Date in July",
+          "cultural_note": "French Independence Day is July 14th"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique : des piqûres et 300 gardes à vue dans toute la France",
+      "original_article_link": "https://www.ouest-france.fr/culture/musiques/fete-de-la-musique/fete-de-la-musique-des-piqures-et-300-gardes-a-vue-dans-toute-la-france-286c3296-4f61-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T12:42:15",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Fête de la Musique : incidents et arrestations",
+      "simplified_english_title": "Music Day: incidents and arrests",
+      "french_summary": "Pendant la Fête de la Musique, il y a eu des bagarres et la police a arrêté 300 personnes en France.",
+      "english_summary": "During the Music Day, there were fights and the police arrested 300 people across France.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Annual music celebration on June 21",
+          "cultural_note": "Free concerts nationwide"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Plural indefinite article (some)",
+          "cultural_note": ""
+        },
+        "piqûres": {
+          "display_format": "**piqûres:** Injections",
+          "explanation": "Injections, often medical",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And, connecting words",
+          "cultural_note": ""
+        },
+        "300": {
+          "display_format": "**300:** Nombre",
+          "explanation": "Number three hundred",
+          "cultural_note": ""
+        },
+        "gardes à vue": {
+          "display_format": "**gardes à vue:** Détention provisoire",
+          "explanation": "Police custody, temporary detention",
+          "cultural_note": "Up to 24 hours typically"
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In, inside, within",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**toute:** Adjectif indéfini",
+          "explanation": "All, entire (feminine)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** Pays européen",
+          "explanation": "Country in Europe",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Cyclisme. L’ancien directeur sportif d’Armstrong dénonce la gouvernance française du cyclisme",
+      "original_article_link": "https://www.ouest-france.fr/sport/cyclisme/cyclisme-lancien-directeur-sportif-darmstrong-denonce-la-gouvernance-francaise-du-cyclisme-496064d2-4f65-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T13:01:00",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un ancien directeur critique le cyclisme français",
+      "simplified_english_title": "Former director criticizes French cycling",
+      "french_summary": "L'ancien directeur sportif de Lance Armstrong critique la gestion du cyclisme en France, soulignant des problèmes de gouvernance.",
+      "english_summary": "Lance Armstrong's former sports director criticizes the management of cycling in France, highlighting governance issues.",
+      "contextual_title_explanations": {
+        "Cyclisme": {
+          "display_format": "**Cyclisme:** Sport de vélo",
+          "explanation": "The sport of cycling",
+          "cultural_note": "Very popular in France, especially the Tour de France"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "L’ancien": {
+          "display_format": "**L’ancien:** L'ancien",
+          "explanation": "The former",
+          "cultural_note": ""
+        },
+        "directeur sportif": {
+          "display_format": "**directeur sportif:** Responsable d'équipe",
+          "explanation": "Sports director, team manager",
+          "cultural_note": ""
+        },
+        "d’Armstrong": {
+          "display_format": "**d’Armstrong:** De Armstrong",
+          "explanation": "Of Armstrong",
+          "cultural_note": "Refers to Lance Armstrong, famous cyclist"
+        },
+        "dénonce": {
+          "display_format": "**dénonce:** Critique sévèrement",
+          "explanation": "Denounces, criticizes severely",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "gouvernance": {
+          "display_format": "**gouvernance:** Gestion, administration",
+          "explanation": "Governance, management",
+          "cultural_note": ""
+        },
+        "française": {
+          "display_format": "**française:** De France",
+          "explanation": "French",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "cyclisme": {
+          "display_format": "**cyclisme:** Sport de vélo",
+          "explanation": "Cycling",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Jean-Philippe Tanguy, député RN de la Somme, est l’invité de « Questions politiques »",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/22/jean-philippe-tanguy-depute-rn-de-la-somme-est-l-invite-de-questions-politiques_6615278_823448.html",
+      "original_article_published_date": "2025-06-22T10:00:07",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un député RN invité à « Questions politiques »",
+      "simplified_english_title": "RN MP invited to « Questions politiques »",
+      "french_summary": "Jean-Philippe Tanguy, député du Rassemblement National, participe à l'émission « Questions politiques ».",
+      "english_summary": "Jean-Philippe Tanguy, MP from the National Rally, is a guest on « Questions politiques ».",
+      "contextual_title_explanations": {
+        "Jean-Philippe Tanguy": {
+          "display_format": "**Jean-Philippe Tanguy:** Nom propre",
+          "explanation": "Name of a French politician",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "député": {
+          "display_format": "**député:** Membre du Parlement",
+          "explanation": "Member of Parliament",
+          "cultural_note": ""
+        },
+        "RN": {
+          "display_format": "**RN:** Rassemblement National",
+          "explanation": "French far-right political party",
+          "cultural_note": "Formerly known as Front National"
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating association",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "Somme": {
+          "display_format": "**Somme:** Département français",
+          "explanation": "Department in northern France",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** Forme de 'être'",
+          "explanation": "Third person singular of 'to be'",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**l’:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "invité": {
+          "display_format": "**invité:** Personne invitée",
+          "explanation": "Guest or invitee",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Questions politiques": {
+          "display_format": "**Questions politiques:** Titre d'émission",
+          "explanation": "Title of a political show",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Echo Valley » sur Apple TV +. Que vaut le polar avec Julianne Moore et Sydney Sweeney ?",
+      "original_article_link": "https://www.ouest-france.fr/cinema/echo-valley-sur-apple-tv-que-vaut-le-polar-avec-julianne-moore-et-sydney-sweeney-2a447138-4c18-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T10:00:06",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Critique de Echo Valley sur Apple TV+",
+      "simplified_english_title": "Review of Echo Valley on Apple TV+",
+      "french_summary": "La série Echo Valley avec Julianne Moore et Sydney Sweeney est maintenant sur Apple TV+. Découvrez sa valeur.",
+      "english_summary": "The series Echo Valley with Julianne Moore and Sydney Sweeney is now on Apple TV+. Find out its worth.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening French quotation mark",
+          "cultural_note": ""
+        },
+        "Echo Valley": {
+          "display_format": "**Echo Valley:** Titre de série",
+          "explanation": "Title of the TV series",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing French quotation mark",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** À propos de",
+          "explanation": "About or on the topic of",
+          "cultural_note": ""
+        },
+        "Apple TV +": {
+          "display_format": "**Apple TV +:** Plateforme de streaming",
+          "explanation": "Apple's streaming service",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period or full stop",
+          "cultural_note": ""
+        },
+        "Que": {
+          "display_format": "**Que:** Quel est",
+          "explanation": "What is or what are",
+          "cultural_note": ""
+        },
+        "vaut": {
+          "display_format": "**vaut:** Valeur de",
+          "explanation": "Worth or value of",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "polar": {
+          "display_format": "**polar:** Roman policier",
+          "explanation": "Crime or detective genre",
+          "cultural_note": "Short for 'polar' as in polar novel"
+        },
+        "avec": {
+          "display_format": "**avec:** En compagnie de",
+          "explanation": "With or featuring",
+          "cultural_note": ""
+        },
+        "Julianne Moore": {
+          "display_format": "**Julianne Moore:** Actrice américaine",
+          "explanation": "American actress",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "Sydney Sweeney": {
+          "display_format": "**Sydney Sweeney:** Actrice américaine",
+          "explanation": "American actress",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ressortissants français en Israël : un avion de 152 places doit quitter Amman, en Jordanie, ce soir",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/ressortissants-francais-en-israel-un-avion-de-152-places-doit-quitter-amman-jordanie-ce-soir-699a46ca-4f4a-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T12:31:36",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un avion quitte Amman pour les Français en Israël",
+      "simplified_english_title": "Plane leaves Amman for French in Israel",
+      "french_summary": "Un avion avec 152 places doit partir d'Amman en Jordanie pour ramener des Français d'Israël ce soir.",
+      "english_summary": "A plane with 152 seats will leave Amman, Jordan, to bring French citizens back from Israel tonight.",
+      "contextual_title_explanations": {
+        "Ressortissants": {
+          "display_format": "**Ressortissants:** Citoyens",
+          "explanation": "Nationals or citizens of a country",
+          "cultural_note": ""
+        },
+        "français": {
+          "display_format": "**français:** De France",
+          "explanation": "French, relating to France",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, located inside",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un seul",
+          "explanation": "A, an, one",
+          "cultural_note": ""
+        },
+        "avion": {
+          "display_format": "**avion:** Aéronef",
+          "explanation": "Airplane",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "152": {
+          "display_format": "**152:** Cent cinquante-deux",
+          "explanation": "One hundred fifty-two",
+          "cultural_note": ""
+        },
+        "places": {
+          "display_format": "**places:** Sièges",
+          "explanation": "Seats",
+          "cultural_note": ""
+        },
+        "doit": {
+          "display_format": "**doit:** Devrait",
+          "explanation": "Must, should",
+          "cultural_note": ""
+        },
+        "quitter": {
+          "display_format": "**quitter:** Partir de",
+          "explanation": "To leave",
+          "cultural_note": ""
+        },
+        "Amman": {
+          "display_format": "**Amman:** Capitale de la Jordanie",
+          "explanation": "Capital city of Jordan",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,: Virgule",
+          "explanation": "Comma, short pause",
+          "cultural_note": ""
+        },
+        "Jordanie": {
+          "display_format": "**Jordanie:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ce soir",
+          "explanation": "This, tonight",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**soir:** Soirée",
+          "explanation": "Evening, night",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
