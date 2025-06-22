@@ -254,7 +254,7 @@
                 const data = JSON.parse(decodeURIComponent(dataString));
                 
                 // Extract display text from display_format (remove markdown formatting)
-                let displayText = data.display_format || data.original_word || trigger.textContent;
+                let displayText = data.en_translation || data.display_format || data.original_word || trigger.textContent;
                 
                 // Clean up display_format - remove markdown bold formatting and extract main term
                 if (data.display_format) {
@@ -271,7 +271,7 @@
                 return {
                     word: data.original_word || trigger.textContent,
                     display: displayText,
-                    explanation: data.explanation || data.english_translation || '',
+                    explanation: data.context || data.explanation || data.english_translation || '',
                     note: data.cultural_note || data.linguistic_note || ''
                 };
             } catch (error) {
