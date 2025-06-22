@@ -272,9 +272,17 @@
                     // the order and use the segment *after* the colon instead so
                     // learners still see the English gloss in bold.
                     if (displayText.toLowerCase() === (data.original_word || '').toLowerCase()) {
-                        const parts = data.display_format.replace(/\*\*/g, '').split(':');
-                        if (parts.length > 1) {
-                            const alt = parts[1].trim();
+                        // If display_format included a colon, use the segment after it first.
+                        const cleaned = data.display_format.replace(/\*\*/g, '');
+                        const colonIdx = cleaned.indexOf(':');
+                        if (colonIdx !== -1) {
+                            const alt = cleaned.slice(colonIdx + 1).trim();
+                            if (alt) {
+                                displayText = alt;
+                            }
+                        } else if (data.explanation) {
+                            // Otherwise fall back to first clause of explanation
+                            const alt = data.explanation.split(/[.,;]/)[0].trim();
                             if (alt) {
                                 displayText = alt;
                             }

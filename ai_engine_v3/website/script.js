@@ -262,7 +262,7 @@ class BetterFrenchApp {
         if (this.filteredArticles.length === 0) {
             console.log('No filtered articles, showing "no articles" message');
             featuredContainer.innerHTML = '<p>No articles found matching your search.</p>';
-            loadMoreBtn.style.display = 'none';
+            if (loadMoreBtn) loadMoreBtn.style.display = 'none';
             return;
         }
 
@@ -287,8 +287,10 @@ class BetterFrenchApp {
             articlesContainer.appendChild(articleElement);
         }
 
-        // Show/hide load more button
-        loadMoreBtn.style.display = this.displayedArticles < this.filteredArticles.length ? 'block' : 'none';
+        // In infinite-scroll mode we keep the button hidden at all times.  The
+        // debounced scroll handler is responsible for queuing additional
+        // pages.  Remove the old show/hide logic to prevent flicker.
+        if (loadMoreBtn) loadMoreBtn.style.display = 'none';
 
         // Setup article interactions
         this.setupArticleInteractions();
