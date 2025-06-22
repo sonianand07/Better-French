@@ -3,6 +3,809 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "REPORTAGE. L’attaque américaine en Iran soutenue par les Israéliens",
+      "original_article_link": "https://www.ouest-france.fr/monde/israel/reportage-lattaque-americaine-en-iran-soutenue-par-les-israeliens-42cea162-4f77-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T15:16:07",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran avec l'aide d'Israël",
+      "simplified_english_title": "US attacks Iran with Israel's support",
+      "french_summary": "Les États-Unis ont lancé une attaque en Iran avec le soutien des forces israéliennes, selon des rapports récents.",
+      "english_summary": "The United States launched an attack in Iran with the support of Israeli forces, according to recent reports.",
+      "contextual_title_explanations": {
+        "REPORTAGE": {
+          "display_format": "**REPORTAGE:** Article détaillé",
+          "explanation": "In-depth news article",
+          "cultural_note": "Often used in media headlines"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period ending sentence",
+          "cultural_note": ""
+        },
+        "L’": {
+          "display_format": "**L’:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "attaque": {
+          "display_format": "**attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in Middle East",
+          "cultural_note": ""
+        },
+        "soutenue": {
+          "display_format": "**soutenue:** Appuyée",
+          "explanation": "Supported or backed",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par l'intermédiaire de",
+          "explanation": "By or through",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Definite article 'the' plural",
+          "cultural_note": ""
+        },
+        "Israéliens": {
+          "display_format": "**Israéliens:** Habitants d'Israël",
+          "explanation": "People from Israel",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. La relation entre l’Afrique et la France au cœur d’un documentaire, ce soir sur France 5",
+      "original_article_link": "https://www.ouest-france.fr/medias/television/entretien-la-relation-entre-lafrique-et-la-france-au-cur-dun-documentaire-ce-soir-sur-france-5-c9959028-4de4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T15:00:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un documentaire sur l'Afrique et la France",
+      "simplified_english_title": "Documentary on Africa and France",
+      "french_summary": "Un documentaire sur la relation entre l'Afrique et la France sera diffusé ce soir sur France 5.",
+      "english_summary": "A documentary about the relationship between Africa and France will air tonight on France 5.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**ENTRETIEN:** Interview",
+          "explanation": "Conversation with someone",
+          "cultural_note": "Common in media titles"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "relation": {
+          "display_format": "**relation:** Lien",
+          "explanation": "Relationship or connection",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Entre",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "l’Afrique": {
+          "display_format": "**l’Afrique:** Continent africain",
+          "explanation": "Africa",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "au cœur": {
+          "display_format": "**au cœur:** Au centre",
+          "explanation": "At the heart",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** De un",
+          "explanation": "Of a",
+          "cultural_note": ""
+        },
+        "documentaire": {
+          "display_format": "**documentaire:** Film documentaire",
+          "explanation": "Documentary",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ce soir": {
+          "display_format": "**ce soir:** Ce soir",
+          "explanation": "Tonight",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Sur",
+          "explanation": "On",
+          "cultural_note": ""
+        },
+        "France 5": {
+          "display_format": "**France 5:** Chaîne de télévision",
+          "explanation": "French TV channel",
+          "cultural_note": "Educational and cultural programs"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France bientôt championne de l'eau recyclée ?",
+      "original_article_link": "https://www.bfmtv.com/economie/video-la-france-bientot-championne-de-l-eau-recyclee_VN-202506220221.html",
+      "original_article_published_date": "2025-06-22T15:00:05",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France va recycler plus d'eau",
+      "simplified_english_title": "France to recycle more water",
+      "french_summary": "La France veut devenir leader dans le recyclage de l'eau. Un nouveau projet va augmenter la réutilisation des eaux usées.",
+      "english_summary": "France aims to lead in water recycling. A new project will increase the reuse of wastewater.",
+      "contextual_title_explanations": {
+        "La France": {
+          "display_format": "**La France:** Pays européen",
+          "explanation": "The country of France",
+          "cultural_note": ""
+        },
+        "bientôt": {
+          "display_format": "**bientôt:** Dans peu de temps",
+          "explanation": "Soon, in the near future",
+          "cultural_note": ""
+        },
+        "championne": {
+          "display_format": "**championne:** Première, gagnante",
+          "explanation": "Champion, leader",
+          "cultural_note": ""
+        },
+        "de l'eau": {
+          "display_format": "**de l'eau:** Eau",
+          "explanation": "Water",
+          "cultural_note": ""
+        },
+        "recyclée": {
+          "display_format": "**recyclée:** Réutilisée",
+          "explanation": "Recycled, reused",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Il est très probable que le seuil des 80 dollars soit dépassé\" : après les frappes américaines en Iran, la crainte d’une flambée des prix du pétrole",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/il-est-tres-probable-que-le-seuil-des-80-dollars-soit-depasse-apres-les-frappes-americaines-en-iran-la-crainte-d-une-flambee-des-prix-du-petrole_7330545.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T14:56:15",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le pétrole pourrait dépasser 80 dollars",
+      "simplified_english_title": "Oil may exceed 80 dollars",
+      "french_summary": "Les frappes américaines en Iran pourraient faire augmenter le prix du pétrole au-dessus de 80 dollars.",
+      "english_summary": "American strikes in Iran may push oil prices above 80 dollars.",
+      "contextual_title_explanations": {
+        "Il": {
+          "display_format": "**Il:** Pronom personnel",
+          "explanation": "Personal pronoun meaning 'he' or 'it'",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** Être",
+          "explanation": "Third person singular of 'to be'",
+          "cultural_note": ""
+        },
+        "très": {
+          "display_format": "**très:** Adverbe",
+          "explanation": "Adverb meaning 'very'",
+          "cultural_note": ""
+        },
+        "probable": {
+          "display_format": "**probable:** Adjectif",
+          "explanation": "Adjective meaning 'likely'",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Conjonction",
+          "explanation": "Conjunction meaning 'that'",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "seuil": {
+          "display_format": "**seuil:** Limite",
+          "explanation": "Noun meaning 'threshold' or 'limit'",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Indefinite article meaning 'some'",
+          "cultural_note": ""
+        },
+        "80 dollars": {
+          "display_format": "**80 dollars:** Devise",
+          "explanation": "Currency amount '80 dollars'",
+          "cultural_note": ""
+        },
+        "soit": {
+          "display_format": "**soit:** Subjonctif",
+          "explanation": "Subjunctive form of 'to be'",
+          "cultural_note": ""
+        },
+        "dépassé": {
+          "display_format": "**dépassé:** Passé",
+          "explanation": "Past participle of 'to exceed'",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Préposition",
+          "explanation": "Preposition meaning 'after'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques",
+          "explanation": "Noun meaning 'strikes' or 'attacks'",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Adjectif",
+          "explanation": "Adjective meaning 'American'",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition meaning 'in'",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "crainte": {
+          "display_format": "**crainte:** Peur",
+          "explanation": "Noun meaning 'fear' or 'concern'",
+          "cultural_note": ""
+        },
+        "d’une": {
+          "display_format": "**d’une:** Article indéfini",
+          "explanation": "Indefinite article meaning 'of a'",
+          "cultural_note": ""
+        },
+        "flambée": {
+          "display_format": "**flambée:** Hausse",
+          "explanation": "Noun meaning 'surge' or 'increase'",
+          "cultural_note": ""
+        },
+        "prix": {
+          "display_format": "**prix:** Coût",
+          "explanation": "Noun meaning 'price'",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article défini",
+          "explanation": "Definite article meaning 'of the'",
+          "cultural_note": ""
+        },
+        "pétrole": {
+          "display_format": "**pétrole:** Carburant",
+          "explanation": "Noun meaning 'oil'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Moratoire sur l'éolien et le photovoltaïque : «ça n'a pas de sens» , estime Pannier-Runacher",
+      "original_article_link": "https://www.europe1.fr/politique/moratoire-sur-leolien-et-le-photovoltaique-ca-na-pas-de-sens-estime-pannier-runacher-760548",
+      "original_article_published_date": "2025-06-22T14:54:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pause sur l'éolien et le solaire critiquée",
+      "simplified_english_title": "Criticism of wind and solar energy pause",
+      "french_summary": "La ministre Pannier-Runacher dit que la pause sur l'éolien et le solaire n'a pas de sens.",
+      "english_summary": "Minister Pannier-Runacher says the pause on wind and solar energy makes no sense.",
+      "contextual_title_explanations": {
+        "Moratoire": {
+          "display_format": "**Moratoire:** Pause temporaire",
+          "explanation": "Temporary suspension or delay",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "On or about something",
+          "cultural_note": ""
+        },
+        "l'éolien": {
+          "display_format": "**l'éolien:** Énergie du vent",
+          "explanation": "Wind energy",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "photovoltaïque": {
+          "display_format": "**photovoltaïque:** Énergie solaire",
+          "explanation": "Solar energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "ça": {
+          "display_format": "**ça:** Cela",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "n'a": {
+          "display_format": "**n'a:** N'a pas",
+          "explanation": "Has not",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Partitif",
+          "explanation": "Some or any",
+          "cultural_note": ""
+        },
+        "sens»": {
+          "display_format": "**sens»:** Signification",
+          "explanation": "Meaning or sense",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "estime": {
+          "display_format": "**estime:** Pense",
+          "explanation": "Thinks or believes",
+          "cultural_note": ""
+        },
+        "Pannier-Runacher": {
+          "display_format": "**Pannier-Runacher:** Ministre française",
+          "explanation": "French minister",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attaque des États-Unis contre l'Iran: quelles sont les options de Téhéran pour riposter?",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250622-attaque-des-%C3%A9tats-unis-contre-l-iran-quelles-sont-les-options-de-t%C3%A9h%C3%A9ran-pour-riposter",
+      "original_article_published_date": "2025-06-22T14:26:03",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran : comment réagira Téhéran ?",
+      "simplified_english_title": "US attacks Iran: how will Tehran respond?",
+      "french_summary": "Les États-Unis ont attaqué l'Iran. Téhéran envisage différentes options pour répondre à cette attaque.",
+      "english_summary": "The United States attacked Iran. Tehran is considering various options to respond to this attack.",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini pluriel",
+          "explanation": "Plural definite article 'the'",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against or versus",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a Middle Eastern country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "quelles": {
+          "display_format": "**quelles:** Quels, féminines",
+          "explanation": "Feminine plural of 'which'",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Forme du verbe être",
+          "explanation": "Are, form of the verb 'to be'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Plural definite article 'the'",
+          "cultural_note": ""
+        },
+        "options": {
+          "display_format": "**options:** Choix possibles",
+          "explanation": "Possible choices or options",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "riposter": {
+          "display_format": "**riposter:** Répondre à une attaque",
+          "explanation": "To retaliate or counterattack",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les frappes américaines en Iran ne visaient pas un changement de régime",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-les-frappes-am%C3%A9ricaines-en-iran-ne-visaient-pas-un-changement-de-r%C3%A9gime",
+      "original_article_published_date": "2025-06-22T14:24:42",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent l'Iran sans vouloir un changement de régime",
+      "simplified_english_title": "US strikes in Iran not aimed at regime change",
+      "french_summary": "Les frappes américaines en Iran avaient un objectif limité et ne cherchaient pas à renverser le gouvernement iranien.",
+      "english_summary": "The American strikes in Iran had a limited goal and did not seek to overthrow the Iranian government.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "American (feminine plural)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Not (part of negation)",
+          "cultural_note": ""
+        },
+        "visaient": {
+          "display_format": "**visaient:** Ciblaient",
+          "explanation": "Aimed (imperfect tense)",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not (part of negation)",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A (masculine singular indefinite article)",
+          "cultural_note": ""
+        },
+        "changement": {
+          "display_format": "**changement:** Modification",
+          "explanation": "Change",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "régime": {
+          "display_format": "**régime:** Gouvernement",
+          "explanation": "Regime (government)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À l'intérieur d'immeubles israéliens touchés par une frappe de missile iranienne",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-int%C3%A9rieur-imeubles-isra%C3%A9liens-touch%C3%A9s-par-frappe-missile-iranienne-guerre-isra%C3%ABl-iran-moyen-orient",
+      "original_article_published_date": "2025-06-22T14:15:20",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des immeubles israéliens touchés par des missiles iraniens",
+      "simplified_english_title": "Iranian missiles hit buildings in Israel",
+      "french_summary": "Des missiles iraniens ont frappé des immeubles en Israël, causant des dégâts. Les détails sur les victimes restent inconnus.",
+      "english_summary": "Iranian missiles struck buildings in Israel, causing damage. Details about casualties remain unknown.",
+      "contextual_title_explanations": {
+        "À l'intérieur": {
+          "display_format": "**À l'intérieur:** dedans",
+          "explanation": "inside or within",
+          "cultural_note": ""
+        },
+        "d'immeubles": {
+          "display_format": "**d'immeubles:** de bâtiments",
+          "explanation": "of buildings",
+          "cultural_note": ""
+        },
+        "israéliens": {
+          "display_format": "**israéliens:** d'Israël",
+          "explanation": "Israeli, related to Israel",
+          "cultural_note": ""
+        },
+        "touchés": {
+          "display_format": "**touchés:** affectés",
+          "explanation": "affected or hit",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** par",
+          "explanation": "by",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** une",
+          "explanation": "a or an",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**frappe:** attaque",
+          "explanation": "strike or attack",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "of",
+          "cultural_note": ""
+        },
+        "missile": {
+          "display_format": "**missile:** projectile",
+          "explanation": "missile",
+          "cultural_note": ""
+        },
+        "iranienne": {
+          "display_format": "**iranienne:** de l'Iran",
+          "explanation": "Iranian, related to Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Attention aux 100.000 Français qui vont en Tanzanie: l'Europe a placé les 35 compagnies aériennes du pays sur liste noire",
       "original_article_link": "https://www.bfmtv.com/economie/entreprises/transports/attention-aux-100-000-francais-qui-vont-en-tanzanie-l-europe-a-place-les-35-compagnies-aeriennes-du-pays-sur-liste-noire_AN-202506220206.html",
       "original_article_published_date": "2025-06-22T14:02:07",
@@ -121,6 +924,97 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T14:16:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les Etats-Unis ont frappé l'Iran : Téhéran se défendra \"par tous les moyens\"",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-les-etats-unis-ont-frapp%C3%A9-l-iran-t%C3%A9h%C3%A9ran-se-d%C3%A9fendra-par-tous-les-moyens",
+      "original_article_published_date": "2025-06-22T14:01:03",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran",
+      "simplified_english_title": "US strikes Iran",
+      "french_summary": "Les États-Unis ont attaqué l'Iran. Téhéran promet de se défendre par tous les moyens possibles.",
+      "english_summary": "The US attacked Iran. Tehran promises to defend itself by all possible means.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (definite article, plural)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique",
+          "explanation": "United States, a country",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Auxiliaire avoir",
+          "explanation": "Have (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "frappé": {
+          "display_format": "**frappé:** Attaqué",
+          "explanation": "Struck or attacked",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "se défendra": {
+          "display_format": "**se défendra:** Se protégera",
+          "explanation": "Will defend itself",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par le moyen de",
+          "explanation": "By means of",
+          "cultural_note": ""
+        },
+        "tous": {
+          "display_format": "**tous:** La totalité",
+          "explanation": "All",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (definite article, plural)",
+          "cultural_note": ""
+        },
+        "moyens": {
+          "display_format": "**moyens:** Méthodes",
+          "explanation": "Means or methods",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -808,6 +1702,82 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T13:26:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes américaines en Iran : \"On n'est pas dans la même situation qu'en Irak\", estime l'eurodéputée Nathalie Loiseau",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/frappes-americaines-en-iran-on-n-est-pas-dans-la-meme-situation-qu-en-irak-estime-l-eurodeputee-nathalie-loiseau_7330494.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T13:20:59",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent l'Iran",
+      "simplified_english_title": "US strikes in Iran",
+      "french_summary": "Les États-Unis ont lancé des frappes en Iran. Nathalie Loiseau dit que c'est différent de la situation en Irak.",
+      "english_summary": "The US launched strikes in Iran. Nathalie Loiseau says it is different from the situation in Iraq.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "From the United States",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "On n'est pas dans la même situation qu'en Irak": {
+          "display_format": "**On n'est pas dans la même situation qu'en Irak:** Comparaison avec l'Irak",
+          "explanation": "Comparison with Iraq situation",
+          "cultural_note": ""
+        },
+        "estime": {
+          "display_format": "**estime:** Pense",
+          "explanation": "Thinks or believes",
+          "cultural_note": ""
+        },
+        "l'eurodéputée": {
+          "display_format": "**l'eurodéputée:** Députée européenne",
+          "explanation": "Member of the European Parliament",
+          "cultural_note": ""
+        },
+        "Nathalie Loiseau": {
+          "display_format": "**Nathalie Loiseau:** Politicienne française",
+          "explanation": "French politician",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -9005,1146 +9975,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Iran : ce qu’il faut savoir sur les frappes des Etats-Unis visant trois sites nucléaires",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/22/iran-ce-qu-il-faut-savoir-sur-les-frappes-des-etats-unis-visant-trois-sites-nucleaires_6615224_3211.html",
-      "original_article_published_date": "2025-06-22T05:40:40",
-      "source_name": "Le Monde International",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les États-Unis frappent trois sites nucléaires en Iran",
-      "simplified_english_title": "US strikes three nuclear sites in Iran",
-      "french_summary": "Les États-Unis ont attaqué trois sites nucléaires en Iran. Ces frappes ont des conséquences internationales importantes.",
-      "english_summary": "The United States attacked three nuclear sites in Iran. These strikes have significant international consequences.",
-      "contextual_title_explanations": {
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "ce qu’il faut savoir": {
-          "display_format": "**ce qu’il faut savoir:** Ce qui est important",
-          "explanation": "What you need to know",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About or concerning",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "Definite article (the)",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**frappes:** Attaques militaires",
-          "explanation": "Military strikes",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles indéfinis",
-          "explanation": "Indefinite article (some)",
-          "cultural_note": ""
-        },
-        "États-Unis": {
-          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
-          "explanation": "Country in North America",
-          "cultural_note": ""
-        },
-        "visant": {
-          "display_format": "**visant:** Ciblant",
-          "explanation": "Targeting",
-          "cultural_note": ""
-        },
-        "trois": {
-          "display_format": "**trois:** Nombre 3",
-          "explanation": "Number three",
-          "cultural_note": ""
-        },
-        "sites": {
-          "display_format": "**sites:** Lieux",
-          "explanation": "Sites or locations",
-          "cultural_note": ""
-        },
-        "nucléaires": {
-          "display_format": "**nucléaires:** Relatif à l'énergie nucléaire",
-          "explanation": "Related to nuclear energy",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Fête de la musique : derrière le bruit des guitares, les mots du politique",
-      "original_article_link": "https://www.lemonde.fr/culture/article/2025/06/22/fete-de-la-musique-derriere-le-bruit-des-guitares-les-mots-du-politique_6615263_3246.html",
-      "original_article_published_date": "2025-06-22T05:34:46",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La politique derrière la Fête de la Musique",
-      "simplified_english_title": "Politics behind Music Day",
-      "french_summary": "La Fête de la Musique célèbre la culture, mais les politiciens en parlent aussi beaucoup cette année.",
-      "english_summary": "Music Day celebrates culture, but politicians are talking about it a lot this year.",
-      "contextual_title_explanations": {
-        "Fête de la musique": {
-          "display_format": "**Fête de la musique:** Célébration musicale",
-          "explanation": "Annual music celebration on June 21",
-          "cultural_note": "Started in France in 1982"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "derrière": {
-          "display_format": "**derrière:** À l'arrière de",
-          "explanation": "Behind or beyond something",
-          "cultural_note": ""
-        },
-        "le bruit": {
-          "display_format": "**le bruit:** Son fort",
-          "explanation": "Noise or sound",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles pluriel",
-          "explanation": "Plural article 'some'",
-          "cultural_note": ""
-        },
-        "guitares": {
-          "display_format": "**guitares:** Instruments de musique",
-          "explanation": "Plural of 'guitar'",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma for separation",
-          "cultural_note": ""
-        },
-        "les mots": {
-          "display_format": "**les mots:** Paroles",
-          "explanation": "Words or speech",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** De le",
-          "explanation": "Contraction of 'de le'",
-          "cultural_note": ""
-        },
-        "politique": {
-          "display_format": "**politique:** Relatif à la politique",
-          "explanation": "Relating to politics",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "«Je l’honore ce don» : à l'occasion de la Journée du don d’organes, Aziza, greffée du cœur, sensibilise pour sauver des vies",
-      "original_article_link": "https://www.europe1.fr/sante/je-lhonore-ce-don-a-loccasion-de-la-journee-du-don-dorganes-aziza-greffee-du-coeur-sensibilise-pour-sauver-des-vies-760454",
-      "original_article_published_date": "2025-06-22T05:19:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Aziza parle des dons d'organes pour sauver des vies",
-      "simplified_english_title": "Aziza speaks about organ donation to save lives",
-      "french_summary": "Aziza, qui a reçu une greffe de cœur, sensibilise sur l'importance du don d'organes à l'occasion de la Journée du don d'organes.",
-      "english_summary": "Aziza, who received a heart transplant, raises awareness about the importance of organ donation on Organ Donation Day.",
-      "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«:** guillemet ouvrant",
-          "explanation": "French opening quotation mark",
-          "cultural_note": ""
-        },
-        "Je": {
-          "display_format": "**Je:** Pronom personnel",
-          "explanation": "Personal pronoun 'I'",
-          "cultural_note": ""
-        },
-        "l’honore": {
-          "display_format": "**l’honore:** honorer",
-          "explanation": "Verb 'to honor'",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**ce:** Pronom démonstratif",
-          "explanation": "Demonstrative pronoun 'this'",
-          "cultural_note": ""
-        },
-        "don»": {
-          "display_format": "**don»:** guillemet fermant",
-          "explanation": "French closing quotation mark",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "Preposition 'at' or 'to'",
-          "cultural_note": ""
-        },
-        "l’occasion": {
-          "display_format": "**l’occasion:** l’opportunité",
-          "explanation": "The occasion or opportunity",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition 'of'",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article 'the'",
-          "cultural_note": ""
-        },
-        "Journée du don d’organes": {
-          "display_format": "**Journée du don d’organes:** Jour de sensibilisation",
-          "explanation": "Organ Donation Awareness Day",
-          "cultural_note": "Annual event to promote organ donation"
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "Aziza": {
-          "display_format": "**Aziza:** Prénom féminin",
-          "explanation": "Female first name",
-          "cultural_note": ""
-        },
-        "greffée": {
-          "display_format": "**greffée:** transplantée",
-          "explanation": "Transplanted",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** Article contracté",
-          "explanation": "Contraction of 'de le'",
-          "cultural_note": ""
-        },
-        "cœur": {
-          "display_format": "**cœur:** organe vital",
-          "explanation": "Heart",
-          "cultural_note": ""
-        },
-        "sensibilise": {
-          "display_format": "**sensibilise:** informe",
-          "explanation": "Raises awareness",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Préposition",
-          "explanation": "Preposition 'for'",
-          "cultural_note": ""
-        },
-        "sauver": {
-          "display_format": "**sauver:** sauver des vies",
-          "explanation": "To save",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini",
-          "explanation": "Indefinite article 'some'",
-          "cultural_note": ""
-        },
-        "vies": {
-          "display_format": "**vies:** vies humaines",
-          "explanation": "Lives",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Chambre (très) insolite sur la côte de Granit de Rose : Anthenea et La panna cotta",
-      "original_article_link": "https://www.europe1.fr/emissions/les-sorties-du-week-end/chambre-tres-insolite-sur-la-cote-de-granit-de-rose-anthenea-et-la-panna-cotta-760495",
-      "original_article_published_date": "2025-06-22T05:05:37",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chambre insolite sur la côte de Granit Rose",
-      "simplified_english_title": "Unique room on the Pink Granite Coast",
-      "french_summary": "Une chambre insolite appelée Anthenea et La panna cotta se trouve sur la côte de Granit Rose.",
-      "english_summary": "A unique room named Anthenea and La panna cotta is located on the Pink Granite Coast.",
-      "contextual_title_explanations": {
-        "Chambre": {
-          "display_format": "**Chambre:** Pièce pour dormir",
-          "explanation": "Room, often a bedroom",
-          "cultural_note": ""
-        },
-        "(très)": {
-          "display_format": "**très:** Beaucoup",
-          "explanation": "Very, extremely",
-          "cultural_note": ""
-        },
-        "insolite": {
-          "display_format": "**insolite:** Inhabituel",
-          "explanation": "Unusual, out of the ordinary",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Au-dessus de",
-          "explanation": "On, above",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "côte": {
-          "display_format": "**côte:** Littoral",
-          "explanation": "Coast",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Possession",
-          "explanation": "Of, from",
-          "cultural_note": ""
-        },
-        "Granit": {
-          "display_format": "**Granit:** Roche dure",
-          "explanation": "Granite",
-          "cultural_note": ""
-        },
-        "Rose": {
-          "display_format": "**Rose:** Couleur",
-          "explanation": "Pink",
-          "cultural_note": ""
-        },
-        "Anthenea": {
-          "display_format": "**Anthenea:** Nom propre",
-          "explanation": "Name of a place or establishment",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "La panna cotta": {
-          "display_format": "**La panna cotta:** Dessert italien",
-          "explanation": "Italian dessert",
-          "cultural_note": "Literally 'cooked cream' in Italian"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T08:23:03",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Je me prends la tête, alors que personne ne veut rien faire\" : éco-anxieux, ils se demandent \"comment se faire entendre\" sans y laisser leur santé mentale",
-      "original_article_link": "https://www.franceinfo.fr/environnement/crise-climatique/temoignages-je-me-prends-la-tete-alors-que-personne-ne-veut-rien-faire-eco-anxieux-ils-se-demandent-comment-se-faire-entendre-sans-y-laisser-leur-sante-mentale_7195059.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-22T05:01:04",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les éco-anxieux veulent être entendus",
-      "simplified_english_title": "Eco-anxious people want to be heard",
-      "french_summary": "Des personnes anxieuses pour l'environnement veulent agir mais ne savent pas comment sans nuire à leur santé mentale.",
-      "english_summary": "People anxious about the environment want to act but don't know how without harming their mental health.",
-      "contextual_title_explanations": {
-        "\"": {
-          "display_format": "\" : Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "Je": {
-          "display_format": "**Je:** Pronom personnel",
-          "explanation": "Personal pronoun 'I'",
-          "cultural_note": ""
-        },
-        "me prends": {
-          "display_format": "**me prends:** Prendre (réfléchi)",
-          "explanation": "Reflexive verb 'take'",
-          "cultural_note": ""
-        },
-        "la tête": {
-          "display_format": "**la tête:** La tête",
-          "explanation": "The head",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "alors que": {
-          "display_format": "**alors que:** Alors que",
-          "explanation": "Whereas, while",
-          "cultural_note": ""
-        },
-        "personne": {
-          "display_format": "**personne:** Personne",
-          "explanation": "No one",
-          "cultural_note": ""
-        },
-        "ne": {
-          "display_format": "**ne:** Négation",
-          "explanation": "Negation 'not'",
-          "cultural_note": ""
-        },
-        "veut": {
-          "display_format": "**veut:** Vouloir",
-          "explanation": "Wants",
-          "cultural_note": ""
-        },
-        "rien": {
-          "display_format": "**rien:** Rien",
-          "explanation": "Nothing",
-          "cultural_note": ""
-        },
-        "faire": {
-          "display_format": "**faire:** Faire",
-          "explanation": "To do",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon",
-          "cultural_note": ""
-        },
-        "éco-anxieux": {
-          "display_format": "**éco-anxieux:** Éco-anxieux",
-          "explanation": "Eco-anxious",
-          "cultural_note": ""
-        },
-        "ils": {
-          "display_format": "**ils:** Pronom personnel",
-          "explanation": "Personal pronoun 'they'",
-          "cultural_note": ""
-        },
-        "se demandent": {
-          "display_format": "**se demandent:** Se demander",
-          "explanation": "Wonder",
-          "cultural_note": ""
-        },
-        "comment": {
-          "display_format": "**comment:** Comment",
-          "explanation": "How",
-          "cultural_note": ""
-        },
-        "se faire entendre": {
-          "display_format": "**se faire entendre:** Être entendu",
-          "explanation": "To make oneself heard",
-          "cultural_note": ""
-        },
-        "sans": {
-          "display_format": "**sans:** Sans",
-          "explanation": "Without",
-          "cultural_note": ""
-        },
-        "y": {
-          "display_format": "**y:** Pronom adverbial",
-          "explanation": "There",
-          "cultural_note": ""
-        },
-        "laisser": {
-          "display_format": "**laisser:** Laisser",
-          "explanation": "To leave",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**leur:** Pronom possessif",
-          "explanation": "Their",
-          "cultural_note": ""
-        },
-        "santé mentale": {
-          "display_format": "**santé mentale:** Santé mentale",
-          "explanation": "Mental health",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Votre agresseur d'hier ne peut être votre gardien aujourd'hui\" : un documentaire décrit la propagande antifrançaise de la Russie en Afrique",
-      "original_article_link": "https://www.franceinfo.fr/monde/afrique/videos-votre-agresseur-d-hier-ne-peut-etre-votre-gardien-aujourd-hui-un-documentaire-decrit-la-propagande-antifrancaise-de-la-russie-en-afrique_7317540.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-22T05:00:40",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un film montre la propagande russe en Afrique",
-      "simplified_english_title": "Film shows Russian propaganda in Africa",
-      "french_summary": "Un documentaire explique comment la Russie utilise la propagande contre la France en Afrique.",
-      "english_summary": "A documentary explains how Russia uses propaganda against France in Africa.",
-      "contextual_title_explanations": {
-        "\"Votre": {
-          "display_format": "\"Votre: Votre",
-          "explanation": "Your (possessive pronoun)",
-          "cultural_note": ""
-        },
-        "agresseur": {
-          "display_format": "agresseur: Attaquant",
-          "explanation": "Aggressor, attacker",
-          "cultural_note": ""
-        },
-        "d'hier": {
-          "display_format": "d'hier: D'hier",
-          "explanation": "From yesterday",
-          "cultural_note": ""
-        },
-        "ne": {
-          "display_format": "ne: Ne",
-          "explanation": "Negative particle",
-          "cultural_note": ""
-        },
-        "peut": {
-          "display_format": "peut: Pouvoir",
-          "explanation": "Can, to be able to",
-          "cultural_note": ""
-        },
-        "être": {
-          "display_format": "être: Être",
-          "explanation": "To be",
-          "cultural_note": ""
-        },
-        "votre": {
-          "display_format": "votre: Votre",
-          "explanation": "Your (possessive pronoun)",
-          "cultural_note": ""
-        },
-        "gardien": {
-          "display_format": "gardien: Protecteur",
-          "explanation": "Guardian, protector",
-          "cultural_note": ""
-        },
-        "aujourd'hui\"": {
-          "display_format": "aujourd'hui\": Aujourd'hui",
-          "explanation": "Today",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": ": : Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "un: Un",
-          "explanation": "A, an (indefinite article)",
-          "cultural_note": ""
-        },
-        "documentaire": {
-          "display_format": "documentaire: Film documentaire",
-          "explanation": "Documentary",
-          "cultural_note": ""
-        },
-        "décrit": {
-          "display_format": "décrit: Décrit",
-          "explanation": "Describes",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "la: La",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "propagande": {
-          "display_format": "propagande: Propagande",
-          "explanation": "Propaganda",
-          "cultural_note": ""
-        },
-        "antifrançaise": {
-          "display_format": "antifrançaise: Anti-française",
-          "explanation": "Anti-French",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "de: De",
-          "explanation": "Of, from",
-          "cultural_note": ""
-        },
-        "Russie": {
-          "display_format": "Russie: Russie",
-          "explanation": "Russia",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "en: En",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "Afrique": {
-          "display_format": "Afrique: Afrique",
-          "explanation": "Africa",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Cancer de la peau : posez vos questions, une oncodermatologue vous répondra dans notre émission",
-      "original_article_link": "https://www.ouest-france.fr/sante/cancer/cancer-de-la-peau-posez-vos-questions-une-oncodermatologue-vous-repondra-dans-notre-emission-234ae2b2-42af-11f0-aedb-e054fec24790?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-22T05:00:09",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Questions sur le cancer de la peau",
-      "simplified_english_title": "Questions about skin cancer",
-      "french_summary": "Une émission spéciale répondra à vos questions sur le cancer de la peau avec une oncodermatologue.",
-      "english_summary": "A special show will answer your questions about skin cancer with an oncodermatologist.",
-      "contextual_title_explanations": {
-        "Cancer": {
-          "display_format": "**Cancer:** Maladie grave",
-          "explanation": "Serious illness",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of, from",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "peau": {
-          "display_format": "**peau:** Organe du corps",
-          "explanation": "Skin",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "posez": {
-          "display_format": "**posez:** Demandez",
-          "explanation": "Ask",
-          "cultural_note": ""
-        },
-        "vos": {
-          "display_format": "**vos:** Adjectif possessif",
-          "explanation": "Your",
-          "cultural_note": ""
-        },
-        "questions": {
-          "display_format": "**questions:** Interrogations",
-          "explanation": "Questions",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "A",
-          "cultural_note": ""
-        },
-        "oncodermatologue": {
-          "display_format": "**oncodermatologue:** Médecin spécialiste",
-          "explanation": "Skin cancer specialist",
-          "cultural_note": "Combines oncology and dermatology"
-        },
-        "vous": {
-          "display_format": "**vous:** Pronom personnel",
-          "explanation": "You",
-          "cultural_note": ""
-        },
-        "répondra": {
-          "display_format": "**répondra:** Répondre au futur",
-          "explanation": "Will answer",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** Préposition",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "notre": {
-          "display_format": "**notre:** Adjectif possessif",
-          "explanation": "Our",
-          "cultural_note": ""
-        },
-        "émission": {
-          "display_format": "**émission:** Programme télévisé",
-          "explanation": "TV or radio show",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T08:23:03",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "«Vitesse excessive», zigzags entre les voitures et cannabis : le rappeur Koba LaD jugé pour un accident de la route mortel",
-      "original_article_link": "https://www.lefigaro.fr/faits-divers/vitesse-excessive-zigzags-entre-les-voitures-et-cannabis-le-rappeur-koba-lad-juge-pour-un-accident-de-la-route-mortel-20250622",
-      "original_article_published_date": "2025-06-22T05:00:00",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Koba LaD jugé pour accident mortel",
-      "simplified_english_title": "Koba LaD on trial for deadly accident",
-      "french_summary": "Le rappeur Koba LaD est jugé pour un accident mortel causé par une vitesse excessive et une conduite dangereuse.",
-      "english_summary": "The rapper Koba LaD is on trial for a deadly accident caused by excessive speed and dangerous driving.",
-      "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "Vitesse": {
-          "display_format": "**Vitesse:** Rapidité",
-          "explanation": "Speed",
-          "cultural_note": ""
-        },
-        "excessive": {
-          "display_format": "**excessive:** Trop grande",
-          "explanation": "Excessive",
-          "cultural_note": ""
-        },
-        "»,": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "zigzags": {
-          "display_format": "**zigzags:** Mouvements en zigzag",
-          "explanation": "Zigzag movements",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**entre:** Parmi",
-          "explanation": "Between",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "voitures": {
-          "display_format": "**voitures:** Véhicules",
-          "explanation": "Cars",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "cannabis": {
-          "display_format": "**cannabis:** Drogue",
-          "explanation": "Cannabis",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "rappeur": {
-          "display_format": "**rappeur:** Artiste de rap",
-          "explanation": "Rapper",
-          "cultural_note": ""
-        },
-        "Koba LaD": {
-          "display_format": "**Koba LaD:** Nom d'artiste",
-          "explanation": "Stage name of a rapper",
-          "cultural_note": ""
-        },
-        "jugé": {
-          "display_format": "**jugé:** Évalué par un tribunal",
-          "explanation": "Judged",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** En raison de",
-          "explanation": "For",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Article indéfini",
-          "explanation": "A",
-          "cultural_note": ""
-        },
-        "accident": {
-          "display_format": "**accident:** Événement malheureux",
-          "explanation": "Accident",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "route": {
-          "display_format": "**route:** Voie de circulation",
-          "explanation": "Road",
-          "cultural_note": ""
-        },
-        "mortel": {
-          "display_format": "**mortel:** Causant la mort",
-          "explanation": "Deadly",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T06:26:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave sur les retraites : François Bayrou joue son poste, la censure des rangs de l’opposition en embuscade",
-      "original_article_link": "https://www.europe1.fr/politique/conclave-sur-les-retraites-francois-bayrou-joue-son-poste-la-censure-des-rangs-de-lopposition-en-embuscade-760485",
-      "original_article_published_date": "2025-06-22T04:51:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Bayrou discute des retraites, l'opposition critique",
-      "simplified_english_title": "Bayrou discusses pensions, opposition criticizes",
-      "french_summary": "François Bayrou participe aux discussions sur les retraites. L'opposition est prête à critiquer les propositions du gouvernement.",
-      "english_summary": "François Bayrou joins pension talks. The opposition is ready to criticize the government's proposals.",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Conclave:** Réunion secrète",
-          "explanation": "Secret meeting of leaders",
-          "cultural_note": "Often used for important decisions"
-        },
-        "sur": {
-          "display_format": "**sur:** À propos de",
-          "explanation": "About or concerning",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**retraites:** Pensions",
-          "explanation": "Retirement pensions",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "François Bayrou": {
-          "display_format": "**François Bayrou:** Homme politique",
-          "explanation": "French centrist politician",
-          "cultural_note": ""
-        },
-        "joue": {
-          "display_format": "**joue:** Risque",
-          "explanation": "To risk or gamble",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**son:** Possessif",
-          "explanation": "His",
-          "cultural_note": ""
-        },
-        "poste": {
-          "display_format": "**poste:** Position",
-          "explanation": "Position or job",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma separating clauses",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "censure": {
-          "display_format": "**censure:** Désapprobation",
-          "explanation": "Disapproval or censure",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles indéfinis",
-          "explanation": "Some or any",
-          "cultural_note": ""
-        },
-        "rangs": {
-          "display_format": "**rangs:** Lignes",
-          "explanation": "Rows or ranks",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "l’opposition": {
-          "display_format": "**l’opposition:** Parti opposé",
-          "explanation": "Opposition party",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In or on",
-          "cultural_note": ""
-        },
-        "embuscade": {
-          "display_format": "**embuscade:** Piège",
-          "explanation": "Ambush or trap",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T05:18:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "MotoGP. À quelle heure et sur quelle chaîne TV suivre le Grand Prix d’Italie ?",
-      "original_article_link": "https://www.ouest-france.fr/sport/moto/motogp/motogp-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-grand-prix-ditalie-7c66f092-4eae-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-22T04:39:01",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Heure et chaîne pour le Grand Prix d’Italie MotoGP",
-      "simplified_english_title": "Time and channel for Italy MotoGP Grand Prix",
-      "french_summary": "Découvrez à quelle heure et sur quelle chaîne regarder le Grand Prix d’Italie de MotoGP ce week-end.",
-      "english_summary": "Find out the time and channel to watch the Italy MotoGP Grand Prix this weekend.",
-      "contextual_title_explanations": {
-        "MotoGP": {
-          "display_format": "**MotoGP:** Championnat de moto",
-          "explanation": "Motorcycle racing championship",
-          "cultural_note": "International motorcycle racing series"
-        },
-        "À": {
-          "display_format": "**À:** Préposition",
-          "explanation": "At, to",
-          "cultural_note": ""
-        },
-        "quelle": {
-          "display_format": "**quelle:** Quel féminin",
-          "explanation": "Which, what (feminine)",
-          "cultural_note": ""
-        },
-        "heure": {
-          "display_format": "**heure:** Temps, moment",
-          "explanation": "Hour, time",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Préposition",
-          "explanation": "On",
-          "cultural_note": ""
-        },
-        "chaîne": {
-          "display_format": "**chaîne:** Chaîne de télévision",
-          "explanation": "Channel",
-          "cultural_note": ""
-        },
-        "TV": {
-          "display_format": "**TV:** Télévision",
-          "explanation": "Television",
-          "cultural_note": ""
-        },
-        "suivre": {
-          "display_format": "**suivre:** Regarder",
-          "explanation": "To follow, to watch",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "Grand Prix": {
-          "display_format": "**Grand Prix:** Course importante",
-          "explanation": "Major race event",
-          "cultural_note": ""
-        },
-        "d’Italie": {
-          "display_format": "**d’Italie:** De l’Italie",
-          "explanation": "Of Italy",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d’interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T08:23:03",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,

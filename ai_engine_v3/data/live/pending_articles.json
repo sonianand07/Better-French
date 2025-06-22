@@ -45294,6 +45294,976 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Moratoire sur l'éolien et le photovoltaïque : «ça n'a pas de sens» , estime Pannier-Runacher",
+      "original_article_link": "https://www.europe1.fr/politique/moratoire-sur-leolien-et-le-photovoltaique-ca-na-pas-de-sens-estime-pannier-runacher-760548",
+      "original_article_published_date": "2025-06-22T14:54:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pause sur l'éolien et le solaire critiquée",
+      "simplified_english_title": "Criticism of wind and solar energy pause",
+      "french_summary": "La ministre Pannier-Runacher dit que la pause sur l'éolien et le solaire n'a pas de sens.",
+      "english_summary": "Minister Pannier-Runacher says the pause on wind and solar energy makes no sense.",
+      "contextual_title_explanations": {
+        "Moratoire": {
+          "display_format": "**Moratoire:** Pause temporaire",
+          "explanation": "Temporary suspension or delay",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "On or about something",
+          "cultural_note": ""
+        },
+        "l'éolien": {
+          "display_format": "**l'éolien:** Énergie du vent",
+          "explanation": "Wind energy",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "photovoltaïque": {
+          "display_format": "**photovoltaïque:** Énergie solaire",
+          "explanation": "Solar energy",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "ça": {
+          "display_format": "**ça:** Cela",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "n'a": {
+          "display_format": "**n'a:** N'a pas",
+          "explanation": "Has not",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Partitif",
+          "explanation": "Some or any",
+          "cultural_note": ""
+        },
+        "sens»": {
+          "display_format": "**sens»:** Signification",
+          "explanation": "Meaning or sense",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "estime": {
+          "display_format": "**estime:** Pense",
+          "explanation": "Thinks or believes",
+          "cultural_note": ""
+        },
+        "Pannier-Runacher": {
+          "display_format": "**Pannier-Runacher:** Ministre française",
+          "explanation": "French minister",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attaque des États-Unis contre l'Iran: quelles sont les options de Téhéran pour riposter?",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250622-attaque-des-%C3%A9tats-unis-contre-l-iran-quelles-sont-les-options-de-t%C3%A9h%C3%A9ran-pour-riposter",
+      "original_article_published_date": "2025-06-22T14:26:03",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran : comment réagira Téhéran ?",
+      "simplified_english_title": "US attacks Iran: how will Tehran respond?",
+      "french_summary": "Les États-Unis ont attaqué l'Iran. Téhéran envisage différentes options pour répondre à cette attaque.",
+      "english_summary": "The United States attacked Iran. Tehran is considering various options to respond to this attack.",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article défini pluriel",
+          "explanation": "Plural definite article 'the'",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against or versus",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a Middle Eastern country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "quelles": {
+          "display_format": "**quelles:** Quels, féminines",
+          "explanation": "Feminine plural of 'which'",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Forme du verbe être",
+          "explanation": "Are, form of the verb 'to be'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Plural definite article 'the'",
+          "cultural_note": ""
+        },
+        "options": {
+          "display_format": "**options:** Choix possibles",
+          "explanation": "Possible choices or options",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "riposter": {
+          "display_format": "**riposter:** Répondre à une attaque",
+          "explanation": "To retaliate or counterattack",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes américaines en Iran : \"On n'est pas dans la même situation qu'en Irak\", estime l'eurodéputée Nathalie Loiseau",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/frappes-americaines-en-iran-on-n-est-pas-dans-la-meme-situation-qu-en-irak-estime-l-eurodeputee-nathalie-loiseau_7330494.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T13:20:59",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent l'Iran",
+      "simplified_english_title": "US strikes in Iran",
+      "french_summary": "Les États-Unis ont lancé des frappes en Iran. Nathalie Loiseau dit que c'est différent de la situation en Irak.",
+      "english_summary": "The US launched strikes in Iran. Nathalie Loiseau says it is different from the situation in Iraq.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "From the United States",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "On n'est pas dans la même situation qu'en Irak": {
+          "display_format": "**On n'est pas dans la même situation qu'en Irak:** Comparaison avec l'Irak",
+          "explanation": "Comparison with Iraq situation",
+          "cultural_note": ""
+        },
+        "estime": {
+          "display_format": "**estime:** Pense",
+          "explanation": "Thinks or believes",
+          "cultural_note": ""
+        },
+        "l'eurodéputée": {
+          "display_format": "**l'eurodéputée:** Députée européenne",
+          "explanation": "Member of the European Parliament",
+          "cultural_note": ""
+        },
+        "Nathalie Loiseau": {
+          "display_format": "**Nathalie Loiseau:** Politicienne française",
+          "explanation": "French politician",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "REPORTAGE. L’attaque américaine en Iran soutenue par les Israéliens",
+      "original_article_link": "https://www.ouest-france.fr/monde/israel/reportage-lattaque-americaine-en-iran-soutenue-par-les-israeliens-42cea162-4f77-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T15:16:07",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran avec l'aide d'Israël",
+      "simplified_english_title": "US attacks Iran with Israel's support",
+      "french_summary": "Les États-Unis ont lancé une attaque en Iran avec le soutien des forces israéliennes, selon des rapports récents.",
+      "english_summary": "The United States launched an attack in Iran with the support of Israeli forces, according to recent reports.",
+      "contextual_title_explanations": {
+        "REPORTAGE": {
+          "display_format": "**REPORTAGE:** Article détaillé",
+          "explanation": "In-depth news article",
+          "cultural_note": "Often used in media headlines"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period ending sentence",
+          "cultural_note": ""
+        },
+        "L’": {
+          "display_format": "**L’:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "attaque": {
+          "display_format": "**attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in Middle East",
+          "cultural_note": ""
+        },
+        "soutenue": {
+          "display_format": "**soutenue:** Appuyée",
+          "explanation": "Supported or backed",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par l'intermédiaire de",
+          "explanation": "By or through",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini pluriel",
+          "explanation": "Definite article 'the' plural",
+          "cultural_note": ""
+        },
+        "Israéliens": {
+          "display_format": "**Israéliens:** Habitants d'Israël",
+          "explanation": "People from Israel",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les Etats-Unis ont frappé l'Iran : Téhéran se défendra \"par tous les moyens\"",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-les-etats-unis-ont-frapp%C3%A9-l-iran-t%C3%A9h%C3%A9ran-se-d%C3%A9fendra-par-tous-les-moyens",
+      "original_article_published_date": "2025-06-22T14:01:03",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l'Iran",
+      "simplified_english_title": "US strikes Iran",
+      "french_summary": "Les États-Unis ont attaqué l'Iran. Téhéran promet de se défendre par tous les moyens possibles.",
+      "english_summary": "The US attacked Iran. Tehran promises to defend itself by all possible means.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (definite article, plural)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique",
+          "explanation": "United States, a country",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Auxiliaire avoir",
+          "explanation": "Have (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "frappé": {
+          "display_format": "**frappé:** Attaqué",
+          "explanation": "Struck or attacked",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "se défendra": {
+          "display_format": "**se défendra:** Se protégera",
+          "explanation": "Will defend itself",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par le moyen de",
+          "explanation": "By means of",
+          "cultural_note": ""
+        },
+        "tous": {
+          "display_format": "**tous:** La totalité",
+          "explanation": "All",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (definite article, plural)",
+          "cultural_note": ""
+        },
+        "moyens": {
+          "display_format": "**moyens:** Méthodes",
+          "explanation": "Means or methods",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France bientôt championne de l'eau recyclée ?",
+      "original_article_link": "https://www.bfmtv.com/economie/video-la-france-bientot-championne-de-l-eau-recyclee_VN-202506220221.html",
+      "original_article_published_date": "2025-06-22T15:00:05",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France va recycler plus d'eau",
+      "simplified_english_title": "France to recycle more water",
+      "french_summary": "La France veut devenir leader dans le recyclage de l'eau. Un nouveau projet va augmenter la réutilisation des eaux usées.",
+      "english_summary": "France aims to lead in water recycling. A new project will increase the reuse of wastewater.",
+      "contextual_title_explanations": {
+        "La France": {
+          "display_format": "**La France:** Pays européen",
+          "explanation": "The country of France",
+          "cultural_note": ""
+        },
+        "bientôt": {
+          "display_format": "**bientôt:** Dans peu de temps",
+          "explanation": "Soon, in the near future",
+          "cultural_note": ""
+        },
+        "championne": {
+          "display_format": "**championne:** Première, gagnante",
+          "explanation": "Champion, leader",
+          "cultural_note": ""
+        },
+        "de l'eau": {
+          "display_format": "**de l'eau:** Eau",
+          "explanation": "Water",
+          "cultural_note": ""
+        },
+        "recyclée": {
+          "display_format": "**recyclée:** Réutilisée",
+          "explanation": "Recycled, reused",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les frappes américaines en Iran ne visaient pas un changement de régime",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-les-frappes-am%C3%A9ricaines-en-iran-ne-visaient-pas-un-changement-de-r%C3%A9gime",
+      "original_article_published_date": "2025-06-22T14:24:42",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent l'Iran sans vouloir un changement de régime",
+      "simplified_english_title": "US strikes in Iran not aimed at regime change",
+      "french_summary": "Les frappes américaines en Iran avaient un objectif limité et ne cherchaient pas à renverser le gouvernement iranien.",
+      "english_summary": "The American strikes in Iran had a limited goal and did not seek to overthrow the Iranian government.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Articles définis",
+          "explanation": "The (plural definite article)",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "American (feminine plural)",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Not (part of negation)",
+          "cultural_note": ""
+        },
+        "visaient": {
+          "display_format": "**visaient:** Ciblaient",
+          "explanation": "Aimed (imperfect tense)",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not (part of negation)",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A (masculine singular indefinite article)",
+          "cultural_note": ""
+        },
+        "changement": {
+          "display_format": "**changement:** Modification",
+          "explanation": "Change",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "régime": {
+          "display_format": "**régime:** Gouvernement",
+          "explanation": "Regime (government)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À l'intérieur d'immeubles israéliens touchés par une frappe de missile iranienne",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-int%C3%A9rieur-imeubles-isra%C3%A9liens-touch%C3%A9s-par-frappe-missile-iranienne-guerre-isra%C3%ABl-iran-moyen-orient",
+      "original_article_published_date": "2025-06-22T14:15:20",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des immeubles israéliens touchés par des missiles iraniens",
+      "simplified_english_title": "Iranian missiles hit buildings in Israel",
+      "french_summary": "Des missiles iraniens ont frappé des immeubles en Israël, causant des dégâts. Les détails sur les victimes restent inconnus.",
+      "english_summary": "Iranian missiles struck buildings in Israel, causing damage. Details about casualties remain unknown.",
+      "contextual_title_explanations": {
+        "À l'intérieur": {
+          "display_format": "**À l'intérieur:** dedans",
+          "explanation": "inside or within",
+          "cultural_note": ""
+        },
+        "d'immeubles": {
+          "display_format": "**d'immeubles:** de bâtiments",
+          "explanation": "of buildings",
+          "cultural_note": ""
+        },
+        "israéliens": {
+          "display_format": "**israéliens:** d'Israël",
+          "explanation": "Israeli, related to Israel",
+          "cultural_note": ""
+        },
+        "touchés": {
+          "display_format": "**touchés:** affectés",
+          "explanation": "affected or hit",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** par",
+          "explanation": "by",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** une",
+          "explanation": "a or an",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**frappe:** attaque",
+          "explanation": "strike or attack",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "of",
+          "cultural_note": ""
+        },
+        "missile": {
+          "display_format": "**missile:** projectile",
+          "explanation": "missile",
+          "cultural_note": ""
+        },
+        "iranienne": {
+          "display_format": "**iranienne:** de l'Iran",
+          "explanation": "Iranian, related to Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. La relation entre l’Afrique et la France au cœur d’un documentaire, ce soir sur France 5",
+      "original_article_link": "https://www.ouest-france.fr/medias/television/entretien-la-relation-entre-lafrique-et-la-france-au-cur-dun-documentaire-ce-soir-sur-france-5-c9959028-4de4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T15:00:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un documentaire sur l'Afrique et la France",
+      "simplified_english_title": "Documentary on Africa and France",
+      "french_summary": "Un documentaire sur la relation entre l'Afrique et la France sera diffusé ce soir sur France 5.",
+      "english_summary": "A documentary about the relationship between Africa and France will air tonight on France 5.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**ENTRETIEN:** Interview",
+          "explanation": "Conversation with someone",
+          "cultural_note": "Common in media titles"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "relation": {
+          "display_format": "**relation:** Lien",
+          "explanation": "Relationship or connection",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Entre",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "l’Afrique": {
+          "display_format": "**l’Afrique:** Continent africain",
+          "explanation": "Africa",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "au cœur": {
+          "display_format": "**au cœur:** Au centre",
+          "explanation": "At the heart",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** De un",
+          "explanation": "Of a",
+          "cultural_note": ""
+        },
+        "documentaire": {
+          "display_format": "**documentaire:** Film documentaire",
+          "explanation": "Documentary",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ce soir": {
+          "display_format": "**ce soir:** Ce soir",
+          "explanation": "Tonight",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Sur",
+          "explanation": "On",
+          "cultural_note": ""
+        },
+        "France 5": {
+          "display_format": "**France 5:** Chaîne de télévision",
+          "explanation": "French TV channel",
+          "cultural_note": "Educational and cultural programs"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Il est très probable que le seuil des 80 dollars soit dépassé\" : après les frappes américaines en Iran, la crainte d’une flambée des prix du pétrole",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/il-est-tres-probable-que-le-seuil-des-80-dollars-soit-depasse-apres-les-frappes-americaines-en-iran-la-crainte-d-une-flambee-des-prix-du-petrole_7330545.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T14:56:15",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le pétrole pourrait dépasser 80 dollars",
+      "simplified_english_title": "Oil may exceed 80 dollars",
+      "french_summary": "Les frappes américaines en Iran pourraient faire augmenter le prix du pétrole au-dessus de 80 dollars.",
+      "english_summary": "American strikes in Iran may push oil prices above 80 dollars.",
+      "contextual_title_explanations": {
+        "Il": {
+          "display_format": "**Il:** Pronom personnel",
+          "explanation": "Personal pronoun meaning 'he' or 'it'",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** Être",
+          "explanation": "Third person singular of 'to be'",
+          "cultural_note": ""
+        },
+        "très": {
+          "display_format": "**très:** Adverbe",
+          "explanation": "Adverb meaning 'very'",
+          "cultural_note": ""
+        },
+        "probable": {
+          "display_format": "**probable:** Adjectif",
+          "explanation": "Adjective meaning 'likely'",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Conjonction",
+          "explanation": "Conjunction meaning 'that'",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "seuil": {
+          "display_format": "**seuil:** Limite",
+          "explanation": "Noun meaning 'threshold' or 'limit'",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Indefinite article meaning 'some'",
+          "cultural_note": ""
+        },
+        "80 dollars": {
+          "display_format": "**80 dollars:** Devise",
+          "explanation": "Currency amount '80 dollars'",
+          "cultural_note": ""
+        },
+        "soit": {
+          "display_format": "**soit:** Subjonctif",
+          "explanation": "Subjunctive form of 'to be'",
+          "cultural_note": ""
+        },
+        "dépassé": {
+          "display_format": "**dépassé:** Passé",
+          "explanation": "Past participle of 'to exceed'",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Préposition",
+          "explanation": "Preposition meaning 'after'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques",
+          "explanation": "Noun meaning 'strikes' or 'attacks'",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Adjectif",
+          "explanation": "Adjective meaning 'American'",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition meaning 'in'",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "crainte": {
+          "display_format": "**crainte:** Peur",
+          "explanation": "Noun meaning 'fear' or 'concern'",
+          "cultural_note": ""
+        },
+        "d’une": {
+          "display_format": "**d’une:** Article indéfini",
+          "explanation": "Indefinite article meaning 'of a'",
+          "cultural_note": ""
+        },
+        "flambée": {
+          "display_format": "**flambée:** Hausse",
+          "explanation": "Noun meaning 'surge' or 'increase'",
+          "cultural_note": ""
+        },
+        "prix": {
+          "display_format": "**prix:** Coût",
+          "explanation": "Noun meaning 'price'",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article défini",
+          "explanation": "Definite article meaning 'of the'",
+          "cultural_note": ""
+        },
+        "pétrole": {
+          "display_format": "**pétrole:** Carburant",
+          "explanation": "Noun meaning 'oil'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T15:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
