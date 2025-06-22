@@ -266,6 +266,20 @@
                         // Fallback: remove all markdown formatting
                         displayText = displayText.replace(/\*\*/g, '').split(':')[0].trim();
                     }
+
+                    // ⚙️ Extra safeguard: if the part before the colon is still the
+                    // French word (same as original_word), assume the LLM reversed
+                    // the order and use the segment *after* the colon instead so
+                    // learners still see the English gloss in bold.
+                    if (displayText.toLowerCase() === (data.original_word || '').toLowerCase()) {
+                        const parts = data.display_format.replace(/\*\*/g, '').split(':');
+                        if (parts.length > 1) {
+                            const alt = parts[1].trim();
+                            if (alt) {
+                                displayText = alt;
+                            }
+                        }
+                    }
                 }
                 
                 return {
