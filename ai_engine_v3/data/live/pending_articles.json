@@ -39204,6 +39204,996 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ce que l'on sait de l'attaque américaine contre les installations nucléaires iraniennes",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250622-ce-que-l-on-sait-de-l-attaque-am%C3%A9ricaine-contre-les-installation-nucl%C3%A9aires-iraniennesnt",
+      "original_article_published_date": "2025-06-22T08:26:19",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attaque américaine contre l'Iran",
+      "simplified_english_title": "US attack on Iranian nuclear sites",
+      "french_summary": "Les États-Unis ont attaqué des installations nucléaires en Iran. Les détails de l'attaque restent limités pour le moment.",
+      "english_summary": "The United States attacked nuclear facilities in Iran. Details of the attack remain limited at this time.",
+      "contextual_title_explanations": {
+        "Ce que": {
+          "display_format": "**Ce que:** Ce qui",
+          "explanation": "What",
+          "cultural_note": ""
+        },
+        "l'on": {
+          "display_format": "**l'on:** On",
+          "explanation": "One, we, formal subject",
+          "cultural_note": ""
+        },
+        "sait": {
+          "display_format": "**sait:** Savoir",
+          "explanation": "Knows",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** À propos de",
+          "explanation": "About",
+          "cultural_note": ""
+        },
+        "l'attaque": {
+          "display_format": "**l'attaque:** L'assaut",
+          "explanation": "The attack",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "installations": {
+          "display_format": "**installations:** Équipements",
+          "explanation": "Facilities",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Nucléaire",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        },
+        "iraniennes": {
+          "display_format": "**iraniennes:** De l'Iran",
+          "explanation": "Iranian",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ce que l'on sait des frappes américaines sur des sites du programme nucléaire en Iran",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/ce-que-lon-sait-des-frappes-americaines-sur-des-sites-du-programme-nucleaire-en-iran-7O5LLPWPXZAVJF6JNINALCKS4I/",
+      "original_article_published_date": "2025-06-22T08:56:46",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent des sites nucléaires en Iran",
+      "simplified_english_title": "US strikes nuclear sites in Iran",
+      "french_summary": "Les États-Unis ont lancé des frappes sur des sites nucléaires en Iran. Les détails sur les cibles et les conséquences restent limités.",
+      "english_summary": "The US launched strikes on nuclear sites in Iran. Details on targets and consequences remain limited.",
+      "contextual_title_explanations": {
+        "Ce que": {
+          "display_format": "**Ce que:** Ce qui",
+          "explanation": "What",
+          "cultural_note": ""
+        },
+        "l'on": {
+          "display_format": "**l'on:** On (formal)",
+          "explanation": "One (formal subject)",
+          "cultural_note": ""
+        },
+        "sait": {
+          "display_format": "**sait:** Savoir (présent)",
+          "explanation": "Knows",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Some",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques",
+          "explanation": "Strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "American",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux",
+          "explanation": "Sites",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**programme:** Plan",
+          "explanation": "Program",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Atomique",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran (country)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : le programme nucléaire iranien, des origines au conflit actuel",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/le-programme-nucleaire-iranien-des-origines-au-conflit-actuel-7da1b788-4f41-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:48:04",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit Iran-Israël et le nucléaire iranien",
+      "simplified_english_title": "Iran-Israel conflict and Iran's nuclear program",
+      "french_summary": "Le programme nucléaire iranien est au cœur du conflit actuel avec Israël. Découvrez son histoire et son impact sur les tensions.",
+      "english_summary": "Iran's nuclear program is central to the current conflict with Israel. Learn its history and impact on tensions.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Conflit entre deux pays",
+          "explanation": "Conflict between Iran and Israel",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**programme:** Plan d'actions",
+          "explanation": "Program, plan of actions",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif à l'énergie atomique",
+          "explanation": "Nuclear, related to atomic energy",
+          "cultural_note": ""
+        },
+        "iranien": {
+          "display_format": "**iranien:** Relatif à l'Iran",
+          "explanation": "Iranian, related to Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini pluriel",
+          "explanation": "Some, indefinite plural article",
+          "cultural_note": ""
+        },
+        "origines": {
+          "display_format": "**origines:** Débuts",
+          "explanation": "Origins, beginnings",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le (article contracté)",
+          "explanation": "To the, contracted article",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**conflit:** Affrontement",
+          "explanation": "Conflict, confrontation",
+          "cultural_note": ""
+        },
+        "actuel": {
+          "display_format": "**actuel:** Présent",
+          "explanation": "Current, present",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le fil du jour. Les États-Unis ont bombardé l’Iran",
+      "original_article_link": "https://www.mediapart.fr/journal/international/220625/le-fil-du-jour-les-etats-unis-ont-bombarde-l-iran",
+      "original_article_published_date": "2025-06-22T07:01:36",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent l’Iran",
+      "simplified_english_title": "The US attacks Iran",
+      "french_summary": "Les États-Unis ont lancé des frappes militaires contre des cibles en Iran, selon des rapports officiels publiés aujourd'hui.",
+      "english_summary": "The United States launched military strikes against targets in Iran, according to official reports released today.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "fil": {
+          "display_format": "**fil:** Suite continue",
+          "explanation": "Thread or continuous flow",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (contraction)",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**jour:** Jour",
+          "explanation": "Day",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period (punctuation)",
+          "cultural_note": ""
+        },
+        "Les États-Unis": {
+          "display_format": "**Les États-Unis:** Pays d'Amérique",
+          "explanation": "The United States",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Avoir (auxiliaire)",
+          "explanation": "Have (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "bombardé": {
+          "display_format": "**bombardé:** Attaqué",
+          "explanation": "Bombed (past participle)",
+          "cultural_note": ""
+        },
+        "l’Iran": {
+          "display_format": "**l’Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran (country)",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre à Gaza : l'armée israélienne annonce avoir ramené les corps de trois otages retenus dans l'enclave palestinienne",
+      "original_article_link": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/guerre-a-gaza-l-armee-israelienne-annonce-avoir-ramene-les-corps-de-trois-otages-retenus-dans-l-enclave-palestinienne_7330287.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T09:06:01",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël récupère les corps de trois otages à Gaza",
+      "simplified_english_title": "Israel retrieves bodies of three hostages in Gaza",
+      "french_summary": "L'armée israélienne a annoncé avoir récupéré les corps de trois otages dans la bande de Gaza.",
+      "english_summary": "The Israeli army announced it retrieved the bodies of three hostages in the Gaza Strip.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War, armed conflict",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "In, at, to",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** Ville palestinienne",
+          "explanation": "Gaza, a Palestinian city",
+          "cultural_note": "Important cultural and political center"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'armée israélienne": {
+          "display_format": "**l'armée israélienne:** Forces militaires d'Israël",
+          "explanation": "Israeli military forces",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Déclaration publique",
+          "explanation": "Announcement, public statement",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Verbe auxiliaire",
+          "explanation": "To have, auxiliary verb",
+          "cultural_note": ""
+        },
+        "ramené": {
+          "display_format": "**ramené:** Rapporté",
+          "explanation": "Brought back, returned",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "corps": {
+          "display_format": "**corps:** Cadavres",
+          "explanation": "Bodies, corpses",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**trois:** Nombre 3",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "otages": {
+          "display_format": "**otages:** Personnes retenues",
+          "explanation": "Hostages, detained people",
+          "cultural_note": ""
+        },
+        "retenus": {
+          "display_format": "**retenus:** Détenus",
+          "explanation": "Held, detained",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "l'enclave palestinienne": {
+          "display_format": "**l'enclave palestinienne:** Territoire palestinien",
+          "explanation": "Palestinian territory",
+          "cultural_note": "Refers to a specific geopolitical area"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'armée israélienne annonce avoir ramené les corps de trois otages retenus à Gaza",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/l-armee-israelienne-annonce-avoir-ramene-les-corps-de-trois-otages-retenus-a-gaza_AD-202506220124.html",
+      "original_article_published_date": "2025-06-22T09:05:35",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël récupère les corps de trois otages à Gaza",
+      "simplified_english_title": "Israel recovers bodies of three hostages in Gaza",
+      "french_summary": "L'armée israélienne a annoncé avoir récupéré les corps de trois otages qui étaient détenus à Gaza.",
+      "english_summary": "The Israeli army announced it recovered the bodies of three hostages held in Gaza.",
+      "contextual_title_explanations": {
+        "L'armée": {
+          "display_format": "**L'armée:** Les forces armées",
+          "explanation": "The military forces",
+          "cultural_note": ""
+        },
+        "israélienne": {
+          "display_format": "**israélienne:** D'Israël",
+          "explanation": "Of Israel",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Déclare",
+          "explanation": "Announces",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Posséder",
+          "explanation": "To have",
+          "cultural_note": ""
+        },
+        "ramené": {
+          "display_format": "**ramené:** Rapporté",
+          "explanation": "Brought back",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les articles définis",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "corps": {
+          "display_format": "**corps:** Cadavres",
+          "explanation": "Bodies",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De possession",
+          "explanation": "Of (possession)",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**trois:** Nombre 3",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "otages": {
+          "display_format": "**otages:** Personnes capturées",
+          "explanation": "Hostages",
+          "cultural_note": ""
+        },
+        "retenus": {
+          "display_format": "**retenus:** Gardés captifs",
+          "explanation": "Held captive",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À la localisation",
+          "explanation": "In/at (location)",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** Ville palestinienne",
+          "explanation": "Palestinian territory",
+          "cultural_note": "Often referred to in the context of the Israeli-Palestinian conflict"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: EDF alerte sur de possibles baisses de production d'électricité dans le parc nucléaire dès lundi",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/canicule-edf-alerte-sur-de-possibles-baisses-de-production-d-electricite-dans-le-parc-nucleaire-des-lundi_AD-202506220117.html",
+      "original_article_published_date": "2025-06-22T08:45:41",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "EDF prévient des baisses d'électricité lundi",
+      "simplified_english_title": "EDF warns of power drops on Monday",
+      "french_summary": "EDF annonce des réductions possibles de production d'électricité dans les centrales nucléaires à cause de la canicule.",
+      "english_summary": "EDF announces possible reductions in nuclear power plant production due to the heatwave.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "EDF": {
+          "display_format": "**EDF:** Électricité de France",
+          "explanation": "French electric utility company",
+          "cultural_note": "Major French energy provider"
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertissement urgent",
+          "explanation": "Alert, urgent warning",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Concernant",
+          "explanation": "On, about, concerning",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Article",
+          "explanation": "Of, some (article)",
+          "cultural_note": ""
+        },
+        "possibles": {
+          "display_format": "**possibles:** Éventuels",
+          "explanation": "Possible, potential",
+          "cultural_note": ""
+        },
+        "baisses": {
+          "display_format": "**baisses:** Réductions",
+          "explanation": "Drops, reductions",
+          "cultural_note": ""
+        },
+        "production": {
+          "display_format": "**production:** Fabrication",
+          "explanation": "Production, manufacturing",
+          "cultural_note": ""
+        },
+        "d'électricité": {
+          "display_format": "**d'électricité:** Courant électrique",
+          "explanation": "Electricity",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** À l'intérieur de",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "parc": {
+          "display_format": "**parc:** Ensemble",
+          "explanation": "Park, set, collection",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Atomique",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        },
+        "dès": {
+          "display_format": "**dès:** À partir de",
+          "explanation": "From, starting",
+          "cultural_note": ""
+        },
+        "lundi": {
+          "display_format": "**lundi:** Jour de la semaine",
+          "explanation": "Monday",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Israël aura la sécurité lorsqu’il aura respecté les droits des Palestiniens»",
+      "original_article_link": "https://www.mediapart.fr/journal/international/220625/israel-aura-la-securite-lorsqu-il-aura-respecte-les-droits-des-palestiniens",
+      "original_article_published_date": "2025-06-22T08:42:39",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël et les droits des Palestiniens",
+      "simplified_english_title": "Israel and Palestinian rights",
+      "french_summary": "La sécurité d'Israël dépendra du respect des droits des Palestiniens, selon une déclaration récente.",
+      "english_summary": "Israel's security will depend on respecting Palestinian rights, according to a recent statement.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "aura": {
+          "display_format": "**aura:** Avoir (futur)",
+          "explanation": "Will have (future tense)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "sécurité": {
+          "display_format": "**sécurité:** Sûreté",
+          "explanation": "Safety or security",
+          "cultural_note": ""
+        },
+        "lorsqu’il": {
+          "display_format": "**lorsqu’il:** Quand il",
+          "explanation": "When he (formal)",
+          "cultural_note": ""
+        },
+        "respecté": {
+          "display_format": "**respecté:** Honoré",
+          "explanation": "Respected or honored",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (definite article plural)",
+          "cultural_note": ""
+        },
+        "droits": {
+          "display_format": "**droits:** Privilèges légaux",
+          "explanation": "Rights or legal privileges",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Some (indefinite article plural)",
+          "cultural_note": ""
+        },
+        "Palestiniens": {
+          "display_format": "**Palestiniens:** Habitants de la Palestine",
+          "explanation": "People from Palestine",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": "French uses guillemets for quotes"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attaque américaine en Iran : «Trump veut avant tout éviter un nouvel Afghanistan», rappelle le Général Bruno Clermont",
+      "original_article_link": "https://www.europe1.fr/international/attaque-americaine-en-iran-trump-veut-avant-tout-eviter-un-nouvel-afghanistan-rappelle-le-general-bruno-clermont-760526",
+      "original_article_published_date": "2025-06-22T09:13:25",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent en Iran",
+      "simplified_english_title": "US attacks in Iran",
+      "french_summary": "Le Général Bruno Clermont dit que Trump veut éviter une guerre comme en Afghanistan.",
+      "english_summary": "General Bruno Clermont says Trump wants to avoid a war like in Afghanistan.",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or to",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses « » as quotation marks"
+        },
+        "Trump": {
+          "display_format": "**Trump:** Nom de famille",
+          "explanation": "Last name of former US president",
+          "cultural_note": ""
+        },
+        "veut": {
+          "display_format": "**veut:** Désire",
+          "explanation": "Wants",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**avant:** Avant tout",
+          "explanation": "Above all",
+          "cultural_note": ""
+        },
+        "tout": {
+          "display_format": "**tout:** Complètement",
+          "explanation": "Completely",
+          "cultural_note": ""
+        },
+        "éviter": {
+          "display_format": "**éviter:** Empêcher",
+          "explanation": "Avoid",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "nouvel": {
+          "display_format": "**nouvel:** Nouveau",
+          "explanation": "New",
+          "cultural_note": ""
+        },
+        "Afghanistan": {
+          "display_format": "**Afghanistan:** Pays d'Asie",
+          "explanation": "Country in Asia",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "rappelle": {
+          "display_format": "**rappelle:** Signale",
+          "explanation": "Points out",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Général Bruno Clermont": {
+          "display_format": "**Général Bruno Clermont:** Officier militaire",
+          "explanation": "French military officer",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Traversée de la Manche: 136 personnes secourues en mer dans les dernières 48 heures",
+      "original_article_link": "https://www.bfmtv.com/grand-littoral/traversee-de-la-manche-136-personnes-secourues-en-mer-dans-les-dernieres-48-heures_AN-202506220112.html",
+      "original_article_published_date": "2025-06-22T08:25:36",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "136 personnes sauvées en mer en 48 heures",
+      "simplified_english_title": "136 people rescued at sea in 48 hours",
+      "french_summary": "Les autorités ont secouru 136 personnes en mer pendant les dernières 48 heures lors de la traversée de la Manche.",
+      "english_summary": "Authorities rescued 136 people at sea during the last 48 hours while crossing the English Channel.",
+      "contextual_title_explanations": {
+        "Traversée": {
+          "display_format": "**Traversée:** Action de traverser",
+          "explanation": "Crossing or journey across",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "Manche": {
+          "display_format": "**Manche:** Détroit entre France et Angleterre",
+          "explanation": "English Channel",
+          "cultural_note": "Body of water separating France and England"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "136": {
+          "display_format": "**136:** Cent trente-six",
+          "explanation": "One hundred thirty-six",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**personnes:** Êtres humains",
+          "explanation": "People or individuals",
+          "cultural_note": ""
+        },
+        "secourues": {
+          "display_format": "**secourues:** Aidées ou sauvées",
+          "explanation": "Rescued or assisted",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition indicating location or time",
+          "cultural_note": ""
+        },
+        "mer": {
+          "display_format": "**mer:** Étendue d'eau salée",
+          "explanation": "Sea",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "Preposition indicating inside or within",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "dernières": {
+          "display_format": "**dernières:** Récentes",
+          "explanation": "Last or most recent",
+          "cultural_note": ""
+        },
+        "48": {
+          "display_format": "**48:** Quarante-huit",
+          "explanation": "Forty-eight",
+          "cultural_note": ""
+        },
+        "heures": {
+          "display_format": "**heures:** Unités de temps",
+          "explanation": "Hours",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T09:18:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
