@@ -33359,6 +33359,931 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vigilance canicule : jusqu’à 38 °C ce dimanche, la chaleur bascule à l’Est, 2 départements en alerte",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/vigilance-canicule-jusqua-38-c-ce-dimanche-la-chaleur-bascule-a-lest-2-departements-en-alerte-28d0ec32-4f01-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T04:23:37",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud ce dimanche",
+      "simplified_english_title": "It is very hot this Sunday",
+      "french_summary": "Il fera jusqu'à 38 degrés ce dimanche. La chaleur se déplace vers l'est. Deux départements sont en alerte.",
+      "english_summary": "Temperatures will reach up to 38 degrees this Sunday. The heat is moving east. Two departments are on alert.",
+      "contextual_title_explanations": {
+        "Vigilance": {
+          "display_format": "**Vigilance:** attention accrue",
+          "explanation": "Heightened attention or alertness",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "jusqu’à": {
+          "display_format": "**jusqu’à:** jusqu'à",
+          "explanation": "Up to, as far as",
+          "cultural_note": ""
+        },
+        "38 °C": {
+          "display_format": "**38 °C:** trente-huit degrés",
+          "explanation": "38 degrees Celsius",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** ce",
+          "explanation": "This, these",
+          "cultural_note": ""
+        },
+        "dimanche": {
+          "display_format": "**dimanche:** jour de la semaine",
+          "explanation": "Sunday, day of the week",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        "basculer": {
+          "display_format": "**basculer:** se déplacer",
+          "explanation": "To shift, move",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** à",
+          "explanation": "To, at",
+          "cultural_note": ""
+        },
+        "l’Est": {
+          "display_format": "**l’Est:** l'est",
+          "explanation": "The East",
+          "cultural_note": ""
+        },
+        "2": {
+          "display_format": "**2:** deux",
+          "explanation": "Two",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**départements:** divisions administratives",
+          "explanation": "Administrative divisions in France",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** en",
+          "explanation": "In, on",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** état d'urgence",
+          "explanation": "Alert, state of emergency",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Chine, la razzia sur le Labubu électrise l’industrie du jouet",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/22/en-chine-la-razzia-sur-le-labubu-electrise-l-industrie-du-jouet_6615220_3234.html",
+      "original_article_published_date": "2025-06-22T04:00:32",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Labubu très populaire en Chine",
+      "simplified_english_title": "Labubu toy craze hits China",
+      "french_summary": "Le Labubu, un jouet, devient très populaire en Chine et influence beaucoup l'industrie du jouet.",
+      "english_summary": "The Labubu toy is becoming very popular in China and greatly influencing the toy industry.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Dans",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "Chine": {
+          "display_format": "**Chine:** Pays asiatique",
+          "explanation": "China, Asian country",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, separates clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "razzia": {
+          "display_format": "**razzia:** Raid massif",
+          "explanation": "Massive raid or sweep",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "On, about",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "Labubu": {
+          "display_format": "**Labubu:** Jouet populaire",
+          "explanation": "Popular toy brand",
+          "cultural_note": ""
+        },
+        "électrise": {
+          "display_format": "**électrise:** Excite fortement",
+          "explanation": "Electrifies, excites strongly",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**l’:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "industrie": {
+          "display_format": "**industrie:** Secteur économique",
+          "explanation": "Industry, economic sector",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the, contraction",
+          "cultural_note": ""
+        },
+        "jouet": {
+          "display_format": "**jouet:** Objet de jeu",
+          "explanation": "Toy, plaything",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La parole aux auteurs : L'héritage, débats et tabous - 21/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/la-librairie-de-l-eco/video-la-parole-aux-auteurs-l-heritage-debats-et-tabous-21-06_VN-202506210310.html",
+      "original_article_published_date": "2025-06-21T19:53:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les auteurs parlent de l'héritage et des tabous",
+      "simplified_english_title": "Authors discuss heritage and taboos",
+      "french_summary": "Des auteurs discutent de l'héritage, des débats et des tabous lors d'un événement le 21 juin.",
+      "english_summary": "Authors discuss heritage, debates, and taboos at an event on June 21st.",
+      "contextual_title_explanations": {
+        "La parole aux auteurs": {
+          "display_format": "**La parole aux auteurs:** Donner la parole",
+          "explanation": "Giving the floor to authors",
+          "cultural_note": "Common phrase for giving someone a platform to speak"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "L'héritage": {
+          "display_format": "**L'héritage:** Transmission du passé",
+          "explanation": "Legacy or inheritance",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "débats": {
+          "display_format": "**débats:** Discussions animées",
+          "explanation": "Debates or discussions",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "tabous": {
+          "display_format": "**tabous:** Sujets interdits",
+          "explanation": "Taboos or forbidden subjects",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash indicating range",
+          "cultural_note": ""
+        },
+        "21/06": {
+          "display_format": "**21/06:** Date",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "EMISSION – Réécoutez un numéro de « Barbier de nuit » avec Louis de Funès",
+      "original_article_link": "https://www.europe1.fr/emissions/70-ans-deurope-1/emission-reecoutez-un-numero-de-barbier-de-nuit-avec-louis-de-funes-758125",
+      "original_article_published_date": "2025-06-22T03:00:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Écoutez « Barbier de nuit » avec Louis de Funès",
+      "simplified_english_title": "Listen to « Barbier de nuit » with Louis de Funès",
+      "french_summary": "Réécoutez une émission de « Barbier de nuit » avec l'acteur célèbre Louis de Funès comme invité spécial.",
+      "english_summary": "Listen again to an episode of « Barbier de nuit » featuring the famous actor Louis de Funès as a special guest.",
+      "contextual_title_explanations": {
+        "EMISSION": {
+          "display_format": "**EMISSION:** Programme",
+          "explanation": "Broadcast or show",
+          "cultural_note": ""
+        },
+        "–": {
+          "display_format": "**–:** Tiret",
+          "explanation": "Dash for separation",
+          "cultural_note": ""
+        },
+        "Réécoutez": {
+          "display_format": "**Réécoutez:** Écoutez encore",
+          "explanation": "Listen again",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "An indefinite article",
+          "cultural_note": ""
+        },
+        "numéro": {
+          "display_format": "**numéro:** Édition",
+          "explanation": "Issue or episode",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition of",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Barbier de nuit": {
+          "display_format": "**Barbier de nuit:** Nom de l'émission",
+          "explanation": "Name of the show",
+          "cultural_note": "Literally 'Night Barber'"
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** En compagnie de",
+          "explanation": "With or featuring",
+          "cultural_note": ""
+        },
+        "Louis de Funès": {
+          "display_format": "**Louis de Funès:** Acteur français",
+          "explanation": "Famous French actor",
+          "cultural_note": "Known for comedic roles"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Esport. « Une satisfaction » : Vitality et « Zywoo » en finale du Major de Counter-Strike à Austin",
+      "original_article_link": "https://www.ouest-france.fr/sport/esport/esport-une-satisfaction-vitality-et-zywoo-en-finale-du-major-de-counter-strike-a-austin-f6297c26-4ee3-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T21:34:55",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Vitality et Zywoo en finale du Major de CS",
+      "simplified_english_title": "Vitality and Zywoo in CS Major final",
+      "french_summary": "L'équipe Vitality et son joueur Zywoo sont en finale du tournoi Major de Counter-Strike à Austin, une grande satisfaction pour eux.",
+      "english_summary": "Team Vitality and their player Zywoo are in the final of the Counter-Strike Major tournament in Austin, a great satisfaction for them.",
+      "contextual_title_explanations": {
+        "Esport": {
+          "display_format": "**Esport:** Sport électronique",
+          "explanation": "Competitive video gaming",
+          "cultural_note": "Growing industry in France"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "\"": {
+          "display_format": "**»:** Guillemets fermants",
+          "explanation": "Closing quotation marks",
+          "cultural_note": ""
+        },
+        "Une satisfaction": {
+          "display_format": "**Une satisfaction:** Contentement",
+          "explanation": "A satisfaction",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces an explanation",
+          "cultural_note": ""
+        },
+        "Vitality": {
+          "display_format": "**Vitality:** Équipe esport",
+          "explanation": "French esports team",
+          "cultural_note": "Popular in Counter-Strike"
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "\"Zywoo\"": {
+          "display_format": "**« Zywoo »:** Joueur professionnel",
+          "explanation": "Professional gamer nickname",
+          "cultural_note": "Well-known Counter-Strike player"
+        },
+        "en finale": {
+          "display_format": "**en finale:** En dernière étape",
+          "explanation": "In the final",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "Major": {
+          "display_format": "**Major:** Tournoi important",
+          "explanation": "Major tournament",
+          "cultural_note": "Biggest event in Counter-Strike"
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "Counter-Strike": {
+          "display_format": "**Counter-Strike:** Jeu vidéo",
+          "explanation": "Popular first-person shooter game",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "In or at",
+          "cultural_note": ""
+        },
+        "Austin": {
+          "display_format": "**Austin:** Ville américaine",
+          "explanation": "City in Texas, USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rugby : renversant, le XV de France A s’impose au bout du suspense à Twickenham",
+      "original_article_link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/rugby-renversant-le-xv-de-france-a-s-impose-au-bout-du-suspense-a-twickenham-20250621",
+      "original_article_published_date": "2025-06-21T16:54:10",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le XV de France A gagne à Twickenham",
+      "simplified_english_title": "France A rugby team wins at Twickenham",
+      "french_summary": "L'équipe de France A a gagné un match de rugby très serré à Twickenham. La victoire était incertaine jusqu'à la fin.",
+      "english_summary": "The France A rugby team won a very close match at Twickenham. The victory was uncertain until the end.",
+      "contextual_title_explanations": {
+        "Rugby": {
+          "display_format": "**Rugby:** Sport collectif",
+          "explanation": "Team sport with an oval ball",
+          "cultural_note": "Popular in France"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "renversant": {
+          "display_format": "**renversant:** Impressionnant",
+          "explanation": "Overwhelming or impressive",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "XV de France A": {
+          "display_format": "**XV de France A:** Équipe de rugby",
+          "explanation": "French national rugby team",
+          "cultural_note": "XV refers to the 15 players"
+        },
+        "s’impose": {
+          "display_format": "**s’impose:** Gagne",
+          "explanation": "Wins or succeeds",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Combination of 'à' and 'le'",
+          "cultural_note": ""
+        },
+        "bout": {
+          "display_format": "**bout:** Fin",
+          "explanation": "End or conclusion",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Combination of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "suspense": {
+          "display_format": "**suspense:** Incertitude",
+          "explanation": "Uncertainty or suspense",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition 'at' or 'to'",
+          "cultural_note": ""
+        },
+        "Twickenham": {
+          "display_format": "**Twickenham:** Stade anglais",
+          "explanation": "Famous English rugby stadium",
+          "cultural_note": "Home of England rugby"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ligue des nations de volley. Quatre champions olympiques retrouvent les Bleus pour la deuxième étape",
+      "original_article_link": "https://www.ouest-france.fr/sport/volley/equipe-de-france/ligue-des-nations-de-volley-quatre-champions-olympiques-retrouvent-les-bleus-pour-la-deuxieme-etape-6c891152-4ed4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T20:04:23",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Quatre champions rejoignent l'équipe de France",
+      "simplified_english_title": "Four champions join the French team",
+      "french_summary": "Quatre champions olympiques rejoignent l'équipe de France de volley pour la deuxième étape de la Ligue des nations.",
+      "english_summary": "Four Olympic champions join the French volleyball team for the second stage of the Nations League.",
+      "contextual_title_explanations": {
+        "Ligue des nations de volley": {
+          "display_format": "**Ligue des nations de volley:** Compétition internationale",
+          "explanation": "International volleyball competition",
+          "cultural_note": "Similar to Nations League in other sports"
+        },
+        "Quatre": {
+          "display_format": "**Quatre:** Nombre 4",
+          "explanation": "The number four",
+          "cultural_note": ""
+        },
+        "champions olympiques": {
+          "display_format": "**champions olympiques:** Vainqueurs des JO",
+          "explanation": "Olympic gold medalists",
+          "cultural_note": ""
+        },
+        "retrouvent": {
+          "display_format": "**retrouvent:** Rejoignent",
+          "explanation": "Rejoin or meet again",
+          "cultural_note": ""
+        },
+        "les Bleus": {
+          "display_format": "**les Bleus:** Équipe de France",
+          "explanation": "French national team",
+          "cultural_note": "Nickname for French sports teams"
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For or in favor of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "deuxième": {
+          "display_format": "**deuxième:** Second",
+          "explanation": "Second",
+          "cultural_note": ""
+        },
+        "étape": {
+          "display_format": "**étape:** Phase",
+          "explanation": "Stage or phase",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : la production nucléaire menacée, les villes cherchent la fraîcheur",
+      "original_article_link": "https://www.europe1.fr/societe/canicule-la-production-nucleaire-menacee-les-villes-cherchent-la-fraicheur-760482",
+      "original_article_published_date": "2025-06-21T19:16:33",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud, les villes cherchent des solutions",
+      "simplified_english_title": "Heatwave threatens nuclear power, cities seek cool",
+      "french_summary": "La forte chaleur réduit la production nucléaire. Les villes cherchent des moyens pour rester au frais.",
+      "english_summary": "The intense heat reduces nuclear production. Cities are looking for ways to stay cool.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "production": {
+          "display_format": "**production:** Fabrication",
+          "explanation": "Production, manufacturing",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif au noyau",
+          "explanation": "Nuclear, related to energy",
+          "cultural_note": ""
+        },
+        "menacée": {
+          "display_format": "**menacée:** En danger",
+          "explanation": "Threatened, in danger",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, separating clauses",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The, definite article plural",
+          "cultural_note": ""
+        },
+        "villes": {
+          "display_format": "**villes:** Grandes localités",
+          "explanation": "Cities, large towns",
+          "cultural_note": ""
+        },
+        "cherchent": {
+          "display_format": "**cherchent:** Recherchent",
+          "explanation": "Search, look for",
+          "cultural_note": ""
+        },
+        "fraîcheur": {
+          "display_format": "**fraîcheur:** Air frais",
+          "explanation": "Coolness, fresh air",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: \"On est complets sur toute la semaine\", se réjouit une plagiste à Saint-Cyr-sur-Mer",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/video-canicule-on-est-complets-sur-toute-la-semaine-se-rejouit-une-plagiste-a-saint-cyr-sur-mer_VN-202506210303.html",
+      "original_article_published_date": "2025-06-21T19:10:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Canicule : les plages sont pleines",
+      "simplified_english_title": "Heatwave: beaches are full",
+      "french_summary": "À cause de la canicule, une plage à Saint-Cyr-sur-Mer est complète pour toute la semaine.",
+      "english_summary": "Due to the heatwave, a beach in Saint-Cyr-sur-Mer is fully booked for the entire week.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme hot weather",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing a quote",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**On:** Nous",
+          "explanation": "Informal 'we' or 'they'",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**est:** être",
+          "explanation": "Verb 'to be' (present)",
+          "cultural_note": ""
+        },
+        "complets": {
+          "display_format": "**complets:** pleins",
+          "explanation": "Fully booked, no vacancy",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** pendant",
+          "explanation": "On, over, during",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**toute:** entière",
+          "explanation": "Whole, entire",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "semaine": {
+          "display_format": "**semaine:** période de sept jours",
+          "explanation": "Week",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "se réjouit": {
+          "display_format": "**se réjouit:** être heureux",
+          "explanation": "Rejoices, is happy",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** article indéfini",
+          "explanation": "Indefinite article 'a'",
+          "cultural_note": ""
+        },
+        "plagiste": {
+          "display_format": "**plagiste:** loueur de transats",
+          "explanation": "Beach attendant",
+          "cultural_note": "Person renting beach chairs and umbrellas"
+        },
+        "à": {
+          "display_format": "**à:** préposition",
+          "explanation": "In, at, to",
+          "cultural_note": ""
+        },
+        "Saint-Cyr-sur-Mer": {
+          "display_format": "**Saint-Cyr-sur-Mer:** Commune française",
+          "explanation": "French coastal town",
+          "cultural_note": "Located in southern France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Angleterre XV-France A: en vidéo, l’horrible plaquage d’un Anglais sur Hastoy",
+      "original_article_link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/angleterre-xv-france-a-en-video-l-horrible-plaquage-d-un-anglais-sur-hastoy-20250621",
+      "original_article_published_date": "2025-06-21T19:42:41",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Plaquage dangereux lors du match Angleterre-France",
+      "simplified_english_title": "Dangerous tackle in England-France match",
+      "french_summary": "Un joueur anglais a fait un plaquage dangereux sur Hastoy pendant le match entre l'Angleterre XV et la France A.",
+      "english_summary": "An English player made a dangerous tackle on Hastoy during the match between England XV and France A.",
+      "contextual_title_explanations": {
+        "Angleterre": {
+          "display_format": "**Angleterre:** Pays européen",
+          "explanation": "Country in Europe, part of UK",
+          "cultural_note": ""
+        },
+        "XV": {
+          "display_format": "**XV:** Quinze",
+          "explanation": "Fifteen, referring to rugby team",
+          "cultural_note": "Common term for rugby union team"
+        },
+        "France A": {
+          "display_format": "**France A:** Équipe de France",
+          "explanation": "French national team, second tier",
+          "cultural_note": ""
+        },
+        "en vidéo": {
+          "display_format": "**en vidéo:** Enregistrement visuel",
+          "explanation": "In video format",
+          "cultural_note": ""
+        },
+        "l’horrible": {
+          "display_format": "**l’horrible:** Très mauvais",
+          "explanation": "Very bad or terrible",
+          "cultural_note": ""
+        },
+        "plaquage": {
+          "display_format": "**plaquage:** Tackle",
+          "explanation": "Rugby move to stop player",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** De un",
+          "explanation": "Of a, contraction",
+          "cultural_note": ""
+        },
+        "Anglais": {
+          "display_format": "**Anglais:** Personne d'Angleterre",
+          "explanation": "Person from England",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On top of, about",
+          "cultural_note": ""
+        },
+        "Hastoy": {
+          "display_format": "**Hastoy:** Nom de famille",
+          "explanation": "French surname",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
