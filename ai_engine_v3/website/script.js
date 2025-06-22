@@ -9,6 +9,9 @@ class BetterFrenchApp {
         this.articlesPerPage = 12;
         this.currentTooltip = null;
         
+        // Bind scroll handler once to allow removeEventListener later
+        this._onScroll = this.handleScroll.bind(this);
+        
         this.init();
     }
 
@@ -17,6 +20,14 @@ class BetterFrenchApp {
         await this.loadLatestData();
         this.renderArticles();
         this.setupArticleInteractions();
+
+        // Infinite scroll – start listening after first render
+        window.addEventListener('scroll', this._onScroll);
+
+        // Hide the explicit Load-More button for users (kept in DOM for
+        // legacy code but invisible)
+        const loadMoreBtn = document.getElementById('load-more');
+        if (loadMoreBtn) loadMoreBtn.style.display = 'none';
 
         // Expose a flag for automated QA scripts to know the page is fully rendered
         if (typeof window !== 'undefined') {
@@ -285,7 +296,7 @@ class BetterFrenchApp {
 
     loadMoreArticles() {
         const articlesContainer = document.getElementById('articles-container');
-        const loadMoreBtn = document.getElementById('load-more');
+        const loadMoreBtn = document.getElementById('load-more'); // may be null
         
         const startIndex = this.displayedArticles;
         const endIndex = Math.min(startIndex + this.articlesPerPage, this.filteredArticles.length);
@@ -309,7 +320,9 @@ class BetterFrenchApp {
         
         // Hide load more button if all articles are displayed
         if (this.displayedArticles >= this.filteredArticles.length) {
-            loadMoreBtn.style.display = 'none';
+            if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+            // All articles shown – stop listening for scroll events
+            window.removeEventListener('scroll', this._onScroll);
         }
 
         this.setupArticleInteractions();
@@ -1017,6 +1030,26 @@ class BetterFrenchApp {
             searchInput.classList.remove('expanded');
             searchIcon.classList.remove('active');
             searchInput.blur();
+        }
+    }
+
+    /* -------------------------------------------------------------
+     * Infinite scroll handler – loads next page when user nears bottom
+     * ------------------------------------------------------------- */
+    handleScroll() {
+        // If everything is already displayed, no-op
+        if (this.displayedArticles >= this.filteredArticles.length) return;
+
+        const scrollPosition = window.innerHeight + window.scrollY;
+        const threshold = document.body.offsetHeight - 400; // 400px before bottom
+
+        if (scrollPosition >= threshold) {
+            // Debounce: small timer to avoid rapid multiple loads
+            if (this._scrollTimeout) return;
+            this._scrollTimeout = setTimeout(() => {
+                this.loadMoreArticles();
+                this._scrollTimeout = null;
+            }, 100);
         }
     }
 }
