@@ -32394,6 +32394,971 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes américaines en Iran : Israël remercie Trump d'aider à «la paix par la force»",
+      "original_article_link": "https://www.lefigaro.fr/international/frappes-americaines-en-iran-israel-remercie-trump-d-aider-a-la-paix-par-la-force-20250622",
+      "original_article_published_date": "2025-06-22T02:48:50",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent l'Iran",
+      "simplified_english_title": "US strikes in Iran",
+      "french_summary": "Israël remercie Trump pour les frappes américaines en Iran, disant que cela aide à la paix par la force.",
+      "english_summary": "Israel thanks Trump for US strikes in Iran, saying it helps peace through force.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** Attaques",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In, inside",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "remercie": {
+          "display_format": "**remercie:** dit merci",
+          "explanation": "Thanks, expresses gratitude",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Former US president",
+          "cultural_note": ""
+        },
+        "d'aider": {
+          "display_format": "**d'aider:** soutenir",
+          "explanation": "To help, to support",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** vers",
+          "explanation": "To, towards",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "paix": {
+          "display_format": "**paix:** absence de guerre",
+          "explanation": "Peace, absence of war",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** moyen",
+          "explanation": "By, through",
+          "cultural_note": ""
+        },
+        "force»": {
+          "display_format": "**force»:** Guillemet fermant",
+          "explanation": "Force, strength, closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "A Saint-Etienne, une campagne municipale marquée par des divisions et un procès",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/22/a-saint-etienne-une-campagne-municipale-marquee-par-des-divisions-et-un-proces_6615213_823448.html",
+      "original_article_published_date": "2025-06-22T03:15:09",
+      "source_name": "Le Monde Politique",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Saint-Étienne a une campagne municipale difficile",
+      "simplified_english_title": "Saint-Étienne faces a tough municipal campaign",
+      "french_summary": "La campagne municipale à Saint-Étienne est difficile à cause des divisions et d'un procès en cours.",
+      "english_summary": "The municipal campaign in Saint-Étienne is difficult due to divisions and an ongoing trial.",
+      "contextual_title_explanations": {
+        "A": {
+          "display_format": "**A:** À",
+          "explanation": "In, at (location)",
+          "cultural_note": ""
+        },
+        "Saint-Etienne": {
+          "display_format": "**Saint-Etienne:** Ville française",
+          "explanation": "City in eastern France",
+          "cultural_note": "Known for its football team and industrial history"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, short pause",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Une",
+          "explanation": "A, an (feminine)",
+          "cultural_note": ""
+        },
+        "campagne": {
+          "display_format": "**campagne:** Campagne électorale",
+          "explanation": "Election campaign",
+          "cultural_note": ""
+        },
+        "municipale": {
+          "display_format": "**municipale:** Municipale",
+          "explanation": "Municipal, local",
+          "cultural_note": ""
+        },
+        "marquée": {
+          "display_format": "**marquée:** Caractérisée",
+          "explanation": "Marked, characterized by",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Des",
+          "explanation": "Some (plural)",
+          "cultural_note": ""
+        },
+        "divisions": {
+          "display_format": "**divisions:** Divisions",
+          "explanation": "Divisions, splits",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un",
+          "explanation": "A, an (masculine)",
+          "cultural_note": ""
+        },
+        "procès": {
+          "display_format": "**procès:** Procès",
+          "explanation": "Trial, legal case",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bénin: décès de la journaliste et ancienne correspondante de RFI à Cotonou Raïssa Gbedji",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250622-b%C3%A9nin-d%C3%A9c%C3%A8s-de-la-journaliste-et-ancienne-correspondante-de-rfi-%C3%A0-cotonou-ra%C3%AFssa-gbedji",
+      "original_article_published_date": "2025-06-22T03:10:57",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une journaliste bien connue est décédée au Bénin",
+      "simplified_english_title": "Well-known journalist dies in Benin",
+      "french_summary": "Raïssa Gbedji, journaliste et ancienne correspondante de RFI à Cotonou, est décédée. Elle était très respectée au Bénin.",
+      "english_summary": "Raïssa Gbedji, a journalist and former RFI correspondent in Cotonou, has passed away. She was highly respected in Benin.",
+      "contextual_title_explanations": {
+        "Bénin": {
+          "display_format": "**Bénin:** Pays d'Afrique",
+          "explanation": "West African country",
+          "cultural_note": "Formerly known as Dahomey"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "décès": {
+          "display_format": "**décès:** Mort",
+          "explanation": "Death",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of, belonging to",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "journaliste": {
+          "display_format": "**journaliste:** Profession des médias",
+          "explanation": "Journalist",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "ancienne": {
+          "display_format": "**ancienne:** Précédente",
+          "explanation": "Former",
+          "cultural_note": ""
+        },
+        "correspondante": {
+          "display_format": "**correspondante:** Représentante",
+          "explanation": "Correspondent",
+          "cultural_note": ""
+        },
+        "RFI": {
+          "display_format": "**RFI:** Radio France Internationale",
+          "explanation": "International French radio",
+          "cultural_note": "Public radio service"
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "In, at",
+          "cultural_note": ""
+        },
+        "Cotonou": {
+          "display_format": "**Cotonou:** Ville du Bénin",
+          "explanation": "Largest city in Benin",
+          "cultural_note": ""
+        },
+        "Raïssa Gbedji": {
+          "display_format": "**Raïssa Gbedji:** Nom propre",
+          "explanation": "Name of the journalist",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Chikungunya dans l'Hérault: l'Agence régionale de Santé a lancé une opération de sensibilisation auprès des habitants",
+      "original_article_link": "https://www.bfmtv.com/sante/video-chikungunya-dans-l-herault-l-agence-regionale-de-sante-a-lance-une-operation-de-sensibilisation-aupres-des-habitants_VN-202506210094.html",
+      "original_article_published_date": "2025-06-21T06:29:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Prévention contre le chikungunya dans l'Hérault",
+      "simplified_english_title": "Chikungunya prevention in Hérault",
+      "french_summary": "L'Agence régionale de Santé informe les habitants de l'Hérault sur le chikungunya pour éviter sa propagation.",
+      "english_summary": "The Regional Health Agency is informing Hérault residents about chikungunya to prevent its spread.",
+      "contextual_title_explanations": {
+        "Chikungunya": {
+          "display_format": "**Chikungunya:** Virus tropical",
+          "explanation": "Mosquito-borne viral disease",
+          "cultural_note": "Common in tropical regions"
+        },
+        "dans l'": {
+          "display_format": "**dans l’:** Dans le",
+          "explanation": "In the (feminine)",
+          "cultural_note": ""
+        },
+        "Hérault": {
+          "display_format": "**Hérault:** Département français",
+          "explanation": "French department in Occitanie",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'Agence régionale de Santé": {
+          "display_format": "**l'Agence régionale de Santé:** ARS",
+          "explanation": "Regional Health Agency",
+          "cultural_note": "French public health authority"
+        },
+        "a lancé": {
+          "display_format": "**a lancé:** A commencé",
+          "explanation": "Has launched",
+          "cultural_note": ""
+        },
+        "une opération de sensibilisation": {
+          "display_format": "**une opération de sensibilisation:** Campagne d'information",
+          "explanation": "Awareness campaign",
+          "cultural_note": ""
+        },
+        "auprès des": {
+          "display_format": "**auprès des:** Vers les",
+          "explanation": "Among the",
+          "cultural_note": ""
+        },
+        "habitants": {
+          "display_format": "**habitants:** Résidents",
+          "explanation": "Inhabitants or residents",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Éducation : réduire le temps de vacances, une bonne idée pour alléger l'emploi du temps des élèves ?",
+      "original_article_link": "https://www.europe1.fr/societe/education-reduire-le-temps-de-vacances-une-bonne-idee-pour-alleger-lemploi-du-temps-des-eleves-760420",
+      "original_article_published_date": "2025-06-21T09:43:02",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Moins de vacances pour les élèves ?",
+      "simplified_english_title": "Less vacation time for students?",
+      "french_summary": "On discute de réduire les vacances pour aider les élèves à mieux gérer leur emploi du temps scolaire.",
+      "english_summary": "Discussions are ongoing about reducing vacation time to help students manage their school schedule better.",
+      "contextual_title_explanations": {
+        "Éducation": {
+          "display_format": "**Éducation :** Sujet principal",
+          "explanation": "Main topic of the article",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces the main subject",
+          "cultural_note": ""
+        },
+        "réduire": {
+          "display_format": "**réduire :** diminuer",
+          "explanation": "To decrease or lessen",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le :** article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "temps": {
+          "display_format": "**temps :** durée",
+          "explanation": "Time or duration",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de :** possession",
+          "explanation": "Indicates possession or relation",
+          "cultural_note": ""
+        },
+        "vacances": {
+          "display_format": "**vacances :** congés",
+          "explanation": "Holidays or vacations",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**, :** virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une :** article indéfini",
+          "explanation": "Indefinite article 'a'",
+          "cultural_note": ""
+        },
+        "bonne": {
+          "display_format": "**bonne :** positive",
+          "explanation": "Good or positive",
+          "cultural_note": ""
+        },
+        "idée": {
+          "display_format": "**idée :** concept",
+          "explanation": "Idea or concept",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour :** afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "alléger": {
+          "display_format": "**alléger :** rendre léger",
+          "explanation": "To lighten or reduce",
+          "cultural_note": ""
+        },
+        "l'emploi": {
+          "display_format": "**l'emploi :** le travail",
+          "explanation": "Work or employment",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du :** de le",
+          "explanation": "Combined preposition 'of the'",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des :** de les",
+          "explanation": "Combined preposition 'of the'",
+          "cultural_note": ""
+        },
+        "élèves": {
+          "display_format": "**élèves :** étudiants",
+          "explanation": "Students or pupils",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**? :** point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En soins palliatifs, « l’utilité sociale » des bénévoles pour « éviter que des personnes ne meurent seules »",
+      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/21/en-soins-palliatifs-l-utilite-sociale-des-benevoles-pour-eviter-que-des-personnes-meurent-seules_6615047_3224.html",
+      "original_article_published_date": "2025-06-21T04:00:16",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les bénévoles aident les malades en fin de vie",
+      "simplified_english_title": "Volunteers help the terminally ill",
+      "french_summary": "Des bénévoles offrent leur temps pour accompagner les personnes en soins palliatifs et éviter qu'elles ne meurent seules.",
+      "english_summary": "Volunteers offer their time to support people in palliative care and prevent them from dying alone.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**En:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "soins palliatifs": {
+          "display_format": "**soins palliatifs:** Soins de fin de vie",
+          "explanation": "Palliative care",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "l’utilité sociale": {
+          "display_format": "**l’utilité sociale:** Utilité pour la société",
+          "explanation": "Social usefulness",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles pluriel",
+          "explanation": "Some",
+          "cultural_note": ""
+        },
+        "bénévoles": {
+          "display_format": "**bénévoles:** Volontaires",
+          "explanation": "Volunteers",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "éviter": {
+          "display_format": "**éviter:** Empêcher",
+          "explanation": "To avoid",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Que",
+          "explanation": "That",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**personnes:** Individus",
+          "explanation": "People",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "meurent": {
+          "display_format": "**meurent:** Mourir",
+          "explanation": "Die",
+          "cultural_note": ""
+        },
+        "seules": {
+          "display_format": "**seules:** Seul",
+          "explanation": "Alone",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Musique électro : Emmanuel Macron aimerait inscrire la French Touch au patrimone immatériel de l'Unesco",
+      "original_article_link": "https://www.franceinfo.fr/culture/musique/musique-electro-emmanuel-macron-aimerait-inscrire-la-french-touch-a-l-unesco_7328619.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T14:25:49",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut protéger la musique électro française",
+      "simplified_english_title": "Macron wants to protect French electro music",
+      "french_summary": "Emmanuel Macron souhaite ajouter la French Touch, un style de musique électro, à la liste du patrimoine de l'UNESCO.",
+      "english_summary": "Emmanuel Macron wants to add French Touch, an electro music style, to UNESCO's heritage list.",
+      "contextual_title_explanations": {
+        "Musique électro": {
+          "display_format": "**Musique électro:** Musique électronique",
+          "explanation": "Electronic dance music genre",
+          "cultural_note": "Popular French music style"
+        },
+        ": ": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further explanation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "aimerait": {
+          "display_format": "**aimerait:** Souhaiterait",
+          "explanation": "Would like (conditional)",
+          "cultural_note": ""
+        },
+        "inscrire": {
+          "display_format": "**inscrire:** Enregistrer",
+          "explanation": "To register or list",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "French Touch": {
+          "display_format": "**French Touch:** Mouvement musical",
+          "explanation": "French electronic music movement",
+          "cultural_note": "Distinctive French electronic music style"
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the (masculine singular)",
+          "cultural_note": ""
+        },
+        "patrimoine immatériel": {
+          "display_format": "**patrimoine immatériel:** Héritage culturel",
+          "explanation": "Intangible cultural heritage",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "l'Unesco": {
+          "display_format": "**l'Unesco:** Organisation des Nations Unies",
+          "explanation": "UN organization for culture",
+          "cultural_note": "United Nations Educational, Scientific and Cultural Organization"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Après 24 ans à la mairie, Martine Aubry reçoit le titre de Maire honoraire de Lille",
+      "original_article_link": "https://www.bfmtv.com/grand-lille/apres-24-ans-a-la-mairie-martine-aubry-recoit-le-titre-de-maire-honoraire-de-lille_AN-202506210199.html",
+      "original_article_published_date": "2025-06-21T11:43:04",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Martine Aubry devient Maire honoraire de Lille",
+      "simplified_english_title": "Martine Aubry becomes Honorary Mayor of Lille",
+      "french_summary": "Martine Aubry a reçu le titre de Maire honoraire de Lille après 24 ans de service à la mairie.",
+      "english_summary": "Martine Aubry received the title of Honorary Mayor of Lille after 24 years of service.",
+      "contextual_title_explanations": {
+        "Après": {
+          "display_format": "**Après:** Après",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "24 ans": {
+          "display_format": "**24 ans:** Vingt-quatre ans",
+          "explanation": "Twenty-four years",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "At",
+          "cultural_note": ""
+        },
+        "la mairie": {
+          "display_format": "**la mairie:** L'hôtel de ville",
+          "explanation": "The town hall",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Une virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "Martine Aubry": {
+          "display_format": "**Martine Aubry:** Une femme politique",
+          "explanation": "French politician",
+          "cultural_note": ""
+        },
+        "reçoit": {
+          "display_format": "**reçoit:** Recevoir",
+          "explanation": "Receives",
+          "cultural_note": ""
+        },
+        "le titre": {
+          "display_format": "**le titre:** Le titre",
+          "explanation": "The title",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "Maire honoraire": {
+          "display_format": "**Maire honoraire:** Un ancien maire",
+          "explanation": "Honorary mayor",
+          "cultural_note": ""
+        },
+        "Lille": {
+          "display_format": "**Lille:** Une ville",
+          "explanation": "A city in France",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Santé : les bouteilles en verre contiennent des microplastiques",
+      "original_article_link": "https://www.franceinfo.fr/sante/sante-les-bouteilles-en-verre-contiennent-des-microplastiques_7328553.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T12:42:54",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des microplastiques dans les bouteilles en verre",
+      "simplified_english_title": "Microplastics found in glass bottles",
+      "french_summary": "Une étude montre que les bouteilles en verre contiennent des microplastiques, ce qui pose des questions sur la santé.",
+      "english_summary": "A study shows that glass bottles contain microplastics, raising health concerns.",
+      "contextual_title_explanations": {
+        "Santé": {
+          "display_format": "**Santé:** Sujet principal",
+          "explanation": "Main topic of the article",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces the topic",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "bouteilles": {
+          "display_format": "**bouteilles:** Récipients",
+          "explanation": "Bottles, containers",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Matériau",
+          "explanation": "Made of, in",
+          "cultural_note": ""
+        },
+        "verre": {
+          "display_format": "**verre:** Matériau transparent",
+          "explanation": "Glass material",
+          "cultural_note": ""
+        },
+        "contiennent": {
+          "display_format": "**contiennent:** Contenir verbe",
+          "explanation": "Contain, include",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Some, indefinite article",
+          "cultural_note": ""
+        },
+        "microplastiques": {
+          "display_format": "**microplastiques:** Petits plastiques",
+          "explanation": "Tiny plastic particles",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Angleterre-France : Gaël Fickou et les Français prendront-ils leur revanche dans le Crunch ? Suivez le match amical de rugby",
+      "original_article_link": "https://www.franceinfo.fr/sports/rugby/xv-de-france/direct-angleterre-france-gael-fickou-et-les-francais-prendront-ils-leur-revanche-dans-le-crunch-suivez-le-match-amical-de-rugby_7324104.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T14:16:16",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "France-Angleterre : match de rugby amical",
+      "simplified_english_title": "France-England: friendly rugby match",
+      "french_summary": "L'équipe de France de rugby joue contre l'Angleterre dans un match amical. Gaël Fickou et ses coéquipiers veulent gagner.",
+      "english_summary": "The French rugby team plays against England in a friendly match. Gaël Fickou and his teammates want to win.",
+      "contextual_title_explanations": {
+        "Angleterre-France": {
+          "display_format": "**Angleterre-France:** Match entre les deux pays",
+          "explanation": "England versus France match",
+          "cultural_note": "Historic sports rivalry"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Gaël Fickou": {
+          "display_format": "**Gaël Fickou:** Joueur de rugby",
+          "explanation": "French rugby player",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les Français": {
+          "display_format": "**les Français:** Équipe de France",
+          "explanation": "The French team",
+          "cultural_note": ""
+        },
+        "prendront-ils": {
+          "display_format": "**prendront-ils:** Futur de prendre",
+          "explanation": "Will they take",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**leur:** Possessif",
+          "explanation": "Their",
+          "cultural_note": ""
+        },
+        "revanche": {
+          "display_format": "**revanche:** Vengeance",
+          "explanation": "Revenge or rematch",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Crunch": {
+          "display_format": "**Crunch:** Match décisif",
+          "explanation": "Decisive match",
+          "cultural_note": "Term used for England-France rugby matches"
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        },
+        "Suivez": {
+          "display_format": "**Suivez:** Impératif de suivre",
+          "explanation": "Follow",
+          "cultural_note": ""
+        },
+        "match": {
+          "display_format": "**match:** Rencontre sportive",
+          "explanation": "Sports match",
+          "cultural_note": ""
+        },
+        "amical": {
+          "display_format": "**amical:** Amicale",
+          "explanation": "Friendly",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "rugby": {
+          "display_format": "**rugby:** Sport",
+          "explanation": "Rugby",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T03:24:57",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }

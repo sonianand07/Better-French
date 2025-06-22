@@ -3,304 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "A Saint-Etienne, une campagne municipale marquée par des divisions et un procès",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/22/a-saint-etienne-une-campagne-municipale-marquee-par-des-divisions-et-un-proces_6615213_823448.html",
-      "original_article_published_date": "2025-06-22T03:15:09",
-      "source_name": "Le Monde Politique",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Saint-Étienne a une campagne municipale difficile",
-      "simplified_english_title": "Saint-Étienne faces a tough municipal campaign",
-      "french_summary": "La campagne municipale à Saint-Étienne est difficile à cause des divisions et d'un procès en cours.",
-      "english_summary": "The municipal campaign in Saint-Étienne is difficult due to divisions and an ongoing trial.",
-      "contextual_title_explanations": {
-        "A": {
-          "display_format": "**A:** À",
-          "explanation": "In, at (location)",
-          "cultural_note": ""
-        },
-        "Saint-Etienne": {
-          "display_format": "**Saint-Etienne:** Ville française",
-          "explanation": "City in eastern France",
-          "cultural_note": "Known for its football team and industrial history"
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma, short pause",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Une",
-          "explanation": "A, an (feminine)",
-          "cultural_note": ""
-        },
-        "campagne": {
-          "display_format": "**campagne:** Campagne électorale",
-          "explanation": "Election campaign",
-          "cultural_note": ""
-        },
-        "municipale": {
-          "display_format": "**municipale:** Municipale",
-          "explanation": "Municipal, local",
-          "cultural_note": ""
-        },
-        "marquée": {
-          "display_format": "**marquée:** Caractérisée",
-          "explanation": "Marked, characterized by",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Par",
-          "explanation": "By",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Des",
-          "explanation": "Some (plural)",
-          "cultural_note": ""
-        },
-        "divisions": {
-          "display_format": "**divisions:** Divisions",
-          "explanation": "Divisions, splits",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Et",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Un",
-          "explanation": "A, an (masculine)",
-          "cultural_note": ""
-        },
-        "procès": {
-          "display_format": "**procès:** Procès",
-          "explanation": "Trial, legal case",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Bénin: décès de la journaliste et ancienne correspondante de RFI à Cotonou Raïssa Gbedji",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250622-b%C3%A9nin-d%C3%A9c%C3%A8s-de-la-journaliste-et-ancienne-correspondante-de-rfi-%C3%A0-cotonou-ra%C3%AFssa-gbedji",
-      "original_article_published_date": "2025-06-22T03:10:57",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Une journaliste bien connue est décédée au Bénin",
-      "simplified_english_title": "Well-known journalist dies in Benin",
-      "french_summary": "Raïssa Gbedji, journaliste et ancienne correspondante de RFI à Cotonou, est décédée. Elle était très respectée au Bénin.",
-      "english_summary": "Raïssa Gbedji, a journalist and former RFI correspondent in Cotonou, has passed away. She was highly respected in Benin.",
-      "contextual_title_explanations": {
-        "Bénin": {
-          "display_format": "**Bénin:** Pays d'Afrique",
-          "explanation": "West African country",
-          "cultural_note": "Formerly known as Dahomey"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "décès": {
-          "display_format": "**décès:** Mort",
-          "explanation": "Death",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Appartenance",
-          "explanation": "Of, belonging to",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "journaliste": {
-          "display_format": "**journaliste:** Profession des médias",
-          "explanation": "Journalist",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "ancienne": {
-          "display_format": "**ancienne:** Précédente",
-          "explanation": "Former",
-          "cultural_note": ""
-        },
-        "correspondante": {
-          "display_format": "**correspondante:** Représentante",
-          "explanation": "Correspondent",
-          "cultural_note": ""
-        },
-        "RFI": {
-          "display_format": "**RFI:** Radio France Internationale",
-          "explanation": "International French radio",
-          "cultural_note": "Public radio service"
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "In, at",
-          "cultural_note": ""
-        },
-        "Cotonou": {
-          "display_format": "**Cotonou:** Ville du Bénin",
-          "explanation": "Largest city in Benin",
-          "cultural_note": ""
-        },
-        "Raïssa Gbedji": {
-          "display_format": "**Raïssa Gbedji:** Nom propre",
-          "explanation": "Name of the journalist",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Frappes américaines en Iran : Israël remercie Trump d'aider à «la paix par la force»",
-      "original_article_link": "https://www.lefigaro.fr/international/frappes-americaines-en-iran-israel-remercie-trump-d-aider-a-la-paix-par-la-force-20250622",
-      "original_article_published_date": "2025-06-22T02:48:50",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les États-Unis frappent l'Iran",
-      "simplified_english_title": "US strikes in Iran",
-      "french_summary": "Israël remercie Trump pour les frappes américaines en Iran, disant que cela aide à la paix par la force.",
-      "english_summary": "Israel thanks Trump for US strikes in Iran, saying it helps peace through force.",
-      "contextual_title_explanations": {
-        "Frappes": {
-          "display_format": "**Frappes:** Attaques",
-          "explanation": "Military strikes",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**américaines:** des États-Unis",
-          "explanation": "American, from the USA",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** dans",
-          "explanation": "In, inside",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "remercie": {
-          "display_format": "**remercie:** dit merci",
-          "explanation": "Thanks, expresses gratitude",
-          "cultural_note": ""
-        },
-        "Trump": {
-          "display_format": "**Trump:** Ancien président américain",
-          "explanation": "Former US president",
-          "cultural_note": ""
-        },
-        "d'aider": {
-          "display_format": "**d'aider:** soutenir",
-          "explanation": "To help, to support",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** vers",
-          "explanation": "To, towards",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** article défini",
-          "explanation": "The, definite article",
-          "cultural_note": ""
-        },
-        "paix": {
-          "display_format": "**paix:** absence de guerre",
-          "explanation": "Peace, absence of war",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** moyen",
-          "explanation": "By, through",
-          "cultural_note": ""
-        },
-        "force»": {
-          "display_format": "**force»:** Guillemet fermant",
-          "explanation": "Force, strength, closing quotation mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Les États-Unis ont bombardé trois sites nucléaires iraniens, dont celui de Fordo, selon Trump",
       "original_article_link": "https://www.france24.com/fr/info-en-continu/20250622-les-%C3%A9tats-unis-ont-bombard%C3%A9-trois-sites-nucl%C3%A9aires-iraniens-dont-celui-de-fordo-selon-trump",
       "original_article_published_date": "2025-06-22T00:08:27",
@@ -5203,92 +4905,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Musique électro : Emmanuel Macron aimerait inscrire la French Touch au patrimone immatériel de l'Unesco",
-      "original_article_link": "https://www.franceinfo.fr/culture/musique/musique-electro-emmanuel-macron-aimerait-inscrire-la-french-touch-a-l-unesco_7328619.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T14:25:49",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron veut protéger la musique électro française",
-      "simplified_english_title": "Macron wants to protect French electro music",
-      "french_summary": "Emmanuel Macron souhaite ajouter la French Touch, un style de musique électro, à la liste du patrimoine de l'UNESCO.",
-      "english_summary": "Emmanuel Macron wants to add French Touch, an electro music style, to UNESCO's heritage list.",
-      "contextual_title_explanations": {
-        "Musique électro": {
-          "display_format": "**Musique électro:** Musique électronique",
-          "explanation": "Electronic dance music genre",
-          "cultural_note": "Popular French music style"
-        },
-        ": ": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further explanation",
-          "cultural_note": ""
-        },
-        "Emmanuel Macron": {
-          "display_format": "**Emmanuel Macron:** Président français",
-          "explanation": "Current French president",
-          "cultural_note": ""
-        },
-        "aimerait": {
-          "display_format": "**aimerait:** Souhaiterait",
-          "explanation": "Would like (conditional)",
-          "cultural_note": ""
-        },
-        "inscrire": {
-          "display_format": "**inscrire:** Enregistrer",
-          "explanation": "To register or list",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "French Touch": {
-          "display_format": "**French Touch:** Mouvement musical",
-          "explanation": "French electronic music movement",
-          "cultural_note": "Distinctive French electronic music style"
-        },
-        "au": {
-          "display_format": "**au:** À le",
-          "explanation": "To the (masculine singular)",
-          "cultural_note": ""
-        },
-        "patrimoine immatériel": {
-          "display_format": "**patrimoine immatériel:** Héritage culturel",
-          "explanation": "Intangible cultural heritage",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "l'Unesco": {
-          "display_format": "**l'Unesco:** Organisation des Nations Unies",
-          "explanation": "UN organization for culture",
-          "cultural_note": "United Nations Educational, Scientific and Cultural Organization"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "S'hydrater régulièrement, diminuer les activités physiques... comment se protéger efficacement de la canicule ?",
       "original_article_link": "https://www.bfmtv.com/sante/video-s-hydrater-regulierement-diminuer-les-activites-physiques-comment-se-proteger-efficacement-de-la-canicule_VN-202506210241.html",
       "original_article_published_date": "2025-06-21T14:21:34",
@@ -5473,122 +5089,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Angleterre-France : Gaël Fickou et les Français prendront-ils leur revanche dans le Crunch ? Suivez le match amical de rugby",
-      "original_article_link": "https://www.franceinfo.fr/sports/rugby/xv-de-france/direct-angleterre-france-gael-fickou-et-les-francais-prendront-ils-leur-revanche-dans-le-crunch-suivez-le-match-amical-de-rugby_7324104.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T14:16:16",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "France-Angleterre : match de rugby amical",
-      "simplified_english_title": "France-England: friendly rugby match",
-      "french_summary": "L'équipe de France de rugby joue contre l'Angleterre dans un match amical. Gaël Fickou et ses coéquipiers veulent gagner.",
-      "english_summary": "The French rugby team plays against England in a friendly match. Gaël Fickou and his teammates want to win.",
-      "contextual_title_explanations": {
-        "Angleterre-France": {
-          "display_format": "**Angleterre-France:** Match entre les deux pays",
-          "explanation": "England versus France match",
-          "cultural_note": "Historic sports rivalry"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Gaël Fickou": {
-          "display_format": "**Gaël Fickou:** Joueur de rugby",
-          "explanation": "French rugby player",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "les Français": {
-          "display_format": "**les Français:** Équipe de France",
-          "explanation": "The French team",
-          "cultural_note": ""
-        },
-        "prendront-ils": {
-          "display_format": "**prendront-ils:** Futur de prendre",
-          "explanation": "Will they take",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**leur:** Possessif",
-          "explanation": "Their",
-          "cultural_note": ""
-        },
-        "revanche": {
-          "display_format": "**revanche:** Vengeance",
-          "explanation": "Revenge or rematch",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** Préposition",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "Crunch": {
-          "display_format": "**Crunch:** Match décisif",
-          "explanation": "Decisive match",
-          "cultural_note": "Term used for England-France rugby matches"
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        },
-        "Suivez": {
-          "display_format": "**Suivez:** Impératif de suivre",
-          "explanation": "Follow",
-          "cultural_note": ""
-        },
-        "match": {
-          "display_format": "**match:** Rencontre sportive",
-          "explanation": "Sports match",
-          "cultural_note": ""
-        },
-        "amical": {
-          "display_format": "**amical:** Amicale",
-          "explanation": "Friendly",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "rugby": {
-          "display_format": "**rugby:** Sport",
-          "explanation": "Rugby",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -7067,82 +6567,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Santé : les bouteilles en verre contiennent des microplastiques",
-      "original_article_link": "https://www.franceinfo.fr/sante/sante-les-bouteilles-en-verre-contiennent-des-microplastiques_7328553.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T12:42:54",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des microplastiques dans les bouteilles en verre",
-      "simplified_english_title": "Microplastics found in glass bottles",
-      "french_summary": "Une étude montre que les bouteilles en verre contiennent des microplastiques, ce qui pose des questions sur la santé.",
-      "english_summary": "A study shows that glass bottles contain microplastics, raising health concerns.",
-      "contextual_title_explanations": {
-        "Santé": {
-          "display_format": "**Santé:** Sujet principal",
-          "explanation": "Main topic of the article",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces the topic",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "Definite article, 'the'",
-          "cultural_note": ""
-        },
-        "bouteilles": {
-          "display_format": "**bouteilles:** Récipients",
-          "explanation": "Bottles, containers",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Matériau",
-          "explanation": "Made of, in",
-          "cultural_note": ""
-        },
-        "verre": {
-          "display_format": "**verre:** Matériau transparent",
-          "explanation": "Glass material",
-          "cultural_note": ""
-        },
-        "contiennent": {
-          "display_format": "**contiennent:** Contenir verbe",
-          "explanation": "Contain, include",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini",
-          "explanation": "Some, indefinite article",
-          "cultural_note": ""
-        },
-        "microplastiques": {
-          "display_format": "**microplastiques:** Petits plastiques",
-          "explanation": "Tiny plastic particles",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Environnement: l'ONU valide la création d'un «Giec» de la pollution chimique",
       "original_article_link": "https://www.rfi.fr/fr/environnement/20250621-environnement-l-onu-valide-la-cr%C3%A9ation-d-un-giec-de-la-pollution-chimique",
       "original_article_published_date": "2025-06-21T12:38:54",
@@ -8362,92 +7786,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T12:35:28",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Après 24 ans à la mairie, Martine Aubry reçoit le titre de Maire honoraire de Lille",
-      "original_article_link": "https://www.bfmtv.com/grand-lille/apres-24-ans-a-la-mairie-martine-aubry-recoit-le-titre-de-maire-honoraire-de-lille_AN-202506210199.html",
-      "original_article_published_date": "2025-06-21T11:43:04",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Martine Aubry devient Maire honoraire de Lille",
-      "simplified_english_title": "Martine Aubry becomes Honorary Mayor of Lille",
-      "french_summary": "Martine Aubry a reçu le titre de Maire honoraire de Lille après 24 ans de service à la mairie.",
-      "english_summary": "Martine Aubry received the title of Honorary Mayor of Lille after 24 years of service.",
-      "contextual_title_explanations": {
-        "Après": {
-          "display_format": "**Après:** Après",
-          "explanation": "After",
-          "cultural_note": ""
-        },
-        "24 ans": {
-          "display_format": "**24 ans:** Vingt-quatre ans",
-          "explanation": "Twenty-four years",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** À",
-          "explanation": "At",
-          "cultural_note": ""
-        },
-        "la mairie": {
-          "display_format": "**la mairie:** L'hôtel de ville",
-          "explanation": "The town hall",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Une virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "Martine Aubry": {
-          "display_format": "**Martine Aubry:** Une femme politique",
-          "explanation": "French politician",
-          "cultural_note": ""
-        },
-        "reçoit": {
-          "display_format": "**reçoit:** Recevoir",
-          "explanation": "Receives",
-          "cultural_note": ""
-        },
-        "le titre": {
-          "display_format": "**le titre:** Le titre",
-          "explanation": "The title",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** De",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "Maire honoraire": {
-          "display_format": "**Maire honoraire:** Un ancien maire",
-          "explanation": "Honorary mayor",
-          "cultural_note": ""
-        },
-        "Lille": {
-          "display_format": "**Lille:** Une ville",
-          "explanation": "A city in France",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -9685,6 +9023,628 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "De nombreux Britanniques affluent vers la France pour la Fête de la musique",
+      "original_article_link": "https://www.bfmtv.com/culture/video-de-nombreux-britanniques-affluent-vers-la-france-pour-la-fete-de-la-musique_VN-202506210183.html",
+      "original_article_published_date": "2025-06-21T10:24:20",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Britanniques viennent en France pour la musique",
+      "simplified_english_title": "Brits flock to France for Music Day",
+      "french_summary": "Beaucoup de Britanniques viennent en France pour célébrer la Fête de la Musique, un événement populaire.",
+      "english_summary": "Many British people come to France to celebrate Music Day, a popular event.",
+      "contextual_title_explanations": {
+        "De": {
+          "display_format": "**De:** Beaucoup de",
+          "explanation": "Many or a lot of",
+          "cultural_note": ""
+        },
+        "nombreux": {
+          "display_format": "**nombreux:** nombreux",
+          "explanation": "Numerous, many",
+          "cultural_note": ""
+        },
+        "Britanniques": {
+          "display_format": "**Britanniques:** Habitants de la Grande-Bretagne",
+          "explanation": "British people",
+          "cultural_note": ""
+        },
+        "affluent": {
+          "display_format": "**affluent:** se rassemblent",
+          "explanation": "Flocking, gathering",
+          "cultural_note": ""
+        },
+        "vers": {
+          "display_format": "**vers:** en direction de",
+          "explanation": "Towards",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France, a European country",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** afin de",
+          "explanation": "For, in order to",
+          "cultural_note": ""
+        },
+        "la Fête de la musique": {
+          "display_format": "**la Fête de la musique:** Événement musical annuel",
+          "explanation": "Annual music festival",
+          "cultural_note": "Held on June 21st every year"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T21:16:29",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : le thermomètre grimpe, mais à partir de quand peut-on parler de canicule ?",
+      "original_article_link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/vague-de-chaleur-le-thermometre-grimpe-mais-a-partir-de-quand-peut-on-parler-de-canicule_7328355.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-21T10:22:39",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Quand est-ce une canicule en France ?",
+      "simplified_english_title": "When is it a heatwave in France?",
+      "french_summary": "Les températures montent, mais la canicule est déclarée seulement quand il fait très chaud pendant plusieurs jours.",
+      "english_summary": "Temperatures are rising, but a heatwave is declared only when it is very hot for several days.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Onde de chaleur",
+          "explanation": "Wave, often referring to heat",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "thermomètre": {
+          "display_format": "**thermomètre:** Appareil de mesure",
+          "explanation": "Thermometer, measuring device",
+          "cultural_note": ""
+        },
+        "grimpe": {
+          "display_format": "**grimpe:** Monte",
+          "explanation": "Climbs or rises",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**mais:** Cependant",
+          "explanation": "But or however",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At, to, or in",
+          "cultural_note": ""
+        },
+        "partir": {
+          "display_format": "**partir:** Commencer",
+          "explanation": "To start or begin",
+          "cultural_note": ""
+        },
+        "quand": {
+          "display_format": "**quand:** Moment",
+          "explanation": "When, referring to time",
+          "cultural_note": ""
+        },
+        "peut-on": {
+          "display_format": "**peut-on:** Est-il possible",
+          "explanation": "Is it possible to",
+          "cultural_note": ""
+        },
+        "parler": {
+          "display_format": "**parler:** Dire",
+          "explanation": "To speak or talk",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Période chaude",
+          "explanation": "Heatwave, very hot period",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T10:55:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En raison de la canicule, les Ehpad sont extrêmement vigilants envers les personnes vulnérables",
+      "original_article_link": "https://www.bfmtv.com/societe/video-en-raison-de-la-canicule-les-ehpad-sont-extremement-vigilants-envers-les-personnes-vulnerables_VN-202506210180.html",
+      "original_article_published_date": "2025-06-21T10:20:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Canicule : les Ehpad protègent les personnes fragiles",
+      "simplified_english_title": "Heatwave: Nursing homes protect vulnerable people",
+      "french_summary": "Les maisons de retraite prennent des mesures spéciales pour protéger les résidents pendant la vague de chaleur.",
+      "english_summary": "Nursing homes are taking special measures to protect residents during the heatwave.",
+      "contextual_title_explanations": {
+        "En raison de": {
+          "display_format": "**En raison de:** À cause de",
+          "explanation": "Due to, because of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "Ehpad": {
+          "display_format": "**Ehpad:** Établissement d'hébergement pour personnes âgées dépendantes",
+          "explanation": "Nursing homes for elderly",
+          "cultural_note": "French term for elderly care homes"
+        },
+        "sont": {
+          "display_format": "**sont:** Forme du verbe être",
+          "explanation": "Are (third person plural)",
+          "cultural_note": ""
+        },
+        "extrêmement": {
+          "display_format": "**extrêmement:** Très",
+          "explanation": "Extremely, very",
+          "cultural_note": ""
+        },
+        "vigilants": {
+          "display_format": "**vigilants:** Attentifs",
+          "explanation": "Vigilant, watchful",
+          "cultural_note": ""
+        },
+        "envers": {
+          "display_format": "**envers:** À l'égard de",
+          "explanation": "Towards, regarding",
+          "cultural_note": ""
+        },
+        "personnes": {
+          "display_format": "**personnes:** Individus",
+          "explanation": "People, individuals",
+          "cultural_note": ""
+        },
+        "vulnérables": {
+          "display_format": "**vulnérables:** Fragiles",
+          "explanation": "Vulnerable, at-risk",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T13:26:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’opposante rwandaise Victoire Ingabire arrêtée à Kigali au Rwanda",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-l-opposante-rwandaise-victoire-ingabire-arr%C3%AAt%C3%A9e-%C3%A0-kigali-au-rwanda",
+      "original_article_published_date": "2025-06-21T10:11:57",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Victoire Ingabire arrêtée au Rwanda",
+      "simplified_english_title": "Victoire Ingabire arrested in Rwanda",
+      "french_summary": "Victoire Ingabire, une opposante politique, a été arrêtée à Kigali, la capitale du Rwanda.",
+      "english_summary": "Victoire Ingabire, a political opponent, was arrested in Kigali, the capital of Rwanda.",
+      "contextual_title_explanations": {
+        "L’opposante": {
+          "display_format": "**L’opposante:** Femme opposée",
+          "explanation": "Female opponent or dissident",
+          "cultural_note": ""
+        },
+        "rwandaise": {
+          "display_format": "**rwandaise:** Du Rwanda",
+          "explanation": "Rwandan, from Rwanda",
+          "cultural_note": ""
+        },
+        "Victoire Ingabire": {
+          "display_format": "**Victoire Ingabire:** Nom propre",
+          "explanation": "Rwandan political figure",
+          "cultural_note": "Known opposition leader"
+        },
+        "arrêtée": {
+          "display_format": "**arrêtée:** Mise en détention",
+          "explanation": "Arrested, detained",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Dans la ville",
+          "explanation": "In, at (location)",
+          "cultural_note": ""
+        },
+        "Kigali": {
+          "display_format": "**Kigali:** Capitale du Rwanda",
+          "explanation": "Capital city of Rwanda",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** Dans le pays",
+          "explanation": "In the country of",
+          "cultural_note": ""
+        },
+        "Rwanda": {
+          "display_format": "**Rwanda:** Pays d'Afrique",
+          "explanation": "Country in East Africa",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T17:15:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Des milliers d'iraniens ont commencé à fuir en direction de la Turquie",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-des-milliers-d-iraniens-ont-commenc%C3%A9-%C3%A0-fuir-en-direction-de-la-turquie",
+      "original_article_published_date": "2025-06-21T10:05:02",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des Iraniens fuient vers la Turquie",
+      "simplified_english_title": "Iranians flee towards Turkey",
+      "french_summary": "Beaucoup d'Iraniens quittent leur pays et vont en Turquie à cause de la situation difficile.",
+      "english_summary": "Many Iranians are leaving their country and going to Turkey because of the difficult situation.",
+      "contextual_title_explanations": {
+        "Des": {
+          "display_format": "**Des:** Articles indéfinis",
+          "explanation": "Plural indefinite article, like 'some'",
+          "cultural_note": ""
+        },
+        "milliards": {
+          "display_format": "**milliards:** Un grand nombre",
+          "explanation": "Billions, a large number",
+          "cultural_note": ""
+        },
+        "d'Iraniens": {
+          "display_format": "**d'Iraniens:** Des personnes de l'Iran",
+          "explanation": "Iranians, people from Iran",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Auxiliaire avoir",
+          "explanation": "Have, auxiliary verb",
+          "cultural_note": ""
+        },
+        "commencé": {
+          "display_format": "**commencé:** Verbe commencer",
+          "explanation": "Began, past participle of 'to begin'",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "To, preposition",
+          "cultural_note": ""
+        },
+        "fuir": {
+          "display_format": "**fuir:** Verbe s'enfuir",
+          "explanation": "To flee, to escape",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In, to, preposition",
+          "cultural_note": ""
+        },
+        "direction": {
+          "display_format": "**direction:** Sens, orientation",
+          "explanation": "Direction, way towards",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from, preposition",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "Turquie": {
+          "display_format": "**Turquie:** Pays",
+          "explanation": "Turkey, a country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T10:55:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Maxime Pechenkyn (Gatekeeper Systems) : Gatekeeper Systems, la prévention de vols - 21/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/l-hebdo-des-pme/video-maxime-pechenkyn-gatekeeper-systems-gatekeeper-systems-la-prevention-de-vols-21-06_VN-202506210174.html",
+      "original_article_published_date": "2025-06-21T10:03:21",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Gatekeeper Systems contre les vols",
+      "simplified_english_title": "Gatekeeper Systems prevents thefts",
+      "french_summary": "Maxime Pechenkyn parle de Gatekeeper Systems, une solution pour prévenir les vols, présentée le 21 juin.",
+      "english_summary": "Maxime Pechenkyn discusses Gatekeeper Systems, a solution to prevent thefts, presented on June 21st.",
+      "contextual_title_explanations": {
+        "Maxime Pechenkyn": {
+          "display_format": "**Maxime Pechenkyn:** Nom propre",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "(": {
+          "display_format": "( Parenthèse ouvrante",
+          "explanation": "Opening parenthesis",
+          "cultural_note": ""
+        },
+        "Gatekeeper Systems": {
+          "display_format": "**Gatekeeper Systems:** Nom de société",
+          "explanation": "Name of a company",
+          "cultural_note": ""
+        },
+        ")": {
+          "display_format": "**)** Parenthèse fermante",
+          "explanation": "Closing parenthesis",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "prévention": {
+          "display_format": "**prévention:** Action préventive",
+          "explanation": "Prevention or deterrence",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "vols": {
+          "display_format": "**vols:** Délits de vol",
+          "explanation": "Thefts or robberies",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-** Tiret",
+          "explanation": "Dash separating elements",
+          "cultural_note": ""
+        },
+        "21/06": {
+          "display_format": "**21/06:** Date",
+          "explanation": "Date format day/month",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T11:16:24",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Météo : la France va connaître un «été caniculaire», alerte le ministre de la Santé",
+      "original_article_link": "https://www.lefigaro.fr/meteo/meteo-la-france-va-connaitre-un-ete-caniculaire-alerte-le-ministre-de-la-sante-20250621",
+      "original_article_published_date": "2025-06-21T10:03:03",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un été très chaud arrive en France",
+      "simplified_english_title": "A very hot summer is coming to France",
+      "french_summary": "Le ministre de la Santé avertit que la France va avoir un été avec des températures très élevées.",
+      "english_summary": "The Health Minister warns that France will experience a summer with very high temperatures.",
+      "contextual_title_explanations": {
+        "Météo": {
+          "display_format": "**Météo:** Temps",
+          "explanation": "Weather",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**va:** Aller futur proche",
+          "explanation": "Is going to",
+          "cultural_note": ""
+        },
+        "connaître": {
+          "display_format": "**connaître:** Subir",
+          "explanation": "To experience",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**été:** Saison chaude",
+          "explanation": "Summer",
+          "cultural_note": ""
+        },
+        "caniculaire»": {
+          "display_format": "**caniculaire»:** Très chaud",
+          "explanation": "Extremely hot",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**alerte:** Avertit",
+          "explanation": "Alerts",
+          "cultural_note": ""
+        },
+        "le ministre": {
+          "display_format": "**le ministre:** Membre du gouvernement",
+          "explanation": "Government minister",
+          "cultural_note": ""
+        },
+        "de la Santé": {
+          "display_format": "**de la Santé:** Responsable santé",
+          "explanation": "Of Health",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-21T12:35:28",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
