@@ -3,6 +3,511 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Shoah : le retour des pianos pillés par les nazis aux familles juives",
+      "original_article_link": "https://www.france24.com/fr/france/20250622-shoah-le-retour-des-pianos-pill%C3%A9s-par-les-nazis-aux-familles-juives",
+      "original_article_published_date": "2025-06-22T08:19:10",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pianos volés par les nazis rendus aux familles",
+      "simplified_english_title": "Nazis' stolen pianos returned to families",
+      "french_summary": "Des pianos pris par les nazis pendant la guerre sont maintenant donnés aux familles juives.",
+      "english_summary": "Pianos taken by the Nazis during the war are now being returned to Jewish families.",
+      "contextual_title_explanations": {
+        "Shoah": {
+          "display_format": "**Shoah:** Génocide des Juifs",
+          "explanation": "Hebrew term for Holocaust",
+          "cultural_note": "Preferred term in France over 'Holocauste'"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces explanation or elaboration",
+          "cultural_note": ""
+        },
+        "le retour": {
+          "display_format": "**le retour:** Le retour",
+          "explanation": "The return",
+          "cultural_note": ""
+        },
+        "des pianos": {
+          "display_format": "**des pianos:** Des pianos",
+          "explanation": "Some pianos",
+          "cultural_note": ""
+        },
+        "pillés": {
+          "display_format": "**pillés:** Volés",
+          "explanation": "Past participle of 'to plunder'",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "les nazis": {
+          "display_format": "**les nazis:** Régime nazi",
+          "explanation": "The Nazis",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "familles juives": {
+          "display_format": "**familles juives:** Familles juives",
+          "explanation": "Jewish families",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Léa Salamé se mettra \"en retrait\" du 20 Heures si Raphaël Glucksmann, son compagnon, se présente en 2027",
+      "original_article_link": "https://www.bfmtv.com/people/tv/lea-salame-se-mettra-en-retrait-du-20h00-si-raphael-glucksmann-son-compagnon-se-presente-en-2027_AD-202506220109.html",
+      "original_article_published_date": "2025-06-22T08:17:01",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Léa Salamé pourrait quitter le 20 Heures",
+      "simplified_english_title": "Léa Salamé may leave the 20 Heures",
+      "french_summary": "Léa Salamé quitte le 20 Heures si Raphaël Glucksmann, son compagnon, se présente en 2027.",
+      "english_summary": "Léa Salamé will leave the 20 Heures if her partner Raphaël Glucksmann runs in 2027.",
+      "contextual_title_explanations": {
+        "Léa Salamé": {
+          "display_format": "**Léa Salamé:** Journaliste française",
+          "explanation": "French journalist and TV presenter",
+          "cultural_note": "Known for political interviews"
+        },
+        "se mettra": {
+          "display_format": "**se mettra:** futur de se mettre",
+          "explanation": "will put herself",
+          "cultural_note": ""
+        },
+        "en retrait": {
+          "display_format": "**en retrait:** à l'écart",
+          "explanation": "on the sidelines, stepping back",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** de le",
+          "explanation": "of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "20 Heures": {
+          "display_format": "**20 Heures:** Journal télévisé",
+          "explanation": "8 PM news broadcast",
+          "cultural_note": "Major French TV news program"
+        },
+        "si": {
+          "display_format": "**si:** condition",
+          "explanation": "if",
+          "cultural_note": ""
+        },
+        "Raphaël Glucksmann": {
+          "display_format": "**Raphaël Glucksmann:** Essayiste français",
+          "explanation": "French essayist and political figure",
+          "cultural_note": ""
+        },
+        "son compagnon": {
+          "display_format": "**son compagnon:** son partenaire",
+          "explanation": "her partner",
+          "cultural_note": ""
+        },
+        "se présente": {
+          "display_format": "**se présente:** se porter candidat",
+          "explanation": "runs as a candidate",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** année",
+          "explanation": "in",
+          "cultural_note": ""
+        },
+        "2027": {
+          "display_format": "**2027:** année",
+          "explanation": "year 2027",
+          "cultural_note": "Next French presidential election year"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "TÉMOIGNAGE. «Attention aux voisins, ce sont les pires ! »Sur l’île d’Yeu, les rumeurs vont bon train",
+      "original_article_link": "https://www.ouest-france.fr/pays-de-la-loire/lile-dyeu-85350/temoignage-attention-aux-voisins-ce-sont-les-pires-sur-lile-dyeu-les-rumeurs-vont-bon-train-1b569546-bb79-11ef-b8b6-a281cdb12686?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:16:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attention aux rumeurs sur l'île d'Yeu",
+      "simplified_english_title": "Beware of rumors on the island of Yeu",
+      "french_summary": "Les habitants de l'île d'Yeu sont mis en garde contre les rumeurs et les conflits entre voisins.",
+      "english_summary": "Residents of the island of Yeu are warned about rumors and conflicts among neighbors.",
+      "contextual_title_explanations": {
+        "TÉMOIGNAGE": {
+          "display_format": "**TÉMOIGNAGE:** Récit personnel",
+          "explanation": "Testimony or personal account",
+          "cultural_note": "Often used in news headlines"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "« Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Attention": {
+          "display_format": "**Attention:** Prendre garde",
+          "explanation": "Warning or caution",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "voisins": {
+          "display_format": "**voisins:** Personnes proches",
+          "explanation": "Neighbors",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Cela",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être (pluriel)",
+          "explanation": "Are (plural)",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "pires": {
+          "display_format": "**pires:** Plus mauvais",
+          "explanation": "Worst",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**!:** Point d'exclamation",
+          "explanation": "Exclamation mark",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "» Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "Sur": {
+          "display_format": "**Sur:** À propos de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "l’île": {
+          "display_format": "**l’île:** Île (féminin)",
+          "explanation": "The island",
+          "cultural_note": ""
+        },
+        "d’Yeu": {
+          "display_format": "**d’Yeu:** De l'île d'Yeu",
+          "explanation": "Of Yeu Island",
+          "cultural_note": "A small island off the west coast of France"
+        },
+        "rumeurs": {
+          "display_format": "**rumeurs:** Bruit qui court",
+          "explanation": "Rumors",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** Aller (pluriel)",
+          "explanation": "Go (plural)",
+          "cultural_note": ""
+        },
+        "bon": {
+          "display_format": "**bon:** Bien",
+          "explanation": "Good",
+          "cultural_note": ""
+        },
+        "train": {
+          "display_format": "**train:** Vitesse",
+          "explanation": "Speed or pace",
+          "cultural_note": "Common expression: 'aller bon train' means to go quickly"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fleurs, fruits et légumes : prêt pour un jardin 100 % comestible ?",
+      "original_article_link": "https://www.ouest-france.fr/jardin/fleurs-fruits-et-legumes-pret-pour-un-jardin-100-pourcent-comestible-ed7c5958-4d27-11f0-a24f-6696200c648a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:15:05",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un jardin où tout est comestible",
+      "simplified_english_title": "A garden where everything is edible",
+      "french_summary": "Découvrez comment créer un jardin où toutes les plantes sont comestibles, des fleurs aux légumes.",
+      "english_summary": "Learn how to create a garden where all plants, from flowers to vegetables, are edible.",
+      "contextual_title_explanations": {
+        "Fleurs": {
+          "display_format": "**Fleurs:** Plantes à fleurs",
+          "explanation": "Flowers; decorative plants",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma; separates items",
+          "cultural_note": ""
+        },
+        "fruits": {
+          "display_format": "**fruits:** Produits sucrés",
+          "explanation": "Fruits; sweet produce",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And; connects words",
+          "cultural_note": ""
+        },
+        "légumes": {
+          "display_format": "**légumes:** Plantes potagères",
+          "explanation": "Vegetables; garden plants",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon; introduces explanation",
+          "cultural_note": ""
+        },
+        "prêt": {
+          "display_format": "**prêt:** Prépare",
+          "explanation": "Ready; prepared",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For; in favor of",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un seul",
+          "explanation": "A; one",
+          "cultural_note": ""
+        },
+        "jardin": {
+          "display_format": "**jardin:** Espace vert",
+          "explanation": "Garden; green space",
+          "cultural_note": ""
+        },
+        "100 %": {
+          "display_format": "**100 %:** Cent pour cent",
+          "explanation": "100 percent; fully",
+          "cultural_note": ""
+        },
+        "comestible": {
+          "display_format": "**comestible:** Qui peut être mangé",
+          "explanation": "Edible; can be eaten",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark; indicates question",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Ce n'était plus possible» : coupes budgétaires, pression, menaces... Les démissions de maires continuent de pleuvoir",
+      "original_article_link": "https://www.europe1.fr/politique/ce-netait-plus-possible-coupes-budgetaires-pression-menaces-les-demissions-de-maires-continuent-de-pleuvoir-760514",
+      "original_article_published_date": "2025-06-22T08:05:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les maires démissionnent de plus en plus",
+      "simplified_english_title": "More and more mayors are resigning",
+      "french_summary": "Les maires démissionnent à cause des coupes budgétaires, de la pression et des menaces. La situation devient difficile.",
+      "english_summary": "Mayors are resigning due to budget cuts, pressure, and threats. The situation is becoming difficult.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "French opening quotation mark",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**Ce:** Pronom démonstratif",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "n'était": {
+          "display_format": "**n'était:** Négation de l'imparfait",
+          "explanation": "Was not",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Adverbe de négation",
+          "explanation": "No longer",
+          "cultural_note": ""
+        },
+        "possible»": {
+          "display_format": "**possible»:** Guillemet fermant",
+          "explanation": "Possible, closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "coupes": {
+          "display_format": "**coupes:** Réductions",
+          "explanation": "Cuts",
+          "cultural_note": ""
+        },
+        "budgétaires": {
+          "display_format": "**budgétaires:** Relatif au budget",
+          "explanation": "Budgetary",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "pression": {
+          "display_format": "**pression:** Stress",
+          "explanation": "Pressure",
+          "cultural_note": ""
+        },
+        "menaces...": {
+          "display_format": "**menaces...:** Menaces avec suspension",
+          "explanation": "Threats with ellipsis",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "démissions": {
+          "display_format": "**démissions:** Abandon de poste",
+          "explanation": "Resignations",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "To",
+          "cultural_note": ""
+        },
+        "maires": {
+          "display_format": "**maires:** Chef de commune",
+          "explanation": "Mayors",
+          "cultural_note": ""
+        },
+        "continuent": {
+          "display_format": "**continuent:** Persistent",
+          "explanation": "Continue",
+          "cultural_note": ""
+        },
+        "pleuvoir": {
+          "display_format": "**pleuvoir:** Tomber abondamment",
+          "explanation": "To rain, metaphorically",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Attaque d’Israël contre l’Iran : les ressorts de l’opération « Rising Lion »",
       "original_article_link": "https://www.lemonde.fr/international/article/2025/06/22/attaque-d-israel-contre-l-iran-les-ressorts-de-l-operation-rising-lion_6615272_3210.html",
       "original_article_published_date": "2025-06-22T08:00:31",
@@ -1756,6 +2261,87 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Pétanque. Championnat de France triplette 2025 : le programme de la phase finale du dimanche 22 juin",
+      "original_article_link": "https://www.ouest-france.fr/sport/petanque/petanque-championnat-de-france-triplette-2025-le-programme-de-la-phase-finale-du-dimanche-22-juin-edf61e9c-4f2e-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T06:19:00",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Finale du Championnat de France de pétanque 2025",
+      "simplified_english_title": "2025 French Pétanque Championship Final",
+      "french_summary": "La phase finale du Championnat de France triplette de pétanque aura lieu le dimanche 22 juin 2025.",
+      "english_summary": "The final phase of the French triplette pétanque championship will take place on Sunday, June 22, 2025.",
+      "contextual_title_explanations": {
+        "Pétanque": {
+          "display_format": "**Pétanque:** Sport de boules",
+          "explanation": "Traditional French ball game",
+          "cultural_note": "Popular in southern France"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Championnat de France": {
+          "display_format": "**Championnat de France:** Compétition nationale",
+          "explanation": "French national championship",
+          "cultural_note": ""
+        },
+        "triplette": {
+          "display_format": "**triplette:** Équipe de trois",
+          "explanation": "Team of three players",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year",
+          "cultural_note": ""
+        },
+        ": ": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "le programme": {
+          "display_format": "**le programme:** Plan détaillé",
+          "explanation": "Detailed schedule",
+          "cultural_note": ""
+        },
+        "de la phase finale": {
+          "display_format": "**de la phase finale:** Dernière étape",
+          "explanation": "Final stage",
+          "cultural_note": ""
+        },
+        "du dimanche": {
+          "display_format": "**du dimanche:** Jour de la semaine",
+          "explanation": "Day of the week",
+          "cultural_note": ""
+        },
+        "22 juin": {
+          "display_format": "**22 juin:** Date",
+          "explanation": "Date in June",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Près de Bordeaux, les propriétaires privées d’une forêt médiévale s’inquiètent de la présence croissante de l’État",
       "original_article_link": "https://www.lefigaro.fr/bordeaux/pres-de-bordeaux-les-proprietaires-privees-d-une-foret-medievale-s-inquietent-de-la-presence-croissante-de-l-etat-20250622",
       "original_article_published_date": "2025-06-22T06:02:00",
@@ -2645,6 +3231,97 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Chambre (très) insolite sur la côte de Granit de Rose : Anthenea et La panna cotta",
+      "original_article_link": "https://www.europe1.fr/emissions/les-sorties-du-week-end/chambre-tres-insolite-sur-la-cote-de-granit-de-rose-anthenea-et-la-panna-cotta-760495",
+      "original_article_published_date": "2025-06-22T05:05:37",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Chambre insolite sur la côte de Granit Rose",
+      "simplified_english_title": "Unique room on the Pink Granite Coast",
+      "french_summary": "Une chambre insolite appelée Anthenea et La panna cotta se trouve sur la côte de Granit Rose.",
+      "english_summary": "A unique room named Anthenea and La panna cotta is located on the Pink Granite Coast.",
+      "contextual_title_explanations": {
+        "Chambre": {
+          "display_format": "**Chambre:** Pièce pour dormir",
+          "explanation": "Room, often a bedroom",
+          "cultural_note": ""
+        },
+        "(très)": {
+          "display_format": "**très:** Beaucoup",
+          "explanation": "Very, extremely",
+          "cultural_note": ""
+        },
+        "insolite": {
+          "display_format": "**insolite:** Inhabituel",
+          "explanation": "Unusual, out of the ordinary",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On, above",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "côte": {
+          "display_format": "**côte:** Littoral",
+          "explanation": "Coast",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Possession",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "Granit": {
+          "display_format": "**Granit:** Roche dure",
+          "explanation": "Granite",
+          "cultural_note": ""
+        },
+        "Rose": {
+          "display_format": "**Rose:** Couleur",
+          "explanation": "Pink",
+          "cultural_note": ""
+        },
+        "Anthenea": {
+          "display_format": "**Anthenea:** Nom propre",
+          "explanation": "Name of a place or establishment",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "La panna cotta": {
+          "display_format": "**La panna cotta:** Dessert italien",
+          "explanation": "Italian dessert",
+          "cultural_note": "Literally 'cooked cream' in Italian"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "\"Je me prends la tête, alors que personne ne veut rien faire\" : éco-anxieux, ils se demandent \"comment se faire entendre\" sans y laisser leur santé mentale",
       "original_article_link": "https://www.franceinfo.fr/environnement/crise-climatique/temoignages-je-me-prends-la-tete-alors-que-personne-ne-veut-rien-faire-eco-anxieux-ils-se-demandent-comment-se-faire-entendre-sans-y-laisser-leur-sante-mentale_7195059.html#xtor=RSS-3-[lestitres]",
       "original_article_published_date": "2025-06-22T05:01:04",
@@ -2917,6 +3594,117 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Cancer de la peau : posez vos questions, une oncodermatologue vous répondra dans notre émission",
+      "original_article_link": "https://www.ouest-france.fr/sante/cancer/cancer-de-la-peau-posez-vos-questions-une-oncodermatologue-vous-repondra-dans-notre-emission-234ae2b2-42af-11f0-aedb-e054fec24790?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T05:00:09",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Questions sur le cancer de la peau",
+      "simplified_english_title": "Questions about skin cancer",
+      "french_summary": "Une émission spéciale répondra à vos questions sur le cancer de la peau avec une oncodermatologue.",
+      "english_summary": "A special show will answer your questions about skin cancer with an oncodermatologist.",
+      "contextual_title_explanations": {
+        "Cancer": {
+          "display_format": "**Cancer:** Maladie grave",
+          "explanation": "Serious illness",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "peau": {
+          "display_format": "**peau:** Organe du corps",
+          "explanation": "Skin",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "posez": {
+          "display_format": "**posez:** Demandez",
+          "explanation": "Ask",
+          "cultural_note": ""
+        },
+        "vos": {
+          "display_format": "**vos:** Adjectif possessif",
+          "explanation": "Your",
+          "cultural_note": ""
+        },
+        "questions": {
+          "display_format": "**questions:** Interrogations",
+          "explanation": "Questions",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "oncodermatologue": {
+          "display_format": "**oncodermatologue:** Médecin spécialiste",
+          "explanation": "Skin cancer specialist",
+          "cultural_note": "Combines oncology and dermatology"
+        },
+        "vous": {
+          "display_format": "**vous:** Pronom personnel",
+          "explanation": "You",
+          "cultural_note": ""
+        },
+        "répondra": {
+          "display_format": "**répondra:** Répondre au futur",
+          "explanation": "Will answer",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "notre": {
+          "display_format": "**notre:** Adjectif possessif",
+          "explanation": "Our",
+          "cultural_note": ""
+        },
+        "émission": {
+          "display_format": "**émission:** Programme télévisé",
+          "explanation": "TV or radio show",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "«Vitesse excessive», zigzags entre les voitures et cannabis : le rappeur Koba LaD jugé pour un accident de la route mortel",
       "original_article_link": "https://www.lefigaro.fr/faits-divers/vitesse-excessive-zigzags-entre-les-voitures-et-cannabis-le-rappeur-koba-lad-juge-pour-un-accident-de-la-route-mortel-20250622",
       "original_article_published_date": "2025-06-22T05:00:00",
@@ -3171,6 +3959,102 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T05:18:28",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "MotoGP. À quelle heure et sur quelle chaîne TV suivre le Grand Prix d’Italie ?",
+      "original_article_link": "https://www.ouest-france.fr/sport/moto/motogp/motogp-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-grand-prix-ditalie-7c66f092-4eae-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T04:39:01",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Heure et chaîne pour le Grand Prix d’Italie MotoGP",
+      "simplified_english_title": "Time and channel for Italy MotoGP Grand Prix",
+      "french_summary": "Découvrez à quelle heure et sur quelle chaîne regarder le Grand Prix d’Italie de MotoGP ce week-end.",
+      "english_summary": "Find out the time and channel to watch the Italy MotoGP Grand Prix this weekend.",
+      "contextual_title_explanations": {
+        "MotoGP": {
+          "display_format": "**MotoGP:** Championnat de moto",
+          "explanation": "Motorcycle racing championship",
+          "cultural_note": "International motorcycle racing series"
+        },
+        "À": {
+          "display_format": "**À:** Préposition",
+          "explanation": "At, to",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**quelle:** Quel féminin",
+          "explanation": "Which, what (feminine)",
+          "cultural_note": ""
+        },
+        "heure": {
+          "display_format": "**heure:** Temps, moment",
+          "explanation": "Hour, time",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Préposition",
+          "explanation": "On",
+          "cultural_note": ""
+        },
+        "chaîne": {
+          "display_format": "**chaîne:** Chaîne de télévision",
+          "explanation": "Channel",
+          "cultural_note": ""
+        },
+        "TV": {
+          "display_format": "**TV:** Télévision",
+          "explanation": "Television",
+          "cultural_note": ""
+        },
+        "suivre": {
+          "display_format": "**suivre:** Regarder",
+          "explanation": "To follow, to watch",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Grand Prix": {
+          "display_format": "**Grand Prix:** Course importante",
+          "explanation": "Major race event",
+          "cultural_note": ""
+        },
+        "d’Italie": {
+          "display_format": "**d’Italie:** De l’Italie",
+          "explanation": "Of Italy",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d’interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -5547,6 +6431,97 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T04:29:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "EN IMAGES. Fête de la musique : malgré la chaleur, les Français au rendez-vous",
+      "original_article_link": "https://www.ouest-france.fr/culture/musiques/en-images-fete-de-la-musique-malgre-la-chaleur-les-francais-au-rendez-vous-0061d2e8-4ed4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T19:59:43",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français célèbrent la Fête de la Musique",
+      "simplified_english_title": "French celebrate Music Day despite heat",
+      "french_summary": "Malgré la chaleur, beaucoup de Français ont participé à la Fête de la Musique dans différentes villes.",
+      "english_summary": "Despite the heat, many French people participated in Music Day celebrations across various cities.",
+      "contextual_title_explanations": {
+        "EN IMAGES": {
+          "display_format": "**EN IMAGES:** En photos",
+          "explanation": "In pictures, illustrated",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Music festival, annual event",
+          "cultural_note": "Held on June 21st every year"
+        },
+        ":": {
+          "display_format": "**::** Deux-points",
+          "explanation": "Colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "malgré": {
+          "display_format": "**malgré:** En dépit de",
+          "explanation": "Despite, in spite of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Temps chaud",
+          "explanation": "Heat, hot weather",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, pause in sentence",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The, definite article plural",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** Habitants de la France",
+          "explanation": "French people",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "At the, contraction of à and le",
+          "cultural_note": ""
+        },
+        "rendez-vous": {
+          "display_format": "**rendez-vous:** Rencontre",
+          "explanation": "Appointment, meeting",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -8635,901 +9610,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T16:21:40",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Attentat de Magnanville : la perpétuité confirmée en appel pour Mohamed Lamine Aberouz",
-      "original_article_link": "https://www.nouvelobs.com/justice/20250621.OBS105170/attentat-de-magnanville-la-perpetuite-confirmee-en-appel-pour-mohamed-lamine-aberouz.html",
-      "original_article_published_date": "2025-06-21T15:25:49",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Peine confirmée pour l'attentat de Magnanville",
-      "simplified_english_title": "Sentence confirmed for Magnanville attack",
-      "french_summary": "La cour d'appel a confirmé la peine de prison à vie pour Mohamed Lamine Aberouz pour l'attentat de Magnanville.",
-      "english_summary": "The appeals court confirmed the life sentence for Mohamed Lamine Aberouz for the Magnanville attack.",
-      "contextual_title_explanations": {
-        "Attentat": {
-          "display_format": "**Attentat:** Acte violent",
-          "explanation": "Violent act, often terrorism",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition indicating possession or location",
-          "cultural_note": ""
-        },
-        "Magnanville": {
-          "display_format": "**Magnanville:** Ville française",
-          "explanation": "French town where the attack occurred",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article, the",
-          "cultural_note": ""
-        },
-        "perpétuité": {
-          "display_format": "**perpétuité:** Prison à vie",
-          "explanation": "Life imprisonment",
-          "cultural_note": ""
-        },
-        "confirmée": {
-          "display_format": "**confirmée:** Validée",
-          "explanation": "Confirmed, validated",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "Preposition indicating means or manner",
-          "cultural_note": ""
-        },
-        "appel": {
-          "display_format": "**appel:** Procédure judiciaire",
-          "explanation": "Appeal, legal procedure",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Préposition",
-          "explanation": "Preposition indicating purpose or recipient",
-          "cultural_note": ""
-        },
-        "Mohamed Lamine Aberouz": {
-          "display_format": "**Mohamed Lamine Aberouz:** Nom propre",
-          "explanation": "Name of the perpetrator",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T01:44:40",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Vague de chaleur : 38°C à Saintes, 37°C à Niort, 35°C à Rennes… Le pic de l'épisode de chaleur est atteint sur une grande moitie sud-ouest de l'Hexagone",
-      "original_article_link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/direct-vague-de-chaleur-seize-departements-maintenus-en-vigilance-orange-canicule-les-temperatures-vont-encore-grimper-samedi_7328202.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T15:23:52",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Il fait très chaud dans le sud-ouest",
-      "simplified_english_title": "Heatwave hits southwest France",
-      "french_summary": "Une vague de chaleur frappe le sud-ouest de la France avec des températures très élevées.",
-      "english_summary": "A heatwave is affecting southwest France with very high temperatures.",
-      "contextual_title_explanations": {
-        "Vague": {
-          "display_format": "**Vague:** Onde de chaleur",
-          "explanation": "Heatwave",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Particule de possession",
-          "explanation": "Of, indicating possession",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**chaleur:** Température élevée",
-          "explanation": "Heat, high temperature",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "38°C": {
-          "display_format": "**38°C:** Trente-huit degrés",
-          "explanation": "Thirty-eight degrees Celsius",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu",
-          "explanation": "At, in, indicating location",
-          "cultural_note": ""
-        },
-        "Saintes": {
-          "display_format": "**Saintes:** Ville française",
-          "explanation": "French town",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "37°C": {
-          "display_format": "**37°C:** Trente-sept degrés",
-          "explanation": "Thirty-seven degrees Celsius",
-          "cultural_note": ""
-        },
-        "Niort": {
-          "display_format": "**Niort:** Ville française",
-          "explanation": "French town",
-          "cultural_note": ""
-        },
-        "35°C": {
-          "display_format": "**35°C:** Trente-cinq degrés",
-          "explanation": "Thirty-five degrees Celsius",
-          "cultural_note": ""
-        },
-        "Rennes": {
-          "display_format": "**Rennes:** Ville française",
-          "explanation": "French town",
-          "cultural_note": ""
-        },
-        "…": {
-          "display_format": "**…:** Points de suspension",
-          "explanation": "Ellipsis",
-          "cultural_note": ""
-        },
-        "Le": {
-          "display_format": "**Le:** Article défini",
-          "explanation": "The, definite article",
-          "cultural_note": ""
-        },
-        "pic": {
-          "display_format": "**pic:** Point culminant",
-          "explanation": "Peak, highest point",
-          "cultural_note": ""
-        },
-        "l'épisode": {
-          "display_format": "**l'épisode:** Période de temps",
-          "explanation": "The episode, period of time",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**est:** Verbe être",
-          "explanation": "Is, form of 'to be'",
-          "cultural_note": ""
-        },
-        "atteint": {
-          "display_format": "**atteint:** Atteindre au présent",
-          "explanation": "Reached, present tense",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Préposition de lieu",
-          "explanation": "On, over, indicating location",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "A, indefinite article",
-          "cultural_note": ""
-        },
-        "grande": {
-          "display_format": "**grande:** Grand au féminin",
-          "explanation": "Large, feminine form",
-          "cultural_note": ""
-        },
-        "moitie": {
-          "display_format": "**moitie:** Partie égale",
-          "explanation": "Half, equal part",
-          "cultural_note": ""
-        },
-        "sud-ouest": {
-          "display_format": "**sud-ouest:** Direction",
-          "explanation": "Southwest, direction",
-          "cultural_note": ""
-        },
-        "l'Hexagone": {
-          "display_format": "**l'Hexagone:** Surnom de la France",
-          "explanation": "Nickname for France",
-          "cultural_note": "Due to its roughly hexagonal shape"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T16:21:40",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Policiers tués à Magnanville : perpétuité confirmée en appel pour Mohamed Lamine Aberouz",
-      "original_article_link": "https://www.la-croix.com/societe/policiers-tues-a-magnanville-perpetuite-confirmee-en-appel-pour-mohamed-lamine-aberouz-20250621",
-      "original_article_published_date": "2025-06-21T15:21:48",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Condamnation à perpétuité confirmée pour Aberouz",
-      "simplified_english_title": "Life sentence confirmed for Aberouz",
-      "french_summary": "La cour d'appel a confirmé la condamnation à perpétuité de Mohamed Lamine Aberouz pour le meurtre de policiers à Magnanville.",
-      "english_summary": "The appeals court confirmed the life sentence of Mohamed Lamine Aberouz for killing police officers in Magnanville.",
-      "contextual_title_explanations": {
-        "Policiers": {
-          "display_format": "**Policiers:** Agents de police",
-          "explanation": "Police officers",
-          "cultural_note": ""
-        },
-        "tués": {
-          "display_format": "**tués:** Mis à mort",
-          "explanation": "Killed",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition de lieu",
-          "explanation": "In/at (location)",
-          "cultural_note": ""
-        },
-        "Magnanville": {
-          "display_format": "**Magnanville:** Commune française",
-          "explanation": "French town",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "perpétuité": {
-          "display_format": "**perpétuité:** Prison à vie",
-          "explanation": "Life imprisonment",
-          "cultural_note": ""
-        },
-        "confirmée": {
-          "display_format": "**confirmée:** Validée",
-          "explanation": "Confirmed",
-          "cultural_note": ""
-        },
-        "en appel": {
-          "display_format": "**en appel:** En révision",
-          "explanation": "On appeal",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Concernant",
-          "explanation": "For/regarding",
-          "cultural_note": ""
-        },
-        "Mohamed Lamine Aberouz": {
-          "display_format": "**Mohamed Lamine Aberouz:** Nom propre",
-          "explanation": "Name of the perpetrator",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T21:16:29",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Basket: le Français Rudy Gobert forfait pour l'Euro",
-      "original_article_link": "https://www.rfi.fr/fr/sports/20250621-basket-le-fran%C3%A7ais-rudy-gobert-forfait-pour-l-euro",
-      "original_article_published_date": "2025-06-21T15:16:40",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Rudy Gobert ne jouera pas à l'Euro",
-      "simplified_english_title": "Rudy Gobert out of EuroBasket",
-      "french_summary": "Rudy Gobert, le joueur français de basket, ne participera pas à l'EuroBasket pour des raisons non précisées.",
-      "english_summary": "French basketball player Rudy Gobert will not participate in the EuroBasket for unspecified reasons.",
-      "contextual_title_explanations": {
-        "Basket": {
-          "display_format": "**Basket:** Sport de ballon",
-          "explanation": "Basketball in French",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "Français": {
-          "display_format": "**Français:** De France",
-          "explanation": "French, from France",
-          "cultural_note": ""
-        },
-        "Rudy Gobert": {
-          "display_format": "**Rudy Gobert:** Joueur de basket",
-          "explanation": "French basketball player",
-          "cultural_note": ""
-        },
-        "forfait": {
-          "display_format": "**forfait:** Ne participe pas",
-          "explanation": "Will not participate",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** À cause de",
-          "explanation": "For, because of",
-          "cultural_note": ""
-        },
-        "l'Euro": {
-          "display_format": "**l'Euro:** Championnat d'Europe",
-          "explanation": "European Championship",
-          "cultural_note": "Commonly used for European sports tournaments"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T01:44:40",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Assurance santé : une nouvelle mutuelle mise sur la prévention pour baisser le prix des séniors",
-      "original_article_link": "https://www.ouest-france.fr/economie/assurance/assurance-sante-une-nouvelle-mutuelle-mise-sur-la-prevention-pour-baisser-le-prix-des-seniors-20cca1f2-4da8-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-21T15:15:00",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Nouvelle assurance santé pour les seniors",
-      "simplified_english_title": "New health insurance for seniors",
-      "french_summary": "Une nouvelle mutuelle veut réduire les coûts pour les seniors en se concentrant sur la prévention.",
-      "english_summary": "A new insurance company aims to lower costs for seniors by focusing on prevention.",
-      "contextual_title_explanations": {
-        "Assurance": {
-          "display_format": "**Assurance:** Couverture",
-          "explanation": "Insurance or coverage",
-          "cultural_note": ""
-        },
-        "santé": {
-          "display_format": "**santé:** Santé",
-          "explanation": "Health",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Une",
-          "explanation": "A or an",
-          "cultural_note": ""
-        },
-        "nouvelle": {
-          "display_format": "**nouvelle:** Nouvelle",
-          "explanation": "New",
-          "cultural_note": ""
-        },
-        "mutuelle": {
-          "display_format": "**mutuelle:** Mutuelle",
-          "explanation": "Mutual insurance company",
-          "cultural_note": "Non-profit health insurance in France"
-        },
-        "mise": {
-          "display_format": "**mise:** Mise",
-          "explanation": "Bets or focuses",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Sur",
-          "explanation": "On or about",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** La",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "prévention": {
-          "display_format": "**prévention:** Prévention",
-          "explanation": "Prevention",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Pour",
-          "explanation": "For",
-          "cultural_note": ""
-        },
-        "baisser": {
-          "display_format": "**baisser:** Baisser",
-          "explanation": "Lower or reduce",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Le",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "prix": {
-          "display_format": "**prix:** Prix",
-          "explanation": "Price or cost",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Des",
-          "explanation": "Some or of the",
-          "cultural_note": ""
-        },
-        "séniors": {
-          "display_format": "**séniors:** Séniors",
-          "explanation": "Seniors or elderly",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T21:16:29",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Biélorussie : l’opposant Sergueï Tikhanovski est sorti de prison",
-      "original_article_link": "https://www.ouest-france.fr/europe/bielorussie/bielorussie-lopposant-serguei-tikhanovski-est-sorti-de-prison-86d6ac10-4eaf-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-21T15:11:40",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un opposant biélorusse est libéré de prison",
-      "simplified_english_title": "Belarus opposition figure released from prison",
-      "french_summary": "Sergueï Tikhanovski, un opposant politique en Biélorussie, a été libéré de prison après une longue détention.",
-      "english_summary": "Sergueï Tikhanovski, a political opponent in Belarus, has been released from prison after a long detention.",
-      "contextual_title_explanations": {
-        "Biélorussie": {
-          "display_format": "**Biélorussie:** Pays d'Europe de l'Est",
-          "explanation": "Country in Eastern Europe",
-          "cultural_note": "Also known as Belarus"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "l’opposant": {
-          "display_format": "**l’opposant:** Personne qui s'oppose",
-          "explanation": "Person who opposes",
-          "cultural_note": ""
-        },
-        "Sergueï Tikhanovski": {
-          "display_format": "**Sergueï Tikhanovski:** Nom d'une personne",
-          "explanation": "Name of a person",
-          "cultural_note": "Belarusian opposition figure"
-        },
-        "est sorti": {
-          "display_format": "**est sorti:** A quitté",
-          "explanation": "Has left",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Provenance",
-          "explanation": "From",
-          "cultural_note": ""
-        },
-        "prison": {
-          "display_format": "**prison:** Lieu de détention",
-          "explanation": "Place of detention",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Fête de la musique 2025 : grand concert autour de la vasque olympique à Paris",
-      "original_article_link": "https://www.europe1.fr/culture/fete-de-la-musique-2025-grand-concert-autour-de-la-vasque-olympique-a-paris-760450",
-      "original_article_published_date": "2025-06-21T15:01:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Concert pour la Fête de la Musique 2025 à Paris",
-      "simplified_english_title": "Music Day 2025 concert in Paris",
-      "french_summary": "Un grand concert aura lieu autour de la vasque olympique à Paris pour la Fête de la Musique en 2025.",
-      "english_summary": "A big concert will take place around the Olympic basin in Paris for Music Day in 2025.",
-      "contextual_title_explanations": {
-        "Fête de la musique": {
-          "display_format": "**Fête de la musique:** Célébration musicale",
-          "explanation": "Annual music festival",
-          "cultural_note": "Held on June 21st"
-        },
-        "2025": {
-          "display_format": "**2025:** Année",
-          "explanation": "Year of the event",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing details",
-          "cultural_note": ""
-        },
-        "grand concert": {
-          "display_format": "**grand concert:** Événement musical",
-          "explanation": "Large musical performance",
-          "cultural_note": ""
-        },
-        "autour de": {
-          "display_format": "**autour de:** Près de",
-          "explanation": "Around or near",
-          "cultural_note": ""
-        },
-        "la vasque olympique": {
-          "display_format": "**la vasque olympique:** Structure olympique",
-          "explanation": "Olympic basin or structure",
-          "cultural_note": "Symbolic site for events"
-        },
-        "à": {
-          "display_format": "**à:** Dans",
-          "explanation": "In or at",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** Capitale française",
-          "explanation": "Capital city of France",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La réouverture de la ligne Montréjeau-Luchon, petite voie vers la relance des trains régionaux",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/21/la-reouverture-de-la-ligne-montrejeau-luchon-petite-voie-vers-la-relance-des-trains-regionaux_6615094_3234.html",
-      "original_article_published_date": "2025-06-21T15:00:03",
-      "source_name": "Le Monde Economie",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La ligne Montréjeau-Luchon rouvre",
-      "simplified_english_title": "Montréjeau-Luchon train line reopens",
-      "french_summary": "La ligne de train entre Montréjeau et Luchon rouvre, ce qui est un bon signe pour les trains régionaux.",
-      "english_summary": "The train line between Montréjeau and Luchon reopens, which is a good sign for regional trains.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "réouverture": {
-          "display_format": "**réouverture:** Ouverture à nouveau",
-          "explanation": "Reopening",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of/from",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "ligne": {
-          "display_format": "**ligne:** Voie ferrée",
-          "explanation": "Railway line",
-          "cultural_note": ""
-        },
-        "Montréjeau-Luchon": {
-          "display_format": "**Montréjeau-Luchon:** Ligne ferroviaire",
-          "explanation": "Railway line name",
-          "cultural_note": "Connects Montréjeau and Luchon"
-        },
-        ",": {
-          "display_format": "****,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "petite": {
-          "display_format": "**petite:** Petit (féminin)",
-          "explanation": "Small (feminine)",
-          "cultural_note": ""
-        },
-        "voie": {
-          "display_format": "**voie:** Chemin",
-          "explanation": "Way/path",
-          "cultural_note": ""
-        },
-        "vers": {
-          "display_format": "**vers:** En direction de",
-          "explanation": "Towards",
-          "cultural_note": ""
-        },
-        "relance": {
-          "display_format": "**relance:** Redémarrage",
-          "explanation": "Restart/boost",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Some (plural)",
-          "cultural_note": ""
-        },
-        "trains": {
-          "display_format": "**trains:** Trains",
-          "explanation": "Trains",
-          "cultural_note": ""
-        },
-        "régionaux": {
-          "display_format": "**régionaux:** Locaux",
-          "explanation": "Regional",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Bélarus : l'opposant Sergueï Tikhanovski a été libéré de prison",
-      "original_article_link": "https://www.lefigaro.fr/international/belarus-l-opposant-serguei-tikhanovski-a-ete-libere-de-prison-20250621",
-      "original_article_published_date": "2025-06-21T14:59:54",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Sergueï Tikhanovski est libre",
-      "simplified_english_title": "Sergei Tikhanovski is free",
-      "french_summary": "Sergueï Tikhanovski, opposant biélorusse, a été libéré de prison après plusieurs années d'emprisonnement.",
-      "english_summary": "Sergei Tikhanovski, Belarusian opponent, has been released from prison after several years of imprisonment.",
-      "contextual_title_explanations": {
-        "Bélarus": {
-          "display_format": "**Bélarus:** Pays d'Europe de l'Est",
-          "explanation": "Country in Eastern Europe",
-          "cultural_note": "Also known as Belarus"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces related information",
-          "cultural_note": ""
-        },
-        "l'opposant": {
-          "display_format": "**l'opposant:** Personne qui s'oppose",
-          "explanation": "Opposition figure",
-          "cultural_note": ""
-        },
-        "Sergueï Tikhanovski": {
-          "display_format": "**Sergueï Tikhanovski:** Nom d'une personne",
-          "explanation": "Belarusian opposition figure",
-          "cultural_note": ""
-        },
-        "a été libéré": {
-          "display_format": "**a été libéré:** Être rendu libre",
-          "explanation": "Has been released",
-          "cultural_note": ""
-        },
-        "de prison": {
-          "display_format": "**de prison:** De la détention",
-          "explanation": "From prison",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "« Un peu gênant » : le président du judo français revient sur la brouille entre Riner et Tushishvili",
-      "original_article_link": "https://www.ouest-france.fr/sport/judo/un-peu-genant-le-president-du-judo-francais-revient-sur-la-brouille-entre-riner-et-tushishvili-88a4f7c2-4eaa-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-21T14:50:17",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Tensions entre Riner et Tushishvili au judo",
-      "simplified_english_title": "Tensions between Riner and Tushishvili in judo",
-      "french_summary": "Le président du judo français parle des tensions entre Riner et Tushishvili, les trouvant un peu gênantes.",
-      "english_summary": "The president of French judo discusses the tensions between Riner and Tushishvili, finding them a bit awkward.",
-      "contextual_title_explanations": {
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening French quotation mark",
-          "cultural_note": ""
-        },
-        "Un peu": {
-          "display_format": "**Un peu:** Un peu",
-          "explanation": "A little bit",
-          "cultural_note": ""
-        },
-        "gênant": {
-          "display_format": "**gênant:** Embarrassant",
-          "explanation": "Embarrassing or awkward",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing French quotation mark",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "le président": {
-          "display_format": "**le président:** Le chef",
-          "explanation": "The president or head",
-          "cultural_note": ""
-        },
-        "du judo français": {
-          "display_format": "**du judo français:** Du judo en France",
-          "explanation": "Of French judo",
-          "cultural_note": ""
-        },
-        "revient sur": {
-          "display_format": "**revient sur:** Reviens sur",
-          "explanation": "Returns to or revisits",
-          "cultural_note": ""
-        },
-        "la brouille": {
-          "display_format": "**la brouille:** La dispute",
-          "explanation": "The quarrel or disagreement",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**entre:** Entre",
-          "explanation": "Between",
-          "cultural_note": ""
-        },
-        "Riner": {
-          "display_format": "**Riner:** Nom de famille",
-          "explanation": "Last name of a French judoka",
-          "cultural_note": "Teddy Riner is a famous French judo athlete"
-        },
-        "et": {
-          "display_format": "**et:** Et",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "Tushishvili": {
-          "display_format": "**Tushishvili:** Nom de famille",
-          "explanation": "Last name of a Georgian judoka",
-          "cultural_note": "Guram Tushishvili is a Georgian judo athlete"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T23:17:27",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,

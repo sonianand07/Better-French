@@ -38229,6 +38229,981 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Ce n'était plus possible» : coupes budgétaires, pression, menaces... Les démissions de maires continuent de pleuvoir",
+      "original_article_link": "https://www.europe1.fr/politique/ce-netait-plus-possible-coupes-budgetaires-pression-menaces-les-demissions-de-maires-continuent-de-pleuvoir-760514",
+      "original_article_published_date": "2025-06-22T08:05:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les maires démissionnent de plus en plus",
+      "simplified_english_title": "More and more mayors are resigning",
+      "french_summary": "Les maires démissionnent à cause des coupes budgétaires, de la pression et des menaces. La situation devient difficile.",
+      "english_summary": "Mayors are resigning due to budget cuts, pressure, and threats. The situation is becoming difficult.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "French opening quotation mark",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**Ce:** Pronom démonstratif",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "n'était": {
+          "display_format": "**n'était:** Négation de l'imparfait",
+          "explanation": "Was not",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**plus:** Adverbe de négation",
+          "explanation": "No longer",
+          "cultural_note": ""
+        },
+        "possible»": {
+          "display_format": "**possible»:** Guillemet fermant",
+          "explanation": "Possible, closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "coupes": {
+          "display_format": "**coupes:** Réductions",
+          "explanation": "Cuts",
+          "cultural_note": ""
+        },
+        "budgétaires": {
+          "display_format": "**budgétaires:** Relatif au budget",
+          "explanation": "Budgetary",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "pression": {
+          "display_format": "**pression:** Stress",
+          "explanation": "Pressure",
+          "cultural_note": ""
+        },
+        "menaces...": {
+          "display_format": "**menaces...:** Menaces avec suspension",
+          "explanation": "Threats with ellipsis",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "démissions": {
+          "display_format": "**démissions:** Abandon de poste",
+          "explanation": "Resignations",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "To",
+          "cultural_note": ""
+        },
+        "maires": {
+          "display_format": "**maires:** Chef de commune",
+          "explanation": "Mayors",
+          "cultural_note": ""
+        },
+        "continuent": {
+          "display_format": "**continuent:** Persistent",
+          "explanation": "Continue",
+          "cultural_note": ""
+        },
+        "pleuvoir": {
+          "display_format": "**pleuvoir:** Tomber abondamment",
+          "explanation": "To rain, metaphorically",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Shoah : le retour des pianos pillés par les nazis aux familles juives",
+      "original_article_link": "https://www.france24.com/fr/france/20250622-shoah-le-retour-des-pianos-pill%C3%A9s-par-les-nazis-aux-familles-juives",
+      "original_article_published_date": "2025-06-22T08:19:10",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pianos volés par les nazis rendus aux familles",
+      "simplified_english_title": "Nazis' stolen pianos returned to families",
+      "french_summary": "Des pianos pris par les nazis pendant la guerre sont maintenant donnés aux familles juives.",
+      "english_summary": "Pianos taken by the Nazis during the war are now being returned to Jewish families.",
+      "contextual_title_explanations": {
+        "Shoah": {
+          "display_format": "**Shoah:** Génocide des Juifs",
+          "explanation": "Hebrew term for Holocaust",
+          "cultural_note": "Preferred term in France over 'Holocauste'"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces explanation or elaboration",
+          "cultural_note": ""
+        },
+        "le retour": {
+          "display_format": "**le retour:** Le retour",
+          "explanation": "The return",
+          "cultural_note": ""
+        },
+        "des pianos": {
+          "display_format": "**des pianos:** Des pianos",
+          "explanation": "Some pianos",
+          "cultural_note": ""
+        },
+        "pillés": {
+          "display_format": "**pillés:** Volés",
+          "explanation": "Past participle of 'to plunder'",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "les nazis": {
+          "display_format": "**les nazis:** Régime nazi",
+          "explanation": "The Nazis",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "familles juives": {
+          "display_format": "**familles juives:** Familles juives",
+          "explanation": "Jewish families",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fleurs, fruits et légumes : prêt pour un jardin 100 % comestible ?",
+      "original_article_link": "https://www.ouest-france.fr/jardin/fleurs-fruits-et-legumes-pret-pour-un-jardin-100-pourcent-comestible-ed7c5958-4d27-11f0-a24f-6696200c648a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:15:05",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un jardin où tout est comestible",
+      "simplified_english_title": "A garden where everything is edible",
+      "french_summary": "Découvrez comment créer un jardin où toutes les plantes sont comestibles, des fleurs aux légumes.",
+      "english_summary": "Learn how to create a garden where all plants, from flowers to vegetables, are edible.",
+      "contextual_title_explanations": {
+        "Fleurs": {
+          "display_format": "**Fleurs:** Plantes à fleurs",
+          "explanation": "Flowers; decorative plants",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma; separates items",
+          "cultural_note": ""
+        },
+        "fruits": {
+          "display_format": "**fruits:** Produits sucrés",
+          "explanation": "Fruits; sweet produce",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et aussi",
+          "explanation": "And; connects words",
+          "cultural_note": ""
+        },
+        "légumes": {
+          "display_format": "**légumes:** Plantes potagères",
+          "explanation": "Vegetables; garden plants",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon; introduces explanation",
+          "cultural_note": ""
+        },
+        "prêt": {
+          "display_format": "**prêt:** Prépare",
+          "explanation": "Ready; prepared",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For; in favor of",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Un seul",
+          "explanation": "A; one",
+          "cultural_note": ""
+        },
+        "jardin": {
+          "display_format": "**jardin:** Espace vert",
+          "explanation": "Garden; green space",
+          "cultural_note": ""
+        },
+        "100 %": {
+          "display_format": "**100 %:** Cent pour cent",
+          "explanation": "100 percent; fully",
+          "cultural_note": ""
+        },
+        "comestible": {
+          "display_format": "**comestible:** Qui peut être mangé",
+          "explanation": "Edible; can be eaten",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark; indicates question",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Léa Salamé se mettra \"en retrait\" du 20 Heures si Raphaël Glucksmann, son compagnon, se présente en 2027",
+      "original_article_link": "https://www.bfmtv.com/people/tv/lea-salame-se-mettra-en-retrait-du-20h00-si-raphael-glucksmann-son-compagnon-se-presente-en-2027_AD-202506220109.html",
+      "original_article_published_date": "2025-06-22T08:17:01",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Léa Salamé pourrait quitter le 20 Heures",
+      "simplified_english_title": "Léa Salamé may leave the 20 Heures",
+      "french_summary": "Léa Salamé quitte le 20 Heures si Raphaël Glucksmann, son compagnon, se présente en 2027.",
+      "english_summary": "Léa Salamé will leave the 20 Heures if her partner Raphaël Glucksmann runs in 2027.",
+      "contextual_title_explanations": {
+        "Léa Salamé": {
+          "display_format": "**Léa Salamé:** Journaliste française",
+          "explanation": "French journalist and TV presenter",
+          "cultural_note": "Known for political interviews"
+        },
+        "se mettra": {
+          "display_format": "**se mettra:** futur de se mettre",
+          "explanation": "will put herself",
+          "cultural_note": ""
+        },
+        "en retrait": {
+          "display_format": "**en retrait:** à l'écart",
+          "explanation": "on the sidelines, stepping back",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** de le",
+          "explanation": "of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "20 Heures": {
+          "display_format": "**20 Heures:** Journal télévisé",
+          "explanation": "8 PM news broadcast",
+          "cultural_note": "Major French TV news program"
+        },
+        "si": {
+          "display_format": "**si:** condition",
+          "explanation": "if",
+          "cultural_note": ""
+        },
+        "Raphaël Glucksmann": {
+          "display_format": "**Raphaël Glucksmann:** Essayiste français",
+          "explanation": "French essayist and political figure",
+          "cultural_note": ""
+        },
+        "son compagnon": {
+          "display_format": "**son compagnon:** son partenaire",
+          "explanation": "her partner",
+          "cultural_note": ""
+        },
+        "se présente": {
+          "display_format": "**se présente:** se porter candidat",
+          "explanation": "runs as a candidate",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** année",
+          "explanation": "in",
+          "cultural_note": ""
+        },
+        "2027": {
+          "display_format": "**2027:** année",
+          "explanation": "year 2027",
+          "cultural_note": "Next French presidential election year"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "TÉMOIGNAGE. «Attention aux voisins, ce sont les pires ! »Sur l’île d’Yeu, les rumeurs vont bon train",
+      "original_article_link": "https://www.ouest-france.fr/pays-de-la-loire/lile-dyeu-85350/temoignage-attention-aux-voisins-ce-sont-les-pires-sur-lile-dyeu-les-rumeurs-vont-bon-train-1b569546-bb79-11ef-b8b6-a281cdb12686?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:16:08",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attention aux rumeurs sur l'île d'Yeu",
+      "simplified_english_title": "Beware of rumors on the island of Yeu",
+      "french_summary": "Les habitants de l'île d'Yeu sont mis en garde contre les rumeurs et les conflits entre voisins.",
+      "english_summary": "Residents of the island of Yeu are warned about rumors and conflicts among neighbors.",
+      "contextual_title_explanations": {
+        "TÉMOIGNAGE": {
+          "display_format": "**TÉMOIGNAGE:** Récit personnel",
+          "explanation": "Testimony or personal account",
+          "cultural_note": "Often used in news headlines"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "« Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Attention": {
+          "display_format": "**Attention:** Prendre garde",
+          "explanation": "Warning or caution",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "voisins": {
+          "display_format": "**voisins:** Personnes proches",
+          "explanation": "Neighbors",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Cela",
+          "explanation": "This or that",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Être (pluriel)",
+          "explanation": "Are (plural)",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "pires": {
+          "display_format": "**pires:** Plus mauvais",
+          "explanation": "Worst",
+          "cultural_note": ""
+        },
+        "!": {
+          "display_format": "**!:** Point d'exclamation",
+          "explanation": "Exclamation mark",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "» Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "Sur": {
+          "display_format": "**Sur:** À propos de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "l’île": {
+          "display_format": "**l’île:** Île (féminin)",
+          "explanation": "The island",
+          "cultural_note": ""
+        },
+        "d’Yeu": {
+          "display_format": "**d’Yeu:** De l'île d'Yeu",
+          "explanation": "Of Yeu Island",
+          "cultural_note": "A small island off the west coast of France"
+        },
+        "rumeurs": {
+          "display_format": "**rumeurs:** Bruit qui court",
+          "explanation": "Rumors",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**vont:** Aller (pluriel)",
+          "explanation": "Go (plural)",
+          "cultural_note": ""
+        },
+        "bon": {
+          "display_format": "**bon:** Bien",
+          "explanation": "Good",
+          "cultural_note": ""
+        },
+        "train": {
+          "display_format": "**train:** Vitesse",
+          "explanation": "Speed or pace",
+          "cultural_note": "Common expression: 'aller bon train' means to go quickly"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pétanque. Championnat de France triplette 2025 : le programme de la phase finale du dimanche 22 juin",
+      "original_article_link": "https://www.ouest-france.fr/sport/petanque/petanque-championnat-de-france-triplette-2025-le-programme-de-la-phase-finale-du-dimanche-22-juin-edf61e9c-4f2e-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T06:19:00",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Finale du Championnat de France de pétanque 2025",
+      "simplified_english_title": "2025 French Pétanque Championship Final",
+      "french_summary": "La phase finale du Championnat de France triplette de pétanque aura lieu le dimanche 22 juin 2025.",
+      "english_summary": "The final phase of the French triplette pétanque championship will take place on Sunday, June 22, 2025.",
+      "contextual_title_explanations": {
+        "Pétanque": {
+          "display_format": "**Pétanque:** Sport de boules",
+          "explanation": "Traditional French ball game",
+          "cultural_note": "Popular in southern France"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Championnat de France": {
+          "display_format": "**Championnat de France:** Compétition nationale",
+          "explanation": "French national championship",
+          "cultural_note": ""
+        },
+        "triplette": {
+          "display_format": "**triplette:** Équipe de trois",
+          "explanation": "Team of three players",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year",
+          "cultural_note": ""
+        },
+        ": ": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "le programme": {
+          "display_format": "**le programme:** Plan détaillé",
+          "explanation": "Detailed schedule",
+          "cultural_note": ""
+        },
+        "de la phase finale": {
+          "display_format": "**de la phase finale:** Dernière étape",
+          "explanation": "Final stage",
+          "cultural_note": ""
+        },
+        "du dimanche": {
+          "display_format": "**du dimanche:** Jour de la semaine",
+          "explanation": "Day of the week",
+          "cultural_note": ""
+        },
+        "22 juin": {
+          "display_format": "**22 juin:** Date",
+          "explanation": "Date in June",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Chambre (très) insolite sur la côte de Granit de Rose : Anthenea et La panna cotta",
+      "original_article_link": "https://www.europe1.fr/emissions/les-sorties-du-week-end/chambre-tres-insolite-sur-la-cote-de-granit-de-rose-anthenea-et-la-panna-cotta-760495",
+      "original_article_published_date": "2025-06-22T05:05:37",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Chambre insolite sur la côte de Granit Rose",
+      "simplified_english_title": "Unique room on the Pink Granite Coast",
+      "french_summary": "Une chambre insolite appelée Anthenea et La panna cotta se trouve sur la côte de Granit Rose.",
+      "english_summary": "A unique room named Anthenea and La panna cotta is located on the Pink Granite Coast.",
+      "contextual_title_explanations": {
+        "Chambre": {
+          "display_format": "**Chambre:** Pièce pour dormir",
+          "explanation": "Room, often a bedroom",
+          "cultural_note": ""
+        },
+        "(très)": {
+          "display_format": "**très:** Beaucoup",
+          "explanation": "Very, extremely",
+          "cultural_note": ""
+        },
+        "insolite": {
+          "display_format": "**insolite:** Inhabituel",
+          "explanation": "Unusual, out of the ordinary",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On, above",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "côte": {
+          "display_format": "**côte:** Littoral",
+          "explanation": "Coast",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Possession",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "Granit": {
+          "display_format": "**Granit:** Roche dure",
+          "explanation": "Granite",
+          "cultural_note": ""
+        },
+        "Rose": {
+          "display_format": "**Rose:** Couleur",
+          "explanation": "Pink",
+          "cultural_note": ""
+        },
+        "Anthenea": {
+          "display_format": "**Anthenea:** Nom propre",
+          "explanation": "Name of a place or establishment",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "La panna cotta": {
+          "display_format": "**La panna cotta:** Dessert italien",
+          "explanation": "Italian dessert",
+          "cultural_note": "Literally 'cooked cream' in Italian"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "MotoGP. À quelle heure et sur quelle chaîne TV suivre le Grand Prix d’Italie ?",
+      "original_article_link": "https://www.ouest-france.fr/sport/moto/motogp/motogp-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-grand-prix-ditalie-7c66f092-4eae-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T04:39:01",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Heure et chaîne pour le Grand Prix d’Italie MotoGP",
+      "simplified_english_title": "Time and channel for Italy MotoGP Grand Prix",
+      "french_summary": "Découvrez à quelle heure et sur quelle chaîne regarder le Grand Prix d’Italie de MotoGP ce week-end.",
+      "english_summary": "Find out the time and channel to watch the Italy MotoGP Grand Prix this weekend.",
+      "contextual_title_explanations": {
+        "MotoGP": {
+          "display_format": "**MotoGP:** Championnat de moto",
+          "explanation": "Motorcycle racing championship",
+          "cultural_note": "International motorcycle racing series"
+        },
+        "À": {
+          "display_format": "**À:** Préposition",
+          "explanation": "At, to",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**quelle:** Quel féminin",
+          "explanation": "Which, what (feminine)",
+          "cultural_note": ""
+        },
+        "heure": {
+          "display_format": "**heure:** Temps, moment",
+          "explanation": "Hour, time",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Préposition",
+          "explanation": "On",
+          "cultural_note": ""
+        },
+        "chaîne": {
+          "display_format": "**chaîne:** Chaîne de télévision",
+          "explanation": "Channel",
+          "cultural_note": ""
+        },
+        "TV": {
+          "display_format": "**TV:** Télévision",
+          "explanation": "Television",
+          "cultural_note": ""
+        },
+        "suivre": {
+          "display_format": "**suivre:** Regarder",
+          "explanation": "To follow, to watch",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Grand Prix": {
+          "display_format": "**Grand Prix:** Course importante",
+          "explanation": "Major race event",
+          "cultural_note": ""
+        },
+        "d’Italie": {
+          "display_format": "**d’Italie:** De l’Italie",
+          "explanation": "Of Italy",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d’interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "EN IMAGES. Fête de la musique : malgré la chaleur, les Français au rendez-vous",
+      "original_article_link": "https://www.ouest-france.fr/culture/musiques/en-images-fete-de-la-musique-malgre-la-chaleur-les-francais-au-rendez-vous-0061d2e8-4ed4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T19:59:43",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français célèbrent la Fête de la Musique",
+      "simplified_english_title": "French celebrate Music Day despite heat",
+      "french_summary": "Malgré la chaleur, beaucoup de Français ont participé à la Fête de la Musique dans différentes villes.",
+      "english_summary": "Despite the heat, many French people participated in Music Day celebrations across various cities.",
+      "contextual_title_explanations": {
+        "EN IMAGES": {
+          "display_format": "**EN IMAGES:** En photos",
+          "explanation": "In pictures, illustrated",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Music festival, annual event",
+          "cultural_note": "Held on June 21st every year"
+        },
+        ":": {
+          "display_format": "**::** Deux-points",
+          "explanation": "Colon, introduces explanation",
+          "cultural_note": ""
+        },
+        "malgré": {
+          "display_format": "**malgré:** En dépit de",
+          "explanation": "Despite, in spite of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The, definite article",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Temps chaud",
+          "explanation": "Heat, hot weather",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, pause in sentence",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The, definite article plural",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** Habitants de la France",
+          "explanation": "French people",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "At the, contraction of à and le",
+          "cultural_note": ""
+        },
+        "rendez-vous": {
+          "display_format": "**rendez-vous:** Rencontre",
+          "explanation": "Appointment, meeting",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Cancer de la peau : posez vos questions, une oncodermatologue vous répondra dans notre émission",
+      "original_article_link": "https://www.ouest-france.fr/sante/cancer/cancer-de-la-peau-posez-vos-questions-une-oncodermatologue-vous-repondra-dans-notre-emission-234ae2b2-42af-11f0-aedb-e054fec24790?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T05:00:09",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Questions sur le cancer de la peau",
+      "simplified_english_title": "Questions about skin cancer",
+      "french_summary": "Une émission spéciale répondra à vos questions sur le cancer de la peau avec une oncodermatologue.",
+      "english_summary": "A special show will answer your questions about skin cancer with an oncodermatologist.",
+      "contextual_title_explanations": {
+        "Cancer": {
+          "display_format": "**Cancer:** Maladie grave",
+          "explanation": "Serious illness",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "peau": {
+          "display_format": "**peau:** Organe du corps",
+          "explanation": "Skin",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "posez": {
+          "display_format": "**posez:** Demandez",
+          "explanation": "Ask",
+          "cultural_note": ""
+        },
+        "vos": {
+          "display_format": "**vos:** Adjectif possessif",
+          "explanation": "Your",
+          "cultural_note": ""
+        },
+        "questions": {
+          "display_format": "**questions:** Interrogations",
+          "explanation": "Questions",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "oncodermatologue": {
+          "display_format": "**oncodermatologue:** Médecin spécialiste",
+          "explanation": "Skin cancer specialist",
+          "cultural_note": "Combines oncology and dermatology"
+        },
+        "vous": {
+          "display_format": "**vous:** Pronom personnel",
+          "explanation": "You",
+          "cultural_note": ""
+        },
+        "répondra": {
+          "display_format": "**répondra:** Répondre au futur",
+          "explanation": "Will answer",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "notre": {
+          "display_format": "**notre:** Adjectif possessif",
+          "explanation": "Our",
+          "cultural_note": ""
+        },
+        "émission": {
+          "display_format": "**émission:** Programme télévisé",
+          "explanation": "TV or radio show",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:23:03",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
