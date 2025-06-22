@@ -316,8 +316,15 @@
             // Build content
             let content = `<strong class="word-display">${this.escapeHtml(data.display)}</strong>`;
             
+            // Only show explanation if it adds information beyond the bold text.
             if (data.explanation) {
-                content += `<p class="definition">${this.escapeHtml(data.explanation)}</p>`;
+                const disp = data.display.trim().toLowerCase();
+                const expl = data.explanation.trim().toLowerCase();
+                // Ignore trailing punctuation differences (period/comma)
+                const normalise = (str) => str.replace(/[.,;:!?]$/g, '').trim();
+                if (normalise(expl) !== normalise(disp)) {
+                    content += `<p class="definition">${this.escapeHtml(data.explanation)}</p>`;
+                }
             }
             
             if (data.note) {
