@@ -31419,6 +31419,981 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les États-Unis ont bombardé trois sites nucléaires iraniens, dont celui de Fordo, selon Trump",
+      "original_article_link": "https://www.france24.com/fr/info-en-continu/20250622-les-%C3%A9tats-unis-ont-bombard%C3%A9-trois-sites-nucl%C3%A9aires-iraniens-dont-celui-de-fordo-selon-trump",
+      "original_article_published_date": "2025-06-22T00:08:27",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent des sites nucléaires en Iran",
+      "simplified_english_title": "US attacks nuclear sites in Iran",
+      "french_summary": "Les États-Unis ont bombardé trois sites nucléaires en Iran, selon une déclaration de l'ancien président Trump.",
+      "english_summary": "The United States bombed three nuclear sites in Iran, according to a statement by former President Trump.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays en Amérique",
+          "explanation": "United States of America",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Auxiliaire avoir",
+          "explanation": "Have (auxiliary verb)",
+          "cultural_note": ""
+        },
+        "bombardé": {
+          "display_format": "**bombardé:** Attaqué avec des bombes",
+          "explanation": "Bombed (past participle)",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**trois:** Nombre 3",
+          "explanation": "Three",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux spécifiques",
+          "explanation": "Sites",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Relatif au nucléaire",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        },
+        "iraniens": {
+          "display_format": "**iraniens:** Relatif à l'Iran",
+          "explanation": "Iranian",
+          "cultural_note": ""
+        },
+        "dont": {
+          "display_format": "**dont:** Dont",
+          "explanation": "Of which",
+          "cultural_note": ""
+        },
+        "celui": {
+          "display_format": "**celui:** Pronom démonstratif",
+          "explanation": "That one",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "Fordo": {
+          "display_format": "**Fordo:** Site nucléaire iranien",
+          "explanation": "Fordo nuclear site",
+          "cultural_note": "Important Iranian nuclear facility"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**selon:** D'après",
+          "explanation": "According to",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Former US President",
+          "cultural_note": "Donald Trump"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Santé: les Français dorment 41 minutes de moins qu'en 2020",
+      "original_article_link": "https://www.bfmtv.com/sante/video-sante-les-francais-dorment-41-minutes-de-moins-qu-en-2020_VN-202506210098.html",
+      "original_article_published_date": "2025-06-21T06:32:52",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français dorment moins qu'en 2020",
+      "simplified_english_title": "French sleep less than in 2020",
+      "french_summary": "Une étude montre que les Français dorment 41 minutes de moins par nuit qu'en 2020, ce qui inquiète les experts en santé.",
+      "english_summary": "A study shows the French sleep 41 minutes less per night than in 2020, worrying health experts.",
+      "contextual_title_explanations": {
+        "Santé": {
+          "display_format": "**Santé:** Sujet principal",
+          "explanation": "Health, main topic of article",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** Habitants de la France",
+          "explanation": "French people",
+          "cultural_note": ""
+        },
+        "dorment": {
+          "display_format": "**dorment:** Verbe dormir",
+          "explanation": "Sleep, third person plural",
+          "cultural_note": ""
+        },
+        "41": {
+          "display_format": "**41:** Nombre",
+          "explanation": "Number forty-one",
+          "cultural_note": ""
+        },
+        "minutes": {
+          "display_format": "**minutes:** Unité de temps",
+          "explanation": "Minutes, unit of time",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition, 'of' or 'than'",
+          "cultural_note": ""
+        },
+        "moins": {
+          "display_format": "**moins:** Comparaison",
+          "explanation": "Less, used in comparison",
+          "cultural_note": ""
+        },
+        "qu'en": {
+          "display_format": "**qu'en:** que + en",
+          "explanation": "Contraction of 'que' and 'en'",
+          "cultural_note": ""
+        },
+        "2020": {
+          "display_format": "**2020:** Année",
+          "explanation": "Year two thousand twenty",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Basket: le Français Rudy Gobert forfait pour l'Euro",
+      "original_article_link": "https://www.rfi.fr/fr/sports/20250621-basket-le-fran%C3%A7ais-rudy-gobert-forfait-pour-l-euro",
+      "original_article_published_date": "2025-06-21T15:16:40",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rudy Gobert ne jouera pas à l'Euro",
+      "simplified_english_title": "Rudy Gobert out of EuroBasket",
+      "french_summary": "Rudy Gobert, le joueur français de basket, ne participera pas à l'EuroBasket pour des raisons non précisées.",
+      "english_summary": "French basketball player Rudy Gobert will not participate in the EuroBasket for unspecified reasons.",
+      "contextual_title_explanations": {
+        "Basket": {
+          "display_format": "**Basket:** Sport de ballon",
+          "explanation": "Basketball in French",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** De France",
+          "explanation": "French, from France",
+          "cultural_note": ""
+        },
+        "Rudy Gobert": {
+          "display_format": "**Rudy Gobert:** Joueur de basket",
+          "explanation": "French basketball player",
+          "cultural_note": ""
+        },
+        "forfait": {
+          "display_format": "**forfait:** Ne participe pas",
+          "explanation": "Will not participate",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** À cause de",
+          "explanation": "For, because of",
+          "cultural_note": ""
+        },
+        "l'Euro": {
+          "display_format": "**l'Euro:** Championnat d'Europe",
+          "explanation": "European Championship",
+          "cultural_note": "Commonly used for European sports tournaments"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Basket (F) : les Bleues atomisent la Suisse avec... 74 points d’écart avant d’attaquer les quarts de finale de l’Euro",
+      "original_article_link": "https://www.lefigaro.fr/sports/basket/basket-f-les-bleues-atomisent-la-suisse-avant-d-attaquer-les-quarts-de-finale-de-l-euro-20250621",
+      "original_article_published_date": "2025-06-21T16:13:30",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'équipe de France bat la Suisse au basket",
+      "simplified_english_title": "France beats Switzerland in basketball",
+      "french_summary": "L'équipe de France féminine de basket a gagné contre la Suisse avec 74 points d'écart avant les quarts de finale de l'Euro.",
+      "english_summary": "The French women's basketball team won against Switzerland with a 74-point lead before the Euro quarter-finals.",
+      "contextual_title_explanations": {
+        "Basket (F)": {
+          "display_format": "**Basket (F):** Basket féminin",
+          "explanation": "Women's basketball",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "les Bleues": {
+          "display_format": "**les Bleues:** Équipe de France féminine",
+          "explanation": "French women's national team",
+          "cultural_note": "Nickname for French female sports teams"
+        },
+        "atomisent": {
+          "display_format": "**atomisent:** écrasent complètement",
+          "explanation": "Completely dominate or crush",
+          "cultural_note": ""
+        },
+        "la Suisse": {
+          "display_format": "**la Suisse:** Pays européen",
+          "explanation": "Switzerland, a European country",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** en ayant",
+          "explanation": "With, having",
+          "cultural_note": ""
+        },
+        "74 points d’écart": {
+          "display_format": "**74 points d’écart:** Différence de score",
+          "explanation": "Score difference of 74 points",
+          "cultural_note": ""
+        },
+        "avant de": {
+          "display_format": "**avant de:** avant le moment de",
+          "explanation": "Before the moment of",
+          "cultural_note": ""
+        },
+        "d’attaquer": {
+          "display_format": "**d’attaquer:** commencer",
+          "explanation": "To start or begin",
+          "cultural_note": ""
+        },
+        "les quarts de finale": {
+          "display_format": "**les quarts de finale:** Phase de compétition",
+          "explanation": "Quarterfinals, competition stage",
+          "cultural_note": ""
+        },
+        "de l’Euro": {
+          "display_format": "**de l’Euro:** Championnat d’Europe",
+          "explanation": "European Championship",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. « La cantine scolaire, ça reste une boîte noire » : les coulisses des repas des enfants",
+      "original_article_link": "https://www.ouest-france.fr/societe/alimentatio/entretien-la-cantine-scolaire-ca-reste-une-boite-noire-les-coulisses-des-repas-des-enfants-a0958e0a-363b-11f0-bf6c-240af7605eff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T04:45:26",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les cantines scolaires restent mystérieuses",
+      "simplified_english_title": "School cafeterias remain mysterious",
+      "french_summary": "Les cantines scolaires sont souvent méconnues, mais voici un aperçu de leur fonctionnement et des repas des enfants.",
+      "english_summary": "School cafeterias are often unknown, but here is an overview of how they work and the children's meals.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**ENTRETIEN:** Interview",
+          "explanation": "A conversation with someone",
+          "cultural_note": "Often used in journalism"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**La:** Article défini",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "cantine scolaire": {
+          "display_format": "**cantine scolaire:** Restaurant scolaire",
+          "explanation": "School cafeteria",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "ça": {
+          "display_format": "**ça:** Cela",
+          "explanation": "That (informal)",
+          "cultural_note": ""
+        },
+        "reste": {
+          "display_format": "**reste:** Demeurer",
+          "explanation": "Remains",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "A (feminine singular)",
+          "cultural_note": ""
+        },
+        "boîte noire": {
+          "display_format": "**boîte noire:** Enregistreur de vol",
+          "explanation": "Black box",
+          "cultural_note": "Metaphor for something mysterious"
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "coulisses": {
+          "display_format": "**coulisses:** Backstage",
+          "explanation": "Behind the scenes",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Some (plural)",
+          "cultural_note": ""
+        },
+        "repas": {
+          "display_format": "**repas:** Meal",
+          "explanation": "Food served at a specific time",
+          "cultural_note": ""
+        },
+        "enfants": {
+          "display_format": "**enfants:** Children",
+          "explanation": "Young humans",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Basket : pourquoi Rudy Gobert déclare forfait pour l’Euro avec les Bleus",
+      "original_article_link": "https://www.lefigaro.fr/sports/basket/basket-pourquoi-rudy-gobert-declare-forfait-pour-l-euro-avec-les-bleus-20250621",
+      "original_article_published_date": "2025-06-21T12:31:36",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rudy Gobert ne joue pas à l’Euro avec la France",
+      "simplified_english_title": "Rudy Gobert skips EuroBasket with France",
+      "french_summary": "Rudy Gobert ne participera pas à l’EuroBasket avec l’équipe de France pour des raisons personnelles.",
+      "english_summary": "Rudy Gobert will not play in the EuroBasket with the French team for personal reasons.",
+      "contextual_title_explanations": {
+        "Basket": {
+          "display_format": "**Basket:** Sport",
+          "explanation": "Basketball",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces explanation",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**pourquoi:** Pourquoi",
+          "explanation": "Why",
+          "cultural_note": ""
+        },
+        "Rudy Gobert": {
+          "display_format": "**Rudy Gobert:** Joueur de basket",
+          "explanation": "French basketball player",
+          "cultural_note": ""
+        },
+        "déclare": {
+          "display_format": "**déclare:** Annonce",
+          "explanation": "Declares or announces",
+          "cultural_note": ""
+        },
+        "forfait": {
+          "display_format": "**forfait:** Abandon",
+          "explanation": "Withdrawal or forfeit",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "l’Euro": {
+          "display_format": "**l’Euro:** Championnat d'Europe",
+          "explanation": "European Championship",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Avec",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "les Bleus": {
+          "display_format": "**les Bleus:** Équipe de France",
+          "explanation": "French national team",
+          "cultural_note": "Nickname for French sports teams"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attentat de Magnanville : la perpétuité confirmée en appel pour Mohamed Lamine Aberouz",
+      "original_article_link": "https://www.nouvelobs.com/justice/20250621.OBS105170/attentat-de-magnanville-la-perpetuite-confirmee-en-appel-pour-mohamed-lamine-aberouz.html",
+      "original_article_published_date": "2025-06-21T15:25:49",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Peine confirmée pour l'attentat de Magnanville",
+      "simplified_english_title": "Sentence confirmed for Magnanville attack",
+      "french_summary": "La cour d'appel a confirmé la peine de prison à vie pour Mohamed Lamine Aberouz pour l'attentat de Magnanville.",
+      "english_summary": "The appeals court confirmed the life sentence for Mohamed Lamine Aberouz for the Magnanville attack.",
+      "contextual_title_explanations": {
+        "Attentat": {
+          "display_format": "**Attentat:** Acte violent",
+          "explanation": "Violent act, often terrorism",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession or location",
+          "cultural_note": ""
+        },
+        "Magnanville": {
+          "display_format": "**Magnanville:** Ville française",
+          "explanation": "French town where the attack occurred",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, the",
+          "cultural_note": ""
+        },
+        "perpétuité": {
+          "display_format": "**perpétuité:** Prison à vie",
+          "explanation": "Life imprisonment",
+          "cultural_note": ""
+        },
+        "confirmée": {
+          "display_format": "**confirmée:** Validée",
+          "explanation": "Confirmed, validated",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition indicating means or manner",
+          "cultural_note": ""
+        },
+        "appel": {
+          "display_format": "**appel:** Procédure judiciaire",
+          "explanation": "Appeal, legal procedure",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "Preposition indicating purpose or recipient",
+          "cultural_note": ""
+        },
+        "Mohamed Lamine Aberouz": {
+          "display_format": "**Mohamed Lamine Aberouz:** Nom propre",
+          "explanation": "Name of the perpetrator",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rugby. « Rien de très fun » : Antoine Dupont donne de ses nouvelles après sa grave blessure au genou",
+      "original_article_link": "https://www.ouest-france.fr/sport/rugby/antoine-dupont/rugby-rien-de-tres-fun-antoine-dupont-donne-de-ses-nouvelles-apres-sa-grave-blessure-au-genou-2e791642-4e6a-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T06:47:42",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Antoine Dupont parle de sa blessure au genou",
+      "simplified_english_title": "Antoine Dupont talks about his knee injury",
+      "french_summary": "Antoine Dupont a donné des nouvelles après sa grave blessure au genou, disant que ce n'était pas très amusant.",
+      "english_summary": "Antoine Dupont gave an update after his serious knee injury, saying it was not very fun.",
+      "contextual_title_explanations": {
+        "Rugby": {
+          "display_format": "**Rugby:** Sport de ballon",
+          "explanation": "Ball sport with oval ball",
+          "cultural_note": "Popular sport in France"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Rien": {
+          "display_format": "**Rien:** Pas quelque chose",
+          "explanation": "Nothing",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "très": {
+          "display_format": "**très:** Beaucoup",
+          "explanation": "Very",
+          "cultural_note": ""
+        },
+        "fun": {
+          "display_format": "**fun:** Amusant",
+          "explanation": "Fun",
+          "cultural_note": "English word used in French"
+        },
+        "»": {
+          "display_format": "»**:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "Antoine Dupont": {
+          "display_format": "**Antoine Dupont:** Joueur de rugby",
+          "explanation": "French rugby player",
+          "cultural_note": "Captain of the French rugby team"
+        },
+        "donne": {
+          "display_format": "**donne:** Fournir",
+          "explanation": "Gives",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif",
+          "explanation": "His or her",
+          "cultural_note": ""
+        },
+        "nouvelles": {
+          "display_format": "**nouvelles:** Informations",
+          "explanation": "News",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Ensuite",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "His or her",
+          "cultural_note": ""
+        },
+        "grave": {
+          "display_format": "**grave:** Sérieux",
+          "explanation": "Serious",
+          "cultural_note": ""
+        },
+        "blessure": {
+          "display_format": "**blessure:** Dommage corporel",
+          "explanation": "Injury",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "genou": {
+          "display_format": "**genou:** Articulation",
+          "explanation": "Knee",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "XV de France. « Bravo aux joueurs »: Fabien Galthié heureux de la victoire des Bleus en Angleterre",
+      "original_article_link": "https://www.ouest-france.fr/sport/rugby/equipe-de-france/xv-de-france-bravo-aux-joueurs-fabien-galthie-heureux-de-la-victoire-des-bleus-en-angleterre-0c855a34-4ecc-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-21T18:42:42",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Galthié félicite les Bleus pour leur victoire",
+      "simplified_english_title": "Galthié praises France's rugby victory",
+      "french_summary": "Fabien Galthié a exprimé sa joie après la victoire de l'équipe de France de rugby en Angleterre.",
+      "english_summary": "Fabien Galthié expressed his joy after France's rugby team won in England.",
+      "contextual_title_explanations": {
+        "XV de France": {
+          "display_format": "**XV de France:** Équipe nationale de rugby",
+          "explanation": "French national rugby team",
+          "cultural_note": "XV represents the 15 players"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period, end of sentence",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Bravo aux joueurs": {
+          "display_format": "**Bravo aux joueurs:** Félicitations aux joueurs",
+          "explanation": "Congratulations to the players",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Fabien Galthié": {
+          "display_format": "**Fabien Galthié:** Entraîneur de rugby",
+          "explanation": "French rugby coach",
+          "cultural_note": ""
+        },
+        "heureux": {
+          "display_format": "**heureux:** Content",
+          "explanation": "Happy",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Du, de la",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "victoire": {
+          "display_format": "**victoire:** Succès",
+          "explanation": "Victory",
+          "cultural_note": ""
+        },
+        "des Bleus": {
+          "display_format": "**des Bleus:** Surnom de l'équipe de France",
+          "explanation": "Nickname for French team",
+          "cultural_note": "Refers to the team's blue jerseys"
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Angleterre": {
+          "display_format": "**Angleterre:** Pays",
+          "explanation": "England",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "INFO BFMTV. Meurtre dans une mosquée du Gard: Olivier H. a été sorti de prison et hospitalisé en centre psychiatrique",
+      "original_article_link": "https://www.bfmtv.com/police-justice/info-bfmtv-meurtre-dans-une-mosquee-du-gard-olivier-h-a-ete-sorti-de-prison-et-hospitalise-en-centre-psychiatrique_AN-202506210275.html",
+      "original_article_published_date": "2025-06-21T17:06:46",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un homme tue dans une mosquée et va à l'hôpital",
+      "simplified_english_title": "Man kills in mosque, sent to psychiatric hospital",
+      "french_summary": "Olivier H. a tué une personne dans une mosquée. Après la prison, il est maintenant dans un hôpital psychiatrique.",
+      "english_summary": "Olivier H. killed a person in a mosque. After prison, he is now in a psychiatric hospital.",
+      "contextual_title_explanations": {
+        "INFO BFMTV": {
+          "display_format": "**INFO BFMTV:** Information BFMTV",
+          "explanation": "News from BFMTV channel",
+          "cultural_note": "BFMTV is a major French news channel"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Meurtre": {
+          "display_format": "**Meurtre:** Homicide",
+          "explanation": "Murder or killing",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** à l'intérieur de",
+          "explanation": "Inside or within",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** une (article indéfini)",
+          "explanation": "Indefinite article for feminine words",
+          "cultural_note": ""
+        },
+        "mosquée": {
+          "display_format": "**mosquée:** Lieu de culte musulman",
+          "explanation": "Muslim place of worship",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** de le",
+          "explanation": "Combined preposition and article",
+          "cultural_note": ""
+        },
+        "Gard": {
+          "display_format": "**Gard:** Département français",
+          "explanation": "French department in Occitanie",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Olivier H.": {
+          "display_format": "**Olivier H.:** Nom d'une personne",
+          "explanation": "Name of the person involved",
+          "cultural_note": "Initials often used in French news for privacy"
+        },
+        "a été sorti": {
+          "display_format": "**a été sorti:** a quitté",
+          "explanation": "Has been taken out",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** provenance",
+          "explanation": "From or out of",
+          "cultural_note": ""
+        },
+        "prison": {
+          "display_format": "**prison:** Établissement pénitentiaire",
+          "explanation": "Penal institution",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et (conjonction)",
+          "explanation": "And (conjunction)",
+          "cultural_note": ""
+        },
+        "hospitalisé": {
+          "display_format": "**hospitalisé:** admis à l'hôpital",
+          "explanation": "Admitted to hospital",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans un",
+          "explanation": "In a",
+          "cultural_note": ""
+        },
+        "centre psychiatrique": {
+          "display_format": "**centre psychiatrique:** Hôpital psychiatrique",
+          "explanation": "Psychiatric hospital",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T01:44:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
