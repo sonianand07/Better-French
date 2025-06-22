@@ -3,6 +3,946 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Attaque d’Israël contre l’Iran : les ressorts de l’opération « Rising Lion »",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/22/attaque-d-israel-contre-l-iran-les-ressorts-de-l-operation-rising-lion_6615272_3210.html",
+      "original_article_published_date": "2025-06-22T08:00:31",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël attaque l'Iran : opération « Rising Lion »",
+      "simplified_english_title": "Israel attacks Iran: Operation Rising Lion",
+      "french_summary": "Israël a lancé une attaque contre l'Iran appelée « Rising Lion ». Cette opération est une réponse à des tensions récentes.",
+      "english_summary": "Israel launched an attack on Iran called « Rising Lion ». This operation responds to recent tensions.",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "d’Israël": {
+          "display_format": "**d’Israël:** De l'État d'Israël",
+          "explanation": "Of Israel",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against",
+          "cultural_note": ""
+        },
+        "l’Iran": {
+          "display_format": "**l’Iran:** Pays du Moyen-Orient",
+          "explanation": "Iran, a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les ressorts": {
+          "display_format": "**les ressorts:** Les causes",
+          "explanation": "The reasons or causes",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "l’opération": {
+          "display_format": "**l’opération:** Action militaire",
+          "explanation": "The military operation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Rising Lion": {
+          "display_format": "**Rising Lion:** Nom de l'opération",
+          "explanation": "Name of the operation",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "RENCONTRE. De la scène à la télévision : Jarry, l’humour « qui fait du bien »",
+      "original_article_link": "https://www.ouest-france.fr/culture/rencontre-de-la-scene-a-la-television-jarry-lhumour-qui-fait-du-bien-79c14f5e-4b75-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T08:00:06",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Jarry passe de la scène à la télévision",
+      "simplified_english_title": "Jarry moves from stage to television",
+      "french_summary": "Jarry, connu pour son humour, passe de la scène à la télévision. Son style fait du bien au public.",
+      "english_summary": "Jarry, known for his humor, moves from stage to TV. His style uplifts the audience.",
+      "contextual_title_explanations": {
+        "RENCONTRE": {
+          "display_format": "**RENCONTRE:** Rencontre",
+          "explanation": "Meeting or interview",
+          "cultural_note": "Often used in headlines for interviews"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period marking end of sentence",
+          "cultural_note": ""
+        },
+        "De": {
+          "display_format": "**De:** De",
+          "explanation": "From or of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "scène": {
+          "display_format": "**scène:** Scène",
+          "explanation": "Stage",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "To or at",
+          "cultural_note": ""
+        },
+        "télévision": {
+          "display_format": "**télévision:** Télévision",
+          "explanation": "Television",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**::** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Jarry": {
+          "display_format": "**Jarry:** Jarry",
+          "explanation": "French humorist",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for pause",
+          "cultural_note": ""
+        },
+        "l’humour": {
+          "display_format": "**l’humour:** L'humour",
+          "explanation": "The humor",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Qui",
+          "explanation": "Who or that",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** Fait",
+          "explanation": "Makes or does",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Du",
+          "explanation": "Some or of the",
+          "cultural_note": ""
+        },
+        "bien": {
+          "display_format": "**bien:** Bien",
+          "explanation": "Good",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»**:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Compte épargne logement : cet atout méconnu qui pourrait vous convaincre",
+      "original_article_link": "https://www.lexpress.fr/argent/placements/compte-epargne-logement-cet-atout-meconnu-qui-pourrait-vous-convaincre-AJ22AFLGI5FNVBHB6CFYN4B7RM/",
+      "original_article_published_date": "2025-06-22T08:00:00",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le compte épargne logement : un avantage caché",
+      "simplified_english_title": "Home savings account: a hidden advantage",
+      "french_summary": "Le compte épargne logement est un outil financier peu connu qui peut aider à économiser pour un logement.",
+      "english_summary": "The home savings account is a little-known financial tool that can help save for housing.",
+      "contextual_title_explanations": {
+        "Compte": {
+          "display_format": "**Compte:** Compte bancaire",
+          "explanation": "Bank account",
+          "cultural_note": ""
+        },
+        "épargne": {
+          "display_format": "**épargne:** Argent économisé",
+          "explanation": "Saved money",
+          "cultural_note": ""
+        },
+        "logement": {
+          "display_format": "**logement:** Maison ou appartement",
+          "explanation": "Housing or accommodation",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "cet": {
+          "display_format": "**cet:** Ce, cette",
+          "explanation": "This",
+          "cultural_note": ""
+        },
+        "atout": {
+          "display_format": "**atout:** Avantage",
+          "explanation": "Advantage or asset",
+          "cultural_note": ""
+        },
+        "méconnu": {
+          "display_format": "**méconnu:** Peu connu",
+          "explanation": "Little known",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Qui, que",
+          "explanation": "Who or which",
+          "cultural_note": ""
+        },
+        "pourrait": {
+          "display_format": "**pourrait:** Possible condition",
+          "explanation": "Could",
+          "cultural_note": ""
+        },
+        "vous": {
+          "display_format": "**vous:** Vous",
+          "explanation": "You",
+          "cultural_note": ""
+        },
+        "convaincre": {
+          "display_format": "**convaincre:** Persuader",
+          "explanation": "To convince",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Europe 1 matin week-end - 6h-9h - 22/06/25",
+      "original_article_link": "https://www.europe1.fr/emissions/Europe-1-Week-end2/europe-1-matin-week-end-6h-9h-22-06-25-760515",
+      "original_article_published_date": "2025-06-22T07:55:00",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Émission Europe 1 le week-end",
+      "simplified_english_title": "Europe 1 weekend morning show",
+      "french_summary": "Europe 1 présente une émission spéciale le week-end du 22 juin 2025 de 6h à 9h.",
+      "english_summary": "Europe 1 broadcasts a special weekend show on June 22, 2025, from 6 AM to 9 AM.",
+      "contextual_title_explanations": {
+        "Europe 1": {
+          "display_format": "**Europe 1:** Station de radio",
+          "explanation": "Popular French radio station",
+          "cultural_note": "Known for news and talk shows"
+        },
+        "matin": {
+          "display_format": "**matin:** Le matin",
+          "explanation": "Morning time period",
+          "cultural_note": ""
+        },
+        "week-end": {
+          "display_format": "**week-end:** Fin de semaine",
+          "explanation": "Weekend, Saturday and Sunday",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "-",
+          "explanation": "Separator indicating date",
+          "cultural_note": ""
+        },
+        "6h-9h": {
+          "display_format": "**6h-9h:** De six à neuf heures",
+          "explanation": "Time range from 6 AM to 9 AM",
+          "cultural_note": ""
+        },
+        "22/06/25": {
+          "display_format": "**22/06/25:** Vingt-deux juin vingt-cinq",
+          "explanation": "Date format: day/month/year",
+          "cultural_note": "French date format is day/month/year"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Mohamed Amra transféré: les secrets des extractions ultra-sécurisées de détenus",
+      "original_article_link": "https://www.bfmtv.com/police-justice/video-mohamed-amra-transfere-les-secrets-des-extractions-ultra-securisees-de-detenus_VN-202506220102.html",
+      "original_article_published_date": "2025-06-22T07:45:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Transfert sécurisé d'un détenu",
+      "simplified_english_title": "Secure transfer of a prisoner",
+      "french_summary": "Mohamed Amra a été transféré avec des mesures de sécurité très strictes. Les détails de ces opérations sont généralement secrets.",
+      "english_summary": "Mohamed Amra was transferred with very strict security measures. Details of these operations are usually secret.",
+      "contextual_title_explanations": {
+        "Mohamed Amra": {
+          "display_format": "**Mohamed Amra:** Nom propre",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "transféré": {
+          "display_format": "**transféré:** déplacé",
+          "explanation": "Transferred or moved",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** articles définis",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "secrets": {
+          "display_format": "**secrets:** mystères",
+          "explanation": "Secrets or mysteries",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** articles indéfinis",
+          "explanation": "Indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "extractions": {
+          "display_format": "**extractions:** transferts",
+          "explanation": "Extractions or transfers",
+          "cultural_note": ""
+        },
+        "ultra-sécurisées": {
+          "display_format": "**ultra-sécurisées:** très sécurisées",
+          "explanation": "Ultra-secure or highly secure",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** préposition",
+          "explanation": "Preposition 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "détenus": {
+          "display_format": "**détenus:** prisonniers",
+          "explanation": "Detainees or prisoners",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nucléaire iranien : le chef de l'AIEA annonce une \"réunion d'urgence\" lundi après les frappes américaines",
+      "original_article_link": "https://www.europe1.fr/international/nucleaire-iranien-le-chef-de-laiea-annonce-une-reunion-durgence-lundi-apres-les-frappes-americaines-760516",
+      "original_article_published_date": "2025-06-22T07:44:39",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réunion urgente sur le nucléaire iranien",
+      "simplified_english_title": "Emergency meeting on Iranian nuclear issue",
+      "french_summary": "Le chef de l'AIEA organise une réunion urgente après les frappes américaines en Iran pour discuter de la situation nucléaire.",
+      "english_summary": "The IAEA chief organizes an emergency meeting after US strikes in Iran to discuss the nuclear situation.",
+      "contextual_title_explanations": {
+        "Nucléaire iranien": {
+          "display_format": "**Nucléaire iranien:** Programme nucléaire de l'Iran",
+          "explanation": "Iran's nuclear program",
+          "cultural_note": "A major geopolitical issue"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "le chef de l'AIEA": {
+          "display_format": "**le chef de l'AIEA:** Directeur général de l'Agence internationale de l'énergie atomique",
+          "explanation": "Head of the International Atomic Energy Agency",
+          "cultural_note": "IAEA oversees nuclear safety"
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rend public",
+          "explanation": "Announces",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article",
+          "cultural_note": ""
+        },
+        "réunion d'urgence": {
+          "display_format": "**réunion d'urgence:** Assemblée urgente",
+          "explanation": "Emergency meeting",
+          "cultural_note": ""
+        },
+        "lundi": {
+          "display_format": "**lundi:** Jour de la semaine",
+          "explanation": "Monday",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "frappes américaines": {
+          "display_format": "**frappes américaines:** Attaques des États-Unis",
+          "explanation": "American strikes",
+          "cultural_note": "Refers to military actions"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Sites nucléaires, avions, bombes : ce que l'on sait de l'offensive américaine en Iran",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250622-sites-nucl%C3%A9aires-avions-bombes-ce-que-l-on-sait-de-l-offensive-am%C3%A9ricaine-en-iran",
+      "original_article_published_date": "2025-06-22T07:43:56",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attaques américaines contre l'Iran",
+      "simplified_english_title": "US attacks on Iran",
+      "french_summary": "Les États-Unis ont lancé des attaques contre des sites nucléaires et des avions en Iran. On ne sait pas encore tout.",
+      "english_summary": "The US launched attacks on nuclear sites and planes in Iran. Not everything is known yet.",
+      "contextual_title_explanations": {
+        "Sites": {
+          "display_format": "**Sites:** Lieux",
+          "explanation": "Places or locations",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Relatifs au noyau",
+          "explanation": "Related to nuclear energy or weapons",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "avions": {
+          "display_format": "**avions:** Aéronefs",
+          "explanation": "Airplanes",
+          "cultural_note": ""
+        },
+        "bombes": {
+          "display_format": "**bombes:** Explosifs",
+          "explanation": "Bombs",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "ce que l'on sait": {
+          "display_format": "**ce que l'on sait:** Ce qui est connu",
+          "explanation": "What is known",
+          "cultural_note": ""
+        },
+        "de l'offensive": {
+          "display_format": "**de l'offensive:** Attaque",
+          "explanation": "About the offensive",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Attaque américaine sur les installations nucléaires iraniennes : «Le problème de fond n'est pas réglé totalement», avertit David Rigoulet-Roze",
+      "original_article_link": "https://www.europe1.fr/international/attaque-americaine-sur-les-installations-nucleaires-iraniennes-le-probleme-de-fond-nest-pas-regle-totalement-avertit-david-rigoulet-roze-760513",
+      "original_article_published_date": "2025-06-22T07:42:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis attaquent des sites nucléaires en Iran",
+      "simplified_english_title": "US attacks nuclear sites in Iran",
+      "french_summary": "Les États-Unis ont attaqué des installations nucléaires iraniennes. Un expert dit que le problème n'est pas complètement résolu.",
+      "english_summary": "The US attacked Iranian nuclear facilities. An expert says the core issue is not fully resolved.",
+      "contextual_title_explanations": {
+        "Attaque": {
+          "display_format": "**Attaque:** Action violente",
+          "explanation": "Attack or strike",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**américaine:** Des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "installations": {
+          "display_format": "**installations:** Équipements",
+          "explanation": "Facilities or installations",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Relatif au noyau",
+          "explanation": "Nuclear, related to atomic energy",
+          "cultural_note": ""
+        },
+        "iraniennes": {
+          "display_format": "**iraniennes:** De l'Iran",
+          "explanation": "Iranian, from Iran",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "« Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "The (masculine singular)",
+          "cultural_note": ""
+        },
+        "problème": {
+          "display_format": "**problème:** Question difficile",
+          "explanation": "Problem or issue",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "fond": {
+          "display_format": "**fond:** Base",
+          "explanation": "Core or essence",
+          "cultural_note": ""
+        },
+        "n'est": {
+          "display_format": "**n'est:** N'est pas",
+          "explanation": "Is not",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "réglé": {
+          "display_format": "**réglé:** Résolu",
+          "explanation": "Solved or resolved",
+          "cultural_note": ""
+        },
+        "totalement": {
+          "display_format": "**totalement:** Complètement",
+          "explanation": "Completely or totally",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "» Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "avertit": {
+          "display_format": "**avertit:** Prévient",
+          "explanation": "Warns or alerts",
+          "cultural_note": ""
+        },
+        "David Rigoulet-Roze": {
+          "display_format": "**David Rigoulet-Roze:** Expert en géopolitique",
+          "explanation": "French geopolitical expert",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : l'Isère et le Rhône maintenus en vigilance orange canicule dimanche",
+      "original_article_link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/vague-de-chaleur-l-isere-et-le-rhone-maintenus-en-vigilance-orange-canicule-dimanche_7330209.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T07:32:59",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Forte chaleur en Isère et Rhône dimanche",
+      "simplified_english_title": "Heatwave in Isère and Rhône on Sunday",
+      "french_summary": "Les départements de l'Isère et du Rhône restent en vigilance orange canicule dimanche à cause des fortes températures.",
+      "english_summary": "The departments of Isère and Rhône remain on orange heatwave alert on Sunday due to high temperatures.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Vague:** Onde de chaleur",
+          "explanation": "Wave, often referring to heat",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**chaleur:** Température élevée",
+          "explanation": "Heat, high temperature",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'Isère": {
+          "display_format": "**l'Isère:** Département français",
+          "explanation": "French department in Auvergne-Rhône-Alpes",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Rhône": {
+          "display_format": "**Rhône:** Département français",
+          "explanation": "French department in Auvergne-Rhône-Alpes",
+          "cultural_note": ""
+        },
+        "maintenus": {
+          "display_format": "**maintenus:** Gardés",
+          "explanation": "Kept, maintained",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** Surveillance",
+          "explanation": "Vigilance, alert",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Orange alert level",
+          "cultural_note": "Second highest level of alert in France"
+        },
+        "canicule": {
+          "display_format": "**canicule:** Période de forte chaleur",
+          "explanation": "Heatwave",
+          "cultural_note": ""
+        },
+        "dimanche": {
+          "display_format": "**dimanche:** Jour de la semaine",
+          "explanation": "Sunday",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Écran bleu, ordinateur bloqué... Comment se protéger face aux arnaques au faux support technique",
+      "original_article_link": "https://www.bfmtv.com/tech/actualites/cybersecurite/ecran-bleu-ordinateur-bloque-comment-se-proteger-face-aux-arnaques-au-faux-support-technique_AN-202506220029.html",
+      "original_article_published_date": "2025-06-22T07:22:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attention aux arnaques de support technique",
+      "simplified_english_title": "Beware of tech support scams",
+      "french_summary": "Des escrocs appellent pour aider avec des problèmes d'ordinateur, mais ils veulent voler vos informations.",
+      "english_summary": "Scammers call to help with computer problems, but they want to steal your information.",
+      "contextual_title_explanations": {
+        "Écran": {
+          "display_format": "**Écran:** Surface d'affichage",
+          "explanation": "Screen of a device",
+          "cultural_note": ""
+        },
+        "bleu": {
+          "display_format": "**bleu:** Couleur bleue",
+          "explanation": "Color blue",
+          "cultural_note": "Often associated with error screens"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "ordinateur": {
+          "display_format": "**ordinateur:** Appareil électronique",
+          "explanation": "Computer device",
+          "cultural_note": ""
+        },
+        "bloqué": {
+          "display_format": "**bloqué:** Ne fonctionne pas",
+          "explanation": "Blocked, not working",
+          "cultural_note": ""
+        },
+        "...": {
+          "display_format": "**...:** Points de suspension",
+          "explanation": "Ellipsis indicating pause",
+          "cultural_note": ""
+        },
+        "Comment": {
+          "display_format": "**Comment:** De quelle manière",
+          "explanation": "How to",
+          "cultural_note": ""
+        },
+        "se protéger": {
+          "display_format": "**se protéger:** Se défendre",
+          "explanation": "To protect oneself",
+          "cultural_note": ""
+        },
+        "face": {
+          "display_format": "**face:** Devant",
+          "explanation": "In front of",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "arnaques": {
+          "display_format": "**arnaques:** Escroqueries",
+          "explanation": "Scams, frauds",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "faux": {
+          "display_format": "**faux:** Pas vrai",
+          "explanation": "Fake, false",
+          "cultural_note": ""
+        },
+        "support": {
+          "display_format": "**support:** Assistance",
+          "explanation": "Support, help",
+          "cultural_note": ""
+        },
+        "technique": {
+          "display_format": "**technique:** Technologique",
+          "explanation": "Technical",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T08:04:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Dembélé, Zidane, PSG, Ligue 1, Bleus, violences… : les confidences de la ministre des Sports",
       "original_article_link": "https://www.ouest-france.fr/sport/football/dembele-zidane-psg-ligue-1-bleus-violences-les-confidences-de-la-ministre-des-sports-6c5bd3a6-4de7-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-22T07:15:06",
@@ -8590,1026 +9530,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-21T23:17:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran: au 9e jour du conflit, quelles perspectives ?",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-guerre-isra%C3%ABl-iran-au-9e-jour-du-conflit-quelles-perspectives",
-      "original_article_published_date": "2025-06-21T14:41:41",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Conflit Israël-Iran : quel avenir ?",
-      "simplified_english_title": "Israel-Iran conflict: what's next?",
-      "french_summary": "Le conflit entre Israël et l'Iran continue depuis neuf jours. Les perspectives d'avenir restent incertaines.",
-      "english_summary": "The conflict between Israel and Iran has been going on for nine days. The future remains uncertain.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "War, armed conflict",
-          "cultural_note": ""
-        },
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Deux pays en conflit",
-          "explanation": "Israel-Iran: two countries in conflict",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**au:** à le",
-          "explanation": "To the, contraction of 'à' and 'le'",
-          "cultural_note": ""
-        },
-        "9e": {
-          "display_format": "**9e:** Neuvième",
-          "explanation": "9th, abbreviation for 'neuvième'",
-          "cultural_note": ""
-        },
-        "jour": {
-          "display_format": "**jour:** Journée",
-          "explanation": "Day",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** de le",
-          "explanation": "Of the, contraction of 'de' and 'le'",
-          "cultural_note": ""
-        },
-        "conflit": {
-          "display_format": "**conflit:** Désaccord violent",
-          "explanation": "Conflict, violent disagreement",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "quelles": {
-          "display_format": "**quelles:** Quels féminins",
-          "explanation": "Which, feminine plural form",
-          "cultural_note": ""
-        },
-        "perspectives": {
-          "display_format": "**perspectives:** Avenirs possibles",
-          "explanation": "Perspectives, possible futures",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T16:21:40",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Attentat de Magnanville : Mohamed Lamine Aberouz condamné en appel à la perpétuité",
-      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/21/attentat-de-magnanville-mohamed-lamine-aberouz-condamne-en-appel-a-la-perpetuite_6615092_3224.html",
-      "original_article_published_date": "2025-06-21T14:40:28",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un homme condamné à la prison à vie",
-      "simplified_english_title": "Man sentenced to life in prison",
-      "french_summary": "Mohamed Lamine Aberouz a été condamné à la prison à vie pour l'attentat de Magnanville. La cour d'appel a confirmé la décision.",
-      "english_summary": "Mohamed Lamine Aberouz was sentenced to life in prison for the Magnanville attack. The appeals court confirmed the decision.",
-      "contextual_title_explanations": {
-        "Attentat": {
-          "display_format": "**Attentat:** Acte de violence",
-          "explanation": "Terrorist attack or violent act",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition indicating location or possession",
-          "cultural_note": ""
-        },
-        "Magnanville": {
-          "display_format": "**Magnanville:** Nom de ville",
-          "explanation": "Name of a town in France",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Mohamed Lamine Aberouz": {
-          "display_format": "**Mohamed Lamine Aberouz:** Nom de personne",
-          "explanation": "Name of the person convicted",
-          "cultural_note": ""
-        },
-        "condamné": {
-          "display_format": "**condamné:** Jugé coupable",
-          "explanation": "Convicted or sentenced",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "Preposition indicating manner or state",
-          "cultural_note": ""
-        },
-        "appel": {
-          "display_format": "**appel:** Procédure judiciaire",
-          "explanation": "Appeal process in court",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "Preposition indicating direction or location",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article, the",
-          "cultural_note": ""
-        },
-        "perpétuité": {
-          "display_format": "**perpétuité:** Prison à vie",
-          "explanation": "Life imprisonment",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T21:16:29",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Pic de chaleur: la ville de Paris est la capitale européenne la plus mortelle durant les épisodes de canicule",
-      "original_article_link": "https://www.bfmtv.com/paris/pic-de-chaleur-la-ville-de-paris-est-la-capitale-europeenne-la-plus-mortelle-durant-les-episodes-de-canicule_AV-202506210246.html",
-      "original_article_published_date": "2025-06-21T14:31:52",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Paris est très chaude et dangereuse en été",
-      "simplified_english_title": "Paris is very hot and dangerous in summer",
-      "french_summary": "Pendant les vagues de chaleur, Paris est la capitale européenne avec le plus de morts à cause des températures élevées.",
-      "english_summary": "During heat waves, Paris is the European capital with the most deaths due to high temperatures.",
-      "contextual_title_explanations": {
-        "Pic": {
-          "display_format": "**Pic:** Pointe maximale",
-          "explanation": "Peak or highest point",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**chaleur:** Température élevée",
-          "explanation": "Heat or high temperature",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "ville": {
-          "display_format": "**ville:** Ville",
-          "explanation": "City",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** Capitale de la France",
-          "explanation": "Capital city of France",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**est:** Verbe être",
-          "explanation": "Is (third person singular)",
-          "cultural_note": ""
-        },
-        "capitale": {
-          "display_format": "**capitale:** Ville principale",
-          "explanation": "Capital city",
-          "cultural_note": ""
-        },
-        "européenne": {
-          "display_format": "**européenne:** Relatif à l'Europe",
-          "explanation": "European",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**plus:** Superlatif",
-          "explanation": "Most",
-          "cultural_note": ""
-        },
-        "mortelle": {
-          "display_format": "**mortelle:** Causant la mort",
-          "explanation": "Deadly or lethal",
-          "cultural_note": ""
-        },
-        "durant": {
-          "display_format": "**durant:** Pendant",
-          "explanation": "During",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "épisodes": {
-          "display_format": "**épisodes:** Périodes",
-          "explanation": "Episodes or periods",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**canicule:** Vague de chaleur",
-          "explanation": "Heatwave",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"3.000 euros par mois c'est presque impossible ici\": en Italie, les salaires réels régressent depuis 1991 et sont désormais en moyenne au niveau de la Roumanie",
-      "original_article_link": "https://www.bfmtv.com/economie/economie-social/union-europeenne/3-000-euros-par-mois-c-est-presque-impossible-ici-en-italie-les-salaires-reels-regressent-depuis-1991-et-sont-desormais-en-moyenne-au-niveau-de-la-roumanie_AD-202506210243.html",
-      "original_article_published_date": "2025-06-21T14:30:16",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les salaires en Italie baissent depuis 1991",
-      "simplified_english_title": "Salaries in Italy falling since 1991",
-      "french_summary": "En Italie, les salaires réels ont diminué depuis 1991 et sont maintenant comparables à ceux de la Roumanie.",
-      "english_summary": "In Italy, real wages have decreased since 1991 and are now similar to those in Romania.",
-      "contextual_title_explanations": {
-        "3.000": {
-          "display_format": "**3.000:** Trois mille",
-          "explanation": "Three thousand",
-          "cultural_note": "In French, periods are used as thousand separators"
-        },
-        "euros": {
-          "display_format": "**euros:** Monnaie européenne",
-          "explanation": "European currency",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**par:** Par",
-          "explanation": "By/per",
-          "cultural_note": ""
-        },
-        "mois": {
-          "display_format": "**mois:** Mois",
-          "explanation": "Month",
-          "cultural_note": ""
-        },
-        "c'est": {
-          "display_format": "**c'est:** C'est",
-          "explanation": "It is",
-          "cultural_note": "Contraction of 'cela est'"
-        },
-        "presque": {
-          "display_format": "**presque:** Presque",
-          "explanation": "Almost",
-          "cultural_note": ""
-        },
-        "impossible": {
-          "display_format": "**impossible:** Impossible",
-          "explanation": "Impossible",
-          "cultural_note": ""
-        },
-        "ici": {
-          "display_format": "**ici:** Ici",
-          "explanation": "Here",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** En",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "Italie": {
-          "display_format": "**Italie:** Pays européen",
-          "explanation": "Italy, European country",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Les",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "salaires": {
-          "display_format": "**salaires:** Salaires",
-          "explanation": "Salaries",
-          "cultural_note": ""
-        },
-        "réels": {
-          "display_format": "**réels:** Réels",
-          "explanation": "Real",
-          "cultural_note": ""
-        },
-        "régressent": {
-          "display_format": "**régressent:** Régressent",
-          "explanation": "Are regressing",
-          "cultural_note": ""
-        },
-        "depuis": {
-          "display_format": "**depuis:** Depuis",
-          "explanation": "Since",
-          "cultural_note": ""
-        },
-        "1991": {
-          "display_format": "**1991:** Année",
-          "explanation": "Year",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Et",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "sont": {
-          "display_format": "**sont:** Sont",
-          "explanation": "Are",
-          "cultural_note": ""
-        },
-        "désormais": {
-          "display_format": "**désormais:** Désormais",
-          "explanation": "Now",
-          "cultural_note": ""
-        },
-        "moyenne": {
-          "display_format": "**moyenne:** Moyenne",
-          "explanation": "Average",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**au:** Au",
-          "explanation": "At the",
-          "cultural_note": "Contraction of 'à le'"
-        },
-        "niveau": {
-          "display_format": "**niveau:** Niveau",
-          "explanation": "Level",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** De",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** La",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "Roumanie": {
-          "display_format": "**Roumanie:** Pays européen",
-          "explanation": "Romania, European country",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T19:14:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Fête de la musique : une playlist des pompiers pour «sauver des vies»",
-      "original_article_link": "https://www.europe1.fr/societe/fete-de-la-musique-une-playlist-des-pompiers-pour-sauver-des-vies-760448",
-      "original_article_published_date": "2025-06-21T14:27:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les pompiers créent une playlist pour la Fête de la Musique",
-      "simplified_english_title": "Firefighters create a playlist for Music Day",
-      "french_summary": "Pour la Fête de la Musique, les pompiers ont fait une playlist pour sensibiliser et sauver des vies.",
-      "english_summary": "For Music Day, firefighters made a playlist to raise awareness and save lives.",
-      "contextual_title_explanations": {
-        "Fête de la musique": {
-          "display_format": "**Fête de la musique:** Célébration musicale",
-          "explanation": "Annual music festival",
-          "cultural_note": "Held on June 21st"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Une",
-          "explanation": "Indefinite article, singular feminine",
-          "cultural_note": ""
-        },
-        "playlist": {
-          "display_format": "**playlist:** Liste de lecture",
-          "explanation": "List of music tracks",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Des",
-          "explanation": "Plural indefinite article",
-          "cultural_note": ""
-        },
-        "pompiers": {
-          "display_format": "**pompiers:** Sapeurs-pompiers",
-          "explanation": "Firefighters",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** Pour",
-          "explanation": "For the purpose of",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "sauver": {
-          "display_format": "**sauver:** Sauver",
-          "explanation": "To save",
-          "cultural_note": ""
-        },
-        "vies": {
-          "display_format": "**vies:** Vies",
-          "explanation": "Lives",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T20:53:08",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Musique électro : Emmanuel Macron aimerait inscrire la French Touch au patrimone immatériel de l'Unesco",
-      "original_article_link": "https://www.franceinfo.fr/culture/musique/musique-electro-emmanuel-macron-aimerait-inscrire-la-french-touch-a-l-unesco_7328619.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T14:25:49",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron veut protéger la musique électro française",
-      "simplified_english_title": "Macron wants to protect French electro music",
-      "french_summary": "Emmanuel Macron souhaite ajouter la French Touch, un style de musique électro, à la liste du patrimoine de l'UNESCO.",
-      "english_summary": "Emmanuel Macron wants to add French Touch, an electro music style, to UNESCO's heritage list.",
-      "contextual_title_explanations": {
-        "Musique électro": {
-          "display_format": "**Musique électro:** Musique électronique",
-          "explanation": "Electronic dance music genre",
-          "cultural_note": "Popular French music style"
-        },
-        ": ": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further explanation",
-          "cultural_note": ""
-        },
-        "Emmanuel Macron": {
-          "display_format": "**Emmanuel Macron:** Président français",
-          "explanation": "Current French president",
-          "cultural_note": ""
-        },
-        "aimerait": {
-          "display_format": "**aimerait:** Souhaiterait",
-          "explanation": "Would like (conditional)",
-          "cultural_note": ""
-        },
-        "inscrire": {
-          "display_format": "**inscrire:** Enregistrer",
-          "explanation": "To register or list",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "French Touch": {
-          "display_format": "**French Touch:** Mouvement musical",
-          "explanation": "French electronic music movement",
-          "cultural_note": "Distinctive French electronic music style"
-        },
-        "au": {
-          "display_format": "**au:** À le",
-          "explanation": "To the (masculine singular)",
-          "cultural_note": ""
-        },
-        "patrimoine immatériel": {
-          "display_format": "**patrimoine immatériel:** Héritage culturel",
-          "explanation": "Intangible cultural heritage",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "l'Unesco": {
-          "display_format": "**l'Unesco:** Organisation des Nations Unies",
-          "explanation": "UN organization for culture",
-          "cultural_note": "United Nations Educational, Scientific and Cultural Organization"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "S'hydrater régulièrement, diminuer les activités physiques... comment se protéger efficacement de la canicule ?",
-      "original_article_link": "https://www.bfmtv.com/sante/video-s-hydrater-regulierement-diminuer-les-activites-physiques-comment-se-proteger-efficacement-de-la-canicule_VN-202506210241.html",
-      "original_article_published_date": "2025-06-21T14:21:34",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Conseils pour se protéger de la canicule",
-      "simplified_english_title": "Tips to protect yourself from the heatwave",
-      "french_summary": "Il faut boire régulièrement et réduire les activités physiques pour bien se protéger de la canicule et rester en bonne santé.",
-      "english_summary": "Drink regularly and reduce physical activities to protect yourself effectively from the heatwave and stay healthy.",
-      "contextual_title_explanations": {
-        "S'hydrater": {
-          "display_format": "**S'hydrater:** S'alimenter en eau",
-          "explanation": "To hydrate oneself",
-          "cultural_note": ""
-        },
-        "régulièrement": {
-          "display_format": "**régulièrement:** de manière régulière",
-          "explanation": "Regularly",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** virgule",
-          "explanation": "Comma, separates items",
-          "cultural_note": ""
-        },
-        "diminuer": {
-          "display_format": "**diminuer:** réduire",
-          "explanation": "To decrease",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** articles définis",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "activités physiques": {
-          "display_format": "**activités physiques:** exercices corporels",
-          "explanation": "Physical activities",
-          "cultural_note": ""
-        },
-        "...": {
-          "display_format": "**...:** points de suspension",
-          "explanation": "Ellipsis, indicates omission",
-          "cultural_note": ""
-        },
-        "comment": {
-          "display_format": "**comment:** de quelle manière",
-          "explanation": "How",
-          "cultural_note": ""
-        },
-        "se protéger": {
-          "display_format": "**se protéger:** se défendre",
-          "explanation": "To protect oneself",
-          "cultural_note": ""
-        },
-        "efficacement": {
-          "display_format": "**efficacement:** de manière efficace",
-          "explanation": "Effectively",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** préposition",
-          "explanation": "From, of",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**canicule:** vague de chaleur",
-          "explanation": "Heatwave",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**?:** point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Première vague de chaleur en 2025 en France: 16 département en vigilance orange",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-premi%C3%A8re-vague-de-chaleur-en-2025-en-france-16-d%C3%A9partement-en-vigilance-orange",
-      "original_article_published_date": "2025-06-21T14:19:40",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Il fait très chaud en France en 2025",
-      "simplified_english_title": "Heatwave in France in 2025",
-      "french_summary": "En 2025, la France connaît sa première vague de chaleur. Seize départements sont en vigilance orange à cause des températures élevées.",
-      "english_summary": "In 2025, France experiences its first heatwave. Sixteen departments are on orange alert due to high temperatures.",
-      "contextual_title_explanations": {
-        "Première": {
-          "display_format": "**Première:** Initial",
-          "explanation": "First in a series",
-          "cultural_note": ""
-        },
-        "vague": {
-          "display_format": "**vague:** Onde",
-          "explanation": "Wave, often used for heatwaves",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Du",
-          "explanation": "Of, indicating possession or relation",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**chaleur:** Températures élevées",
-          "explanation": "Heat, high temperatures",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans l'état de",
-          "explanation": "In the state of",
-          "cultural_note": ""
-        },
-        "2025": {
-          "display_format": "**2025:** Année",
-          "explanation": "Year 2025",
-          "cultural_note": ""
-        },
-        "en France": {
-          "display_format": "**en France:** Dans le pays",
-          "explanation": "In France, the country",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "16": {
-          "display_format": "**16:** Seize",
-          "explanation": "Number sixteen",
-          "cultural_note": ""
-        },
-        "département": {
-          "display_format": "**département:** Division administrative",
-          "explanation": "Administrative division in France",
-          "cultural_note": "Similar to counties in other countries"
-        },
-        "vigilance": {
-          "display_format": "**vigilance:** Alerte",
-          "explanation": "Alert, state of watchfulness",
-          "cultural_note": ""
-        },
-        "orange": {
-          "display_format": "**orange:** Niveau d'alerte",
-          "explanation": "Orange alert level",
-          "cultural_note": "Second highest level in France's alert system"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Angleterre-France : Gaël Fickou et les Français prendront-ils leur revanche dans le Crunch ? Suivez le match amical de rugby",
-      "original_article_link": "https://www.franceinfo.fr/sports/rugby/xv-de-france/direct-angleterre-france-gael-fickou-et-les-francais-prendront-ils-leur-revanche-dans-le-crunch-suivez-le-match-amical-de-rugby_7324104.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-21T14:16:16",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "France-Angleterre : match de rugby amical",
-      "simplified_english_title": "France-England: friendly rugby match",
-      "french_summary": "L'équipe de France de rugby joue contre l'Angleterre dans un match amical. Gaël Fickou et ses coéquipiers veulent gagner.",
-      "english_summary": "The French rugby team plays against England in a friendly match. Gaël Fickou and his teammates want to win.",
-      "contextual_title_explanations": {
-        "Angleterre-France": {
-          "display_format": "**Angleterre-France:** Match entre les deux pays",
-          "explanation": "England versus France match",
-          "cultural_note": "Historic sports rivalry"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "Gaël Fickou": {
-          "display_format": "**Gaël Fickou:** Joueur de rugby",
-          "explanation": "French rugby player",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "les Français": {
-          "display_format": "**les Français:** Équipe de France",
-          "explanation": "The French team",
-          "cultural_note": ""
-        },
-        "prendront-ils": {
-          "display_format": "**prendront-ils:** Futur de prendre",
-          "explanation": "Will they take",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**leur:** Possessif",
-          "explanation": "Their",
-          "cultural_note": ""
-        },
-        "revanche": {
-          "display_format": "**revanche:** Vengeance",
-          "explanation": "Revenge or rematch",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** Préposition",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The",
-          "cultural_note": ""
-        },
-        "Crunch": {
-          "display_format": "**Crunch:** Match décisif",
-          "explanation": "Decisive match",
-          "cultural_note": "Term used for England-France rugby matches"
-        },
-        "?": {
-          "display_format": "**?:** Point d'interrogation",
-          "explanation": "Question mark",
-          "cultural_note": ""
-        },
-        "Suivez": {
-          "display_format": "**Suivez:** Impératif de suivre",
-          "explanation": "Follow",
-          "cultural_note": ""
-        },
-        "match": {
-          "display_format": "**match:** Rencontre sportive",
-          "explanation": "Sports match",
-          "cultural_note": ""
-        },
-        "amical": {
-          "display_format": "**amical:** Amicale",
-          "explanation": "Friendly",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of",
-          "cultural_note": ""
-        },
-        "rugby": {
-          "display_format": "**rugby:** Sport",
-          "explanation": "Rugby",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T03:24:57",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Nouveaux échanges de tirs en ce 9ème jour de guerre entre l'Iran et Israël",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250621-nouveaux-%C3%A9changes-de-tirs-en-ce-9%C3%A8me-jour-de-guerre-entre-l-iran-et-isra%C3%ABl",
-      "original_article_published_date": "2025-06-21T14:15:23",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La guerre entre Iran et Israël continue",
-      "simplified_english_title": "War between Iran and Israel continues",
-      "french_summary": "Les combats entre l'Iran et Israël durent depuis neuf jours avec de nouveaux échanges de tirs aujourd'hui.",
-      "english_summary": "The conflict between Iran and Israel has lasted nine days with new exchanges of fire today.",
-      "contextual_title_explanations": {
-        "Nouveaux": {
-          "display_format": "**Nouveaux:** Récents",
-          "explanation": "Recent or new events",
-          "cultural_note": ""
-        },
-        "échanges de tirs": {
-          "display_format": "**échanges de tirs:** Combats",
-          "explanation": "Exchange of gunfire or attacks",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** pendant",
-          "explanation": "During or in the course of",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**ce:** ce jour",
-          "explanation": "This day",
-          "cultural_note": ""
-        },
-        "9ème": {
-          "display_format": "**9ème:** Neuvième",
-          "explanation": "Ninth",
-          "cultural_note": ""
-        },
-        "jour": {
-          "display_format": "**jour:** Jour",
-          "explanation": "Day",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** de",
-          "explanation": "Of or about",
-          "cultural_note": ""
-        },
-        "guerre": {
-          "display_format": "**guerre:** Conflit armé",
-          "explanation": "War or armed conflict",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**entre:** Entre",
-          "explanation": "Between",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** et",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-21T15:18:13",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
