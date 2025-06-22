@@ -35174,6 +35174,1116 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran : ce qu’il faut savoir sur les frappes des Etats-Unis visant trois sites nucléaires",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/22/iran-ce-qu-il-faut-savoir-sur-les-frappes-des-etats-unis-visant-trois-sites-nucleaires_6615224_3211.html",
+      "original_article_published_date": "2025-06-22T05:40:40",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les États-Unis frappent trois sites nucléaires en Iran",
+      "simplified_english_title": "US strikes three nuclear sites in Iran",
+      "french_summary": "Les États-Unis ont attaqué trois sites nucléaires en Iran. Ces frappes ont des conséquences internationales importantes.",
+      "english_summary": "The United States attacked three nuclear sites in Iran. These strikes have significant international consequences.",
+      "contextual_title_explanations": {
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "ce qu’il faut savoir": {
+          "display_format": "**ce qu’il faut savoir:** Ce qui est important",
+          "explanation": "What you need to know",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** À propos de",
+          "explanation": "About or concerning",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article (the)",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques militaires",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Indefinite article (some)",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**États-Unis:** Pays d'Amérique du Nord",
+          "explanation": "Country in North America",
+          "cultural_note": ""
+        },
+        "visant": {
+          "display_format": "**visant:** Ciblant",
+          "explanation": "Targeting",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**trois:** Nombre 3",
+          "explanation": "Number three",
+          "cultural_note": ""
+        },
+        "sites": {
+          "display_format": "**sites:** Lieux",
+          "explanation": "Sites or locations",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**nucléaires:** Relatif à l'énergie nucléaire",
+          "explanation": "Related to nuclear energy",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À la Une du JDD : retour sur les 300 milliards d'euros de la programmation pluriannuelle de l'énergie",
+      "original_article_link": "https://www.europe1.fr/emissions/ledito-du-jdd/a-la-une-du-jdd-retour-sur-les-300-milliards-deuros-de-la-programmation-pluriannuelle-de-lenergie-760500",
+      "original_article_published_date": "2025-06-22T06:00:00",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le JDD parle des 300 milliards pour l'énergie",
+      "simplified_english_title": "JDD covers the 300 billion for energy",
+      "french_summary": "Le Journal du Dimanche explique l'utilisation des 300 milliards d'euros pour les projets énergétiques futurs.",
+      "english_summary": "The Journal du Dimanche explains the use of 300 billion euros for future energy projects.",
+      "contextual_title_explanations": {
+        "À la Une": {
+          "display_format": "**À la Une:** En première page",
+          "explanation": "Featured on the front page",
+          "cultural_note": "Common phrase for headlines"
+        },
+        "du": {
+          "display_format": "**du:** de le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "JDD": {
+          "display_format": "**JDD:** Journal du Dimanche",
+          "explanation": "French Sunday newspaper",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "retour": {
+          "display_format": "**retour:** retour en arrière",
+          "explanation": "Review or look back",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** au sujet de",
+          "explanation": "On or about",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "300 milliards": {
+          "display_format": "**300 milliards:** nombre",
+          "explanation": "300 billion",
+          "cultural_note": ""
+        },
+        "d'euros": {
+          "display_format": "**d'euros:** devise",
+          "explanation": "Of euros",
+          "cultural_note": ""
+        },
+        "de la": {
+          "display_format": "**de la:** de la",
+          "explanation": "Of the (feminine singular)",
+          "cultural_note": ""
+        },
+        "programmation pluriannuelle": {
+          "display_format": "**programmation pluriannuelle:** plan sur plusieurs années",
+          "explanation": "Multi-year planning",
+          "cultural_note": ""
+        },
+        "de l'énergie": {
+          "display_format": "**de l'énergie:** secteur énergétique",
+          "explanation": "Of energy",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Je me prends la tête, alors que personne ne veut rien faire\" : éco-anxieux, ils se demandent \"comment se faire entendre\" sans y laisser leur santé mentale",
+      "original_article_link": "https://www.franceinfo.fr/environnement/crise-climatique/temoignages-je-me-prends-la-tete-alors-que-personne-ne-veut-rien-faire-eco-anxieux-ils-se-demandent-comment-se-faire-entendre-sans-y-laisser-leur-sante-mentale_7195059.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T05:01:04",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les éco-anxieux veulent être entendus",
+      "simplified_english_title": "Eco-anxious people want to be heard",
+      "french_summary": "Des personnes anxieuses pour l'environnement veulent agir mais ne savent pas comment sans nuire à leur santé mentale.",
+      "english_summary": "People anxious about the environment want to act but don't know how without harming their mental health.",
+      "contextual_title_explanations": {
+        "\"": {
+          "display_format": "\" : Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "Je": {
+          "display_format": "**Je:** Pronom personnel",
+          "explanation": "Personal pronoun 'I'",
+          "cultural_note": ""
+        },
+        "me prends": {
+          "display_format": "**me prends:** Prendre (réfléchi)",
+          "explanation": "Reflexive verb 'take'",
+          "cultural_note": ""
+        },
+        "la tête": {
+          "display_format": "**la tête:** La tête",
+          "explanation": "The head",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "alors que": {
+          "display_format": "**alors que:** Alors que",
+          "explanation": "Whereas, while",
+          "cultural_note": ""
+        },
+        "personne": {
+          "display_format": "**personne:** Personne",
+          "explanation": "No one",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Negation 'not'",
+          "cultural_note": ""
+        },
+        "veut": {
+          "display_format": "**veut:** Vouloir",
+          "explanation": "Wants",
+          "cultural_note": ""
+        },
+        "rien": {
+          "display_format": "**rien:** Rien",
+          "explanation": "Nothing",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**faire:** Faire",
+          "explanation": "To do",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "éco-anxieux": {
+          "display_format": "**éco-anxieux:** Éco-anxieux",
+          "explanation": "Eco-anxious",
+          "cultural_note": ""
+        },
+        "ils": {
+          "display_format": "**ils:** Pronom personnel",
+          "explanation": "Personal pronoun 'they'",
+          "cultural_note": ""
+        },
+        "se demandent": {
+          "display_format": "**se demandent:** Se demander",
+          "explanation": "Wonder",
+          "cultural_note": ""
+        },
+        "comment": {
+          "display_format": "**comment:** Comment",
+          "explanation": "How",
+          "cultural_note": ""
+        },
+        "se faire entendre": {
+          "display_format": "**se faire entendre:** Être entendu",
+          "explanation": "To make oneself heard",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**sans:** Sans",
+          "explanation": "Without",
+          "cultural_note": ""
+        },
+        "y": {
+          "display_format": "**y:** Pronom adverbial",
+          "explanation": "There",
+          "cultural_note": ""
+        },
+        "laisser": {
+          "display_format": "**laisser:** Laisser",
+          "explanation": "To leave",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**leur:** Pronom possessif",
+          "explanation": "Their",
+          "cultural_note": ""
+        },
+        "santé mentale": {
+          "display_format": "**santé mentale:** Santé mentale",
+          "explanation": "Mental health",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Détruire le programme nucléaire iranien, un objectif réaliste pour Israël ?",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/detruire-le-programme-nucleaire-iranien-un-objectif-realiste-pour-israel-6TGAHIVEARGE3MZPPKTSJMYACU/",
+      "original_article_published_date": "2025-06-22T05:45:00",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël peut-il détruire le nucléaire iranien ?",
+      "simplified_english_title": "Can Israel destroy Iran's nuclear program?",
+      "french_summary": "Des experts discutent si Israël a la capacité de détruire le programme nucléaire de l'Iran. Les opinions sont divisées sur la faisabilité.",
+      "english_summary": "Experts discuss whether Israel can destroy Iran's nuclear program. Opinions are divided on its feasibility.",
+      "contextual_title_explanations": {
+        "Détruire": {
+          "display_format": "**Détruire:** Anéantir",
+          "explanation": "To destroy completely",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**programme:** Plan",
+          "explanation": "Program or plan",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif au noyau",
+          "explanation": "Nuclear, related to atomic energy",
+          "cultural_note": ""
+        },
+        "iranien": {
+          "display_format": "**iranien:** Relatif à l'Iran",
+          "explanation": "Iranian, related to Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma, indicating a pause",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A or an (indefinite article)",
+          "cultural_note": ""
+        },
+        "objectif": {
+          "display_format": "**objectif:** But",
+          "explanation": "Goal or objective",
+          "cultural_note": ""
+        },
+        "réaliste": {
+          "display_format": "**réaliste:** Possible",
+          "explanation": "Realistic or feasible",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For, in favor of",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Israel, a Middle Eastern country",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Votre agresseur d'hier ne peut être votre gardien aujourd'hui\" : un documentaire décrit la propagande antifrançaise de la Russie en Afrique",
+      "original_article_link": "https://www.franceinfo.fr/monde/afrique/videos-votre-agresseur-d-hier-ne-peut-etre-votre-gardien-aujourd-hui-un-documentaire-decrit-la-propagande-antifrancaise-de-la-russie-en-afrique_7317540.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-22T05:00:40",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un film montre la propagande russe en Afrique",
+      "simplified_english_title": "Film shows Russian propaganda in Africa",
+      "french_summary": "Un documentaire explique comment la Russie utilise la propagande contre la France en Afrique.",
+      "english_summary": "A documentary explains how Russia uses propaganda against France in Africa.",
+      "contextual_title_explanations": {
+        "\"Votre": {
+          "display_format": "\"Votre: Votre",
+          "explanation": "Your (possessive pronoun)",
+          "cultural_note": ""
+        },
+        "agresseur": {
+          "display_format": "agresseur: Attaquant",
+          "explanation": "Aggressor, attacker",
+          "cultural_note": ""
+        },
+        "d'hier": {
+          "display_format": "d'hier: D'hier",
+          "explanation": "From yesterday",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "ne: Ne",
+          "explanation": "Negative particle",
+          "cultural_note": ""
+        },
+        "peut": {
+          "display_format": "peut: Pouvoir",
+          "explanation": "Can, to be able to",
+          "cultural_note": ""
+        },
+        "être": {
+          "display_format": "être: Être",
+          "explanation": "To be",
+          "cultural_note": ""
+        },
+        "votre": {
+          "display_format": "votre: Votre",
+          "explanation": "Your (possessive pronoun)",
+          "cultural_note": ""
+        },
+        "gardien": {
+          "display_format": "gardien: Protecteur",
+          "explanation": "Guardian, protector",
+          "cultural_note": ""
+        },
+        "aujourd'hui\"": {
+          "display_format": "aujourd'hui\": Aujourd'hui",
+          "explanation": "Today",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": ": : Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "un: Un",
+          "explanation": "A, an (indefinite article)",
+          "cultural_note": ""
+        },
+        "documentaire": {
+          "display_format": "documentaire: Film documentaire",
+          "explanation": "Documentary",
+          "cultural_note": ""
+        },
+        "décrit": {
+          "display_format": "décrit: Décrit",
+          "explanation": "Describes",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "la: La",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "propagande": {
+          "display_format": "propagande: Propagande",
+          "explanation": "Propaganda",
+          "cultural_note": ""
+        },
+        "antifrançaise": {
+          "display_format": "antifrançaise: Anti-française",
+          "explanation": "Anti-French",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "de: De",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "Russie": {
+          "display_format": "Russie: Russie",
+          "explanation": "Russia",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "en: En",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Afrique": {
+          "display_format": "Afrique: Afrique",
+          "explanation": "Africa",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique : derrière le bruit des guitares, les mots du politique",
+      "original_article_link": "https://www.lemonde.fr/culture/article/2025/06/22/fete-de-la-musique-derriere-le-bruit-des-guitares-les-mots-du-politique_6615263_3246.html",
+      "original_article_published_date": "2025-06-22T05:34:46",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La politique derrière la Fête de la Musique",
+      "simplified_english_title": "Politics behind Music Day",
+      "french_summary": "La Fête de la Musique célèbre la culture, mais les politiciens en parlent aussi beaucoup cette année.",
+      "english_summary": "Music Day celebrates culture, but politicians are talking about it a lot this year.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Annual music celebration on June 21",
+          "cultural_note": "Started in France in 1982"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "derrière": {
+          "display_format": "**derrière:** À l'arrière de",
+          "explanation": "Behind or beyond something",
+          "cultural_note": ""
+        },
+        "le bruit": {
+          "display_format": "**le bruit:** Son fort",
+          "explanation": "Noise or sound",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles pluriel",
+          "explanation": "Plural article 'some'",
+          "cultural_note": ""
+        },
+        "guitares": {
+          "display_format": "**guitares:** Instruments de musique",
+          "explanation": "Plural of 'guitar'",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "les mots": {
+          "display_format": "**les mots:** Paroles",
+          "explanation": "Words or speech",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**politique:** Relatif à la politique",
+          "explanation": "Relating to politics",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Près de Bordeaux, les propriétaires privées d’une forêt médiévale s’inquiètent de la présence croissante de l’État",
+      "original_article_link": "https://www.lefigaro.fr/bordeaux/pres-de-bordeaux-les-proprietaires-privees-d-une-foret-medievale-s-inquietent-de-la-presence-croissante-de-l-etat-20250622",
+      "original_article_published_date": "2025-06-22T06:02:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Propriétaires inquiets près de Bordeaux",
+      "simplified_english_title": "Owners worried near Bordeaux",
+      "french_summary": "Des propriétaires d'une forêt médiévale près de Bordeaux sont inquiets à cause de l'augmentation de la présence de l'État.",
+      "english_summary": "Owners of a medieval forest near Bordeaux are worried due to the increasing presence of the state.",
+      "contextual_title_explanations": {
+        "Près de": {
+          "display_format": "**Près de:** Proche de",
+          "explanation": "Near or close to",
+          "cultural_note": ""
+        },
+        "Bordeaux": {
+          "display_format": "**Bordeaux:** Ville française",
+          "explanation": "City in southwest France",
+          "cultural_note": "Famous for wine"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "propriétaires": {
+          "display_format": "**propriétaires:** Possesseurs",
+          "explanation": "Owners",
+          "cultural_note": ""
+        },
+        "privées": {
+          "display_format": "**privées:** Non-publics",
+          "explanation": "Private",
+          "cultural_note": ""
+        },
+        "d’une": {
+          "display_format": "**d’une:** De une",
+          "explanation": "Of a, feminine",
+          "cultural_note": ""
+        },
+        "forêt": {
+          "display_format": "**forêt:** Bois",
+          "explanation": "Forest",
+          "cultural_note": ""
+        },
+        "médiévale": {
+          "display_format": "**médiévale:** Du Moyen Âge",
+          "explanation": "Medieval",
+          "cultural_note": ""
+        },
+        "s’inquiètent": {
+          "display_format": "**s’inquiètent:** Sont inquiets",
+          "explanation": "Are worried",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of or about",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "Definite article, feminine",
+          "cultural_note": ""
+        },
+        "présence": {
+          "display_format": "**présence:** Existence",
+          "explanation": "Presence",
+          "cultural_note": ""
+        },
+        "croissante": {
+          "display_format": "**croissante:** En augmentation",
+          "explanation": "Increasing",
+          "cultural_note": ""
+        },
+        "l’État": {
+          "display_format": "**l’État:** Le gouvernement",
+          "explanation": "The state",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. Actes anti-musulmans : « On voit se développer une islamophobie d’atmosphère »",
+      "original_article_link": "https://www.ouest-france.fr/societe/religions/entretien-actes-anti-musulmans-on-voit-se-developper-une-islamophobie-datmosphere-42cdb43e-4b88-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T06:00:14",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'islamophobie grandit en France",
+      "simplified_english_title": "Islamophobia grows in France",
+      "french_summary": "Des actes contre les musulmans augmentent, créant une atmosphère d'islamophobie selon un entretien récent.",
+      "english_summary": "Acts against Muslims are increasing, creating an atmosphere of Islamophobia according to a recent interview.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**ENTRETIEN:** Interview",
+          "explanation": "Conversation with someone",
+          "cultural_note": "Often used in journalism"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Actes": {
+          "display_format": "**Actes:** Actions",
+          "explanation": "Deeds or actions",
+          "cultural_note": ""
+        },
+        "anti-musulmans": {
+          "display_format": "**anti-musulmans:** contre les musulmans",
+          "explanation": "Against Muslims",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**On:** Nous",
+          "explanation": "Indefinite pronoun meaning 'we'",
+          "cultural_note": ""
+        },
+        "voit": {
+          "display_format": "**voit:** voit",
+          "explanation": "Sees",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**se:** se",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": ""
+        },
+        "développer": {
+          "display_format": "**développer:** développer",
+          "explanation": "To develop",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** une",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "islamophobie": {
+          "display_format": "**islamophobie:** peur de l'islam",
+          "explanation": "Fear or hatred of Islam",
+          "cultural_note": ""
+        },
+        "d’atmosphère": {
+          "display_format": "**d’atmosphère:** ambiance",
+          "explanation": "Atmospheric or ambient",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Vitesse excessive», zigzags entre les voitures et cannabis : le rappeur Koba LaD jugé pour un accident de la route mortel",
+      "original_article_link": "https://www.lefigaro.fr/faits-divers/vitesse-excessive-zigzags-entre-les-voitures-et-cannabis-le-rappeur-koba-lad-juge-pour-un-accident-de-la-route-mortel-20250622",
+      "original_article_published_date": "2025-06-22T05:00:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Koba LaD jugé pour accident mortel",
+      "simplified_english_title": "Koba LaD on trial for deadly accident",
+      "french_summary": "Le rappeur Koba LaD est jugé pour un accident mortel causé par une vitesse excessive et une conduite dangereuse.",
+      "english_summary": "The rapper Koba LaD is on trial for a deadly accident caused by excessive speed and dangerous driving.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Vitesse": {
+          "display_format": "**Vitesse:** Rapidité",
+          "explanation": "Speed",
+          "cultural_note": ""
+        },
+        "excessive": {
+          "display_format": "**excessive:** Trop grande",
+          "explanation": "Excessive",
+          "cultural_note": ""
+        },
+        "»,": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "zigzags": {
+          "display_format": "**zigzags:** Mouvements en zigzag",
+          "explanation": "Zigzag movements",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** Parmi",
+          "explanation": "Between",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "voitures": {
+          "display_format": "**voitures:** Véhicules",
+          "explanation": "Cars",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "cannabis": {
+          "display_format": "**cannabis:** Drogue",
+          "explanation": "Cannabis",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "rappeur": {
+          "display_format": "**rappeur:** Artiste de rap",
+          "explanation": "Rapper",
+          "cultural_note": ""
+        },
+        "Koba LaD": {
+          "display_format": "**Koba LaD:** Nom d'artiste",
+          "explanation": "Stage name of a rapper",
+          "cultural_note": ""
+        },
+        "jugé": {
+          "display_format": "**jugé:** Évalué par un tribunal",
+          "explanation": "Judged",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En raison de",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A",
+          "cultural_note": ""
+        },
+        "accident": {
+          "display_format": "**accident:** Événement malheureux",
+          "explanation": "Accident",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "route": {
+          "display_format": "**route:** Voie de circulation",
+          "explanation": "Road",
+          "cultural_note": ""
+        },
+        "mortel": {
+          "display_format": "**mortel:** Causant la mort",
+          "explanation": "Deadly",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Je l’honore ce don» : à l'occasion de la Journée du don d’organes, Aziza, greffée du cœur, sensibilise pour sauver des vies",
+      "original_article_link": "https://www.europe1.fr/sante/je-lhonore-ce-don-a-loccasion-de-la-journee-du-don-dorganes-aziza-greffee-du-coeur-sensibilise-pour-sauver-des-vies-760454",
+      "original_article_published_date": "2025-06-22T05:19:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Aziza parle des dons d'organes pour sauver des vies",
+      "simplified_english_title": "Aziza speaks about organ donation to save lives",
+      "french_summary": "Aziza, qui a reçu une greffe de cœur, sensibilise sur l'importance du don d'organes à l'occasion de la Journée du don d'organes.",
+      "english_summary": "Aziza, who received a heart transplant, raises awareness about the importance of organ donation on Organ Donation Day.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "French opening quotation mark",
+          "cultural_note": ""
+        },
+        "Je": {
+          "display_format": "**Je:** Pronom personnel",
+          "explanation": "Personal pronoun 'I'",
+          "cultural_note": ""
+        },
+        "l’honore": {
+          "display_format": "**l’honore:** honorer",
+          "explanation": "Verb 'to honor'",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Pronom démonstratif",
+          "explanation": "Demonstrative pronoun 'this'",
+          "cultural_note": ""
+        },
+        "don»": {
+          "display_format": "**don»:** guillemet fermant",
+          "explanation": "French closing quotation mark",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Preposition 'at' or 'to'",
+          "cultural_note": ""
+        },
+        "l’occasion": {
+          "display_format": "**l’occasion:** l’opportunité",
+          "explanation": "The occasion or opportunity",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "Journée du don d’organes": {
+          "display_format": "**Journée du don d’organes:** Jour de sensibilisation",
+          "explanation": "Organ Donation Awareness Day",
+          "cultural_note": "Annual event to promote organ donation"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "Aziza": {
+          "display_format": "**Aziza:** Prénom féminin",
+          "explanation": "Female first name",
+          "cultural_note": ""
+        },
+        "greffée": {
+          "display_format": "**greffée:** transplantée",
+          "explanation": "Transplanted",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "cœur": {
+          "display_format": "**cœur:** organe vital",
+          "explanation": "Heart",
+          "cultural_note": ""
+        },
+        "sensibilise": {
+          "display_format": "**sensibilise:** informe",
+          "explanation": "Raises awareness",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "Preposition 'for'",
+          "cultural_note": ""
+        },
+        "sauver": {
+          "display_format": "**sauver:** sauver des vies",
+          "explanation": "To save",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "vies": {
+          "display_format": "**vies:** vies humaines",
+          "explanation": "Lives",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T06:26:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
