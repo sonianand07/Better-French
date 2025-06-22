@@ -162,7 +162,12 @@ class ProcessorV2:
         processed: List[Article] = []
         for idx, art in enumerate(pending, 1):
             try:
-                logger.info("🔧 Processing AI enhancements %d/%d", idx, len(pending))
+                logger.info(
+                    "🔧 Processing AI enhancements %d/%d · %s",
+                    idx,
+                    len(pending),
+                    art.original_article_title[:90].replace("\n", " "),
+                )
                 new_art = self.process_article(art)
                 # Accept any article that received *some* AI enhancement
                 if new_art.ai_enhanced or article_is_display_ready(new_art):
