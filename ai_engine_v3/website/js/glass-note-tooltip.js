@@ -278,7 +278,17 @@
                         if (colonIdx !== -1) {
                             const alt = cleaned.slice(colonIdx + 1).trim();
                             if (alt) {
-                                displayText = alt;
+                                // If alt is still the same as the French token, try the explanation instead.
+                                if (alt.toLowerCase() === (data.original_word || '').toLowerCase()) {
+                                    if (data.explanation) {
+                                        const fallback = data.explanation.split(/[.,;]/)[0].trim();
+                                        if (fallback) {
+                                            displayText = fallback;
+                                        }
+                                    }
+                                } else {
+                                    displayText = alt;
+                                }
                             }
                         } else if (data.explanation) {
                             // Otherwise fall back to first clause of explanation

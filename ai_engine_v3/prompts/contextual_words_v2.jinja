@@ -33,11 +33,13 @@ Checklist before you answer:
 4. No markdown wrappers, no extra keys, valid JSON.
 5. If a *Key fact* entity was provided in the CONTEXT block, ensure it appears once in `original_word`.
 6. Do NOT output vague placeholders like "this is someone's name" – if unsure, use a neutral gloss such as "French personal name".
+7. **The bold heading BEFORE the colon must be the ENGLISH translation (or widely used English name) and should NOT repeat the French `original_word` unless they are naturally identical (e.g. "internet", personal names).**
 
 Title: "{{ title }}"
 
 EXAMPLE:
 [
+  {"original_word":"Royaume-Uni","display_format":"**United Kingdom:** Royaume-Uni","explanation":"Sovereign island state made up of England, Scotland, Wales and Northern Ireland","cultural_note":"Often abbreviated as 'UK'","source_note":""},
   {"original_word":"Je voterai","display_format":"**I will vote:** Je voterai","explanation":"Future tense of 'voter'","cultural_note":"Typical French political pledge"},
   {"original_word":"chèque en blanc","display_format":"**Blank cheque:** chèque en blanc","explanation":"Unconditional permission","cultural_note":"Fixed political idiom"},
   {"original_word":"ardoise magique","display_format":"**Magic slate:** ardoise magique","explanation":"Erase & start over metaphor","cultural_note":"Means ignoring past mistakes"},
