@@ -254,7 +254,7 @@
                 const data = JSON.parse(decodeURIComponent(dataString));
                 
                 // Extract display text from display_format (remove markdown formatting)
-                let displayText = data.display_format || data.original_word || trigger.textContent;
+                let displayText = data.en_translation || data.display_format || data.original_word || trigger.textContent;
                 
                 // Clean up display_format - remove markdown bold formatting and extract main term
                 if (data.display_format) {
@@ -266,12 +266,44 @@
                         // Fallback: remove all markdown formatting
                         displayText = displayText.replace(/\*\*/g, '').split(':')[0].trim();
                     }
+
+                    // ⚙️ Extra safeguard: if the part before the colon is still the
+                    // French word (same as original_word), assume the LLM reversed
+                    // the order and use the segment *after* the colon instead so
+                    // learners still see the English gloss in bold.
+                    if (displayText.toLowerCase() === (data.original_word || '').toLowerCase()) {
+                        // If display_format included a colon, use the segment after it first.
+                        const cleaned = data.display_format.replace(/\*\*/g, '');
+                        const colonIdx = cleaned.indexOf(':');
+                        if (colonIdx !== -1) {
+                            const alt = cleaned.slice(colonIdx + 1).trim();
+                            if (alt) {
+                                // If alt is still the same as the French token, try the explanation instead.
+                                if (alt.toLowerCase() === (data.original_word || '').toLowerCase()) {
+                                    if (data.explanation) {
+                                        const fallback = data.explanation.split(/[.,;]/)[0].trim();
+                                        if (fallback) {
+                                            displayText = fallback;
+                                        }
+                                    }
+                                } else {
+                                    displayText = alt;
+                                }
+                            }
+                        } else if (data.explanation) {
+                            // Otherwise fall back to first clause of explanation
+                            const alt = data.explanation.split(/[.,;]/)[0].trim();
+                            if (alt) {
+                                displayText = alt;
+                            }
+                        }
+                    }
                 }
                 
                 return {
                     word: data.original_word || trigger.textContent,
                     display: displayText,
-                    explanation: data.explanation || data.english_translation || '',
+                    explanation: data.context || data.explanation || data.english_translation || '',
                     note: data.cultural_note || data.linguistic_note || ''
                 };
             } catch (error) {
@@ -302,8 +334,15 @@
             // Build content
             let content = `<strong class="word-display">${this.escapeHtml(data.display)}</strong>`;
             
+            // Only show explanation if it adds information beyond the bold text.
             if (data.explanation) {
-                content += `<p class="definition">${this.escapeHtml(data.explanation)}</p>`;
+                const disp = data.display.trim().toLowerCase();
+                const expl = data.explanation.trim().toLowerCase();
+                // Ignore trailing punctuation differences (period/comma)
+                const normalise = (str) => str.replace(/[.,;:!?]$/g, '').trim();
+                if (normalise(expl) !== normalise(disp)) {
+                    content += `<p class="definition">${this.escapeHtml(data.explanation)}</p>`;
+                }
             }
             
             if (data.note) {
