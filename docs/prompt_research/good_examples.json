@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Strasbourg bientôt jumelée avec un camp palestinien ? Le vote doit avoir lieu ce lundi",
+    "tokens": [
+      "jumelée",
+      "doit",
+      "palestinien",
+      "lieu",
+      "bientôt",
+      "Le",
+      "?",
+      "Strasbourg",
+      "avec",
+      "camp",
+      "vote",
+      "avoir",
+      "lundi",
+      "un",
+      "ce"
+    ],
+    "explanations": {
+      "Strasbourg": {
+        "display_format": "**Strasbourg:** Ville française",
+        "explanation": "City in eastern France",
+        "cultural_note": "Capital of the Alsace region"
+      },
+      "bientôt": {
+        "display_format": "**bientôt:** Sous peu",
+        "explanation": "Soon, in the near future",
+        "cultural_note": ""
+      },
+      "jumelée": {
+        "display_format": "**jumelée:** Ville jumelle",
+        "explanation": "Twin town, sister city",
+        "cultural_note": "Cities cooperating culturally and commercially"
+      },
+      "avec": {
+        "display_format": "**avec:** En compagnie de",
+        "explanation": "With, in association with",
+        "cultural_note": ""
+      },
+      "un": {
+        "display_format": "**un:** Article indéfini",
+        "explanation": "Indefinite article, 'a'",
+        "cultural_note": ""
+      },
+      "camp": {
+        "display_format": "**camp:** Campement",
+        "explanation": "Camp, temporary settlement",
+        "cultural_note": ""
+      },
+      "palestinien": {
+        "display_format": "**palestinien:** De Palestine",
+        "explanation": "Palestinian, relating to Palestine",
+        "cultural_note": ""
+      },
+      "?": {
+        "display_format": "**?:** Point d'interrogation",
+        "explanation": "Question mark",
+        "cultural_note": ""
+      },
+      "Le": {
+        "display_format": "**Le:** Article défini",
+        "explanation": "Definite article, 'the'",
+        "cultural_note": ""
+      },
+      "vote": {
+        "display_format": "**vote:** Votation",
+        "explanation": "Vote, decision-making process",
+        "cultural_note": ""
+      },
+      "doit": {
+        "display_format": "**doit:** Devoir",
+        "explanation": "Must, has to",
+        "cultural_note": ""
+      },
+      "avoir": {
+        "display_format": "**avoir:** Posséder",
+        "explanation": "To have, to take place",
+        "cultural_note": ""
+      },
+      "lieu": {
+        "display_format": "**lieu:** Endroit",
+        "explanation": "Place, location",
+        "cultural_note": ""
+      },
+      "ce": {
+        "display_format": "**ce:** Ceci",
+        "explanation": "This, that",
+        "cultural_note": ""
+      },
+      "lundi": {
+        "display_format": "**lundi:** Jour de la semaine",
+        "explanation": "Monday",
+        "cultural_note": ""
+      }
+    }
+  }
+]

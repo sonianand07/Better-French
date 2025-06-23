@@ -100,6 +100,8 @@ Your prompts will be evaluated on a held-out set of 200 real headlines.
 
 A failure in any hard constraint is an automatic rejection.
 
+**Reference examples**  – We extracted three recent articles whose tool-tips meet the desired quality and 100 % coverage.  See `good_examples.json` in this folder for concrete input → output pairs.  Your prompts should achieve comparable quality for every supplied token.
+
 ---
 ## 5 · Deliverables & hand-off
 1. `contextual_words_prompt.txt` and `simplify_titles_prompt.txt` (UTF-8, no BOM).  
