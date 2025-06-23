@@ -3,510 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Iran-Israël: le débat à l'Assemblée nationale souhaité par Emmanuel Macron aura lieu mercredi soir",
-      "original_article_link": "https://www.bfmtv.com/politique/parlement/iran-israel-le-debat-a-l-assemblee-nationale-souhaite-par-emmanuel-macron-aura-lieu-mercredi-soir_AD-202506230360.html",
-      "original_article_published_date": "2025-06-23T10:18:39",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Débat sur Iran-Israël à l'Assemblée mercredi",
-      "simplified_english_title": "Iran-Israel debate in Assembly Wednesday",
-      "french_summary": "Emmanuel Macron a organisé un débat à l'Assemblée nationale sur Iran-Israël. Il aura lieu mercredi soir.",
-      "english_summary": "Emmanuel Macron scheduled a debate at the National Assembly on Iran-Israel. It will take place Wednesday evening.",
-      "contextual_title_explanations": {
-        "Iran-Israël": {
-          "display_format": "**Iran-Israel:** Iran-Israël",
-          "explanation": "Relations or conflict between Iran and Israel",
-          "cultural_note": "Ongoing geopolitical tensions in the Middle East"
-        },
-        "débat": {
-          "display_format": "**Debate:** débat",
-          "explanation": "Formal discussion or argument",
-          "cultural_note": "Common in French political context"
-        },
-        "Assemblée nationale": {
-          "display_format": "**National Assembly:** Assemblée nationale",
-          "explanation": "France's lower house of Parliament",
-          "cultural_note": "Key legislative body in French politics"
-        },
-        "mercredi": {
-          "display_format": "**Wednesday:** mercredi",
-          "explanation": "Day of the week",
-          "cultural_note": ""
-        },
-        "soir": {
-          "display_format": "**Evening:** soir",
-          "explanation": "Time of day after sunset",
-          "cultural_note": ""
-        },
-        "aura lieu": {
-          "display_format": "**Will take place:** aura lieu",
-          "explanation": "Future tense of 'to take place'",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Iran-Israël: \"La position de la France est une position d'impuissance\", dénonce Raphaël Glucksmann",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/palestine/video-iran-israel-la-position-de-la-france-est-une-position-d-impuissance-denonce-raphael-glucksmann_VN-202506230355.html",
-      "original_article_published_date": "2025-06-23T10:13:12",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "opinion",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France semble impuissante face à l'Iran et Israël",
-      "simplified_english_title": "France appears powerless with Iran and Israel",
-      "french_summary": "Raphaël Glucksmann critique la France, disant qu'elle semble impuissante face aux tensions entre l'Iran et Israël.",
-      "english_summary": "Raphaël Glucksmann criticizes France, saying it seems powerless amid tensions between Iran and Israel.",
-      "contextual_title_explanations": {
-        "Iran-Israël": {
-          "display_format": "**Iran-Israel:** Iran-Israël",
-          "explanation": "Relations between Iran and Israel",
-          "cultural_note": "Often discussed due to geopolitical tensions"
-        },
-        "impuissance": {
-          "display_format": "**Powerlessness:** impuissance",
-          "explanation": "Lack of power or ability",
-          "cultural_note": ""
-        },
-        "dénonce": {
-          "display_format": "**Denounces:** dénonce",
-          "explanation": "Publicly criticizes or condemns",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Frappes américaines : que reste-t-il du nucléaire iranien ?",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-frappes-am%C3%A9ricaines-que-reste-t-il-du-nucl%C3%A9aire-iranien",
-      "original_article_published_date": "2025-06-23T10:10:34",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les attaques américaines et le nucléaire iranien",
-      "simplified_english_title": "US attacks and Iranian nuclear program",
-      "french_summary": "Les attaques américaines en Iran ont des conséquences sur le programme nucléaire du pays. Les détails restent incertains.",
-      "english_summary": "US attacks in Iran impact the country's nuclear program. Details remain uncertain.",
-      "contextual_title_explanations": {
-        "Frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks, usually airstrikes",
-          "cultural_note": "Often used in context of international conflicts"
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "nucléaire": {
-          "display_format": "**Nuclear:** nucléaire",
-          "explanation": "Relating to atomic energy or weapons",
-          "cultural_note": "Key issue in international relations"
-        },
-        "iranien": {
-          "display_format": "**Iranian:** iranien",
-          "explanation": "Relating to Iran",
-          "cultural_note": "Iran's nuclear program is a major global concern"
-        },
-        "que reste-t-il": {
-          "display_format": "**What remains:** que reste-t-il",
-          "explanation": "Question about what is left",
-          "cultural_note": "Common phrase in French journalism"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "De nouveaux pics de chaleur et un risque d’orages voire de grêle dans l’Ouest",
-      "original_article_link": "https://www.ouest-france.fr/meteo/de-nouveaux-pics-de-chaleurs-et-un-risque-dorages-voire-de-grele-dans-louest-bcf50aee-500d-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T10:08:31",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chaleur intense et orages possibles à l'Ouest",
-      "simplified_english_title": "Heatwave and possible storms in the West",
-      "french_summary": "Des températures élevées sont prévues avec des risques d'orages et de grêle dans l'Ouest de la France.",
-      "english_summary": "High temperatures are expected with risks of storms and hail in western France.",
-      "contextual_title_explanations": {
-        "pics": {
-          "display_format": "**Peaks:** pics",
-          "explanation": "Highest points or levels",
-          "cultural_note": "Often used for temperature extremes"
-        },
-        "chaleur": {
-          "display_format": "**Heat:** chaleur",
-          "explanation": "High temperature",
-          "cultural_note": ""
-        },
-        "orages": {
-          "display_format": "**Storms:** orages",
-          "explanation": "Severe weather with thunder and lightning",
-          "cultural_note": ""
-        },
-        "voire": {
-          "display_format": "**Even:** voire",
-          "explanation": "Emphasizes possibility",
-          "cultural_note": "Used to add stronger examples"
-        },
-        "grêle": {
-          "display_format": "**Hail:** grêle",
-          "explanation": "Frozen rain pellets",
-          "cultural_note": ""
-        },
-        "Ouest": {
-          "display_format": "**West:** Ouest",
-          "explanation": "Western region of France",
-          "cultural_note": "Refers to areas like Brittany and Normandy"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre entre Israël et l'Iran : Air France suspend temporairement sa desserte de l'Arabie saoudite et des Emirats arabes unis",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-entre-israel-et-l-iran-air-france-suspend-temporairement-sa-desserte-de-l-arabie-saoudite-et-des-emirats-arabes-unis_7332246.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T09:58:27",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Air France arrête ses vols vers l'Arabie saoudite",
-      "simplified_english_title": "Air France halts flights to Saudi Arabia",
-      "french_summary": "Air France suspend ses vols vers l'Arabie saoudite et les Émirats arabes unis à cause des tensions entre Israël et l'Iran.",
-      "english_summary": "Air France suspends flights to Saudi Arabia and the UAE due to tensions between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between countries",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "desserte": {
-          "display_format": "**Service:** desserte",
-          "explanation": "Regular flights to a destination",
-          "cultural_note": "Common term in airline industry"
-        },
-        "Arabie saoudite": {
-          "display_format": "**Saudi Arabia:** Arabie saoudite",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Key regional ally of Western nations"
-        },
-        "Emirats arabes unis": {
-          "display_format": "**United Arab Emirates:** Emirats arabes unis",
-          "explanation": "Federation of seven emirates",
-          "cultural_note": "Known for major cities like Dubai"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Raphaël Glucksmann: \"Il est fondamental qu'il y ait une offre politique à gauche qui aspire à gouverner\"",
-      "original_article_link": "https://www.bfmtv.com/politique/la-france-insoumise/video-raphael-glucksmann-il-est-fondamental-qu-il-y-ait-une-offre-politique-a-gauche-qui-aspire-a-gouverner_VN-202506230333.html",
-      "original_article_published_date": "2025-06-23T09:50:47",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Glucksmann veut une gauche prête à gouverner",
-      "simplified_english_title": "Glucksmann wants a left ready to govern",
-      "french_summary": "Raphaël Glucksmann dit qu'il est important d'avoir une offre politique de gauche qui veut gouverner.",
-      "english_summary": "Raphaël Glucksmann says it is important to have a left-wing political option that aims to govern.",
-      "contextual_title_explanations": {
-        "fondamental": {
-          "display_format": "**Fundamental:** fondamental",
-          "explanation": "Essential or crucial",
-          "cultural_note": ""
-        },
-        "offre politique": {
-          "display_format": "**Political offer:** offre politique",
-          "explanation": "Political proposal or platform",
-          "cultural_note": ""
-        },
-        "à gauche": {
-          "display_format": "**Left-wing:** à gauche",
-          "explanation": "Political left",
-          "cultural_note": "Refers to left-wing politics in France"
-        },
-        "aspire à": {
-          "display_format": "**Aspires to:** aspire à",
-          "explanation": "Aims or seeks to",
-          "cultural_note": ""
-        },
-        "gouvern": {
-          "display_format": "**Govern:** gouverner",
-          "explanation": "To rule or administer",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'édito crypto : Contexte géopolitique actuel, les cryptomonnaies ne sont pas valeurs refuges ! - 23/06",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-patrimoine/video-l-edito-crypto-contexte-geopolitique-actuel-les-cryptomonnaies-ne-sont-pas-valeurs-refuges-23-06_VN-202506230334.html",
-      "original_article_published_date": "2025-06-23T09:50:12",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "opinion",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les cryptomonnaies ne sont pas sûres aujourd'hui",
-      "simplified_english_title": "Cryptocurrencies are not safe today",
-      "french_summary": "Dans le contexte géopolitique actuel, les cryptomonnaies ne sont pas des valeurs sûres. La situation est trop instable pour être considérée comme un refuge.",
-      "english_summary": "In the current geopolitical context, cryptocurrencies are not safe investments. The situation is too unstable to be considered a refuge.",
-      "contextual_title_explanations": {
-        "L'édito": {
-          "display_format": "**The editorial:** L'édito",
-          "explanation": "Article expressing the editor's opinion",
-          "cultural_note": "Common in French newspapers"
-        },
-        "géopolitique": {
-          "display_format": "**Geopolitical:** géopolitique",
-          "explanation": "Relating to politics influenced by geography",
-          "cultural_note": ""
-        },
-        "actuel": {
-          "display_format": "**Current:** actuel",
-          "explanation": "Happening now",
-          "cultural_note": ""
-        },
-        "cryptomonnaies": {
-          "display_format": "**Cryptocurrencies:** cryptomonnaies",
-          "explanation": "Digital or virtual currencies using cryptography",
-          "cultural_note": ""
-        },
-        "valeurs refuges": {
-          "display_format": "**Safe havens:** valeurs refuges",
-          "explanation": "Investments expected to retain value during market turmoil",
-          "cultural_note": "Common term in financial contexts"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "« Territoire zéro chômeur » : la Cour des comptes préconise la poursuite du dispositif",
-      "original_article_link": "https://www.ouest-france.fr/economie/emploi/chomage/territoire-zero-chomeur-la-cour-des-comptes-preconise-la-poursuite-du-dispositif-56d9226a-4f4d-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T09:46:57",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La Cour des comptes soutient un projet contre le chômage",
-      "simplified_english_title": "Court of Auditors backs jobless project",
-      "french_summary": "La Cour des comptes recommande de continuer le projet 'Territoire zéro chômeur' pour lutter contre le chômage.",
-      "english_summary": "The Court of Auditors recommends continuing the 'Zero Unemployed Territory' project to fight unemployment.",
-      "contextual_title_explanations": {
-        "Territoire zéro chômeur": {
-          "display_format": "**Zero Unemployment Area:** Territoire zéro chômeur",
-          "explanation": "Experimental program to eliminate unemployment in specific areas",
-          "cultural_note": "Initiative to create jobs locally"
-        },
-        "Cour des comptes": {
-          "display_format": "**Court of Auditors:** Cour des comptes",
-          "explanation": "French institution auditing public funds",
-          "cultural_note": "Ensures government financial accountability"
-        },
-        "préconise": {
-          "display_format": "**Recommends:** préconise",
-          "explanation": "Suggests or advises something",
-          "cultural_note": ""
-        },
-        "poursuite": {
-          "display_format": "**Continuation:** poursuite",
-          "explanation": "Act of continuing something",
-          "cultural_note": ""
-        },
-        "dispositif": {
-          "display_format": "**Scheme:** dispositif",
-          "explanation": "Plan or system set up for a purpose",
-          "cultural_note": "Often used for government programs"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Une coupure d'électricité paralyse l'île de la Cité à Paris, le palais de justice touché",
-      "original_article_link": "https://www.franceinfo.fr/societe/justice/une-coupure-d-electricite-paralyse-l-ile-de-la-cite-a-paris-le-palais-de-justice-touche_7332189.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T09:46:13",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Pan d'électricité à Paris",
-      "simplified_english_title": "Power outage in Paris",
-      "french_summary": "Une panne d'électricité a affecté l'île de la Cité à Paris, y compris le palais de justice.",
-      "english_summary": "A power outage affected the Île de la Cité in Paris, including the Palace of Justice.",
-      "contextual_title_explanations": {
-        "coupure": {
-          "display_format": "**Outage:** coupure",
-          "explanation": "Sudden loss of a service",
-          "cultural_note": "Often used for electricity or water"
-        },
-        "d'électricité": {
-          "display_format": "**Electricity:** d'électricité",
-          "explanation": "Power supply for homes and businesses",
-          "cultural_note": ""
-        },
-        "paralyse": {
-          "display_format": "**Paralyzes:** paralyse",
-          "explanation": "Brings to a complete stop",
-          "cultural_note": ""
-        },
-        "palais de justice": {
-          "display_format": "**Courthouse:** palais de justice",
-          "explanation": "Building where legal trials occur",
-          "cultural_note": "Historically significant in French legal system"
-        },
-        "touché": {
-          "display_format": "**Affected:** touché",
-          "explanation": "Impacted or influenced by an event",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Justin Vaïsse, historien : « Comme souvent avec Donald Trump, c’est moins l’effet produit que l’impression donnée qui compte »",
       "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/23/justin-vaisse-historien-comme-souvent-avec-donald-trump-c-est-moins-l-effet-produit-que-l-impression-donnee-qui-compte_6615430_3232.html",
       "original_article_published_date": "2025-06-23T09:30:06",
@@ -2819,72 +2315,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T06:31:14",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La menace de fermeture du détroit d'Ormuz par l'Iran est \"un couteau sous la gorge de l'économie mondiale\", estime le directeur de l'Institut supérieur d'économie maritime",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/la-menace-de-fermeture-du-detroit-d-ormuz-par-l-iran-est-un-couteau-sous-la-gorge-de-l-economie-mondiale-estime-le-directeur-de-l-institut-superieur-d-economie-maritime_7331982.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T06:07:03",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran menace de fermer le détroit d'Ormuz",
-      "simplified_english_title": "Iran threatens to close the Strait of Hormuz",
-      "french_summary": "Le directeur de l'Institut supérieur d'économie maritime dit que cette menace est très dangereuse pour l'économie mondiale.",
-      "english_summary": "The director of the Higher Institute of Maritime Economics says this threat is very dangerous for the global economy.",
-      "contextual_title_explanations": {
-        "menace": {
-          "display_format": "**Threat:** menace",
-          "explanation": "Expression of intent to harm or cause trouble",
-          "cultural_note": ""
-        },
-        "fermeture": {
-          "display_format": "**Closure:** fermeture",
-          "explanation": "Action of closing something",
-          "cultural_note": ""
-        },
-        "détroit d'Ormuz": {
-          "display_format": "**Strait of Hormuz:** détroit d'Ormuz",
-          "explanation": "Strategic waterway between Iran and Oman",
-          "cultural_note": "Critical for global oil transportation"
-        },
-        "couteau sous la gorge": {
-          "display_format": "**Knife to the throat:** couteau sous la gorge",
-          "explanation": "Idiom meaning a severe threat",
-          "cultural_note": "Vivid expression for extreme danger"
-        },
-        "économie mondiale": {
-          "display_format": "**Global economy:** économie mondiale",
-          "explanation": "Economic activity worldwide",
-          "cultural_note": ""
-        },
-        "estime": {
-          "display_format": "**Estimates:** estime",
-          "explanation": "Verb meaning to judge or consider",
-          "cultural_note": ""
-        },
-        "Institut supérieur d'économie maritime": {
-          "display_format": "**Higher Institute of Maritime Economics:** Institut supérieur d'économie maritime",
-          "explanation": "Educational institution focused on maritime economics",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T10:22:26",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6773,6 +6203,876 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T23:17:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Édition spéciale - Iran/Israël : Trump fait basculer la guerre - 22/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/week-end-direct/video-edition-speciale-iran-israel-trump-fait-basculer-la-guerre-22-06_VN-202506220349.html",
+      "original_article_published_date": "2025-06-22T23:09:01",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump change la guerre Iran/Israël",
+      "simplified_english_title": "Trump shifts Iran/Israel conflict",
+      "french_summary": "Donald Trump influence la situation entre l'Iran et Israël, créant des tensions internationales.",
+      "english_summary": "Donald Trump influences the situation between Iran and Israel, creating international tensions.",
+      "contextual_title_explanations": {
+        "Édition": {
+          "display_format": "**Édition:** Version spéciale",
+          "explanation": "Special version or issue",
+          "cultural_note": ""
+        },
+        "spéciale": {
+          "display_format": "**spéciale:** Particulière",
+          "explanation": "Particular or unique",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash for separation",
+          "cultural_note": ""
+        },
+        "Iran/Israël": {
+          "display_format": "**Iran/Israël:** Deux pays",
+          "explanation": "Two Middle Eastern countries",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Former US President",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** Cause",
+          "explanation": "Causes or makes",
+          "cultural_note": ""
+        },
+        "basculer": {
+          "display_format": "**basculer:** Changer brusquement",
+          "explanation": "To change abruptly",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "Armed conflict",
+          "cultural_note": ""
+        },
+        "22/06": {
+          "display_format": "**22/06:** Date",
+          "explanation": "Date format: day/month",
+          "cultural_note": "Common French date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T01:43:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les mercenaires de Wagner au cœur d'un nouveau rapport accablant transmis au procureur de la CPI",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250622-les-mercenaires-de-wagner-au-c%C5%93ur-d-un-nouveau-rapport-accablant-transmis-au-procureur-de-la-cpi",
+      "original_article_published_date": "2025-06-22T23:03:40",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rapport sur les mercenaires de Wagner",
+      "simplified_english_title": "Report on Wagner mercenaries",
+      "french_summary": "Un nouveau rapport sur les mercenaires de Wagner a été envoyé au procureur de la Cour pénale internationale.",
+      "english_summary": "A new report on Wagner mercenaries has been sent to the ICC prosecutor.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "mercenaires": {
+          "display_format": "**mercenaires:** Soldats payés",
+          "explanation": "Mercenaries, hired soldiers",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "Wagner": {
+          "display_format": "**Wagner:** Groupe militaire privé",
+          "explanation": "Name of a private military group",
+          "cultural_note": "Russian private military company"
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the",
+          "cultural_note": ""
+        },
+        "cœur": {
+          "display_format": "**cœur:** Centre",
+          "explanation": "Heart, center",
+          "cultural_note": ""
+        },
+        "d'un": {
+          "display_format": "**d'un:** De un",
+          "explanation": "Of a",
+          "cultural_note": ""
+        },
+        "nouveau": {
+          "display_format": "**nouveau:** Récent",
+          "explanation": "New, recent",
+          "cultural_note": ""
+        },
+        "rapport": {
+          "display_format": "**rapport:** Document",
+          "explanation": "Report, document",
+          "cultural_note": ""
+        },
+        "accablant": {
+          "display_format": "**accablant:** Accusateur",
+          "explanation": "Damning, accusing",
+          "cultural_note": ""
+        },
+        "transmis": {
+          "display_format": "**transmis:** Envoyé",
+          "explanation": "Sent, transmitted",
+          "cultural_note": ""
+        },
+        "procureur": {
+          "display_format": "**procureur:** Avocat public",
+          "explanation": "Prosecutor, public lawyer",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The (feminine)",
+          "cultural_note": ""
+        },
+        "CPI": {
+          "display_format": "**CPI:** Cour pénale internationale",
+          "explanation": "International Criminal Court",
+          "cultural_note": "Based in The Hague"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T23:17:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Benjamin Netanyahu consent que ramener les otages de Gaza \"prendra encore un peu de temps\"",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250622-benjamin-netanyahu-consent-que-ramener-otages-de-gaza-prendra-encore-un-peu-de-temps-israel-guerre-hamas",
+      "original_article_published_date": "2025-06-22T23:03:19",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Netanyahu dit que les otages reviennent bientôt",
+      "simplified_english_title": "Netanyahu says hostages will return soon",
+      "french_summary": "Benjamin Netanyahu a déclaré que le retour des otages de Gaza prendra encore un peu de temps.",
+      "english_summary": "Benjamin Netanyahu stated that bringing back the hostages from Gaza will take a little more time.",
+      "contextual_title_explanations": {
+        "Benjamin Netanyahu": {
+          "display_format": "**Benjamin Netanyahu:** Premier ministre israélien",
+          "explanation": "Current Israeli Prime Minister",
+          "cultural_note": "Longest-serving PM in Israel's history"
+        },
+        "consent": {
+          "display_format": "**consent:** admet",
+          "explanation": "agrees or acknowledges",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** que",
+          "explanation": "that (conjunction)",
+          "cultural_note": ""
+        },
+        "ramener": {
+          "display_format": "**ramener:** faire revenir",
+          "explanation": "to bring back",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** les",
+          "explanation": "the (plural)",
+          "cultural_note": ""
+        },
+        "otages": {
+          "display_format": "**otages:** prisonniers",
+          "explanation": "hostages",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** de",
+          "explanation": "from",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** Territoire palestinien",
+          "explanation": "Gaza Strip",
+          "cultural_note": "Palestinian territory controlled by Hamas"
+        },
+        "prendra": {
+          "display_format": "**prendra:** nécessitera",
+          "explanation": "will take",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**encore:** toujours",
+          "explanation": "still or yet",
+          "cultural_note": ""
+        },
+        "un peu de": {
+          "display_format": "**un peu de:** quelque",
+          "explanation": "a little bit of",
+          "cultural_note": ""
+        },
+        "temps": {
+          "display_format": "**temps:** durée",
+          "explanation": "time",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "opening quotation mark",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** guillemet fermant",
+          "explanation": "closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T23:17:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Benyamin Netanyahou promet de ramener les otages de Gaza, mais demande « encore un peu de temps »",
+      "original_article_link": "https://www.ouest-france.fr/monde/israel/benyamin-netanyahou-promet-de-ramener-les-otages-de-gaza-mais-demande-encore-un-peu-de-temps-92974f9e-4fb5-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T22:26:13",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Netanyahou veut libérer les otages de Gaza",
+      "simplified_english_title": "Netanyahu vows to free Gaza hostages",
+      "french_summary": "Le Premier ministre israélien a déclaré qu'il ferait tout pour libérer les otages, mais a demandé plus de temps.",
+      "english_summary": "The Israeli Prime Minister said he will do everything to free the hostages, but asked for more time.",
+      "contextual_title_explanations": {
+        "Benyamin Netanyahou": {
+          "display_format": "**Benyamin Netanyahou:** Premier ministre israélien",
+          "explanation": "Current Israeli Prime Minister",
+          "cultural_note": ""
+        },
+        "promet": {
+          "display_format": "**promet:** s'engage à",
+          "explanation": "Promises or commits to",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** préposition",
+          "explanation": "Preposition indicating quantity",
+          "cultural_note": ""
+        },
+        "ramener": {
+          "display_format": "**ramener:** faire revenir",
+          "explanation": "To bring back",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "otages": {
+          "display_format": "**otages:** personnes capturées",
+          "explanation": "Hostages or captives",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza:** territoire palestinien",
+          "explanation": "Palestinian territory",
+          "cultural_note": "Often referenced in Middle East conflicts"
+        },
+        ",": {
+          "display_format": "**,:** virgule",
+          "explanation": "Comma indicating pause",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**mais:** cependant",
+          "explanation": "But or however",
+          "cultural_note": ""
+        },
+        "demande": {
+          "display_format": "**demande:** réclame",
+          "explanation": "Asks or requests",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**encore:** toujours",
+          "explanation": "Still or yet",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** article indéfini",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "peu": {
+          "display_format": "**peu:** petit nombre",
+          "explanation": "Small amount or little",
+          "cultural_note": ""
+        },
+        "temps": {
+          "display_format": "**temps:** durée",
+          "explanation": "Time or duration",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T23:17:40",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Syrie : le président ordonne une augmentation de 200 % des salaires de la fonction publique",
+      "original_article_link": "https://www.ouest-france.fr/monde/syrie/syrie-le-president-ordonne-une-augmentation-de-200-pourcent-des-salaires-de-la-fonction-publique-774007c8-4faf-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T22:07:37",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Syrie augmente les salaires publics",
+      "simplified_english_title": "Syria raises public sector salaries",
+      "french_summary": "Le président syrien a décidé d'augmenter les salaires des fonctionnaires de 200% pour améliorer leur situation financière.",
+      "english_summary": "The Syrian president decided to increase public sector salaries by 200% to improve their financial situation.",
+      "contextual_title_explanations": {
+        "Syrie": {
+          "display_format": "**Syrie:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le président": {
+          "display_format": "**le président:** Chef de l'État",
+          "explanation": "Head of state",
+          "cultural_note": ""
+        },
+        "ordonne": {
+          "display_format": "**ordonne:** Commande",
+          "explanation": "Orders or commands",
+          "cultural_note": ""
+        },
+        "une augmentation": {
+          "display_format": "**une augmentation:** Hausse",
+          "explanation": "An increase",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Partitive article",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "200 %": {
+          "display_format": "**200 %:** Deux cents pour cent",
+          "explanation": "Two hundred percent",
+          "cultural_note": ""
+        },
+        "des salaires": {
+          "display_format": "**des salaires:** Rémunérations",
+          "explanation": "Salaries or wages",
+          "cultural_note": ""
+        },
+        "de la fonction publique": {
+          "display_format": "**de la fonction publique:** Secteur public",
+          "explanation": "Public sector",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T22:17:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France mobilise des avions militaires A400M pour rapatrier des Français d'Israël",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/la-france-mobilise-des-avions-militaires-a400m-pour-rapatrier-des-francais-d-israel-20250623",
+      "original_article_published_date": "2025-06-22T22:00:21",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France envoie des avions pour ses ressortissants",
+      "simplified_english_title": "France sends planes for its nationals",
+      "french_summary": "La France utilise des avions militaires A400M pour ramener des Français depuis Israël en raison de la situation actuelle.",
+      "english_summary": "France is using A400M military aircraft to bring French nationals back from Israel due to the current situation.",
+      "contextual_title_explanations": {
+        "La France": {
+          "display_format": "**La France:** Pays européen",
+          "explanation": "The country France",
+          "cultural_note": ""
+        },
+        "mobilise": {
+          "display_format": "**mobilise:** Déploie",
+          "explanation": "Deploys or mobilizes",
+          "cultural_note": ""
+        },
+        "des avions militaires": {
+          "display_format": "**des avions militaires:** Appareils de guerre",
+          "explanation": "Military aircraft",
+          "cultural_note": ""
+        },
+        "A400M": {
+          "display_format": "**A400M:** Avion de transport",
+          "explanation": "Type of military transport aircraft",
+          "cultural_note": "Made by Airbus"
+        },
+        "pour": {
+          "display_format": "**pour:** Afin de",
+          "explanation": "In order to",
+          "cultural_note": ""
+        },
+        "rapatrier": {
+          "display_format": "**rapatrier:** Renvoyer au pays",
+          "explanation": "To repatriate or bring back",
+          "cultural_note": ""
+        },
+        "des Français": {
+          "display_format": "**des Français:** Citoyens français",
+          "explanation": "French citizens",
+          "cultural_note": ""
+        },
+        "d'Israël": {
+          "display_format": "**d'Israël:** De l'État d'Israël",
+          "explanation": "From Israel",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T22:17:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Euro Espoirs 2025. L’Allemagne élimine l’Italie et rejoint les Bleuets en demi-finale",
+      "original_article_link": "https://www.ouest-france.fr/sport/football/equipe-allemagne/euro-espoirs-2025-lallemagne-elimine-litalie-et-rejoint-les-bleuets-en-demi-finale-d0f77384-4fa8-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T21:46:57",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L’Allemagne bat l’Italie et va en demi-finale",
+      "simplified_english_title": "Germany beats Italy, advances to semi-final",
+      "french_summary": "L’équipe allemande a gagné contre l’Italie et rejoint l’équipe française en demi-finale de l’Euro Espoirs 2025.",
+      "english_summary": "The German team defeated Italy and will face the French team in the semi-finals of the 2025 Under-21 Euro Championship.",
+      "contextual_title_explanations": {
+        "Euro Espoirs": {
+          "display_format": "**Euro Espoirs:** Compétition de football",
+          "explanation": "European Under-21 Football Championship",
+          "cultural_note": "Also called 'UEFA European Under-21 Championship'"
+        },
+        "2025": {
+          "display_format": "**2025:** Année",
+          "explanation": "Year of the event",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "Period separating sentences",
+          "cultural_note": ""
+        },
+        "L’Allemagne": {
+          "display_format": "**L’Allemagne:** Pays européen",
+          "explanation": "Germany, a European country",
+          "cultural_note": ""
+        },
+        "élimine": {
+          "display_format": "**élimine:** Exclut de la compétition",
+          "explanation": "Eliminates from the competition",
+          "cultural_note": ""
+        },
+        "l’Italie": {
+          "display_format": "**l’Italie:** Pays européen",
+          "explanation": "Italy, a European country",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And, connecting words",
+          "cultural_note": ""
+        },
+        "rejoint": {
+          "display_format": "**rejoint:** Se joint à",
+          "explanation": "Joins, meets up with",
+          "cultural_note": ""
+        },
+        "les Bleuets": {
+          "display_format": "**les Bleuets:** Équipe de France espoirs",
+          "explanation": "French Under-21 national football team",
+          "cultural_note": "Named after the blue cornflower, symbolizing young French players"
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, indicating location or state",
+          "cultural_note": ""
+        },
+        "demi-finale": {
+          "display_format": "**demi-finale:** Avant la finale",
+          "explanation": "Semi-final, stage before the final",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T22:17:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’Iran met en cause la France après les frappes américaines",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/video-l-iran-met-en-cause-la-france-apres-les-frappes-americaines_VN-202506220327.html",
+      "original_article_published_date": "2025-06-22T21:43:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran critique la France après des attaques américaines",
+      "simplified_english_title": "Iran criticizes France after US strikes",
+      "french_summary": "L'Iran accuse la France de soutenir les attaques américaines, ce qui augmente les tensions entre les deux pays.",
+      "english_summary": "Iran accuses France of supporting US strikes, increasing tensions between the two countries.",
+      "contextual_title_explanations": {
+        "L’Iran": {
+          "display_format": "**L’Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        "met en cause": {
+          "display_format": "**met en cause:** Accuse",
+          "explanation": "Blames or accuses someone",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "European country",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After or following",
+          "cultural_note": ""
+        },
+        "les frappes américaines": {
+          "display_format": "**les frappes américaines:** Attaques des États-Unis",
+          "explanation": "Military strikes by the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T22:17:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Emmanuel Macron appelle à éviter une «escalade incontrôlée» au Moyen-Orient",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/emmanuel-macron-appelle-a-eviter-une-escalade-incontrolee-au-moyen-orient-20250622",
+      "original_article_published_date": "2025-06-22T21:39:50",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut éviter une escalade au Moyen-Orient",
+      "simplified_english_title": "Macron warns against escalation in Middle East",
+      "french_summary": "Le président français demande de la retenue pour empêcher une escalade incontrôlée dans la région du Moyen-Orient.",
+      "english_summary": "The French president calls for restraint to prevent uncontrolled escalation in the Middle East region.",
+      "contextual_title_explanations": {
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "appelle": {
+          "display_format": "**appelle:** Demande solennellement",
+          "explanation": "Urges or calls for action",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "Indicates infinitive verb",
+          "cultural_note": ""
+        },
+        "éviter": {
+          "display_format": "**éviter:** Empêcher",
+          "explanation": "To avoid something",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses « » as quotation marks"
+        },
+        "escalade": {
+          "display_format": "**escalade:** Augmentation tension",
+          "explanation": "Escalation or increase in tension",
+          "cultural_note": ""
+        },
+        "incontrôlée": {
+          "display_format": "**incontrôlée:** Sans contrôle",
+          "explanation": "Uncontrolled or unchecked",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "Combines 'à' and 'le'",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Moyen-Orient:** Région géographique",
+          "explanation": "Middle East region",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T22:17:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique: des ouvriers travaillant de nuit ont été applaudis par la foule",
+      "original_article_link": "https://www.bfmtv.com/societe/video-fete-de-la-musique-des-ouvriers-travaillant-de-nuit-ont-ete-applaudis-par-la-foule_VN-202506220326.html",
+      "original_article_published_date": "2025-06-22T21:36:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des ouvriers applaudis pendant la Fête de la Musique",
+      "simplified_english_title": "Workers applauded during Music Day",
+      "french_summary": "Des ouvriers travaillant de nuit ont été applaudis par la foule pendant la Fête de la Musique.",
+      "english_summary": "Night workers were applauded by the crowd during the Music Day celebrations.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Fête de la musique:** Célébration musicale",
+          "explanation": "Annual music celebration on June 21",
+          "cultural_note": "Free concerts nationwide"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces additional information",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Articles indéfinis",
+          "explanation": "Plural indefinite article (some)",
+          "cultural_note": ""
+        },
+        "ouvriers": {
+          "display_format": "**ouvriers:** Travailleurs manuels",
+          "explanation": "Manual laborers, workers",
+          "cultural_note": ""
+        },
+        "travaillant": {
+          "display_format": "**travaillant:** Qui travaillent",
+          "explanation": "Present participle of travailler (working)",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition (of, from)",
+          "cultural_note": ""
+        },
+        "nuit": {
+          "display_format": "**nuit:** Période nocturne",
+          "explanation": "Night, nighttime",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** Auxiliaire avoir",
+          "explanation": "Third person plural of avoir (have)",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**été:** Participe passé",
+          "explanation": "Past participle of être (been)",
+          "cultural_note": ""
+        },
+        "applaudis": {
+          "display_format": "**applaudis:** Acclamés",
+          "explanation": "Past participle of applaudir (applauded)",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par (agent)",
+          "explanation": "Preposition indicating agent (by)",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article (the)",
+          "cultural_note": ""
+        },
+        "foule": {
+          "display_format": "**foule:** Grande assemblée",
+          "explanation": "Crowd, large gathering",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T01:43:14",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
