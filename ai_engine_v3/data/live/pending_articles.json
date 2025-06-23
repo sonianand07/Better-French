@@ -62022,6 +62022,581 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : des images satellites révèlent les dégâts des frappes américaines sur les sites nucléaires iraniens",
+      "original_article_link": "https://www.lefigaro.fr/international/guerre-israel-iran-des-images-satellites-revelent-les-degats-des-frappes-americaines-sur-les-sites-nucleaires-iraniens-20250623",
+      "original_article_published_date": "2025-06-23T10:27:35",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des frappes américaines touchent l'Iran",
+      "simplified_english_title": "US strikes hit Iran",
+      "french_summary": "Des images satellites montrent les dégâts causés par les frappes américaines sur des sites nucléaires en Iran.",
+      "english_summary": "Satellite images show damage from US strikes on nuclear sites in Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** Israël-Iran",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": "Long-standing geopolitical tension in the Middle East"
+        },
+        "images satellites": {
+          "display_format": "**Satellite images:** images satellites",
+          "explanation": "Pictures taken from space",
+          "cultural_note": "Used for military and intelligence purposes"
+        },
+        "révèlent": {
+          "display_format": "**Reveal:** révèlent",
+          "explanation": "To make something known",
+          "cultural_note": ""
+        },
+        "dégâts": {
+          "display_format": "**Damage:** dégâts",
+          "explanation": "Physical harm caused to something",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks",
+          "cultural_note": "Often refers to airstrikes in this context"
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the United States",
+          "cultural_note": ""
+        },
+        "sites nucléaires": {
+          "display_format": "**Nuclear sites:** sites nucléaires",
+          "explanation": "Locations related to nuclear activities",
+          "cultural_note": "Often refers to facilities for nuclear power or weapons"
+        },
+        "iraniens": {
+          "display_format": "**Iranian:** iraniens",
+          "explanation": "Relating to Iran",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : Air France annule ses vols vers Dubaï et Ryad ce lundi",
+      "original_article_link": "https://www.lefigaro.fr/societes/guerre-israel-iran-air-france-annule-ses-vols-vers-dubai-et-ryad-ce-lundi-20250623",
+      "original_article_published_date": "2025-06-23T10:22:42",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Air France annule des vols vers Dubaï et Ryad",
+      "simplified_english_title": "Air France cancels flights to Dubai and Riyadh",
+      "french_summary": "Air France a annulé ses vols vers Dubaï et Ryad à cause des tensions entre Israël et l'Iran.",
+      "english_summary": "Air France canceled flights to Dubai and Riyadh due to tensions between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between states",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** Israël-Iran",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": "Ongoing geopolitical tensions in the Middle East"
+        },
+        "annule": {
+          "display_format": "**Cancels:** annule",
+          "explanation": "To call off or revoke",
+          "cultural_note": ""
+        },
+        "vols": {
+          "display_format": "**Flights:** vols",
+          "explanation": "Scheduled airplane journeys",
+          "cultural_note": ""
+        },
+        "Dubaï": {
+          "display_format": "**Dubai:** Dubaï",
+          "explanation": "Major city in the United Arab Emirates",
+          "cultural_note": "Global business and tourism hub"
+        },
+        "Ryad": {
+          "display_format": "**Riyadh:** Ryad",
+          "explanation": "Capital city of Saudi Arabia",
+          "cultural_note": "Political and financial center of Saudi Arabia"
+        },
+        "lundi": {
+          "display_format": "**Monday:** lundi",
+          "explanation": "Day of the week following Sunday",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran : Téhéran n'a toujours pas riposté aux frappes américaines",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-iran-t%C3%A9h%C3%A9ran-n-a-toujours-pas-ripost%C3%A9-aux-frappes-am%C3%A9ricaines",
+      "original_article_published_date": "2025-06-23T10:48:20",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran n'a pas répondu aux attaques américaines",
+      "simplified_english_title": "Iran has not responded to US strikes",
+      "french_summary": "Téhéran n'a pas encore répondu aux frappes américaines, malgré les tensions récentes entre les deux pays.",
+      "english_summary": "Tehran has not yet responded to US strikes, despite recent tensions between the two countries.",
+      "contextual_title_explanations": {
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": "Political and cultural center of Iran"
+        },
+        "riposté": {
+          "display_format": "**Retaliated:** riposté",
+          "explanation": "Past participle of 'retaliate'",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks",
+          "cultural_note": "Often refers to airstrikes"
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'Iran affirme qu'Israël a frappé la prison d'Evin à Téhéran",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-l-iran-affirme-qu-isra%C3%ABl-a-frapp%C3%A9-la-prison-d-evin-%C3%A0-t%C3%A9h%C3%A9ran",
+      "original_article_published_date": "2025-06-23T10:49:53",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël a attaqué une prison à Téhéran",
+      "simplified_english_title": "Israel attacked a prison in Tehran",
+      "french_summary": "L'Iran accuse Israël d'avoir frappé la prison d'Evin à Téhéran, sans donner plus de détails sur l'attaque.",
+      "english_summary": "Iran accuses Israel of attacking Evin prison in Tehran, providing no further details on the strike.",
+      "contextual_title_explanations": {
+        "affirme": {
+          "display_format": "**Affirms:** affirme",
+          "explanation": "Declares or states something confidently",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often involved in regional conflicts"
+        },
+        "frappé": {
+          "display_format": "**Struck:** frappé",
+          "explanation": "Past participle of 'frapper', meaning to hit or strike",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": "Major political and cultural center"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Dubaï, Riyad... Air France suspend ses vols vers certains pays du Golfe en raison du conflit au Moyen-Orient",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/aeronautique/dubai-ryad-air-france-suspend-ses-vols-vers-certains-pays-du-golfe_AD-202506230361.html",
+      "original_article_published_date": "2025-06-23T10:19:43",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Air France arrête des vols vers le Golfe",
+      "simplified_english_title": "Air France stops flights to the Gulf",
+      "french_summary": "Air France suspend ses vols vers Dubaï et Riyad à cause du conflit au Moyen-Orient.",
+      "english_summary": "Air France suspends flights to Dubai and Riyadh due to the conflict in the Middle East.",
+      "contextual_title_explanations": {
+        "Dubaï": {
+          "display_format": "**Dubai:** Dubaï",
+          "explanation": "Major city in the United Arab Emirates",
+          "cultural_note": "Known for luxury shopping and modern architecture"
+        },
+        "Riyad": {
+          "display_format": "**Riyadh:** Riyad",
+          "explanation": "Capital city of Saudi Arabia",
+          "cultural_note": "Political and administrative center of the country"
+        },
+        "vols": {
+          "display_format": "**Flights:** vols",
+          "explanation": "Air travel routes",
+          "cultural_note": ""
+        },
+        "Golfe": {
+          "display_format": "**Gulf:** Golfe",
+          "explanation": "A large body of seawater partly enclosed by land",
+          "cultural_note": "Refers to the Persian Gulf region"
+        },
+        "conflit": {
+          "display_format": "**Conflict:** conflit",
+          "explanation": "Serious disagreement or argument",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including Western Asia and Egypt",
+          "cultural_note": "Geopolitically significant area"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : un débat sera organisé à l'Assemblée nationale mercredi soir",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-israel-iran-un-debat-sera-organise-a-l-assemblee-nationale-mercredi-soir_7332342.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T10:58:28",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Débat sur Israël-Iran à l'Assemblée nationale",
+      "simplified_english_title": "Debate on Israel-Iran at National Assembly",
+      "french_summary": "Un débat sur la guerre entre Israël et l'Iran aura lieu mercredi soir à l'Assemblée nationale.",
+      "english_summary": "A debate on the war between Israel and Iran will take place Wednesday evening at the National Assembly.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between states",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** Israël-Iran",
+          "explanation": "Conflict between Israel and Iran",
+          "cultural_note": "Ongoing geopolitical tensions"
+        },
+        "débat": {
+          "display_format": "**Debate:** débat",
+          "explanation": "Formal discussion on a topic",
+          "cultural_note": "Common in French political process"
+        },
+        "organisé": {
+          "display_format": "**Organized:** organisé",
+          "explanation": "Planned or arranged",
+          "cultural_note": ""
+        },
+        "Assemblée nationale": {
+          "display_format": "**National Assembly:** Assemblée nationale",
+          "explanation": "French parliament's lower house",
+          "cultural_note": "Key legislative body in France"
+        },
+        "mercredi": {
+          "display_format": "**Wednesday:** mercredi",
+          "explanation": "Day of the week",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**Evening:** soir",
+          "explanation": "Time after sunset",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À Mayotte, les migrants sont la première cible de la «refondation»",
+      "original_article_link": "https://www.mediapart.fr/journal/france/230625/mayotte-les-migrants-sont-la-premiere-cible-de-la-refondation",
+      "original_article_published_date": "2025-06-23T10:37:15",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Mayotte cible les migrants en premier",
+      "simplified_english_title": "Mayotte targets migrants first",
+      "french_summary": "À Mayotte, les migrants sont la première cible des nouvelles mesures gouvernementales de réforme.",
+      "english_summary": "In Mayotte, migrants are the first target of the government's new reform measures.",
+      "contextual_title_explanations": {
+        "première cible": {
+          "display_format": "**Primary target:** première cible",
+          "explanation": "Main focus or objective",
+          "cultural_note": ""
+        },
+        "refondation": {
+          "display_format": "**Refoundation:** refondation",
+          "explanation": "Process of rebuilding or restructuring",
+          "cultural_note": "Often used in political or social contexts"
+        },
+        "sont": {
+          "display_format": "**Are:** sont",
+          "explanation": "Third person plural of 'to be'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Soupçons de corruption à l'office anti-stupéfiants de Marseille : deux commissaires en garde à vue",
+      "original_article_link": "https://www.lefigaro.fr/marseille/soupcons-de-corruption-a-l-office-anti-stupefiants-de-marseille-deux-commissaires-en-garde-a-vue-20250623",
+      "original_article_published_date": "2025-06-23T11:02:38",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Corruption suspectée à Marseille : deux commissaires arrêtés",
+      "simplified_english_title": "Corruption suspected in Marseille: two officers arrested",
+      "french_summary": "Deux commissaires sont en garde à vue pour des soupçons de corruption à l'office anti-stupéfiants de Marseille.",
+      "english_summary": "Two officers are in custody for suspected corruption at the Marseille anti-drug office.",
+      "contextual_title_explanations": {
+        "Soupçons": {
+          "display_format": "**Suspicions:** Soupçons",
+          "explanation": "Belief that someone is guilty",
+          "cultural_note": "Often used in legal or criminal contexts"
+        },
+        "office anti-stupéfiants": {
+          "display_format": "**Anti-narcotics office:** office anti-stupéfiants",
+          "explanation": "Agency fighting drug trafficking",
+          "cultural_note": "Part of French law enforcement"
+        },
+        "commissaires": {
+          "display_format": "**Commissioners:** commissaires",
+          "explanation": "High-ranking police officers",
+          "cultural_note": "Key figures in French law enforcement"
+        },
+        "garde à vue": {
+          "display_format": "**Police custody:** garde à vue",
+          "explanation": "Temporary detention for questioning",
+          "cultural_note": "Can last up to 24 hours, extendable to 48"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vaccins pour les enfants du monde : les ambiguïtés inquiétantes de la France",
+      "original_article_link": "https://www.lexpress.fr/monde/vaccins-pour-les-enfants-du-monde-les-ambiguites-inquietantes-de-la-france-VUQ7QY3775G6HOD5NSFSU5H6IM/",
+      "original_article_published_date": "2025-06-23T04:30:00",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France hésite sur les vaccins pour les enfants",
+      "simplified_english_title": "France hesitates on vaccines for children",
+      "french_summary": "La France montre des doutes sur la vaccination des enfants, ce qui crée des inquiétudes dans le monde.",
+      "english_summary": "France shows doubts about vaccinating children, causing global concerns.",
+      "contextual_title_explanations": {
+        "Vaccins": {
+          "display_format": "**Vaccines:** Vaccins",
+          "explanation": "Medical preparation to prevent diseases",
+          "cultural_note": "Highly debated topic in France"
+        },
+        "enfants": {
+          "display_format": "**Children:** enfants",
+          "explanation": "Young humans, typically under 18",
+          "cultural_note": ""
+        },
+        "du monde": {
+          "display_format": "**Of the world:** du monde",
+          "explanation": "Global, worldwide",
+          "cultural_note": ""
+        },
+        "ambiguïtés": {
+          "display_format": "**Ambiguities:** ambiguïtés",
+          "explanation": "Unclear or doubtful meanings",
+          "cultural_note": ""
+        },
+        "inquiétantes": {
+          "display_format": "**Worrisome:** inquiétantes",
+          "explanation": "Causing concern or anxiety",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique : «Nous vivons la réalité de l'ensauvagement de notre pays», déplore François-Xavier Bellamy",
+      "original_article_link": "https://www.europe1.fr/Police-Justice/fete-de-la-musique-nous-vivons-la-realite-de-lensauvagement-de-notre-pays-deplore-francois-xavier-bellamy-760621",
+      "original_article_published_date": "2025-06-23T06:58:49",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Inquiétude lors de la Fête de la Musique",
+      "simplified_english_title": "Concerns at Music Festival",
+      "french_summary": "François-Xavier Bellamy exprime son inquiétude sur la situation du pays pendant la Fête de la Musique.",
+      "english_summary": "François-Xavier Bellamy expresses concern about the country's situation during the Music Festival.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Music Day:** Fête de la musique",
+          "explanation": "Annual free music festival on June 21",
+          "cultural_note": "Started in France in 1982, now worldwide"
+        },
+        "ensauvagement": {
+          "display_format": "**Barbarisation:** ensauvagement",
+          "explanation": "Controversial term for societal decline",
+          "cultural_note": "Often used in political debates about crime"
+        },
+        "déplore": {
+          "display_format": "**Deplores:** déplore",
+          "explanation": "Expresses strong disapproval",
+          "cultural_note": ""
+        },
+        "nous vivons": {
+          "display_format": "**We live:** nous vivons",
+          "explanation": "First-person plural present tense of 'vivre'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }

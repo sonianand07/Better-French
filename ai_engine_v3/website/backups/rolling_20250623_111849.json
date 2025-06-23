@@ -3,474 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Soupçons de corruption à l'office anti-stupéfiants de Marseille : deux commissaires en garde à vue",
-      "original_article_link": "https://www.lefigaro.fr/marseille/soupcons-de-corruption-a-l-office-anti-stupefiants-de-marseille-deux-commissaires-en-garde-a-vue-20250623",
-      "original_article_published_date": "2025-06-23T11:02:38",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Corruption suspectée à Marseille : deux commissaires arrêtés",
-      "simplified_english_title": "Corruption suspected in Marseille: two officers arrested",
-      "french_summary": "Deux commissaires sont en garde à vue pour des soupçons de corruption à l'office anti-stupéfiants de Marseille.",
-      "english_summary": "Two officers are in custody for suspected corruption at the Marseille anti-drug office.",
-      "contextual_title_explanations": {
-        "Soupçons": {
-          "display_format": "**Suspicions:** Soupçons",
-          "explanation": "Belief that someone is guilty",
-          "cultural_note": "Often used in legal or criminal contexts"
-        },
-        "office anti-stupéfiants": {
-          "display_format": "**Anti-narcotics office:** office anti-stupéfiants",
-          "explanation": "Agency fighting drug trafficking",
-          "cultural_note": "Part of French law enforcement"
-        },
-        "commissaires": {
-          "display_format": "**Commissioners:** commissaires",
-          "explanation": "High-ranking police officers",
-          "cultural_note": "Key figures in French law enforcement"
-        },
-        "garde à vue": {
-          "display_format": "**Police custody:** garde à vue",
-          "explanation": "Temporary detention for questioning",
-          "cultural_note": "Can last up to 24 hours, extendable to 48"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : un débat sera organisé à l'Assemblée nationale mercredi soir",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-israel-iran-un-debat-sera-organise-a-l-assemblee-nationale-mercredi-soir_7332342.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T10:58:28",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Débat sur Israël-Iran à l'Assemblée nationale",
-      "simplified_english_title": "Debate on Israel-Iran at National Assembly",
-      "french_summary": "Un débat sur la guerre entre Israël et l'Iran aura lieu mercredi soir à l'Assemblée nationale.",
-      "english_summary": "A debate on the war between Israel and Iran will take place Wednesday evening at the National Assembly.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between states",
-          "cultural_note": ""
-        },
-        "Israël-Iran": {
-          "display_format": "**Israel-Iran:** Israël-Iran",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Ongoing geopolitical tensions"
-        },
-        "débat": {
-          "display_format": "**Debate:** débat",
-          "explanation": "Formal discussion on a topic",
-          "cultural_note": "Common in French political process"
-        },
-        "organisé": {
-          "display_format": "**Organized:** organisé",
-          "explanation": "Planned or arranged",
-          "cultural_note": ""
-        },
-        "Assemblée nationale": {
-          "display_format": "**National Assembly:** Assemblée nationale",
-          "explanation": "French parliament's lower house",
-          "cultural_note": "Key legislative body in France"
-        },
-        "mercredi": {
-          "display_format": "**Wednesday:** mercredi",
-          "explanation": "Day of the week",
-          "cultural_note": ""
-        },
-        "soir": {
-          "display_format": "**Evening:** soir",
-          "explanation": "Time after sunset",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'Iran affirme qu'Israël a frappé la prison d'Evin à Téhéran",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-l-iran-affirme-qu-isra%C3%ABl-a-frapp%C3%A9-la-prison-d-evin-%C3%A0-t%C3%A9h%C3%A9ran",
-      "original_article_published_date": "2025-06-23T10:49:53",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël a attaqué une prison à Téhéran",
-      "simplified_english_title": "Israel attacked a prison in Tehran",
-      "french_summary": "L'Iran accuse Israël d'avoir frappé la prison d'Evin à Téhéran, sans donner plus de détails sur l'attaque.",
-      "english_summary": "Iran accuses Israel of attacking Evin prison in Tehran, providing no further details on the strike.",
-      "contextual_title_explanations": {
-        "affirme": {
-          "display_format": "**Affirms:** affirme",
-          "explanation": "Declares or states something confidently",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Often involved in regional conflicts"
-        },
-        "frappé": {
-          "display_format": "**Struck:** frappé",
-          "explanation": "Past participle of 'frapper', meaning to hit or strike",
-          "cultural_note": ""
-        },
-        "Téhéran": {
-          "display_format": "**Tehran:** Téhéran",
-          "explanation": "Capital city of Iran",
-          "cultural_note": "Major political and cultural center"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Iran : Téhéran n'a toujours pas riposté aux frappes américaines",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-iran-t%C3%A9h%C3%A9ran-n-a-toujours-pas-ripost%C3%A9-aux-frappes-am%C3%A9ricaines",
-      "original_article_published_date": "2025-06-23T10:48:20",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran n'a pas répondu aux attaques américaines",
-      "simplified_english_title": "Iran has not responded to US strikes",
-      "french_summary": "Téhéran n'a pas encore répondu aux frappes américaines, malgré les tensions récentes entre les deux pays.",
-      "english_summary": "Tehran has not yet responded to US strikes, despite recent tensions between the two countries.",
-      "contextual_title_explanations": {
-        "Téhéran": {
-          "display_format": "**Tehran:** Téhéran",
-          "explanation": "Capital city of Iran",
-          "cultural_note": "Political and cultural center of Iran"
-        },
-        "riposté": {
-          "display_format": "**Retaliated:** riposté",
-          "explanation": "Past participle of 'retaliate'",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks",
-          "cultural_note": "Often refers to airstrikes"
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the USA",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "À Mayotte, les migrants sont la première cible de la «refondation»",
-      "original_article_link": "https://www.mediapart.fr/journal/france/230625/mayotte-les-migrants-sont-la-premiere-cible-de-la-refondation",
-      "original_article_published_date": "2025-06-23T10:37:15",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Mayotte cible les migrants en premier",
-      "simplified_english_title": "Mayotte targets migrants first",
-      "french_summary": "À Mayotte, les migrants sont la première cible des nouvelles mesures gouvernementales de réforme.",
-      "english_summary": "In Mayotte, migrants are the first target of the government's new reform measures.",
-      "contextual_title_explanations": {
-        "première cible": {
-          "display_format": "**Primary target:** première cible",
-          "explanation": "Main focus or objective",
-          "cultural_note": ""
-        },
-        "refondation": {
-          "display_format": "**Refoundation:** refondation",
-          "explanation": "Process of rebuilding or restructuring",
-          "cultural_note": "Often used in political or social contexts"
-        },
-        "sont": {
-          "display_format": "**Are:** sont",
-          "explanation": "Third person plural of 'to be'",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : des images satellites révèlent les dégâts des frappes américaines sur les sites nucléaires iraniens",
-      "original_article_link": "https://www.lefigaro.fr/international/guerre-israel-iran-des-images-satellites-revelent-les-degats-des-frappes-americaines-sur-les-sites-nucleaires-iraniens-20250623",
-      "original_article_published_date": "2025-06-23T10:27:35",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des frappes américaines touchent l'Iran",
-      "simplified_english_title": "US strikes hit Iran",
-      "french_summary": "Des images satellites montrent les dégâts causés par les frappes américaines sur des sites nucléaires en Iran.",
-      "english_summary": "Satellite images show damage from US strikes on nuclear sites in Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between countries",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël-Iran": {
-          "display_format": "**Israel-Iran:** Israël-Iran",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Long-standing geopolitical tension in the Middle East"
-        },
-        "images satellites": {
-          "display_format": "**Satellite images:** images satellites",
-          "explanation": "Pictures taken from space",
-          "cultural_note": "Used for military and intelligence purposes"
-        },
-        "révèlent": {
-          "display_format": "**Reveal:** révèlent",
-          "explanation": "To make something known",
-          "cultural_note": ""
-        },
-        "dégâts": {
-          "display_format": "**Damage:** dégâts",
-          "explanation": "Physical harm caused to something",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks",
-          "cultural_note": "Often refers to airstrikes in this context"
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "sites nucléaires": {
-          "display_format": "**Nuclear sites:** sites nucléaires",
-          "explanation": "Locations related to nuclear activities",
-          "cultural_note": "Often refers to facilities for nuclear power or weapons"
-        },
-        "iraniens": {
-          "display_format": "**Iranian:** iraniens",
-          "explanation": "Relating to Iran",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : Air France annule ses vols vers Dubaï et Ryad ce lundi",
-      "original_article_link": "https://www.lefigaro.fr/societes/guerre-israel-iran-air-france-annule-ses-vols-vers-dubai-et-ryad-ce-lundi-20250623",
-      "original_article_published_date": "2025-06-23T10:22:42",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Air France annule des vols vers Dubaï et Ryad",
-      "simplified_english_title": "Air France cancels flights to Dubai and Riyadh",
-      "french_summary": "Air France a annulé ses vols vers Dubaï et Ryad à cause des tensions entre Israël et l'Iran.",
-      "english_summary": "Air France canceled flights to Dubai and Riyadh due to tensions between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between states",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël-Iran": {
-          "display_format": "**Israel-Iran:** Israël-Iran",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": "Ongoing geopolitical tensions in the Middle East"
-        },
-        "annule": {
-          "display_format": "**Cancels:** annule",
-          "explanation": "To call off or revoke",
-          "cultural_note": ""
-        },
-        "vols": {
-          "display_format": "**Flights:** vols",
-          "explanation": "Scheduled airplane journeys",
-          "cultural_note": ""
-        },
-        "Dubaï": {
-          "display_format": "**Dubai:** Dubaï",
-          "explanation": "Major city in the United Arab Emirates",
-          "cultural_note": "Global business and tourism hub"
-        },
-        "Ryad": {
-          "display_format": "**Riyadh:** Ryad",
-          "explanation": "Capital city of Saudi Arabia",
-          "cultural_note": "Political and financial center of Saudi Arabia"
-        },
-        "lundi": {
-          "display_format": "**Monday:** lundi",
-          "explanation": "Day of the week following Sunday",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Dubaï, Riyad... Air France suspend ses vols vers certains pays du Golfe en raison du conflit au Moyen-Orient",
-      "original_article_link": "https://www.bfmtv.com/economie/entreprises/aeronautique/dubai-ryad-air-france-suspend-ses-vols-vers-certains-pays-du-golfe_AD-202506230361.html",
-      "original_article_published_date": "2025-06-23T10:19:43",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Air France arrête des vols vers le Golfe",
-      "simplified_english_title": "Air France stops flights to the Gulf",
-      "french_summary": "Air France suspend ses vols vers Dubaï et Riyad à cause du conflit au Moyen-Orient.",
-      "english_summary": "Air France suspends flights to Dubai and Riyadh due to the conflict in the Middle East.",
-      "contextual_title_explanations": {
-        "Dubaï": {
-          "display_format": "**Dubai:** Dubaï",
-          "explanation": "Major city in the United Arab Emirates",
-          "cultural_note": "Known for luxury shopping and modern architecture"
-        },
-        "Riyad": {
-          "display_format": "**Riyadh:** Riyad",
-          "explanation": "Capital city of Saudi Arabia",
-          "cultural_note": "Political and administrative center of the country"
-        },
-        "vols": {
-          "display_format": "**Flights:** vols",
-          "explanation": "Air travel routes",
-          "cultural_note": ""
-        },
-        "Golfe": {
-          "display_format": "**Gulf:** Golfe",
-          "explanation": "A large body of seawater partly enclosed by land",
-          "cultural_note": "Refers to the Persian Gulf region"
-        },
-        "conflit": {
-          "display_format": "**Conflict:** conflit",
-          "explanation": "Serious disagreement or argument",
-          "cultural_note": ""
-        },
-        "Moyen-Orient": {
-          "display_format": "**Middle East:** Moyen-Orient",
-          "explanation": "Region including Western Asia and Egypt",
-          "cultural_note": "Geopolitically significant area"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Iran-Israël: le débat à l'Assemblée nationale souhaité par Emmanuel Macron aura lieu mercredi soir",
       "original_article_link": "https://www.bfmtv.com/politique/parlement/iran-israel-le-debat-a-l-assemblee-nationale-souhaite-par-emmanuel-macron-aura-lieu-mercredi-soir_AD-202506230360.html",
       "original_article_published_date": "2025-06-23T10:18:39",
@@ -2125,57 +1657,6 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Fête de la musique : «Nous vivons la réalité de l'ensauvagement de notre pays», déplore François-Xavier Bellamy",
-      "original_article_link": "https://www.europe1.fr/Police-Justice/fete-de-la-musique-nous-vivons-la-realite-de-lensauvagement-de-notre-pays-deplore-francois-xavier-bellamy-760621",
-      "original_article_published_date": "2025-06-23T06:58:49",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "opinion",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Inquiétude lors de la Fête de la Musique",
-      "simplified_english_title": "Concerns at Music Festival",
-      "french_summary": "François-Xavier Bellamy exprime son inquiétude sur la situation du pays pendant la Fête de la Musique.",
-      "english_summary": "François-Xavier Bellamy expresses concern about the country's situation during the Music Festival.",
-      "contextual_title_explanations": {
-        "Fête de la musique": {
-          "display_format": "**Music Day:** Fête de la musique",
-          "explanation": "Annual free music festival on June 21",
-          "cultural_note": "Started in France in 1982, now worldwide"
-        },
-        "ensauvagement": {
-          "display_format": "**Barbarisation:** ensauvagement",
-          "explanation": "Controversial term for societal decline",
-          "cultural_note": "Often used in political debates about crime"
-        },
-        "déplore": {
-          "display_format": "**Deplores:** déplore",
-          "explanation": "Expresses strong disapproval",
-          "cultural_note": ""
-        },
-        "nous vivons": {
-          "display_format": "**We live:** nous vivons",
-          "explanation": "First-person plural present tense of 'vivre'",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
     },
     {
       "schema_version": 2,
@@ -5244,62 +4725,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Vaccins pour les enfants du monde : les ambiguïtés inquiétantes de la France",
-      "original_article_link": "https://www.lexpress.fr/monde/vaccins-pour-les-enfants-du-monde-les-ambiguites-inquietantes-de-la-france-VUQ7QY3775G6HOD5NSFSU5H6IM/",
-      "original_article_published_date": "2025-06-23T04:30:00",
-      "source_name": "L'Express",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France hésite sur les vaccins pour les enfants",
-      "simplified_english_title": "France hesitates on vaccines for children",
-      "french_summary": "La France montre des doutes sur la vaccination des enfants, ce qui crée des inquiétudes dans le monde.",
-      "english_summary": "France shows doubts about vaccinating children, causing global concerns.",
-      "contextual_title_explanations": {
-        "Vaccins": {
-          "display_format": "**Vaccines:** Vaccins",
-          "explanation": "Medical preparation to prevent diseases",
-          "cultural_note": "Highly debated topic in France"
-        },
-        "enfants": {
-          "display_format": "**Children:** enfants",
-          "explanation": "Young humans, typically under 18",
-          "cultural_note": ""
-        },
-        "du monde": {
-          "display_format": "**Of the world:** du monde",
-          "explanation": "Global, worldwide",
-          "cultural_note": ""
-        },
-        "ambiguïtés": {
-          "display_format": "**Ambiguities:** ambiguïtés",
-          "explanation": "Unclear or doubtful meanings",
-          "cultural_note": ""
-        },
-        "inquiétantes": {
-          "display_format": "**Worrisome:** inquiétantes",
-          "explanation": "Causing concern or anxiety",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T11:17:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "« Il faudra beaucoup de temps aux Iraniens pour reconstruire leur programme nucléaire »",
       "original_article_link": "https://www.lepoint.fr/monde/il-faudra-beaucoup-de-temps-aux-iraniens-pour-reconstruire-leur-programme-nucleaire-23-06-2025-2592638_24.php",
       "original_article_published_date": "2025-06-23T04:30:00",
@@ -6484,6 +5909,870 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Capucine, 27 ans, analyste en fusions-acquisitions, 5 300 euros par mois : « On regardait les salaires et on se disait qu’on allait vivre comme des rois »",
+      "original_article_link": "https://www.lemonde.fr/campus/article/2025/06/23/capucine-27-ans-analyste-en-fusions-acquisitions-5-300-euros-par-mois-on-regardait-les-salaires-et-on-se-disait-qu-on-allait-vivre-comme-des-rois_6615388_4401467.html",
+      "original_article_published_date": "2025-06-23T03:15:11",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Capucine, 27 ans, gagne bien sa vie",
+      "simplified_english_title": "Capucine, 27, earns a good salary",
+      "french_summary": "Capucine, analyste financière, gagne 5300 euros par mois et pensait vivre très confortablement avec ce salaire.",
+      "english_summary": "Capucine, a financial analyst, earns 5300 euros monthly and thought she would live very comfortably with this salary.",
+      "contextual_title_explanations": {
+        "Capucine": {
+          "display_format": "**Capucine:** Prénom féminin",
+          "explanation": "Female first name",
+          "cultural_note": "Common French name"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "27": {
+          "display_format": "**27:** Vingt-sept",
+          "explanation": "Number twenty-seven",
+          "cultural_note": ""
+        },
+        "ans": {
+          "display_format": "**ans:** Années",
+          "explanation": "Years of age",
+          "cultural_note": ""
+        },
+        "analyste": {
+          "display_format": "**analyste:** Profession",
+          "explanation": "Analyst profession",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans le domaine de",
+          "explanation": "In the field of",
+          "cultural_note": ""
+        },
+        "fusions-acquisitions": {
+          "display_format": "**fusions-acquisitions:** Mergers and acquisitions",
+          "explanation": "Business mergers and acquisitions",
+          "cultural_note": ""
+        },
+        "5 300": {
+          "display_format": "**5 300:** Cinq mille trois cents",
+          "explanation": "Number five thousand three hundred",
+          "cultural_note": ""
+        },
+        "euros": {
+          "display_format": "**euros:** Monnaie européenne",
+          "explanation": "European currency",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par (taux)",
+          "explanation": "Rate per unit",
+          "cultural_note": ""
+        },
+        "mois": {
+          "display_format": "**mois:** Mois",
+          "explanation": "Month",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**On:** Pronom indéfini",
+          "explanation": "Indefinite pronoun 'we'",
+          "cultural_note": ""
+        },
+        "regardait": {
+          "display_format": "**regardait:** Verbe voir",
+          "explanation": "Verb to look, past tense",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "salaire": {
+          "display_format": "**salaire:** Rémunération",
+          "explanation": "Salary, wages",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "Conjunction 'and'",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**on:** Pronom indéfini",
+          "explanation": "Indefinite pronoun 'we'",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**se:** Pronom réfléchi",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": ""
+        },
+        "disait": {
+          "display_format": "**disait:** Verbe dire",
+          "explanation": "Verb to say, past tense",
+          "cultural_note": ""
+        },
+        "qu’on": {
+          "display_format": "**qu’on:** Que on",
+          "explanation": "Contraction of 'que on'",
+          "cultural_note": ""
+        },
+        "allait": {
+          "display_format": "**allait:** Verbe aller",
+          "explanation": "Verb to go, past tense",
+          "cultural_note": ""
+        },
+        "vivre": {
+          "display_format": "**vivre:** Verbe vivre",
+          "explanation": "Verb to live",
+          "cultural_note": ""
+        },
+        "comme": {
+          "display_format": "**comme:** Comme",
+          "explanation": "Like, as",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "rois": {
+          "display_format": "**rois:** Rois",
+          "explanation": "Kings",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»**:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gabon: le président Brice Oligui Nguema annonce le lancement de son propre parti politique",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250623-gabon-le-pr%C3%A9sident-brice-oligui-nguema-annonce-le-lancement-de-son-propre-parti-politique",
+      "original_article_published_date": "2025-06-23T03:02:24",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le président du Gabon crée un nouveau parti",
+      "simplified_english_title": "Gabon's president starts a new party",
+      "french_summary": "Le président Brice Oligui Nguema a annoncé la création de son propre parti politique au Gabon.",
+      "english_summary": "President Brice Oligui Nguema announced the creation of his own political party in Gabon.",
+      "contextual_title_explanations": {
+        "Gabon": {
+          "display_format": "**Gabon:** Pays d'Afrique centrale",
+          "explanation": "Country in Central Africa",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "président": {
+          "display_format": "**président:** Chef de l'État",
+          "explanation": "Head of state",
+          "cultural_note": ""
+        },
+        "Brice Oligui Nguema": {
+          "display_format": "**Brice Oligui Nguema:** Nom du président",
+          "explanation": "Name of the current president",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rendre public",
+          "explanation": "Announces or makes public",
+          "cultural_note": ""
+        },
+        "lancement": {
+          "display_format": "**lancement:** Mise en route",
+          "explanation": "Launch or start",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of'",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Possessif",
+          "explanation": "Possessive adjective 'his'",
+          "cultural_note": ""
+        },
+        "propre": {
+          "display_format": "**propre:** À soi",
+          "explanation": "Own",
+          "cultural_note": ""
+        },
+        "parti politique": {
+          "display_format": "**parti politique:** Groupe politique",
+          "explanation": "Political party",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Bernard-Henri Levy et les origines du judaïsme »",
+      "original_article_link": "https://www.europe1.fr/emissions/les-grands-entretiens-les-intellectuels/bernard-henri-levy-et-les-origines-du-judaisme-760414",
+      "original_article_published_date": "2025-06-23T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bernard-Henri Lévy parle des origines du judaïsme",
+      "simplified_english_title": "Bernard-Henri Lévy on the origins of Judaism",
+      "french_summary": "Bernard-Henri Lévy explore les origines du judaïsme dans un nouveau document. Il partage ses réflexions et découvertes.",
+      "english_summary": "Bernard-Henri Lévy explores the origins of Judaism in a new documentary. He shares his thoughts and findings.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening French quotation mark",
+          "cultural_note": ""
+        },
+        "Bernard-Henri Levy": {
+          "display_format": "**Bernard-Henri Levy:** Philosophe français",
+          "explanation": "French philosopher and public intellectual",
+          "cultural_note": "Often referred to as BHL"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "origines": {
+          "display_format": "**origines:** Débuts",
+          "explanation": "Origins",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "judaïsme": {
+          "display_format": "**judaïsme:** Religion juive",
+          "explanation": "Judaism",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing French quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "[1/2] La guerre d’Algérie, une histoire de plaies à vif",
+      "original_article_link": "https://www.europe1.fr/emissions/Au-coeur-de-l-histoire/1-2-la-guerre-dalgerie-une-histoire-de-plaies-a-vif-760529",
+      "original_article_published_date": "2025-06-23T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La guerre d'Algérie reste douloureuse",
+      "simplified_english_title": "The Algerian War remains painful",
+      "french_summary": "La guerre d'Algérie laisse des blessures profondes dans l'histoire de la France et de l'Algérie.",
+      "english_summary": "The Algerian War leaves deep wounds in the history of France and Algeria.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Basket : Ousmane Dieng et les six autres champions NBA français en images",
+      "original_article_link": "https://www.lefigaro.fr/sports/basket/nba/basket-ousmane-dieng-et-les-six-autres-champions-nba-francais-en-images-20250623",
+      "original_article_published_date": "2025-06-23T02:51:44",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français champions NBA en images",
+      "simplified_english_title": "French NBA champions in pictures",
+      "french_summary": "Ousmane Dieng et six autres joueurs français ont gagné le championnat NBA. Voici leurs photos.",
+      "english_summary": "Ousmane Dieng and six other French players won the NBA championship. Here are their pictures.",
+      "contextual_title_explanations": {
+        "Basket": {
+          "display_format": "**Basket :** Sport avec un ballon",
+          "explanation": "Basketball",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Ousmane Dieng": {
+          "display_format": "**Ousmane Dieng :** Joueur de basket",
+          "explanation": "French basketball player",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et :** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les :** Articles définis",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "six": {
+          "display_format": "**six :** Nombre 6",
+          "explanation": "Six",
+          "cultural_note": ""
+        },
+        "autres": {
+          "display_format": "**autres :** Différents",
+          "explanation": "Other",
+          "cultural_note": ""
+        },
+        "champions": {
+          "display_format": "**champions :** Gagnants",
+          "explanation": "Champions",
+          "cultural_note": ""
+        },
+        "NBA": {
+          "display_format": "**NBA :** Ligue de basket",
+          "explanation": "National Basketball Association",
+          "cultural_note": "Major US basketball league"
+        },
+        "français": {
+          "display_format": "**français :** De France",
+          "explanation": "French",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en :** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "images": {
+          "display_format": "**images :** Photos",
+          "explanation": "Images",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Condamnations, frayeurs et appels à la retenue : les réactions après les frappes américaines en Iran",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-condamnations-frayeurs-et-appels-%C3%A0-la-retenue-les-r%C3%A9actions-apr%C3%A8s-les-frappes-am%C3%A9ricaines-en-iran",
+      "original_article_published_date": "2025-06-23T02:19:13",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réactions après les frappes américaines en Iran",
+      "simplified_english_title": "Reactions to US strikes in Iran",
+      "french_summary": "Les frappes américaines en Iran ont provoqué des condamnations, des peurs et des appels à la retenue de la part de plusieurs pays.",
+      "english_summary": "The US strikes in Iran have led to condemnations, fears, and calls for restraint from several countries.",
+      "contextual_title_explanations": {
+        "Condamnations": {
+          "display_format": "**Condamnations:** Désapprobations",
+          "explanation": "Expressions of disapproval",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "frayeurs": {
+          "display_format": "**frayeurs:** Peurs",
+          "explanation": "Fears or terrors",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "appels à la retenue": {
+          "display_format": "**appels à la retenue:** Demandes de modération",
+          "explanation": "Calls for restraint",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les réactions": {
+          "display_format": "**les réactions:** Réponses",
+          "explanation": "Reactions or responses",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Après",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "les frappes américaines": {
+          "display_format": "**les frappes américaines:** Attaques des États-Unis",
+          "explanation": "American strikes",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran : les prix du pétrole s’envolent après les frappes américaines",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/iran-les-prix-du-petrole-senvolent-apres-les-frappes-americaines-97a1704e-4fc6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T00:26:05",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les prix du pétrole augmentent après des frappes",
+      "simplified_english_title": "Oil prices rise after American strikes",
+      "french_summary": "Les prix du pétrole ont augmenté après les frappes américaines en Iran. Le marché réagit aux tensions géopolitiques.",
+      "english_summary": "Oil prices rose after American strikes in Iran. The market is reacting to geopolitical tensions.",
+      "contextual_title_explanations": {
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "les prix": {
+          "display_format": "**les prix:** Coûts",
+          "explanation": "The prices",
+          "cultural_note": ""
+        },
+        "du pétrole": {
+          "display_format": "**du pétrole:** De l'huile",
+          "explanation": "Of petroleum",
+          "cultural_note": ""
+        },
+        "s’envolent": {
+          "display_format": "**s’envolent:** Montent rapidement",
+          "explanation": "Soar or rise quickly",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Suite à",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "les frappes": {
+          "display_format": "**les frappes:** Attaques",
+          "explanation": "The strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "American",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T01:43:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les premiers Français rapatriés d’Israël sont arrivés à Paris, l’Élysée mobilise des vols militaires",
+      "original_article_link": "https://www.ouest-france.fr/monde/israel/les-premiers-francais-rapatries-disrael-sont-arrives-a-paris-lelysee-deploie-des-vols-militaires-d1076a98-4fba-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-22T23:33:45",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des Français rentrent d'Israël en vols militaires",
+      "simplified_english_title": "French citizens return from Israel on military flights",
+      "french_summary": "Les premiers Français sont rentrés d’Israël à Paris. L’Élysée utilise des avions militaires pour les rapatriements.",
+      "english_summary": "The first French citizens returned from Israel to Paris. The Élysée is using military flights for repatriation.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "premiers": {
+          "display_format": "**premiers:** premiers",
+          "explanation": "First",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** Citoyens de France",
+          "explanation": "French people",
+          "cultural_note": ""
+        },
+        "rapatriés": {
+          "display_format": "**rapatriés:** rapatriés",
+          "explanation": "Repatriated",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**d’:** de + le/les",
+          "explanation": "From the",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Israel",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** être (3e pers. pluriel)",
+          "explanation": "Are",
+          "cultural_note": ""
+        },
+        "arrivés": {
+          "display_format": "**arrivés:** arrivés",
+          "explanation": "Arrived",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** à",
+          "explanation": "To/in/at",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "Paris",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**l’:** le/la",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "Élysée": {
+          "display_format": "**Élysée:** Palais présidentiel",
+          "explanation": "Elysée Palace",
+          "cultural_note": "Official residence of the French President"
+        },
+        "mobilise": {
+          "display_format": "**mobilise:** mobilise",
+          "explanation": "Mobilizes",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** article indéfini pluriel",
+          "explanation": "Some",
+          "cultural_note": ""
+        },
+        "vols": {
+          "display_format": "**vols:** vols",
+          "explanation": "Flights",
+          "cultural_note": ""
+        },
+        "militaires": {
+          "display_format": "**militaires:** militaires",
+          "explanation": "Military",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T01:43:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Un Conseil de défense aux enjeux multiples",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-un-conseil-de-d%C3%A9fense-aux-enjeux-multiples",
+      "original_article_published_date": "2025-06-22T23:21:02",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réunion importante du Conseil de défense",
+      "simplified_english_title": "Important Defense Council meeting",
+      "french_summary": "Le Conseil de défense aborde plusieurs sujets importants lors de cette réunion cruciale pour la sécurité nationale.",
+      "english_summary": "The Defense Council addresses several important topics in this crucial meeting for national security.",
+      "contextual_title_explanations": {
+        "Un": {
+          "display_format": "**Un:** Article indéfini",
+          "explanation": "Indefinite article meaning 'a'",
+          "cultural_note": ""
+        },
+        "Conseil de défense": {
+          "display_format": "**Conseil de défense:** Réunion stratégique",
+          "explanation": "Defense council meeting",
+          "cultural_note": "High-level government meeting"
+        },
+        "aux": {
+          "display_format": "**aux:** Article contracté",
+          "explanation": "Contraction of 'à les' meaning 'to the'",
+          "cultural_note": ""
+        },
+        "enjeux": {
+          "display_format": "**enjeux:** Défis importants",
+          "explanation": "Stakes or challenges",
+          "cultural_note": ""
+        },
+        "multiples": {
+          "display_format": "**multiples:** Nombreux",
+          "explanation": "Multiple or numerous",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T01:43:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Premier attentat contre un lieu de culte chrétien depuis la chute du régime syrien",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250622-premier-attentat-contre-un-lieu-de-culte-chr%C3%A9tien-depuis-la-chute-du-r%C3%A9gime-syrien",
+      "original_article_published_date": "2025-06-22T23:13:19",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attaque contre une église en Syrie",
+      "simplified_english_title": "Attack on a church in Syria",
+      "french_summary": "Pour la première fois depuis la fin du régime syrien, un lieu de culte chrétien a été attaqué.",
+      "english_summary": "For the first time since the end of the Syrian regime, a Christian place of worship has been attacked.",
+      "contextual_title_explanations": {
+        "Premier": {
+          "display_format": "**Premier:** Premier",
+          "explanation": "First",
+          "cultural_note": ""
+        },
+        "attentat": {
+          "display_format": "**attentat:** Acte violent",
+          "explanation": "Violent attack",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A/an",
+          "cultural_note": ""
+        },
+        "lieu de culte": {
+          "display_format": "**lieu de culte:** Endroit sacré",
+          "explanation": "Place of worship",
+          "cultural_note": ""
+        },
+        "chrétien": {
+          "display_format": "**chrétien:** Relatif au christianisme",
+          "explanation": "Christian",
+          "cultural_note": ""
+        },
+        "depuis": {
+          "display_format": "**depuis:** À partir de",
+          "explanation": "Since",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "chute": {
+          "display_format": "**chute:** Effondrement",
+          "explanation": "Fall",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "régime syrien": {
+          "display_format": "**régime syrien:** Gouvernement syrien",
+          "explanation": "Syrian regime",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-22T23:17:40",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
