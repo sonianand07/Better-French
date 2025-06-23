@@ -55,7 +55,11 @@ Expected output (spacing/ordering simplified):
 ## 6. Evaluation & hand-off
 Run `pytest qa/local` – all new tests must pass.  We'll also run a 24 h shadow deployment that records validator pass-rate vs. v2.
 
-Commit your changes on branch **`prompt-research`** (already exists) and open a PR to `ai-engine-v3-main`.
+Workflow & Git etiquette
+* **Fork/clone the branch `prompt-research` only** – never commit to `ai-engine-v3-main`.
+* Keep your edits isolated to the two `*_v3.jinja` files and any test fixtures under `qa/local/`.
+* Before pushing, run `pytest qa/local` plus `python -m ai_engine_v3.validator` on a few sample titles to confirm the payload passes validation.
+* Open a PR from `prompt-research` → `ai-engine-v3-main` when your prompt hits ≥95 % validator pass-rate on the supplied test set.  Our CI will run the same checks.
 
 Thanks!  
 — Better French engineering 
