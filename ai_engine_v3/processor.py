@@ -124,10 +124,14 @@ class ProcessorV2:
         if ok2 and payload2:
             # Convert list → dict keyed by the word itself (website expects that)
             if isinstance(payload2, list):
-                article.contextual_title_explanations = {
-                    obj.get("original_word"): {k: v for k, v in obj.items() if k != "original_word"}
+                safe_items = [
+                    obj
                     for obj in payload2
-                    if isinstance(obj, dict) and obj.get("original_word")
+                    if isinstance(obj, dict) and isinstance(obj.get("original_word"), str)
+                ]
+                article.contextual_title_explanations = {
+                    obj["original_word"]: {k: v for k, v in obj.items() if k != "original_word"}
+                    for obj in safe_items
                 }
             else:
                 article.contextual_title_explanations = payload2
