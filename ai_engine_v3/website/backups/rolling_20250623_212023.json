@@ -3,173 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "France: la CFDT annonce «l'échec» du conclave sur les retraites",
-      "original_article_link": "https://www.rfi.fr/fr/france/20250623-france-la-cfdt-annonce-l-%C3%A9chec-du-conclave-sur-les-retraites",
-      "original_article_published_date": "2025-06-23T20:50:12",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La CFDT déclare un échec sur les retraites",
-      "simplified_english_title": "CFDT declares failure on pension talks",
-      "french_summary": "La CFDT a annoncé que les discussions sur les retraites ont échoué. Les négociations n'ont pas abouti à un accord.",
-      "english_summary": "The CFDT announced that the pension talks have failed. The negotiations did not result in an agreement.",
-      "contextual_title_explanations": {
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "To make something known publicly",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**Retirements:** retraites",
-          "explanation": "The state of being retired",
-          "cultural_note": "A significant topic in French social policy"
-        },
-        "l'échec": {
-          "display_format": "**Failure:** l'échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "About or concerning a topic",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre au Moyen-Orient : plus de programme nucléaire militaire après les frappes sur les sites nucléaires ?",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/iran-plus-de-programme-nucleaire-militaire-apres-les-frappes-sur-les-sites-nucleaires_7333011.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T20:49:27",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Attaques sur les sites nucléaires au Moyen-Orient",
-      "simplified_english_title": "Attacks on nuclear sites in Middle East",
-      "french_summary": "Des frappes récentes sur des sites nucléaires au Moyen-Orient pourraient affecter les programmes nucléaires militaires dans la région.",
-      "english_summary": "Recent strikes on nuclear sites in the Middle East could impact military nuclear programs in the region.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between states or groups",
-          "cultural_note": "France has been involved in various wars throughout history"
-        },
-        "Moyen-Orient": {
-          "display_format": "**Middle East:** Moyen-Orient",
-          "explanation": "Region including countries from Egypt to Iran",
-          "cultural_note": "France has historical and political ties with this region"
-        },
-        "programme nucléaire militaire": {
-          "display_format": "**Military nuclear program:** programme nucléaire militaire",
-          "explanation": "Nuclear weapons development initiative",
-          "cultural_note": "France has its own military nuclear program"
-        },
-        "frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks, often airstrikes",
-          "cultural_note": "France has conducted strikes in the Middle East"
-        },
-        "sites nucléaires": {
-          "display_format": "**Nuclear sites:** sites nucléaires",
-          "explanation": "Locations related to nuclear activities",
-          "cultural_note": "France has multiple nuclear sites for energy and military purposes"
-        },
-        "?": {
-          "display_format": "**Question mark:** ?",
-          "explanation": "Punctuation indicating a question",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**No more:** plus",
-          "explanation": "Indicates the end of something",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/from:** de",
-          "explanation": "Common preposition indicating possession or origin",
-          "cultural_note": ""
-        },
-        "nucléaires": {
-          "display_format": "**Nuclear:** nucléaires",
-          "explanation": "Relating to the nucleus of an atom",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**After:** après",
-          "explanation": "Indicates time following an event",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**To the:** au",
-          "explanation": "Contraction of 'à le'",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** les",
-          "explanation": "Definite article, plural",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing a list or explanation",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Preposition indicating location or subject",
-          "cultural_note": ""
-        },
-        "militaire": {
-          "display_format": "**Military:** militaire",
-          "explanation": "Relating to armed forces",
-          "cultural_note": ""
-        },
-        "nucléaire": {
-          "display_format": "**Nuclear:** nucléaire",
-          "explanation": "Relating to the nucleus of an atom",
-          "cultural_note": ""
-        },
-        "Orient": {
-          "display_format": "**East:** Orient",
-          "explanation": "Direction where the sun rises",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "La France et la Norvège signent un accord sur le stockage géologique de CO2",
       "original_article_link": "https://www.lefigaro.fr/flash-actu/la-france-et-la-norvege-signent-un-accord-sur-le-stockage-geologique-de-co2-20250623",
       "original_article_published_date": "2025-06-23T20:13:58",
@@ -531,122 +364,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Riposte iranienne au Qatar : le ministre des Affaires étrangères appelle \"à l'arrêt des frappes de toutes parts\", après la riposte iranienne",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/video-guerre-au-moyen-orient-le-ministre-des-affaires-etrangeres-appelle-a-l-arret-des-frappes-de-toutes-parts-apres-la-riposte-iranienne_7332966.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T19:22:07",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran demande l'arrêt des frappes",
-      "simplified_english_title": "Iran calls for end to strikes",
-      "french_summary": "Le ministre iranien des Affaires étrangères demande l'arrêt des frappes après la riposte iranienne au Qatar.",
-      "english_summary": "The Iranian Foreign Minister calls for an end to strikes following Iran's response to Qatar.",
-      "contextual_title_explanations": {
-        "Riposte": {
-          "display_format": "**Retaliation:** Riposte",
-          "explanation": "Counterattack or response to an attack",
-          "cultural_note": "Often used in political and military contexts"
-        },
-        "iranienne": {
-          "display_format": "**Iranian:** iranienne",
-          "explanation": "Relating to Iran",
-          "cultural_note": ""
-        },
-        "ministre": {
-          "display_format": "**Minister:** ministre",
-          "explanation": "Government official in charge of a department",
-          "cultural_note": ""
-        },
-        "Affaires étrangères": {
-          "display_format": "**Foreign Affairs:** Affaires étrangères",
-          "explanation": "Department handling international relations",
-          "cultural_note": "Equivalent to the Ministry of Foreign Affairs"
-        },
-        "appelle": {
-          "display_format": "**Calls:** appelle",
-          "explanation": "To ask or urge someone to do something",
-          "cultural_note": ""
-        },
-        "l'arrêt": {
-          "display_format": "**The stop:** l'arrêt",
-          "explanation": "The act of stopping something",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks or hits",
-          "cultural_note": ""
-        },
-        "toutes parts": {
-          "display_format": "**All sides:** toutes parts",
-          "explanation": "Every party involved in a situation",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**To the:** au",
-          "explanation": "Combined preposition 'à' and article 'le'",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**After:** après",
-          "explanation": "Following in time",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Preposition indicating origin or possession",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some/From the:** des",
-          "explanation": "Combined preposition 'de' and article 'les'",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** le",
-          "explanation": "Definite article for masculine nouns",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article for feminine nouns",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation mark:** \"",
-          "explanation": "Punctuation used to indicate direct speech",
-          "cultural_note": ""
-        },
-        "l'": {
-          "display_format": "**The:** l'",
-          "explanation": "Definite article before a vowel",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**To/At:** à",
-          "explanation": "Preposition indicating location or direction",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Gaza: les images impressionnantes de l’explosion d’un long tunnel utilisé par le Hamas",
       "original_article_link": "https://www.lefigaro.fr/international/gaza-les-images-impressionnantes-de-l-explosion-d-un-long-tunnel-utilise-par-le-hamas-20250623",
       "original_article_published_date": "2025-06-23T18:59:25",
@@ -680,163 +397,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T20:22:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Pourquoi les fortes chaleurs ralentissent la production d’énergie nucléaire ?",
-      "original_article_link": "https://www.nouvelobs.com/ecologie/20250623.OBS105233/pourquoi-les-fortes-chaleurs-ralentissent-la-production-d-energie-nucleaire.html",
-      "original_article_published_date": "2025-06-23T18:50:11",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chaleur et énergie nucléaire : un problème",
-      "simplified_english_title": "Heat and nuclear energy: a problem",
-      "french_summary": "Les fortes chaleurs réduisent la production d'énergie nucléaire car les réacteurs ont besoin d'eau froide pour fonctionner correctement.",
-      "english_summary": "High temperatures reduce nuclear energy production because reactors need cold water to function properly.",
-      "contextual_title_explanations": {
-        "Pourquoi": {
-          "display_format": "**Why:** Pourquoi",
-          "explanation": "Interrogative word asking for a reason",
-          "cultural_note": ""
-        },
-        "fortes chaleurs": {
-          "display_format": "**Heatwave:** fortes chaleurs",
-          "explanation": "Period of very hot weather",
-          "cultural_note": "Common in France during summer months"
-        },
-        "ralentissent": {
-          "display_format": "**Slow down:** ralentissent",
-          "explanation": "Cause to move or happen at a slower speed",
-          "cultural_note": ""
-        },
-        "énergie nucléaire": {
-          "display_format": "**Nuclear energy:** énergie nucléaire",
-          "explanation": "Power generated from nuclear reactions",
-          "cultural_note": "France relies heavily on nuclear energy"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Moratoire sur l'éolien: le ministre de l'Énergie réaffirme son \"soutien indéfectible\" à la filière",
-      "original_article_link": "https://www.bfmtv.com/environnement/video-moratoire-sur-l-eolien-le-ministre-de-l-energie-reaffirme-son-soutien-indefectible-a-la-filiere_VN-202506230743.html",
-      "original_article_published_date": "2025-06-23T18:33:17",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le ministre soutient l'énergie éolienne",
-      "simplified_english_title": "Minister supports wind energy",
-      "french_summary": "Le ministre de l'Énergie exprime son soutien fort à l'énergie éolienne malgré un moratoire récent sur les projets.",
-      "english_summary": "The Energy Minister expresses strong support for wind energy despite a recent moratorium on projects.",
-      "contextual_title_explanations": {
-        "Moratoire": {
-          "display_format": "**Moratorium:** Moratoire",
-          "explanation": "Temporary suspension of an activity",
-          "cultural_note": "Often used in legal or political contexts"
-        },
-        "l&#39;éolien": {
-          "display_format": "**Wind power:** l'éolien",
-          "explanation": "Energy generated from wind",
-          "cultural_note": "Important sector in France's renewable energy policy"
-        },
-        "ministre": {
-          "display_format": "**Minister:** ministre",
-          "explanation": "Government official in charge of a department",
-          "cultural_note": "Part of the executive branch in France"
-        },
-        "de l&#39;Énergie": {
-          "display_format": "**Energy:** de l'Énergie",
-          "explanation": "Department responsible for energy policies",
-          "cultural_note": "Key ministry in France's government"
-        },
-        "réaffirme": {
-          "display_format": "**Reaffirms:** réaffirme",
-          "explanation": "To state something again firmly",
-          "cultural_note": ""
-        },
-        "soutien": {
-          "display_format": "**Support:** soutien",
-          "explanation": "Backing or help provided",
-          "cultural_note": ""
-        },
-        "indéfectible": {
-          "display_format": "**Unwavering:** indéfectible",
-          "explanation": "Steadfast, not changing",
-          "cultural_note": ""
-        },
-        "filière": {
-          "display_format": "**Sector:** filière",
-          "explanation": "Specific industry or field",
-          "cultural_note": "Common term in French economic policy"
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Regarding or about something",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**His:** son",
-          "explanation": "Possessive pronoun for 'his'",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article for feminine nouns",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** le",
-          "explanation": "Definite article for masculine nouns",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**To:** à",
-          "explanation": "Preposition indicating direction or purpose",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation mark introducing a list or explanation",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation mark:** \"",
-          "explanation": "Punctuation used to indicate direct speech or a quotation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1321,117 +881,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Conflit Israël-Iran: Emmanuel Macron juge que la frappe contre la prison d'Evin \"a mis en danger la vie de civils\"",
-      "original_article_link": "https://www.bfmtv.com/politique/elysee/conflit-israel-iran-emmanuel-macron-juge-que-la-frappe-contre-la-prison-d-evin-a-mis-en-danger-la-vie-de-civils_AV-202506230715.html",
-      "original_article_published_date": "2025-06-23T17:51:26",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron critique la frappe en Iran",
-      "simplified_english_title": "Macron criticizes strike in Iran",
-      "french_summary": "Emmanuel Macron dit que l'attaque contre la prison d'Evin a mis en danger des civils. Il parle du conflit entre Israël et l'Iran.",
-      "english_summary": "Emmanuel Macron says the strike on Evin prison endangered civilians. He discusses the conflict between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Conflit": {
-          "display_format": "**Conflict:** Conflit",
-          "explanation": "Serious disagreement or argument",
-          "cultural_note": "Often used in political contexts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "juge": {
-          "display_format": "**Judges:** juge",
-          "explanation": "Considers or believes",
-          "cultural_note": ""
-        },
-        "frappe": {
-          "display_format": "**Strike:** frappe",
-          "explanation": "Military attack",
-          "cultural_note": ""
-        },
-        "vie": {
-          "display_format": "**Life:** vie",
-          "explanation": "The state of being alive",
-          "cultural_note": ""
-        },
-        "d'Evin": {
-          "display_format": "**Evin:** d'Evin",
-          "explanation": "Notorious prison in Iran",
-          "cultural_note": "Known for holding political prisoners"
-        },
-        "civils": {
-          "display_format": "**Civilians:** civils",
-          "explanation": "Non-military people",
-          "cultural_note": ""
-        },
-        "mis": {
-          "display_format": "**Put:** mis",
-          "explanation": "Placed or put",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**Has:** a",
-          "explanation": "Third person singular of 'avoir'",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In:** en",
-          "explanation": "Preposition indicating location or state",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** de",
-          "explanation": "Preposition indicating possession or association",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That:** que",
-          "explanation": "Conjunction used to introduce a clause",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**Against:** contre",
-          "explanation": "Preposition indicating opposition",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing a quote or explanation",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation marks:** \"",
-          "explanation": "Punctuation indicating direct speech or a quote",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Story 5 : Israël cible la prison des opposants iraniens - 23/06",
       "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-5-israel-cible-la-prison-des-opposants-iraniens-23-06_VN-202506230713.html",
       "original_article_published_date": "2025-06-23T17:43:44",
@@ -1665,87 +1114,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Prisonniers politiques, otages occidentaux... Pourquoi la frappe d'Israël sur la prison iranienne d'Evin est symbolique",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/prisonniers-politiques-otages-occidentaux-pourquoi-la-frappe-d-israel-sur-la-prison-iranienne-d-evin-est-symbolique_AV-202506230689.html",
-      "original_article_published_date": "2025-06-23T17:17:36",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël frappe une prison en Iran",
-      "simplified_english_title": "Israel strikes a prison in Iran",
-      "french_summary": "Israël a frappé une prison iranienne, un acte symbolique lié aux prisonniers politiques et otages occidentaux.",
-      "english_summary": "Israel struck an Iranian prison, a symbolic act related to political prisoners and Western hostages.",
-      "contextual_title_explanations": {
-        "Prisonniers": {
-          "display_format": "**Prisoners:** Prisonniers",
-          "explanation": "People held captive or incarcerated",
-          "cultural_note": ""
-        },
-        "politiques": {
-          "display_format": "**Political:** politiques",
-          "explanation": "Relating to government or public affairs",
-          "cultural_note": ""
-        },
-        "otages": {
-          "display_format": "**Hostages:** otages",
-          "explanation": "People held captive by a group or individual",
-          "cultural_note": ""
-        },
-        "occidentaux": {
-          "display_format": "**Western:** occidentaux",
-          "explanation": "Relating to the Western world",
-          "cultural_note": "Refers to countries in Europe and North America"
-        },
-        "frappe": {
-          "display_format": "**Strike:** frappe",
-          "explanation": "A military attack",
-          "cultural_note": ""
-        },
-        "d'Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "A country in the Middle East",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Indicates location or target",
-          "cultural_note": ""
-        },
-        "d'Evin": {
-          "display_format": "**Evin:** Evin",
-          "explanation": "A prison in Iran",
-          "cultural_note": "Known for holding political prisoners"
-        },
-        "iranienne": {
-          "display_format": "**Iranian:** iranienne",
-          "explanation": "Relating to Iran",
-          "cultural_note": ""
-        },
-        "symbolique": {
-          "display_format": "**Symbolic:** symbolique",
-          "explanation": "Serving as a symbol",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Uranium enrichi iranien : ces 408,6 kilos qui résistent encore et toujours aux frappes",
       "original_article_link": "https://www.france24.com/fr/moyen-orient/20250623-uranium-enrichi-iranien-408-6-kilos-qui-r%C3%A9sistent-encore-et-toujours-aux-frappes-israeliennes-americaines",
       "original_article_published_date": "2025-06-23T17:05:03",
@@ -1799,92 +1167,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Le Qatar suspend son trafic aérien par «mesure de précaution»",
-      "original_article_link": "https://www.lefigaro.fr/voyages/le-qatar-suspend-son-trafic-aerien-par-mesure-de-precaution-20250623",
-      "original_article_published_date": "2025-06-23T17:03:43",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Qatar arrête ses vols par précaution",
-      "simplified_english_title": "Qatar halts flights as precaution",
-      "french_summary": "Le Qatar a décidé de suspendre son trafic aérien pour des raisons de sécurité non précisées.",
-      "english_summary": "Qatar has decided to suspend its air traffic for unspecified safety reasons.",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**The:** Le",
-          "explanation": "Definite article",
-          "cultural_note": "Used like English 'the'"
-        },
-        "suspend": {
-          "display_format": "**Suspends:** suspend",
-          "explanation": "Temporarily stops",
-          "cultural_note": ""
-        },
-        "trafic": {
-          "display_format": "**Traffic:** trafic",
-          "explanation": "Movement of aircraft",
-          "cultural_note": ""
-        },
-        "aérien": {
-          "display_format": "**Air:** aérien",
-          "explanation": "Relating to air travel",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**Its:** son",
-          "explanation": "Possessive pronoun",
-          "cultural_note": "Refers to Qatar's air traffic"
-        },
-        "par": {
-          "display_format": "**By:** par",
-          "explanation": "Indicates means or cause",
-          "cultural_note": ""
-        },
-        "mesure": {
-          "display_format": "**Measure:** mesure",
-          "explanation": "Action taken",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** de",
-          "explanation": "Indicates possession or composition",
-          "cultural_note": ""
-        },
-        "précaution": {
-          "display_format": "**Precaution:** précaution",
-          "explanation": "Action to avoid risk",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**Quotation mark:** «",
-          "explanation": "Starts a direct quote",
-          "cultural_note": "French uses « » instead of “ ”"
-        },
-        "»": {
-          "display_format": "**Quotation mark:** »",
-          "explanation": "Ends a direct quote",
-          "cultural_note": "French uses « » instead of “ ”"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -2352,188 +1634,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T17:18:08",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Le Qatar annonce la suspension de son trafic aérien par \"mesure de précaution\"",
-      "original_article_link": "https://www.bfmtv.com/economie/entreprises/transports/le-qatar-annonce-la-suspension-de-son-trafic-aerien-par-mesure-de-precaution_AD-202506230639.html",
-      "original_article_published_date": "2025-06-23T16:29:36",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Qatar arrête ses vols par précaution",
-      "simplified_english_title": "Qatar halts flights as precaution",
-      "french_summary": "Le Qatar a décidé de suspendre tous ses vols aériens pour des raisons de sécurité.",
-      "english_summary": "Qatar has decided to suspend all its flights for safety reasons.",
-      "contextual_title_explanations": {
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "To make something known publicly",
-          "cultural_note": ""
-        },
-        "trafic": {
-          "display_format": "**Traffic:** trafic",
-          "explanation": "Movement of aircraft or vehicles",
-          "cultural_note": ""
-        },
-        "aérien": {
-          "display_format": "**Air:** aérien",
-          "explanation": "Relating to aircraft or air travel",
-          "cultural_note": ""
-        },
-        "mesure": {
-          "display_format": "**Measure:** mesure",
-          "explanation": "Action taken to achieve a specific purpose",
-          "cultural_note": ""
-        },
-        "précaution": {
-          "display_format": "**Precaution:** précaution",
-          "explanation": "Action taken to avoid risk or danger",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** par",
-          "explanation": "Indicates the means or cause of an action",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Indicates possession or origin",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article used before feminine nouns",
-          "cultural_note": ""
-        },
-        "son": {
-          "display_format": "**Its/His/Her:** son",
-          "explanation": "Possessive adjective for third person singular",
-          "cultural_note": ""
-        },
-        "Le": {
-          "display_format": "**The:** Le",
-          "explanation": "Definite article used before masculine nouns",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation marks:** \"",
-          "explanation": "Used to indicate direct speech or a quotation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'Iran revendique une attaque contre une base américaine au Qatar, qui dit avoir intercepté les tirs",
-      "original_article_link": "https://www.france24.com/fr/info-en-continu/20250623-isra%C3%ABl-m%C3%A8ne-des-raids-intenses-%C3%A0-t%C3%A9h%C3%A9ran-cible-les-gardiens-et-la-prison-d-evine",
-      "original_article_published_date": "2025-06-23T16:29:18",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran attaque une base américaine au Qatar",
-      "simplified_english_title": "Iran attacks US base in Qatar",
-      "french_summary": "L'Iran dit avoir attaqué une base américaine au Qatar, mais les États-Unis disent avoir intercepté les tirs.",
-      "english_summary": "Iran claims to have attacked a US base in Qatar, but the US says it intercepted the strikes.",
-      "contextual_title_explanations": {
-        "L&#39;Iran": {
-          "display_format": "**Iran:** Iran",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Known for its historical and political significance"
-        },
-        "revendique": {
-          "display_format": "**Claims:** revendique",
-          "explanation": "To assert ownership or responsibility",
-          "cultural_note": ""
-        },
-        "attaque": {
-          "display_format": "**Attack:** attaque",
-          "explanation": "Violent action against someone or something",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**Against:** contre",
-          "explanation": "In opposition to",
-          "cultural_note": ""
-        },
-        "américaine": {
-          "display_format": "**American:** américaine",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**In the:** au",
-          "explanation": "Combined preposition (à + le)",
-          "cultural_note": ""
-        },
-        "dit": {
-          "display_format": "**Says:** dit",
-          "explanation": "To state or declare",
-          "cultural_note": ""
-        },
-        "avoir": {
-          "display_format": "**To have:** avoir",
-          "explanation": "Possess or experience something",
-          "cultural_note": ""
-        },
-        "intercepté": {
-          "display_format": "**Intercepted:** intercepté",
-          "explanation": "To stop or seize something in transit",
-          "cultural_note": ""
-        },
-        "tirs": {
-          "display_format": "**Shots:** tirs",
-          "explanation": "Projectiles fired from weapons",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**Who:** qui",
-          "explanation": "Relative pronoun referring to people or things",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** les",
-          "explanation": "Definite article, plural",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A:** une",
-          "explanation": "Indefinite article, feminine singular",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -5888,6 +4988,489 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les Experts : Conclave, la réunion de la dernière chance - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts/video-les-experts-conclave-la-reunion-de-la-derniere-chance-23-06_VN-202506230242.html",
+      "original_article_published_date": "2025-06-23T07:36:33",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conclave : une réunion importante",
+      "simplified_english_title": "Conclave: an important meeting",
+      "french_summary": "Les Experts discutent du Conclave, une réunion cruciale qui pourrait être la dernière chance pour résoudre les problèmes actuels.",
+      "english_summary": "The Experts discuss the Conclave, a crucial meeting that might be the last chance to solve current issues.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pollution de l’air : la fin de l’âge d’or du chauffage au bois",
+      "original_article_link": "https://www.ouest-france.fr/environnement/ecologie/transition-ecologique/pollution-de-lair-la-fin-de-lage-dor-du-chauffage-au-bois-9a1121f0-4218-11f0-b704-f7b46f41b8ae?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T07:29:40",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le chauffage au bois pollue trop",
+      "simplified_english_title": "Wood heating is too polluting",
+      "french_summary": "Le chauffage au bois est de plus en plus critiqué à cause de la pollution de l'air qu'il provoque.",
+      "english_summary": "Wood heating is increasingly criticized because of the air pollution it causes.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les agents du Mossad, infiltrés en Iran, préparent de nouvelles opérations",
+      "original_article_link": "https://www.europe1.fr/international/les-agents-du-mossad-infiltres-en-iran-preparent-de-nouvelles-operations-760623",
+      "original_article_published_date": "2025-06-23T07:23:57",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des agents du Mossad préparent des opérations en Iran",
+      "simplified_english_title": "Mossad agents prepare operations in Iran",
+      "french_summary": "Des agents du Mossad sont en Iran pour préparer de nouvelles opérations selon des sources sécuritaires.",
+      "english_summary": "Mossad agents are in Iran preparing new operations according to security sources.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Faut-il s’attendre à des hausses de prix du pétrole ?",
+      "original_article_link": "https://www.lepoint.fr/monde/faut-il-s-attendre-a-des-hausses-de-prix-du-petrole-23-06-2025-2592644_24.php",
+      "original_article_published_date": "2025-06-23T07:08:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les prix du pétrole vont-ils augmenter ?",
+      "simplified_english_title": "Will oil prices increase?",
+      "french_summary": "Les experts discutent de la possibilité d'une hausse des prix du pétrole dans les prochains mois.",
+      "english_summary": "Experts discuss the possibility of rising oil prices in the coming months.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Trajectoire : Heroics Capital, solutions de quai logistique - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/trajectoire/video-trajectoire-heroics-capital-solutions-de-quai-logistique-23-06_VN-202506230222.html",
+      "original_article_published_date": "2025-06-23T07:05:14",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Heroics Capital aide la logistique",
+      "simplified_english_title": "Heroics Capital supports logistics",
+      "french_summary": "Heroics Capital propose des solutions pour améliorer les opérations de quai logistique et optimiser la gestion des entrepôts.",
+      "english_summary": "Heroics Capital offers solutions to improve logistics quay operations and optimize warehouse management.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël-Iran : \"On était dans les abris deux fois par jour\", témoignent des Français rapatriés",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/conflit-israel-iran-on-etait-dans-les-abris-deux-fois-par-jour-temoignent-des-francais-rapatries_7332018.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T07:02:52",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Français en Israël parlent de la guerre",
+      "simplified_english_title": "French in Israel talk about the war",
+      "french_summary": "Des Français en Israël racontent leur vie pendant le conflit, avec des alertes fréquentes.",
+      "english_summary": "French people in Israel share their experiences during the conflict, with frequent alerts.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Javier Blas, journaliste : « Les courtiers en matières premières sont les derniers aventuriers du capitalisme sauvage »",
+      "original_article_link": "https://www.lemonde.fr/idees/article/2025/06/23/javier-blas-journaliste-les-courtiers-en-matieres-premieres-sont-les-derniers-aventuriers-du-capitalisme-sauvage_6615404_3232.html",
+      "original_article_published_date": "2025-06-23T07:00:12",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les courtiers en matières premières sont des aventuriers",
+      "simplified_english_title": "Commodity brokers are the last adventurers",
+      "french_summary": "Javier Blas décrit les courtiers en matières premières comme des aventuriers dans le capitalisme moderne.",
+      "english_summary": "Javier Blas describes commodity brokers as adventurers in modern capitalism.",
+      "contextual_title_explanations": {
+        "Javier Blas": {
+          "display_format": "**Javier Blas:** Nom propre",
+          "explanation": "Name of the journalist",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating elements",
+          "cultural_note": ""
+        },
+        "journaliste": {
+          "display_format": "**journaliste:** Profession médiatique",
+          "explanation": "Reporter or news writer",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing a quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "courtiers": {
+          "display_format": "**courtiers:** Intermédiaires",
+          "explanation": "Brokers or middlemen",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Préposition",
+          "explanation": "Preposition, 'in' or 'of'",
+          "cultural_note": ""
+        },
+        "matières premières": {
+          "display_format": "**matières premières:** Ressources brutes",
+          "explanation": "Raw materials or commodities",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**sont:** Verbe être",
+          "explanation": "Form of 'to be'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "derniers": {
+          "display_format": "**derniers:** Derniers dans une série",
+          "explanation": "Last in a series",
+          "cultural_note": ""
+        },
+        "aventuriers": {
+          "display_format": "**aventuriers:** Explorateurs audacieux",
+          "explanation": "Adventurers or bold explorers",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "capitalisme": {
+          "display_format": "**capitalisme:** Système économique",
+          "explanation": "Economic system, capitalism",
+          "cultural_note": ""
+        },
+        "sauvage": {
+          "display_format": "**sauvage:** Non régulé",
+          "explanation": "Wild or unregulated",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T07:20:36",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Exclusif. Smic, « taxe Amazon », conférences salariales… Les pistes de Raphaël Glucksmann sur le travail",
+      "original_article_link": "https://www.lepoint.fr/politique/exclusif-smic-taxe-amazon-conferences-salariales-les-pistes-de-raphael-glucksmann-sur-le-travail-23-06-2025-2592642_20.php",
+      "original_article_published_date": "2025-06-23T07:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Glucksmann parle du travail et du Smic",
+      "simplified_english_title": "Glucksmann discusses work and minimum wage",
+      "french_summary": "Raphaël Glucksmann propose des idées sur le Smic et les salaires, incluant une possible taxe pour Amazon.",
+      "english_summary": "Raphaël Glucksmann suggests ideas on minimum wage and salaries, including a possible tax for Amazon.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fête de la musique : «Nous vivons la réalité de l'ensauvagement de notre pays», déplore François-Xavier Bellamy",
+      "original_article_link": "https://www.europe1.fr/Police-Justice/fete-de-la-musique-nous-vivons-la-realite-de-lensauvagement-de-notre-pays-deplore-francois-xavier-bellamy-760621",
+      "original_article_published_date": "2025-06-23T06:58:49",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Inquiétude lors de la Fête de la Musique",
+      "simplified_english_title": "Concerns at Music Festival",
+      "french_summary": "François-Xavier Bellamy exprime son inquiétude sur la situation du pays pendant la Fête de la Musique.",
+      "english_summary": "François-Xavier Bellamy expresses concern about the country's situation during the Music Festival.",
+      "contextual_title_explanations": {
+        "Fête de la musique": {
+          "display_format": "**Music Day:** Fête de la musique",
+          "explanation": "Annual free music festival on June 21",
+          "cultural_note": "Started in France in 1982, now worldwide"
+        },
+        "ensauvagement": {
+          "display_format": "**Barbarisation:** ensauvagement",
+          "explanation": "Controversial term for societal decline",
+          "cultural_note": "Often used in political debates about crime"
+        },
+        "déplore": {
+          "display_format": "**Deplores:** déplore",
+          "explanation": "Expresses strong disapproval",
+          "cultural_note": ""
+        },
+        "nous vivons": {
+          "display_format": "**We live:** nous vivons",
+          "explanation": "First-person plural present tense of 'vivre'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T11:17:42",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Strasbourg bientôt jumelée avec un camp palestinien ? Le vote doit avoir lieu ce lundi",
+      "original_article_link": "https://www.europe1.fr/societe/strasbourg-bientot-jumelee-avec-un-camp-palestinien-le-vote-doit-avoir-lieu-ce-lundi-760614",
+      "original_article_published_date": "2025-06-23T06:50:02",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Strasbourg peut devenir jumelée avec un camp palestinien",
+      "simplified_english_title": "Strasbourg may twin with a Palestinian camp",
+      "french_summary": "La ville de Strasbourg va voter pour devenir jumelée avec un camp de réfugiés palestiniens ce lundi.",
+      "english_summary": "The city of Strasbourg will vote to become twinned with a Palestinian refugee camp this Monday.",
+      "contextual_title_explanations": {
+        "Strasbourg": {
+          "display_format": "**Strasbourg:** Ville française",
+          "explanation": "City in eastern France",
+          "cultural_note": "Capital of the Alsace region"
+        },
+        "bientôt": {
+          "display_format": "**bientôt:** Sous peu",
+          "explanation": "Soon, in the near future",
+          "cultural_note": ""
+        },
+        "jumelée": {
+          "display_format": "**jumelée:** Ville jumelle",
+          "explanation": "Twin town, sister city",
+          "cultural_note": "Cities cooperating culturally and commercially"
+        },
+        "avec": {
+          "display_format": "**avec:** En compagnie de",
+          "explanation": "With, in association with",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a'",
+          "cultural_note": ""
+        },
+        "camp": {
+          "display_format": "**camp:** Campement",
+          "explanation": "Camp, temporary settlement",
+          "cultural_note": ""
+        },
+        "palestinien": {
+          "display_format": "**palestinien:** De Palestine",
+          "explanation": "Palestinian, relating to Palestine",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "vote": {
+          "display_format": "**vote:** Votation",
+          "explanation": "Vote, decision-making process",
+          "cultural_note": ""
+        },
+        "doit": {
+          "display_format": "**doit:** Devoir",
+          "explanation": "Must, has to",
+          "cultural_note": ""
+        },
+        "avoir": {
+          "display_format": "**avoir:** Posséder",
+          "explanation": "To have, to take place",
+          "cultural_note": ""
+        },
+        "lieu": {
+          "display_format": "**lieu:** Endroit",
+          "explanation": "Place, location",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**ce:** Ceci",
+          "explanation": "This, that",
+          "cultural_note": ""
+        },
+        "lundi": {
+          "display_format": "**lundi:** Jour de la semaine",
+          "explanation": "Monday",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T07:20:36",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
