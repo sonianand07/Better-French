@@ -58067,6 +58067,966 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le monde qui bouge - L'Interview : Iran/Israël, la position turque ambiguë ? - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/video-le-monde-qui-bouge-l-interview-iran-israel-la-position-turque-ambigue-23-06_VN-202506230149.html",
+      "original_article_published_date": "2025-06-23T05:30:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La position de la Turquie entre Iran et Israël",
+      "simplified_english_title": "Turkey's stance between Iran and Israel",
+      "french_summary": "La Turquie a une position ambiguë dans le conflit entre l'Iran et Israël, selon une interview récente.",
+      "english_summary": "Turkey has an ambiguous position in the conflict between Iran and Israel, according to a recent interview.",
+      "contextual_title_explanations": {
+        "Le monde qui bouge": {
+          "display_format": "**Le monde qui bouge:** Le monde en mouvement",
+          "explanation": "The world that moves/changes",
+          "cultural_note": "Common phrase for global dynamics"
+        },
+        "-": {
+          "display_format": "**-:** Tiret",
+          "explanation": "Dash separating date",
+          "cultural_note": ""
+        },
+        "L'Interview": {
+          "display_format": "**L'Interview:** L'entretien",
+          "explanation": "The interview section",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing topic",
+          "cultural_note": ""
+        },
+        "Iran/Israël": {
+          "display_format": "**Iran/Israël:** Iran et Israël",
+          "explanation": "Iran and Israel",
+          "cultural_note": "Slash denotes relationship or comparison"
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "la position turque": {
+          "display_format": "**la position turque:** La stance de la Turquie",
+          "explanation": "Turkey's stance/position",
+          "cultural_note": ""
+        },
+        "ambiguë": {
+          "display_format": "**ambiguë:** Incertaine",
+          "explanation": "Ambiguous/uncertain",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        },
+        "23/06": {
+          "display_format": "**23/06:** Vingt-trois juin",
+          "explanation": "June 23rd (day/month format)",
+          "cultural_note": "European date format"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les frappes américaines constituent «une blessure très grave à la dignité et la fierté des Iraniens», accuse l’ambassadeur d’Iran à Paris",
+      "original_article_link": "https://www.lefigaro.fr/international/les-frappes-americaines-constituent-une-blessure-tres-grave-a-la-dignite-et-la-fierte-des-iraniens-accuse-l-ambassadeur-d-iran-a-paris-20250623",
+      "original_article_published_date": "2025-06-23T06:14:56",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran critique les frappes américaines",
+      "simplified_english_title": "Iran condemns US strikes",
+      "french_summary": "L'ambassadeur d'Iran à Paris dit que les frappes américaines blessent la dignité et la fierté de l'Iran.",
+      "english_summary": "Iran's ambassador in Paris says US strikes deeply hurt Iranian dignity and pride.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "frappes": {
+          "display_format": "**frappes:** Attaques",
+          "explanation": "Strikes, attacks",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** Des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        "constituent": {
+          "display_format": "**constituent:** Représentent",
+          "explanation": "Constitute, represent",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, feminine",
+          "cultural_note": ""
+        },
+        "blessure": {
+          "display_format": "**blessure:** Dommage",
+          "explanation": "Injury, harm",
+          "cultural_note": ""
+        },
+        "très": {
+          "display_format": "**très:** Beaucoup",
+          "explanation": "Very, extremely",
+          "cultural_note": ""
+        },
+        "grave": {
+          "display_format": "**grave:** Sérious",
+          "explanation": "Serious, severe",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "In, at",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article, feminine",
+          "cultural_note": ""
+        },
+        "dignité": {
+          "display_format": "**dignité:** Honneur",
+          "explanation": "Dignity, honor",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "fierté": {
+          "display_format": "**fierté:** Orgueil",
+          "explanation": "Pride",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article contracté",
+          "explanation": "Of the, some",
+          "cultural_note": ""
+        },
+        "Iraniens": {
+          "display_format": "**Iraniens:** Habitants de l'Iran",
+          "explanation": "Iranians",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        },
+        "accuse": {
+          "display_format": "**accuse:** Blâme",
+          "explanation": "Accuses, blames",
+          "cultural_note": ""
+        },
+        "l’ambassadeur": {
+          "display_format": "**l’ambassadeur:** Représentant diplomatique",
+          "explanation": "The ambassador",
+          "cultural_note": ""
+        },
+        "d’Iran": {
+          "display_format": "**d’Iran:** Du pays Iran",
+          "explanation": "Of Iran",
+          "cultural_note": ""
+        },
+        "Paris": {
+          "display_format": "**Paris:** Capitale de la France",
+          "explanation": "Paris, capital of France",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran-Israël: \"Chaque guerre doit se terminer avec la diplomatie\", affirme le porte-parole de l'ambassade d'Israël en France",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-iran-israel-chaque-guerre-doit-se-terminer-avec-la-diplomatie-affirme-le-porte-parole-de-l-ambassade-d-israel-en-france_VN-202506230185.html",
+      "original_article_published_date": "2025-06-23T06:12:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël veut la diplomatie avec l'Iran",
+      "simplified_english_title": "Israel seeks diplomacy with Iran",
+      "french_summary": "Le porte-parole d'Israël en France dit que chaque guerre doit finir par la diplomatie.",
+      "english_summary": "Israel's spokesman in France says every war must end with diplomacy.",
+      "contextual_title_explanations": {
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Relation entre deux pays",
+          "explanation": "Iran-Israel relations",
+          "cultural_note": "Often discussed in geopolitical contexts"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "Chaque": {
+          "display_format": "**Chaque:** Tout",
+          "explanation": "Each or every",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War",
+          "cultural_note": ""
+        },
+        "doit": {
+          "display_format": "**doit:** Devrait",
+          "explanation": "Must or should",
+          "cultural_note": ""
+        },
+        "se terminer": {
+          "display_format": "**se terminer:** Finir",
+          "explanation": "To end",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Par",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "la diplomatie": {
+          "display_format": "**la diplomatie:** Négociations",
+          "explanation": "Diplomacy",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "affirme": {
+          "display_format": "**affirme:** Déclare",
+          "explanation": "Affirms or declares",
+          "cultural_note": ""
+        },
+        "le porte-parole": {
+          "display_format": "**le porte-parole:** Représentant",
+          "explanation": "Spokesperson",
+          "cultural_note": ""
+        },
+        "de l'ambassade": {
+          "display_format": "**de l'ambassade:** Du siège diplomatique",
+          "explanation": "Of the embassy",
+          "cultural_note": ""
+        },
+        "d'Israël": {
+          "display_format": "**d'Israël:** De l'État d'Israël",
+          "explanation": "Of Israel",
+          "cultural_note": ""
+        },
+        "en France": {
+          "display_format": "**en France:** Dans le pays",
+          "explanation": "In France",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes américaines: l'ambassadeur d'Iran en France assure que \"Téhéran n'est pas en guerre avec les États-Unis\"",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/frappes-americaines-l-ambassadeur-d-iran-en-france-assure-que-teheran-n-est-pas-en-guerre-avec-les-etats-unis_AN-202506230171.html",
+      "original_article_published_date": "2025-06-23T05:59:56",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran dit ne pas être en guerre avec les États-Unis",
+      "simplified_english_title": "Iran says it is not at war with the US",
+      "french_summary": "L'ambassadeur d'Iran en France déclare que Téhéran n'est pas en guerre avec les États-Unis après des frappes américaines.",
+      "english_summary": "Iran's ambassador to France states Tehran is not at war with the US after American strikes.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** Attaques",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**américaines:** des États-Unis",
+          "explanation": "American, from the USA",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "l'ambassadeur": {
+          "display_format": "**l'ambassadeur:** Représentant diplomatique",
+          "explanation": "The ambassador",
+          "cultural_note": ""
+        },
+        "d'Iran": {
+          "display_format": "**d'Iran:** De l'Iran",
+          "explanation": "From Iran",
+          "cultural_note": ""
+        },
+        "en France": {
+          "display_format": "**en France:** Dans le pays France",
+          "explanation": "In France",
+          "cultural_note": ""
+        },
+        "assure": {
+          "display_format": "**assure:** Affirme",
+          "explanation": "Assures or affirms",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**que:** Que",
+          "explanation": "That",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Tehran, capital of Iran",
+          "cultural_note": ""
+        },
+        "n'est": {
+          "display_format": "**n'est:** N'est pas",
+          "explanation": "Is not",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Ne... pas",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "en guerre": {
+          "display_format": "**en guerre:** En conflit",
+          "explanation": "At war",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Avec",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "les États-Unis": {
+          "display_format": "**les États-Unis:** Pays Amérique",
+          "explanation": "The United States",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : le Rhône et l’Isère maintenus en vigilance orange mardi",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/canicule-le-rhone-et-lisere-maintenus-en-vigilance-orange-mardi-ef5975e0-4ff6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T06:22:19",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Forte chaleur : vigilance orange",
+      "simplified_english_title": "Heatwave: orange alert continues",
+      "french_summary": "Le Rhône et l’Isère restent en vigilance orange à cause de la canicule. Les températures restent très élevées.",
+      "english_summary": "The Rhône and Isère departments stay on orange alert due to the heatwave. Temperatures remain very high.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, intense hot weather",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le Rhône": {
+          "display_format": "**le Rhône:** Fleuve français",
+          "explanation": "Major river in France",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And, connecting words",
+          "cultural_note": ""
+        },
+        "l’Isère": {
+          "display_format": "**l’Isère:** Département français",
+          "explanation": "French department/river",
+          "cultural_note": ""
+        },
+        "maintenus": {
+          "display_format": "**maintenus:** Gardés",
+          "explanation": "Kept, maintained",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, indicates state",
+          "cultural_note": ""
+        },
+        "vigilance": {
+          "display_format": "**vigilance:** Surveillance",
+          "explanation": "Vigilance, watchfulness",
+          "cultural_note": ""
+        },
+        "orange": {
+          "display_format": "**orange:** Niveau d'alerte",
+          "explanation": "Second-highest alert level",
+          "cultural_note": "Weather warning color code"
+        },
+        "mardi": {
+          "display_format": "**mardi:** Jour de la semaine",
+          "explanation": "Tuesday",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes en Iran: \"Les gens ont extrêmement peur en Iran\", rapporte Mona Armande, avocate franco-iranienne, membre de l'association \"Iran justice\"",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-frappes-en-iran-les-gens-ont-extremement-peur-en-iran-rapporte-mona-armande-avocate-franco-iranienne-membre-de-l-association-iran-justice_VN-202506230150.html",
+      "original_article_published_date": "2025-06-23T05:31:53",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attaques en Iran : les gens ont peur",
+      "simplified_english_title": "Attacks in Iran: people are scared",
+      "french_summary": "Mona Armande, avocate franco-iranienne, dit que les gens ont très peur en Iran après les frappes.",
+      "english_summary": "Mona Armande, a Franco-Iranian lawyer, says people in Iran are very scared after the strikes.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Frappes:** Attaques",
+          "explanation": "Strikes or attacks",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "Les": {
+          "display_format": "**Les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "gens": {
+          "display_format": "**gens:** personnes",
+          "explanation": "People",
+          "cultural_note": ""
+        },
+        "ont": {
+          "display_format": "**ont:** avoir",
+          "explanation": "Have",
+          "cultural_note": ""
+        },
+        "extrêmement": {
+          "display_format": "**extrêmement:** très",
+          "explanation": "Extremely",
+          "cultural_note": ""
+        },
+        "peur": {
+          "display_format": "**peur:** crainte",
+          "explanation": "Fear",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "rapporte": {
+          "display_format": "**rapporte:** dit",
+          "explanation": "Reports",
+          "cultural_note": ""
+        },
+        "Mona Armande": {
+          "display_format": "**Mona Armande:** Nom propre",
+          "explanation": "Proper name",
+          "cultural_note": ""
+        },
+        "avocate": {
+          "display_format": "**avocate:** juriste",
+          "explanation": "Lawyer",
+          "cultural_note": ""
+        },
+        "franco-iranienne": {
+          "display_format": "**franco-iranienne:** double nationalité",
+          "explanation": "French-Iranian",
+          "cultural_note": ""
+        },
+        "membre": {
+          "display_format": "**membre:** participant",
+          "explanation": "Member",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** appartenance",
+          "explanation": "Of",
+          "cultural_note": ""
+        },
+        "l'association": {
+          "display_format": "**l'association:** groupe",
+          "explanation": "The association",
+          "cultural_note": ""
+        },
+        "Iran justice": {
+          "display_format": "**Iran justice:** Nom d'association",
+          "explanation": "Association name",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nantes : «Il n’y aura jamais d’écologie sans les écologistes» assurent les alliés verts de la maire socialiste",
+      "original_article_link": "https://www.lefigaro.fr/nantes/nantes-il-n-y-aura-jamais-d-ecologie-sans-les-ecologistes-assurent-les-allies-verts-de-la-maire-socialiste-20250623",
+      "original_article_published_date": "2025-06-23T05:03:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les écologistes soutiennent la maire de Nantes",
+      "simplified_english_title": "Greens support Nantes' socialist mayor",
+      "french_summary": "Les écologistes affirment leur soutien à la maire socialiste de Nantes en disant qu'il n'y aura pas d'écologie sans eux.",
+      "english_summary": "Greens affirm their support for Nantes' socialist mayor, stating there will be no ecology without them.",
+      "contextual_title_explanations": {
+        "Nantes": {
+          "display_format": "**Nantes:** Ville française",
+          "explanation": "City in western France",
+          "cultural_note": "Known for its history and culture"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces a quote or explanation",
+          "cultural_note": ""
+        },
+        "Il n’y aura jamais": {
+          "display_format": "**Il n’y aura jamais:** Il ne sera pas",
+          "explanation": "There will never be",
+          "cultural_note": ""
+        },
+        "d’écologie": {
+          "display_format": "**d’écologie:** De l'écologie",
+          "explanation": "Of ecology",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**sans:** Sans la présence de",
+          "explanation": "Without",
+          "cultural_note": ""
+        },
+        "les écologistes": {
+          "display_format": "**les écologistes:** Partisans de l'écologie",
+          "explanation": "Environmentalists",
+          "cultural_note": ""
+        },
+        "assurent": {
+          "display_format": "**assurent:** Affirment",
+          "explanation": "Assure or claim",
+          "cultural_note": ""
+        },
+        "les alliés verts": {
+          "display_format": "**les alliés verts:** Partisans écologistes",
+          "explanation": "Green allies",
+          "cultural_note": ""
+        },
+        "de la maire socialiste": {
+          "display_format": "**de la maire socialiste:** De la femme maire socialiste",
+          "explanation": "Of the socialist female mayor",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Il faudra beaucoup de temps aux Iraniens pour reconstruire leur programme nucléaire »",
+      "original_article_link": "https://www.lepoint.fr/monde/il-faudra-beaucoup-de-temps-aux-iraniens-pour-reconstruire-leur-programme-nucleaire-23-06-2025-2592638_24.php",
+      "original_article_published_date": "2025-06-23T04:30:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran doit reconstruire son programme nucléaire",
+      "simplified_english_title": "Iran must rebuild its nuclear program",
+      "french_summary": "Les Iraniens devront prendre beaucoup de temps pour reconstruire leur programme nucléaire après les dégâts subis.",
+      "english_summary": "Iranians will need a lot of time to rebuild their nuclear program after the damage it suffered.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "Il": {
+          "display_format": "**Il:** Pronom personnel",
+          "explanation": "Personal pronoun meaning 'he' or 'it'",
+          "cultural_note": ""
+        },
+        "faudra": {
+          "display_format": "**faudra:** Futur de falloir",
+          "explanation": "Future tense of 'to be necessary'",
+          "cultural_note": ""
+        },
+        "beaucoup": {
+          "display_format": "**beaucoup:** Adverbe de quantité",
+          "explanation": "Adverb meaning 'a lot' or 'much'",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition meaning 'of' or 'some'",
+          "cultural_note": ""
+        },
+        "temps": {
+          "display_format": "**temps:** Nom masculin",
+          "explanation": "Noun meaning 'time'",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** Article contracté",
+          "explanation": "Contraction of 'à les' meaning 'to the'",
+          "cultural_note": ""
+        },
+        "Iraniens": {
+          "display_format": "**Iraniens:** Gentilé",
+          "explanation": "Demonym for people from Iran",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Préposition",
+          "explanation": "Preposition meaning 'for'",
+          "cultural_note": ""
+        },
+        "reconstruire": {
+          "display_format": "**reconstruire:** Verbe",
+          "explanation": "Verb meaning 'to rebuild'",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**leur:** Adjectif possessif",
+          "explanation": "Possessive adjective meaning 'their'",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**programme:** Nom masculin",
+          "explanation": "Noun meaning 'program'",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Adjectif",
+          "explanation": "Adjective meaning 'nuclear'",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Syrie : un attentat dans une église fait au moins 22 morts",
+      "original_article_link": "https://www.la-croix.com/syrie-20-morts-dans-un-attentat-dans-une-eglise-les-autorites-designent-l-ei-20250622",
+      "original_article_published_date": "2025-06-23T04:54:20",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attentat dans une église en Syrie fait 22 morts",
+      "simplified_english_title": "Church attack in Syria kills 22",
+      "french_summary": "Un attentat dans une église en Syrie a tué au moins vingt-deux personnes. L'attaque a eu lieu aujourd'hui.",
+      "english_summary": "An attack in a church in Syria killed at least twenty-two people. The attack happened today.",
+      "contextual_title_explanations": {
+        "Syrie": {
+          "display_format": "**Syrie:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "attentat": {
+          "display_format": "**attentat:** Acte de violence",
+          "explanation": "Violent attack, often terrorist",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**dans:** Préposition de lieu",
+          "explanation": "Preposition meaning 'in' or 'inside'",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "église": {
+          "display_format": "**église:** Lieu de culte chrétien",
+          "explanation": "Christian place of worship",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**fait:** Verbe faire",
+          "explanation": "Third person singular of 'to do' or 'to make'",
+          "cultural_note": ""
+        },
+        "au moins": {
+          "display_format": "**au moins:** Minimum",
+          "explanation": "At least, minimum",
+          "cultural_note": ""
+        },
+        "22": {
+          "display_format": "**22:** Vingt-deux",
+          "explanation": "Number twenty-two",
+          "cultural_note": ""
+        },
+        "morts": {
+          "display_format": "**morts:** Décès",
+          "explanation": "Deaths, fatalities",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : le Rhône et l'Isère toujours en vigilance orange mardi",
+      "original_article_link": "https://www.europe1.fr/france/canicule-le-rhone-et-lisere-toujours-en-vigilance-orange-mardi-760612",
+      "original_article_published_date": "2025-06-23T06:12:45",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Forte chaleur : vigilance orange continue",
+      "simplified_english_title": "Heatwave: Orange alert continues",
+      "french_summary": "Les départements du Rhône et de l'Isère restent en vigilance orange à cause de la canicule ce mardi.",
+      "english_summary": "The Rhône and Isère departments remain on orange alert due to the heatwave this Tuesday.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Canicule:** Vague de chaleur",
+          "explanation": "Heatwave, extreme heat period",
+          "cultural_note": "Common in French summers"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le Rhône": {
+          "display_format": "**le Rhône:** Fleuve français",
+          "explanation": "Major river in France",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And, connecting words",
+          "cultural_note": ""
+        },
+        "l'Isère": {
+          "display_format": "**l'Isère:** Département français",
+          "explanation": "French department/region",
+          "cultural_note": ""
+        },
+        "toujours": {
+          "display_format": "**toujours:** Toujours",
+          "explanation": "Still, indicating continuity",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In, indicating state",
+          "cultural_note": ""
+        },
+        "vigilance orange": {
+          "display_format": "**vigilance orange:** Alerte météo",
+          "explanation": "Weather warning level",
+          "cultural_note": "Second highest alert level"
+        },
+        "mardi": {
+          "display_format": "**mardi:** Mardi",
+          "explanation": "Tuesday, day of week",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T06:31:14",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
