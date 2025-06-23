@@ -13,6 +13,7 @@ from .validator import (
     validate_explanations_payload,
     article_is_display_ready,
     coverage_ok,
+    expected_tokens_from_title,
 )
 
 logger = logging.getLogger(__name__)
@@ -30,8 +31,12 @@ class ProcessorV2:
         return render("simplify_titles_summaries.jinja", title=article.original_article_title)
 
     def _render_explain_prompt(self, article: Article) -> str:
-        # Use the stricter v2 prompt which enforces English heading rules
-        return render("contextual_words_v2.jinja", title=article.original_article_title)
+        tokens = list(expected_tokens_from_title(article.original_article_title))
+        return render(
+            "contextual_words_v2.jinja",
+            title=article.original_article_title,
+            tokens=tokens,
+        )
 
     def _safe_json(self, text: str):
         """Extract first JSON object/array from text."""

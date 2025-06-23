@@ -46,4 +46,10 @@ EXAMPLE:
   {"original_word":"ce n'est ni… ni…","display_format":"**Neither… nor…:** ce n'est ni… ni…","explanation":"Double-negation structure","cultural_note":""}
 ]
 
+{% if tokens %}
+TOKENS_TO_DEFINE = [
+{% for t in tokens %}  "{{ t }}"{% if not loop.last %},{% endif %}
+{% endfor %}]
+{% endif %}
+
 Return ONLY the JSON array. 
