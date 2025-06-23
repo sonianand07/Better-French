@@ -3,173 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Menace de riposte de l’Iran : le Qatar annonce la suspension de son trafic aérien par « mesure de précaution »",
-      "original_article_link": "https://www.leparisien.fr/international/menace-de-riposte-de-liran-le-qatar-annonce-la-suspension-de-son-trafic-aerien-par-mesure-de-precaution-23-06-2025-YM6TMBCBZFCDHI3ID5VWNAIK6Q.php",
-      "original_article_published_date": "2025-06-23T22:19:00.227134",
-      "source_name": "Le Parisien",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran menace, le Qatar suspend ses vols",
-      "simplified_english_title": "Iran threatens, Qatar suspends flights",
-      "french_summary": "L'Iran menace de riposter, donc le Qatar arrête son trafic aérien par précaution.",
-      "english_summary": "Iran threatens retaliation, so Qatar suspends air traffic as a precaution.",
-      "contextual_title_explanations": {
-        "Menace": {
-          "display_format": "**Threat:** Menace",
-          "explanation": "Warning of possible danger or harm",
-          "cultural_note": "Often used in political contexts"
-        },
-        "riposte": {
-          "display_format": "**Retaliation:** riposte",
-          "explanation": "Counterattack or response to an attack",
-          "cultural_note": "Common in military or political conflicts"
-        },
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "Makes a public statement",
-          "cultural_note": ""
-        },
-        "trafic aérien": {
-          "display_format": "**Air traffic:** trafic aérien",
-          "explanation": "Movement of aircraft in the air",
-          "cultural_note": ""
-        },
-        "mesure": {
-          "display_format": "**Measure:** mesure",
-          "explanation": "Action taken to achieve a purpose",
-          "cultural_note": ""
-        },
-        "précaution": {
-          "display_format": "**Precaution:** précaution",
-          "explanation": "Action taken to avoid danger",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Indicates possession or origin",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave retraites: la CFDT acte «l’échec» des négociations, «la responsabilité appartient au Medef»",
-      "original_article_link": "https://www.ouest-france.fr/economie/retraites/conclave-retraites-la-cfdt-acte-lechec-des-negociations-la-responsabilite-appartient-au-medef-0083f7a0-5074-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T21:09:23",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Échec des négociations sur les retraites",
-      "simplified_english_title": "Pension talks fail",
-      "french_summary": "La CFDT déclare que les négociations sur les retraites ont échoué et accuse le Medef d'en être responsable.",
-      "english_summary": "The CFDT declares the pension negotiations have failed and blames the Medef for the responsibility.",
-      "contextual_title_explanations": {
-        "négociations": {
-          "display_format": "**Negotiations:** négociations",
-          "explanation": "Discussions to reach an agreement",
-          "cultural_note": ""
-        },
-        "échec": {
-          "display_format": "**Failure:** échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        },
-        "responsabilité": {
-          "display_format": "**Responsibility:** responsabilité",
-          "explanation": "State of being accountable",
-          "cultural_note": ""
-        },
-        "appartient": {
-          "display_format": "**Belongs:** appartient",
-          "explanation": "To be the property of",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**Pensions:** retraites",
-          "explanation": "Retirement benefits system",
-          "cultural_note": "Hot topic in French politics"
-        },
-        "acte": {
-          "display_format": "**Acknowledges:** acte",
-          "explanation": "To recognize or declare",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**Quotation mark:** »",
-          "explanation": "End of a quotation",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma:** ,",
-          "explanation": "Punctuation mark",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Plural indefinite article",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "l": {
-          "display_format": "**The:** l",
-          "explanation": "Definite article before vowels",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing a list or quote",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**To the:** au",
-          "explanation": "Contraction of 'à le'",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**Quotation mark:** «",
-          "explanation": "Start of a quotation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "France: la CFDT annonce «l'échec» du conclave sur les retraites",
       "original_article_link": "https://www.rfi.fr/fr/france/20250623-france-la-cfdt-annonce-l-%C3%A9chec-du-conclave-sur-les-retraites",
       "original_article_published_date": "2025-06-23T20:50:12",
@@ -390,77 +223,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T20:22:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "AramisAuto : L'essor du marché des véhicules reconditionnés!",
-      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge/aramisauto-lessor-du-marche-des-vehicules-reconditionnes-760687",
-      "original_article_published_date": "2025-06-23T20:05:04",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "AramisAuto : Le marché des voitures reconditionnées",
-      "simplified_english_title": "AramisAuto: Market for refurbished cars",
-      "french_summary": "AramisAuto connaît un grand succès avec la vente de voitures reconditionnées. Ce marché attire de plus en plus de clients.",
-      "english_summary": "AramisAuto is very successful with refurbished cars. This market attracts more and more customers.",
-      "contextual_title_explanations": {
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Introduces an explanation or list",
-          "cultural_note": ""
-        },
-        "L'essor": {
-          "display_format": "**Rise:** L'essor",
-          "explanation": "Rapid growth or increase",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the:** du",
-          "explanation": "Contraction of 'de le'",
-          "cultural_note": ""
-        },
-        "marché": {
-          "display_format": "**Market:** marché",
-          "explanation": "Place or system for buying and selling",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Plural indefinite article",
-          "cultural_note": ""
-        },
-        "véhicules": {
-          "display_format": "**Vehicles:** véhicules",
-          "explanation": "Machines used for transport",
-          "cultural_note": ""
-        },
-        "reconditionnés": {
-          "display_format": "**Refurbished:** reconditionnés",
-          "explanation": "Restored to good condition",
-          "cultural_note": "Common in French car sales"
-        },
-        "!": {
-          "display_format": "**Exclamation mark:** !",
-          "explanation": "Shows strong feeling or emphasis",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -723,62 +485,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Tech & Co, la quotidienne - Lundi 23 juin",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-tech-co-la-quotidienne-lundi-23-juin_VN-202506230782.html",
-      "original_article_published_date": "2025-06-23T19:42:30",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Actualités technologiques du lundi 23 juin",
-      "simplified_english_title": "Tech news for Monday, June 23",
-      "french_summary": "Les dernières nouvelles et mises à jour dans le monde de la technologie pour aujourd'hui.",
-      "english_summary": "The latest news and updates in the world of technology for today.",
-      "contextual_title_explanations": {
-        "Co": {
-          "display_format": "**Company:** Co",
-          "explanation": "Short for company or companions",
-          "cultural_note": "Used in business and tech contexts"
-        },
-        "la quotidienne": {
-          "display_format": "**The daily:** la quotidienne",
-          "explanation": "Daily show or segment",
-          "cultural_note": "Common term for daily news or programs"
-        },
-        "Lundi": {
-          "display_format": "**Monday:** Lundi",
-          "explanation": "First day of the week",
-          "cultural_note": ""
-        },
-        "juin": {
-          "display_format": "**June:** juin",
-          "explanation": "Sixth month of the year",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Le Tech Flash : Tesla lance ses robotaxis à Austin, par Léa Benaim - 23/06",
       "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-tesla-lance-ses-robotaxis-a-austin-par-lea-benaim-23-06_VN-202506230772.html",
       "original_article_published_date": "2025-06-23T19:36:11",
@@ -1033,62 +739,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Guerre au Proche-Orient: la question des jumelages s'invite dans plusieurs conseils municipaux",
-      "original_article_link": "https://www.bfmtv.com/politique/video-guerre-au-proche-orient-la-question-des-jumelages-s-invite-dans-plusieurs-conseils-municipaux_VN-202506230744.html",
-      "original_article_published_date": "2025-06-23T18:34:30",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La guerre au Proche-Orient affecte les jumelages",
-      "simplified_english_title": "Middle East war impacts town twinning",
-      "french_summary": "La guerre au Proche-Orient influence les décisions sur les jumelages dans plusieurs conseils municipaux en France.",
-      "english_summary": "The war in the Middle East is affecting decisions about town twinning in several French municipal councils.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Conflict between countries or groups",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Proche-Orient": {
-          "display_format": "**Middle East:** Proche-Orient",
-          "explanation": "Region including countries like Israel, Palestine, Syria",
-          "cultural_note": "French term for the Middle East region"
-        },
-        "jumelages": {
-          "display_format": "**Twinning:** jumelages",
-          "explanation": "Partnerships between towns or cities in different countries",
-          "cultural_note": "Common practice in France for cultural exchange"
-        },
-        "s'invite": {
-          "display_format": "**Invites itself:** s'invite",
-          "explanation": "To become part of something uninvited",
-          "cultural_note": "Idiomatic expression often used in headlines"
-        },
-        "conseils municipaux": {
-          "display_format": "**Municipal councils:** conseils municipaux",
-          "explanation": "Local government bodies in French towns",
-          "cultural_note": "Key institutions in French local governance"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Moratoire sur l'éolien: le ministre de l'Énergie réaffirme son \"soutien indéfectible\" à la filière",
       "original_article_link": "https://www.bfmtv.com/environnement/video-moratoire-sur-l-eolien-le-ministre-de-l-energie-reaffirme-son-soutien-indefectible-a-la-filiere_VN-202506230743.html",
       "original_article_published_date": "2025-06-23T18:33:17",
@@ -1301,62 +951,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Coupure d'électricité au palais de justice de Paris",
-      "original_article_link": "https://www.20min.ch/fr/story/france-coupure-d-electricite-au-palais-de-justice-de-paris-103369133",
-      "original_article_published_date": "2025-06-23T18:30:54",
-      "source_name": "20 Minutes",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Pan de courant au palais de justice",
-      "simplified_english_title": "Power outage at Paris courthouse",
-      "french_summary": "Le palais de justice de Paris a connu une coupure d'électricité, perturbant les activités prévues pour la journée.",
-      "english_summary": "The Paris courthouse experienced a power outage, disrupting the scheduled activities for the day.",
-      "contextual_title_explanations": {
-        "Coupure": {
-          "display_format": "**Outage:** Coupure",
-          "explanation": "Interruption of a service or supply",
-          "cultural_note": "Commonly used for electricity, water, or internet"
-        },
-        "d'électricité": {
-          "display_format": "**Electricity:** d'électricité",
-          "explanation": "Power supply",
-          "cultural_note": ""
-        },
-        "palais": {
-          "display_format": "**Palace:** palais",
-          "explanation": "Large, impressive building",
-          "cultural_note": "Often used for official or historic buildings"
-        },
-        "de justice": {
-          "display_format": "**of Justice:** de justice",
-          "explanation": "Related to the judicial system",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**At the:** au",
-          "explanation": "Contraction of 'à le'",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Israël-Iran : les cours du pétrole dégringolent après l’attaque iranienne visant une base américaine",
       "original_article_link": "https://www.lefigaro.fr/conjoncture/israel-iran-les-cours-du-petrole-degringolent-apres-l-attaque-iranienne-visant-une-base-americaine-20250623",
       "original_article_published_date": "2025-06-23T18:17:16",
@@ -1529,82 +1123,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "L’Iran riposte aux attaques américaines en visant une base au Qatar",
-      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-riposte-aux-attaques-americaines-en-visant-une-base-au-qatar-WN4YEKVPRZAZJKHUHFDMFAEXJU/",
-      "original_article_published_date": "2025-06-23T18:07:28",
-      "source_name": "L'Express",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran attaque une base américaine au Qatar",
-      "simplified_english_title": "Iran attacks a US base in Qatar",
-      "french_summary": "L'Iran a riposté aux attaques américaines en ciblant une base militaire au Qatar, selon des sources officielles.",
-      "english_summary": "Iran retaliated against American attacks by targeting a military base in Qatar, according to official sources.",
-      "contextual_title_explanations": {
-        "L": {
-          "display_format": "**The:** L",
-          "explanation": "Definite article",
-          "cultural_note": "Used before vowels"
-        },
-        "riposte": {
-          "display_format": "**Retaliates:** riposte",
-          "explanation": "Fights back in response",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the USA",
-          "cultural_note": "Feminine plural form"
-        },
-        "attaques": {
-          "display_format": "**Attacks:** attaques",
-          "explanation": "Military strikes",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**By:** en",
-          "explanation": "Method or manner",
-          "cultural_note": "Common preposition"
-        },
-        "visant": {
-          "display_format": "**Targeting:** visant",
-          "explanation": "Aiming at",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A:** une",
-          "explanation": "Indefinite article",
-          "cultural_note": "Feminine singular"
-        },
-        "au": {
-          "display_format": "**To the:** au",
-          "explanation": "Combined preposition",
-          "cultural_note": "'à' + 'le'"
-        },
-        "aux": {
-          "display_format": "**To the:** aux",
-          "explanation": "Combined preposition",
-          "cultural_note": "'à' + 'les'"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Guerre Iran/Israël: le Bahreïn suspend temporairement son trafic aérien",
       "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-iran-israel-le-bahrein-suspend-temporairement-son-trafic-aerien_VN-202506230731.html",
       "original_article_published_date": "2025-06-23T18:05:34",
@@ -1668,67 +1186,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : la prison d’Evin, cœur de la répression du régime des mollahs",
-      "original_article_link": "https://www.ouest-france.fr/monde/iran/guerre-israel-iran-la-prison-devin-cur-de-la-repression-du-regime-des-mollahs-05ddbbea-5057-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T18:03:31",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La prison d'Evin en Iran et le conflit Israël-Iran",
-      "simplified_english_title": "Evin Prison in Iran and Israel-Iran Conflict",
-      "french_summary": "La prison d'Evin est au centre de la répression en Iran, dans le contexte du conflit avec Israël.",
-      "english_summary": "Evin Prison is central to repression in Iran, amid the conflict with Israel.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between states",
-          "cultural_note": "Often used in political headlines"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news for regional conflicts"
-        },
-        "cœur": {
-          "display_format": "**Heart:** cœur",
-          "explanation": "Central or most important part",
-          "cultural_note": "Often used metaphorically"
-        },
-        "répression": {
-          "display_format": "**Repression:** répression",
-          "explanation": "Action to subdue someone by force",
-          "cultural_note": "Common in political contexts"
-        },
-        "régime": {
-          "display_format": "**Regime:** régime",
-          "explanation": "Form of government",
-          "cultural_note": "Often refers to authoritarian governments"
-        },
-        "mollahs": {
-          "display_format": "**Mullahs:** mollahs",
-          "explanation": "Religious leaders in Islam",
-          "cultural_note": "Influential in Iranian politics"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -2200,67 +1657,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Désunie à l’extérieur, soudée à l’intérieur: les deux visages de l’opposition iranienne",
-      "original_article_link": "https://www.mediapart.fr/journal/international/230625/desunie-l-exterieur-soudee-l-interieur-les-deux-visages-de-l-opposition-iranienne",
-      "original_article_published_date": "2025-06-23T17:19:33",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'opposition iranienne divisée et unie",
-      "simplified_english_title": "Iranian opposition divided and united",
-      "french_summary": "L'opposition iranienne semble désunie à l'extérieur mais reste soudée à l'intérieur, montrant deux visages différents.",
-      "english_summary": "The Iranian opposition appears divided externally but remains united internally, showing two different faces.",
-      "contextual_title_explanations": {
-        "Désunie": {
-          "display_format": "**Disunited:** Désunie",
-          "explanation": "Lacking unity or agreement",
-          "cultural_note": "Often used in political contexts"
-        },
-        "soudée": {
-          "display_format": "**United:** soudée",
-          "explanation": "United or tightly knit",
-          "cultural_note": "Used to describe strong internal bonds"
-        },
-        "visages": {
-          "display_format": "**Faces:** visages",
-          "explanation": "Different aspects or appearances",
-          "cultural_note": ""
-        },
-        "iranienne": {
-          "display_format": "**Iranian:** iranienne",
-          "explanation": "Relating to Iran",
-          "cultural_note": "Refers to the political context of Iran"
-        },
-        "extérieur": {
-          "display_format": "**Exterior:** extérieur",
-          "explanation": "Outer appearance or external view",
-          "cultural_note": ""
-        },
-        "intérieur": {
-          "display_format": "**Interior:** intérieur",
-          "explanation": "Inner aspects or internal view",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -3138,62 +2534,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "BFM Bourse - Lundi 23 juin",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-bfm-bourse-lundi-23-juin_VN-202506230647.html",
-      "original_article_published_date": "2025-06-23T16:20:51",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Actualités boursières du lundi",
-      "simplified_english_title": "Stock market news on Monday",
-      "french_summary": "Les dernières nouvelles sur les marchés financiers pour ce lundi 23 juin sont présentées par BFM Bourse.",
-      "english_summary": "The latest news on the financial markets for this Monday, June 23, presented by BFM Bourse.",
-      "contextual_title_explanations": {
-        "BFM": {
-          "display_format": "**BFM TV:** BFM",
-          "explanation": "French rolling news channel",
-          "cultural_note": "Owned by Altice Media Group"
-        },
-        "Bourse": {
-          "display_format": "**Stock market:** Bourse",
-          "explanation": "Financial market for trading shares",
-          "cultural_note": "Key French index is CAC 40"
-        },
-        "Lundi": {
-          "display_format": "**Monday:** Lundi",
-          "explanation": "First day of the week",
-          "cultural_note": ""
-        },
-        "juin": {
-          "display_format": "**June:** juin",
-          "explanation": "Sixth month of the year",
-          "cultural_note": ""
-        },
-        "23": {
-          "display_format": "**Twenty-three:** 23",
-          "explanation": "Day of the month",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6226,6 +5566,332 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Emmanuel Macron se déplace en Norvège ce lundi : que va-t-il faire dans ce pays scandinave ?",
+      "original_article_link": "https://www.ouest-france.fr/politique/emmanuel-macron/emmanuel-macron-se-deplace-en-norvege-ce-lundi-que-va-t-il-faire-dans-ce-pays-scandinave-8b2d689c-5000-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T08:27:18",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron visite la Norvège aujourd'hui",
+      "simplified_english_title": "Macron visits Norway today",
+      "french_summary": "Emmanuel Macron va en Norvège pour discuter de sujets importants comme l'environnement et la coopération internationale.",
+      "english_summary": "Emmanuel Macron is going to Norway to discuss important topics like the environment and international cooperation.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ile-de-France : le passe Navigo Liberté + est disponible sur les smartphones",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/23/ile-de-france-le-passe-navigo-liberte-est-disponible-sur-les-smartphones_6615417_3234.html",
+      "original_article_published_date": "2025-06-23T08:27:13",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le passe Navigo est sur les smartphones",
+      "simplified_english_title": "Navigo pass now on smartphones",
+      "french_summary": "Le passe Navigo Liberté + est maintenant disponible sur les smartphones en Île-de-France pour faciliter les déplacements.",
+      "english_summary": "The Navigo Liberté + pass is now available on smartphones in Île-de-France to make travel easier.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:04:52",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Porté par un «effet JO», le tourisme s’annonce en hausse en France cet été",
+      "original_article_link": "https://www.lefigaro.fr/conjoncture/porte-par-un-effet-jo-le-tourisme-s-annonce-en-hausse-en-france-cet-ete-20250623",
+      "original_article_published_date": "2025-06-23T08:24:35",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le tourisme augmente grâce aux JO",
+      "simplified_english_title": "Tourism rises thanks to the Olympics",
+      "french_summary": "Le tourisme en France va augmenter cet été à cause des Jeux Olympiques qui attirent plus de visiteurs.",
+      "english_summary": "Tourism in France will increase this summer due to the Olympic Games attracting more visitors.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tunisie : l’ancien président Marzouki, en exil en France, de nouveau condamné à de la prison ferme",
+      "original_article_link": "https://www.lemonde.fr/afrique/article/2025/06/23/tunisie-l-ancien-president-marzouki-en-exil-en-france-de-nouveau-condamne-a-de-la-prison-ferme_6615416_3212.html",
+      "original_article_published_date": "2025-06-23T08:23:28",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L’ancien président tunisien Marzouki condamné",
+      "simplified_english_title": "Former Tunisian President Marzouki sentenced",
+      "french_summary": "Moncef Marzouki, ancien président tunisien en exil en France, a reçu une nouvelle condamnation à de la prison ferme.",
+      "english_summary": "Moncef Marzouki, former Tunisian president exiled in France, received another firm prison sentence.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:35:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Cash Investigation\". Cédric O, ancien secrétaire d'Etat au Numérique devenu lobbyiste à Bruxelles",
+      "original_article_link": "https://www.franceinfo.fr/replay-magazine/france-2/cash-investigation/video-cash-investigation-un-ancien-secretaire-d-etat-au-numerique-reconverti-comme-lobbyiste-a-bruxelles_7326054.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T08:12:24",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Cédric O devient lobbyiste à Bruxelles",
+      "simplified_english_title": "Cédric O becomes lobbyist in Brussels",
+      "french_summary": "Cédric O, ancien secrétaire d'État au Numérique, travaille maintenant comme lobbyiste à Bruxelles après son poste gouvernemental.",
+      "english_summary": "Cédric O, former Secretary of State for Digital Affairs, now works as a lobbyist in Brussels after his government position.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:04:52",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "OL. À la veille du passage devant la DNCG, John Textor a vendu ses parts à Crystal Palace",
+      "original_article_link": "https://www.ouest-france.fr/sport/football/olympique-lyonnais/ol-a-la-veille-du-passage-devant-la-dncg-john-textor-a-vendu-ses-parts-a-crystal-palace-0bdd3f50-5004-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T08:05:47",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "John Textor vend ses parts de l'OL",
+      "simplified_english_title": "John Textor sells his shares in OL",
+      "french_summary": "John Textor a vendu ses parts de l'Olympique Lyonnais à Crystal Palace avant une réunion importante avec la DNCG.",
+      "english_summary": "John Textor sold his shares in Olympique Lyonnais to Crystal Palace before an important meeting with the DNCG.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:35:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les Experts : Le retour de la TVA sociale ? - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts/video-les-experts-le-retour-de-la-tva-sociale-23-06_VN-202506230258.html",
+      "original_article_published_date": "2025-06-23T08:02:41",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La TVA sociale pourrait revenir",
+      "simplified_english_title": "Social VAT may return",
+      "french_summary": "Les experts discutent du retour possible de la TVA sociale, un sujet qui revient souvent dans les débats économiques.",
+      "english_summary": "Experts discuss the possible return of social VAT, a topic that often comes up in economic debates.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Burkina Faso : le FMI débloque près de 33 millions de dollars supplémentaires",
+      "original_article_link": "https://www.lemonde.fr/afrique/article/2025/06/23/burkina-faso-le-fmi-debloque-pres-de-33-millions-de-dollars-supplementaires_6615412_3212.html",
+      "original_article_published_date": "2025-06-23T07:46:10",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le FMI donne 33 millions au Burkina Faso",
+      "simplified_english_title": "IMF gives Burkina Faso $33 million",
+      "french_summary": "Le FMI a donné 33 millions de dollars supplémentaires au Burkina Faso pour aider le pays.",
+      "english_summary": "The IMF has given Burkina Faso an additional $33 million to help the country.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tour de France 2025. « C’est dur, très irrégulier » : Remco Evenepoel a reconnu le Col de la Loze",
+      "original_article_link": "https://www.ouest-france.fr/sport/cyclisme/remco-evenepoel/tour-de-france-2025-cest-dur-tres-irregulier-remco-evenepoel-a-reconnu-le-col-de-la-loze-458bb0a2-4ffe-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T07:38:12",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Evenepoel trouve le Col de la Loze difficile",
+      "simplified_english_title": "Evenepoel finds Col de la Loze tough",
+      "french_summary": "Remco Evenepoel a dit que le Col de la Loze est très difficile et irrégulier pour le Tour de France 2025.",
+      "english_summary": "Remco Evenepoel said that the Col de la Loze is very hard and uneven for the Tour de France 2025.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T08:27:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Médecine: des chercheurs ont produit du paracétamol à partir de déchets plastiques",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250623-m%C3%A9decine-des-chercheurs-ont-produit-du-parac%C3%A9tamol-%C3%A0-partir-de-d%C3%A9chets-plastiques",
+      "original_article_published_date": "2025-06-23T07:37:56",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Du paracétamol créé à partir de plastique",
+      "simplified_english_title": "Paracetamol made from plastic waste",
+      "french_summary": "Des scientifiques ont réussi à transformer des déchets plastiques en paracétamol, un médicament courant contre la douleur.",
+      "english_summary": "Scientists have successfully transformed plastic waste into paracetamol, a common pain relief medication.",
+      "contextual_title_explanations": {
+        "Médecine": {
+          "display_format": "**Medicine:** Médecine",
+          "explanation": "The science and practice of diagnosing and treating diseases",
+          "cultural_note": "France has a strong public healthcare system"
+        },
+        "chercheurs": {
+          "display_format": "**Researchers:** chercheurs",
+          "explanation": "People who study subjects to discover new information",
+          "cultural_note": ""
+        },
+        "ont produit": {
+          "display_format": "**Have produced:** ont produit",
+          "explanation": "Past tense of 'produire', meaning to create or manufacture",
+          "cultural_note": ""
+        },
+        "paracétamol": {
+          "display_format": "**Paracetamol:** paracétamol",
+          "explanation": "Common pain reliever and fever reducer",
+          "cultural_note": "Known as acetaminophen in the US"
+        },
+        "déchets plastiques": {
+          "display_format": "**Plastic waste:** déchets plastiques",
+          "explanation": "Discarded plastic materials",
+          "cultural_note": "France has strict recycling policies"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
