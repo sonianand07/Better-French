@@ -17,6 +17,7 @@ All tool-tips and summaries are produced by two system prompts that call an LLM.
 **Primary goals**  
 • Achieve 100 % token coverage for contextual words.  
 • Produce clearer, shorter, and more accurate simplified titles (FR + EN) and 20-27-word summaries (FR + EN).
+• Summaries must be informative – cover the key who/what/when/where/why so the learner grasps the story without reading the full article.
 
 1. **Incomplete coverage** – when we pass a list of tokens the model sometimes returns only 60-80 % of them.
 2. **French headings** – occasionally the model bolds the original French word instead of an English gloss.
@@ -89,6 +90,7 @@ Return a JSON **object** with exactly these keys in this order:
 }
 ```
 Guidelines: keep neutral tone unless original headline is clearly opinionated; use CEFR-appropriate vocabulary; no lists or bullet points.
+For both summaries aim for a micro-news style: include the essential **actor, action, and consequence/date** so a reader who sees only the summary still understands the event.
 
 ---
 ## 4 · Success metrics
