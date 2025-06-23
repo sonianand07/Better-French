@@ -44,7 +44,7 @@ class ProcessorV2:
             return None
 
     # ---------------- internal helpers ----------------
-    def _chat_with_validation(self, messages, render_fn, article: Article, validate_fn, max_attempts: int = 2):
+    def _chat_with_validation(self, messages, render_fn, article: Article, validate_fn, max_attempts: int = 3):
         """Send chat completion and ensure *validate_fn* passes.
 
         If the first attempt fails JSON validation we send a follow-up user
@@ -53,10 +53,12 @@ class ProcessorV2:
         """
         for attempt in range(max_attempts):
             if attempt > 0:
-                # overwrite last user message with explicit instructions
+                # Overwrite last user message with explicit correction:
+                #  – reiterate English-heading rule
+                #  – demand valid JSON only
                 messages[-1]["content"] = (
                     render_fn(article)
-                    + "\n\nRespond ONLY with valid JSON and no markdown fences."
+                    + "\n\nCRITICAL: The bold heading BEFORE the colon must be a concise ENGLISH translation (1–3 words, capitalised) and must NOT repeat the French token or contain accents.  Respond ONLY with valid JSON and no markdown fences."
                 )
             response = self.llm.chat(messages)
             self._add_cost(self.llm.last_usage)
