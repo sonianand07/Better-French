@@ -3,6 +3,541 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Capucine, 27 ans, analyste en fusions-acquisitions, 5 300 euros par mois : « On regardait les salaires et on se disait qu’on allait vivre comme des rois »",
+      "original_article_link": "https://www.lemonde.fr/campus/article/2025/06/23/capucine-27-ans-analyste-en-fusions-acquisitions-5-300-euros-par-mois-on-regardait-les-salaires-et-on-se-disait-qu-on-allait-vivre-comme-des-rois_6615388_4401467.html",
+      "original_article_published_date": "2025-06-23T03:15:11",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Capucine, 27 ans, gagne bien sa vie",
+      "simplified_english_title": "Capucine, 27, earns a good salary",
+      "french_summary": "Capucine, analyste financière, gagne 5300 euros par mois et pensait vivre très confortablement avec ce salaire.",
+      "english_summary": "Capucine, a financial analyst, earns 5300 euros monthly and thought she would live very comfortably with this salary.",
+      "contextual_title_explanations": {
+        "Capucine": {
+          "display_format": "**Capucine:** Prénom féminin",
+          "explanation": "Female first name",
+          "cultural_note": "Common French name"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "27": {
+          "display_format": "**27:** Vingt-sept",
+          "explanation": "Number twenty-seven",
+          "cultural_note": ""
+        },
+        "ans": {
+          "display_format": "**ans:** Années",
+          "explanation": "Years of age",
+          "cultural_note": ""
+        },
+        "analyste": {
+          "display_format": "**analyste:** Profession",
+          "explanation": "Analyst profession",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans le domaine de",
+          "explanation": "In the field of",
+          "cultural_note": ""
+        },
+        "fusions-acquisitions": {
+          "display_format": "**fusions-acquisitions:** Mergers and acquisitions",
+          "explanation": "Business mergers and acquisitions",
+          "cultural_note": ""
+        },
+        "5 300": {
+          "display_format": "**5 300:** Cinq mille trois cents",
+          "explanation": "Number five thousand three hundred",
+          "cultural_note": ""
+        },
+        "euros": {
+          "display_format": "**euros:** Monnaie européenne",
+          "explanation": "European currency",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par (taux)",
+          "explanation": "Rate per unit",
+          "cultural_note": ""
+        },
+        "mois": {
+          "display_format": "**mois:** Mois",
+          "explanation": "Month",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing quote",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**On:** Pronom indéfini",
+          "explanation": "Indefinite pronoun 'we'",
+          "cultural_note": ""
+        },
+        "regardait": {
+          "display_format": "**regardait:** Verbe voir",
+          "explanation": "Verb to look, past tense",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "salaire": {
+          "display_format": "**salaire:** Rémunération",
+          "explanation": "Salary, wages",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "Conjunction 'and'",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**on:** Pronom indéfini",
+          "explanation": "Indefinite pronoun 'we'",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**se:** Pronom réfléchi",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": ""
+        },
+        "disait": {
+          "display_format": "**disait:** Verbe dire",
+          "explanation": "Verb to say, past tense",
+          "cultural_note": ""
+        },
+        "qu’on": {
+          "display_format": "**qu’on:** Que on",
+          "explanation": "Contraction of 'que on'",
+          "cultural_note": ""
+        },
+        "allait": {
+          "display_format": "**allait:** Verbe aller",
+          "explanation": "Verb to go, past tense",
+          "cultural_note": ""
+        },
+        "vivre": {
+          "display_format": "**vivre:** Verbe vivre",
+          "explanation": "Verb to live",
+          "cultural_note": ""
+        },
+        "comme": {
+          "display_format": "**comme:** Comme",
+          "explanation": "Like, as",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**des:** Article indéfini",
+          "explanation": "Indefinite article 'some'",
+          "cultural_note": ""
+        },
+        "rois": {
+          "display_format": "**rois:** Rois",
+          "explanation": "Kings",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "»**:** Guillemet fermant",
+          "explanation": "Closing quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gabon: le président Brice Oligui Nguema annonce le lancement de son propre parti politique",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250623-gabon-le-pr%C3%A9sident-brice-oligui-nguema-annonce-le-lancement-de-son-propre-parti-politique",
+      "original_article_published_date": "2025-06-23T03:02:24",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le président du Gabon crée un nouveau parti",
+      "simplified_english_title": "Gabon's president starts a new party",
+      "french_summary": "Le président Brice Oligui Nguema a annoncé la création de son propre parti politique au Gabon.",
+      "english_summary": "President Brice Oligui Nguema announced the creation of his own political party in Gabon.",
+      "contextual_title_explanations": {
+        "Gabon": {
+          "display_format": "**Gabon:** Pays d'Afrique centrale",
+          "explanation": "Country in Central Africa",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "président": {
+          "display_format": "**président:** Chef de l'État",
+          "explanation": "Head of state",
+          "cultural_note": ""
+        },
+        "Brice Oligui Nguema": {
+          "display_format": "**Brice Oligui Nguema:** Nom du président",
+          "explanation": "Name of the current president",
+          "cultural_note": ""
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rendre public",
+          "explanation": "Announces or makes public",
+          "cultural_note": ""
+        },
+        "lancement": {
+          "display_format": "**lancement:** Mise en route",
+          "explanation": "Launch or start",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition 'of'",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**son:** Possessif",
+          "explanation": "Possessive adjective 'his'",
+          "cultural_note": ""
+        },
+        "propre": {
+          "display_format": "**propre:** À soi",
+          "explanation": "Own",
+          "cultural_note": ""
+        },
+        "parti politique": {
+          "display_format": "**parti politique:** Groupe politique",
+          "explanation": "Political party",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Bernard-Henri Levy et les origines du judaïsme »",
+      "original_article_link": "https://www.europe1.fr/emissions/les-grands-entretiens-les-intellectuels/bernard-henri-levy-et-les-origines-du-judaisme-760414",
+      "original_article_published_date": "2025-06-23T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bernard-Henri Lévy parle des origines du judaïsme",
+      "simplified_english_title": "Bernard-Henri Lévy on the origins of Judaism",
+      "french_summary": "Bernard-Henri Lévy explore les origines du judaïsme dans un nouveau document. Il partage ses réflexions et découvertes.",
+      "english_summary": "Bernard-Henri Lévy explores the origins of Judaism in a new documentary. He shares his thoughts and findings.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening French quotation mark",
+          "cultural_note": ""
+        },
+        "Bernard-Henri Levy": {
+          "display_format": "**Bernard-Henri Levy:** Philosophe français",
+          "explanation": "French philosopher and public intellectual",
+          "cultural_note": "Often referred to as BHL"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "origines": {
+          "display_format": "**origines:** Débuts",
+          "explanation": "Origins",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the",
+          "cultural_note": ""
+        },
+        "judaïsme": {
+          "display_format": "**judaïsme:** Religion juive",
+          "explanation": "Judaism",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**»:** Guillemet fermant",
+          "explanation": "Closing French quotation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "[1/2] La guerre d’Algérie, une histoire de plaies à vif",
+      "original_article_link": "https://www.europe1.fr/emissions/Au-coeur-de-l-histoire/1-2-la-guerre-dalgerie-une-histoire-de-plaies-a-vif-760529",
+      "original_article_published_date": "2025-06-23T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La guerre d'Algérie reste douloureuse",
+      "simplified_english_title": "The Algerian War remains painful",
+      "french_summary": "La guerre d'Algérie laisse des blessures profondes dans l'histoire de la France et de l'Algérie.",
+      "english_summary": "The Algerian War leaves deep wounds in the history of France and Algeria.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Basket : Ousmane Dieng et les six autres champions NBA français en images",
+      "original_article_link": "https://www.lefigaro.fr/sports/basket/nba/basket-ousmane-dieng-et-les-six-autres-champions-nba-francais-en-images-20250623",
+      "original_article_published_date": "2025-06-23T02:51:44",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français champions NBA en images",
+      "simplified_english_title": "French NBA champions in pictures",
+      "french_summary": "Ousmane Dieng et six autres joueurs français ont gagné le championnat NBA. Voici leurs photos.",
+      "english_summary": "Ousmane Dieng and six other French players won the NBA championship. Here are their pictures.",
+      "contextual_title_explanations": {
+        "Basket": {
+          "display_format": "**Basket :** Sport avec un ballon",
+          "explanation": "Basketball",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Ousmane Dieng": {
+          "display_format": "**Ousmane Dieng :** Joueur de basket",
+          "explanation": "French basketball player",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et :** Et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les :** Articles définis",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "six": {
+          "display_format": "**six :** Nombre 6",
+          "explanation": "Six",
+          "cultural_note": ""
+        },
+        "autres": {
+          "display_format": "**autres :** Différents",
+          "explanation": "Other",
+          "cultural_note": ""
+        },
+        "champions": {
+          "display_format": "**champions :** Gagnants",
+          "explanation": "Champions",
+          "cultural_note": ""
+        },
+        "NBA": {
+          "display_format": "**NBA :** Ligue de basket",
+          "explanation": "National Basketball Association",
+          "cultural_note": "Major US basketball league"
+        },
+        "français": {
+          "display_format": "**français :** De France",
+          "explanation": "French",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en :** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "images": {
+          "display_format": "**images :** Photos",
+          "explanation": "Images",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Condamnations, frayeurs et appels à la retenue : les réactions après les frappes américaines en Iran",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-condamnations-frayeurs-et-appels-%C3%A0-la-retenue-les-r%C3%A9actions-apr%C3%A8s-les-frappes-am%C3%A9ricaines-en-iran",
+      "original_article_published_date": "2025-06-23T02:19:13",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réactions après les frappes américaines en Iran",
+      "simplified_english_title": "Reactions to US strikes in Iran",
+      "french_summary": "Les frappes américaines en Iran ont provoqué des condamnations, des peurs et des appels à la retenue de la part de plusieurs pays.",
+      "english_summary": "The US strikes in Iran have led to condemnations, fears, and calls for restraint from several countries.",
+      "contextual_title_explanations": {
+        "Condamnations": {
+          "display_format": "**Condamnations:** Désapprobations",
+          "explanation": "Expressions of disapproval",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "frayeurs": {
+          "display_format": "**frayeurs:** Peurs",
+          "explanation": "Fears or terrors",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Et",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "appels à la retenue": {
+          "display_format": "**appels à la retenue:** Demandes de modération",
+          "explanation": "Calls for restraint",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "les réactions": {
+          "display_format": "**les réactions:** Réponses",
+          "explanation": "Reactions or responses",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**après:** Après",
+          "explanation": "After",
+          "cultural_note": ""
+        },
+        "les frappes américaines": {
+          "display_format": "**les frappes américaines:** Attaques des États-Unis",
+          "explanation": "American strikes",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In",
+          "cultural_note": ""
+        },
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T03:25:39",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Iran : les prix du pétrole s’envolent après les frappes américaines",
       "original_article_link": "https://www.ouest-france.fr/monde/iran/iran-les-prix-du-petrole-senvolent-apres-les-frappes-americaines-97a1704e-4fc6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-23T00:26:05",
@@ -9354,552 +9889,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-22T14:16:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "MotoGP. Le classement des pilotes au championnat du monde après le Grand Prix d’Italie",
-      "original_article_link": "https://www.ouest-france.fr/sport/moto/motogp/motogp-le-classement-des-pilotes-au-championnat-du-monde-apres-le-grand-prix-ditalie-0c81ccde-4f6c-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-22T13:42:11",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Classement MotoGP après le Grand Prix d’Italie",
-      "simplified_english_title": "MotoGP rankings after Italy Grand Prix",
-      "french_summary": "Voici les positions des pilotes au championnat du monde de MotoGP après la course en Italie.",
-      "english_summary": "Here are the MotoGP world championship standings after the race in Italy.",
-      "contextual_title_explanations": {
-        "MotoGP": {
-          "display_format": "**MotoGP:** Course moto",
-          "explanation": "Motorcycle racing championship",
-          "cultural_note": "Premier championship of motorcycle road racing"
-        },
-        ".": {
-          "display_format": "**.:** Point",
-          "explanation": "End of sentence",
-          "cultural_note": ""
-        },
-        "Le": {
-          "display_format": "**Le:** Article défini",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "classement": {
-          "display_format": "**classement:** Liste ordonnée",
-          "explanation": "Ranking, standings",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Some (plural indefinite article)",
-          "cultural_note": ""
-        },
-        "pilotes": {
-          "display_format": "**pilotes:** Conducteurs moto",
-          "explanation": "Riders, pilots",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**au:** À le (contraction)",
-          "explanation": "To the (contraction)",
-          "cultural_note": ""
-        },
-        "championnat": {
-          "display_format": "**championnat:** Compétition",
-          "explanation": "Championship, competition",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**du:** De le (contraction)",
-          "explanation": "Of the (contraction)",
-          "cultural_note": ""
-        },
-        "monde": {
-          "display_format": "**monde:** Terre entière",
-          "explanation": "World",
-          "cultural_note": ""
-        },
-        "après": {
-          "display_format": "**après:** Suite temporelle",
-          "explanation": "After",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**le:** Article défini",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "Grand Prix": {
-          "display_format": "**Grand Prix:** Course majeure",
-          "explanation": "Major race event",
-          "cultural_note": "Important motorsport event"
-        },
-        "d’": {
-          "display_format": "**d’:** De (élision)",
-          "explanation": "Of (elision)",
-          "cultural_note": ""
-        },
-        "Italie": {
-          "display_format": "**Italie:** Pays européen",
-          "explanation": "Italy",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T14:16:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La Chine «condamne fermement» les frappes américaines en Iran",
-      "original_article_link": "https://www.europe1.fr/international/la-chine-condamne-fermement-les-frappes-americaines-en-iran-760544",
-      "original_article_published_date": "2025-06-22T13:37:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La Chine critique les attaques des États-Unis",
-      "simplified_english_title": "China condemns US strikes in Iran",
-      "french_summary": "La Chine a exprimé sa forte désapprobation après les frappes américaines en Iran, qualifiant ces actions d'inacceptables.",
-      "english_summary": "China expressed strong disapproval of the US strikes in Iran, calling these actions unacceptable.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**La:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "Chine": {
-          "display_format": "**Chine:** Pays d'Asie",
-          "explanation": "China, country in Asia",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": "Used in French instead of double quotes"
-        },
-        "condamne": {
-          "display_format": "**condamne:** Désapprouve fortement",
-          "explanation": "Condemns, disapproves strongly",
-          "cultural_note": ""
-        },
-        "ferment»": {
-          "display_format": "**ferment»:** Guillemet fermant",
-          "explanation": "Firmly (closing quotation mark)",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**frappes:** Attaques militaires",
-          "explanation": "Strikes, military attacks",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**américaines:** Des États-Unis",
-          "explanation": "American, from the USA",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Iran, country in Middle East",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T14:16:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Frappes américaines en Iran: le chef du Pentagone assure que le programme nucléaire iranien est \"dévasté\"",
-      "original_article_link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/frappes-americaines-en-iran-le-chef-du-pentagone-assure-que-le-programme-nucleaire-iranien-est-devaste_AV-202506220199.html",
-      "original_article_published_date": "2025-06-22T13:31:24",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les États-Unis frappent l'Iran et son programme nucléaire",
-      "simplified_english_title": "US strikes in Iran devastate nuclear program",
-      "french_summary": "Le chef du Pentagone annonce que les frappes américaines ont gravement endommagé le programme nucléaire iranien.",
-      "english_summary": "The Pentagon chief states that US strikes have severely damaged Iran's nuclear program.",
-      "contextual_title_explanations": {
-        "Frappes": {
-          "display_format": "**Frappes:** Attaques militaires",
-          "explanation": "Military strikes or attacks",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**américaines:** Des États-Unis",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In or to a place",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "le chef du Pentagone": {
-          "display_format": "**le chef du Pentagone:** Dirigeant militaire américain",
-          "explanation": "Head of the US Department of Defense",
-          "cultural_note": "The Pentagon is the headquarters of the United States Department of Defense"
-        },
-        "assure": {
-          "display_format": "**assure:** Affirme",
-          "explanation": "Assures or confirms",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**que:** Que",
-          "explanation": "That (conjunction)",
-          "cultural_note": ""
-        },
-        "le programme nucléaire iranien": {
-          "display_format": "**le programme nucléaire iranien:** Projet nucléaire de l'Iran",
-          "explanation": "Iran's nuclear program",
-          "cultural_note": ""
-        },
-        "est": {
-          "display_format": "**est:** Est",
-          "explanation": "Is (verb)",
-          "cultural_note": ""
-        },
-        "dévasté": {
-          "display_format": "**dévasté:** Détruit",
-          "explanation": "Devastated or destroyed",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T14:16:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Bombardements américains en Iran : le programme nucléaire iranien a été \"dévasté\", affirme le secrétaire américain à la Défense",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/bombardements-americains-en-iran-le-programme-nucleaire-iranien-a-ete-devaste-affirme-le-secretaire-americain-a-la-defense_7328718.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-22T13:28:27",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les États-Unis bombardent l'Iran et nuisent à son programme nucléaire",
-      "simplified_english_title": "US bombings in Iran devastate nuclear program",
-      "french_summary": "Le secrétaire américain à la Défense dit que les bombardements ont gravement endommagé le programme nucléaire iranien.",
-      "english_summary": "The US Secretary of Defense states that the bombings have severely damaged Iran's nuclear program.",
-      "contextual_title_explanations": {
-        "Bombardements": {
-          "display_format": "**Bombardements:** Attaques aériennes",
-          "explanation": "Aerial attacks or bombings",
-          "cultural_note": ""
-        },
-        "américains": {
-          "display_format": "**américains:** des États-Unis",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** dans",
-          "explanation": "In or to a place",
-          "cultural_note": ""
-        },
-        "Iran": {
-          "display_format": "**Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "le programme nucléaire iranien": {
-          "display_format": "**le programme nucléaire iranien:** Projet nucléaire de l'Iran",
-          "explanation": "Iran's nuclear development project",
-          "cultural_note": ""
-        },
-        "a été": {
-          "display_format": "**a été:** a subi",
-          "explanation": "Has been (past tense)",
-          "cultural_note": ""
-        },
-        "\"dévasté\"": {
-          "display_format": "**\"dévasté\":** détruit",
-          "explanation": "Devastated or destroyed",
-          "cultural_note": ""
-        },
-        "affirme": {
-          "display_format": "**affirme:** déclare",
-          "explanation": "Affirms or declares",
-          "cultural_note": ""
-        },
-        "le secrétaire américain à la Défense": {
-          "display_format": "**le secrétaire américain à la Défense:** Chef du Pentagone",
-          "explanation": "US Secretary of Defense",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T14:16:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L’armée israélienne annonce avoir ramené les corps de trois otages retenus à Gaza",
-      "original_article_link": "https://www.leparisien.fr/international/israel/larmee-israelienne-annonce-avoir-ramene-les-corps-de-trois-otages-retenus-a-gaza-22-06-2025-5LNDYZD2MRENZDI44XJP24RLTM.php",
-      "original_article_published_date": "2025-06-22T13:26:39.133127",
-      "source_name": "Le Parisien",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'armée israélienne récupère trois otages de Gaza",
-      "simplified_english_title": "Israeli army retrieves three hostages from Gaza",
-      "french_summary": "L'armée israélienne a annoncé avoir récupéré les corps de trois otages qui étaient détenus à Gaza.",
-      "english_summary": "The Israeli army announced it retrieved the bodies of three hostages held in Gaza.",
-      "contextual_title_explanations": {
-        "L’armée": {
-          "display_format": "**L’armée:** Les forces armées",
-          "explanation": "The military forces",
-          "cultural_note": ""
-        },
-        "israélienne": {
-          "display_format": "**israélienne:** D'Israël",
-          "explanation": "Of Israel",
-          "cultural_note": ""
-        },
-        "annonce": {
-          "display_format": "**annonce:** Déclare",
-          "explanation": "Announces or declares",
-          "cultural_note": ""
-        },
-        "avoir": {
-          "display_format": "**avoir:** Posséder",
-          "explanation": "To have",
-          "cultural_note": ""
-        },
-        "ramené": {
-          "display_format": "**ramené:** Rapporté",
-          "explanation": "Brought back",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Articles définis",
-          "explanation": "The (definite article)",
-          "cultural_note": ""
-        },
-        "corps": {
-          "display_format": "**corps:** Cadavres",
-          "explanation": "Bodies (dead)",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Of or from",
-          "cultural_note": ""
-        },
-        "trois": {
-          "display_format": "**trois:** Nombre 3",
-          "explanation": "Three",
-          "cultural_note": ""
-        },
-        "otages": {
-          "display_format": "**otages:** Personnes capturées",
-          "explanation": "Hostages",
-          "cultural_note": ""
-        },
-        "retenus": {
-          "display_format": "**retenus:** Détenus",
-          "explanation": "Held or detained",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "In or to",
-          "cultural_note": ""
-        },
-        "Gaza": {
-          "display_format": "**Gaza:** Territoire palestinien",
-          "explanation": "Gaza Strip",
-          "cultural_note": "Palestinian territory often in conflict"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T13:26:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Football. Les arbitres italiens vont recevoir la même protection que les policiers",
-      "original_article_link": "https://www.ouest-france.fr/sport/football/italie/football-les-arbitres-italiens-vont-recevoir-la-meme-protection-que-les-policiers-e17d6a82-4f68-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-22T13:22:57",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les arbitres italiens auront plus de protection",
-      "simplified_english_title": "Italian referees to get more protection",
-      "french_summary": "Les arbitres de football en Italie recevront bientôt la même protection que les policiers pour assurer leur sécurité.",
-      "english_summary": "Football referees in Italy will soon receive the same protection as police officers to ensure their safety.",
-      "contextual_title_explanations": {
-        "Football": {
-          "display_format": "**Football:** Sport populaire",
-          "explanation": "Soccer in American English",
-          "cultural_note": ""
-        },
-        ".": {
-          "display_format": "**.:** Point",
-          "explanation": "Ends a sentence",
-          "cultural_note": ""
-        },
-        "Les": {
-          "display_format": "**Les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "arbitres": {
-          "display_format": "**arbitres:** Juges sportifs",
-          "explanation": "Referees in sports",
-          "cultural_note": ""
-        },
-        "italiens": {
-          "display_format": "**italiens:** De l'Italie",
-          "explanation": "Italian (plural)",
-          "cultural_note": ""
-        },
-        "vont": {
-          "display_format": "**vont:** Futur proche",
-          "explanation": "Are going to",
-          "cultural_note": ""
-        },
-        "recevoir": {
-          "display_format": "**recevoir:** Obtenir",
-          "explanation": "To receive",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "The (feminine singular)",
-          "cultural_note": ""
-        },
-        "même": {
-          "display_format": "**même:** Identique",
-          "explanation": "Same",
-          "cultural_note": ""
-        },
-        "protection": {
-          "display_format": "**protection:** Sécurité",
-          "explanation": "Protection",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**que:** Comparaison",
-          "explanation": "Than",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**les:** Article défini",
-          "explanation": "The (plural)",
-          "cultural_note": ""
-        },
-        "policiers": {
-          "display_format": "**policiers:** Agents de police",
-          "explanation": "Police officers",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-22T21:16:48",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
