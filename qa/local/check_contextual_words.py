@@ -61,6 +61,7 @@ def main():
     missing = 0          # no explanations dict at all
     zero_matches = 0     # explanations exist but NONE of the keys appear in title (what user sees)
     gaps = 0             # coverage_ok failed (some matches but insufficient)
+    bad_heading = 0
     ordering_issue = False
 
     # Helper to parse ISO or RFC dates roughly
@@ -99,6 +100,25 @@ def main():
         if not coverage_ok(title, ctxt):
             gaps += 1
 
+        # ---------- new heading quality check ----------
+        def _heading_is_french(display_fmt: str, original: str) -> bool:
+            import re
+            m = re.match(r"\*\*([^:]+):", display_fmt or "")
+            if not m:
+                return True
+            heading = m.group(1).strip()
+            # accented letter or identical to original token
+            return heading.lower() == original.lower() or bool(re.search(r"[À-ÿ]", heading))
+
+        # Iterate list or dict uniformly
+        items = ctxt.values() if isinstance(ctxt, dict) else ctxt
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            if _heading_is_french(item.get("display_format", ""), item.get("original_word", "")):
+                bad_heading += 1
+                break  # one bad per article is enough
+
     # -------- Ordering check --------
     dates = [
         _parse_date(
@@ -121,17 +141,11 @@ def main():
     print(f"🚫 No visible matches in title: {zero_matches}")
     print(f"❌ Missing explanations: {missing}")
     print(f"📑 Ordering OK (newest→oldest): {'YES' if not ordering_issue else 'NO'}")
-    print(f"⚠️  Coverage gaps (machine logic says incomplete): {gaps}")
-    print(f"🚫 No visible matches in title: {zero_matches}")
-    print(f"❌ Missing explanations: {missing}")
-    print(f"📑 Ordering OK (newest→oldest): {'YES' if not ordering_issue else 'NO'}\n")
+    print(f"❌ Tooltips with French headings: {bad_heading}")
 
-    if missing or gaps or zero_matches or ordering_issue:
-        print("Some articles may show no underlines on the website – review needed.")
-    else:
-        print("All articles look good!")
-
-    # Exit code 0 even if warnings – makes it a smoke test, not a blocker
+    if bad_heading or missing / max(total, 1) > 0.20:
+        print("❌ Too many articles lack contextual explanations – failing CI.")
+        sys.exit(2)
 
 
 if __name__ == "__main__":
