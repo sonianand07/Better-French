@@ -8,6 +8,7 @@ this logic we can unit-test edge-cases and keep ``processor.py`` simple.
 
 import json, logging, re
 from typing import Tuple, Optional, List, Dict, Any
+import json as _json, pathlib as _pl
 
 from .models import Article
 
@@ -179,6 +180,12 @@ def article_is_display_ready(article: Article) -> bool:
 
 _HEADING_RE = re.compile(r"\*\*([^:]+):")
 
+# Load mini glossary (case-insensitive keys)
+_GLOSSARY_PATH = _pl.Path(__file__).resolve().parents[0] / "data" / "mini_glossary.json"
+try:
+    _GLOSSARY = {k.lower(): v.lower() for k, v in _json.loads(_GLOSSARY_PATH.read_text(encoding="utf-8")).items()}
+except Exception:
+    _GLOSSARY = {}
 
 def _english_heading_ok(display_format: str, original_word: str) -> bool:
     """Return False if the heading still looks French.
@@ -196,5 +203,9 @@ def _english_heading_ok(display_format: str, original_word: str) -> bool:
     if heading.lower() == (original_word or "").lower():
         return False
     if re.search(r"[À-ÿ]", heading):
+        return False
+    # Dictionary cross-check – if we know the canonical translation, they must match
+    canon = _GLOSSARY.get(original_word.lower())
+    if canon and heading.lower() != canon:
         return False
     return True 
