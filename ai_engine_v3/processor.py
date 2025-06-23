@@ -113,7 +113,7 @@ class ProcessorV2:
         # ----- EXPLANATIONS phase with retry -----
         msg_stack[1]["content"] = self._render_explain_prompt(article)
         ok2, payload2 = self._chat_with_validation(
-            msg_stack, self._render_explain_prompt, article, validate_explanations_payload
+            msg_stack, self._render_explain_prompt, article, validate_explanations_payload, max_attempts=4
         )
 
         if ok2 and payload2:

@@ -89,27 +89,27 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
         cleaned: List[Dict[str, Any]] = []
         for obj in data:
             if not isinstance(obj, dict):
-                return False, None, "Non-dict item"
+                continue  # skip non-dict
             if not {"original_word", "display_format", "explanation"}.issubset(obj):
-                return False, None, "Missing keys in item"
-            cleaned.append(obj)
-            # Extra rule: heading before the colon must be English (no accents & not identical to original)
+                continue  # skip incomplete item
             disp = obj.get("display_format", "")
             if not _english_heading_ok(disp, obj["original_word"]):
-                return False, None, "Heading not English in display_format"
-        return True, cleaned, "ok"
+                continue  # skip bad heading
+            cleaned.append(obj)
+        return (len(cleaned) > 0), cleaned if cleaned else None, "partial_ok" if cleaned else "no valid items"
 
     # -------- dict format --------
     if isinstance(data, dict):
-        # Every value must itself be a dict containing display_format+explanation
+        cleaned_d = {}
         for word, val in data.items():
             if not isinstance(val, dict):
-                return False, None, "Dict value is not an object"
+                continue
             if not {"display_format", "explanation"}.issubset(val):
-                return False, None, "Missing keys in value object"
+                continue
             if not _english_heading_ok(val["display_format"], word):
-                return False, None, "Heading not English in display_format"
-        return True, data, "ok"
+                continue
+            cleaned_d[word] = val
+        return (len(cleaned_d) > 0), cleaned_d if cleaned_d else None, "partial_ok" if cleaned_d else "no valid items"
 
     return False, None, "Unexpected JSON structure"
 
