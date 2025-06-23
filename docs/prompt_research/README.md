@@ -14,6 +14,10 @@ All tool-tips and summaries are produced by two system prompts that call an LLM.
 
 ---
 ## 2 · Pain-points with the current prompts
+**Primary goals**  
+• Achieve 100 % token coverage for contextual words.  
+• Produce clearer, shorter, and more accurate simplified titles (FR + EN) and 20-27-word summaries (FR + EN).
+
 1. **Incomplete coverage** – when we pass a list of tokens the model sometimes returns only 60-80 % of them.
 2. **French headings** – occasionally the model bolds the original French word instead of an English gloss.
 3. **Violations of length / JSON rules** – stray markdown fences, extra keys, explanations > 20 words.
