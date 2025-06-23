@@ -28,7 +28,11 @@ Our validator discards any article that fails these rules, so missing tokens or 
 • **Tokeniser** – we derive `tokens` by splitting the original headline and merging capitalised multi-word proper names (e.g. "Royaume-Uni").
 • **Prompt renderer** – the two prompts you are writing are filled with `{title}` and `{tokens}` and fed to the LLM via an OpenRouter chat endpoint.
 
-The **only context** the LLM sees today is the headline itself (plus the optional token list). We do _not_ provide the article body or external knowledge snippets.
+Execution order:
+1. **Step 1 – Titles & Summaries.**  We call the titles prompt first.  Its response (simplified titles + summaries) is cached.
+2. **Step 2 – Contextual Words.**  We then call the tooltip prompt.  The cached object from Step 1 is optionally passed to it as a string called `context_block` (think of it as extra background the model can read but must NOT quote verbatim).
+
+Your tooltip prompt must continue to work even if the `context_block` is empty (for backward compatibility), but you are free to reference it when present.
 
 If you believe supplying richer background (e.g. article lead paragraph, entity definitions) would improve output quality, please call that out in your rationale. We can expose additional variables if it stays within our token budget (~300 input tokens per call).
 
@@ -122,4 +126,3 @@ _Output (excerpt)_
 ]
 ```
 ---
-Questions?  Email ​tech@betterfrench.io 
