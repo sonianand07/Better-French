@@ -1,65 +1,112 @@
-# Prompt Research Brief – Contextual Words & Simplified Titles (v3)
+# DeepResearch Assignment – Designing Robust Prompts for "Better French"
 
-Last updated: 2025-06-23
+Version: 2025-06-23
 
-## 1. Product background
-Better French is a news-digest site for intermediate French learners.  Each headline card shows:
-1. A simplified French headline + English translation plus 2-sentence summaries.
-2. Hoverable tool-tips on every non-trivial token in the French headline (word, idiom or proper name) – learners can read a concise English gloss + cultural note.
+---
+## 1 · Product snapshot
+Better French is a daily news digest designed for **intermediate French learners (CEFR B1-B2)** who did _not_ grow up in France.  For each article we show:
 
-The prompts that generate those enhancements live in `ai_engine_v3/prompts/`.
-Current production files (`*_v2.jinja`) work but have shortcomings: inconsistent token coverage, occasional French headings, verbosity.
+1. A headline rewritten in simpler French **plus** an English translation and two short summaries (one FR, one EN).
+2. Hover-tips on every non-trivial French word, idiom or proper noun in the headline.  Each tooltip displays:  
+   **Heading** (bold English translation) · _explanation_ (≤ 20 words) · _optional cultural note_ (≤ 25 words).
 
-We want **v3** prompts that maximise:
-* 100 % coverage – one JSON object per token supplied by the processor.
-* Heading correctness – the bold English heading must be an idiomatic 1-3-word translation, never French.
-* Compactness – explanations ≤ 20 words (CEFR-B1), optional cultural note ≤ 25 words.
-* JSON validity – no markdown wrappers, no key drift.
+All tool-tips and summaries are produced by two system prompts that call an LLM.  You will design **new, production-grade prompts** that outperform the current baseline.
 
-## 2. What you will deliver
-1. Edit **`contextual_words_v3.jinja`** – generates tool-tip array.
-2. Edit **`simplify_titles_summaries_v3.jinja`** – generates simplified titles + 2× summaries.
-3. Add unit-test cases under `qa/local/` that prove the new prompts meet the success criteria.
+---
+## 2 · Pain-points with the current prompts
+1. **Incomplete coverage** – when we pass a list of tokens the model sometimes returns only 60-80 % of them.
+2. **French headings** – occasionally the model bolds the original French word instead of an English gloss.
+3. **Violations of length / JSON rules** – stray markdown fences, extra keys, explanations > 20 words.
+4. **Verbosity in summaries** – French & English summaries exceed 27 words or drift off-topic.
 
-Avoid touching the existing `*_v2` files – they remain the production fallback.
+Our validator discards any article that fails these rules, so missing tokens or invalid JSON directly reduces website content.
 
-## 3. Hard constraints
-* Must return valid JSON (array for contextual words, object for titles) – nothing else.
-* Schema keys and their order cannot change.
-* When the processor supplies `TOKENS_TO_DEFINE`, you must return **exactly one** item for every token in that list and in the same order.
-* Length caps (20-27 word summaries, ≤ 20-word explanations) are enforced by downstream validator – exceeding them will discard the article.
+---
+## 3 · Your mission
+Create **two new prompts**:
 
-## 4. Soft goals / style guide
-* Tone: neutral textbook English; avoid slang unless it clarifies meaning.
-* Cultural notes optional – include only if the token needs extra background (e.g. French institutions, historic events).
-* Use CEFR-appropriate vocabulary (B1-B2).
-* Prefer everyday English headings over literal cognates (e.g. **Prime Minister** not **Premier Ministre**).
+| Prompt file (to supply) | Purpose |
+|-------------------------|---------|
+| `contextual_words_prompt.txt` | Generate the tooltip array. |
+| `simplify_titles_prompt.txt`  | Generate simplified titles + summaries. |
 
-## 5. Example call-and-response
-Input variables provided to the template engine:
-```yaml
+Both prompts must be _self-contained_ – assume they will be filled with variables using a template engine similar to Jinja2.
+
+### 3.1  Variable contract
+The runtime code will render each prompt with the following dictionary:
+```jsonc
 {
-  "title": "Macron annonce un plan "razzia" contre la fraude fiscale",
-  "tokens": ["Macron", "annonce", "plan", "razzia", "fraude", "fiscale"]
+  "title": "Original French headline as a single string",
+  "tokens": ["list", "of", "string", "tokens"]   // *tooltip prompt only* – may be 0-30 items, preserve order
 }
 ```
-Expected output (spacing/ordering simplified):
+If `tokens` is an empty list you may choose the 3-10 most important tokens yourself.
+
+### 3.2  Required output schema
+####  A) Tooltip prompt
+Return a JSON **array** – _nothing else_ – where each element is:
+```jsonc
+{
+  "original_word": "string",              // token exactly as it appears in the headline
+  "display_format": "string",             // **EnglishHeading:** French original (≤4 French words)
+  "explanation": "string",                // ≤20 plain-English words, B1 vocabulary
+  "cultural_note": "string or null"        // optional, ≤25 words
+}
+```
+Constraints:
+* 1-to-1 mapping with `tokens` (same order, no extras, no omissions) when the list is provided.
+* Heading (**bold part of `display_format`**) must be an English translation, never French unless spelling is identical in both languages.
+
+####  B) Titles & summaries prompt
+Return a JSON **object** with exactly these keys in this order:
+```jsonc
+{
+  "simplified_french_title": "≤60 chars",
+  "simplified_english_title": "≤60 chars",
+  "french_summary":  "20-27 words",
+  "english_summary": "20-27 words",
+  "difficulty": "A1|A2|B1|B2|C1|C2",
+  "tone": "neutral|opinion|satire|other"
+}
+```
+Guidelines: keep neutral tone unless original headline is clearly opinionated; use CEFR-appropriate vocabulary; no lists or bullet points.
+
+---
+## 4 · Success metrics
+Your prompts will be evaluated on a held-out set of 200 real headlines.
+
+| Metric | Target |
+|--------|--------|
+| JSON validity pass-rate | ≥ 99 % |
+| Token coverage (tooltip) | 100 % of supplied tokens present |
+| English-heading correctness | ≥ 98 % (manual check sample) |
+| Length compliance | ≥ 98 % |
+| Reviewer usefulness score | ≥ 4 / 5 average |
+
+A failure in any hard constraint is an automatic rejection.
+
+---
+## 5 · Deliverables & hand-off
+1. `contextual_words_prompt.txt` and `simplify_titles_prompt.txt` (UTF-8, no BOM).  
+   Placeholders should use the syntax `{{title}}` and `{{tokens}}` so we can adapt to any engine.
+2. `test_cases.json` – optional: a small set of headline + token lists you used while iterating.
+3. A brief rationale (max 1-page) explaining your design choices.
+
+Please upload the three files in your DeepResearch portal task. Our engineers will integrate them into the pipeline and run the evaluation suite.
+
+---
+## 6 · Reference example
+_Input_
+```json
+{"title":"Macron annonce un plan \"razzia\" contre la fraude fiscale","tokens":["Macron","annonce","plan","razzia","fraude","fiscale"]}
+```
+_Output (excerpt)_
 ```json
 [
-  {"original_word":"Macron","display_format":"**Macron:** Macron","explanation":"French President (2017-present)","cultural_note": ""},
-  {"original_word":"annonce","display_format":"**Announces:** annonce","explanation":"3rd-person singular of 'annoncer' (to announce)","cultural_note":""},
-  … etc …
+  {"original_word":"Macron","display_format":"**Macron:** Macron","explanation":"President of France (2017–present)","cultural_note":""},
+  {"original_word":"annonce","display_format":"**Announces:** annonce","explanation":"Third-person singular of 'annoncer' (to announce)","cultural_note":""},
+  …
 ]
 ```
-
-## 6. Evaluation & hand-off
-Run `pytest qa/local` – all new tests must pass.  We'll also run a 24 h shadow deployment that records validator pass-rate vs. v2.
-
-Workflow & Git etiquette
-* **Fork/clone the branch `prompt-research` only** – never commit to `ai-engine-v3-main`.
-* Keep your edits isolated to the two `*_v3.jinja` files and any test fixtures under `qa/local/`.
-* Before pushing, run `pytest qa/local` plus `python -m ai_engine_v3.validator` on a few sample titles to confirm the payload passes validation.
-* Open a PR from `prompt-research` → `ai-engine-v3-main` when your prompt hits ≥95 % validator pass-rate on the supplied test set.  Our CI will run the same checks.
-
-Thanks!  
-— Better French engineering 
+---
+Questions?  Email ​tech@betterfrench.io 
