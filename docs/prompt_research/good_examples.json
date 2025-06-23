@@ -1,97 +1,1411 @@
 [
   {
-    "title": "Strasbourg bientôt jumelée avec un camp palestinien ? Le vote doit avoir lieu ce lundi",
+    "title": "Story 3 : les mollahs peuvent-ils tenir longtemps ? - 23/06",
     "tokens": [
-      "jumelée",
-      "doit",
-      "palestinien",
-      "lieu",
-      "bientôt",
-      "Le",
+      "06",
+      "23",
+      "3",
+      ":",
       "?",
-      "Strasbourg",
-      "avec",
-      "camp",
-      "vote",
-      "avoir",
-      "lundi",
-      "un",
-      "ce"
+      "Story",
+      "ils",
+      "les",
+      "longtemps",
+      "mollahs",
+      "peuvent",
+      "tenir"
     ],
+    "context_block": {
+      "simplified_french_title": "Les mollahs peuvent-ils rester au pouvoir ?",
+      "simplified_english_title": "Can the mullahs stay in power?",
+      "french_summary": "On se demande combien de temps les mollahs peuvent garder le pouvoir face aux défis actuels.",
+      "english_summary": "People wonder how long the mullahs can hold onto power given current challenges.",
+      "difficulty": "B2",
+      "tone": "neutral"
+    },
     "explanations": {
-      "Strasbourg": {
-        "display_format": "**Strasbourg:** Ville française",
-        "explanation": "City in eastern France",
-        "cultural_note": "Capital of the Alsace region"
-      },
-      "bientôt": {
-        "display_format": "**bientôt:** Sous peu",
-        "explanation": "Soon, in the near future",
+      "tenir": {
+        "display_format": "**Hold:** tenir",
+        "explanation": "To hold or to last",
         "cultural_note": ""
       },
-      "jumelée": {
-        "display_format": "**jumelée:** Ville jumelle",
-        "explanation": "Twin town, sister city",
-        "cultural_note": "Cities cooperating culturally and commercially"
-      },
-      "avec": {
-        "display_format": "**avec:** En compagnie de",
-        "explanation": "With, in association with",
+      "ils": {
+        "display_format": "**They:** ils",
+        "explanation": "Third-person plural masculine pronoun",
         "cultural_note": ""
       },
-      "un": {
-        "display_format": "**un:** Article indéfini",
-        "explanation": "Indefinite article, 'a'",
+      ":": {
+        "display_format": "**Colon:** :",
+        "explanation": "Punctuation introducing a list or explanation",
         "cultural_note": ""
       },
-      "camp": {
-        "display_format": "**camp:** Campement",
-        "explanation": "Camp, temporary settlement",
+      "longtemps": {
+        "display_format": "**Long time:** longtemps",
+        "explanation": "For a long duration",
         "cultural_note": ""
       },
-      "palestinien": {
-        "display_format": "**palestinien:** De Palestine",
-        "explanation": "Palestinian, relating to Palestine",
+      "3": {
+        "display_format": "**Three:** 3",
+        "explanation": "Number three",
         "cultural_note": ""
+      },
+      "mollahs": {
+        "display_format": "**Mullahs:** mollahs",
+        "explanation": "Islamic religious leaders",
+        "cultural_note": "Often used in political contexts"
+      },
+      "23": {
+        "display_format": "**Twenty-three:** 23",
+        "explanation": "Number twenty-three",
+        "cultural_note": ""
+      },
+      "les": {
+        "display_format": "**The:** les",
+        "explanation": "Definite article plural",
+        "cultural_note": ""
+      },
+      "06": {
+        "display_format": "**Zero six:** 06",
+        "explanation": "Number zero six",
+        "cultural_note": "Often refers to June in dates"
       },
       "?": {
-        "display_format": "**?:** Point d'interrogation",
-        "explanation": "Question mark",
+        "display_format": "**Question mark:** ?",
+        "explanation": "Punctuation indicating a question",
         "cultural_note": ""
       },
-      "Le": {
-        "display_format": "**Le:** Article défini",
-        "explanation": "Definite article, 'the'",
+      "peuvent": {
+        "display_format": "**Can:** peuvent",
+        "explanation": "To be able to",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Frappes américaines en Iran : Donald Trump a-t-il une stratégie géopolitique ?",
+    "tokens": [
+      ":",
+      "?",
+      "Donald",
+      "Frappes",
+      "Iran",
+      "Trump",
+      "a",
+      "américaines",
+      "en",
+      "géopolitique",
+      "il",
+      "stratégie",
+      "t",
+      "une"
+    ],
+    "context_block": {
+      "simplified_french_title": "Les États-Unis frappent l'Iran",
+      "simplified_english_title": "US strikes in Iran",
+      "french_summary": "Donald Trump a ordonné des frappes en Iran, mais sa stratégie géopolitique reste incertaine selon les analystes.",
+      "english_summary": "Donald Trump ordered strikes in Iran, but his geopolitical strategy remains unclear to analysts.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      ":": {
+        "display_format": "**Colon:** :",
+        "explanation": "Punctuation introducing an explanation",
         "cultural_note": ""
       },
-      "vote": {
-        "display_format": "**vote:** Votation",
-        "explanation": "Vote, decision-making process",
+      "américaines": {
+        "display_format": "**American:** américaines",
+        "explanation": "Feminine plural adjective for 'American'",
+        "cultural_note": "Refers to the USA, not the Americas"
+      },
+      "il": {
+        "display_format": "**He:** il",
+        "explanation": "Third-person singular masculine pronoun",
         "cultural_note": ""
       },
-      "doit": {
-        "display_format": "**doit:** Devoir",
-        "explanation": "Must, has to",
+      "stratégie": {
+        "display_format": "**Strategy:** stratégie",
+        "explanation": "Plan of action designed to achieve a goal",
         "cultural_note": ""
       },
-      "avoir": {
-        "display_format": "**avoir:** Posséder",
-        "explanation": "To have, to take place",
+      "a": {
+        "display_format": "**Has:** a",
+        "explanation": "Third-person singular of 'avoir' (to have)",
         "cultural_note": ""
       },
-      "lieu": {
-        "display_format": "**lieu:** Endroit",
-        "explanation": "Place, location",
+      "en": {
+        "display_format": "**In:** en",
+        "explanation": "Preposition indicating location or manner",
         "cultural_note": ""
       },
-      "ce": {
-        "display_format": "**ce:** Ceci",
-        "explanation": "This, that",
+      "géopolitique": {
+        "display_format": "**Geopolitical:** géopolitique",
+        "explanation": "Relating to politics influenced by geography",
         "cultural_note": ""
       },
-      "lundi": {
-        "display_format": "**lundi:** Jour de la semaine",
-        "explanation": "Monday",
+      "Frappes": {
+        "display_format": "**Strikes:** Frappes",
+        "explanation": "Military attacks",
+        "cultural_note": "Can also mean 'beaten' or 'hit'"
+      },
+      "?": {
+        "display_format": "**Question mark:** ?",
+        "explanation": "Punctuation indicating a question",
+        "cultural_note": ""
+      },
+      "une": {
+        "display_format": "**A:** une",
+        "explanation": "Indefinite article, feminine singular",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Uranium enrichi iranien : ces 408,6 kilos qui résistent encore et toujours aux frappes",
+    "tokens": [
+      ",",
+      "408",
+      "6",
+      ":",
+      "Uranium",
+      "aux",
+      "ces",
+      "encore",
+      "enrichi",
+      "et",
+      "frappes",
+      "iranien",
+      "kilos",
+      "qui",
+      "résistent",
+      "toujours"
+    ],
+    "context_block": {
+      "simplified_french_title": "L'Iran garde son uranium enrichi",
+      "simplified_english_title": "Iran keeps its enriched uranium",
+      "french_summary": "L'Iran possède encore 408,6 kilos d'uranium enrichi malgré les attaques. C'est un sujet de tension internationale.",
+      "english_summary": "Iran still has 408.6 kilos of enriched uranium despite strikes. It remains an international tension point.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "enrichi": {
+        "display_format": "**Enriched:** enrichi",
+        "explanation": "Processed to increase uranium-235 concentration",
+        "cultural_note": "Critical for nuclear fuel and weapons"
+      },
+      "iranien": {
+        "display_format": "**Iranian:** iranien",
+        "explanation": "Relating to Iran",
+        "cultural_note": "Often in context of nuclear agreements"
+      },
+      "frappes": {
+        "display_format": "**Strikes:** frappes",
+        "explanation": "Military attacks, often airstrikes",
+        "cultural_note": "Common in geopolitical conflicts"
+      },
+      "résistent": {
+        "display_format": "**Resist:** résistent",
+        "explanation": "To withstand or oppose",
+        "cultural_note": "Often used in political or military contexts"
+      },
+      "encore": {
+        "display_format": "**Still:** encore",
+        "explanation": "Indicates continuation or persistence",
+        "cultural_note": ""
+      },
+      "toujours": {
+        "display_format": "**Always:** toujours",
+        "explanation": "At all times; invariably",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Guerre Iran/Israël: le Qatar a intercepté avec succès les missiles iraniens qui visaient des bases militaires américaines",
+    "tokens": [
+      ":",
+      "Guerre",
+      "Iran",
+      "Israël",
+      "Qatar",
+      "a",
+      "américaines",
+      "avec",
+      "bases",
+      "des",
+      "intercepté",
+      "iraniens",
+      "le",
+      "les",
+      "militaires",
+      "missiles",
+      "qui",
+      "succès",
+      "visaient"
+    ],
+    "context_block": {
+      "simplified_french_title": "Le Qatar arrête des missiles iraniens",
+      "simplified_english_title": "Qatar intercepts Iranian missiles",
+      "french_summary": "Le Qatar a réussi à intercepter des missiles iraniens qui ciblaient des bases militaires américaines dans la région.",
+      "english_summary": "Qatar successfully intercepted Iranian missiles targeting American military bases in the region.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Guerre": {
+        "display_format": "**War:** Guerre",
+        "explanation": "Armed conflict between countries",
+        "cultural_note": "Often used in headlines for international conflicts"
+      },
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Middle Eastern country",
+        "cultural_note": "Often involved in regional conflicts"
+      },
+      "intercepté": {
+        "display_format": "**Intercepted:** intercepté",
+        "explanation": "Stopped or blocked something",
+        "cultural_note": "Common in military contexts"
+      },
+      "succès": {
+        "display_format": "**Success:** succès",
+        "explanation": "Achieving a goal",
+        "cultural_note": ""
+      },
+      "iraniens": {
+        "display_format": "**Iranian:** iraniens",
+        "explanation": "Relating to Iran",
+        "cultural_note": ""
+      },
+      "militaires": {
+        "display_format": "**Military:** militaires",
+        "explanation": "Relating to armed forces",
+        "cultural_note": ""
+      },
+      "américaines": {
+        "display_format": "**American:** américaines",
+        "explanation": "Relating to the USA",
+        "cultural_note": ""
+      },
+      "visaient": {
+        "display_format": "**Targeted:** visaient",
+        "explanation": "Aimed at something",
+        "cultural_note": ""
+      },
+      "avec": {
+        "display_format": "**With:** avec",
+        "explanation": "In the company of",
+        "cultural_note": ""
+      },
+      "le": {
+        "display_format": "**The:** le",
+        "explanation": "Definite article",
+        "cultural_note": ""
+      },
+      "a": {
+        "display_format": "**Has:** a",
+        "explanation": "Third person singular of 'avoir'",
+        "cultural_note": ""
+      },
+      "les": {
+        "display_format": "**The:** les",
+        "explanation": "Definite article, plural",
+        "cultural_note": ""
+      },
+      "des": {
+        "display_format": "**Some:** des",
+        "explanation": "Indefinite article, plural",
+        "cultural_note": ""
+      },
+      ":": {
+        "display_format": "**Colon:** :",
+        "explanation": "Introduces further information",
+        "cultural_note": ""
+      },
+      "qui": {
+        "display_format": "**Who:** qui",
+        "explanation": "Relative pronoun",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Story 5 : Israël cible la prison des opposants iraniens - 23/06",
+    "tokens": [
+      "06",
+      "23",
+      "5",
+      ":",
+      "Israël",
+      "Story",
+      "cible",
+      "des",
+      "iraniens",
+      "la",
+      "opposants",
+      "prison"
+    ],
+    "context_block": {
+      "simplified_french_title": "Israël attaque une prison en Iran",
+      "simplified_english_title": "Israel targets a prison in Iran",
+      "french_summary": "Israël a attaqué une prison en Iran où des opposants sont détenus, selon des rapports récents.",
+      "english_summary": "Israel attacked a prison in Iran where opponents are held, according to recent reports.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Middle Eastern country",
+        "cultural_note": "Often discussed in French media for geopolitical issues"
+      },
+      "cible": {
+        "display_format": "**Targets:** cible",
+        "explanation": "Aims at or focuses on",
+        "cultural_note": ""
+      },
+      "opposants": {
+        "display_format": "**Opponents:** opposants",
+        "explanation": "People who resist or disagree with a regime",
+        "cultural_note": ""
+      },
+      "iraniens": {
+        "display_format": "**Iranian:** iraniens",
+        "explanation": "Relating to Iran or its people",
+        "cultural_note": ""
+      },
+      "5": {
+        "display_format": "**Five:** 5",
+        "explanation": "Number indicating a sequence",
+        "cultural_note": ""
+      },
+      "23/06": {
+        "display_format": "**Date:** 23/06",
+        "explanation": "23rd of June",
+        "cultural_note": "Date format is day/month"
+      },
+      "la": {
+        "display_format": "**The:** la",
+        "explanation": "Definite article, feminine singular",
+        "cultural_note": ""
+      },
+      "des": {
+        "display_format": "**Some:** des",
+        "explanation": "Indefinite article, plural",
+        "cultural_note": ""
+      },
+      ":": {
+        "display_format": "**Colon:** :",
+        "explanation": "Punctuation mark introducing a list or quote",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "L'activité se contracte encore en juin (PMI) - 23/06",
+    "tokens": [
+      "06",
+      "23",
+      "L'activité",
+      "PMI",
+      "contracte",
+      "en",
+      "encore",
+      "juin",
+      "se"
+    ],
+    "context_block": {
+      "simplified_french_title": "L'activité économique baisse en juin",
+      "simplified_english_title": "Economic activity drops in June",
+      "french_summary": "Les indicateurs PMI montrent une baisse de l'activité économique en juin pour le troisième mois consécutif.",
+      "english_summary": "PMI indicators show a drop in economic activity in June for the third consecutive month.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "L&#39;activité": {
+        "display_format": "**The activity:** L'activité",
+        "explanation": "Economic or business activity level",
+        "cultural_note": "Often refers to economic indicators"
+      },
+      "contracte": {
+        "display_format": "**Contracts:** contracte",
+        "explanation": "Shrinks or reduces in size",
+        "cultural_note": ""
+      },
+      "se": {
+        "display_format": "**Oneself:** se",
+        "explanation": "Reflexive pronoun",
+        "cultural_note": "Used with reflexive verbs"
+      },
+      "encore": {
+        "display_format": "**Again:** encore",
+        "explanation": "Once more, again",
+        "cultural_note": ""
+      },
+      "juin": {
+        "display_format": "**June:** juin",
+        "explanation": "Sixth month of the year",
+        "cultural_note": ""
+      },
+      "en": {
+        "display_format": "**In:** en",
+        "explanation": "In or during",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Édition spéciale : L'Iran a tiré six missiles sur des bases américaines - 23/06",
+    "tokens": [
+      "06",
+      "23",
+      ":",
+      "L'Iran",
+      "a",
+      "américaines",
+      "bases",
+      "des",
+      "missiles",
+      "six",
+      "spéciale",
+      "sur",
+      "tiré",
+      "Édition"
+    ],
+    "context_block": {
+      "simplified_french_title": "L'Iran attaque des bases américaines",
+      "simplified_english_title": "Iran attacks American bases",
+      "french_summary": "L'Iran a lancé six missiles sur des bases américaines. Cet événement s'est passé le 23 juin.",
+      "english_summary": "Iran launched six missiles at American bases. This event happened on June 23.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Édition": {
+        "display_format": "**Edition:** Édition",
+        "explanation": "A particular version of a published text",
+        "cultural_note": "Often used in news headlines for special reports"
+      },
+      "spéciale": {
+        "display_format": "**Special:** spéciale",
+        "explanation": "Particular, better or greater than usual",
+        "cultural_note": ""
+      },
+      "L&#39;Iran": {
+        "display_format": "**Iran:** L&#39;Iran",
+        "explanation": "Country in the Middle East",
+        "cultural_note": "Known for its rich history and cultural heritage"
+      },
+      "a tiré": {
+        "display_format": "**Fired:** a tiré",
+        "explanation": "Launched or shot",
+        "cultural_note": ""
+      },
+      "sur": {
+        "display_format": "**On:** sur",
+        "explanation": "Indicates location or target",
+        "cultural_note": ""
+      },
+      "américaines": {
+        "display_format": "**American:** américaines",
+        "explanation": "Relating to the United States",
+        "cultural_note": ""
+      },
+      "23/06": {
+        "display_format": "**Date:** 23/06",
+        "explanation": "23rd of June",
+        "cultural_note": "Date format used in France (day/month)"
+      }
+    }
+  },
+  {
+    "title": "Guerre Iran/Israël: le Bahreïn suspend temporairement son trafic aérien",
+    "tokens": [
+      ":",
+      "Bahreïn",
+      "Guerre",
+      "Iran",
+      "Israël",
+      "aérien",
+      "le",
+      "son",
+      "suspend",
+      "temporairement",
+      "trafic"
+    ],
+    "context_block": {
+      "simplified_french_title": "Bahreïn arrête ses vols à cause de la guerre",
+      "simplified_english_title": "Bahrain halts flights due to Iran-Israel war",
+      "french_summary": "Bahreïn a temporairement suspendu son trafic aérien en raison des tensions entre l'Iran et Israël.",
+      "english_summary": "Bahrain temporarily suspended its air traffic due to tensions between Iran and Israel.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Guerre": {
+        "display_format": "**War:** Guerre",
+        "explanation": "Armed conflict between countries",
+        "cultural_note": "Often used in headlines for major conflicts"
+      },
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Country in the Middle East",
+        "cultural_note": "Often involved in regional conflicts"
+      },
+      "Bahreïn": {
+        "display_format": "**Bahrain:** Bahreïn",
+        "explanation": "Island country in the Persian Gulf",
+        "cultural_note": "Known for its financial and tourist industries"
+      },
+      "trafic": {
+        "display_format": "**Traffic:** trafic",
+        "explanation": "Movement of aircraft, vehicles, or ships",
+        "cultural_note": ""
+      },
+      "aérien": {
+        "display_format": "**Air:** aérien",
+        "explanation": "Relating to aircraft or air travel",
+        "cultural_note": ""
+      },
+      "temporairement": {
+        "display_format": "**Temporarily:** temporairement",
+        "explanation": "For a limited time",
+        "cultural_note": ""
+      },
+      "le": {
+        "display_format": "**The:** le",
+        "explanation": "Definite article",
+        "cultural_note": ""
+      },
+      "son": {
+        "display_format": "**Its:** son",
+        "explanation": "Possessive adjective",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Moyen-Orient : «pas de légalité» aux frappes américaines, mais Paris «partage l'objectif» d'un Iran sans arme nucléaire",
+    "tokens": [
+      ",",
+      ":",
+      "Iran",
+      "Moyen",
+      "Orient",
+      "Paris",
+      "américaines",
+      "arme",
+      "aux",
+      "d'un",
+      "de",
+      "frappes",
+      "l'objectif",
+      "légalité",
+      "mais",
+      "nucléaire",
+      "partage",
+      "pas",
+      "sans",
+      "«",
+      "»"
+    ],
+    "context_block": {
+      "simplified_french_title": "Paris critique les frappes américaines en Iran",
+      "simplified_english_title": "Paris criticizes US strikes in Iran",
+      "french_summary": "La France dit que les frappes américaines en Iran ne sont pas légales, mais soutient l'objectif d'empêcher l'Iran d'avoir des armes nucléaires.",
+      "english_summary": "France says US strikes in Iran are not legal, but supports the goal of preventing Iran from having nuclear weapons.",
+      "difficulty": "B2",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Moyen": {
+        "display_format": "**Middle:** Moyen",
+        "explanation": "Part of a geographical term",
+        "cultural_note": ""
+      },
+      "Orient": {
+        "display_format": "**East:** Orient",
+        "explanation": "Refers to the eastern part of the world",
+        "cultural_note": "Commonly used in geographical and cultural contexts"
+      },
+      "frappes": {
+        "display_format": "**Strikes:** frappes",
+        "explanation": "Military attacks or hits",
+        "cultural_note": "Often used in the context of military actions"
+      },
+      "légalité": {
+        "display_format": "**Legality:** légalité",
+        "explanation": "The quality of being legal",
+        "cultural_note": ""
+      },
+      "partage": {
+        "display_format": "**Shares:** partage",
+        "explanation": "To share or have in common",
+        "cultural_note": ""
+      },
+      "l&#39;objectif": {
+        "display_format": "**Objective:** l'objectif",
+        "explanation": "A goal or aim",
+        "cultural_note": ""
+      },
+      "arme": {
+        "display_format": "**Weapon:** arme",
+        "explanation": "An instrument used in combat",
+        "cultural_note": ""
+      },
+      "nucléaire": {
+        "display_format": "**Nuclear:** nucléaire",
+        "explanation": "Relating to atomic energy",
+        "cultural_note": ""
+      },
+      "américaines": {
+        "display_format": "**American:** américaines",
+        "explanation": "Relating to the United States",
+        "cultural_note": ""
+      },
+      "d&#39;un": {
+        "display_format": "**Of a:** d'un",
+        "explanation": "Contraction of 'de' and 'un'",
+        "cultural_note": ""
+      },
+      "sans": {
+        "display_format": "**Without:** sans",
+        "explanation": "Not having or including",
+        "cultural_note": ""
+      },
+      "pas": {
+        "display_format": "**Not:** pas",
+        "explanation": "Used to negate a statement",
+        "cultural_note": ""
+      },
+      "de": {
+        "display_format": "**Of/From:** de",
+        "explanation": "Used to indicate possession or origin",
+        "cultural_note": ""
+      },
+      "mais": {
+        "display_format": "**But:** mais",
+        "explanation": "Used to introduce a contrast",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Israël-Iran : les cours du pétrole dégringolent après l’attaque iranienne visant une base américaine",
+    "tokens": [
+      ":",
+      "Iran",
+      "Israël",
+      "américaine",
+      "après",
+      "attaque",
+      "base",
+      "cours",
+      "du",
+      "dégringolent",
+      "iranienne",
+      "l",
+      "les",
+      "pétrole",
+      "une",
+      "visant"
+    ],
+    "context_block": {
+      "simplified_french_title": "Les prix du pétrole baissent après une attaque",
+      "simplified_english_title": "Oil prices drop after an attack",
+      "french_summary": "Les prix du pétrole ont chuté après une attaque iranienne sur une base américaine. Le marché réagit fortement.",
+      "english_summary": "Oil prices fell after an Iranian attack on an American base. The market reacted strongly.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Middle Eastern country",
+        "cultural_note": "Often in news due to regional conflicts"
+      },
+      "pétrole": {
+        "display_format": "**Oil:** pétrole",
+        "explanation": "Natural resource used for fuel",
+        "cultural_note": "Key export for many Middle Eastern countries"
+      },
+      "cours": {
+        "display_format": "**Price:** cours",
+        "explanation": "Value of a commodity",
+        "cultural_note": "Commonly used in financial contexts"
+      },
+      "dégringolent": {
+        "display_format": "**Plummet:** dégringolent",
+        "explanation": "Fall rapidly",
+        "cultural_note": "Used for dramatic drops in value"
+      },
+      "attaque": {
+        "display_format": "**Attack:** attaque",
+        "explanation": "Act of violence",
+        "cultural_note": "Often used in military contexts"
+      },
+      "iranienne": {
+        "display_format": "**Iranian:** iranienne",
+        "explanation": "Relating to Iran",
+        "cultural_note": ""
+      },
+      "américaine": {
+        "display_format": "**American:** américaine",
+        "explanation": "Relating to the USA",
+        "cultural_note": ""
+      },
+      "visant": {
+        "display_format": "**Targeting:** visant",
+        "explanation": "Aiming at",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Trump II : plus fort, plus seul, plus dangereux",
+    "tokens": [
+      ",",
+      ":",
+      "II",
+      "Trump",
+      "dangereux",
+      "fort",
+      "plus",
+      "seul"
+    ],
+    "context_block": {
+      "simplified_french_title": "Trump est plus fort et plus seul",
+      "simplified_english_title": "Trump stronger and more isolated",
+      "french_summary": "Trump est plus puissant mais aussi plus isolé, ce qui peut être dangereux selon les analystes politiques.",
+      "english_summary": "Trump is more powerful but also more isolated, which can be dangerous according to political analysts.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "II": {
+        "display_format": "**Second:** II",
+        "explanation": "Roman numeral for two",
+        "cultural_note": "Used to denote a sequel or second term"
+      },
+      "plus": {
+        "display_format": "**More:** plus",
+        "explanation": "Comparative form of 'a lot'",
+        "cultural_note": ""
+      },
+      "fort": {
+        "display_format": "**Strong:** fort",
+        "explanation": "Having power or influence",
+        "cultural_note": ""
+      },
+      "seul": {
+        "display_format": "**Alone:** seul",
+        "explanation": "Without others",
+        "cultural_note": ""
+      },
+      "dangereux": {
+        "display_format": "**Dangerous:** dangereux",
+        "explanation": "Likely to cause harm",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "« Si l’on interrompt le déploiement de l’éolien et du solaire, on abandonne un pan majeur de la décarbonation de notre économie »",
+    "tokens": [
+      ",",
+      "Si",
+      "abandonne",
+      "de",
+      "du",
+      "décarbonation",
+      "déploiement",
+      "et",
+      "interrompt",
+      "l",
+      "la",
+      "le",
+      "majeur",
+      "notre",
+      "on",
+      "pan",
+      "solaire",
+      "un",
+      "«",
+      "»",
+      "économie",
+      "éolien"
+    ],
+    "context_block": {
+      "simplified_french_title": "L'éolien et le solaire aident à décarboner",
+      "simplified_english_title": "Wind and solar help decarbonize economy",
+      "french_summary": "Arrêter l'éolien et le solaire signifie abandonner une partie importante de la décarbonation de l'économie selon l'expert.",
+      "english_summary": "Stopping wind and solar energy means giving up a major part of decarbonizing the economy, says expert.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Si": {
+        "display_format": "**If:** Si",
+        "explanation": "Conditional conjunction",
+        "cultural_note": "Common in French hypothetical statements"
+      },
+      "interrompt": {
+        "display_format": "**Interrupt:** interrompt",
+        "explanation": "Verb meaning to stop or halt",
+        "cultural_note": ""
+      },
+      "déploiement": {
+        "display_format": "**Deployment:** déploiement",
+        "explanation": "Process of rolling out or implementing",
+        "cultural_note": "Often used in technological or strategic contexts"
+      },
+      "éolien": {
+        "display_format": "**Wind power:** éolien",
+        "explanation": "Relating to wind energy",
+        "cultural_note": "Important in France's renewable energy strategy"
+      },
+      "solaire": {
+        "display_format": "**Solar power:** solaire",
+        "explanation": "Relating to solar energy",
+        "cultural_note": "Key component of France's energy transition"
+      },
+      "abandonne": {
+        "display_format": "**Abandon:** abandonne",
+        "explanation": "Verb meaning to give up or forsake",
+        "cultural_note": ""
+      },
+      "pan": {
+        "display_format": "**Aspect:** pan",
+        "explanation": "Part or aspect of something",
+        "cultural_note": ""
+      },
+      "majeur": {
+        "display_format": "**Major:** majeur",
+        "explanation": "Adjective meaning major or significant",
+        "cultural_note": ""
+      },
+      "décarbonation": {
+        "display_format": "**Decarbonization:** décarbonation",
+        "explanation": "Process of reducing carbon emissions",
+        "cultural_note": "Central to France's environmental policies"
+      },
+      "économie": {
+        "display_format": "**Economy:** économie",
+        "explanation": "System of production and consumption",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Story 2 : Israël cible la prison des opposants iraniens - 23/06",
+    "tokens": [
+      "06",
+      "2",
+      "23",
+      ":",
+      "Israël",
+      "Story",
+      "cible",
+      "des",
+      "iraniens",
+      "la",
+      "opposants",
+      "prison"
+    ],
+    "context_block": {
+      "simplified_french_title": "Israël attaque une prison en Iran",
+      "simplified_english_title": "Israel targets prison in Iran",
+      "french_summary": "Israël a attaqué une prison en Iran où des opposants sont détenus. L'attaque a eu lieu le 23 juin.",
+      "english_summary": "Israel attacked a prison in Iran where opponents are held. The attack happened on June 23.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Middle Eastern country",
+        "cultural_note": "Often mentioned in international news"
+      },
+      "cible": {
+        "display_format": "**Target:** cible",
+        "explanation": "Aim or focus of an action",
+        "cultural_note": ""
+      },
+      "opposants": {
+        "display_format": "**Opponents:** opposants",
+        "explanation": "People who resist or disagree with something",
+        "cultural_note": ""
+      },
+      "iraniens": {
+        "display_format": "**Iranian:** iraniens",
+        "explanation": "Relating to Iran or its people",
+        "cultural_note": ""
+      },
+      ":": {
+        "display_format": "**Colon:** :",
+        "explanation": "Punctuation mark introducing a list or explanation",
+        "cultural_note": ""
+      },
+      "la": {
+        "display_format": "**The:** la",
+        "explanation": "Definite article, feminine singular",
+        "cultural_note": ""
+      },
+      "des": {
+        "display_format": "**Some:** des",
+        "explanation": "Indefinite article, plural",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "« Dans le meilleur des cas, les neurotechnologies servent à accroître votre autonomie, dans le pire, à tenter de vous contrôler »",
+    "tokens": [
+      ",",
+      "Dans",
+      "accroître",
+      "autonomie",
+      "cas",
+      "contrôler",
+      "dans",
+      "de",
+      "des",
+      "le",
+      "les",
+      "meilleur",
+      "neurotechnologies",
+      "pire",
+      "servent",
+      "tenter",
+      "votre",
+      "vous",
+      "«",
+      "»",
+      "à"
+    ],
+    "context_block": {
+      "simplified_french_title": "Les neurotechnologies peuvent aider ou contrôler",
+      "simplified_english_title": "Neurotechnologies can help or control",
+      "french_summary": "Les neurotechnologies peuvent augmenter votre autonomie ou tenter de vous contrôler, selon leur utilisation.",
+      "english_summary": "Neurotechnologies can increase your autonomy or attempt to control you, depending on their use.",
+      "difficulty": "B2",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "accroître": {
+        "display_format": "**Increase:** accroître",
+        "explanation": "to make something larger or greater",
+        "cultural_note": ""
+      },
+      "autonomie": {
+        "display_format": "**Autonomy:** autonomie",
+        "explanation": "ability to act and make decisions independently",
+        "cultural_note": "Highly valued in French culture and society"
+      },
+      "servent": {
+        "display_format": "**Serve:** servent",
+        "explanation": "to be useful or beneficial",
+        "cultural_note": ""
+      },
+      "tenter": {
+        "display_format": "**Attempt:** tenter",
+        "explanation": "to try or make an effort to do something",
+        "cultural_note": ""
+      },
+      "contrôler": {
+        "display_format": "**Control:** contrôler",
+        "explanation": "to have power or influence over something",
+        "cultural_note": ""
+      },
+      "pire": {
+        "display_format": "**Worst:** pire",
+        "explanation": "of the lowest quality or most unfavorable",
+        "cultural_note": ""
+      },
+      "meilleur": {
+        "display_format": "**Best:** meilleur",
+        "explanation": "of the highest quality or most favorable",
+        "cultural_note": ""
+      },
+      "cas": {
+        "display_format": "**Case:** cas",
+        "explanation": "a particular situation or instance",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Canicule: nouvelle alerte d'EDF sur de possibles baisses de production nucléaire",
+    "tokens": [
+      ":",
+      "Canicule",
+      "alerte",
+      "baisses",
+      "d'EDF",
+      "de",
+      "nouvelle",
+      "nucléaire",
+      "possibles",
+      "production",
+      "sur"
+    ],
+    "context_block": {
+      "simplified_french_title": "EDF avertit sur la production nucléaire",
+      "simplified_english_title": "EDF warns about nuclear production",
+      "french_summary": "EDF annonce des baisses possibles de production nucléaire à cause de la canicule et de la sécheresse.",
+      "english_summary": "EDF announces possible drops in nuclear production due to the heatwave and drought.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Canicule": {
+        "display_format": "**Heatwave:** Canicule",
+        "explanation": "Period of very hot weather",
+        "cultural_note": "Common in France during summer months"
+      },
+      "alerte": {
+        "display_format": "**Alert:** alerte",
+        "explanation": "Warning or notice of potential danger",
+        "cultural_note": ""
+      },
+      "d'EDF": {
+        "display_format": "**EDF's:** d'EDF",
+        "explanation": "Électricité de France, a French utility company",
+        "cultural_note": "Major player in France's energy sector"
+      },
+      "baisses": {
+        "display_format": "**Drops:** baisses",
+        "explanation": "Reductions or decreases",
+        "cultural_note": ""
+      },
+      "production nucléaire": {
+        "display_format": "**Nuclear production:** production nucléaire",
+        "explanation": "Generation of nuclear energy",
+        "cultural_note": "France relies heavily on nuclear power"
+      }
+    }
+  },
+  {
+    "title": "Ukraine: Emmanuel Macron salue le \"rôle clé\" de la Norvège dans la \"coalition des volontaires\"",
+    "tokens": [
+      "\"",
+      ":",
+      "Emmanuel",
+      "Macron",
+      "Norvège",
+      "Ukraine",
+      "clé",
+      "coalition",
+      "dans",
+      "de",
+      "des",
+      "la",
+      "le",
+      "rôle",
+      "salue",
+      "volontaires"
+    ],
+    "context_block": {
+      "simplified_french_title": "Macron remercie la Norvège pour son aide",
+      "simplified_english_title": "Macron thanks Norway for its help",
+      "french_summary": "Emmanuel Macron a remercié la Norvège pour son rôle important dans la coalition qui soutient l'Ukraine.",
+      "english_summary": "Emmanuel Macron thanked Norway for its important role in the coalition supporting Ukraine.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "salue": {
+        "display_format": "**Praises:** salue",
+        "explanation": "Acknowledges or commends",
+        "cultural_note": ""
+      },
+      "rôle clé": {
+        "display_format": "**Key role:** rôle clé",
+        "explanation": "Crucial or essential function",
+        "cultural_note": "Common phrase in political contexts"
+      },
+      "Norvège": {
+        "display_format": "**Norway:** Norvège",
+        "explanation": "Scandinavian country",
+        "cultural_note": "Known for its role in international diplomacy"
+      },
+      "volontaires": {
+        "display_format": "**Volunteers:** volontaires",
+        "explanation": "People who offer services willingly",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Mollahs, président de la République, Guide suprême… Comment fonctionne le régime iranien ?",
+    "tokens": [
+      ",",
+      "?",
+      "Comment",
+      "Guide",
+      "Mollahs",
+      "République",
+      "de",
+      "fonctionne",
+      "iranien",
+      "la",
+      "le",
+      "président",
+      "régime",
+      "suprême"
+    ],
+    "context_block": {
+      "simplified_french_title": "Comment fonctionne le régime iranien ?",
+      "simplified_english_title": "How does the Iranian regime work?",
+      "french_summary": "L'Iran a un système politique complexe avec un président, un Guide suprême et des mollahs influents.",
+      "english_summary": "Iran has a complex political system with a president, a Supreme Leader, and influential mullahs.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Mollahs": {
+        "display_format": "**Clerics:** Mollahs",
+        "explanation": "Religious leaders in Islam",
+        "cultural_note": "Influential in Iranian politics"
+      },
+      "président": {
+        "display_format": "**President:** président",
+        "explanation": "Head of state in a republic",
+        "cultural_note": "Elected by the people"
+      },
+      "République": {
+        "display_format": "**Republic:** République",
+        "explanation": "State where power is held by the people",
+        "cultural_note": ""
+      },
+      "Guide suprême": {
+        "display_format": "**Supreme Leader:** Guide suprême",
+        "explanation": "Highest ranking political and religious authority",
+        "cultural_note": "Unique to Iran's government structure"
+      },
+      "régime": {
+        "display_format": "**Regime:** régime",
+        "explanation": "System of government",
+        "cultural_note": ""
+      },
+      "iranien": {
+        "display_format": "**Iranian:** iranien",
+        "explanation": "Relating to Iran",
+        "cultural_note": ""
+      },
+      "fonctionne": {
+        "display_format": "**Functions:** fonctionne",
+        "explanation": "How something operates",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Story 4 : Iran-Israël, Emmanuel Macron sur BFMTV - 23/06",
+    "tokens": [
+      ",",
+      "06",
+      "23",
+      "4",
+      ":",
+      "BFMTV",
+      "Emmanuel",
+      "Iran",
+      "Israël",
+      "Macron",
+      "Story",
+      "sur"
+    ],
+    "context_block": {
+      "simplified_french_title": "Macron parle de l'Iran et Israël sur BFMTV",
+      "simplified_english_title": "Macron discusses Iran and Israel on BFMTV",
+      "french_summary": "Emmanuel Macron a parlé des relations entre l'Iran et Israël lors d'une interview sur BFMTV le 23 juin.",
+      "english_summary": "Emmanuel Macron discussed the relations between Iran and Israel during an interview on BFMTV on June 23.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Middle Eastern country",
+        "cultural_note": "Often in news due to regional conflicts"
+      },
+      "sur": {
+        "display_format": "**On:** sur",
+        "explanation": "Indicates location or medium",
+        "cultural_note": ""
+      }
+    }
+  },
+  {
+    "title": "Israël-Iran: la France juge \"inacceptable\" la frappe de l'État hébreu sur la prison d'Evin",
+    "tokens": [
+      "\"",
+      ":",
+      "France",
+      "Iran",
+      "Israël",
+      "d'Evin",
+      "de",
+      "frappe",
+      "hébreu",
+      "inacceptable",
+      "juge",
+      "l'État",
+      "la",
+      "prison",
+      "sur"
+    ],
+    "context_block": {
+      "simplified_french_title": "La France critique une attaque d'Israël",
+      "simplified_english_title": "France criticizes an Israeli attack",
+      "french_summary": "La France dit qu'une attaque d'Israël sur une prison en Iran n'est pas acceptable.",
+      "english_summary": "France says an Israeli attack on a prison in Iran is unacceptable.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "Israël": {
+        "display_format": "**Israel:** Israël",
+        "explanation": "Country in the Middle East",
+        "cultural_note": "Often involved in regional conflicts"
+      },
+      "inacceptable": {
+        "display_format": "**Unacceptable:** inacceptable",
+        "explanation": "Not acceptable or tolerable",
+        "cultural_note": ""
+      },
+      "juge": {
+        "display_format": "**Judges:** juge",
+        "explanation": "Considers or deems",
+        "cultural_note": ""
+      },
+      "frappe": {
+        "display_format": "**Strike:** frappe",
+        "explanation": "Military attack or hit",
+        "cultural_note": ""
+      },
+      "l'État": {
+        "display_format": "**State:** l'État",
+        "explanation": "Nation or government entity",
+        "cultural_note": ""
+      },
+      "hébreu": {
+        "display_format": "**Hebrew:** hébreu",
+        "explanation": "Relating to Israel or Jewish culture",
+        "cultural_note": ""
+      },
+      "d'Evin": {
+        "display_format": "**of Evin:** d'Evin",
+        "explanation": "Notorious prison in Iran",
+        "cultural_note": "Known for holding political prisoners"
+      }
+    }
+  },
+  {
+    "title": "Macron met en garde contre les \"conséquences massives\" d'une fermeture du détroit d'Ormuz par l'Iran",
+    "tokens": [
+      "\"",
+      "Macron",
+      "conséquences",
+      "contre",
+      "d'Ormuz",
+      "d'une",
+      "du",
+      "détroit",
+      "en",
+      "fermeture",
+      "garde",
+      "l'Iran",
+      "les",
+      "massives",
+      "met",
+      "par"
+    ],
+    "context_block": {
+      "simplified_french_title": "Macron avertit sur le détroit d'Ormuz",
+      "simplified_english_title": "Macron warns about Strait of Hormuz",
+      "french_summary": "Le président Macron parle des graves conséquences si l'Iran ferme le détroit d'Ormuz, une voie maritime importante.",
+      "english_summary": "President Macron discusses serious consequences if Iran closes the Strait of Hormuz, an important maritime route.",
+      "difficulty": "B1",
+      "tone": "neutral"
+    },
+    "explanations": {
+      "met en garde": {
+        "display_format": "**Warns:** met en garde",
+        "explanation": "To caution or alert someone",
+        "cultural_note": "Common phrase in political contexts"
+      },
+      "contre": {
+        "display_format": "**Against:** contre",
+        "explanation": "Opposition or resistance to something",
+        "cultural_note": ""
+      },
+      "conséquences": {
+        "display_format": "**Consequences:** conséquences",
+        "explanation": "Results or effects of actions",
+        "cultural_note": ""
+      },
+      "massives": {
+        "display_format": "**Massive:** massives",
+        "explanation": "Very large or severe",
+        "cultural_note": ""
+      },
+      "fermeture": {
+        "display_format": "**Closure:** fermeture",
+        "explanation": "Act of closing something",
+        "cultural_note": ""
+      },
+      "du": {
+        "display_format": "**Of the:** du",
+        "explanation": "Contraction of 'de' and 'le'",
+        "cultural_note": "Commonly used in French"
+      },
+      "détroit": {
+        "display_format": "**Strait:** détroit",
+        "explanation": "Narrow passage of water",
+        "cultural_note": ""
+      },
+      "d’Ormuz": {
+        "display_format": "**Of Hormuz:** d’Ormuz",
+        "explanation": "Strait of Hormuz",
+        "cultural_note": "Strategically important waterway"
+      },
+      "par": {
+        "display_format": "**By:** par",
+        "explanation": "Indicates the agent of an action",
+        "cultural_note": ""
+      },
+      "l’Iran": {
+        "display_format": "**Iran:** l’Iran",
+        "explanation": "Country in the Middle East",
+        "cultural_note": "Known for its geopolitical significance"
+      },
+      "les": {
+        "display_format": "**The:** les",
+        "explanation": "Definite article, plural",
+        "cultural_note": ""
+      },
+      "d’une": {
+        "display_format": "**Of a:** d’une",
+        "explanation": "Contraction of 'de' and 'une'",
+        "cultural_note": ""
+      },
+      "«": {
+        "display_format": "**Quotation mark:** «",
+        "explanation": "Used to indicate direct speech",
+        "cultural_note": "French uses «» instead of “”"
+      },
+      "»": {
+        "display_format": "**Quotation mark:** »",
+        "explanation": "Used to indicate direct speech",
+        "cultural_note": "French uses «» instead of “”"
+      },
+      "en": {
+        "display_format": "**In/On/At:** en",
+        "explanation": "Preposition with various uses",
         "cultural_note": ""
       }
     }
