@@ -92,16 +92,25 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
                 continue  # skip non-dict
             if not {"original_word", "display_format", "explanation"}.issubset(obj):
                 continue  # skip incomplete item
+
+            # Guard against non-string original_word (e.g. list returned by LLM)
+            if not isinstance(obj.get("original_word"), str):
+                continue
+
             disp = obj.get("display_format", "")
             if not _english_heading_ok(disp, obj["original_word"]):
-                continue  # skip bad heading
+                continue  # skip bad heading or mismatched translation
             cleaned.append(obj)
+
         return (len(cleaned) > 0), cleaned if cleaned else None, "partial_ok" if cleaned else "no valid items"
 
     # -------- dict format --------
     if isinstance(data, dict):
         cleaned_d = {}
         for word, val in data.items():
+            # Ensure the key itself is a string and hashable
+            if not isinstance(word, str):
+                continue
             if not isinstance(val, dict):
                 continue
             if not {"display_format", "explanation"}.issubset(val):
@@ -187,7 +196,7 @@ try:
 except Exception:
     _GLOSSARY = {}
 
-def _english_heading_ok(display_format: str, original_word: str) -> bool:
+def _english_heading_ok(display_format: str, original_word) -> bool:
     """Return False if the heading still looks French.
 
     Criteria:
@@ -200,6 +209,11 @@ def _english_heading_ok(display_format: str, original_word: str) -> bool:
     if not m:
         return False
     heading = m.group(1).strip()
+
+    # If original_word is not a string we immediately reject
+    if not isinstance(original_word, str):
+        return False
+
     if heading.lower() == (original_word or "").lower():
         return False
     if re.search(r"[À-ÿ]", heading):
