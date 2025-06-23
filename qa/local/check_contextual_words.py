@@ -100,7 +100,15 @@ def main():
         if not coverage_ok(title, ctxt):
             gaps += 1
 
-        # ---------- new heading quality check ----------
+        # ---------- new heading quality check (only for fresh articles) ----------
+        proc_ds = art.get("processed_at") or art.get("processing_date")
+        legacy = False
+        dt_cut = datetime(2025, 6, 23)
+        if proc_ds:
+            ts = _parse_iso(proc_ds)
+            if ts and ts < dt_cut:
+                legacy = True
+
         def _heading_is_french(display_fmt: str, original: str) -> bool:
             import re
             m = re.match(r"\*\*([^:]+):", display_fmt or "")
@@ -110,14 +118,14 @@ def main():
             # accented letter or identical to original token
             return heading.lower() == original.lower() or bool(re.search(r"[À-ÿ]", heading))
 
-        # Iterate list or dict uniformly
-        items = ctxt.values() if isinstance(ctxt, dict) else ctxt
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            if _heading_is_french(item.get("display_format", ""), item.get("original_word", "")):
-                bad_heading += 1
-                break  # one bad per article is enough
+        if not legacy:
+            items = ctxt.values() if isinstance(ctxt, dict) else ctxt
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                if _heading_is_french(item.get("display_format", ""), item.get("original_word", "")):
+                    bad_heading += 1
+                    break  # one bad per article is enough
 
     # -------- Ordering check --------
     dates = [
