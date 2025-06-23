@@ -167,7 +167,13 @@ class ProcessorV2:
                 if new_art.ai_enhanced or article_is_display_ready(new_art):
                     processed.append(new_art)
             except Exception as e:
-                logger.error("Failed to process article %s: %s", art.original_article_title[:50], e)
+                import traceback
+                logger.error(
+                    "Failed to process article %s: %s\n%s",
+                    art.original_article_title[:50],
+                    e,
+                    traceback.format_exc(),
+                )
         # Persist changes -----------------------------------------------------------------
         # 1. Update pending store (overwrite articles with same link)
         pending_existing = Storage.load_pending()
