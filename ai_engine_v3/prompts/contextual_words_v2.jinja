@@ -28,7 +28,8 @@ Schema (MUST follow exactly – reply with JSON only, no markdown fences):
 
 Checklist before you answer:
 1. Include every meaningful noun, verb, idiom, or multi-word proper name (combine capitals into one entry).  
-2. 3-10 items total.  
+2. If `TOKENS_TO_DEFINE` is provided (see below) you **MUST** return exactly one JSON object *for every token in that list* and in the same order.  No extra or missing items.  
+   Otherwise, when no list is given, include 3-10 of the most important tokens.  
 3. Keys and order as in schema.  
 4. No markdown wrappers, no extra keys, valid JSON.
 5. If a *Key fact* entity was provided in the CONTEXT block, ensure it appears once in `original_word`.
