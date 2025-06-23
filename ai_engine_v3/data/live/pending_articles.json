@@ -65282,6 +65282,621 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Tech Flash : Tesla lance ses robotaxis à Austin, par Léa Benaim - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-tesla-lance-ses-robotaxis-a-austin-par-lea-benaim-23-06_VN-202506230772.html",
+      "original_article_published_date": "2025-06-23T19:36:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tesla présente ses robotaxis à Austin",
+      "simplified_english_title": "Tesla unveils robotaxis in Austin",
+      "french_summary": "Tesla a lancé ses nouveaux robotaxis à Austin. Léa Benaim rapporte cette nouvelle technologique importante.",
+      "english_summary": "Tesla launched its new robotaxis in Austin. Léa Benaim reports on this significant technological news.",
+      "contextual_title_explanations": {
+        "robotaxis": {
+          "display_format": "**Robot taxis:** robotaxis",
+          "explanation": "Self-driving cars for hire",
+          "cultural_note": "Tesla's autonomous vehicle project"
+        },
+        "lance": {
+          "display_format": "**Launches:** lance",
+          "explanation": "Introduces or starts something new",
+          "cultural_note": ""
+        },
+        "Le Tech Flash": {
+          "display_format": "**The Tech Flash:** Le Tech Flash",
+          "explanation": "Name of a tech news segment",
+          "cultural_note": "Common format for tech updates"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Google envisage l'implantation de son premier data center en France dans l'agglomération de Châteauroux",
+      "original_article_link": "https://www.franceinfo.fr/internet/google/google-envisage-l-implantation-de-son-premier-data-center-en-france-dans-l-agglomeration-de-chateauroux_7333005.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:53:39",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Google veut construire un data center en France",
+      "simplified_english_title": "Google plans to build a data center in France",
+      "french_summary": "Google prévoit de construire son premier data center en France, près de la ville de Châteauroux.",
+      "english_summary": "Google plans to build its first data center in France, near the city of Châteauroux.",
+      "contextual_title_explanations": {
+        "l&#39;agglomération": {
+          "display_format": "**Urban area:** l'agglomération",
+          "explanation": "City and its surrounding suburbs",
+          "cultural_note": "Often refers to a metropolitan area"
+        },
+        "l&#39;implantation": {
+          "display_format": "**Establishment:** l'implantation",
+          "explanation": "Setting up a new facility",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its:** son",
+          "explanation": "Possessive pronoun for 'his' or 'its'",
+          "cultural_note": ""
+        },
+        "envisage": {
+          "display_format": "**Envisages:** envisage",
+          "explanation": "Considers or plans for the future",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "premier": {
+          "display_format": "**First:** premier",
+          "explanation": "First in order or importance",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : ce que l'on sait de la riposte de l'Iran en réponse aux bombardements américains contre des sites nucléaires",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/guerre-au-moyen-orient-ce-que-l-on-sait-de-la-riposte-de-l-iran-en-reponse-aux-bombardements-americains-contre-des-sites-nucleaires_7332978.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:57:49",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran répond aux attaques américaines",
+      "simplified_english_title": "Iran responds to American attacks",
+      "french_summary": "L'Iran a réagi aux bombardements américains sur des sites nucléaires. Les détails de la riposte sont encore limités.",
+      "english_summary": "Iran responded to American bombings on nuclear sites. Details of the counterattack are still limited.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including countries from Egypt to Iran",
+          "cultural_note": "Strategically important area with historical conflicts"
+        },
+        "riposte": {
+          "display_format": "**Retaliation:** riposte",
+          "explanation": "Counterattack or response to an attack",
+          "cultural_note": "Commonly used in military and political contexts"
+        },
+        "l&#39;Iran": {
+          "display_format": "**Iran:** l&#39;Iran",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Known for its historical and political significance"
+        },
+        "bombardements": {
+          "display_format": "**Bombings:** bombardements",
+          "explanation": "Acts of dropping bombs",
+          "cultural_note": "Often used in contexts of military strikes"
+        },
+        "américains": {
+          "display_format": "**Americans:** américains",
+          "explanation": "Relating to the United States",
+          "cultural_note": "Refers to people or actions from the USA"
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Relating to atomic energy or weapons",
+          "cultural_note": "Often discussed in contexts of power and weapons"
+        },
+        "réponse": {
+          "display_format": "**Response:** réponse",
+          "explanation": "Reaction or answer to an action",
+          "cultural_note": "Used in both everyday and political contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France et la Norvège signent un accord sur le stockage géologique de CO2",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/la-france-et-la-norvege-signent-un-accord-sur-le-stockage-geologique-de-co2-20250623",
+      "original_article_published_date": "2025-06-23T20:13:58",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France et la Norvège collaborent pour le CO2",
+      "simplified_english_title": "France and Norway partner on CO2 storage",
+      "french_summary": "La France et la Norvège ont signé un accord pour stocker du CO2 sous terre et réduire les émissions.",
+      "english_summary": "France and Norway signed an agreement to store CO2 underground to cut emissions.",
+      "contextual_title_explanations": {
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Connects two similar ideas",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement:** accord",
+          "explanation": "Formal arrangement between parties",
+          "cultural_note": ""
+        },
+        "stockage": {
+          "display_format": "**Storage:** stockage",
+          "explanation": "The action of storing something",
+          "cultural_note": ""
+        },
+        "géologique": {
+          "display_format": "**Geological:** géologique",
+          "explanation": "Relating to the Earth's structure",
+          "cultural_note": ""
+        },
+        "Norvège": {
+          "display_format": "**Norway:** Norvège",
+          "explanation": "Country in Northern Europe",
+          "cultural_note": "Known for its fjords and oil reserves"
+        },
+        "signent": {
+          "display_format": "**Sign:** signent",
+          "explanation": "To write one's name formally",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bases américaines visées: \"J'exprime la solidarité de la France au Qatar frappé par l'Iran sur son sol\", réagit Emmanuel Macron",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-bases-americaines-visees-j-exprime-la-solidarite-de-la-france-au-qatar-frappe-par-l-iran-sur-son-sol-reagit-emmanuel-macron_VN-202506230742.html",
+      "original_article_published_date": "2025-06-23T18:32:50",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron soutient le Qatar après des attaques",
+      "simplified_english_title": "Macron supports Qatar after attacks",
+      "french_summary": "Emmanuel Macron exprime la solidarité de la France envers le Qatar après des attaques iraniennes sur des bases américaines.",
+      "english_summary": "Emmanuel Macron expresses France's solidarity with Qatar after Iranian attacks on American bases.",
+      "contextual_title_explanations": {
+        "J'exprime": {
+          "display_format": "**I express:** J'exprime",
+          "explanation": "First-person verb form",
+          "cultural_note": "Used for formal statements"
+        },
+        "solidarité": {
+          "display_format": "**Solidarity:** solidarité",
+          "explanation": "Support or unity",
+          "cultural_note": "Important value in French politics"
+        },
+        "visées": {
+          "display_format": "**Targeted:** visées",
+          "explanation": "Past participle of 'viser'",
+          "cultural_note": "Often used in news headlines"
+        },
+        "réagit": {
+          "display_format": "**Reacted:** réagit",
+          "explanation": "Past tense of 'réagir'",
+          "cultural_note": "Common in political responses"
+        },
+        "frappé": {
+          "display_format": "**Struck:** frappé",
+          "explanation": "Past participle of 'frapper'",
+          "cultural_note": "Used for attacks or impacts"
+        },
+        "l'Iran": {
+          "display_format": "**Iran:** l'Iran",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for geopolitical tensions"
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Feminine plural adjective",
+          "cultural_note": "Refers to US military bases"
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Common preposition",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**His/Its:** son",
+          "explanation": "Possessive adjective",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Contraction of 'à le'",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Preposition indicating agent",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "sol": {
+          "display_format": "**Soil:** sol",
+          "explanation": "Ground or territory",
+          "cultural_note": "Refers to national territory"
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "\"": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation for direct speech",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Backliz, le leasing de véhicules électriques reconditionnés",
+      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge-academie/backliz-le-leasing-de-vehicules-electriques-reconditionnes-760697",
+      "original_article_published_date": "2025-06-23T19:45:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Location de voitures électriques d'occasion",
+      "simplified_english_title": "Leasing used electric cars",
+      "french_summary": "Backliz propose des voitures électriques reconditionnées en location, une solution économique et écologique pour les conducteurs.",
+      "english_summary": "Backliz offers leasing for refurbished electric cars, an economical and eco-friendly option for drivers.",
+      "contextual_title_explanations": {
+        "véhicules": {
+          "display_format": "**Vehicles:** véhicules",
+          "explanation": "Cars or other road transport",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**Electric:** électriques",
+          "explanation": "Powered by electricity",
+          "cultural_note": "France promotes electric vehicles"
+        },
+        "reconditionnés": {
+          "display_format": "**Refurbished:** reconditionnés",
+          "explanation": "Restored to good condition",
+          "cultural_note": "Popular for cost savings"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bombardements américains en Iran : l’armée de Téhéran riposte en visant la base américaine d’Al-Udeid",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/bombardements-americains-en-iran-l-armee-de-teheran-riposte-en-visant-la-base-americaine-d-al-udeid_7332969.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:54:04",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran attaque une base américaine",
+      "simplified_english_title": "Iran attacks a US base",
+      "french_summary": "Après des bombardements américains en Iran, l'armée iranienne a attaqué la base américaine d'Al-Udeid en représailles.",
+      "english_summary": "After US bombings in Iran, the Iranian army retaliated by targeting the American base of Al-Udeid.",
+      "contextual_title_explanations": {
+        "Bombardements": {
+          "display_format": "**Bombings:** Bombardements",
+          "explanation": "Military air strikes",
+          "cultural_note": "Common in conflict reporting"
+        },
+        "américains": {
+          "display_format": "**American:** américains",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        },
+        "armée": {
+          "display_format": "**Army:** armée",
+          "explanation": "Military force",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital of Iran",
+          "cultural_note": "Political and cultural center"
+        },
+        "riposte": {
+          "display_format": "**Retaliates:** riposte",
+          "explanation": "Counterattack",
+          "cultural_note": "Common in military contexts"
+        },
+        "visant": {
+          "display_format": "**Targeting:** visant",
+          "explanation": "Aiming at",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gaza: les images impressionnantes de l’explosion d’un long tunnel utilisé par le Hamas",
+      "original_article_link": "https://www.lefigaro.fr/international/gaza-les-images-impressionnantes-de-l-explosion-d-un-long-tunnel-utilise-par-le-hamas-20250623",
+      "original_article_published_date": "2025-06-23T18:59:25",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Explosion d'un tunnel du Hamas à Gaza",
+      "simplified_english_title": "Explosion of a Hamas tunnel in Gaza",
+      "french_summary": "Des images montrent l'explosion d'un long tunnel utilisé par le Hamas à Gaza, impressionnant par son ampleur.",
+      "english_summary": "Images show the explosion of a long tunnel used by Hamas in Gaza, impressive in its scale.",
+      "contextual_title_explanations": {
+        "impressionnantes": {
+          "display_format": "**Impressive:** impressionnantes",
+          "explanation": "Causing strong feelings",
+          "cultural_note": ""
+        },
+        "utilisé": {
+          "display_format": "**Used:** utilisé",
+          "explanation": "Past participle of 'utiliser'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : des explosions entendues à Doha, capitale du Qatar",
+      "original_article_link": "https://www.europe1.fr/international/guerre-au-moyen-orient-des-explosions-entendues-a-doha-capitale-du-qatar-760720",
+      "original_article_published_date": "2025-06-23T17:28:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Explosions entendues à Doha au Qatar",
+      "simplified_english_title": "Explosions heard in Doha, Qatar",
+      "french_summary": "Des explosions ont été entendues à Doha, la capitale du Qatar, dans le contexte de la guerre au Moyen-Orient.",
+      "english_summary": "Explosions were heard in Doha, the capital of Qatar, amid the Middle East war.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Conflict involving armed forces",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including Western Asia and Egypt",
+          "cultural_note": "Geopolitically significant area"
+        },
+        "entendues": {
+          "display_format": "**Heard:** entendues",
+          "explanation": "Past participle of 'entendre'",
+          "cultural_note": ""
+        },
+        "capitale": {
+          "display_format": "**Capital:** capitale",
+          "explanation": "Main city, often seat of government",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Images et témoignages de la prison d’Evin à Téhéran, après une frappe israélienne",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250623-iran-israel-prison-evin-teheran-images-temoins",
+      "original_article_published_date": "2025-06-23T16:09:34",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La prison d’Evin touchée par une attaque israélienne",
+      "simplified_english_title": "Israeli strike hits Evin Prison in Tehran",
+      "french_summary": "Des images et des témoignages montrent les dégâts causés par une frappe israélienne sur la prison d’Evin à Téhéran.",
+      "english_summary": "Images and testimonies show the damage from an Israeli strike on Evin Prison in Tehran.",
+      "contextual_title_explanations": {
+        "témoignages": {
+          "display_format": "**Testimonies:** témoignages",
+          "explanation": "Personal accounts or statements",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**Strike:** frappe",
+          "explanation": "Military attack",
+          "cultural_note": ""
+        },
+        "israélienne": {
+          "display_format": "**Israeli:** israélienne",
+          "explanation": "Relating to Israel",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Following an event",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }

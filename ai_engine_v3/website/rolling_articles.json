@@ -3,6 +3,514 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "La France et la Norvège signent un accord sur le stockage géologique de CO2",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/la-france-et-la-norvege-signent-un-accord-sur-le-stockage-geologique-de-co2-20250623",
+      "original_article_published_date": "2025-06-23T20:13:58",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France et la Norvège collaborent pour le CO2",
+      "simplified_english_title": "France and Norway partner on CO2 storage",
+      "french_summary": "La France et la Norvège ont signé un accord pour stocker du CO2 sous terre et réduire les émissions.",
+      "english_summary": "France and Norway signed an agreement to store CO2 underground to cut emissions.",
+      "contextual_title_explanations": {
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Connects two similar ideas",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement:** accord",
+          "explanation": "Formal arrangement between parties",
+          "cultural_note": ""
+        },
+        "stockage": {
+          "display_format": "**Storage:** stockage",
+          "explanation": "The action of storing something",
+          "cultural_note": ""
+        },
+        "géologique": {
+          "display_format": "**Geological:** géologique",
+          "explanation": "Relating to the Earth's structure",
+          "cultural_note": ""
+        },
+        "Norvège": {
+          "display_format": "**Norway:** Norvège",
+          "explanation": "Country in Northern Europe",
+          "cultural_note": "Known for its fjords and oil reserves"
+        },
+        "signent": {
+          "display_format": "**Sign:** signent",
+          "explanation": "To write one's name formally",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : ce que l'on sait de la riposte de l'Iran en réponse aux bombardements américains contre des sites nucléaires",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/guerre-au-moyen-orient-ce-que-l-on-sait-de-la-riposte-de-l-iran-en-reponse-aux-bombardements-americains-contre-des-sites-nucleaires_7332978.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:57:49",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran répond aux attaques américaines",
+      "simplified_english_title": "Iran responds to American attacks",
+      "french_summary": "L'Iran a réagi aux bombardements américains sur des sites nucléaires. Les détails de la riposte sont encore limités.",
+      "english_summary": "Iran responded to American bombings on nuclear sites. Details of the counterattack are still limited.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including countries from Egypt to Iran",
+          "cultural_note": "Strategically important area with historical conflicts"
+        },
+        "riposte": {
+          "display_format": "**Retaliation:** riposte",
+          "explanation": "Counterattack or response to an attack",
+          "cultural_note": "Commonly used in military and political contexts"
+        },
+        "l&#39;Iran": {
+          "display_format": "**Iran:** l&#39;Iran",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Known for its historical and political significance"
+        },
+        "bombardements": {
+          "display_format": "**Bombings:** bombardements",
+          "explanation": "Acts of dropping bombs",
+          "cultural_note": "Often used in contexts of military strikes"
+        },
+        "américains": {
+          "display_format": "**Americans:** américains",
+          "explanation": "Relating to the United States",
+          "cultural_note": "Refers to people or actions from the USA"
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Relating to atomic energy or weapons",
+          "cultural_note": "Often discussed in contexts of power and weapons"
+        },
+        "réponse": {
+          "display_format": "**Response:** réponse",
+          "explanation": "Reaction or answer to an action",
+          "cultural_note": "Used in both everyday and political contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bombardements américains en Iran : l’armée de Téhéran riposte en visant la base américaine d’Al-Udeid",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/bombardements-americains-en-iran-l-armee-de-teheran-riposte-en-visant-la-base-americaine-d-al-udeid_7332969.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:54:04",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran attaque une base américaine",
+      "simplified_english_title": "Iran attacks a US base",
+      "french_summary": "Après des bombardements américains en Iran, l'armée iranienne a attaqué la base américaine d'Al-Udeid en représailles.",
+      "english_summary": "After US bombings in Iran, the Iranian army retaliated by targeting the American base of Al-Udeid.",
+      "contextual_title_explanations": {
+        "Bombardements": {
+          "display_format": "**Bombings:** Bombardements",
+          "explanation": "Military air strikes",
+          "cultural_note": "Common in conflict reporting"
+        },
+        "américains": {
+          "display_format": "**American:** américains",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        },
+        "armée": {
+          "display_format": "**Army:** armée",
+          "explanation": "Military force",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital of Iran",
+          "cultural_note": "Political and cultural center"
+        },
+        "riposte": {
+          "display_format": "**Retaliates:** riposte",
+          "explanation": "Counterattack",
+          "cultural_note": "Common in military contexts"
+        },
+        "visant": {
+          "display_format": "**Targeting:** visant",
+          "explanation": "Aiming at",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Google envisage l'implantation de son premier data center en France dans l'agglomération de Châteauroux",
+      "original_article_link": "https://www.franceinfo.fr/internet/google/google-envisage-l-implantation-de-son-premier-data-center-en-france-dans-l-agglomeration-de-chateauroux_7333005.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:53:39",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Google veut construire un data center en France",
+      "simplified_english_title": "Google plans to build a data center in France",
+      "french_summary": "Google prévoit de construire son premier data center en France, près de la ville de Châteauroux.",
+      "english_summary": "Google plans to build its first data center in France, near the city of Châteauroux.",
+      "contextual_title_explanations": {
+        "l&#39;agglomération": {
+          "display_format": "**Urban area:** l'agglomération",
+          "explanation": "City and its surrounding suburbs",
+          "cultural_note": "Often refers to a metropolitan area"
+        },
+        "l&#39;implantation": {
+          "display_format": "**Establishment:** l'implantation",
+          "explanation": "Setting up a new facility",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its:** son",
+          "explanation": "Possessive pronoun for 'his' or 'its'",
+          "cultural_note": ""
+        },
+        "envisage": {
+          "display_format": "**Envisages:** envisage",
+          "explanation": "Considers or plans for the future",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "premier": {
+          "display_format": "**First:** premier",
+          "explanation": "First in order or importance",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Backliz, le leasing de véhicules électriques reconditionnés",
+      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge-academie/backliz-le-leasing-de-vehicules-electriques-reconditionnes-760697",
+      "original_article_published_date": "2025-06-23T19:45:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Location de voitures électriques d'occasion",
+      "simplified_english_title": "Leasing used electric cars",
+      "french_summary": "Backliz propose des voitures électriques reconditionnées en location, une solution économique et écologique pour les conducteurs.",
+      "english_summary": "Backliz offers leasing for refurbished electric cars, an economical and eco-friendly option for drivers.",
+      "contextual_title_explanations": {
+        "véhicules": {
+          "display_format": "**Vehicles:** véhicules",
+          "explanation": "Cars or other road transport",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**Electric:** électriques",
+          "explanation": "Powered by electricity",
+          "cultural_note": "France promotes electric vehicles"
+        },
+        "reconditionnés": {
+          "display_format": "**Refurbished:** reconditionnés",
+          "explanation": "Restored to good condition",
+          "cultural_note": "Popular for cost savings"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Tech Flash : Tesla lance ses robotaxis à Austin, par Léa Benaim - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-tesla-lance-ses-robotaxis-a-austin-par-lea-benaim-23-06_VN-202506230772.html",
+      "original_article_published_date": "2025-06-23T19:36:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tesla présente ses robotaxis à Austin",
+      "simplified_english_title": "Tesla unveils robotaxis in Austin",
+      "french_summary": "Tesla a lancé ses nouveaux robotaxis à Austin. Léa Benaim rapporte cette nouvelle technologique importante.",
+      "english_summary": "Tesla launched its new robotaxis in Austin. Léa Benaim reports on this significant technological news.",
+      "contextual_title_explanations": {
+        "robotaxis": {
+          "display_format": "**Robot taxis:** robotaxis",
+          "explanation": "Self-driving cars for hire",
+          "cultural_note": "Tesla's autonomous vehicle project"
+        },
+        "lance": {
+          "display_format": "**Launches:** lance",
+          "explanation": "Introduces or starts something new",
+          "cultural_note": ""
+        },
+        "Le Tech Flash": {
+          "display_format": "**The Tech Flash:** Le Tech Flash",
+          "explanation": "Name of a tech news segment",
+          "cultural_note": "Common format for tech updates"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Gaza: les images impressionnantes de l’explosion d’un long tunnel utilisé par le Hamas",
+      "original_article_link": "https://www.lefigaro.fr/international/gaza-les-images-impressionnantes-de-l-explosion-d-un-long-tunnel-utilise-par-le-hamas-20250623",
+      "original_article_published_date": "2025-06-23T18:59:25",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Explosion d'un tunnel du Hamas à Gaza",
+      "simplified_english_title": "Explosion of a Hamas tunnel in Gaza",
+      "french_summary": "Des images montrent l'explosion d'un long tunnel utilisé par le Hamas à Gaza, impressionnant par son ampleur.",
+      "english_summary": "Images show the explosion of a long tunnel used by Hamas in Gaza, impressive in its scale.",
+      "contextual_title_explanations": {
+        "impressionnantes": {
+          "display_format": "**Impressive:** impressionnantes",
+          "explanation": "Causing strong feelings",
+          "cultural_note": ""
+        },
+        "utilisé": {
+          "display_format": "**Used:** utilisé",
+          "explanation": "Past participle of 'utiliser'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bases américaines visées: \"J'exprime la solidarité de la France au Qatar frappé par l'Iran sur son sol\", réagit Emmanuel Macron",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-bases-americaines-visees-j-exprime-la-solidarite-de-la-france-au-qatar-frappe-par-l-iran-sur-son-sol-reagit-emmanuel-macron_VN-202506230742.html",
+      "original_article_published_date": "2025-06-23T18:32:50",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron soutient le Qatar après des attaques",
+      "simplified_english_title": "Macron supports Qatar after attacks",
+      "french_summary": "Emmanuel Macron exprime la solidarité de la France envers le Qatar après des attaques iraniennes sur des bases américaines.",
+      "english_summary": "Emmanuel Macron expresses France's solidarity with Qatar after Iranian attacks on American bases.",
+      "contextual_title_explanations": {
+        "J'exprime": {
+          "display_format": "**I express:** J'exprime",
+          "explanation": "First-person verb form",
+          "cultural_note": "Used for formal statements"
+        },
+        "solidarité": {
+          "display_format": "**Solidarity:** solidarité",
+          "explanation": "Support or unity",
+          "cultural_note": "Important value in French politics"
+        },
+        "visées": {
+          "display_format": "**Targeted:** visées",
+          "explanation": "Past participle of 'viser'",
+          "cultural_note": "Often used in news headlines"
+        },
+        "réagit": {
+          "display_format": "**Reacted:** réagit",
+          "explanation": "Past tense of 'réagir'",
+          "cultural_note": "Common in political responses"
+        },
+        "frappé": {
+          "display_format": "**Struck:** frappé",
+          "explanation": "Past participle of 'frapper'",
+          "cultural_note": "Used for attacks or impacts"
+        },
+        "l'Iran": {
+          "display_format": "**Iran:** l'Iran",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for geopolitical tensions"
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Feminine plural adjective",
+          "cultural_note": "Refers to US military bases"
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Common preposition",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**His/Its:** son",
+          "explanation": "Possessive adjective",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Contraction of 'à le'",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Preposition indicating agent",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "sol": {
+          "display_format": "**Soil:** sol",
+          "explanation": "Ground or territory",
+          "cultural_note": "Refers to national territory"
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "\"": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation for direct speech",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Israël-Iran : les cours du pétrole dégringolent après l’attaque iranienne visant une base américaine",
       "original_article_link": "https://www.lefigaro.fr/conjoncture/israel-iran-les-cours-du-petrole-degringolent-apres-l-attaque-iranienne-visant-une-base-americaine-20250623",
       "original_article_published_date": "2025-06-23T18:17:16",
@@ -441,6 +949,57 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T18:27:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : des explosions entendues à Doha, capitale du Qatar",
+      "original_article_link": "https://www.europe1.fr/international/guerre-au-moyen-orient-des-explosions-entendues-a-doha-capitale-du-qatar-760720",
+      "original_article_published_date": "2025-06-23T17:28:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Explosions entendues à Doha au Qatar",
+      "simplified_english_title": "Explosions heard in Doha, Qatar",
+      "french_summary": "Des explosions ont été entendues à Doha, la capitale du Qatar, dans le contexte de la guerre au Moyen-Orient.",
+      "english_summary": "Explosions were heard in Doha, the capital of Qatar, amid the Middle East war.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Conflict involving armed forces",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including Western Asia and Egypt",
+          "cultural_note": "Geopolitically significant area"
+        },
+        "entendues": {
+          "display_format": "**Heard:** entendues",
+          "explanation": "Past participle of 'entendre'",
+          "cultural_note": ""
+        },
+        "capitale": {
+          "display_format": "**Capital:** capitale",
+          "explanation": "Main city, often seat of government",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1232,6 +1791,62 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T17:18:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Images et témoignages de la prison d’Evin à Téhéran, après une frappe israélienne",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250623-iran-israel-prison-evin-teheran-images-temoins",
+      "original_article_published_date": "2025-06-23T16:09:34",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La prison d’Evin touchée par une attaque israélienne",
+      "simplified_english_title": "Israeli strike hits Evin Prison in Tehran",
+      "french_summary": "Des images et des témoignages montrent les dégâts causés par une frappe israélienne sur la prison d’Evin à Téhéran.",
+      "english_summary": "Images and testimonies show the damage from an Israeli strike on Evin Prison in Tehran.",
+      "contextual_title_explanations": {
+        "témoignages": {
+          "display_format": "**Testimonies:** témoignages",
+          "explanation": "Personal accounts or statements",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        "frappe": {
+          "display_format": "**Strike:** frappe",
+          "explanation": "Military attack",
+          "cultural_note": ""
+        },
+        "israélienne": {
+          "display_format": "**Israeli:** israélienne",
+          "explanation": "Relating to Israel",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Following an event",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -4856,889 +5471,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre entre Israël et l'Iran : plus de 150 Français ont été rapatriés depuis l'Etat hébreu, annonce le ministre des Affaires étrangères",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-entre-israel-et-l-iran-plus-de-150-francais-ont-ete-rapatries-depuis-l-etat-hebreu-annonce-le-ministre-des-affaires-etrangeres_7332006.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T06:49:22",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des Français quittent Israël à cause de la guerre",
-      "simplified_english_title": "French citizens leave Israel due to war",
-      "french_summary": "Plus de 150 Français ont été ramenés en France depuis Israël à cause de la guerre avec l'Iran.",
-      "english_summary": "Over 150 French citizens have been brought back to France from Israel because of the war with Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "War or conflict",
-          "cultural_note": ""
-        },
-        "entre": {
-          "display_format": "**entre:** Entre deux parties",
-          "explanation": "Between two parties",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israël:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "l'Iran": {
-          "display_format": "**l'Iran:** Pays du Moyen-Orient",
-          "explanation": "Country in the Middle East",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "plus de": {
-          "display_format": "**plus de:** Plus que",
-          "explanation": "More than",
-          "cultural_note": ""
-        },
-        "150": {
-          "display_format": "**150:** Cent cinquante",
-          "explanation": "One hundred fifty",
-          "cultural_note": ""
-        },
-        "Français": {
-          "display_format": "**Français:** Personnes de France",
-          "explanation": "French people",
-          "cultural_note": ""
-        },
-        "ont été rapatriés": {
-          "display_format": "**ont été rapatriés:** Rapatriement",
-          "explanation": "Have been repatriated",
-          "cultural_note": ""
-        },
-        "depuis": {
-          "display_format": "**depuis:** À partir de",
-          "explanation": "From or since",
-          "cultural_note": ""
-        },
-        "l'État hébreu": {
-          "display_format": "**l'État hébreu:** Israël",
-          "explanation": "The State of Israel",
-          "cultural_note": "Common term for Israel in French media"
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "annonce": {
-          "display_format": "**annonce:** Déclare",
-          "explanation": "Announces",
-          "cultural_note": ""
-        },
-        "le ministre des Affaires étrangères": {
-          "display_format": "**le ministre des Affaires étrangères:** Ministre des relations internationales",
-          "explanation": "Foreign Affairs Minister",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : un homme accusé d'espionnage pour le compte de l’État hébreu pendu ce lundi, annonce Téhéran",
-      "original_article_link": "https://www.lefigaro.fr/international/guerre-israel-iran-un-homme-accuse-d-espionnage-pour-le-compte-de-l-etat-hebreu-pendu-ce-lundi-annonce-teheran-20250623",
-      "original_article_published_date": "2025-06-23T06:42:09",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un homme pendu pour espionnage en Iran",
-      "simplified_english_title": "Man hanged for spying in Iran",
-      "french_summary": "Téhéran a annoncé l'exécution d'un homme accusé d'espionnage pour Israël dans le contexte des tensions entre les deux pays.",
-      "english_summary": "Tehran announced the execution of a man accused of spying for Israel amid tensions between the two countries.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "War or conflict",
-          "cultural_note": ""
-        },
-        "Israël-Iran": {
-          "display_format": "**Israël-Iran:** Conflit entre deux pays",
-          "explanation": "Conflict between Israel and Iran",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**un:** Un homme",
-          "explanation": "A man",
-          "cultural_note": ""
-        },
-        "homme": {
-          "display_format": "**homme:** Personne masculine",
-          "explanation": "Man or male person",
-          "cultural_note": ""
-        },
-        "accusé": {
-          "display_format": "**accusé:** Inculpé",
-          "explanation": "Accused or charged",
-          "cultural_note": ""
-        },
-        "d'espionnage": {
-          "display_format": "**d'espionnage:** Action de espionner",
-          "explanation": "Of spying",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**pour:** En faveur de",
-          "explanation": "For or on behalf of",
-          "cultural_note": ""
-        },
-        "le compte de": {
-          "display_format": "**le compte de:** Au nom de",
-          "explanation": "On behalf of",
-          "cultural_note": ""
-        },
-        "l’État": {
-          "display_format": "**l’État:** Le pays",
-          "explanation": "The state or country",
-          "cultural_note": ""
-        },
-        "hébreu": {
-          "display_format": "**hébreu:** Relatif à Israël",
-          "explanation": "Relating to Israel",
-          "cultural_note": ""
-        },
-        "pendu": {
-          "display_format": "**pendu:** Exécuté par pendaison",
-          "explanation": "Hanged or executed by hanging",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**ce:** Ce jour",
-          "explanation": "This or that",
-          "cultural_note": ""
-        },
-        "lundi": {
-          "display_format": "**lundi:** Jour de la semaine",
-          "explanation": "Monday",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,** Virgule",
-          "explanation": "Comma for separation",
-          "cultural_note": ""
-        },
-        "annonce": {
-          "display_format": "**annonce:** Déclare",
-          "explanation": "Announces or declares",
-          "cultural_note": ""
-        },
-        "Téhéran": {
-          "display_format": "**Téhéran:** Capitale de l'Iran",
-          "explanation": "Capital of Iran",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre au Proche-Orient : «La France est devenue spectatrice de l'histoire», affirme François-Xavier Bellamy",
-      "original_article_link": "https://www.europe1.fr/international/guerre-au-proche-orient-la-france-est-devenue-spectatrice-de-lhistoire-affirme-francois-xavier-bellamy-760618",
-      "original_article_published_date": "2025-06-23T06:38:01",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "opinion",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France est spectatrice dans la guerre",
-      "simplified_english_title": "France is a spectator in the war",
-      "french_summary": "François-Xavier Bellamy dit que la France ne joue pas un rôle actif dans la guerre au Proche-Orient.",
-      "english_summary": "François-Xavier Bellamy says France is not playing an active role in the Middle East war.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**Guerre:** Conflit armé",
-          "explanation": "War or armed conflict",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**au:** à le",
-          "explanation": "Combination of 'à' and 'le'",
-          "cultural_note": ""
-        },
-        "Proche-Orient": {
-          "display_format": "**Proche-Orient:** Région du Moyen-Orient",
-          "explanation": "Middle East region",
-          "cultural_note": "Includes countries like Syria, Lebanon, Israel"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": "French uses « » as quotation marks"
-        },
-        "La France": {
-          "display_format": "**La France:** Pays européen",
-          "explanation": "European country",
-          "cultural_note": ""
-        },
-        "est devenue": {
-          "display_format": "**est devenue:** Devenir au présent",
-          "explanation": "'Has become' in present tense",
-          "cultural_note": ""
-        },
-        "spectatrice": {
-          "display_format": "**spectatrice:** Femme qui regarde",
-          "explanation": "Female spectator",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**de:** Préposition",
-          "explanation": "Preposition 'of' or 'from'",
-          "cultural_note": ""
-        },
-        "l'histoire": {
-          "display_format": "**l'histoire:** Le passé",
-          "explanation": "History or the past",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**,:** Virgule",
-          "explanation": "Comma",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "affirme": {
-          "display_format": "**affirme:** Déclare",
-          "explanation": "Declares or states",
-          "cultural_note": ""
-        },
-        "François-Xavier Bellamy": {
-          "display_format": "**François-Xavier Bellamy:** Homme politique français",
-          "explanation": "French politician",
-          "cultural_note": "Member of the French political party Les Républicains"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Lyon: la circulation des bus très perturbée à cause d'une grève",
-      "original_article_link": "https://www.bfmtv.com/lyon/lyon-le-service-des-bus-tres-perturbe-a-cause-d-une-greve_AN-202506230199.html",
-      "original_article_published_date": "2025-06-23T06:37:54",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Grève perturbe les bus à Lyon",
-      "simplified_english_title": "Strike disrupts buses in Lyon",
-      "french_summary": "Les bus de Lyon ont des problèmes à cause d'une grève. Les passagers doivent trouver d'autres moyens de transport.",
-      "english_summary": "Buses in Lyon face issues due to a strike. Passengers need to find other ways to travel.",
-      "contextual_title_explanations": {
-        "Lyon": {
-          "display_format": "**Lyon:** Ville française",
-          "explanation": "City in southeastern France",
-          "cultural_note": "Known for its historical and architectural landmarks"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article, 'the'",
-          "cultural_note": ""
-        },
-        "circulation": {
-          "display_format": "**circulation:** Mouvement des véhicules",
-          "explanation": "Movement or traffic",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article indéfini pluriel",
-          "explanation": "Plural indefinite article, 'some'",
-          "cultural_note": ""
-        },
-        "bus": {
-          "display_format": "**bus:** Véhicule de transport",
-          "explanation": "Public transport vehicle",
-          "cultural_note": ""
-        },
-        "très": {
-          "display_format": "**très:** Adverbe d'intensité",
-          "explanation": "Very, extremely",
-          "cultural_note": ""
-        },
-        "perturbée": {
-          "display_format": "**perturbée:** Dérangée",
-          "explanation": "Disrupted, disturbed",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "At, by, due to",
-          "cultural_note": ""
-        },
-        "cause": {
-          "display_format": "**cause:** Raison",
-          "explanation": "Cause, reason",
-          "cultural_note": ""
-        },
-        "d'": {
-          "display_format": "**d':** Préposition contractée",
-          "explanation": "Contraction of 'de'",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article, 'a'",
-          "cultural_note": ""
-        },
-        "grève": {
-          "display_format": "**grève:** Arrêt de travail",
-          "explanation": "Strike, work stoppage",
-          "cultural_note": "Common form of protest in France"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Maintenant, c'est nous qui allons en payer le prix\" : après les frappes américaines en Iran, l'inquiétude de ces Israéliens, dont les immeubles ont été visés par Téhéran",
-      "original_article_link": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-maintenant-c-est-nous-qui-allons-en-payer-le-prix-apres-les-frappes-americaines-en-iran-l-inquietude-de-ces-israeliens-dont-les-immeubles-ont-ete-vises-par-teheran_7301097.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T06:37:07",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israéliens inquiets après les frappes en Iran",
-      "simplified_english_title": "Israelis worried after strikes in Iran",
-      "french_summary": "Des Israéliens s'inquiètent après les frappes américaines en Iran, car leurs immeubles ont été ciblés par Téhéran.",
-      "english_summary": "Israelis are worried after US strikes in Iran, as their buildings were targeted by Tehran.",
-      "contextual_title_explanations": null,
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T08:27:38",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 1
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Canicule : l’Isère et le Rhône restent placés en vigilance orange lundi et mardi ; la chaleur persiste dans le Sud",
-      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/23/canicule-l-isere-et-le-rhone-restent-places-en-vigilance-orange-lundi-et-mardi-la-chaleur-persiste-dans-le-sud_6615402_3244.html",
-      "original_article_published_date": "2025-06-23T06:34:27",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chaleur intense en Isère et Rhône",
-      "simplified_english_title": "Heatwave in Isère and Rhône",
-      "french_summary": "L'Isère et le Rhône restent en vigilance orange à cause de la canicule. Il fait très chaud dans le Sud.",
-      "english_summary": "Isère and Rhône remain on orange alert due to the heatwave. High temperatures persist in the South.",
-      "contextual_title_explanations": {
-        "Canicule": {
-          "display_format": "**Canicule:** Vague de chaleur",
-          "explanation": "Heatwave, period of intense heat",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "l’Isère": {
-          "display_format": "**l’Isère:** Département français",
-          "explanation": "French department in Auvergne-Rhône-Alpes",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And, connecting words",
-          "cultural_note": ""
-        },
-        "le Rhône": {
-          "display_format": "**le Rhône:** Département français",
-          "explanation": "French department in Auvergne-Rhône-Alpes",
-          "cultural_note": ""
-        },
-        "restent": {
-          "display_format": "**restent:** Rester au présent",
-          "explanation": "Remain, stay",
-          "cultural_note": ""
-        },
-        "placés": {
-          "display_format": "**placés:** Mettre en place",
-          "explanation": "Placed, put",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Préposition",
-          "explanation": "In, on, at",
-          "cultural_note": ""
-        },
-        "vigilance": {
-          "display_format": "**vigilance:** État d'alerte",
-          "explanation": "Vigilance, alert state",
-          "cultural_note": ""
-        },
-        "orange": {
-          "display_format": "**orange:** Couleur d'alerte",
-          "explanation": "Orange, alert color",
-          "cultural_note": "Second highest level of alert in France"
-        },
-        "lundi": {
-          "display_format": "**lundi:** Jour de la semaine",
-          "explanation": "Monday",
-          "cultural_note": ""
-        },
-        "mardi": {
-          "display_format": "**mardi:** Jour de la semaine",
-          "explanation": "Tuesday",
-          "cultural_note": ""
-        },
-        ";": {
-          "display_format": "**;** Point-virgule",
-          "explanation": "Semicolon, separating clauses",
-          "cultural_note": ""
-        },
-        "la chaleur": {
-          "display_format": "**la chaleur:** Température élevée",
-          "explanation": "Heat, high temperature",
-          "cultural_note": ""
-        },
-        "persiste": {
-          "display_format": "**persiste:** Continuer",
-          "explanation": "Persists, continues",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**dans:** Préposition",
-          "explanation": "In, inside",
-          "cultural_note": ""
-        },
-        "le Sud": {
-          "display_format": "**le Sud:** Région sud",
-          "explanation": "The South, southern region",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'ambassadeur d'Iran en France souhaite la libération de Cécile Kohler et Jacques Paris \"dès que possible\"",
-      "original_article_link": "https://www.bfmtv.com/alsace/l-ambassadeur-d-iran-en-france-souhaite-la-liberation-de-cecile-kohler-et-jacques-paris-des-que-possible_AN-202506230195.html",
-      "original_article_published_date": "2025-06-23T06:32:57",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran veut libérer deux Français rapidement",
-      "simplified_english_title": "Iran wants to free two French quickly",
-      "french_summary": "L'ambassadeur d'Iran en France demande la libération rapide de Cécile Kohler et Jacques Paris.",
-      "english_summary": "The Iranian ambassador in France requests the quick release of Cécile Kohler and Jacques Paris.",
-      "contextual_title_explanations": null,
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T09:35:21",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 1
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Île-de-France : des titres de transport enfin disponibles sur smartphone",
-      "original_article_link": "https://www.europe1.fr/societe/ile-de-france-des-titres-de-transport-enfin-disponibles-sur-smartphone-760557",
-      "original_article_published_date": "2025-06-23T06:31:03",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Billets de transport sur smartphone en Île-de-France",
-      "simplified_english_title": "Transport tickets on smartphones in Île-de-France",
-      "french_summary": "Les usagers peuvent maintenant acheter et utiliser des billets de transport sur leur smartphone en Île-de-France.",
-      "english_summary": "Users can now buy and use transport tickets on their smartphones in the Île-de-France region.",
-      "contextual_title_explanations": {
-        "Île-de-France": {
-          "display_format": "**Île-de-France:** Région parisienne",
-          "explanation": "Region around Paris",
-          "cultural_note": "Includes Paris and its suburbs"
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Articles indéfinis",
-          "explanation": "Indefinite article plural",
-          "cultural_note": ""
-        },
-        "titres de transport": {
-          "display_format": "**titres de transport:** Billets voyage",
-          "explanation": "Transportation tickets",
-          "cultural_note": ""
-        },
-        "enfin": {
-          "display_format": "**enfin:** Finalement",
-          "explanation": "Finally, at last",
-          "cultural_note": ""
-        },
-        "disponibles": {
-          "display_format": "**disponibles:** Accessibles",
-          "explanation": "Available",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**sur:** Sur",
-          "explanation": "On",
-          "cultural_note": ""
-        },
-        "smartphone": {
-          "display_format": "**smartphone:** Téléphone intelligent",
-          "explanation": "Smartphone",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T07:20:36",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Canicule : le Rhône et l’Isère maintenus en vigilance orange mardi",
-      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/canicule-le-rhone-et-lisere-maintenus-en-vigilance-orange-mardi-ef5975e0-4ff6-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T06:22:19",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Forte chaleur : vigilance orange",
-      "simplified_english_title": "Heatwave: orange alert continues",
-      "french_summary": "Le Rhône et l’Isère restent en vigilance orange à cause de la canicule. Les températures restent très élevées.",
-      "english_summary": "The Rhône and Isère departments stay on orange alert due to the heatwave. Temperatures remain very high.",
-      "contextual_title_explanations": {
-        "Canicule": {
-          "display_format": "**Canicule:** Vague de chaleur",
-          "explanation": "Heatwave, intense hot weather",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** Deux-points",
-          "explanation": "Colon introducing explanation",
-          "cultural_note": ""
-        },
-        "le Rhône": {
-          "display_format": "**le Rhône:** Fleuve français",
-          "explanation": "Major river in France",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And, connecting words",
-          "cultural_note": ""
-        },
-        "l’Isère": {
-          "display_format": "**l’Isère:** Département français",
-          "explanation": "French department/river",
-          "cultural_note": ""
-        },
-        "maintenus": {
-          "display_format": "**maintenus:** Gardés",
-          "explanation": "Kept, maintained",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**en:** Dans",
-          "explanation": "In, indicates state",
-          "cultural_note": ""
-        },
-        "vigilance": {
-          "display_format": "**vigilance:** Surveillance",
-          "explanation": "Vigilance, watchfulness",
-          "cultural_note": ""
-        },
-        "orange": {
-          "display_format": "**orange:** Niveau d'alerte",
-          "explanation": "Second-highest alert level",
-          "cultural_note": "Weather warning color code"
-        },
-        "mardi": {
-          "display_format": "**mardi:** Jour de la semaine",
-          "explanation": "Tuesday",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T06:31:14",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Les frappes américaines constituent «une blessure très grave à la dignité et la fierté des Iraniens», accuse l’ambassadeur d’Iran à Paris",
-      "original_article_link": "https://www.lefigaro.fr/international/les-frappes-americaines-constituent-une-blessure-tres-grave-a-la-dignite-et-la-fierte-des-iraniens-accuse-l-ambassadeur-d-iran-a-paris-20250623",
-      "original_article_published_date": "2025-06-23T06:14:56",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran critique les frappes américaines",
-      "simplified_english_title": "Iran condemns US strikes",
-      "french_summary": "L'ambassadeur d'Iran à Paris dit que les frappes américaines blessent la dignité et la fierté de l'Iran.",
-      "english_summary": "Iran's ambassador in Paris says US strikes deeply hurt Iranian dignity and pride.",
-      "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**Les:** Article défini",
-          "explanation": "Definite article, plural",
-          "cultural_note": ""
-        },
-        "frappes": {
-          "display_format": "**frappes:** Attaques",
-          "explanation": "Strikes, attacks",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**américaines:** Des États-Unis",
-          "explanation": "American, from the USA",
-          "cultural_note": ""
-        },
-        "constituent": {
-          "display_format": "**constituent:** Représentent",
-          "explanation": "Constitute, represent",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**«:** Guillemet ouvrant",
-          "explanation": "Opening quotation mark",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** Article indéfini",
-          "explanation": "Indefinite article, feminine",
-          "cultural_note": ""
-        },
-        "blessure": {
-          "display_format": "**blessure:** Dommage",
-          "explanation": "Injury, harm",
-          "cultural_note": ""
-        },
-        "très": {
-          "display_format": "**très:** Beaucoup",
-          "explanation": "Very, extremely",
-          "cultural_note": ""
-        },
-        "grave": {
-          "display_format": "**grave:** Sérious",
-          "explanation": "Serious, severe",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** Préposition",
-          "explanation": "In, at",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** Article défini",
-          "explanation": "Definite article, feminine",
-          "cultural_note": ""
-        },
-        "dignité": {
-          "display_format": "**dignité:** Honneur",
-          "explanation": "Dignity, honor",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**et:** Conjonction",
-          "explanation": "And",
-          "cultural_note": ""
-        },
-        "fierté": {
-          "display_format": "**fierté:** Orgueil",
-          "explanation": "Pride",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** Article contracté",
-          "explanation": "Of the, some",
-          "cultural_note": ""
-        },
-        "Iraniens": {
-          "display_format": "**Iraniens:** Habitants de l'Iran",
-          "explanation": "Iranians",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**»:** Guillemet fermant",
-          "explanation": "Closing quotation mark",
-          "cultural_note": ""
-        },
-        "accuse": {
-          "display_format": "**accuse:** Blâme",
-          "explanation": "Accuses, blames",
-          "cultural_note": ""
-        },
-        "l’ambassadeur": {
-          "display_format": "**l’ambassadeur:** Représentant diplomatique",
-          "explanation": "The ambassador",
-          "cultural_note": ""
-        },
-        "d’Iran": {
-          "display_format": "**d’Iran:** Du pays Iran",
-          "explanation": "Of Iran",
-          "cultural_note": ""
-        },
-        "Paris": {
-          "display_format": "**Paris:** Capitale de la France",
-          "explanation": "Paris, capital of France",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T06:31:14",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
