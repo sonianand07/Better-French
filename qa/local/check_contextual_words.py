@@ -105,7 +105,7 @@ def main():
         legacy = False
         dt_cut = datetime(2025, 6, 23)
         if proc_ds:
-            ts = _parse_iso(proc_ds)
+            ts = _parse_date(proc_ds)
             if ts and ts < dt_cut:
                 legacy = True
 
