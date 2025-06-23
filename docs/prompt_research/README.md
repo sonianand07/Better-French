@@ -22,6 +22,17 @@ All tool-tips and summaries are produced by two system prompts that call an LLM.
 Our validator discards any article that fails these rules, so missing tokens or invalid JSON directly reduces website content.
 
 ---
+## 3 · Where the input data comes from
+• **Scraper layer** – an RSS/HTML crawler pulls ~300 French news headlines per hour. Raw items are archived as JSON objects with keys like `title`, `link`, `published`, `source_name`.
+• **Curator layer** – rule-based filters + a relevance-scoring prompt reduce the batch to ~10 articles. Each selected article is stored as a JSON dict we call *Article 0*.
+• **Tokeniser** – we derive `tokens` by splitting the original headline and merging capitalised multi-word proper names (e.g. "Royaume-Uni").
+• **Prompt renderer** – the two prompts you are writing are filled with `{title}` and `{tokens}` and fed to the LLM via an OpenRouter chat endpoint.
+
+The **only context** the LLM sees today is the headline itself (plus the optional token list). We do _not_ provide the article body or external knowledge snippets.
+
+If you believe supplying richer background (e.g. article lead paragraph, entity definitions) would improve output quality, please call that out in your rationale. We can expose additional variables if it stays within our token budget (~300 input tokens per call).
+
+---
 ## 3 · Your mission
 Create **two new prompts**:
 
@@ -93,6 +104,8 @@ A failure in any hard constraint is an automatic rejection.
 3. A brief rationale (max 1-page) explaining your design choices.
 
 Please upload the three files in your DeepResearch portal task. Our engineers will integrate them into the pipeline and run the evaluation suite.
+
+**Open question:** Besides prompt wording, what upstream changes (tokenisation strategy, extra context, re-ordering of input variables, system-message framing) would most improve LLM output quality?  Include any concrete suggestions in your rationale.
 
 ---
 ## 6 · Reference example
