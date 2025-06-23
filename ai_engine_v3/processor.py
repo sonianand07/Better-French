@@ -31,7 +31,7 @@ class ProcessorV2:
         return render("simplify_titles_summaries.jinja", title=article.original_article_title)
 
     def _render_explain_prompt(self, article: Article) -> str:
-        tokens = list(expected_tokens_from_title(article.original_article_title))
+        tokens = tuple(expected_tokens_from_title(article.original_article_title))  # tuple -> hashable for lru_cache
         return render(
             "contextual_words_v2.jinja",
             title=article.original_article_title,
