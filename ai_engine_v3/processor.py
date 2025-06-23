@@ -30,7 +30,8 @@ class ProcessorV2:
         return render("simplify_titles_summaries.jinja", title=article.original_article_title)
 
     def _render_explain_prompt(self, article: Article) -> str:
-        return render("contextual_words.jinja", title=article.original_article_title)
+        # Use the stricter v2 prompt which enforces English heading rules
+        return render("contextual_words_v2.jinja", title=article.original_article_title)
 
     def _safe_json(self, text: str):
         """Extract first JSON object/array from text."""
