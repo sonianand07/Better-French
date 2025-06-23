@@ -106,6 +106,7 @@ A failure in any hard constraint is an automatic rejection.
 ## 5 · Deliverables & hand-off
 1. `contextual_words_prompt.txt` and `simplify_titles_prompt.txt` (UTF-8, no BOM).  
    Placeholders should use the syntax `{{title}}` and `{{tokens}}` so we can adapt to any engine.
+   You may include up to **five** few-shot examples _inside each prompt_ if you believe it materially improves reliability.  Any examples must follow the same schema and stay within the overall token budget (~300 input tokens).
 2. `test_cases.json` – optional: a small set of headline + token lists you used while iterating.
 3. A brief rationale (max 1-page) explaining your design choices.
 
