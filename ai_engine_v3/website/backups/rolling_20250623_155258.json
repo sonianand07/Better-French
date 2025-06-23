@@ -3,515 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Story 1 : Israël frappe avec \"une force sans précédent\" - 23/06",
-      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-1-israel-frappe-avec-une-force-sans-precedent-23-06_VN-202506230599.html",
-      "original_article_published_date": "2025-06-23T15:43:12",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël attaque avec une grande force",
-      "simplified_english_title": "Israel strikes with unprecedented force",
-      "french_summary": "Israël a lancé une attaque très forte. Cela montre une intensification des conflits dans la région.",
-      "english_summary": "Israel launched a very strong attack. This shows an escalation of conflicts in the region.",
-      "contextual_title_explanations": {
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "frappe": {
-          "display_format": "**Strikes:** frappe",
-          "explanation": "Military attacks or hits",
-          "cultural_note": "Common term in conflict reporting"
-        },
-        "sans précédent": {
-          "display_format": "**Unprecedented:** sans précédent",
-          "explanation": "Never seen before",
-          "cultural_note": "Used for significant events"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Français détenus en Iran : les proches de Cécile Kohler \"terrifiés\"",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-fran%C3%A7ais-d%C3%A9tenus-en-iran-les-proches-de-c%C3%A9cile-kohler-terrifi%C3%A9s",
-      "original_article_published_date": "2025-06-23T15:29:22",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des Français sont détenus en Iran",
-      "simplified_english_title": "French nationals detained in Iran",
-      "french_summary": "La famille de Cécile Kohler est très inquiète car elle est détenue en Iran. La situation est très tendue.",
-      "english_summary": "Cécile Kohler's family is very worried as she is detained in Iran. The situation is very tense.",
-      "contextual_title_explanations": {
-        "détenus": {
-          "display_format": "**Detained:** détenus",
-          "explanation": "Past participle of 'détenir' (to detain)",
-          "cultural_note": ""
-        },
-        "proches": {
-          "display_format": "**Relatives:** proches",
-          "explanation": "Close family or friends",
-          "cultural_note": ""
-        },
-        "terrifiés": {
-          "display_format": "**Terrified:** terrifiés",
-          "explanation": "Very scared or frightened",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Israël-Iran : des compagnies pétrolières en Irak \"évacuent\" une partie du personnel",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-israel-iran-des-compagnies-petrolieres-en-irak-evacuent-une-partie-du-personnel_7332597.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T15:16:05",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des travailleurs pétroliers quittent l'Irak",
-      "simplified_english_title": "Oil workers leave Iraq",
-      "french_summary": "Des compagnies pétrolières en Irak envoient une partie de leur personnel hors du pays à cause de la guerre entre Israël et l'Iran.",
-      "english_summary": "Oil companies in Iraq are sending some of their staff out of the country due to the war between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between countries",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "compagnies pétrolières": {
-          "display_format": "**Oil companies:** compagnies pétrolières",
-          "explanation": "Businesses that extract or sell petroleum",
-          "cultural_note": "Major players in global energy markets"
-        },
-        "Irak": {
-          "display_format": "**Iraq:** Irak",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Rich in oil, often in geopolitical news"
-        },
-        "évacuent": {
-          "display_format": "**Evacuate:** évacuent",
-          "explanation": "Move people from dangerous areas",
-          "cultural_note": "Common in crisis situations"
-        },
-        "personnel": {
-          "display_format": "**Staff:** personnel",
-          "explanation": "Group of employees",
-          "cultural_note": "Used in both corporate and crisis contexts"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Frappes israéliennes sur la prison de Cécile Kohler: \"C'est inacceptable\", réagit Jean-Noël Barrot, ministre des Affaires étrangères",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-frappes-israeliennes-sur-la-prison-de-cecile-kohler-c-est-inacceptable-reagit-jean-noel-barrot-ministre-des-affaires-etrangeres_VN-202506230576.html",
-      "original_article_published_date": "2025-06-23T15:11:55",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël frappe la prison de Cécile Kohler",
-      "simplified_english_title": "Israel strikes Cécile Kohler's prison",
-      "french_summary": "Israël a frappé la prison où Cécile Kohler est détenue. Le ministre français des Affaires étrangères a dit que c'est inacceptable.",
-      "english_summary": "Israel struck the prison where Cécile Kohler is held. The French Foreign Minister said it is unacceptable.",
-      "contextual_title_explanations": {
-        "Frappes": {
-          "display_format": "**Strikes:** frappes",
-          "explanation": "Military attacks or air raids",
-          "cultural_note": "Often used in context of military conflicts"
-        },
-        "israéliennes": {
-          "display_format": "**Israeli:** israéliennes",
-          "explanation": "Relating to the country Israel",
-          "cultural_note": ""
-        },
-        "ministre": {
-          "display_format": "**Minister:** ministre",
-          "explanation": "Head of a government department",
-          "cultural_note": ""
-        },
-        "Affaires étrangères": {
-          "display_format": "**Foreign Affairs:** Affaires étrangères",
-          "explanation": "Department handling international relations",
-          "cultural_note": "Equivalent to the U.S. State Department"
-        },
-        "réagit": {
-          "display_format": "**React:** réagit",
-          "explanation": "To respond or reply to something",
-          "cultural_note": ""
-        },
-        "inacceptable": {
-          "display_format": "**Unacceptable:** inacceptable",
-          "explanation": "Not satisfactory or allowable",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Israël-Iran : les Français détenus à la prison d’Evin «n’auraient pas été touchés» dit Barrot, qui condamne une frappe israélienne «inacceptable»",
-      "original_article_link": "https://www.lefigaro.fr/international/en-direct-guerre-iran-israel-trump-etats-unis-nucleaire-changement-de-regime-represailles-20250623",
-      "original_article_published_date": "2025-06-23T15:04:29",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les Français en prison en Iran sont en sécurité",
-      "simplified_english_title": "French prisoners in Iran are safe",
-      "french_summary": "Les Français détenus en Iran n'ont pas été blessés. La France condamne une attaque israélienne.",
-      "english_summary": "The French prisoners in Iran were not hurt. France condemns an Israeli strike.",
-      "contextual_title_explanations": {
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news for conflicts"
-        },
-        "détenus": {
-          "display_format": "**Detained:** détenus",
-          "explanation": "People held in custody",
-          "cultural_note": ""
-        },
-        "prison d’Evin": {
-          "display_format": "**Evin Prison:** prison d’Evin",
-          "explanation": "Notorious Iranian prison",
-          "cultural_note": "Known for political prisoners"
-        },
-        "touchés": {
-          "display_format": "**Affected:** touchés",
-          "explanation": "Harmed or impacted",
-          "cultural_note": ""
-        },
-        "condamne": {
-          "display_format": "**Condemns:** condamne",
-          "explanation": "Strongly criticizes",
-          "cultural_note": ""
-        },
-        "frappe israélienne": {
-          "display_format": "**Israeli strike:** frappe israélienne",
-          "explanation": "Military attack by Israel",
-          "cultural_note": ""
-        },
-        "inacceptable": {
-          "display_format": "**Unacceptable:** inacceptable",
-          "explanation": "Not acceptable",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Violences faites aux femmes : une hausse inédite des appels au 3919 en 2024",
-      "original_article_link": "https://www.ouest-france.fr/faits-divers/violences/info-ouest-france-hausse-inedite-des-appels-au-3919-051736e2-4c55-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T14:55:24",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Plus d'appels pour violences contre les femmes",
-      "simplified_english_title": "More calls for violence against women",
-      "french_summary": "En 2024, le nombre d'appels au 3919 pour violences faites aux femmes a fortement augmenté.",
-      "english_summary": "In 2024, calls to the 3919 hotline for violence against women have increased sharply.",
-      "contextual_title_explanations": {
-        "Violences": {
-          "display_format": "**Violence:** Violences",
-          "explanation": "Physical or psychological harm",
-          "cultural_note": "Often discussed in social and political contexts"
-        },
-        "faites": {
-          "display_format": "**Done:** faites",
-          "explanation": "Past participle of 'faire' (to do)",
-          "cultural_note": ""
-        },
-        "femmes": {
-          "display_format": "**Women:** femmes",
-          "explanation": "Adult human females",
-          "cultural_note": ""
-        },
-        "hausse": {
-          "display_format": "**Increase:** hausse",
-          "explanation": "A rise or upward trend",
-          "cultural_note": ""
-        },
-        "inédite": {
-          "display_format": "**Unprecedented:** inédite",
-          "explanation": "Never seen or done before",
-          "cultural_note": ""
-        },
-        "appels": {
-          "display_format": "**Calls:** appels",
-          "explanation": "Telephone calls",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Une streameuse hongkongaise harcelée par deux hommes à Cannes, la mairie saisit la justice",
-      "original_article_link": "https://www.bfmtv.com/police-justice/video-une-streameuse-hongkongaise-harcelee-par-deux-hommes-a-cannes-la-mairie-saisit-la-justice_VN-202506230559.html",
-      "original_article_published_date": "2025-06-23T14:46:52",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Une streameuse harcelée à Cannes",
-      "simplified_english_title": "Streamer harassed in Cannes",
-      "french_summary": "Une femme streameuse a été harcelée par deux hommes à Cannes. La mairie a décidé de porter plainte.",
-      "english_summary": "A female streamer was harassed by two men in Cannes. The city has decided to file a complaint.",
-      "contextual_title_explanations": {
-        "Une": {
-          "display_format": "**A:** Une",
-          "explanation": "Indefinite article for feminine nouns",
-          "cultural_note": ""
-        },
-        "streameuse": {
-          "display_format": "**Streamer:** streameuse",
-          "explanation": "Person who broadcasts live video online",
-          "cultural_note": "Feminine form of 'streameur'"
-        },
-        "hongkongaise": {
-          "display_format": "**Hong Konger:** hongkongaise",
-          "explanation": "Person from Hong Kong",
-          "cultural_note": "Feminine form of 'hongkongais'"
-        },
-        "harcelée": {
-          "display_format": "**Harassed:** harcelée",
-          "explanation": "Past participle of 'harceler', meaning to harass",
-          "cultural_note": ""
-        },
-        "mairie": {
-          "display_format": "**Town hall:** mairie",
-          "explanation": "Local government office in France",
-          "cultural_note": ""
-        },
-        "saisit": {
-          "display_format": "**Seizes:** saisit",
-          "explanation": "Third person singular of 'saisir', meaning to seize",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "«Quand le Conseil constitutionnel entrave le durcissement de la justice des mineurs»",
-      "original_article_link": "https://www.lefigaro.fr/vox/societe/quand-le-conseil-constitutionnel-entrave-le-durcissement-de-la-justice-des-mineurs-20250623",
-      "original_article_published_date": "2025-06-23T14:23:37",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Conseil constitutionnel bloque une loi sur la justice des mineurs",
-      "simplified_english_title": "Constitutional Council blocks juvenile justice law",
-      "french_summary": "Le Conseil constitutionnel empêche le durcissement des lois sur la justice des mineurs, créant un débat politique.",
-      "english_summary": "The Constitutional Council prevents stricter juvenile justice laws, sparking political debate.",
-      "contextual_title_explanations": {
-        "Conseil constitutionnel": {
-          "display_format": "**Constitutional Council:** Conseil constitutionnel",
-          "explanation": "Highest constitutional authority in France",
-          "cultural_note": "Reviews laws to ensure they comply with the Constitution"
-        },
-        "entrave": {
-          "display_format": "**Obstructs:** entrave",
-          "explanation": "Blocks or hinders something",
-          "cultural_note": ""
-        },
-        "durcissement": {
-          "display_format": "**Toughening:** durcissement",
-          "explanation": "Making something stricter or harsher",
-          "cultural_note": ""
-        },
-        "mineurs": {
-          "display_format": "**Minors:** mineurs",
-          "explanation": "People under the legal adult age",
-          "cultural_note": "In France, minors are under 18"
-        },
-        "Quand": {
-          "display_format": "**When:** Quand",
-          "explanation": "At the time that",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Diabolisation de LFI dans les médias: la faute à qui?",
-      "original_article_link": "https://www.mediapart.fr/journal/politique/230625/diabolisation-de-lfi-dans-les-medias-la-faute-qui",
-      "original_article_published_date": "2025-06-23T14:13:15",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Pourquoi les médias critiquent LFI ?",
-      "simplified_english_title": "Why do media criticize LFI?",
-      "french_summary": "Les médias sont accusés de diaboliser La France Insoumise, mais qui est responsable de cette situation ?",
-      "english_summary": "Media are accused of demonizing La France Insoumise, but who is responsible for this situation?",
-      "contextual_title_explanations": {
-        "Diabolisation": {
-          "display_format": "**Demonisation:** Diabolisation",
-          "explanation": "Portraying someone as evil",
-          "cultural_note": "Often used in political contexts"
-        },
-        "médias": {
-          "display_format": "**Media:** médias",
-          "explanation": "Collective term for news outlets",
-          "cultural_note": "Includes TV, radio, newspapers, and online news"
-        },
-        "faute": {
-          "display_format": "**Fault:** faute",
-          "explanation": "Responsibility for a mistake",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**Who:** qui",
-          "explanation": "Relative pronoun meaning 'who'",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Soupçons de corruption à l'office anti-stupéfiants de Marseille : deux commissaires en garde à vue",
       "original_article_link": "https://www.lefigaro.fr/marseille/soupcons-de-corruption-a-l-office-anti-stupefiants-de-marseille-deux-commissaires-en-garde-a-vue-20250623",
       "original_article_published_date": "2025-06-23T11:02:38",
@@ -3921,52 +3412,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Vague de chaleur : le Rhône et l'Isère toujours en vigilance orange à la canicule",
-      "original_article_link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/vague-de-chaleur-le-rhone-et-l-isere-toujours-en-vigilance-orange-a-la-canicule_7331979.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T06:04:48",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Il fait très chaud dans deux régions",
-      "simplified_english_title": "Heatwave continues in two regions",
-      "french_summary": "Le Rhône et l'Isère restent en vigilance orange à cause de la canicule. Les températures restent très élevées.",
-      "english_summary": "Rhône and Isère remain on orange alert due to the heatwave. Temperatures stay very high.",
-      "contextual_title_explanations": {
-        "Vague": {
-          "display_format": "**Wave:** Vague",
-          "explanation": "A sudden increase or surge",
-          "cultural_note": "Commonly used in weather contexts"
-        },
-        "chaleur": {
-          "display_format": "**Heat:** chaleur",
-          "explanation": "High temperature or heat",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**Heatwave:** canicule",
-          "explanation": "Period of very hot weather",
-          "cultural_note": "Official term used by Météo France"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T15:51:56",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "« Enquêtes au paradis » : que vaut la nouvelle série policière de France 2 ?",
       "original_article_link": "https://www.ouest-france.fr/medias/television/series/enquetes-au-paradis-que-vaut-la-nouvelle-serie-policiere-de-france-2-a7d2ea02-4c82-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-23T06:00:18",
@@ -6039,6 +5484,1006 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T05:21:49",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran: le pétrole bondit en début d'échanges en Asie, au plus haut depuis janvier",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/iran-le-petrole-bondit-en-debut-d-echanges-en-asie-au-plus-haut-depuis-janvier_AD-202506230068.html",
+      "original_article_published_date": "2025-06-23T04:22:07",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le prix du pétrole augmente fortement",
+      "simplified_english_title": "Oil prices surge in Asia",
+      "french_summary": "Le prix du pétrole a fortement augmenté en Asie, atteignant son niveau le plus haut depuis janvier.",
+      "english_summary": "The price of oil has risen sharply in Asia, reaching its highest level since January.",
+      "contextual_title_explanations": {
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing information",
+          "cultural_note": ""
+        },
+        "le pétrole": {
+          "display_format": "**le pétrole:** L'or noir",
+          "explanation": "Oil, literally 'black gold'",
+          "cultural_note": ""
+        },
+        "bondit": {
+          "display_format": "**bondit:** Monte brusquement",
+          "explanation": "Jumps or surges suddenly",
+          "cultural_note": ""
+        },
+        "en début d'échanges": {
+          "display_format": "**en début d'échanges:** Au commencement des transactions",
+          "explanation": "At the start of trading",
+          "cultural_note": ""
+        },
+        "en Asie": {
+          "display_format": "**en Asie:** Continent asiatique",
+          "explanation": "In Asia",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating clauses",
+          "cultural_note": ""
+        },
+        "au plus haut": {
+          "display_format": "**au plus haut:** À son maximum",
+          "explanation": "At its highest",
+          "cultural_note": ""
+        },
+        "depuis janvier": {
+          "display_format": "**depuis janvier:** Depuis le début de l'année",
+          "explanation": "Since January",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran: l'ONU met en garde les belligérants contre un «cycle sans issue de représailles»",
+      "original_article_link": "https://www.rfi.fr/fr/monde/20250623-iran-l-onu-met-en-garde-les-bellig%C3%A9rants-contre-un-cycle-sans-issue-de-repr%C3%A9sailles",
+      "original_article_published_date": "2025-06-23T04:17:29",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'ONU avertit contre les représailles en Iran",
+      "simplified_english_title": "UN warns against retaliation in Iran",
+      "french_summary": "L'ONU demande aux parties en conflit en Iran d'éviter les représailles pour ne pas aggraver la situation.",
+      "english_summary": "The UN urges conflicting parties in Iran to avoid retaliation to prevent worsening the situation.",
+      "contextual_title_explanations": {
+        "Iran": {
+          "display_format": "**Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in the Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces further information",
+          "cultural_note": ""
+        },
+        "l'ONU": {
+          "display_format": "**l'ONU:** Organisation des Nations Unies",
+          "explanation": "United Nations organization",
+          "cultural_note": ""
+        },
+        "met en garde": {
+          "display_format": "**met en garde:** Avertit",
+          "explanation": "Warns or cautions",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "Definite article (the)",
+          "cultural_note": ""
+        },
+        "belligérants": {
+          "display_format": "**belligérants:** Combattants",
+          "explanation": "Those engaged in fighting",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**contre:** Opposé à",
+          "explanation": "Against or opposing",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article (a)",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": ""
+        },
+        "cycle": {
+          "display_format": "**cycle:** Série répétée",
+          "explanation": "Repeated series of events",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**sans:** Sans",
+          "explanation": "Without",
+          "cultural_note": ""
+        },
+        "issue": {
+          "display_format": "**issue:** Sortie",
+          "explanation": "Way out or exit",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition (of, from)",
+          "cultural_note": ""
+        },
+        "représailles»": {
+          "display_format": "**représailles»:** Vengeance",
+          "explanation": "Retaliation or revenge",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Marseille: aucun service sur les lignes de métro M1 et M2 en raison d'un mouvement social",
+      "original_article_link": "https://www.bfmtv.com/marseille/marseille-aucun-service-sur-les-lignes-de-metro-m1-et-m2-en-raison-d-un-mouvement-social_AN-202506230065.html",
+      "original_article_published_date": "2025-06-23T04:15:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pas de métro à Marseille à cause d'une grève",
+      "simplified_english_title": "No metro in Marseille due to strike",
+      "french_summary": "Les lignes de métro M1 et M2 à Marseille ne fonctionnent pas à cause d'un mouvement social aujourd'hui.",
+      "english_summary": "The metro lines M1 and M2 in Marseille are not operating today because of a strike.",
+      "contextual_title_explanations": {
+        "Marseille": {
+          "display_format": "**Marseille:** Ville portuaire",
+          "explanation": "Major city in southern France",
+          "cultural_note": "Second largest city in France"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "aucun": {
+          "display_format": "**aucun:** Aucun(e)",
+          "explanation": "No or none",
+          "cultural_note": ""
+        },
+        "service": {
+          "display_format": "**service:** Fonctionnement",
+          "explanation": "Operation or functioning",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Au-dessus de",
+          "explanation": "On or above",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (definite article)",
+          "cultural_note": ""
+        },
+        "lignes": {
+          "display_format": "**lignes:** Itinéraires",
+          "explanation": "Lines or routes",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Appartenance",
+          "explanation": "Of or belonging to",
+          "cultural_note": ""
+        },
+        "métro": {
+          "display_format": "**métro:** Métropolitain",
+          "explanation": "Subway or underground",
+          "cultural_note": ""
+        },
+        "M1": {
+          "display_format": "**M1:** Ligne de métro",
+          "explanation": "Metro line 1",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "M2": {
+          "display_format": "**M2:** Ligne de métro",
+          "explanation": "Metro line 2",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Cause",
+          "explanation": "Due to",
+          "cultural_note": ""
+        },
+        "raison": {
+          "display_format": "**raison:** Cause",
+          "explanation": "Reason or cause",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** Contraction",
+          "explanation": "Contraction of 'de un'",
+          "cultural_note": ""
+        },
+        "mouvement": {
+          "display_format": "**mouvement:** Action collective",
+          "explanation": "Collective action or movement",
+          "cultural_note": ""
+        },
+        "social": {
+          "display_format": "**social:** Relatif à la société",
+          "explanation": "Related to society",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Fin du conclave sur les retraites : pourquoi le risque de censure est-il réel pour François Bayrou ?",
+      "original_article_link": "https://www.europe1.fr/politique/fin-du-conclave-sur-les-retraites-pourquoi-le-risque-de-censure-est-il-reel-pour-francois-bayrou-760583",
+      "original_article_published_date": "2025-06-23T04:13:15",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pourquoi Bayrou risque-t-il la censure ?",
+      "simplified_english_title": "Why does Bayrou risk censure?",
+      "french_summary": "Le conclave sur les retraites est terminé, et François Bayrou pourrait être censuré à cause de ses positions.",
+      "english_summary": "The conclave on pensions is over, and François Bayrou may be censured because of his positions.",
+      "contextual_title_explanations": {
+        "Fin": {
+          "display_format": "**Fin:** Terminaison",
+          "explanation": "The end",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** de le",
+          "explanation": "of the (masculine)",
+          "cultural_note": ""
+        },
+        "conclave": {
+          "display_format": "**conclave:** Réunion secrète",
+          "explanation": "Private meeting",
+          "cultural_note": "Often used for important discussions"
+        },
+        "sur": {
+          "display_format": "**sur:** Au sujet de",
+          "explanation": "About/on",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Articles définis",
+          "explanation": "The (plural)",
+          "cultural_note": ""
+        },
+        "retraites": {
+          "display_format": "**retraites:** Pensions",
+          "explanation": "Retirements/pensions",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**pourquoi:** Pour quelle raison",
+          "explanation": "Why",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The (masculine)",
+          "cultural_note": ""
+        },
+        "risque": {
+          "display_format": "**risque:** Danger",
+          "explanation": "Risk",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of/from",
+          "cultural_note": ""
+        },
+        "censure": {
+          "display_format": "**censure:** Sanction",
+          "explanation": "Censorship/sanction",
+          "cultural_note": ""
+        },
+        "est-il": {
+          "display_format": "**est-il:** Est-il",
+          "explanation": "Is it",
+          "cultural_note": "Inversion for question"
+        },
+        "réel": {
+          "display_format": "**réel:** Vrai",
+          "explanation": "Real",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** En faveur de",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "François Bayrou": {
+          "display_format": "**François Bayrou:** Homme politique",
+          "explanation": "French politician",
+          "cultural_note": "Leader of MoDem party"
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Ils étaient \"en situation d'urgence\": 160 Français évacués d'Israël, la France mobilise ses avions militaires A400M",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/israel/ils-etaient-en-situation-d-urgence-160-francais-evacues-d-israel-la-france-mobilise-ses-avions-militaires-a400m_AD-202506230051.html",
+      "original_article_published_date": "2025-06-23T04:00:45",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "160 Français quittent Israël en urgence",
+      "simplified_english_title": "160 French evacuated from Israel urgently",
+      "french_summary": "La France a utilisé ses avions militaires A400M pour évacuer 160 Français d'Israël à cause d'une situation d'urgence.",
+      "english_summary": "France used its A400M military planes to evacuate 160 French people from Israel due to an emergency situation.",
+      "contextual_title_explanations": {
+        "Ils": {
+          "display_format": "**Ils:** Pronom personnel",
+          "explanation": "They (masculine or mixed group)",
+          "cultural_note": ""
+        },
+        "étaient": {
+          "display_format": "**étaient:** Verbe être (imparfait)",
+          "explanation": "Were",
+          "cultural_note": ""
+        },
+        "en situation d'urgence": {
+          "display_format": "**en situation d'urgence:** État critique",
+          "explanation": "In a state of emergency",
+          "cultural_note": ""
+        },
+        "160": {
+          "display_format": "**160:** Cent soixante",
+          "explanation": "One hundred sixty",
+          "cultural_note": ""
+        },
+        "Français": {
+          "display_format": "**Français:** Citoyens de France",
+          "explanation": "French people",
+          "cultural_note": ""
+        },
+        "évacués": {
+          "display_format": "**évacués:** Transportés en sécurité",
+          "explanation": "Evacuated",
+          "cultural_note": ""
+        },
+        "d'Israël": {
+          "display_format": "**d'Israël:** Pays du Moyen-Orient",
+          "explanation": "From Israel",
+          "cultural_note": ""
+        },
+        "la France": {
+          "display_format": "**la France:** Pays européen",
+          "explanation": "France",
+          "cultural_note": ""
+        },
+        "mobilise": {
+          "display_format": "**mobilise:** Met en action",
+          "explanation": "Mobilizes",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif",
+          "explanation": "Its",
+          "cultural_note": ""
+        },
+        "avions militaires": {
+          "display_format": "**avions militaires:** Aéronefs de guerre",
+          "explanation": "Military aircraft",
+          "cultural_note": ""
+        },
+        "A400M": {
+          "display_format": "**A400M:** Avion de transport militaire",
+          "explanation": "Military transport aircraft model",
+          "cultural_note": "Used by several NATO countries"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Employeurs et salariés face aux fortes chaleurs au travail : « J’aimerais savoir à partir de quelle température il y a danger ? »",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/23/employeurs-et-salaries-face-aux-fortes-chaleurs-au-travail-j-aimerais-savoir-a-partir-de-quelle-temperature-il-y-a-danger_6615397_3234.html",
+      "original_article_published_date": "2025-06-23T04:00:30",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Chaleur au travail : quel est le danger ?",
+      "simplified_english_title": "Heat at work: what is the danger?",
+      "french_summary": "Employeurs et employés se demandent à quelle température il y a un danger au travail pendant les fortes chaleurs.",
+      "english_summary": "Employers and employees wonder at what temperature there is danger at work during heatwaves.",
+      "contextual_title_explanations": {
+        "Employeurs": {
+          "display_format": "**Employeurs:** Personnes qui emploient",
+          "explanation": "Employers, those who hire",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And, conjunction",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**salariés:** Personnes employées",
+          "explanation": "Employees, hired people",
+          "cultural_note": ""
+        },
+        "face": {
+          "display_format": "**face:** En présence de",
+          "explanation": "Facing, in the presence of",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les (article contracté)",
+          "explanation": "To the, contraction of à + les",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**fortes:** Intenses",
+          "explanation": "Strong, intense",
+          "cultural_note": ""
+        },
+        "chaleurs": {
+          "display_format": "**chaleurs:** Températures élevées",
+          "explanation": "Heat, high temperatures",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le (article contracté)",
+          "explanation": "To the, contraction of à + le",
+          "cultural_note": ""
+        },
+        "travail": {
+          "display_format": "**travail:** Lieu de travail",
+          "explanation": "Work, workplace",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**«:** Guillemet ouvrant",
+          "explanation": "Opening quotation mark",
+          "cultural_note": "French uses guillemets (« ») for quotes"
+        },
+        "J’aimerais": {
+          "display_format": "**J’aimerais:** Je voudrais",
+          "explanation": "I would like, conditional form",
+          "cultural_note": ""
+        },
+        "savoir": {
+          "display_format": "**savoir:** Connaître",
+          "explanation": "To know",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** Préposition",
+          "explanation": "At, to",
+          "cultural_note": ""
+        },
+        "partir": {
+          "display_format": "**partir:** Commencer à partir de",
+          "explanation": "Starting from",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Of, from",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**quelle:** Quel (féminin)",
+          "explanation": "Which, what (feminine form)",
+          "cultural_note": ""
+        },
+        "température": {
+          "display_format": "**température:** Degré de chaleur",
+          "explanation": "Temperature",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**il:** Pronom personnel",
+          "explanation": "He, it",
+          "cultural_note": ""
+        },
+        "y": {
+          "display_format": "**y:** Pronom adverbial",
+          "explanation": "There, adverbial pronoun",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**a:** Avoir (présent)",
+          "explanation": "Has, present tense of avoir",
+          "cultural_note": ""
+        },
+        "danger": {
+          "display_format": "**danger:** Risque",
+          "explanation": "Danger, risk",
+          "cultural_note": ""
+        },
+        "?»": {
+          "display_format": "**?»** Guillemet fermant et point d'interrogation",
+          "explanation": "Closing quotation mark and question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Rugby. Date, programme, XV de France… Tout savoir du Mondial U20",
+      "original_article_link": "https://www.ouest-france.fr/sport/rugby/equipe-de-france/rugby-date-programme-xv-de-france-tout-savoir-du-mondial-u20-6cb9e182-4c3c-11f0-9cff-87ef4f671601?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T04:00:06",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Infos sur la Coupe du Monde U20 de rugby",
+      "simplified_english_title": "Info on the U20 Rugby World Cup",
+      "french_summary": "La Coupe du Monde U20 de rugby commence bientôt. Voici les dates, le programme et les infos sur l'équipe de France.",
+      "english_summary": "The U20 Rugby World Cup starts soon. Here are the dates, schedule, and info about the French team.",
+      "contextual_title_explanations": {
+        "Rugby": {
+          "display_format": "**Rugby:** Sport d'équipe",
+          "explanation": "Team sport with oval ball",
+          "cultural_note": "Popular in France, especially in the south"
+        },
+        ".": {
+          "display_format": "**.:** Point",
+          "explanation": "End of sentence",
+          "cultural_note": ""
+        },
+        "Date": {
+          "display_format": "**Date:** Jour et heure",
+          "explanation": "Day and time of event",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Separates items in a list",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**programme:** Calendrier",
+          "explanation": "Schedule of events",
+          "cultural_note": ""
+        },
+        "XV de France": {
+          "display_format": "**XV de France:** Équipe de France",
+          "explanation": "French national rugby team",
+          "cultural_note": "XV represents the 15 players on the field"
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Indicates incomplete list",
+          "cultural_note": ""
+        },
+        "Tout savoir du": {
+          "display_format": "**Tout savoir du:** Tout sur",
+          "explanation": "All about the",
+          "cultural_note": ""
+        },
+        "Mondial U20": {
+          "display_format": "**Mondial U20:** Coupe du monde des moins de 20 ans",
+          "explanation": "Under 20 World Cup",
+          "cultural_note": "Major international rugby competition for young players"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : riposte de Téhéran, rapatriements, avertissements… Le point sur la nuit",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/guerre-iran-israel-riposte-de-teheran-rapatriements-avertissements-le-point-sur-la-nuit-7ed3e6ea-4fcc-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T03:46:22",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions entre Iran et Israël",
+      "simplified_english_title": "Tensions between Iran and Israel",
+      "french_summary": "L'Iran a répondu aux attaques d'Israël, provoquant des rapatriements et des avertissements internationaux pendant la nuit.",
+      "english_summary": "Iran retaliated against Israel's attacks, causing international evacuations and warnings overnight.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or conflict",
+          "cultural_note": ""
+        },
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Pays en conflit",
+          "explanation": "Countries in conflict",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing details",
+          "cultural_note": ""
+        },
+        "riposte": {
+          "display_format": "**riposte:** Réponse offensive",
+          "explanation": "Counterattack or retaliation",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition indicating possession",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale Iran",
+          "explanation": "Capital city of Iran",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "rapatriements": {
+          "display_format": "**rapatriements:** Retour au pays",
+          "explanation": "Repatriations or returns to homeland",
+          "cultural_note": ""
+        },
+        "avertissements": {
+          "display_format": "**avertissements:** Alertes",
+          "explanation": "Warnings or alerts",
+          "cultural_note": ""
+        },
+        "…": {
+          "display_format": "**…:** Points de suspension",
+          "explanation": "Ellipsis indicating continuation",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**Le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "point": {
+          "display_format": "**point:** Résumé",
+          "explanation": "Summary or update",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**sur:** Concernant",
+          "explanation": "Preposition 'on' or 'about'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "nuit": {
+          "display_format": "**nuit:** Nuitée",
+          "explanation": "Night",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : en frappant la République islamique, Trump entraîne le Moyen-Orient vers l’abîme",
+      "original_article_link": "https://www.la-croix.com/international/guerre-israel-iran-en-frappant-la-republique-islamique-trump-entraine-le-moyen-orient-vers-l-abime-20250622",
+      "original_article_published_date": "2025-06-23T03:30:10",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conflit Israël-Iran : tensions au Moyen-Orient",
+      "simplified_english_title": "Israel-Iran Conflict: Middle East Tensions",
+      "french_summary": "Les actions de Trump contre l'Iran augmentent les tensions entre Israël et l'Iran, mettant la région en danger.",
+      "english_summary": "Trump's actions against Iran increase tensions between Israel and Iran, endangering the region.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**Guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays ennemis",
+          "explanation": "Israel and Iran, two enemy countries",
+          "cultural_note": "Long-standing geopolitical tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Par",
+          "explanation": "By or through",
+          "cultural_note": ""
+        },
+        "frappant": {
+          "display_format": "**frappant:** Attaquant",
+          "explanation": "Striking or attacking",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "République islamique": {
+          "display_format": "**République islamique:** Nom officiel de l'Iran",
+          "explanation": "Official name of Iran",
+          "cultural_note": "Since 1979 Islamic Revolution"
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Ancien président américain",
+          "explanation": "Former US President",
+          "cultural_note": "Known for controversial policies"
+        },
+        "entraîne": {
+          "display_format": "**entraîne:** Mène vers",
+          "explanation": "Leads to or drives towards",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "Definite article 'the'",
+          "cultural_note": ""
+        },
+        "Moyen-Orient": {
+          "display_format": "**Moyen-Orient:** Région géopolitique",
+          "explanation": "Middle East region",
+          "cultural_note": "Strategically important area"
+        },
+        "vers": {
+          "display_format": "**vers:** En direction de",
+          "explanation": "Towards or in the direction of",
+          "cultural_note": ""
+        },
+        "l’abîme": {
+          "display_format": "**l’abîme:** Catastrophe",
+          "explanation": "Abyss or disaster",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’industrie du drone se voit bouleversée par la guerre",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/23/l-industrie-du-drone-se-voit-bouleversee-par-la-guerre_6615389_3234.html",
+      "original_article_published_date": "2025-06-23T03:30:10",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La guerre change l'industrie des drones",
+      "simplified_english_title": "War transforms the drone industry",
+      "french_summary": "La guerre influence beaucoup le développement et l'utilisation des drones dans le monde aujourd'hui.",
+      "english_summary": "The war greatly influences the development and use of drones in the world today.",
+      "contextual_title_explanations": {
+        "L’industrie": {
+          "display_format": "**L’industrie:** Secteur économique",
+          "explanation": "The industry sector",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** De le",
+          "explanation": "Of the (masculine singular)",
+          "cultural_note": ""
+        },
+        "drone": {
+          "display_format": "**drone:** Aéronef sans pilote",
+          "explanation": "Unmanned aerial vehicle",
+          "cultural_note": ""
+        },
+        "se voit": {
+          "display_format": "**se voit:** Est",
+          "explanation": "Is (reflexive form)",
+          "cultural_note": ""
+        },
+        "bouleversée": {
+          "display_format": "**bouleversée:** Profondément changée",
+          "explanation": "Deeply changed or disrupted",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**par:** Par",
+          "explanation": "By",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The (feminine singular)",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**guerre:** Conflit armé",
+          "explanation": "War or armed conflict",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T04:33:51",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,

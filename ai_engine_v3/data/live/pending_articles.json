@@ -62597,6 +62597,561 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Story 1 : Israël frappe avec \"une force sans précédent\" - 23/06",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-1-israel-frappe-avec-une-force-sans-precedent-23-06_VN-202506230599.html",
+      "original_article_published_date": "2025-06-23T15:43:12",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël attaque avec une grande force",
+      "simplified_english_title": "Israel strikes with unprecedented force",
+      "french_summary": "Israël a lancé une attaque très forte. Cela montre une intensification des conflits dans la région.",
+      "english_summary": "Israel launched a very strong attack. This shows an escalation of conflicts in the region.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news due to regional conflicts"
+        },
+        "frappe": {
+          "display_format": "**Strikes:** frappe",
+          "explanation": "Military attacks or hits",
+          "cultural_note": "Common term in conflict reporting"
+        },
+        "sans précédent": {
+          "display_format": "**Unprecedented:** sans précédent",
+          "explanation": "Never seen before",
+          "cultural_note": "Used for significant events"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : des compagnies pétrolières en Irak \"évacuent\" une partie du personnel",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-israel-iran-des-compagnies-petrolieres-en-irak-evacuent-une-partie-du-personnel_7332597.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T15:16:05",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des travailleurs pétroliers quittent l'Irak",
+      "simplified_english_title": "Oil workers leave Iraq",
+      "french_summary": "Des compagnies pétrolières en Irak envoient une partie de leur personnel hors du pays à cause de la guerre entre Israël et l'Iran.",
+      "english_summary": "Oil companies in Iraq are sending some of their staff out of the country due to the war between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news due to regional conflicts"
+        },
+        "compagnies pétrolières": {
+          "display_format": "**Oil companies:** compagnies pétrolières",
+          "explanation": "Businesses that extract or sell petroleum",
+          "cultural_note": "Major players in global energy markets"
+        },
+        "Irak": {
+          "display_format": "**Iraq:** Irak",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Rich in oil, often in geopolitical news"
+        },
+        "évacuent": {
+          "display_format": "**Evacuate:** évacuent",
+          "explanation": "Move people from dangerous areas",
+          "cultural_note": "Common in crisis situations"
+        },
+        "personnel": {
+          "display_format": "**Staff:** personnel",
+          "explanation": "Group of employees",
+          "cultural_note": "Used in both corporate and crisis contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Quand le Conseil constitutionnel entrave le durcissement de la justice des mineurs»",
+      "original_article_link": "https://www.lefigaro.fr/vox/societe/quand-le-conseil-constitutionnel-entrave-le-durcissement-de-la-justice-des-mineurs-20250623",
+      "original_article_published_date": "2025-06-23T14:23:37",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Conseil constitutionnel bloque une loi sur la justice des mineurs",
+      "simplified_english_title": "Constitutional Council blocks juvenile justice law",
+      "french_summary": "Le Conseil constitutionnel empêche le durcissement des lois sur la justice des mineurs, créant un débat politique.",
+      "english_summary": "The Constitutional Council prevents stricter juvenile justice laws, sparking political debate.",
+      "contextual_title_explanations": {
+        "Conseil constitutionnel": {
+          "display_format": "**Constitutional Council:** Conseil constitutionnel",
+          "explanation": "Highest constitutional authority in France",
+          "cultural_note": "Reviews laws to ensure they comply with the Constitution"
+        },
+        "entrave": {
+          "display_format": "**Obstructs:** entrave",
+          "explanation": "Blocks or hinders something",
+          "cultural_note": ""
+        },
+        "durcissement": {
+          "display_format": "**Toughening:** durcissement",
+          "explanation": "Making something stricter or harsher",
+          "cultural_note": ""
+        },
+        "mineurs": {
+          "display_format": "**Minors:** mineurs",
+          "explanation": "People under the legal adult age",
+          "cultural_note": "In France, minors are under 18"
+        },
+        "Quand": {
+          "display_format": "**When:** Quand",
+          "explanation": "At the time that",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Violences faites aux femmes : une hausse inédite des appels au 3919 en 2024",
+      "original_article_link": "https://www.ouest-france.fr/faits-divers/violences/info-ouest-france-hausse-inedite-des-appels-au-3919-051736e2-4c55-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T14:55:24",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Plus d'appels pour violences contre les femmes",
+      "simplified_english_title": "More calls for violence against women",
+      "french_summary": "En 2024, le nombre d'appels au 3919 pour violences faites aux femmes a fortement augmenté.",
+      "english_summary": "In 2024, calls to the 3919 hotline for violence against women have increased sharply.",
+      "contextual_title_explanations": {
+        "Violences": {
+          "display_format": "**Violence:** Violences",
+          "explanation": "Physical or psychological harm",
+          "cultural_note": "Often discussed in social and political contexts"
+        },
+        "faites": {
+          "display_format": "**Done:** faites",
+          "explanation": "Past participle of 'faire' (to do)",
+          "cultural_note": ""
+        },
+        "femmes": {
+          "display_format": "**Women:** femmes",
+          "explanation": "Adult human females",
+          "cultural_note": ""
+        },
+        "hausse": {
+          "display_format": "**Increase:** hausse",
+          "explanation": "A rise or upward trend",
+          "cultural_note": ""
+        },
+        "inédite": {
+          "display_format": "**Unprecedented:** inédite",
+          "explanation": "Never seen or done before",
+          "cultural_note": ""
+        },
+        "appels": {
+          "display_format": "**Calls:** appels",
+          "explanation": "Telephone calls",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : les Français détenus à la prison d’Evin «n’auraient pas été touchés» dit Barrot, qui condamne une frappe israélienne «inacceptable»",
+      "original_article_link": "https://www.lefigaro.fr/international/en-direct-guerre-iran-israel-trump-etats-unis-nucleaire-changement-de-regime-represailles-20250623",
+      "original_article_published_date": "2025-06-23T15:04:29",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les Français en prison en Iran sont en sécurité",
+      "simplified_english_title": "French prisoners in Iran are safe",
+      "french_summary": "Les Français détenus en Iran n'ont pas été blessés. La France condamne une attaque israélienne.",
+      "english_summary": "The French prisoners in Iran were not hurt. France condemns an Israeli strike.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for conflicts"
+        },
+        "détenus": {
+          "display_format": "**Detained:** détenus",
+          "explanation": "People held in custody",
+          "cultural_note": ""
+        },
+        "prison d’Evin": {
+          "display_format": "**Evin Prison:** prison d’Evin",
+          "explanation": "Notorious Iranian prison",
+          "cultural_note": "Known for political prisoners"
+        },
+        "touchés": {
+          "display_format": "**Affected:** touchés",
+          "explanation": "Harmed or impacted",
+          "cultural_note": ""
+        },
+        "condamne": {
+          "display_format": "**Condemns:** condamne",
+          "explanation": "Strongly criticizes",
+          "cultural_note": ""
+        },
+        "frappe israélienne": {
+          "display_format": "**Israeli strike:** frappe israélienne",
+          "explanation": "Military attack by Israel",
+          "cultural_note": ""
+        },
+        "inacceptable": {
+          "display_format": "**Unacceptable:** inacceptable",
+          "explanation": "Not acceptable",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Frappes israéliennes sur la prison de Cécile Kohler: \"C'est inacceptable\", réagit Jean-Noël Barrot, ministre des Affaires étrangères",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-frappes-israeliennes-sur-la-prison-de-cecile-kohler-c-est-inacceptable-reagit-jean-noel-barrot-ministre-des-affaires-etrangeres_VN-202506230576.html",
+      "original_article_published_date": "2025-06-23T15:11:55",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël frappe la prison de Cécile Kohler",
+      "simplified_english_title": "Israel strikes Cécile Kohler's prison",
+      "french_summary": "Israël a frappé la prison où Cécile Kohler est détenue. Le ministre français des Affaires étrangères a dit que c'est inacceptable.",
+      "english_summary": "Israel struck the prison where Cécile Kohler is held. The French Foreign Minister said it is unacceptable.",
+      "contextual_title_explanations": {
+        "Frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks or air raids",
+          "cultural_note": "Often used in context of military conflicts"
+        },
+        "israéliennes": {
+          "display_format": "**Israeli:** israéliennes",
+          "explanation": "Relating to the country Israel",
+          "cultural_note": ""
+        },
+        "ministre": {
+          "display_format": "**Minister:** ministre",
+          "explanation": "Head of a government department",
+          "cultural_note": ""
+        },
+        "Affaires étrangères": {
+          "display_format": "**Foreign Affairs:** Affaires étrangères",
+          "explanation": "Department handling international relations",
+          "cultural_note": "Equivalent to the U.S. State Department"
+        },
+        "réagit": {
+          "display_format": "**React:** réagit",
+          "explanation": "To respond or reply to something",
+          "cultural_note": ""
+        },
+        "inacceptable": {
+          "display_format": "**Unacceptable:** inacceptable",
+          "explanation": "Not satisfactory or allowable",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vague de chaleur : le Rhône et l'Isère toujours en vigilance orange à la canicule",
+      "original_article_link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/vague-de-chaleur-le-rhone-et-l-isere-toujours-en-vigilance-orange-a-la-canicule_7331979.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T06:04:48",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud dans deux régions",
+      "simplified_english_title": "Heatwave continues in two regions",
+      "french_summary": "Le Rhône et l'Isère restent en vigilance orange à cause de la canicule. Les températures restent très élevées.",
+      "english_summary": "Rhône and Isère remain on orange alert due to the heatwave. Temperatures stay very high.",
+      "contextual_title_explanations": {
+        "Vague": {
+          "display_format": "**Wave:** Vague",
+          "explanation": "A sudden increase or surge",
+          "cultural_note": "Commonly used in weather contexts"
+        },
+        "chaleur": {
+          "display_format": "**Heat:** chaleur",
+          "explanation": "High temperature or heat",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**Heatwave:** canicule",
+          "explanation": "Period of very hot weather",
+          "cultural_note": "Official term used by Météo France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Diabolisation de LFI dans les médias: la faute à qui?",
+      "original_article_link": "https://www.mediapart.fr/journal/politique/230625/diabolisation-de-lfi-dans-les-medias-la-faute-qui",
+      "original_article_published_date": "2025-06-23T14:13:15",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pourquoi les médias critiquent LFI ?",
+      "simplified_english_title": "Why do media criticize LFI?",
+      "french_summary": "Les médias sont accusés de diaboliser La France Insoumise, mais qui est responsable de cette situation ?",
+      "english_summary": "Media are accused of demonizing La France Insoumise, but who is responsible for this situation?",
+      "contextual_title_explanations": {
+        "Diabolisation": {
+          "display_format": "**Demonisation:** Diabolisation",
+          "explanation": "Portraying someone as evil",
+          "cultural_note": "Often used in political contexts"
+        },
+        "médias": {
+          "display_format": "**Media:** médias",
+          "explanation": "Collective term for news outlets",
+          "cultural_note": "Includes TV, radio, newspapers, and online news"
+        },
+        "faute": {
+          "display_format": "**Fault:** faute",
+          "explanation": "Responsibility for a mistake",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who:** qui",
+          "explanation": "Relative pronoun meaning 'who'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Français détenus en Iran : les proches de Cécile Kohler \"terrifiés\"",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250623-fran%C3%A7ais-d%C3%A9tenus-en-iran-les-proches-de-c%C3%A9cile-kohler-terrifi%C3%A9s",
+      "original_article_published_date": "2025-06-23T15:29:22",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des Français sont détenus en Iran",
+      "simplified_english_title": "French nationals detained in Iran",
+      "french_summary": "La famille de Cécile Kohler est très inquiète car elle est détenue en Iran. La situation est très tendue.",
+      "english_summary": "Cécile Kohler's family is very worried as she is detained in Iran. The situation is very tense.",
+      "contextual_title_explanations": {
+        "détenus": {
+          "display_format": "**Detained:** détenus",
+          "explanation": "Past participle of 'détenir' (to detain)",
+          "cultural_note": ""
+        },
+        "proches": {
+          "display_format": "**Relatives:** proches",
+          "explanation": "Close family or friends",
+          "cultural_note": ""
+        },
+        "terrifiés": {
+          "display_format": "**Terrified:** terrifiés",
+          "explanation": "Very scared or frightened",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Une streameuse hongkongaise harcelée par deux hommes à Cannes, la mairie saisit la justice",
+      "original_article_link": "https://www.bfmtv.com/police-justice/video-une-streameuse-hongkongaise-harcelee-par-deux-hommes-a-cannes-la-mairie-saisit-la-justice_VN-202506230559.html",
+      "original_article_published_date": "2025-06-23T14:46:52",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une streameuse harcelée à Cannes",
+      "simplified_english_title": "Streamer harassed in Cannes",
+      "french_summary": "Une femme streameuse a été harcelée par deux hommes à Cannes. La mairie a décidé de porter plainte.",
+      "english_summary": "A female streamer was harassed by two men in Cannes. The city has decided to file a complaint.",
+      "contextual_title_explanations": {
+        "Une": {
+          "display_format": "**A:** Une",
+          "explanation": "Indefinite article for feminine nouns",
+          "cultural_note": ""
+        },
+        "streameuse": {
+          "display_format": "**Streamer:** streameuse",
+          "explanation": "Person who broadcasts live video online",
+          "cultural_note": "Feminine form of 'streameur'"
+        },
+        "hongkongaise": {
+          "display_format": "**Hong Konger:** hongkongaise",
+          "explanation": "Person from Hong Kong",
+          "cultural_note": "Feminine form of 'hongkongais'"
+        },
+        "harcelée": {
+          "display_format": "**Harassed:** harcelée",
+          "explanation": "Past participle of 'harceler', meaning to harass",
+          "cultural_note": ""
+        },
+        "mairie": {
+          "display_format": "**Town hall:** mairie",
+          "explanation": "Local government office in France",
+          "cultural_note": ""
+        },
+        "saisit": {
+          "display_format": "**Seizes:** saisit",
+          "explanation": "Third person singular of 'saisir', meaning to seize",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T15:51:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
