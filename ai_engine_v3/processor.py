@@ -129,10 +129,18 @@ class ProcessorV2:
                     for obj in payload2
                     if isinstance(obj, dict) and isinstance(obj.get("original_word"), str)
                 ]
-                article.contextual_title_explanations = {
-                    obj["original_word"]: {k: v for k, v in obj.items() if k != "original_word"}
-                    for obj in safe_items
-                }
+                explanations_dict = {}
+                for obj in safe_items:
+                    try:
+                        explanations_dict[obj["original_word"]] = {
+                            k: v for k, v in obj.items() if k != "original_word"
+                        }
+                    except TypeError:
+                        # In the unlikely event *original_word* is still an
+                        # unhashable type (e.g. list) skip the item so we
+                        # never crash the entire article processing.
+                        continue
+                article.contextual_title_explanations = explanations_dict
             else:
                 article.contextual_title_explanations = payload2
 

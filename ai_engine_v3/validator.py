@@ -157,7 +157,16 @@ def coverage_ok(title: str, explanations: list[dict[str, str]] | dict, *, max_mi
     if isinstance(explanations, dict):
         provided = set(explanations.keys())
     else:
-        provided = {d.get("original_word") for d in explanations if isinstance(d, dict)}
+        provided = set()
+        for d in explanations:
+            if isinstance(d, dict):
+                tok = d.get("original_word")
+                # skip unhashable entries (e.g. list)
+                try:
+                    hash(tok)
+                except TypeError:
+                    continue
+                provided.add(tok)
     missing = expected - provided
     if not missing:
         return True
