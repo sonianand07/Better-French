@@ -13,6 +13,9 @@ A central, living list of ideas **not yet implemented** for AI-Engine v3 and the
 | F-007 | UI filters | Difficulty dropdown, tone chips, topic tags. | ❌ Pending |
 | F-008 | Backup pruning | Keep last 200 `rolling_*.json` backups, delete older. | ❌ Pending |
 | F-009 | Lighthouse perf budget | Automated performance budgets in CI. | ❌ Pending |
+| F-010 | Dictionary-backed heading validation | Use `wordset-fr` or similar to cross-check English gloss automatically in processor. | ❌ Pending |
+| F-011 | External translation API fallback | If dictionary missing, call LibreTranslate/DeepL to auto-insert English gloss. | ❌ Pending |
+| F-012 | Pipeline dependency graph | Formal DAG orchestration so each stage (scrape → LLM → validate → QA → deploy) runs only on success. | ❌ Pending |
 
 ## Done
 
@@ -53,4 +56,19 @@ Difficulty dropdown, tone chips, keyword tags – client side.
 Keep last 200 JSON backups, delete older in workflow.
 
 #### F-009 Lighthouse performance budget
-Run `treosh/lighthouse-ci-action` in CI, budget json under `qa/`. 
+Run `treosh/lighthouse-ci-action` in CI, budget json under `qa/`.
+
+#### F-010 Dictionary-backed heading validation
+WHAT: Integrate lightweight bilingual lexicon (`wordfreq` + `wordset-fr`) so the validator can deterministically verify English glosses.
+WHY: Catches errors the accent/identical rule misses (e.g. "campement" → "Campement").
+HOW: Load glossary once, cache, reject or rewrite headings that disagree.
+
+#### F-011 External translation API fallback
+WHAT: Optional HTTP call to LibreTranslate (self-host) or DeepL when dictionary lacks a term.
+WHY: Guarantees 100 % coverage while keeping costs near-zero for common words.
+HOW: Processor detects missing gloss after dictionary stage; inserts translation and logs usage cost.
+
+#### F-012 Pipeline dependency graph
+WHAT: Convert current shell-script chain into an explicit DAG (Prefect or Airflow-lite) with retries and notifications.
+WHY: Ensures stages execute in order, fail fast, and don't leave partial artefacts.
+HOW: Wrap each component (scraper, curator, LLM batch, validator, QA, deploy) as a Prefect flow; GitHub Action triggers nightly. 
