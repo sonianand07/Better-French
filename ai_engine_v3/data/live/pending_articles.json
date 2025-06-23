@@ -60712,6 +60712,425 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : l'Iran pourrait fermer le détroit d'Ormuz, une décision surprenante qui impacterait négativement l'économie du pays",
+      "original_article_link": "https://www.europe1.fr/international/guerre-au-moyen-orient-liran-pourrait-fermer-le-detroit-dormuz-une-decision-surprenante-qui-impacterait-negativement-leconomie-du-pays-760641",
+      "original_article_published_date": "2025-06-23T09:21:09",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran pourrait fermer le détroit d'Ormuz",
+      "simplified_english_title": "Iran may close the Strait of Hormuz",
+      "french_summary": "L'Iran menace de fermer le détroit d'Ormuz, ce qui aurait un impact négatif sur son économie et surprend la communauté internationale.",
+      "english_summary": "Iran threatens to close the Strait of Hormuz, which would negatively impact its economy and surprise the international community.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Paris: le palais de justice paralysé par une coupure électrique sur l'île de la Cité",
+      "original_article_link": "https://www.bfmtv.com/paris/paris-le-palais-de-justice-paralyse-par-une-coupure-electrique-sur-l-ile-de-la-cite_AD-202506230306.html",
+      "original_article_published_date": "2025-06-23T09:19:51",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paned d'électricité au palais de justice de Paris",
+      "simplified_english_title": "Power outage at Paris courthouse",
+      "french_summary": "Une coupure de courant a paralysé le palais de justice sur l'île de la Cité à Paris.",
+      "english_summary": "A power outage paralyzed the courthouse on the Île de la Cité in Paris.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : les prix du gazole augmentent de plus de 6% dans les stations-service",
+      "original_article_link": "https://www.lefigaro.fr/conso/guerre-israel-iran-les-prix-du-gazole-augmentent-de-plus-de-6-dans-les-stations-service-20250623",
+      "original_article_published_date": "2025-06-23T09:20:30",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les prix du gazole montent à cause du conflit",
+      "simplified_english_title": "Diesel prices rise due to Israel-Iran conflict",
+      "french_summary": "Les prix du gazole ont augmenté de plus de 6% dans les stations-service à cause de la guerre entre Israël et l'Iran.",
+      "english_summary": "Diesel prices at gas stations have risen by over 6% due to the conflict between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Israël-Iran": {
+          "display_format": "**Israel-Iran:** Israël-Iran",
+          "explanation": "Two Middle Eastern countries",
+          "cultural_note": "Long-standing geopolitical tensions"
+        },
+        "prix": {
+          "display_format": "**Prices:** prix",
+          "explanation": "Cost of goods or services",
+          "cultural_note": ""
+        },
+        "gazole": {
+          "display_format": "**Diesel:** gazole",
+          "explanation": "Type of fuel for vehicles",
+          "cultural_note": "Commonly used in France for cars"
+        },
+        "augmentent": {
+          "display_format": "**Increase:** augmentent",
+          "explanation": "To go up or rise",
+          "cultural_note": ""
+        },
+        "stations-service": {
+          "display_format": "**Gas stations:** stations-service",
+          "explanation": "Places where fuel is sold",
+          "cultural_note": "Often include convenience stores"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Haïti: le pouvoir admet officiellement la présence de mercenaires étrangers pour la lutte antigangs",
+      "original_article_link": "https://www.rfi.fr/fr/am%C3%A9riques/20250623-ha%C3%AFti-le-pouvoir-admet-officiellement-la-pr%C3%A9sence-de-mercenaires-%C3%A9trangers-pour-la-lutte-antigangs",
+      "original_article_published_date": "2025-06-23T05:40:53",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Haïti admet des mercenaires étrangers contre les gangs",
+      "simplified_english_title": "Haiti admits foreign mercenaries against gangs",
+      "french_summary": "Le gouvernement haïtien reconnaît officiellement l'utilisation de mercenaires étrangers pour combattre les gangs dans le pays.",
+      "english_summary": "The Haitian government officially acknowledges the use of foreign mercenaries to fight gangs in the country.",
+      "contextual_title_explanations": {
+        "Haïti": {
+          "display_format": "**Haiti:** Haïti",
+          "explanation": "Caribbean country on Hispaniola island",
+          "cultural_note": "French-speaking nation with rich history"
+        },
+        "pouvoir": {
+          "display_format": "**Power:** pouvoir",
+          "explanation": "Authority or government in control",
+          "cultural_note": ""
+        },
+        "admet": {
+          "display_format": "**Admits:** admet",
+          "explanation": "Acknowledges or accepts something",
+          "cultural_note": ""
+        },
+        "officiellement": {
+          "display_format": "**Officially:** officiellement",
+          "explanation": "In an official capacity or manner",
+          "cultural_note": ""
+        },
+        "mercenaires": {
+          "display_format": "**Mercenaries:** mercenaires",
+          "explanation": "Paid soldiers fighting for foreign interests",
+          "cultural_note": ""
+        },
+        "étrangers": {
+          "display_format": "**Foreign:** étrangers",
+          "explanation": "From another country",
+          "cultural_note": ""
+        },
+        "lutte antigangs": {
+          "display_format": "**Anti-gang fight:** lutte antigangs",
+          "explanation": "Efforts to combat gang activities",
+          "cultural_note": "Ongoing issue in Haiti"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ÉDITO - Iran: \"On aurait avec la fermeture du détroit d'Ormuz, une explosion du prix du baril de pétrole monumentale\"",
+      "original_article_link": "https://www.bfmtv.com/replay-emissions/la-chronique-eco-nicolas-doze/video-edito-iran-on-aurait-avec-la-fermeture-du-detroit-d-ormuz-une-explosion-du-prix-du-baril-de-petrole-monumentale_VN-202506230094.html",
+      "original_article_published_date": "2025-06-23T04:43:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran pourrait fermer le détroit d'Ormuz",
+      "simplified_english_title": "Iran may close the Strait of Hormuz",
+      "french_summary": "Si l'Iran ferme le détroit d'Ormuz, le prix du pétrole pourrait augmenter fortement.",
+      "english_summary": "If Iran closes the Strait of Hormuz, the price of oil could rise sharply.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Emmanuel Macron se déplace en Norvège ce lundi : que va-t-il faire dans ce pays scandinave ?",
+      "original_article_link": "https://www.ouest-france.fr/politique/emmanuel-macron/emmanuel-macron-se-deplace-en-norvege-ce-lundi-que-va-t-il-faire-dans-ce-pays-scandinave-8b2d689c-5000-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T08:27:18",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron visite la Norvège aujourd'hui",
+      "simplified_english_title": "Macron visits Norway today",
+      "french_summary": "Emmanuel Macron va en Norvège pour discuter de sujets importants comme l'environnement et la coopération internationale.",
+      "english_summary": "Emmanuel Macron is going to Norway to discuss important topics like the environment and international cooperation.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Médecine: des chercheurs ont produit du paracétamol à partir de déchets plastiques",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250623-m%C3%A9decine-des-chercheurs-ont-produit-du-parac%C3%A9tamol-%C3%A0-partir-de-d%C3%A9chets-plastiques",
+      "original_article_published_date": "2025-06-23T07:37:56",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Du paracétamol créé à partir de plastique",
+      "simplified_english_title": "Paracetamol made from plastic waste",
+      "french_summary": "Des scientifiques ont réussi à transformer des déchets plastiques en paracétamol, un médicament courant contre la douleur.",
+      "english_summary": "Scientists have successfully transformed plastic waste into paracetamol, a common pain relief medication.",
+      "contextual_title_explanations": {
+        "Médecine": {
+          "display_format": "**Medicine:** Médecine",
+          "explanation": "The science and practice of diagnosing and treating diseases",
+          "cultural_note": "France has a strong public healthcare system"
+        },
+        "chercheurs": {
+          "display_format": "**Researchers:** chercheurs",
+          "explanation": "People who study subjects to discover new information",
+          "cultural_note": ""
+        },
+        "ont produit": {
+          "display_format": "**Have produced:** ont produit",
+          "explanation": "Past tense of 'produire', meaning to create or manufacture",
+          "cultural_note": ""
+        },
+        "paracétamol": {
+          "display_format": "**Paracetamol:** paracétamol",
+          "explanation": "Common pain reliever and fever reducer",
+          "cultural_note": "Known as acetaminophen in the US"
+        },
+        "déchets plastiques": {
+          "display_format": "**Plastic waste:** déchets plastiques",
+          "explanation": "Discarded plastic materials",
+          "cultural_note": "France has strict recycling policies"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Économie. « Des entreprises du bâtiment sont très inquiètes pour la rentrée »",
+      "original_article_link": "https://www.ouest-france.fr/economie/economie-des-entreprises-du-batiment-sont-tres-inquietes-pour-la-rentree-800d0bf6-4df4-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T04:45:14",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les entreprises du bâtiment s'inquiètent",
+      "simplified_english_title": "Construction firms are worried",
+      "french_summary": "Des entreprises du bâtiment sont inquiètes pour la rentrée à cause de l'économie. Elles ont peur des difficultés financières.",
+      "english_summary": "Construction companies are worried about the economic situation for the new school year. They fear financial difficulties.",
+      "contextual_title_explanations": {
+        "Économie": {
+          "display_format": "**Economy:** Économie",
+          "explanation": "Financial system of a country",
+          "cultural_note": "Often discussed in French media"
+        },
+        "entreprises": {
+          "display_format": "**Companies:** entreprises",
+          "explanation": "Business organizations",
+          "cultural_note": ""
+        },
+        "bâtiment": {
+          "display_format": "**Building:** bâtiment",
+          "explanation": "Construction sector",
+          "cultural_note": "Important industry in France"
+        },
+        "inquiètes": {
+          "display_format": "**Worried:** inquiètes",
+          "explanation": "Feeling anxious",
+          "cultural_note": ""
+        },
+        "rentrée": {
+          "display_format": "**Back-to-school/work:** rentrée",
+          "explanation": "Return after summer break",
+          "cultural_note": "Major event in France, often in September"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les Experts : Conclave, la réunion de la dernière chance - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts/video-les-experts-conclave-la-reunion-de-la-derniere-chance-23-06_VN-202506230242.html",
+      "original_article_published_date": "2025-06-23T07:36:33",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conclave : une réunion importante",
+      "simplified_english_title": "Conclave: an important meeting",
+      "french_summary": "Les Experts discutent du Conclave, une réunion cruciale qui pourrait être la dernière chance pour résoudre les problèmes actuels.",
+      "english_summary": "The Experts discuss the Conclave, a crucial meeting that might be the last chance to solve current issues.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Trajectoire : Heroics Capital, solutions de quai logistique - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/trajectoire/video-trajectoire-heroics-capital-solutions-de-quai-logistique-23-06_VN-202506230222.html",
+      "original_article_published_date": "2025-06-23T07:05:14",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Heroics Capital aide la logistique",
+      "simplified_english_title": "Heroics Capital supports logistics",
+      "french_summary": "Heroics Capital propose des solutions pour améliorer les opérations de quai logistique et optimiser la gestion des entrepôts.",
+      "english_summary": "Heroics Capital offers solutions to improve logistics quay operations and optimize warehouse management.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T09:23:01",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
     }
   ]
 }
