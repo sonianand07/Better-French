@@ -300,6 +300,19 @@
                     }
                 }
                 
+                // 🚦 Final safeguard: if the computed displayText still looks French
+                // (either identical to the original token or containing accented
+                // characters) fall back to the first clause of the English
+                // explanation so the learner sees an English gloss in bold.
+                const hasAccent = /[À-ÿ]/.test(displayText);
+                const sameAsOriginal = displayText.toLowerCase() === (data.original_word || '').toLowerCase();
+                if ((hasAccent || sameAsOriginal) && data.explanation) {
+                    const clause = data.explanation.split(/[.,;]/)[0].trim();
+                    if (clause) {
+                        displayText = clause;
+                    }
+                }
+                
                 return {
                     word: data.original_word || trigger.textContent,
                     display: displayText,

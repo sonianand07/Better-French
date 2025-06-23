@@ -92,6 +92,10 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
             if not {"original_word", "display_format", "explanation"}.issubset(obj):
                 return False, None, "Missing keys in item"
             cleaned.append(obj)
+            # Extra rule: heading before the colon must be English (no accents & not identical to original)
+            disp = obj.get("display_format", "")
+            if not _english_heading_ok(disp, obj["original_word"]):
+                return False, None, "Heading not English in display_format"
         return True, cleaned, "ok"
 
     # -------- dict format --------
@@ -102,6 +106,8 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
                 return False, None, "Dict value is not an object"
             if not {"display_format", "explanation"}.issubset(val):
                 return False, None, "Missing keys in value object"
+            if not _english_heading_ok(val["display_format"], word):
+                return False, None, "Heading not English in display_format"
         return True, data, "ok"
 
     return False, None, "Unexpected JSON structure"
@@ -166,3 +172,29 @@ def article_is_display_ready(article: Article) -> bool:
     # The Article instance has already been validated during instantiation.
     # If stricter checks are needed, they can be added here.
     return article.display_ready 
+
+# ---------------------------------------------------------------------------
+# New helper: detect French-looking heading
+# ---------------------------------------------------------------------------
+
+_HEADING_RE = re.compile(r"\*\*([^:]+):")
+
+
+def _english_heading_ok(display_format: str, original_word: str) -> bool:
+    """Return False if the heading still looks French.
+
+    Criteria:
+    • Heading identical (case-insensitive) to *original_word*
+    • Heading contains accented characters À-ÿ
+    """
+    if not display_format:
+        return False
+    m = _HEADING_RE.match(display_format)
+    if not m:
+        return False
+    heading = m.group(1).strip()
+    if heading.lower() == (original_word or "").lower():
+        return False
+    if re.search(r"[À-ÿ]", heading):
+        return False
+    return True 
