@@ -78369,6 +78369,671 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Donald Trump est arrivé aux Pays-Bas pour le Sommet de l'Otan",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-donald-trump-est-arrive-aux-pays-bas-pour-le-sommet-de-l-otan_VN-202506240702.html",
+      "original_article_published_date": "2025-06-24T17:55:45",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump est aux Pays-Bas pour un sommet de l'Otan",
+      "simplified_english_title": "Trump in Netherlands for NATO summit",
+      "french_summary": "Donald Trump est arrivé aux Pays-Bas pour participer à un sommet important de l'Otan avec d'autres dirigeants.",
+      "english_summary": "Donald Trump arrived in the Netherlands to attend an important NATO summit with other leaders.",
+      "contextual_title_explanations": {
+        "Pays-Bas": {
+          "display_format": "**Netherlands:** Pays-Bas",
+          "explanation": "Western European country",
+          "cultural_note": "Capital is Amsterdam"
+        },
+        "Sommet": {
+          "display_format": "**Summit:** Sommet",
+          "explanation": "High-level political meeting",
+          "cultural_note": "Often involves multiple countries"
+        },
+        "Otan": {
+          "display_format": "**NATO:** l'Otan",
+          "explanation": "North Atlantic military alliance",
+          "cultural_note": "Founded in 1949"
+        },
+        "est arrivé": {
+          "display_format": "**Has arrived:** est arrivé",
+          "explanation": "Present perfect tense of 'arriver'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Déficit: François Bayrou affirme que la France est \"un pays au risque du surendettement\"",
+      "original_article_link": "https://www.bfmtv.com/politique/video-deficit-francois-bayrou-affirme-que-la-france-est-un-pays-au-risque-du-surendettement_VN-202506240679.html",
+      "original_article_published_date": "2025-06-24T17:17:46",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bayrou dit que la France risque trop de dettes",
+      "simplified_english_title": "Bayrou says France risks excessive debt",
+      "french_summary": "François Bayrou déclare que la France est en danger à cause d'un déficit trop élevé et de dettes excessives.",
+      "english_summary": "François Bayrou states that France is at risk due to a high deficit and excessive debt.",
+      "contextual_title_explanations": {
+        "Déficit": {
+          "display_format": "**Deficit:** Déficit",
+          "explanation": "Shortfall of money or resources",
+          "cultural_note": "Often used in financial contexts"
+        },
+        "affirme": {
+          "display_format": "**Affirms:** affirme",
+          "explanation": "States something as true",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**Country:** pays",
+          "explanation": "Nation with its own government",
+          "cultural_note": ""
+        },
+        "risque": {
+          "display_format": "**Risk:** risque",
+          "explanation": "Possibility of danger or loss",
+          "cultural_note": ""
+        },
+        "surendettement": {
+          "display_format": "**Over-indebtedness:** surendettement",
+          "explanation": "State of having too much debt",
+          "cultural_note": "Common issue in economic discussions"
+        },
+        "\"": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation for direct speech",
+          "cultural_note": "Used as in English"
+        },
+        "est": {
+          "display_format": "**Is:** est",
+          "explanation": "Third person singular of 'to be'",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**That:** que",
+          "explanation": "Conjunction introducing a clause",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Nucléaire en Polynésie : en quête de vérité », la part d’ombre du gaullisme",
+      "original_article_link": "https://www.nouvelobs.com/teleobs/20250624.OBS105255/nucleaire-en-polynesie-en-quete-de-verite-la-part-d-ombre-du-gaullisme.html",
+      "original_article_published_date": "2025-06-24T15:00:11",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le nucléaire en Polynésie et ses secrets",
+      "simplified_english_title": "Nuclear secrets in Polynesia",
+      "french_summary": "Un document explore les zones d'ombre du nucléaire en Polynésie pendant la période gaulliste.",
+      "english_summary": "A report explores the dark sides of nuclear activity in Polynesia during the Gaullist era.",
+      "contextual_title_explanations": {
+        "Nucléaire": {
+          "display_format": "**Nuclear:** Nucléaire",
+          "explanation": "Relating to atomic energy or weapons",
+          "cultural_note": "France relies heavily on nuclear power"
+        },
+        "Polynésie": {
+          "display_format": "**French Polynesia:** Polynésie",
+          "explanation": "French overseas territory in the Pacific",
+          "cultural_note": "Site of French nuclear tests in the past"
+        },
+        "quête": {
+          "display_format": "**Quest:** quête",
+          "explanation": "Search or pursuit of something",
+          "cultural_note": ""
+        },
+        "vérité": {
+          "display_format": "**Truth:** vérité",
+          "explanation": "The true or actual state of a matter",
+          "cultural_note": ""
+        },
+        "ombre": {
+          "display_format": "**Shadow:** ombre",
+          "explanation": "Dark area or shape produced by an object blocking light",
+          "cultural_note": "Often used metaphorically for hidden aspects"
+        },
+        "gaullisme": {
+          "display_format": "**Gaullism:** gaullisme",
+          "explanation": "Political ideology based on Charles de Gaulle's principles",
+          "cultural_note": "Focuses on strong leadership and national independence"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le bombardier B-2 dans « Le Monde », de la guerre froide à l’attaque contre l’Iran",
+      "original_article_link": "https://www.lemonde.fr/m-le-mag/article/2025/06/24/le-bombardier-b-2-dans-le-monde-de-la-guerre-froide-a-l-attaque-contre-l-iran_6615673_4500055.html",
+      "original_article_published_date": "2025-06-24T18:00:13",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le bombardier B-2 : histoire et actualité",
+      "simplified_english_title": "The B-2 bomber: history and current events",
+      "french_summary": "Le bombardier B-2, utilisé pendant la guerre froide, pourrait être impliqué dans une attaque contre l'Iran.",
+      "english_summary": "The B-2 bomber, used during the Cold War, might be involved in an attack against Iran.",
+      "contextual_title_explanations": {
+        "B-2": {
+          "display_format": "**B-2 Bomber:** B-2",
+          "explanation": "U.S. stealth bomber aircraft",
+          "cultural_note": "Symbol of American military power"
+        },
+        "Le Monde": {
+          "display_format": "**The World:** Le Monde",
+          "explanation": "French daily newspaper",
+          "cultural_note": "One of France's most respected newspapers"
+        },
+        "guerre froide": {
+          "display_format": "**Cold War:** guerre froide",
+          "explanation": "Period of tension between the US and USSR",
+          "cultural_note": "Lasted from 1947 to 1991"
+        },
+        "attaque": {
+          "display_format": "**Attack:** attaque",
+          "explanation": "Military offensive action",
+          "cultural_note": ""
+        },
+        "bombardier": {
+          "display_format": "**Bomber:** bombardier",
+          "explanation": "Military aircraft designed to drop bombs",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Donald Trump sur l'Iran: \"Il ne se doteront pas de l'arme nucléaire\"",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-donald-trump-sur-l-iran-il-ne-se-doteront-pas-de-l-arme-nucleaire_VN-202506240688.html",
+      "original_article_published_date": "2025-06-24T17:37:54",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump dit que l'Iran n'aura pas l'arme nucléaire",
+      "simplified_english_title": "Trump says Iran will not get nuclear weapons",
+      "french_summary": "Donald Trump affirme que l'Iran ne pourra pas obtenir l'arme nucléaire, selon ses déclarations récentes.",
+      "english_summary": "Donald Trump states that Iran will not be able to acquire nuclear weapons, according to his recent statements.",
+      "contextual_title_explanations": {
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating topic or position",
+          "cultural_note": ""
+        },
+        "l&#39;Iran": {
+          "display_format": "**Iran:** l&#39;Iran",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Formerly known as Persia"
+        },
+        "Il": {
+          "display_format": "**They:** Il",
+          "explanation": "Third-person singular masculine pronoun",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**Not:** ne",
+          "explanation": "Negative particle",
+          "cultural_note": "Used with 'pas' to form negation"
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Negative particle",
+          "cultural_note": "Used with 'ne' to form negation"
+        },
+        "se doteront": {
+          "display_format": "**Will equip themselves:** se doteront",
+          "explanation": "Future tense of 'se doter'",
+          "cultural_note": "Reflexive verb meaning to equip oneself"
+        },
+        "nucléaire": {
+          "display_format": "**Nuclear:** nucléaire",
+          "explanation": "Relating to atomic energy",
+          "cultural_note": ""
+        },
+        "l&#39;arme": {
+          "display_format": "**Weapon:** l&#39;arme",
+          "explanation": "Instrument used to inflict damage",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation introducing a quote or list",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation marks:** \"",
+          "explanation": "Punctuation marking the beginning and end of a quote",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**Themselves:** se",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": "Used with verbs to indicate an action done to oneself"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La loi énergie, profondément remaniée par le RN et la droite, rejetée par l’Assemblée",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250624.OBS105260/la-loi-energie-profondement-remaniee-par-le-rn-et-la-droite-rejetee-par-l-assemblee.html",
+      "original_article_published_date": "2025-06-24T16:10:08",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Assemblée rejette la loi sur l'énergie",
+      "simplified_english_title": "Assembly rejects energy law",
+      "french_summary": "La loi sur l'énergie, modifiée par le RN et la droite, a été rejetée par l'Assemblée nationale.",
+      "english_summary": "The energy law, amended by the RN and the right, was rejected by the National Assembly.",
+      "contextual_title_explanations": {
+        "loi": {
+          "display_format": "**Law:** loi",
+          "explanation": "A system of rules and regulations",
+          "cultural_note": "French laws are created by the Parliament"
+        },
+        "énergie": {
+          "display_format": "**Energy:** énergie",
+          "explanation": "Power derived from physical or chemical resources",
+          "cultural_note": "France is known for its nuclear energy production"
+        },
+        "profondément": {
+          "display_format": "**Deeply:** profondément",
+          "explanation": "In a profound or significant manner",
+          "cultural_note": ""
+        },
+        "remaniée": {
+          "display_format": "**Reshaped:** remaniée",
+          "explanation": "Changed or modified significantly",
+          "cultural_note": ""
+        },
+        "RN": {
+          "display_format": "**National Rally:** RN",
+          "explanation": "French political party",
+          "cultural_note": "Formerly known as the National Front"
+        },
+        "droite": {
+          "display_format": "**Right:** droite",
+          "explanation": "Political right wing",
+          "cultural_note": "Refers to conservative political parties in France"
+        },
+        "rejetée": {
+          "display_format": "**Rejected:** rejetée",
+          "explanation": "Not accepted or approved",
+          "cultural_note": ""
+        },
+        "Assemblée": {
+          "display_format": "**Assembly:** Assemblée",
+          "explanation": "French National Assembly",
+          "cultural_note": "Lower house of the French Parliament"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Quels leviers pour résorber le déficit croissant de l’Assurance-maladie?",
+      "original_article_link": "https://www.lefigaro.fr/social/quels-leviers-pour-resorber-le-deficit-croissant-de-l-assurance-maladie-20250624",
+      "original_article_published_date": "2025-06-24T17:34:09",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Comment réduire le déficit de l’Assurance-maladie?",
+      "simplified_english_title": "How to reduce health insurance deficit?",
+      "french_summary": "Les experts cherchent des solutions pour diminuer le déficit croissant de l’Assurance-maladie en France.",
+      "english_summary": "Experts seek solutions to reduce the growing deficit of France’s health insurance system.",
+      "contextual_title_explanations": {
+        "Quels": {
+          "display_format": "**Which:** Quels",
+          "explanation": "Interrogative adjective meaning 'which' or 'what'",
+          "cultural_note": "Used to ask for specific information"
+        },
+        "leviers": {
+          "display_format": "**Levers:** leviers",
+          "explanation": "Means to influence or change something",
+          "cultural_note": "Often used in political or economic contexts"
+        },
+        "résorber": {
+          "display_format": "**Resorb:** résorber",
+          "explanation": "To gradually reduce or eliminate something",
+          "cultural_note": "Commonly used in financial or economic contexts"
+        },
+        "déficit": {
+          "display_format": "**Deficit:** déficit",
+          "explanation": "Shortfall, especially in financial context",
+          "cultural_note": "Frequently discussed in French economic news"
+        },
+        "croissant": {
+          "display_format": "**Growing:** croissant",
+          "explanation": "Increasing, becoming larger",
+          "cultural_note": "Also means a type of pastry"
+        },
+        "Assurance-maladie": {
+          "display_format": "**Health Insurance:** Assurance-maladie",
+          "explanation": "French national health insurance system",
+          "cultural_note": "Fundamental part of French social security"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Santé : l’Assurance-maladie met sur la table 3,9 milliards d’économies pour 2026",
+      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/24/sante-l-assurance-maladie-met-sur-la-table-3-9-milliards-d-economies-pour-2026_6615671_3224.html",
+      "original_article_published_date": "2025-06-24T17:51:01",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Assurance-maladie veut économiser 3,9 milliards",
+      "simplified_english_title": "Health insurance aims to save €3.9 billion",
+      "french_summary": "L'Assurance-maladie propose un plan pour économiser 3,9 milliards d'euros d'ici 2026 dans le domaine de la santé.",
+      "english_summary": "The health insurance system proposes a plan to save €3.9 billion by 2026 in healthcare.",
+      "contextual_title_explanations": {
+        "Santé": {
+          "display_format": "**Health:** Santé",
+          "explanation": "French public health system",
+          "cultural_note": "Covers medical care for all citizens"
+        },
+        "Assurance-maladie": {
+          "display_format": "**Health insurance:** Assurance-maladie",
+          "explanation": "French national health insurance system",
+          "cultural_note": "Funds healthcare services in France"
+        },
+        "met sur la table": {
+          "display_format": "**Puts on the table:** met sur la table",
+          "explanation": "Presents or proposes something",
+          "cultural_note": "Common idiom for introducing plans"
+        },
+        "milliards": {
+          "display_format": "**Billions:** milliards",
+          "explanation": "One thousand millions",
+          "cultural_note": ""
+        },
+        "économies": {
+          "display_format": "**Savings:** économies",
+          "explanation": "Financial savings or cuts",
+          "cultural_note": "Refers to budget reductions"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël : quand des Arabes israéliens se voient refuser l’accès aux abris anti-missiles",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250624-israel-abris-anti-missiles-arabes-israeliens-discrimination-bombardements-iraniens",
+      "original_article_published_date": "2025-06-24T17:44:11",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des Arabes israéliens refusés dans les abris",
+      "simplified_english_title": "Israeli Arabs denied access to shelters",
+      "french_summary": "Des citoyens arabes en Israël sont empêchés d'entrer dans les abris anti-missiles, ce qui cause des tensions.",
+      "english_summary": "Arab citizens in Israel are being denied entry to missile shelters, causing tensions.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "French spelling of Israel"
+        },
+        "Arabes israéliens": {
+          "display_format": "**Israeli Arabs:** Arabes israéliens",
+          "explanation": "Arab citizens of Israel",
+          "cultural_note": "Minority group in Israel"
+        },
+        "refuser": {
+          "display_format": "**To refuse:** refuser",
+          "explanation": "To deny or reject",
+          "cultural_note": ""
+        },
+        "l’accès": {
+          "display_format": "**Access:** l’accès",
+          "explanation": "Permission to enter",
+          "cultural_note": ""
+        },
+        "abris anti-missiles": {
+          "display_format": "**Missile shelters:** abris anti-missiles",
+          "explanation": "Protected areas from missiles",
+          "cultural_note": "Used during conflicts"
+        },
+        "se voient": {
+          "display_format": "**Are seen:** se voient",
+          "explanation": "Passive form of 'voir'",
+          "cultural_note": "Common in formal writing"
+        },
+        "quand": {
+          "display_format": "**When:** quand",
+          "explanation": "At the time that",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a list or explanation",
+          "cultural_note": "Common in headlines"
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article",
+          "cultural_note": ""
+        },
+        "israéliens": {
+          "display_format": "**Israelis:** israéliens",
+          "explanation": "People from Israel",
+          "cultural_note": ""
+        },
+        "accès": {
+          "display_format": "**Access:** accès",
+          "explanation": "Entry or admission",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**Themselves:** se",
+          "explanation": "Reflexive pronoun",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**To the:** aux",
+          "explanation": "Contraction of 'à les'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Céline Méchain (Goldman Sachs): Goldman Sachs fête son 10000 Small Businesses - 24/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/la-grande-interview/video-celine-mechain-goldman-sachs-goldman-sachs-fete-son-10000-small-businesses-24-06_VN-202506240684.html",
+      "original_article_published_date": "2025-06-24T17:28:13",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Goldman Sachs célèbre ses 10000 petites entreprises",
+      "simplified_english_title": "Goldman Sachs celebrates 10000 Small Businesses",
+      "french_summary": "Céline Méchain de Goldman Sachs annonce la célébration du programme 10000 Small Businesses.",
+      "english_summary": "Céline Méchain from Goldman Sachs announces the celebration of the 10000 Small Businesses program.",
+      "contextual_title_explanations": {
+        "fête": {
+          "display_format": "**Celebrates:** fête",
+          "explanation": "Verb meaning to celebrate or commemorate",
+          "cultural_note": "Commonly used for anniversaries and milestones"
+        },
+        "06": {
+          "display_format": "**June:** 06",
+          "explanation": "The sixth month of the year",
+          "cultural_note": "French date format is day/month"
+        },
+        "son": {
+          "display_format": "**Its:** son",
+          "explanation": "Possessive pronoun meaning its",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing a list or quote",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T18:27:41",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
