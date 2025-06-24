@@ -3,351 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Iran: le commandant des forces paramilitaires Bassidj tué dans une attaque israélienne",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-iran-le-commandant-des-forces-paramilitaires-bassidj-tue-dans-une-attaque-israelienne_VN-202506240434.html",
-      "original_article_published_date": "2025-06-24T12:34:38",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un commandant iranien tué par Israël",
-      "simplified_english_title": "Iranian commander killed by Israel",
-      "french_summary": "Un haut responsable des forces paramilitaires iraniennes est mort dans une attaque attribuée à Israël.",
-      "english_summary": "A high-ranking Iranian paramilitary officer was killed in an attack blamed on Israel.",
-      "contextual_title_explanations": {
-        "paramilitaires": {
-          "display_format": "**Paramilitary:** paramilitaires",
-          "explanation": "Organizations similar to military",
-          "cultural_note": "Often operate alongside official military forces"
-        },
-        "Bassidj": {
-          "display_format": "**Basij:** Bassidj",
-          "explanation": "Iranian paramilitary volunteer militia",
-          "cultural_note": "Known for internal security and law enforcement"
-        },
-        "commandant": {
-          "display_format": "**Commander:** commandant",
-          "explanation": "Leader of a military unit",
-          "cultural_note": ""
-        },
-        "tué": {
-          "display_format": "**Killed:** tué",
-          "explanation": "Past participle of 'to kill'",
-          "cultural_note": ""
-        },
-        "attaque": {
-          "display_format": "**Attack:** attaque",
-          "explanation": "Military assault or strike",
-          "cultural_note": ""
-        },
-        "israélienne": {
-          "display_format": "**Israeli:** israélienne",
-          "explanation": "Relating to Israel",
-          "cultural_note": "Refers to the country or its actions"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Réchauffement climatique en France : les châteaux de la Loire en danger",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-r%C3%A9chauffement-climatique-en-france-les-ch%C3%A2teaux-de-la-loire-en-danger",
-      "original_article_published_date": "2025-06-24T12:30:00",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les châteaux de la Loire menacés par le climat",
-      "simplified_english_title": "Loire Valley castles threatened by climate",
-      "french_summary": "Le réchauffement climatique met en danger les châteaux de la Loire à cause des inondations et de la sécheresse.",
-      "english_summary": "Climate change endangers the Loire Valley castles due to floods and drought.",
-      "contextual_title_explanations": {
-        "Réchauffement": {
-          "display_format": "**Warming:** Réchauffement",
-          "explanation": "Increase in temperature",
-          "cultural_note": "Often used in environmental contexts"
-        },
-        "climatique": {
-          "display_format": "**Climatic:** climatique",
-          "explanation": "Relating to climate",
-          "cultural_note": ""
-        },
-        "châteaux": {
-          "display_format": "**Castles:** châteaux",
-          "explanation": "Large historic buildings",
-          "cultural_note": "Famous French landmarks"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Iran-Israël : \"800 à 900\" Français seront évacués d’Israël \"d’ici jeudi\", annonce l'ambassadeur de France à Tel-Aviv",
-      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/guerre-iran-israel-800-a-900-francais-seront-evacues-d-israel-d-ici-jeudi-annonce-l-ambassadeur-de-france-a-tel-aviv_7334607.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-24T12:01:18",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des Français quittent Israël à cause de la guerre",
-      "simplified_english_title": "French citizens leave Israel due to war",
-      "french_summary": "La France va évacuer entre 800 et 900 personnes d'Israël avant jeudi à cause de la guerre avec l'Iran.",
-      "english_summary": "France will evacuate between 800 and 900 people from Israel before Thursday because of the war with Iran.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Conflict between countries or groups",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Often in news for political conflicts"
-        },
-        "évacués": {
-          "display_format": "**Evacuated:** évacués",
-          "explanation": "Moved to safety",
-          "cultural_note": "Common in emergency situations"
-        },
-        "l'ambassadeur": {
-          "display_format": "**Ambassador:** l'ambassadeur",
-          "explanation": "Official representative of a country",
-          "cultural_note": "Key figure in international relations"
-        },
-        "Tel-Aviv": {
-          "display_format": "**Tel Aviv:** Tel-Aviv",
-          "explanation": "Major city in Israel",
-          "cultural_note": "Economic and cultural center"
-        },
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "Makes a public statement",
-          "cultural_note": "Common in official communications"
-        },
-        "jeudi": {
-          "display_format": "**Thursday:** jeudi",
-          "explanation": "Day of the week",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La RATP conserve trois des quatre lots de bus ouverts à la concurrence par la région Ile-de-France",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/24/la-ratp-conserve-trois-des-quatre-lots-de-bus-ouverts-a-la-concurrence-par-la-region-ile-de-france_6615621_3234.html",
-      "original_article_published_date": "2025-06-24T11:29:03",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La RATP garde trois lots de bus en Île-de-France",
-      "simplified_english_title": "RATP keeps three bus contracts in Île-de-France",
-      "french_summary": "La RATP a gagné trois des quatre contrats de bus mis en concurrence par la région Île-de-France.",
-      "english_summary": "RATP won three out of four bus contracts opened to competition by the Île-de-France region.",
-      "contextual_title_explanations": {
-        "RATP": {
-          "display_format": "**Public transport operator:** RATP",
-          "explanation": "Company managing Paris public transport",
-          "cultural_note": "Operates metro, bus, and tram networks"
-        },
-        "conserve": {
-          "display_format": "**Retains:** conserve",
-          "explanation": "Keeps or maintains something",
-          "cultural_note": ""
-        },
-        "lots": {
-          "display_format": "**Batches:** lots",
-          "explanation": "Groups or sets of items",
-          "cultural_note": "Often used in procurement or bidding contexts"
-        },
-        "concurrence": {
-          "display_format": "**Competition:** concurrence",
-          "explanation": "Rivalry between companies",
-          "cultural_note": "Refers to open market competition"
-        },
-        "région": {
-          "display_format": "**Region:** région",
-          "explanation": "Administrative area similar to a state",
-          "cultural_note": "France has 18 regions, including Île-de-France"
-        },
-        "bus": {
-          "display_format": "**Buses:** bus",
-          "explanation": "Public transport vehicles",
-          "cultural_note": "Part of the RATP network"
-        },
-        "La": {
-          "display_format": "**The:** La",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "trois": {
-          "display_format": "**Three:** trois",
-          "explanation": "The number 3",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Indefinite article, plural",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** par",
-          "explanation": "Indicates the agent of an action",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**To:** à",
-          "explanation": "Preposition indicating direction or location",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Preposition indicating possession or origin",
-          "cultural_note": ""
-        },
-        "quatre": {
-          "display_format": "**Four:** quatre",
-          "explanation": "The number 4",
-          "cultural_note": ""
-        },
-        "ouverts": {
-          "display_format": "**Open:** ouverts",
-          "explanation": "Available or accessible",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Gaza : 21 personnes tuées par des tirs israéliens près d'un centre de distribution d'aide",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-gaza-21-personnes-tu%C3%A9es-par-des-tirs-isra%C3%A9liens-pr%C3%A8s-d-un-centre-de-distribution-d-aide",
-      "original_article_published_date": "2025-06-24T11:13:47",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "21 morts à Gaza près d'un centre d'aide",
-      "simplified_english_title": "21 dead in Gaza near aid center",
-      "french_summary": "Vingt et une personnes sont mortes à cause des tirs israéliens près d'un centre de distribution d'aide à Gaza.",
-      "english_summary": "Twenty-one people died due to Israeli gunfire near an aid distribution center in Gaza.",
-      "contextual_title_explanations": {
-        "personnes": {
-          "display_format": "**People:** personnes",
-          "explanation": "Plural of 'person', refers to individuals",
-          "cultural_note": ""
-        },
-        "tuées": {
-          "display_format": "**Killed:** tuées",
-          "explanation": "Past participle of 'tuer', meaning killed",
-          "cultural_note": ""
-        },
-        "tirs": {
-          "display_format": "**Shots:** tirs",
-          "explanation": "Plural of 'tir', refers to gunfire or shooting",
-          "cultural_note": ""
-        },
-        "israéliens": {
-          "display_format": "**Israeli:** israéliens",
-          "explanation": "Relating to Israel, a country in the Middle East",
-          "cultural_note": ""
-        },
-        "près": {
-          "display_format": "**Near:** près",
-          "explanation": "Indicates proximity or closeness",
-          "cultural_note": ""
-        },
-        "centre": {
-          "display_format": "**Center:** centre",
-          "explanation": "A place or building used for a specific purpose",
-          "cultural_note": ""
-        },
-        "d&#39;aide": {
-          "display_format": "**Of aid:** d&#39;aide",
-          "explanation": "Assistance or support given to those in need",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "« Au moins 43 reculs » environnementaux ont eu lieu ces six derniers mois déplore un groupe d’ONG",
       "original_article_link": "https://www.ouest-france.fr/environnement/au-moins-43-reculs-environnementaux-ont-eu-lieu-ces-six-derniers-mois-deplore-un-groupe-dong-3e78b020-50e5-11f0-9865-cae506d28d23?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-24T11:09:47",
@@ -693,72 +348,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Perquisitions en cours à la Société générale dans le cadre d’une enquête pour blanchiment de fraude fiscale",
-      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/24/perquisitions-en-cours-a-la-societe-generale-dans-le-cadre-d-une-enquete-pour-blanchiment-de-fraude-fiscale_6615615_3224.html",
-      "original_article_published_date": "2025-06-24T10:29:48",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Enquête pour fraude fiscale à la Société générale",
-      "simplified_english_title": "Société générale investigated for tax fraud",
-      "french_summary": "La police fait des perquisitions à la Société générale pour une enquête sur le blanchiment de fraude fiscale.",
-      "english_summary": "Police are searching Société générale as part of a tax fraud and money laundering investigation.",
-      "contextual_title_explanations": {
-        "Perquisitions": {
-          "display_format": "**Searches:** Perquisitions",
-          "explanation": "Police searches of premises",
-          "cultural_note": "Common in French legal contexts"
-        },
-        "en cours": {
-          "display_format": "**Ongoing:** en cours",
-          "explanation": "Currently happening",
-          "cultural_note": ""
-        },
-        "cadre": {
-          "display_format": "**Framework:** cadre",
-          "explanation": "Context or scope of something",
-          "cultural_note": "Often used in legal and professional contexts"
-        },
-        "enquête": {
-          "display_format": "**Investigation:** enquête",
-          "explanation": "Official examination of facts",
-          "cultural_note": ""
-        },
-        "blanchiment": {
-          "display_format": "**Laundering:** blanchiment",
-          "explanation": "Process of making illegally-gained proceeds appear legal",
-          "cultural_note": ""
-        },
-        "fraude fiscale": {
-          "display_format": "**Tax fraud:** fraude fiscale",
-          "explanation": "Illegal evasion of taxes",
-          "cultural_note": "Serious offense in France with severe penalties"
-        },
-        "fiscale": {
-          "display_format": "**Tax-related:** fiscale",
-          "explanation": "Relating to taxation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Google envisage d’acheter un terrain dans l’Indre pour y construire un data center géant",
       "original_article_link": "https://www.ouest-france.fr/high-tech/google/google-envisage-dacheter-un-terrain-dans-lindre-pour-y-construire-un-data-center-geant-0812c3f8-50dc-11f0-9d8f-210ccc004fd7?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
       "original_article_published_date": "2025-06-24T10:19:58",
@@ -893,57 +482,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T11:17:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Aux Etats-Unis, un cycle de violence politique inédit",
-      "original_article_link": "https://www.nouvelobs.com/chroniques/20250624.OBS105246/aux-etats-unis-un-cycle-de-violence-politique-inedit.html",
-      "original_article_published_date": "2025-06-24T10:00:06",
-      "source_name": "L'Obs",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Violence politique inédite aux États-Unis",
-      "simplified_english_title": "Unprecedented political violence in the US",
-      "french_summary": "Les États-Unis connaissent une période de violence politique sans précédent, avec des tensions croissantes.",
-      "english_summary": "The United States is experiencing an unprecedented period of political violence with increasing tensions.",
-      "contextual_title_explanations": {
-        "Aux": {
-          "display_format": "**In the:** Aux",
-          "explanation": "Combined preposition meaning 'in the'",
-          "cultural_note": "Commonly used before plural place names"
-        },
-        "Etats-Unis": {
-          "display_format": "**United States:** États-Unis",
-          "explanation": "Country in North America",
-          "cultural_note": "Often abbreviated as 'US'"
-        },
-        "politique": {
-          "display_format": "**Political:** politique",
-          "explanation": "Related to government or public affairs",
-          "cultural_note": ""
-        },
-        "inédit": {
-          "display_format": "**Unprecedented:** inédit",
-          "explanation": "Never seen or done before",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -2454,67 +1992,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Ce soir sur France 2, « Cash Investigation » éclaircit les liens entre affaires et politique",
-      "original_article_link": "https://www.ouest-france.fr/medias/france-2/ce-soir-sur-france-2-cash-investigation-eclaircit-les-liens-entre-affaires-et-politique-a3a1ccd0-5008-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-24T08:00:11",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Cash Investigation explore politique et affaires",
-      "simplified_english_title": "Cash Investigation explores politics and business",
-      "french_summary": "Ce soir, France 2 montre comment les affaires et la politique sont liées. Le programme s'appelle Cash Investigation.",
-      "english_summary": "Tonight, France 2 shows how business and politics are connected. The program is called Cash Investigation.",
-      "contextual_title_explanations": {
-        "Ce": {
-          "display_format": "**This:** Ce",
-          "explanation": "Demonstrative pronoun meaning 'this'",
-          "cultural_note": ""
-        },
-        "soir": {
-          "display_format": "**Evening:** soir",
-          "explanation": "Time of day after afternoon",
-          "cultural_note": ""
-        },
-        "éclaircit": {
-          "display_format": "**Clarifies:** éclaircit",
-          "explanation": "Verb meaning to make something clear",
-          "cultural_note": ""
-        },
-        "politique": {
-          "display_format": "**Politics:** politique",
-          "explanation": "Activities associated with governance",
-          "cultural_note": ""
-        },
-        "affaires": {
-          "display_format": "**Business:** affaires",
-          "explanation": "Commercial activities or matters",
-          "cultural_note": "Can also mean personal matters or scandals"
-        },
-        "liens": {
-          "display_format": "**Links:** liens",
-          "explanation": "Connections or relationships",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Téléphones personnels au travail : le sujet tabou qui fracture les entreprises",
       "original_article_link": "https://www.lepoint.fr/societe/telephones-personnels-au-travail-le-sujet-tabou-qui-fracture-les-entreprises-24-06-2025-2592755_23.php",
       "original_article_published_date": "2025-06-24T08:00:00",
@@ -2723,62 +2200,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Comment, en coulisses, Pierre-Édouard Stérin aurait aidé Éric Ciotti à préparer les législatives de 2024",
-      "original_article_link": "https://www.franceinfo.fr/replay-magazine/france-2/cash-investigation/video-comment-en-coulisses-pierre-edouard-sterin-aurait-aide-eric-ciotti-a-preparer-les-legislatives-de-2024_7326069.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-24T07:47:15",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Stérin aide Ciotti pour les législatives 2024",
-      "simplified_english_title": "Stérin helps Ciotti for 2024 elections",
-      "french_summary": "Pierre-Édouard Stérin aurait aidé Éric Ciotti en coulisses pour préparer les élections législatives de 2024.",
-      "english_summary": "Pierre-Édouard Stérin reportedly helped Éric Ciotti behind the scenes to prepare for the 2024 legislative elections.",
-      "contextual_title_explanations": {
-        "Comment": {
-          "display_format": "**How:** Comment",
-          "explanation": "Interrogative word to ask about manner",
-          "cultural_note": ""
-        },
-        "coulisses": {
-          "display_format": "**Backstage:** coulisses",
-          "explanation": "Behind-the-scenes area or activities",
-          "cultural_note": "Often used metaphorically in politics"
-        },
-        "aurait aidé": {
-          "display_format": "**Would have helped:** aurait aidé",
-          "explanation": "Conditional past tense of 'aider'",
-          "cultural_note": "Used for hypothetical or reported actions"
-        },
-        "préparer": {
-          "display_format": "**Prepare:** préparer",
-          "explanation": "To get ready or make arrangements",
-          "cultural_note": ""
-        },
-        "législatives": {
-          "display_format": "**Legislative elections:** législatives",
-          "explanation": "Elections for members of parliament",
-          "cultural_note": "Held every five years in France"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Attentat dans une église à Damas : le groupe Etat islamique pointé du doigt",
       "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-attentat-dans-une-%C3%A9glise-%C3%A0-damas-le-groupe-etat-islamique-point%C3%A9-du-doigt",
       "original_article_published_date": "2025-06-24T07:38:14",
@@ -2837,52 +2258,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T08:27:46",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Les Experts : Retraites, l'échec du conclave - 24/06",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts/video-les-experts-retraites-l-echec-du-conclave-24-06_VN-202506240240.html",
-      "original_article_published_date": "2025-06-24T07:36:21",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Échec des discussions sur les retraites",
-      "simplified_english_title": "Failure in pension talks",
-      "french_summary": "Les discussions sur la réforme des retraites ont échoué sans accord entre les parties impliquées.",
-      "english_summary": "The talks on pension reform failed without an agreement between the involved parties.",
-      "contextual_title_explanations": {
-        "Les": {
-          "display_format": "**The:** Les",
-          "explanation": "Definite article",
-          "cultural_note": ""
-        },
-        "Retraites": {
-          "display_format": "**Pensions:** Retraites",
-          "explanation": "Retirement benefits system",
-          "cultural_note": "Major political topic in France"
-        },
-        "l'échec": {
-          "display_format": "**Failure:** l'échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T12:39:44",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6860,6 +6235,671 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T21:18:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : plus de programme nucléaire militaire après les frappes sur les sites nucléaires ?",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/iran-plus-de-programme-nucleaire-militaire-apres-les-frappes-sur-les-sites-nucleaires_7333011.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T20:49:27",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Attaques sur les sites nucléaires au Moyen-Orient",
+      "simplified_english_title": "Attacks on nuclear sites in Middle East",
+      "french_summary": "Des frappes récentes sur des sites nucléaires au Moyen-Orient pourraient affecter les programmes nucléaires militaires dans la région.",
+      "english_summary": "Recent strikes on nuclear sites in the Middle East could impact military nuclear programs in the region.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between states or groups",
+          "cultural_note": "France has been involved in various wars throughout history"
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including countries from Egypt to Iran",
+          "cultural_note": "France has historical and political ties with this region"
+        },
+        "programme nucléaire militaire": {
+          "display_format": "**Military nuclear program:** programme nucléaire militaire",
+          "explanation": "Nuclear weapons development initiative",
+          "cultural_note": "France has its own military nuclear program"
+        },
+        "frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks, often airstrikes",
+          "cultural_note": "France has conducted strikes in the Middle East"
+        },
+        "sites nucléaires": {
+          "display_format": "**Nuclear sites:** sites nucléaires",
+          "explanation": "Locations related to nuclear activities",
+          "cultural_note": "France has multiple nuclear sites for energy and military purposes"
+        },
+        "?": {
+          "display_format": "**Question mark:** ?",
+          "explanation": "Punctuation indicating a question",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**No more:** plus",
+          "explanation": "Indicates the end of something",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/from:** de",
+          "explanation": "Common preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Relating to the nucleus of an atom",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Indicates time following an event",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Contraction of 'à le'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation introducing a list or explanation",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating location or subject",
+          "cultural_note": ""
+        },
+        "militaire": {
+          "display_format": "**Military:** militaire",
+          "explanation": "Relating to armed forces",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**Nuclear:** nucléaire",
+          "explanation": "Relating to the nucleus of an atom",
+          "cultural_note": ""
+        },
+        "Orient": {
+          "display_format": "**East:** Orient",
+          "explanation": "Direction where the sun rises",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T21:18:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France et la Norvège signent un accord sur le stockage géologique de CO2",
+      "original_article_link": "https://www.lefigaro.fr/flash-actu/la-france-et-la-norvege-signent-un-accord-sur-le-stockage-geologique-de-co2-20250623",
+      "original_article_published_date": "2025-06-23T20:13:58",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France et la Norvège collaborent pour le CO2",
+      "simplified_english_title": "France and Norway partner on CO2 storage",
+      "french_summary": "La France et la Norvège ont signé un accord pour stocker du CO2 sous terre et réduire les émissions.",
+      "english_summary": "France and Norway signed an agreement to store CO2 underground to cut emissions.",
+      "contextual_title_explanations": {
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Connects two similar ideas",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement:** accord",
+          "explanation": "Formal arrangement between parties",
+          "cultural_note": ""
+        },
+        "stockage": {
+          "display_format": "**Storage:** stockage",
+          "explanation": "The action of storing something",
+          "cultural_note": ""
+        },
+        "géologique": {
+          "display_format": "**Geological:** géologique",
+          "explanation": "Relating to the Earth's structure",
+          "cultural_note": ""
+        },
+        "Norvège": {
+          "display_format": "**Norway:** Norvège",
+          "explanation": "Country in Northern Europe",
+          "cultural_note": "Known for its fjords and oil reserves"
+        },
+        "signent": {
+          "display_format": "**Sign:** signent",
+          "explanation": "To write one's name formally",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "AramisAuto : L'essor du marché des véhicules reconditionnés!",
+      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge/aramisauto-lessor-du-marche-des-vehicules-reconditionnes-760687",
+      "original_article_published_date": "2025-06-23T20:05:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "AramisAuto : Le marché des voitures reconditionnées",
+      "simplified_english_title": "AramisAuto: Market for refurbished cars",
+      "french_summary": "AramisAuto connaît un grand succès avec la vente de voitures reconditionnées. Ce marché attire de plus en plus de clients.",
+      "english_summary": "AramisAuto is very successful with refurbished cars. This market attracts more and more customers.",
+      "contextual_title_explanations": {
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces an explanation or list",
+          "cultural_note": ""
+        },
+        "L'essor": {
+          "display_format": "**Rise:** L'essor",
+          "explanation": "Rapid growth or increase",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "marché": {
+          "display_format": "**Market:** marché",
+          "explanation": "Place or system for buying and selling",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article",
+          "cultural_note": ""
+        },
+        "véhicules": {
+          "display_format": "**Vehicles:** véhicules",
+          "explanation": "Machines used for transport",
+          "cultural_note": ""
+        },
+        "reconditionnés": {
+          "display_format": "**Refurbished:** reconditionnés",
+          "explanation": "Restored to good condition",
+          "cultural_note": "Common in French car sales"
+        },
+        "!": {
+          "display_format": "**Exclamation mark:** !",
+          "explanation": "Shows strong feeling or emphasis",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T22:19:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre au Moyen-Orient : ce que l'on sait de la riposte de l'Iran en réponse aux bombardements américains contre des sites nucléaires",
+      "original_article_link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/guerre-au-moyen-orient-ce-que-l-on-sait-de-la-riposte-de-l-iran-en-reponse-aux-bombardements-americains-contre-des-sites-nucleaires_7332978.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:57:49",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran répond aux attaques américaines",
+      "simplified_english_title": "Iran responds to American attacks",
+      "french_summary": "L'Iran a réagi aux bombardements américains sur des sites nucléaires. Les détails de la riposte sont encore limités.",
+      "english_summary": "Iran responded to American bombings on nuclear sites. Details of the counterattack are still limited.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Moyen-Orient": {
+          "display_format": "**Middle East:** Moyen-Orient",
+          "explanation": "Region including countries from Egypt to Iran",
+          "cultural_note": "Strategically important area with historical conflicts"
+        },
+        "riposte": {
+          "display_format": "**Retaliation:** riposte",
+          "explanation": "Counterattack or response to an attack",
+          "cultural_note": "Commonly used in military and political contexts"
+        },
+        "l&#39;Iran": {
+          "display_format": "**Iran:** l&#39;Iran",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Known for its historical and political significance"
+        },
+        "bombardements": {
+          "display_format": "**Bombings:** bombardements",
+          "explanation": "Acts of dropping bombs",
+          "cultural_note": "Often used in contexts of military strikes"
+        },
+        "américains": {
+          "display_format": "**Americans:** américains",
+          "explanation": "Relating to the United States",
+          "cultural_note": "Refers to people or actions from the USA"
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Relating to atomic energy or weapons",
+          "cultural_note": "Often discussed in contexts of power and weapons"
+        },
+        "réponse": {
+          "display_format": "**Response:** réponse",
+          "explanation": "Reaction or answer to an action",
+          "cultural_note": "Used in both everyday and political contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bombardements américains en Iran : l’armée de Téhéran riposte en visant la base américaine d’Al-Udeid",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/bombardements-americains-en-iran-l-armee-de-teheran-riposte-en-visant-la-base-americaine-d-al-udeid_7332969.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:54:04",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran attaque une base américaine",
+      "simplified_english_title": "Iran attacks a US base",
+      "french_summary": "Après des bombardements américains en Iran, l'armée iranienne a attaqué la base américaine d'Al-Udeid en représailles.",
+      "english_summary": "After US bombings in Iran, the Iranian army retaliated by targeting the American base of Al-Udeid.",
+      "contextual_title_explanations": {
+        "Bombardements": {
+          "display_format": "**Bombings:** Bombardements",
+          "explanation": "Military air strikes",
+          "cultural_note": "Common in conflict reporting"
+        },
+        "américains": {
+          "display_format": "**American:** américains",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        },
+        "armée": {
+          "display_format": "**Army:** armée",
+          "explanation": "Military force",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital of Iran",
+          "cultural_note": "Political and cultural center"
+        },
+        "riposte": {
+          "display_format": "**Retaliates:** riposte",
+          "explanation": "Counterattack",
+          "cultural_note": "Common in military contexts"
+        },
+        "visant": {
+          "display_format": "**Targeting:** visant",
+          "explanation": "Aiming at",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Google envisage l'implantation de son premier data center en France dans l'agglomération de Châteauroux",
+      "original_article_link": "https://www.franceinfo.fr/internet/google/google-envisage-l-implantation-de-son-premier-data-center-en-france-dans-l-agglomeration-de-chateauroux_7333005.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:53:39",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Google veut construire un data center en France",
+      "simplified_english_title": "Google plans to build a data center in France",
+      "french_summary": "Google prévoit de construire son premier data center en France, près de la ville de Châteauroux.",
+      "english_summary": "Google plans to build its first data center in France, near the city of Châteauroux.",
+      "contextual_title_explanations": {
+        "l&#39;agglomération": {
+          "display_format": "**Urban area:** l'agglomération",
+          "explanation": "City and its surrounding suburbs",
+          "cultural_note": "Often refers to a metropolitan area"
+        },
+        "l&#39;implantation": {
+          "display_format": "**Establishment:** l'implantation",
+          "explanation": "Setting up a new facility",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its:** son",
+          "explanation": "Possessive pronoun for 'his' or 'its'",
+          "cultural_note": ""
+        },
+        "envisage": {
+          "display_format": "**Envisages:** envisage",
+          "explanation": "Considers or plans for the future",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "premier": {
+          "display_format": "**First:** premier",
+          "explanation": "First in order or importance",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Backliz, le leasing de véhicules électriques reconditionnés",
+      "original_article_link": "https://www.europe1.fr/emissions/la-france-bouge-academie/backliz-le-leasing-de-vehicules-electriques-reconditionnes-760697",
+      "original_article_published_date": "2025-06-23T19:45:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Location de voitures électriques d'occasion",
+      "simplified_english_title": "Leasing used electric cars",
+      "french_summary": "Backliz propose des voitures électriques reconditionnées en location, une solution économique et écologique pour les conducteurs.",
+      "english_summary": "Backliz offers leasing for refurbished electric cars, an economical and eco-friendly option for drivers.",
+      "contextual_title_explanations": {
+        "véhicules": {
+          "display_format": "**Vehicles:** véhicules",
+          "explanation": "Cars or other road transport",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**Electric:** électriques",
+          "explanation": "Powered by electricity",
+          "cultural_note": "France promotes electric vehicles"
+        },
+        "reconditionnés": {
+          "display_format": "**Refurbished:** reconditionnés",
+          "explanation": "Restored to good condition",
+          "cultural_note": "Popular for cost savings"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tech & Co, la quotidienne - Lundi 23 juin",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-tech-co-la-quotidienne-lundi-23-juin_VN-202506230782.html",
+      "original_article_published_date": "2025-06-23T19:42:30",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Actualités technologiques du lundi 23 juin",
+      "simplified_english_title": "Tech news for Monday, June 23",
+      "french_summary": "Les dernières nouvelles et mises à jour dans le monde de la technologie pour aujourd'hui.",
+      "english_summary": "The latest news and updates in the world of technology for today.",
+      "contextual_title_explanations": {
+        "Co": {
+          "display_format": "**Company:** Co",
+          "explanation": "Short for company or companions",
+          "cultural_note": "Used in business and tech contexts"
+        },
+        "la quotidienne": {
+          "display_format": "**The daily:** la quotidienne",
+          "explanation": "Daily show or segment",
+          "cultural_note": "Common term for daily news or programs"
+        },
+        "Lundi": {
+          "display_format": "**Monday:** Lundi",
+          "explanation": "First day of the week",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**June:** juin",
+          "explanation": "Sixth month of the year",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T22:19:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Claudie Haigneré : la première femme européenne à être allée dans l’espace sur le plateau de Tech&Co - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-claudie-haignere-la-premiere-femme-europeenne-a-etre-allee-dans-l-espace-sur-le-plateau-de-tech-co-23-06_VN-202506230778.html",
+      "original_article_published_date": "2025-06-23T19:42:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Claudie Haigneré parle à Tech&Co",
+      "simplified_english_title": "Claudie Haigneré on Tech&Co show",
+      "french_summary": "Claudie Haigneré, première femme européenne dans l'espace, était invitée sur le plateau de Tech&Co le 23 juin.",
+      "english_summary": "Claudie Haigneré, the first European woman in space, was a guest on Tech&Co on June 23.",
+      "contextual_title_explanations": {
+        "première": {
+          "display_format": "**First:** première",
+          "explanation": "Feminine form of 'first'",
+          "cultural_note": ""
+        },
+        "femme": {
+          "display_format": "**Woman:** femme",
+          "explanation": "Adult human female",
+          "cultural_note": ""
+        },
+        "européenne": {
+          "display_format": "**European:** européenne",
+          "explanation": "Relating to Europe",
+          "cultural_note": "Feminine form of 'European'"
+        },
+        "allée": {
+          "display_format": "**Gone:** allée",
+          "explanation": "Past participle of 'aller' (to go)",
+          "cultural_note": ""
+        },
+        "espace": {
+          "display_format": "**Space:** espace",
+          "explanation": "Outer space",
+          "cultural_note": ""
+        },
+        "plateau": {
+          "display_format": "**Set:** plateau",
+          "explanation": "TV or radio show set",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T23:15:35",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Tech Flash : Tesla lance ses robotaxis à Austin, par Léa Benaim - 23/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-tesla-lance-ses-robotaxis-a-austin-par-lea-benaim-23-06_VN-202506230772.html",
+      "original_article_published_date": "2025-06-23T19:36:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tesla présente ses robotaxis à Austin",
+      "simplified_english_title": "Tesla unveils robotaxis in Austin",
+      "french_summary": "Tesla a lancé ses nouveaux robotaxis à Austin. Léa Benaim rapporte cette nouvelle technologique importante.",
+      "english_summary": "Tesla launched its new robotaxis in Austin. Léa Benaim reports on this significant technological news.",
+      "contextual_title_explanations": {
+        "robotaxis": {
+          "display_format": "**Robot taxis:** robotaxis",
+          "explanation": "Self-driving cars for hire",
+          "cultural_note": "Tesla's autonomous vehicle project"
+        },
+        "lance": {
+          "display_format": "**Launches:** lance",
+          "explanation": "Introduces or starts something new",
+          "cultural_note": ""
+        },
+        "Le Tech Flash": {
+          "display_format": "**The Tech Flash:** Le Tech Flash",
+          "explanation": "Name of a tech news segment",
+          "cultural_note": "Common format for tech updates"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T20:22:27",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
