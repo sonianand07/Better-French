@@ -68252,112 +68252,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "«La France humaniste» : avec 2027 en ligne de mire, Dominique de Villepin lance son parti politique",
-      "original_article_link": "https://www.lefigaro.fr/politique/la-france-humaniste-avec-2027-en-ligne-de-mire-dominique-de-villepin-lance-son-parti-politique-20250623",
-      "original_article_published_date": "2025-06-23T17:41:43",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Dominique de Villepin crée un nouveau parti politique",
-      "simplified_english_title": "Dominique de Villepin launches new political party",
-      "french_summary": "Dominique de Villepin lance son parti politique en vue des élections de 2027, nommé 'La France humaniste'.",
-      "english_summary": "Dominique de Villepin launches his political party, named 'La France humaniste', with an eye on the 2027 elections.",
-      "contextual_title_explanations": {
-        "avec": {
-          "display_format": "**With:** avec",
-          "explanation": "Preposition meaning 'with'",
-          "cultural_note": null
-        },
-        "La": {
-          "display_format": "**The:** La",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": null
-        },
-        "son": {
-          "display_format": "**His/Her:** son",
-          "explanation": "Possessive adjective",
-          "cultural_note": null
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Preposition meaning 'of' or 'from'",
-          "cultural_note": null
-        },
-        "lance": {
-          "display_format": "**Launches:** lance",
-          "explanation": "Verb meaning 'to launch'",
-          "cultural_note": null
-        },
-        "parti": {
-          "display_format": "**Party:** parti",
-          "explanation": "Political party",
-          "cultural_note": null
-        },
-        "«": {
-          "display_format": "**Opening quotation mark:** «",
-          "explanation": "French opening quotation mark",
-          "cultural_note": null
-        },
-        "en": {
-          "display_format": "**In/On:** en",
-          "explanation": "Preposition meaning 'in' or 'on'",
-          "cultural_note": null
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation mark",
-          "cultural_note": null
-        },
-        "politique": {
-          "display_format": "**Political:** politique",
-          "explanation": "Relating to politics",
-          "cultural_note": null
-        },
-        "ligne": {
-          "display_format": "**Line:** ligne",
-          "explanation": "Line or direction",
-          "cultural_note": null
-        },
-        "»": {
-          "display_format": "**Closing quotation mark:** »",
-          "explanation": "French closing quotation mark",
-          "cultural_note": null
-        },
-        "mire": {
-          "display_format": "**Sight:** mire",
-          "explanation": "Aim or target",
-          "cultural_note": null
-        },
-        ",": {
-          "display_format": "**Comma:** ,",
-          "explanation": "Punctuation mark",
-          "cultural_note": null
-        },
-        "humaniste": {
-          "display_format": "**Humanist:** humaniste",
-          "explanation": "Relating to humanism",
-          "cultural_note": null
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T01:38:06",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Conclave retraites : la CFDT annonce « l’échec » de la concertation",
       "original_article_link": "https://www.leparisien.fr/economie/retraites/conclave-retraites-la-cfdt-annonce-lechec-de-la-concertation-23-06-2025-DBOGOMBO65GQXGEL2Z6EFMNP6E.php",
       "original_article_published_date": "2025-06-24T01:38:06.552945",
@@ -68923,6 +68817,666 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T01:38:06",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Otan: la défense, l'Ukraine et les États-Unis de Trump au programme d'un sommet qui s'annonce tendu",
+      "original_article_link": "https://www.rfi.fr/fr/europe/20250624-otan-la-d%C3%A9fense-l-ukraine-et-les-%C3%A9tats-unis-de-trump-au-programme-d-un-sommet-qui-s-annonce-tendu",
+      "original_article_published_date": "2025-06-24T03:10:18",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Sommet de l'Otan sur la défense et l'Ukraine",
+      "simplified_english_title": "NATO summit on defense and Ukraine",
+      "french_summary": "Les dirigeants de l'Otan discutent de la défense, de l'Ukraine et des relations avec les États-Unis lors d'un sommet difficile.",
+      "english_summary": "NATO leaders discuss defense, Ukraine, and relations with the US at a tense summit.",
+      "contextual_title_explanations": {
+        "Otan": {
+          "display_format": "**NATO:** Otan",
+          "explanation": "Military alliance of North American and European countries",
+          "cultural_note": "Founded in 1949 for collective defense"
+        },
+        "défense": {
+          "display_format": "**Defense:** défense",
+          "explanation": "Protection against attack",
+          "cultural_note": ""
+        },
+        "l&#39;Ukraine": {
+          "display_format": "**Ukraine:** l'Ukraine",
+          "explanation": "Country in Eastern Europe",
+          "cultural_note": "Currently in conflict with Russia"
+        },
+        "États-Unis": {
+          "display_format": "**United States:** États-Unis",
+          "explanation": "Country in North America",
+          "cultural_note": "Commonly referred to as USA"
+        },
+        "sommet": {
+          "display_format": "**Summit:** sommet",
+          "explanation": "High-level meeting",
+          "cultural_note": "Often involves heads of state"
+        },
+        "tendu": {
+          "display_format": "**Tense:** tendu",
+          "explanation": "Stressed or strained",
+          "cultural_note": "Describes a difficult situation"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "États-Unis : la Cour suprême autorise les expulsions de sans-papiers vers des pays tiers",
+      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/etats-unis-la-cour-supreme-autorise-les-expulsions-de-sans-papiers-vers-des-pays-tiers-d159fc8e-50a2-11f0-9d8f-210ccc004fd7?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-24T02:41:33",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Cour suprême permet les expulsions",
+      "simplified_english_title": "Supreme Court allows deportations",
+      "french_summary": "La Cour suprême des États-Unis autorise le renvoi des sans-papiers vers d'autres pays, une décision importante pour l'immigration.",
+      "english_summary": "The US Supreme Court allows deportations of undocumented immigrants to third countries, a significant immigration decision.",
+      "contextual_title_explanations": {
+        "États-Unis": {
+          "display_format": "**United States:** États-Unis",
+          "explanation": "Country in North America",
+          "cultural_note": "Often abbreviated as 'US'"
+        },
+        "Cour suprême": {
+          "display_format": "**Supreme Court:** Cour suprême",
+          "explanation": "Highest federal court in the US",
+          "cultural_note": "Final interpreter of federal constitutional law"
+        },
+        "autorise": {
+          "display_format": "**Authorizes:** autorise",
+          "explanation": "Gives official permission",
+          "cultural_note": ""
+        },
+        "expulsions": {
+          "display_format": "**Deportations:** expulsions",
+          "explanation": "Forced removal of people",
+          "cultural_note": "Often related to immigration policies"
+        },
+        "sans-papiers": {
+          "display_format": "**Undocumented:** sans-papiers",
+          "explanation": "People without legal papers",
+          "cultural_note": "Common term for illegal immigrants"
+        },
+        "pays tiers": {
+          "display_format": "**Third countries:** pays tiers",
+          "explanation": "Countries other than origin or host",
+          "cultural_note": "Often used in immigration contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Raphaël Glucksmann pose ses jalons, et son programme, pour l’élection présidentielle 2027",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/24/raphael-glucksmann-pose-ses-jalons-et-son-programme-pour-l-election-presidentielle-2027_6615544_823448.html",
+      "original_article_published_date": "2025-06-24T02:30:10",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Glucksmann prépare l'élection de 2027",
+      "simplified_english_title": "Glucksmann plans for 2027 election",
+      "french_summary": "Raphaël Glucksmann présente ses idées et son programme pour se préparer à l'élection présidentielle en 2027.",
+      "english_summary": "Raphaël Glucksmann shares his ideas and program to prepare for the 2027 presidential election.",
+      "contextual_title_explanations": {
+        "Raphaël": {
+          "display_format": "**Raphael:** Raphaël",
+          "explanation": "French personal name",
+          "cultural_note": "Common name of Hebrew origin"
+        },
+        "pose": {
+          "display_format": "**Lays down:** pose",
+          "explanation": "Sets or establishes something",
+          "cultural_note": ""
+        },
+        "jalons": {
+          "display_format": "**Milestones:** jalons",
+          "explanation": "Important stages or markers",
+          "cultural_note": "Often used in project planning"
+        },
+        "programme": {
+          "display_format": "**Program:** programme",
+          "explanation": "Plan or set of actions",
+          "cultural_note": ""
+        },
+        "élection": {
+          "display_format": "**Election:** élection",
+          "explanation": "Voting process to choose leaders",
+          "cultural_note": ""
+        },
+        "présidentielle": {
+          "display_format": "**Presidential:** présidentielle",
+          "explanation": "Related to the president",
+          "cultural_note": "Refers to the highest political office"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Baromètre politique. Bayrou, Premier ministre le plus impopulaire en dix ans, Macron chute encore",
+      "original_article_link": "https://www.ouest-france.fr/politique/barometre-politique-bayrou-premier-ministre-le-plus-impopulaire-en-dix-ans-macron-chute-encore-eb33dad6-5042-11f0-bac5-be865ea89955?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-24T03:00:01",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bayrou très impopulaire, Macron baisse encore",
+      "simplified_english_title": "Bayrou very unpopular, Macron drops further",
+      "french_summary": "Bayrou est le Premier ministre le moins populaire depuis dix ans. La popularité de Macron continue de baisser.",
+      "english_summary": "Bayrou is the most unpopular Prime Minister in ten years. Macron's popularity continues to decline.",
+      "contextual_title_explanations": {
+        "Baromètre": {
+          "display_format": "**Barometer:** Baromètre",
+          "explanation": "Survey measuring public opinion",
+          "cultural_note": "Commonly used in political contexts"
+        },
+        "politique": {
+          "display_format": "**Political:** politique",
+          "explanation": "Relating to government or public affairs",
+          "cultural_note": ""
+        },
+        "Premier ministre": {
+          "display_format": "**Prime Minister:** Premier ministre",
+          "explanation": "Head of the French government",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**Most:** plus",
+          "explanation": "Superlative form of 'much'",
+          "cultural_note": ""
+        },
+        "impopulaire": {
+          "display_format": "**Unpopular:** impopulaire",
+          "explanation": "Not liked or approved by many people",
+          "cultural_note": ""
+        },
+        "dix ans": {
+          "display_format": "**Ten years:** dix ans",
+          "explanation": "A decade",
+          "cultural_note": ""
+        },
+        "chute": {
+          "display_format": "**Fall:** chute",
+          "explanation": "Decline or drop",
+          "cultural_note": "Often used in political or economic contexts"
+        },
+        "encore": {
+          "display_format": "**Still:** encore",
+          "explanation": "Continuing or additional",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Après la rencontre entre Félix Tshisekedi et les Églises de RDC, quelles suites pour le processus qu'elles ont impulsé?",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250624-rdc-quelles-suites-pour-le-processus-impuls%C3%A9-par-les-%C3%A9glise",
+      "original_article_published_date": "2025-06-24T03:15:03",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rencontre entre Tshisekedi et les Églises de RDC",
+      "simplified_english_title": "Meeting between Tshisekedi and DRC Churches",
+      "french_summary": "Félix Tshisekedi a rencontré les Églises de RDC pour discuter du processus qu'elles ont commencé.",
+      "english_summary": "Félix Tshisekedi met with DRC Churches to discuss the process they initiated.",
+      "contextual_title_explanations": {
+        "RDC": {
+          "display_format": "**DRC:** RDC",
+          "explanation": "Democratic Republic of the Congo",
+          "cultural_note": "Formerly known as Zaire"
+        },
+        "Églises": {
+          "display_format": "**Churches:** Églises",
+          "explanation": "Religious institutions",
+          "cultural_note": "Influential in Congolese society"
+        },
+        "rencontre": {
+          "display_format": "**Meeting:** rencontre",
+          "explanation": "A gathering or assembly",
+          "cultural_note": ""
+        },
+        "impulsé": {
+          "display_format": "**Initiated:** impulsé",
+          "explanation": "Started or launched",
+          "cultural_note": ""
+        },
+        "processus": {
+          "display_format": "**Process:** processus",
+          "explanation": "A series of actions or steps",
+          "cultural_note": ""
+        },
+        "suites": {
+          "display_format": "**Outcomes:** suites",
+          "explanation": "Consequences or follow-ups",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La Cour suprême soutient Trump sur les expulsions de sans-papiers",
+      "original_article_link": "https://www.20min.ch/fr/story/etats-unis-la-cour-supreme-soutient-trump-sur-les-expulsions-de-sans-papiers-103369286",
+      "original_article_published_date": "2025-06-24T01:42:29",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Cour suprême aide Trump sur les expulsions",
+      "simplified_english_title": "Supreme Court backs Trump on deportations",
+      "french_summary": "La Cour suprême soutient la politique de Trump sur les expulsions des sans-papiers, une décision importante pour l'immigration.",
+      "english_summary": "The Supreme Court supports Trump's policy on deporting undocumented immigrants, a significant decision for immigration.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article for feminine singular nouns",
+          "cultural_note": ""
+        },
+        "Cour": {
+          "display_format": "**Court:** Cour",
+          "explanation": "Judicial institution",
+          "cultural_note": ""
+        },
+        "suprême": {
+          "display_format": "**Supreme:** suprême",
+          "explanation": "Highest rank",
+          "cultural_note": "Refers to the highest court in the US"
+        },
+        "soutient": {
+          "display_format": "**Supports:** soutient",
+          "explanation": "Verb meaning to back or uphold",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating topic or subject",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article for plural nouns",
+          "cultural_note": ""
+        },
+        "expulsions": {
+          "display_format": "**Deportations:** expulsions",
+          "explanation": "Act of removing someone from a country",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating origin or possession",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**Without:** sans",
+          "explanation": "Preposition indicating lack",
+          "cultural_note": ""
+        },
+        "papiers": {
+          "display_format": "**Papers:** papiers",
+          "explanation": "Documents proving legal status",
+          "cultural_note": "Commonly refers to immigration documents in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Jacques Séguéla raconte ses plus gros coups de pub : Citroën, d’un porte-avions à la muraille de Chine [1/3]",
+      "original_article_link": "https://www.europe1.fr/emissions/destins-extraordinaires/jacques-seguela-raconte-ses-plus-gros-coups-de-pub-citroen-dun-porte-avions-a-la-muraille-de-chine-1-3-760681",
+      "original_article_published_date": "2025-06-24T03:00:05",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Séguéla parle de ses meilleures publicités",
+      "simplified_english_title": "Séguéla talks about his best ads",
+      "french_summary": "Jacques Séguéla partage ses campagnes publicitaires préférées, dont celles pour Citroën, allant d'un porte-avions à la muraille de Chine.",
+      "english_summary": "Jacques Séguéla shares his favorite advertising campaigns, including those for Citroën, ranging from an aircraft carrier to the Great Wall of China.",
+      "contextual_title_explanations": {
+        "raconte": {
+          "display_format": "**Tells:** raconte",
+          "explanation": "Verb meaning to narrate or tell a story",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**His:** ses",
+          "explanation": "Possessive adjective meaning his or her",
+          "cultural_note": ""
+        },
+        "plus gros": {
+          "display_format": "**Biggest:** plus gros",
+          "explanation": "Superlative meaning biggest or greatest",
+          "cultural_note": ""
+        },
+        "coups": {
+          "display_format": "**Feats:** coups",
+          "explanation": "Achievements or notable actions",
+          "cultural_note": ""
+        },
+        "pub": {
+          "display_format": "**Ad:** pub",
+          "explanation": "Short for publicité, meaning advertisement",
+          "cultural_note": "Common abbreviation in French"
+        },
+        "porte-avions": {
+          "display_format": "**Aircraft carrier:** porte-avions",
+          "explanation": "Large warship designed for aircraft operations",
+          "cultural_note": ""
+        },
+        "muraille": {
+          "display_format": "**Wall:** muraille",
+          "explanation": "Large wall or rampart",
+          "cultural_note": ""
+        },
+        "Chine": {
+          "display_format": "**China:** Chine",
+          "explanation": "Country in East Asia",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les experts du soir - Lundi 23 juin",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts-du-soir/video-les-experts-du-soir-lundi-23-juin_VN-202506230739.html",
+      "original_article_published_date": "2025-06-23T18:19:21",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Experts parlent le lundi soir",
+      "simplified_english_title": "Experts speak on Monday evening",
+      "french_summary": "Des experts discutent de sujets importants chaque lundi soir dans cette émission.",
+      "english_summary": "Experts discuss important topics every Monday evening in this show.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** Les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**June:** juin",
+          "explanation": "Sixth month of the year",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**Evening:** soir",
+          "explanation": "Time after sunset",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "Lundi": {
+          "display_format": "**Monday:** Lundi",
+          "explanation": "First day of the week",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Strasbourg vote en faveur d’un jumelage avec le camp palestinien d’Aïda, malgré les critiques",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/23/strasbourg-vote-en-faveur-d-un-jumelage-avec-le-camp-palestinien-d-aida-malgre-les-critiques_6615462_823449.html",
+      "original_article_published_date": "2025-06-23T18:28:41",
+      "source_name": "Le Monde Politique",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Strasbourg se lie avec un camp palestinien",
+      "simplified_english_title": "Strasbourg partners with Palestinian camp",
+      "french_summary": "Strasbourg a décidé de créer un jumelage avec le camp d'Aïda malgré les critiques reçues.",
+      "english_summary": "Strasbourg decided to twin with Aïda camp despite the criticisms received.",
+      "contextual_title_explanations": {
+        "vote": {
+          "display_format": "**Votes:** vote",
+          "explanation": "Decision-making process",
+          "cultural_note": "Common in French political news"
+        },
+        "en faveur": {
+          "display_format": "**In favor:** en faveur",
+          "explanation": "In support of",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**Of a:** d’un",
+          "explanation": "Contraction of 'de un'",
+          "cultural_note": "Common in French grammar"
+        },
+        "jumelage": {
+          "display_format": "**Twinning:** jumelage",
+          "explanation": "Partnership between towns",
+          "cultural_note": "Common in French local politics"
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Together or in company of",
+          "cultural_note": ""
+        },
+        "camp palestinien": {
+          "display_format": "**Palestinian camp:** camp palestinien",
+          "explanation": "Refugee camp for Palestinians",
+          "cultural_note": "Often referenced in Middle East politics"
+        },
+        "Aïda": {
+          "display_format": "**Aida:** Aïda",
+          "explanation": "Palestinian refugee camp",
+          "cultural_note": "Located near Bethlehem"
+        },
+        "malgré": {
+          "display_format": "**Despite:** malgré",
+          "explanation": "In spite of",
+          "cultural_note": ""
+        },
+        "les critiques": {
+          "display_format": "**Criticisms:** les critiques",
+          "explanation": "Negative feedback",
+          "cultural_note": "Common in political debates"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Marre d’Aston Martin » : il veut rendre sa Valkyrie à 3 millions… parce qu’elle fait trop de bruit",
+      "original_article_link": "https://www.ouest-france.fr/leditiondusoir/2025-06-23/marre-d-aston-martin-il-veut-rendre-sa-valkyrie-a-3-millions-parce-qu-elle-fait-trop-de-bruit-26cc9319-1aa0-4253-af39-de9a3c0d299f?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T16:50:03",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il veut rendre sa voiture trop bruyante",
+      "simplified_english_title": "He wants to return his too noisy car",
+      "french_summary": "Un homme veut rendre sa voiture Valkyrie parce qu'elle fait trop de bruit, malgré son prix élevé.",
+      "english_summary": "A man wants to return his Valkyrie car because it is too noisy, despite its high price.",
+      "contextual_title_explanations": {
+        "Marre": {
+          "display_format": "**Fed up:** Marre",
+          "explanation": "Informal expression for being tired or annoyed",
+          "cultural_note": "Commonly used in everyday French conversation"
+        },
+        "rendre": {
+          "display_format": "**Return:** rendre",
+          "explanation": "To give something back",
+          "cultural_note": ""
+        },
+        "bruit": {
+          "display_format": "**Noise:** bruit",
+          "explanation": "Unwanted sound",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**He:** il",
+          "explanation": "Third person singular masculine pronoun",
+          "cultural_note": ""
+        },
+        "veut": {
+          "display_format": "**Wants:** veut",
+          "explanation": "Third person singular of 'vouloir' (to want)",
+          "cultural_note": ""
+        },
+        "parce": {
+          "display_format": "**Because:** parce",
+          "explanation": "Short for 'parce que' meaning 'because'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
