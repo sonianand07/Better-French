@@ -78339,6 +78339,36 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Programmation de l’énergie : la proposition de loi Gremillet, cet autre texte qui hérisse les entreprises",
+      "original_article_link": "https://www.lefigaro.fr/societes/apres-maprimrenov-cet-autre-texte-qui-herisse-les-entreprises-20250624",
+      "original_article_published_date": "2025-06-24T11:04:51",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Nouvelle loi sur l'énergie inquiète les entreprises",
+      "simplified_english_title": "New energy law worries businesses",
+      "french_summary": "La proposition de loi Gremillet sur l'énergie cause des inquiétudes chez les entreprises en France.",
+      "english_summary": "The Gremillet energy law proposal is causing concern among businesses in France.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T17:29:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
     }
   ]
 }

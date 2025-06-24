@@ -2565,36 +2565,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Programmation de l’énergie : la proposition de loi Gremillet, cet autre texte qui hérisse les entreprises",
-      "original_article_link": "https://www.lefigaro.fr/societes/apres-maprimrenov-cet-autre-texte-qui-herisse-les-entreprises-20250624",
-      "original_article_published_date": "2025-06-24T11:04:51",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Nouvelle loi sur l'énergie inquiète les entreprises",
-      "simplified_english_title": "New energy law worries businesses",
-      "french_summary": "La proposition de loi Gremillet sur l'énergie cause des inquiétudes chez les entreprises en France.",
-      "english_summary": "The Gremillet energy law proposal is causing concern among businesses in France.",
-      "contextual_title_explanations": null,
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T17:29:33",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 1
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Ouverture à la concurrence : la RATP remporte 92 lignes de bus mais en perd 29",
       "original_article_link": "https://www.lefigaro.fr/societes/ouverture-a-la-concurrence-la-ratp-remporte-92-lignes-de-bus-mais-en-perd-29-20250624",
       "original_article_published_date": "2025-06-24T10:58:51",
@@ -6654,6 +6624,82 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T06:29:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le MoDem votera contre, le RN fait monter la pression… La proposition de loi sur le futur énergétique de la France à l’Assemblée nationale pour un vote solennel",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250624.OBS105238/le-modem-votera-contre-le-rn-fait-monter-la-pression-la-proposition-de-loi-sur-le-futur-energetique-de-la-france-a-l-assemblee-nationale-pour-un-vote-solennel.html",
+      "original_article_published_date": "2025-06-24T05:30:09",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Débat sur la loi énergétique en France",
+      "simplified_english_title": "Debate on France's energy law",
+      "french_summary": "Le MoDem votera contre la loi énergétique. Le RN augmente la pression pendant le vote à l'Assemblée nationale.",
+      "english_summary": "The MoDem will vote against the energy law. The RN increases pressure during the National Assembly vote.",
+      "contextual_title_explanations": {
+        "MoDem": {
+          "display_format": "**Democratic Movement:** MoDem",
+          "explanation": "Centrist French political party",
+          "cultural_note": "Founded by François Bayrou in 2007"
+        },
+        "votera": {
+          "display_format": "**Will vote:** votera",
+          "explanation": "Future tense of 'voter'",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against:** contre",
+          "explanation": "Indicates opposition",
+          "cultural_note": ""
+        },
+        "RN": {
+          "display_format": "**National Rally:** RN",
+          "explanation": "French far-right political party",
+          "cultural_note": "Formerly known as Front National"
+        },
+        "fait monter la pression": {
+          "display_format": "**Increases pressure:** fait monter la pression",
+          "explanation": "Idiom for applying pressure",
+          "cultural_note": "Common political phrase"
+        },
+        "proposition de loi": {
+          "display_format": "**Bill:** proposition de loi",
+          "explanation": "Draft law proposed by parliament members",
+          "cultural_note": ""
+        },
+        "futur énergétique": {
+          "display_format": "**Energy future:** futur énergétique",
+          "explanation": "Future energy plans",
+          "cultural_note": ""
+        },
+        "Assemblée nationale": {
+          "display_format": "**National Assembly:** Assemblée nationale",
+          "explanation": "Lower house of French Parliament",
+          "cultural_note": ""
+        },
+        "vote solennel": {
+          "display_format": "**Solemn vote:** vote solennel",
+          "explanation": "Formal vote in the Assembly",
+          "cultural_note": "Important ceremonial procedure"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
