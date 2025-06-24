@@ -3,6 +3,635 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Trois syndicats de Société Générale appellent à faire grève ce vendredi pour obtenir le maintien du télétravail",
+      "original_article_link": "https://www.lefigaro.fr/societes/trois-syndicats-de-societe-generale-appellent-a-faire-greve-ce-vendredi-pour-obtenir-le-maintien-du-teletravail-20250624",
+      "original_article_published_date": "2025-06-24T09:17:57",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Grève à Société Générale pour le télétravail",
+      "simplified_english_title": "Strike at Société Générale for remote work",
+      "french_summary": "Trois syndicats de Société Générale demandent une grève pour garder le télétravail.",
+      "english_summary": "Three unions at Société Générale call for a strike to keep remote work.",
+      "contextual_title_explanations": {
+        "Trois": {
+          "display_format": "**Three:** Trois",
+          "explanation": "Number indicating three entities",
+          "cultural_note": ""
+        },
+        "syndicats": {
+          "display_format": "**Unions:** syndicats",
+          "explanation": "Organized groups of workers",
+          "cultural_note": "Important in French labor relations"
+        },
+        "appellent": {
+          "display_format": "**Call:** appellent",
+          "explanation": "Verb meaning to call or appeal",
+          "cultural_note": ""
+        },
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "Work stoppage to protest",
+          "cultural_note": "Common in French labor disputes"
+        },
+        "télétravail": {
+          "display_format": "**Telework:** télétravail",
+          "explanation": "Working remotely from home",
+          "cultural_note": "Gained prominence post-COVID"
+        },
+        "maintien": {
+          "display_format": "**Maintenance:** maintien",
+          "explanation": "Continuation or preservation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tesla France doit «cesser ses pratiques commerciales trompeuses», ordonne la Répression des fraudes",
+      "original_article_link": "https://www.lefigaro.fr/societes/tesla-france-doit-cesser-ses-pratiques-commerciales-trompeuses-ordonne-la-repression-des-fraudes-20250624",
+      "original_article_published_date": "2025-06-24T09:16:50",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tesla punie pour pratiques trompeuses",
+      "simplified_english_title": "Tesla punished for misleading practices",
+      "french_summary": "Les autorités françaises ordonnent à Tesla d'arrêter ses pratiques commerciales trompeuses après une enquête.",
+      "english_summary": "French authorities order Tesla to stop its misleading commercial practices after an investigation.",
+      "contextual_title_explanations": {
+        "cesser": {
+          "display_format": "**Cease:** cesser",
+          "explanation": "To stop or discontinue",
+          "cultural_note": ""
+        },
+        "doit": {
+          "display_format": "**Must:** doit",
+          "explanation": "Conjugation of 'devoir' meaning obligation",
+          "cultural_note": ""
+        },
+        "pratiques": {
+          "display_format": "**Practices:** pratiques",
+          "explanation": "Actions or methods used",
+          "cultural_note": ""
+        },
+        "commerciales": {
+          "display_format": "**Commercial:** commerciales",
+          "explanation": "Related to business or trade",
+          "cultural_note": ""
+        },
+        "trompeuses": {
+          "display_format": "**Deceptive:** trompeuses",
+          "explanation": "Misleading or fraudulent",
+          "cultural_note": ""
+        },
+        "ordonne": {
+          "display_format": "**Orders:** ordonne",
+          "explanation": "Commands or directs",
+          "cultural_note": ""
+        },
+        "fraudes": {
+          "display_format": "**Fraud:** fraudes",
+          "explanation": "Deceptive practices for gain",
+          "cultural_note": ""
+        },
+        "Répression": {
+          "display_format": "**Suppression:** Répression",
+          "explanation": "French government fraud agency",
+          "cultural_note": "Part of the Ministry of Economy"
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark",
+          "cultural_note": "Used to open direct speech or quotes"
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark",
+          "cultural_note": "Used to close direct speech or quotes"
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article, plural",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**Its:** ses",
+          "explanation": "Possessive adjective, plural",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Étape importante», «seule voie viable»... Les réactions après la proposition américaine d’un «cessez-le-feu» entre l’Iran et Israël",
+      "original_article_link": "https://www.lefigaro.fr/international/etape-importante-seule-voie-viable-les-reactions-apres-la-proposition-americaine-d-un-cessez-le-feu-entre-l-iran-et-israel-20250624",
+      "original_article_published_date": "2025-06-24T09:13:26",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Réactions à la trêve proposée entre Iran et Israël",
+      "simplified_english_title": "Reactions to proposed Iran-Israel ceasefire",
+      "french_summary": "Les États-Unis proposent un cessez-le-feu entre l’Iran et Israël. Plusieurs réactions positives soulignent son importance.",
+      "english_summary": "The US proposes a ceasefire between Iran and Israel. Several positive reactions highlight its importance.",
+      "contextual_title_explanations": {
+        "Étape": {
+          "display_format": "**Step:** Étape",
+          "explanation": "Stage or phase in a process",
+          "cultural_note": "Often used in political contexts"
+        },
+        "importante": {
+          "display_format": "**Important:** importante",
+          "explanation": "Significant or major",
+          "cultural_note": ""
+        },
+        "seule": {
+          "display_format": "**Only:** seule",
+          "explanation": "Single or sole",
+          "cultural_note": ""
+        },
+        "voie": {
+          "display_format": "**Path:** voie",
+          "explanation": "Way or route",
+          "cultural_note": "Commonly used in political discussions"
+        },
+        "proposition": {
+          "display_format": "**Proposal:** proposition",
+          "explanation": "Suggestion or plan",
+          "cultural_note": "Often used in diplomatic contexts"
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        },
+        "cessez-le-feu": {
+          "display_format": "**Ceasefire:** cessez-le-feu",
+          "explanation": "Agreement to stop fighting",
+          "cultural_note": "Critical term in conflict resolution"
+        },
+        "réactions": {
+          "display_format": "**Reactions:** réactions",
+          "explanation": "Responses or feedback",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often involved in regional conflicts"
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Following in time",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**Between:** entre",
+          "explanation": "In the middle of two things",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Dégâts, stocks d'uranium, négociations... Quatre questions qui se posent après les frappes américaines contre des sites nucléaires en Iran",
+      "original_article_link": "https://www.franceinfo.fr/monde/conflit-israel-iran/degats-stocks-d-uranium-negociations-quatre-questions-qui-se-posent-apres-les-frappes-americaines-contre-des-sites-nucleaires-en-iran_7332345.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-24T09:13:10",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Conséquences des frappes américaines en Iran",
+      "simplified_english_title": "Consequences of US strikes in Iran",
+      "french_summary": "Les frappes américaines sur des sites nucléaires en Iran posent des questions sur les dégâts et les stocks d'uranium.",
+      "english_summary": "US strikes on nuclear sites in Iran raise questions about damage and uranium stocks.",
+      "contextual_title_explanations": {
+        "Dégâts": {
+          "display_format": "**Damage:** Dégâts",
+          "explanation": "Physical harm or destruction caused by an event",
+          "cultural_note": ""
+        },
+        "négociations": {
+          "display_format": "**Negotiations:** négociations",
+          "explanation": "Discussions aimed at reaching an agreement",
+          "cultural_note": "Common in political and diplomatic contexts"
+        },
+        "frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks, often airstrikes",
+          "cultural_note": "Frequently used in news about conflicts"
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the United States",
+          "cultural_note": ""
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Relating to nuclear energy or weapons",
+          "cultural_note": "Often discussed in geopolitical contexts"
+        },
+        "d'uranium": {
+          "display_format": "**Uranium:** d'uranium",
+          "explanation": "Radioactive element used in nuclear reactions",
+          "cultural_note": "Key material in nuclear programs"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Vers 5 % du PIB pour la défense : l’OTAN muscle ses exigences budgétaires",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20250624-vers-5-du-pib-pour-la-d%C3%A9fense-l-otan-muscle-ses-exigences-budg%C3%A9taires",
+      "original_article_published_date": "2025-06-24T09:07:14",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'OTAN veut plus d'argent pour la défense",
+      "simplified_english_title": "NATO demands more defense spending",
+      "french_summary": "L'OTAN demande aux pays membres d'augmenter leurs budgets de défense à 5% du PIB pour renforcer leur sécurité commune.",
+      "english_summary": "NATO asks member countries to increase their defense budgets to 5% of GDP to strengthen their collective security.",
+      "contextual_title_explanations": {
+        "Vers": {
+          "display_format": "**Towards:** Vers",
+          "explanation": "Indicates direction or approximation",
+          "cultural_note": "Commonly used in headlines"
+        },
+        "PIB": {
+          "display_format": "**GDP:** PIB",
+          "explanation": "Gross Domestic Product",
+          "cultural_note": "Key economic indicator"
+        },
+        "défense": {
+          "display_format": "**Defense:** défense",
+          "explanation": "Military protection and security",
+          "cultural_note": "Important topic in French politics"
+        },
+        "OTAN": {
+          "display_format": "**NATO:** OTAN",
+          "explanation": "North Atlantic Treaty Organization",
+          "cultural_note": "International military alliance"
+        },
+        "muscle": {
+          "display_format": "**Strengthens:** muscle",
+          "explanation": "Increases or reinforces",
+          "cultural_note": "Often used metaphorically"
+        },
+        "exigences": {
+          "display_format": "**Requirements:** exigences",
+          "explanation": "Demands or conditions",
+          "cultural_note": ""
+        },
+        "budgétaires": {
+          "display_format": "**Budgetary:** budgétaires",
+          "explanation": "Related to financial planning",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le déchiffrage : Le risque géopolitique sur les marchés - 24/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/bfm-patrimoine/video-le-dechiffrage-le-risque-geopolitique-sur-les-marches-24-06_VN-202506240301.html",
+      "original_article_published_date": "2025-06-24T09:00:01",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les risques géopolitiques affectent les marchés",
+      "simplified_english_title": "Geopolitical risks impact markets",
+      "french_summary": "Les tensions géopolitiques influencent les marchés financiers, créant des incertitudes pour les investisseurs et les économies.",
+      "english_summary": "Geopolitical tensions are influencing financial markets, creating uncertainties for investors and economies.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** Le",
+          "explanation": "Definite article",
+          "cultural_note": "Used before masculine singular nouns"
+        },
+        "déchiffrage": {
+          "display_format": "**Deciphering:** déchiffrage",
+          "explanation": "Process of decoding or understanding",
+          "cultural_note": "Commonly used in context of analysis"
+        },
+        "risque": {
+          "display_format": "**Risk:** risque",
+          "explanation": "Potential danger or loss",
+          "cultural_note": "Often used in financial and political contexts"
+        },
+        "géopolitique": {
+          "display_format": "**Geopolitical:** géopolitique",
+          "explanation": "Relating to politics influenced by geography",
+          "cultural_note": "Important in French political analysis"
+        },
+        "marchés": {
+          "display_format": "**Markets:** marchés",
+          "explanation": "Areas or contexts where trade occurs",
+          "cultural_note": "Refers to financial markets in this context"
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article",
+          "cultural_note": "Used before plural nouns"
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Indicates location or topic",
+          "cultural_note": "Common preposition in French"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Iran, la fragile perspective d’un retour au calme après vingt-quatre heures sous le feu",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/24/en-iran-la-fragile-perspective-d-un-retour-au-calme-apres-vingt-quatre-heures-sous-le-feu_6615593_3210.html",
+      "original_article_published_date": "2025-06-24T08:50:04",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran espère un retour au calme",
+      "simplified_english_title": "Iran hopes for return to calm",
+      "french_summary": "Après des tensions, l'Iran envisage un retour au calme suite à des journées difficiles et des négociations.",
+      "english_summary": "After tensions, Iran considers a return to calm following difficult days and negotiations.",
+      "contextual_title_explanations": {
+        "retour": {
+          "display_format": "**Return:** retour",
+          "explanation": "Coming back to a previous state",
+          "cultural_note": ""
+        },
+        "calme": {
+          "display_format": "**Calm:** calme",
+          "explanation": "State of peace and quiet",
+          "cultural_note": ""
+        },
+        "feu": {
+          "display_format": "**Fire:** feu",
+          "explanation": "Can mean literal fire or metaphorical conflict",
+          "cultural_note": ""
+        },
+        "quatre": {
+          "display_format": "**Four:** quatre",
+          "explanation": "The number 4",
+          "cultural_note": ""
+        },
+        "vingt": {
+          "display_format": "**Twenty:** vingt",
+          "explanation": "The number 20",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Following in time",
+          "cultural_note": ""
+        },
+        "heures": {
+          "display_format": "**Hours:** heures",
+          "explanation": "Units of time, each 60 minutes",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "OTAN : la défense et les États-Unis de Trump au programme d'un sommet qui s'annonce tendu",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-otan-la-d%C3%A9fense-et-les-%C3%A9tats-unis-de-trump-au-programme-d-un-sommet-qui-s-annonce-tendu",
+      "original_article_published_date": "2025-06-24T08:47:39",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Sommet de l'OTAN avec des tensions attendues",
+      "simplified_english_title": "NATO summit expected to be tense",
+      "french_summary": "Les dirigeants de l'OTAN se rencontrent pour discuter de la défense et des États-Unis sous Trump. Les tensions sont prévues.",
+      "english_summary": "NATO leaders meet to discuss defense and the US under Trump. Tensions are expected.",
+      "contextual_title_explanations": {
+        "OTAN": {
+          "display_format": "**NATO:** OTAN",
+          "explanation": "Military alliance of North American and European countries",
+          "cultural_note": "Founded in 1949 for collective defense"
+        },
+        "défense": {
+          "display_format": "**Defense:** défense",
+          "explanation": "Protection against attack or harm",
+          "cultural_note": ""
+        },
+        "États-Unis": {
+          "display_format": "**United States:** États-Unis",
+          "explanation": "Country in North America",
+          "cultural_note": "Commonly referred to as USA or America"
+        },
+        "sommet": {
+          "display_format": "**Summit:** sommet",
+          "explanation": "High-level meeting between leaders",
+          "cultural_note": ""
+        },
+        "s'annonce": {
+          "display_format": "**Announced:** s'annonce",
+          "explanation": "Is announced or expected",
+          "cultural_note": ""
+        },
+        "tendu": {
+          "display_format": "**Tense:** tendu",
+          "explanation": "Stressed or strained situation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Énergies renouvelables. « Ce que les partisans du nucléaire oublient de dire… »",
+      "original_article_link": "https://www.ouest-france.fr/environnement/nucleaire/energies-renouvelables-ce-que-les-partisans-du-nucleaire-oublient-de-dire-792901a0-5010-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-24T08:45:01",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les énergies renouvelables et le nucléaire",
+      "simplified_english_title": "Renewable energy and nuclear power",
+      "french_summary": "Les défenseurs du nucléaire oublient certains points importants sur les énergies renouvelables selon un rapport récent.",
+      "english_summary": "Supporters of nuclear power forget some important points about renewable energy according to a recent report.",
+      "contextual_title_explanations": {
+        "Énergies": {
+          "display_format": "**Energy:** Énergies",
+          "explanation": "Power sources for electricity and heat",
+          "cultural_note": "Key topic in French environmental debates"
+        },
+        "renouvelables": {
+          "display_format": "**Renewable:** renouvelables",
+          "explanation": "Natural resources that replenish over time",
+          "cultural_note": "Wind, solar, and hydro are common examples"
+        },
+        "nucléaire": {
+          "display_format": "**Nuclear:** nucléaire",
+          "explanation": "Energy produced from atomic reactions",
+          "cultural_note": "France relies heavily on nuclear power"
+        },
+        "partisans": {
+          "display_format": "**Supporters:** partisans",
+          "explanation": "People who support a cause or idea",
+          "cultural_note": ""
+        },
+        "oublient": {
+          "display_format": "**Forget:** oublient",
+          "explanation": "Fail to remember or mention something",
+          "cultural_note": ""
+        },
+        "dire": {
+          "display_format": "**To say:** dire",
+          "explanation": "To express something in words",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Une nouvelle frappe israélienne a fait trois morts au Liban",
       "original_article_link": "https://www.20min.ch/fr/story/proche-orient-une-nouvelle-frappe-israelienne-a-fait-trois-morts-au-liban-103369434",
       "original_article_published_date": "2025-06-24T08:20:07",
@@ -1163,6 +1792,82 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T06:29:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël n'a pas confirmé le cessez-le-feu annoncé par Donald Trump",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-isra%C3%ABl-n-a-pas-confirm%C3%A9-le-cessez-le-feu-annonc%C3%A9-par-donald-trump-dans-la-guerre-isra%C3%ABl-iran",
+      "original_article_published_date": "2025-06-24T05:40:02",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël ne confirme pas le cessez-le-feu",
+      "simplified_english_title": "Israel does not confirm the ceasefire",
+      "french_summary": "Israël n'a pas confirmé le cessez-le-feu annoncé par Donald Trump, laissant la situation incertaine.",
+      "english_summary": "Israel did not confirm the ceasefire announced by Donald Trump, leaving the situation uncertain.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "French spelling retains the accent"
+        },
+        "n&#39;a": {
+          "display_format": "**Has not:** n'a",
+          "explanation": "Short for 'ne a pas'",
+          "cultural_note": "Common French negation"
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Negation word",
+          "cultural_note": "Used with 'ne' to negate verbs"
+        },
+        "confirmé": {
+          "display_format": "**Confirmed:** confirmé",
+          "explanation": "Past participle of 'confirmer'",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article",
+          "cultural_note": "Used for masculine singular nouns"
+        },
+        "cessez-le-feu": {
+          "display_format": "**Ceasefire:** cessez-le-feu",
+          "explanation": "Agreement to stop fighting",
+          "cultural_note": "Literally means 'cease the fire'"
+        },
+        "annoncé": {
+          "display_format": "**Announced:** annoncé",
+          "explanation": "Past participle of 'annoncer'",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Indicates the agent of an action",
+          "cultural_note": ""
+        },
+        "feu": {
+          "display_format": "**Fire:** feu",
+          "explanation": "Combustion or shooting",
+          "cultural_note": "In 'cessez-le-feu', refers to gunfire"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T09:22:17",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6350,781 +7055,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Édition spéciale : L'Iran a tiré six missiles sur des bases américaines - 23/06",
-      "original_article_link": "https://www.bfmtv.com/replay-emissions/tout-le-monde-veut-savoir/video-edition-speciale-l-iran-a-tire-six-missiles-sur-des-bases-americaines-23-06_VN-202506230734.html",
-      "original_article_published_date": "2025-06-23T18:00:31",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran attaque des bases américaines",
-      "simplified_english_title": "Iran attacks American bases",
-      "french_summary": "L'Iran a lancé six missiles sur des bases américaines. Cet événement s'est passé le 23 juin.",
-      "english_summary": "Iran launched six missiles at American bases. This event happened on June 23.",
-      "contextual_title_explanations": {
-        "Édition": {
-          "display_format": "**Edition:** Édition",
-          "explanation": "A particular version of a published text",
-          "cultural_note": "Often used in news headlines for special reports"
-        },
-        "spéciale": {
-          "display_format": "**Special:** spéciale",
-          "explanation": "Particular, better or greater than usual",
-          "cultural_note": ""
-        },
-        "L&#39;Iran": {
-          "display_format": "**Iran:** L&#39;Iran",
-          "explanation": "Country in the Middle East",
-          "cultural_note": "Known for its rich history and cultural heritage"
-        },
-        "a tiré": {
-          "display_format": "**Fired:** a tiré",
-          "explanation": "Launched or shot",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Indicates location or target",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the United States",
-          "cultural_note": ""
-        },
-        "23/06": {
-          "display_format": "**Date:** 23/06",
-          "explanation": "23rd of June",
-          "cultural_note": "Date format used in France (day/month)"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L'activité se contracte encore en juin (PMI) - 23/06",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts-du-soir/video-l-activite-se-contracte-encore-en-juin-pmi-23-06_VN-202506230725.html",
-      "original_article_published_date": "2025-06-23T17:57:53",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'activité économique baisse en juin",
-      "simplified_english_title": "Economic activity drops in June",
-      "french_summary": "Les indicateurs PMI montrent une baisse de l'activité économique en juin pour le troisième mois consécutif.",
-      "english_summary": "PMI indicators show a drop in economic activity in June for the third consecutive month.",
-      "contextual_title_explanations": {
-        "L&#39;activité": {
-          "display_format": "**The activity:** L'activité",
-          "explanation": "Economic or business activity level",
-          "cultural_note": "Often refers to economic indicators"
-        },
-        "contracte": {
-          "display_format": "**Contracts:** contracte",
-          "explanation": "Shrinks or reduces in size",
-          "cultural_note": ""
-        },
-        "se": {
-          "display_format": "**Oneself:** se",
-          "explanation": "Reflexive pronoun",
-          "cultural_note": "Used with reflexive verbs"
-        },
-        "encore": {
-          "display_format": "**Again:** encore",
-          "explanation": "Once more, again",
-          "cultural_note": ""
-        },
-        "juin": {
-          "display_format": "**June:** juin",
-          "explanation": "Sixth month of the year",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In:** en",
-          "explanation": "In or during",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conflit Israël-Iran: Emmanuel Macron juge que la frappe contre la prison d'Evin \"a mis en danger la vie de civils\"",
-      "original_article_link": "https://www.bfmtv.com/politique/elysee/conflit-israel-iran-emmanuel-macron-juge-que-la-frappe-contre-la-prison-d-evin-a-mis-en-danger-la-vie-de-civils_AV-202506230715.html",
-      "original_article_published_date": "2025-06-23T17:51:26",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron critique la frappe en Iran",
-      "simplified_english_title": "Macron criticizes strike in Iran",
-      "french_summary": "Emmanuel Macron dit que l'attaque contre la prison d'Evin a mis en danger des civils. Il parle du conflit entre Israël et l'Iran.",
-      "english_summary": "Emmanuel Macron says the strike on Evin prison endangered civilians. He discusses the conflict between Israel and Iran.",
-      "contextual_title_explanations": {
-        "Conflit": {
-          "display_format": "**Conflict:** Conflit",
-          "explanation": "Serious disagreement or argument",
-          "cultural_note": "Often used in political contexts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "juge": {
-          "display_format": "**Judges:** juge",
-          "explanation": "Considers or believes",
-          "cultural_note": ""
-        },
-        "frappe": {
-          "display_format": "**Strike:** frappe",
-          "explanation": "Military attack",
-          "cultural_note": ""
-        },
-        "vie": {
-          "display_format": "**Life:** vie",
-          "explanation": "The state of being alive",
-          "cultural_note": ""
-        },
-        "d'Evin": {
-          "display_format": "**Evin:** d'Evin",
-          "explanation": "Notorious prison in Iran",
-          "cultural_note": "Known for holding political prisoners"
-        },
-        "civils": {
-          "display_format": "**Civilians:** civils",
-          "explanation": "Non-military people",
-          "cultural_note": ""
-        },
-        "mis": {
-          "display_format": "**Put:** mis",
-          "explanation": "Placed or put",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**Has:** a",
-          "explanation": "Third person singular of 'avoir'",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In:** en",
-          "explanation": "Preposition indicating location or state",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** de",
-          "explanation": "Preposition indicating possession or association",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That:** que",
-          "explanation": "Conjunction used to introduce a clause",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**Against:** contre",
-          "explanation": "Preposition indicating opposition",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing a quote or explanation",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation marks:** \"",
-          "explanation": "Punctuation indicating direct speech or a quote",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Colruyt envisage la suppressions de 889 postes après cession de magasins en France",
-      "original_article_link": "https://www.la-croix.com/economie/colruyt-envisage-la-suppressions-de-889-postes-apres-cession-de-magasins-en-france-20250623",
-      "original_article_published_date": "2025-06-23T17:43:59",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Colruyt veut supprimer 889 postes en France",
-      "simplified_english_title": "Colruyt plans to cut 889 jobs in France",
-      "french_summary": "Colruyt prévoit de supprimer 889 emplois après la vente de ses magasins en France.",
-      "english_summary": "Colruyt plans to cut 889 jobs after selling its stores in France.",
-      "contextual_title_explanations": {
-        "envisage": {
-          "display_format": "**Envisages:** envisage",
-          "explanation": "Considers or plans for the future",
-          "cultural_note": ""
-        },
-        "suppressions": {
-          "display_format": "**Suppression:** suppressions",
-          "explanation": "Cutting or eliminating jobs",
-          "cultural_note": ""
-        },
-        "postes": {
-          "display_format": "**Jobs:** postes",
-          "explanation": "Positions or jobs",
-          "cultural_note": ""
-        },
-        "cession": {
-          "display_format": "**Transfer:** cession",
-          "explanation": "Selling or transferring ownership",
-          "cultural_note": ""
-        },
-        "magasins": {
-          "display_format": "**Stores:** magasins",
-          "explanation": "Retail shops or stores",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T01:38:06",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "A deux ans de l'élection présidentielle, le social-démocrate Raphaël Glucksmann présente sa \"vision pour la France\"",
-      "original_article_link": "https://www.franceinfo.fr/politique/a-deux-ans-de-l-election-presidentielle-le-social-democrate-raphael-glucksmann-presente-sa-vision-pour-la-france_7332909.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T17:43:45",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Glucksmann partage sa vision pour la France",
-      "simplified_english_title": "Glucksmann shares his vision for France",
-      "french_summary": "Raphaël Glucksmann, un social-démocrate, présente ses idées pour la France, deux ans avant l'élection présidentielle.",
-      "english_summary": "Raphael Glucksmann, a social democrat, presents his ideas for France, two years before the presidential election.",
-      "contextual_title_explanations": {
-        "présentielle": {
-          "display_format": "**Presidential:** présidentielle",
-          "explanation": "Relating to the office of president",
-          "cultural_note": "Refers to the election of the French President"
-        },
-        "l'élection": {
-          "display_format": "**The election:** l'élection",
-          "explanation": "Process of choosing a leader",
-          "cultural_note": "Important event in French political life"
-        },
-        "deux": {
-          "display_format": "**Two:** deux",
-          "explanation": "Number after one",
-          "cultural_note": ""
-        },
-        "ans": {
-          "display_format": "**Years:** ans",
-          "explanation": "Unit of time, 365 days",
-          "cultural_note": ""
-        },
-        "présente": {
-          "display_format": "**Presents:** présente",
-          "explanation": "Shows or introduces something",
-          "cultural_note": ""
-        },
-        "social-démocrate": {
-          "display_format": "**Social Democrat:** social-démocrate",
-          "explanation": "Political ideology combining socialism and democracy",
-          "cultural_note": "A significant political movement in France"
-        },
-        "Raphaël": {
-          "display_format": "**Raphael:** Raphaël",
-          "explanation": "French personal name",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For:** pour",
-          "explanation": "Indicates purpose or destination",
-          "cultural_note": ""
-        },
-        "A": {
-          "display_format": "**At:** A",
-          "explanation": "Indicates a point in time",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Indicates possession or origin",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "sa": {
-          "display_format": "**His/Her:** sa",
-          "explanation": "Possessive adjective, feminine singular",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation marks:** \"",
-          "explanation": "Punctuation marks used to indicate speech or a quotation",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** le",
-          "explanation": "Definite article, masculine singular",
-          "cultural_note": ""
-        },
-        "démocrate": {
-          "display_format": "**Democrat:** démocrate",
-          "explanation": "Person who believes in democracy",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T23:15:35",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Story 5 : Israël cible la prison des opposants iraniens - 23/06",
-      "original_article_link": "https://www.bfmtv.com/replay-emissions/bfm-story/video-story-5-israel-cible-la-prison-des-opposants-iraniens-23-06_VN-202506230713.html",
-      "original_article_published_date": "2025-06-23T17:43:44",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël attaque une prison en Iran",
-      "simplified_english_title": "Israel targets a prison in Iran",
-      "french_summary": "Israël a attaqué une prison en Iran où des opposants sont détenus, selon des rapports récents.",
-      "english_summary": "Israel attacked a prison in Iran where opponents are held, according to recent reports.",
-      "contextual_title_explanations": {
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often discussed in French media for geopolitical issues"
-        },
-        "cible": {
-          "display_format": "**Targets:** cible",
-          "explanation": "Aims at or focuses on",
-          "cultural_note": ""
-        },
-        "opposants": {
-          "display_format": "**Opponents:** opposants",
-          "explanation": "People who resist or disagree with a regime",
-          "cultural_note": ""
-        },
-        "iraniens": {
-          "display_format": "**Iranian:** iraniens",
-          "explanation": "Relating to Iran or its people",
-          "cultural_note": ""
-        },
-        "5": {
-          "display_format": "**Five:** 5",
-          "explanation": "Number indicating a sequence",
-          "cultural_note": ""
-        },
-        "23/06": {
-          "display_format": "**Date:** 23/06",
-          "explanation": "23rd of June",
-          "cultural_note": "Date format is day/month"
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Indefinite article, plural",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation mark introducing a list or quote",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre au Moyen-Orient : des explosions entendues à Doha, capitale du Qatar",
-      "original_article_link": "https://www.europe1.fr/international/guerre-au-moyen-orient-des-explosions-entendues-a-doha-capitale-du-qatar-760720",
-      "original_article_published_date": "2025-06-23T17:28:04",
-      "source_name": "Europe 1",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Explosions entendues à Doha au Qatar",
-      "simplified_english_title": "Explosions heard in Doha, Qatar",
-      "french_summary": "Des explosions ont été entendues à Doha, la capitale du Qatar, dans le contexte de la guerre au Moyen-Orient.",
-      "english_summary": "Explosions were heard in Doha, the capital of Qatar, amid the Middle East war.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Conflict involving armed forces",
-          "cultural_note": ""
-        },
-        "Moyen-Orient": {
-          "display_format": "**Middle East:** Moyen-Orient",
-          "explanation": "Region including Western Asia and Egypt",
-          "cultural_note": "Geopolitically significant area"
-        },
-        "entendues": {
-          "display_format": "**Heard:** entendues",
-          "explanation": "Past participle of 'entendre'",
-          "cultural_note": ""
-        },
-        "capitale": {
-          "display_format": "**Capital:** capitale",
-          "explanation": "Main city, often seat of government",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T20:22:27",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Guerre Iran/Israël: le Qatar a intercepté avec succès les missiles iraniens qui visaient des bases militaires américaines",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-iran-israel-le-qatar-a-intercepte-avec-succes-les-missiles-iraniens-qui-visaient-des-bases-militaires-americaines_VN-202506230693.html",
-      "original_article_published_date": "2025-06-23T17:22:34",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le Qatar arrête des missiles iraniens",
-      "simplified_english_title": "Qatar intercepts Iranian missiles",
-      "french_summary": "Le Qatar a réussi à intercepter des missiles iraniens qui ciblaient des bases militaires américaines dans la région.",
-      "english_summary": "Qatar successfully intercepted Iranian missiles targeting American military bases in the region.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between countries",
-          "cultural_note": "Often used in headlines for international conflicts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often involved in regional conflicts"
-        },
-        "intercepté": {
-          "display_format": "**Intercepted:** intercepté",
-          "explanation": "Stopped or blocked something",
-          "cultural_note": "Common in military contexts"
-        },
-        "succès": {
-          "display_format": "**Success:** succès",
-          "explanation": "Achieving a goal",
-          "cultural_note": ""
-        },
-        "iraniens": {
-          "display_format": "**Iranian:** iraniens",
-          "explanation": "Relating to Iran",
-          "cultural_note": ""
-        },
-        "militaires": {
-          "display_format": "**Military:** militaires",
-          "explanation": "Relating to armed forces",
-          "cultural_note": ""
-        },
-        "américaines": {
-          "display_format": "**American:** américaines",
-          "explanation": "Relating to the USA",
-          "cultural_note": ""
-        },
-        "visaient": {
-          "display_format": "**Targeted:** visaient",
-          "explanation": "Aimed at something",
-          "cultural_note": ""
-        },
-        "avec": {
-          "display_format": "**With:** avec",
-          "explanation": "In the company of",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** le",
-          "explanation": "Definite article",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**Has:** a",
-          "explanation": "Third person singular of 'avoir'",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** les",
-          "explanation": "Definite article, plural",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Indefinite article, plural",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Introduces further information",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**Who:** qui",
-          "explanation": "Relative pronoun",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T18:27:55",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Désunie à l’extérieur, soudée à l’intérieur: les deux visages de l’opposition iranienne",
-      "original_article_link": "https://www.mediapart.fr/journal/international/230625/desunie-l-exterieur-soudee-l-interieur-les-deux-visages-de-l-opposition-iranienne",
-      "original_article_published_date": "2025-06-23T17:19:33",
-      "source_name": "Mediapart",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'opposition iranienne divisée et unie",
-      "simplified_english_title": "Iranian opposition divided and united",
-      "french_summary": "L'opposition iranienne semble désunie à l'extérieur mais reste soudée à l'intérieur, montrant deux visages différents.",
-      "english_summary": "The Iranian opposition appears divided externally but remains united internally, showing two different faces.",
-      "contextual_title_explanations": {
-        "Désunie": {
-          "display_format": "**Disunited:** Désunie",
-          "explanation": "Lacking unity or agreement",
-          "cultural_note": "Often used in political contexts"
-        },
-        "soudée": {
-          "display_format": "**United:** soudée",
-          "explanation": "United or tightly knit",
-          "cultural_note": "Used to describe strong internal bonds"
-        },
-        "visages": {
-          "display_format": "**Faces:** visages",
-          "explanation": "Different aspects or appearances",
-          "cultural_note": ""
-        },
-        "iranienne": {
-          "display_format": "**Iranian:** iranienne",
-          "explanation": "Relating to Iran",
-          "cultural_note": "Refers to the political context of Iran"
-        },
-        "extérieur": {
-          "display_format": "**Exterior:** extérieur",
-          "explanation": "Outer appearance or external view",
-          "cultural_note": ""
-        },
-        "intérieur": {
-          "display_format": "**Interior:** intérieur",
-          "explanation": "Inner aspects or internal view",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Prisonniers politiques, otages occidentaux... Pourquoi la frappe d'Israël sur la prison iranienne d'Evin est symbolique",
-      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/prisonniers-politiques-otages-occidentaux-pourquoi-la-frappe-d-israel-sur-la-prison-iranienne-d-evin-est-symbolique_AV-202506230689.html",
-      "original_article_published_date": "2025-06-23T17:17:36",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Israël frappe une prison en Iran",
-      "simplified_english_title": "Israel strikes a prison in Iran",
-      "french_summary": "Israël a frappé une prison iranienne, un acte symbolique lié aux prisonniers politiques et otages occidentaux.",
-      "english_summary": "Israel struck an Iranian prison, a symbolic act related to political prisoners and Western hostages.",
-      "contextual_title_explanations": {
-        "Prisonniers": {
-          "display_format": "**Prisoners:** Prisonniers",
-          "explanation": "People held captive or incarcerated",
-          "cultural_note": ""
-        },
-        "politiques": {
-          "display_format": "**Political:** politiques",
-          "explanation": "Relating to government or public affairs",
-          "cultural_note": ""
-        },
-        "otages": {
-          "display_format": "**Hostages:** otages",
-          "explanation": "People held captive by a group or individual",
-          "cultural_note": ""
-        },
-        "occidentaux": {
-          "display_format": "**Western:** occidentaux",
-          "explanation": "Relating to the Western world",
-          "cultural_note": "Refers to countries in Europe and North America"
-        },
-        "frappe": {
-          "display_format": "**Strike:** frappe",
-          "explanation": "A military attack",
-          "cultural_note": ""
-        },
-        "d'Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "A country in the Middle East",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Indicates location or target",
-          "cultural_note": ""
-        },
-        "d'Evin": {
-          "display_format": "**Evin:** Evin",
-          "explanation": "A prison in Iran",
-          "cultural_note": "Known for holding political prisoners"
-        },
-        "iranienne": {
-          "display_format": "**Iranian:** iranienne",
-          "explanation": "Relating to Iran",
-          "cultural_note": ""
-        },
-        "symbolique": {
-          "display_format": "**Symbolic:** symbolique",
-          "explanation": "Serving as a symbol",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
