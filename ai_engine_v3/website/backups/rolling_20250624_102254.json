@@ -3,275 +3,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Retraites : François Bayrou, touché mais pas encore coulé",
-      "original_article_link": "https://www.la-croix.com/politique/retraites-francois-bayrou-touche-mais-pas-encore-coule-20250624",
-      "original_article_published_date": "2025-06-24T09:59:46",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Bayrou en difficulté mais résiste",
-      "simplified_english_title": "Bayrou struggles but holds on",
-      "french_summary": "François Bayrou est sous pression à cause des retraites mais il ne renonce pas encore à ses positions.",
-      "english_summary": "François Bayrou is under pressure due to pensions but he is not giving up his positions yet.",
-      "contextual_title_explanations": {
-        "Retraites": {
-          "display_format": "**Pensions:** Retraites",
-          "explanation": "French pension system",
-          "cultural_note": "Hot political topic in France"
-        },
-        "touché": {
-          "display_format": "**Hit:** touché",
-          "explanation": "Affected negatively",
-          "cultural_note": ""
-        },
-        "mais": {
-          "display_format": "**But:** mais",
-          "explanation": "Conjunction showing contrast",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**Not:** pas",
-          "explanation": "Negation word",
-          "cultural_note": "Used with 'ne' for negation"
-        },
-        "encore": {
-          "display_format": "**Yet:** encore",
-          "explanation": "Adverb meaning 'yet' or 'still'",
-          "cultural_note": ""
-        },
-        "coulé": {
-          "display_format": "**Sunk:** coulé",
-          "explanation": "Metaphor for defeated",
-          "cultural_note": "From nautical terminology"
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing explanation",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma:** ,",
-          "explanation": "Punctuation marking a pause",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"Corruption flagrante\": un sénateur américain veut empêcher Donald Trump de tirer profit des cryptos",
-      "original_article_link": "https://www.bfmtv.com/crypto/bitcoin/corruption-flagrante-un-senateur-americain-veut-empecher-donald-trump-de-tirer-profit-des-cryptos_AN-202506240326.html",
-      "original_article_published_date": "2025-06-24T09:37:27",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un sénateur contre Trump et les cryptos",
-      "simplified_english_title": "Senator opposes Trump's crypto profits",
-      "french_summary": "Un sénateur américain accuse Trump de corruption et veut l'empêcher de gagner de l'argent avec les cryptomonnaies.",
-      "english_summary": "An American senator accuses Trump of corruption and wants to prevent him from making money with cryptocurrencies.",
-      "contextual_title_explanations": {
-        "empêcher": {
-          "display_format": "**Prevent:** empêcher",
-          "explanation": "to stop something from happening",
-          "cultural_note": ""
-        },
-        "sénateur": {
-          "display_format": "**Senator:** sénateur",
-          "explanation": "member of the legislative body",
-          "cultural_note": "Part of the U.S. Congress"
-        },
-        "tirer": {
-          "display_format": "**Draw:** tirer",
-          "explanation": "to gain or obtain something",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "plural indefinite article",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**A:** un",
-          "explanation": "masculine singular indefinite article",
-          "cultural_note": ""
-        },
-        "veut": {
-          "display_format": "**Wants:** veut",
-          "explanation": "to have a desire to do something",
-          "cultural_note": ""
-        },
-        "flagrante": {
-          "display_format": "**Flagrant:** flagrante",
-          "explanation": "obvious or blatant",
-          "cultural_note": ""
-        },
-        "américain": {
-          "display_format": "**American:** américain",
-          "explanation": "relating to the United States",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "preposition indicating origin or possession",
-          "cultural_note": ""
-        },
-        "\"": {
-          "display_format": "**Quotation mark:** \"",
-          "explanation": "used to indicate direct speech or a quotation",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "punctuation mark introducing a list or explanation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Niche fiscale « Airbnb » : Bercy visé par une plainte pénale",
-      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/24/niche-fiscale-airbnb-bercy-vise-par-une-plainte-penale_6615610_3234.html",
-      "original_article_published_date": "2025-06-24T09:30:16",
-      "source_name": "Le Monde Economie",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Plainte contre Bercy pour niche fiscale Airbnb",
-      "simplified_english_title": "Complaint against Bercy for Airbnb tax loophole",
-      "french_summary": "Une plainte pénale vise Bercy à cause d'une niche fiscale avantageant Airbnb, selon des informations récentes.",
-      "english_summary": "A criminal complaint targets Bercy due to a tax loophole benefiting Airbnb, according to recent reports.",
-      "contextual_title_explanations": {
-        "fiscale": {
-          "display_format": "**Tax:** fiscale",
-          "explanation": "Relating to taxation or public finance",
-          "cultural_note": ""
-        },
-        "visé": {
-          "display_format": "**Targeted:** visé",
-          "explanation": "Being aimed at or targeted",
-          "cultural_note": ""
-        },
-        "par": {
-          "display_format": "**By:** par",
-          "explanation": "Indicates the agent of an action",
-          "cultural_note": ""
-        },
-        "plainte": {
-          "display_format": "**Complaint:** plainte",
-          "explanation": "Formal complaint or legal action",
-          "cultural_note": ""
-        },
-        "pénale": {
-          "display_format": "**Criminal:** pénale",
-          "explanation": "Relating to criminal law",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Égypte, les petites mains du secteur agricole",
-      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/focus/20250624-%C3%A9gypte-les-petites-mains-du-secteur-agricole",
-      "original_article_published_date": "2025-06-24T09:27:37",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les travailleurs agricoles en Égypte",
-      "simplified_english_title": "Agricultural workers in Egypt",
-      "french_summary": "En Égypte, les travailleurs agricoles, souvent des enfants, travaillent dans des conditions difficiles pour des salaires très bas.",
-      "english_summary": "In Egypt, agricultural workers, often children, work in harsh conditions for very low wages.",
-      "contextual_title_explanations": {
-        "Égypte": {
-          "display_format": "**Egypt:** Égypte",
-          "explanation": "Country in North Africa",
-          "cultural_note": "Known for its ancient civilization and the Nile River"
-        },
-        "secteur": {
-          "display_format": "**Sector:** secteur",
-          "explanation": "Specific area of the economy",
-          "cultural_note": ""
-        },
-        "petites": {
-          "display_format": "**Small:** petites",
-          "explanation": "Feminine plural form of 'small'",
-          "cultural_note": ""
-        },
-        "mains": {
-          "display_format": "**Hands:** mains",
-          "explanation": "Plural form of 'hand'",
-          "cultural_note": "Often refers to workers or laborers"
-        },
-        "agricole": {
-          "display_format": "**Agricultural:** agricole",
-          "explanation": "Relating to farming",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Trois syndicats de Société Générale appellent à faire grève ce vendredi pour obtenir le maintien du télétravail",
       "original_article_link": "https://www.lefigaro.fr/societes/trois-syndicats-de-societe-generale-appellent-a-faire-greve-ce-vendredi-pour-obtenir-le-maintien-du-teletravail-20250624",
       "original_article_published_date": "2025-06-24T09:17:57",
@@ -713,194 +444,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Guerre Israël-Iran : les cours du pétrole plongent de plus de 5% après l’acceptation d’un cessez-le-feu",
-      "original_article_link": "https://www.lefigaro.fr/conjoncture/guerre-israel-iran-les-cours-du-petrole-plongent-de-plus-de-5-apres-l-annonce-d-un-cessez-le-feu-20250624",
-      "original_article_published_date": "2025-06-24T08:56:35",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Le pétrole baisse après un cessez-le-feu",
-      "simplified_english_title": "Oil prices drop after ceasefire",
-      "french_summary": "Les prix du pétrole ont chuté de plus de 5% après l'annonce d'un cessez-le-feu entre Israël et l'Iran.",
-      "english_summary": "Oil prices dropped over 5% after Israel and Iran accepted a ceasefire.",
-      "contextual_title_explanations": {
-        "Guerre": {
-          "display_format": "**War:** Guerre",
-          "explanation": "Armed conflict between nations",
-          "cultural_note": "Often used in headlines for major conflicts"
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news due to regional conflicts"
-        },
-        "cours du pétrole": {
-          "display_format": "**Oil prices:** cours du pétrole",
-          "explanation": "Price levels of crude oil",
-          "cultural_note": "Critical for global economy"
-        },
-        "plongent": {
-          "display_format": "**Plummet:** plongent",
-          "explanation": "Drop sharply",
-          "cultural_note": "Used for sudden economic changes"
-        },
-        "acceptation": {
-          "display_format": "**Acceptance:** acceptation",
-          "explanation": "Agreement to terms",
-          "cultural_note": "Key in conflict resolution"
-        },
-        "cessez-le-feu": {
-          "display_format": "**Ceasefire:** cessez-le-feu",
-          "explanation": "Temporary stop to fighting",
-          "cultural_note": "Common term in conflict news"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Les prix du pétrole décrochent après l'annonce d'un cessez-le-feu entre l'Iran et Israël",
-      "original_article_link": "https://www.bfmtv.com/economie/video-les-prix-du-petrole-decrochent-apres-l-annonce-d-un-cessez-le-feu-entre-l-iran-et-israel_VN-202506240294.html",
-      "original_article_published_date": "2025-06-24T08:55:29",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les prix du pétrole baissent après un accord Iran-Israël",
-      "simplified_english_title": "Oil prices drop after Iran-Israel truce",
-      "french_summary": "Les prix du pétrole ont chuté suite à l'annonce d'un cessez-le-feu entre l'Iran et Israël, apaisant les tensions.",
-      "english_summary": "Oil prices fell after the announcement of a ceasefire between Iran and Israel, easing tensions.",
-      "contextual_title_explanations": {
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Often in news for regional conflicts"
-        },
-        "l&#39;Iran": {
-          "display_format": "**Iran:** l&#39;Iran",
-          "explanation": "Middle Eastern country",
-          "cultural_note": "Major oil producer"
-        },
-        "pétrole": {
-          "display_format": "**Oil:** pétrole",
-          "explanation": "Natural resource used for fuel",
-          "cultural_note": "Key export for many Middle Eastern countries"
-        },
-        "prix": {
-          "display_format": "**Price:** prix",
-          "explanation": "Cost of something",
-          "cultural_note": ""
-        },
-        "décrochent": {
-          "display_format": "**Drop:** décrochent",
-          "explanation": "Decrease sharply",
-          "cultural_note": "Commonly used in financial contexts"
-        },
-        "cessez-le-feu": {
-          "display_format": "**Ceasefire:** cessez-le-feu",
-          "explanation": "Agreement to stop fighting",
-          "cultural_note": "Critical in conflict resolution"
-        },
-        "l&#39;annonce": {
-          "display_format": "**Announcement:** l&#39;annonce",
-          "explanation": "Public statement",
-          "cultural_note": "Often used in news headlines"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conflit Israël-Iran : en Jordanie, affluence israélienne au poste-frontière Sheikh Hussein",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/24/conflit-israel-iran-en-jordanie-affluence-israelienne-au-poste-frontiere-sheikh-hussein_6615595_3210.html",
-      "original_article_published_date": "2025-06-24T08:51:20",
-      "source_name": "Le Monde International",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Beaucoup d'Israéliens en Jordanie à cause du conflit",
-      "simplified_english_title": "Many Israelis in Jordan due to conflict",
-      "french_summary": "À cause du conflit entre Israël et l'Iran, beaucoup d'Israéliens traversent la frontière en Jordanie.",
-      "english_summary": "Due to the conflict between Israel and Iran, many Israelis are crossing the border into Jordan.",
-      "contextual_title_explanations": {
-        "Conflit": {
-          "display_format": "**Conflict:** Conflit",
-          "explanation": "Serious disagreement or argument",
-          "cultural_note": "Often used in political contexts"
-        },
-        "poste": {
-          "display_format": "**Post:** poste",
-          "explanation": "A place or station",
-          "cultural_note": ""
-        },
-        "israélienne": {
-          "display_format": "**Israeli:** israélienne",
-          "explanation": "Relating to Israel",
-          "cultural_note": ""
-        },
-        "frontière": {
-          "display_format": "**Border:** frontière",
-          "explanation": "A line separating two countries",
-          "cultural_note": ""
-        },
-        "Israël": {
-          "display_format": "**Israel:** Israël",
-          "explanation": "Middle Eastern country",
-          "cultural_note": ""
-        },
-        "Jordanie": {
-          "display_format": "**Jordan:** Jordanie",
-          "explanation": "Middle Eastern country",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "En Iran, la fragile perspective d’un retour au calme après vingt-quatre heures sous le feu",
       "original_article_link": "https://www.lemonde.fr/international/article/2025/06/24/en-iran-la-fragile-perspective-d-un-retour-au-calme-apres-vingt-quatre-heures-sous-le-feu_6615593_3210.html",
       "original_article_published_date": "2025-06-24T08:50:04",
@@ -1089,72 +632,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Électricité : les propositions chocs de l'ancien patron d'EDF",
-      "original_article_link": "https://www.bfmtv.com/economie/video-electricite-les-propositions-chocs-de-l-ancien-patron-d-edf_VN-202506240285.html",
-      "original_article_published_date": "2025-06-24T08:41:15",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des idées fortes pour l'électricité en France",
-      "simplified_english_title": "Strong ideas for electricity in France",
-      "french_summary": "L'ancien directeur d'EDF propose des changements importants pour le secteur de l'électricité en France.",
-      "english_summary": "The former head of EDF suggests major changes for the electricity sector in France.",
-      "contextual_title_explanations": {
-        "Électricité": {
-          "display_format": "**Electricity:** Électricité",
-          "explanation": "Form of energy used for power",
-          "cultural_note": "Major industry in France"
-        },
-        "propositions": {
-          "display_format": "**Proposals:** propositions",
-          "explanation": "Suggestions or plans put forward",
-          "cultural_note": ""
-        },
-        "chocs": {
-          "display_format": "**Shocking:** chocs",
-          "explanation": "Surprising or impactful",
-          "cultural_note": "Often used in news headlines"
-        },
-        "l&#39;ancien": {
-          "display_format": "**Former:** l'ancien",
-          "explanation": "Previous or ex-",
-          "cultural_note": ""
-        },
-        "patron": {
-          "display_format": "**Boss:** patron",
-          "explanation": "Head or leader of an organization",
-          "cultural_note": "Common term for business leaders"
-        },
-        "d&#39;EDF": {
-          "display_format": "**Of EDF:** d'EDF",
-          "explanation": "Électricité de France, major utility company",
-          "cultural_note": "State-owned energy provider"
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Introduces a list or explanation",
-          "cultural_note": "Common punctuation in headlines"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Une nouvelle frappe israélienne a fait trois morts au Liban",
       "original_article_link": "https://www.20min.ch/fr/story/proche-orient-une-nouvelle-frappe-israelienne-a-fait-trois-morts-au-liban-103369434",
       "original_article_published_date": "2025-06-24T08:20:07",
@@ -1228,92 +705,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T08:27:46",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Dominique de Villepin propose d’abroger la retraite à 64 ans «dans la perspective de 2027»",
-      "original_article_link": "https://www.lefigaro.fr/politique/dominique-de-villepin-propose-d-abroger-la-retraite-a-64-ans-dans-la-perspective-de-2027-20250624",
-      "original_article_published_date": "2025-06-24T08:18:46",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Villepin veut supprimer la retraite à 64 ans",
-      "simplified_english_title": "Villepin wants to scrap retirement at 64",
-      "french_summary": "Dominique de Villepin suggère d'annuler la réforme des retraites à 64 ans pour 2027, proposant une alternative.",
-      "english_summary": "Dominique de Villepin suggests canceling the retirement reform at 64 for 2027, proposing an alternative.",
-      "contextual_title_explanations": {
-        "propose": {
-          "display_format": "**Proposes:** propose",
-          "explanation": "Suggests or puts forward",
-          "cultural_note": ""
-        },
-        "abroger": {
-          "display_format": "**Abolish:** abroger",
-          "explanation": "To formally end a law",
-          "cultural_note": ""
-        },
-        "retraite": {
-          "display_format": "**Retirement:** retraite",
-          "explanation": "Period after stopping work",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In:** dans",
-          "explanation": "Inside or within",
-          "cultural_note": ""
-        },
-        "ans": {
-          "display_format": "**Years:** ans",
-          "explanation": "Plural of 'year'",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**Quotation mark:** «",
-          "explanation": "French opening quotation mark",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**Quotation mark:** »",
-          "explanation": "French closing quotation mark",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**At:** à",
-          "explanation": "Indicates age",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** de",
-          "explanation": "Indicates possession or association",
-          "cultural_note": ""
-        },
-        "d": {
-          "display_format": "**Of the:** d",
-          "explanation": "Contraction of 'de' and 'la'",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -1842,52 +1233,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T08:27:46",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Alain Di Crescenzo (CCI France), Max Aniort (Collectionist) et Laura Toledano (Zalando) : Comment se portent les PME/ETI ? - 24/06",
-      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-alain-di-crescenzo-cci-france-max-aniort-collectionist-et-laura-toledano-zalando-comment-se-portent-les-pme-eti-24-06_VN-202506240226.html",
-      "original_article_published_date": "2025-06-24T07:09:24",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Comment vont les PME/ETI en France ?",
-      "simplified_english_title": "How are SMEs doing in France?",
-      "french_summary": "Alain Di Crescenzo, Max Aniort et Laura Toledano discutent de la situation des petites et moyennes entreprises en France.",
-      "english_summary": "Alain Di Crescenzo, Max Aniort, and Laura Toledano discuss the state of small and medium-sized businesses in France.",
-      "contextual_title_explanations": {
-        "portent": {
-          "display_format": "**Are doing:** se portent",
-          "explanation": "Reflexive verb meaning 'how something is doing'",
-          "cultural_note": "Commonly used in business contexts"
-        },
-        "ETI": {
-          "display_format": "**Mid-sized companies:** ETI",
-          "explanation": "Entreprises de Taille Intermédiaire",
-          "cultural_note": "French classification for medium-sized businesses"
-        },
-        "PME": {
-          "display_format": "**SMEs:** PME",
-          "explanation": "Petites et Moyennes Entreprises",
-          "cultural_note": "Small and medium-sized enterprises"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T10:21:31",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -7005,6 +6350,711 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-23T23:15:35",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Strasbourg vote en faveur d’un jumelage avec le camp palestinien d’Aïda, malgré les critiques",
+      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/23/strasbourg-vote-en-faveur-d-un-jumelage-avec-le-camp-palestinien-d-aida-malgre-les-critiques_6615462_823449.html",
+      "original_article_published_date": "2025-06-23T18:28:41",
+      "source_name": "Le Monde Politique",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Strasbourg se lie avec un camp palestinien",
+      "simplified_english_title": "Strasbourg partners with Palestinian camp",
+      "french_summary": "Strasbourg a décidé de créer un jumelage avec le camp d'Aïda malgré les critiques reçues.",
+      "english_summary": "Strasbourg decided to twin with Aïda camp despite the criticisms received.",
+      "contextual_title_explanations": {
+        "vote": {
+          "display_format": "**Votes:** vote",
+          "explanation": "Decision-making process",
+          "cultural_note": "Common in French political news"
+        },
+        "en faveur": {
+          "display_format": "**In favor:** en faveur",
+          "explanation": "In support of",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**Of a:** d’un",
+          "explanation": "Contraction of 'de un'",
+          "cultural_note": "Common in French grammar"
+        },
+        "jumelage": {
+          "display_format": "**Twinning:** jumelage",
+          "explanation": "Partnership between towns",
+          "cultural_note": "Common in French local politics"
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Together or in company of",
+          "cultural_note": ""
+        },
+        "camp palestinien": {
+          "display_format": "**Palestinian camp:** camp palestinien",
+          "explanation": "Refugee camp for Palestinians",
+          "cultural_note": "Often referenced in Middle East politics"
+        },
+        "Aïda": {
+          "display_format": "**Aida:** Aïda",
+          "explanation": "Palestinian refugee camp",
+          "cultural_note": "Located near Bethlehem"
+        },
+        "malgré": {
+          "display_format": "**Despite:** malgré",
+          "explanation": "In spite of",
+          "cultural_note": ""
+        },
+        "les critiques": {
+          "display_format": "**Criticisms:** les critiques",
+          "explanation": "Negative feedback",
+          "cultural_note": "Common in political debates"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran-Israël : «Difficiles clarifications françaises»",
+      "original_article_link": "https://www.lefigaro.fr/international/guerre-iran-israel-difficiles-clarifications-francaises-20250623",
+      "original_article_published_date": "2025-06-23T18:22:23",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions Iran-Israël : la France explique",
+      "simplified_english_title": "Iran-Israel tensions: France explains",
+      "french_summary": "La France essaie de clarifier sa position sur les tensions entre l'Iran et Israël, ce qui est difficile.",
+      "english_summary": "France tries to clarify its position on tensions between Iran and Israel, which is difficult.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between states",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for geopolitical tensions"
+        },
+        "françaises": {
+          "display_format": "**French:** françaises",
+          "explanation": "Relating to France",
+          "cultural_note": ""
+        },
+        "Difficiles": {
+          "display_format": "**Difficult:** Difficiles",
+          "explanation": "Hard to do or understand",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Starts a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Ends a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a quote or list",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T23:15:35",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les experts du soir - Lundi 23 juin",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/les-experts-du-soir/video-les-experts-du-soir-lundi-23-juin_VN-202506230739.html",
+      "original_article_published_date": "2025-06-23T18:19:21",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Experts parlent le lundi soir",
+      "simplified_english_title": "Experts speak on Monday evening",
+      "french_summary": "Des experts discutent de sujets importants chaque lundi soir dans cette émission.",
+      "english_summary": "Experts discuss important topics every Monday evening in this show.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** Les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "juin": {
+          "display_format": "**June:** juin",
+          "explanation": "Sixth month of the year",
+          "cultural_note": ""
+        },
+        "soir": {
+          "display_format": "**Evening:** soir",
+          "explanation": "Time after sunset",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de le'",
+          "cultural_note": ""
+        },
+        "Lundi": {
+          "display_format": "**Monday:** Lundi",
+          "explanation": "First day of the week",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T03:18:26",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : les cours du pétrole dégringolent après l’attaque iranienne visant une base américaine",
+      "original_article_link": "https://www.lefigaro.fr/conjoncture/israel-iran-les-cours-du-petrole-degringolent-apres-l-attaque-iranienne-visant-une-base-americaine-20250623",
+      "original_article_published_date": "2025-06-23T18:17:16",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les prix du pétrole baissent après une attaque",
+      "simplified_english_title": "Oil prices drop after an attack",
+      "french_summary": "Les prix du pétrole ont chuté après une attaque iranienne sur une base américaine. Le marché réagit fortement.",
+      "english_summary": "Oil prices fell after an Iranian attack on an American base. The market reacted strongly.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news due to regional conflicts"
+        },
+        "pétrole": {
+          "display_format": "**Oil:** pétrole",
+          "explanation": "Natural resource used for fuel",
+          "cultural_note": "Key export for many Middle Eastern countries"
+        },
+        "cours": {
+          "display_format": "**Price:** cours",
+          "explanation": "Value of a commodity",
+          "cultural_note": "Commonly used in financial contexts"
+        },
+        "dégringolent": {
+          "display_format": "**Plummet:** dégringolent",
+          "explanation": "Fall rapidly",
+          "cultural_note": "Used for dramatic drops in value"
+        },
+        "attaque": {
+          "display_format": "**Attack:** attaque",
+          "explanation": "Act of violence",
+          "cultural_note": "Often used in military contexts"
+        },
+        "iranienne": {
+          "display_format": "**Iranian:** iranienne",
+          "explanation": "Relating to Iran",
+          "cultural_note": ""
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the USA",
+          "cultural_note": ""
+        },
+        "visant": {
+          "display_format": "**Targeting:** visant",
+          "explanation": "Aiming at",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T18:27:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Kirsty Coventry première femme à la tête du CIO : “C’est un très beau symbole” salue Amélie Oudéa-Castéra.",
+      "original_article_link": "https://www.franceinfo.fr/replay-jt/franceinfo/le-18h-20h/kirsty-coventry-premiere-femme-a-la-tete-du-cio-c-est-un-tres-beau-symbole-salue-amelie-oudea-castera_7332960.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T18:16:47",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une femme dirige le CIO pour la première fois",
+      "simplified_english_title": "Woman leads IOC for the first time",
+      "french_summary": "Kirsty Coventry devient la première femme présidente du Comité International Olympique, un symbole important selon Amélie Oudéa-Castéra.",
+      "english_summary": "Kirsty Coventry becomes the first female president of the International Olympic Committee, a significant symbol according to Amélie Oudéa-Castéra.",
+      "contextual_title_explanations": {
+        "salue": {
+          "display_format": "**Hails:** salue",
+          "explanation": "Verb meaning to welcome or greet positively",
+          "cultural_note": ""
+        },
+        "femme": {
+          "display_format": "**Woman:** femme",
+          "explanation": "Adult human female",
+          "cultural_note": ""
+        },
+        "CIO": {
+          "display_format": "**IOC:** CIO",
+          "explanation": "International Olympic Committee",
+          "cultural_note": "Headquarters in Lausanne, Switzerland"
+        },
+        "tête": {
+          "display_format": "**Head:** tête",
+          "explanation": "Leader or top position",
+          "cultural_note": "Common in French idiomatic expressions"
+        },
+        "très": {
+          "display_format": "**Very:** très",
+          "explanation": "Adverb meaning to a high degree",
+          "cultural_note": ""
+        },
+        "symbole": {
+          "display_format": "**Symbol:** symbole",
+          "explanation": "Representation of an idea or concept",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T01:38:06",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Moyen-Orient : «pas de légalité» aux frappes américaines, mais Paris «partage l'objectif» d'un Iran sans arme nucléaire",
+      "original_article_link": "https://www.europe1.fr/international/moyen-orient-pas-de-legalite-aux-frappes-americaines-mais-paris-partage-lobjectif-dun-iran-sans-arme-nucleaire-760725",
+      "original_article_published_date": "2025-06-23T18:11:27",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris critique les frappes américaines en Iran",
+      "simplified_english_title": "Paris criticizes US strikes in Iran",
+      "french_summary": "La France dit que les frappes américaines en Iran ne sont pas légales, mais soutient l'objectif d'empêcher l'Iran d'avoir des armes nucléaires.",
+      "english_summary": "France says US strikes in Iran are not legal, but supports the goal of preventing Iran from having nuclear weapons.",
+      "contextual_title_explanations": {
+        "Moyen": {
+          "display_format": "**Middle:** Moyen",
+          "explanation": "Part of a geographical term",
+          "cultural_note": ""
+        },
+        "Orient": {
+          "display_format": "**East:** Orient",
+          "explanation": "Refers to the eastern part of the world",
+          "cultural_note": "Commonly used in geographical and cultural contexts"
+        },
+        "frappes": {
+          "display_format": "**Strikes:** frappes",
+          "explanation": "Military attacks or hits",
+          "cultural_note": "Often used in the context of military actions"
+        },
+        "légalité": {
+          "display_format": "**Legality:** légalité",
+          "explanation": "The quality of being legal",
+          "cultural_note": ""
+        },
+        "partage": {
+          "display_format": "**Shares:** partage",
+          "explanation": "To share or have in common",
+          "cultural_note": ""
+        },
+        "l&#39;objectif": {
+          "display_format": "**Objective:** l'objectif",
+          "explanation": "A goal or aim",
+          "cultural_note": ""
+        },
+        "arme": {
+          "display_format": "**Weapon:** arme",
+          "explanation": "An instrument used in combat",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**Nuclear:** nucléaire",
+          "explanation": "Relating to atomic energy",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the United States",
+          "cultural_note": ""
+        },
+        "d&#39;un": {
+          "display_format": "**Of a:** d'un",
+          "explanation": "Contraction of 'de' and 'un'",
+          "cultural_note": ""
+        },
+        "sans": {
+          "display_format": "**Without:** sans",
+          "explanation": "Not having or including",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Used to negate a statement",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Used to indicate possession or origin",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**But:** mais",
+          "explanation": "Used to introduce a contrast",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T18:27:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’Iran riposte aux attaques américaines en visant une base au Qatar",
+      "original_article_link": "https://www.lexpress.fr/monde/proche-moyen-orient/liran-riposte-aux-attaques-americaines-en-visant-une-base-au-qatar-WN4YEKVPRZAZJKHUHFDMFAEXJU/",
+      "original_article_published_date": "2025-06-23T18:07:28",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran attaque une base américaine au Qatar",
+      "simplified_english_title": "Iran attacks a US base in Qatar",
+      "french_summary": "L'Iran a riposté aux attaques américaines en ciblant une base militaire au Qatar, selon des sources officielles.",
+      "english_summary": "Iran retaliated against American attacks by targeting a military base in Qatar, according to official sources.",
+      "contextual_title_explanations": {
+        "L": {
+          "display_format": "**The:** L",
+          "explanation": "Definite article",
+          "cultural_note": "Used before vowels"
+        },
+        "riposte": {
+          "display_format": "**Retaliates:** riposte",
+          "explanation": "Fights back in response",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the USA",
+          "cultural_note": "Feminine plural form"
+        },
+        "attaques": {
+          "display_format": "**Attacks:** attaques",
+          "explanation": "Military strikes",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**By:** en",
+          "explanation": "Method or manner",
+          "cultural_note": "Common preposition"
+        },
+        "visant": {
+          "display_format": "**Targeting:** visant",
+          "explanation": "Aiming at",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A:** une",
+          "explanation": "Indefinite article",
+          "cultural_note": "Feminine singular"
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Combined preposition",
+          "cultural_note": "'à' + 'le'"
+        },
+        "aux": {
+          "display_format": "**To the:** aux",
+          "explanation": "Combined preposition",
+          "cultural_note": "'à' + 'les'"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T22:19:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Une gauche pro-européenne et viscéralement démocrate»: Raphaël Glucksmann place l’écologie et le travail au cœur de sa «vision pour la France»",
+      "original_article_link": "https://www.lefigaro.fr/politique/une-gauche-pro-europeenne-et-visceralement-democrate-raphael-glucksmann-place-l-ecologie-et-le-travail-au-coeur-de-sa-vision-pour-la-france-20250623",
+      "original_article_published_date": "2025-06-23T18:06:44",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Glucksmann veut une gauche écologiste et démocrate",
+      "simplified_english_title": "Glucksmann pushes for ecological, democratic left",
+      "french_summary": "Raphaël Glucksmann propose une vision pour la France centrée sur l'écologie et le travail, avec une gauche pro-européenne et démocrate.",
+      "english_summary": "Raphaël Glucksmann presents a vision for France focused on ecology and work, with a pro-European and democratic left.",
+      "contextual_title_explanations": {
+        "gauche": {
+          "display_format": "**Left:** gauche",
+          "explanation": "Political spectrum's progressive side",
+          "cultural_note": "Often associated with social justice in France"
+        },
+        "pro-européenne": {
+          "display_format": "**Pro-European:** pro-européenne",
+          "explanation": "Supporting European integration",
+          "cultural_note": "Important stance in French politics"
+        },
+        "viscéralement": {
+          "display_format": "**Viscerally:** viscéralement",
+          "explanation": "Deeply felt or instinctive",
+          "cultural_note": ""
+        },
+        "démocrate": {
+          "display_format": "**Democratic:** démocrate",
+          "explanation": "Supporting democratic principles",
+          "cultural_note": "Key value in French political discourse"
+        },
+        "écologie": {
+          "display_format": "**Ecology:** écologie",
+          "explanation": "Environmental science and protection",
+          "cultural_note": "Major topic in French political debates"
+        },
+        "travail": {
+          "display_format": "**Work:** travail",
+          "explanation": "Employment or labor",
+          "cultural_note": "Central issue in French social policies"
+        },
+        "vision pour la France": {
+          "display_format": "**Vision for France:** vision pour la France",
+          "explanation": "Political plan or outlook for the country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T23:15:35",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran/Israël: le Bahreïn suspend temporairement son trafic aérien",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-iran-israel-le-bahrein-suspend-temporairement-son-trafic-aerien_VN-202506230731.html",
+      "original_article_published_date": "2025-06-23T18:05:34",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Bahreïn arrête ses vols à cause de la guerre",
+      "simplified_english_title": "Bahrain halts flights due to Iran-Israel war",
+      "french_summary": "Bahreïn a temporairement suspendu son trafic aérien en raison des tensions entre l'Iran et Israël.",
+      "english_summary": "Bahrain temporarily suspended its air traffic due to tensions between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between countries",
+          "cultural_note": "Often used in headlines for major conflicts"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often involved in regional conflicts"
+        },
+        "Bahreïn": {
+          "display_format": "**Bahrain:** Bahreïn",
+          "explanation": "Island country in the Persian Gulf",
+          "cultural_note": "Known for its financial and tourist industries"
+        },
+        "trafic": {
+          "display_format": "**Traffic:** trafic",
+          "explanation": "Movement of aircraft, vehicles, or ships",
+          "cultural_note": ""
+        },
+        "aérien": {
+          "display_format": "**Air:** aérien",
+          "explanation": "Relating to aircraft or air travel",
+          "cultural_note": ""
+        },
+        "temporairement": {
+          "display_format": "**Temporarily:** temporairement",
+          "explanation": "For a limited time",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Its:** son",
+          "explanation": "Possessive adjective",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T18:27:55",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : la prison d’Evin, cœur de la répression du régime des mollahs",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/guerre-israel-iran-la-prison-devin-cur-de-la-repression-du-regime-des-mollahs-05ddbbea-5057-11f0-8c5f-0f80ab190e33?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-23T18:03:31",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La prison d'Evin en Iran et le conflit Israël-Iran",
+      "simplified_english_title": "Evin Prison in Iran and Israel-Iran Conflict",
+      "french_summary": "La prison d'Evin est au centre de la répression en Iran, dans le contexte du conflit avec Israël.",
+      "english_summary": "Evin Prison is central to repression in Iran, amid the conflict with Israel.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Armed conflict between states",
+          "cultural_note": "Often used in political headlines"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for regional conflicts"
+        },
+        "cœur": {
+          "display_format": "**Heart:** cœur",
+          "explanation": "Central or most important part",
+          "cultural_note": "Often used metaphorically"
+        },
+        "répression": {
+          "display_format": "**Repression:** répression",
+          "explanation": "Action to subdue someone by force",
+          "cultural_note": "Common in political contexts"
+        },
+        "régime": {
+          "display_format": "**Regime:** régime",
+          "explanation": "Form of government",
+          "cultural_note": "Often refers to authoritarian governments"
+        },
+        "mollahs": {
+          "display_format": "**Mullahs:** mollahs",
+          "explanation": "Religious leaders in Islam",
+          "cultural_note": "Influential in Iranian politics"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-23T22:19:00",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
