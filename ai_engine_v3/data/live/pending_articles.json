@@ -69901,87 +69901,6 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "En Californie, la mobilisation contre les raids visant les ouvriers agricoles sans papiers",
-      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/24/en-californie-la-mobilisation-contre-les-raids-visant-les-ouvriers-agricoles-sans-papiers_6615561_3210.html",
-      "original_article_published_date": "2025-06-24T04:00:20",
-      "source_name": "Le Monde International",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Protestations pour les travailleurs sans papiers",
-      "simplified_english_title": "Protests for undocumented workers",
-      "french_summary": "En Californie, des gens manifestent contre les arrestations des travailleurs agricoles sans papiers.",
-      "english_summary": "In California, people protest against the arrests of undocumented agricultural workers.",
-      "contextual_title_explanations": {
-        "En": {
-          "display_format": "**In:** En",
-          "explanation": "Preposition indicating location",
-          "cultural_note": null
-        },
-        "Californie": {
-          "display_format": "**California:** Californie",
-          "explanation": "State on the west coast of the United States",
-          "cultural_note": "Known for its diverse culture and large economy"
-        },
-        "mobilisation": {
-          "display_format": "**Mobilization:** mobilisation",
-          "explanation": "Organized effort to achieve a goal",
-          "cultural_note": "Often used in context of social or political movements"
-        },
-        "contre": {
-          "display_format": "**Against:** contre",
-          "explanation": "Preposition indicating opposition",
-          "cultural_note": null
-        },
-        "les": {
-          "display_format": "**The:** les",
-          "explanation": "Definite article, plural",
-          "cultural_note": null
-        },
-        "visant": {
-          "display_format": "**Targeting:** visant",
-          "explanation": "Present participle of 'viser'",
-          "cultural_note": null
-        },
-        "ouvriers": {
-          "display_format": "**Workers:** ouvriers",
-          "explanation": "People who work, especially in manual labor",
-          "cultural_note": null
-        },
-        "agricoles": {
-          "display_format": "**Agricultural:** agricoles",
-          "explanation": "Relating to farming or agriculture",
-          "cultural_note": null
-        },
-        "sans": {
-          "display_format": "**Without:** sans",
-          "explanation": "Preposition indicating absence",
-          "cultural_note": null
-        },
-        "papiers": {
-          "display_format": "**Papers:** papiers",
-          "explanation": "Documents, often referring to identification",
-          "cultural_note": "Commonly used in context of immigration and legal status"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T04:28:48",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
       "original_article_title": "Pétrole: les prix chutent après l'annonce d'un cessez-le-feu entre l'Iran et Israël",
       "original_article_link": "https://www.bfmtv.com/economie/international/petrole-les-prix-chutent-apres-l-annonce-d-un-cessez-le-feu-entre-l-iran-et-israel_AD-202506240056.html",
       "original_article_published_date": "2025-06-24T04:26:47",
@@ -70217,6 +70136,741 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T04:28:48",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pourquoi l’Assemblée pourrait-elle rejeter le texte sur la trajectoire énergétique de la France ?",
+      "original_article_link": "https://www.ouest-france.fr/economie/energie/energies-renouvelables/pourquoi-lassemblee-pourrait-elle-rejeter-le-texte-sur-la-trajectoire-energetique-de-la-france-e411ab5a-505d-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-24T05:01:06",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L’Assemblée pourrait rejeter le texte sur l’énergie",
+      "simplified_english_title": "Assembly may reject energy policy text",
+      "french_summary": "L’Assemblée nationale pourrait ne pas accepter le texte sur la politique énergétique à cause de désaccords politiques.",
+      "english_summary": "The National Assembly may not accept the energy policy text due to political disagreements.",
+      "contextual_title_explanations": {
+        "Pourquoi": {
+          "display_format": "**Why:** Pourquoi",
+          "explanation": "Interrogative word asking for a reason",
+          "cultural_note": ""
+        },
+        "Assemblée": {
+          "display_format": "**Assembly:** Assemblée",
+          "explanation": "French National Assembly, lower house of Parliament",
+          "cultural_note": "Key legislative body in France"
+        },
+        "pourrait": {
+          "display_format": "**Could:** pourrait",
+          "explanation": "Conditional form of 'pouvoir' (can)",
+          "cultural_note": ""
+        },
+        "elle": {
+          "display_format": "**She/it:** elle",
+          "explanation": "Third-person singular feminine pronoun",
+          "cultural_note": ""
+        },
+        "rejeter": {
+          "display_format": "**Reject:** rejeter",
+          "explanation": "To refuse or dismiss something",
+          "cultural_note": ""
+        },
+        "texte": {
+          "display_format": "**Text:** texte",
+          "explanation": "Written document or proposal",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating topic or subject",
+          "cultural_note": ""
+        },
+        "trajectoire": {
+          "display_format": "**Trajectory:** trajectoire",
+          "explanation": "Path or course of action",
+          "cultural_note": ""
+        },
+        "énergétique": {
+          "display_format": "**Energy:** énergétique",
+          "explanation": "Relating to energy",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/from:** de",
+          "explanation": "Preposition indicating origin or possession",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article for masculine nouns",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article for feminine nouns",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** l'",
+          "explanation": "Definite article before vowels",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**Question mark:** ?",
+          "explanation": "Punctuation indicating a question",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’écologie en 2025 : 43 reculades au compteur",
+      "original_article_link": "https://www.nouvelobs.com/ecologie/20250624.OBS105234/l-ecologie-en-2025-43-reculades-au-compteur.html",
+      "original_article_published_date": "2025-06-24T04:00:18",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'écologie en 2025 : 43 reculs",
+      "simplified_english_title": "Ecology in 2025: 43 steps back",
+      "french_summary": "En 2025, il y a eu 43 reculs dans les politiques écologiques, selon un rapport récent.",
+      "english_summary": "In 2025, there have been 43 setbacks in ecological policies, according to a recent report.",
+      "contextual_title_explanations": {
+        "L": {
+          "display_format": "**The:** L",
+          "explanation": "Definite article",
+          "cultural_note": null
+        },
+        "écologie": {
+          "display_format": "**Ecology:** écologie",
+          "explanation": "Study of environment and living organisms",
+          "cultural_note": "Important topic in French politics"
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating time",
+          "cultural_note": null
+        },
+        "reculades": {
+          "display_format": "**Backslides:** reculades",
+          "explanation": "Steps backward or regressions",
+          "cultural_note": "Often used in political contexts"
+        },
+        "compteur": {
+          "display_format": "**Counter:** compteur",
+          "explanation": "Device that counts or measures",
+          "cultural_note": "Commonly used in various contexts"
+        },
+        "au": {
+          "display_format": "**At the:** au",
+          "explanation": "Contraction of 'à le'",
+          "cultural_note": null
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing a list or explanation",
+          "cultural_note": null
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Arrêter les éoliennes et sortir du marché européen de l’électricité: les propositions chocs de l'ancien PDG d'EDF",
+      "original_article_link": "https://www.bfmtv.com/economie/arreter-les-eoliennes-et-sortir-du-marche-europeen-de-l-electricite-les-propositions-chocs-de-l-ancien-pdg-d-edf_AN-202506240066.html",
+      "original_article_published_date": "2025-06-24T04:33:49",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un ancien PDG d'EDF propose d'arrêter les éoliennes",
+      "simplified_english_title": "Former EDF CEO proposes stopping wind turbines",
+      "french_summary": "L'ancien PDG d'EDF suggère d'arrêter les éoliennes et de quitter le marché européen de l'électricité.",
+      "english_summary": "The former EDF CEO suggests stopping wind turbines and leaving the European electricity market.",
+      "contextual_title_explanations": {
+        "Arrêter": {
+          "display_format": "**Stop:** Arrêter",
+          "explanation": "To halt or cease an activity",
+          "cultural_note": ""
+        },
+        "éoliennes": {
+          "display_format": "**Wind turbines:** éoliennes",
+          "explanation": "Devices that convert wind energy into electricity",
+          "cultural_note": "France is a leader in renewable energy"
+        },
+        "sortir": {
+          "display_format": "**Exit:** sortir",
+          "explanation": "To leave or withdraw from",
+          "cultural_note": ""
+        },
+        "marché": {
+          "display_format": "**Market:** marché",
+          "explanation": "A system where goods or services are exchanged",
+          "cultural_note": ""
+        },
+        "électricité": {
+          "display_format": "**Electricity:** électricité",
+          "explanation": "A form of energy resulting from charged particles",
+          "cultural_note": ""
+        },
+        "européen": {
+          "display_format": "**European:** européen",
+          "explanation": "Relating to Europe",
+          "cultural_note": ""
+        },
+        "propositions": {
+          "display_format": "**Proposals:** propositions",
+          "explanation": "Suggestions or plans put forward for consideration",
+          "cultural_note": ""
+        },
+        "chocs": {
+          "display_format": "**Shocking:** chocs",
+          "explanation": "Causing surprise or dismay",
+          "cultural_note": ""
+        },
+        "PDG": {
+          "display_format": "**CEO:** PDG",
+          "explanation": "Chief Executive Officer, head of a company",
+          "cultural_note": "French acronym for 'Président-Directeur Général'"
+        },
+        "l&#39;ancien": {
+          "display_format": "**Former:** l&#39;ancien",
+          "explanation": "Previous or past",
+          "cultural_note": ""
+        },
+        "d&#39;EDF": {
+          "display_format": "**of EDF:** d&#39;EDF",
+          "explanation": "Relating to Électricité de France, a major utility company",
+          "cultural_note": "EDF is a key player in France's energy sector"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: les départements du Rhône et de l'Isère maintenus en vigilance orange mardi",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/canicule-les-departements-du-rhone-et-de-l-isere-maintenus-en-vigilance-orange-mardi_AN-202506240079.html",
+      "original_article_published_date": "2025-06-24T04:41:16",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Vigilance orange pour le Rhône et l'Isère",
+      "simplified_english_title": "Heatwave alert for Rhône and Isère",
+      "french_summary": "Les départements du Rhône et de l'Isère restent en alerte orange à cause de la canicule mardi.",
+      "english_summary": "The Rhône and Isère departments remain on orange alert due to the heatwave on Tuesday.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Heatwave:** Canicule",
+          "explanation": "Period of extremely hot weather",
+          "cultural_note": "Common in France during summer months"
+        },
+        "départements": {
+          "display_format": "**Departments:** départements",
+          "explanation": "Administrative divisions in France",
+          "cultural_note": "Similar to counties in other countries"
+        },
+        "maintenus": {
+          "display_format": "**Maintained:** maintenus",
+          "explanation": "Kept in a specific state",
+          "cultural_note": ""
+        },
+        "mardi": {
+          "display_format": "**Tuesday:** mardi",
+          "explanation": "Day of the week",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating origin or possession",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction used to connect words",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In/On:** en",
+          "explanation": "Preposition indicating location or state",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used before a list or explanation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Trump découvre que le pays ne se gouverne pas comme une entreprise »",
+      "original_article_link": "https://www.lemonde.fr/emploi/article/2025/06/24/trump-decouvre-que-le-pays-ne-se-gouverne-pas-comme-une-entreprise_6615570_1698637.html",
+      "original_article_published_date": "2025-06-24T04:30:03",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump apprend que gérer un pays n'est pas comme gérer une entreprise",
+      "simplified_english_title": "Trump learns governing a country isn't like running a business",
+      "french_summary": "Trump réalise que diriger un pays est différent de diriger une entreprise, avec des défis uniques.",
+      "english_summary": "Trump realizes that leading a country is different from leading a business, with unique challenges.",
+      "contextual_title_explanations": {
+        "découvre": {
+          "display_format": "**Discovers:** découvre",
+          "explanation": "Finds out or realizes something",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**That:** que",
+          "explanation": "Conjunction introducing a clause",
+          "cultural_note": ""
+        },
+        "le pays": {
+          "display_format": "**The country:** le pays",
+          "explanation": "Nation or state",
+          "cultural_note": "Refers to the United States in this context"
+        },
+        "ne se gouverne pas": {
+          "display_format": "**Is not governed:** ne se gouverne pas",
+          "explanation": "Negative form of 'to govern'",
+          "cultural_note": ""
+        },
+        "comme": {
+          "display_format": "**Like:** comme",
+          "explanation": "Similar to or in the manner of",
+          "cultural_note": ""
+        },
+        "une entreprise": {
+          "display_format": "**A business:** une entreprise",
+          "explanation": "Commercial organization",
+          "cultural_note": "Refers to Trump's business background"
+        },
+        "«": {
+          "display_format": "**Opening quotation mark:** «",
+          "explanation": "Indicates the beginning of a quote",
+          "cultural_note": "French punctuation"
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** »",
+          "explanation": "Indicates the end of a quote",
+          "cultural_note": "French punctuation"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Energie: l'Assemblée nationale devrait voter contre la loi Gremillet",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/energie/energie-l-assemblee-nationale-devrait-voter-contre-la-loi-gremillet_AD-202506240107.html",
+      "original_article_published_date": "2025-06-24T05:04:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Assemblée nationale contre la loi Gremillet",
+      "simplified_english_title": "National Assembly against Gremillet law",
+      "french_summary": "L'Assemblée nationale va probablement voter contre la loi Gremillet sur l'énergie lors de la prochaine séance parlementaire.",
+      "english_summary": "The National Assembly is likely to vote against the Gremillet energy law in the next parliamentary session.",
+      "contextual_title_explanations": {
+        "Energie": {
+          "display_format": "**Energy:** Energie",
+          "explanation": "Power or electricity sector",
+          "cultural_note": "Key topic in French environmental policy"
+        },
+        "l&#39;Assemblée": {
+          "display_format": "**Assembly:** l'Assemblée",
+          "explanation": "French parliament's lower house",
+          "cultural_note": "Similar to the UK House of Commons"
+        },
+        "nationale": {
+          "display_format": "**National:** nationale",
+          "explanation": "Relating to the whole nation",
+          "cultural_note": ""
+        },
+        "devrait": {
+          "display_format": "**Should:** devrait",
+          "explanation": "Conditional form of 'devoir'",
+          "cultural_note": "Indicates probability or expectation"
+        },
+        "voter": {
+          "display_format": "**Vote:** voter",
+          "explanation": "To cast a vote or decide",
+          "cultural_note": "Common in French political news"
+        },
+        "contre": {
+          "display_format": "**Against:** contre",
+          "explanation": "In opposition to something",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**Law:** loi",
+          "explanation": "Legal statute or bill",
+          "cultural_note": "Frequent topic in French legislative news"
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a list, quote, or explanation",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Pitch : Vipali, une application de prévention santé - 24/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/le-pitch/video-le-pitch-vipali-une-application-de-prevention-sante-24-06_VN-202506240064.html",
+      "original_article_published_date": "2025-06-24T04:30:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Vipali: une appli pour la santé",
+      "simplified_english_title": "Vipali: a health prevention app",
+      "french_summary": "Vipali est une nouvelle application qui aide à prévenir les problèmes de santé. Elle est présentée aujourd'hui.",
+      "english_summary": "Vipali is a new app that helps prevent health issues. It is being introduced today.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** Le",
+          "explanation": "Definite article for masculine nouns",
+          "cultural_note": "Used like English 'the'"
+        },
+        "Pitch": {
+          "display_format": "**Presentation:** Pitch",
+          "explanation": "Short presentation of a project or idea",
+          "cultural_note": "Commonly used in business contexts"
+        },
+        "prévention": {
+          "display_format": "**Prevention:** prévention",
+          "explanation": "Measures to avoid diseases or issues",
+          "cultural_note": "Important in French healthcare"
+        },
+        "santé": {
+          "display_format": "**Health:** santé",
+          "explanation": "State of physical and mental well-being",
+          "cultural_note": "Central to French social policies"
+        },
+        "24/06": {
+          "display_format": "**Date:** 24/06",
+          "explanation": "24th of June",
+          "cultural_note": "French date format: day/month"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "ENTRETIEN. « Emmanuel Macron doit prendre acte de son échec et démissionner », estime David Lisnard",
+      "original_article_link": "https://www.ouest-france.fr/politique/entretien-emmanuel-macron-doit-prendre-acte-de-son-echec-et-demissionner-estime-david-lisnard-282cbabc-5038-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-24T04:45:11",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "David Lisnard veut la démission de Macron",
+      "simplified_english_title": "David Lisnard wants Macron to resign",
+      "french_summary": "David Lisnard pense qu'Emmanuel Macron doit admettre son échec et quitter son poste de président.",
+      "english_summary": "David Lisnard believes Emmanuel Macron should admit his failure and resign from his position as president.",
+      "contextual_title_explanations": {
+        "ENTRETIEN": {
+          "display_format": "**Interview:** ENTRETIEN",
+          "explanation": "A conversation with a journalist",
+          "cultural_note": "Common in French media headlines"
+        },
+        "échec": {
+          "display_format": "**Failure:** échec",
+          "explanation": "Lack of success",
+          "cultural_note": ""
+        },
+        "démissionner": {
+          "display_format": "**Resign:** démissionner",
+          "explanation": "To leave a position voluntarily",
+          "cultural_note": "Often used in political contexts"
+        },
+        "estime": {
+          "display_format": "**Estimates:** estime",
+          "explanation": "Believes or considers",
+          "cultural_note": ""
+        },
+        "prendre acte": {
+          "display_format": "**Acknowledge:** prendre acte",
+          "explanation": "To formally recognize",
+          "cultural_note": "Common in formal or legal contexts"
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** »",
+          "explanation": "Ends a direct quote",
+          "cultural_note": "French typography uses « and »"
+        },
+        "«": {
+          "display_format": "**Opening quotation mark:** «",
+          "explanation": "Starts a direct quote",
+          "cultural_note": "French typography uses « and »"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bouches-du-Rhône : la plus puissante ferme éolienne flottante française mise en service au large de Port-de-Bouc",
+      "original_article_link": "https://www.lefigaro.fr/marseille/bouches-du-rhone-la-plus-puissante-ferme-eolienne-flottante-francaise-mise-en-service-au-large-de-port-de-bouc-20250624",
+      "original_article_published_date": "2025-06-24T05:03:00",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Grande ferme éolienne flottante en service",
+      "simplified_english_title": "Large floating wind farm operational",
+      "french_summary": "La plus grande ferme éolienne flottante de France est maintenant en service près de Port-de-Bouc dans les Bouches-du-Rhône.",
+      "english_summary": "The largest floating wind farm in France is now operational near Port-de-Bouc in the Bouches-du-Rhône region.",
+      "contextual_title_explanations": {
+        "éolienne": {
+          "display_format": "**Wind:** éolienne",
+          "explanation": "Relating to wind energy",
+          "cultural_note": "From 'Éole', the Greek god of wind"
+        },
+        "puissante": {
+          "display_format": "**Powerful:** puissante",
+          "explanation": "Strong or potent",
+          "cultural_note": ""
+        },
+        "ferme": {
+          "display_format": "**Farm:** ferme",
+          "explanation": "Place where energy is generated",
+          "cultural_note": "In this context, it refers to a wind farm"
+        },
+        "flottante": {
+          "display_format": "**Floating:** flottante",
+          "explanation": "Able to float on water",
+          "cultural_note": ""
+        },
+        "française": {
+          "display_format": "**French:** française",
+          "explanation": "Relating to France",
+          "cultural_note": ""
+        },
+        "mise en service": {
+          "display_format": "**Commissioned:** mise en service",
+          "explanation": "Put into operation",
+          "cultural_note": ""
+        },
+        "au large de": {
+          "display_format": "**Offshore:** au large de",
+          "explanation": "Located in the sea, away from the coast",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Au Brésil, Mauro Cid, ex-bras droit de Jair Bolsonaro, désormais témoin-clé de son procès",
+      "original_article_link": "https://www.la-croix.com/international/au-bresil-mauro-cid-ex-bras-droit-de-jair-bolsonaro-desormais-temoin-cle-de-son-proces-20250623",
+      "original_article_published_date": "2025-06-24T03:50:21",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Mauro Cid, témoin important contre Bolsonaro",
+      "simplified_english_title": "Mauro Cid, key witness against Bolsonaro",
+      "french_summary": "Mauro Cid, ancien assistant de Jair Bolsonaro, est maintenant un témoin important dans son procès au Brésil.",
+      "english_summary": "Mauro Cid, former aide to Jair Bolsonaro, is now a key witness in his trial in Brazil.",
+      "contextual_title_explanations": {
+        "clé": {
+          "display_format": "**Key:** clé",
+          "explanation": "Important or crucial",
+          "cultural_note": "Common metaphor for importance"
+        },
+        "procès": {
+          "display_format": "**Trial:** procès",
+          "explanation": "Legal proceeding in court",
+          "cultural_note": ""
+        },
+        "témoin": {
+          "display_format": "**Witness:** témoin",
+          "explanation": "Person who testifies in court",
+          "cultural_note": ""
+        },
+        "droit": {
+          "display_format": "**Right:** droit",
+          "explanation": "Right-hand side or law",
+          "cultural_note": "Contextually means 'right-hand man'"
+        },
+        "désormais": {
+          "display_format": "**Henceforth:** désormais",
+          "explanation": "From now on",
+          "cultural_note": ""
+        },
+        "Brésil": {
+          "display_format": "**Brazil:** Brésil",
+          "explanation": "South American country",
+          "cultural_note": ""
+        },
+        "bras": {
+          "display_format": "**Arm:** bras",
+          "explanation": "Upper limb of the body",
+          "cultural_note": "Used metaphorically as 'right-hand man'"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T05:20:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
