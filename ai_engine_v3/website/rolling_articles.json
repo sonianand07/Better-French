@@ -3,6 +3,645 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Climat : les ONG dénoncent « au moins 43 reculs » dans la politique environnementale",
+      "original_article_link": "https://www.la-croix.com/planete/climat-les-ong-denoncent-au-moins-43-reculs-dans-la-politique-environnementale-20250624",
+      "original_article_published_date": "2025-06-24T13:30:47",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les ONG critiquent la politique environnementale",
+      "simplified_english_title": "NGOs criticize environmental policy",
+      "french_summary": "Des organisations dénoncent 43 reculs dans les politiques environnementales du gouvernement actuel selon un rapport.",
+      "english_summary": "Organizations denounce 43 setbacks in the current government's environmental policies according to a report.",
+      "contextual_title_explanations": {
+        "Climat": {
+          "display_format": "**Climate:** Climat",
+          "explanation": "Weather conditions over time",
+          "cultural_note": "Key topic in French politics"
+        },
+        "ONG": {
+          "display_format": "**NGOs:** ONG",
+          "explanation": "Non-governmental organizations",
+          "cultural_note": "Active in French environmental issues"
+        },
+        "dénoncent": {
+          "display_format": "**Denounce:** dénoncent",
+          "explanation": "Publicly criticize",
+          "cultural_note": ""
+        },
+        "reculs": {
+          "display_format": "**Setbacks:** reculs",
+          "explanation": "Steps backward or regressions",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**Policy:** politique",
+          "explanation": "Plan of action by government",
+          "cultural_note": ""
+        },
+        "environnementale": {
+          "display_format": "**Environmental:** environnementale",
+          "explanation": "Related to nature and surroundings",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Starts a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Ends a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "au moins": {
+          "display_format": "**At least:** au moins",
+          "explanation": "Minimum quantity",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran/Israël: \"L'Iran a violé des accords internationaux\", dénonce François Bayrou à l'Assemblée nationale",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-iran-israel-l-iran-a-viole-des-accords-internationaux-denonce-francois-bayrou-a-l-assemblee-nationale_VN-202506240465.html",
+      "original_article_published_date": "2025-06-24T13:14:36",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran a enfreint des accords internationaux",
+      "simplified_english_title": "Iran violated international agreements",
+      "french_summary": "François Bayrou accuse l'Iran d'avoir violé des accords internationaux lors d'un discours à l'Assemblée nationale.",
+      "english_summary": "François Bayrou accuses Iran of violating international agreements in a speech at the National Assembly.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Conflict between countries or groups",
+          "cultural_note": "Often used in political contexts"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often mentioned in international conflicts"
+        },
+        "violé": {
+          "display_format": "**Violated:** violé",
+          "explanation": "Broken or disrespected",
+          "cultural_note": "Commonly used in legal contexts"
+        },
+        "accords": {
+          "display_format": "**Agreements:** accords",
+          "explanation": "Formal arrangements or treaties",
+          "cultural_note": "Often refers to international treaties"
+        },
+        "internationaux": {
+          "display_format": "**International:** internationaux",
+          "explanation": "Involving multiple countries",
+          "cultural_note": ""
+        },
+        "dénonce": {
+          "display_format": "**Denounces:** dénonce",
+          "explanation": "Publicly criticizes or condemns",
+          "cultural_note": "Common in political speeches"
+        },
+        "l'Assemblée nationale": {
+          "display_format": "**National Assembly:** l'Assemblée nationale",
+          "explanation": "French parliament's lower house",
+          "cultural_note": "Key legislative body in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Biodiversité : la justice confirme la réintroduction du grand tétras dans les Vosges",
+      "original_article_link": "https://www.la-croix.com/planete/biodiversite-la-justice-confirme-la-reintroduction-du-grand-tetras-dans-les-vosges-20250624",
+      "original_article_published_date": "2025-06-24T13:04:40",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le grand tétras revient dans les Vosges",
+      "simplified_english_title": "Capercaillie reintroduced in Vosges",
+      "french_summary": "Un tribunal a approuvé le retour du grand tétras, un oiseau rare, dans le parc naturel des Vosges.",
+      "english_summary": "A court approved the return of the capercaillie, a rare bird, to the Vosges nature park.",
+      "contextual_title_explanations": {
+        "Biodiversité": {
+          "display_format": "**Biodiversity:** Biodiversité",
+          "explanation": "Variety of life in an ecosystem",
+          "cultural_note": "Key concept in French environmental policies"
+        },
+        "confirme": {
+          "display_format": "**Confirms:** confirme",
+          "explanation": "Officially approves or validates",
+          "cultural_note": ""
+        },
+        "réintroduction": {
+          "display_format": "**Reintroduction:** réintroduction",
+          "explanation": "Bringing back a species to its habitat",
+          "cultural_note": "Common practice in French conservation"
+        },
+        "grand tétras": {
+          "display_format": "**Capercaillie:** grand tétras",
+          "explanation": "Large bird species in the grouse family",
+          "cultural_note": "Protected species in France"
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing an explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "grand": {
+          "display_format": "**Large:** grand",
+          "explanation": "Adjective meaning big or tall",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Il n’y a rien d’équivalent au son de plusieurs F-35 au-dessus de nos têtes… » Fragments de récits de la guerre en Iran",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250624.OBS105250/il-n-y-a-rien-d-equivalent-au-son-de-plusieurs-f-35-au-dessus-de-nos-tetes-fragments-de-recits-de-la-guerre-en-iran.html",
+      "original_article_published_date": "2025-06-24T13:00:09",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des récits de la guerre en Iran",
+      "simplified_english_title": "Accounts of war in Iran",
+      "french_summary": "Des témoignages décrivent le bruit des avions de guerre F-35 pendant les conflits en Iran.",
+      "english_summary": "Testimonies describe the sound of F-35 warplanes during conflicts in Iran.",
+      "contextual_title_explanations": {
+        "équivalent": {
+          "display_format": "**Equivalent:** équivalent",
+          "explanation": "Something of equal value or meaning",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "Armed conflict between nations or groups",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Sound:** son",
+          "explanation": "What is heard by the ear",
+          "cultural_note": ""
+        },
+        "têtes": {
+          "display_format": "**Heads:** têtes",
+          "explanation": "Plural of 'head', referring to people",
+          "cultural_note": ""
+        },
+        "dessus": {
+          "display_format": "**Above:** dessus",
+          "explanation": "Over or on top of something",
+          "cultural_note": ""
+        },
+        "récits": {
+          "display_format": "**Accounts:** récits",
+          "explanation": "Narratives or stories",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’avion de chasse du futur, symbole des divisions européennes sur la défense",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/24/l-avion-de-chasse-du-futur-symbole-des-divisions-europeennes-sur-la-defense_6615629_3234.html",
+      "original_article_published_date": "2025-06-24T13:00:06",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un avion de chasse divise l'Europe",
+      "simplified_english_title": "Fighter jet divides Europe",
+      "french_summary": "Le projet d'avion de combat européen montre les désaccords entre les pays sur la défense commune.",
+      "english_summary": "The European fighter jet project shows disagreements between countries on common defense.",
+      "contextual_title_explanations": {
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "futur": {
+          "display_format": "**Future:** futur",
+          "explanation": "Time that is to come",
+          "cultural_note": ""
+        },
+        "défense": {
+          "display_format": "**Defense:** défense",
+          "explanation": "Protection or military sector",
+          "cultural_note": "Key topic in EU politics"
+        },
+        "symbole": {
+          "display_format": "**Symbol:** symbole",
+          "explanation": "Representation of an idea",
+          "cultural_note": ""
+        },
+        "chasse": {
+          "display_format": "**Fighter:** chasse",
+          "explanation": "Type of military aircraft",
+          "cultural_note": "Short for 'avion de chasse'"
+        },
+        "européennes": {
+          "display_format": "**European:** européennes",
+          "explanation": "Relating to Europe",
+          "cultural_note": "Refers to EU member states"
+        },
+        "avion": {
+          "display_format": "**Aircraft:** avion",
+          "explanation": "Machine capable of flight",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Sommet de La Haye : malaise à l'OTAN ? Parlons-en avec F. Chauvancy, P. Razoux et A. Mariotti",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/parlons-en-les-invit%C3%A9s/20250624-sommet-de-la-haye-malaise-%C3%A0-l-otan-parlons-en-avec-f-chauvancy-p-razoux-et-a-mariotti",
+      "original_article_published_date": "2025-06-24T12:56:45",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions à l'OTAN lors du sommet de La Haye",
+      "simplified_english_title": "Tensions at NATO during The Hague summit",
+      "french_summary": "Des experts discutent des problèmes récents de l'OTAN lors du sommet à La Haye avec des tensions visibles.",
+      "english_summary": "Experts discuss recent NATO issues at The Hague summit with visible tensions.",
+      "contextual_title_explanations": {
+        "Sommet": {
+          "display_format": "**Summit:** Sommet",
+          "explanation": "High-level meeting of leaders",
+          "cultural_note": "Often used for international conferences"
+        },
+        "La Haye": {
+          "display_format": "**The Hague:** La Haye",
+          "explanation": "City in the Netherlands",
+          "cultural_note": "Seat of the Dutch government and international courts"
+        },
+        "malaise": {
+          "display_format": "**Discomfort:** malaise",
+          "explanation": "Feeling of unease or trouble",
+          "cultural_note": ""
+        },
+        "l'OTAN": {
+          "display_format": "**NATO:** l'OTAN",
+          "explanation": "North Atlantic Treaty Organization",
+          "cultural_note": "Military alliance of North American and European countries"
+        },
+        "Parlons-en": {
+          "display_format": "**Let's talk about it:** Parlons-en",
+          "explanation": "Invitation to discuss the topic",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Etats-Unis: la Fed va encore énerver Donald Trump en préconisant l'attente avant de baisser ses taux",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/assurance-banque/etats-unis-la-fed-va-encore-enerver-donald-trump-en-preconisant-l-attente-avant-de-baisser-ses-taux_AD-202506240443.html",
+      "original_article_published_date": "2025-06-24T12:56:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Fed attend pour baisser ses taux",
+      "simplified_english_title": "Fed waits to lower interest rates",
+      "french_summary": "La Fed suggère d'attendre avant de réduire ses taux, ce qui va déplaire à Donald Trump.",
+      "english_summary": "The Fed suggests waiting before cutting rates, which will displease Donald Trump.",
+      "contextual_title_explanations": {
+        "Etats-Unis": {
+          "display_format": "**United States:** États-Unis",
+          "explanation": "Country in North America",
+          "cultural_note": "Commonly abbreviated as 'US'"
+        },
+        "Fed": {
+          "display_format": "**Federal Reserve:** Fed",
+          "explanation": "Central banking system of the US",
+          "cultural_note": "Controls monetary policy and interest rates"
+        },
+        "énerver": {
+          "display_format": "**Annoy:** énerver",
+          "explanation": "To irritate or frustrate someone",
+          "cultural_note": ""
+        },
+        "préconisant": {
+          "display_format": "**Recommending:** préconisant",
+          "explanation": "Suggesting or advising something",
+          "cultural_note": ""
+        },
+        "l'attente": {
+          "display_format": "**Waiting:** l'attente",
+          "explanation": "The act of waiting",
+          "cultural_note": ""
+        },
+        "baisser": {
+          "display_format": "**Lower:** baisser",
+          "explanation": "To reduce or decrease something",
+          "cultural_note": ""
+        },
+        "taux": {
+          "display_format": "**Rates:** taux",
+          "explanation": "Interest rates set by the Fed",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : un cessez-le-feu précaire salué avec méfiance par la communauté internationale",
+      "original_article_link": "https://www.europe1.fr/international/israel-iran-un-cessez-le-feu-precaire-salue-avec-mefiance-par-la-communaute-internationale-760815",
+      "original_article_published_date": "2025-06-24T12:50:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un cessez-le-feu fragile entre Israël et Iran",
+      "simplified_english_title": "Fragile ceasefire between Israel and Iran",
+      "french_summary": "La communauté internationale regarde avec prudence le cessez-le-feu entre Israël et Iran, qui semble instable.",
+      "english_summary": "The international community cautiously watches the unstable ceasefire between Israel and Iran.",
+      "contextual_title_explanations": {
+        "méfiance": {
+          "display_format": "**Mistrust:** méfiance",
+          "explanation": "Lack of trust or confidence",
+          "cultural_note": "Common in political contexts"
+        },
+        "feu": {
+          "display_format": "**Fire:** feu",
+          "explanation": "Combustion or shooting",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Indicates the agent of an action",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "précaire": {
+          "display_format": "**Precarious:** précaire",
+          "explanation": "Unstable or uncertain",
+          "cultural_note": "Often used in political contexts"
+        },
+        "communauté": {
+          "display_format": "**Community:** communauté",
+          "explanation": "Group with common interests",
+          "cultural_note": ""
+        },
+        "salué": {
+          "display_format": "**Greeted:** salué",
+          "explanation": "Past participle of 'saluer'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "internationale": {
+          "display_format": "**International:** internationale",
+          "explanation": "Relating to multiple countries",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Indicates accompaniment",
+          "cultural_note": ""
+        },
+        "cessez": {
+          "display_format": "**Cease:** cessez",
+          "explanation": "Imperative form of 'cesser'",
+          "cultural_note": "Common in formal or military contexts"
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a list or explanation",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often in news for political conflicts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : l'évacuation des familles françaises s'accélère en Israël",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-isra%C3%ABl-iran-l-%C3%A9vacuation-des-familles-fran%C3%A7aises-s-acc%C3%A9l%C3%A8re-en-isra%C3%ABl",
+      "original_article_published_date": "2025-06-24T12:46:00",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les familles françaises quittent Israël plus vite",
+      "simplified_english_title": "French families leave Israel faster",
+      "french_summary": "Les familles françaises en Israël sont évacuées plus rapidement à cause des tensions entre Israël et l'Iran.",
+      "english_summary": "French families in Israel are being evacuated more quickly due to tensions between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "French spelling retains the accent"
+        },
+        "l&#39;évacuation": {
+          "display_format": "**Evacuation:** l'évacuation",
+          "explanation": "Process of moving people to safety",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article",
+          "cultural_note": ""
+        },
+        "familles": {
+          "display_format": "**Families:** familles",
+          "explanation": "Groups of related people",
+          "cultural_note": ""
+        },
+        "françaises": {
+          "display_format": "**French:** françaises",
+          "explanation": "Relating to France",
+          "cultural_note": "Feminine plural form"
+        },
+        "s&#39;accélère": {
+          "display_format": "**Speeds up:** s'accélère",
+          "explanation": "Reflexive verb meaning to accelerate",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Iran: le commandant des forces paramilitaires Bassidj tué dans une attaque israélienne",
       "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-iran-le-commandant-des-forces-paramilitaires-bassidj-tue-dans-une-attaque-israelienne_VN-202506240434.html",
       "original_article_published_date": "2025-06-24T12:34:38",
@@ -1340,6 +1979,77 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T10:21:31",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"On est fatigué, on est ralenti\": jusqu'à 33°C à l'hôpital de Saint-Fons, soignants et patients vivent un calvaire",
+      "original_article_link": "https://www.bfmtv.com/lyon/on-est-fatigue-on-est-ralenti-jusqu-a-33-c-a-l-hopital-de-saint-fons-soignants-et-patients-vivent-un-calvaire_AV-202506240311.html",
+      "original_article_published_date": "2025-06-24T09:20:29",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Chaleur extrême à l'hôpital de Saint-Fons",
+      "simplified_english_title": "Extreme heat at Saint-Fons hospital",
+      "french_summary": "Les soignants et les patients souffrent de la chaleur avec des températures jusqu'à 33°C.",
+      "english_summary": "Caregivers and patients suffer from heat with temperatures up to 33°C.",
+      "contextual_title_explanations": {
+        "soignants": {
+          "display_format": "**Caregivers:** soignants",
+          "explanation": "People who provide medical care",
+          "cultural_note": "Includes doctors, nurses, and other medical staff"
+        },
+        "vivent": {
+          "display_format": "**Live:** vivent",
+          "explanation": "Present tense of 'to live'",
+          "cultural_note": ""
+        },
+        "ralenti": {
+          "display_format": "**Slowed down:** ralenti",
+          "explanation": "Past participle of 'ralentir'",
+          "cultural_note": ""
+        },
+        "fatigué": {
+          "display_format": "**Tired:** fatigué",
+          "explanation": "Feeling weary or exhausted",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**We:** On",
+          "explanation": "Informal pronoun for 'we'",
+          "cultural_note": "Commonly used in spoken French"
+        },
+        "calvaire": {
+          "display_format": "**Ordeal:** calvaire",
+          "explanation": "Extremely difficult or painful experience",
+          "cultural_note": "Literally means 'Calvary' in religious context"
+        },
+        "jusqu’à": {
+          "display_format": "**Up to:** jusqu’à",
+          "explanation": "Indicates a maximum limit",
+          "cultural_note": ""
+        },
+        "l’hôpital": {
+          "display_format": "**Hospital:** l’hôpital",
+          "explanation": "Medical facility for treatment",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -6200,666 +6910,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-24T03:18:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "États-Unis : la Cour suprême autorise les expulsions de sans-papiers vers des pays tiers",
-      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/etats-unis-la-cour-supreme-autorise-les-expulsions-de-sans-papiers-vers-des-pays-tiers-d159fc8e-50a2-11f0-9d8f-210ccc004fd7?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-24T02:41:33",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La Cour suprême permet les expulsions",
-      "simplified_english_title": "Supreme Court allows deportations",
-      "french_summary": "La Cour suprême des États-Unis autorise le renvoi des sans-papiers vers d'autres pays, une décision importante pour l'immigration.",
-      "english_summary": "The US Supreme Court allows deportations of undocumented immigrants to third countries, a significant immigration decision.",
-      "contextual_title_explanations": {
-        "États-Unis": {
-          "display_format": "**United States:** États-Unis",
-          "explanation": "Country in North America",
-          "cultural_note": "Often abbreviated as 'US'"
-        },
-        "Cour suprême": {
-          "display_format": "**Supreme Court:** Cour suprême",
-          "explanation": "Highest federal court in the US",
-          "cultural_note": "Final interpreter of federal constitutional law"
-        },
-        "autorise": {
-          "display_format": "**Authorizes:** autorise",
-          "explanation": "Gives official permission",
-          "cultural_note": ""
-        },
-        "expulsions": {
-          "display_format": "**Deportations:** expulsions",
-          "explanation": "Forced removal of people",
-          "cultural_note": "Often related to immigration policies"
-        },
-        "sans-papiers": {
-          "display_format": "**Undocumented:** sans-papiers",
-          "explanation": "People without legal papers",
-          "cultural_note": "Common term for illegal immigrants"
-        },
-        "pays tiers": {
-          "display_format": "**Third countries:** pays tiers",
-          "explanation": "Countries other than origin or host",
-          "cultural_note": "Often used in immigration contexts"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T03:18:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Raphaël Glucksmann pose ses jalons, et son programme, pour l’élection présidentielle 2027",
-      "original_article_link": "https://www.lemonde.fr/politique/article/2025/06/24/raphael-glucksmann-pose-ses-jalons-et-son-programme-pour-l-election-presidentielle-2027_6615544_823448.html",
-      "original_article_published_date": "2025-06-24T02:30:10",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Glucksmann prépare l'élection de 2027",
-      "simplified_english_title": "Glucksmann plans for 2027 election",
-      "french_summary": "Raphaël Glucksmann présente ses idées et son programme pour se préparer à l'élection présidentielle en 2027.",
-      "english_summary": "Raphaël Glucksmann shares his ideas and program to prepare for the 2027 presidential election.",
-      "contextual_title_explanations": {
-        "Raphaël": {
-          "display_format": "**Raphael:** Raphaël",
-          "explanation": "French personal name",
-          "cultural_note": "Common name of Hebrew origin"
-        },
-        "pose": {
-          "display_format": "**Lays down:** pose",
-          "explanation": "Sets or establishes something",
-          "cultural_note": ""
-        },
-        "jalons": {
-          "display_format": "**Milestones:** jalons",
-          "explanation": "Important stages or markers",
-          "cultural_note": "Often used in project planning"
-        },
-        "programme": {
-          "display_format": "**Program:** programme",
-          "explanation": "Plan or set of actions",
-          "cultural_note": ""
-        },
-        "élection": {
-          "display_format": "**Election:** élection",
-          "explanation": "Voting process to choose leaders",
-          "cultural_note": ""
-        },
-        "présidentielle": {
-          "display_format": "**Presidential:** présidentielle",
-          "explanation": "Related to the president",
-          "cultural_note": "Refers to the highest political office"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T03:18:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "La Cour suprême soutient Trump sur les expulsions de sans-papiers",
-      "original_article_link": "https://www.20min.ch/fr/story/etats-unis-la-cour-supreme-soutient-trump-sur-les-expulsions-de-sans-papiers-103369286",
-      "original_article_published_date": "2025-06-24T01:42:29",
-      "source_name": "20 Minutes",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La Cour suprême aide Trump sur les expulsions",
-      "simplified_english_title": "Supreme Court backs Trump on deportations",
-      "french_summary": "La Cour suprême soutient la politique de Trump sur les expulsions des sans-papiers, une décision importante pour l'immigration.",
-      "english_summary": "The Supreme Court supports Trump's policy on deporting undocumented immigrants, a significant decision for immigration.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**The:** La",
-          "explanation": "Definite article for feminine singular nouns",
-          "cultural_note": ""
-        },
-        "Cour": {
-          "display_format": "**Court:** Cour",
-          "explanation": "Judicial institution",
-          "cultural_note": ""
-        },
-        "suprême": {
-          "display_format": "**Supreme:** suprême",
-          "explanation": "Highest rank",
-          "cultural_note": "Refers to the highest court in the US"
-        },
-        "soutient": {
-          "display_format": "**Supports:** soutient",
-          "explanation": "Verb meaning to back or uphold",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "Preposition indicating topic or subject",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** les",
-          "explanation": "Definite article for plural nouns",
-          "cultural_note": ""
-        },
-        "expulsions": {
-          "display_format": "**Deportations:** expulsions",
-          "explanation": "Act of removing someone from a country",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Preposition indicating origin or possession",
-          "cultural_note": ""
-        },
-        "sans": {
-          "display_format": "**Without:** sans",
-          "explanation": "Preposition indicating lack",
-          "cultural_note": ""
-        },
-        "papiers": {
-          "display_format": "**Papers:** papiers",
-          "explanation": "Documents proving legal status",
-          "cultural_note": "Commonly refers to immigration documents in France"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T03:18:26",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave retraites : la CFDT annonce « l’échec » de la concertation",
-      "original_article_link": "https://www.leparisien.fr/economie/retraites/conclave-retraites-la-cfdt-annonce-lechec-de-la-concertation-23-06-2025-DBOGOMBO65GQXGEL2Z6EFMNP6E.php",
-      "original_article_published_date": "2025-06-24T01:38:06.552945",
-      "source_name": "Le Parisien",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Échec des discussions sur les retraites",
-      "simplified_english_title": "Pension talks fail",
-      "french_summary": "La CFDT déclare que les discussions sur les retraites ont échoué, sans accord trouvé entre les parties.",
-      "english_summary": "The CFDT declares that the pension talks have failed, with no agreement found between the parties.",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Meeting:** Conclave",
-          "explanation": "High-level gathering to discuss important issues",
-          "cultural_note": "Often used in political or religious contexts"
-        },
-        "retraites": {
-          "display_format": "**Pensions:** retraites",
-          "explanation": "French pension system",
-          "cultural_note": "Major topic of political debate in France"
-        },
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "Declares or makes known",
-          "cultural_note": ""
-        },
-        "échec": {
-          "display_format": "**Failure:** échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        },
-        "concertation": {
-          "display_format": "**Consultation:** concertation",
-          "explanation": "Process of discussion and negotiation",
-          "cultural_note": "Common in French political and social processes"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-24T01:38:06",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Présidentielle 2027 : Dominique de Villepin lance son parti « La France humaniste »",
-      "original_article_link": "https://www.ouest-france.fr/politique/france-lex-premier-ministre-villepin-lance-son-parti-a-deux-ans-de-la-presidentielle-6b07f162-507e-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T22:46:59",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Villepin crée un nouveau parti politique",
-      "simplified_english_title": "Villepin launches a new political party",
-      "french_summary": "Dominique de Villepin annonce la création de son parti « La France humaniste » pour les élections présidentielles de 2027.",
-      "english_summary": "Dominique de Villepin announces the creation of his party « La France humaniste » for the 2027 presidential elections.",
-      "contextual_title_explanations": {
-        "Présidentielle": {
-          "display_format": "**Presidential:** Présidentielle",
-          "explanation": "Relating to the election of a president",
-          "cultural_note": "Refers to the French presidential election"
-        },
-        "lance": {
-          "display_format": "**Launches:** lance",
-          "explanation": "To start or initiate something",
-          "cultural_note": ""
-        },
-        "son parti": {
-          "display_format": "**His party:** son parti",
-          "explanation": "His political group or organization",
-          "cultural_note": ""
-        },
-        "La France humaniste": {
-          "display_format": "**Humanist France:** La France humaniste",
-          "explanation": "Name of the new political party",
-          "cultural_note": "Emphasizes humanist values"
-        },
-        "humaniste": {
-          "display_format": "**Humanist:** humaniste",
-          "explanation": "Focused on human values and welfare",
-          "cultural_note": "Philosophical stance emphasizing human dignity"
-        },
-        "«": {
-          "display_format": "**Quotation mark:** «",
-          "explanation": "French opening quotation mark",
-          "cultural_note": "Used to denote the start of a quote"
-        },
-        "»": {
-          "display_format": "**Quotation mark:** »",
-          "explanation": "French closing quotation mark",
-          "cultural_note": "Used to denote the end of a quote"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T23:15:35",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Menace de riposte de l’Iran : le Qatar annonce la suspension de son trafic aérien par « mesure de précaution »",
-      "original_article_link": "https://www.leparisien.fr/international/menace-de-riposte-de-liran-le-qatar-annonce-la-suspension-de-son-trafic-aerien-par-mesure-de-precaution-23-06-2025-YM6TMBCBZFCDHI3ID5VWNAIK6Q.php",
-      "original_article_published_date": "2025-06-23T22:19:00.227134",
-      "source_name": "Le Parisien",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "L'Iran menace, le Qatar suspend ses vols",
-      "simplified_english_title": "Iran threatens, Qatar suspends flights",
-      "french_summary": "L'Iran menace de riposter, donc le Qatar arrête son trafic aérien par précaution.",
-      "english_summary": "Iran threatens retaliation, so Qatar suspends air traffic as a precaution.",
-      "contextual_title_explanations": {
-        "Menace": {
-          "display_format": "**Threat:** Menace",
-          "explanation": "Warning of possible danger or harm",
-          "cultural_note": "Often used in political contexts"
-        },
-        "riposte": {
-          "display_format": "**Retaliation:** riposte",
-          "explanation": "Counterattack or response to an attack",
-          "cultural_note": "Common in military or political conflicts"
-        },
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "Makes a public statement",
-          "cultural_note": ""
-        },
-        "trafic aérien": {
-          "display_format": "**Air traffic:** trafic aérien",
-          "explanation": "Movement of aircraft in the air",
-          "cultural_note": ""
-        },
-        "mesure": {
-          "display_format": "**Measure:** mesure",
-          "explanation": "Action taken to achieve a purpose",
-          "cultural_note": ""
-        },
-        "précaution": {
-          "display_format": "**Precaution:** précaution",
-          "explanation": "Action taken to avoid danger",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** de",
-          "explanation": "Indicates possession or origin",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave sur la réforme des retraites : la CFDT et la CFTC annoncent \"l'échec\" de la concertation",
-      "original_article_link": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/conclave-sur-la-reforme-des-retraites-la-cfdt-et-la-cftc-annoncent-l-echec-de-la-concertation_7333035.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-23T21:53:06",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Échec des discussions sur les retraites",
-      "simplified_english_title": "Pension reform talks fail",
-      "french_summary": "La CFDT et la CFTC déclarent que les discussions sur la réforme des retraites ont échoué.",
-      "english_summary": "The CFDT and CFTC unions declare that the pension reform talks have failed.",
-      "contextual_title_explanations": {
-        "Conclave": {
-          "display_format": "**Meeting:** Conclave",
-          "explanation": "High-level meeting or assembly",
-          "cultural_note": "Often used for important discussions"
-        },
-        "réforme": {
-          "display_format": "**Reform:** réforme",
-          "explanation": "Change or improvement to a system",
-          "cultural_note": "Commonly used in political contexts"
-        },
-        "retraites": {
-          "display_format": "**Pensions:** retraites",
-          "explanation": "Retirement benefits system",
-          "cultural_note": "Major topic in French social policy"
-        },
-        "concertation": {
-          "display_format": "**Consultation:** concertation",
-          "explanation": "Process of discussion and negotiation",
-          "cultural_note": "Often used in labor and social policy contexts"
-        },
-        "annoncent": {
-          "display_format": "**Announce:** annoncent",
-          "explanation": "To make something known publicly",
-          "cultural_note": ""
-        },
-        "l'échec": {
-          "display_format": "**Failure:** l'échec",
-          "explanation": "Lack of success",
-          "cultural_note": "Commonly used in political and social contexts"
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T23:15:35",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "À l’Assemblée, le groupe d’Éric Ciotti va demander une commission d’enquête sur le coût de l’immigration",
-      "original_article_link": "https://www.lefigaro.fr/politique/a-l-assemblee-le-groupe-d-eric-ciotti-va-demander-la-creation-d-une-commission-d-enquete-sur-le-cout-de-l-immigration-20250623",
-      "original_article_published_date": "2025-06-23T21:12:11",
-      "source_name": "Le Figaro",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Ciotti veut une enquête sur le coût de l'immigration",
-      "simplified_english_title": "Ciotti calls for immigration cost inquiry",
-      "french_summary": "Éric Ciotti et son groupe à l'Assemblée veulent une commission pour étudier le coût de l'immigration en France.",
-      "english_summary": "Éric Ciotti and his group in the Assembly want a commission to study the cost of immigration in France.",
-      "contextual_title_explanations": {
-        "Assemblée": {
-          "display_format": "**Assembly:** Assemblée",
-          "explanation": "French National Assembly, lower house of Parliament",
-          "cultural_note": "Key legislative body in France"
-        },
-        "groupe": {
-          "display_format": "**Group:** groupe",
-          "explanation": "Political group or faction",
-          "cultural_note": "Refers to a party or coalition in the Assembly"
-        },
-        "va demander": {
-          "display_format": "**Will request:** va demander",
-          "explanation": "Future action of asking formally",
-          "cultural_note": ""
-        },
-        "commission d’enquête": {
-          "display_format": "**Investigation committee:** commission d’enquête",
-          "explanation": "Official body to investigate an issue",
-          "cultural_note": "Often formed for political or social inquiries"
-        },
-        "coût": {
-          "display_format": "**Cost:** coût",
-          "explanation": "Financial impact or expense",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T23:15:35",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Conclave retraites: la CFDT acte «l’échec» des négociations, «la responsabilité appartient au Medef»",
-      "original_article_link": "https://www.ouest-france.fr/economie/retraites/conclave-retraites-la-cfdt-acte-lechec-des-negociations-la-responsabilite-appartient-au-medef-0083f7a0-5074-11f0-8eae-d079c596ca40?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-23T21:09:23",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Échec des négociations sur les retraites",
-      "simplified_english_title": "Pension talks fail",
-      "french_summary": "La CFDT déclare que les négociations sur les retraites ont échoué et accuse le Medef d'en être responsable.",
-      "english_summary": "The CFDT declares the pension negotiations have failed and blames the Medef for the responsibility.",
-      "contextual_title_explanations": {
-        "négociations": {
-          "display_format": "**Negotiations:** négociations",
-          "explanation": "Discussions to reach an agreement",
-          "cultural_note": ""
-        },
-        "échec": {
-          "display_format": "**Failure:** échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        },
-        "responsabilité": {
-          "display_format": "**Responsibility:** responsabilité",
-          "explanation": "State of being accountable",
-          "cultural_note": ""
-        },
-        "appartient": {
-          "display_format": "**Belongs:** appartient",
-          "explanation": "To be the property of",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**Pensions:** retraites",
-          "explanation": "Retirement benefits system",
-          "cultural_note": "Hot topic in French politics"
-        },
-        "acte": {
-          "display_format": "**Acknowledges:** acte",
-          "explanation": "To recognize or declare",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**Quotation mark:** »",
-          "explanation": "End of a quotation",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma:** ,",
-          "explanation": "Punctuation mark",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** des",
-          "explanation": "Plural indefinite article",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, feminine singular",
-          "cultural_note": ""
-        },
-        "l": {
-          "display_format": "**The:** l",
-          "explanation": "Definite article before vowels",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** :",
-          "explanation": "Punctuation introducing a list or quote",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**To the:** au",
-          "explanation": "Contraction of 'à le'",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**Quotation mark:** «",
-          "explanation": "Start of a quotation",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T22:19:00",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "France: la CFDT annonce «l'échec» du conclave sur les retraites",
-      "original_article_link": "https://www.rfi.fr/fr/france/20250623-france-la-cfdt-annonce-l-%C3%A9chec-du-conclave-sur-les-retraites",
-      "original_article_published_date": "2025-06-23T20:50:12",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La CFDT déclare un échec sur les retraites",
-      "simplified_english_title": "CFDT declares failure on pension talks",
-      "french_summary": "La CFDT a annoncé que les discussions sur les retraites ont échoué. Les négociations n'ont pas abouti à un accord.",
-      "english_summary": "The CFDT announced that the pension talks have failed. The negotiations did not result in an agreement.",
-      "contextual_title_explanations": {
-        "annonce": {
-          "display_format": "**Announces:** annonce",
-          "explanation": "To make something known publicly",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**Retirements:** retraites",
-          "explanation": "The state of being retired",
-          "cultural_note": "A significant topic in French social policy"
-        },
-        "l'échec": {
-          "display_format": "**Failure:** l'échec",
-          "explanation": "Lack of success",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On:** sur",
-          "explanation": "About or concerning a topic",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-23T21:18:54",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,

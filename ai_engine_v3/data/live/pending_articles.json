@@ -75604,6 +75604,716 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Climat : les ONG dénoncent « au moins 43 reculs » dans la politique environnementale",
+      "original_article_link": "https://www.la-croix.com/planete/climat-les-ong-denoncent-au-moins-43-reculs-dans-la-politique-environnementale-20250624",
+      "original_article_published_date": "2025-06-24T13:30:47",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les ONG critiquent la politique environnementale",
+      "simplified_english_title": "NGOs criticize environmental policy",
+      "french_summary": "Des organisations dénoncent 43 reculs dans les politiques environnementales du gouvernement actuel selon un rapport.",
+      "english_summary": "Organizations denounce 43 setbacks in the current government's environmental policies according to a report.",
+      "contextual_title_explanations": {
+        "Climat": {
+          "display_format": "**Climate:** Climat",
+          "explanation": "Weather conditions over time",
+          "cultural_note": "Key topic in French politics"
+        },
+        "ONG": {
+          "display_format": "**NGOs:** ONG",
+          "explanation": "Non-governmental organizations",
+          "cultural_note": "Active in French environmental issues"
+        },
+        "dénoncent": {
+          "display_format": "**Denounce:** dénoncent",
+          "explanation": "Publicly criticize",
+          "cultural_note": ""
+        },
+        "reculs": {
+          "display_format": "**Setbacks:** reculs",
+          "explanation": "Steps backward or regressions",
+          "cultural_note": ""
+        },
+        "politique": {
+          "display_format": "**Policy:** politique",
+          "explanation": "Plan of action by government",
+          "cultural_note": ""
+        },
+        "environnementale": {
+          "display_format": "**Environmental:** environnementale",
+          "explanation": "Related to nature and surroundings",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Starts a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Ends a direct quote",
+          "cultural_note": "French uses « » instead of “ ”"
+        },
+        "au moins": {
+          "display_format": "**At least:** au moins",
+          "explanation": "Minimum quantity",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : un cessez-le-feu précaire salué avec méfiance par la communauté internationale",
+      "original_article_link": "https://www.europe1.fr/international/israel-iran-un-cessez-le-feu-precaire-salue-avec-mefiance-par-la-communaute-internationale-760815",
+      "original_article_published_date": "2025-06-24T12:50:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un cessez-le-feu fragile entre Israël et Iran",
+      "simplified_english_title": "Fragile ceasefire between Israel and Iran",
+      "french_summary": "La communauté internationale regarde avec prudence le cessez-le-feu entre Israël et Iran, qui semble instable.",
+      "english_summary": "The international community cautiously watches the unstable ceasefire between Israel and Iran.",
+      "contextual_title_explanations": {
+        "méfiance": {
+          "display_format": "**Mistrust:** méfiance",
+          "explanation": "Lack of trust or confidence",
+          "cultural_note": "Common in political contexts"
+        },
+        "feu": {
+          "display_format": "**Fire:** feu",
+          "explanation": "Combustion or shooting",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Indicates the agent of an action",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "précaire": {
+          "display_format": "**Precarious:** précaire",
+          "explanation": "Unstable or uncertain",
+          "cultural_note": "Often used in political contexts"
+        },
+        "communauté": {
+          "display_format": "**Community:** communauté",
+          "explanation": "Group with common interests",
+          "cultural_note": ""
+        },
+        "salué": {
+          "display_format": "**Greeted:** salué",
+          "explanation": "Past participle of 'saluer'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article",
+          "cultural_note": ""
+        },
+        "internationale": {
+          "display_format": "**International:** internationale",
+          "explanation": "Relating to multiple countries",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Indicates accompaniment",
+          "cultural_note": ""
+        },
+        "cessez": {
+          "display_format": "**Cease:** cessez",
+          "explanation": "Imperative form of 'cesser'",
+          "cultural_note": "Common in formal or military contexts"
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a list or explanation",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often in news for political conflicts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Sommet de La Haye : malaise à l'OTAN ? Parlons-en avec F. Chauvancy, P. Razoux et A. Mariotti",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/parlons-en-les-invit%C3%A9s/20250624-sommet-de-la-haye-malaise-%C3%A0-l-otan-parlons-en-avec-f-chauvancy-p-razoux-et-a-mariotti",
+      "original_article_published_date": "2025-06-24T12:56:45",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions à l'OTAN lors du sommet de La Haye",
+      "simplified_english_title": "Tensions at NATO during The Hague summit",
+      "french_summary": "Des experts discutent des problèmes récents de l'OTAN lors du sommet à La Haye avec des tensions visibles.",
+      "english_summary": "Experts discuss recent NATO issues at The Hague summit with visible tensions.",
+      "contextual_title_explanations": {
+        "Sommet": {
+          "display_format": "**Summit:** Sommet",
+          "explanation": "High-level meeting of leaders",
+          "cultural_note": "Often used for international conferences"
+        },
+        "La Haye": {
+          "display_format": "**The Hague:** La Haye",
+          "explanation": "City in the Netherlands",
+          "cultural_note": "Seat of the Dutch government and international courts"
+        },
+        "malaise": {
+          "display_format": "**Discomfort:** malaise",
+          "explanation": "Feeling of unease or trouble",
+          "cultural_note": ""
+        },
+        "l'OTAN": {
+          "display_format": "**NATO:** l'OTAN",
+          "explanation": "North Atlantic Treaty Organization",
+          "cultural_note": "Military alliance of North American and European countries"
+        },
+        "Parlons-en": {
+          "display_format": "**Let's talk about it:** Parlons-en",
+          "explanation": "Invitation to discuss the topic",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’avion de chasse du futur, symbole des divisions européennes sur la défense",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/24/l-avion-de-chasse-du-futur-symbole-des-divisions-europeennes-sur-la-defense_6615629_3234.html",
+      "original_article_published_date": "2025-06-24T13:00:06",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un avion de chasse divise l'Europe",
+      "simplified_english_title": "Fighter jet divides Europe",
+      "french_summary": "Le projet d'avion de combat européen montre les désaccords entre les pays sur la défense commune.",
+      "english_summary": "The European fighter jet project shows disagreements between countries on common defense.",
+      "contextual_title_explanations": {
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession or relation",
+          "cultural_note": ""
+        },
+        "futur": {
+          "display_format": "**Future:** futur",
+          "explanation": "Time that is to come",
+          "cultural_note": ""
+        },
+        "défense": {
+          "display_format": "**Defense:** défense",
+          "explanation": "Protection or military sector",
+          "cultural_note": "Key topic in EU politics"
+        },
+        "symbole": {
+          "display_format": "**Symbol:** symbole",
+          "explanation": "Representation of an idea",
+          "cultural_note": ""
+        },
+        "chasse": {
+          "display_format": "**Fighter:** chasse",
+          "explanation": "Type of military aircraft",
+          "cultural_note": "Short for 'avion de chasse'"
+        },
+        "européennes": {
+          "display_format": "**European:** européennes",
+          "explanation": "Relating to Europe",
+          "cultural_note": "Refers to EU member states"
+        },
+        "avion": {
+          "display_format": "**Aircraft:** avion",
+          "explanation": "Machine capable of flight",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Iran/Israël: \"L'Iran a violé des accords internationaux\", dénonce François Bayrou à l'Assemblée nationale",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-iran-israel-l-iran-a-viole-des-accords-internationaux-denonce-francois-bayrou-a-l-assemblee-nationale_VN-202506240465.html",
+      "original_article_published_date": "2025-06-24T13:14:36",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran a enfreint des accords internationaux",
+      "simplified_english_title": "Iran violated international agreements",
+      "french_summary": "François Bayrou accuse l'Iran d'avoir violé des accords internationaux lors d'un discours à l'Assemblée nationale.",
+      "english_summary": "François Bayrou accuses Iran of violating international agreements in a speech at the National Assembly.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Conflict between countries or groups",
+          "cultural_note": "Often used in political contexts"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Country in the Middle East",
+          "cultural_note": "Often mentioned in international conflicts"
+        },
+        "violé": {
+          "display_format": "**Violated:** violé",
+          "explanation": "Broken or disrespected",
+          "cultural_note": "Commonly used in legal contexts"
+        },
+        "accords": {
+          "display_format": "**Agreements:** accords",
+          "explanation": "Formal arrangements or treaties",
+          "cultural_note": "Often refers to international treaties"
+        },
+        "internationaux": {
+          "display_format": "**International:** internationaux",
+          "explanation": "Involving multiple countries",
+          "cultural_note": ""
+        },
+        "dénonce": {
+          "display_format": "**Denounces:** dénonce",
+          "explanation": "Publicly criticizes or condemns",
+          "cultural_note": "Common in political speeches"
+        },
+        "l'Assemblée nationale": {
+          "display_format": "**National Assembly:** l'Assemblée nationale",
+          "explanation": "French parliament's lower house",
+          "cultural_note": "Key legislative body in France"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Israël-Iran : l'évacuation des familles françaises s'accélère en Israël",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250624-isra%C3%ABl-iran-l-%C3%A9vacuation-des-familles-fran%C3%A7aises-s-acc%C3%A9l%C3%A8re-en-isra%C3%ABl",
+      "original_article_published_date": "2025-06-24T12:46:00",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les familles françaises quittent Israël plus vite",
+      "simplified_english_title": "French families leave Israel faster",
+      "french_summary": "Les familles françaises en Israël sont évacuées plus rapidement à cause des tensions entre Israël et l'Iran.",
+      "english_summary": "French families in Israel are being evacuated more quickly due to tensions between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "French spelling retains the accent"
+        },
+        "l&#39;évacuation": {
+          "display_format": "**Evacuation:** l'évacuation",
+          "explanation": "Process of moving people to safety",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article",
+          "cultural_note": ""
+        },
+        "familles": {
+          "display_format": "**Families:** familles",
+          "explanation": "Groups of related people",
+          "cultural_note": ""
+        },
+        "françaises": {
+          "display_format": "**French:** françaises",
+          "explanation": "Relating to France",
+          "cultural_note": "Feminine plural form"
+        },
+        "s&#39;accélère": {
+          "display_format": "**Speeds up:** s'accélère",
+          "explanation": "Reflexive verb meaning to accelerate",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Il n’y a rien d’équivalent au son de plusieurs F-35 au-dessus de nos têtes… » Fragments de récits de la guerre en Iran",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250624.OBS105250/il-n-y-a-rien-d-equivalent-au-son-de-plusieurs-f-35-au-dessus-de-nos-tetes-fragments-de-recits-de-la-guerre-en-iran.html",
+      "original_article_published_date": "2025-06-24T13:00:09",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des récits de la guerre en Iran",
+      "simplified_english_title": "Accounts of war in Iran",
+      "french_summary": "Des témoignages décrivent le bruit des avions de guerre F-35 pendant les conflits en Iran.",
+      "english_summary": "Testimonies describe the sound of F-35 warplanes during conflicts in Iran.",
+      "contextual_title_explanations": {
+        "équivalent": {
+          "display_format": "**Equivalent:** équivalent",
+          "explanation": "Something of equal value or meaning",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "Armed conflict between nations or groups",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**Sound:** son",
+          "explanation": "What is heard by the ear",
+          "cultural_note": ""
+        },
+        "têtes": {
+          "display_format": "**Heads:** têtes",
+          "explanation": "Plural of 'head', referring to people",
+          "cultural_note": ""
+        },
+        "dessus": {
+          "display_format": "**Above:** dessus",
+          "explanation": "Over or on top of something",
+          "cultural_note": ""
+        },
+        "récits": {
+          "display_format": "**Accounts:** récits",
+          "explanation": "Narratives or stories",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Etats-Unis: la Fed va encore énerver Donald Trump en préconisant l'attente avant de baisser ses taux",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/assurance-banque/etats-unis-la-fed-va-encore-enerver-donald-trump-en-preconisant-l-attente-avant-de-baisser-ses-taux_AD-202506240443.html",
+      "original_article_published_date": "2025-06-24T12:56:11",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Fed attend pour baisser ses taux",
+      "simplified_english_title": "Fed waits to lower interest rates",
+      "french_summary": "La Fed suggère d'attendre avant de réduire ses taux, ce qui va déplaire à Donald Trump.",
+      "english_summary": "The Fed suggests waiting before cutting rates, which will displease Donald Trump.",
+      "contextual_title_explanations": {
+        "Etats-Unis": {
+          "display_format": "**United States:** États-Unis",
+          "explanation": "Country in North America",
+          "cultural_note": "Commonly abbreviated as 'US'"
+        },
+        "Fed": {
+          "display_format": "**Federal Reserve:** Fed",
+          "explanation": "Central banking system of the US",
+          "cultural_note": "Controls monetary policy and interest rates"
+        },
+        "énerver": {
+          "display_format": "**Annoy:** énerver",
+          "explanation": "To irritate or frustrate someone",
+          "cultural_note": ""
+        },
+        "préconisant": {
+          "display_format": "**Recommending:** préconisant",
+          "explanation": "Suggesting or advising something",
+          "cultural_note": ""
+        },
+        "l'attente": {
+          "display_format": "**Waiting:** l'attente",
+          "explanation": "The act of waiting",
+          "cultural_note": ""
+        },
+        "baisser": {
+          "display_format": "**Lower:** baisser",
+          "explanation": "To reduce or decrease something",
+          "cultural_note": ""
+        },
+        "taux": {
+          "display_format": "**Rates:** taux",
+          "explanation": "Interest rates set by the Fed",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Biodiversité : la justice confirme la réintroduction du grand tétras dans les Vosges",
+      "original_article_link": "https://www.la-croix.com/planete/biodiversite-la-justice-confirme-la-reintroduction-du-grand-tetras-dans-les-vosges-20250624",
+      "original_article_published_date": "2025-06-24T13:04:40",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le grand tétras revient dans les Vosges",
+      "simplified_english_title": "Capercaillie reintroduced in Vosges",
+      "french_summary": "Un tribunal a approuvé le retour du grand tétras, un oiseau rare, dans le parc naturel des Vosges.",
+      "english_summary": "A court approved the return of the capercaillie, a rare bird, to the Vosges nature park.",
+      "contextual_title_explanations": {
+        "Biodiversité": {
+          "display_format": "**Biodiversity:** Biodiversité",
+          "explanation": "Variety of life in an ecosystem",
+          "cultural_note": "Key concept in French environmental policies"
+        },
+        "confirme": {
+          "display_format": "**Confirms:** confirme",
+          "explanation": "Officially approves or validates",
+          "cultural_note": ""
+        },
+        "réintroduction": {
+          "display_format": "**Reintroduction:** réintroduction",
+          "explanation": "Bringing back a species to its habitat",
+          "cultural_note": "Common practice in French conservation"
+        },
+        "grand tétras": {
+          "display_format": "**Capercaillie:** grand tétras",
+          "explanation": "Large bird species in the grouse family",
+          "cultural_note": "Protected species in France"
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing an explanation",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "grand": {
+          "display_format": "**Large:** grand",
+          "explanation": "Adjective meaning big or tall",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"On est fatigué, on est ralenti\": jusqu'à 33°C à l'hôpital de Saint-Fons, soignants et patients vivent un calvaire",
+      "original_article_link": "https://www.bfmtv.com/lyon/on-est-fatigue-on-est-ralenti-jusqu-a-33-c-a-l-hopital-de-saint-fons-soignants-et-patients-vivent-un-calvaire_AV-202506240311.html",
+      "original_article_published_date": "2025-06-24T09:20:29",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Chaleur extrême à l'hôpital de Saint-Fons",
+      "simplified_english_title": "Extreme heat at Saint-Fons hospital",
+      "french_summary": "Les soignants et les patients souffrent de la chaleur avec des températures jusqu'à 33°C.",
+      "english_summary": "Caregivers and patients suffer from heat with temperatures up to 33°C.",
+      "contextual_title_explanations": {
+        "soignants": {
+          "display_format": "**Caregivers:** soignants",
+          "explanation": "People who provide medical care",
+          "cultural_note": "Includes doctors, nurses, and other medical staff"
+        },
+        "vivent": {
+          "display_format": "**Live:** vivent",
+          "explanation": "Present tense of 'to live'",
+          "cultural_note": ""
+        },
+        "ralenti": {
+          "display_format": "**Slowed down:** ralenti",
+          "explanation": "Past participle of 'ralentir'",
+          "cultural_note": ""
+        },
+        "fatigué": {
+          "display_format": "**Tired:** fatigué",
+          "explanation": "Feeling weary or exhausted",
+          "cultural_note": ""
+        },
+        "On": {
+          "display_format": "**We:** On",
+          "explanation": "Informal pronoun for 'we'",
+          "cultural_note": "Commonly used in spoken French"
+        },
+        "calvaire": {
+          "display_format": "**Ordeal:** calvaire",
+          "explanation": "Extremely difficult or painful experience",
+          "cultural_note": "Literally means 'Calvary' in religious context"
+        },
+        "jusqu’à": {
+          "display_format": "**Up to:** jusqu’à",
+          "explanation": "Indicates a maximum limit",
+          "cultural_note": ""
+        },
+        "l’hôpital": {
+          "display_format": "**Hospital:** l’hôpital",
+          "explanation": "Medical facility for treatment",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T13:34:08",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
