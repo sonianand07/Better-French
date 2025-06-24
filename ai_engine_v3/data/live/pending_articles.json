@@ -71454,6 +71454,826 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le MoDem votera contre, le RN fait monter la pression… La proposition de loi sur le futur énergétique de la France à l’Assemblée nationale pour un vote solennel",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250624.OBS105238/le-modem-votera-contre-le-rn-fait-monter-la-pression-la-proposition-de-loi-sur-le-futur-energetique-de-la-france-a-l-assemblee-nationale-pour-un-vote-solennel.html",
+      "original_article_published_date": "2025-06-24T05:30:09",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Débat sur la loi énergétique en France",
+      "simplified_english_title": "Debate on France's energy law",
+      "french_summary": "Le MoDem votera contre la loi énergétique. Le RN augmente la pression pendant le vote à l'Assemblée nationale.",
+      "english_summary": "The MoDem will vote against the energy law. The RN increases pressure during the National Assembly vote.",
+      "contextual_title_explanations": {
+        "MoDem": {
+          "display_format": "**Democratic Movement:** MoDem",
+          "explanation": "Centrist French political party",
+          "cultural_note": "Founded by François Bayrou in 2007"
+        },
+        "votera": {
+          "display_format": "**Will vote:** votera",
+          "explanation": "Future tense of 'voter'",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against:** contre",
+          "explanation": "Indicates opposition",
+          "cultural_note": ""
+        },
+        "RN": {
+          "display_format": "**National Rally:** RN",
+          "explanation": "French far-right political party",
+          "cultural_note": "Formerly known as Front National"
+        },
+        "fait monter la pression": {
+          "display_format": "**Increases pressure:** fait monter la pression",
+          "explanation": "Idiom for applying pressure",
+          "cultural_note": "Common political phrase"
+        },
+        "proposition de loi": {
+          "display_format": "**Bill:** proposition de loi",
+          "explanation": "Draft law proposed by parliament members",
+          "cultural_note": ""
+        },
+        "futur énergétique": {
+          "display_format": "**Energy future:** futur énergétique",
+          "explanation": "Future energy plans",
+          "cultural_note": ""
+        },
+        "Assemblée nationale": {
+          "display_format": "**National Assembly:** Assemblée nationale",
+          "explanation": "Lower house of French Parliament",
+          "cultural_note": ""
+        },
+        "vote solennel": {
+          "display_format": "**Solemn vote:** vote solennel",
+          "explanation": "Formal vote in the Assembly",
+          "cultural_note": "Important ceremonial procedure"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : Ormuz, plaque tournante du pétrole, sous tension",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/24/guerre-israel-iran-ormuz-plaque-tournante-du-petrole-sous-tension_6615579_3234.html",
+      "original_article_published_date": "2025-06-24T06:37:07",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions entre Israël et Iran à Ormuz",
+      "simplified_english_title": "Israel-Iran tensions rise in Ormuz",
+      "french_summary": "La région d'Ormuz, importante pour le pétrole, est sous tension à cause du conflit entre Israël et l'Iran.",
+      "english_summary": "The Ormuz region, crucial for oil, is tense due to the conflict between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** Guerre",
+          "explanation": "Conflict between countries",
+          "cultural_note": "Often used in headlines"
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "Middle Eastern country",
+          "cultural_note": "Often in news for political conflicts"
+        },
+        "Ormuz": {
+          "display_format": "**Hormuz:** Ormuz",
+          "explanation": "Strategic strait",
+          "cultural_note": "Critical for global oil shipping"
+        },
+        "plaque tournante": {
+          "display_format": "**Hub:** plaque tournante",
+          "explanation": "Major center for activity",
+          "cultural_note": "Often used for transportation or trade"
+        },
+        "pétrole": {
+          "display_format": "**Oil:** pétrole",
+          "explanation": "Natural resource for fuel",
+          "cultural_note": "Key export for many countries"
+        },
+        "sous tension": {
+          "display_format": "**Under tension:** sous tension",
+          "explanation": "Experiencing stress or strain",
+          "cultural_note": "Common phrase in political contexts"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’éditorial de Vincent Trémolet de Villers : «Retraites, prix de l'énergie : faux conclave et vraie colère»",
+      "original_article_link": "https://www.lefigaro.fr/vox/politique/l-editorial-de-vincent-tremolet-de-villers-l-energie-de-la-colere-20250623",
+      "original_article_published_date": "2025-06-24T04:18:22",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Colère sur les retraites et l'énergie",
+      "simplified_english_title": "Anger over pensions and energy prices",
+      "french_summary": "Vincent Trémolet de Villers parle de la colère contre les réformes des retraites et la hausse des prix de l'énergie.",
+      "english_summary": "Vincent Trémolet de Villers discusses anger over pension reforms and rising energy prices.",
+      "contextual_title_explanations": {
+        "L": {
+          "display_format": "**The:** L",
+          "explanation": "Definite article",
+          "cultural_note": "Used before nouns starting with a vowel sound"
+        },
+        "éditorial": {
+          "display_format": "**Editorial:** éditorial",
+          "explanation": "Article expressing newspaper's opinion",
+          "cultural_note": "Often written by the editor-in-chief"
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Common preposition",
+          "cultural_note": "Used to indicate origin or possession"
+        },
+        "Retraites": {
+          "display_format": "**Pensions:** Retraites",
+          "explanation": "Retirement benefits",
+          "cultural_note": "Major political topic in France"
+        },
+        "prix": {
+          "display_format": "**Price:** prix",
+          "explanation": "Cost of something",
+          "cultural_note": ""
+        },
+        "l'énergie": {
+          "display_format": "**Energy:** l'énergie",
+          "explanation": "Power source",
+          "cultural_note": "Often refers to electricity or fuel costs"
+        },
+        "faux": {
+          "display_format": "**False:** faux",
+          "explanation": "Not true",
+          "cultural_note": ""
+        },
+        "vraie": {
+          "display_format": "**True:** vraie",
+          "explanation": "Genuine or real",
+          "cultural_note": ""
+        },
+        "colère": {
+          "display_format": "**Anger:** colère",
+          "explanation": "Strong feeling of displeasure",
+          "cultural_note": "Common in political protests"
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Connects two words or phrases",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Starts a quote",
+          "cultural_note": "French uses «» instead of \"\""
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Ends a quote",
+          "cultural_note": "French uses «» instead of \"\""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "A Gaza, la défense civile déclare que 21 personnes ont été tuées par des tirs israéliens près d’un centre de distribution d’aide",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/24/a-gaza-la-defense-civile-declare-que-21-personnes-ont-ete-tuees-par-des-tirs-israeliens-pres-d-un-centre-de-distribution-d-aide_6615581_3210.html",
+      "original_article_published_date": "2025-06-24T06:41:56",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "21 morts à Gaza près d'un centre d'aide",
+      "simplified_english_title": "21 dead in Gaza near aid center",
+      "french_summary": "La défense civile de Gaza dit que 21 personnes sont mortes à cause des tirs israéliens près d'un centre de distribution d'aide.",
+      "english_summary": "Gaza's civil defense says 21 people died due to Israeli fire near an aid distribution center.",
+      "contextual_title_explanations": {
+        "défense civile": {
+          "display_format": "**Civil defense:** défense civile",
+          "explanation": "Organization protecting civilians during conflicts",
+          "cultural_note": "Similar to emergency services in other countries"
+        },
+        "déclare": {
+          "display_format": "**Declares:** déclare",
+          "explanation": "Officially states or announces",
+          "cultural_note": ""
+        },
+        "tuées": {
+          "display_format": "**Killed:** tuées",
+          "explanation": "Past participle of 'tuer', meaning killed",
+          "cultural_note": ""
+        },
+        "tirs israéliens": {
+          "display_format": "**Israeli fire:** tirs israéliens",
+          "explanation": "Gunfire or attacks by Israeli forces",
+          "cultural_note": "Refers to military actions by Israel"
+        },
+        "centre de distribution d’aide": {
+          "display_format": "**Aid distribution center:** centre de distribution d’aide",
+          "explanation": "Place where humanitarian aid is given out",
+          "cultural_note": "Common in conflict zones for essential supplies"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Je suis très inquiète des nuisances» : dans ce village du Rhône, la lutte des riverains contre un projet éolien",
+      "original_article_link": "https://www.europe1.fr/societe/je-suis-tres-inquiete-des-nuisances-dans-ce-village-du-rhone-la-lutte-des-riverains-contre-un-projet-eolien-760761",
+      "original_article_published_date": "2025-06-24T06:51:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les habitants contre un projet d'éoliennes",
+      "simplified_english_title": "Residents oppose a wind turbine project",
+      "french_summary": "Des habitants d'un village du Rhône s'inquiètent des nuisances d'un projet éolien et se mobilisent contre celui-ci.",
+      "english_summary": "Residents of a Rhône village worry about the nuisances of a wind turbine project and are mobilizing against it.",
+      "contextual_title_explanations": {
+        "projet": {
+          "display_format": "**Project:** projet",
+          "explanation": "A plan or proposal",
+          "cultural_note": ""
+        },
+        "riverains": {
+          "display_format": "**Residents:** riverains",
+          "explanation": "People living near a specific area",
+          "cultural_note": "Often used in context of local disputes"
+        },
+        "inquiète": {
+          "display_format": "**Worried:** inquiète",
+          "explanation": "Feminine form of 'worried'",
+          "cultural_note": ""
+        },
+        "lutte": {
+          "display_format": "**Struggle:** lutte",
+          "explanation": "A fight or conflict",
+          "cultural_note": "Often used in social or political contexts"
+        },
+        "éolien": {
+          "display_format": "**Wind:** éolien",
+          "explanation": "Related to wind energy",
+          "cultural_note": "Common in discussions about renewable energy"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Jacques Séguéla raconte ses plus gros coups de pub : Quand Alain Afflelou a frôlé le pire sur un tournage [3/3]",
+      "original_article_link": "https://www.europe1.fr/emissions/destins-extraordinaires/jacques-seguela-raconte-ses-plus-gros-coups-de-pub-quand-alain-afflelou-a-frole-le-pire-sur-un-tournage-3-3-760683",
+      "original_article_published_date": "2025-06-24T03:10:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Jacques Séguéla parle de ses campagnes publicitaires",
+      "simplified_english_title": "Jacques Séguéla discusses his ad campaigns",
+      "french_summary": "Jacques Séguéla partage des histoires de ses campagnes publicitaires, dont une avec Alain Afflelou qui a presque mal tourné.",
+      "english_summary": "Jacques Séguéla shares stories from his ad campaigns, including one with Alain Afflelou that nearly went wrong.",
+      "contextual_title_explanations": {
+        "raconte": {
+          "display_format": "**Tells:** raconte",
+          "explanation": "Verb meaning to narrate or tell a story",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**His:** ses",
+          "explanation": "Possessive adjective meaning his or her",
+          "cultural_note": ""
+        },
+        "plus gros coups": {
+          "display_format": "**Biggest hits:** plus gros coups",
+          "explanation": "Major successes or achievements",
+          "cultural_note": "Common phrase in French media"
+        },
+        "pub": {
+          "display_format": "**Ad:** pub",
+          "explanation": "Short for publicité, meaning advertisement",
+          "cultural_note": ""
+        },
+        "frôlé": {
+          "display_format": "**Brushed with:** frôlé",
+          "explanation": "Verb meaning to nearly experience something",
+          "cultural_note": ""
+        },
+        "pire": {
+          "display_format": "**Worst:** pire",
+          "explanation": "Adjective meaning the worst",
+          "cultural_note": ""
+        },
+        "tournage": {
+          "display_format": "**Shooting:** tournage",
+          "explanation": "Filming or recording process",
+          "cultural_note": ""
+        },
+        "Quand": {
+          "display_format": "**When:** Quand",
+          "explanation": "Conjunction meaning when",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**Has:** a",
+          "explanation": "Verb meaning has or had",
+          "cultural_note": ""
+        },
+        "gros": {
+          "display_format": "**Big:** gros",
+          "explanation": "Adjective meaning big or large",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article meaning the",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article meaning a or an",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**More:** plus",
+          "explanation": "Adverb meaning more",
+          "cultural_note": ""
+        },
+        "coups": {
+          "display_format": "**Hits:** coups",
+          "explanation": "Noun meaning hits or successes",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning of or from",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning on or about",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Jacques Séguéla raconte ses plus gros coups de pub : “La force tranquille” [2/3]",
+      "original_article_link": "https://www.europe1.fr/emissions/destins-extraordinaires/jacques-seguela-raconte-ses-plus-gros-coups-de-pub-la-force-tranquille-2-3-760682",
+      "original_article_published_date": "2025-06-24T03:05:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Séguéla parle de ses meilleures publicités",
+      "simplified_english_title": "Séguéla talks about his best ads",
+      "french_summary": "Jacques Séguéla partage ses campagnes publicitaires les plus réussies, dont 'La force tranquille'.",
+      "english_summary": "Jacques Séguéla shares his most successful ad campaigns, including 'La force tranquille'.",
+      "contextual_title_explanations": {
+        "Séguéla": {
+          "display_format": "**Seguela:** Séguéla",
+          "explanation": "French surname",
+          "cultural_note": "Jacques Séguéla is a famous French advertising executive"
+        },
+        "raconte": {
+          "display_format": "**Tells:** raconte",
+          "explanation": "Verb meaning to narrate or tell a story",
+          "cultural_note": ""
+        },
+        "coups": {
+          "display_format": "**Strokes:** coups",
+          "explanation": "Plural of 'coup', meaning hits or successes",
+          "cultural_note": "In this context, refers to successful advertising campaigns"
+        },
+        "de pub": {
+          "display_format": "**Advertising:** de pub",
+          "explanation": "Short for 'publicité', meaning advertising",
+          "cultural_note": ""
+        },
+        "La force tranquille": {
+          "display_format": "**The quiet strength:** La force tranquille",
+          "explanation": "Famous French political slogan",
+          "cultural_note": "Used by François Mitterrand in his 1981 presidential campaign"
+        },
+        "gros": {
+          "display_format": "**Big:** gros",
+          "explanation": "Adjective meaning big or large",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**Most:** plus",
+          "explanation": "Adverb meaning most or very",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Cession de magasins Colruyt en France : 889 salariés «susceptibles d’être licenciés» au maximum",
+      "original_article_link": "https://www.lefigaro.fr/societes/cession-de-magasins-colruyt-en-france-889-salaries-susceptibles-d-etre-licencies-au-maximum-20250623",
+      "original_article_published_date": "2025-06-23T17:07:39",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Colruyt vend ses magasins en France",
+      "simplified_english_title": "Colruyt sells its stores in France",
+      "french_summary": "Colruyt vend ses magasins en France, ce qui pourrait entraîner le licenciement de 889 employés.",
+      "english_summary": "Colruyt is selling its stores in France, which could lead to 889 employees being laid off.",
+      "contextual_title_explanations": {
+        "Cession": {
+          "display_format": "**Transfer:** Cession",
+          "explanation": "The act of selling or giving up something",
+          "cultural_note": "Common in business contexts"
+        },
+        "magasins": {
+          "display_format": "**Stores:** magasins",
+          "explanation": "Retail shops or outlets",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**Employees:** salariés",
+          "explanation": "People employed by a company",
+          "cultural_note": ""
+        },
+        "susceptibles": {
+          "display_format": "**Likely:** susceptibles",
+          "explanation": "Possible or probable",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**At the:** au",
+          "explanation": "Combined preposition 'à' and article 'le'",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing a list or explanation",
+          "cultural_note": ""
+        },
+        "d": {
+          "display_format": "**Of:** d",
+          "explanation": "Combined preposition 'de' and article",
+          "cultural_note": ""
+        },
+        "licenciés": {
+          "display_format": "**Laid off:** licenciés",
+          "explanation": "Employees who may lose their jobs",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/from:** de",
+          "explanation": "Preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Opening quotation mark:** «",
+          "explanation": "Punctuation mark to open a quote",
+          "cultural_note": ""
+        },
+        "être": {
+          "display_format": "**To be:** être",
+          "explanation": "Verb indicating existence or state",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location or state",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** »",
+          "explanation": "Punctuation mark to close a quote",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Une mascarade sans aucun résultat\": LFI appelle le PS à censurer François Bayrou après \"l'échec\" du conclave des retraites",
+      "original_article_link": "https://www.bfmtv.com/politique/la-france-insoumise/une-mascarade-sans-aucun-resultat-lfi-appelle-le-ps-a-censurer-francois-bayrou_AD-202506240041.html",
+      "original_article_published_date": "2025-06-24T04:14:27",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "LFI critique Bayrou après l'échec des discussions",
+      "simplified_english_title": "LFI criticizes Bayrou after pension talks fail",
+      "french_summary": "La France Insoumise demande au Parti Socialiste de critiquer Bayrou après l'échec des discussions sur les retraites.",
+      "english_summary": "La France Insoumise asks the Socialist Party to criticize Bayrou after the failure of pension talks.",
+      "contextual_title_explanations": {
+        "sans": {
+          "display_format": "**Without:** sans",
+          "explanation": "Preposition indicating absence",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Preposition indicating time sequence",
+          "cultural_note": ""
+        },
+        "aucun": {
+          "display_format": "**None:** aucun",
+          "explanation": "Negative determiner meaning 'no' or 'none'",
+          "cultural_note": ""
+        },
+        "retraites": {
+          "display_format": "**Pensions:** retraites",
+          "explanation": "Plural noun for retirement plans",
+          "cultural_note": "Key issue in French social policy"
+        },
+        "résultat": {
+          "display_format": "**Result:** résultat",
+          "explanation": "Outcome or consequence of an action",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition indicating direction or purpose",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation introducing a list or explanation",
+          "cultural_note": ""
+        },
+        "PS": {
+          "display_format": "**Socialist Party:** PS",
+          "explanation": "French political party, center-left",
+          "cultural_note": "Major party in French politics"
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de' and 'le'",
+          "cultural_note": ""
+        },
+        "l'échec": {
+          "display_format": "**Failure:** l'échec",
+          "explanation": "Lack of success",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article for masculine nouns",
+          "cultural_note": ""
+        },
+        "censurer": {
+          "display_format": "**Censor:** censurer",
+          "explanation": "To suppress or restrict information",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation marking quoted text",
+          "cultural_note": ""
+        },
+        "Une": {
+          "display_format": "**A:** Une",
+          "explanation": "Indefinite article for feminine nouns",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article for plural nouns",
+          "cultural_note": ""
+        },
+        "appelle": {
+          "display_format": "**Calls:** appelle",
+          "explanation": "Verb meaning to call or name",
+          "cultural_note": ""
+        },
+        "mascarade": {
+          "display_format": "**Masquerade:** mascarade",
+          "explanation": "Pretence or deception",
+          "cultural_note": "Often used in political context"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Cession de magasins Colruyt en France : 889 salariés au maximum \"susceptibles d'être licenciés\"",
+      "original_article_link": "https://www.franceinfo.fr/economie/entreprises/cession-de-magasins-colruyt-en-france-889-salaries-au-maximum-susceptibles-d-etre-licencies_7332939.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-23T19:11:38",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Colruyt vend ses magasins en France",
+      "simplified_english_title": "Colruyt sells its stores in France",
+      "french_summary": "Colruyt vend ses magasins en France, ce qui pourrait entraîner le licenciement de 889 employés.",
+      "english_summary": "Colruyt is selling its stores in France, which could lead to 889 employees being laid off.",
+      "contextual_title_explanations": {
+        "Cession": {
+          "display_format": "**Transfer:** Cession",
+          "explanation": "The act of selling or giving up something",
+          "cultural_note": "Common in business contexts"
+        },
+        "magasins": {
+          "display_format": "**Stores:** magasins",
+          "explanation": "Retail shops or outlets",
+          "cultural_note": ""
+        },
+        "salariés": {
+          "display_format": "**Employees:** salariés",
+          "explanation": "People employed by a company",
+          "cultural_note": ""
+        },
+        "susceptibles": {
+          "display_format": "**Likely:** susceptibles",
+          "explanation": "Possible or probable",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**At the:** au",
+          "explanation": "Combined preposition 'à' and article 'le'",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation introducing a list or explanation",
+          "cultural_note": ""
+        },
+        "licenciés": {
+          "display_format": "**Laid off:** licenciés",
+          "explanation": "Employees who may lose their jobs",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/from:** de",
+          "explanation": "Common preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location or time",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation marks:** \"",
+          "explanation": "Punctuation used to indicate direct speech or a quotation",
+          "cultural_note": ""
+        },
+        "d&#39;être": {
+          "display_format": "**To be:** d’être",
+          "explanation": "Infinitive verb form meaning 'to be'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-24T07:20:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
