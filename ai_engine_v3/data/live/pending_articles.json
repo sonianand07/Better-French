@@ -92587,6 +92587,1076 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre à Gaza : 62 morts dans des tirs israéliens",
+      "original_article_link": "https://www.lefigaro.fr/international/guerre-a-gaza-62-morts-dans-des-tirs-israeliens-20250627",
+      "original_article_published_date": "2025-06-27T16:27:35",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "62 morts à Gaza après des tirs israéliens",
+      "simplified_english_title": "62 dead in Gaza after Israeli strikes",
+      "french_summary": "Des tirs israéliens à Gaza ont causé la mort de 62 personnes. Les tensions continuent de monter dans la région.",
+      "english_summary": "Israeli strikes in Gaza have killed 62 people. Tensions continue to rise in the region.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War:** _Guerre_",
+          "explanation": "A conflict between countries or groups.",
+          "cultural_note": "France has been involved in various wars throughout history."
+        },
+        "à": {
+          "display_format": "**In:** _à_",
+          "explanation": "Preposition indicating location or direction.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** _:_",
+          "explanation": "Punctuation introducing a list or explanation.",
+          "cultural_note": ""
+        },
+        "62": {
+          "display_format": "**Sixty-two:** _62_",
+          "explanation": "The number 62.",
+          "cultural_note": "Numbers in French can be tricky due to different counting systems."
+        },
+        "morts": {
+          "display_format": "**Dead:** _morts_",
+          "explanation": "Plural of 'dead', referring to people who have died.",
+          "cultural_note": "Used in news to report casualties."
+        },
+        "dans": {
+          "display_format": "**In:** _dans_",
+          "explanation": "Preposition meaning 'in' or 'inside'.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** _des_",
+          "explanation": "Plural indefinite article meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "tirs": {
+          "display_format": "**Shots:** _tirs_",
+          "explanation": "Plural of 'shot', referring to gunfire or attacks.",
+          "cultural_note": "Commonly used in news about conflicts."
+        },
+        "israéliens": {
+          "display_format": "**Israelis:** _israéliens_",
+          "explanation": "Referring to people or things from Israel.",
+          "cultural_note": "Israel is often mentioned in French news due to Middle East conflicts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Italie: le gouvernement Meloni transfère des migrants en Albanie au mépris de la loi",
+      "original_article_link": "https://www.rfi.fr/fr/europe/20250627-italie-le-gouvernement-meloni-transf%C3%A8re-des-migrants-en-albanie-au-m%C3%A9pris-de-la-loi",
+      "original_article_published_date": "2025-06-27T20:23:54",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Italie envoie des migrants en Albanie",
+      "simplified_english_title": "Italy sends migrants to Albania",
+      "french_summary": "Le gouvernement italien de Giorgia Meloni transfère des migrants en Albanie, ce qui est critiqué car cela pourrait violer la loi.",
+      "english_summary": "The Italian government led by Giorgia Meloni is transferring migrants to Albania, facing criticism for potentially breaking the law.",
+      "contextual_title_explanations": {
+        "Italie": {
+          "display_format": "**Italy**: _Italie_",
+          "explanation": "A country in Southern Europe.",
+          "cultural_note": "Known for its rich history, culture, and influence in the European Union."
+        },
+        ":": {
+          "display_format": "**Punctuation**: _:_",
+          "explanation": "Introduces additional information.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The**: _le_",
+          "explanation": "Definite article for masculine singular nouns.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government**: _gouvernement_",
+          "explanation": "The group of people who govern a country.",
+          "cultural_note": "Refers to the executive branch of the state."
+        },
+        "Meloni": {
+          "display_format": "**Meloni**: _Meloni_",
+          "explanation": "Giorgia Meloni, Italian Prime Minister.",
+          "cultural_note": "Leader of the Brothers of Italy party, known for right-wing policies."
+        },
+        "transfère": {
+          "display_format": "**Transfers**: _transfère_",
+          "explanation": "Moves people or things from one place to another.",
+          "cultural_note": "In this context, it refers to relocating migrants."
+        },
+        "des": {
+          "display_format": "**Some**: _des_",
+          "explanation": "Indefinite article for plural nouns.",
+          "cultural_note": ""
+        },
+        "migrants": {
+          "display_format": "**Migrants**: _migrants_",
+          "explanation": "People who move from one place to another.",
+          "cultural_note": "Often refers to those seeking better living conditions or fleeing conflict."
+        },
+        "en": {
+          "display_format": "**In/To**: _en_",
+          "explanation": "Preposition indicating location or direction.",
+          "cultural_note": ""
+        },
+        "Albanie": {
+          "display_format": "**Albania**: _Albanie_",
+          "explanation": "A country in Southeastern Europe.",
+          "cultural_note": "Known for its history and strategic location in the Balkans."
+        },
+        "au": {
+          "display_format": "**To the**: _au_",
+          "explanation": "Combined preposition meaning 'to the'.",
+          "cultural_note": ""
+        },
+        "mépris": {
+          "display_format": "**Contempt**: _mépris_",
+          "explanation": "A feeling of disrespect or disregard.",
+          "cultural_note": "Implies a strong negative attitude towards something."
+        },
+        "de": {
+          "display_format": "**Of/From**: _de_",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: _la_",
+          "explanation": "Definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**Law**: _loi_",
+          "explanation": "A system of rules created and enforced.",
+          "cultural_note": "Refers to the legal framework governing society."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Coupe du monde des clubs. « On est censé être en vacances » : Raphinha fustige la compétition",
+      "original_article_link": "https://www.ouest-france.fr/sport/football/coupe-du-monde-des-clubs/coupe-du-monde-des-clubs-on-est-cense-etre-en-vacances-raphinha-fustige-la-competition-aaa6b716-5396-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T20:55:46",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Raphinha critique la Coupe du monde des clubs",
+      "simplified_english_title": "Raphinha criticizes Club World Cup",
+      "french_summary": "Raphinha, joueur de football, a critiqué la Coupe du monde des clubs, disant que les joueurs devraient être en vacances.",
+      "english_summary": "Football player Raphinha criticized the Club World Cup, saying players should be on vacation.",
+      "contextual_title_explanations": {
+        "Coupe": {
+          "display_format": "**Cup**: Coupe",
+          "explanation": "A trophy or competition, often in sports.",
+          "cultural_note": "In France, often refers to major sports tournaments."
+        },
+        "du": {
+          "display_format": "**Of the**: du",
+          "explanation": "Combines 'de' (of) and 'le' (the).",
+          "cultural_note": ""
+        },
+        "monde": {
+          "display_format": "**World**: monde",
+          "explanation": "Refers to the world or global context.",
+          "cultural_note": "Used in many French sports competition names."
+        },
+        "des": {
+          "display_format": "**Of the**: des",
+          "explanation": "Combines 'de' (of) and 'les' (the).",
+          "cultural_note": ""
+        },
+        "clubs": {
+          "display_format": "**Clubs**: clubs",
+          "explanation": "Refers to sports clubs or teams.",
+          "cultural_note": "French sports culture includes many local clubs."
+        },
+        ".": {
+          "display_format": "**Period**: .",
+          "explanation": "Ends a sentence.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark**: «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to indicate direct speech or quotes."
+        },
+        "On": {
+          "display_format": "**We**: On",
+          "explanation": "Informal 'we' or 'one' in French.",
+          "cultural_note": "Commonly used in spoken French for general statements."
+        },
+        "est": {
+          "display_format": "**Is**: est",
+          "explanation": "Third person singular of 'être' (to be).",
+          "cultural_note": ""
+        },
+        "censé": {
+          "display_format": "**Supposed**: censé",
+          "explanation": "Means 'supposed to' or 'expected to'.",
+          "cultural_note": "Often used to express expectations or norms."
+        },
+        "être": {
+          "display_format": "**Be**: être",
+          "explanation": "The verb 'to be' in French.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**On**: en",
+          "explanation": "Can mean 'in', 'on', or 'during'.",
+          "cultural_note": "Commonly used with vacation phrases in French."
+        },
+        "vacances": {
+          "display_format": "**Holiday**: vacances",
+          "explanation": "Refers to holidays or time off.",
+          "cultural_note": "French people highly value their vacation time."
+        },
+        "»": {
+          "display_format": "**Quotation mark**: »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Introduces a quote or explanation.",
+          "cultural_note": ""
+        },
+        "Raphinha": {
+          "display_format": "**Raphinha**: Raphinha",
+          "explanation": "A Brazilian professional footballer.",
+          "cultural_note": "Currently plays for a prominent European football club."
+        },
+        "fustige": {
+          "display_format": "**Criticizes**: fustige",
+          "explanation": "Means to strongly criticize or condemn.",
+          "cultural_note": "Often used in media for strong disapproval."
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article for feminine nouns.",
+          "cultural_note": ""
+        },
+        "compétition": {
+          "display_format": "**Competition**: compétition",
+          "explanation": "A contest or tournament.",
+          "cultural_note": "French sports culture includes many competitions."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "101 millions d’euros sur la table pour reconstruire l’hôpital de Guingamp : « Un tournant attendu »",
+      "original_article_link": "https://www.ouest-france.fr/sante/hopital/101-millions-deuros-sur-la-table-pour-reconstruire-lhopital-de-guingamp-un-tournant-attendu-5670f1d0-5377-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T18:25:07",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "101 millions pour reconstruire l’hôpital de Guingamp",
+      "simplified_english_title": "€101 million to rebuild Guingamp hospital",
+      "french_summary": "Le gouvernement donne 101 millions d’euros pour reconstruire l’hôpital de Guingamp, une décision importante pour la région.",
+      "english_summary": "The government allocates €101 million to rebuild Guingamp hospital, a significant decision for the region.",
+      "contextual_title_explanations": {
+        "101": {
+          "display_format": "**One hundred and one**: 101",
+          "explanation": "The number one hundred and one.",
+          "cultural_note": "Specific amount of money allocated in this context."
+        },
+        "hôpital": {
+          "display_format": "**Hospital**: hôpital",
+          "explanation": "A place where sick or injured people are treated.",
+          "cultural_note": "Public hospitals are a key part of France's healthcare system."
+        },
+        "millions": {
+          "display_format": "**Million**: millions",
+          "explanation": "One million is 1,000,000.",
+          "cultural_note": "Used to describe large sums of money in French news."
+        },
+        "sur": {
+          "display_format": "**On**: sur",
+          "explanation": "A preposition meaning on top of or about.",
+          "cultural_note": ""
+        },
+        "Guingamp": {
+          "display_format": "**Guingamp**: Guingamp",
+          "explanation": "A town in Brittany, France.",
+          "cultural_note": "Known for its historic buildings and football team."
+        },
+        "euros": {
+          "display_format": "**Euros**: euros",
+          "explanation": "The currency used in France and many other European countries.",
+          "cultural_note": "The euro is the official currency of the European Union."
+        },
+        "attendu": {
+          "display_format": "**Expected**: attendu",
+          "explanation": "Something that is awaited or expected.",
+          "cultural_note": "Often used in news to describe anticipated events or changes."
+        },
+        "d’": {
+          "display_format": "**Of/From**: d’",
+          "explanation": "A contraction of 'de' meaning of or from.",
+          "cultural_note": ""
+        },
+        "Un": {
+          "display_format": "**A**: Un",
+          "explanation": "An indefinite article meaning a or an.",
+          "cultural_note": ""
+        },
+        "tournant": {
+          "display_format": "**Turning point**: tournant",
+          "explanation": "A significant change or turning point.",
+          "cultural_note": "Often used in news to describe major shifts or events."
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "A preposition meaning of or from.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark**: «",
+          "explanation": "A punctuation mark used to indicate the beginning of a quotation.",
+          "cultural_note": "French uses «» as quotation marks instead of “”"
+        },
+        "table": {
+          "display_format": "**Table**: table",
+          "explanation": "A piece of furniture with a flat top and legs.",
+          "cultural_note": "In this context, it means 'on the table' as in being discussed or offered."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For**: pour",
+          "explanation": "A preposition meaning for.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark**: »",
+          "explanation": "A punctuation mark used to indicate the end of a quotation.",
+          "cultural_note": "French uses «» as quotation marks instead of “”"
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "A definite article meaning the.",
+          "cultural_note": ""
+        },
+        "reconstruire": {
+          "display_format": "**Rebuild**: reconstruire",
+          "explanation": "To build something again after it has been damaged or destroyed.",
+          "cultural_note": "Often used in news about infrastructure or development projects."
+        },
+        "l’": {
+          "display_format": "**The**: l’",
+          "explanation": "A definite article meaning the, used before vowels.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "France: deux ans après la mort de Nahel, où en est l'enquête?",
+      "original_article_link": "https://www.rfi.fr/fr/france/20250627-france-deux-ans-apr%C3%A8s-la-mort-de-nahel-o%C3%B9-en-est-l-enqu%C3%AAte",
+      "original_article_published_date": "2025-06-27T16:06:51",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Où en est l'enquête sur la mort de Nahel ?",
+      "simplified_english_title": "Where is the investigation into Nahel's death?",
+      "french_summary": "Deux ans après la mort de Nahel, l'enquête continue. Les autorités cherchent toujours à comprendre les circonstances de cet événement tragique.",
+      "english_summary": "Two years after Nahel's death, the investigation continues. Authorities are still trying to understand the circumstances of this tragic event.",
+      "contextual_title_explanations": {
+        "France": {
+          "display_format": "**France**: France",
+          "explanation": "The country in Western Europe.",
+          "cultural_note": "Known for its culture, history, and influence in Europe."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Introduces a subtitle or further explanation.",
+          "cultural_note": ""
+        },
+        "deux": {
+          "display_format": "**Two**: deux",
+          "explanation": "The number 2.",
+          "cultural_note": ""
+        },
+        "ans": {
+          "display_format": "**Years**: ans",
+          "explanation": "Plural for years.",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After**: après",
+          "explanation": "Following in time.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "mort": {
+          "display_format": "**Death**: mort",
+          "explanation": "The end of life.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of**: de",
+          "explanation": "Indicates possession or association.",
+          "cultural_note": ""
+        },
+        "Nahel": {
+          "display_format": "**Nahel**: Nahel",
+          "explanation": "A person's name.",
+          "cultural_note": "A teenager whose death sparked widespread protests in France."
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "Indicates a pause or separation in a sentence.",
+          "cultural_note": ""
+        },
+        "où": {
+          "display_format": "**Where**: où",
+          "explanation": "Asks about a place or situation.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In**: en",
+          "explanation": "Indicates a state or location.",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**Is**: est",
+          "explanation": "Third person singular of 'to be'.",
+          "cultural_note": ""
+        },
+        "l&#39;enquête": {
+          "display_format": "**Investigation**: l'enquête",
+          "explanation": "The process of examining a crime or problem.",
+          "cultural_note": "Refers to the ongoing investigation into Nahel's death."
+        },
+        "?": {
+          "display_format": "**Question mark**: ?",
+          "explanation": "Indicates a direct question.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Dominique Connan : \"La police au Kenya est particulièrement brutale\"",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/au-c%C5%93ur-de-l-info-l-invit%C3%A9/20250627-dominique-connan-la-police-au-kenya-est-particuli%C3%A8rement-brutale",
+      "original_article_published_date": "2025-06-27T18:39:37",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La police au Kenya est très violente",
+      "simplified_english_title": "Police in Kenya are very violent",
+      "french_summary": "Dominique Connan dit que la police au Kenya est brutale. C'est un problème grave pour les droits de l'homme.",
+      "english_summary": "Dominique Connan says the police in Kenya are brutal. This is a serious human rights issue.",
+      "contextual_title_explanations": {
+        "Dominique": {
+          "display_format": "**First name:** Dominique",
+          "explanation": "A common French first name for both males and females.",
+          "cultural_note": "It is derived from Latin and often associated with a saint."
+        },
+        "Connan": {
+          "display_format": "**Surname:** Connan",
+          "explanation": "A French surname.",
+          "cultural_note": "It is not widely known but could be associated with specific families or regions."
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article used before feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Contraction of 'à' (to) and 'le' (the) used before masculine nouns.",
+          "cultural_note": ""
+        },
+        "Kenya": {
+          "display_format": "**Country:** Kenya",
+          "explanation": "A country in East Africa.",
+          "cultural_note": "Former British colony, known for its wildlife and diverse culture."
+        },
+        "est": {
+          "display_format": "**Is:** est",
+          "explanation": "Third person singular of 'être' (to be).",
+          "cultural_note": ""
+        },
+        "particulièrement": {
+          "display_format": "**Particularly:** particulièrement",
+          "explanation": "An adverb meaning especially or particularly.",
+          "cultural_note": ""
+        },
+        "brutale": {
+          "display_format": "**Brutal:** brutale",
+          "explanation": "Feminine form of 'brutal,' meaning harsh or violent.",
+          "cultural_note": "Often used to describe actions or behaviors that are excessively harsh."
+        },
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "A colon, used to introduce a quote or list.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation:** \"",
+          "explanation": "Quotation marks used to indicate direct speech or a quote.",
+          "cultural_note": "In French, « and » are also used as quotation marks."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’échappée. François Héran explique l’immigration à Bruno Retailleau",
+      "original_article_link": "https://www.mediapart.fr/journal/politique/270625/l-echappee-francois-heran-explique-l-immigration-bruno-retailleau",
+      "original_article_published_date": "2025-06-27T16:53:18",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un expert parle d'immigration à un sénateur",
+      "simplified_english_title": "Expert explains immigration to senator",
+      "french_summary": "François Héran, expert en immigration, discute avec Bruno Retailleau, sénateur, pour expliquer les enjeux de l'immigration.",
+      "english_summary": "François Héran, an immigration expert, discusses with Senator Bruno Retailleau to explain the issues of immigration.",
+      "contextual_title_explanations": {
+        "L’": {
+          "display_format": "**The:** _L’_",
+          "explanation": "Definite article, like 'the' in English.",
+          "cultural_note": ""
+        },
+        "échappée": {
+          "display_format": "**Escape:** _échappée_",
+          "explanation": "A breakaway or escape, often used in cycling or figuratively.",
+          "cultural_note": "Common term in French cycling culture, meaning a breakaway from the main group."
+        },
+        ".": {
+          "display_format": "**Period:** _._",
+          "explanation": "Punctuation mark indicating the end of a sentence.",
+          "cultural_note": ""
+        },
+        "explique": {
+          "display_format": "**Explains:** _explique_",
+          "explanation": "Verb meaning 'explains' or 'clarifies'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** _à_",
+          "explanation": "Preposition meaning 'to' or 'at'.",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** _l_",
+          "explanation": "Definite article, like 'the' in English.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pogacar qui agace, la magie Cavendish, le calvaire de Lavenu... Les 3 moments forts de la saison 3 de la série Tour de France sur Netflix",
+      "original_article_link": "https://rmcsport.bfmtv.com/cyclisme/tour-de-france/pogacar-qui-agace-la-magie-cavendish-le-calvaire-de-lavenu-les-3-moments-forts-de-la-saison-3-de-la-serie-tour-de-france-sur-netflix_AV-202506270691.html",
+      "original_article_published_date": "2025-06-27T17:40:25",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les moments forts du Tour de France sur Netflix",
+      "simplified_english_title": "Highlights of Tour de France on Netflix",
+      "french_summary": "La saison 3 du Tour de France sur Netflix montre Pogacar qui dérange, les victoires de Cavendish et les difficultés de Lavenu.",
+      "english_summary": "Season 3 of Tour de France on Netflix features Pogacar causing trouble, Cavendish's wins, and Lavenu's struggles.",
+      "contextual_title_explanations": {
+        ",": {
+          "display_format": "**Punctuation:** ,",
+          "explanation": "A comma, used to separate parts of a sentence.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**Country:** France",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": "Known for its rich history, culture, and influence in the world."
+        },
+        ".": {
+          "display_format": "**Punctuation:** .",
+          "explanation": "A period, used to end a sentence.",
+          "cultural_note": ""
+        },
+        "Pogacar": {
+          "display_format": "**Name:** Pogacar",
+          "explanation": "A Slovenian cyclist.",
+          "cultural_note": "Tadej Pogačar is a professional cyclist known for his achievements in the Tour de France."
+        },
+        "Les": {
+          "display_format": "**Article:** Les",
+          "explanation": "The plural definite article in French.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**Preposition:** sur",
+          "explanation": "A preposition meaning 'on' or 'about'.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Pronoun:** qui",
+          "explanation": "A relative pronoun meaning 'who' or 'that'.",
+          "cultural_note": ""
+        },
+        "forts": {
+          "display_format": "**Adjective:** forts",
+          "explanation": "Meaning 'strong' or 'great' in French.",
+          "cultural_note": ""
+        },
+        "Cavendish": {
+          "display_format": "**Name:** Cavendish",
+          "explanation": "A British cyclist.",
+          "cultural_note": "Mark Cavendish is a renowned professional cyclist known for his sprinting abilities."
+        },
+        "Netflix": {
+          "display_format": "**Company:** Netflix",
+          "explanation": "A streaming service for movies and TV shows.",
+          "cultural_note": "Popular global platform for entertainment content."
+        },
+        "de": {
+          "display_format": "**Preposition:** de",
+          "explanation": "A preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "série": {
+          "display_format": "**Noun:** série",
+          "explanation": "Meaning 'series' in French.",
+          "cultural_note": ""
+        },
+        "moments": {
+          "display_format": "**Noun:** moments",
+          "explanation": "Meaning 'moments' in French.",
+          "cultural_note": ""
+        },
+        "agace": {
+          "display_format": "**Verb:** agace",
+          "explanation": "Meaning 'annoys' or 'irritates' in French.",
+          "cultural_note": ""
+        },
+        "saison": {
+          "display_format": "**Noun:** saison",
+          "explanation": "Meaning 'season' in French.",
+          "cultural_note": ""
+        },
+        "Tour": {
+          "display_format": "**Event:** Tour",
+          "explanation": "Short for Tour de France, a famous cycling race.",
+          "cultural_note": "One of the most prestigious and difficult bicycle races in the world."
+        },
+        "3": {
+          "display_format": "**Number:** 3",
+          "explanation": "The number three.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**Article:** la",
+          "explanation": "The singular feminine definite article in French.",
+          "cultural_note": ""
+        },
+        "Lavenu": {
+          "display_format": "**Name:** Lavenu",
+          "explanation": "A French surname.",
+          "cultural_note": "Marc Madiot often refers to Lavenu as his right-hand man and a crucial figure in the team's success."
+        },
+        "magie": {
+          "display_format": "**Noun:** magie",
+          "explanation": "Meaning 'magic' in French.",
+          "cultural_note": ""
+        },
+        "calvaire": {
+          "display_format": "**Noun:** calvaire",
+          "explanation": "Meaning 'ordeal' or 'torture' in French.",
+          "cultural_note": "Can also refer to a representation of the crucifixion of Jesus Christ."
+        },
+        "le": {
+          "display_format": "**Article:** le",
+          "explanation": "The singular masculine definite article in French.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Dominique Reynié : «La baisse de la natalité reflète un désir empêché plutôt qu’un rejet de la parentalité»",
+      "original_article_link": "https://www.lefigaro.fr/actualite-france/dominique-reynie-la-baisse-de-la-natalite-reflete-un-desir-empeche-plutot-qu-un-rejet-de-la-parentalite-20250627",
+      "original_article_published_date": "2025-06-27T17:11:30",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La baisse des naissances : un désir non réalisé",
+      "simplified_english_title": "Falling birth rates: an unfulfilled desire",
+      "french_summary": "Dominique Reynié explique que la baisse de la natalité montre que les gens veulent des enfants mais ne peuvent pas en avoir.",
+      "english_summary": "Dominique Reynié says falling birth rates show people want children but can't have them.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "baisse": {
+          "display_format": "**Decrease:** baisse",
+          "explanation": "A reduction or decline.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "natalité": {
+          "display_format": "**Birth:** natalité",
+          "explanation": "Birth rate or natality.",
+          "cultural_note": "France has specific policies regarding birth rates."
+        },
+        "reflète": {
+          "display_format": "**Reflects:** reflète",
+          "explanation": "Shows or indicates something.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "désir": {
+          "display_format": "**Desire:** désir",
+          "explanation": "A strong wish or want.",
+          "cultural_note": ""
+        },
+        "empêché": {
+          "display_format": "**Prevented:** empêché",
+          "explanation": "Hindered or prevented.",
+          "cultural_note": ""
+        },
+        "plutôt": {
+          "display_format": "**Rather:** plutôt",
+          "explanation": "Used to indicate preference.",
+          "cultural_note": ""
+        },
+        "qu’": {
+          "display_format": "**That:** qu’",
+          "explanation": "Short for 'que', meaning 'that'.",
+          "cultural_note": ""
+        },
+        "rejet": {
+          "display_format": "**Rejection:** rejet",
+          "explanation": "The act of refusing or denying.",
+          "cultural_note": ""
+        },
+        "parentalité": {
+          "display_format": "**Parenthood:** parentalité",
+          "explanation": "The state of being a parent.",
+          "cultural_note": "In France, parenthood is supported by various social policies."
+        },
+        "»": {
+          "display_format": "**Quotation:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used to introduce a quote.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nahel : «Les journalistes ne peuvent plus faire leur travail en toute quiétude en 2025, c’est catastrophique», juge un policier",
+      "original_article_link": "https://www.europe1.fr/societe/nahel-les-journalistes-ne-peuvent-plus-faire-leur-travail-en-toute-quietude-en-2025-cest-catastrophique-juge-un-policier-761317",
+      "original_article_published_date": "2025-06-27T15:34:26",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un policier dit que les journalistes ne sont plus en sécurité",
+      "simplified_english_title": "A policeman says journalists are no longer safe",
+      "french_summary": "Un policier déclare que les journalistes ne peuvent plus travailler tranquillement en 2025, ce qui est très grave.",
+      "english_summary": "A policeman states that journalists can no longer work peacefully in 2025, which is very serious.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation:** «",
+          "explanation": "French opening quotation mark",
+          "cultural_note": "Used to indicate the beginning of a quote"
+        },
+        "Les": {
+          "display_format": "**The:** _Les_",
+          "explanation": "Definite article, plural",
+          "cultural_note": ""
+        },
+        "journalistes": {
+          "display_format": "**Journalists:** _journalistes_",
+          "explanation": "People who write or report news",
+          "cultural_note": "Media professionals in France often face challenges"
+        },
+        "ne": {
+          "display_format": "**Not:** _ne_",
+          "explanation": "Negative particle used with verbs",
+          "cultural_note": ""
+        },
+        "peuvent": {
+          "display_format": "**Can:** _peuvent_",
+          "explanation": "Verb meaning 'can' or 'are able to'",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**No longer:** _plus_",
+          "explanation": "Indicates negation in this context",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**Do:** _faire_",
+          "explanation": "Verb meaning 'to do' or 'to make'",
+          "cultural_note": ""
+        },
+        "leur": {
+          "display_format": "**Their:** _leur_",
+          "explanation": "Possessive pronoun meaning 'their'",
+          "cultural_note": ""
+        },
+        "travail": {
+          "display_format": "**Work:** _travail_",
+          "explanation": "Refers to job or task",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition meaning 'in' or 'during'",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**Complete:** _toute_",
+          "explanation": "Adjective meaning 'complete' or 'entire'",
+          "cultural_note": ""
+        },
+        "quiétude": {
+          "display_format": "**Tranquility:** _quiétude_",
+          "explanation": "State of calm or peace",
+          "cultural_note": "Often used to describe a peaceful environment"
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark indicating a pause",
+          "cultural_note": ""
+        },
+        "c": {
+          "display_format": "**It:** _c'_",
+          "explanation": "Short for 'ce' meaning 'it'",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**Is:** _est_",
+          "explanation": "Verb meaning 'is'",
+          "cultural_note": ""
+        },
+        "catastrophique": {
+          "display_format": "**Catastrophic:** _catastrophique_",
+          "explanation": "Adjective meaning very bad or disastrous",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation:** »",
+          "explanation": "French closing quotation mark",
+          "cultural_note": "Used to indicate the end of a quote"
+        },
+        "juge": {
+          "display_format": "**Judge:** _juge_",
+          "explanation": "A person who makes legal decisions",
+          "cultural_note": "In France, judges have specific roles in law enforcement"
+        },
+        "un": {
+          "display_format": "**A:** _un_",
+          "explanation": "Indefinite article meaning 'a'",
+          "cultural_note": ""
+        },
+        "policier": {
+          "display_format": "**Police officer:** _policier_",
+          "explanation": "A member of the police force",
+          "cultural_note": "French police officers have various roles and responsibilities"
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing a quote or list",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T21:16:56",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
