@@ -91662,6 +91662,931 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Télétravail : la difficile marche arrière des entreprises",
+      "original_article_link": "https://www.europe1.fr/societe/teletravail-la-difficile-marche-arriere-des-entreprises-761342",
+      "original_article_published_date": "2025-06-27T19:17:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les entreprises ont du mal à réduire le télétravail",
+      "simplified_english_title": "Companies struggle to reduce remote work",
+      "french_summary": "Les entreprises essaient de réduire le télétravail, mais les employés résistent car ils préfèrent cette façon de travailler.",
+      "english_summary": "Companies are trying to reduce remote work, but employees resist as they prefer this way of working.",
+      "contextual_title_explanations": {
+        "Télétravail": {
+          "display_format": "**Remote work**: Télétravail",
+          "explanation": "Working from home or outside the office using technology.",
+          "cultural_note": "Became very common in France during the COVID-19 pandemic."
+        },
+        ":": {
+          "display_format": "**Punctuation**: :",
+          "explanation": "Introduces additional information or explanation.",
+          "cultural_note": ""
+        },
+        "entreprises": {
+          "display_format": "**Companies**: entreprises",
+          "explanation": "Business organizations or firms.",
+          "cultural_note": "France has many small and medium-sized enterprises (SMEs)."
+        },
+        "des": {
+          "display_format": "**Some**: des",
+          "explanation": "Plural indefinite article, meaning 'some' or 'a few'.",
+          "cultural_note": ""
+        },
+        "difficile": {
+          "display_format": "**Difficult**: difficile",
+          "explanation": "Not easy, requiring much effort.",
+          "cultural_note": ""
+        },
+        "arrière": {
+          "display_format": "**Backward**: arrière",
+          "explanation": "Moving back or reversing direction.",
+          "cultural_note": "Often used in sports and everyday contexts."
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article, meaning 'the' for feminine nouns.",
+          "cultural_note": ""
+        },
+        "marche": {
+          "display_format": "**Step**: marche",
+          "explanation": "A step or movement forward or backward.",
+          "cultural_note": "Can also mean 'walk' or 'market' depending on context."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran / Israël, une guerre éclair et des pourparlers dans l'impasse pour l'Ukraine",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20250627-iran-isra%C3%ABl-une-guerre-%C3%A9clair-et-des-pourparlers-dans-l-impasse-pour-l-ukraine",
+      "original_article_published_date": "2025-06-27T18:17:20",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Tensions entre Iran et Israël, Ukraine en difficulté",
+      "simplified_english_title": "Tensions between Iran and Israel, Ukraine struggles",
+      "french_summary": "Les tensions montent entre l'Iran et Israël après des attaques. L'Ukraine a du mal avec les pourparlers.",
+      "english_summary": "Tensions rise between Iran and Israel after attacks. Ukraine struggles with talks.",
+      "contextual_title_explanations": {
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Preposition meaning 'for' or 'towards'.",
+          "cultural_note": ""
+        },
+        "éclair": {
+          "display_format": "**Lightning:** éclair",
+          "explanation": "Means 'lightning' or 'flash'.",
+          "cultural_note": "Also a type of French pastry."
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "A state of armed conflict.",
+          "cultural_note": "France has been involved in various wars throughout history."
+        },
+        "l&#39;Ukraine": {
+          "display_format": "**Ukraine:** l'Ukraine",
+          "explanation": "A country in Eastern Europe.",
+          "cultural_note": "Currently in conflict with Russia."
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "l&#39;impasse": {
+          "display_format": "**Deadlock:** l'impasse",
+          "explanation": "A situation where progress is impossible.",
+          "cultural_note": "Commonly used in political contexts."
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A:** une",
+          "explanation": "Feminine singular indefinite article meaning 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark used to separate items in a list.",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in' or 'into'.",
+          "cultural_note": ""
+        },
+        "pourparlers": {
+          "display_format": "**Talks:** pourparlers",
+          "explanation": "Negotiations or discussions.",
+          "cultural_note": "Often used in diplomatic contexts."
+        },
+        "Israël": {
+          "display_format": "**Israel:** Israël",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": "Known for its historical and religious significance."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La République démocratique du Congo et le Rwanda signent un accord de paix à Washington",
+      "original_article_link": "https://www.france24.com/fr/info-en-continu/20250627-la-r%C3%A9publique-d%C3%A9mocratique-du-congo-et-le-rwanda-signent-un-accord-de-paix-%C3%A0-washington",
+      "original_article_published_date": "2025-06-27T17:24:49",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La RDC et le Rwanda signent un accord de paix",
+      "simplified_english_title": "DRC and Rwanda sign a peace agreement",
+      "french_summary": "La RDC et le Rwanda ont signé un accord de paix à Washington pour améliorer leurs relations et stabiliser la région.",
+      "english_summary": "The DRC and Rwanda signed a peace agreement in Washington to improve relations and stabilize the region.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article meaning 'the' in French.",
+          "cultural_note": ""
+        },
+        "République": {
+          "display_format": "**Republic:** _République_",
+          "explanation": "A form of government where power is held by the people.",
+          "cultural_note": "France is a republic, known as the French Republic."
+        },
+        "démocratique": {
+          "display_format": "**Democratic:** _démocratique_",
+          "explanation": "Relating to or supporting democracy.",
+          "cultural_note": "Democratic Republic of the Congo is a country in Central Africa."
+        },
+        "du": {
+          "display_format": "**Of the:** _du_",
+          "explanation": "Contraction of 'de' and 'le', meaning 'of the'.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "A conjunction meaning 'and' in French.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** _le_",
+          "explanation": "Definite article meaning 'the' in French.",
+          "cultural_note": ""
+        },
+        "signent": {
+          "display_format": "**Sign:** _signent_",
+          "explanation": "Verb meaning 'to sign' in French.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** _un_",
+          "explanation": "Indefinite article meaning 'a' or 'an' in French.",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement:** _accord_",
+          "explanation": "A mutual arrangement or understanding.",
+          "cultural_note": "International agreements are common in global politics."
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition meaning 'of' or 'from' in French.",
+          "cultural_note": ""
+        },
+        "paix": {
+          "display_format": "**Peace:** _paix_",
+          "explanation": "A state of tranquility or absence of war.",
+          "cultural_note": "Peace agreements are crucial for resolving conflicts."
+        },
+        "à": {
+          "display_format": "**To/At:** _à_",
+          "explanation": "Preposition meaning 'to' or 'at' in French.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La Cour suprême américaine limite le pouvoir des juges : Trump savoure, les démocrates s’alarment",
+      "original_article_link": "https://www.ouest-france.fr/monde/etats-unis/la-cour-supreme-americaine-limite-le-pouvoir-des-juges-trump-savoure-les-democrates-salarment-29b6b6d4-5386-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T19:21:55",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Cour suprême réduit le pouvoir des juges",
+      "simplified_english_title": "Supreme Court limits judges' power",
+      "french_summary": "La Cour suprême américaine a réduit le pouvoir des juges. Trump est content, mais les démocrates sont inquiets.",
+      "english_summary": "The US Supreme Court limited judges' power. Trump is pleased, but Democrats are worried.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "Cour": {
+          "display_format": "**Court:** _Cour_",
+          "explanation": "A judicial institution or body.",
+          "cultural_note": "In France, courts handle legal disputes and interpretations of law."
+        },
+        "suprême": {
+          "display_format": "**Supreme:** _suprême_",
+          "explanation": "Highest in rank or authority.",
+          "cultural_note": "In the U.S., the Supreme Court is the highest federal court."
+        },
+        "américaine": {
+          "display_format": "**American:** _américaine_",
+          "explanation": "Relating to the United States of America.",
+          "cultural_note": "Refers to the U.S. context, not the Americas in general."
+        },
+        ":": {
+          "display_format": "**Colon:** _:_",
+          "explanation": "Punctuation introducing a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "limite": {
+          "display_format": "**Limits:** _limite_",
+          "explanation": "Restricts or confines something.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** _le_",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "pouvoir": {
+          "display_format": "**Power:** _pouvoir_",
+          "explanation": "Authority or ability to act.",
+          "cultural_note": "In politics, it often refers to legal or governmental authority."
+        },
+        "des": {
+          "display_format": "**Some:** _des_",
+          "explanation": "Indefinite article, plural.",
+          "cultural_note": ""
+        },
+        "juges": {
+          "display_format": "**Judges:** _juges_",
+          "explanation": "Officials who preside over court proceedings.",
+          "cultural_note": "In France, judges are part of the judicial branch of government."
+        },
+        ",": {
+          "display_format": "**Comma:** _,_",
+          "explanation": "Punctuation indicating a pause or separation.",
+          "cultural_note": ""
+        },
+        "savoure": {
+          "display_format": "**Savors:** _savoure_",
+          "explanation": "Enjoys or relishes something.",
+          "cultural_note": "Often used in contexts of enjoying a moment or victory."
+        },
+        "les": {
+          "display_format": "**The:** _les_",
+          "explanation": "Definite article, plural.",
+          "cultural_note": ""
+        },
+        "démocrates": {
+          "display_format": "**Democrats:** _démocrates_",
+          "explanation": "Members of the Democratic Party in the U.S.",
+          "cultural_note": "One of the two major political parties in the United States."
+        },
+        "s": {
+          "display_format": "**'s:** _s_",
+          "explanation": "Apostrophe 's' indicating possession.",
+          "cultural_note": ""
+        },
+        "alarment": {
+          "display_format": "**Alarmed:** _alarment_",
+          "explanation": "Feeling or expressing alarm or concern.",
+          "cultural_note": "Often used in contexts of worry or urgent concern."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La loi énergie, rejetée il y a trois jours, reviendra en septembre à l’Assemblée",
+      "original_article_link": "https://www.nouvelobs.com/politique/20250627.OBS105390/la-loi-energie-rejetee-il-y-a-trois-jours-reviendra-en-septembre-a-l-assemblee.html",
+      "original_article_published_date": "2025-06-27T20:11:25",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La loi énergie sera votée en septembre",
+      "simplified_english_title": "Energy law to be voted on in September",
+      "french_summary": "La loi sur l'énergie, rejetée il y a trois jours, sera de nouveau présentée à l'Assemblée nationale en septembre pour un nouveau vote.",
+      "english_summary": "The energy law, rejected three days ago, will be presented again in the National Assembly in September for a new vote.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The**: _La_",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": "Used before feminine nouns in French."
+        },
+        "loi": {
+          "display_format": "**Law**: _loi_",
+          "explanation": "A rule or system of rules recognized by a country.",
+          "cultural_note": "French laws are created by the Parliament."
+        },
+        "énergie": {
+          "display_format": "**Energy**: _énergie_",
+          "explanation": "Power derived from physical or chemical resources.",
+          "cultural_note": "Energy policies are significant in French politics."
+        },
+        ",": {
+          "display_format": "**Comma**: _,_",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "rejetée": {
+          "display_format": "**Rejected**: _rejetée_",
+          "explanation": "Past participle of 'rejeter,' meaning to refuse or dismiss.",
+          "cultural_note": "Common in political context when laws are not approved."
+        },
+        "il": {
+          "display_format": "**He**: _il_",
+          "explanation": "Subject pronoun for masculine singular.",
+          "cultural_note": ""
+        },
+        "y": {
+          "display_format": "**There**: _y_",
+          "explanation": "Adverb meaning 'there' or 'to there.'",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**Has**: _a_",
+          "explanation": "Third person singular of 'avoir,' meaning 'has' or 'had.'",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**Three**: _trois_",
+          "explanation": "The number three.",
+          "cultural_note": ""
+        },
+        "jours": {
+          "display_format": "**Days**: _jours_",
+          "explanation": "Plural of 'jour,' meaning day.",
+          "cultural_note": ""
+        },
+        "reviendra": {
+          "display_format": "**Will return**: _reviendra_",
+          "explanation": "Future tense of 'revenir,' meaning to come back.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In**: _en_",
+          "explanation": "Preposition meaning 'in' or 'during.'",
+          "cultural_note": ""
+        },
+        "septembre": {
+          "display_format": "**September**: _septembre_",
+          "explanation": "The ninth month of the year.",
+          "cultural_note": "In France, September marks the start of the school year."
+        },
+        "à": {
+          "display_format": "**To**: _à_",
+          "explanation": "Preposition meaning 'to' or 'at.'",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The**: _l’_",
+          "explanation": "Definite article, contraction of 'la' before a vowel.",
+          "cultural_note": ""
+        },
+        "Assemblée": {
+          "display_format": "**Assembly**: _Assemblée_",
+          "explanation": "A group of people gathered together for a common purpose.",
+          "cultural_note": "Refers to the French National Assembly, the lower house of Parliament."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"L'économie iranienne est à genoux\" selon Michel Santi",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/l-invit%C3%A9-de-l-%C3%A9co/20250627-l-%C3%A9conomie-iranienne-est-%C3%A0-genoux-selon-michel-santi",
+      "original_article_published_date": "2025-06-27T18:29:56",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'économie de l'Iran va très mal",
+      "simplified_english_title": "Iran's economy is struggling",
+      "french_summary": "Michel Santi dit que l'économie iranienne est en très mauvaise situation à cause des sanctions et des problèmes internes.",
+      "english_summary": "Michel Santi says Iran's economy is in bad shape due to sanctions and internal issues.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French symbol used to open a quotation.",
+          "cultural_note": "In French, « and » are used instead of English “ and ”."
+        },
+        "L'économie": {
+          "display_format": "**Economy:** l'économie",
+          "explanation": "The system of production and consumption.",
+          "cultural_note": "Often discussed in French media regarding national and global issues."
+        },
+        "iranienne": {
+          "display_format": "**Iranian:** iranienne",
+          "explanation": "Relating to Iran, its people, or culture.",
+          "cultural_note": "Iran is a significant country in the Middle East with a rich history."
+        },
+        "est": {
+          "display_format": "**Is:** est",
+          "explanation": "Third person singular of 'to be'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**At/To:** à",
+          "explanation": "Preposition indicating location or state.",
+          "cultural_note": ""
+        },
+        "genoux": {
+          "display_format": "**Knees:** genoux",
+          "explanation": "Plural of 'knee', the joint in the middle of the leg.",
+          "cultural_note": "The phrase 'à genoux' means 'on its knees,' indicating severe difficulty."
+        },
+        "selon": {
+          "display_format": "**According to:** selon",
+          "explanation": "Preposition meaning 'according to'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La semaine de l'économie - 27/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/c-est-votre-argent/video-la-semaine-de-l-economie-27-06_VN-202506270761.html",
+      "original_article_published_date": "2025-06-27T19:55:32",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Événements économiques cette semaine",
+      "simplified_english_title": "Economic events this week",
+      "french_summary": "Cette semaine, des experts discutent de l'économie actuelle et future. C'est important pour comprendre les tendances.",
+      "english_summary": "This week, experts discuss current and future economy. It's important to understand trends.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": "Used like English 'the' but with gender agreement."
+        },
+        "semaine": {
+          "display_format": "**Week:** _semaine_",
+          "explanation": "A period of seven days.",
+          "cultural_note": "In France, the week often starts on Monday."
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition meaning 'of' or 'about'.",
+          "cultural_note": "Commonly used to link nouns, like 'week of the economy'."
+        },
+        "l'économie": {
+          "display_format": "**Economy:** _l'économie_",
+          "explanation": "The system of production and consumption.",
+          "cultural_note": "France has a mixed economy with significant government involvement."
+        },
+        "27": {
+          "display_format": "**27th:** _27_",
+          "explanation": "The twenty-seventh day of the month.",
+          "cultural_note": ""
+        },
+        "06": {
+          "display_format": "**June:** _06_",
+          "explanation": "The sixth month of the year.",
+          "cultural_note": "In France, June is known for the Fête de la Musique."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Non, Emmanuel Macron n'a pas présenté ses excuses à la République Démocratique du Congo sur RFI",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20250627-non-emmanuel-macron-n-a-pas-pr%C3%A9sent%C3%A9-ses-excuses-%C3%A0-la-r%C3%A9publique-d%C3%A9mocratique-du-congo-sur-rfi",
+      "original_article_published_date": "2025-06-27T19:53:20",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron n'a pas fait d'excuses au Congo",
+      "simplified_english_title": "Macron did not apologize to Congo",
+      "french_summary": "Emmanuel Macron n'a pas présenté d'excuses à la République Démocratique du Congo, contrairement à ce qui a été rapporté par certains médias.",
+      "english_summary": "Emmanuel Macron did not apologize to the Democratic Republic of Congo, contrary to some media reports.",
+      "contextual_title_explanations": {
+        "Non": {
+          "display_format": "**No:** Non",
+          "explanation": "French word for 'no'",
+          "cultural_note": "Used to negate or contradict a statement"
+        },
+        "n'a": {
+          "display_format": "**Has not:** n'a",
+          "explanation": "Contraction of 'ne a' meaning 'has not'",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Used to negate a verb",
+          "cultural_note": ""
+        },
+        "présenté": {
+          "display_format": "**Presented:** présenté",
+          "explanation": "Past participle of 'présenter' meaning 'to present'",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**His/Her:** ses",
+          "explanation": "Possessive adjective meaning 'his' or 'her'",
+          "cultural_note": ""
+        },
+        "excuses": {
+          "display_format": "**Apologies:** excuses",
+          "explanation": "Meaning 'apologies' or 'excuses'",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition meaning 'to' or 'at'",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article for feminine nouns",
+          "cultural_note": ""
+        },
+        "République": {
+          "display_format": "**Republic:** République",
+          "explanation": "Meaning 'republic,' a form of government",
+          "cultural_note": "France is officially called the French Republic"
+        },
+        "Démocratique": {
+          "display_format": "**Democratic:** Démocratique",
+          "explanation": "Meaning 'democratic'",
+          "cultural_note": "Refers to a system of government by the people"
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de le' meaning 'of the'",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning 'on' or 'about'",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark used to separate items in a list",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’OL conclut un accord avec l’UEFA et pourra disputer la Ligue Europa s’il est maintenu en Ligue 1",
+      "original_article_link": "https://www.lemonde.fr/sport/article/2025/06/27/l-ol-conclut-un-accord-avec-l-uefa-et-pourra-disputer-la-ligue-europa-s-il-est-maintenu-en-ligue-1_6616187_3242.html",
+      "original_article_published_date": "2025-06-27T16:39:30",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'OL peut jouer en Ligue Europa s'il reste en Ligue 1",
+      "simplified_english_title": "OL can play in Europa League if they stay in Ligue 1",
+      "french_summary": "L'Olympique Lyonnais a fait un accord avec l'UEFA et pourra jouer en Ligue Europa s'il reste en Ligue 1 cette saison.",
+      "english_summary": "Olympique Lyonnais made a deal with UEFA and can play in the Europa League if they stay in Ligue 1 this season.",
+      "contextual_title_explanations": {
+        "l": {
+          "display_format": "**The:** _l_",
+          "explanation": "Definite article, short for 'le' or 'la'.",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement:** _accord_",
+          "explanation": "A deal or arrangement between parties.",
+          "cultural_note": ""
+        },
+        "Ligue": {
+          "display_format": "**League:** _Ligue_",
+          "explanation": "A group of sports teams competing.",
+          "cultural_note": "Common in French sports, like Ligue 1 or Ligue Europa."
+        },
+        "avec": {
+          "display_format": "**With:** _avec_",
+          "explanation": "Preposition indicating accompaniment.",
+          "cultural_note": ""
+        },
+        "maintenu": {
+          "display_format": "**Maintained:** _maintenu_",
+          "explanation": "Kept in a certain position or state.",
+          "cultural_note": "Refers to staying in Ligue 1 here."
+        },
+        "L": {
+          "display_format": "**The:** _L_",
+          "explanation": "Short for 'Ligue' in sports contexts.",
+          "cultural_note": ""
+        },
+        "conclut": {
+          "display_format": "**Concludes:** _conclut_",
+          "explanation": "Completes or finalizes something.",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**Is:** _est_",
+          "explanation": "Third person singular of 'être' (to be).",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition indicating location or state.",
+          "cultural_note": ""
+        },
+        "pourra": {
+          "display_format": "**Will be able to:** _pourra_",
+          "explanation": "Future tense of 'pouvoir' (can, to be able to).",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "Conjunction connecting words or phrases.",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**He/It:** _il_",
+          "explanation": "Third person singular masculine pronoun.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "s": {
+          "display_format": "**If:** _s_",
+          "explanation": "Short for 'si', meaning 'if'.",
+          "cultural_note": ""
+        },
+        "disputer": {
+          "display_format": "**Compete in:** _disputer_",
+          "explanation": "To take part in a competition.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** _un_",
+          "explanation": "Indefinite article, masculine singular.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "RÉCIT. Intoxications alimentaires dans l’Aisne : un mort, 25 cas et toujours pas d’explication",
+      "original_article_link": "https://www.ouest-france.fr/sante/recit-intoxications-alimentaires-dans-laisne-un-mort-25-cas-et-toujours-pas-dexplication-d21a7ed8-5349-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T15:31:28",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Empoisonnements alimentaires dans l’Aisne : 1 mort",
+      "simplified_english_title": "Food poisonings in Aisne: 1 dead",
+      "french_summary": "Des intoxications alimentaires dans l’Aisne ont causé un mort et 25 malades. Les autorités cherchent toujours la cause.",
+      "english_summary": "Food poisonings in Aisne caused one death and 25 illnesses. Authorities are still searching for the cause.",
+      "contextual_title_explanations": {
+        "RÉCIT": {
+          "display_format": "**Story:** RÉCIT",
+          "explanation": "A narrative or detailed account of events.",
+          "cultural_note": "Commonly used in French journalism to indicate a detailed report."
+        },
+        "Intoxications": {
+          "display_format": "**Poisonings:** Intoxications",
+          "explanation": "Illnesses caused by toxic substances.",
+          "cultural_note": "Often used in context of food safety issues in France."
+        },
+        "alimentaires": {
+          "display_format": "**Food-related:** alimentaires",
+          "explanation": "Relating to food.",
+          "cultural_note": "France has strict food safety regulations."
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Indicates location or context.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article used before vowels.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces a list or explanation.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article meaning 'a' or 'one'.",
+          "cultural_note": ""
+        },
+        "mort": {
+          "display_format": "**Death:** mort",
+          "explanation": "A fatality or death.",
+          "cultural_note": "Serious incidents like this are closely followed by French media."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark to separate items.",
+          "cultural_note": ""
+        },
+        "25": {
+          "display_format": "**Twenty-five:** 25",
+          "explanation": "The number twenty-five.",
+          "cultural_note": "Significant as it indicates the scale of the incident."
+        },
+        "cas": {
+          "display_format": "**Cases:** cas",
+          "explanation": "Instances or occurrences of something.",
+          "cultural_note": "Often used in medical or legal contexts in France."
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "toujours": {
+          "display_format": "**Still:** toujours",
+          "explanation": "Indicates something is still the case.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Negation word meaning 'not'.",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**Of:** d’",
+          "explanation": "Preposition meaning 'of' used before vowels.",
+          "cultural_note": ""
+        },
+        "explication": {
+          "display_format": "**Explanation:** explication",
+          "explanation": "A clarification or reason given.",
+          "cultural_note": "French media often demands explanations for public safety issues."
+        },
+        ".": {
+          "display_format": "**Period:** .",
+          "explanation": "Punctuation mark to end a sentence.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T20:21:00",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
