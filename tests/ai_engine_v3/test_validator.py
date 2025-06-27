@@ -9,6 +9,6 @@ def test_validate_titles_success():
 
 
 def test_validate_explanations_success():
-    raw = '[{"original_word": "mot", "display_format": "**Word:** mot", "explanation": "A basic unit of language"}]'
+    raw = '[{"original_word": "mot", "display_format": "**Word:** mot", "explanation": "A basic unit of language", "cultural_note": "Commonly used example word in French textbooks."}]'
     ok, data, _ = validate_explanations_payload(raw)
     assert ok is True and isinstance(data, list) 
