@@ -94,4 +94,5 @@ class Storage:
             return article.original_article_published_date or article.processed_at or ""
 
         ready.sort(key=_date_key, reverse=True)
-        cls._save(ROLLING_FILE, ready[:100]) 
+        # Increase rolling capacity to 200 articles so users can browse a richer archive.
+        cls._save(ROLLING_FILE, ready[:200]) 
