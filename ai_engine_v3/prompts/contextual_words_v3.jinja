@@ -24,8 +24,9 @@ Goal: deliver concise, accurate explanations so the learner grasps meaning and c
    • Skip the note for routine grammar words (articles, prepositions, standalone punctuation).
    • Aim for most *content words* to carry a note – at least **60 %** of your entries should include a non-empty `cultural_note`.
    • Keep the note ≤ 25 words. Use an empty string (`""`) only when genuinely nothing useful can be added.
-5. Do **not** output vague placeholders like "this is someone's name." If unsure about a name or term, use a neutral description (e.g. "French public figure" or "French organization").  
-6. The **bold English term** in `display_format` (before the colon) should be the most common English translation or equivalent. Do **not** use a French word there unless it's identical in both languages. Capitalize this English term and follow it with a colon.
+5. **Always include proper names, significant dates/numbers, and key nouns** in your list; do **not** skip them. If a name or number is unfamiliar, give a brief neutral note (e.g. "French politician", "Major cycling race").
+6. Do **not** output vague placeholders like "this is someone's name." If unsure about a name or term, use a neutral description (e.g. "French public figure" or "French organization").
+7. The **bold English term** in `display_format` (before the colon) should be the most common English translation or equivalent. Do **not** use a French word there unless it's identical in both languages. Capitalize this English term and follow it with a colon.
 
 Title: "{{ title }}"
 
