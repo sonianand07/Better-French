@@ -108,8 +108,10 @@ class BetterFrenchApp {
             this.articles = this.articles.filter(a => a.ai_enhanced || a.contextual_title_explanations);
             this.filteredArticles = [...this.articles];
             
-            // NEW: show all articles in one go (disable Load-More pagination)
+            // Attach feed timestamp to cache bust so UI auto-refreshes when Pages deploys.
+            const metaTs = data.metadata && data.metadata.updated_at ? Date.parse(data.metadata.updated_at) : Date.now();
             this.articlesPerPage = this.filteredArticles.length;
+            this.feedTimestamp = metaTs; // store for future if needed
             
             console.log(`Loaded ${this.articles.length} AI-enhanced articles with contextual learning`);
             
