@@ -102,6 +102,13 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
                 continue  # skip bad heading or mismatched translation
             cleaned.append(obj)
 
+        # Cultural-note coverage ------------------------------------------------
+        content_items = [obj for obj in cleaned if not _is_filler(obj["original_word"])]
+        if content_items:
+            with_notes = [obj for obj in content_items if isinstance(obj.get("cultural_note"), str) and obj["cultural_note"].strip()]
+            if len(with_notes) / len(content_items) < 0.6:
+                return False, None, "insufficient cultural notes"
+
         return (len(cleaned) > 0), cleaned if cleaned else None, "partial_ok" if cleaned else "no valid items"
 
     # -------- dict format --------
@@ -118,6 +125,14 @@ def validate_explanations_payload(raw_text: str) -> Tuple[bool, Optional[Any], s
             if not _english_heading_ok(val["display_format"], word):
                 continue
             cleaned_d[word] = val
+
+        # Cultural-note coverage check (after building dict)
+        content_keys = [k for k in cleaned_d.keys() if not _is_filler(k)]
+        if content_keys:
+            with_notes = [k for k in content_keys if isinstance(cleaned_d[k].get("cultural_note"), str) and cleaned_d[k]["cultural_note"].strip()]
+            if len(with_notes) / len(content_keys) < 0.6:
+                return False, None, "insufficient cultural notes"
+
         return (len(cleaned_d) > 0), cleaned_d if cleaned_d else None, "partial_ok" if cleaned_d else "no valid items"
 
     return False, None, "Unexpected JSON structure"
@@ -232,3 +247,24 @@ def _english_heading_ok(display_format: str, original_word) -> bool:
     if canon and heading.lower() != canon:
         return False
     return True 
+
+# ---------------------------------------------------------------------------
+# Coverage helpers for cultural notes
+# ---------------------------------------------------------------------------
+
+_FILLER_TOKENS = {
+    "le", "la", "les", "un", "une", "des", "du", "de", "d", "l", "et", "ou", "a", "à", "au", "aux", "en", "pour", "par", "sur", "dans", "que", "qui",
+    ":", ",", ";", ".", "«", "»", "'", "\"", "-", "?", "!"
+}
+
+def _is_filler(token: str) -> bool:
+    """Return True for articles, prepositions or pure punctuation that don't merit notes."""
+    if not isinstance(token, str):
+        return True
+    tok = token.strip().lower()
+    if tok in _FILLER_TOKENS:
+        return True
+    # pure punctuation or single-char accents etc.
+    if re.fullmatch(r"[\W_]+", tok):
+        return True
+    return False 

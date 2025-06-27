@@ -20,7 +20,10 @@ Goal: deliver concise, accurate explanations so the learner grasps meaning and c
 1. **Cover every token.** If `TOKENS_TO_DEFINE` is provided, return exactly one JSON object *for each token in the list*, in the **same order**. Do not add or omit any entries. *(If a token is part of an idiom or multi-word name, combine them into one entry.)*  
 2. **Keys and format** must exactly follow the schema (including field names and bold formatting in **display_format**).  
 3. Keep definitions **brief and clear.** Use plain language – no difficult vocabulary or long sentences. Aim for a neutral, explanatory tone.  
-4. If a word has cultural or political significance, add a short `cultural_note`. Use an empty string (`""`) if there is no extra note.  
+4. Provide a concise `cultural_note` **whenever it helps a learner grasp history, politics, idiom, geography or social context.**
+   • Skip the note for routine grammar words (articles, prepositions, standalone punctuation).
+   • Aim for most *content words* to carry a note – at least **60 %** of your entries should include a non-empty `cultural_note`.
+   • Keep the note ≤ 25 words. Use an empty string (`""`) only when genuinely nothing useful can be added.
 5. Do **not** output vague placeholders like "this is someone's name." If unsure about a name or term, use a neutral description (e.g. "French public figure" or "French organization").  
 6. The **bold English term** in `display_format` (before the colon) should be the most common English translation or equivalent. Do **not** use a French word there unless it's identical in both languages. Capitalize this English term and follow it with a colon.
 
