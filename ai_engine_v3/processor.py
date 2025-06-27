@@ -28,12 +28,12 @@ class ProcessorV2:
 
     # ---------------- Prompt helpers (placeholder) ----------------
     def _render_title_prompt(self, article: Article) -> str:
-        return render("simplify_titles_summaries.jinja", title=article.original_article_title)
+        return render("simplify_titles_summaries_v3.jinja", title=article.original_article_title)
 
     def _render_explain_prompt(self, article: Article) -> str:
         tokens = tuple(expected_tokens_from_title(article.original_article_title))  # tuple -> hashable for lru_cache
         return render(
-            "contextual_words_v2.jinja",
+            "contextual_words_v3.jinja",
             title=article.original_article_title,
             tokens=tokens,
         )
