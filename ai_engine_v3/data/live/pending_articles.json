@@ -93657,6 +93657,966 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Côte d'Ivoire: la Cour africaine des droits de l'homme rejette les recours de Gbagbo et Soro",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250627-c%C3%B4te-d-ivoire-la-cour-africaine-des-droits-de-l-homme-rejette-les-recours-de-gbagbo-et-soro",
+      "original_article_published_date": "2025-06-27T22:09:44",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Cour africaine rejette les plaintes de Gbagbo et Soro",
+      "simplified_english_title": "African Court rejects Gbagbo and Soro appeals",
+      "french_summary": "La Cour africaine des droits de l'homme a rejeté les recours de Laurent Gbagbo et Guillaume Soro, deux figures politiques ivoiriennes.",
+      "english_summary": "The African Court on Human Rights rejected appeals from Ivorian political figures Laurent Gbagbo and Guillaume Soro.",
+      "contextual_title_explanations": {
+        "Côte": {
+          "display_format": "**Coast:** Côte",
+          "explanation": "Refers to the coastal region, part of the country's name.",
+          "cultural_note": "Côte d'Ivoire is a country in West Africa, also known as Ivory Coast."
+        },
+        "d&#39;Ivoire": {
+          "display_format": "**Ivory:** d'Ivoire",
+          "explanation": "Literally 'of Ivory,' part of the country's name.",
+          "cultural_note": "Refers to the historical ivory trade in the region."
+        },
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "Colon, used to introduce a statement or list.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular form.",
+          "cultural_note": ""
+        },
+        "Cour": {
+          "display_format": "**Court:** Cour",
+          "explanation": "Refers to a judicial body or court.",
+          "cultural_note": "The African Court on Human and Peoples' Rights is based in Tanzania."
+        },
+        "africaine": {
+          "display_format": "**African:** africaine",
+          "explanation": "Feminine form of 'African,' describing the court.",
+          "cultural_note": "The court is a continental judicial body."
+        },
+        "des": {
+          "display_format": "**Of the:** des",
+          "explanation": "Plural definite article, meaning 'of the.'",
+          "cultural_note": ""
+        },
+        "droits": {
+          "display_format": "**Rights:** droits",
+          "explanation": "Refers to legal or moral rights.",
+          "cultural_note": "The court deals with human rights issues in Africa."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from.'",
+          "cultural_note": ""
+        },
+        "l&#39;homme": {
+          "display_format": "**Man:** l'homme",
+          "explanation": "Literally 'the man,' often used in the context of human rights.",
+          "cultural_note": "Refers to 'human' in the context of human rights."
+        },
+        "rejette": {
+          "display_format": "**Rejects:** rejette",
+          "explanation": "Verb meaning 'to reject' or 'to dismiss.'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Plural definite article, meaning 'the.'",
+          "cultural_note": ""
+        },
+        "recours": {
+          "display_format": "**Appeals:** recours",
+          "explanation": "Legal term meaning 'appeals' or 'recourses.'",
+          "cultural_note": "Refers to legal appeals made by Gbagbo and Soro."
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction meaning 'and.'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Une fusillade à Nîmes fait six blessés, dont l’un grièvement",
+      "original_article_link": "https://www.ouest-france.fr/region-occitanie/nimes-30000/une-fusillade-a-nimes-fait-six-blesses-dont-lun-grievement-344fd1be-53a1-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T22:13:40",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Six blessés dans une fusillade à Nîmes",
+      "simplified_english_title": "Six injured in Nîmes shooting",
+      "french_summary": "Une fusillade à Nîmes a fait six blessés, dont un grièvement. La police enquête pour trouver les responsables.",
+      "english_summary": "A shooting in Nîmes left six injured, one seriously. Police are investigating to find those responsible.",
+      "contextual_title_explanations": {
+        "Une": {
+          "display_format": "**A**: Une",
+          "explanation": "Indefinite article meaning 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "fusillade": {
+          "display_format": "**Shooting**: fusillade",
+          "explanation": "An incident involving multiple gunshots",
+          "cultural_note": "Often used in news headlines for violent incidents"
+        },
+        "à": {
+          "display_format": "**In**: à",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**Makes**: fait",
+          "explanation": "Verb meaning 'makes' or 'does'",
+          "cultural_note": ""
+        },
+        "six": {
+          "display_format": "**Six**: six",
+          "explanation": "The number six",
+          "cultural_note": ""
+        },
+        "blessés": {
+          "display_format": "**Injured**: blessés",
+          "explanation": "People who are injured",
+          "cultural_note": "Commonly used in news reports about accidents or violence"
+        },
+        "dont": {
+          "display_format": "**Including**: dont",
+          "explanation": "Meaning 'including' or 'of which'",
+          "cultural_note": ""
+        },
+        "l’un": {
+          "display_format": "**One**: l’un",
+          "explanation": "Meaning 'one' or 'one of them'",
+          "cultural_note": ""
+        },
+        "grièvement": {
+          "display_format": "**Seriously**: grièvement",
+          "explanation": "Meaning 'seriously' or 'severely'",
+          "cultural_note": "Often used in medical or accident contexts"
+        },
+        "un": {
+          "display_format": "**A**: un",
+          "explanation": "Indefinite article meaning 'a'",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les trams 12 et 18 en rade cet été pour cause de travaux",
+      "original_article_link": "https://www.20min.ch/fr/story/geneve-les-trams-12-et-18-en-rade-cet-ete-pour-cause-de-travaux-103370826",
+      "original_article_published_date": "2025-06-27T17:36:20",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Travaux sur les trams 12 et 18 cet été",
+      "simplified_english_title": "Work on trams 12 and 18 this summer",
+      "french_summary": "Les trams 12 et 18 ne circuleront pas cet été à cause de travaux. Les usagers devront trouver d'autres moyens de transport.",
+      "english_summary": "Trams 12 and 18 will not run this summer due to works. Passengers must find alternative transportation.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** _Les_",
+          "explanation": "Plural definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "Conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition meaning 'in' or 'on'.",
+          "cultural_note": ""
+        },
+        "rade": {
+          "display_format": "**Out of service:** _rade_",
+          "explanation": "Colloquial term meaning 'out of service' or 'broken down'.",
+          "cultural_note": "Commonly used in French for transport disruptions."
+        },
+        "cet": {
+          "display_format": "**This:** _cet_",
+          "explanation": "Demonstrative adjective meaning 'this' for masculine singular nouns.",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**Summer:** _été_",
+          "explanation": "Season of the year, summer.",
+          "cultural_note": "Summer in France is often a time for vacations and travel."
+        },
+        "pour": {
+          "display_format": "**For:** _pour_",
+          "explanation": "Preposition meaning 'for' or 'because of'.",
+          "cultural_note": ""
+        },
+        "cause": {
+          "display_format": "**Reason:** _cause_",
+          "explanation": "Reason or cause.",
+          "cultural_note": "Often used in French to explain reasons for events or situations."
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "travaux": {
+          "display_format": "**Works:** _travaux_",
+          "explanation": "Construction or maintenance works.",
+          "cultural_note": "Commonly refers to infrastructure improvements or repairs in France."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Présidentielle en Côte d’Ivoire : Charles Blé Goudé \"ne veut pas renoncer\"",
+      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250627-pr%C3%A9sidentielle-en-c%C3%B4te-d-ivoire-charles-bl%C3%A9-goud%C3%A9-ne-veut-pas-renoncer",
+      "original_article_published_date": "2025-06-27T16:00:13",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Blé Goudé veut rester en politique",
+      "simplified_english_title": "Blé Goudé refuses to quit politics",
+      "french_summary": "Charles Blé Goudé, ancien chef des Jeunes Patriotes, dit qu'il ne quittera pas la vie politique malgré les défis.",
+      "english_summary": "Charles Blé Goudé, former leader of the Young Patriots, insists he will stay in politics despite challenges.",
+      "contextual_title_explanations": {
+        "Présidentielle": {
+          "display_format": "**Presidential:** Présidentielle",
+          "explanation": "Relating to the election of a president.",
+          "cultural_note": "Refers to the presidential election in Côte d'Ivoire."
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location or time.",
+          "cultural_note": ""
+        },
+        "Côte": {
+          "display_format": "**Coast:** Côte",
+          "explanation": "Refers to the coastline of a region.",
+          "cultural_note": "Part of the name Côte d'Ivoire, meaning Ivory Coast."
+        },
+        "d’": {
+          "display_format": "**Of:** d’",
+          "explanation": "Preposition indicating possession or relation.",
+          "cultural_note": ""
+        },
+        "Ivoire": {
+          "display_format": "**Ivory:** Ivoire",
+          "explanation": "Refers to ivory, a material from elephant tusks.",
+          "cultural_note": "Part of the name Côte d'Ivoire, meaning Ivory Coast."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used before a quote or explanation.",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**Not:** ne",
+          "explanation": "Part of a negative construction in French.",
+          "cultural_note": ""
+        },
+        "veut": {
+          "display_format": "**Wants:** veut",
+          "explanation": "Third person singular of 'vouloir,' meaning to want.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not:** pas",
+          "explanation": "Used in negative constructions in French.",
+          "cultural_note": ""
+        },
+        "renoncer": {
+          "display_format": "**Give up:** renoncer",
+          "explanation": "To give up or renounce something.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation mark used to indicate speech or a quote.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« Hokusai, impressions du Soleil-Levant » : au-delà de la Vague",
+      "original_article_link": "https://www.nouvelobs.com/teleobs/20250627.OBS105384/hokusai-impressions-du-soleil-levant-au-dela-de-la-vague.html",
+      "original_article_published_date": "2025-06-27T16:00:06",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Exposition sur Hokusai et ses œuvres",
+      "simplified_english_title": "Exhibition on Hokusai and his works",
+      "french_summary": "Une exposition montre les œuvres de Hokusai, célèbre pour 'La Vague', et explore son influence sur l'art.",
+      "english_summary": "An exhibition showcases Hokusai's works, famous for 'The Wave,' and explores his influence on art.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Opening quotation mark:** «",
+          "explanation": "A symbol used to start a direct quote in French text.",
+          "cultural_note": "French uses « » as quotation marks instead of “ ”."
+        },
+        "Hokusai": {
+          "display_format": "**Artist:** Hokusai",
+          "explanation": "A famous Japanese artist known for his ukiyo-e paintings.",
+          "cultural_note": "Hokusai is renowned for 'The Great Wave off Kanagawa'."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark used to separate parts of a sentence.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "A contraction of 'de' and 'le', meaning 'of the'.",
+          "cultural_note": ""
+        },
+        "Soleil": {
+          "display_format": "**Sun:** Soleil",
+          "explanation": "The star that the Earth revolves around.",
+          "cultural_note": "In French, 'Soleil' is often personified in art and literature."
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** »",
+          "explanation": "A symbol used to end a direct quote in French text.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "A punctuation mark used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "A contraction of 'à' and 'le', meaning 'to the'.",
+          "cultural_note": ""
+        },
+        "delà": {
+          "display_format": "**Beyond:** delà",
+          "explanation": "Refers to something further or beyond a certain point.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "A preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "A definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "Vague": {
+          "display_format": "**Wave:** Vague",
+          "explanation": "A long body of water curling into an arched form.",
+          "cultural_note": "Refers to 'The Great Wave off Kanagawa', Hokusai's most famous work."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: l'accès à certaines zones restreintes en raison des risques de feux de forêt",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/video-canicule-l-acces-a-certaines-zones-restreintes-en-raison-des-risques-de-feux-de-foret_VN-202506270717.html",
+      "original_article_published_date": "2025-06-27T18:17:13",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Canicule : accès limité à certaines zones",
+      "simplified_english_title": "Heatwave: access limited in some areas",
+      "french_summary": "À cause de la canicule, l'accès à certaines zones est restreint pour éviter les feux de forêt.",
+      "english_summary": "Due to the heatwave, access to certain areas is restricted to prevent forest fires.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Heatwave:** Canicule",
+          "explanation": "A period of very hot weather.",
+          "cultural_note": "Common in France during summer, often leading to health warnings."
+        },
+        "raison": {
+          "display_format": "**Reason:** raison",
+          "explanation": "The cause or explanation for something.",
+          "cultural_note": ""
+        },
+        "feux": {
+          "display_format": "**Fires:** feux",
+          "explanation": "Plural of 'fire', indicating multiple fires.",
+          "cultural_note": "Forest fires are a significant risk during heatwaves in France."
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article, meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "restreintes": {
+          "display_format": "**Restricted:** restreintes",
+          "explanation": "Limited or controlled access.",
+          "cultural_note": "Common during emergencies or high-risk periods in France."
+        },
+        "certaines": {
+          "display_format": "**Certain:** certaines",
+          "explanation": "Specific but not all, meaning 'some'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition indicating direction or location.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating a cause or reason.",
+          "cultural_note": ""
+        },
+        "risques": {
+          "display_format": "**Risks:** risques",
+          "explanation": "Dangers or hazards.",
+          "cultural_note": "Often used in public safety announcements in France."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing an explanation or list.",
+          "cultural_note": ""
+        },
+        "forêt": {
+          "display_format": "**Forest:** forêt",
+          "explanation": "A large area covered chiefly with trees.",
+          "cultural_note": "France has significant forest areas, especially in the south."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession or association.",
+          "cultural_note": ""
+        },
+        "l&#39;accès": {
+          "display_format": "**Access:** l'accès",
+          "explanation": "The ability to enter or use something.",
+          "cultural_note": "Often regulated in protected or dangerous areas in France."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Airbags Takata : rush dans les garages avant les vacances d’été",
+      "original_article_link": "https://www.europe1.fr/societe/airbags-takata-rush-dans-les-garages-avant-les-vacances-dete-761345",
+      "original_article_published_date": "2025-06-27T19:37:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Rappel urgent des airbags Takata",
+      "simplified_english_title": "Urgent recall of Takata airbags",
+      "french_summary": "Les propriétaires de voitures doivent faire remplacer rapidement les airbags Takata avant l'été pour éviter des risques d'accident.",
+      "english_summary": "Car owners must quickly replace Takata airbags before summer to avoid accident risks.",
+      "contextual_title_explanations": {
+        "Takata": {
+          "display_format": "**Company:** Takata",
+          "explanation": "A Japanese company known for manufacturing airbags.",
+          "cultural_note": "Famous for a major recall due to defective airbags."
+        },
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "Colon, used to introduce a list or explanation.",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in' or 'into'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, equivalent to 'the'.",
+          "cultural_note": ""
+        },
+        "avant": {
+          "display_format": "**Before:** avant",
+          "explanation": "Preposition meaning 'before'.",
+          "cultural_note": ""
+        },
+        "d’": {
+          "display_format": "**Of:** d’",
+          "explanation": "Preposition 'de' combined with the definite article.",
+          "cultural_note": ""
+        },
+        "vacances": {
+          "display_format": "**Holidays:** vacances",
+          "explanation": "Periods of time when people take a break from work.",
+          "cultural_note": "In France, summer holidays are a major cultural event."
+        },
+        "été": {
+          "display_format": "**Summer:** été",
+          "explanation": "The season of the year between spring and autumn.",
+          "cultural_note": "Summer in France is associated with vacations and travel."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"On n’a qu’une seule sortie\" : le quotidien sous blocus dans les villages de Cisjordanie",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250627-cisjordanie-village-israel-iron-gate-ras-karkar",
+      "original_article_published_date": "2025-06-27T16:20:51",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La vie sous blocus en Cisjordanie",
+      "simplified_english_title": "Life under blockade in the West Bank",
+      "french_summary": "Les habitants des villages de Cisjordanie racontent leur vie difficile sous blocus, avec des restrictions de mouvement et des pénuries.",
+      "english_summary": "Residents of West Bank villages describe their difficult life under blockade, with movement restrictions and shortages.",
+      "contextual_title_explanations": {
+        "On": {
+          "display_format": "**One:** On",
+          "explanation": "Indefinite pronoun meaning 'one' or 'we'.",
+          "cultural_note": "Commonly used in French to mean 'we' in a general sense."
+        },
+        "n’": {
+          "display_format": "**Not:** n’",
+          "explanation": "Short for 'ne', used with 'a' to form 'n’a', meaning 'does not have'.",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**Has:** a",
+          "explanation": "Third person singular of the verb 'avoir', meaning 'to have'.",
+          "cultural_note": ""
+        },
+        "qu’": {
+          "display_format": "**That:** qu’",
+          "explanation": "Short for 'que', meaning 'that' or 'which'.",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A:** une",
+          "explanation": "Indefinite article meaning 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "seule": {
+          "display_format": "**Only:** seule",
+          "explanation": "Feminine form of 'seul', meaning 'only' or 'single'.",
+          "cultural_note": ""
+        },
+        "sortie": {
+          "display_format": "**Exit:** sortie",
+          "explanation": "Noun meaning 'exit' or 'way out'.",
+          "cultural_note": ""
+        },
+        "quotidien": {
+          "display_format": "**Daily:** quotidien",
+          "explanation": "Adjective meaning 'daily' or noun meaning 'daily life'.",
+          "cultural_note": "In this context, it refers to the daily life or routine."
+        },
+        "sous": {
+          "display_format": "**Under:** sous",
+          "explanation": "Preposition meaning 'under' or 'below'.",
+          "cultural_note": ""
+        },
+        "blocus": {
+          "display_format": "**Blockade:** blocus",
+          "explanation": "Noun meaning 'blockade' or 'siege'.",
+          "cultural_note": "Refers to the restrictions or blockade imposed on the villages."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "Cisjordanie": {
+          "display_format": "**West Bank:** Cisjordanie",
+          "explanation": "French name for the West Bank, a region in the Middle East.",
+          "cultural_note": "The West Bank is a Palestinian territory occupied by Israel since 1967."
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in' or 'inside'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Plural definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used to introduce a quote or list.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation mark:** \"",
+          "explanation": "Punctuation mark used to indicate the beginning or end of a quote.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Victimes, trajectoire… Ce que l’on sait du crash d’un avion qui a fait trois morts en Eure-et-Loir",
+      "original_article_link": "https://www.ouest-france.fr/societe/faits-divers/crash/victimes-trajectoire-ce-que-lon-sait-du-crash-dun-avion-qui-a-fait-trois-morts-en-eure-et-loir-e42da828-5373-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T17:03:04",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un avion s’écrase en Eure-et-Loir, trois morts",
+      "simplified_english_title": "Plane crashes in Eure-et-Loir, three dead",
+      "french_summary": "Un avion s’est écrasé en Eure-et-Loir, faisant trois morts. Les autorités enquêtent sur les causes de l’accident.",
+      "english_summary": "A plane crashed in Eure-et-Loir, killing three people. Authorities are investigating the causes of the accident.",
+      "contextual_title_explanations": {
+        "Victimes": {
+          "display_format": "**Victims:** _Victimes_",
+          "explanation": "People who have suffered harm or death.",
+          "cultural_note": "In French news, often refers to those affected by accidents or crimes."
+        },
+        "trajectoire": {
+          "display_format": "**Trajectory:** _trajectoire_",
+          "explanation": "The path followed by an object through space.",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**This:** _Ce_",
+          "explanation": "Used to point out something specific.",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**That:** _que_",
+          "explanation": "Used to introduce a subordinate clause.",
+          "cultural_note": ""
+        },
+        "l’on": {
+          "display_format": "**One:** _l’on_",
+          "explanation": "Formal way to say 'we' or 'people'.",
+          "cultural_note": ""
+        },
+        "sait": {
+          "display_format": "**Knows:** _sait_",
+          "explanation": "Third person singular of 'to know'.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** _du_",
+          "explanation": "Combined preposition 'de' and article 'le'.",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**Of a:** _d’un_",
+          "explanation": "Combined preposition 'de' and indefinite article 'un'.",
+          "cultural_note": ""
+        },
+        "avion": {
+          "display_format": "**Airplane:** _avion_",
+          "explanation": "A powered flying vehicle with fixed wings.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who:** _qui_",
+          "explanation": "Relative pronoun meaning 'who' or 'which'.",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**Has:** _a_",
+          "explanation": "Third person singular of 'to have'.",
+          "cultural_note": ""
+        },
+        "fait": {
+          "display_format": "**Made:** _fait_",
+          "explanation": "Past participle of 'to do' or 'to make'.",
+          "cultural_note": ""
+        },
+        "trois": {
+          "display_format": "**Three:** _trois_",
+          "explanation": "The number three.",
+          "cultural_note": ""
+        },
+        "morts": {
+          "display_format": "**Dead:** _morts_",
+          "explanation": "Plural of 'dead' referring to people.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition meaning 'in' or 'to'.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** _un_",
+          "explanation": "Indefinite article meaning 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**We:** _on_",
+          "explanation": "Indefinite pronoun meaning 'one', 'we', or 'people'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Six personnes mises en examen dans le cadre d’un trafic de déchets de la métropole niçoise entre la France et l’Espagne",
+      "original_article_link": "https://www.franceinfo.fr/environnement/actions-ecologiques/gestion-des-dechets/six-personnes-mises-en-examen-dans-le-cadre-d-un-trafic-de-dechets-de-la-metropole-nicoise-entre-la-france-et-l-espagne_7341939.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-27T19:40:55",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Six personnes jugées pour trafic de déchets",
+      "simplified_english_title": "Six people tried for waste trafficking",
+      "french_summary": "Six personnes sont accusées d'avoir trafiqué des déchets entre la France et l'Espagne. C'est un problème grave pour l'environnement.",
+      "english_summary": "Six people are accused of trafficking waste between France and Spain. It's a serious environmental issue.",
+      "contextual_title_explanations": {
+        "personnes": {
+          "display_format": "**People:** personnes",
+          "explanation": "Individuals involved in a situation.",
+          "cultural_note": ""
+        },
+        "mises": {
+          "display_format": "**Placed:** mises",
+          "explanation": "Put or placed in a certain state.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition meaning 'in' or 'on'.",
+          "cultural_note": ""
+        },
+        "examen": {
+          "display_format": "**Examination:** examen",
+          "explanation": "Legal examination or investigation.",
+          "cultural_note": "In French law, 'mise en examen' means being formally investigated."
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in' or 'within'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "cadre": {
+          "display_format": "**Framework:** cadre",
+          "explanation": "Context or framework of a situation.",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**Of a:** d’un",
+          "explanation": "Contraction of 'de' and 'un', meaning 'of a'.",
+          "cultural_note": ""
+        },
+        "trafic": {
+          "display_format": "**Traffic:** trafic",
+          "explanation": "Illegal trade or movement of goods.",
+          "cultural_note": ""
+        },
+        "déchets": {
+          "display_format": "**Waste:** déchets",
+          "explanation": "Garbage or waste materials.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "métropole": {
+          "display_format": "**Metropolis:** métropole",
+          "explanation": "Large city or urban area.",
+          "cultural_note": "In France, 'métropole' can also refer to a major urban administrative area."
+        },
+        "niçoise": {
+          "display_format": "**Nice:** niçoise",
+          "explanation": "Relating to the city of Nice.",
+          "cultural_note": "Nice is a major city on the French Riviera."
+        },
+        "entre": {
+          "display_format": "**Between:** entre",
+          "explanation": "Preposition meaning 'between'.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article meaning 'the' before a vowel.",
+          "cultural_note": ""
+        },
+        "Espagne": {
+          "display_format": "**Spain:** Espagne",
+          "explanation": "Country in Southwestern Europe.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T22:19:38",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
