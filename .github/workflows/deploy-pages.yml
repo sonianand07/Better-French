@@ -1,0 +1,29 @@
+name: Deploy Website to GitHub Pages
+
+on:
+  push:
+    branches: [ ai-engine-v3-main ]
+    paths:
+      - 'ai_engine_v3/website/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./ai_engine_v3/website
+          force_orphan: true
+          commit_message: 'chore(deploy): automatic website update' 
