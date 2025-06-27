@@ -28,7 +28,9 @@ Goal: deliver concise, accurate explanations so the learner grasps meaning and c
 Title: "{{ title }}"
 
 {% if tokens %}
-TOKENS_TO_DEFINE = {{ tokens }}
+TOKENS_TO_DEFINE = [
+{% for t in tokens %}  "{{ t }}"{% if not loop.last %},{% endif %}
+{% endfor %}]
 {% endif %}
 
 Return **ONLY** the JSON array described above.
