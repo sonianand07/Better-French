@@ -1,9 +1,7 @@
 # Better French Max  
 **Automated French-news learning platform** 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/undefined/deploy-status)](https://app.netlify.com/sites/ephemeral-florentine-48f9c7/deploys)
-
-Live demo ➜ https://ephemeral-florentine-48f9c7.netlify.app
+Live demo ➜ https://sonianand07.github.io/Better-French/
 
 ---
 
@@ -58,7 +56,7 @@ No API key? The pipeline will still scrape & curate, it just skips the AI-enhanc
 
 ## 🔧 Automation / Production
 * **Scheduler**: `scripts/run_scheduler.sh` runs both breaking-news (every 30 min) and regular (every 2 h) jobs via `scheduler_main.py`.
-* **Deploy**: the main branch is wired to Netlify; pushing commits triggers a rebuild. Static assets are served from `Project-Better-French-Website/`.
+* **Deploy**: pushing commits to `ai-engine-v3-main` triggers the **Deploy Website to GitHub Pages** workflow. That workflow publishes `ai_engine_v3/website/` to the `gh-pages` branch, which GitHub Pages serves globally.
 * **Data path in prod**: JSON is written to `data/live/current_articles.json` and picked up by the front-end's `script.js`.
 
 ---
