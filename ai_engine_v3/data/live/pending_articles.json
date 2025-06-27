@@ -88707,6 +88707,986 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Pourquoi les fortes chaleurs perturbent la production des centrales nucléaires",
+      "original_article_link": "https://www.lefigaro.fr/societes/pourquoi-les-fortes-chaleurs-perturbent-la-production-des-centrales-nucleaires-20250627",
+      "original_article_published_date": "2025-06-27T16:40:51",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les fortes chaleurs affectent les centrales nucléaires",
+      "simplified_english_title": "Heatwaves impact nuclear power plants",
+      "french_summary": "Les fortes chaleurs réduisent la production des centrales nucléaires car l'eau des fleuves est trop chaude pour les refroidir.",
+      "english_summary": "Heatwaves reduce nuclear power production because river water is too warm to cool the plants.",
+      "contextual_title_explanations": {
+        "Pourquoi": {
+          "display_format": "**Why:** Pourquoi",
+          "explanation": "A French word meaning 'why' used to ask for a reason.",
+          "cultural_note": "Commonly used in both formal and informal contexts."
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article used before plural nouns.",
+          "cultural_note": ""
+        },
+        "fortes": {
+          "display_format": "**Strong:** fortes",
+          "explanation": "Feminine plural form of 'fort,' meaning strong or intense.",
+          "cultural_note": "Often used to describe weather conditions like heat."
+        },
+        "chaleurs": {
+          "display_format": "**Heats:** chaleurs",
+          "explanation": "Plural form of 'chaleur,' meaning heat.",
+          "cultural_note": "Frequently discussed in the context of weather and climate."
+        },
+        "perturbent": {
+          "display_format": "**Disrupt:** perturbent",
+          "explanation": "Verb meaning to disrupt or disturb.",
+          "cultural_note": "Used in various contexts, from daily life to technical issues."
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article used before singular feminine nouns.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article used before plural nouns.",
+          "cultural_note": ""
+        },
+        "centrales": {
+          "display_format": "**Plants:** centrales",
+          "explanation": "Plural form of 'centrale,' meaning power plant.",
+          "cultural_note": "France is known for its nuclear power plants."
+        },
+        "nucléaires": {
+          "display_format": "**Nuclear:** nucléaires",
+          "explanation": "Plural form of 'nucléaire,' meaning nuclear.",
+          "cultural_note": "Nuclear energy is a significant part of France's energy production."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Douze jours de guerre entre l'Iran et Israël : qui sont les gagnants et les perdants ?",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/la-semaine-de-l-%C3%A9co/20250627-douze-jours-de-guerre-entre-l-iran-et-isra%C3%ABl-qui-sont-les-gagnants-et-les-perdants",
+      "original_article_published_date": "2025-06-27T16:41:42",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Guerre Iran-Israël : qui gagne et perd ?",
+      "simplified_english_title": "Iran-Israel war: Who wins and loses?",
+      "french_summary": "Après douze jours de conflit entre l'Iran et Israël, on analyse les conséquences pour les deux pays.",
+      "english_summary": "After twelve days of conflict between Iran and Israel, the consequences for both countries are analyzed.",
+      "contextual_title_explanations": {
+        "Douze": {
+          "display_format": "**Twelve**: Douze",
+          "explanation": "The number 12 in French.",
+          "cultural_note": "The French use the same numbers as in English."
+        },
+        "jours": {
+          "display_format": "**Days**: jours",
+          "explanation": "Plural of 'day' in French.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of**: de",
+          "explanation": "A common preposition in French.",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**War**: guerre",
+          "explanation": "A conflict between countries or groups.",
+          "cultural_note": "France has been involved in various wars throughout history."
+        },
+        "entre": {
+          "display_format": "**Between**: entre",
+          "explanation": "A preposition indicating a relationship involving two or more parties.",
+          "cultural_note": ""
+        },
+        "l&#39;Iran": {
+          "display_format": "**Iran**: l&#39;Iran",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": "Iran has complex diplomatic relations with many countries."
+        },
+        "et": {
+          "display_format": "**And**: et",
+          "explanation": "A conjunction used to connect words or phrases.",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israel**: Israël",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": "Israel is often a topic of international news and discussion."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who**: qui",
+          "explanation": "A relative pronoun used to refer to people.",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**Are**: sont",
+          "explanation": "The plural form of the verb 'to be' in French.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The**: les",
+          "explanation": "The definite article in French, plural form.",
+          "cultural_note": ""
+        },
+        "gagnants": {
+          "display_format": "**Winners**: gagnants",
+          "explanation": "Those who have succeeded or won something.",
+          "cultural_note": ""
+        },
+        "perdants": {
+          "display_format": "**Losers**: perdants",
+          "explanation": "Those who have failed or lost something.",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**Question mark**: ?",
+          "explanation": "A punctuation mark indicating a question.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Vous vous êtes pris une raclée» : Trump répond à Khamenei et dit qu’il bombarderait l’Iran si de l’uranium continuait à être enrichi",
+      "original_article_link": "https://www.lefigaro.fr/international/vous-vous-etes-pris-une-raclee-trump-repond-a-khamenei-et-dit-qu-il-bombarderait-l-iran-si-de-l-uranium-continuait-a-etre-enrichi-20250627",
+      "original_article_published_date": "2025-06-27T17:12:26",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump menace de bombarder l’Iran",
+      "simplified_english_title": "Trump threatens to bomb Iran",
+      "french_summary": "Donald Trump a répondu à Khamenei en disant qu'il bombarderait l'Iran si l'enrichissement d'uranium continuait, augmentant les tensions entre les deux pays.",
+      "english_summary": "Donald Trump responded to Khamenei by saying he would bomb Iran if uranium enrichment continued, increasing tensions between the two countries.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark",
+          "cultural_note": "Used to indicate the beginning of a direct quote."
+        },
+        "Vous": {
+          "display_format": "**You:** Vous",
+          "explanation": "Formal or plural 'you' in French",
+          "cultural_note": "Used for respect or addressing multiple people."
+        },
+        "vous": {
+          "display_format": "**Yourself:** vous",
+          "explanation": "Reflexive pronoun meaning 'yourself'",
+          "cultural_note": ""
+        },
+        "êtes": {
+          "display_format": "**Are:** êtes",
+          "explanation": "Second person plural of 'to be'",
+          "cultural_note": ""
+        },
+        "pris": {
+          "display_format": "**Taken:** pris",
+          "explanation": "Past participle of 'prendre' meaning 'to take'",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A:** une",
+          "explanation": "Indefinite article meaning 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "raclée": {
+          "display_format": "**Beating:** raclée",
+          "explanation": "Colloquial term for a severe beating or defeat",
+          "cultural_note": "Often used in informal contexts to describe a thorough defeat."
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark",
+          "cultural_note": "Used to indicate the end of a direct quote."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used before a quote or list",
+          "cultural_note": ""
+        },
+        "répond": {
+          "display_format": "**Responds:** répond",
+          "explanation": "Third person singular of 'to respond'",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition meaning 'to' or 'at'",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction meaning 'and'",
+          "cultural_note": ""
+        },
+        "dit": {
+          "display_format": "**Says:** dit",
+          "explanation": "Third person singular of 'to say'",
+          "cultural_note": ""
+        },
+        "qu": {
+          "display_format": "**That:** qu",
+          "explanation": "Conjunction meaning 'that'",
+          "cultural_note": ""
+        },
+        "il": {
+          "display_format": "**He:** il",
+          "explanation": "Pronoun meaning 'he'",
+          "cultural_note": ""
+        },
+        "bombarderait": {
+          "display_format": "**Would bomb:** bombarderait",
+          "explanation": "Conditional form of 'to bomb'",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "si": {
+          "display_format": "**If:** si",
+          "explanation": "Conjunction meaning 'if'",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** l",
+          "explanation": "Definite article meaning 'the'",
+          "cultural_note": ""
+        },
+        "continuait": {
+          "display_format": "**Continued:** continuait",
+          "explanation": "Imperfect form of 'to continue'",
+          "cultural_note": ""
+        },
+        "être": {
+          "display_format": "**To be:** être",
+          "explanation": "Infinitive form of 'to be'",
+          "cultural_note": ""
+        },
+        "enrichi": {
+          "display_format": "**Enriched:** enrichi",
+          "explanation": "Past participle of 'to enrich'",
+          "cultural_note": "Often refers to the process of increasing the concentration of a substance, like uranium."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Malgré un chef affaibli, l’Iran nie toute intention de négocier sur le nucléaire",
+      "original_article_link": "https://www.ouest-france.fr/monde/iran/malgre-un-chef-affaibli-liran-nie-toute-intention-de-negocier-sur-le-nucleaire-9a4dae2e-5355-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T16:46:39",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L’Iran refuse de négocier sur le nucléaire",
+      "simplified_english_title": "Iran refuses to negotiate on nuclear issue",
+      "french_summary": "L’Iran dit qu’il ne veut pas négocier sur son programme nucléaire, même si son chef est affaibli. Cela peut rendre les relations internationales plus tendues.",
+      "english_summary": "Iran says it won’t negotiate on its nuclear program, even with a weakened leader. This could strain international relations further.",
+      "contextual_title_explanations": {
+        "Malgré": {
+          "display_format": "**Despite:** malgré",
+          "explanation": "Used to indicate contrast or opposition.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article meaning 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "chef": {
+          "display_format": "**Leader:** chef",
+          "explanation": "A person who leads or commands.",
+          "cultural_note": "In this context, it refers to a political leader."
+        },
+        "affaibli": {
+          "display_format": "**Weakened:** affaibli",
+          "explanation": "Made weaker or less strong.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": "Contraction of 'le' or 'la' before a vowel."
+        },
+        "nie": {
+          "display_format": "**Denies:** nie",
+          "explanation": "Says that something is not true.",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**Any:** toute",
+          "explanation": "Any or every, used for emphasis.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession or relation.",
+          "cultural_note": ""
+        },
+        "négocier": {
+          "display_format": "**Negotiate:** négocier",
+          "explanation": "To discuss to reach an agreement.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning 'on' or 'about'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**Nuclear:** nucléaire",
+          "explanation": "Relating to the nucleus of an atom.",
+          "cultural_note": "Often refers to nuclear energy or weapons."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«L'employé moyen reçoit 117 mails et 153 messages Teams par jour»",
+      "original_article_link": "https://www.20min.ch/fr/story/hyperconnexion-l-employe-moyen-recoit-117-mails-et-153-messages-teams-par-jour-103371618",
+      "original_article_published_date": "2025-06-27T16:44:37",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un employé reçoit beaucoup de mails et messages",
+      "simplified_english_title": "An employee receives many emails and messages",
+      "french_summary": "Un employé moyen reçoit 117 mails et 153 messages Teams chaque jour. Cela montre la charge de communication au travail.",
+      "english_summary": "An average employee receives 117 emails and 153 Teams messages daily. This shows the communication workload at work.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "A symbol used to start a direct quotation in French.",
+          "cultural_note": "French uses « » instead of “ ” for quotations."
+        },
+        "L&#39;employé": {
+          "display_format": "**The employee:** L'employé",
+          "explanation": "A person who is paid to work for a company or organization.",
+          "cultural_note": "In French, job titles often include 'employé' to indicate a worker."
+        },
+        "moyen": {
+          "display_format": "**Average:** moyen",
+          "explanation": "Typical or usual; not special or extreme.",
+          "cultural_note": ""
+        },
+        "reçoit": {
+          "display_format": "**Receives:** reçoit",
+          "explanation": "Gets or is given something.",
+          "cultural_note": ""
+        },
+        "mails": {
+          "display_format": "**Emails:** mails",
+          "explanation": "Electronic messages sent over the internet.",
+          "cultural_note": "The term 'mail' is commonly used in French for 'email'."
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Used to connect words or phrases.",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**Per:** par",
+          "explanation": "For each; used to indicate a rate or distribution.",
+          "cultural_note": ""
+        },
+        "jour": {
+          "display_format": "**Day:** jour",
+          "explanation": "A period of twenty-four hours, mostly daytime.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "A symbol used to end a direct quotation in French.",
+          "cultural_note": "French uses « » instead of “ ” for quotations."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Visa d’or humanitaire : un photoreportage sur les civils piégés à Gaza primé par la Croix-Rouge",
+      "original_article_link": "https://www.la-croix.com/culture/visa-d-or-humanitaire-un-photoreportage-sur-les-civils-pieges-a-gaza-prime-par-la-croix-rouge-20250627",
+      "original_article_published_date": "2025-06-27T17:15:39",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un prix pour un reportage sur Gaza",
+      "simplified_english_title": "A prize for a report on Gaza",
+      "french_summary": "La Croix-Rouge a récompensé un photoreportage montrant la vie des civils à Gaza. Ce prix met en lumière leur situation difficile.",
+      "english_summary": "The Red Cross awarded a photojournalism piece showing civilian life in Gaza, highlighting their difficult situation.",
+      "contextual_title_explanations": {
+        "Visa": {
+          "display_format": "**Award** : Visa",
+          "explanation": "A prestigious French award for photojournalism.",
+          "cultural_note": "Created in 1989, it is awarded at the Visa pour l'Image festival in Perpignan."
+        },
+        "d’or": {
+          "display_format": "**Gold** : d’or",
+          "explanation": "Literally 'of gold,' indicating a top or prestigious award.",
+          "cultural_note": "Used in French to denote high value or prestige, like in 'Palme d’Or' for the Cannes Film Festival."
+        },
+        "humanitaire": {
+          "display_format": "**Humanitarian** : humanitaire",
+          "explanation": "Relating to efforts to help people in need.",
+          "cultural_note": "France has a strong tradition of humanitarian aid and organizations like Médecins Sans Frontières."
+        },
+        ":": {
+          "display_format": "**Colon** : :",
+          "explanation": "A punctuation mark used to introduce a related explanation.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A** : un",
+          "explanation": "Indefinite article meaning 'a' or 'an.'",
+          "cultural_note": ""
+        },
+        "photoreportage": {
+          "display_format": "**Photo reportage** : photoreportage",
+          "explanation": "A collection of photos telling a news story.",
+          "cultural_note": "France has a rich history in photojournalism and documentary photography."
+        },
+        "sur": {
+          "display_format": "**On** : sur",
+          "explanation": "Preposition meaning 'on' or 'about.'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The** : les",
+          "explanation": "Definite article meaning 'the.'",
+          "cultural_note": ""
+        },
+        "civils": {
+          "display_format": "**Civilians** : civils",
+          "explanation": "People who are not members of the military or police.",
+          "cultural_note": "In conflict zones, civilians are often the most vulnerable and in need of protection."
+        },
+        "piégés": {
+          "display_format": "**Trapped** : piégés",
+          "explanation": "Caught in a situation with no easy way out.",
+          "cultural_note": "Commonly used in French media to describe people in dangerous or difficult situations."
+        },
+        "à": {
+          "display_format": "**In** : à",
+          "explanation": "Preposition meaning 'in' or 'at.'",
+          "cultural_note": ""
+        },
+        "Gaza": {
+          "display_format": "**Gaza** : Gaza",
+          "explanation": "A Palestinian territory on the Mediterranean coast.",
+          "cultural_note": "Gaza is often in the news due to its complex political and humanitarian situation."
+        },
+        "primé": {
+          "display_format": "**Awarded** : primé",
+          "explanation": "Given an award or prize.",
+          "cultural_note": "French media often highlights award-winning works in various fields."
+        },
+        "par": {
+          "display_format": "**By** : par",
+          "explanation": "Preposition meaning 'by,' indicating the agent of an action.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The** : la",
+          "explanation": "Definite article meaning 'the.'",
+          "cultural_note": ""
+        },
+        "Croix-Rouge": {
+          "display_format": "**Red Cross** : Croix-Rouge",
+          "explanation": "An international humanitarian organization.",
+          "cultural_note": "The French Red Cross is known for its aid work both locally and internationally."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Allemagne, le gouvernement Merz veut un « retour de l’ordre » sur les questions migratoires",
+      "original_article_link": "https://www.la-croix.com/international/en-allemagne-le-gouvernement-merz-veut-un-retour-de-l-ordre-sur-les-questions-migratoires-20250627",
+      "original_article_published_date": "2025-06-27T16:54:38",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Allemagne veut plus d'ordre sur l'immigration",
+      "simplified_english_title": "Germany wants more order on immigration",
+      "french_summary": "Le gouvernement de Friedrich Merz en Allemagne veut renforcer les règles sur l'immigration pour mieux contrôler les flux migratoires.",
+      "english_summary": "Friedrich Merz's government in Germany wants stricter immigration rules to better control migratory flows.",
+      "contextual_title_explanations": {
+        "En": {
+          "display_format": "**In:** En",
+          "explanation": "Indicates location or context.",
+          "cultural_note": ""
+        },
+        "Allemagne": {
+          "display_format": "**Germany:** Allemagne",
+          "explanation": "A country in Central Europe.",
+          "cultural_note": "France's neighboring country with significant political and economic influence in the EU."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government:** gouvernement",
+          "explanation": "The group of people who govern a country.",
+          "cultural_note": "In France, the government is led by the Prime Minister under the President."
+        },
+        "veut": {
+          "display_format": "**Wants:** veut",
+          "explanation": "Third person singular of 'vouloir', meaning to want.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to indicate the beginning of a quote or special phrase."
+        },
+        "retour": {
+          "display_format": "**Return:** retour",
+          "explanation": "The act of coming back.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article, used before vowels.",
+          "cultural_note": ""
+        },
+        "ordre": {
+          "display_format": "**Order:** ordre",
+          "explanation": "A state of peace and control.",
+          "cultural_note": "In political contexts, often refers to law and order policies."
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to indicate the end of a quote or special phrase."
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition indicating a topic or subject.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural.",
+          "cultural_note": ""
+        },
+        "migratoires": {
+          "display_format": "**Migratory:** migratoires",
+          "explanation": "Relating to migration.",
+          "cultural_note": "Migration is a significant and often contentious political issue in Europe."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Albert Rösti voudrait faire la guerre au 30 km/h en ville",
+      "original_article_link": "https://www.20min.ch/fr/story/suisse-albert-roesti-voudrait-faire-la-guerre-au-30-kmh-en-ville-103371297",
+      "original_article_published_date": "2025-06-27T16:34:18",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Albert Rösti veut supprimer le 30 km/h en ville",
+      "simplified_english_title": "Albert Rösti wants to remove 30 km/h city limits",
+      "french_summary": "Albert Rösti, un politicien suisse, veut supprimer la limite de vitesse de 30 km/h en ville, ce qui pourrait changer les règles de circulation.",
+      "english_summary": "Albert Rösti, a Swiss politician, wants to remove the 30 km/h speed limit in cities, which could change traffic rules.",
+      "contextual_title_explanations": {
+        "Albert": {
+          "display_format": "**Name:** Albert",
+          "explanation": "First name of a person.",
+          "cultural_note": "Albert Rösti is a Swiss politician."
+        },
+        "Rösti": {
+          "display_format": "**Name:** Rösti",
+          "explanation": "Last name of a person.",
+          "cultural_note": "Albert Rösti is a Swiss politician."
+        },
+        "voudrait": {
+          "display_format": "**Would like:** voudrait",
+          "explanation": "Conditional form of 'vouloir' meaning 'would like'.",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**To do:** faire",
+          "explanation": "Verb meaning 'to do' or 'to make'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "Noun meaning 'war'.",
+          "cultural_note": "Often used metaphorically in French for strong opposition."
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "Contraction of 'à' and 'le', meaning 'to the'.",
+          "cultural_note": ""
+        },
+        "30": {
+          "display_format": "**Thirty:** 30",
+          "explanation": "Number thirty.",
+          "cultural_note": "Refers to the speed limit of 30 km/h in cities."
+        },
+        "km": {
+          "display_format": "**Kilometers:** km",
+          "explanation": "Abbreviation for 'kilometers'.",
+          "cultural_note": ""
+        },
+        "h": {
+          "display_format": "**Hours:** h",
+          "explanation": "Abbreviation for 'heures' meaning 'hours'.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition meaning 'in' or 'to'.",
+          "cultural_note": ""
+        },
+        "ville": {
+          "display_format": "**City:** ville",
+          "explanation": "Noun meaning 'city' or 'town'.",
+          "cultural_note": "Refers to urban areas in France with specific regulations."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Progressiste, ancien rappeur... Zohran Mamdani, le démocrate qui défie l’establishment new-yorkais",
+      "original_article_link": "https://www.france24.com/fr/am%C3%A9riques/20250627-progressiste-ancien-rappeur-zohran-mamdani-d%C3%A9mocrate-qui-d%C3%A9fie-establishment-new-yorkais",
+      "original_article_published_date": "2025-06-27T16:46:29",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Zohran Mamdani, un nouveau démocrate à New York",
+      "simplified_english_title": "Zohran Mamdani, a new Democrat in New York",
+      "french_summary": "Zohran Mamdani, un ancien rappeur et progressiste, défie l'establishment politique new-yorkais en tant que nouveau démocrate.",
+      "english_summary": "Zohran Mamdani, a former rapper and progressive, challenges the New York political establishment as a new Democrat.",
+      "contextual_title_explanations": {
+        "Progressiste": {
+          "display_format": "**Progressive:** Progressiste",
+          "explanation": "A person who supports social reform and progress.",
+          "cultural_note": "In French politics, often associated with left-wing or socialist ideas."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark used to separate items in a list.",
+          "cultural_note": ""
+        },
+        "ancien": {
+          "display_format": "**Former:** ancien",
+          "explanation": "Having previously held a particular position or status.",
+          "cultural_note": ""
+        },
+        "rappeur": {
+          "display_format": "**Rapper:** rappeur",
+          "explanation": "A musician who performs rap music.",
+          "cultural_note": "Rap music is popular in France, with many French rappers gaining international fame."
+        },
+        ".": {
+          "display_format": "**Period:** .",
+          "explanation": "A punctuation mark used to end a sentence.",
+          "cultural_note": ""
+        },
+        "démocrate": {
+          "display_format": "**Democrat:** démocrate",
+          "explanation": "A member or supporter of the Democratic Party in the US.",
+          "cultural_note": "The Democratic Party is one of the two major political parties in the United States."
+        },
+        "yorkais": {
+          "display_format": "**New Yorker:** new-yorkais",
+          "explanation": "A person from New York City.",
+          "cultural_note": "New York City is a major cultural and financial center in the United States."
+        },
+        "qui": {
+          "display_format": "**Who:** qui",
+          "explanation": "Used to introduce a relative clause.",
+          "cultural_note": ""
+        },
+        "défie": {
+          "display_format": "**Defies:** défie",
+          "explanation": "Openly resists or challenges someone or something.",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** l'",
+          "explanation": "A definite article used before a vowel sound.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "A definite article used before masculine nouns.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'Iran dénonce les «intentions malveillantes» du patron de l'AIEA",
+      "original_article_link": "https://www.lefigaro.fr/international/l-iran-denonce-les-intentions-malveillantes-du-patron-de-l-aiea-20250627",
+      "original_article_published_date": "2025-06-27T16:53:54",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Iran critique le chef de l'AIEA",
+      "simplified_english_title": "Iran criticizes IAEA head",
+      "french_summary": "L'Iran accuse le directeur de l'AIEA d'avoir des intentions malveillantes, créant des tensions internationales.",
+      "english_summary": "Iran accuses the IAEA head of having malicious intentions, creating international tensions.",
+      "contextual_title_explanations": {
+        "L'Iran": {
+          "display_format": "**Iran:** L'Iran",
+          "explanation": "Country in the Middle East.",
+          "cultural_note": "Iran is known for its rich history and cultural heritage."
+        },
+        "dénonce": {
+          "display_format": "**Denounces:** dénonce",
+          "explanation": "To publicly declare something to be wrong or evil.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article used before plural nouns.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Symbol used to indicate the beginning of a quotation.",
+          "cultural_note": "French uses « » as quotation marks instead of \" \"."
+        },
+        "malveillantes": {
+          "display_format": "**Malicious:** malveillantes",
+          "explanation": "Having the nature of threatening evil.",
+          "cultural_note": ""
+        },
+        "patron": {
+          "display_format": "**Head:** patron",
+          "explanation": "Person in charge of an organization.",
+          "cultural_note": "In French, 'patron' can also mean 'boss' in a general sense."
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Symbol used to indicate the end of a quotation.",
+          "cultural_note": "French uses « » as quotation marks instead of \" \"."
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Contraction of 'de' and 'le', meaning 'of the'.",
+          "cultural_note": ""
+        },
+        "l'AIEA": {
+          "display_format": "**IAEA:** l'AIEA",
+          "explanation": "International Atomic Energy Agency.",
+          "cultural_note": "The IAEA is an international organization that seeks to promote the peaceful use of nuclear energy."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T17:17:21",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
