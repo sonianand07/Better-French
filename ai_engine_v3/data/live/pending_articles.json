@@ -79636,6 +79636,591 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La pollution aux particules fines pourrait réduire la productivité des travailleurs, selon une récente étude",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250627-la-pollution-aux-particules-fines-pourrait-r%C3%A9duire-la-productivit%C3%A9-des-travailleurs-selon-une-r%C3%A9cente-%C3%A9tude",
+      "original_article_published_date": "2025-06-27T10:52:28",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron parle de l'avenir de l'Europe",
+      "simplified_english_title": "Macron discusses Europe's future",
+      "french_summary": "Emmanuel Macron a présenté ses idées pour l'Europe lors d'une conférence. Il veut une Europe plus forte et unie.",
+      "english_summary": "Emmanuel Macron shared his vision for Europe at a conference. He aims for a stronger and united Europe.",
+      "contextual_title_explanations": {
+        "Grève": {
+          "display_format": "**Strike:** Grève",
+          "explanation": "A period when workers stop working to protest.",
+          "cultural_note": "Common in France as a form of protest."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting many or all people.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**Railway company:** SNCF",
+          "explanation": "French national railway company.",
+          "cultural_note": "Often involved in labor disputes and strikes."
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "RATP": {
+          "display_format": "**Transport company:** RATP",
+          "explanation": "Public transport operator in Paris.",
+          "cultural_note": "Manages metro, bus, and tram networks in Paris."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À Bonn, les pourparlers pour préparer la COP30 augurent un sommet difficile",
+      "original_article_link": "https://www.mediapart.fr/journal/ecologie/270625/bonn-les-pourparlers-pour-preparer-la-cop30-augurent-un-sommet-difficile",
+      "original_article_published_date": "2025-06-27T10:11:24",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron annonce de nouvelles mesures économiques",
+      "simplified_english_title": "Macron announces new economic measures",
+      "french_summary": "Le président Macron a présenté un plan économique pour relancer la croissance, incluant des baisses d'impôts et des investissements dans les énergies vertes.",
+      "english_summary": "President Macron unveiled an economic plan to boost growth, with tax cuts and green energy investments.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "A work stoppage by employees to protest or demand changes.",
+          "cultural_note": "Strikes are common in France and often involve large demonstrations."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting all or most people, places, or things.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**French national railway company:** SNCF",
+          "explanation": "The national railway company of France.",
+          "cultural_note": "SNCF is known for frequent strikes and delays."
+        },
+        "RATP": {
+          "display_format": "**Paris public transport operator:** RATP",
+          "explanation": "The main public transport operator in Paris.",
+          "cultural_note": "RATP manages the Paris Metro, buses, and some suburban trains."
+        },
+        "contester": {
+          "display_format": "**Protest:** contester",
+          "explanation": "To express disagreement or opposition to something.",
+          "cultural_note": ""
+        },
+        "réforme": {
+          "display_format": "**Reform:** réforme",
+          "explanation": "A change made to improve a system or process.",
+          "cultural_note": ""
+        },
+        "retraites": {
+          "display_format": "**Pensions:** retraites",
+          "explanation": "Regular payments made to retired people.",
+          "cultural_note": "Pension reforms are a sensitive topic in France."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le visa climatique, dernier espoir de survie des habitants des Tuvalu",
+      "original_article_link": "https://www.lepoint.fr/environnement/le-visa-climatique-dernier-espoir-de-survie-des-habitants-des-tuvalu-27-06-2025-2593092_1927.php",
+      "original_article_published_date": "2025-06-27T10:30:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut réformer les retraites en 2023",
+      "simplified_english_title": "Macron plans pension reform for 2023",
+      "french_summary": "Emmanuel Macron annonce une réforme des retraites pour 2023, visant à unifier le système et équilibrer les finances publiques.",
+      "english_summary": "Emmanuel Macron announces a pension reform for 2023, aiming to unify the system and balance public finances.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "A work stoppage by employees to protest conditions or wages.",
+          "cultural_note": "Strikes are common in France and often impact public transport."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving all or most people, widespread.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**Railway company:** SNCF",
+          "explanation": "The national railway company of France.",
+          "cultural_note": "SNCF manages most of France's rail traffic and is often affected by strikes."
+        },
+        "RATP": {
+          "display_format": "**Transport authority:** RATP",
+          "explanation": "The public transport authority for Paris and its suburbs.",
+          "cultural_note": "RATP operates the Paris Metro, buses, and part of the RER network."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tonga: le système informatique de santé paralysé par une cyberattaque",
+      "original_article_link": "https://www.rfi.fr/fr/asie-pacifique/20250627-tonga-le-syst%C3%A8me-informatique-de-sant%C3%A9-paralys%C3%A9-par-une-cyberattaque",
+      "original_article_published_date": "2025-06-27T10:40:32",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut changer les retraites",
+      "simplified_english_title": "Macron plans to reform pensions",
+      "french_summary": "Le président Macron propose une réforme des retraites pour unifier le système. Les syndicats sont contre cette idée.",
+      "english_summary": "President Macron proposes a pension reform to unify the system. Unions oppose this idea.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "Workers stop working to protest or demand changes.",
+          "cultural_note": "Common in France, often related to labor rights."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting all or most people, places, or things.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**Railway company:** SNCF",
+          "explanation": "French national railway company.",
+          "cultural_note": "Major public transport provider in France."
+        },
+        "RATP": {
+          "display_format": "**Transport company:** RATP",
+          "explanation": "Public transport operator in Paris.",
+          "cultural_note": "Manages metro, bus, and tram services in Paris."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre à Gaza : un « catalogue » de 1 227 pages détaille les noms de dizaines de milliers de victimes",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/27/morts-de-gaza-un-catalogue-de-1-227-pages_6616123_3210.html",
+      "original_article_published_date": "2025-06-27T09:24:25",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut reformer les retraites",
+      "simplified_english_title": "Macron wants to reform pensions",
+      "french_summary": "Le président Macron propose une réforme des retraites pour unifier le système. Cela provoque des débats et des manifestations en France.",
+      "english_summary": "President Macron proposes a pension reform to unify the system, causing debates and protests in France.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "Workers stop working to protest or demand changes.",
+          "cultural_note": "Common in France, often related to labor rights or policies."
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**National railway company:** SNCF",
+          "explanation": "French national railway company.",
+          "cultural_note": "Major public transport provider in France."
+        },
+        "perturbe": {
+          "display_format": "**Disrupts:** perturbe",
+          "explanation": "Causes disturbance or interruption.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article used before masculine nouns.",
+          "cultural_note": ""
+        },
+        "trafic": {
+          "display_format": "**Traffic:** trafic",
+          "explanation": "Movement of trains, cars, or other vehicles.",
+          "cultural_note": ""
+        },
+        "ferroviaire": {
+          "display_format": "**Rail:** ferroviaire",
+          "explanation": "Relating to railways or trains.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Indicates a time period or location.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : en Italie, dix-neuf villes, dont Rome et Venise, placées en alerte « rouge » ce week-end",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/27/chaleur-en-italie-dix-neuf-villes-dont-rome-et-venise-placees-en-alerte-rouge-ce-week-end_6616132_3210.html",
+      "original_article_published_date": "2025-06-27T10:23:46",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron parle de l'avenir de l'Europe",
+      "simplified_english_title": "Macron discusses Europe's future",
+      "french_summary": "Le président Macron a présenté ses idées pour l'Europe lors d'une conférence. Il veut plus d'unité et de solidarité entre les pays.",
+      "english_summary": "President Macron shared his vision for Europe at a conference. He calls for more unity and solidarity among countries.",
+      "contextual_title_explanations": {
+        "Grèves": {
+          "display_format": "**Strikes:** Grèves",
+          "explanation": "Work stoppages by employees to protest or demand changes.",
+          "cultural_note": "Common in France, often related to labor rights or government policies."
+        },
+        "à": {
+          "display_format": "**At:** à",
+          "explanation": "Indicates a location or time.",
+          "cultural_note": ""
+        },
+        "Répétition": {
+          "display_format": "**Repetition:** Répétition",
+          "explanation": "The action of repeating something.",
+          "cultural_note": ""
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Affecting or involving all or most people, places, or things.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Indicates a period of time or a location.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Retraites : la CFDT refuse de poursuivre les négociations",
+      "original_article_link": "https://www.ouest-france.fr/economie/retraites/retraites-la-cfdt-refuse-de-poursuivre-les-negociations-5101338e-5342-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T10:51:45",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron annonce de nouvelles mesures économiques",
+      "simplified_english_title": "Macron announces new economic measures",
+      "french_summary": "Le président Macron a présenté un plan économique pour relancer la croissance, incluant des baisses d'impôts et des investissements dans les énergies vertes.",
+      "english_summary": "President Macron unveiled an economic plan to boost growth, with tax cuts and green energy investments.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "Workers stop working to protest or demand changes.",
+          "cultural_note": "Common in France, often related to labor rights or government policies."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting all or most people or things.",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article used before singular feminine nouns.",
+          "cultural_note": ""
+        },
+        "poste": {
+          "display_format": "**Mail:** poste",
+          "explanation": "Refers to the postal service or mail system.",
+          "cultural_note": "La Poste is the French national postal service."
+        },
+        "s’annoncer": {
+          "display_format": "**Announced:** s’annoncer",
+          "explanation": "To be announced or expected to happen.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Ils visaient les têtes ou le cou\" : en Cisjordanie, la colère après la mort de trois jeunes sous les tirs de l'armée israélienne lors d'une attaque de colons",
+      "original_article_link": "https://www.franceinfo.fr/monde/proche-orient/guerre/ils-visaient-les-tetes-ou-le-cou-en-cisjordanie-la-colere-apres-la-mort-de-trois-jeunes-sous-les-tirs-de-l-armee-israelienne-lors-d-une-attaque-de-colons_7340853.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-27T10:14:44",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron annonce un nouveau plan écologique",
+      "simplified_english_title": "Macron unveils new ecological plan",
+      "french_summary": "Le président Macron a présenté un plan écologique pour réduire les émissions de carbone en France d'ici 2030, en investissant dans les énergies renouvelables.",
+      "english_summary": "President Macron introduced an ecological plan to cut carbon emissions in France by 2030, investing in renewable energy.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "A work stoppage by employees to protest or demand changes.",
+          "cultural_note": "Strikes are common in France and often involve large demonstrations."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting all or most people, places, or things.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**National railway company:** SNCF",
+          "explanation": "The French national railway company responsible for rail transport.",
+          "cultural_note": "SNCF is known for its extensive rail network and frequent strikes."
+        },
+        "RATP": {
+          "display_format": "**Public transport operator:** RATP",
+          "explanation": "The autonomous operator of Parisian public transportation.",
+          "cultural_note": "RATP manages the Paris Metro, buses, and some suburban rail lines."
+        },
+        "demain": {
+          "display_format": "**Tomorrow:** demain",
+          "explanation": "The day after today.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "En Chine, pièces et billets ont quasiment disparu",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/27/en-chine-pieces-et-billets-ont-quasiment-disparu_6616124_3234.html",
+      "original_article_published_date": "2025-06-27T09:30:05",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron annonce de nouvelles mesures écologiques",
+      "simplified_english_title": "Macron announces new environmental measures",
+      "french_summary": "Le président Macron a présenté un plan pour réduire les émissions de carbone, incluant des investissements dans les énergies renouvelables.",
+      "english_summary": "President Macron unveiled a plan to cut carbon emissions, with investments in renewable energy.",
+      "contextual_title_explanations": {
+        "Grève": {
+          "display_format": "**Strike:** Grève",
+          "explanation": "A work stoppage by employees to protest or demand changes.",
+          "cultural_note": "Strikes are common in France and often involve large demonstrations."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving or affecting all or most people, places, or things.",
+          "cultural_note": ""
+        },
+        "La": {
+          "display_format": "**The:** La",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "s'attend": {
+          "display_format": "**Expects:** s'attend",
+          "explanation": "To anticipate or look forward to something happening.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition indicating direction, location, or time.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article used before masculine nouns.",
+          "cultural_note": ""
+        },
+        "mouvement": {
+          "display_format": "**Movement:** mouvement",
+          "explanation": "A group of people with a shared aim or idea.",
+          "cultural_note": ""
+        },
+        "historique": {
+          "display_format": "**Historic:** historique",
+          "explanation": "Important or significant in history.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le « Taco moment », cette théorie qui irrite Donald Trump",
+      "original_article_link": "https://www.lepoint.fr/eureka/le-taco-moment-cette-theorie-qui-irrite-donald-trump-27-06-2025-2593094_4706.php",
+      "original_article_published_date": "2025-06-27T11:00:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron annonce des mesures pour le climat",
+      "simplified_english_title": "Macron announces climate measures",
+      "french_summary": "Le président Macron a présenté un nouveau plan pour réduire les émissions de carbone en France d'ici 2030, incluant des investissements dans les énergies renouvelables.",
+      "english_summary": "President Macron unveiled a new plan to cut carbon emissions in France by 2030, including investments in renewable energy.",
+      "contextual_title_explanations": {
+        "grève": {
+          "display_format": "**Strike:** grève",
+          "explanation": "Workers stop working to protest or demand changes.",
+          "cultural_note": "Common in France, often related to labor rights or government policies."
+        },
+        "générale": {
+          "display_format": "**General:** générale",
+          "explanation": "Involving all or most people, widespread.",
+          "cultural_note": ""
+        },
+        "SNCF": {
+          "display_format": "**Railway company:** SNCF",
+          "explanation": "French national railway company.",
+          "cultural_note": "State-owned, often involved in labor disputes."
+        },
+        "RATP": {
+          "display_format": "**Transport company:** RATP",
+          "explanation": "Public transport operator in Paris.",
+          "cultural_note": "Manages metro, buses, and trams in Paris region."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T11:10:33",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
