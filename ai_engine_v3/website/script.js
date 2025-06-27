@@ -108,6 +108,9 @@ class BetterFrenchApp {
             this.articles = this.articles.filter(a => a.ai_enhanced || a.contextual_title_explanations);
             this.filteredArticles = [...this.articles];
             
+            // NEW: show all articles in one go (disable Load-More pagination)
+            this.articlesPerPage = this.filteredArticles.length;
+            
             console.log(`Loaded ${this.articles.length} AI-enhanced articles with contextual learning`);
             
         } catch (error) {
