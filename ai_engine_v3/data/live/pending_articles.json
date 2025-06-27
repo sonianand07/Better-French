@@ -81891,6 +81891,1036 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Politique agricole européenne : l’influence croissante des ONG financées de l’étranger",
+      "original_article_link": "https://www.lepoint.fr/societe/politique-agricole-europeenne-l-influence-croissante-des-ong-financees-de-l-etranger-27-06-2025-2593087_23.php",
+      "original_article_published_date": "2025-06-27T09:46:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les ONG étrangères influencent l’agriculture en Europe",
+      "simplified_english_title": "Foreign NGOs influence agriculture in Europe",
+      "french_summary": "Des ONG financées par l’étranger ont plus d’influence sur la politique agricole européenne, ce qui inquiète certains.",
+      "english_summary": "Foreign-funded NGOs increasingly influence European agricultural policy, causing concern for some.",
+      "contextual_title_explanations": {
+        "Politique": {
+          "display_format": "**Policy:** Politique",
+          "explanation": "A set of principles or plans to achieve goals.",
+          "cultural_note": "In French, often refers to government policies."
+        },
+        "agricole": {
+          "display_format": "**Agricultural:** agricole",
+          "explanation": "Relating to farming or agriculture.",
+          "cultural_note": "France has a strong agricultural sector with significant EU subsidies."
+        },
+        "européenne": {
+          "display_format": "**European:** européenne",
+          "explanation": "Relating to Europe, especially the European Union.",
+          "cultural_note": "France is a key member of the European Union."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces further information or an explanation.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article used before vowels.",
+          "cultural_note": ""
+        },
+        "croissante": {
+          "display_format": "**Growing:** croissante",
+          "explanation": "Increasing in size, amount, or degree.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article for plural nouns.",
+          "cultural_note": ""
+        },
+        "ONG": {
+          "display_format": "**NGOs:** ONG",
+          "explanation": "Non-Governmental Organizations, independent from government.",
+          "cultural_note": "NGOs play a significant role in shaping policies in France."
+        },
+        "financées": {
+          "display_format": "**Funded:** financées",
+          "explanation": "Provided with money for a purpose.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Indicates origin or possession.",
+          "cultural_note": ""
+        },
+        "étranger": {
+          "display_format": "**Foreign:** étranger",
+          "explanation": "From or characteristic of a country other than your own.",
+          "cultural_note": "France has a complex relationship with foreign influence in domestic affairs."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La France condamnée pour un contrôle d’identité au faciès : « Ce cas doit faire jurisprudence et amener l’Etat à réagir »",
+      "original_article_link": "https://www.nouvelobs.com/societe/20250627.OBS105368/la-france-condamnee-pour-un-controle-d-identite-au-facies-ce-cas-doit-faire-jurisprudence-et-amener-l-etat-a-reagir.html",
+      "original_article_published_date": "2025-06-27T12:16:37",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France punie pour un contrôle discriminatoire",
+      "simplified_english_title": "France condemned for discriminatory ID check",
+      "french_summary": "La France est condamnée pour un contrôle d'identité discriminatoire. Ce jugement pourrait changer les pratiques de la police.",
+      "english_summary": "France is condemned for a discriminatory ID check. This ruling could change police practices.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "condamnée": {
+          "display_format": "**Convicted:** _condamnée_",
+          "explanation": "Past participle of 'condemner,' meaning convicted or sentenced.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** _pour_",
+          "explanation": "Preposition meaning 'for' or 'because of.'",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** _un_",
+          "explanation": "Indefinite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "contrôle": {
+          "display_format": "**Check:** _contrôle_",
+          "explanation": "A check or inspection.",
+          "cultural_note": ""
+        },
+        "d’identité": {
+          "display_format": "**Identity:** _d’identité_",
+          "explanation": "Relating to identity.",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**At the:** _au_",
+          "explanation": "Contraction of 'à le,' meaning 'at the.'",
+          "cultural_note": ""
+        },
+        "faciès": {
+          "display_format": "**Facial profiling:** _faciès_",
+          "explanation": "Refers to facial profiling or racial profiling.",
+          "cultural_note": "Racial profiling is a significant issue in France, often debated in the context of police controls."
+        },
+        ":": {
+          "display_format": "**Colon:** _:_",
+          "explanation": "Punctuation mark used to introduce a quote or explanation.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** _«_",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": ""
+        },
+        "Ce": {
+          "display_format": "**This:** _Ce_",
+          "explanation": "Demonstrative pronoun meaning 'this' or 'it.'",
+          "cultural_note": ""
+        },
+        "cas": {
+          "display_format": "**Case:** _cas_",
+          "explanation": "A case or instance.",
+          "cultural_note": ""
+        },
+        "doit": {
+          "display_format": "**Must:** _doit_",
+          "explanation": "Verb meaning 'must' or 'should.'",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**Make:** _faire_",
+          "explanation": "Verb meaning 'to make' or 'to do.'",
+          "cultural_note": ""
+        },
+        "jurisprudence": {
+          "display_format": "**Case law:** _jurisprudence_",
+          "explanation": "Legal term referring to case law or precedent.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "Conjunction meaning 'and.'",
+          "cultural_note": ""
+        },
+        "amener": {
+          "display_format": "**Lead:** _amener_",
+          "explanation": "Verb meaning 'to lead' or 'to bring.'",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** _l_",
+          "explanation": "Definite article, contraction of 'le' or 'la.'",
+          "cultural_note": ""
+        },
+        "Etat": {
+          "display_format": "**State:** _Etat_",
+          "explanation": "Refers to the state or government.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** _à_",
+          "explanation": "Preposition meaning 'to' or 'at.'",
+          "cultural_note": ""
+        },
+        "réagir": {
+          "display_format": "**React:** _réagir_",
+          "explanation": "Verb meaning 'to react.'",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark:** _»_",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule : cette insécurité qui menace les Français mais n’intéresse pas les politiques",
+      "original_article_link": "https://www.nouvelobs.com/billet/20250627.OBS105367/canicule-cette-insecurite-qui-menace-les-francais-mais-n-interesse-pas-les-politiques.html",
+      "original_article_published_date": "2025-06-27T12:04:27",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La canicule inquiète les Français",
+      "simplified_english_title": "Heatwave worries the French",
+      "french_summary": "Les Français s'inquiètent de la canicule, mais les politiques ne semblent pas intéressés par ce problème de sécurité.",
+      "english_summary": "The French are worried about the heatwave, but politicians seem uninterested in this security issue.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Heatwave**: Canicule",
+          "explanation": "A period of very hot weather.",
+          "cultural_note": "Heatwaves are significant in France due to their impact on health and infrastructure."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark used to introduce a statement.",
+          "cultural_note": ""
+        },
+        "cette": {
+          "display_format": "**This**: cette",
+          "explanation": "A demonstrative adjective meaning 'this' or 'that'.",
+          "cultural_note": ""
+        },
+        "insécurité": {
+          "display_format": "**Insecurity**: insécurité",
+          "explanation": "A feeling of being unsafe or uncertain.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**Who**: qui",
+          "explanation": "A relative pronoun meaning 'who' or 'that'.",
+          "cultural_note": ""
+        },
+        "menace": {
+          "display_format": "**Threatens**: menace",
+          "explanation": "To pose a danger or risk to someone or something.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The**: les",
+          "explanation": "A definite article used before nouns.",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**But**: mais",
+          "explanation": "A conjunction meaning 'but' or 'however'.",
+          "cultural_note": ""
+        },
+        "n’intéresse": {
+          "display_format": "**Does not interest**: n’intéresse",
+          "explanation": "Does not attract attention or concern.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not**: pas",
+          "explanation": "A word used to negate a verb.",
+          "cultural_note": ""
+        },
+        "politiques": {
+          "display_format": "**Politicians**: politiques",
+          "explanation": "People involved in politics or government.",
+          "cultural_note": "In France, 'politiques' can refer to both politicians and political matters."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Cognac contre voitures: Pékin lèvera ses sanctions sur l'alcool français si l'Europe lève les siennes sur les véhicules électriques chinois",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/agriculture/cognac-contre-voitures-pekin-levera-ses-sanctions-sur-l-alcool-francais-si-l-europe-leve-les-siennes-sur-les-vehicules-electriques-chinois_AN-202506270455.html",
+      "original_article_published_date": "2025-06-27T12:13:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Chine veut échanger des sanctions avec l'Europe",
+      "simplified_english_title": "China wants to swap sanctions with Europe",
+      "french_summary": "La Chine propose de lever les sanctions sur le cognac français si l'Europe fait de même pour les voitures électriques chinoises.",
+      "english_summary": "China offers to lift sanctions on French cognac if Europe does the same for Chinese electric cars.",
+      "contextual_title_explanations": {
+        "ses": {
+          "display_format": "**Its**: ses",
+          "explanation": "Possessive adjective meaning 'its' or 'their'.",
+          "cultural_note": ""
+        },
+        "véhicules": {
+          "display_format": "**Vehicles**: véhicules",
+          "explanation": "Machines used for transporting people or goods.",
+          "cultural_note": ""
+        },
+        "lèvera": {
+          "display_format": "**Will lift**: lèvera",
+          "explanation": "Future tense of 'lever', meaning to remove or lift.",
+          "cultural_note": ""
+        },
+        "voitures": {
+          "display_format": "**Cars**: voitures",
+          "explanation": "Road vehicles for transporting people.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against**: contre",
+          "explanation": "Indicates opposition or conflict.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On**: sur",
+          "explanation": "Indicates a position above or about something.",
+          "cultural_note": ""
+        },
+        "siennes": {
+          "display_format": "**Its**: siennes",
+          "explanation": "Feminine plural possessive adjective meaning 'its' or 'their'.",
+          "cultural_note": ""
+        },
+        "si": {
+          "display_format": "**If**: si",
+          "explanation": "Conditional conjunction meaning 'if'.",
+          "cultural_note": ""
+        },
+        "lève": {
+          "display_format": "**Lifts**: lève",
+          "explanation": "Present tense of 'lever', meaning to remove or lift.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Punctuation mark used to introduce a list or explanation.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The**: les",
+          "explanation": "Definite article, plural form of 'the'.",
+          "cultural_note": ""
+        },
+        "sanctions": {
+          "display_format": "**Sanctions**: sanctions",
+          "explanation": "Penalties or restrictions imposed to enforce compliance.",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**Electric**: électriques",
+          "explanation": "Relating to electricity or powered by electricity.",
+          "cultural_note": ""
+        },
+        "Pékin": {
+          "display_format": "**Beijing**: Pékin",
+          "explanation": "The capital city of China.",
+          "cultural_note": ""
+        },
+        "l&#39;Europe": {
+          "display_format": "**Europe**: l'Europe",
+          "explanation": "The continent including countries like France and Germany.",
+          "cultural_note": ""
+        },
+        "l&#39;alcool": {
+          "display_format": "**Alcohol**: l'alcool",
+          "explanation": "Alcoholic beverages.",
+          "cultural_note": ""
+        },
+        "chinois": {
+          "display_format": "**Chinese**: chinois",
+          "explanation": "Relating to China or its people.",
+          "cultural_note": ""
+        },
+        "Cognac": {
+          "display_format": "**Cognac**: Cognac",
+          "explanation": "A type of brandy produced in the Cognac region of France.",
+          "cultural_note": "Cognac is a prestigious French alcoholic beverage with protected designation of origin status."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Au Japon, le \"tueur de Twitter\", condamné pour neuf meurtres, a été exécuté",
+      "original_article_link": "https://www.franceinfo.fr/monde/japon/au-japon-le-tueur-de-twitter-condamne-pour-neuf-meurtres-a-ete-execute_7341333.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-27T12:12:43",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un tueur condamné a été exécuté au Japon",
+      "simplified_english_title": "A convicted killer was executed in Japan",
+      "french_summary": "Un homme connu comme le 'tueur de Twitter' a été exécuté au Japon pour avoir tué neuf personnes.",
+      "english_summary": "A man known as the 'Twitter killer' was executed in Japan for murdering nine people.",
+      "contextual_title_explanations": {
+        "&#34;": {
+          "display_format": "**Quotation marks:** \"",
+          "explanation": "Symbols used to show someone else's words.",
+          "cultural_note": ""
+        },
+        "neuf": {
+          "display_format": "**Nine:** neuf",
+          "explanation": "The number 9.",
+          "cultural_note": ""
+        },
+        "Japon": {
+          "display_format": "**Japan:** Japon",
+          "explanation": "An island country in East Asia.",
+          "cultural_note": ""
+        },
+        "Au": {
+          "display_format": "**In the:** Au",
+          "explanation": "Combines 'à' (to) and 'le' (the) to mean 'in the'.",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**Has:** a",
+          "explanation": "Third person singular of the verb 'avoir' (to have).",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**Been:** été",
+          "explanation": "Past participle of the verb 'être' (to be).",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/from:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article for masculine singular nouns.",
+          "cultural_note": ""
+        },
+        "tueur": {
+          "display_format": "**Killer:** tueur",
+          "explanation": "A person who kills.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark used to separate parts of a sentence.",
+          "cultural_note": ""
+        },
+        "condamné": {
+          "display_format": "**Convicted:** condamné",
+          "explanation": "Past participle of 'condamner' (to convict).",
+          "cultural_note": ""
+        },
+        "exécuté": {
+          "display_format": "**Executed:** exécuté",
+          "explanation": "Past participle of 'exécuter' (to execute).",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Preposition meaning 'for'.",
+          "cultural_note": ""
+        },
+        "meurtres": {
+          "display_format": "**Murders:** meurtres",
+          "explanation": "Plural of 'meurtre' (murder).",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les mini-crédits et les paiements fractionnés alimentent le surendettement, d’après la Banque de France",
+      "original_article_link": "https://www.lefigaro.fr/flash-eco/les-mini-credits-et-les-paiements-fractionnes-alimentent-le-surendettement-d-apres-la-banque-de-france-20250627",
+      "original_article_published_date": "2025-06-27T12:06:51",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les petits crédits causent des dettes",
+      "simplified_english_title": "Small loans cause debt problems",
+      "french_summary": "La Banque de France dit que les mini-crédits et les paiements en plusieurs fois augmentent le surendettement des ménages.",
+      "english_summary": "The Bank of France says small loans and installment payments increase household over-indebtedness.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** _Les_",
+          "explanation": "Plural definite article, meaning 'the'.",
+          "cultural_note": ""
+        },
+        "mini-crédits": {
+          "display_format": "**Mini-credits:** _mini-crédits_",
+          "explanation": "Small, short-term loans.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "A conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** _les_",
+          "explanation": "Plural definite article, meaning 'the'.",
+          "cultural_note": ""
+        },
+        "paiements": {
+          "display_format": "**Payments:** _paiements_",
+          "explanation": "Plural noun meaning 'payments'.",
+          "cultural_note": ""
+        },
+        "fractionnés": {
+          "display_format": "**Installment:** _fractionnés_",
+          "explanation": "Split into smaller parts or payments.",
+          "cultural_note": ""
+        },
+        "alimentent": {
+          "display_format": "**Fuel:** _alimentent_",
+          "explanation": "Verb meaning 'to fuel' or 'to feed'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** _le_",
+          "explanation": "Definite article, meaning 'the'.",
+          "cultural_note": ""
+        },
+        "surendettement": {
+          "display_format": "**Over-indebtedness:** _surendettement_",
+          "explanation": "State of having too much debt.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** _,_",
+          "explanation": "Punctuation mark used to separate parts of a sentence.",
+          "cultural_note": ""
+        },
+        "d’après": {
+          "display_format": "**According to:** _d’après_",
+          "explanation": "Preposition meaning 'according to'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Feminine definite article, meaning 'the'.",
+          "cultural_note": ""
+        },
+        "Banque": {
+          "display_format": "**Bank:** _Banque_",
+          "explanation": "Financial institution.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Bétharram: Paul Vannier demande la saisie de la justice contre François Bayrou pour «faux témoignage»",
+      "original_article_link": "https://www.mediapart.fr/journal/france/270625/betharram-paul-vannier-demande-la-saisie-de-la-justice-contre-francois-bayrou-pour-faux-temoignage",
+      "original_article_published_date": "2025-06-27T10:12:23",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paul Vannier accuse François Bayrou de faux témoignage",
+      "simplified_english_title": "Paul Vannier accuses François Bayrou of perjury",
+      "french_summary": "Paul Vannier a demandé à la justice d'accuser François Bayrou pour faux témoignage. C'est une affaire sérieuse qui pourrait avoir des conséquences légales.",
+      "english_summary": "Paul Vannier has asked the justice system to charge François Bayrou with perjury. This is a serious matter with potential legal consequences.",
+      "contextual_title_explanations": {
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "A symbol used to introduce a statement or list.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "faux": {
+          "display_format": "**False:** faux",
+          "explanation": "Not true or incorrect.",
+          "cultural_note": ""
+        },
+        "Bétharram": {
+          "display_format": "**Place:** Bétharram",
+          "explanation": "A small village in southwestern France.",
+          "cultural_note": ""
+        },
+        "saisie": {
+          "display_format": "**Seizure:** saisie",
+          "explanation": "Legal action to take possession of something.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation:** «",
+          "explanation": "French quotation mark used at the beginning of a quote.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against:** contre",
+          "explanation": "Preposition indicating opposition.",
+          "cultural_note": ""
+        },
+        "témoignage": {
+          "display_format": "**Testimony:** témoignage",
+          "explanation": "A formal written or spoken statement in court.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation:** »",
+          "explanation": "French quotation mark used at the end of a quote.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Preposition indicating purpose or reason.",
+          "cultural_note": ""
+        },
+        "demande": {
+          "display_format": "**Request:** demande",
+          "explanation": "A formal or informal request for something.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Privée de Victor Wenbanyama et de plusieurs cadres, la France mise sur sa jeunesse pour l’Euro masculin de basket",
+      "original_article_link": "https://www.lemonde.fr/sport/article/2025/06/27/privee-de-victor-wenbanyama-et-de-plusieurs-cadres-la-france-mise-sur-sa-jeunesse-pour-l-euro-masculin-de-basket_6616142_3242.html",
+      "original_article_published_date": "2025-06-27T11:23:40",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France compte sur ses jeunes pour l’Euro de basket",
+      "simplified_english_title": "France relies on youth for EuroBasket",
+      "french_summary": "Sans Victor Wembanyama et d'autres joueurs clés, la France mise sur ses jeunes talents pour l'Euro de basket masculin.",
+      "english_summary": "Without Victor Wembanyama and other key players, France is betting on its young talents for the EuroBasket.",
+      "contextual_title_explanations": {
+        "Privée": {
+          "display_format": "**Deprived**: _Privée_",
+          "explanation": "Lacking something important or valuable.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of**: _de_",
+          "explanation": "Shows possession or relationship.",
+          "cultural_note": ""
+        },
+        "Victor Wenbanyama": {
+          "display_format": "**Victor Wembanyama**: _Victor Wenbanyama_",
+          "explanation": "A prominent French basketball player.",
+          "cultural_note": "He is considered one of the top prospects in basketball."
+        },
+        "et": {
+          "display_format": "**And**: _et_",
+          "explanation": "Used to connect words or phrases.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma**: _,_",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "plusieurs": {
+          "display_format": "**Several**: _plusieurs_",
+          "explanation": "More than two but not many.",
+          "cultural_note": ""
+        },
+        "cadres": {
+          "display_format": "**Key players**: _cadres_",
+          "explanation": "Important or experienced players.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: _la_",
+          "explanation": "Definite article for feminine nouns.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France**: _France_",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": ""
+        },
+        "mise": {
+          "display_format": "**Bets**: _mise_",
+          "explanation": "To bet or rely on something.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On**: _sur_",
+          "explanation": "Indicates reliance or focus.",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**Its**: _sa_",
+          "explanation": "Possessive adjective for 'its'.",
+          "cultural_note": ""
+        },
+        "jeunesse": {
+          "display_format": "**Youth**: _jeunesse_",
+          "explanation": "Young people or the state of being young.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For**: _pour_",
+          "explanation": "Indicates purpose or destination.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The**: _l’_",
+          "explanation": "Definite article before a vowel.",
+          "cultural_note": ""
+        },
+        "Euro": {
+          "display_format": "**EuroBasket**: _Euro_",
+          "explanation": "European basketball championship.",
+          "cultural_note": "Major international basketball tournament."
+        },
+        "masculin": {
+          "display_format": "**Men's**: _masculin_",
+          "explanation": "Relating to male gender.",
+          "cultural_note": ""
+        },
+        "basket": {
+          "display_format": "**Basketball**: _basket_",
+          "explanation": "A team sport played with a ball and basket.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Aucun repreneur n'a été retenu: l'enseigne d'ameublement Casa va disparaître avec ses 145 magasins en France",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/liquidation-judiciaire-pour-l-enseigne-d-ameublement-casa-en-france_AD-202506270362.html",
+      "original_article_published_date": "2025-06-27T09:51:31",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Casa va fermer ses 145 magasins en France",
+      "simplified_english_title": "Casa to close all 145 stores in France",
+      "french_summary": "Casa, une enseigne d'ameublement, va fermer ses 145 magasins en France car aucun repreneur n'a été trouvé.",
+      "english_summary": "Casa, a furniture retailer, will close its 145 stores in France as no buyer was found.",
+      "contextual_title_explanations": {
+        "Aucun": {
+          "display_format": "**None:** Aucun",
+          "explanation": "Means 'none' or 'not any' in French.",
+          "cultural_note": ""
+        },
+        "repreneur": {
+          "display_format": "**Buyer:** repreneur",
+          "explanation": "A person or company that takes over a business.",
+          "cultural_note": ""
+        },
+        "n&#39;a": {
+          "display_format": "**Has not:** n'a",
+          "explanation": "Contraction of 'ne a pas,' meaning 'has not.'",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**Been:** été",
+          "explanation": "Past participle of 'être,' meaning 'been.'",
+          "cultural_note": ""
+        },
+        "retenu": {
+          "display_format": "**Selected:** retenu",
+          "explanation": "Past participle of 'retenir,' meaning 'selected' or 'chosen.'",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used to introduce an explanation or list.",
+          "cultural_note": ""
+        },
+        "l&#39;enseigne": {
+          "display_format": "**Brand:** l'enseigne",
+          "explanation": "Refers to a brand or store name.",
+          "cultural_note": ""
+        },
+        "d&#39;ameublement": {
+          "display_format": "**Furnishing:** d'ameublement",
+          "explanation": "Related to furniture or furnishing.",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**Will:** va",
+          "explanation": "Means 'will' or 'is going to.'",
+          "cultural_note": ""
+        },
+        "disparaître": {
+          "display_format": "**Disappear:** disparaître",
+          "explanation": "Means 'to disappear' or 'to vanish.'",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Means 'with' in French.",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**Its:** ses",
+          "explanation": "Possessive adjective meaning 'its' or 'their.'",
+          "cultural_note": ""
+        },
+        "magasins": {
+          "display_format": "**Stores:** magasins",
+          "explanation": "Means 'stores' or 'shops' in French.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Means 'in' or 'to' in French.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'équipe de Pogacar dévoile sa sélection pour le Tour de France",
+      "original_article_link": "https://www.20min.ch/fr/story/cyclisme-l-equipe-de-pogacar-devoile-sa-selection-pour-le-tour-de-france-103371376",
+      "original_article_published_date": "2025-06-27T10:26:38",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'équipe de Pogacar pour le Tour est connue",
+      "simplified_english_title": "Pogacar's team for the Tour is known",
+      "french_summary": "Tadej Pogacar a annoncé les coureurs de son équipe pour le Tour de France, une étape importante pour sa préparation.",
+      "english_summary": "Tadej Pogacar announced his team's riders for the Tour de France, a key step in his preparation.",
+      "contextual_title_explanations": {
+        "France": {
+          "display_format": "**Country:** France",
+          "explanation": "A country in Europe, known for its culture and history.",
+          "cultural_note": "France is famous for its wine, cheese, and the Tour de France cycling race."
+        },
+        "sélection": {
+          "display_format": "**Selection:** sélection",
+          "explanation": "The chosen group or team for a specific purpose.",
+          "cultural_note": ""
+        },
+        "L'équipe": {
+          "display_format": "**Team:** L'équipe",
+          "explanation": "A group of people working together, often in sports.",
+          "cultural_note": ""
+        },
+        "Tour": {
+          "display_format": "**Race:** Tour",
+          "explanation": "A famous cycling race held annually in France.",
+          "cultural_note": "The Tour de France is one of the most prestigious cycling races in the world."
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "A preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "A definite article used before masculine nouns.",
+          "cultural_note": ""
+        },
+        "dévoile": {
+          "display_format": "**Reveals:** dévoile",
+          "explanation": "To show or make known something previously secret.",
+          "cultural_note": ""
+        },
+        "Pogacar": {
+          "display_format": "**Name:** Pogacar",
+          "explanation": "Tadej Pogačar, a professional cyclist from Slovenia.",
+          "cultural_note": "Pogacar is a prominent figure in modern cycling, known for his achievements in the Tour de France."
+        },
+        "sa": {
+          "display_format": "**His/Her:** sa",
+          "explanation": "A possessive adjective meaning 'his' or 'her'.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "A preposition indicating purpose or destination.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T12:35:22",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
