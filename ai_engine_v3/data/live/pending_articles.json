@@ -94617,6 +94617,985 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’éditorial de Laurence de Charette : «Baisse de la natalité en France, soutenons les bâtisseurs d’avenir»",
+      "original_article_link": "https://www.lefigaro.fr/vox/societe/l-editorial-de-laurence-de-charette-baisse-de-la-natalite-en-france-soutenons-les-batisseurs-d-avenir-20250627",
+      "original_article_published_date": "2025-06-27T18:12:17",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La natalité baisse, aidons les familles",
+      "simplified_english_title": "Birth rates fall, let's help families",
+      "french_summary": "Laurence de Charette parle de la baisse des naissances en France et demande plus de soutien pour les familles.",
+      "english_summary": "Laurence de Charette addresses France's declining birth rates and calls for more support for families.",
+      "contextual_title_explanations": {
+        "L": {
+          "display_format": "**The**: L",
+          "explanation": "Short for 'Le' or 'La', meaning 'The'.",
+          "cultural_note": "Common in French titles for brevity."
+        },
+        "éditorial": {
+          "display_format": "**Editorial**: éditorial",
+          "explanation": "An article expressing the newspaper's opinion.",
+          "cultural_note": "Often written by senior editors in French media."
+        },
+        "Laurence": {
+          "display_format": "**Laurence**: Laurence",
+          "explanation": "A French given name.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of**: de",
+          "explanation": "Indicates possession or origin.",
+          "cultural_note": ""
+        },
+        "Charette": {
+          "display_format": "**Charette**: Charette",
+          "explanation": "A French surname.",
+          "cultural_note": "Laurence de Charette is a French journalist."
+        },
+        "«": {
+          "display_format": "**Opening quotation mark**: «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to indicate the beginning of a quote."
+        },
+        "Baisse": {
+          "display_format": "**Decrease**: Baisse",
+          "explanation": "A reduction or decline.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article for feminine nouns.",
+          "cultural_note": ""
+        },
+        "natalité": {
+          "display_format": "**Birth rate**: natalité",
+          "explanation": "The number of births in a population.",
+          "cultural_note": "Important topic in French social policy."
+        },
+        "en": {
+          "display_format": "**In**: en",
+          "explanation": "Indicates location or time.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France**: France",
+          "explanation": "A country in Europe.",
+          "cultural_note": "Known for its culture, history, and influence."
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "soutenons": {
+          "display_format": "**Support**: soutenons",
+          "explanation": "First-person plural imperative of 'soutenir', meaning 'let's support'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The**: les",
+          "explanation": "Definite article for plural nouns.",
+          "cultural_note": ""
+        },
+        "bâtisseurs": {
+          "display_format": "**Builders**: bâtisseurs",
+          "explanation": "Those who build or create.",
+          "cultural_note": "Often used metaphorically for those shaping the future."
+        },
+        "d’": {
+          "display_format": "**Of**: d’",
+          "explanation": "Contraction of 'de' before a vowel.",
+          "cultural_note": ""
+        },
+        "avenir": {
+          "display_format": "**Future**: avenir",
+          "explanation": "The time to come.",
+          "cultural_note": "Common in discussions about future plans or prospects."
+        },
+        "»": {
+          "display_format": "**Closing quotation mark**: »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to indicate the end of a quote."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark introducing a quote or list.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Une révolution pour l’épargne des Français» : comment Éric Ciotti veut transformer le PEA",
+      "original_article_link": "https://www.lefigaro.fr/conjoncture/une-revolution-pour-l-epargne-des-francais-comment-eric-ciotti-veut-transformer-le-pea-20250627",
+      "original_article_published_date": "2025-06-27T16:44:32",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Éric Ciotti veut changer le PEA pour les Français",
+      "simplified_english_title": "Éric Ciotti wants to change the PEA for French people",
+      "french_summary": "Éric Ciotti propose de transformer le PEA pour faciliter l'épargne des Français, ce qui pourrait changer leurs habitudes d'investissement.",
+      "english_summary": "Éric Ciotti proposes to transform the PEA to make saving easier for the French, which could change their investment habits.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to indicate the beginning of a quote or dialogue."
+        },
+        "Une": {
+          "display_format": "**A:** Une",
+          "explanation": "Indefinite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "révolution": {
+          "display_format": "**Revolution:** révolution",
+          "explanation": "A dramatic change or transformation.",
+          "cultural_note": "Often used in French political and social contexts."
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Preposition indicating purpose or destination.",
+          "cultural_note": ""
+        },
+        "l’épargne": {
+          "display_format": "**Savings:** l’épargne",
+          "explanation": "Money saved for future use.",
+          "cultural_note": "Important concept in French personal finance."
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article, plural.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to indicate the end of a quote or dialogue."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing an explanation or list.",
+          "cultural_note": ""
+        },
+        "Éric": {
+          "display_format": "**Eric:** Éric",
+          "explanation": "A male first name.",
+          "cultural_note": "Éric Ciotti is a French politician."
+        },
+        "comment": {
+          "display_format": "**How:** comment",
+          "explanation": "Interrogative word asking about the manner or way.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "veut": {
+          "display_format": "**Wants:** veut",
+          "explanation": "Third person singular of the verb 'vouloir', meaning to want.",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** l",
+          "explanation": "Definite article, used before vowels.",
+          "cultural_note": ""
+        },
+        "transformer": {
+          "display_format": "**Transform:** transformer",
+          "explanation": "To change the form or nature of something.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Football : Olivier Giroud devrait faire son retour en Ligue 1 en s'engageant avec Lille la saison prochaine",
+      "original_article_link": "https://www.europe1.fr/sport/football-olivier-giroud-devrait-faire-son-retour-en-ligue-1-en-sengageant-avec-lille-la-saison-prochaine-761336",
+      "original_article_published_date": "2025-06-27T18:43:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Olivier Giroud pourrait revenir en Ligue 1",
+      "simplified_english_title": "Olivier Giroud may return to Ligue 1",
+      "french_summary": "Olivier Giroud va probablement rejoindre Lille la saison prochaine, marquant ainsi son retour en Ligue 1 après plusieurs années à l'étranger.",
+      "english_summary": "Olivier Giroud is likely to join Lille next season, marking his return to Ligue 1 after several years abroad.",
+      "contextual_title_explanations": {
+        "Football": {
+          "display_format": "**Soccer:** Football",
+          "explanation": "The sport known as soccer in the US.",
+          "cultural_note": "Very popular sport in France, often called 'le foot'."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces additional information or a list.",
+          "cultural_note": ""
+        },
+        "devrait": {
+          "display_format": "**Should:** devrait",
+          "explanation": "Indicates a probable action or event.",
+          "cultural_note": ""
+        },
+        "faire": {
+          "display_format": "**Make:** faire",
+          "explanation": "To do or to make something.",
+          "cultural_note": ""
+        },
+        "son": {
+          "display_format": "**His:** son",
+          "explanation": "Possessive pronoun meaning 'his' or 'her'.",
+          "cultural_note": ""
+        },
+        "retour": {
+          "display_format": "**Return:** retour",
+          "explanation": "The act of coming back.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition meaning 'in' or 'by'.",
+          "cultural_note": ""
+        },
+        "s&#39;engageant": {
+          "display_format": "**Committing:** s'engageant",
+          "explanation": "The act of committing to something.",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**With:** avec",
+          "explanation": "Preposition meaning 'with'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "saison": {
+          "display_format": "**Season:** saison",
+          "explanation": "A period of time, often related to sports or weather.",
+          "cultural_note": ""
+        },
+        "prochaine": {
+          "display_format": "**Next:** prochaine",
+          "explanation": "Meaning 'next' or 'following'.",
+          "cultural_note": ""
+        },
+        "Ligue": {
+          "display_format": "**League:** Ligue",
+          "explanation": "A group of sports clubs competing in a sport.",
+          "cultural_note": "Ligue 1 is the top professional soccer division in France."
+        },
+        "1": {
+          "display_format": "**One:** 1",
+          "explanation": "The number one.",
+          "cultural_note": "Refers to Ligue 1, the top French soccer league."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Intoxication E.coli: \"14 enfants ont pu quitter l'hôpital\", détaille Béatrice Bertaux, maire adjointe de Saint-Quentin (Aisne) en charge de la santé",
+      "original_article_link": "https://www.bfmtv.com/sante/video-intoxication-e-coli-14-enfants-ont-pu-quitter-l-hopital-detaille-beatrice-bertaux-maire-adjointe-de-saint-quentin-aisne-en-charge-de-la-sante_VN-202506270772.html",
+      "original_article_published_date": "2025-06-27T20:20:08",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "14 enfants sortent de l’hôpital après E.coli",
+      "simplified_english_title": "14 children leave hospital after E.coli",
+      "french_summary": "Béatrice Bertaux, adjointe à la santé de Saint-Quentin, annonce que 14 enfants ont quitté l’hôpital après une intoxication à E.coli.",
+      "english_summary": "Béatrice Bertaux, health deputy mayor of Saint-Quentin, says 14 children left the hospital after E.coli poisoning.",
+      "contextual_title_explanations": {
+        "Intoxication": {
+          "display_format": "**Poisoning**: Intoxication",
+          "explanation": "Harmful effects from toxic substances.",
+          "cultural_note": "Often used in French media for food poisoning cases."
+        },
+        "E.coli": {
+          "display_format": "**Bacteria**: E.coli",
+          "explanation": "A type of bacteria that can cause illness.",
+          "cultural_note": "Commonly referenced in food safety incidents in France."
+        },
+        "&#34;": {
+          "display_format": "**Quotation**: \"",
+          "explanation": "Used to indicate direct speech or a quote.",
+          "cultural_note": ""
+        },
+        "14": {
+          "display_format": "**Fourteen**: 14",
+          "explanation": "The number fourteen.",
+          "cultural_note": ""
+        },
+        "enfants": {
+          "display_format": "**Children**: enfants",
+          "explanation": "Young humans who are not yet adults.",
+          "cultural_note": "In French culture, children's health is a significant public concern."
+        },
+        "ont": {
+          "display_format": "**Have**: ont",
+          "explanation": "Third person plural of the verb 'avoir' (to have).",
+          "cultural_note": ""
+        },
+        "pu": {
+          "display_format": "**Able**: pu",
+          "explanation": "Past participle of 'pouvoir' (to be able to).",
+          "cultural_note": ""
+        },
+        "quitter": {
+          "display_format": "**Leave**: quitter",
+          "explanation": "To depart from a place.",
+          "cultural_note": ""
+        },
+        "l&#39;hôpital": {
+          "display_format": "**Hospital**: l'hôpital",
+          "explanation": "A place where sick or injured people are treated.",
+          "cultural_note": "French hospitals are part of the public health system."
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "détaille": {
+          "display_format": "**Details**: détaille",
+          "explanation": "To provide specific information.",
+          "cultural_note": ""
+        },
+        "Béatrice": {
+          "display_format": "**Beatrice**: Béatrice",
+          "explanation": "A female first name.",
+          "cultural_note": "Béatrice Bertaux is a French public figure."
+        },
+        "Bertaux": {
+          "display_format": "**Bertaux**: Bertaux",
+          "explanation": "A French surname.",
+          "cultural_note": "Béatrice Bertaux is a French public figure."
+        },
+        "maire": {
+          "display_format": "**Mayor**: maire",
+          "explanation": "The head of a town or city government.",
+          "cultural_note": "In France, the mayor is an important local official."
+        },
+        "adjointe": {
+          "display_format": "**Deputy**: adjointe",
+          "explanation": "A person who assists the mayor.",
+          "cultural_note": "In French local government, adjoints have specific responsibilities."
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "A preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "Saint-Quentin": {
+          "display_format": "**Saint-Quentin**: Saint-Quentin",
+          "explanation": "A city in northern France.",
+          "cultural_note": "Saint-Quentin is known for its historical and cultural significance."
+        },
+        "Aisne": {
+          "display_format": "**Aisne**: Aisne",
+          "explanation": "A department in northern France.",
+          "cultural_note": "Aisne is known for its role in World War I."
+        },
+        "en": {
+          "display_format": "**In**: en",
+          "explanation": "A preposition indicating a state or condition.",
+          "cultural_note": ""
+        },
+        "charge": {
+          "display_format": "**Charge**: charge",
+          "explanation": "Responsibility or duty.",
+          "cultural_note": "In French administration, 'en charge de' means in charge of."
+        },
+        "santé": {
+          "display_format": "**Health**: santé",
+          "explanation": "The state of being free from illness.",
+          "cultural_note": "Healthcare is a major topic in French public policy."
+        },
+        ".": {
+          "display_format": "**Period**: .",
+          "explanation": "A punctuation mark indicating the end of a sentence.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark introducing a list or quote.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L'opposant en exil Cellou Dalein Diallo accuse les autorités guinéennes d'avoir refusé de l'enregistrer à Abidjan",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250627-l-opposant-en-exil-cellou-dalein-diallo-accuse-les-autorit%C3%A9s-guin%C3%A9ennes-d-avoir-refus%C3%A9-de-l-enregistrer-%C3%A0-abidjan",
+      "original_article_published_date": "2025-06-27T15:35:30",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Diallo accuse la Guinée de refus d'enregistrement",
+      "simplified_english_title": "Diallo accuses Guinea of registration refusal",
+      "french_summary": "Cellou Dalein Diallo, opposant en exil, dit que la Guinée a refusé de l'enregistrer à Abidjan, ce qui pose problème.",
+      "english_summary": "Exiled opponent Cellou Dalein Diallo says Guinea refused to register him in Abidjan, causing issues.",
+      "contextual_title_explanations": {
+        "L’opposant": {
+          "display_format": "**Opponent:** L’opposant",
+          "explanation": "A person who opposes or disagrees with someone or something.",
+          "cultural_note": "In politics, an opponent is often a member of a rival party or faction."
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Indicates a state or condition.",
+          "cultural_note": ""
+        },
+        "exil": {
+          "display_format": "**Exile:** exil",
+          "explanation": "The state of being barred from one's native country.",
+          "cultural_note": "Exile is often used in political contexts for those forced to leave their country."
+        },
+        "accuse": {
+          "display_format": "**Accuses:** accuse",
+          "explanation": "To claim that someone has done something wrong.",
+          "cultural_note": "In political contexts, accusations can have significant implications."
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article used before plural nouns.",
+          "cultural_note": ""
+        },
+        "autorités": {
+          "display_format": "**Authorities:** autorités",
+          "explanation": "People or organizations with power to make decisions.",
+          "cultural_note": "In this context, it refers to the Guinean government or officials."
+        },
+        "guinéennes": {
+          "display_format": "**Guinean:** guinéennes",
+          "explanation": "Relating to Guinea, a country in West Africa.",
+          "cultural_note": "Guinea is a Francophone country with a rich cultural heritage."
+        },
+        "d’avoir": {
+          "display_format": "**To have:** d’avoir",
+          "explanation": "Verb indicating possession or action.",
+          "cultural_note": ""
+        },
+        "refusé": {
+          "display_format": "**Refused:** refusé",
+          "explanation": "Past participle of 'refuser,' meaning to decline or reject.",
+          "cultural_note": "In this context, it refers to the authorities' action of not allowing registration."
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "l’enregistrer": {
+          "display_format": "**To register:** l’enregistrer",
+          "explanation": "To officially record or sign up.",
+          "cultural_note": "In this context, it refers to the process of registering for an official purpose."
+        },
+        "à": {
+          "display_format": "**At/In:** à",
+          "explanation": "Preposition indicating location or place.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "LE CHOIX D'ANNE-CHARLÈNE - 2027: la tendance des micros-partis ?",
+      "original_article_link": "https://www.bfmtv.com/politique/elections/video-le-choix-d-anne-charlene-2027-la-tendance-des-micros-partis_VN-202506270732.html",
+      "original_article_published_date": "2025-06-27T19:05:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les micros-partis, une tendance pour 2027 ?",
+      "simplified_english_title": "Micro-parties, a trend for 2027?",
+      "french_summary": "Anne-Charline parle des micros-partis qui pourraient devenir importants pour les élections de 2027.",
+      "english_summary": "Anne-Charline discusses micro-parties that could become significant for the 2027 elections.",
+      "contextual_title_explanations": {
+        "LE": {
+          "display_format": "**The:** LE",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "CHOIX": {
+          "display_format": "**Choice:** CHOIX",
+          "explanation": "Decision or selection made by someone.",
+          "cultural_note": ""
+        },
+        "D&#39;ANNE": {
+          "display_format": "**Of Anne:** D'ANNE",
+          "explanation": "Possessive form meaning 'of Anne'.",
+          "cultural_note": "Anne is a common French female name."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark introducing an explanation.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "tendance": {
+          "display_format": "**Trend:** tendance",
+          "explanation": "A general direction in which something is developing.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Indefinite article, plural.",
+          "cultural_note": ""
+        },
+        "micros": {
+          "display_format": "**Micro:** micros",
+          "explanation": "Prefix meaning very small.",
+          "cultural_note": "Often used in technology and science contexts."
+        },
+        "partis": {
+          "display_format": "**Parties:** partis",
+          "explanation": "Political groups or organizations.",
+          "cultural_note": "Refers to political parties in France, which can be large or small."
+        },
+        "?": {
+          "display_format": "**Question:** ?",
+          "explanation": "Punctuation mark indicating a question.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "« A l’heure où l’on se parle, ils sont portés disparus » : inquiétude pour Cécile Kohler et Jacques Paris, otages français dans la prison iranienne d’Evin, bombardée par Israël",
+      "original_article_link": "https://www.nouvelobs.com/monde/20250627.OBS105376/a-l-heure-ou-l-on-se-parle-ils-sont-portes-disparus-inquietude-pour-cecile-kohler-et-jacques-paris-otages-francais-dans-la-prison-iranienne-d-evin-bombardee-par-israel.html",
+      "original_article_published_date": "2025-06-27T15:41:44",
+      "source_name": "L'Obs",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Inquiétude pour des otages français en Iran",
+      "simplified_english_title": "Worry for French hostages in Iran",
+      "french_summary": "Cécile Kohler et Jacques Paris, otages français en Iran, sont portés disparus après un bombardement israélien sur la prison d'Evin.",
+      "english_summary": "French hostages Cécile Kohler and Jacques Paris are missing after an Israeli bombing on Evin prison in Iran.",
+      "contextual_title_explanations": null,
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 1
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "France: la justice tranche sur les drapeaux en mairies, mais la polémique demeure",
+      "original_article_link": "https://www.rfi.fr/fr/france/20250627-france-la-justice-tranche-sur-les-drapeaux-en-mairies-mais-la-pol%C3%A9mique-demeure",
+      "original_article_published_date": "2025-06-27T16:44:22",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La justice décide sur les drapeaux dans les mairies",
+      "simplified_english_title": "Court rules on flags in town halls",
+      "french_summary": "La justice française a décidé si les drapeaux peuvent être dans les mairies, mais les débats continuent parmi les gens.",
+      "english_summary": "The French court ruled on whether flags can be in town halls, but the debate continues among people.",
+      "contextual_title_explanations": {
+        "France": {
+          "display_format": "**Country:** France",
+          "explanation": "A country in Europe.",
+          "cultural_note": "Known for its rich history, culture, and influence in global politics."
+        },
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "Introduces a subtitle or further explanation.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**Article:** la",
+          "explanation": "The definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "tranche": {
+          "display_format": "**Rules:** tranche",
+          "explanation": "Decides or rules on a matter.",
+          "cultural_note": "Often used in legal contexts to indicate a decision."
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Indicates the subject or topic.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**Article:** les",
+          "explanation": "The definite article for plural nouns.",
+          "cultural_note": ""
+        },
+        "drapeaux": {
+          "display_format": "**Flags:** drapeaux",
+          "explanation": "Flags, often symbols of nations or organizations.",
+          "cultural_note": "In France, flags can be a sensitive topic due to national identity."
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Indicates location or context.",
+          "cultural_note": ""
+        },
+        "mairies": {
+          "display_format": "**Town halls:** mairies",
+          "explanation": "Local government buildings in French towns.",
+          "cultural_note": "Mairies are central to local administration and public services in France."
+        },
+        ",": {
+          "display_format": "**Punctuation:** ,",
+          "explanation": "Separates parts of a sentence.",
+          "cultural_note": ""
+        },
+        "mais": {
+          "display_format": "**But:** mais",
+          "explanation": "Indicates a contrast or exception.",
+          "cultural_note": ""
+        },
+        "polémique": {
+          "display_format": "**Controversy:** polémique",
+          "explanation": "A heated debate or disagreement.",
+          "cultural_note": "Common in French media to describe public disputes."
+        },
+        "demeure": {
+          "display_format": "**Remains:** demeure",
+          "explanation": "Continues to exist or remain.",
+          "cultural_note": "Often used to indicate ongoing situations or issues."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "«Mon honneur et ma dignité m'ont été rendus» : l'ancien chef de la CRS 4, Luc-Noël Larcher, relaxé par la justice",
+      "original_article_link": "https://www.europe1.fr/Police-Justice/mon-honneur-et-ma-dignite-mont-ete-rendus-lancien-chef-de-la-crs-4-luc-noel-larcher-relaxe-par-la-justice-761276",
+      "original_article_published_date": "2025-06-27T10:38:58",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un ancien chef de police innocenté par la justice",
+      "simplified_english_title": "A former police chief acquitted by court",
+      "french_summary": "Luc-Noël Larcher, ancien chef de la CRS 4, a été relaxé par la justice, ce qui lui rend son honneur et sa dignité.",
+      "english_summary": "Luc-Noël Larcher, former head of CRS 4, was acquitted by the court, restoring his honor and dignity.",
+      "contextual_title_explanations": {
+        "«": {
+          "display_format": "**Quotation:** «",
+          "explanation": "Symbol used to open a quotation in French.",
+          "cultural_note": "French uses « » as quotation marks instead of “ ”."
+        },
+        "Mon": {
+          "display_format": "**My:** Mon",
+          "explanation": "Possessive adjective meaning 'my' for masculine singular nouns.",
+          "cultural_note": ""
+        },
+        "honneur": {
+          "display_format": "**Honor:** honneur",
+          "explanation": "Refers to personal integrity and respect.",
+          "cultural_note": "A core value in French culture, often linked to personal and national pride."
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Conjunction used to connect words or phrases.",
+          "cultural_note": ""
+        },
+        "ma": {
+          "display_format": "**My:** ma",
+          "explanation": "Possessive adjective meaning 'my' for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "dignité": {
+          "display_format": "**Dignity:** dignité",
+          "explanation": "Refers to the state of being worthy of respect.",
+          "cultural_note": "Important in French society, often associated with human rights and respect."
+        },
+        "m&#39;ont": {
+          "display_format": "**To me have:** m'ont",
+          "explanation": "Contraction of 'me ont', indirect object pronoun with auxiliary verb.",
+          "cultural_note": ""
+        },
+        "été": {
+          "display_format": "**Been:** été",
+          "explanation": "Past participle of the verb 'être' meaning 'to be'.",
+          "cultural_note": ""
+        },
+        "rendus": {
+          "display_format": "**Returned:** rendus",
+          "explanation": "Past participle of 'rendre', meaning 'to return' or 'to give back'.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation:** »",
+          "explanation": "Symbol used to close a quotation in French.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used to introduce a quote or list.",
+          "cultural_note": ""
+        },
+        "l&#39;ancien": {
+          "display_format": "**Former:** l'ancien",
+          "explanation": "Refers to someone who previously held a position.",
+          "cultural_note": ""
+        },
+        "chef": {
+          "display_format": "**Chief:** chef",
+          "explanation": "Refers to a leader or head of an organization.",
+          "cultural_note": "Commonly used in both culinary and professional contexts in France."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition used to indicate possession or association.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "4": {
+          "display_format": "**Four:** 4",
+          "explanation": "Numerical value indicating a specific unit.",
+          "cultural_note": "Refers to the specific unit number within the CRS."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark used to separate items in a list.",
+          "cultural_note": ""
+        },
+        "relaxé": {
+          "display_format": "**Acquitted:** relaxé",
+          "explanation": "Legal term meaning acquitted or cleared of charges.",
+          "cultural_note": "Indicates a legal decision in favor of the defendant."
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Preposition used to indicate the agent or means of an action.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Soumission chimique : un procès ordonné contre le sénateur Joël Guerriau",
+      "original_article_link": "https://www.la-croix.com/societe/soumission-chimique-un-proces-ordonne-contre-le-senateur-joel-guerriau-20250627",
+      "original_article_published_date": "2025-06-27T16:34:32",
+      "source_name": "La Croix",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un sénateur jugé pour soumission chimique",
+      "simplified_english_title": "Senator to stand trial for chemical submission",
+      "french_summary": "Joël Guerriau, sénateur, sera jugé pour soumission chimique. C'est une affaire sérieuse qui attire l'attention sur ce problème.",
+      "english_summary": "Senator Joël Guerriau will be tried for chemical submission. This serious case brings attention to the issue.",
+      "contextual_title_explanations": {
+        "Soumission": {
+          "display_format": "**Submission**: Soumission",
+          "explanation": "The act of submitting or yielding to control.",
+          "cultural_note": "In this context, it refers to the alleged use of chemical substances to control someone."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark used to introduce a quote, list, or explanation.",
+          "cultural_note": ""
+        },
+        "procès": {
+          "display_format": "**Trial**: procès",
+          "explanation": "A formal examination of evidence in court to decide guilt or innocence.",
+          "cultural_note": "Legal trials in France are typically public and involve professional judges."
+        },
+        "un": {
+          "display_format": "**A**: un",
+          "explanation": "An indefinite article used to refer to a non-specific item.",
+          "cultural_note": ""
+        },
+        "chimique": {
+          "display_format": "**Chemical**: chimique",
+          "explanation": "Relating to chemistry or chemicals.",
+          "cultural_note": "In this context, it refers to the use of chemical substances for submission."
+        },
+        "Guerriau": {
+          "display_format": "**Guerriau**: Guerriau",
+          "explanation": "A French surname.",
+          "cultural_note": "Joël Guerriau is a senator in France."
+        },
+        "le": {
+          "display_format": "**The**: le",
+          "explanation": "A definite article used to refer to a specific item.",
+          "cultural_note": ""
+        },
+        "sénateur": {
+          "display_format": "**Senator**: sénateur",
+          "explanation": "A member of a senate or legislative body.",
+          "cultural_note": "In France, senators are elected to represent departments and other territorial collectivities."
+        },
+        "ordonné": {
+          "display_format": "**Ordered**: ordonné",
+          "explanation": "Commanded or directed to do something.",
+          "cultural_note": "In legal contexts, it means that a trial has been officially commanded to proceed."
+        },
+        "contre": {
+          "display_format": "**Against**: contre",
+          "explanation": "In opposition to someone or something.",
+          "cultural_note": "In legal contexts, it indicates the party being sued or accused."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-27T23:19:02",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
