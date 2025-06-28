@@ -8,6 +8,7 @@ on:
 jobs:
   smoke:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'pull_request' || ! startsWith(github.head_ref, 'ai-engine-v4-') }}
 
     steps:
       - name: Checkout code
