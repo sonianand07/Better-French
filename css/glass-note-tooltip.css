@@ -1,0 +1,322 @@
+/* Glass-Note Tooltip Styles */
+/* Apple-style translucent glass tooltips for French vocabulary */
+
+:root {
+    --tooltip-bg: rgba(255, 255, 255, 0.95);
+    --tooltip-border: rgba(255, 255, 255, 0.6);
+    --tooltip-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.12),
+        0 2px 8px rgba(0, 0, 0, 0.08);
+    --tooltip-glow: 0 0 20px rgba(10, 102, 255, 0.1);
+    --tooltip-radius: 16px;
+    --tooltip-nub-size: 12px;
+    --tooltip-nub-height: 8px;
+    --tooltip-max-width: 280px;
+    --tooltip-padding: 20px;
+    --tooltip-z-index: 1000;
+    --transition-opening: 350ms;
+    --transition-closing: 350ms;
+    --easing-opening: cubic-bezier(0.16, 1, 0.3, 1);
+    --easing-closing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Trigger styling for French vocabulary words */
+.french-word {
+    text-decoration: underline 2px var(--accent-color, #0A66FF);
+    cursor: pointer;
+    position: relative;
+    transition: text-decoration-color var(--transition-duration) ease;
+}
+
+.french-word:hover {
+    text-decoration-color: rgba(10, 102, 255, 0.8);
+}
+
+.french-word:focus {
+    outline: 2px solid var(--accent-color, #0A66FF);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Main tooltip container */
+.glass-note-tooltip {
+    position: absolute;
+    background: var(--tooltip-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--tooltip-border);
+    border-radius: var(--tooltip-radius);
+    box-shadow: var(--tooltip-shadow);
+    padding: var(--tooltip-padding);
+    max-width: var(--tooltip-max-width);
+    min-width: 220px;
+    z-index: var(--tooltip-z-index);
+    opacity: 0;
+    transform: scale(0.94) translateY(6px);
+    /* Slower, more graceful closing animation */
+    transition: 
+        opacity var(--transition-closing) var(--easing-closing),
+        transform var(--transition-closing) var(--easing-closing),
+        box-shadow var(--transition-closing) var(--easing-closing);
+    pointer-events: none;
+    role: tooltip;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.glass-note-tooltip.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+    /* Fast, responsive opening animation for desktop */
+    transition: 
+        opacity var(--transition-opening) var(--easing-opening),
+        transform var(--transition-opening) var(--easing-opening),
+        box-shadow var(--transition-opening) var(--easing-opening);
+    box-shadow: 
+        var(--tooltip-shadow),
+        var(--tooltip-glow);
+}
+
+/* Tooltip content styles */
+.glass-note-tooltip .word-display {
+    font-weight: 700;
+    font-size: 17px;
+    color: #1a1a1c;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.glass-note-tooltip .definition {
+    font-size: 15px;
+    color: #3c3c43;
+    line-height: 1.45;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+}
+
+.glass-note-tooltip .note {
+    font-size: 14px;
+    color: #68686f;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.003em;
+}
+
+/* Triangle nub pointing to trigger */
+.glass-note-tooltip .nub {
+    display: none;
+}
+
+.glass-note-tooltip .nub::before {
+    display: none;
+}
+
+/* Nub positioning for different placements */
+.glass-note-tooltip.placement-bottom .nub {
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.glass-note-tooltip.placement-top .nub {
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+/* Mobile/tablet responsive design */
+@media (max-width: 480px) {
+    .glass-note-tooltip {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: none;
+        border-radius: 24px 24px 0 0;
+        backdrop-filter: blur(30px) saturate(180%);
+        -webkit-backdrop-filter: blur(30px) saturate(180%);
+        transform: translateY(100%) scale(0.98);
+        padding: 28px 24px 32px 24px;
+        /* Graceful mobile closing animation */
+        transition: 
+            opacity var(--transition-closing) var(--easing-closing),
+            transform var(--transition-closing) var(--easing-closing),
+            box-shadow var(--transition-closing) var(--easing-closing);
+        box-shadow: 
+            0 -8px 32px rgba(0, 0, 0, 0.15),
+            0 -2px 8px rgba(0, 0, 0, 0.08),
+            inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    }
+
+    .glass-note-tooltip::before {
+        border-radius: 24px 24px 0 0;
+    }
+
+    .glass-note-tooltip.visible {
+        transform: translateY(0) scale(1);
+        /* Slower mobile opening animation - same timing as closing (350ms) */
+        transition: 
+            opacity var(--transition-closing) var(--easing-opening),
+            transform var(--transition-closing) var(--easing-opening),
+            box-shadow var(--transition-closing) var(--easing-opening);
+        box-shadow: 
+            0 -8px 32px rgba(0, 0, 0, 0.15),
+            0 -2px 8px rgba(0, 0, 0, 0.08),
+            inset 0 1px 0 rgba(255, 255, 255, 0.7),
+            0 0 24px rgba(10, 102, 255, 0.08);
+    }
+
+    .glass-note-tooltip .nub {
+        display: none;
+    }
+
+    .glass-note-tooltip .word-display {
+        font-size: 20px;
+        margin-bottom: 14px;
+        font-weight: 700;
+    }
+
+    .glass-note-tooltip .definition {
+        font-size: 17px;
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+
+    .glass-note-tooltip .note {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+}
+
+/* Tablet-specific adjustments */
+@media (min-width: 481px) and (max-width: 768px) {
+    .glass-note-tooltip {
+        max-width: 320px;
+        padding: 18px;
+    }
+
+    .glass-note-tooltip .word-display {
+        font-size: 17px;
+    }
+
+    .glass-note-tooltip .definition {
+        font-size: 15px;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --tooltip-bg: rgba(255, 255, 255, 0.95);
+        --tooltip-border: rgba(0, 0, 0, 0.3);
+        --tooltip-shadow: rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-note-tooltip .word-display {
+        color: #000000;
+    }
+
+    .glass-note-tooltip .definition {
+        color: #1d1d1f;
+    }
+
+    .glass-note-tooltip .note {
+        color: #424245;
+    }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .glass-note-tooltip {
+        transition: 
+            opacity 100ms ease-out,
+            transform 100ms ease-out;
+    }
+
+    .glass-note-tooltip.visible {
+        transition: 
+            opacity 100ms ease-out,
+            transform 100ms ease-out;
+        transform: scale(1) translateY(0);
+    }
+
+    @media (max-width: 480px) {
+        .glass-note-tooltip.visible {
+            transition: 
+                opacity 100ms ease-out,
+                transform 100ms ease-out;
+            transform: translateY(0) scale(1);
+        }
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --tooltip-bg: rgba(40, 40, 42, 0.95);
+        --tooltip-border: rgba(255, 255, 255, 0.25);
+        --tooltip-shadow: 
+            0 8px 32px rgba(0, 0, 0, 0.4),
+            0 2px 8px rgba(0, 0, 0, 0.3);
+        --tooltip-glow: 0 0 20px rgba(10, 132, 255, 0.15);
+    }
+
+    .glass-note-tooltip .word-display {
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-note-tooltip .definition {
+        color: #e5e5e7;
+    }
+
+    .glass-note-tooltip .note {
+        color: #a1a1a6;
+    }
+
+    .glass-note-tooltip .nub {
+        border-top-color: rgba(40, 40, 42, 0.95);
+    }
+
+    .glass-note-tooltip .nub::before {
+        border-top-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* Focus management */
+.glass-note-tooltip:focus {
+    outline: none;
+}
+
+/* Ensure tooltip doesn't interfere with page layout */
+.glass-note-tooltip {
+    box-sizing: border-box;
+}
+
+/* Animation for very tall tooltips on mobile */
+@media (max-width: 480px) {
+    .glass-note-tooltip.tall-content {
+        max-height: 60vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .glass-note-tooltip.tall-content::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .glass-note-tooltip.tall-content::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .glass-note-tooltip.tall-content::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 1.5px;
+    }
+} 
