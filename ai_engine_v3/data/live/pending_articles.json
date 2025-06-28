@@ -96501,6 +96501,971 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Etats-Unis : le président de l’université de Virginie préfère démissionner plutôt que de « lutter contre le gouvernement » de Donald Trump",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/28/aux-etats-unis-le-president-de-l-universite-de-virginie-prefere-demissionner-plutot-que-de-lutter-contre-le-gouvernement-de-donald-trump_6616214_3210.html",
+      "original_article_published_date": "2025-06-28T02:20:05",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le président de l’université de Virginie démissionne",
+      "simplified_english_title": "University of Virginia president resigns",
+      "french_summary": "Le président de l’université de Virginie a choisi de démissionner plutôt que de suivre les directives du gouvernement de Trump.",
+      "english_summary": "The president of the University of Virginia chose to resign rather than follow Trump's government directives.",
+      "contextual_title_explanations": {
+        "Etats-Unis": {
+          "display_format": "**United States** : _États-Unis_",
+          "explanation": "Country in North America",
+          "cultural_note": "Commonly referred to as USA or America"
+        },
+        "Virginie": {
+          "display_format": "**Virginia** : _Virginie_",
+          "explanation": "State in the United States",
+          "cultural_note": "One of the original 13 colonies"
+        },
+        "l": {
+          "display_format": "**The** : _l'_",
+          "explanation": "Definite article before a vowel",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The** : _le_",
+          "explanation": "Definite article for masculine nouns",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against** : _contre_",
+          "explanation": "Preposition indicating opposition",
+          "cultural_note": ""
+        },
+        "plutôt": {
+          "display_format": "**Rather** : _plutôt_",
+          "explanation": "Adverb meaning preferably",
+          "cultural_note": ""
+        },
+        "lutter": {
+          "display_format": "**Fight** : _lutter_",
+          "explanation": "Verb meaning to struggle or fight",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark** : _»_",
+          "explanation": "Ends a quotation in French",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark** : _«_",
+          "explanation": "Begins a quotation in French",
+          "cultural_note": ""
+        },
+        "Donald": {
+          "display_format": "**Donald** : _Donald_",
+          "explanation": "First name of Donald Trump",
+          "cultural_note": "45th President of the United States"
+        },
+        "Trump": {
+          "display_format": "**Trump** : _Trump_",
+          "explanation": "Last name of Donald Trump",
+          "cultural_note": "Businessman and former U.S. President"
+        },
+        "que": {
+          "display_format": "**Than** : _que_",
+          "explanation": "Conjunction used in comparisons",
+          "cultural_note": ""
+        },
+        "préfère": {
+          "display_format": "**Prefers** : _préfère_",
+          "explanation": "Verb meaning to prefer",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon** : _:_",
+          "explanation": "Punctuation introducing a list or explanation",
+          "cultural_note": ""
+        },
+        "université": {
+          "display_format": "**University** : _université_",
+          "explanation": "Institution of higher education",
+          "cultural_note": ""
+        },
+        "démissionner": {
+          "display_format": "**Resign** : _démissionner_",
+          "explanation": "Verb meaning to quit a position",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From** : _de_",
+          "explanation": "Preposition indicating possession or origin",
+          "cultural_note": ""
+        },
+        "président": {
+          "display_format": "**President** : _président_",
+          "explanation": "Head of a university or country",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**Government** : _gouvernement_",
+          "explanation": "Group of people governing a country",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le Sénégal veut se concentrer sur sa dette dans sa loi de finances rectificative 2025",
+      "original_article_link": "https://www.rfi.fr/fr/afrique/20250628-le-s%C3%A9n%C3%A9gal-veut-se-concentrer-sur-sa-dette-dans-sa-loi-de-finances-rectificative-2025",
+      "original_article_published_date": "2025-06-28T02:43:38",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Le Sénégal se concentre sur sa dette en 2025",
+      "simplified_english_title": "Senegal focuses on debt in 2025",
+      "french_summary": "Le gouvernement sénégalais prépare une loi de finances pour 2025 centrée sur la gestion de la dette publique.",
+      "english_summary": "The Senegalese government is preparing a 2025 finance law focused on managing public debt.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** Le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "Sénégal": {
+          "display_format": "**Senegal:** Sénégal",
+          "explanation": "A country in West Africa.",
+          "cultural_note": "Former French colony, French is an official language."
+        },
+        "veut": {
+          "display_format": "**Wants:** veut",
+          "explanation": "Third person singular of 'vouloir', meaning 'to want'.",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**Itself:** se",
+          "explanation": "Reflexive pronoun meaning 'itself'.",
+          "cultural_note": ""
+        },
+        "concentrer": {
+          "display_format": "**Focus:** concentrer",
+          "explanation": "Verb meaning 'to focus' or 'to concentrate'.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning 'on' or 'about'.",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**Its:** sa",
+          "explanation": "Possessive adjective meaning 'its'.",
+          "cultural_note": ""
+        },
+        "dette": {
+          "display_format": "**Debt:** dette",
+          "explanation": "Noun meaning 'debt'.",
+          "cultural_note": "Public debt is a significant issue in many African countries."
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in'.",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**Law:** loi",
+          "explanation": "Noun meaning 'law'.",
+          "cultural_note": "French legal terms are often used in former colonies."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of'.",
+          "cultural_note": ""
+        },
+        "rectificative": {
+          "display_format": "**Amended:** rectificative",
+          "explanation": "Adjective meaning 'amended' or 'revised'.",
+          "cultural_note": "Used for laws or budgets that are adjusted."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les orphelins du camp de Buchenwald",
+      "original_article_link": "https://www.europe1.fr/emissions/Au-coeur-de-l-histoire/les-orphelins-du-camp-de-buchenwald-761109",
+      "original_article_published_date": "2025-06-28T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les enfants survivants de Buchenwald",
+      "simplified_english_title": "Surviving children of Buchenwald",
+      "french_summary": "Des orphelins du camp de Buchenwald racontent leur histoire pour se souvenir des horreurs de la guerre.",
+      "english_summary": "Orphans from the Buchenwald camp share their stories to remember the horrors of war.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** _Les_",
+          "explanation": "Plural definite article, like 'the' in English.",
+          "cultural_note": "Used before plural nouns in French."
+        },
+        "orphelins": {
+          "display_format": "**Orphans:** _orphelins_",
+          "explanation": "Children whose parents are dead.",
+          "cultural_note": "Refers to children who lost parents in WWII."
+        },
+        "du": {
+          "display_format": "**Of the:** _du_",
+          "explanation": "Combined preposition meaning 'of the' (de + le).",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition often meaning 'of' or 'from'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Top 14 : à quelle heure et sur quelle chaîne suivre la finale entre le Stade Toulousain et l'Union Bordeaux-Bègles ?",
+      "original_article_link": "https://www.europe1.fr/sport/top-14-a-quelle-heure-et-sur-quelle-chaine-suivre-la-finale-entre-le-stade-toulousain-et-lunion-bordeaux-begles-761321",
+      "original_article_published_date": "2025-06-28T03:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Finale Top 14 : heure et chaîne",
+      "simplified_english_title": "Top 14 Final: time and channel",
+      "french_summary": "La finale du Top 14 entre Toulouse et Bordeaux se joue ce soir. Découvrez l'heure et la chaîne pour regarder le match.",
+      "english_summary": "The Top 14 final between Toulouse and Bordeaux is tonight. Find out the time and channel to watch the match.",
+      "contextual_title_explanations": {
+        "Top": {
+          "display_format": "**Top**: Top",
+          "explanation": "The best or most important.",
+          "cultural_note": "Often used in rankings or lists in French media."
+        },
+        "14": {
+          "display_format": "**Fourteen**: 14",
+          "explanation": "The number fourteen.",
+          "cultural_note": "Refers to the Top 14, the premier rugby union league in France."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Introduces additional information.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**At**: à",
+          "explanation": "Indicates time or location.",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**What**: quelle",
+          "explanation": "Asks for specific information.",
+          "cultural_note": ""
+        },
+        "heure": {
+          "display_format": "**Time**: heure",
+          "explanation": "Refers to the time of day.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And**: et",
+          "explanation": "Connects two ideas or items.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On**: sur",
+          "explanation": "Indicates a surface or medium.",
+          "cultural_note": ""
+        },
+        "chaîne": {
+          "display_format": "**Channel**: chaîne",
+          "explanation": "Refers to a television channel.",
+          "cultural_note": ""
+        },
+        "suivre": {
+          "display_format": "**Follow**: suivre",
+          "explanation": "To watch or follow something.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article for feminine nouns.",
+          "cultural_note": ""
+        },
+        "finale": {
+          "display_format": "**Final**: finale",
+          "explanation": "The last game in a competition.",
+          "cultural_note": "Important event in French sports, especially rugby."
+        },
+        "entre": {
+          "display_format": "**Between**: entre",
+          "explanation": "Indicates a relationship involving two parties.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The**: le",
+          "explanation": "Definite article for masculine nouns.",
+          "cultural_note": ""
+        },
+        "Stade": {
+          "display_format": "**Stadium**: Stade",
+          "explanation": "A sports venue or team.",
+          "cultural_note": "Stade Toulousain is a famous rugby team from Toulouse."
+        },
+        "Toulousain": {
+          "display_format": "**Toulouse**: Toulousain",
+          "explanation": "Relating to Toulouse, a city in France.",
+          "cultural_note": "Toulouse is known for its rugby team, Stade Toulousain."
+        },
+        "l&#39;Union": {
+          "display_format": "**Union**: Union",
+          "explanation": "A team or group.",
+          "cultural_note": "Union Bordeaux-Bègles is a professional rugby team based in Bordeaux."
+        },
+        "Bordeaux": {
+          "display_format": "**Bordeaux**: Bordeaux",
+          "explanation": "A city in France.",
+          "cultural_note": "Known for its wine and rugby team, Union Bordeaux-Bègles."
+        },
+        "?": {
+          "display_format": "**Question mark**: ?",
+          "explanation": "Indicates a question.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Championnat de France de rugby à 7. Le programme du week-end à Plouzané",
+      "original_article_link": "https://www.ouest-france.fr/sport/rugby/rugby-7/championnat-de-france-de-rugby-a-7-le-programme-du-week-end-a-plouzane-841cad90-5296-11f0-8497-38272d0181ee?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-27T13:16:34",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Calendrier du rugby à 7 ce week-end",
+      "simplified_english_title": "Rugby Sevens schedule this weekend",
+      "french_summary": "Le championnat de France de rugby à 7 se déroule ce week-end à Plouzané. Les matchs sont prévus samedi et dimanche.",
+      "english_summary": "The French Rugby Sevens Championship takes place this weekend in Plouzané. Matches are scheduled for Saturday and Sunday.",
+      "contextual_title_explanations": {
+        "Championnat": {
+          "display_format": "**Championship:** Championnat",
+          "explanation": "A competition to find the best team or player.",
+          "cultural_note": "Common term for sports leagues in France."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Shows possession or relation.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**At:** à",
+          "explanation": "Indicates location.",
+          "cultural_note": ""
+        },
+        "7": {
+          "display_format": "**Seven:** 7",
+          "explanation": "The number seven.",
+          "cultural_note": "Refers to the number of players on each team in this rugby variant."
+        },
+        ".": {
+          "display_format": "**Period:** .",
+          "explanation": "Ends a sentence.",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**The:** Le",
+          "explanation": "Definite article, refers to a specific noun.",
+          "cultural_note": ""
+        },
+        "programme": {
+          "display_format": "**Program:** programme",
+          "explanation": "A plan or schedule of events.",
+          "cultural_note": "Often used for TV schedules or event listings in France."
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "Combines 'de' and 'le' to mean 'of the'.",
+          "cultural_note": ""
+        },
+        "week": {
+          "display_format": "**Weekend:** week-end",
+          "explanation": "The end of the week, Saturday and Sunday.",
+          "cultural_note": "In France, often associated with leisure and family time."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Lutte contre le trafic de stupéfiants à La Réunion",
+      "original_article_link": "https://www.france24.com/fr/%C3%A9missions/outre-mer/20250627-lutte-contre-le-trafic-de-stup%C3%A9fiants-%C3%A0-la-r%C3%A9union",
+      "original_article_published_date": "2025-06-27T14:58:55",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Réunion combat le trafic de drogue",
+      "simplified_english_title": "La Réunion fights against drug trafficking",
+      "french_summary": "Les autorités de La Réunion renforcent leurs actions contre le trafic de drogue pour réduire la criminalité.",
+      "english_summary": "Authorities in La Réunion are stepping up efforts to fight drug trafficking and reduce crime.",
+      "contextual_title_explanations": {
+        "de": {
+          "display_format": "**Of**: de",
+          "explanation": "Shows possession or relation between words.",
+          "cultural_note": ""
+        },
+        "trafic": {
+          "display_format": "**Traffic**: trafic",
+          "explanation": "The illegal trade or movement of goods.",
+          "cultural_note": "Often refers to drug trafficking in this context."
+        },
+        "Lutte": {
+          "display_format": "**Fight**: Lutte",
+          "explanation": "Efforts to combat or resist something.",
+          "cultural_note": "Commonly used in contexts like crime or social issues."
+        },
+        "le": {
+          "display_format": "**The**: le",
+          "explanation": "Definite article, specifies a noun.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against**: contre",
+          "explanation": "Indicates opposition or resistance.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**In/At**: à",
+          "explanation": "Indicates location or position.",
+          "cultural_note": ""
+        },
+        "stupéfiants": {
+          "display_format": "**Drugs**: stupéfiants",
+          "explanation": "Illegal substances, often narcotics.",
+          "cultural_note": "Refers to illegal drugs in French law."
+        },
+        "La": {
+          "display_format": "**The**: La",
+          "explanation": "Definite article, specifies a noun.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Nîmes : une fusillade dans un quartier sensible fait six blessés, dont l’un grièvement",
+      "original_article_link": "https://www.lemonde.fr/societe/article/2025/06/28/nimes-une-fusillade-dans-un-quartier-sensible-de-nimes-fait-six-blesses-sur-fond-de-trafic-de-stupefiants_6616212_3224.html",
+      "original_article_published_date": "2025-06-27T23:10:05",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Fusillade à Nîmes : six personnes blessées",
+      "simplified_english_title": "Shooting in Nîmes: six people injured",
+      "french_summary": "Une fusillade dans un quartier de Nîmes a blessé six personnes, dont une grièvement. La police enquête sur les circonstances de l'incident.",
+      "english_summary": "A shooting in a Nîmes neighborhood injured six people, one seriously. Police are investigating the incident.",
+      "contextual_title_explanations": {
+        "Nîmes": {
+          "display_format": "**City:** Nîmes",
+          "explanation": "A city in southern France.",
+          "cultural_note": "Known for its Roman history and well-preserved monuments."
+        },
+        ":": {
+          "display_format": "**Punctuation:** :",
+          "explanation": "Introduces additional information or a subtitle.",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A:** une",
+          "explanation": "Indefinite article, means 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "fusillade": {
+          "display_format": "**Shooting:** fusillade",
+          "explanation": "An incident involving multiple gunshots.",
+          "cultural_note": "Often used in news to describe violent incidents."
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Preposition meaning 'in' or 'inside'.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "Indefinite article, means 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "quartier": {
+          "display_format": "**Neighborhood:** quartier",
+          "explanation": "A district or area within a city.",
+          "cultural_note": "In France, often refers to specific urban areas."
+        },
+        "sensible": {
+          "display_format": "**Sensitive:** sensible",
+          "explanation": "Means 'sensitive' or 'vulnerable' in this context.",
+          "cultural_note": "In French, can describe areas with social or economic challenges."
+        },
+        "fait": {
+          "display_format": "**Makes:** fait",
+          "explanation": "Verb meaning 'makes' or 'does'.",
+          "cultural_note": ""
+        },
+        "blessés": {
+          "display_format": "**Injured:** blessés",
+          "explanation": "Plural noun meaning 'injured' or 'wounded'.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Punctuation:** ,",
+          "explanation": "A comma, used to separate parts of a sentence.",
+          "cultural_note": ""
+        },
+        "dont": {
+          "display_format": "**Of which:** dont",
+          "explanation": "Relative pronoun meaning 'of which' or 'including'.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article, means 'the'.",
+          "cultural_note": ""
+        },
+        "grièvement": {
+          "display_format": "**Seriously:** grièvement",
+          "explanation": "Adverb meaning 'seriously' or 'severely'.",
+          "cultural_note": "Often used in medical or emergency contexts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La Californie double ses crédits d’impôts en faveur de la production cinématographique",
+      "original_article_link": "https://www.ouest-france.fr/cinema/la-californie-double-ses-credits-dimpots-en-faveur-de-la-production-cinematographique-6e9a4dfa-53be-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-28T02:02:03",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Californie augmente les aides pour le cinéma",
+      "simplified_english_title": "California boosts film production tax credits",
+      "french_summary": "La Californie a doublé ses crédits d'impôts pour attirer plus de productions cinématographiques et stimuler l'économie locale.",
+      "english_summary": "California doubled its tax credits to attract more film productions and boost the local economy.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "Californie": {
+          "display_format": "**California:** _Californie_",
+          "explanation": "A state in the United States.",
+          "cultural_note": "Known for its significant role in the American film industry."
+        },
+        "double": {
+          "display_format": "**Doubles:** _double_",
+          "explanation": "To increase something by two times.",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**Its:** _ses_",
+          "explanation": "Possessive adjective for plural nouns.",
+          "cultural_note": ""
+        },
+        "crédits": {
+          "display_format": "**Credits:** _crédits_",
+          "explanation": "Financial benefits or reductions.",
+          "cultural_note": "Often used to encourage specific economic activities."
+        },
+        "d’impôts": {
+          "display_format": "**Tax:** _d’impôts_",
+          "explanation": "Relating to taxes.",
+          "cultural_note": "France has specific tax policies to support various industries."
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition indicating a context or manner.",
+          "cultural_note": ""
+        },
+        "faveur": {
+          "display_format": "**Favor:** _faveur_",
+          "explanation": "In support of or to benefit something.",
+          "cultural_note": "Commonly used in contexts of policy or financial support."
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition indicating possession or association.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "cinématographique": {
+          "display_format": "**Cinematographic:** _cinématographique_",
+          "explanation": "Relating to the film industry.",
+          "cultural_note": "France is known for its rich cinematographic history and contributions."
+        },
+        "d": {
+          "display_format": "**Of:** _d_",
+          "explanation": "Short form of 'de' used before vowels.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "INFO FRANCETV. Soumission chimique : le sénateur Joël Guerriau, soupçonné d'avoir drogué la députée Sandrine Josso, sera jugé en novembre",
+      "original_article_link": "https://www.franceinfo.fr/societe/violences-faites-aux-femmes/info-francetv-soumission-chimique-le-senateur-joel-guerriau-soupconne-d-avoir-drogue-la-deputee-sandrine-josso-sera-juge-en-novembre_7341030.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-27T10:04:29",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un sénateur jugé pour avoir drogué une députée",
+      "simplified_english_title": "Senator to be tried for drugging a deputy",
+      "french_summary": "Le sénateur Joël Guerriau sera jugé en novembre pour avoir drogué la députée Sandrine Josso. C'est un cas grave de soumission chimique.",
+      "english_summary": "Senator Joël Guerriau will be tried in November for drugging deputy Sandrine Josso. It's a serious case of chemical submission.",
+      "contextual_title_explanations": {
+        "Soumission": {
+          "display_format": "**Submission:** Soumission",
+          "explanation": "The act of submitting or yielding.",
+          "cultural_note": "In this context, it refers to chemical submission, a serious crime."
+        },
+        "chimique": {
+          "display_format": "**Chemical:** chimique",
+          "explanation": "Relating to chemistry or chemicals.",
+          "cultural_note": "Often used in contexts involving drugs or scientific discussions."
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article used before masculine nouns.",
+          "cultural_note": ""
+        },
+        "sénateur": {
+          "display_format": "**Senator:** sénateur",
+          "explanation": "A member of the French Senate.",
+          "cultural_note": "The Senate is the upper house of the French Parliament."
+        },
+        "soupçonné": {
+          "display_format": "**Suspected:** soupçonné",
+          "explanation": "Accused or believed to have done something wrong.",
+          "cultural_note": "Commonly used in legal and criminal contexts."
+        },
+        "d&#39;avoir": {
+          "display_format": "**To have:** d'avoir",
+          "explanation": "Verb phrase meaning 'to have'.",
+          "cultural_note": "Used in legal contexts to describe allegations."
+        },
+        "drogué": {
+          "display_format": "**Drugged:** drogué",
+          "explanation": "Given drugs, often without consent.",
+          "cultural_note": "A serious crime in France, especially without consent."
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "députée": {
+          "display_format": "**Deputy:** députée",
+          "explanation": "A member of the French National Assembly.",
+          "cultural_note": "The National Assembly is the lower house of the French Parliament."
+        },
+        "sera": {
+          "display_format": "**Will be:** sera",
+          "explanation": "Future tense of the verb 'to be'.",
+          "cultural_note": ""
+        },
+        "jugé": {
+          "display_format": "**Judged:** jugé",
+          "explanation": "To be tried or judged in court.",
+          "cultural_note": "Refers to the legal process of a trial."
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition meaning 'in' or 'during'.",
+          "cultural_note": ""
+        },
+        "novembre": {
+          "display_format": "**November:** novembre",
+          "explanation": "The eleventh month of the year.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Euro féminin de basket : la France, une nouvelle fois battue par ses rivales espagnoles, échoue encore aux portes de la finale",
+      "original_article_link": "https://www.lemonde.fr/sport/article/2025/06/27/euro-feminin-de-basket-la-france-une-nouvelle-fois-battue-par-ses-rivales-espagnoles-echoue-encore-aux-portes-de-la-finale_6616195_3242.html",
+      "original_article_published_date": "2025-06-27T17:16:39",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France perd contre l'Espagne en basket féminin",
+      "simplified_english_title": "France loses to Spain in women's basketball",
+      "french_summary": "L'équipe de France féminine de basket a perdu contre l'Espagne et ne joue pas la finale de l'Euro.",
+      "english_summary": "The French women's basketball team lost to Spain and will not play in the Euro final.",
+      "contextual_title_explanations": {
+        "Euro": {
+          "display_format": "**European**: Euro",
+          "explanation": "Short for European Championship, a sports competition.",
+          "cultural_note": "Major tournament for European national teams in various sports."
+        },
+        "féminin": {
+          "display_format": "**Feminine**: féminine",
+          "explanation": "Relating to women or girls.",
+          "cultural_note": "Used in sports to specify women's competitions."
+        },
+        "basket": {
+          "display_format": "**Basketball**: basket",
+          "explanation": "A team sport played with a ball and a hoop.",
+          "cultural_note": "Popular sport in France with a strong national team."
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "Definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France**: France",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": "Known for its strong sports culture and national teams."
+        },
+        "nouvelle": {
+          "display_format": "**New**: nouvelle",
+          "explanation": "Recent or another instance.",
+          "cultural_note": ""
+        },
+        "fois": {
+          "display_format": "**Time**: fois",
+          "explanation": "An instance or occurrence.",
+          "cultural_note": ""
+        },
+        "battue": {
+          "display_format": "**Defeated**: battue",
+          "explanation": "Lost against an opponent.",
+          "cultural_note": "Commonly used in sports contexts."
+        },
+        "par": {
+          "display_format": "**By**: par",
+          "explanation": "Indicates the agent in a passive sentence.",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**Its**: ses",
+          "explanation": "Possessive adjective for 'its' or 'their'.",
+          "cultural_note": ""
+        },
+        "rivales": {
+          "display_format": "**Rivals**: rivales",
+          "explanation": "Competitors or opponents.",
+          "cultural_note": "Often used in sports to describe competing teams."
+        },
+        "espagnoles": {
+          "display_format": "**Spanish**: espagnoles",
+          "explanation": "Relating to Spain or its people.",
+          "cultural_note": "Refers to the Spanish national team in this context."
+        },
+        "échoue": {
+          "display_format": "**Fails**: échoue",
+          "explanation": "To not succeed in something.",
+          "cultural_note": "Often used in sports to describe a team's performance."
+        },
+        "encore": {
+          "display_format": "**Again**: encore",
+          "explanation": "One more time, repeatedly.",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**To the**: aux",
+          "explanation": "Contraction of 'à les,' meaning 'to the'.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Punctuation mark used before an explanation or list.",
+          "cultural_note": ""
+        },
+        "finale": {
+          "display_format": "**Final**: finale",
+          "explanation": "The last game or match in a competition.",
+          "cultural_note": "Important stage in sports tournaments."
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "Punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**A**: une",
+          "explanation": "Indefinite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "Indicates possession or origin.",
+          "cultural_note": ""
+        },
+        "portes": {
+          "display_format": "**Doors**: portes",
+          "explanation": "Entrances or gateways.",
+          "cultural_note": "Metaphorically used to describe being close to an achievement."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T03:13:32",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
