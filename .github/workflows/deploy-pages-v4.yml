@@ -89,6 +89,12 @@ jobs:
           fi
           echo "✅ Verification completed successfully"
 
+      - name: Force cache-busting update
+        run: |
+          echo "🔄 Updating cache-busting timestamps..."
+          python scripts/auto_cache_bust.py
+          echo "✅ Cache-busting updated - website will force fresh content!"
+
       - name: Commit & push data changes
         run: |
           git config --global user.email "bot@betterfrench.io"
