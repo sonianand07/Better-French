@@ -1,9 +1,9 @@
 name: Auto Update French News – v3
 
 on:
-  # schedule:
-  #   - cron:  '0 * * * *'  # DISABLED - V4 now handles everything
-  workflow_dispatch:  # Keep manual trigger for testing
+  schedule:
+    - cron:  '0 * * * *'  # Re-enabled - V3 handles root site
+  workflow_dispatch:  # Manual trigger for testing
 
 # Allow this workflow to push commits back to the repository.
 permissions:
@@ -52,12 +52,11 @@ jobs:
             git push
           fi
 
-      # DISABLED: V4 now handles all deployments
-      # - name: Deploy to GitHub Pages 🚀
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_branch: gh-pages
-      #     publish_dir: ./ai_engine_v3/website
-      #     force_orphan: true
-      #     commit_message: 'chore(deploy): automatic website update' 
+      - name: Deploy V3 to GitHub Pages (Root Site) 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./ai_engine_v3/website
+          force_orphan: true
+          commit_message: 'chore(deploy): V3 basic articles update' 

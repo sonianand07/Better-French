@@ -106,18 +106,8 @@ jobs:
             git push
           fi
 
-      # Deploy root site (replace)
-      - name: Deploy root site 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./ai_engine_v4/website
-          force_orphan: true
-          commit_message: 'chore(deploy): update root site with v4 content'
-
-      # Deploy preview under /v4-site/ (keep alongside root)
-      - name: Deploy v4 preview 🚀
+      # Deploy ONLY to /v4-site/ (don't touch root site)
+      - name: Deploy V4 Enhanced Site 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -125,4 +115,4 @@ jobs:
           publish_dir: ./ai_engine_v4/website
           destination_dir: v4-site
           force_orphan: false
-          commit_message: 'chore(deploy): update v4 preview site' 
+          commit_message: 'chore(deploy): update v4 enhanced site with verified articles' 
