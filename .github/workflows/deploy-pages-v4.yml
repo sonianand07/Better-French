@@ -79,6 +79,16 @@ jobs:
               print(f"   (Articles processed since: {run_start_threshold})")
           PY
 
+      - name: Test API key before processing
+        run: |
+          echo "🔑 Testing API key..."
+          curl -X POST "https://openrouter.ai/api/v1/chat/completions" \
+            -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"test"}],"max_tokens":5}' \
+            || (echo "❌ API key failed - aborting" && exit 1)
+          echo "✅ API key works!"
+
       - name: Run high-tier verifier (v4)
         run: |
           set -e  # Exit on any error
