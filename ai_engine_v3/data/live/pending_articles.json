@@ -98511,6 +98511,1046 @@
       "ai_enhanced": true,
       "display_ready": true,
       "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Taxation mondiale des multinationales : Trump impose au reste du monde l’exemption des entreprises américaines",
+      "original_article_link": "https://www.lemonde.fr/economie/article/2025/06/28/taxation-mondiale-des-multinationales-trump-impose-au-reste-du-monde-l-exemption-des-entreprises-americaines_6616240_3234.html",
+      "original_article_published_date": "2025-06-28T04:44:46",
+      "source_name": "Le Monde Economie",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Trump évite les taxes pour les entreprises américaines",
+      "simplified_english_title": "Trump exempts US companies from global taxes",
+      "french_summary": "Donald Trump a décidé que les entreprises américaines ne paieront pas les nouvelles taxes internationales. Cela affecte les accords mondiaux.",
+      "english_summary": "Donald Trump decided US companies won't pay new international taxes. This impacts global agreements.",
+      "contextual_title_explanations": {
+        "mondiale": {
+          "display_format": "**Global:** mondiale",
+          "explanation": "Relating to the whole world.",
+          "cultural_note": "France is active in global politics and economics."
+        },
+        "multinationales": {
+          "display_format": "**Multinationals:** multinationales",
+          "explanation": "Companies operating in several countries.",
+          "cultural_note": "France is home to many large multinational corporations."
+        },
+        "au": {
+          "display_format": "**To the:** au",
+          "explanation": "A contraction of 'à le' meaning 'to the'.",
+          "cultural_note": ""
+        },
+        "monde": {
+          "display_format": "**World:** monde",
+          "explanation": "The earth and all its countries.",
+          "cultural_note": ""
+        },
+        "reste": {
+          "display_format": "**Rest:** reste",
+          "explanation": "The remaining part of something.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** du",
+          "explanation": "A contraction of 'de le' meaning 'of the'.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "A contraction of 'de les' meaning 'some' or 'of the'.",
+          "cultural_note": ""
+        },
+        "l": {
+          "display_format": "**The:** l'",
+          "explanation": "A contraction of 'le' or 'la' meaning 'the'.",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Relating to the United States of America.",
+          "cultural_note": "Relations between France and the USA are historically significant."
+        },
+        "entreprises": {
+          "display_format": "**Companies:** entreprises",
+          "explanation": "Business organizations.",
+          "cultural_note": "France has many well-known companies and a strong business sector."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Loi énergie-climat : « La France se trompe de combat »",
+      "original_article_link": "https://www.lepoint.fr/societe/loi-energie-climat-la-france-se-trompe-de-combat-28-06-2025-2593138_23.php",
+      "original_article_published_date": "2025-06-28T04:30:00",
+      "source_name": "Le Point",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La loi énergie-climat est critiquée",
+      "simplified_english_title": "Energy-climate law faces criticism",
+      "french_summary": "Des experts disent que la loi énergie-climat n'est pas efficace pour lutter contre le changement climatique.",
+      "english_summary": "Experts argue the energy-climate law is ineffective in combating climate change.",
+      "contextual_title_explanations": {
+        "Loi": {
+          "display_format": "**Law:** _Loi_",
+          "explanation": "A rule or system of rules recognized by a country.",
+          "cultural_note": "In France, laws are created by the Parliament."
+        },
+        ":": {
+          "display_format": "**Colon:** _:_",
+          "explanation": "Introduces a quote, list, or explanation.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Opening quotation mark:** _«_",
+          "explanation": "Signals the beginning of a direct quote.",
+          "cultural_note": "French uses « » as quotation marks."
+        },
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article, refers to a specific noun.",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**Herself/Himself/Itself:** _se_",
+          "explanation": "Reflexive pronoun, refers back to the subject.",
+          "cultural_note": ""
+        },
+        "trompe": {
+          "display_format": "**Mistakes:** _trompe_",
+          "explanation": "Verb meaning to deceive or be mistaken.",
+          "cultural_note": "From the verb 'se tromper,' meaning 'to be wrong.'"
+        },
+        "de": {
+          "display_format": "**Of/From:** _de_",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "combat": {
+          "display_format": "**Fight:** _combat_",
+          "explanation": "A struggle or contest between people or forces.",
+          "cultural_note": "Can refer to physical fights or metaphorical struggles."
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** _»_",
+          "explanation": "Signals the end of a direct quote.",
+          "cultural_note": "French uses « » as quotation marks."
+        },
+        "énergie": {
+          "display_format": "**Energy:** _énergie_",
+          "explanation": "Power derived from physical or chemical resources.",
+          "cultural_note": "France is known for its nuclear energy production."
+        },
+        "climat": {
+          "display_format": "**Climate:** _climat_",
+          "explanation": "The weather conditions in an area over time.",
+          "cultural_note": "France has a varied climate, from Mediterranean to oceanic."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Guerre Israël-Iran : pourquoi le Hezbollah libanais n’est pas intervenu dans le conflit",
+      "original_article_link": "https://www.france24.com/fr/moyen-orient/20250628-guerre-israel-iran-hezbollah-liban-conflit-retenue-analyse-qassem-khamenei",
+      "original_article_published_date": "2025-06-28T04:59:56",
+      "source_name": "France 24",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pourquoi le Hezbollah n'a pas aidé l'Iran contre Israël",
+      "simplified_english_title": "Why Hezbollah did not help Iran against Israel",
+      "french_summary": "Le Hezbollah libanais n'est pas intervenu dans le conflit entre Israël et l'Iran pour éviter une guerre plus large.",
+      "english_summary": "Lebanese Hezbollah did not intervene in the Israel-Iran conflict to avoid a larger war.",
+      "contextual_title_explanations": {
+        "Guerre": {
+          "display_format": "**War**: Guerre",
+          "explanation": "A state of armed conflict between different nations or states.",
+          "cultural_note": "France has been involved in various wars throughout its history."
+        },
+        "Israël": {
+          "display_format": "**Israel**: Israël",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": "France has historical and political ties with Israel."
+        },
+        "Iran": {
+          "display_format": "**Iran**: Iran",
+          "explanation": "A country in the Middle East.",
+          "cultural_note": "France has had complex diplomatic relations with Iran."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "pourquoi": {
+          "display_format": "**Why**: pourquoi",
+          "explanation": "A question word used to ask for a reason.",
+          "cultural_note": ""
+        },
+        "Hezbollah": {
+          "display_format": "**Hezbollah**: Hezbollah",
+          "explanation": "A political and military organization based in Lebanon.",
+          "cultural_note": "Hezbollah is considered a terrorist organization by some countries, including France."
+        },
+        "le": {
+          "display_format": "**The**: le",
+          "explanation": "A definite article used before a noun.",
+          "cultural_note": ""
+        },
+        "libanais": {
+          "display_format": "**Lebanese**: libanais",
+          "explanation": "Relating to Lebanon, a country in the Middle East.",
+          "cultural_note": "Lebanon has historical ties with France."
+        },
+        "n’est": {
+          "display_format": "**Is not**: n’est",
+          "explanation": "A contraction of 'ne est', meaning 'is not'.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not**: pas",
+          "explanation": "Used to negate a verb.",
+          "cultural_note": ""
+        },
+        "intervenu": {
+          "display_format": "**Intervened**: intervenu",
+          "explanation": "Past participle of 'intervenir', meaning to intervene.",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In**: dans",
+          "explanation": "A preposition meaning 'in' or 'into'.",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**Is**: est",
+          "explanation": "Third person singular of 'être', meaning 'to be'.",
+          "cultural_note": ""
+        },
+        "conflit": {
+          "display_format": "**Conflict**: conflit",
+          "explanation": "A serious disagreement or argument.",
+          "cultural_note": "France has been involved in various international conflicts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "\"Des observations perdues pour toujours\": l'inquiétude de scientifiques américains mis à la porte par l'administration Trump",
+      "original_article_link": "https://www.bfmtv.com/sciences/des-observations-perdues-pour-toujours-l-inquietude-de-scientifiques-americains-mis-a-la-porte-par-l-administration-trump_AN-202506280050.html",
+      "original_article_published_date": "2025-06-28T05:06:00",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Des scientifiques inquiets après leur renvoi",
+      "simplified_english_title": "Scientists worried after being fired",
+      "french_summary": "Des scientifiques américains licenciés par l'administration Trump craignent la perte de données importantes pour la recherche.",
+      "english_summary": "American scientists fired by the Trump administration fear losing important research data.",
+      "contextual_title_explanations": {
+        "Des": {
+          "display_format": "**Some:** Des",
+          "explanation": "Plural indefinite article, like 'some' or 'a few'.",
+          "cultural_note": ""
+        },
+        "perdues": {
+          "display_format": "**Lost:** perdues",
+          "explanation": "Feminine plural of 'lost', meaning something is gone.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Indicates purpose or duration, like 'for'.",
+          "cultural_note": ""
+        },
+        "toujours": {
+          "display_format": "**Always:** toujours",
+          "explanation": "Means 'always' or 'forever'.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation:** \"",
+          "explanation": "Quotation marks used to indicate a quote.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used to introduce a quote or list.",
+          "cultural_note": ""
+        },
+        "l&#39;inquiétude": {
+          "display_format": "**Concern:** l’inquiétude",
+          "explanation": "Worry or concern about something.",
+          "cultural_note": "Common in discussions about social or political issues."
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Indicates possession or origin, like 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "scientifiques": {
+          "display_format": "**Scientists:** scientifiques",
+          "explanation": "People who study or work in science.",
+          "cultural_note": "Respected professionals in research and innovation."
+        },
+        "américains": {
+          "display_format": "**Americans:** américains",
+          "explanation": "People from the United States.",
+          "cultural_note": "Refers to people or things related to the USA."
+        },
+        "mis": {
+          "display_format": "**Put:** mis",
+          "explanation": "Past participle of 'put' or 'placed'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To/At:** à",
+          "explanation": "Indicates direction or location, like 'to' or 'at'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article for feminine singular nouns.",
+          "cultural_note": ""
+        },
+        "porte": {
+          "display_format": "**Door:** porte",
+          "explanation": "An entrance or exit to a place.",
+          "cultural_note": "Commonly used in expressions about opportunities or access."
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Indicates the agent or cause, like 'by'.",
+          "cultural_note": ""
+        },
+        "l&#39;administration": {
+          "display_format": "**Administration:** l’administration",
+          "explanation": "The government or management of a country.",
+          "cultural_note": "Refers to the executive branch of government."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À Téhéran, les habitants sont inquiets pour l'avenir après la «guerre des douze jours»",
+      "original_article_link": "https://www.rfi.fr/fr/moyen-orient/20250628-%C3%A0-t%C3%A9h%C3%A9ran-les-habitants-sont-inquiets-pour-l-avenir-apr%C3%A8s-la-guerre-des-douze-jours",
+      "original_article_published_date": "2025-06-28T04:35:36",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les habitants de Téhéran ont peur après la guerre",
+      "simplified_english_title": "Tehran residents fearful after the war",
+      "french_summary": "Les habitants de Téhéran sont inquiets pour leur avenir après un conflit récent de douze jours.",
+      "english_summary": "Residents of Tehran are worried about their future after a recent twelve-day conflict.",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**In:** À",
+          "explanation": "Indicates a location or place.",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Tehran:** Téhéran",
+          "explanation": "Capital city of Iran.",
+          "cultural_note": "Major political and cultural center in the Middle East."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article, plural form.",
+          "cultural_note": ""
+        },
+        "habitants": {
+          "display_format": "**Inhabitants:** habitants",
+          "explanation": "People who live in a place.",
+          "cultural_note": ""
+        },
+        "sont": {
+          "display_format": "**Are:** sont",
+          "explanation": "Third person plural of 'to be'.",
+          "cultural_note": ""
+        },
+        "inquiets": {
+          "display_format": "**Worried:** inquiets",
+          "explanation": "Feeling anxious or concerned.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "Indicates purpose or destination.",
+          "cultural_note": ""
+        },
+        "l&#39;avenir": {
+          "display_format": "**The future:** l'avenir",
+          "explanation": "Time that is to come.",
+          "cultural_note": ""
+        },
+        "après": {
+          "display_format": "**After:** après",
+          "explanation": "Indicates time following an event.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, singular feminine form.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "Used to open a quotation.",
+          "cultural_note": "French uses « » as quotation marks."
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "A state of armed conflict.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Of the:** des",
+          "explanation": "Plural indefinite article.",
+          "cultural_note": ""
+        },
+        "douze": {
+          "display_format": "**Twelve:** douze",
+          "explanation": "The number 12.",
+          "cultural_note": ""
+        },
+        "jours": {
+          "display_format": "**Days:** jours",
+          "explanation": "Plural form of 'day'.",
+          "cultural_note": ""
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "Used to close a quotation.",
+          "cultural_note": "French uses « » as quotation marks."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’Inde, affaiblie par l’opération « Sindoor », se trouve isolée sur la scène internationale",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/28/l-inde-affaiblie-par-l-operation-sindoor-se-trouve-isolee-sur-la-scene-internationale_6616235_3210.html",
+      "original_article_published_date": "2025-06-28T04:30:09",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L'Inde est isolée après une opération militaire",
+      "simplified_english_title": "India isolated after military operation",
+      "french_summary": "L'Inde est affaiblie et isolée internationalement à cause de l'opération 'Sindoor', qui a échoué.",
+      "english_summary": "India is weakened and internationally isolated due to the failed 'Sindoor' operation.",
+      "contextual_title_explanations": {
+        "L’": {
+          "display_format": "**The:** L’",
+          "explanation": "Definite article meaning 'the' before a vowel sound.",
+          "cultural_note": ""
+        },
+        "Inde": {
+          "display_format": "**India:** Inde",
+          "explanation": "A country in South Asia.",
+          "cultural_note": "Former French colony, known for its diverse culture and rapid economic growth."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "affaiblie": {
+          "display_format": "**Weakened:** affaiblie",
+          "explanation": "Past participle of 'affaiblir', meaning weakened.",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Preposition meaning 'by' or 'through'.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article meaning 'the' before a vowel sound.",
+          "cultural_note": ""
+        },
+        "opération": {
+          "display_format": "**Operation:** opération",
+          "explanation": "A planned activity or mission.",
+          "cultural_note": "Often refers to military or strategic actions in French."
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to denote the start of a quote or title."
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to denote the end of a quote or title."
+        },
+        "se": {
+          "display_format": "**Itself:** se",
+          "explanation": "Reflexive pronoun meaning 'itself'.",
+          "cultural_note": ""
+        },
+        "trouve": {
+          "display_format": "**Finds:** trouve",
+          "explanation": "Verb meaning 'finds' or 'is found'.",
+          "cultural_note": ""
+        },
+        "isolée": {
+          "display_format": "**Isolated:** isolée",
+          "explanation": "Feminine form of 'isolated'.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning 'on' or 'upon'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article meaning 'the' before a feminine noun.",
+          "cultural_note": ""
+        },
+        "scène": {
+          "display_format": "**Scene:** scène",
+          "explanation": "A place or setting where events occur.",
+          "cultural_note": "Often refers to the stage or arena in cultural contexts."
+        },
+        "internationale": {
+          "display_format": "**International:** internationale",
+          "explanation": "Feminine form of 'international'.",
+          "cultural_note": "Refers to global or worldwide contexts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "MÉTÉO - Un dôme de chaleur sur toute la France, les températures très élevées ce samedi",
+      "original_article_link": "https://www.bfmtv.com/meteo/video-meteo-un-dome-de-chaleur-sur-toute-la-france-les-temperatures-tres-elevees-ce-samedi_VN-202506280065.html",
+      "original_article_published_date": "2025-06-28T04:48:02",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud en France ce samedi",
+      "simplified_english_title": "France experiences high heat this Saturday",
+      "french_summary": "Un dôme de chaleur couvre la France, provoquant des températures très élevées ce samedi, ce qui affecte tout le pays.",
+      "english_summary": "A heat dome covers France, causing very high temperatures this Saturday, affecting the entire country.",
+      "contextual_title_explanations": {
+        "MÉTÉO": {
+          "display_format": "**Weather:** MÉTÉO",
+          "explanation": "Short for 'météorologie', meaning weather forecast.",
+          "cultural_note": "Commonly used in French media headlines for weather reports."
+        },
+        "Un": {
+          "display_format": "**A:** Un",
+          "explanation": "Indefinite article meaning 'a' or 'an'.",
+          "cultural_note": ""
+        },
+        "dôme": {
+          "display_format": "**Dome:** dôme",
+          "explanation": "A rounded vault forming the roof of a building.",
+          "cultural_note": "In weather terms, it refers to a high-pressure area trapping hot air."
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**Heat:** chaleur",
+          "explanation": "Refers to high temperatures or heat.",
+          "cultural_note": "Often used in weather contexts to describe heatwaves."
+        },
+        "sur": {
+          "display_format": "**On:** sur",
+          "explanation": "Preposition meaning 'on' or 'over'.",
+          "cultural_note": ""
+        },
+        "toute": {
+          "display_format": "**All:** toute",
+          "explanation": "Feminine form of 'all' or 'whole'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Plural definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "températures": {
+          "display_format": "**Temperatures:** températures",
+          "explanation": "Measure of how hot or cold something is.",
+          "cultural_note": "Often discussed in weather forecasts and climate reports."
+        },
+        "élevées": {
+          "display_format": "**High:** élevées",
+          "explanation": "Feminine form of 'high' or 'elevated'.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**This:** ce",
+          "explanation": "Demonstrative adjective meaning 'this' or 'that'.",
+          "cultural_note": ""
+        },
+        "samedi": {
+          "display_format": "**Saturday:** samedi",
+          "explanation": "The sixth day of the week.",
+          "cultural_note": "In France, often a day for leisure and family activities."
+        },
+        "très": {
+          "display_format": "**Very:** très",
+          "explanation": "Adverb meaning 'very' or 'extremely'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Canicule: un système de refroidissement dans le sous-sol parisien permet de lutter contre les fortes chaleurs",
+      "original_article_link": "https://www.bfmtv.com/societe/video-canicule-un-systeme-de-refroidissement-dans-le-sous-sol-parisien-permet-de-lutter-contre-les-fortes-chaleurs_VN-202506280057.html",
+      "original_article_published_date": "2025-06-28T04:24:16",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Paris utilise un système de refroidissement souterrain",
+      "simplified_english_title": "Paris uses underground cooling system",
+      "french_summary": "Paris utilise un système de refroidissement souterrain pour combattre la canicule et garder la ville fraîche.",
+      "english_summary": "Paris uses an underground cooling system to fight the heatwave and keep the city cool.",
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Heatwave:** Canicule",
+          "explanation": "Period of very hot weather.",
+          "cultural_note": "Common in France during summer, often leading to health warnings."
+        },
+        "système": {
+          "display_format": "**System:** système",
+          "explanation": "A set of connected things or parts forming a complex whole.",
+          "cultural_note": ""
+        },
+        "refroidissement": {
+          "display_format": "**Cooling:** refroidissement",
+          "explanation": "The process of becoming cooler.",
+          "cultural_note": ""
+        },
+        "sous-sol": {
+          "display_format": "**Basement:** sous-sol",
+          "explanation": "The floor of a building partly or entirely below ground level.",
+          "cultural_note": "Paris has many underground structures and tunnels."
+        },
+        "parisien": {
+          "display_format": "**Parisian:** parisien",
+          "explanation": "Relating to or characteristic of Paris.",
+          "cultural_note": "Refers to the capital city of France, known for its rich history and culture."
+        },
+        "permet": {
+          "display_format": "**Allows:** permet",
+          "explanation": "To give permission or enable something to happen.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** de",
+          "explanation": "Used to indicate possession, origin, or composition.",
+          "cultural_note": ""
+        },
+        "lutter": {
+          "display_format": "**Fight:** lutter",
+          "explanation": "To struggle or combat against something.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**Against:** contre",
+          "explanation": "In opposition to someone or something.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Used to introduce a list, quote, or explanation.",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**A:** un",
+          "explanation": "An indefinite article used before a masculine noun.",
+          "cultural_note": ""
+        },
+        "dans": {
+          "display_format": "**In:** dans",
+          "explanation": "Inside or within a place, time, or situation.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Definite article used before plural nouns.",
+          "cultural_note": ""
+        },
+        "chaleurs": {
+          "display_format": "**Heat:** chaleurs",
+          "explanation": "High temperatures or hot conditions.",
+          "cultural_note": "France often experiences heatwaves in the summer months."
+        },
+        "fortes": {
+          "display_format": "**Strong:** fortes",
+          "explanation": "Having great power, intensity, or strength.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Tour de France 2025. Le parcours complet et le profil détaillé de la course étape par étape",
+      "original_article_link": "https://www.ouest-france.fr/tour-de-france/tour-de-france-2025-le-parcours-complet-et-le-profil-detaille-de-la-course-etape-par-etape-23886578-4c38-11f0-a713-daeef56bef5e?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-28T05:00:16",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Parcours du Tour de France 2025 dévoilé",
+      "simplified_english_title": "Tour de France 2025 route revealed",
+      "french_summary": "Le parcours complet du Tour de France 2025 est annoncé, avec les détails de chaque étape pour les coureurs et les fans.",
+      "english_summary": "The complete route of the 2025 Tour de France is announced, with details of each stage for riders and fans.",
+      "contextual_title_explanations": {
+        "Tour": {
+          "display_format": "**Tour** : Tour",
+          "explanation": "A famous cycling race held in France.",
+          "cultural_note": "One of the most prestigious events in professional cycling."
+        },
+        "de": {
+          "display_format": "**Of** : de",
+          "explanation": "A preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France** : France",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": "Known for its rich history, culture, and contributions to art and science."
+        },
+        "2025": {
+          "display_format": "**2025** : 2025",
+          "explanation": "The year 2025.",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": "**Period** : .",
+          "explanation": "A punctuation mark indicating the end of a sentence.",
+          "cultural_note": ""
+        },
+        "Le": {
+          "display_format": "**The** : Le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "parcours": {
+          "display_format": "**Route** : parcours",
+          "explanation": "The route or course of the race.",
+          "cultural_note": "Refers to the path that the cyclists will follow during the race."
+        },
+        "complet": {
+          "display_format": "**Complete** : complet",
+          "explanation": "Meaning 'complete' or 'full'.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And** : et",
+          "explanation": "A conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The** : le",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "profil": {
+          "display_format": "**Profile** : profil",
+          "explanation": "Detailed description or outline.",
+          "cultural_note": "In this context, it refers to the detailed outline of the race stages."
+        },
+        "détaillé": {
+          "display_format": "**Detailed** : détaillé",
+          "explanation": "Meaning 'detailed' or 'thorough'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The** : la",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "course": {
+          "display_format": "**Race** : course",
+          "explanation": "A competition or race.",
+          "cultural_note": "Refers to the cycling race event."
+        },
+        "étape": {
+          "display_format": "**Stage** : étape",
+          "explanation": "A stage or step in a process.",
+          "cultural_note": "In cycling races, it refers to a segment of the race."
+        },
+        "par": {
+          "display_format": "**By** : par",
+          "explanation": "A preposition meaning 'by' or 'per'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Championnats de France de cyclisme. À quelle heure et sur quelle chaîne suivre la course féminine ?",
+      "original_article_link": "https://www.ouest-france.fr/sport/cyclisme/championnats-de-france/championnats-de-france-de-cyclisme-a-quelle-heure-et-sur-quelle-chaine-suivre-la-course-feminine-aedb665a-5397-11f0-8d7d-49e18ac65051?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-28T04:45:13",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Comment voir la course cycliste féminine ?",
+      "simplified_english_title": "How to watch the women's cycling race",
+      "french_summary": "La course féminine des Championnats de France de cyclisme sera diffusée à la télévision. Vérifiez l'heure et la chaîne pour ne pas la manquer.",
+      "english_summary": "The French Cycling Championships women's race will be on TV. Check the time and channel to not miss it.",
+      "contextual_title_explanations": {
+        "Championnats": {
+          "display_format": "**Championships**: Championnats",
+          "explanation": "A competition to determine the best in a sport.",
+          "cultural_note": "Major sporting events are popular in France."
+        },
+        "heure": {
+          "display_format": "**Time**: heure",
+          "explanation": "The specific moment or hour something happens.",
+          "cultural_note": ""
+        },
+        "cyclisme": {
+          "display_format": "**Cycling**: cyclisme",
+          "explanation": "The sport of riding bicycles.",
+          "cultural_note": "Cycling is a very popular sport in France."
+        },
+        "chaîne": {
+          "display_format": "**Channel**: chaîne",
+          "explanation": "A television station or network.",
+          "cultural_note": "French TV has many channels for different interests."
+        },
+        "course": {
+          "display_format": "**Race**: course",
+          "explanation": "A competition of speed, as in cycling.",
+          "cultural_note": "France hosts many famous cycling races."
+        },
+        "suivre": {
+          "display_format": "**Follow**: suivre",
+          "explanation": "To watch or keep up with something.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And**: et",
+          "explanation": "A word used to connect words or phrases.",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**Question mark**: ?",
+          "explanation": "A punctuation mark indicating a question.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On**: sur",
+          "explanation": "A preposition indicating location or medium.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: la",
+          "explanation": "A definite article used before feminine nouns.",
+          "cultural_note": ""
+        },
+        "féminine": {
+          "display_format": "**Feminine**: féminine",
+          "explanation": "Relating to women or girls.",
+          "cultural_note": "Women's sports are gaining more attention in France."
+        },
+        "quelle": {
+          "display_format": "**Which**: quelle",
+          "explanation": "A question word asking for specific information.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France**: France",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": "France is known for its rich history and culture."
+        },
+        ".": {
+          "display_format": "**Period**: .",
+          "explanation": "A punctuation mark indicating the end of a sentence.",
+          "cultural_note": ""
+        },
+        "À": {
+          "display_format": "**At**: À",
+          "explanation": "A preposition indicating time or location.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "A preposition indicating possession or origin.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T05:19:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
     }
   ]
 }
