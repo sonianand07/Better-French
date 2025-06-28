@@ -1,8 +1,8 @@
 name: Auto Update French News – v4
 
 on:
-  schedule:
-    - cron:  '0 * * * *'
+  # schedule:
+  #   - cron:  '0 * * * *'  # TEMPORARILY DISABLED - API issues
   workflow_dispatch:
 
 permissions:
