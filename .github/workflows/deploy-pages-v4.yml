@@ -52,31 +52,8 @@ jobs:
           rsync -a ai_engine_v3/data/ ai_engine_v4/data/
           rsync -a ai_engine_v3/website/ ai_engine_v4/website/
 
-      - name: Trim pending to today only
-        run: |
-          python - <<'PY'
-          import json, datetime, pathlib
-          pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
-          if pending_path.exists():
-              today = datetime.datetime.utcnow().date().isoformat()
-              data = json.loads(pending_path.read_text('utf-8'))
-              articles = data.get('articles', data)
-              filtered = [a for a in articles if (a.get('processed_at','')[:10]==today)]
-              pending_path.write_text(json.dumps({'articles':filtered},ensure_ascii=False,indent=2))
-          PY
-
-      - name: Cap pending to newest 10
-        run: |
-          python - <<'PY'
-          import json, pathlib
-          p = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
-          if p.exists():
-              data=json.loads(p.read_text('utf-8'))
-              arts=data.get('articles', data)
-              arts.sort(key=lambda a:a.get('processed_at',''), reverse=True)
-              capped=arts[:10]
-              p.write_text(json.dumps({'articles':capped}, ensure_ascii=False, indent=2))
-          PY
+      # V4 now processes ALL articles from V3, not just 10
+      # This ensures V4 has same content as V3, just enhanced
 
       - name: Run high-tier verifier (v4)
         run: |

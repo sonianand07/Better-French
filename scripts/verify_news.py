@@ -118,6 +118,7 @@ def main():
         return
 
     logger.info("🔍 %d articles need verification", len(pending))
+    logger.info("🎯 V4 will enhance ALL articles, not just a subset")
     
     try:
         llm = HighLLMClient()
