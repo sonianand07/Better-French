@@ -52,25 +52,31 @@ jobs:
           rsync -a ai_engine_v3/data/ ai_engine_v4/data/
           rsync -a ai_engine_v3/website/ ai_engine_v4/website/
 
-      # V4 processes SAME articles as V3 (daily batch), not entire database
-      - name: Limit V4 to V3's daily batch only
+      # V4 processes ONLY the articles that V3 just processed in this run
+      - name: Identify V3's new articles from this run
         run: |
           python - <<'PY'
-          import json, pathlib
+          import json, pathlib, datetime
           
-          # V4 should only process the same articles V3 just processed
-          # V3 processes ~200 articles max per run, not 1178 historical
+          # Find articles that V3 just processed (from this run)
+          # These are articles with recent processed_at timestamp
+          now = datetime.datetime.utcnow()
+          run_start_threshold = (now - datetime.timedelta(minutes=30)).isoformat()
+          
           pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
           if pending_path.exists():
               data = json.loads(pending_path.read_text('utf-8'))
               articles = data.get('articles', data)
               
-              # Sort by processed_at and take newest 200 (same as V3 scope)
-              articles.sort(key=lambda a: a.get('processed_at', ''), reverse=True)
-              limited_articles = articles[:200]
+              # Filter to only articles V3 processed in this run (last 30 minutes)
+              new_articles = [
+                  a for a in articles 
+                  if a.get('processed_at', '') >= run_start_threshold
+              ]
               
-              pending_path.write_text(json.dumps({'articles': limited_articles}, ensure_ascii=False, indent=2))
-              print(f"✅ Limited V4 to {len(limited_articles)} articles (same scope as V3)")
+              pending_path.write_text(json.dumps({'articles': new_articles}, ensure_ascii=False, indent=2))
+              print(f"✅ V4 will process {len(new_articles)} articles that V3 just processed")
+              print(f"   (Articles processed since: {run_start_threshold})")
           PY
 
       - name: Run high-tier verifier (v4)
