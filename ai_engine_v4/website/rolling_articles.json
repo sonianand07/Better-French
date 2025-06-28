@@ -3,10 +3,172 @@
     {
       "schema_version": 2,
       "id": null,
-      "original_article_title": "Canicule : la vigilance orange étendue à 73 départements dimanche",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250628-canicule-la-vigilance-orange-%C3%A9tendue-%C3%A0-73-d%C3%A9partements-dimanche",
-      "original_article_published_date": "2025-06-28T16:02:39",
-      "source_name": "France 24",
+      "original_article_title": "Dôme de chaleur: \"Aujourd'hui, notre bâti scolaire n'est pas adapté au réchauffement climatique\", constate Sophie Vénétitay, secrétaire générale du SNES-FSU",
+      "original_article_link": "https://www.bfmtv.com/societe/video-dome-de-chaleur-aujourd-hui-notre-bati-scolaire-n-est-pas-adapte-au-rechauffement-climatique-constate-sophie-venetitay-secretaire-generale-du-snes-fsu_VN-202506280315.html",
+      "original_article_published_date": "2025-06-28T17:13:14",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les écoles ne sont pas prêtes pour la chaleur",
+      "simplified_english_title": "Schools are not ready for heat",
+      "french_summary": "Sophie Vénétitay du SNES-FSU dit que les bâtiments scolaires ne sont pas adaptés aux vagues de chaleur.",
+      "english_summary": "Sophie Vénétitay from SNES-FSU says school buildings are not suited for heatwaves.",
+      "contextual_title_explanations": {
+        "FSU": {
+          "display_format": "**Union**: FSU",
+          "explanation": "A major French trade union federation.",
+          "cultural_note": "Represents workers in education and other public sectors."
+        },
+        "\"": {
+          "display_format": "**Quotation**: \"",
+          "explanation": "Used to indicate the beginning or end of a quote.",
+          "cultural_note": ""
+        },
+        "climatique": {
+          "display_format": "**Climate**: climatique",
+          "explanation": "Relating to climate or weather conditions.",
+          "cultural_note": "Often discussed in context of environmental issues in France."
+        },
+        "adapté": {
+          "display_format": "**Adapted**: adapté",
+          "explanation": "Suited or fitting for a particular purpose.",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**Not**: pas",
+          "explanation": "A negation word meaning 'not'.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "A preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "Dôme": {
+          "display_format": "**Dome**: Dôme",
+          "explanation": "A rounded roof or structure.",
+          "cultural_note": "Often used in weather contexts to describe heat domes."
+        },
+        "secrétaire": {
+          "display_format": "**Secretary**: secrétaire",
+          "explanation": "A person who handles correspondence and tasks.",
+          "cultural_note": "In unions, a key administrative role."
+        },
+        "Aujourd&#39;hui": {
+          "display_format": "**Today**: Aujourd'hui",
+          "explanation": "The current day.",
+          "cultural_note": ""
+        },
+        "générale": {
+          "display_format": "**General**: générale",
+          "explanation": "Relating to the whole of something.",
+          "cultural_note": ""
+        },
+        "bâti": {
+          "display_format": "**Built environment**: bâti",
+          "explanation": "Constructed or built environment.",
+          "cultural_note": "Refers to school infrastructure in this context."
+        },
+        "notre": {
+          "display_format": "**Our**: notre",
+          "explanation": "Possessive adjective meaning 'our'.",
+          "cultural_note": ""
+        },
+        "Sophie": {
+          "display_format": "**Sophie**: Sophie",
+          "explanation": "A female first name.",
+          "cultural_note": "Common name in France."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark introducing a quote or list.",
+          "cultural_note": ""
+        },
+        "SNES": {
+          "display_format": "**Union**: SNES",
+          "explanation": "National Union of Secondary Education.",
+          "cultural_note": "A major French teachers' union."
+        },
+        "constate": {
+          "display_format": "**Notes**: constate",
+          "explanation": "To observe or note something.",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**Heat**: chaleur",
+          "explanation": "High temperature or warmth.",
+          "cultural_note": "Frequently discussed during French heatwaves."
+        },
+        "n&#39;est": {
+          "display_format": "**Is not**: n'est",
+          "explanation": "A contraction meaning 'is not'.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the**: du",
+          "explanation": "A contraction of 'de' and 'le'.",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**To the**: au",
+          "explanation": "A contraction of 'à' and 'le'.",
+          "cultural_note": ""
+        },
+        "réchauffement": {
+          "display_format": "**Warming**: réchauffement",
+          "explanation": "The process of becoming warmer.",
+          "cultural_note": "Often refers to global warming in France."
+        },
+        "scolaire": {
+          "display_format": "**School**: scolaire",
+          "explanation": "Relating to schools or education.",
+          "cultural_note": "French school system is centralized and secular."
+        },
+        "Aujourd'hui": {
+          "display_format": "**Today**: Aujourd'hui",
+          "explanation": "The current day.",
+          "cultural_note": ""
+        },
+        "n'est": {
+          "display_format": "**Is not**: n'est",
+          "explanation": "A contraction meaning 'is not'.",
+          "cultural_note": ""
+        },
+        "SNES-FSU": {
+          "display_format": "**Union**: SNES-FSU",
+          "explanation": "A major French teachers' union.",
+          "cultural_note": "Represents workers in education and other public sectors."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T17:34:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0,
+      "quality_checked": true
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Martino Bettucci (P2Enjoy) : P2Enjoy, studio d'innovation digitale - 28/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/l-hebdo-des-pme/video-martino-bettucci-p2enjoy-p2enjoy-studio-d-innovation-digitale-28-06_VN-202506280311.html",
+      "original_article_published_date": "2025-06-28T17:08:11",
+      "source_name": "BFM TV",
       "quality_scores": {
         "quality_score": 5.0,
         "relevance_score": 5.0,
@@ -17,65 +179,259 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Alerte canicule dans 73 départements",
-      "simplified_english_title": "Heatwave alert in 73 departments",
-      "french_summary": "La France étend l'alerte orange à 73 départements à cause de la canicule. Les gens doivent rester prudents.",
-      "english_summary": "France extends the orange alert to 73 departments due to the heatwave. People should stay cautious.",
+      "simplified_french_title": "Martino Bettucci parle de P2Enjoy",
+      "simplified_english_title": "Martino Bettucci talks about P2Enjoy",
+      "french_summary": "Martino Bettucci présente P2Enjoy, un studio d'innovation numérique.",
+      "english_summary": "Martino Bettucci introduces P2Enjoy, a studio for digital innovation.",
       "contextual_title_explanations": {
-        "Canicule": {
-          "display_format": "**Heatwave:** Canicule",
-          "explanation": "A period of very hot weather.",
-          "cultural_note": "Common in France during summer, often prompting health warnings."
+        "d&#39;innovation": {
+          "display_format": "**Innovation:** d'innovation",
+          "explanation": "Related to new ideas or improvements.",
+          "cultural_note": "Innovation is key in French business culture."
+        },
+        "digitale": {
+          "display_format": "**Digital:** digitale",
+          "explanation": "Related to technology using computers.",
+          "cultural_note": "The digital industry is expanding in France."
+        },
+        "06": {
+          "display_format": "**June:** 06",
+          "explanation": "The sixth month of the year.",
+          "cultural_note": "In France, dates are often written as day/month."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark used to separate items.",
+          "cultural_note": ""
         },
         ":": {
           "display_format": "**Colon:** :",
-          "explanation": "Introduces additional information or explanation.",
+          "explanation": "A punctuation mark used to introduce a list or quote.",
           "cultural_note": ""
         },
-        "la": {
-          "display_format": "**The:** la",
-          "explanation": "Definite article, refers to a specific noun.",
+        "Martino": {
+          "display_format": "**Martino:** Martino",
+          "explanation": "A proper name, likely a person's first name.",
           "cultural_note": ""
         },
-        "étendue": {
-          "display_format": "**Extended:** étendue",
-          "explanation": "Spread over a larger area or period.",
+        "Bettucci": {
+          "display_format": "**Bettucci:** Bettucci",
+          "explanation": "A proper name, likely a person's last name.",
           "cultural_note": ""
         },
-        "à": {
-          "display_format": "**To:** à",
-          "explanation": "Preposition indicating direction or location.",
+        "P2Enjoy": {
+          "display_format": "**P2Enjoy:** P2Enjoy",
+          "explanation": "The name of a digital innovation studio.",
           "cultural_note": ""
         },
-        "départements": {
-          "display_format": "**Departments:** départements",
-          "explanation": "Administrative divisions in France.",
-          "cultural_note": "Similar to counties or provinces in other countries."
+        "studio": {
+          "display_format": "**Studio:** studio",
+          "explanation": "A place where creative work is done.",
+          "cultural_note": ""
         },
-        "dimanche": {
-          "display_format": "**Sunday:** dimanche",
-          "explanation": "The day of the week following Saturday.",
-          "cultural_note": "In France, often a day for family and leisure activities."
-        },
-        "vigilance": {
-          "display_format": "**Alertness:** vigilance",
-          "explanation": "Being watchful or careful.",
-          "cultural_note": "Used in weather warnings."
-        },
-        "orange": {
-          "display_format": "**Orange:** orange",
-          "explanation": "Color used for warning levels.",
-          "cultural_note": "Indicates a serious weather situation."
-        },
-        "73": {
-          "display_format": "**73:** 73",
-          "explanation": "A number indicating quantity.",
-          "cultural_note": "Refers to the number of departments affected."
+        "28/06": {
+          "display_format": "**June 28:** 28/06",
+          "explanation": "The date format used in France.",
+          "cultural_note": "In France, dates are written as day/month."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0,
+      "quality_checked": true
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "François Ruffin : \"Il nous faut du travaillisme climatique\"",
+      "original_article_link": "https://www.bfmtv.com/politique/video-francois-ruffin-il-nous-faut-du-travaillisme-climatique_VN-202506280308.html",
+      "original_article_published_date": "2025-06-28T16:58:15",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "opinion",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Ruffin appelle à un travaillisme climatique",
+      "simplified_english_title": "Ruffin calls for climate laborism",
+      "french_summary": "François Ruffin propose le 'travaillisme climatique' pour lutter contre le changement climatique et créer des emplois.",
+      "english_summary": "François Ruffin proposes 'climate laborism' to fight climate change and create jobs.",
+      "contextual_title_explanations": {
+        "Il": {
+          "display_format": "**He:** Il",
+          "explanation": "French pronoun meaning 'he'.",
+          "cultural_note": ""
+        },
+        "nous": {
+          "display_format": "**We:** nous",
+          "explanation": "French pronoun meaning 'we'.",
+          "cultural_note": ""
+        },
+        "faut": {
+          "display_format": "**Need:** faut",
+          "explanation": "Colloquial form of 'il faut' meaning 'it is necessary'.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation:** \"",
+          "explanation": "Quotation marks used to indicate direct speech.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Some:** du",
+          "explanation": "Contraction of 'de' and 'le' meaning 'some'.",
+          "cultural_note": ""
+        },
+        "climatique": {
+          "display_format": "**Climate:** climatique",
+          "explanation": "Relating to climate.",
+          "cultural_note": "Climate issues are significant in French politics."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used before a quotation.",
+          "cultural_note": ""
+        },
+        "travaillisme": {
+          "display_format": "**Laborism:** travaillisme",
+          "explanation": "Political ideology focusing on workers' rights.",
+          "cultural_note": "Refers to policies supporting labor and social welfare."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T17:34:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0,
+      "quality_checked": true
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Soudan : ce que l’on sait des soupçons d’utilisation d’armes chimiques à l’origine de sanctions américaines",
+      "original_article_link": "https://www.lemonde.fr/afrique/article/2025/06/28/soudan-ce-que-l-on-sait-des-soupcons-d-utilisation-d-armes-chimiques-a-l-origine-de-sanctions-americaines_6616304_3212.html",
+      "original_article_published_date": "2025-06-28T16:23:48",
+      "source_name": "Le Monde",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Sanctions américaines contre le Soudan pour armes chimiques",
+      "simplified_english_title": "US sanctions Sudan for chemical weapons",
+      "french_summary": "Les États-Unis imposent des sanctions au Soudan pour des soupçons d'utilisation d'armes chimiques.",
+      "english_summary": "The US imposes sanctions on Sudan over suspicions of chemical weapon use.",
+      "contextual_title_explanations": {
+        "Soudan": {
+          "display_format": "**Sudan:** Soudan",
+          "explanation": "A country in Northeast Africa.",
+          "cultural_note": "Formerly the largest country in Africa, split into Sudan and South Sudan in 2011."
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces an explanation or list.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**This:** ce",
+          "explanation": "Demonstrative pronoun meaning 'this' or 'what'.",
+          "cultural_note": ""
+        },
+        "que": {
+          "display_format": "**That:** que",
+          "explanation": "Relative pronoun meaning 'that' or 'which'.",
+          "cultural_note": ""
+        },
+        "on": {
+          "display_format": "**We:** on",
+          "explanation": "Indefinite pronoun meaning 'one', 'we', or 'people'.",
+          "cultural_note": "Commonly used in French to mean 'we' in an informal context."
+        },
+        "sait": {
+          "display_format": "**Knows:** sait",
+          "explanation": "Verb meaning 'knows' or 'is aware of'.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "soupçons": {
+          "display_format": "**Suspicions:** soupçons",
+          "explanation": "Noun meaning 'suspicions' or 'doubts'.",
+          "cultural_note": ""
+        },
+        "d’utilisation": {
+          "display_format": "**Use:** d’utilisation",
+          "explanation": "Noun meaning 'use' or 'utilization'.",
+          "cultural_note": ""
+        },
+        "d’armes": {
+          "display_format": "**Weapons:** d’armes",
+          "explanation": "Noun meaning 'weapons' or 'arms'.",
+          "cultural_note": ""
+        },
+        "chimiques": {
+          "display_format": "**Chemical:** chimiques",
+          "explanation": "Adjective meaning 'chemical'.",
+          "cultural_note": "Refers to substances used in chemical warfare."
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Preposition meaning 'to', 'at', or 'in'.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The:** l’",
+          "explanation": "Definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "origine": {
+          "display_format": "**Origin:** origine",
+          "explanation": "Noun meaning 'origin' or 'source'.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** de",
+          "explanation": "Preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "américaines": {
+          "display_format": "**American:** américaines",
+          "explanation": "Adjective meaning 'American'.",
+          "cultural_note": "Refers to the United States of America."
+        },
+        "l’on": {
+          "display_format": "**One:** l’on",
+          "explanation": "Formal version of 'on', meaning 'one' or 'people'.",
+          "cultural_note": "Used in formal contexts."
+        },
+        "sanctions": {
+          "display_format": "**Sanctions:** sanctions",
+          "explanation": "Noun meaning 'sanctions' or 'penalties'.",
+          "cultural_note": "Often used in political contexts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -99,177 +455,85 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Hugo Flayac parle de Csky.ai pour des réunions confidentielles",
-      "simplified_english_title": "Hugo Flayac talks about Csky.ai for confidential meetings",
-      "french_summary": "Hugo Flayac présente Csky.ai, une IA qui aide à garder les réunions confidentielles.",
-      "english_summary": "Hugo Flayac introduces Csky.ai, an AI that helps keep meetings confidential.",
+      "simplified_french_title": "Csky.ai : IA pour réunions confidentielles",
+      "simplified_english_title": "Csky.ai: AI for Confidential Meetings",
+      "french_summary": "Hugo Flayac présente Csky.ai, une IA pour sécuriser les réunions et protéger les informations.",
+      "english_summary": "Hugo Flayac introduces Csky.ai, an AI designed to secure meetings and protect information.",
       "contextual_title_explanations": {
-        "Csky": {
-          "display_format": "**Csky**: Csky",
-          "explanation": "A French company name, likely in technology.",
-          "cultural_note": "French tech companies often have unique names."
+        "Hugo": {
+          "display_format": "**First name:** Hugo",
+          "explanation": "A common French male first name.",
+          "cultural_note": "Popular in many French-speaking countries."
         },
         "Flayac": {
-          "display_format": "**Flayac**: Flayac",
+          "display_format": "**Surname:** Flayac",
           "explanation": "A French surname.",
-          "cultural_note": "Hugo Flayac is known in the French tech industry."
+          "cultural_note": "Surnames in France often have regional origins."
         },
-        "ai": {
-          "display_format": "**AI**: ai",
-          "explanation": "Short for Artificial Intelligence.",
+        "Csky": {
+          "display_format": "**Company:** Csky",
+          "explanation": "Name of a company.",
+          "cultural_note": "Csky.ai focuses on AI for meetings."
+        },
+        "IA": {
+          "display_format": "**AI:** IA",
+          "explanation": "Abbreviation for 'Intelligence Artificielle' (Artificial Intelligence).",
           "cultural_note": "AI is a growing field in France."
         },
-        "réunions": {
-          "display_format": "**Meetings**: réunions",
-          "explanation": "Gatherings or meetings, often for business.",
-          "cultural_note": "Meetings are common in French work culture."
+        "ai": {
+          "display_format": "**Domain:** ai",
+          "explanation": "Abbreviation for artificial intelligence domain.",
+          "cultural_note": "Common in tech company names."
         },
-        ":": {
-          "display_format": "**Colon**: :",
-          "explanation": "Punctuation mark used before an explanation.",
+        "confidentielle": {
+          "display_format": "**Confidential:** confidentielle",
+          "explanation": "Means confidential or private.",
+          "cultural_note": "Confidentiality is important in business."
+        },
+        "réunions": {
+          "display_format": "**Meetings:** réunions",
+          "explanation": "Plural of 'meeting' or 'gathering'.",
+          "cultural_note": "Meetings are common in French business."
+        },
+        "pour": {
+          "display_format": "**For:** pour",
+          "explanation": "A preposition meaning 'for'.",
           "cultural_note": ""
         },
         "les": {
-          "display_format": "**The**: les",
+          "display_format": "**The:** les",
           "explanation": "Definite article, plural form.",
           "cultural_note": ""
         },
-        ",": {
-          "display_format": "**Comma**: ,",
-          "explanation": "Punctuation mark used to separate items in a list.",
-          "cultural_note": ""
-        },
-        "IA": {
-          "display_format": "**AI**: IA",
-          "explanation": "French abbreviation for Intelligence Artificielle.",
-          "cultural_note": "AI is significant in the French economy."
-        },
-        "pour": {
-          "display_format": "**For**: pour",
-          "explanation": "Preposition meaning 'for' or 'intended for'.",
-          "cultural_note": ""
-        },
-        "06": {
-          "display_format": "**June**: 06",
-          "explanation": "Abbreviation for the month of June.",
-          "cultural_note": "Months follow days in French dates."
-        },
-        "28": {
-          "display_format": "**28th**: 28",
-          "explanation": "The 28th day of the month.",
-          "cultural_note": "French dates are written as day/month."
-        },
-        "Hugo": {
-          "display_format": "**Hugo**: Hugo",
-          "explanation": "A common male first name in France.",
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Punctuation mark used before an explanation.",
           "cultural_note": ""
         },
         ".": {
-          "display_format": "**Period**: .",
-          "explanation": "Punctuation mark used to end a sentence.",
+          "display_format": "**Period:** .",
+          "explanation": "Punctuation mark indicating the end of a sentence.",
           "cultural_note": ""
         },
-        "confidentielle": {
-          "display_format": "**Confidential**: confidentielle",
-          "explanation": "Adjective meaning confidential or private.",
-          "cultural_note": "Privacy is valued in French business."
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Punctuation mark used to separate items.",
+          "cultural_note": ""
+        },
+        "28": {
+          "display_format": "**Day:** 28",
+          "explanation": "The 28th day of the month.",
+          "cultural_note": ""
+        },
+        "06": {
+          "display_format": "**Month:** 06",
+          "explanation": "Abbreviation for June, the sixth month.",
+          "cultural_note": "In French dates, the day comes before the month."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0,
-      "quality_checked": true
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Le Rhône placé en vigilance orange canicule tout au long du week-end",
-      "original_article_link": "https://www.bfmtv.com/lyon/le-rhone-place-en-vigilance-orange-canicule-tout-au-long-du-week-end_AN-202506280280.html",
-      "original_article_published_date": "2025-06-28T15:04:50",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Alerte canicule orange dans le Rhône ce week-end",
-      "simplified_english_title": "Orange heatwave alert in Rhône this weekend",
-      "french_summary": "Le Rhône est en vigilance orange canicule. Les habitants doivent se protéger de la chaleur.",
-      "english_summary": "The Rhône is under an orange heatwave alert. Residents should protect themselves from the heat.",
-      "contextual_title_explanations": {
-        "Le": {
-          "display_format": "**The:** _Le_",
-          "explanation": "Definite article for masculine singular nouns.",
-          "cultural_note": ""
-        },
-        "placé": {
-          "display_format": "**Placed:** _placé_",
-          "explanation": "Put in a specific state or condition.",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "Preposition indicating a state or condition.",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**Heatwave:** _canicule_",
-          "explanation": "Period of unusually hot weather.",
-          "cultural_note": "Common in France during summer months."
-        },
-        "tout": {
-          "display_format": "**All:** _tout_",
-          "explanation": "Entire or whole.",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**At the:** _au_",
-          "explanation": "Combined preposition meaning 'at the' or 'to the'.",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the:** _du_",
-          "explanation": "Combined preposition meaning 'of the' or 'from the'.",
-          "cultural_note": ""
-        },
-        "week": {
-          "display_format": "**Weekend:** _week-end_",
-          "explanation": "The end of the week, Saturday and Sunday.",
-          "cultural_note": "Often a time for leisure and family activities in France."
-        },
-        "Rhône": {
-          "display_format": "**Rhône:** _Rhône_",
-          "explanation": "A major river in France.",
-          "cultural_note": "Important for transport and agriculture."
-        },
-        "vigilance": {
-          "display_format": "**Alert:** _vigilance_",
-          "explanation": "A warning or state of being watchful.",
-          "cultural_note": "Used for weather warnings."
-        },
-        "orange": {
-          "display_format": "**Orange:** _orange_",
-          "explanation": "Color used to indicate a warning level.",
-          "cultural_note": "Represents a serious alert in France."
-        },
-        "week-end": {
-          "display_format": "**Weekend:** _week-end_",
-          "explanation": "The end of the week, Saturday and Sunday.",
-          "cultural_note": "Often a time for leisure and family activities in France."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -293,29 +557,19 @@
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Vigilance orange pour la canicule en Île-de-France dimanche",
-      "simplified_english_title": "Orange alert for heatwave in Île-de-France on Sunday",
-      "french_summary": "Île-de-France est en vigilance orange pour canicule ce dimanche. Les autorités recommandent de rester prudents.",
+      "simplified_french_title": "Vigilance orange pour la canicule en Île-de-France",
+      "simplified_english_title": "Orange alert for heatwave in Île-de-France",
+      "french_summary": "Île-de-France est en vigilance orange pour la canicule ce dimanche. Les autorités recommandent de rester prudents.",
       "english_summary": "Île-de-France is on orange alert for a heatwave this Sunday. Authorities recommend staying cautious.",
       "contextual_title_explanations": {
-        "L'Ile": {
-          "display_format": "**Region**: L'Ile",
-          "explanation": "Region including Paris and nearby areas.",
-          "cultural_note": "It is the most populous region in France."
-        },
-        "de": {
-          "display_format": "**Of**: de",
-          "explanation": "Shows possession or relationship.",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France**: France",
-          "explanation": "A country in Western Europe.",
-          "cultural_note": "Known for its rich history and culture."
+        "L&#39;Ile-de-France": {
+          "display_format": "**Region**: L'Ile-de-France",
+          "explanation": "Region around Paris, including the city and its suburbs.",
+          "cultural_note": "It is the most populous region in France and the economic heart of the country."
         },
         "placée": {
           "display_format": "**Placed**: placée",
-          "explanation": "Put in a specific state or condition.",
+          "explanation": "Set in a specific condition or state.",
           "cultural_note": ""
         },
         "en": {
@@ -326,22 +580,22 @@
         "vigilance": {
           "display_format": "**Vigilance**: vigilance",
           "explanation": "State of being watchful for danger.",
-          "cultural_note": "Used in weather warnings."
+          "cultural_note": "In France, it often refers to weather warnings."
         },
         "orange": {
           "display_format": "**Orange**: orange",
-          "explanation": "Second highest level of alert.",
-          "cultural_note": "Indicates severe weather in France."
+          "explanation": "Second highest alert level in weather warnings.",
+          "cultural_note": "Indicates severe weather that can be dangerous."
         },
         "&#34;": {
           "display_format": "**Quotation**: \"",
-          "explanation": "Used to highlight specific words or phrases.",
+          "explanation": "Used to highlight a specific term or phrase.",
           "cultural_note": ""
         },
         "canicule": {
           "display_format": "**Heatwave**: canicule",
           "explanation": "Period of very hot weather.",
-          "cultural_note": "Common in France during summer."
+          "cultural_note": "Health warnings are common during heatwaves."
         },
         "ce": {
           "display_format": "**This**: ce",
@@ -350,13 +604,18 @@
         },
         "dimanche": {
           "display_format": "**Sunday**: dimanche",
-          "explanation": "The day of the week after Saturday.",
-          "cultural_note": "A day for rest and family in France."
+          "explanation": "The day after Saturday.",
+          "cultural_note": "Sunday is often a day of rest in France."
+        },
+        "L'île-de-France": {
+          "display_format": "**Region**: Île-de-France",
+          "explanation": "Region around Paris, including the city and suburbs.",
+          "cultural_note": "It is the most populous region in France and the economic heart of the country."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -376,433 +635,159 @@
         "importance_score": 5.0,
         "total_score": 15.0
       },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chaleur intense dans le sud de la France",
-      "simplified_english_title": "Intense heat in southern France",
-      "french_summary": "Samedi, les températures atteindront 38 degrés. 14 départements sont en vigilance orange.",
-      "english_summary": "On Saturday, temperatures will reach 38°C. 14 departments are on orange alert.",
-      "contextual_title_explanations": {
-        "sud": {
-          "display_format": "**South**: sud",
-          "explanation": "The southern region of France.",
-          "cultural_note": "Known for its Mediterranean climate."
-        },
-        "vigilance": {
-          "display_format": "**Vigilance**: vigilance",
-          "explanation": "A state of watchfulness and alertness.",
-          "cultural_note": "Used for weather and security alerts."
-        },
-        "la": {
-          "display_format": "**The**: la",
-          "explanation": "Definite article used before feminine nouns.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The**: le",
-          "explanation": "Definite article used before masculine nouns.",
-          "cultural_note": ""
-        },
-        "s": {
-          "display_format": "**'s**: s",
-          "explanation": "Apostrophe 's' indicates possession or contraction.",
-          "cultural_note": ""
-        },
-        "attendus": {
-          "display_format": "**Expected**: attendus",
-          "explanation": "Forecasted or anticipated.",
-          "cultural_note": "Commonly used in weather reports."
-        },
-        "C": {
-          "display_format": "**Degrees**: C",
-          "explanation": "Symbol for degrees Celsius.",
-          "cultural_note": "France uses the Celsius scale for temperature."
-        },
-        "pays": {
-          "display_format": "**Country**: pays",
-          "explanation": "Nation or country.",
-          "cultural_note": "Refers to France in this context."
-        },
-        "«": {
-          "display_format": "**Quotation mark**: «",
-          "explanation": "French opening quotation mark.",
-          "cultural_note": ""
-        },
-        "38": {
-          "display_format": "**38**: 38",
-          "explanation": "The number thirty-eight.",
-          "cultural_note": "Refers to the temperature in degrees Celsius."
-        },
-        ",": {
-          "display_format": "**Comma**: ,",
-          "explanation": "Punctuation mark indicating a pause.",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France**: France",
-          "explanation": "A country in Europe.",
-          "cultural_note": "Known for its culture, history, and geography."
-        },
-        "La": {
-          "display_format": "**The**: La",
-          "explanation": "Definite article used before feminine nouns.",
-          "cultural_note": ""
-        },
-        "départements": {
-          "display_format": "**Departments**: départements",
-          "explanation": "Administrative divisions in France.",
-          "cultural_note": "Similar to counties in other countries."
-        },
-        "étend": {
-          "display_format": "**Extends**: étend",
-          "explanation": "Spreads or stretches out.",
-          "cultural_note": "Often used in weather reports to describe conditions."
-        },
-        "du": {
-          "display_format": "**Of the**: du",
-          "explanation": "Contraction of 'de' and 'le'.",
-          "cultural_note": ""
-        },
-        "»": {
-          "display_format": "**Quotation mark**: »",
-          "explanation": "French closing quotation mark.",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**This**: ce",
-          "explanation": "Demonstrative adjective meaning 'this' or 'that'.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In**: dans",
-          "explanation": "Preposition meaning 'in' or 'inside'.",
-          "cultural_note": ""
-        },
-        "orange": {
-          "display_format": "**Orange**: orange",
-          "explanation": "A color or alert level.",
-          "cultural_note": "In France, 'vigilance orange' is a weather alert."
-        },
-        "samedi": {
-          "display_format": "**Saturday**: samedi",
-          "explanation": "The sixth day of the week.",
-          "cultural_note": "Part of the weekend in France."
-        },
-        "reste": {
-          "display_format": "**Rest**: reste",
-          "explanation": "The remaining part.",
-          "cultural_note": "Refers to the rest of the country."
-        },
-        "Dôme": {
-          "display_format": "**Dome**: Dôme",
-          "explanation": "A rounded structure forming a roof.",
-          "cultural_note": "Used in weather terms to describe heat."
-        },
-        "avant": {
-          "display_format": "**Before**: avant",
-          "explanation": "Preposition meaning 'before'.",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**Heat**: chaleur",
-          "explanation": "High temperature or warmth.",
-          "cultural_note": "Commonly discussed during French summers."
-        },
-        "canicule": {
-          "display_format": "**Heatwave**: canicule",
-          "explanation": "A period of very hot weather.",
-          "cultural_note": "France experiences heatwaves, especially in summer."
-        },
-        "de": {
-          "display_format": "**Of/From**: de",
-          "explanation": "Preposition meaning 'of' or 'from'.",
-          "cultural_note": ""
-        },
-        "14": {
-          "display_format": "**14**: 14",
-          "explanation": "The number fourteen.",
-          "cultural_note": "Refers to the number of departments under alert."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0,
-      "quality_checked": true
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Alerte rouge canicule en Italie, 37°C à Madrid, plus de 40°C à Pékin, 49,9°C aux Emirats arabes unis... Il n'y a pas que la France qui suffoque",
-      "original_article_link": "https://www.franceinfo.fr/environnement/crise-climatique/alerte-rouge-canicule-en-italie-37-c-a-madrid-plus-de-40-c-a-pekin-49-9-c-aux-emirats-arabes-unis-il-n-y-a-pas-que-la-france-qui-suffoque_7343292.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-28T14:37:42",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Chaleur extrême dans plusieurs pays",
-      "simplified_english_title": "Extreme heat in several countries",
-      "french_summary": "L'Italie, l'Espagne, la Chine et les Émirats arabes unis souffrent de températures très élevées, souvent au-dessus de 40°C.",
-      "english_summary": "Italy, Spain, China, and the UAE are experiencing very high temperatures, often above 40°C.",
-      "contextual_title_explanations": {
-        "Alerte": {
-          "display_format": "**Alert:** _Alerte_",
-          "explanation": "A warning about a serious situation.",
-          "cultural_note": ""
-        },
-        "rouge": {
-          "display_format": "**Red:** _rouge_",
-          "explanation": "The color red, often used for danger.",
-          "cultural_note": ""
-        },
-        "canicule": {
-          "display_format": "**Heatwave:** _canicule_",
-          "explanation": "A prolonged period of excessively hot weather.",
-          "cultural_note": "Common in summer in many countries."
-        },
-        "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "A preposition indicating location.",
-          "cultural_note": ""
-        },
-        "Italie": {
-          "display_format": "**Italy:** _Italie_",
-          "explanation": "A country in Southern Europe.",
-          "cultural_note": ""
-        },
-        "37°C": {
-          "display_format": "**37°C:** _37°C_",
-          "explanation": "A temperature measurement in Celsius.",
-          "cultural_note": "Very hot for many regions."
-        },
-        "à": {
-          "display_format": "**At:** _à_",
-          "explanation": "A preposition indicating location or time.",
-          "cultural_note": ""
-        },
-        "Madrid": {
-          "display_format": "**Madrid:** _Madrid_",
-          "explanation": "The capital city of Spain.",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**More:** _plus_",
-          "explanation": "An adverb meaning 'greater in amount'.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** _de_",
-          "explanation": "A preposition indicating belonging or origin.",
-          "cultural_note": ""
-        },
-        "40°C": {
-          "display_format": "**40°C:** _40°C_",
-          "explanation": "A temperature measurement in Celsius.",
-          "cultural_note": "Extremely hot for many areas."
-        },
-        "Pékin": {
-          "display_format": "**Beijing:** _Pékin_",
-          "explanation": "The capital city of China.",
-          "cultural_note": ""
-        },
-        "49,9°C": {
-          "display_format": "**49.9°C:** _49,9°C_",
-          "explanation": "A very high temperature in Celsius.",
-          "cultural_note": "Dangerously hot for humans."
-        },
-        "aux": {
-          "display_format": "**In the:** _aux_",
-          "explanation": "A contraction of 'à' and 'les', meaning 'in the'.",
-          "cultural_note": ""
-        },
-        "Emirats": {
-          "display_format": "**Emirates:** _Emirats_",
-          "explanation": "Refers to the United Arab Emirates.",
-          "cultural_note": "A federation of seven states."
-        },
-        "arabes": {
-          "display_format": "**Arab:** _arabes_",
-          "explanation": "Relating to Arab culture or people.",
-          "cultural_note": ""
-        },
-        "unis": {
-          "display_format": "**United:** _unis_",
-          "explanation": "Means 'joined together' or 'combined'.",
-          "cultural_note": ""
-        },
-        "Il": {
-          "display_format": "**It:** _Il_",
-          "explanation": "A pronoun referring to a subject.",
-          "cultural_note": ""
-        },
-        "n'y": {
-          "display_format": "**Not there:** _n'y_",
-          "explanation": "A phrase meaning 'not there' or 'not in that place'.",
-          "cultural_note": ""
-        },
-        "a": {
-          "display_format": "**Has:** _a_",
-          "explanation": "A verb meaning 'to have'.",
-          "cultural_note": ""
-        },
-        "pas": {
-          "display_format": "**Not:** _pas_",
-          "explanation": "A word used to negate a verb.",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That:** _que_",
-          "explanation": "A conjunction used to introduce a clause.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** _la_",
-          "explanation": "A definite article meaning 'the'.",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** _France_",
-          "explanation": "A country in Western Europe.",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**Who:** _qui_",
-          "explanation": "A pronoun used to refer to people.",
-          "cultural_note": ""
-        },
-        "suffoque": {
-          "display_format": "**Suffocates:** _suffoque_",
-          "explanation": "A verb meaning to have difficulty breathing.",
-          "cultural_note": "Used metaphorically for extreme heat."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 1,
-      "quality_checked": true
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Reportage France 24 : en Iran, funérailles nationales pour les hauts gradés tués par Israël",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250628-reportage-france-24-en-iran-fun%C3%A9railles-nationales-pour-les-hauts-grad%C3%A9s-tu%C3%A9s-par-isra%C3%ABl",
-      "original_article_published_date": "2025-06-28T14:30:24",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
       "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "L'Iran organise des funérailles nationales pour ses hauts gradés",
-      "simplified_english_title": "Iran holds national funerals for its high-ranking officials",
-      "french_summary": "L'Iran organise des funérailles nationales pour ses hauts gradés militaires tués par Israël, montrant sa détermination.",
-      "english_summary": "Iran holds national funerals for its high-ranking military officials killed by Israel, demonstrating its resolve.",
+      "simplified_french_title": "Canicule : 38°C samedi, 14 départements en alerte",
+      "simplified_english_title": "Heatwave: 38°C Saturday, 14 departments on alert",
+      "french_summary": "Une vague de chaleur touche le sud de la France avec des températures atteignant 38°C, 14 départements sont en alerte orange.",
+      "english_summary": "A heatwave affects southern France with temperatures reaching 38°C, putting 14 departments on orange alert.",
       "contextual_title_explanations": {
-        "24": {
-          "display_format": "**Twenty-four:** _24_",
-          "explanation": "The number 24.",
-          "cultural_note": "Part of the name of the news channel France 24."
-        },
-        ":": {
-          "display_format": "**Colon:** _:_",
-          "explanation": "Introduces a list, quote, or explanation.",
+        "dans": {
+          "display_format": "**In:** _dans_",
+          "explanation": "Preposition meaning 'in' or 'inside'.",
           "cultural_note": ""
         },
-        "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "Preposition meaning 'in' or 'to'.",
+        "étend": {
+          "display_format": "**Extends:** _étend_",
+          "explanation": "Verb meaning 'extends' or 'spreads'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article for feminine nouns.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**This:** _ce_",
+          "explanation": "Demonstrative adjective meaning 'this' or 'that'.",
           "cultural_note": ""
         },
         ",": {
           "display_format": "**Comma:** _,_",
-          "explanation": "A punctuation mark indicating a pause.",
+          "explanation": "Punctuation mark indicating a pause.",
           "cultural_note": ""
         },
-        "funérailles": {
-          "display_format": "**Funeral:** _funérailles_",
-          "explanation": "A ceremony for someone who has died.",
-          "cultural_note": "National funerals in Iran are significant state events."
-        },
-        "nationales": {
-          "display_format": "**National:** _nationales_",
-          "explanation": "Relating to a nation.",
-          "cultural_note": "Indicates the funerals are organized at a national level."
-        },
-        "pour": {
-          "display_format": "**For:** _pour_",
-          "explanation": "Preposition meaning 'for'.",
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Preposition meaning 'of' or 'from'.",
           "cultural_note": ""
         },
-        "les": {
-          "display_format": "**The:** _les_",
-          "explanation": "Definite article, meaning 'the'.",
+        "avant": {
+          "display_format": "**Before:** _avant_",
+          "explanation": "Preposition meaning 'before'.",
           "cultural_note": ""
         },
-        "hauts": {
-          "display_format": "**High:** _hauts_",
-          "explanation": "Meaning 'high' or 'top'.",
-          "cultural_note": "Often used to indicate high-ranking officials."
+        "C": {
+          "display_format": "**Degrees Celsius:** _C_",
+          "explanation": "Unit of temperature.",
+          "cultural_note": "Commonly used in France for weather reports."
         },
-        "gradés": {
-          "display_format": "**Officers:** _gradés_",
-          "explanation": "High-ranking officials or officers.",
-          "cultural_note": "Refers to military or government officials."
+        "canicule": {
+          "display_format": "**Heatwave:** _canicule_",
+          "explanation": "Period of very hot weather.",
+          "cultural_note": "Heatwaves are common in France during summer."
         },
-        "tués": {
-          "display_format": "**Killed:** _tués_",
-          "explanation": "Past participle of 'to kill'.",
+        "Dôme": {
+          "display_format": "**Dome:** _Dôme_",
+          "explanation": "High-pressure area trapping hot air.",
+          "cultural_note": "Term used in weather reports for heatwaves."
+        },
+        "samedi": {
+          "display_format": "**Saturday:** _samedi_",
+          "explanation": "Day of the week.",
           "cultural_note": ""
         },
-        "par": {
-          "display_format": "**By:** _par_",
-          "explanation": "Preposition meaning 'by'.",
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article for feminine nouns.",
           "cultural_note": ""
         },
-        "Israël": {
-          "display_format": "**Israel:** _Israël_",
-          "explanation": "A country in the Middle East.",
-          "cultural_note": "Israel has significant political and military influence in the region."
+        "14": {
+          "display_format": "**Fourteen:** _14_",
+          "explanation": "Number indicating quantity.",
+          "cultural_note": "Refers to the number of departments on alert."
         },
-        "Reportage": {
-          "display_format": "**Report:** _Reportage_",
-          "explanation": "A news report or feature.",
-          "cultural_note": "Common in media to describe a detailed news story."
+        "s": {
+          "display_format": "**Plural:** _s_",
+          "explanation": "Letter indicating plural form.",
+          "cultural_note": ""
         },
-        "France": {
-          "display_format": "**France:** _France_",
-          "explanation": "A country in Western Europe.",
-          "cultural_note": "Known for its rich history and culture."
+        "»": {
+          "display_format": "**Quotation mark:** _»_",
+          "explanation": "Punctuation mark ending a quotation.",
+          "cultural_note": ""
         },
-        "Iran": {
-          "display_format": "**Iran:** _Iran_",
-          "explanation": "A country in the Middle East.",
-          "cultural_note": "Has a complex political landscape."
+        "sud": {
+          "display_format": "**South:** _sud_",
+          "explanation": "Direction or region in the south.",
+          "cultural_note": "Southern France is known for its warm climate."
+        },
+        "reste": {
+          "display_format": "**Rest:** _reste_",
+          "explanation": "Noun meaning 'rest' or 'remainder'.",
+          "cultural_note": ""
+        },
+        "départements": {
+          "display_format": "**Departments:** _départements_",
+          "explanation": "Administrative divisions in France.",
+          "cultural_note": "France is divided into 96 departments."
+        },
+        "38": {
+          "display_format": "**Thirty-eight:** _38_",
+          "explanation": "Number indicating temperature.",
+          "cultural_note": "High temperature for a summer day in France."
+        },
+        "«": {
+          "display_format": "**Quotation mark:** _«_",
+          "explanation": "Punctuation mark starting a quotation.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** _le_",
+          "explanation": "Definite article for masculine nouns.",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**Country:** _pays_",
+          "explanation": "Noun meaning 'country'.",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**Heat:** _chaleur_",
+          "explanation": "Noun meaning 'heat'.",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**Of the:** _du_",
+          "explanation": "Contraction of 'de' and 'le'.",
+          "cultural_note": ""
+        },
+        "attendus": {
+          "display_format": "**Expected:** _attendus_",
+          "explanation": "Adjective meaning 'expected' or 'anticipated'.",
+          "cultural_note": ""
+        },
+        "°C": {
+          "display_format": "**Degrees Celsius:** _°C_",
+          "explanation": "Unit of temperature.",
+          "cultural_note": "Commonly used in France for weather reports."
+        },
+        "vigilance": {
+          "display_format": "**Alert:** _vigilance_",
+          "explanation": "Noun meaning 'alert' or 'watchfulness'.",
+          "cultural_note": "Used in weather warnings."
+        },
+        "orange": {
+          "display_format": "**Orange:** _orange_",
+          "explanation": "Color used to indicate a weather alert level.",
+          "cultural_note": "Orange alert means significant weather risk."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -822,79 +807,196 @@
         "importance_score": 5.0,
         "total_score": 15.0
       },
-      "difficulty": "A2",
+      "difficulty": "B1",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Il fera très chaud en France",
-      "simplified_english_title": "It will be very hot in France",
-      "french_summary": "Une vague de chaleur touchera plus de deux tiers de la France, entraînant des températures très élevées.",
-      "english_summary": "A heatwave will hit more than two-thirds of France, leading to very high temperatures.",
+      "simplified_french_title": "La canicule touche la France",
+      "simplified_english_title": "Heatwave affects France",
+      "french_summary": "Une forte canicule va toucher plus des deux tiers de la France, provoquant des températures très élevées et des risques pour la santé.",
+      "english_summary": "A strong heatwave will affect more than two-thirds of France, causing very high temperatures and health risks.",
       "contextual_title_explanations": {
         "La": {
           "display_format": "**The:** _La_",
-          "explanation": "Definite article, feminine singular form.",
+          "explanation": "Definite article, feminine singular.",
           "cultural_note": ""
         },
         "canicule": {
           "display_format": "**Heatwave:** _canicule_",
-          "explanation": "A period of very hot weather.",
-          "cultural_note": "Common in France during summer months."
+          "explanation": "Period of very hot weather.",
+          "cultural_note": "Often occurs in summer, can cause health issues."
         },
         "va": {
-          "display_format": "**Will:** _va_",
+          "display_format": "**Is going to:** _va_",
           "explanation": "Verb indicating future action.",
           "cultural_note": ""
         },
         "gagner": {
-          "display_format": "**Affect:** _gagner_",
-          "explanation": "To win or to affect.",
-          "cultural_note": "In this context, it means the heatwave will affect."
+          "display_format": "**Spread:** _gagner_",
+          "explanation": "To spread or reach.",
+          "cultural_note": "In this context, it means the heatwave will spread."
         },
         "plus": {
           "display_format": "**More:** _plus_",
           "explanation": "Indicates an increase or addition.",
           "cultural_note": ""
         },
-        "des": {
-          "display_format": "**Some:** _des_",
-          "explanation": "Indefinite article, plural form.",
-          "cultural_note": ""
-        },
-        "deux": {
-          "display_format": "**Two:** _deux_",
-          "explanation": "The number two.",
-          "cultural_note": ""
-        },
-        "tiers": {
-          "display_format": "**Thirds:** _tiers_",
-          "explanation": "A fraction, one part out of three.",
-          "cultural_note": ""
-        },
         "de": {
-          "display_format": "**Of:** _de_",
-          "explanation": "Preposition indicating possession or relation.",
+          "display_format": "**Of/from:** _de_",
+          "explanation": "Preposition indicating possession or origin.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article, feminine singular.",
           "cultural_note": ""
         },
         "qui": {
-          "display_format": "**Which:** _qui_",
-          "explanation": "Relative pronoun referring to a subject.",
+          "display_format": "**Which/that:** _qui_",
+          "explanation": "Relative pronoun referring to the subject.",
           "cultural_note": ""
         },
         "suffoque": {
           "display_format": "**Suffocates:** _suffoque_",
-          "explanation": "To have difficulty breathing due to heat.",
-          "cultural_note": "Commonly used during heatwaves in France."
+          "explanation": "To feel extremely hot and uncomfortable.",
+          "cultural_note": "Commonly used during heatwaves."
         },
-        "la": {
-          "display_format": "**The:** _la_",
-          "explanation": "Definite article, feminine singular form.",
+        "deux": {
+          "display_format": "**Two:** _deux_",
+          "explanation": "The number 2.",
+          "cultural_note": ""
+        },
+        "tiers": {
+          "display_format": "**Thirds:** _tiers_",
+          "explanation": "One of three equal parts.",
+          "cultural_note": "Used in expressions about proportions."
+        },
+        "des": {
+          "display_format": "**Some/any:** _des_",
+          "explanation": "Indefinite article, plural.",
           "cultural_note": ""
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0,
+      "quality_checked": true
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Le réseau «France eau publique» alerte sur les risques de la «loi Duplomb» sur l'environnement et la santé",
+      "original_article_link": "https://www.rfi.fr/fr/environnement/20250628-le-r%C3%A9seau-france-eau-publique-alerte-sur-les-risques-de-la-loi-duplomb-sur-l-environnement-et-la-sant%C3%A9",
+      "original_article_published_date": "2025-06-28T13:03:15",
+      "source_name": "RFI",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Une loi menace l'eau et la santé",
+      "simplified_english_title": "A law threatens water and health",
+      "french_summary": "Le réseau France eau publique avertit que la loi Duplomb nuit à l'environnement et à la santé.",
+      "english_summary": "The France eau publique network warns that the Duplomb law harms the environment and health.",
+      "contextual_title_explanations": {
+        "Le": {
+          "display_format": "**The:** _Le_",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": "Used like 'the' in English."
+        },
+        "réseau": {
+          "display_format": "**Network:** _réseau_",
+          "explanation": "A group or system of connected people or things.",
+          "cultural_note": "Often used for organizations or systems."
+        },
+        "«": {
+          "display_format": "**Opening quotation mark:** _«_",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to start direct speech or quotes."
+        },
+        "eau": {
+          "display_format": "**Water:** _eau_",
+          "explanation": "The clear liquid found in seas and lakes.",
+          "cultural_note": "Essential resource managed by public entities."
+        },
+        "publique»": {
+          "display_format": "**Public:** _publique_",
+          "explanation": "Relating to the people as a whole.",
+          "cultural_note": "Refers to services or institutions managed by the state."
+        },
+        "alerte": {
+          "display_format": "**Alerts:** _alerte_",
+          "explanation": "Warns about a problem.",
+          "cultural_note": "Common in news for urgent issues."
+        },
+        "sur": {
+          "display_format": "**On:** _sur_",
+          "explanation": "Preposition indicating a subject.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** _les_",
+          "explanation": "Definite article, plural.",
+          "cultural_note": ""
+        },
+        "risques": {
+          "display_format": "**Risks:** _risques_",
+          "explanation": "Potential dangers or harms.",
+          "cultural_note": "Often discussed in health contexts."
+        },
+        "de": {
+          "display_format": "**Of/From:** _de_",
+          "explanation": "Preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "loi": {
+          "display_format": "**Law:** _loi_",
+          "explanation": "A system of rules created and enforced.",
+          "cultural_note": "French laws are often named after politicians."
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "Conjunction used to connect words.",
+          "cultural_note": ""
+        },
+        "l'environnement": {
+          "display_format": "**Environment:** _l'environnement_",
+          "explanation": "The natural world as a whole.",
+          "cultural_note": "Important topic in French politics."
+        },
+        "santé": {
+          "display_format": "**Health:** _santé_",
+          "explanation": "The state of being free from illness.",
+          "cultural_note": "A major concern in public policy."
+        },
+        "»": {
+          "display_format": "**Closing quotation mark:** _»_",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to end direct speech or quotes."
+        },
+        "publique": {
+          "display_format": "**Public:** _publique_",
+          "explanation": "Relating to the people as a whole.",
+          "cultural_note": "Refers to services managed by the state."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
@@ -914,29 +1016,39 @@
         "importance_score": 5.0,
         "total_score": 15.0
       },
-      "difficulty": "B1",
+      "difficulty": "A2",
       "tone": "neutral",
       "keywords": null,
       "audio_url": null,
-      "simplified_french_title": "Canicule : se rafraîchir est un défi",
-      "simplified_english_title": "Heatwave: cooling down is a challenge",
-      "french_summary": "Pendant la canicule, les moyens de se rafraîchir varient, soulevant une question de justice sociale.",
-      "english_summary": "During the heatwave, access to cooling methods varies, raising a social justice issue.",
+      "simplified_french_title": "Canicule : se rafraîchir est un droit",
+      "simplified_english_title": "Heatwave: cooling off is a right",
+      "french_summary": "Pendant la canicule, chacun doit pouvoir se rafraîchir. Certains quartiers manquent d'endroits pour cela.",
+      "english_summary": "During the heatwave, everyone should be able to cool off. Some neighborhoods lack places for this.",
       "contextual_title_explanations": {
         "Canicule": {
           "display_format": "**Heatwave:** Canicule",
           "explanation": "A period of very hot weather.",
-          "cultural_note": "Common in France during summer, often leading to health warnings."
+          "cultural_note": "Common in France during summer, often leading to health advisories."
         },
         "se": {
           "display_format": "**Oneself:** se",
           "explanation": "Reflexive pronoun meaning oneself.",
           "cultural_note": ""
         },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to open a direct quote or highlight a term."
+        },
         "rafraîchir": {
           "display_format": "**Cool down:** rafraîchir",
           "explanation": "To make something or someone cooler.",
-          "cultural_note": "Commonly used in summer to describe cooling off from heat."
+          "cultural_note": "Important during heatwaves to stay healthy."
         },
         "une": {
           "display_format": "**A:** une",
@@ -944,176 +1056,39 @@
           "cultural_note": ""
         },
         "de": {
-          "display_format": "**Of/About:** de",
+          "display_format": "**Of:** de",
           "explanation": "Preposition meaning 'of' or 'about'.",
           "cultural_note": ""
         },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to close a direct quote or highlight a term."
+        },
         "thermique": {
           "display_format": "**Thermal:** thermique",
-          "explanation": "Relating to heat.",
-          "cultural_note": "Used in contexts like energy, weather, and technology."
-        },
-        "«": {
-          "display_format": "**Opening quotation mark:** «",
-          "explanation": "French opening quotation mark.",
-          "cultural_note": "Used to denote the beginning of a quote or special term."
-        },
-        "»": {
-          "display_format": "**Closing quotation mark:** »",
-          "explanation": "French closing quotation mark.",
-          "cultural_note": "Used to denote the end of a quote or special term."
+          "explanation": "Relating to heat or temperature.",
+          "cultural_note": "Used in contexts like energy, weather, and health."
         },
         ":": {
           "display_format": "**Colon:** :",
-          "explanation": "Punctuation mark used before an explanation or list.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma:** ,",
-          "explanation": "Punctuation mark indicating a pause.",
+          "explanation": "Punctuation mark introducing a list or explanation.",
           "cultural_note": ""
         },
         "question": {
           "display_format": "**Question:** question",
-          "explanation": "A matter or issue to be considered.",
+          "explanation": "A matter or topic to discuss.",
           "cultural_note": ""
         },
         "justice": {
           "display_format": "**Justice:** justice",
           "explanation": "Fair treatment or principle of fairness.",
-          "cultural_note": "Important concept in social discussions."
+          "cultural_note": "Important in social discussions."
         }
       },
       "key_vocabulary": null,
       "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0,
-      "quality_checked": true
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"La chaleur va s'intensifier au fil des jours\" : va-t-on vers une météo estivale \"historique\" en France ?",
-      "original_article_link": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/la-chaleur-va-s-intensifier-au-fil-des-jours-va-t-on-vers-une-meteo-estivale-historique-en-france_7343460.html#xtor=RSS-3-[lestitres]",
-      "original_article_published_date": "2025-06-28T10:49:18",
-      "source_name": "France Info",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "A2",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Une vague de chaleur arrive en France",
-      "simplified_english_title": "A heatwave is coming to France",
-      "french_summary": "La France va subir une intense vague de chaleur dans les jours à venir. Les températures pourraient atteindre des niveaux records.",
-      "english_summary": "France will face an intense heatwave in the coming days. Temperatures may reach record levels.",
-      "contextual_title_explanations": {
-        "La": {
-          "display_format": "**The:** _La_",
-          "explanation": "Definite article, feminine singular.",
-          "cultural_note": ""
-        },
-        "chaleur": {
-          "display_format": "**Heat:** _chaleur_",
-          "explanation": "High temperature, warmth.",
-          "cultural_note": "France often has heatwaves in summer."
-        },
-        "va": {
-          "display_format": "**Is going:** _va_",
-          "explanation": "Third person singular of 'aller' (to go).",
-          "cultural_note": ""
-        },
-        "s&#39;intensifier": {
-          "display_format": "**Intensify:** _s'intensifier_",
-          "explanation": "To become stronger or more severe.",
-          "cultural_note": "Often used in weather reports during summer."
-        },
-        "au": {
-          "display_format": "**To the:** _au_",
-          "explanation": "Combined form of 'à' and 'le'.",
-          "cultural_note": ""
-        },
-        "fil": {
-          "display_format": "**Course:** _fil_",
-          "explanation": "Thread, course, or progression.",
-          "cultural_note": "Used in expressions about time."
-        },
-        "des": {
-          "display_format": "**Of the:** _des_",
-          "explanation": "Plural indefinite or partitive article.",
-          "cultural_note": ""
-        },
-        "jours": {
-          "display_format": "**Days:** _jours_",
-          "explanation": "Plural of 'day'.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon:** _:_",
-          "explanation": "Punctuation introducing an explanation or quote.",
-          "cultural_note": ""
-        },
-        "&#34;": {
-          "display_format": "**Quotation mark:** _\"_",
-          "explanation": "Used to indicate direct speech or a quote.",
-          "cultural_note": ""
-        },
-        "va-t-on": {
-          "display_format": "**Are we going:** _va-t-on_",
-          "explanation": "Interrogative form of 'aller' (to go).",
-          "cultural_note": ""
-        },
-        "vers": {
-          "display_format": "**Towards:** _vers_",
-          "explanation": "Indicates direction or movement.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A:** _une_",
-          "explanation": "Indefinite article, feminine singular.",
-          "cultural_note": ""
-        },
-        "météo": {
-          "display_format": "**Weather:** _météo_",
-          "explanation": "Short for 'météorologie' (weather).",
-          "cultural_note": "Weather is a common topic in France."
-        },
-        "estivale": {
-          "display_format": "**Summer:** _estivale_",
-          "explanation": "Related to summer.",
-          "cultural_note": "Summer is linked to vacations."
-        },
-        "historique": {
-          "display_format": "**Historic:** _historique_",
-          "explanation": "Remarkable, of significant importance.",
-          "cultural_note": "Refers to notable events in history."
-        },
-        "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "Preposition indicating location or time.",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**Question mark:** _?_",
-          "explanation": "Punctuation indicating a question.",
-          "cultural_note": ""
-        },
-        "s'intensifier": {
-          "display_format": "**Intensify:** _s'intensifier_",
-          "explanation": "To become stronger or more severe.",
-          "cultural_note": "Common in weather forecasts."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-28T16:32:43",
+      "processed_at": "2025-06-28T17:34:12",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
