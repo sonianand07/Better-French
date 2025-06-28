@@ -47,7 +47,7 @@ jobs:
 
       - name: Run high-tier verifier (v4)
         run: |
-          python scripts/verify_news.py
+          PYTHONPATH="$GITHUB_WORKSPACE" python scripts/verify_news.py
 
       - name: Commit & push data changes
         run: |
