@@ -172,11 +172,20 @@ def main():
         logger.error("❌ Failed to save verified articles: %s", e)
         sys.exit(1)
         
-    # Also refresh rolling feed to ensure website sees updated explanations
+    # Replace articles in rolling feed with verified versions
     try:
         rolling = Storage.load_rolling()
-        Storage.save_rolling(rolling + verified)
-        logger.info("✅ Updated rolling feed with verified articles")
+        verified_links = {a.original_article_link for a in verified}
+        
+        # Remove old versions of verified articles and add new verified versions
+        updated_rolling = [a for a in rolling if a.original_article_link not in verified_links]
+        updated_rolling.extend(verified)
+        
+        # Sort by processed_at to maintain order
+        updated_rolling.sort(key=lambda x: x.processed_at or '', reverse=True)
+        
+        Storage.save_rolling(updated_rolling)
+        logger.info("✅ Replaced %d articles in rolling feed with verified versions", len(verified))
     except Exception as e:
         logger.warning("Could not update rolling feed: %s", e)
         
