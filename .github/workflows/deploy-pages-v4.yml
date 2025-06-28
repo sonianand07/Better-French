@@ -61,6 +61,19 @@ jobs:
               pending_path.write_text(json.dumps({'articles':filtered},ensure_ascii=False,indent=2))
           PY
 
+      - name: Cap pending to newest 10
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
+          if p.exists():
+              data=json.loads(p.read_text('utf-8'))
+              arts=data.get('articles', data)
+              arts.sort(key=lambda a:a.get('processed_at',''), reverse=True)
+              capped=arts[:10]
+              p.write_text(json.dumps({'articles':capped}, ensure_ascii=False, indent=2))
+          PY
+
       - name: Run high-tier verifier (v4)
         run: |
           PYTHONPATH="$GITHUB_WORKSPACE" python scripts/verify_news.py
