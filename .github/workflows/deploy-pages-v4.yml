@@ -1,25 +1,77 @@
-name: Deploy v4 Website to GitHub Pages
+name: Auto Update French News – v4
 
 on:
-  push:
-    branches: [ ai-engine-v4-main ]
-    paths:
-      - 'ai_engine_v4/website/**'
+  schedule:
+    - cron:  '0 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
+    env:
+      BF_PER_RUN_CAP: 10
+      BF_DAILY_CAP: 9999
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      AI_ENGINE_HIGH_MODEL: openai/gpt-4o-mini
+
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Publish v4 🚀
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e ./ai_engine_v3
+          pip install -e ./ai_engine_v4
+
+      - name: Run fast v3 pipeline
+        run: |
+          python -m ai_engine_v3.scripts.fetch_news
+          python -m ai_engine_v3.scripts.qualify_news
+
+      - name: Copy data into v4 store
+        run: |
+          rsync -a ai_engine_v3/data/ ai_engine_v4/data/
+          rsync -a ai_engine_v3/website/ ai_engine_v4/website/
+
+      - name: Run high-tier verifier (v4)
+        run: |
+          python scripts/verify_news.py
+
+      - name: Commit & push data changes
+        run: |
+          git config --global user.email "bot@betterfrench.io"
+          git config --global user.name "BetterFrenchBot"
+          git config --global core.hooksPath /dev/null
+          git add ai_engine_v4/data ai_engine_v4/website || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(v4): auto-update with verification" --no-verify
+            git push
+          fi
+
+      # Deploy root site (replace)
+      - name: Deploy root site 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./ai_engine_v4/website
+          force_orphan: true
+          commit_message: 'chore(deploy): update root site with v4 content'
+
+      # Deploy preview under /v4-site/ (keep alongside root)
+      - name: Deploy v4 preview 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
