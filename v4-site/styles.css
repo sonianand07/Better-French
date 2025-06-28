@@ -1,0 +1,1004 @@
+/* CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Palette */
+    --bg-color: #FFFFFF;
+    --primary-text: #333333;
+    --secondary-text: #666666;
+    --accent-color: #002395;
+    --accent-hover: rgba(0, 35, 149, 0.2);
+    --light-gray: #F0F0F0;
+    
+    /* Typography */
+    --font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+    /* Spacing (8px grid system) */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 40px;
+    
+    /* Typography Sizes */
+    --font-size-headline: 20px;
+    --font-size-secondary: 20px;
+    --font-size-body: 16px;
+    --font-size-meta: 12px;
+    --font-size-nav: 18px;
+    --font-size-logo: 26px;
+    
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 20px;
+    
+    /* Shadows */
+    --shadow-tooltip: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navigation */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    border-bottom: 1px solid #E5E5E5;
+    z-index: 100;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 16px;
+}
+
+/* Logo */
+.logo {
+    font-size: var(--font-size-logo);
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.logo-better {
+    color: var(--primary-text);
+}
+
+.logo-french {
+    color: var(--accent-color);
+    letter-spacing: 1.5px;
+}
+
+/* Mode Toggle */
+.mode-toggle {
+    display: flex;
+    background-color: var(--light-gray);
+    border-radius: var(--border-radius-lg);
+    padding: 4px;
+    gap: 0;
+}
+
+/* Hide mobile switcher on desktop */
+.mode-switcher {
+    display: none;
+}
+
+.mode-option {
+    background: none;
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    font-weight: 500;
+    color: var(--secondary-text);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all 200ms ease-out;
+    white-space: nowrap;
+}
+
+.mode-option.active {
+    background-color: var(--bg-color);
+    color: var(--accent-color);
+    box-shadow: var(--shadow-card);
+}
+
+.mode-option:hover:not(.active) {
+    color: var(--primary-text);
+}
+
+.mode-option:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Search */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    font-family: var(--font-family);
+    font-size: 16px;
+    padding: 12px var(--spacing-xxl) 12px var(--spacing-md);
+    border: 1px solid #E5E5E5;
+    border-radius: var(--border-radius-md);
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    transition: all 200ms ease-out;
+    width: 165px;
+    text-align: center;
+}
+
+.search-input::placeholder {
+    color: var(--secondary-text);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px var(--accent-hover);
+}
+
+.search-icon {
+    position: absolute;
+    right: var(--spacing-md);
+    color: var(--secondary-text);
+    pointer-events: none;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--spacing-xxl);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xxl);
+}
+
+/* Article Cards */
+.article-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-xl) 12px !important;
+    transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 
+        0 4px 24px rgba(0, 0, 0, 0.06),
+        0 1px 4px rgba(0, 0, 0, 0.04),
+        inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    padding-bottom: 12px !important;
+}
+
+.article-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.1) 0%, 
+        rgba(255, 255, 255, 0.05) 50%, 
+        rgba(240, 240, 240, 0.1) 100%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.article-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.article-card:hover {
+    transform: translateY(-2px) scale(1.005);
+    box-shadow: 
+        0 12px 40px rgba(0, 0, 0, 0.12),
+        0 4px 12px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(0, 35, 149, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+        0 0 24px rgba(0, 35, 149, 0.05);
+    border-color: rgba(0, 35, 149, 0.2);
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+}
+
+.article-card:hover::before {
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.15) 0%, 
+        rgba(255, 255, 255, 0.08) 50%, 
+        rgba(0, 35, 149, 0.02) 100%);
+}
+
+.featured-card {
+    width: 100%;
+    margin-bottom: var(--spacing-lg);
+}
+
+.featured-card .article-card {
+    background: rgba(255, 255, 255, 0.85);
+    padding: var(--spacing-xxl);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.08),
+        0 2px 8px rgba(0, 0, 0, 0.04),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.featured-card .article-card:hover {
+    transform: translateY(-3px) scale(1.003);
+    box-shadow: 
+        0 16px 48px rgba(0, 0, 0, 0.15),
+        0 6px 16px rgba(0, 0, 0, 0.1),
+        0 0 0 1px rgba(0, 35, 149, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        0 0 32px rgba(0, 35, 149, 0.08);
+}
+
+/* Articles Grid */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: var(--spacing-xxl);
+}
+
+/* Article Content */
+.article-title {
+    font-size: 22px !important;
+    font-weight: 600;
+    color: var(--primary-text);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.article-title .french-word {
+    /* Eliminate all mobile browser interference */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    /* Remove browser defaults */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    
+    /* Apple-inspired subtle highlighting */
+    position: relative;
+    cursor: pointer;
+    color: #2E7D32;
+    font-weight: 500;
+    
+    /* Subtle background highlight with rounded corners */
+    background: rgba(46, 125, 50, 0.04);
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin: 0 1px;
+    
+    /* Premium transitions - Fast hover-off, smooth hover-on */
+    transition: all 50ms cubic-bezier(0.16, 1, 0.3, 1);
+    
+    /* Subtle text shadow for depth */
+    text-shadow: 0 1px 2px rgba(46, 125, 50, 0.04);
+}
+
+/* Remove all browser default focus/active styling */
+.article-title .french-word:focus,
+.article-title .french-word:active,
+.article-title .french-word:focus-visible {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Hover/Focus/Active state: Premium Apple-style enhancement */
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active {
+    background: rgba(46, 125, 50, 0.08);
+    color: #1B5E20;
+    font-weight: bolder;
+    text-shadow: 0 2px 4px rgba(46, 125, 50, 0.08);
+    box-shadow: 
+        0 2px 8px rgba(46, 125, 50, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    /* Smooth hover-on transition */
+    transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Fade other words when one is hovered/focused/active */
+.article-title:has(.french-word:hover) .french-word:not(:hover),
+.article-title:has(.french-word:focus) .french-word:not(:focus),
+.article-title:has(.french-word.active) .french-word:not(.active),
+.article-title.has-active-word .french-word:not(.active) {
+    opacity: 0.4;
+    color: var(--secondary-text);
+    background: none;
+    transform: none;
+}
+
+.secondary-title:has(.french-word:hover) .french-word:not(:hover),
+.secondary-title:has(.french-word:focus) .french-word:not(:focus) {
+    opacity: 0.4;
+    color: var(--secondary-text);
+    background: none;
+}
+
+.secondary-title {
+    font-size: 22px !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+    margin-top: 0; /* no gap by default */
+    margin-bottom: 12px !important;
+    transition: opacity 200ms ease-in-out;
+}
+
+/* Add gap only when summary is expanded */
+.summary-text.expanded + .secondary-title {
+    margin-top: 12px;
+}
+
+/* --- Collapsible summary (headline click) --- */
+.summary-text {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 350ms ease, opacity 350ms ease;
+    margin: 0; /* no gap when hidden */
+    font-size: 18px !important;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.summary-text.expanded {
+    opacity: 1;
+    max-height: 200px; /* enough for one-line summary */
+    margin-top: 4px; /* ultra-tight gap below headline */
+}
+
+.summary-text strong {
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+.article-meta {
+    font-size: var(--font-size-meta);
+    font-weight: 300;
+    color: var(--secondary-text);
+    margin-top: auto;
+    border-top: 1px solid #F0F0F0;
+    padding-top: 6px !important;
+}
+
+/* Load More Button */
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-xxl);
+}
+
+.load-more-btn {
+    background-color: var(--light-gray);
+    border: none;
+    color: var(--accent-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-nav);
+    font-weight: 500;
+    padding: var(--spacing-md) var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.load-more-btn:hover {
+    background-color: #E8E8E8;
+}
+
+.load-more-btn:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Loading and Error States */
+.loading, .error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xxl);
+    text-align: center;
+}
+
+.loading[aria-hidden="false"], .error-message[aria-hidden="false"] {
+    display: flex;
+}
+
+.loading-spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--light-gray);
+    border-top: 3px solid var(--accent-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: var(--spacing-md);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.retry-btn {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    font-family: var(--font-family);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: var(--spacing-md);
+}
+
+/* Collapse Button */
+.collapse-button {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    width: 80px;
+    height: 24px;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    font-size: 0; /* Hide the text content */
+    opacity: 0.6;
+}
+
+/* The actual line inside the clickable area */
+.collapse-button::before {
+    content: '';
+    border-top: 3px solid var(--secondary-text);
+    width: 60px;
+    border-radius: 2px;
+    transition: all 200ms ease-out;
+}
+
+.collapse-button:hover {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-1px);
+}
+
+.collapse-button:hover::before {
+    border-top-color: var(--accent-color);
+}
+
+.collapse-button:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+    .nav-container {
+        padding: 0 var(--spacing-lg);
+    }
+    
+    .main-content {
+        padding: var(--spacing-lg);
+    }
+    
+    .article-card {
+        padding: var(--spacing-lg);
+        backdrop-filter: blur(18px) saturate(180%);
+        -webkit-backdrop-filter: blur(18px) saturate(180%);
+    }
+    
+    .article-card:hover {
+        transform: translateY(-2px) scale(1.003);
+        backdrop-filter: blur(22px) saturate(200%);
+        -webkit-backdrop-filter: blur(22px) saturate(200%);
+    }
+    
+    .featured-card .article-card {
+        padding: var(--spacing-xl);
+    }
+    
+    .content-container {
+        gap: var(--spacing-lg);
+    }
+    
+    .articles-grid {
+        gap: var(--spacing-lg);
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile (< 600px) */
+@media (max-width: 600px) {
+    .nav-container {
+        padding: 0 var(--spacing-md);
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 60px;
+        /* Balanced header: logo left, mode+search grouped right */
+    }
+    
+    .logo {
+        order: 1;
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    /* Steve Jobs-inspired single mode switcher */
+    .mode-toggle {
+        order: 2;
+        flex: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        margin-right: var(--spacing-sm);
+        width: auto;
+        padding: 0;
+        background: none;
+        border-radius: 0;
+        border: none;
+    }
+    
+    .mode-switcher {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+        box-shadow: 
+            0 2px 8px rgba(0, 0, 0, 0.06),
+            0 1px 3px rgba(0, 0, 0, 0.04),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        position: relative;
+        overflow: hidden;
+        min-width: 90px;
+        justify-content: center;
+    }
+    
+    .mode-switcher:hover {
+        background: rgba(255, 255, 255, 0.9);
+        transform: scale(1.02);
+        box-shadow: 
+            0 4px 12px rgba(0, 0, 0, 0.08),
+            0 2px 4px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .mode-switcher:active {
+        transform: scale(0.98);
+        transition: transform 120ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .mode-icon {
+        font-size: 16px;
+        transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .mode-text {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--accent-color);
+        transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+        white-space: nowrap;
+    }
+    
+    /* Hide individual mode options on mobile */
+    .mode-option {
+        display: none;
+    }
+    
+    /* Show mobile switcher on mobile */
+    .mode-switcher {
+        display: flex;
+    }
+    
+    .search-container {
+        order: 3;
+        width: auto;
+        margin: 0;
+        position: relative;
+    }
+    
+    /* Collapsible search - Steve Jobs style */
+    .search-input {
+        width: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+        opacity: 0;
+        transition: all 400ms cubic-bezier(0.16, 1, 0.3, 1);
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+        border-radius: var(--border-radius-md);
+        z-index: 10;
+    }
+    
+    .search-input.expanded {
+        width: 200px;
+        padding: var(--spacing-sm) var(--spacing-md);
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 
+            0 4px 20px rgba(0, 0, 0, 0.1),
+            0 2px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    /* Enhanced depth of field search icon */
+    .search-icon {
+        position: static;
+        right: auto;
+        color: var(--primary-text);
+        pointer-events: auto;
+        cursor: pointer;
+        padding: var(--spacing-sm);
+        border-radius: 12px;
+        transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px) saturate(200%);
+        -webkit-backdrop-filter: blur(20px) saturate(200%);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+        font-size: 15px;
+        /* Enhanced depth of field - no gray line */
+        box-shadow: 
+            0 4px 16px rgba(0, 0, 0, 0.08),
+            0 2px 8px rgba(0, 0, 0, 0.06),
+            0 1px 3px rgba(0, 0, 0, 0.04),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .search-icon:hover {
+        background: rgba(255, 255, 255, 0.85);
+        transform: scale(1.05) translateY(-1px);
+        box-shadow: 
+            0 8px 24px rgba(0, 0, 0, 0.12),
+            0 4px 12px rgba(0, 0, 0, 0.08),
+            0 2px 6px rgba(0, 0, 0, 0.06),
+            inset 0 2px 0 rgba(255, 255, 255, 0.95),
+            0 0 0 1px rgba(0, 35, 149, 0.1);
+    }
+    
+    .search-icon.active {
+        background: rgba(255, 255, 255, 0.9);
+        color: var(--primary-text);
+        transform: scale(0.95);
+        box-shadow: 
+            0 2px 8px rgba(0, 0, 0, 0.15),
+            0 1px 4px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    }
+    
+    .navbar {
+        height: 60px;
+        padding: 0;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(25px) saturate(180%);
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    
+    .main-content {
+        padding: var(--spacing-md);
+    }
+    
+    .article-card {
+        padding: var(--spacing-lg);
+        backdrop-filter: blur(15px) saturate(180%);
+        -webkit-backdrop-filter: blur(15px) saturate(180%);
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .article-card:hover {
+        transform: translateY(-1px) scale(1.002);
+        backdrop-filter: blur(20px) saturate(200%);
+        -webkit-backdrop-filter: blur(20px) saturate(200%);
+        box-shadow: 
+            0 8px 32px rgba(0, 0, 0, 0.1),
+            0 2px 8px rgba(0, 0, 0, 0.06),
+            0 0 0 1px rgba(0, 35, 149, 0.08),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8),
+            0 0 20px rgba(0, 35, 149, 0.04);
+    }
+    
+    .featured-card .article-card {
+        padding: var(--spacing-xl);
+    }
+    
+    .content-container {
+        gap: var(--spacing-lg);
+    }
+    
+    .articles-grid {
+        gap: var(--spacing-lg);
+    }
+    
+    .article-title {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    
+    .secondary-title {
+        font-size: var(--font-size-md);
+    }
+    
+    /* Enhanced mobile French word interaction - optimized for touch */
+    .article-title .french-word {
+        /* Slightly larger touch targets for mobile */
+        padding: 2px 4px;
+        margin: 0 2px;
+        border-radius: 5px;
+        
+        /* Ensure good contrast on mobile */
+        background: rgba(46, 125, 50, 0.04);
+        font-weight: 500;
+        
+        /* Fast hover-off transition for mobile */
+        transition: all 50ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .article-title .french-word:hover,
+    .article-title .french-word:focus,
+    .article-title .french-word.active {
+        background: rgba(46, 125, 50, 0.08);
+        transform: none; /* No translateY on mobile for stability */
+        font-weight: bolder;
+        /* Smooth hover-on transition for mobile */
+        transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    /* Remove the pseudo-element entirely */
+    .article-title .french-word::after {
+        display: none;
+    }
+    
+    .article-title .french-word {
+        margin: 0;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .article-card:hover {
+        transform: none;
+        transition: box-shadow 150ms ease-out, border-color 150ms ease-out;
+    }
+    
+    .featured-card .article-card:hover {
+        transform: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-text: #000000;
+        --secondary-text: #444444;
+        --accent-color: #001A6B;
+    }
+    
+    .article-card {
+        background: rgba(255, 255, 255, 0.95);
+        border: 2px solid var(--primary-text);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    
+    .article-card::before {
+        display: none;
+    }
+    
+    .article-card:hover {
+        border-color: var(--accent-color);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Focus visible support */
+@supports selector(:focus-visible) {
+    button:focus {
+        outline: none;
+    }
+    
+    button:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
+/* -------------------------------------------------- */
+/* UI-refresh override: disable bold/width animation  */
+/* Applies to both desktop and mobile */
+/* -------------------------------------------------- */
+
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.article-title.has-active-word .french-word.active {
+    font-weight: 500; /* keep same weight – prevent jump */
+    /* Limit the animated properties so width doesn't animate */
+    transition: background-color 300ms, color 300ms, box-shadow 300ms;
+}
+
+/* Richer feel: slower base transition for all interactive words */
+.article-title .french-word,
+.secondary-title .french-word {
+    background: none; /* no tile in resting, allows hover override */
+    transition: color 5000ms, background-color 5000ms, opacity 5000ms;
+}
+
+/* Richer feel: slower hover/focus/active transition */
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.article-title.has-active-word .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    transition: background-color 300ms, color 300ms, box-shadow 300ms;
+}
+
+/* Restore interactive styling for original (secondary) headline words */
+.secondary-title .french-word {
+    /* mirror base styles from article-title */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 3px;
+    margin: 0 1px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    color: #2E7D32;
+    font-weight: 500;
+    background: rgba(46, 125, 50, 0.04);
+    transition: all 50ms cubic-bezier(0.16, 1, 0.3, 1);
+    text-shadow: 0 1px 2px rgba(46, 125, 50, 0.04);
+}
+
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    background: rgba(46, 125, 50, 0.08);
+    color: #1B5E20;
+    font-weight: 500; /* keep weight consistent */
+    text-shadow: 0 2px 4px rgba(46, 125, 50, 0.08);
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.1), inset 0 1px 0 rgba(255,255,255,0.4);
+    transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* UI-refresh override: unify secondary-title base color (non-interactive words) */
+.secondary-title {
+    color: var(--primary-text);
+}
+
+/* -------------------------------------------------- */
+/* UI-refresh override: remove green tile in resting state */
+.article-title .french-word,
+.secondary-title .french-word {
+    padding: 0; /* uniform spacing */
+}
+
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    padding: 0; /* remove cushion on hover */
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* FINAL override: ensure no resting background */
+.article-title .french-word,
+.secondary-title .french-word {
+    background: none !important;
+}
+/* -------------------------------------------------- */
+
+/* Ensure green highlight on interaction */
+.article-title .french-word:hover,
+.article-title .french-word:focus,
+.article-title .french-word.active,
+.secondary-title .french-word:hover,
+.secondary-title .french-word:focus,
+.secondary-title .french-word.active {
+    background: rgba(46, 125, 50, 0.08) !important;
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* FINAL timing override for interactive French words */
+.article-title .french-word,
+.secondary-title .french-word {
+    transition: color 5000ms ease, opacity 5000ms ease !important;
+}
+/* -------------------------------------------------- */
+
+/* Base (return) transition: 2s */
+.article-title .french-word,
+.secondary-title .french-word {
+    transition: color 2000ms ease, opacity 2000ms ease !important;
+}
+
+/* Fade-to-grey (on hover) faster: 0.5s */
+.article-title:has(.french-word:hover) .french-word:not(:hover),
+.article-title:has(.french-word:focus) .french-word:not(:focus),
+.secondary-title:has(.french-word:hover) .french-word:not(:hover),
+.secondary-title:has(.french-word:focus) .french-word:not(:focus) {
+    transition: color 500ms ease, opacity 500ms ease !important;
+} 

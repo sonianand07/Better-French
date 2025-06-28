@@ -1,0 +1,989 @@
+{
+  "articles": [
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflits internationaux : Macron demande l’organisation d’un débat au Parlement",
+      "original_article_link": "https://www.lefigaro.fr/international/conflits-internationaux-macron-demande-l-organisation-d-un-debat-au-parlement-20250620",
+      "original_article_published_date": "2025-06-20T10:57:57",
+      "source_name": "Le Figaro",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron veut un débat au Parlement sur les conflits",
+      "simplified_english_title": "Macron calls for Parliament debate on conflicts",
+      "french_summary": "Le président Macron souhaite organiser un débat au Parlement pour discuter des conflits internationaux actuels et des actions possibles.",
+      "english_summary": "President Macron wants to organize a debate in Parliament to discuss current international conflicts and possible actions.",
+      "contextual_title_explanations": {
+        "Conflits": {
+          "display_format": "**Conflits:** Désaccords violents",
+          "explanation": "Disagreements or fights",
+          "cultural_note": ""
+        },
+        "internationaux": {
+          "display_format": "**internationaux:** Entre nations",
+          "explanation": "Between or among nations",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Introduces an explanation",
+          "cultural_note": ""
+        },
+        "Macron": {
+          "display_format": "**Macron:** Président français",
+          "explanation": "Current French president",
+          "cultural_note": ""
+        },
+        "demande": {
+          "display_format": "**demande:** Sollicite",
+          "explanation": "Asks or requests",
+          "cultural_note": ""
+        },
+        "l’organisation": {
+          "display_format": "**l’organisation:** La préparation",
+          "explanation": "The organization or setup",
+          "cultural_note": ""
+        },
+        "d’un": {
+          "display_format": "**d’un:** De un",
+          "explanation": "Of a (masculine)",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion publique",
+          "explanation": "Public discussion or debate",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** À le",
+          "explanation": "To the (masculine)",
+          "cultural_note": ""
+        },
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative",
+          "explanation": "Legislative assembly",
+          "cultural_note": "French Parliament is bicameral"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit entre Israël et l'Iran: quels pays commercent encore avec Téhéran?",
+      "original_article_link": "https://www.bfmtv.com/economie/video-conflit-entre-israel-et-l-iran-quels-pays-commercent-encore-avec-teheran_VN-202506200436.html",
+      "original_article_published_date": "2025-06-20T10:57:52",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Quels pays commercent avec l'Iran ?",
+      "simplified_english_title": "Which countries trade with Iran?",
+      "french_summary": "Malgré le conflit entre Israël et l'Iran, certains pays continuent de commercer avec Téhéran, malgré les sanctions internationales.",
+      "english_summary": "Despite the conflict between Israel and Iran, some countries continue to trade with Tehran, despite international sanctions.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or dispute",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**entre:** parmi",
+          "explanation": "Between or among",
+          "cultural_note": ""
+        },
+        "Israël": {
+          "display_format": "**Israël:** Pays du Moyen-Orient",
+          "explanation": "Country in Middle East",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** et aussi",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "l'Iran": {
+          "display_format": "**l'Iran:** Pays du Moyen-Orient",
+          "explanation": "Country in Middle East",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "quels": {
+          "display_format": "**quels:** lesquels",
+          "explanation": "Which or what",
+          "cultural_note": ""
+        },
+        "pays": {
+          "display_format": "**pays:** nations",
+          "explanation": "Countries",
+          "cultural_note": ""
+        },
+        "commercent": {
+          "display_format": "**commercent:** échangent",
+          "explanation": "Trade or do business",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**encore:** toujours",
+          "explanation": "Still or yet",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** en compagnie de",
+          "explanation": "With",
+          "cultural_note": ""
+        },
+        "Téhéran": {
+          "display_format": "**Téhéran:** Capitale de l'Iran",
+          "explanation": "Capital of Iran",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Énergie nucléaire, énergie renouvelable : stop ou encore ?",
+      "original_article_link": "https://www.bfmtv.com/economie/video-energie-nucleaire-energie-renouvelable-stop-ou-encore_VN-202506200426.html",
+      "original_article_published_date": "2025-06-20T10:41:24",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Faut-il arrêter l'énergie nucléaire ?",
+      "simplified_english_title": "Should we stop nuclear energy?",
+      "french_summary": "La France discute sur l'avenir de l'énergie nucléaire et des énergies renouvelables pour répondre aux besoins énergétiques.",
+      "english_summary": "France debates the future of nuclear and renewable energy to meet energy needs.",
+      "contextual_title_explanations": {
+        "Énergie": {
+          "display_format": "**Énergie:** Force motrice",
+          "explanation": "Power or energy source",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Relatif au noyau",
+          "explanation": "Related to atomic energy",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma separating items",
+          "cultural_note": ""
+        },
+        "énergie renouvelable": {
+          "display_format": "**énergie renouvelable:** Énergie durable",
+          "explanation": "Sustainable energy source",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "stop": {
+          "display_format": "**stop:** Arrêt",
+          "explanation": "Stop or halt",
+          "cultural_note": ""
+        },
+        "ou": {
+          "display_format": "**ou:** Ou bien",
+          "explanation": "Or, choice between options",
+          "cultural_note": ""
+        },
+        "encore": {
+          "display_format": "**encore:** Continuer",
+          "explanation": "Continue or more",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**?:** Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Comme Trump aux Etats-Unis, le gouvernement russe, qui voit arriver la récession, s'en prend à sa banque centrale qui ne baisse pas assez vite ses taux",
+      "original_article_link": "https://www.bfmtv.com/economie/international/comme-trump-aux-etats-unis-le-gouvernement-russe-qui-voit-arriver-la-recession-s-en-prend-a-sa-banque-centrale-qui-ne-baisse-pas-assez-vite-ses-taux_AD-202506200420.html",
+      "original_article_published_date": "2025-06-20T10:36:50",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Russie critique sa banque centrale",
+      "simplified_english_title": "Russia criticizes its central bank",
+      "french_summary": "Le gouvernement russe reproche à sa banque centrale de ne pas baisser assez vite les taux d'intérêt face à la récession.",
+      "english_summary": "The Russian government blames its central bank for not lowering interest rates quickly enough amid recession.",
+      "contextual_title_explanations": {
+        "Comme": {
+          "display_format": "**Comme:** Comme",
+          "explanation": "As or like",
+          "cultural_note": ""
+        },
+        "Trump": {
+          "display_format": "**Trump:** Donald Trump",
+          "explanation": "Former US President",
+          "cultural_note": ""
+        },
+        "aux": {
+          "display_format": "**aux:** À les",
+          "explanation": "To the (plural)",
+          "cultural_note": ""
+        },
+        "Etats-Unis": {
+          "display_format": "**Etats-Unis:** Pays",
+          "explanation": "United States",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**le:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "gouvernement": {
+          "display_format": "**gouvernement:** Autorité",
+          "explanation": "Government",
+          "cultural_note": ""
+        },
+        "russe": {
+          "display_format": "**russe:** De Russie",
+          "explanation": "Russian",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**qui:** Pronom relatif",
+          "explanation": "Which",
+          "cultural_note": ""
+        },
+        "voit": {
+          "display_format": "**voit:** Voit",
+          "explanation": "Sees",
+          "cultural_note": ""
+        },
+        "arriver": {
+          "display_format": "**arriver:** Venir",
+          "explanation": "To arrive",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** Article défini",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "récession": {
+          "display_format": "**récession:** Déclin économique",
+          "explanation": "Economic recession",
+          "cultural_note": ""
+        },
+        "s'en prend": {
+          "display_format": "**s'en prend:** Critique",
+          "explanation": "Attacks or criticizes",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**à:** À",
+          "explanation": "To",
+          "cultural_note": ""
+        },
+        "sa": {
+          "display_format": "**sa:** Possessif",
+          "explanation": "Its",
+          "cultural_note": ""
+        },
+        "banque centrale": {
+          "display_format": "**banque centrale:** Institution financière",
+          "explanation": "Central bank",
+          "cultural_note": ""
+        },
+        "ne": {
+          "display_format": "**ne:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "baisse": {
+          "display_format": "**baisse:** Réduit",
+          "explanation": "Lowers",
+          "cultural_note": ""
+        },
+        "pas": {
+          "display_format": "**pas:** Négation",
+          "explanation": "Not",
+          "cultural_note": ""
+        },
+        "assez": {
+          "display_format": "**assez:** Suffisamment",
+          "explanation": "Enough",
+          "cultural_note": ""
+        },
+        "vite": {
+          "display_format": "**vite:** Rapidement",
+          "explanation": "Quickly",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**ses:** Possessif",
+          "explanation": "Its",
+          "cultural_note": ""
+        },
+        "taux": {
+          "display_format": "**taux:** Tarifs",
+          "explanation": "Rates",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Iran-Israël: Emmanuel Macron annonce un débat au Parlement et une rencontre avec les chefs de partis",
+      "original_article_link": "https://www.bfmtv.com/international/moyen-orient/iran/iran-israel-emmanuel-macron-annonce-un-debat-au-parlement-et-une-rencontre-avec-les-chefs-de-partis_AD-202506200414.html",
+      "original_article_published_date": "2025-06-20T10:34:22",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron organise un débat sur Iran-Israël",
+      "simplified_english_title": "Macron organizes debate on Iran-Israel",
+      "french_summary": "Emmanuel Macron a annoncé un débat au Parlement et une réunion avec les chefs de partis sur la situation entre l'Iran et Israël.",
+      "english_summary": "Emmanuel Macron announced a parliamentary debate and a meeting with party leaders on the situation between Iran and Israel.",
+      "contextual_title_explanations": {
+        "Iran-Israël": {
+          "display_format": "**Iran-Israël:** Relations internationales",
+          "explanation": "Iran-Israel international relations",
+          "cultural_note": "Ongoing conflict and tensions"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French President",
+          "cultural_note": "Leader of La République En Marche! party"
+        },
+        "annonce": {
+          "display_format": "**annonce:** Rendre public",
+          "explanation": "Announces or makes public",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "débat": {
+          "display_format": "**débat:** Discussion publique",
+          "explanation": "Public debate or discussion",
+          "cultural_note": ""
+        },
+        "au": {
+          "display_format": "**au:** Article contracté",
+          "explanation": "Contraction of 'à le' meaning 'to the'",
+          "cultural_note": ""
+        },
+        "Parlement": {
+          "display_format": "**Parlement:** Assemblée législative",
+          "explanation": "French legislative body",
+          "cultural_note": "Consists of National Assembly and Senate"
+        },
+        "et": {
+          "display_format": "**et:** Conjonction",
+          "explanation": "Conjunction meaning 'and'",
+          "cultural_note": ""
+        },
+        "une": {
+          "display_format": "**une:** Article indéfini",
+          "explanation": "Indefinite article, 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "rencontre": {
+          "display_format": "**rencontre:** Réunion",
+          "explanation": "Meeting or gathering",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**avec:** Préposition",
+          "explanation": "Preposition meaning 'with'",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**les:** Article défini",
+          "explanation": "Definite article, 'the'",
+          "cultural_note": ""
+        },
+        "chefs de partis": {
+          "display_format": "**chefs de partis:** Dirigeants politiques",
+          "explanation": "Political party leaders",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "EXTRAIT - Satellites, missiles, robotique en orbite. L’espace, frontière de l’infini pour la défense… Quelles perspectives, quelle stratégie pour la France ?",
+      "original_article_link": "https://www.europe1.fr/emissions/le-brief/extrait-satellites-missiles-robotique-en-orbite-lespace-frontiere-de-linfini-pour-la-defense-quelles-perspectives-quelle-strategie-pour-la-france-760246",
+      "original_article_published_date": "2025-06-20T10:30:03",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La France et l'espace pour la défense",
+      "simplified_english_title": "France and space for defense",
+      "french_summary": "La France explore l'utilisation de satellites, missiles et robotique dans l'espace pour renforcer sa défense et sa stratégie militaire.",
+      "english_summary": "France explores using satellites, missiles, and robotics in space to strengthen its defense and military strategy.",
+      "contextual_title_explanations": {
+        "EXTRAIT": {
+          "display_format": "**EXTRAIT:** Extrait",
+          "explanation": "Excerpt or extract",
+          "cultural_note": ""
+        },
+        "-": {
+          "display_format": "-: Tiret",
+          "explanation": "Dash indicating a pause",
+          "cultural_note": ""
+        },
+        "Satellites": {
+          "display_format": "**Satellites:** Satellites",
+          "explanation": "Objects orbiting Earth",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": ",: Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "missiles": {
+          "display_format": "**missiles:** Missiles",
+          "explanation": "Projectiles for defense",
+          "cultural_note": ""
+        },
+        "robotique": {
+          "display_format": "**robotique:** Robotique",
+          "explanation": "Robotics technology",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**en:** Dans",
+          "explanation": "In or on",
+          "cultural_note": ""
+        },
+        "orbite": {
+          "display_format": "**orbite:** Orbite",
+          "explanation": "Orbit around Earth",
+          "cultural_note": ""
+        },
+        ".": {
+          "display_format": ". : Point",
+          "explanation": "Period ending sentence",
+          "cultural_note": ""
+        },
+        "L’espace": {
+          "display_format": "**L’espace:** L'espace",
+          "explanation": "Space",
+          "cultural_note": ""
+        },
+        "frontière": {
+          "display_format": "**frontière:** Frontière",
+          "explanation": "Frontier or boundary",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** De",
+          "explanation": "Of or from",
+          "cultural_note": ""
+        },
+        "l’infini": {
+          "display_format": "**l’infini:** L'infini",
+          "explanation": "The infinite",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**pour:** Pour",
+          "explanation": "For",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**la:** La",
+          "explanation": "The",
+          "cultural_note": ""
+        },
+        "défense…": {
+          "display_format": "**défense…:** Défense",
+          "explanation": "Defense with ellipsis",
+          "cultural_note": ""
+        },
+        "Quelles": {
+          "display_format": "**Quelles:** Quelles",
+          "explanation": "What or which",
+          "cultural_note": ""
+        },
+        "perspectives": {
+          "display_format": "**perspectives:** Perspectives",
+          "explanation": "Outlooks or prospects",
+          "cultural_note": ""
+        },
+        "quelle": {
+          "display_format": "**quelle:** Quelle",
+          "explanation": "What or which",
+          "cultural_note": ""
+        },
+        "stratégie": {
+          "display_format": "**stratégie:** Stratégie",
+          "explanation": "Strategy",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** France",
+          "explanation": "France the country",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "?: Point d'interrogation",
+          "explanation": "Question mark",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Russie : le gouvernement et la Banque centrale s’opposent en public alors que l’économie ralentit",
+      "original_article_link": "https://www.lexpress.fr/monde/europe/russie-le-gouvernement-et-la-banque-centrale-sopposent-en-public-alors-que-leconomie-ralentit-ULUDY4SAMVE65GWQ7A42NJ73JM/",
+      "original_article_published_date": "2025-06-20T10:22:04",
+      "source_name": "L'Express",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "La Russie a des problèmes économiques",
+      "simplified_english_title": "Russia faces economic troubles",
+      "french_summary": "Le gouvernement russe et la Banque centrale ont des désaccords publics. L'économie du pays ralentit en ce moment.",
+      "english_summary": "The Russian government and the Central Bank have public disagreements. The country's economy is slowing down.",
+      "contextual_title_explanations": {
+        "Russie": {
+          "display_format": "**Russie:** Pays d'Europe de l'Est",
+          "explanation": "Russia, a country",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "le gouvernement": {
+          "display_format": "**le gouvernement:** Autorité dirigeante",
+          "explanation": "The government",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**et:** Conjonction de coordination",
+          "explanation": "And",
+          "cultural_note": ""
+        },
+        "la Banque centrale": {
+          "display_format": "**la Banque centrale:** Institution financière",
+          "explanation": "The central bank",
+          "cultural_note": ""
+        },
+        "s’opposent": {
+          "display_format": "**s’opposent:** Être en désaccord",
+          "explanation": "Are opposing",
+          "cultural_note": ""
+        },
+        "en public": {
+          "display_format": "**en public:** De manière ouverte",
+          "explanation": "Publicly",
+          "cultural_note": ""
+        },
+        "alors que": {
+          "display_format": "**alors que:** Pendant que",
+          "explanation": "While",
+          "cultural_note": ""
+        },
+        "l’économie": {
+          "display_format": "**l’économie:** Système de production",
+          "explanation": "The economy",
+          "cultural_note": ""
+        },
+        "ralentit": {
+          "display_format": "**ralentit:** Devient plus lent",
+          "explanation": "Is slowing down",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Eutelsat : \"C'est un enjeu de souveraineté\", selon Emmanuel Macron",
+      "original_article_link": "https://www.bfmtv.com/politique/video-eutelsat-c-est-un-enjeu-de-souverainete-selon-emmanuel-macron_VN-202506200372.html",
+      "original_article_published_date": "2025-06-20T09:46:29",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Macron parle de souveraineté pour Eutelsat",
+      "simplified_english_title": "Macron calls Eutelsat a sovereignty issue",
+      "french_summary": "Emmanuel Macron dit que Eutelsat est important pour l'indépendance de la France dans l'espace.",
+      "english_summary": "Emmanuel Macron says Eutelsat is crucial for France's independence in space.",
+      "contextual_title_explanations": {
+        "Eutelsat": {
+          "display_format": "**Eutelsat:** Société de satellites",
+          "explanation": "European satellite operator",
+          "cultural_note": "Based in Paris"
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing quote",
+          "cultural_note": ""
+        },
+        "C'est": {
+          "display_format": "**C'est:** Ce est",
+          "explanation": "It is",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "Indefinite article (a)",
+          "cultural_note": ""
+        },
+        "enjeu": {
+          "display_format": "**enjeu:** Question importante",
+          "explanation": "Issue or stake",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**de:** Préposition",
+          "explanation": "Preposition (of)",
+          "cultural_note": ""
+        },
+        "souveraineté": {
+          "display_format": "**souveraineté:** Indépendance nationale",
+          "explanation": "National sovereignty",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**selon:** D'après",
+          "explanation": "According to",
+          "cultural_note": ""
+        },
+        "Emmanuel Macron": {
+          "display_format": "**Emmanuel Macron:** Président français",
+          "explanation": "Current French President",
+          "cultural_note": ""
+        },
+        "\"": {
+          "display_format": "**\"** Guillemets",
+          "explanation": "Quotation marks",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À l’Assemblée, Maxime Amblard, un député RN au service du lobby du nucléaire",
+      "original_article_link": "https://www.mediapart.fr/journal/politique/200625/l-assemblee-maxime-amblard-un-depute-rn-au-service-du-lobby-du-nucleaire",
+      "original_article_published_date": "2025-06-20T09:37:16",
+      "source_name": "Mediapart",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un député RN soutient le lobby nucléaire",
+      "simplified_english_title": "RN MP backs nuclear lobby",
+      "french_summary": "Maxime Amblard, député RN à l'Assemblée, travaille avec le lobby du nucléaire pour défendre leurs intérêts.",
+      "english_summary": "Maxime Amblard, RN MP in the Assembly, works with the nuclear lobby to defend their interests.",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**À:** Préposition",
+          "explanation": "At, in, or to",
+          "cultural_note": ""
+        },
+        "l’Assemblée": {
+          "display_format": "**l’Assemblée:** Assemblée nationale",
+          "explanation": "French lower house of Parliament",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,:** Virgule",
+          "explanation": "Comma for separation",
+          "cultural_note": ""
+        },
+        "Maxime Amblard": {
+          "display_format": "**Maxime Amblard:** Nom propre",
+          "explanation": "Name of a person",
+          "cultural_note": ""
+        },
+        "un": {
+          "display_format": "**un:** Article indéfini",
+          "explanation": "A or an",
+          "cultural_note": ""
+        },
+        "député": {
+          "display_format": "**député:** Membre du parlement",
+          "explanation": "Member of Parliament",
+          "cultural_note": ""
+        },
+        "RN": {
+          "display_format": "**RN:** Rassemblement National",
+          "explanation": "French far-right political party",
+          "cultural_note": "Formerly known as Front National"
+        },
+        "au": {
+          "display_format": "**au:** Article contracté",
+          "explanation": "To the or at the",
+          "cultural_note": ""
+        },
+        "service": {
+          "display_format": "**service:** Service",
+          "explanation": "Service or assistance",
+          "cultural_note": ""
+        },
+        "du": {
+          "display_format": "**du:** Article contracté",
+          "explanation": "Of the or from the",
+          "cultural_note": ""
+        },
+        "lobby": {
+          "display_format": "**lobby:** Groupe d'influence",
+          "explanation": "Interest group",
+          "cultural_note": ""
+        },
+        "nucléaire": {
+          "display_format": "**nucléaire:** Nucléaire",
+          "explanation": "Nuclear",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Conflit Israël-Iran : \"Le droit international ne prévoit pas la possibilité de guerre préventive\", selon Manuel Bompard",
+      "original_article_link": "https://www.franceinfo.fr/replay-magazine/franceinfo/l-invite-politique/l-invite-politique-du-vendredi-20-juin-2025_7326009.html#xtor=RSS-3-[lestitres]",
+      "original_article_published_date": "2025-06-20T08:29:18",
+      "source_name": "France Info",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Israël-Iran : pas de guerre préventive",
+      "simplified_english_title": "Israel-Iran: no preventive war",
+      "french_summary": "Manuel Bompard dit que le droit international n'autorise pas une guerre préventive entre Israël et l'Iran.",
+      "english_summary": "Manuel Bompard says international law does not allow a preventive war between Israel and Iran.",
+      "contextual_title_explanations": {
+        "Conflit": {
+          "display_format": "**Conflit:** Désaccord violent",
+          "explanation": "Conflict or violent disagreement",
+          "cultural_note": ""
+        },
+        "Israël-Iran": {
+          "display_format": "**Israël-Iran:** Deux pays en tension",
+          "explanation": "Israel and Iran, countries in tension",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**:** Deux-points",
+          "explanation": "Colon introducing explanation",
+          "cultural_note": ""
+        },
+        "Le droit international": {
+          "display_format": "**Le droit international:** Lois mondiales",
+          "explanation": "International law",
+          "cultural_note": ""
+        },
+        "ne prévoit pas": {
+          "display_format": "**ne prévoit pas:** N'autorise pas",
+          "explanation": "Does not foresee or allow",
+          "cultural_note": ""
+        },
+        "la possibilité de": {
+          "display_format": "**la possibilité de:** L'option de",
+          "explanation": "The possibility of",
+          "cultural_note": ""
+        },
+        "guerre préventive": {
+          "display_format": "**guerre préventive:** Guerre anticipée",
+          "explanation": "Preventive war",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**,** Virgule",
+          "explanation": "Comma",
+          "cultural_note": ""
+        },
+        "selon": {
+          "display_format": "**selon:** D'après",
+          "explanation": "According to",
+          "cultural_note": ""
+        },
+        "Manuel Bompard": {
+          "display_format": "**Manuel Bompard:** Homme politique français",
+          "explanation": "French politician",
+          "cultural_note": "Member of La France Insoumise"
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-20T11:17:58",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    }
+  ]
+}
