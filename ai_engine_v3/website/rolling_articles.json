@@ -3,6 +3,981 @@
     {
       "schema_version": 2,
       "id": null,
+      "original_article_title": "Europe 1 Matin week-end - 28/06/2025",
+      "original_article_link": "https://www.europe1.fr/emissions/Europe-1-Week-end2/europe-1-matin-week-end-28-06-2025-761379",
+      "original_article_published_date": "2025-06-28T08:13:32",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Émission du week-end sur Europe 1",
+      "simplified_english_title": "Europe 1 weekend broadcast",
+      "french_summary": "Europe 1 présente son émission du week-end avec des infos et des débats pour bien commencer la journée.",
+      "english_summary": "Europe 1 presents its weekend show with news and debates to start the day.",
+      "contextual_title_explanations": {
+        "1": {
+          "display_format": "**One:** 1",
+          "explanation": "The number one.",
+          "cultural_note": "Part of the name of the radio station Europe 1."
+        },
+        "Matin": {
+          "display_format": "**Morning:** Matin",
+          "explanation": "The morning time of day.",
+          "cultural_note": "Commonly used in French media titles for morning programs."
+        },
+        "week-end": {
+          "display_format": "**Weekend:** week-end",
+          "explanation": "The end of the week, Saturday and Sunday.",
+          "cultural_note": "In French, often written with a hyphen as 'week-end'."
+        },
+        "28": {
+          "display_format": "**Twenty-eight:** 28",
+          "explanation": "The number twenty-eight.",
+          "cultural_note": ""
+        },
+        "06": {
+          "display_format": "**June:** 06",
+          "explanation": "The sixth month of the year.",
+          "cultural_note": "In French, months are often written numerically in dates."
+        },
+        "2025": {
+          "display_format": "**Two thousand twenty-five:** 2025",
+          "explanation": "The year 2025.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Espagne : les raisons du refus de l’accord de l’OTAN sur les dépenses de défenses par Pedro Sanchez",
+      "original_article_link": "https://www.lemonde.fr/international/article/2025/06/28/espagne-les-raisons-du-refus-de-l-accord-de-l-otan-sur-les-depenses-de-defenses-par-pedro-sanchez_6616263_3210.html",
+      "original_article_published_date": "2025-06-28T08:13:01",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Pedro Sanchez refuse un accord de l'OTAN",
+      "simplified_english_title": "Pedro Sanchez rejects a NATO agreement",
+      "french_summary": "Pedro Sanchez, le chef du gouvernement espagnol, a refusé l'accord de l'OTAN sur les dépenses de défense pour des raisons politiques.",
+      "english_summary": "Pedro Sanchez, Spain's prime minister, rejected the NATO agreement on defense spending for political reasons.",
+      "contextual_title_explanations": {
+        "Espagne": {
+          "display_format": "**Spain**: Espagne",
+          "explanation": "A country in southwestern Europe.",
+          "cultural_note": "Known for its rich history and cultural influence."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "Introduces a list or explanation.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The**: les",
+          "explanation": "Definite article, plural.",
+          "cultural_note": ""
+        },
+        "raisons": {
+          "display_format": "**Reasons**: raisons",
+          "explanation": "Causes or explanations for something.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From**: de",
+          "explanation": "Preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "l’": {
+          "display_format": "**The**: l’",
+          "explanation": "Definite article, singular, before a vowel.",
+          "cultural_note": ""
+        },
+        "refus": {
+          "display_format": "**Refusal**: refus",
+          "explanation": "Act of declining or rejecting something.",
+          "cultural_note": ""
+        },
+        "accord": {
+          "display_format": "**Agreement**: accord",
+          "explanation": "A mutual arrangement or understanding.",
+          "cultural_note": ""
+        },
+        "OTAN": {
+          "display_format": "**NATO**: OTAN",
+          "explanation": "North Atlantic Treaty Organization.",
+          "cultural_note": "Military alliance formed in 1949 for collective defense."
+        },
+        "sur": {
+          "display_format": "**On/About**: sur",
+          "explanation": "Preposition indicating a topic or subject.",
+          "cultural_note": ""
+        },
+        "dépenses": {
+          "display_format": "**Expenses**: dépenses",
+          "explanation": "Costs or amounts spent.",
+          "cultural_note": ""
+        },
+        "défenses": {
+          "display_format": "**Defense**: défenses",
+          "explanation": "Measures or actions for protection.",
+          "cultural_note": ""
+        },
+        "par": {
+          "display_format": "**By**: par",
+          "explanation": "Preposition indicating the agent of an action.",
+          "cultural_note": ""
+        },
+        "Pedro": {
+          "display_format": "**Pedro**: Pedro",
+          "explanation": "A male given name.",
+          "cultural_note": "Common in Spanish-speaking countries."
+        },
+        "Sanchez": {
+          "display_format": "**Sanchez**: Sanchez",
+          "explanation": "A surname.",
+          "cultural_note": "Pedro Sanchez is the current Prime Minister of Spain."
+        },
+        "du": {
+          "display_format": "**Of the**: du",
+          "explanation": "Contraction of 'de' and 'le'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Lionel Patenostre (HydroFLOW) : HydroFLOW, traitement écologique de l'eau - 28/06",
+      "original_article_link": "https://www.bfmtv.com/economie/replay-emissions/l-hebdo-des-pme/video-lionel-patenostre-hydro-flow-hydro-flow-traitement-ecologique-de-l-eau-28-06_VN-202506280147.html",
+      "original_article_published_date": "2025-06-28T08:02:12",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "HydroFLOW : une solution écologique pour l'eau",
+      "simplified_english_title": "HydroFLOW: an eco-friendly water solution",
+      "french_summary": "Lionel Patenostre présente HydroFLOW, une technologie écologique pour traiter l'eau, importante pour l'environnement.",
+      "english_summary": "Lionel Patenostre introduces HydroFLOW, an eco-friendly water treatment technology, important for the environment.",
+      "contextual_title_explanations": {
+        "de": {
+          "display_format": "**Of**: de",
+          "explanation": "Shows possession or relationship.",
+          "cultural_note": ""
+        },
+        "Lionel": {
+          "display_format": "**Lionel**: Lionel",
+          "explanation": "A French male first name.",
+          "cultural_note": "Common in French-speaking countries."
+        },
+        "28": {
+          "display_format": "**28**: 28",
+          "explanation": "The number twenty-eight.",
+          "cultural_note": "Refers to the day of the month."
+        },
+        "HydroFLOW": {
+          "display_format": "**HydroFLOW**: HydroFLOW",
+          "explanation": "A brand or company name.",
+          "cultural_note": "French company specializing in water treatment."
+        },
+        "traitement": {
+          "display_format": "**Treatment**: traitement",
+          "explanation": "The process of treating something.",
+          "cultural_note": "Often used in context of water, waste, or medical treatment."
+        },
+        "écologique": {
+          "display_format": "**Ecological**: écologique",
+          "explanation": "Related to ecology or environmental protection.",
+          "cultural_note": "Important concept in France due to strong environmental policies."
+        },
+        "Patenostre": {
+          "display_format": "**Patenostre**: Patenostre",
+          "explanation": "A French surname.",
+          "cultural_note": "Lionel Patenostre is associated with HydroFLOW company."
+        },
+        ",": {
+          "display_format": "**Comma**: ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "06": {
+          "display_format": "**06**: 06",
+          "explanation": "The number zero six.",
+          "cultural_note": "Refers to the month of June."
+        },
+        "l&#39;eau": {
+          "display_format": "**Water**: l'eau",
+          "explanation": "The word for water in French.",
+          "cultural_note": "France has strong regulations on water quality and treatment."
+        },
+        ":": {
+          "display_format": "**Colon**: :",
+          "explanation": "A punctuation mark used before an explanation.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "À chaque président américain sa guerre ? Ces graphiques montrent leurs interventions depuis 1945",
+      "original_article_link": "https://www.ouest-france.fr/leditiondusoir/2025-06-27/a-chaque-president-americain-sa-guerre-ces-graphiques-montrent-leurs-interventions-depuis-1945-3a9b8898-e69e-4152-838d-a4166a8f79c3?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-28T08:00:40",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les présidents américains et leurs guerres",
+      "simplified_english_title": "American presidents and their wars",
+      "french_summary": "Depuis 1945, chaque président américain a mené des interventions militaires. Ces graphiques les montrent clairement.",
+      "english_summary": "Since 1945, every American president has led military interventions. These graphs show them clearly.",
+      "contextual_title_explanations": {
+        "À": {
+          "display_format": "**To:** À",
+          "explanation": "Preposition meaning 'to' or 'at'.",
+          "cultural_note": "Common in French titles and phrases."
+        },
+        "chaque": {
+          "display_format": "**Each:** chaque",
+          "explanation": "Means 'each' or 'every'.",
+          "cultural_note": ""
+        },
+        "président": {
+          "display_format": "**President:** président",
+          "explanation": "The leader of a country.",
+          "cultural_note": "In France, the President is head of state."
+        },
+        "américain": {
+          "display_format": "**American:** américain",
+          "explanation": "Relating to the United States.",
+          "cultural_note": "Refers to people or things from the USA."
+        },
+        "sa": {
+          "display_format": "**His/Her:** sa",
+          "explanation": "Possessive adjective meaning 'his' or 'her'.",
+          "cultural_note": ""
+        },
+        "guerre": {
+          "display_format": "**War:** guerre",
+          "explanation": "A conflict between countries or groups.",
+          "cultural_note": "France has been involved in several major wars."
+        },
+        "?": {
+          "display_format": "**Question:** ?",
+          "explanation": "A punctuation mark used to ask a question.",
+          "cultural_note": ""
+        },
+        "Ces": {
+          "display_format": "**These:** Ces",
+          "explanation": "Plural of 'this' or 'that'.",
+          "cultural_note": ""
+        },
+        "graphiques": {
+          "display_format": "**Graphics:** graphiques",
+          "explanation": "Visual representations of data.",
+          "cultural_note": "Commonly used in news and reports."
+        },
+        "montrent": {
+          "display_format": "**Show:** montrent",
+          "explanation": "Verb meaning 'show' or 'display'.",
+          "cultural_note": ""
+        },
+        "leurs": {
+          "display_format": "**Their:** leurs",
+          "explanation": "Possessive adjective meaning 'their'.",
+          "cultural_note": ""
+        },
+        "depuis": {
+          "display_format": "**Since:** depuis",
+          "explanation": "Means 'since' or 'from'.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Les actifs sont-ils vraiment écrasés par les «retraites géantes des boomers» ?",
+      "original_article_link": "https://www.europe1.fr/economie/les-actifs-sont-ils-vraiment-ecrases-par-les-retraites-geantes-des-boomers-761306",
+      "original_article_published_date": "2025-06-28T08:00:04",
+      "source_name": "Europe 1",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Les travailleurs paient pour les retraites ?",
+      "simplified_english_title": "Do workers pay for retirees?",
+      "french_summary": "On se demande si les actifs paient trop pour les retraites des baby-boomers. Les experts discutent de ce problème économique.",
+      "english_summary": "People wonder if workers pay too much for baby boomers' pensions. Experts debate this economic issue.",
+      "contextual_title_explanations": {
+        "Les": {
+          "display_format": "**The:** Les",
+          "explanation": "Plural definite article, like 'the' in English.",
+          "cultural_note": ""
+        },
+        "actifs": {
+          "display_format": "**Workers:** actifs",
+          "explanation": "People who are working or employed.",
+          "cultural_note": "In France, this term often refers to the working-age population."
+        },
+        "sont": {
+          "display_format": "**Are:** sont",
+          "explanation": "Third-person plural of 'to be'.",
+          "cultural_note": ""
+        },
+        "ils": {
+          "display_format": "**They:** ils",
+          "explanation": "Third-person plural masculine pronoun.",
+          "cultural_note": ""
+        },
+        "vraiment": {
+          "display_format": "**Really:** vraiment",
+          "explanation": "Adverb meaning 'truly' or 'really'.",
+          "cultural_note": ""
+        },
+        "écrasés": {
+          "display_format": "**Crushed:** écrasés",
+          "explanation": "Past participle of 'écraser', meaning 'crushed' or 'overwhelmed'.",
+          "cultural_note": "Often used metaphorically to describe feeling overwhelmed."
+        },
+        "par": {
+          "display_format": "**By:** par",
+          "explanation": "Preposition meaning 'by' or 'through'.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** les",
+          "explanation": "Plural definite article, like 'the' in English.",
+          "cultural_note": ""
+        },
+        "«": {
+          "display_format": "**Quotation mark:** «",
+          "explanation": "French opening quotation mark.",
+          "cultural_note": "Used to indicate the beginning of a quote or dialogue."
+        },
+        "retraites": {
+          "display_format": "**Pensions:** retraites",
+          "explanation": "Plural of 'retraite', meaning 'pension' or 'retirement'.",
+          "cultural_note": "Refers to the pension system in France, a significant social issue."
+        },
+        "géantes": {
+          "display_format": "**Giant:** géantes",
+          "explanation": "Feminine plural adjective meaning 'giant' or 'huge'.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**Some:** des",
+          "explanation": "Plural indefinite article, like 'some' in English.",
+          "cultural_note": ""
+        },
+        "boomers": {
+          "display_format": "**Baby boomers:** boomers",
+          "explanation": "People born during the post-World War II baby boom.",
+          "cultural_note": "Refers to the generation born between 1946 and 1964, often discussed in social and economic contexts."
+        },
+        "»": {
+          "display_format": "**Quotation mark:** »",
+          "explanation": "French closing quotation mark.",
+          "cultural_note": "Used to indicate the end of a quote or dialogue."
+        },
+        "?": {
+          "display_format": "**Question mark:** ?",
+          "explanation": "Punctuation mark indicating a question.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Un réseau basé en Russie escroque l'assurance maladie américaine",
+      "original_article_link": "https://www.20min.ch/fr/story/etats-unis-un-reseau-base-en-russie-escroque-l-assurance-maladie-americaine-103371821",
+      "original_article_published_date": "2025-06-28T07:51:05",
+      "source_name": "20 Minutes",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Un groupe russe vole l'assurance maladie américaine",
+      "simplified_english_title": "Russian group scams US health insurance",
+      "french_summary": "Un réseau criminel basé en Russie a escroqué l'assurance maladie américaine de millions de dollars. Les autorités enquêtent sur cette fraude massive.",
+      "english_summary": "A criminal network based in Russia scammed millions from US health insurance. Authorities are investigating the large-scale fraud.",
+      "contextual_title_explanations": {
+        "Un": {
+          "display_format": "**A:** Un",
+          "explanation": "Indefinite article meaning 'a' or 'an'",
+          "cultural_note": ""
+        },
+        "réseau": {
+          "display_format": "**Network:** réseau",
+          "explanation": "A group or system of interconnected people or things",
+          "cultural_note": ""
+        },
+        "basé": {
+          "display_format": "**Based:** basé",
+          "explanation": "Located or having a main location",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Preposition indicating location",
+          "cultural_note": ""
+        },
+        "Russie": {
+          "display_format": "**Russia:** Russie",
+          "explanation": "A country in Eastern Europe and Northern Asia",
+          "cultural_note": "Russia is known for its political tensions with Western countries."
+        },
+        "escroque": {
+          "display_format": "**Scams:** escroque",
+          "explanation": "To deceive and steal money",
+          "cultural_note": "Fraud and scams are significant issues in healthcare systems worldwide."
+        },
+        "l'assurance": {
+          "display_format": "**Insurance:** l'assurance",
+          "explanation": "A practice or arrangement by which a company provides a guarantee of compensation",
+          "cultural_note": "Health insurance is a critical topic in many countries, including France and the USA."
+        },
+        "maladie": {
+          "display_format": "**Disease:** maladie",
+          "explanation": "An illness or medical condition",
+          "cultural_note": "Healthcare and disease management are important topics in France."
+        },
+        "américaine": {
+          "display_format": "**American:** américaine",
+          "explanation": "Relating to the United States of America",
+          "cultural_note": "The American healthcare system is often discussed in global contexts due to its unique structure."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "Jusqu’à 43 °C : le mercure s’affole, Maine-et-Loire et Deux-Sèvres en alerte orange à la canicule",
+      "original_article_link": "https://www.ouest-france.fr/meteo/canicule/jusqua-43-c-le-mercure-saffole-maine-et-loire-et-deux-sevres-en-alerte-orange-a-la-canicule-53c06bd4-53e8-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "original_article_published_date": "2025-06-28T07:41:09",
+      "source_name": "Ouest France",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fait très chaud dans deux départements",
+      "simplified_english_title": "It is very hot in two departments",
+      "french_summary": "Il fait jusqu'à 43 degrés. Maine-et-Loire et Deux-Sèvres sont en alerte orange à cause de la canicule.",
+      "english_summary": "Temperatures reach up to 43 degrees. Maine-et-Loire and Deux-Sèvres are on orange alert due to the heatwave.",
+      "contextual_title_explanations": {
+        "Jusqu": {
+          "display_format": "**Until:** Jusqu",
+          "explanation": "Indicates a limit or endpoint.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**To:** à",
+          "explanation": "Indicates direction, location, or limit.",
+          "cultural_note": ""
+        },
+        "C": {
+          "display_format": "**Degrees:** C",
+          "explanation": "Symbol for degrees Celsius.",
+          "cultural_note": ""
+        },
+        ":": {
+          "display_format": "**Colon:** :",
+          "explanation": "Introduces further information.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "Definite article, masculine singular.",
+          "cultural_note": ""
+        },
+        "mercure": {
+          "display_format": "**Mercury:** mercure",
+          "explanation": "Refers to the mercury in thermometers.",
+          "cultural_note": "Commonly used in French to talk about temperature."
+        },
+        "s": {
+          "display_format": "**Plural:** s",
+          "explanation": "Indicates plural form of a noun.",
+          "cultural_note": ""
+        },
+        "affole": {
+          "display_format": "**Goes crazy:** s'affole",
+          "explanation": "To become frantic or out of control.",
+          "cultural_note": "Often used in French to describe extreme reactions."
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "Indicates a pause or separation in a sentence.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** et",
+          "explanation": "Connects two words or phrases.",
+          "cultural_note": ""
+        },
+        "Deux": {
+          "display_format": "**Two:** Deux",
+          "explanation": "The number two.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** en",
+          "explanation": "Indicates a state or condition.",
+          "cultural_note": ""
+        },
+        "alerte": {
+          "display_format": "**Alert:** alerte",
+          "explanation": "A warning or state of readiness.",
+          "cultural_note": "Used in various contexts, including weather warnings."
+        },
+        "la": {
+          "display_format": "**The:** la",
+          "explanation": "Definite article, feminine singular.",
+          "cultural_note": ""
+        },
+        "canicule": {
+          "display_format": "**Heatwave:** canicule",
+          "explanation": "A period of very hot weather.",
+          "cultural_note": "Common in France during summer months."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "La SNCF attaquée de front en région: Transdev lance ce dimanche ses TER sur la \"pire\" ligne de France entre Marseille et Nice",
+      "original_article_link": "https://www.bfmtv.com/economie/entreprises/transports/la-sncf-attaquee-de-front-en-region-transdev-lance-ce-dimanche-ses-ter-sur-la-pire-ligne-de-france-entre-marseille-et-nice_AV-202506280133.html",
+      "original_article_published_date": "2025-06-28T07:33:15",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Transdev concurrence la SNCF sur une ligne TER",
+      "simplified_english_title": "Transdev competes with SNCF on a TER line",
+      "french_summary": "Transdev commence à faire circuler ses trains sur la ligne Marseille-Nice, considérée comme la pire de France, en concurrence avec la SNCF.",
+      "english_summary": "Transdev starts running trains on the Marseille-Nice line, seen as France's worst, competing with SNCF.",
+      "contextual_title_explanations": {
+        "La": {
+          "display_format": "**The:** _La_",
+          "explanation": "Definite article used before a noun.",
+          "cultural_note": ""
+        },
+        "attaquée": {
+          "display_format": "**Attacked:** _attaquée_",
+          "explanation": "Past participle of 'attacker', meaning attacked.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of/From:** _de_",
+          "explanation": "Preposition indicating origin or possession.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**In:** _en_",
+          "explanation": "Preposition indicating location or manner.",
+          "cultural_note": ""
+        },
+        "région": {
+          "display_format": "**Region:** _région_",
+          "explanation": "Administrative area in France.",
+          "cultural_note": "France is divided into 18 administrative regions."
+        },
+        ":": {
+          "display_format": "**Colon:** _:_",
+          "explanation": "Punctuation mark used before an explanation or list.",
+          "cultural_note": ""
+        },
+        "lance": {
+          "display_format": "**Launches:** _lance_",
+          "explanation": "Third person singular of 'lancer', meaning to launch.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**This:** _ce_",
+          "explanation": "Demonstrative adjective meaning 'this'.",
+          "cultural_note": ""
+        },
+        "dimanche": {
+          "display_format": "**Sunday:** _dimanche_",
+          "explanation": "Day of the week.",
+          "cultural_note": ""
+        },
+        "ses": {
+          "display_format": "**Its:** _ses_",
+          "explanation": "Possessive adjective meaning 'its'.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**On:** _sur_",
+          "explanation": "Preposition indicating location or position.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The:** _la_",
+          "explanation": "Definite article used before a noun.",
+          "cultural_note": ""
+        },
+        "pire": {
+          "display_format": "**Worst:** _pire_",
+          "explanation": "Superlative adjective meaning 'worst'.",
+          "cultural_note": ""
+        },
+        "&#34;": {
+          "display_format": "**Quotation:** _\"_",
+          "explanation": "Quotation mark used to indicate speech or a quote.",
+          "cultural_note": ""
+        },
+        "ligne": {
+          "display_format": "**Line:** _ligne_",
+          "explanation": "Route or path, often used for transport.",
+          "cultural_note": ""
+        },
+        "entre": {
+          "display_format": "**Between:** _entre_",
+          "explanation": "Preposition indicating location or relationship.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**And:** _et_",
+          "explanation": "Conjunction used to connect words or phrases.",
+          "cultural_note": ""
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "L’Espagne, habituée à la chaleur, peaufine son adaptation face à l’aggravation des canicules",
+      "original_article_link": "https://www.lemonde.fr/planete/article/2025/06/28/l-espagne-habituee-a-la-chaleur-peaufine-son-adaptation-face-a-l-aggravation-des-canicules_6616254_3244.html",
+      "original_article_published_date": "2025-06-28T07:31:44",
+      "source_name": "Le Monde International",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "B1",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "L’Espagne s’adapte aux canicules plus fortes",
+      "simplified_english_title": "Spain adapts to worsening heatwaves",
+      "french_summary": "L’Espagne renforce ses mesures pour faire face aux canicules qui deviennent plus intenses et fréquentes à cause du changement climatique.",
+      "english_summary": "Spain is improving its measures to deal with heatwaves that are becoming more intense and frequent due to climate change.",
+      "contextual_title_explanations": {
+        "L’": {
+          "display_format": "**The**: _L’_",
+          "explanation": "Definite article meaning 'the' before a vowel sound.",
+          "cultural_note": ""
+        },
+        "Espagne": {
+          "display_format": "**Spain**: _Espagne_",
+          "explanation": "A country in southwestern Europe.",
+          "cultural_note": "France's neighbor to the south, known for its warm climate."
+        },
+        ",": {
+          "display_format": "**Comma**: _,_",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "habituée": {
+          "display_format": "**Accustomed**: _habituée_",
+          "explanation": "Used to something, adapted to a condition.",
+          "cultural_note": "Reflects a common experience or state of being in French culture."
+        },
+        "à": {
+          "display_format": "**To**: _à_",
+          "explanation": "Preposition meaning 'to' or 'at'.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**The**: _la_",
+          "explanation": "Definite article meaning 'the' before a feminine noun.",
+          "cultural_note": ""
+        },
+        "chaleur": {
+          "display_format": "**Heat**: _chaleur_",
+          "explanation": "High temperature, warmth.",
+          "cultural_note": "Common topic in French media due to climate concerns."
+        },
+        "peaufine": {
+          "display_format": "**Refines**: _peaufine_",
+          "explanation": "Improves or perfects something.",
+          "cultural_note": "Often used in contexts of preparation or improvement."
+        },
+        "son": {
+          "display_format": "**Its**: _son_",
+          "explanation": "Possessive adjective meaning 'its'.",
+          "cultural_note": ""
+        },
+        "adaptation": {
+          "display_format": "**Adaptation**: _adaptation_",
+          "explanation": "The process of adjusting to new conditions.",
+          "cultural_note": "Important in discussions about climate change in France."
+        },
+        "face": {
+          "display_format": "**Facing**: _face_",
+          "explanation": "Confronting or dealing with something.",
+          "cultural_note": "Commonly used in contexts of challenges or problems."
+        },
+        "l’": {
+          "display_format": "**The**: _l’_",
+          "explanation": "Definite article meaning 'the' before a vowel sound.",
+          "cultural_note": ""
+        },
+        "aggravation": {
+          "display_format": "**Worsening**: _aggravation_",
+          "explanation": "The process of becoming more serious or severe.",
+          "cultural_note": "Often used in health or environmental contexts."
+        },
+        "des": {
+          "display_format": "**Some**: _des_",
+          "explanation": "Indefinite article meaning 'some' or 'any'.",
+          "cultural_note": ""
+        },
+        "canicules": {
+          "display_format": "**Heatwaves**: _canicules_",
+          "explanation": "Periods of extremely hot weather.",
+          "cultural_note": "Frequent topic in French news due to climate change impacts."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
+      "original_article_title": "40°C à Montpellier, 38°C à Perpignan.. Où va-t-il faire le plus chaud ce samedi?",
+      "original_article_link": "https://www.bfmtv.com/meteo/canicule/40-c-a-montpellier-38-c-a-perpignan-ou-va-t-il-faire-le-plus-chaud-ce-samedi_AN-202506280132.html",
+      "original_article_published_date": "2025-06-28T07:30:57",
+      "source_name": "BFM TV",
+      "quality_scores": {
+        "quality_score": 5.0,
+        "relevance_score": 5.0,
+        "importance_score": 5.0,
+        "total_score": 15.0
+      },
+      "difficulty": "A2",
+      "tone": "neutral",
+      "keywords": null,
+      "audio_url": null,
+      "simplified_french_title": "Il fera très chaud ce samedi",
+      "simplified_english_title": "It will be very hot this Saturday",
+      "french_summary": "Ce samedi, les températures vont monter jusqu'à 40°C à Montpellier et 38°C à Perpignan. C'est important pour la santé et les activités.",
+      "english_summary": "This Saturday, temperatures will rise to 40°C in Montpellier and 38°C in Perpignan. It's important for health and activities.",
+      "contextual_title_explanations": {
+        "40": {
+          "display_format": "**Forty:** 40",
+          "explanation": "The number forty, indicating temperature in Celsius.",
+          "cultural_note": "Temperatures in France are measured in Celsius."
+        },
+        "faire": {
+          "display_format": "**Make:** faire",
+          "explanation": "A verb meaning 'to make' or 'to do'.",
+          "cultural_note": "Commonly used in expressions about weather."
+        },
+        "chaud": {
+          "display_format": "**Hot:** chaud",
+          "explanation": "An adjective meaning 'hot'.",
+          "cultural_note": "Used to describe high temperatures."
+        },
+        "samedi": {
+          "display_format": "**Saturday:** samedi",
+          "explanation": "The day of the week, Saturday.",
+          "cultural_note": "In France, Saturday is part of the weekend."
+        },
+        "il": {
+          "display_format": "**He:** il",
+          "explanation": "A pronoun meaning 'he' or 'it'.",
+          "cultural_note": "Often used to refer to the weather."
+        },
+        "38": {
+          "display_format": "**Thirty-eight:** 38",
+          "explanation": "The number thirty-eight, indicating temperature in Celsius.",
+          "cultural_note": "Temperatures in France are measured in Celsius."
+        },
+        ".": {
+          "display_format": "**Period:** .",
+          "explanation": "A punctuation mark indicating the end of a sentence.",
+          "cultural_note": ""
+        },
+        "va": {
+          "display_format": "**Goes:** va",
+          "explanation": "A form of the verb 'aller,' meaning 'to go'.",
+          "cultural_note": "Used to indicate future action."
+        },
+        "le": {
+          "display_format": "**The:** le",
+          "explanation": "A definite article meaning 'the'.",
+          "cultural_note": ""
+        },
+        "Où": {
+          "display_format": "**Where:** Où",
+          "explanation": "An adverb meaning 'where'.",
+          "cultural_note": ""
+        },
+        "t": {
+          "display_format": "**It:** t",
+          "explanation": "A contraction of 'il' meaning 'it'.",
+          "cultural_note": ""
+        },
+        "plus": {
+          "display_format": "**Most:** plus",
+          "explanation": "An adverb meaning 'most' or 'more'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**At:** à",
+          "explanation": "A preposition meaning 'at' or 'to'.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**This:** ce",
+          "explanation": "A demonstrative adjective meaning 'this' or 'that'.",
+          "cultural_note": ""
+        },
+        "?": {
+          "display_format": "**Question mark:** ?",
+          "explanation": "A punctuation mark indicating a question.",
+          "cultural_note": ""
+        },
+        ",": {
+          "display_format": "**Comma:** ,",
+          "explanation": "A punctuation mark indicating a pause.",
+          "cultural_note": ""
+        },
+        "C": {
+          "display_format": "**Celsius:** C",
+          "explanation": "A unit of temperature.",
+          "cultural_note": "Used in France to measure temperature."
+        }
+      },
+      "key_vocabulary": null,
+      "cultural_context": null,
+      "processed_at": "2025-06-28T08:23:11",
+      "processing_id": null,
+      "ai_enhanced": true,
+      "display_ready": true,
+      "backfill_attempts": 0
+    },
+    {
+      "schema_version": 2,
+      "id": null,
       "original_article_title": "Ouverture à la concurrence : en Île-de-France, la SNCF « challengée » par la RATP ?",
       "original_article_link": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/ouverture-a-la-concurrence-en-ile-de-france-la-sncf-challengee-par-la-ratp-28-06-2025-3ECIM3TNFJGF5NT7OY3K4BCXEE.php",
       "original_article_published_date": "2025-06-28T07:17:34.558763",
@@ -18935,1041 +19910,6 @@
       "key_vocabulary": null,
       "cultural_context": null,
       "processed_at": "2025-06-27T12:10:48",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "L’enseigne de décoration et ameublement Casa en liquidation judiciaire, 600 salariés sur le carreau",
-      "original_article_link": "https://www.ouest-france.fr/economie/commerce/lenseigne-de-decoration-et-dameublement-casa-placee-en-liquidation-judiciaire-4b5f77de-533c-11f0-acb7-473b370f0632?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-27T11:32:33",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Casa ferme, 600 employés perdent leur travail",
-      "simplified_english_title": "Casa closes, 600 employees lose their jobs",
-      "french_summary": "Casa est en liquidation judiciaire, ce qui signifie que 600 employés perdent leur emploi. C'est une mauvaise nouvelle pour eux et leurs familles.",
-      "english_summary": "Casa is in judicial liquidation, meaning 600 employees lose their jobs. This is bad news for them and their families.",
-      "contextual_title_explanations": {
-        "L’": {
-          "display_format": "**The**_: L’_",
-          "explanation": "French definite article, like 'the' in English.",
-          "cultural_note": ""
-        },
-        "enseigne": {
-          "display_format": "**Retailer**: enseigne",
-          "explanation": "A business or store, often a chain.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of**: de",
-          "explanation": "French preposition meaning 'of' or 'from'.",
-          "cultural_note": ""
-        },
-        "décoration": {
-          "display_format": "**Decoration**: décoration",
-          "explanation": "Items used to decorate homes or spaces.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And**: et",
-          "explanation": "French word for 'and'.",
-          "cultural_note": ""
-        },
-        "ameublement": {
-          "display_format": "**Furnishing**: ameublement",
-          "explanation": "Furniture and items used to furnish a space.",
-          "cultural_note": ""
-        },
-        "Casa": {
-          "display_format": "**Casa**: Casa",
-          "explanation": "Name of a French retail chain for home decoration and furniture.",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**In**: en",
-          "explanation": "French preposition meaning 'in' or 'on'.",
-          "cultural_note": ""
-        },
-        "liquidation": {
-          "display_format": "**Liquidation**: liquidation",
-          "explanation": "Process of closing a business and selling its assets.",
-          "cultural_note": "In France, 'liquidation judiciaire' is a legal process for insolvent companies."
-        },
-        "judiciaire": {
-          "display_format": "**Judicial**: judiciaire",
-          "explanation": "Relating to the legal system or courts.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma**: ,",
-          "explanation": "A punctuation mark used to separate parts of a sentence.",
-          "cultural_note": ""
-        },
-        "600": {
-          "display_format": "**600**: 600",
-          "explanation": "The number six hundred.",
-          "cultural_note": ""
-        },
-        "salariés": {
-          "display_format": "**Employees**: salariés",
-          "explanation": "People who work for a company and receive a salary.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On**: sur",
-          "explanation": "French preposition meaning 'on' or 'upon'.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The**: le",
-          "explanation": "French definite article, like 'the' in English.",
-          "cultural_note": ""
-        },
-        "carreau": {
-          "display_format": "**Unemployed**: sur le carreau",
-          "explanation": "Idiom meaning 'out of work' or 'unemployed'.",
-          "cultural_note": "Literally means 'on the tiles,' referring to being without work."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T12:10:48",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Centrafrique: ces manquements qui ont amplifié le drame du lycée Boganda de Bangui, selon un rapport",
-      "original_article_link": "https://www.rfi.fr/fr/afrique/20250627-centrafrique-ces-manquements-qui-ont-amplifi%C3%A9-le-drame-du-lyc%C3%A9e-boganda-de-bangui-selon-un-rapport",
-      "original_article_published_date": "2025-06-27T11:26:50",
-      "source_name": "RFI",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Problèmes au lycée Boganda en Centrafrique",
-      "simplified_english_title": "Issues at Boganda High School in CAR",
-      "french_summary": "Un rapport montre des négligences qui ont aggravé la situation au lycée Boganda de Bangui, en Centrafrique.",
-      "english_summary": "A report shows negligence worsened the situation at Boganda High School in Bangui, Central African Republic.",
-      "contextual_title_explanations": {
-        "Centrafrique": {
-          "display_format": "**Central African Republic**: _Centrafrique_",
-          "explanation": "A country in central Africa.",
-          "cultural_note": "Former French colony, official language is French."
-        },
-        "ces": {
-          "display_format": "**These**: _ces_",
-          "explanation": "Plural of 'this' or 'that' in French.",
-          "cultural_note": ""
-        },
-        "manquements": {
-          "display_format": "**Failures**: _manquements_",
-          "explanation": "Mistakes or shortcomings.",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**Who**: _qui_",
-          "explanation": "Relative pronoun meaning 'who' or 'which'.",
-          "cultural_note": ""
-        },
-        "ont": {
-          "display_format": "**Have**: _ont_",
-          "explanation": "Third person plural of the verb 'avoir' (to have).",
-          "cultural_note": ""
-        },
-        "amplifié": {
-          "display_format": "**Amplified**: _amplifié_",
-          "explanation": "Past participle of 'amplifier', meaning to increase or intensify.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The**: _le_",
-          "explanation": "Definite article used before masculine singular nouns.",
-          "cultural_note": ""
-        },
-        "drame": {
-          "display_format": "**Drama**: _drame_",
-          "explanation": "A serious, tragic event or situation.",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**Of the**: _du_",
-          "explanation": "Contraction of 'de' and 'le', meaning 'of the'.",
-          "cultural_note": ""
-        },
-        "lycée": {
-          "display_format": "**High school**: _lycée_",
-          "explanation": "Secondary school in the French education system.",
-          "cultural_note": "Typically for students aged 15 to 18."
-        },
-        "Boganda": {
-          "display_format": "**Boganda**: _Boganda_",
-          "explanation": "Name of a high school in Bangui.",
-          "cultural_note": "Named after Barthélemy Boganda, a Central African political leader."
-        },
-        "de": {
-          "display_format": "**Of**: _de_",
-          "explanation": "Preposition meaning 'of' or 'from'.",
-          "cultural_note": ""
-        },
-        "Bangui": {
-          "display_format": "**Bangui**: _Bangui_",
-          "explanation": "Capital city of the Central African Republic.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon**: _:_",
-          "explanation": "Punctuation mark used to introduce a list, quote, or explanation.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma**: _,_",
-          "explanation": "Punctuation mark used to separate items in a list or clauses in a sentence.",
-          "cultural_note": ""
-        },
-        "un": {
-          "display_format": "**A**: _un_",
-          "explanation": "Indefinite article used before masculine singular nouns.",
-          "cultural_note": ""
-        },
-        "rapport": {
-          "display_format": "**Report**: _rapport_",
-          "explanation": "A document that presents information in an organized format.",
-          "cultural_note": ""
-        },
-        "selon": {
-          "display_format": "**According to**: _selon_",
-          "explanation": "Preposition meaning 'according to'.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T12:10:48",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Privée de Victor Wenbanyama et de plusieurs cadres, la France mise sur sa jeunesse pour l’Euro masculin de basket",
-      "original_article_link": "https://www.lemonde.fr/sport/article/2025/06/27/privee-de-victor-wenbanyama-et-de-plusieurs-cadres-la-france-mise-sur-sa-jeunesse-pour-l-euro-masculin-de-basket_6616142_3242.html",
-      "original_article_published_date": "2025-06-27T11:23:40",
-      "source_name": "Le Monde",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "La France compte sur ses jeunes pour l’Euro de basket",
-      "simplified_english_title": "France relies on youth for EuroBasket",
-      "french_summary": "Sans Victor Wembanyama et d'autres joueurs clés, la France mise sur ses jeunes talents pour l'Euro de basket masculin.",
-      "english_summary": "Without Victor Wembanyama and other key players, France is betting on its young talents for the EuroBasket.",
-      "contextual_title_explanations": {
-        "Privée": {
-          "display_format": "**Deprived**: _Privée_",
-          "explanation": "Lacking something important or valuable.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of**: _de_",
-          "explanation": "Shows possession or relationship.",
-          "cultural_note": ""
-        },
-        "Victor Wenbanyama": {
-          "display_format": "**Victor Wembanyama**: _Victor Wenbanyama_",
-          "explanation": "A prominent French basketball player.",
-          "cultural_note": "He is considered one of the top prospects in basketball."
-        },
-        "et": {
-          "display_format": "**And**: _et_",
-          "explanation": "Used to connect words or phrases.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma**: _,_",
-          "explanation": "A punctuation mark indicating a pause.",
-          "cultural_note": ""
-        },
-        "plusieurs": {
-          "display_format": "**Several**: _plusieurs_",
-          "explanation": "More than two but not many.",
-          "cultural_note": ""
-        },
-        "cadres": {
-          "display_format": "**Key players**: _cadres_",
-          "explanation": "Important or experienced players.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The**: _la_",
-          "explanation": "Definite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France**: _France_",
-          "explanation": "A country in Western Europe.",
-          "cultural_note": ""
-        },
-        "mise": {
-          "display_format": "**Bets**: _mise_",
-          "explanation": "To bet or rely on something.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On**: _sur_",
-          "explanation": "Indicates reliance or focus.",
-          "cultural_note": ""
-        },
-        "sa": {
-          "display_format": "**Its**: _sa_",
-          "explanation": "Possessive adjective for 'its'.",
-          "cultural_note": ""
-        },
-        "jeunesse": {
-          "display_format": "**Youth**: _jeunesse_",
-          "explanation": "Young people or the state of being young.",
-          "cultural_note": ""
-        },
-        "pour": {
-          "display_format": "**For**: _pour_",
-          "explanation": "Indicates purpose or destination.",
-          "cultural_note": ""
-        },
-        "l’": {
-          "display_format": "**The**: _l’_",
-          "explanation": "Definite article before a vowel.",
-          "cultural_note": ""
-        },
-        "Euro": {
-          "display_format": "**EuroBasket**: _Euro_",
-          "explanation": "European basketball championship.",
-          "cultural_note": "Major international basketball tournament."
-        },
-        "masculin": {
-          "display_format": "**Men's**: _masculin_",
-          "explanation": "Relating to male gender.",
-          "cultural_note": ""
-        },
-        "basket": {
-          "display_format": "**Basketball**: _basket_",
-          "explanation": "A team sport played with a ball and basket.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T12:35:22",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Montants sans précédent dans l'assurance vie, \"cap symbolique\" de 100 milliards dans l'épargne retraite... Jusqu'où les Français épargneront-ils?",
-      "original_article_link": "https://www.bfmtv.com/economie/patrimoine/placements-epargne/montants-sans-precedent-dans-l-assurance-vie-cap-symbolique-de-100-milliards-dans-l-epargne-retraite-jusqu-ou-les-francais-epargneront-ils_AD-202506270420.html",
-      "original_article_published_date": "2025-06-27T11:23:36",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Les Français épargnent plus que jamais",
-      "simplified_english_title": "French people are saving more than ever",
-      "french_summary": "Les Français atteignent des montants records dans l'assurance vie et l'épargne retraite, montrant une forte tendance à épargner.",
-      "english_summary": "The French reach record amounts in life insurance and retirement savings, showing a strong trend to save.",
-      "contextual_title_explanations": {
-        "Montants": {
-          "display_format": "**Amounts:** _Montants_",
-          "explanation": "The sums of money involved.",
-          "cultural_note": ""
-        },
-        "sans": {
-          "display_format": "**Without:** _sans_",
-          "explanation": "Not having or including something.",
-          "cultural_note": ""
-        },
-        "précédent": {
-          "display_format": "**Precedent:** _précédent_",
-          "explanation": "Something that happened before.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In:** _dans_",
-          "explanation": "Inside or during something.",
-          "cultural_note": ""
-        },
-        "l'assurance": {
-          "display_format": "**Insurance:** _l'assurance_",
-          "explanation": "A contract to protect against financial loss.",
-          "cultural_note": ""
-        },
-        "vie": {
-          "display_format": "**Life:** _vie_",
-          "explanation": "The state of being alive.",
-          "cultural_note": ""
-        },
-        ",": {
-          "display_format": "**Comma:** _,_",
-          "explanation": "A punctuation mark indicating a pause.",
-          "cultural_note": ""
-        },
-        "«": {
-          "display_format": "**Quotation mark:** _«_",
-          "explanation": "A punctuation mark used to indicate speech or a quote.",
-          "cultural_note": "French uses « » as quotation marks."
-        },
-        "symbolique": {
-          "display_format": "**Symbolic:** _symbolique_",
-          "explanation": "Serving as a symbol.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of/From:** _de_",
-          "explanation": "Indicates possession or origin.",
-          "cultural_note": ""
-        },
-        "100": {
-          "display_format": "**One hundred:** _100_",
-          "explanation": "The number 100.",
-          "cultural_note": ""
-        },
-        "milliards": {
-          "display_format": "**Billions:** _milliards_",
-          "explanation": "One thousand millions.",
-          "cultural_note": ""
-        },
-        "l'épargne": {
-          "display_format": "**Savings:** _l'épargne_",
-          "explanation": "Money saved for future use.",
-          "cultural_note": ""
-        },
-        "retraite": {
-          "display_format": "**Retirement:** _retraite_",
-          "explanation": "The period after stopping work.",
-          "cultural_note": ""
-        },
-        "...": {
-          "display_format": "**Ellipsis:** _..._",
-          "explanation": "Indicates an omission or pause.",
-          "cultural_note": ""
-        },
-        "Jusqu'où": {
-          "display_format": "**To what extent:** _Jusqu'où_",
-          "explanation": "Asks about the limit or extent of something.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** _les_",
-          "explanation": "Definite article for plural nouns.",
-          "cultural_note": ""
-        },
-        "épargneront": {
-          "display_format": "**Will save:** _épargneront_",
-          "explanation": "Future tense of saving money.",
-          "cultural_note": ""
-        },
-        "ils": {
-          "display_format": "**They:** _ils_",
-          "explanation": "Third person plural masculine pronoun.",
-          "cultural_note": ""
-        },
-        "?": {
-          "display_format": "**Question mark:** _?_",
-          "explanation": "A punctuation mark indicating a question.",
-          "cultural_note": ""
-        },
-        ".": {
-          "display_format": "**Period:** _._",
-          "explanation": "A punctuation mark indicating the end of a sentence.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T12:10:48",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Alerte canicule dans le Sud-Est : risques « sévères » d’incendies, des massifs forestiers fermés",
-      "original_article_link": "https://www.leparisien.fr/meteo/alerte-canicule-dans-le-sud-est-risques-severes-dincendies-des-massifs-forestiers-fermes-27-06-2025-S2XTD2GZ6ZCJBAGYY5KQEZV6DI.php",
-      "original_article_published_date": "2025-06-27T11:16:58.338380",
-      "source_name": "Le Parisien",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron annonce de nouvelles mesures sociales",
-      "simplified_english_title": "Macron announces new social measures",
-      "french_summary": "Emmanuel Macron a présenté un plan pour aider les familles modestes, avec des allocations supplémentaires et des réductions d'impôts.",
-      "english_summary": "Emmanuel Macron unveiled a plan to support low-income families, including additional benefits and tax cuts.",
-      "contextual_title_explanations": {
-        "grève": {
-          "display_format": "**Strike:** grève",
-          "explanation": "Workers stop working to protest or demand changes.",
-          "cultural_note": "Common in France, often related to labor rights or government policies."
-        },
-        "générale": {
-          "display_format": "**General:** générale",
-          "explanation": "Involving or affecting all or most people, places, or things.",
-          "cultural_note": ""
-        },
-        "SNCF": {
-          "display_format": "**Railway company:** SNCF",
-          "explanation": "French national railway company.",
-          "cultural_note": "Manages most of France's rail traffic and infrastructure."
-        },
-        "RATP": {
-          "display_format": "**Transport company:** RATP",
-          "explanation": "Public transport operator in Paris.",
-          "cultural_note": "Manages metro, bus, and tram networks in Paris region."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T11:16:58",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "\"On tranchera s'ils considèrent que ce n'est plus leur heure\": Bayrou répond à la CFDT qui ne veut plus négocier sur les retraites",
-      "original_article_link": "https://www.bfmtv.com/economie/economie-social/on-tranchera-s-ils-considerent-que-ce-n-est-plus-leur-heure-bayrou-repond-a-la-cfdt-qui-ne-veut-plus-negocier-sur-les-retraites_AD-202506270417.html",
-      "original_article_published_date": "2025-06-27T11:15:26",
-      "source_name": "BFM TV",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Bayrou répond à la CFDT sur les retraites",
-      "simplified_english_title": "Bayrou responds to CFDT on pensions",
-      "french_summary": "Bayrou a répondu à la CFDT qui ne veut plus négocier sur les retraites, disant qu'ils décideront s'ils pensent que ce n'est plus le bon moment.",
-      "english_summary": "Bayrou responded to the CFDT, which no longer wants to negotiate on pensions, saying they will decide if they think it's no longer the right time.",
-      "contextual_title_explanations": {
-        "On": {
-          "display_format": "**We**: On",
-          "explanation": "Indefinite pronoun meaning 'we' or 'one'.",
-          "cultural_note": "Often used in French to mean 'we' in a general sense."
-        },
-        "tranchera": {
-          "display_format": "**Will decide**: tranchera",
-          "explanation": "Future tense of 'trancher,' meaning to decide or settle.",
-          "cultural_note": ""
-        },
-        "s&#39;ils": {
-          "display_format": "**If they**: s'ils",
-          "explanation": "Contraction of 'si ils,' meaning 'if they.'",
-          "cultural_note": ""
-        },
-        "considèrent": {
-          "display_format": "**Consider**: considèrent",
-          "explanation": "Verb meaning to consider or believe.",
-          "cultural_note": ""
-        },
-        "que": {
-          "display_format": "**That**: que",
-          "explanation": "Conjunction used to introduce a clause.",
-          "cultural_note": ""
-        },
-        "ce": {
-          "display_format": "**This**: ce",
-          "explanation": "Demonstrative pronoun meaning 'this' or 'it.'",
-          "cultural_note": ""
-        },
-        "n&#39;est": {
-          "display_format": "**Is not**: n'est",
-          "explanation": "Contraction of 'ne est,' meaning 'is not.'",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**No longer**: plus",
-          "explanation": "Adverb meaning 'no longer' or 'not anymore.'",
-          "cultural_note": ""
-        },
-        "leur": {
-          "display_format": "**Their**: leur",
-          "explanation": "Possessive adjective meaning 'their.'",
-          "cultural_note": ""
-        },
-        "heure": {
-          "display_format": "**Time**: heure",
-          "explanation": "Noun meaning 'time' or 'hour.'",
-          "cultural_note": "Can refer to a specific moment or time in general."
-        },
-        "&#34;": {
-          "display_format": "**Quotation mark**: \"",
-          "explanation": "Punctuation mark used to indicate speech or a quote.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**Colon**: :",
-          "explanation": "Punctuation mark used to introduce a quote or list.",
-          "cultural_note": ""
-        },
-        "Bayrou": {
-          "display_format": "**Bayrou**: Bayrou",
-          "explanation": "François Bayrou, a French politician.",
-          "cultural_note": "Leader of the Democratic Movement party in France."
-        },
-        "répond": {
-          "display_format": "**Responds**: répond",
-          "explanation": "Verb meaning to respond or answer.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**To**: à",
-          "explanation": "Preposition meaning 'to' or 'at.'",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The**: la",
-          "explanation": "Definite article meaning 'the.'",
-          "cultural_note": ""
-        },
-        "CFDT": {
-          "display_format": "**CFDT**: CFDT",
-          "explanation": "French Democratic Confederation of Labour.",
-          "cultural_note": "A major French trade union."
-        },
-        "qui": {
-          "display_format": "**Who**: qui",
-          "explanation": "Relative pronoun meaning 'who' or 'which.'",
-          "cultural_note": ""
-        },
-        "ne": {
-          "display_format": "**Not**: ne",
-          "explanation": "Negative particle used with 'pas' to form negation.",
-          "cultural_note": ""
-        },
-        "veut": {
-          "display_format": "**Wants**: veut",
-          "explanation": "Verb meaning to want.",
-          "cultural_note": ""
-        },
-        "négocier": {
-          "display_format": "**Negotiate**: négocier",
-          "explanation": "Verb meaning to negotiate.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**On**: sur",
-          "explanation": "Preposition meaning 'on' or 'about.'",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The**: les",
-          "explanation": "Definite article meaning 'the.'",
-          "cultural_note": ""
-        },
-        "retraites": {
-          "display_format": "**Pensions**: retraites",
-          "explanation": "Noun meaning 'pensions' or 'retirements.'",
-          "cultural_note": "Refers to the French pension system, a major political topic."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T15:20:12",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "En Allemagne, le salaire minimum mensuel va passer à 2 500 € brut en 2027",
-      "original_article_link": "https://www.lexpress.fr/economie/emploi/en-allemagne-le-salaire-minimum-mensuel-va-passer-a-2-500-brut-en-2027-7DFMUISQARBPDADMFHLL2UKGII/",
-      "original_article_published_date": "2025-06-27T11:14:08",
-      "source_name": "L'Express",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Macron veut reformer les retraites",
-      "simplified_english_title": "Macron wants to reform pensions",
-      "french_summary": "Le président Macron propose une réforme des retraites pour unifier le système. Les syndicats s'opposent à ce changement.",
-      "english_summary": "President Macron proposes a pension reform to unify the system. Unions oppose this change.",
-      "contextual_title_explanations": {
-        "grève": {
-          "display_format": "**Strike:** grève",
-          "explanation": "A work stoppage by employees to protest or demand changes.",
-          "cultural_note": "Strikes are common in France and often involve large protests."
-        },
-        "générale": {
-          "display_format": "**General:** générale",
-          "explanation": "Involving or affecting all or most people, places, or things.",
-          "cultural_note": ""
-        },
-        "SNCF": {
-          "display_format": "**Railway Company:** SNCF",
-          "explanation": "The national railway company of France.",
-          "cultural_note": "SNCF is known for frequent strikes and delays."
-        },
-        "RATP": {
-          "display_format": "**Transport Authority:** RATP",
-          "explanation": "The public transport authority in Paris.",
-          "cultural_note": "RATP manages the metro, buses, and trams in Paris."
-        },
-        "contre": {
-          "display_format": "**Against:** contre",
-          "explanation": "In opposition to something or someone.",
-          "cultural_note": ""
-        },
-        "la réforme": {
-          "display_format": "**Reform:** la réforme",
-          "explanation": "A change made to improve a system or law.",
-          "cultural_note": "Reforms in France often lead to public protests."
-        },
-        "des retraites": {
-          "display_format": "**Pensions:** des retraites",
-          "explanation": "Regular payments made to retired people.",
-          "cultural_note": "Pension reforms are a sensitive topic in France."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T11:16:58",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Un policier du Bas-Rhin écroué pour agression sexuelle incestueuse avec soumission chimique",
-      "original_article_link": "https://www.ouest-france.fr/societe/faits-divers/un-policier-du-bas-rhin-ecroue-pour-agression-sexuelle-incestueuse-avec-soumission-chimique-58ccfb86-5345-11f0-8818-73121256b37c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "original_article_published_date": "2025-06-27T11:10:25",
-      "source_name": "Ouest France",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Un policier arrêté pour agression sexuelle",
-      "simplified_english_title": "Police officer arrested for sexual assault",
-      "french_summary": "Un policier du Bas-Rhin a été arrêté pour agression sexuelle sur sa fille avec soumission chimique. Il est maintenant en prison.",
-      "english_summary": "A police officer from Bas-Rhin was arrested for sexually assaulting his daughter using chemicals. He is now in custody.",
-      "contextual_title_explanations": {
-        "Un": {
-          "display_format": "**A:** Un",
-          "explanation": "Indefinite article meaning 'a' or 'an'.",
-          "cultural_note": ""
-        },
-        "policier": {
-          "display_format": "**Police officer:** policier",
-          "explanation": "A member of the police force.",
-          "cultural_note": "In France, policers can be national or municipal."
-        },
-        "du": {
-          "display_format": "**Of the:** du",
-          "explanation": "Combined preposition and article meaning 'of the'.",
-          "cultural_note": ""
-        },
-        "Bas": {
-          "display_format": "**Lower:** Bas",
-          "explanation": "Meaning 'lower' or 'low'.",
-          "cultural_note": "Often used in geographical names."
-        },
-        "Rhin": {
-          "display_format": "**Rhine:** Rhin",
-          "explanation": "A major European river.",
-          "cultural_note": "The Rhine forms part of the border between France and Germany."
-        },
-        "pour": {
-          "display_format": "**For:** pour",
-          "explanation": "Preposition meaning 'for'.",
-          "cultural_note": ""
-        },
-        "agression": {
-          "display_format": "**Assault:** agression",
-          "explanation": "A violent attack.",
-          "cultural_note": ""
-        },
-        "sexuelle": {
-          "display_format": "**Sexual:** sexuelle",
-          "explanation": "Relating to sexual activity.",
-          "cultural_note": ""
-        },
-        "incestueuse": {
-          "display_format": "**Incestuous:** incestueuse",
-          "explanation": "Involving incest.",
-          "cultural_note": "Incest is a serious crime in France."
-        },
-        "avec": {
-          "display_format": "**With:** avec",
-          "explanation": "Preposition meaning 'with'.",
-          "cultural_note": ""
-        },
-        "soumission": {
-          "display_format": "**Submission:** soumission",
-          "explanation": "The action of accepting or yielding.",
-          "cultural_note": ""
-        },
-        "chimique": {
-          "display_format": "**Chemical:** chimique",
-          "explanation": "Relating to chemicals.",
-          "cultural_note": "Chemical submission often involves drugs."
-        },
-        "écroué": {
-          "display_format": "**Detained:** écroué",
-          "explanation": "Being held in custody.",
-          "cultural_note": "In France, this term is used for formal detention."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-28T01:26:39",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "Attentat antijuifs à Buenos Aires : plus de trois décennies d’ombres et de silence",
-      "original_article_link": "https://www.la-croix.com/international/attentat-antijuifs-a-buenos-aires-plus-de-trois-decennies-d-ombres-et-de-silence-20250627",
-      "original_article_published_date": "2025-06-27T11:08:32",
-      "source_name": "La Croix",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Attentat contre des Juifs à Buenos Aires",
-      "simplified_english_title": "Attack on Jews in Buenos Aires",
-      "french_summary": "Un attentat contre un centre juif à Buenos Aires reste non résolu après plus de 30 ans, laissant beaucoup de questions sans réponse.",
-      "english_summary": "An attack on a Jewish center in Buenos Aires remains unsolved after over 30 years, leaving many questions unanswered.",
-      "contextual_title_explanations": {
-        "Attentat": {
-          "display_format": "**Attack**: Attentat",
-          "explanation": "A violent act, often terrorist, aimed at causing harm.",
-          "cultural_note": "In French, often refers to terrorist attacks or bombings."
-        },
-        "antijuifs": {
-          "display_format": "**Anti-Jewish**: antijuifs",
-          "explanation": "Against Jewish people or related to antisemitism.",
-          "cultural_note": "Refers to acts or sentiments targeting Jewish communities."
-        },
-        "à": {
-          "display_format": "**In**: à",
-          "explanation": "Indicates a location or place.",
-          "cultural_note": ""
-        },
-        "Buenos": {
-          "display_format": "**Buenos**: Buenos",
-          "explanation": "Part of the name of the capital city of Argentina.",
-          "cultural_note": "Buenos Aires is a major city in South America with a significant Jewish community."
-        },
-        "Aires": {
-          "display_format": "**Aires**: Aires",
-          "explanation": "Second part of the name of the capital city of Argentina.",
-          "cultural_note": ""
-        },
-        "plus": {
-          "display_format": "**More**: plus",
-          "explanation": "Indicates an additional quantity or extent.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of**: de",
-          "explanation": "Indicates possession or association.",
-          "cultural_note": ""
-        },
-        "trois": {
-          "display_format": "**Three**: trois",
-          "explanation": "The number three.",
-          "cultural_note": ""
-        },
-        "décennies": {
-          "display_format": "**Decades**: décennies",
-          "explanation": "Periods of ten years.",
-          "cultural_note": "Refers to the long duration of time since the event."
-        },
-        "d": {
-          "display_format": "**Of**: d",
-          "explanation": "Combined form of 'de' used before a vowel sound.",
-          "cultural_note": ""
-        },
-        "ombres": {
-          "display_format": "**Shadows**: ombres",
-          "explanation": "Dark areas or lack of light, often metaphorical.",
-          "cultural_note": "Here, it suggests mystery or unresolved aspects of the event."
-        },
-        "et": {
-          "display_format": "**And**: et",
-          "explanation": "Connects two words or phrases.",
-          "cultural_note": ""
-        },
-        "silence": {
-          "display_format": "**Silence**: silence",
-          "explanation": "Lack of sound or communication.",
-          "cultural_note": "Implies a lack of resolution or justice in the context."
-        },
-        ":": {
-          "display_format": "**Colon**: :",
-          "explanation": "Introduces a list, quote, or explanation.",
-          "cultural_note": ""
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T14:39:42",
-      "processing_id": null,
-      "ai_enhanced": true,
-      "display_ready": true,
-      "backfill_attempts": 0
-    },
-    {
-      "schema_version": 2,
-      "id": null,
-      "original_article_title": "France : l'université d'Aix-Marseille accueille ses premiers chercheurs américains",
-      "original_article_link": "https://www.france24.com/fr/vid%C3%A9o/20250627-france-l-universit%C3%A9-d-aix-marseille-accueille-ses-premiers-chercheurs-am%C3%A9ricains",
-      "original_article_published_date": "2025-06-27T11:03:36",
-      "source_name": "France 24",
-      "quality_scores": {
-        "quality_score": 5.0,
-        "relevance_score": 5.0,
-        "importance_score": 5.0,
-        "total_score": 15.0
-      },
-      "difficulty": "B1",
-      "tone": "neutral",
-      "keywords": null,
-      "audio_url": null,
-      "simplified_french_title": "Des chercheurs américains arrivent à Aix-Marseille",
-      "simplified_english_title": "American researchers arrive in Aix-Marseille",
-      "french_summary": "L'université d'Aix-Marseille accueille ses premiers chercheurs américains pour renforcer la coopération scientifique entre la France et les États-Unis.",
-      "english_summary": "Aix-Marseille University welcomes its first American researchers to strengthen scientific cooperation between France and the United States.",
-      "contextual_title_explanations": {
-        "France": {
-          "display_format": "**Country:** France",
-          "explanation": "A country in Europe.",
-          "cultural_note": "Known for its rich history, culture, and influence in Europe."
-        },
-        ":": {
-          "display_format": "**Punctuation:** :",
-          "explanation": "Introduces additional information.",
-          "cultural_note": ""
-        },
-        "l’université": {
-          "display_format": "**University:** l’université",
-          "explanation": "A higher education institution.",
-          "cultural_note": "French universities are public and highly subsidized."
-        },
-        "d’Aix": {
-          "display_format": "**Of:** d’Aix",
-          "explanation": "Indicates origin or possession.",
-          "cultural_note": "Refers to Aix-en-Provence, a city in southern France."
-        },
-        "Marseille": {
-          "display_format": "**City:** Marseille",
-          "explanation": "A major port city in France.",
-          "cultural_note": "Second largest city in France, known for its cultural diversity."
-        },
-        "accueille": {
-          "display_format": "**Welcomes:** accueille",
-          "explanation": "To receive or welcome someone.",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**Its:** ses",
-          "explanation": "Possessive adjective meaning 'its'.",
-          "cultural_note": ""
-        },
-        "premiers": {
-          "display_format": "**First:** premiers",
-          "explanation": "Indicates the first in a series.",
-          "cultural_note": ""
-        },
-        "chercheurs": {
-          "display_format": "**Researchers:** chercheurs",
-          "explanation": "People who conduct research.",
-          "cultural_note": "Research is highly valued in French academic culture."
-        },
-        "américains": {
-          "display_format": "**American:** américains",
-          "explanation": "People from the United States.",
-          "cultural_note": "Refers to researchers coming from the United States."
-        }
-      },
-      "key_vocabulary": null,
-      "cultural_context": null,
-      "processed_at": "2025-06-27T14:39:42",
       "processing_id": null,
       "ai_enhanced": true,
       "display_ready": true,
