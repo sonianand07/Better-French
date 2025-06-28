@@ -52,11 +52,12 @@ jobs:
             git push
           fi
 
-      - name: Deploy to GitHub Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./ai_engine_v3/website
-          force_orphan: true
-          commit_message: 'chore(deploy): automatic website update' 
+      # DISABLED: V4 now handles all deployments
+      # - name: Deploy to GitHub Pages 🚀
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_branch: gh-pages
+      #     publish_dir: ./ai_engine_v3/website
+      #     force_orphan: true
+      #     commit_message: 'chore(deploy): automatic website update' 
