@@ -105,13 +105,27 @@ def _apply_fixes(article: Article, payload: dict) -> Article:
 # ---------------------------------------------------------------------------
 
 def main():
-    pending = [a for a in Storage.load_pending() if not getattr(a, "quality_checked", False)]
+    try:
+        all_pending = Storage.load_pending()
+        logger.info("📊 Loaded %d total articles from pending store", len(all_pending))
+    except Exception as e:
+        logger.error("Failed to load pending articles: %s", e)
+        sys.exit(1)
+        
+    pending = [a for a in all_pending if not getattr(a, "quality_checked", False)]
     if not pending:
         logger.info("No articles pending verification – all caught up.")
         return
 
     logger.info("🔍 %d articles need verification", len(pending))
-    llm = HighLLMClient()
+    
+    try:
+        llm = HighLLMClient()
+        logger.info("✅ Successfully initialized HighLLMClient")
+    except Exception as e:
+        logger.error("❌ Failed to initialize HighLLMClient: %s", e)
+        sys.exit(1)
+        
     verified: List[Article] = []
 
     for batch in _chunked(pending, BATCH_SIZE):
@@ -139,22 +153,34 @@ def main():
             verified.append(art)
 
     if not verified:
-        logger.info("0 articles could be verified – aborting save.")
-        return
+        logger.warning("⚠️  0 articles could be verified – aborting save.")
+        logger.warning("This could indicate API failures, JSON parsing errors, or other issues.")
+        sys.exit(1)  # Fail the process so CI knows something went wrong
 
+    logger.info("💾 Saving %d verified articles back to storage...", len(verified))
+    
     # Merge back into pending store
-    existing = Storage.load_pending()
-    merged: dict[str, Article] = {a.original_article_link: a for a in existing}
-    for upd in verified:
-        merged[upd.original_article_link] = upd
+    try:
+        existing = Storage.load_pending()
+        merged: dict[str, Article] = {a.original_article_link: a for a in existing}
+        for upd in verified:
+            merged[upd.original_article_link] = upd
 
-    Storage.save_pending(list(merged.values()))
+        Storage.save_pending(list(merged.values()))
+        logger.info("✅ Updated pending store with verified articles")
+    except Exception as e:
+        logger.error("❌ Failed to save verified articles: %s", e)
+        sys.exit(1)
+        
     # Also refresh rolling feed to ensure website sees updated explanations
     try:
-        Storage.save_rolling(Storage.load_rolling() + verified)
+        rolling = Storage.load_rolling()
+        Storage.save_rolling(rolling + verified)
+        logger.info("✅ Updated rolling feed with verified articles")
     except Exception as e:
         logger.warning("Could not update rolling feed: %s", e)
-    logger.info("✅ Successfully verified %d articles", len(verified))
+        
+    logger.info("🎉 Successfully verified %d articles", len(verified))
 
 
 if __name__ == "__main__":

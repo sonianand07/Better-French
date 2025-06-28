@@ -76,7 +76,14 @@ jobs:
 
       - name: Run high-tier verifier (v4)
         run: |
+          set -e  # Exit on any error
           PYTHONPATH="$GITHUB_WORKSPACE" python scripts/verify_news.py
+          # Verify that at least some articles were processed
+          if ! grep -q '"quality_checked": true' ai_engine_v4/data/live/pending_articles.json 2>/dev/null; then
+            echo "ERROR: No articles were verified! Verifier may have failed."
+            exit 1
+          fi
+          echo "✅ Verification completed successfully"
 
       - name: Commit & push data changes
         run: |
