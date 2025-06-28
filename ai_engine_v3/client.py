@@ -13,6 +13,10 @@ class LLMClient:
         self.base = api_base
         self.session = requests.Session()
         self.session.headers["Authorization"] = f"Bearer {self._get_api_key()}"
+        # Add proper identification headers
+        self.session.headers["HTTP-Referer"] = "https://github.com/sonianand07/Better-French"
+        self.session.headers["X-Title"] = "Better French - Educational Platform"
+        self.session.headers["User-Agent"] = "BetterFrench/1.0"
 
         # Store latest token usage dict from API responses so callers can
         # estimate costs.  Structure: {"prompt_tokens": int, "completion_tokens": int, ...}
