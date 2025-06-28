@@ -1,9 +1,9 @@
 name: Auto Update French News – v3
 
 on:
-  schedule:
-    - cron:  '0 * * * *'
-  workflow_dispatch:
+  # schedule:
+  #   - cron:  '0 * * * *'  # DISABLED - V4 now handles everything
+  workflow_dispatch:  # Keep manual trigger for testing
 
 # Allow this workflow to push commits back to the repository.
 permissions:

@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: better-french-v4-pipeline
+  cancel-in-progress: false  # Don't cancel running workflows
+
 jobs:
   publish:
     runs-on: ubuntu-latest
