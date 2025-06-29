@@ -57,30 +57,30 @@ jobs:
           
           scraper_data = json.loads(data_file.read_text('utf-8'))
           
-          # Find unprocessed articles
-          unprocessed_hours = []
+          # Find unprocessed runs
+          unprocessed_runs = []
           total_unprocessed_articles = 0
           
-          for hour_data in scraper_data["collected_articles"]:
-              if not hour_data.get("processed_by_website", False):
-                  unprocessed_hours.append(hour_data)
-                  total_unprocessed_articles += len(hour_data["articles"])
+          for run in scraper_data["scraper_runs"]:
+              if not run.get("processed_by_website", False):
+                  unprocessed_runs.append(run)
+                  total_unprocessed_articles += len(run["selected_articles"])
           
-          print(f"📊 Found {len(unprocessed_hours)} unprocessed hours")
+          print(f"📊 Found {len(unprocessed_runs)} unprocessed runs")
           print(f"📄 Total unprocessed articles: {total_unprocessed_articles}")
           
-          if len(unprocessed_hours) == 0:
+          if len(unprocessed_runs) == 0:
               print("✅ All articles are up to date - no processing needed")
               exit(0)
           
           if total_unprocessed_articles > 50:
-              print(f"⚠️ Too many articles ({total_unprocessed_articles}) - processing latest 3 hours only")
-              unprocessed_hours = unprocessed_hours[-3:]
-              total_unprocessed_articles = sum(len(h["articles"]) for h in unprocessed_hours)
+              print(f"⚠️ Too many articles ({total_unprocessed_articles}) - processing latest 3 runs only")
+              unprocessed_runs = unprocessed_runs[-3:]
+              total_unprocessed_articles = sum(len(r["selected_articles"]) for r in unprocessed_runs)
           
           # Save processing queue
           processing_queue = {
-              "hours_to_process": unprocessed_hours,
+              "runs_to_process": unprocessed_runs,
               "total_articles": total_unprocessed_articles,
               "processing_timestamp": "will_be_set_during_processing"
           }
@@ -88,7 +88,7 @@ jobs:
           queue_file = Path('ai_engine_v5/data/processing_queue.json')
           queue_file.write_text(json.dumps(processing_queue, indent=2))
           
-          print(f"🚀 Ready to process {total_unprocessed_articles} articles from {len(unprocessed_hours)} hours")
+          print(f"🚀 Ready to process {total_unprocessed_articles} articles from {len(unprocessed_runs)} runs")
           print(f"💾 Processing queue saved to: {queue_file}")
           PY
 
@@ -119,10 +119,10 @@ jobs:
               exit(0)
           
           queue_data = json.loads(queue_file.read_text('utf-8'))
-          hours_to_process = queue_data["hours_to_process"]
+          runs_to_process = queue_data["runs_to_process"]
           
-          if not hours_to_process:
-              print("📭 No hours to process")
+          if not runs_to_process:
+              print("📭 No runs to process")
               exit(0)
           
           # Add v5 to path for self-contained processing
@@ -130,21 +130,21 @@ jobs:
           
           try:
               # Import v5's website processor
-              from ai_engine_v5.core.processor.website_processor import WebsiteProcessor
+              from core.processor.website_processor import WebsiteProcessor
               
               processor = WebsiteProcessor()
               
-              # Process all hours in queue
+              # Process all runs in queue
               processed_articles = []
               total_cost = 0.0
               
-              for i, hour_data in enumerate(hours_to_process, 1):
-                  print(f"🔧 Processing hour {i}/{len(hours_to_process)}: {hour_data['hour']}")
-                  print(f"    📊 Sources scraped: {hour_data.get('sources_scraped', 'unknown')}")
-                  print(f"    📄 Candidates found: {hour_data.get('candidate_count', 'unknown')}")
+              for i, run_data in enumerate(runs_to_process, 1):
+                  print(f"🔧 Processing run {i}/{len(runs_to_process)}: {run_data['timestamp']}")
+                  print(f"    📊 Articles selected: {run_data.get('articles_selected', 'unknown')}")
+                  print(f"    🎯 Average V3 score: {run_data.get('quality_metrics', {}).get('avg_v3_score', 'unknown')}")
                   
-                  # Apply V3 + V4 enhancement to articles from this hour
-                  enhanced_articles, cost = processor.enhance_articles(hour_data["articles"])
+                  # Apply V3 + V4 enhancement to articles from this run
+                  enhanced_articles, cost = processor.enhance_articles(run_data["selected_articles"])
                   
                   processed_articles.extend(enhanced_articles)
                   total_cost += cost
@@ -158,14 +158,14 @@ jobs:
               print(f"💰 Total enhancement cost: ${total_cost:.3f}")
               print(f"🎯 Quality: V3+V4 pipeline applied to comprehensive sources")
               
-              # Update scraper data to mark hours as processed
+              # Update scraper data to mark runs as processed
               data_file = Path('ai_engine_v5/data/scraper_data.json')
               scraper_data = json.loads(data_file.read_text('utf-8'))
               
-              processed_hours = {h["hour"] for h in hours_to_process}
-              for hour_data in scraper_data["collected_articles"]:
-                  if hour_data["hour"] in processed_hours:
-                      hour_data["processed_by_website"] = True
+              processed_timestamps = {r["timestamp"] for r in runs_to_process}
+              for run_data in scraper_data["scraper_runs"]:
+                  if run_data["timestamp"] in processed_timestamps:
+                      run_data["processed_by_website"] = True
               
               data_file.write_text(json.dumps(scraper_data, indent=2, ensure_ascii=False))
               
@@ -177,14 +177,14 @@ jobs:
           except ImportError:
               print("⚠️ V5 website processor not yet implemented - using placeholder")
               
-              # Placeholder: just mark hours as processed
+              # Placeholder: just mark runs as processed
               data_file = Path('ai_engine_v5/data/scraper_data.json')
               scraper_data = json.loads(data_file.read_text('utf-8'))
               
-              processed_hours = {h["hour"] for h in hours_to_process}
-              for hour_data in scraper_data["collected_articles"]:
-                  if hour_data["hour"] in processed_hours:
-                      hour_data["processed_by_website"] = True
+              processed_timestamps = {r["timestamp"] for r in runs_to_process}
+              for run_data in scraper_data["scraper_runs"]:
+                  if run_data["timestamp"] in processed_timestamps:
+                      run_data["processed_by_website"] = True
               
               data_file.write_text(json.dumps(scraper_data, indent=2, ensure_ascii=False))
               
