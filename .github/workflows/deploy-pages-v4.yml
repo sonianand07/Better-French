@@ -52,49 +52,46 @@ jobs:
           rsync -a ai_engine_v3/data/ ai_engine_v4/data/
           rsync -a ai_engine_v3/website/ ai_engine_v4/website/
 
-      # V4 only processes NEW articles from this V3 run (time-limited)
-      - name: Prepare V4 enhancement queue
+      # V4 only processes articles V3 JUST published (cap at 20 max)
+      - name: Prepare V4 enhancement queue  
         run: |
           python - <<'PY'
           import json, pathlib, datetime
           
-          # Time filter: only process articles from this run (last 30 minutes)
-          now = datetime.datetime.utcnow()
-          run_start_threshold = (now - datetime.timedelta(minutes=30)).isoformat()
+          # Load V3's rolling articles to see what was JUST published
+          v3_rolling_path = pathlib.Path('ai_engine_v3/website/rolling_articles.json')
+          v3_articles = []
+          if v3_rolling_path.exists():
+              v3_data = json.loads(v3_rolling_path.read_text('utf-8'))
+              v3_articles = v3_data.get('articles', v3_data) if isinstance(v3_data, dict) else v3_data
           
           # Load existing V4 rolling articles (previously enhanced)
-          rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json')
+          v4_rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json') 
           existing_enhanced = []
           enhanced_links = set()
           
-          if rolling_path.exists():
+          if v4_rolling_path.exists():
               try:
-                  rolling_data = json.loads(rolling_path.read_text('utf-8'))
-                  existing_enhanced = rolling_data.get('articles', rolling_data) if isinstance(rolling_data, dict) else rolling_data
+                  v4_data = json.loads(v4_rolling_path.read_text('utf-8'))
+                  existing_enhanced = v4_data.get('articles', v4_data) if isinstance(v4_data, dict) else v4_data
                   enhanced_links = {a.get('original_article_link') for a in existing_enhanced if a.get('quality_checked')}
                   print(f"📚 Found {len(existing_enhanced)} existing V4-enhanced articles")
               except Exception as e:
                   print(f"⚠️ Could not load existing enhanced articles: {e}")
           
-          # Load current pending articles from V3
+          # Find articles that need V4 enhancement (in V3 but not quality-checked in V4)
+          articles_needing_enhancement = [
+              a for a in v3_articles[-20:]  # Only check last 20 from V3 (recent ones)
+              if a.get('ai_enhanced', False) and 
+                 a.get('original_article_link') not in enhanced_links
+          ]
+          
+          print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} articles from V3's recent batch")
+          print(f"📊 Total V4 collection will be: {len(existing_enhanced) + len(articles_needing_enhancement)} articles")
+          
+          # Save only the articles that need enhancement
           pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
-          if pending_path.exists():
-              data = json.loads(pending_path.read_text('utf-8'))
-              all_articles = data.get('articles', data) if isinstance(data, dict) else data
-              
-              # CRITICAL: Only enhance articles from THIS run (recent + not already enhanced)
-              articles_needing_enhancement = [
-                  a for a in all_articles 
-                  if (a.get('processed_at', '') >= run_start_threshold or a.get('ai_enhanced', False)) and
-                     a.get('original_article_link') not in enhanced_links
-              ]
-              
-              pending_path.write_text(json.dumps({'articles': articles_needing_enhancement}, ensure_ascii=False, indent=2))
-              print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} NEW articles from this run")
-              print(f"🕐 Filtering since: {run_start_threshold}")
-              print(f"📊 Total V4 collection will be: {len(existing_enhanced) + len(articles_needing_enhancement)} articles")
-          else:
-              print("📭 No pending articles found")
+          pending_path.write_text(json.dumps({'articles': articles_needing_enhancement}, ensure_ascii=False, indent=2))
           PY
 
       - name: Test API key before processing
