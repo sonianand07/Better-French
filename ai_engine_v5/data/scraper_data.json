@@ -200,7 +200,207 @@
         "threshold_used": 10.0
       },
       "processed_by_website": true
+    },
+    {
+      "timestamp": "2025-06-29T13:19:43.909769",
+      "duration_seconds": 2.807082,
+      "articles_collected": 150,
+      "articles_selected": 10,
+      "selected_articles": [
+        {
+          "title": "Économies : le budget de l'Éducation et de la Recherche \"sera préservé\", assure Élisabeth Borne",
+          "link": "https://www.marianne.net/societe/education/economies-le-budget-de-l-education-et-de-la-recherche-sera-preserve-assure-elisabeth-borne#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
+          "summary": "« L'Éducation nationale, c'est une priorité. Avec l'Éducation nationale, l'Enseignement supérieur et la Recherche, on prépare l'avenir », a assuré Élisabeth Borne. Le gouvernement veut trouver 40 milliards d'euros d'économies dans son prochain projet de budget.",
+          "published": "Sun, 29 Jun 2025 13:00:38 CEST",
+          "source": "Marianne",
+          "hash_id": "e1a9e3e058eb",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 4,
+          "newsworthiness_score": 6.36,
+          "total_score": 19.887999999999998
+        },
+        {
+          "title": "Togo : troisième jour de manifestations, forte répression policière",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20250629-togo-troisi%C3%A8me-jour-de-manifestations-forte-r%C3%A9pression-polici%C3%A8re",
+          "summary": "Les manifestations sont rares au Togo ces dernières années, mais il s'agit du deuxième appel de la société civile et d'influenceurs à descendre dans la rue ce mois-ci.\n \nIls protestent contre des arrestations de voix critiques, la hausse du prix de l'électricité ou encore la réforme constitutionnelle qui permet à Faure Gnassingbé, 59 ans, de consolider son pouvoir.",
+          "published": "Sun, 29 Jun 2025 13:01:44 GMT",
+          "source": "France 24",
+          "hash_id": "2e743e914f18",
+          "raw_content": "",
+          "relevance_score": 7.0,
+          "practical_score": 6,
+          "newsworthiness_score": 6.58,
+          "total_score": 19.664
+        },
+        {
+          "title": "Salons de jardin en soldes chez Maisons du Monde : voici 3 modèles à prix serré",
+          "link": "https://www.lefigaro.fr/bons-plans/soldes/salons-de-jardin-en-soldes-chez-maisons-du-monde-voici-3-modeles-a-prix-serre-20250629",
+          "summary": "Maisons du Monde vous gâte pendant les soldes, avec des offres allant jusqu’à -60 % sur les salons de jardin. Vous allez peut-être trouver votre bonheur parmi cette sélection, qui met à l’honneur les modèles Trevi, Outsunny et Murcia.",
+          "published": "Sun, 29 Jun 2025 12:42:00 +0200",
+          "source": "Le Figaro",
+          "hash_id": "135b6d359ea3",
+          "raw_content": "",
+          "relevance_score": 7.0,
+          "practical_score": 6,
+          "newsworthiness_score": 6.39,
+          "total_score": 19.512
+        },
+        {
+          "title": "Super prix des soldes pour ce laptop Acer de 14″ avec écran OLED, propulsé par IA",
+          "link": "https://www.frandroid.com/bons-plans/2710749_super-prix-des-soldes-pour-ce-laptop-acer-de-14-avec-ecran-oled-propulse-par-ia",
+          "summary": "<div class=\"chapo has-text-weight-semibold mb-5\">\n<div>À la recherche d'un Ultrabook compact, intelligent, bien fini et qui ne coûte pas un bras ? Bingo. L’Acer Aspire 14 AI est boosté à l'Intel Core Ultra 5, embarque Copilot+, et profite déjà d’une belle promo pour les soldes d’été. Un 14 pouces OLED, 16 Go de RAM, 512 Go de SSD. Darty lance l'offensive pour les soldes, le laptop passe 799,99 euros à 699 euros.</div>\n</div>",
+          "published": "Sun, 29 Jun 2025 09:28:00 +0000",
+          "source": "Frandroid",
+          "hash_id": "1998fb299bf1",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 3,
+          "newsworthiness_score": 6.72,
+          "total_score": 19.176
+        },
+        {
+          "title": "Reconnaissance faciale en direct : la police américaine utilise un outil très controversé",
+          "link": "https://www.01net.com/actualites/reconnaissance-faciale-en-direct-la-police-americaine-utilise-un-outil-tres-controverse.html",
+          "summary": "<img alt=\"Reconnaissance Faciale\" class=\"attachment-full size-full wp-post-image\" height=\"1280\" src=\"https://www.01net.com/app/uploads/2025/06/Reconnaissance-faciale-.jpg\" width=\"1920\" /><br /><br />Les agents de la police de l'immigration et des douanes utilisent, outre Atlantique, un nouvel outil permettant d'identifier une personne en photographiant simplement son visage avec un smartphone. La prise déclenche une comparaison quasi instantanée avec des bases de données gouvernementales.",
+          "published": "Sat, 28 Jun 2025 08:01:25 +0000",
+          "source": "01net",
+          "hash_id": "341bffa06f7d",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 3,
+          "newsworthiness_score": 6.52,
+          "total_score": 19.016
+        },
+        {
+          "title": "Arnaque au volant : la préfecture de police de Paris appelle à la vigilance",
+          "link": "https://www.capital.fr/auto/arnaque-au-volant-la-prefecture-de-police-de-paris-appelle-a-la-vigilance-1515530",
+          "summary": "<p>Des SMS ou mails prétendant venir d’Ulys réclament le paiement urgent d’un péage. La préfecture de police de Paris alerte : il s’agit d’une arnaque visant à dérober vos données bancaires. Les escrocs profitent des nouveaux péages sans barrière.</p>",
+          "published": "Sat, 28 Jun 2025 20:06:08 GMT",
+          "source": "Capital",
+          "hash_id": "441379cff311",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 3,
+          "newsworthiness_score": 6.39,
+          "total_score": 18.912
+        },
+        {
+          "title": "Six fois moins payé à France Télé qu'à TF1 : à combien renoncent les patrons du secteur public ?",
+          "link": "https://www.marianne.net/economie/six-fois-moins-paye-a-france-tele-qu-a-tf1-a-combien-renoncent-les-patrons-du-secteur-public#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
+          "summary": "Payées 450 000 euros maximum depuis un décret de 2012, les têtes d’affiche du secteur public passeraient presque pour de pauvres hères comparées à leurs homologues du privé, cotés en Bourse. La preuve en chiffres.",
+          "published": "Sun, 29 Jun 2025 09:00:00 CEST",
+          "source": "Marianne",
+          "hash_id": "fd1ae92dad64",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 3,
+          "newsworthiness_score": 6.35,
+          "total_score": 18.88
+        },
+        {
+          "title": "Les débrideurs : comment des petits programmes facilitent le piratage",
+          "link": "https://www.numerama.com/cyberguerre/1996295-les-debrideurs-comment-ces-petits-programmes-facilitent-le-piratage.html",
+          "summary": "Pour faciliter le téléchargement pirate de films et de séries, il y a les débrideurs. Ces programmes permettent d'avoir des débits plus élevés dans les téléchargements peer-to-peer et directs à des prix attractifs.",
+          "published": "Sat, 28 Jun 2025 14:50:00 +0000",
+          "source": "Numerama",
+          "hash_id": "fa15969c0894",
+          "raw_content": "",
+          "relevance_score": 9.0,
+          "practical_score": 3,
+          "newsworthiness_score": 6.33,
+          "total_score": 18.863999999999997
+        },
+        {
+          "title": "La brasserie Rabourdin, fabricant des bières Monoprix, espère des jours meilleurs pour le marché de la bière",
+          "link": "http://www.usinenouvelle.com/article/la-brasserie-rabourdin-fabricant-des-bieres-monoprix-espere-des-jours-meilleurs-pour-le-marche-de-la-biere.N2234066",
+          "summary": "Cr&eacute;&eacute;e en 2001 au c&oelig;ur d'une exploitation agricole, la brasserie Rabourdin a su profiter de l&rsquo;essor de la bi&egrave;re dans les ann&eacute;es 2010 et s&rsquo;imposer dans les rayons, en profitant notamment d&rsquo;un partenariat avec Monoprix. Mais le plus dur est peut-&ecirc;tre &agrave; venir avec la crise du march&eacute; depuis deux ans. Un projet de&nbsp;[&hellip;]&nbsp;<a href=\"http://www.usinenouvelle.com/article/la-brasserie-rabourdin-fabricant-des-bieres-monoprix-espere-des-jours-meilleurs-pour-le-marche-de-la-biere.N2234066\">Lire l'article</a>",
+          "published": "Sun, 29 Jun 2025 09:30:00 +0200",
+          "source": "L'Usine Nouvelle",
+          "hash_id": "58d6e6903610",
+          "raw_content": "",
+          "relevance_score": 7.0,
+          "practical_score": 5,
+          "newsworthiness_score": 6.5600000000000005,
+          "total_score": 18.648000000000003
+        },
+        {
+          "title": "Test du Meta Quest 3S : les bons choix pour le bon prix",
+          "link": "https://www.frandroid.com/marques/meta/2648027_test-du-meta-quest-3s-les-bons-choix-pour-le-bon-prix",
+          "summary": "<div class=\"chapo has-text-weight-semibold mb-5\">\n<div>Quand le Meta Quest 3 se permet d'augmenter le prix, le Meta Quest 3S reste plus accessible tout en offrant la même puissance théorique. Mais que perd-on au change ? Réponse dans notre test.</div>\n</div>",
+          "published": "Sun, 29 Jun 2025 12:01:00 +0000",
+          "source": "Frandroid",
+          "hash_id": "cee145dd3d66",
+          "raw_content": "",
+          "relevance_score": 7.0,
+          "practical_score": 5,
+          "newsworthiness_score": 6.39,
+          "total_score": 18.512
+        }
+      ],
+      "profile_used": {
+        "user_id": "my_profile",
+        "native_lang": "hi",
+        "french_level": "B1",
+        "lives_in": "Paris",
+        "work_domains": [
+          "photography",
+          "software",
+          "digital transformation"
+        ],
+        "pain_points": [
+          "CAF",
+          "impôts",
+          "logement",
+          "SNCF"
+        ],
+        "interests": [
+          "culture",
+          "tech events"
+        ]
+      },
+      "sources_scraped": [
+        "Le Monde",
+        "Le Figaro",
+        "Libération",
+        "France Info",
+        "BFM TV",
+        "France 24",
+        "RFI",
+        "LCI",
+        "Europe 1",
+        "RTL",
+        "Les Échos",
+        "La Tribune",
+        "L'Usine Nouvelle",
+        "Challenges",
+        "Capital",
+        "Ouest-France",
+        "La Voix du Nord",
+        "Sud Ouest",
+        "Le Progrès",
+        "Nice-Matin",
+        "01net",
+        "Numerama",
+        "ZDNet France",
+        "Frandroid",
+        "Marianne",
+        "L'Obs",
+        "Télérama",
+        "Rue89",
+        "Service-public.fr",
+        "Vie Publique",
+        "Gouvernement.fr"
+      ],
+      "v3_scoring_applied": true,
+      "selection_method": "V3 proven system + LLM diversity",
+      "quality_metrics": {
+        "avg_v3_score": 19.1072,
+        "min_v3_score": 18.512,
+        "max_v3_score": 19.887999999999998,
+        "threshold_used": 10.0
+      }
     }
   ],
-  "total_runs": 1
+  "total_runs": 2
 }
