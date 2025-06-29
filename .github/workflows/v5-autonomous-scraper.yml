@@ -1,0 +1,150 @@
+name: V5 - Rony Autonomous Scraper
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:    # Manual trigger for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v5-rony-scraper
+  cancel-in-progress: false
+
+jobs:
+  rony_scraper:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install aiohttp feedparser
+
+      - name: 🤖 Run Rony - Autonomous Scraper
+        env:
+          OPENROUTER_SCRAPER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import asyncio
+          import json
+          import os
+          import sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+          
+          # Add V5 to path
+          sys.path.insert(0, str(Path.cwd() / 'ai_engine_v5'))
+          
+          async def run_rony():
+              print("🤖 RONY - V5 AUTONOMOUS SCRAPER")
+              print("=" * 40)
+              
+              # Check API key
+              api_key = os.getenv('OPENROUTER_SCRAPER_API_KEY')
+              if not api_key:
+                  print("❌ OPENROUTER_SCRAPER_API_KEY not configured!")
+                  print("   Go to GitHub repo → Settings → Secrets → Actions")
+                  print("   Add: OPENROUTER_SCRAPER_API_KEY = sk-or-v1-818...")
+                  return False
+              
+              print("🔐 Rony's protected API key: ✅ CONFIGURED")
+              
+              # Load current profile (your profile)
+              profile_data = {
+                  "user_id": "my_profile",
+                  "native_lang": "hi", 
+                  "french_level": "B1",
+                  "lives_in": "Paris",
+                  "work_domains": ["photography", "software", "digital transformation"],
+                  "pain_points": ["CAF", "impôts", "logement", "SNCF"],
+                  "interests": ["culture", "tech events"]
+              }
+              
+              print(f"👤 Profile: {profile_data['user_id']} ({profile_data['french_level']}, {profile_data['lives_in']})")
+              
+              try:
+                  from core.scraper.autonomous_scraper import run_autonomous_scraper
+                  
+                  # Run Rony's autonomous cycle
+                  result = await run_autonomous_scraper(api_key, profile_data)
+                  
+                  print(f"📊 Rony Results:")
+                  print(f"   • Articles collected: {result['articles_collected']}")
+                  print(f"   • Articles selected: {result['articles_selected']}")
+                  print(f"   • Duration: {result.get('duration_seconds', 0):.1f}s")
+                  print(f"   • Sources scraped: {len(result['sources_scraped'])}")
+                  
+                  # Save results to V5 data file
+                  data_dir = Path('ai_engine_v5/data')
+                  data_dir.mkdir(parents=True, exist_ok=True)
+                  
+                  # Single file approach - scraper_data.json
+                  data_file = data_dir / 'scraper_data.json'
+                  
+                  # Load existing data or create new
+                  if data_file.exists():
+                      scraper_data = json.loads(data_file.read_text())
+                  else:
+                      scraper_data = {
+                          "scraper_runs": [],
+                          "total_runs": 0
+                      }
+                  
+                  # Add this run
+                  scraper_data["scraper_runs"].append(result)
+                  scraper_data["total_runs"] += 1
+                  
+                  # Keep only last 48 runs (48 hours)
+                  if len(scraper_data["scraper_runs"]) > 48:
+                      scraper_data["scraper_runs"] = scraper_data["scraper_runs"][-48:]
+                  
+                  # Save updated data
+                  data_file.write_text(json.dumps(scraper_data, indent=2, ensure_ascii=False))
+                  
+                  print(f"💾 Data saved to: {data_file}")
+                  print(f"🎉 Rony completed run #{scraper_data['total_runs']}")
+                  
+                  return True
+                  
+              except Exception as e:
+                  print(f"❌ Rony failed: {e}")
+                  import traceback
+                  traceback.print_exc()
+                  return False
+          
+          # Run the async function
+          success = asyncio.run(run_rony())
+          sys.exit(0 if success else 1)
+          EOF
+
+      - name: 💾 Commit Rony's data
+        run: |
+          git config --global user.email "rony@betterfrench.io"
+          git config --global user.name "Rony-V5-AutonomousScraper"
+          git config --global core.hooksPath /dev/null
+          
+          git add ai_engine_v5/data/ || true
+          
+          if ! git diff --cached --quiet; then
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "🤖 Rony autonomous scrape: ${TIMESTAMP}
+
+            - Profile-aware article selection
+            - 31 comprehensive French news sources
+            - Protected API key prevents dev interference
+            - Ready for V5 website processor" --no-verify
+            
+            git push
+            echo "✅ Rony's data committed successfully"
+          else
+            echo "ℹ️ No new data from Rony to commit"
+          fi 
