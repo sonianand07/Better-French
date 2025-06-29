@@ -1,9 +1,9 @@
 name: V5 - Website Processor
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes (after Rony)
-  workflow_dispatch:       # Manual trigger
+  # schedule:
+  #   - cron: '*/30 * * * *'  # Every 30 minutes (DISABLED for development)
+  workflow_dispatch:       # Manual trigger only
 
 permissions:
   contents: write
