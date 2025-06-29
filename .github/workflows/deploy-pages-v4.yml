@@ -52,31 +52,43 @@ jobs:
           rsync -a ai_engine_v3/data/ ai_engine_v4/data/
           rsync -a ai_engine_v3/website/ ai_engine_v4/website/
 
-      # V4 processes ONLY the articles that V3 just processed in this run
-      - name: Identify V3's new articles from this run
+      # V4 accumulates enhanced articles over time (like V3 does)
+      - name: Prepare V4 enhancement queue
         run: |
           python - <<'PY'
           import json, pathlib, datetime
           
-          # Find articles that V3 just processed (from this run)
-          # These are articles with recent processed_at timestamp
-          now = datetime.datetime.utcnow()
-          run_start_threshold = (now - datetime.timedelta(minutes=30)).isoformat()
+          # Load existing V4 rolling articles (previously enhanced)
+          rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json')
+          existing_enhanced = []
+          enhanced_links = set()
           
+          if rolling_path.exists():
+              try:
+                  rolling_data = json.loads(rolling_path.read_text('utf-8'))
+                  existing_enhanced = rolling_data.get('articles', rolling_data) if isinstance(rolling_data, dict) else rolling_data
+                  enhanced_links = {a.get('original_article_link') for a in existing_enhanced if a.get('quality_checked')}
+                  print(f"📚 Found {len(existing_enhanced)} existing V4-enhanced articles")
+              except Exception as e:
+                  print(f"⚠️ Could not load existing enhanced articles: {e}")
+          
+          # Load current pending articles from V3
           pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
           if pending_path.exists():
               data = json.loads(pending_path.read_text('utf-8'))
-              articles = data.get('articles', data)
+              all_articles = data.get('articles', data) if isinstance(data, dict) else data
               
-              # Filter to only articles V3 processed in this run (last 30 minutes)
-              new_articles = [
-                  a for a in articles 
-                  if a.get('processed_at', '') >= run_start_threshold
+              # Only enhance articles that haven't been quality_checked yet
+              articles_needing_enhancement = [
+                  a for a in all_articles 
+                  if not a.get('quality_checked', False) and a.get('original_article_link') not in enhanced_links
               ]
               
-              pending_path.write_text(json.dumps({'articles': new_articles}, ensure_ascii=False, indent=2))
-              print(f"✅ V4 will process {len(new_articles)} articles that V3 just processed")
-              print(f"   (Articles processed since: {run_start_threshold})")
+              pending_path.write_text(json.dumps({'articles': articles_needing_enhancement}, ensure_ascii=False, indent=2))
+              print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} new articles")
+              print(f"📊 Total V4 collection will be: {len(existing_enhanced) + len(articles_needing_enhancement)} articles")
+          else:
+              print("📭 No pending articles found")
           PY
 
       - name: Test API key before processing
