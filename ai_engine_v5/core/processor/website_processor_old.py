@@ -6,6 +6,7 @@ PRESERVES V3+V4 quality without fragile imports.
 import json
 import requests
 import os
+import sys
 from typing import List, Dict, Any, Tuple
 from datetime import datetime, timezone
 from pathlib import Path
@@ -279,7 +280,16 @@ IMPORTANT:
             return article, cost
     
     def enhance_articles(self, rony_articles: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], float]:
-        """Apply EXACT V3+V4 enhancement pipeline to Rony's selected articles."""
+        """
+        Apply EXACT V3+V4 enhancement pipeline to Rony's selected articles.
+        
+        PRESERVES:
+        - V3 contextual_words_v3.jinja prompt (proven tooltip generation)
+        - V3 simplify_titles_summaries_v3.jinja prompt (proven simplification)
+        - V4 review_tooltips.jinja prompt (proven GPT-4o verification)
+        - All display formats: **English:** _French word_
+        - All quality standards and schemas
+        """
         print("🎯 " + "="*60)
         print("🎯 STARTING ARTICLE ENHANCEMENT PIPELINE")
         print("🎯 " + "="*60)
@@ -307,16 +317,15 @@ IMPORTANT:
                 'original_article_published_date': article.get('published', ''),
                 'source_name': article.get('source', 'Unknown'),
                 'quality_scores': {
-                    'quality_score': article.get('total_score', 20.0) * 0.4,
-                    'relevance_score': 9.0,
-                    'importance_score': 8.0,
+                    'quality_score': article.get('total_score', 20.0) * 0.4,  # Convert to V3 scale
+                    'relevance_score': 9.0,  # Rony pre-selected for relevance
+                    'importance_score': 8.0,  # LLM-selected for importance
                     'total_score': article.get('total_score', 20.0)
                 },
                 'difficulty': 'B1',
                 'tone': 'neutral',
                 'ai_enhanced': False,
-                'quality_checked': False,
-                'title': title  # Add this for the prompts
+                'quality_checked': False
             }
             
             # Apply V3 contextual analysis
@@ -358,18 +367,25 @@ IMPORTANT:
         return enhanced_articles, total_cost
     
     def generate_website(self, enhanced_articles: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Generate V5 website with V3+V4 enhanced articles."""
+        """Generate V5 website with V3+V4 enhanced articles using native V5 assets."""
         print("🌐 " + "="*60)
         print("🌐 GENERATING V5 WEBSITE")
         print("🌐 " + "="*60)
         
-        # V5 website directory
+        # V5 now has its own complete website assets
         website_dir = Path(__file__).parent.parent.parent / 'website'
         print(f"📁 Website directory: {website_dir}")
         
         if not website_dir.exists():
             print("❌ V5 website directory missing!")
             return {'error': 'V5 website assets not found'}
+        
+        print("✅ V5 website assets found:")
+        assets = ['index.html', 'script.js', 'styles.css', 'js/', 'css/', 'favicon.svg', 'logo.svg']
+        for asset in assets:
+            asset_path = website_dir / asset
+            exists = "✅" if asset_path.exists() else "❌"
+            print(f"   {exists} {asset}")
         
         # Convert enhanced articles to rolling_articles.json format
         print("📄 Converting V5 enhanced articles to website format...")
@@ -436,7 +452,7 @@ IMPORTANT:
                 json.dump(website_data, f, ensure_ascii=False, indent=2)
             
             print(f"✅ Successfully wrote rolling_articles.json")
-            print(f"   �� Total articles: {len(formatted_articles)}")
+            print(f"   📊 Total articles: {len(formatted_articles)}")
             print(f"   🎯 V3 enhanced: {len([a for a in formatted_articles if a['ai_enhanced']])}")
             print(f"   ✅ V4 verified: {len([a for a in formatted_articles if a['quality_checked']])}")
             print(f"   📄 File size: {rolling_file.stat().st_size / 1024:.1f} KB")
@@ -445,7 +461,7 @@ IMPORTANT:
             print(f"❌ Failed to write rolling_articles.json: {e}")
             return {'error': 'Failed to write website data', 'details': str(e)}
         
-        print("\n�� V5 WEBSITE GENERATION COMPLETE!")
+        print("\n🎉 V5 WEBSITE GENERATION COMPLETE!")
         print("✅ Native V5 assets: Complete sophisticated website")
         print("✅ Article data: Properly formatted for JavaScript")
         print("✅ V3+V4 quality: Preserved in V5 format")
@@ -458,4 +474,4 @@ IMPORTANT:
             'v3_enhanced': len([a for a in formatted_articles if a['ai_enhanced']]),
             'v4_verified': len([a for a in formatted_articles if a['quality_checked']]),
             'quality_preserved': True
-        }
+        } 

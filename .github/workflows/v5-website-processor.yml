@@ -231,64 +231,12 @@ jobs:
               
           except Exception as e:
               print(f"❌ ENHANCEMENT FAILED: {e}")
-              print("🔧 Creating fallback website...")
+              print("🚨 NO FALLBACK MODE - FAILING PROPERLY!")
+              print("💡 Fix the V5 WebsiteProcessor to resolve this issue")
+              print("❌ Workflow will fail to prevent fake website generation")
               
-              # Fallback: create simple website with basic info
-              website_dir = Path('ai_engine_v5/website')
-              website_dir.mkdir(parents=True, exist_ok=True)
-              
-              # Create a more informative fallback page
-              article_list = ""
-              for i, article in enumerate(articles_for_processing[:10], 1):
-                  title = article.get('title', 'No title')
-                  source = article.get('source', 'Unknown')
-                  link = article.get('link', '#')
-                  score = article.get('total_score', 0)
-                  article_list += f"""
-                  <div class="article">
-                      <h3><a href="{link}" target="_blank">{title}</a></h3>
-                      <p><strong>Source:</strong> {source} | <strong>Quality:</strong> {score:.1f}/25</p>
-                  </div>
-                  """
-              
-              basic_html = f'''<!DOCTYPE html>
-              <html lang="fr">
-              <head>
-                  <meta charset="UTF-8">
-                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                  <title>Better French V5 - Fallback Mode</title>
-                  <style>
-                      body {{ font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin: 40px; }}
-                      .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; }}
-                      .article {{ border: 1px solid #ddd; margin: 10px 0; padding: 15px; border-radius: 5px; }}
-                      .article h3 {{ margin: 0 0 10px 0; }}
-                      .article a {{ color: #2563eb; text-decoration: none; }}
-                      .stats {{ background: #f8fafc; padding: 15px; border-radius: 8px; margin: 20px 0; }}
-                  </style>
-              </head>
-              <body>
-                  <div class="header">
-                      <h1>🤖 Better French V5 - Fallback Mode</h1>
-                      <p>Articles collected by Rony autonomous scraper</p>
-                  </div>
-                  
-                  <div class="stats">
-                      <h2>📊 Collection Stats</h2>
-                      <p><strong>Articles collected:</strong> {len(articles_for_processing)}</p>
-                      <p><strong>Status:</strong> V3+V4 enhancement temporarily unavailable</p>
-                      <p><strong>Next step:</strong> Check back soon for full enhancement!</p>
-                  </div>
-                  
-                  <h2>📰 Latest Articles from Rony</h2>
-                  {article_list}
-                  
-                  <p><small>Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</small></p>
-              </body></html>'''
-              
-              with open('ai_engine_v5/website/index.html', 'w', encoding='utf-8') as f:
-                  f.write(basic_html)
-              
-              print(f"✅ Fallback website created with {len(articles_for_processing)} articles")
+              # Don't create fallback - let it fail properly
+              raise Exception(f"V5 enhancement failed: {e}")
           
           # Mark runs as processed
           data_file = Path('ai_engine_v5/data/scraper_data.json')
