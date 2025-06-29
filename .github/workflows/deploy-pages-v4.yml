@@ -52,11 +52,15 @@ jobs:
           rsync -a ai_engine_v3/data/ ai_engine_v4/data/
           rsync -a ai_engine_v3/website/ ai_engine_v4/website/
 
-      # V4 accumulates enhanced articles over time (like V3 does)
+      # V4 only processes NEW articles from this V3 run (time-limited)
       - name: Prepare V4 enhancement queue
         run: |
           python - <<'PY'
           import json, pathlib, datetime
+          
+          # Time filter: only process articles from this run (last 30 minutes)
+          now = datetime.datetime.utcnow()
+          run_start_threshold = (now - datetime.timedelta(minutes=30)).isoformat()
           
           # Load existing V4 rolling articles (previously enhanced)
           rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json')
@@ -78,14 +82,16 @@ jobs:
               data = json.loads(pending_path.read_text('utf-8'))
               all_articles = data.get('articles', data) if isinstance(data, dict) else data
               
-              # Only enhance articles that haven't been quality_checked yet
+              # CRITICAL: Only enhance articles from THIS run (recent + not already enhanced)
               articles_needing_enhancement = [
                   a for a in all_articles 
-                  if not a.get('quality_checked', False) and a.get('original_article_link') not in enhanced_links
+                  if (a.get('processed_at', '') >= run_start_threshold or a.get('ai_enhanced', False)) and
+                     a.get('original_article_link') not in enhanced_links
               ]
               
               pending_path.write_text(json.dumps({'articles': articles_needing_enhancement}, ensure_ascii=False, indent=2))
-              print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} new articles")
+              print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} NEW articles from this run")
+              print(f"🕐 Filtering since: {run_start_threshold}")
               print(f"📊 Total V4 collection will be: {len(existing_enhanced) + len(articles_needing_enhancement)} articles")
           else:
               print("📭 No pending articles found")
