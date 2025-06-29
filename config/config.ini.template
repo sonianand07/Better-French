@@ -1,2 +1,20 @@
+# Configuration Template for Better French
+# 
+# SECURITY WARNING: 
+# ==================
+# NEVER commit real API keys to this repository!
+# Copy this file to config.ini and add your real keys there.
+# config.ini is in .gitignore and should NEVER be tracked in git.
+#
+# To set up:
+# 1. cp config/config.ini.template config/config.ini
+# 2. Edit config.ini with your real API keys
+# 3. Verify config.ini is NOT tracked: git status should not show it
+#
+# For production/CI: Store keys in GitHub Secrets instead!
+
 [secrets]
-OPENROUTER_API_KEY = YOUR_API_KEY_HERE 
+OPENROUTER_API_KEY = your_openrouter_api_key_here
+
+# Example format:
+# OPENROUTER_API_KEY = sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 

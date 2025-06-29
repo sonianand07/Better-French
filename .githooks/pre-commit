@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# Git pre-commit hook – verify today's daily note exists.
+# Git pre-commit hook – verify today's daily note exists and no API keys exposed.
 
-python scripts/check_daily_note.py || exit 1 
+# Check for daily note
+python scripts/check_daily_note.py || exit 1
+
+# Check for accidentally exposed API keys
+python scripts/check_api_exposure.py || exit 1 
