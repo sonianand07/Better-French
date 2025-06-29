@@ -616,119 +616,25 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
         
         logger.info(f"💾 Intelligent persistence for hour: {hour_key}")
         
-        # Step 1: Always add to run history (for debugging and analysis)
-        existing_data["run_history"].append(run_data)
+        # Step 1: Add run with processed_by_website flag for workflow compatibility
+        run_data["processed_by_website"] = False  # Mark as unprocessed for website workflow
+        existing_data["scraper_runs"].append(run_data)
         existing_data["total_runs"] += 1
         
-        # Step 2: Intelligent article merging for current hour
-        current_hour_data = None
-        for hour_data in existing_data["active_articles"]:
-            if hour_data["hour"] == hour_key:
-                current_hour_data = hour_data
-                break
+        logger.info(f"✅ Added run to data file (marked as unprocessed)")
         
-        if current_hour_data is None:
-            # First run for this hour - add new data
-            logger.info("📅 First run for this hour - adding new articles")
-            hour_data = {
-                "hour": hour_key,
-                "articles": [asdict(article) for article in new_articles],
-                "processed_by_website": False,
-                "runs_count": 1,
-                "last_updated": run_data["timestamp"],
-                "quality_history": [run_data["quality_metrics"]],
-                "best_avg_score": run_data["quality_metrics"]["avg_v3_score"],
-                "improvement_log": ["Initial scrape"]
-            }
-            existing_data["active_articles"].append(hour_data)
-            
-        else:
-            # Multiple runs for same hour - INTELLIGENT MERGE
-            logger.info(f"🔄 Multiple runs for hour {hour_key} - applying intelligent merge...")
-            
-            # Compare quality metrics
-            old_avg = current_hour_data["best_avg_score"]
-            new_avg = run_data["quality_metrics"]["avg_v3_score"]
-            
-            # Merge articles intelligently by hash_id, keeping highest scoring version
-            existing_articles = {art["hash_id"]: art for art in current_hour_data["articles"]}
-            new_articles_dict = {asdict(art)["hash_id"]: asdict(art) for art in new_articles}
-            
-            merged_articles = {}
-            improvements_count = 0
-            additions_count = 0
-            
-            # Process existing articles
-            for hash_id, existing_art in existing_articles.items():
-                if hash_id in new_articles_dict:
-                    new_art = new_articles_dict[hash_id]
-                    # Keep the higher scoring version
-                    if new_art["total_score"] > existing_art["total_score"]:
-                        merged_articles[hash_id] = new_art
-                        improvements_count += 1
-                        logger.debug(f"📈 Improved: {existing_art['title'][:40]}... ({existing_art['total_score']:.1f} → {new_art['total_score']:.1f})")
-                    else:
-                        merged_articles[hash_id] = existing_art
-                else:
-                    # Keep existing article that wasn't found in new run
-                    merged_articles[hash_id] = existing_art
-            
-            # Add completely new articles
-            for hash_id, new_art in new_articles_dict.items():
-                if hash_id not in existing_articles:
-                    merged_articles[hash_id] = new_art
-                    additions_count += 1
-                    logger.debug(f"➕ New article: {new_art['title'][:40]}...")
-                    
-            # Update hour data with merged results
-            current_hour_data["articles"] = list(merged_articles.values())
-            current_hour_data["runs_count"] += 1
-            current_hour_data["last_updated"] = run_data["timestamp"]
-            current_hour_data["quality_history"].append(run_data["quality_metrics"])
-            current_hour_data["best_avg_score"] = max(old_avg, new_avg)
-            
-            # Track improvement log
-            if improvements_count > 0 or additions_count > 0:
-                improvement_msg = f"Run {current_hour_data['runs_count']}: "
-                if improvements_count > 0:
-                    improvement_msg += f"{improvements_count} improved"
-                if additions_count > 0:
-                    if improvements_count > 0:
-                        improvement_msg += f", {additions_count} added"
-                    else:
-                        improvement_msg += f"{additions_count} added"
-                if new_avg > old_avg:
-                    improvement_msg += f" (avg score: {old_avg:.1f} → {new_avg:.1f})"
-                current_hour_data["improvement_log"].append(improvement_msg)
-                logger.info(f"✨ QUALITY IMPROVEMENT: {improvement_msg}")
-            else:
-                current_hour_data["improvement_log"].append(f"Run {current_hour_data['runs_count']}: No improvements")
-                logger.info("📊 No quality improvements this run")
+        # Step 2: Cleanup old runs (keep last 48 runs)
+        if len(existing_data["scraper_runs"]) > 48:
+            existing_data["scraper_runs"] = existing_data["scraper_runs"][-48:]
+            logger.debug("🧹 Kept last 48 runs")
         
-        # Step 3: Cleanup old data (keep last 48 hours of active articles)
-        if len(existing_data["active_articles"]) > 48:
-            existing_data["active_articles"] = existing_data["active_articles"][-48:]
-            logger.debug("🧹 Cleaned up old active articles (kept last 48 hours)")
-        
-        # Step 4: Cleanup run history (keep last 100 runs)
-        if len(existing_data["run_history"]) > 100:
-            existing_data["run_history"] = existing_data["run_history"][-100:]
-            logger.debug("🧹 Cleaned up old run history (kept last 100 runs)")
-        
-        # Step 5: Update metadata
-        existing_data["metadata"]["last_updated"] = run_data["timestamp"]
-        existing_data["metadata"]["last_avg_score"] = run_data["quality_metrics"]["avg_v3_score"]
-        
-        # Step 6: Save atomically (write to temp file first, then rename)
+        # Step 3: Save atomically (write to temp file first, then rename)
         temp_file = data_file.with_suffix('.tmp')
         try:
             temp_file.write_text(json.dumps(existing_data, indent=2, ensure_ascii=False), encoding='utf-8')
             temp_file.rename(data_file)
-            logger.info(f"💾 Data saved with intelligent merging: {data_file}")
-            
-            # Log final statistics
-            total_active_articles = sum(len(h["articles"]) for h in existing_data["active_articles"])
-            logger.info(f"📊 Final stats: {len(existing_data['active_articles'])} active hours, {total_active_articles} total articles")
+            logger.info(f"💾 Data saved successfully: {data_file}")
+            logger.info(f"📊 Total runs: {existing_data['total_runs']}, Active runs: {len(existing_data['scraper_runs'])}")
             
         except Exception as e:
             logger.error(f"Failed to save data: {e}")
@@ -738,15 +644,7 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
     def _create_empty_data_structure(self) -> Dict:
         """Create empty data structure for new scraper data file"""
         return {
-            "metadata": {
-                "created_at": datetime.now().isoformat(),
-                "last_updated": "",
-                "data_version": "v5_intelligent_persistence",
-                "scraper_version": "Rony World's Best Scraper v1.0",
-                "last_avg_score": 0.0
-            },
-            "active_articles": [],  # Articles ready for website processing
-            "run_history": [],      # All runs for analysis and debugging
+            "scraper_runs": [],      # All runs for analysis and debugging
             "total_runs": 0
         }
 

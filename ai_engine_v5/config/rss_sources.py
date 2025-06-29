@@ -13,40 +13,40 @@ RSS_SOURCES = {
     "France 24": "https://www.france24.com/fr/rss",
     "RFI": "https://www.rfi.fr/fr/rss",
     "Europe 1": "https://www.europe1.fr/rss.xml",
-    "CNEWS": "https://www.cnews.fr/rss/",
-    "FranceInter": "https://www.franceinter.fr/rss/a-la-une.xml",
+    "RTL": "https://www.rtl.fr/rss/une.xml",  # REPLACED CNEWS
+    "LCI": "https://www.lci.fr/rss/",  # REPLACED FranceInter
     "Public Sénat": "https://www.publicsenat.fr/rss",
     
     # Economy & Business (FIXED URLS)
     "L'Usine Nouvelle": "https://www.usinenouvelle.com/rss/",
     "Capital": "https://www.capital.fr/rss",
-    "La Tribune Lyon": "https://www.latribune.fr/economie/rss.xml",
-    "BFM Business": "https://www.bfmtv.com/economie/rss/",
+    "Les Échos": "https://www.lesechos.fr/rss/",  # REPLACED La Tribune Lyon
+    "Challenges": "https://www.challenges.fr/rss/",  # REPLACED BFM Business
     "Journal du Net": "https://www.journaldunet.com/rss/",
     
     # Regional News (WORKING ALTERNATIVES)
-    "20 Minutes": "https://www.20minutes.fr/rss/",
-    "Midi Libre": "https://www.midilibre.fr/rss/",
-    "La Dépêche": "https://www.ladepeche.fr/rss/",
+    "Ouest-France": "https://www.ouest-france.fr/rss/",  # REPLACED 20 Minutes
+    "La Voix du Nord": "https://www.lavoixdunord.fr/rss/",  # REPLACED Midi Libre
+    "Sud Ouest": "https://www.sudouest.fr/rss/",  # REPLACED La Dépêche
     "Le Parisien": "https://feeds.leparisien.fr/leparisien/rss",
-    "L'Est Républicain": "https://www.estrepublicain.fr/rss/",
+    "Le Progrès": "https://www.leprogres.fr/rss/",  # REPLACED L'Est Républicain
     
     # Tech & Innovation (VERIFIED)
     "01net": "https://www.01net.com/rss/",
     "Numerama": "https://www.numerama.com/rss/",
     "ZDNet France": "https://www.zdnet.fr/feeds/rss/",
     "Frandroid": "https://www.frandroid.com/rss/",
-    "Clubic": "https://www.clubic.com/rss/",
+    "L'Informaticien": "https://www.linformaticien.com/rss/",  # REPLACED Clubic
     
     # Society & Culture (FIXED)
     "Marianne": "https://www.marianne.net/rss.xml",
-    "Courrier International": "https://www.courrierinternational.com/rss/",
+    "L'Obs": "https://www.nouvelobs.com/rss/",  # REPLACED Courrier International
     "Le Point": "https://www.lepoint.fr/rss.xml",
-    "L'Express": "https://www.lexpress.fr/rss/",
+    "Télérama": "https://www.telerama.fr/rss/",  # REPLACED L'Express
     
     # Government & Official (WORKING)
-    "Vie Publique": "https://www.vie-publique.fr/rss/",
-    "Sénat": "https://www.senat.fr/rss/"
+    "Service-public.fr": "https://www.service-public.fr/rss/",  # REPLACED Vie Publique
+    "Gouvernement.fr": "https://www.gouvernement.fr/rss/"  # REPLACED Sénat
 }
 
 # Validation
