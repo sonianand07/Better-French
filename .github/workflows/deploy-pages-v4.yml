@@ -1,4 +1,4 @@
-name: Auto Update French News – v4
+name: Auto Update French News – v3 & v4
 
 on:
   # schedule:
@@ -117,7 +117,18 @@ jobs:
             git push
           fi
 
-      # Deploy ONLY to /v4-site/ (don't touch root site)
+      # Deploy V3 to root site first
+      - name: Deploy V3 to Root Site 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./ai_engine_v3/website
+          force_orphan: false
+          keep_files: true  # Keep v4-site subdirectory
+          commit_message: 'chore(deploy): update v3 root site with new articles' 
+
+      # Deploy V4 to /v4-site/
       - name: Deploy V4 Enhanced Site 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
