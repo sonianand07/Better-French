@@ -47,26 +47,14 @@ jobs:
       - name: Reset v4 pending store
         run: rm -f ai_engine_v4/data/live/pending_articles.json
 
-      - name: Copy data into v4 store
-        run: |
-          rsync -a ai_engine_v3/data/ ai_engine_v4/data/
-          rsync -a ai_engine_v3/website/ ai_engine_v4/website/
-
-      # V4 only processes articles V3 JUST published (cap at 20 max)
-      - name: Prepare V4 enhancement queue  
+      # CRITICAL: Load V4's existing enhanced articles BEFORE copy overwrites them
+      - name: Preserve V4 enhanced articles
         run: |
           python - <<'PY'
-          import json, pathlib, datetime
+          import json, pathlib
           
-          # Load V3's rolling articles to see what was JUST published
-          v3_rolling_path = pathlib.Path('ai_engine_v3/website/rolling_articles.json')
-          v3_articles = []
-          if v3_rolling_path.exists():
-              v3_data = json.loads(v3_rolling_path.read_text('utf-8'))
-              v3_articles = v3_data.get('articles', v3_data) if isinstance(v3_data, dict) else v3_data
-          
-          # Load existing V4 rolling articles (previously enhanced)
-          v4_rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json') 
+          # Preserve V4's existing enhanced articles before copy step overwrites them
+          v4_rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json')
           existing_enhanced = []
           enhanced_links = set()
           
@@ -75,19 +63,63 @@ jobs:
                   v4_data = json.loads(v4_rolling_path.read_text('utf-8'))
                   existing_enhanced = v4_data.get('articles', v4_data) if isinstance(v4_data, dict) else v4_data
                   enhanced_links = {a.get('original_article_link') for a in existing_enhanced if a.get('quality_checked')}
-                  print(f"📚 Found {len(existing_enhanced)} existing V4-enhanced articles")
+                  print(f"📚 Preserving {len(existing_enhanced)} existing V4-enhanced articles")
+                  
+                  # Save preserved articles to temporary file
+                  preserved_path = pathlib.Path('v4_preserved_articles.json')
+                  preserved_path.write_text(json.dumps(existing_enhanced, ensure_ascii=False, indent=2))
               except Exception as e:
                   print(f"⚠️ Could not load existing enhanced articles: {e}")
+                  # Create empty file if no existing articles
+                  pathlib.Path('v4_preserved_articles.json').write_text('[]')
+          else:
+              print("📭 No existing V4 articles to preserve")
+              pathlib.Path('v4_preserved_articles.json').write_text('[]')
+          PY
+
+      - name: Copy data into v4 store (exclude rolling_articles.json)
+        run: |
+          rsync -a ai_engine_v3/data/ ai_engine_v4/data/
+          rsync -a --exclude='rolling_articles.json' ai_engine_v3/website/ ai_engine_v4/website/
+
+      # V4 only processes articles V3 JUST published (cap at 15 max)
+      - name: Prepare V4 enhancement queue  
+        run: |
+          python - <<'PY'
+          import json, pathlib
           
-          # Find articles that need V4 enhancement (in V3 but not quality-checked in V4)
+          # Load V3's new rolling articles
+          v3_rolling_path = pathlib.Path('ai_engine_v3/website/rolling_articles.json')
+          v3_articles = []
+          if v3_rolling_path.exists():
+              v3_data = json.loads(v3_rolling_path.read_text('utf-8'))
+              v3_articles = v3_data.get('articles', v3_data) if isinstance(v3_data, dict) else v3_data
+              print(f"📊 V3 has {len(v3_articles)} total articles")
+          
+          # Load preserved V4 articles
+          preserved_path = pathlib.Path('v4_preserved_articles.json')
+          existing_enhanced = []
+          enhanced_links = set()
+          
+          if preserved_path.exists():
+              existing_enhanced = json.loads(preserved_path.read_text('utf-8'))
+              enhanced_links = {a.get('original_article_link') for a in existing_enhanced if a.get('quality_checked')}
+              print(f"📚 Found {len(existing_enhanced)} preserved V4-enhanced articles")
+          
+          # Find NEW articles from V3 that need V4 enhancement (last 15 only for safety)
           articles_needing_enhancement = [
-              a for a in v3_articles[-20:]  # Only check last 20 from V3 (recent ones)
+              a for a in v3_articles[-15:]  # Safety: only last 15 from V3
               if a.get('ai_enhanced', False) and 
                  a.get('original_article_link') not in enhanced_links
           ]
           
-          print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} articles from V3's recent batch")
+          print(f"🔍 V4 will enhance {len(articles_needing_enhancement)} NEW articles from V3")
           print(f"📊 Total V4 collection will be: {len(existing_enhanced) + len(articles_needing_enhancement)} articles")
+          
+          # Safety check: Abort if too many articles to process
+          if len(articles_needing_enhancement) > 15:
+              print(f"🚨 ERROR: {len(articles_needing_enhancement)} articles to process - this seems wrong!")
+              exit(1)
           
           # Save only the articles that need enhancement
           pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
@@ -114,6 +146,68 @@ jobs:
             exit 1
           fi
           echo "✅ Verification completed successfully"
+
+      # Merge preserved V4 articles with newly enhanced ones
+      - name: Merge V4 enhanced articles
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          
+          # Load preserved V4 articles
+          preserved_path = pathlib.Path('v4_preserved_articles.json')
+          preserved_articles = []
+          if preserved_path.exists():
+              preserved_articles = json.loads(preserved_path.read_text('utf-8'))
+              print(f"📚 Loading {len(preserved_articles)} preserved V4 articles")
+          
+          # Load newly enhanced articles from pending store
+          pending_path = pathlib.Path('ai_engine_v4/data/live/pending_articles.json')
+          newly_enhanced = []
+          if pending_path.exists():
+              pending_data = json.loads(pending_path.read_text('utf-8'))
+              newly_enhanced = pending_data.get('articles', pending_data) if isinstance(pending_data, dict) else pending_data
+              # Only include successfully enhanced articles
+              newly_enhanced = [a for a in newly_enhanced if a.get('quality_checked', False)]
+              print(f"🔍 Loading {len(newly_enhanced)} newly enhanced articles")
+          
+          # Merge: preserved + newly enhanced (avoid duplicates by link)
+          all_articles = {}
+          
+          # Add preserved articles first
+          for article in preserved_articles:
+              link = article.get('original_article_link')
+              if link:
+                  all_articles[link] = article
+          
+          # Add newly enhanced articles (will overwrite if same link)
+          for article in newly_enhanced:
+              link = article.get('original_article_link')
+              if link:
+                  all_articles[link] = article
+          
+          # Convert back to list and sort by date (newest first)
+          merged_articles = list(all_articles.values())
+          merged_articles.sort(key=lambda x: x.get('original_article_published_date', ''), reverse=True)
+          
+          # Save merged articles as V4's rolling feed
+          v4_rolling_path = pathlib.Path('ai_engine_v4/website/rolling_articles.json')
+          final_data = {
+              "metadata": {
+                  "total_articles": len(merged_articles),
+                  "last_updated": "just_now",
+                  "v4_enhanced": True
+              },
+              "articles": merged_articles
+          }
+          v4_rolling_path.write_text(json.dumps(final_data, ensure_ascii=False, indent=2))
+          
+          print(f"✅ Created V4 rolling feed with {len(merged_articles)} total articles")
+          print(f"📊 {len(preserved_articles)} preserved + {len(newly_enhanced)} new = {len(merged_articles)} total")
+          
+          # Cleanup temporary file
+          if preserved_path.exists():
+              preserved_path.unlink()
+          PY
 
       - name: Force cache-busting update
         run: |
