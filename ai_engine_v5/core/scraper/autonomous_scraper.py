@@ -1,6 +1,7 @@
 """
 AI Engine v5 - Autonomous Scraper
 Handles minimal, fast scraping with LLM-powered article selection.
+CRITICAL: Uses separate API key to ensure 24/7 reliability.
 """
 
 import json
@@ -15,29 +16,74 @@ class AutonomousScraper:
     """Self-contained autonomous scraper for hourly news collection."""
     
     def __init__(self):
-        self.api_key = os.getenv('OPENROUTER_API_KEY')
+        # CRITICAL: Separate API key for scraper to avoid development interference
+        self.api_key = os.getenv('OPENROUTER_SCRAPER_API_KEY') or os.getenv('OPENROUTER_API_KEY')
         self.selection_model = os.getenv('AI_ENGINE_SELECTION_MODEL', 'google/gemini-2.0-flash-exp')
+        
+        # COMPREHENSIVE RSS SOURCES - Same quality as V3+V4 combined
         self.sources = [
+            # Major French Newspapers
             "https://www.lemonde.fr/rss/une.xml",
-            "https://www.lefigaro.fr/rss/figaro_une.xml", 
-            "https://feeds.leparisien.fr/leparisien/une",
-            "https://www.francetvinfo.fr/titres.rss",
+            "https://www.lefigaro.fr/rss/figaro_actualites.xml",
             "https://www.liberation.fr/arc/outboundfeeds/rss-all/",
+            "https://feeds.leparisien.fr/leparisien/rss",
+            "https://www.lexpress.fr/arc/outboundfeeds/rss/alaune.xml",
+            "http://www.lepoint.fr/rss.xml",
+            "http://tempsreel.nouvelobs.com/rss.xml",
+            "https://www.la-croix.com/RSS",
+            "https://www.lesechos.fr/rss/rss_la_une.xml",
+            
+            # TV/Radio News
+            "https://www.bfmtv.com/rss/news-24-7/",
+            "https://www.francetvinfo.fr/titres.rss",
+            "https://www.franceinter.fr/rss",
             "https://www.europe1.fr/rss.xml",
-            "https://www.franceinter.fr/rss/a-la-une.xml"
+            "https://www.france24.com/fr/rss",
+            "https://rfi.fr/fr/rss",
+            
+            # Regional/Specialized
+            "https://www.ouest-france.fr/rss/une",
+            "https://partner-feeds.20min.ch/rss/20minutes",
+            "https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed",
+            
+            # Alternative/Independent
+            "https://www.mediapart.fr/articles/feed",
+            "https://brief.me/rss",
+            
+            # Le Monde Categories (comprehensive coverage)
+            "https://www.lemonde.fr/politique/rss_full.xml",
+            "https://www.lemonde.fr/international/rss_full.xml",
+            "https://www.lemonde.fr/economie/rss_full.xml",
+            "https://www.lemonde.fr/culture/rss_full.xml",
+            "https://www.lemonde.fr/sport/rss_full.xml",
+            "https://www.lemonde.fr/sciences/rss_full.xml",
+            
+            # Additional comprehensive sources
+            "https://www.franceinfo.fr/politique.rss",
+            "https://www.franceinfo.fr/monde.rss",
+            "https://www.franceinfo.fr/economie.rss",
+            "https://www.franceinfo.fr/societe.rss",
+            "https://www.franceinfo.fr/culture.rss"
         ]
+        
+        print(f"🔐 Scraper API Key: {'PROTECTED' if self.api_key else 'MISSING'}")
+        print(f"📰 Comprehensive sources: {len(self.sources)} RSS feeds")
     
     def scrape_current_hour(self) -> List[Dict[str, Any]]:
-        """Scrape articles for current hour - minimal and fast."""
-        print("📡 Starting autonomous scrape...")
+        """Scrape articles for current hour - comprehensive but fast."""
+        print("📡 Starting comprehensive autonomous scrape...")
+        print(f"🌐 Scraping {len(self.sources)} sources for maximum coverage")
         
         candidates = []
         current_time = datetime.now(timezone.utc)
         hour_window = current_time.replace(minute=0, second=0, microsecond=0)
         
-        for source_url in self.sources:
+        successful_sources = 0
+        failed_sources = 0
+        
+        for i, source_url in enumerate(self.sources, 1):
             try:
-                print(f"  📰 Scraping: {source_url}")
+                print(f"  📰 [{i}/{len(self.sources)}] Scraping: {self._get_source_name(source_url)}")
                 articles = self._scrape_rss_feed(source_url)
                 
                 # Filter for recent articles (last 2 hours for safety)
@@ -47,27 +93,105 @@ class AutonomousScraper:
                         recent_articles.append(article)
                 
                 candidates.extend(recent_articles)
+                successful_sources += 1
                 print(f"    ✅ Found {len(recent_articles)} recent articles")
                 
             except Exception as e:
-                print(f"    ⚠️ Failed to scrape {source_url}: {e}")
+                failed_sources += 1
+                print(f"    ⚠️ Failed to scrape {self._get_source_name(source_url)}: {e}")
                 continue
         
         # Remove duplicates
         candidates = self._deduplicate_candidates(candidates)
         
-        print(f"📊 Total unique candidates: {len(candidates)}")
+        print(f"📊 COMPREHENSIVE SCRAPE COMPLETE:")
+        print(f"   ✅ Successful sources: {successful_sources}/{len(self.sources)}")
+        print(f"   ❌ Failed sources: {failed_sources}")
+        print(f"   📄 Total unique candidates: {len(candidates)}")
+        print(f"   🎯 Ready for LLM selection of top 10")
+        
         return candidates
     
+    def _get_source_name(self, url: str) -> str:
+        """Get readable source name from URL."""
+        if 'lemonde' in url:
+            if 'politique' in url:
+                return 'Le Monde Politique'
+            elif 'international' in url:
+                return 'Le Monde International'
+            elif 'economie' in url:
+                return 'Le Monde Économie'
+            elif 'culture' in url:
+                return 'Le Monde Culture'
+            elif 'sport' in url:
+                return 'Le Monde Sport'
+            elif 'sciences' in url:
+                return 'Le Monde Sciences'
+            else:
+                return 'Le Monde'
+        elif 'lefigaro' in url:
+            return 'Le Figaro'
+        elif 'liberation' in url:
+            return 'Libération'
+        elif 'leparisien' in url:
+            return 'Le Parisien'
+        elif 'lexpress' in url:
+            return 'L\'Express'
+        elif 'lepoint' in url:
+            return 'Le Point'
+        elif 'nouvelobs' in url:
+            return 'L\'Obs'
+        elif 'la-croix' in url:
+            return 'La Croix'
+        elif 'lesechos' in url:
+            return 'Les Échos'
+        elif 'bfmtv' in url:
+            return 'BFM TV'
+        elif 'francetvinfo' in url or 'franceinfo' in url:
+            if 'politique' in url:
+                return 'France Info Politique'
+            elif 'monde' in url:
+                return 'France Info Monde'
+            elif 'economie' in url:
+                return 'France Info Économie'
+            elif 'societe' in url:
+                return 'France Info Société'
+            elif 'culture' in url:
+                return 'France Info Culture'
+            else:
+                return 'France Info'
+        elif 'franceinter' in url:
+            return 'France Inter'
+        elif 'europe1' in url:
+            return 'Europe 1'
+        elif 'france24' in url:
+            return 'France 24'
+        elif 'rfi' in url:
+            return 'RFI'
+        elif 'ouest-france' in url:
+            return 'Ouest France'
+        elif '20min' in url:
+            return '20 Minutes'
+        elif 'afp' in url:
+            return 'AFP'
+        elif 'mediapart' in url:
+            return 'Mediapart'
+        elif 'brief.me' in url:
+            return 'Brief.me'
+        else:
+            return 'French News'
+    
     def _scrape_rss_feed(self, url: str) -> List[Dict[str, Any]]:
-        """Scrape a single RSS feed - simplified."""
+        """Scrape a single RSS feed - comprehensive parsing."""
         import xml.etree.ElementTree as ET
         
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'application/rss+xml, application/xml, text/xml',
+            'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8'
         }
         
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
         
         root = ET.fromstring(response.content)
@@ -94,7 +218,7 @@ class AutonomousScraper:
                         'link': link.strip(),
                         'summary': description.strip() if description else '',
                         'published_date': pub_date,
-                        'source': self._extract_source_name(url),
+                        'source': self._get_source_name(url),
                         'scraped_at': datetime.now(timezone.utc).isoformat()
                     })
                     
@@ -109,25 +233,6 @@ class AutonomousScraper:
             return element.text or ''
         return ''
     
-    def _extract_source_name(self, url: str) -> str:
-        """Extract source name from URL."""
-        if 'lemonde' in url:
-            return 'Le Monde'
-        elif 'lefigaro' in url:
-            return 'Le Figaro'
-        elif 'leparisien' in url:
-            return 'Le Parisien'
-        elif 'francetvinfo' in url:
-            return 'France TV Info'
-        elif 'liberation' in url:
-            return 'Libération'
-        elif 'europe1' in url:
-            return 'Europe 1'
-        elif 'franceinter' in url:
-            return 'France Inter'
-        else:
-            return 'French News'
-    
     def _is_recent_article(self, article: Dict[str, Any], hours_back: int = 2) -> bool:
         """Check if article is from recent hours."""
         # For now, assume all scraped articles are recent
@@ -140,7 +245,7 @@ class AutonomousScraper:
         unique_candidates = []
         
         for candidate in candidates:
-            # Create hash from title (simple deduplication)
+            # Create hash from normalized title
             title_hash = hashlib.md5(candidate['title'].lower().encode()).hexdigest()
             
             if title_hash not in seen_hashes:
@@ -152,7 +257,7 @@ class AutonomousScraper:
     def llm_select_top_10(self, candidates: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Use LLM to select top 10 articles from candidates."""
         if not self.api_key:
-            raise ValueError("OPENROUTER_API_KEY not found")
+            raise ValueError("OPENROUTER_SCRAPER_API_KEY not found - scraper cannot function!")
         
         if len(candidates) <= 10:
             return {
@@ -170,11 +275,12 @@ class AutonomousScraper:
         prompt = f"""You are an expert French news curator for language learners. From these {len(candidates)} candidate articles, select the TOP 10 that would be most valuable for French language learning.
 
 CRITERIA:
-- Educational value for French learners
-- Diverse topics (avoid duplicates)
-- Current relevance
+- Educational value for French learners (B1-B2 level)
+- Diverse topics (avoid duplicates/similar stories)
+- Current relevance and importance
 - Clear, well-written French
 - Interesting content that motivates learning
+- Mix of categories (politics, culture, economy, society, etc.)
 
 CANDIDATES:
 {chr(10).join(candidate_text)}

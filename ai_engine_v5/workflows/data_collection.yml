@@ -16,10 +16,12 @@ jobs:
   autonomous_scrape:
     runs-on: ubuntu-latest
     env:
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      # CRITICAL: Separate API key for scraper to avoid development interference
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
+      OPENROUTER_SCRAPER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
       # Minimal LLM usage - Gemini 2.5 Flash for selection only
       AI_ENGINE_SELECTION_MODEL: google/gemini-2.0-flash-exp
-      BF_PER_RUN_CAP: 150  # Collect candidates for LLM selection
+      BF_PER_RUN_CAP: 300  # Higher limit for comprehensive sources
       
     steps:
       - uses: actions/checkout@v4
@@ -36,8 +38,8 @@ jobs:
           pip install -r requirements.txt
           pip install -e ./ai_engine_v5  # Self-contained v5 only
 
-      # V5 AUTONOMOUS SCRAPER - Minimal & Fast
-      - name: 🤖 Run Autonomous Scraper
+      # V5 AUTONOMOUS SCRAPER - Comprehensive & Protected
+      - name: 🤖 Run Autonomous Scraper (30+ Sources)
         run: |
           python - <<'PY'
           import json
@@ -46,8 +48,17 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
           
-          print("🤖 V5 AUTONOMOUS SCRAPER - MINIMAL & FAST")
-          print("=" * 50)
+          print("🤖 V5 AUTONOMOUS SCRAPER - COMPREHENSIVE & PROTECTED")
+          print("=" * 60)
+          
+          # Verify separate API key is available
+          scraper_key = os.getenv('OPENROUTER_SCRAPER_API_KEY')
+          if not scraper_key:
+              print("❌ CRITICAL: OPENROUTER_SCRAPER_API_KEY not found!")
+              print("⚠️ Scraper cannot run without protected API key")
+              exit(1)
+          else:
+              print("🔐 Protected scraper API key: CONFIGURED")
           
           # Check if current hour already processed
           paris_tz = timezone.utc  # For now, using UTC (can be adjusted)
@@ -77,21 +88,21 @@ jobs:
           
           print(f"🕐 Processing hour: {hour_key}")
           
-          # MINIMAL SCRAPING - reuse existing logic but simplified
+          # COMPREHENSIVE SCRAPING - V3+V4 quality sources
           sys.path.append('ai_engine_v5')
           
           try:
-              # Import v5's self-contained scraper (will create this)
+              # Import v5's self-contained scraper
               from ai_engine_v5.core.scraper.autonomous_scraper import AutonomousScraper
               
               scraper = AutonomousScraper()
               
-              # Step 1: Get candidate articles for this hour
-              print("📡 Scraping articles for current hour...")
+              # Step 1: Get candidate articles from 30+ comprehensive sources
+              print(f"📡 Scraping {len(scraper.sources)} comprehensive sources...")
               candidates = scraper.scrape_current_hour()
-              print(f"📄 Found {len(candidates)} candidate articles")
+              print(f"📄 Found {len(candidates)} total candidate articles")
               
-              if len(candidates) < 5:
+              if len(candidates) < 10:
                   print("⚠️ Too few articles found - will try again next hour")
                   scraper_data["scraper_state"]["last_run_status"] = "insufficient_articles"
                   data_file.write_text(json.dumps(scraper_data, indent=2))
@@ -102,6 +113,7 @@ jobs:
               selection_result = scraper.llm_select_top_10(candidates)
               
               print(f"✅ Selected {len(selection_result['selected_articles'])} articles")
+              print(f"🎯 Selection reasoning: {selection_result['reasoning']}")
               print(f"💰 LLM cost: ${selection_result['cost']:.3f}")
               
               # Step 3: Update scraper data file
@@ -111,7 +123,8 @@ jobs:
                   "selection_reasoning": selection_result['reasoning'],
                   "processed_by_website": False,
                   "cost": selection_result['cost'],
-                  "candidate_count": len(candidates)
+                  "candidate_count": len(candidates),
+                  "sources_scraped": len(scraper.sources)
               }
               
               scraper_data["collected_articles"].append(new_hour_data)
@@ -127,9 +140,11 @@ jobs:
               
               data_file.write_text(json.dumps(scraper_data, indent=2, ensure_ascii=False))
               
-              print("🎉 AUTONOMOUS SCRAPER COMPLETE!")
+              print("🎉 COMPREHENSIVE AUTONOMOUS SCRAPER COMPLETE!")
               print(f"📊 Total hours processed: {scraper_data['scraper_state']['total_hours_processed']}")
+              print(f"📰 Sources scraped: {len(scraper.sources)} comprehensive RSS feeds")
               print(f"📦 Data stored in: {data_file}")
+              print("🔐 Protected API key kept scraper running smoothly")
               
           except ImportError:
               print("⚠️ V5 scraper not yet implemented - creating placeholder")
@@ -151,7 +166,8 @@ jobs:
                   "selection_reasoning": "Placeholder data for development",
                   "processed_by_website": False,
                   "cost": 0.0,
-                  "candidate_count": 50
+                  "candidate_count": 50,
+                  "sources_scraped": 30
               }
               
               scraper_data["collected_articles"].append(new_hour_data)
@@ -184,9 +200,9 @@ jobs:
             
             git commit -m "🤖 v5 autonomous scraper: ${HOUR}
             
-            - Processed hourly articles with LLM selection
-            - Selected top 10 articles using Gemini 2.5 Flash
-            - Stored in autonomous scraper data file
+            - Processed 30+ comprehensive RSS sources
+            - Selected top 10 articles using Gemini 2.5 Flash  
+            - Protected API key ensures 24/7 reliability
             - Ready for website processor workflow" --no-verify
             
             git push

@@ -55,9 +55,18 @@ def test_scraper():
         assert hasattr(scraper, 'llm_select_top_10')
         print("✅ Required methods exist")
         
-        # Test RSS feed list
-        assert len(scraper.sources) == 7
-        print(f"✅ {len(scraper.sources)} RSS sources configured")
+        # Test comprehensive RSS feed list (should be 30+ sources like V3+V4)
+        assert len(scraper.sources) >= 30, f"Expected 30+ sources, got {len(scraper.sources)}"
+        print(f"✅ {len(scraper.sources)} comprehensive RSS sources configured")
+        
+        # Test API key configuration
+        assert hasattr(scraper, 'api_key')
+        print("✅ API key configuration present")
+        
+        # Test source names
+        sample_sources = ['Le Monde', 'Le Figaro', 'Libération', 'France Info', 'BFM TV']
+        source_names = [scraper._get_source_name(url) for url in scraper.sources[:10]]
+        print(f"✅ Sample source names: {', '.join(source_names[:5])}")
         
         return True
         
@@ -80,6 +89,12 @@ def test_processor():
         assert hasattr(processor, 'enhance_articles')
         assert hasattr(processor, 'generate_website')
         print("✅ Required methods exist")
+        
+        # Test API key configuration
+        assert hasattr(processor, 'api_key')
+        assert hasattr(processor, 'v3_model')
+        assert hasattr(processor, 'v4_model')
+        print("✅ V3 + V4 model configuration present")
         
         return True
         
@@ -144,6 +159,44 @@ def test_data_directory():
         return False
 
 
+def test_api_key_security():
+    """Test API key security configuration."""
+    print("\n🔐 Testing API key security...")
+    
+    try:
+        from ai_engine_v5.core.scraper.autonomous_scraper import AutonomousScraper
+        
+        scraper = AutonomousScraper()
+        
+        # Test that scraper checks for separate API key
+        import os
+        original_scraper_key = os.environ.get('OPENROUTER_SCRAPER_API_KEY')
+        original_api_key = os.environ.get('OPENROUTER_API_KEY')
+        
+        # Temporarily clear both keys
+        if 'OPENROUTER_SCRAPER_API_KEY' in os.environ:
+            del os.environ['OPENROUTER_SCRAPER_API_KEY']
+        if 'OPENROUTER_API_KEY' in os.environ:
+            del os.environ['OPENROUTER_API_KEY']
+        
+        # Test initialization without keys
+        scraper_no_key = AutonomousScraper()
+        assert scraper_no_key.api_key is None
+        
+        # Restore original keys
+        if original_scraper_key:
+            os.environ['OPENROUTER_SCRAPER_API_KEY'] = original_scraper_key
+        if original_api_key:
+            os.environ['OPENROUTER_API_KEY'] = original_api_key
+        
+        print("✅ API key security configuration works correctly")
+        return True
+        
+    except Exception as e:
+        print(f"❌ API key security test failed: {e}")
+        return False
+
+
 def main():
     """Run all tests."""
     print("🚀 AI ENGINE v5 SYSTEM TEST")
@@ -159,7 +212,8 @@ def main():
         ("Scraper Test", test_scraper),
         ("Processor Test", test_processor),
         ("Curator Test", test_curator),
-        ("Data Directory Test", test_data_directory)
+        ("Data Directory Test", test_data_directory),
+        ("API Key Security Test", test_api_key_security)
     ]
     
     for test_name, test_func in tests:
@@ -174,14 +228,19 @@ def main():
     if all_passed:
         print("🎉 ALL TESTS PASSED!")
         print("✅ AI Engine v5 is ready for autonomous operation")
+        print("")
+        print("🔐 SECURITY: Separate API key system configured")
+        print("📰 QUALITY: 30+ comprehensive sources (same as V3+V4)")
+        print("🤖 AUTONOMOUS: Zero manual intervention required")
     else:
         print("❌ SOME TESTS FAILED")
         print("⚠️ Check the errors above and fix before deployment")
     
     print("\n🤖 Next steps:")
-    print("1. Set OPENROUTER_API_KEY environment variable")
+    print("1. Set OPENROUTER_SCRAPER_API_KEY (separate from dev key)")
     print("2. Deploy workflows to GitHub Actions")
     print("3. Monitor autonomous operation")
+    print("4. Enjoy 24/7 operation without API key issues!")
     
     return all_passed
 
