@@ -1,174 +1,178 @@
 """
-RSS Sources Configuration for AI Engine V5
-50+ COMPREHENSIVE French news sources for autonomous scraping
+RSS Sources Configuration for AI Engine V5 - 2025-06-29 REFRESH
+100+ COMPREHENSIVE French news sources for autonomous scraping
 PHILOSOPHY: More sources = better resilience. Temporary failures are handled gracefully.
+All sources verified as of 2025-06-29.
 """
 
 RSS_SOURCES = {
-    # ================================
-    # MAJOR NATIONAL NEWS (20 sources)
-    # ================================
+    # ==========================================================
+    # CATEGORY 1: MAJOR NATIONAL & INTERNATIONAL NEWS (20 sources)
+    # ==========================================================
+    # High-quality, reliable national sources
     "Le Monde": "https://www.lemonde.fr/rss/une.xml",
     "Le Figaro": "https://www.lefigaro.fr/rss/figaro_une.xml", 
-    "Libération": "https://www.liberation.fr/arc/outboundfeeds/rss/",
+    "Libération": "http://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
     "France Info": "https://www.francetvinfo.fr/titres.rss",
-    "France 24": "https://www.france24.com/fr/rss",
-    "RFI": "https://www.rfi.fr/fr/rss",
-    "Europe 1": "https://www.europe1.fr/rss.xml",
-    "RTL": "https://www.rtl.fr/rss/une.xml",
-    "LCI": "https://www.lci.fr/rss/",
-    "Public Sénat": "https://www.publicsenat.fr/rss",
-    # RESTORED ORIGINAL SOURCES (even if they sometimes fail)
-    "CNEWS": "https://www.cnews.fr/rss/",  # RESTORED - might work sometimes
-    "FranceInter": "https://www.franceinter.fr/rss/a-la-une.xml",  # RESTORED
-    "BFM TV": "https://www.bfmtv.com/rss/",  # Main BFM feed
-    "TF1 Info": "https://www.tf1info.fr/rss/",
-    "M6 Info": "https://www.6play.fr/rss/",
-    "iTélé": "https://www.itele.fr/rss/",
-    "France Culture": "https://www.franceculture.fr/rss/",
-    "France Musique": "https://www.francemusique.fr/rss/",
-    "TV5 Monde": "https://information.tv5monde.com/rss/",
-    "Euronews France": "https://fr.euronews.com/rss/",
-    
-    # ================================
-    # ECONOMY & BUSINESS (15 sources)
-    # ================================
-    "L'Usine Nouvelle": "https://www.usinenouvelle.com/rss/",
-    "Capital": "https://www.capital.fr/rss",
-    "Les Échos": "https://www.lesechos.fr/rss/",
-    "Challenges": "https://www.challenges.fr/rss/",
-    "Journal du Net": "https://www.journaldunet.com/rss/",
-    # RESTORED + MORE
-    "La Tribune Lyon": "https://www.latribune.fr/economie/rss.xml",  # RESTORED
-    "BFM Business": "https://www.bfmtv.com/economie/rss/",  # RESTORED
-    "L'Opinion": "https://www.lopinion.fr/rss/",
-    "La Tribune": "https://www.latribune.fr/rss/",
-    "Décideurs Magazine": "https://www.magazine-decideurs.com/rss/",
-    "Boursorama": "https://www.boursorama.com/rss/",
-    "Zone Bourse": "https://www.zonebourse.com/rss/",
-    "Investir": "https://investir.lesechos.fr/rss/",
-    "Management": "https://www.management.fr/rss/",
-    "Entreprendre": "https://www.entreprendre.fr/rss/",
-    
-    # ================================
-    # REGIONAL NEWS (20 sources)
-    # ================================
-    "Ouest-France": "https://www.ouest-france.fr/rss/",
-    "La Voix du Nord": "https://www.lavoixdunord.fr/rss/",
-    "Sud Ouest": "https://www.sudouest.fr/rss/",
-    "Le Parisien": "https://feeds.leparisien.fr/leparisien/rss",
-    "Le Progrès": "https://www.leprogres.fr/rss/",
-    # RESTORED ORIGINAL REGIONAL
-    "20 Minutes": "https://www.20minutes.fr/rss/",  # RESTORED
-    "Midi Libre": "https://www.midilibre.fr/rss/",  # RESTORED
-    "La Dépêche": "https://www.ladepeche.fr/rss/",  # RESTORED
-    "L'Est Républicain": "https://www.estrepublicain.fr/rss/",  # RESTORED
-    # MORE REGIONAL
-    "Nice-Matin": "https://www.nicematin.com/rss/",
-    "Var-Matin": "https://www.varmatin.com/rss/",
-    "La Provence": "https://www.laprovence.com/rss/",
-    "La Montagne": "https://www.lamontagne.fr/rss/",
-    "Le Berry Républicain": "https://www.leberry.fr/rss/",
-    "L'Yonne Républicaine": "https://www.lyonne.fr/rss/",
-    "Le Journal de Saône-et-Loire": "https://www.lejsl.com/rss/",
-    "Les Dernières Nouvelles d'Alsace": "https://www.dna.fr/rss/",
-    "L'Alsace": "https://www.lalsace.fr/rss/",
-    "Vosges Matin": "https://www.vosgesmatin.fr/rss/",
-    "Le Républicain Lorrain": "https://www.republicain-lorrain.fr/rss/",
-    
-    # ================================
-    # TECH & INNOVATION (12 sources)
-    # ================================
-    "01net": "https://www.01net.com/rss/",
-    "Numerama": "https://www.numerama.com/rss/",
-    "ZDNet France": "https://www.zdnet.fr/feeds/rss/",
-    "Frandroid": "https://www.frandroid.com/rss/",
-    "L'Informaticien": "https://www.linformaticien.com/rss/",
-    # RESTORED + MORE
-    "Clubic": "https://www.clubic.com/rss/",  # RESTORED
-    "Tom's Hardware": "https://www.tomshardware.fr/rss/",
-    "Silicon": "https://www.silicon.fr/rss/",
-    "ITespresso": "https://www.itespresso.fr/rss/",
-    "LeMondeInformatique": "https://www.lemondeinformatique.fr/rss/",
-    "Journal du Geek": "https://www.journaldugeek.com/rss/",
-    "Presse Citron": "https://www.presse-citron.net/rss/",
-    
-    # ================================
-    # SOCIETY & CULTURE (10 sources)
-    # ================================
-    "Marianne": "https://www.marianne.net/rss.xml",
-    "L'Obs": "https://www.nouvelobs.com/rss/",
     "Le Point": "https://www.lepoint.fr/rss.xml",
-    "Télérama": "https://www.telerama.fr/rss/",
-    # RESTORED + MORE
-    "Courrier International": "https://www.courrierinternational.com/rss/",  # RESTORED
-    "L'Express": "https://www.lexpress.fr/rss/",  # RESTORED
-    "Rue89": "https://www.rue89.nouvelobs.com/rss/",
-    "Mediapart": "https://www.mediapart.fr/rss/",
-    "Politis": "https://www.politis.fr/rss/",
-    "Charlie Hebdo": "https://charliehebdo.fr/rss/",
+    "L'Obs": "https://www.nouvelobs.com/rss/",
+    "L'Express": "https://www.lexpress.fr/rss/alaune.xml",
+    "Marianne": "https://www.marianne.net/rss",
+    "Le Parisien": "https://www.leparisien.fr/arc/outboundfeeds/rss/category/a-la-une",
     
-    # ================================
-    # GOVERNMENT & OFFICIAL (8 sources)
-    # ================================
-    "Service-public.fr": "https://www.service-public.fr/rss/",
-    "Gouvernement.fr": "https://www.gouvernement.fr/rss/",
-    # RESTORED + MORE
-    "Vie Publique": "https://www.vie-publique.fr/rss/",  # RESTORED
-    "Sénat": "https://www.senat.fr/rss/",  # RESTORED
-    "Assemblée Nationale": "https://www.assemblee-nationale.fr/rss/",
-    "Élysée": "https://www.elysee.fr/rss/",
-    "Légifrance": "https://www.legifrance.gouv.fr/rss/",
-    "CNIL": "https://www.cnil.fr/rss/",
+    # International perspective
+    "France 24": "https://www.france24.com/fr/rss",
+    "RFI": "http://www.rfi.fr/fr/rss",
+    "Courrier International": "https://www.courrierinternational.com/feed/all/rss.xml",
+    "Euronews France": "http://feeds.feedburner.com/euronews/fr/home/",
+    "TV5 Monde": "https://information.tv5monde.com/fr/rss-info",
     
-    # ================================
-    # SPECIALIZED TOPICS (15 sources)
-    # ================================
-    # Sports
-    "L'Équipe": "https://www.lequipe.fr/rss/",
-    "RMC Sport": "https://rmcsport.bfmtv.com/rss/",
-    "Foot Mercato": "https://www.footmercato.net/rss/",
+    # Popular news aggregators
+    "20 Minutes": "https://www.20minutes.fr/rss/une.xml",
     
+    # Broadcast media
+    "Europe 1": "https://www.europe1.fr/rss.xml",
+    "RTL": "https://www.rtl.fr/podcast.xml", # Changed from news to podcast feed, more stable
+    "FranceInter": "https://www.radiofrance.fr/franceinter/rss", # Main RSS feed from Radio France
+    "France Culture": "https://www.radiofrance.fr/franceculture/rss", # Main RSS feed
+    "BFM TV": "https://www.bfmtv.com/rss/news-24-7.xml", # More specific feed
+
+    # ==================================================
+    # CATEGORY 2: ECONOMY & BUSINESS (15 sources)
+    # ==================================================
+    "Les Échos": "https://syndication.lesechos.fr/rss/rss_une.xml",
+    "La Tribune": "https://www.latribune.fr/feed/rss.xml",
+    "Capital": "https://www.capital.fr/rss2",
+    "Challenges": "https://www.challenges.fr/feed/",
+    "L'Usine Nouvelle": "https://www.usinenouvelle.com/rss",
+    "BFM Business": "https://www.bfmtv.com/rss/economie.xml",
+    "Journal du Net": "http://www.journaldunet.com/web-tech/rss/",
+    "Entreprendre": "https://www.entreprendre.fr/feed/",
+    "L'Opinion": "https://www.lopinion.fr/feeds/rss/toutes-les-actualites",
+    "Boursorama": "https://www.boursorama.com/actualites/rss",
+    "Investir": "https://investir.lesechos.fr/rss/index.xml",
+    "Management": "https://www.management.fr/feed/rss_management",
+    "La Croix": "https://www.la-croix.com/rss/sitemap.xml", # Good economy section
+    "Actu.fr - Économie": "https://actu.fr/economie/feed",
+    "L'Agefi": "https://www.agefi.fr/rss.xml",
+
+    # ==================================================
+    # CATEGORY 3: REGIONAL NEWS (20 sources)
+    # ==================================================
+    "Ouest-France": "https://www.ouest-france.fr/rss/une",
+    "Sud Ouest": "https://www.sudouest.fr/rss.xml",
+    "La Voix du Nord": "https://www.lavoixdunord.fr/rss",
+    "Nice-Matin": "https://www.nicematin.com/rss",
+    "Le Progrès": "https://www.leprogres.fr/rss",
+    "La Dépêche du Midi": "https://www.ladepeche.fr/rss.xml",
+    "L'Est Républicain": "https://www.estrepublicain.fr/rss",
+    "Le Dauphiné Libéré": "https://www.ledauphine.com/rss",
+    "Midi Libre": "https://www.midilibre.fr/rss.xml",
+    "La Provence": "https://www.laprovence.com/rss?format=xml",
+    "Actu.fr": "https://actu.fr/feed/", # Excellent national-level regional aggregator
+    "Le Télégramme": "https://www.letelegramme.fr/rss",
+    "DNA": "https://www.dna.fr/rss",
+    "L'Union": "https://www.lunion.fr/rss/actu",
+    "La Montagne": "https://www.lamontagne.fr/rss",
+    "Le Bien Public": "https://www.bienpublic.com/rss",
+    "L'Indépendant": "https://www.lindependant.fr/rss.xml",
+    "Le Populaire du Centre": "https://www.lepopulaire.fr/rss",
+    "La Nouvelle République": "https://www.lanouvellerepublique.fr/rss/info",
+    "Corse-Matin": "https://www.corsematin.com/rss",
+
+    # ==================================================
+    # CATEGORY 4: TECH & INNOVATION (15 sources)
+    # ==================================================
+    "Numerama": "https://www.numerama.com/feed/",
+    "Frandroid": "https://www.frandroid.com/feed",
+    "Journal du Geek": "https://www.journaldugeek.com/feed/",
+    "Presse-citron": "https://www.presse-citron.net/feed/",
+    "01net": "https://www.01net.com/actualites/feed/",
+    "Clubic": "https://www.clubic.com/feed",
+    "Tom's Guide": "https://www.tomsguide.fr/feed/",
+    "Siècle Digital": "https://siecledigital.fr/feed/",
+    "ZDNet France": "https://www.zdnet.fr/rss.xml",
+    "Le Monde Informatique": "https://www.lemondeinformatique.fr/flux-rss/thematique/toute-l-actualite/rss.xml",
+    "Silicon.fr": "https://www.silicon.fr/feed",
+    "Maddyness": "https://www.maddyness.com/feed/",
+    "L'ADN": "https://www.ladn.eu/feed/",
+    "FrenchWeb": "https://www.frenchweb.fr/feed",
+    "ITespresso": "https://www.itespresso.fr/feed",
+
+    # ==================================================
+    # CATEGORY 5: SOCIETY & CULTURE (15 sources)
+    # ==================================================
+    "Télérama": "https://www.telerama.fr/rss",
+    "France Culture": "https://www.radiofrance.fr/franceculture/podcasts/rss",
+    "The Conversation": "https://theconversation.com/fr/articles.rss",
+    "Slate.fr": "http://www.slate.fr/rss.xml",
+    "Usbek & Rica": "https://usbeketrica.com/fr/rss",
+    "Philosophie Magazine": "https://www.philomag.com/rss.xml",
+    "Le Journal des Arts": "https://www.lejournaldesarts.fr/rss.xml",
+    "Beaux Arts Magazine": "https://www.beauxarts.com/rss",
+    "Konbini": "https://www.konbini.com/fr/feed/",
+    "Les Inrockuptibles": "https://www.lesinrocks.com/feed/",
+    "Causette": "https://www.causette.fr/feed",
+    "So Foot": "https://www.sofoot.com/rss.xml",
+    "L'Équipe": "https://www.lequipe.fr/rss/actu_rss.xml",
+    "Sortir à Paris": "https://www.sortiraparis.com/rss",
+    "FIP": "https://www.radiofrance.fr/fip/rss",
+
+    # ==================================================
+    # CATEGORY 6: GOVERNMENT & OFFICIAL (8 sources)
+    # ==================================================
+    "Service-public.fr": "https://www.service-public.fr/actualites/rss",
+    "Vie-publique.fr": "https://www.vie-publique.fr/rss.xml",
+    "Gouvernement.fr": "https://www.gouvernement.fr/flux/rss.xml",
+    "Sénat": "https://www.senat.fr/rss/actualites.xml",
+    "Assemblée Nationale": "https://www.assemblee-nationale.fr/dyn/rss/actualites",
+    "CNIL": "https://www.cnil.fr/fr/rss.xml",
+    "INSEE": "https://www.insee.fr/fr/rss/rss.xml",
+    "Cour des comptes": "https://www.ccomptes.fr/fr/rss.xml",
+
+    # ==================================================
+    # CATEGORY 7: SPECIALIZED TOPICS (12 sources)
+    # ==================================================
     # Health & Science
-    "Doctissimo": "https://www.doctissimo.fr/rss/",
-    "Futura Sciences": "https://www.futura-sciences.com/rss/",
-    "Science et Avenir": "https://www.sciencesetavenir.fr/rss/",
-    
+    "Science & Vie": "https://www.science-et-vie.com/feed",
+    "Futura Sciences": "https://www.futura-sciences.com/rss/actualites.xml",
+    "Sciences et Avenir": "https://www.sciencesetavenir.fr/feed",
+    "Le Journal de la Santé": "https://www.lejournaldelasante.be/feed/", # Belgian but good
+    "Pour la Science": "https://www.pourlascience.fr/rss.xml",
+
     # Environment
-    "Actu Environnement": "https://www.actu-environnement.com/rss/",
-    "Reporterre": "https://reporterre.net/rss/",
-    
+    "Actu-Environnement": "https://www.actu-environnement.com/rss/news.xml",
+    "Reporterre": "https://reporterre.net/spip.php?page=backend",
+    "GoodPlanet.info": "https://www.goodplanet.info/feed/",
+
     # Food & Lifestyle
-    "Marmiton": "https://www.marmiton.org/rss/",
-    "Elle": "https://www.elle.fr/rss/",
-    "Marie Claire": "https://www.marieclaire.fr/rss/",
-    
+    "Marmiton": "https://www.marmiton.org/feed/rss.aspx",
+    "750g": "https://www.750g.com/feed",
+
     # Entertainment
-    "AlloCiné": "https://www.allocine.fr/rss/",
-    "Première": "https://www.premiere.fr/rss/",
-    "Téléstar": "https://www.telestar.fr/rss/",
-    "Pure Charts": "https://www.purecharts.fr/rss/"
+    "AlloCiné": "http://rss.allocine.fr/ac/actualites/",
+    "Télé-Loisirs": "https://www.programme-tv.net/rss.xml",
 }
 
 # Validation
 def validate_rss_sources():
-    """Validate that we have 50+ comprehensive sources"""
+    """Validate that we have 100+ comprehensive sources"""
     actual_count = len(RSS_SOURCES)
     
-    if actual_count < 50:
+    if actual_count < 100:
         print(f"⚠️  Only {actual_count} sources - consider adding more for better resilience")
     else:
         print(f"🎯 RSS Sources: {actual_count} comprehensive French news sources")
     
     # Count by category
     categories = {
-        "National News": 20,
+        "National & International": 20,
         "Economy & Business": 15, 
         "Regional News": 20,
-        "Tech & Innovation": 12,
-        "Society & Culture": 10,
+        "Tech & Innovation": 15,
+        "Society & Culture": 15,
         "Government & Official": 8,
-        "Specialized Topics": 15
+        "Specialized Topics": 12
     }
     
     print("\n📊 COVERAGE BREAKDOWN:")
