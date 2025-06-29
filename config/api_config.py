@@ -22,20 +22,28 @@ from configparser import ConfigParser
 
 # 1. Try environment variable first (works well in CI / prod containers)
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_SCRAPER_API_KEY = os.getenv("OPENROUTER_SCRAPER_API_KEY")
 
 # 2. Fallback: attempt to read from optional config.ini so that local helpers
 #    work even if the user hasn't exported the variable in their shell.
-if not OPENROUTER_API_KEY:
+if not OPENROUTER_API_KEY or not OPENROUTER_SCRAPER_API_KEY:
     cfg_path = Path(__file__).resolve().parent / "config.ini"
     if cfg_path.exists():
         parser = ConfigParser()
         parser.read(cfg_path)
-        OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback=None)
+        if not OPENROUTER_API_KEY:
+            OPENROUTER_API_KEY = parser.get("secrets", "OPENROUTER_API_KEY", fallback=None)
+        if not OPENROUTER_SCRAPER_API_KEY:
+            OPENROUTER_SCRAPER_API_KEY = parser.get("secrets", "OPENROUTER_SCRAPER_API_KEY", fallback=None)
 
 # 3. Final guard
 if not OPENROUTER_API_KEY:
     raise RuntimeError(
         "OPENROUTER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_API_KEY=sk-..."
+    )
+if not OPENROUTER_SCRAPER_API_KEY:
+    raise RuntimeError(
+        "OPENROUTER_SCRAPER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_SCRAPER_API_KEY=sk-..."
     )
 
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
@@ -79,6 +87,7 @@ DEFAULT_HEADERS = {
 def setup_environment_variables():
     """Set up environment variables for API access"""
     os.environ['OPENROUTER_API_KEY'] = OPENROUTER_API_KEY
+    os.environ['OPENROUTER_SCRAPER_API_KEY'] = OPENROUTER_SCRAPER_API_KEY
     print("✅ OpenRouter API key configured in environment")
 
 def validate_api_configuration():
@@ -92,6 +101,14 @@ def validate_api_configuration():
         issues.append("⚠️ OpenRouter API key format seems incorrect")
     else:
         issues.append("✅ OpenRouter API key properly configured")
+    
+    # Check Scraper API key format
+    if not OPENROUTER_SCRAPER_API_KEY or "your_openrouter_api_key_here" in OPENROUTER_SCRAPER_API_KEY:
+        issues.append("❌ OpenRouter Scraper API key not properly configured. Please set the OPENROUTER_SCRAPER_API_KEY environment variable.")
+    elif not OPENROUTER_SCRAPER_API_KEY.startswith("sk-or-v1-"):
+        issues.append("⚠️ OpenRouter Scraper API key format seems incorrect")
+    else:
+        issues.append("✅ OpenRouter Scraper API key properly configured")
     
     # Check model configuration
     if PRIMARY_MODEL and FALLBACK_MODEL:
@@ -128,10 +145,12 @@ def test_api_configuration():
         print(f"  {result}")
     
     print(f"📊 Configuration Summary:")
-    print(f"  API Key: {'Set' if OPENROUTER_API_KEY and len(OPENROUTER_API_KEY) > 10 else 'Missing'}")
+    print(f"  Main API Key: {'Set' if OPENROUTER_API_KEY and len(OPENROUTER_API_KEY) > 10 else 'Missing'}")
+    print(f"  Scraper API Key: {'Set' if OPENROUTER_SCRAPER_API_KEY and len(OPENROUTER_SCRAPER_API_KEY) > 10 else 'Missing'}")
     print(f"  Primary Model: {PRIMARY_MODEL}")
     print(f"  Fallback Model: {FALLBACK_MODEL}")
-    print(f"  Environment Variable: {'Set' if os.getenv('OPENROUTER_API_KEY') else 'Not Set'}")
+    print(f"  Main Environment Variable: {'Set' if os.getenv('OPENROUTER_API_KEY') else 'Not Set'}")
+    print(f"  Scraper Environment Variable: {'Set' if os.getenv('OPENROUTER_SCRAPER_API_KEY') else 'Not Set'}")
     
     return all("✅" in result for result in validation_results)
 

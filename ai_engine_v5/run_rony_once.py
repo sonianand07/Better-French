@@ -61,7 +61,7 @@ async def run_rony_once():
         print(f"📊 Articles collected: {result['articles_collected']}")
         print(f"✅ Articles selected: {result['articles_selected']}")
         print(f"⏱️  Duration: {result['duration_seconds']:.1f} seconds")
-        print(f"🎯 Average quality: {result['quality_metrics']['avg_hflla_score']:.1f}")
+        print(f"🎯 Average quality: {result['quality_metrics']['avg_v3_score']:.1f}")
         print()
         
         if result['selected_articles']:

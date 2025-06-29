@@ -20,11 +20,13 @@ import logging
 from dataclasses import dataclass, asdict
 import time
 import random
+import ssl
+import certifi
 
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-from config.rss_sources import RSS_SOURCES
+from ai_engine_v5.config.rss_sources import RSS_SOURCES
 
 # Configure logging for better debugging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -152,6 +154,8 @@ class AutonomousScraper:
             'Accept': 'application/rss+xml, application/xml, text/xml, */*',
             'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8'
         }
+        ssl_context = ssl.create_default_context(cafile=certifi.where())
+        connector = aiohttp.TCPConnector(limit=10, limit_per_host=3, ssl_context=ssl_context)
         self.session = aiohttp.ClientSession(
             connector=connector, 
             timeout=timeout,
