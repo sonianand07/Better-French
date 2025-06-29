@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-engine-v5"
+version = "5.0.0"
+description = "AI Engine v5: Intelligent Separated Architecture with Semantic Curation"
+readme = "README.md"
+authors = [
+    {name = "Better French Team", email = "dev@betterfrench.io"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.11"
+
+dependencies = [
+    # Core dependencies (lightweight)
+    "requests>=2.31.0",
+    "feedparser>=6.0.10",
+    "python-dateutil>=2.8.2",
+    "pathlib",
+    
+    # For intelligent curation (no heavy ML dependencies)
+    "scikit-learn>=1.3.0",  # For basic similarity calculations
+    "spacy>=3.6.0",  # For NLP (optional, fallback to keywords)
+    
+    # Reuse v3/v4 components
+    "openai>=1.0.0",  # For v4 verification
+    "anthropic>=0.3.0",  # For v3 processing
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+ml = [
+    # Optional heavy ML dependencies for advanced semantic analysis
+    "sentence-transformers>=2.2.0",
+    "transformers>=4.21.0",
+    "torch>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sonianand07/Better-French"
+Repository = "https://github.com/sonianand07/Better-French"
+Documentation = "https://github.com/sonianand07/Better-French/tree/main/ai_engine_v5"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai_engine_v5*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "PIE", "RET", "SIM"]
+
+[project.scripts]
+ai-engine-v5-collect = "ai_engine_v5.scripts.collect:main"
+ai-engine-v5-process = "ai_engine_v5.scripts.process:main" 

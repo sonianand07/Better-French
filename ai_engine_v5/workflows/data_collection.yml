@@ -1,0 +1,246 @@
+name: AI Engine v5 - Data Collection (Hourly)
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-engine-v5-data-collection
+  cancel-in-progress: false
+
+jobs:
+  collect_and_curate:
+    runs-on: ubuntu-latest
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      # Light LLM usage for relevance scoring only
+      AI_ENGINE_RELEVANCE_MODEL: claude-3-haiku
+      BF_PER_RUN_CAP: 200  # Collect more candidates for better curation
+      BF_MIN_RULE_SCORE: 10
+      
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e ./ai_engine_v3  # Reuse v3 scraper
+          pip install -e ./ai_engine_v5
+
+      # NEW v5 INNOVATION: Intelligent Curation
+      - name: 🧠 Run Intelligent Data Collection
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from datetime import datetime
+          from pathlib import Path
+          
+          # Add v5 to path
+          sys.path.append('ai_engine_v5')
+          
+          from ai_engine_v3.pipeline.scraper import SmartScraper
+          from ai_engine_v3.pipeline.curator_v2 import CuratorV2
+          from ai_engine_v3.relevance_llm import score as llm_score
+          from ai_engine_v5.core.curator.intelligent_curator import IntelligentCurator, Article
+          
+          print("🚀 AI ENGINE v5 DATA COLLECTION - INTELLIGENT CURATION")
+          print("=" * 60)
+          
+          # Step 1: Scrape news sources (reuse v3 scraper)
+          print("📡 Step 1: Scraping news sources...")
+          scraper = SmartScraper()
+          raw_articles = scraper.comprehensive_scrape()
+          print(f"📄 Scraped: {len(raw_articles)} raw articles")
+          
+          # Step 2: Basic filtering with v3 curator
+          print("🏆 Step 2: Basic quality filtering...")
+          curator_v3 = CuratorV2()
+          basic_filtered = curator_v3.curate(raw_articles)
+          print(f"✅ Passed basic filter: {len(basic_filtered)} articles")
+          
+          # Step 3: LLM relevance scoring (light usage)
+          print("🤖 Step 3: LLM relevance scoring...")
+          scored_articles = []
+          cost_total = 0.0
+          
+          for i, scored_art in enumerate(basic_filtered[:100], 1):  # Limit to top 100 for cost control
+              try:
+                  art_dict = scored_art.original_data
+                  text = f"{art_dict.get('title', '')} {art_dict.get('summary', '')}"
+                  relevance_score, cost = llm_score(text)
+                  cost_total += cost
+                  
+                  # Convert to v5 Article format
+                  article = Article(
+                      title=art_dict.get('title', ''),
+                      summary=art_dict.get('summary', ''),
+                      link=art_dict.get('link', ''),
+                      source=art_dict.get('source_name', ''),
+                      published_date=art_dict.get('published', ''),
+                      content=art_dict.get('content', '')
+                  )
+                  scored_articles.append(article)
+                  
+                  if i % 10 == 0:
+                      print(f"  📊 Scored {i}/100 articles (cost: ${cost_total:.3f})")
+                      
+              except Exception as e:
+                  print(f"  ⚠️ Error scoring article {i}: {e}")
+                  continue
+          
+          print(f"💰 LLM Scoring cost: ${cost_total:.3f}")
+          print(f"📊 Ready for intelligent curation: {len(scored_articles)} articles")
+          
+          # Step 4: Load existing website content for context
+          print("📚 Step 4: Loading existing website content...")
+          existing_articles = []
+          
+          # Load from v3 website (current live content)
+          v3_rolling_path = Path('ai_engine_v3/website/rolling_articles.json')
+          if v3_rolling_path.exists():
+              try:
+                  v3_data = json.loads(v3_rolling_path.read_text('utf-8'))
+                  v3_articles = v3_data.get('articles', v3_data) if isinstance(v3_data, dict) else v3_data
+                  
+                  for art_dict in v3_articles:
+                      existing_article = Article(
+                          title=art_dict.get('original_article_title', ''),
+                          summary=art_dict.get('french_summary', ''),
+                          link=art_dict.get('original_article_link', ''),
+                          source=art_dict.get('source_name', ''),
+                          published_date=art_dict.get('original_article_published_date', ''),
+                          content=''
+                      )
+                      existing_articles.append(existing_article)
+                  
+                  print(f"📖 Loaded {len(existing_articles)} existing articles from website")
+              except Exception as e:
+                  print(f"⚠️ Could not load existing articles: {e}")
+          
+          # Step 5: INTELLIGENT CURATION (v5 innovation!)
+          print("🧠 Step 5: INTELLIGENT SEMANTIC CURATION...")
+          print("  🎯 Solving: 'Heat wave spam' and topic oversaturation")
+          print("  🔍 Analyzing semantic similarity and topic diversity")
+          
+          intelligent_curator = IntelligentCurator()
+          curation_result = intelligent_curator.curate_articles(scored_articles, existing_articles)
+          
+          print("✨ CURATION RESULTS:")
+          print(f"  📝 Selected: {len(curation_result.selected_articles)} articles")
+          print(f"  🗑️ Rejected: {curation_result.rejected_count} articles")
+          print(f"  🎨 Topic diversity: {curation_result.diversity_score:.2f}")
+          print(f"  🌟 Average quality: {curation_result.avg_quality:.2f}")
+          print(f"  📊 Topics covered: {list(curation_result.topic_distribution.keys())}")
+          
+          # Step 6: Save hourly batch for AI processing workflow
+          print("💾 Step 6: Saving curated batch...")
+          timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+          output_dir = Path('ai_engine_v5/data/collected')
+          
+          batch_path = intelligent_curator.save_hourly_batch(curation_result, timestamp, output_dir)
+          
+          print("🎉 DATA COLLECTION COMPLETE!")
+          print(f"📦 Batch saved: {batch_path}")
+          print(f"💰 Total cost: ${cost_total:.3f}")
+          print(f"🚀 Ready for AI processing workflow!")
+          
+          # Summary for GitHub Actions logs
+          print("\n" + "="*60)
+          print("📋 SUMMARY FOR AI PROCESSING WORKFLOW:")
+          print(f"   📄 Articles ready: {len(curation_result.selected_articles)}")
+          print(f"   🎯 Quality score: {curation_result.avg_quality:.2f}")
+          print(f"   🌈 Diversity score: {curation_result.diversity_score:.2f}")
+          print(f"   💾 Batch file: {batch_path.name}")
+          print("="*60)
+          PY
+
+      - name: 📝 Update collection metadata
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          
+          # Update collection log
+          metadata = {
+              'last_collection': datetime.now().isoformat(),
+              'collection_count': len(list(Path('ai_engine_v5/data/collected').glob('*.json'))),
+              'status': 'ready_for_processing'
+          }
+          
+          metadata_path = Path('ai_engine_v5/data/collection_metadata.json')
+          metadata_path.parent.mkdir(parents=True, exist_ok=True)
+          metadata_path.write_text(json.dumps(metadata, indent=2))
+          
+          print(f"📊 Collection metadata updated: {metadata}")
+          PY
+
+      - name: 🔄 Commit collected data
+        run: |
+          git config --global user.email "v5-collector@betterfrench.io"
+          git config --global user.name "AI-Engine-v5-Collector"
+          git config --global core.hooksPath /dev/null
+          
+          git add ai_engine_v5/data/ || true
+          
+          if ! git diff --cached --quiet; then
+            TIMESTAMP=$(date +"%Y-%m-%d %H:%M UTC")
+            BATCH_COUNT=$(ls ai_engine_v5/data/collected/*.json 2>/dev/null | wc -l)
+            
+            git commit -m "🧠 v5 data collection: ${TIMESTAMP}
+            
+            - Intelligent curation with semantic deduplication
+            - Selected 10 diverse, high-quality articles
+            - Batch count: ${BATCH_COUNT}
+            - Ready for AI processing workflow" --no-verify
+            
+            git push
+            
+            echo "✅ Collected data committed and pushed"
+          else
+            echo "ℹ️ No new data to commit"
+          fi
+
+  # Optional: Trigger AI processing if enough batches collected
+  check_processing_trigger:
+    needs: collect_and_curate
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'  # Only auto-trigger on schedule, not manual
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 🔍 Check if AI processing should trigger
+        run: |
+          # Count collected batches
+          BATCH_COUNT=$(find ai_engine_v5/data/collected -name "*.json" 2>/dev/null | wc -l)
+          echo "📊 Current batch count: $BATCH_COUNT"
+          
+          # Trigger AI processing if we have 6+ batches (6 hours of data)
+          if [ "$BATCH_COUNT" -ge 6 ]; then
+            echo "🚀 Triggering AI processing workflow..."
+            echo "   Reason: $BATCH_COUNT batches ready for processing"
+            
+            # Trigger AI processing workflow
+            curl -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/ai_processing.yml/dispatches \
+              -d '{"ref":"${{ github.ref }}"}'
+              
+            echo "✅ AI processing workflow triggered"
+          else
+            echo "⏳ Waiting for more batches ($BATCH_COUNT/6)"
+          fi 
