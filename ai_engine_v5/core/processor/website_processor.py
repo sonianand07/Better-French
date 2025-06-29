@@ -12,13 +12,22 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Import V3+V4 proven processing components
-sys.path.append(str(Path(__file__).parent.parent.parent.parent / 'ai_engine_v3'))
-sys.path.append(str(Path(__file__).parent.parent.parent.parent / 'ai_engine_v4'))
+import pathlib
+sys.path.append(str(pathlib.Path(__file__).parent.parent.parent.parent))
 
-from ai_engine_v3.processor import ProcessorV2
-from ai_engine_v3.models import Article, QualityScores
-from ai_engine_v4.client import HighLLMClient
-from ai_engine_v4.prompt_loader import render
+try:
+    from ai_engine_v3.processor import ProcessorV2
+    from ai_engine_v3.models import Article, QualityScores
+    from ai_engine_v4.client import HighLLMClient
+    from ai_engine_v4.prompt_loader import render
+except ImportError:
+    # Fallback for different path structures
+    sys.path.append(str(Path(__file__).parent.parent.parent.parent / 'ai_engine_v3'))
+    sys.path.append(str(Path(__file__).parent.parent.parent.parent / 'ai_engine_v4'))
+    from processor import ProcessorV2
+    from models import Article, QualityScores
+    from client import HighLLMClient
+    from prompt_loader import render
 
 
 class WebsiteProcessor:

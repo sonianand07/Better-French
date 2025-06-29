@@ -101,4 +101,78 @@ python qa/local/test_smoke.py http://localhost:8010
 
 ---
 
-Maintainer: **Better-French Max**  —  Last updated 2025-06-15. 
+## 6. V5 Autonomous Scraper fails with "No module named 'requests'"
+
+**Symptoms**
+```
+ModuleNotFoundError: No module named 'requests'
+```
+
+**Root cause**
+V5 workflow only installed `aiohttp feedparser` but autonomous scraper also uses `requests`.
+
+**Fix**
+Update dependency installation:
+```yaml
+- name: Install dependencies
+  run: pip install aiohttp feedparser requests
+```
+
+---
+
+## 7. V5 Website Processor fails with ModuleNotFoundError for ai_engine_v3/v4
+
+**Symptoms**
+```
+ModuleNotFoundError: No module named 'ai_engine_v3'
+```
+
+**Root cause**
+V5 processor imports V3+V4 components but packages not installed in workflow.
+
+**Fix**
+Install all engine packages:
+```yaml
+- name: Install dependencies
+  run: |
+    pip install -r requirements.txt
+    pip install -e ./ai_engine_v3
+    pip install -e ./ai_engine_v4
+    pip install -e ./ai_engine_v5
+```
+
+And add environment variables:
+```yaml
+env:
+  OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+  PYTHONPATH: ${{ github.workspace }}
+```
+
+---
+
+## 8. V5 Import path failures due to package structure
+
+**Symptoms**
+```
+ImportError: cannot import name 'ProcessorV2' from 'processor'
+```
+
+**Root cause**
+Direct path manipulation unreliable across different environments.
+
+**Fix**
+Use robust import pattern with fallbacks:
+```python
+try:
+    from ai_engine_v3.processor import ProcessorV2
+    from ai_engine_v4.client import HighLLMClient
+except ImportError:
+    # Fallback for different path structures
+    sys.path.append(str(Path(__file__).parent.parent.parent.parent / 'ai_engine_v3'))
+    from processor import ProcessorV2
+    from client import HighLLMClient
+```
+
+---
+
+Maintainer: **Better-French Max**  —  Last updated 2025-06-29. 

@@ -25,9 +25,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install aiohttp feedparser
+      - name: 📦 Install dependencies
+        run: pip install aiohttp feedparser requests
 
       - name: 🤖 Run Rony - Autonomous Scraper
         env:

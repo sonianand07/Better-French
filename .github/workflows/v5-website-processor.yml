@@ -18,6 +18,11 @@ jobs:
   process_website:
     runs-on: ubuntu-latest
     
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_SCRAPER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
+      PYTHONPATH: ${{ github.workspace }}
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -30,6 +35,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          pip install -e ./ai_engine_v3
+          pip install -e ./ai_engine_v4
+          pip install -e ./ai_engine_v5
 
       - name: 🔍 Detect new articles from Rony
         run: |
