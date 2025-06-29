@@ -4,6 +4,7 @@ AI Engine v5 - Autonomous Scraper
 Handles minimal, fast scraping with LLM-powered article selection.
 CRITICAL: Uses separate API key to ensure 24/7 reliability.
 FIXED: Now uses V3's proven scoring system instead of generic LLM prompt.
+IMPROVED: Added robust error handling, retry logic, and detailed logging.
 """
 
 import json
@@ -17,12 +18,16 @@ import aiohttp
 import feedparser
 import logging
 from dataclasses import dataclass, asdict
+import time
+import random
 
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from config.rss_sources import RSS_SOURCES
 
+# Configure logging for better debugging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Import V3's proven scoring system
@@ -107,14 +112,24 @@ class UserProfile:
 class AutonomousScraper:
     """Rony - The autonomous French news scraper
     
-    Scrapes 31 RSS sources and uses V3's PROVEN scoring system
-    combined with LLM intelligence for the best of both worlds.
+    WORLD'S BEST SCRAPER - Enhanced with:
+    - V3's PROVEN scoring system
+    - Robust error handling & retry logic
+    - Comprehensive logging for debugging
+    - Fallback mechanisms for reliability
     """
     
     def __init__(self, api_key: str, profile: Optional[UserProfile] = None):
         self.api_key = api_key
         self.profile = profile or UserProfile()  # Default profile if none provided
         self.session: Optional[aiohttp.ClientSession] = None
+        self.scraping_stats = {
+            'sources_attempted': 0,
+            'sources_successful': 0,
+            'sources_failed': 0,
+            'total_articles_scraped': 0,
+            'failed_sources': []
+        }
         
         # V3's proven keyword sets
         self.high_kw = set(HIGH_RELEVANCE_KEYWORDS)
@@ -125,8 +140,23 @@ class AutonomousScraper:
             self.profile_kw.update({w.lower() for w in profile.pain_points})
             self.profile_kw.update({w.lower() for w in profile.interests})
         
+        logger.info(f"🤖 Rony initialized with {len(self.high_kw)} high-relevance + {len(self.medium_kw)} medium-relevance keywords")
+        logger.info(f"👤 Profile: {len(self.profile_kw)} custom keywords, level={self.profile.french_level}")
+        
     async def __aenter__(self):
-        self.session = aiohttp.ClientSession()
+        # Configure session with proper headers and timeouts
+        connector = aiohttp.TCPConnector(limit=10, limit_per_host=3)
+        timeout = aiohttp.ClientTimeout(total=45, connect=15)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (compatible; RonyBot/1.0; +https://betterfrench.news)',
+            'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8'
+        }
+        self.session = aiohttp.ClientSession(
+            connector=connector, 
+            timeout=timeout,
+            headers=headers
+        )
         return self
         
     async def __aexit__(self, exc_type, exc_val, exc_tb):
@@ -143,19 +173,26 @@ class AutonomousScraper:
         txt = text.lower()
         
         # High relevance keywords (+9.0)
-        if any(kw in txt for kw in self.high_kw):
+        high_matches = [kw for kw in self.high_kw if kw in txt]
+        if high_matches:
+            logger.debug(f"High relevance match: {high_matches[:3]}")
             return 9.0
         
         # Medium relevance keywords (+7.0)
-        if any(kw in txt for kw in self.medium_kw):
+        medium_matches = [kw for kw in self.medium_kw if kw in txt]
+        if medium_matches:
+            logger.debug(f"Medium relevance match: {medium_matches[:3]}")
             return 7.0
         
         # France-wide catch-all so big national topics aren't missed (+7.0)
         if "france" in txt or "français" in txt:
+            logger.debug("France-wide relevance match")
             return 7.0
         
         # Profile-specific keywords (+6.0)
-        if self.profile_kw and any(kw in txt for kw in self.profile_kw):
+        profile_matches = [kw for kw in self.profile_kw if kw in txt]
+        if profile_matches:
+            logger.debug(f"Profile relevance match: {profile_matches[:3]}")
             return 6.0
         
         return 4.0  # Base score
@@ -210,49 +247,99 @@ class AutonomousScraper:
         article.newsworthiness_score = newsworthiness
         article.total_score = total
         
+        logger.debug(f"V3 scoring - {article.title[:50]}... = R:{relevance:.1f} P:{practical:.1f} N:{newsworthiness:.1f} TOTAL:{total:.1f}")
+        
         return article
-
-    async def _fetch_rss_feed(self, source_name: str, url: str) -> List[ArticleData]:
-        """Fetch and parse a single RSS feed"""
-        try:
-            async with self.session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as response:
-                if response.status != 200:
-                    logger.warning(f"Failed to fetch {source_name}: HTTP {response.status}")
-                    return []
+    
+    async def _fetch_rss_feed(self, source_name: str, url: str, max_retries: int = 3) -> List[ArticleData]:
+        """Fetch and parse a single RSS feed with retry logic"""
+        last_error = None
+        
+        for attempt in range(max_retries):
+            try:
+                # Add jitter to prevent thundering herd
+                if attempt > 0:
+                    await asyncio.sleep(random.uniform(1, 3) * attempt)
                 
-                content = await response.text()
-                feed = feedparser.parse(content)
+                logger.debug(f"Fetching {source_name} (attempt {attempt + 1}/{max_retries})")
                 
-                articles = []
-                for entry in feed.entries[:10]:  # Limit per source
-                    article = ArticleData(
-                        title=entry.get('title', ''),
-                        link=entry.get('link', ''),
-                        summary=entry.get('summary', entry.get('description', '')),
-                        published=entry.get('published', ''),
-                        source=source_name,
-                        hash_id=self._generate_hash(entry.get('title', ''), entry.get('link', ''))
-                    )
-                    # Calculate V3-style scores
-                    article = self._calculate_v3_score(article)
-                    articles.append(article)
-                
-                logger.info(f"Fetched {len(articles)} articles from {source_name}")
-                return articles
-                
-        except Exception as e:
-            logger.error(f"Error fetching {source_name}: {e}")
-            return []
+                async with self.session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                    if response.status == 429:  # Rate limited
+                        logger.warning(f"{source_name}: Rate limited, waiting...")
+                        await asyncio.sleep(random.uniform(5, 10))
+                        continue
+                    elif response.status == 403:
+                        logger.warning(f"{source_name}: Blocked (403) - may need different user agent")
+                        last_error = f"HTTP 403 (blocked)"
+                        continue
+                    elif response.status != 200:
+                        logger.warning(f"{source_name}: HTTP {response.status}")
+                        last_error = f"HTTP {response.status}"
+                        continue
+                    
+                    content = await response.text()
+                    feed = feedparser.parse(content)
+                    
+                    if not feed.entries:
+                        logger.warning(f"{source_name}: No entries found in feed")
+                        last_error = "No entries found"
+                        continue
+                    
+                    articles = []
+                    for entry in feed.entries[:15]:  # Increased limit per source
+                        try:
+                            article = ArticleData(
+                                title=entry.get('title', '').strip(),
+                                link=entry.get('link', '').strip(),
+                                summary=entry.get('summary', entry.get('description', '')).strip(),
+                                published=entry.get('published', ''),
+                                source=source_name,
+                                hash_id=self._generate_hash(entry.get('title', ''), entry.get('link', ''))
+                            )
+                            
+                            # Skip articles with missing critical data
+                            if not article.title or not article.link:
+                                continue
+                                
+                            # Calculate V3-style scores
+                            article = self._calculate_v3_score(article)
+                            articles.append(article)
+                            
+                        except Exception as e:
+                            logger.debug(f"Error processing entry from {source_name}: {e}")
+                            continue
+                    
+                    self.scraping_stats['sources_successful'] += 1
+                    self.scraping_stats['total_articles_scraped'] += len(articles)
+                    logger.info(f"✅ {source_name}: {len(articles)} articles (avg score: {sum(a.total_score for a in articles)/len(articles):.1f})")
+                    return articles
+                    
+            except asyncio.TimeoutError:
+                last_error = "Timeout"
+                logger.warning(f"{source_name}: Timeout on attempt {attempt + 1}")
+            except Exception as e:
+                last_error = str(e)
+                logger.warning(f"{source_name}: Error on attempt {attempt + 1}: {e}")
+        
+        # All retries failed
+        self.scraping_stats['sources_failed'] += 1
+        self.scraping_stats['failed_sources'].append({'source': source_name, 'error': last_error})
+        logger.error(f"❌ {source_name}: Failed after {max_retries} attempts - {last_error}")
+        return []
     
     async def scrape_all_sources(self) -> List[ArticleData]:
-        """Scrape all RSS sources concurrently"""
-        logger.info(f"Rony starting scrape of {len(RSS_SOURCES)} sources...")
+        """Scrape all RSS sources concurrently with improved error handling"""
+        logger.info(f"🚀 Rony starting intelligent scrape of {len(RSS_SOURCES)} sources...")
+        self.scraping_stats['sources_attempted'] = len(RSS_SOURCES)
         
-        tasks = []
-        for source_name, url in RSS_SOURCES.items():
-            task = self._fetch_rss_feed(source_name, url)
-            tasks.append(task)
+        # Create tasks with semaphore to limit concurrent requests
+        semaphore = asyncio.Semaphore(8)  # Max 8 concurrent requests
         
+        async def fetch_with_semaphore(source_name, url):
+            async with semaphore:
+                return await self._fetch_rss_feed(source_name, url)
+        
+        tasks = [fetch_with_semaphore(name, url) for name, url in RSS_SOURCES.items()]
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
         all_articles = []
@@ -260,7 +347,7 @@ class AutonomousScraper:
             if isinstance(result, list):
                 all_articles.extend(result)
             elif isinstance(result, Exception):
-                logger.error(f"Feed fetch failed: {result}")
+                logger.error(f"Unexpected error in feed fetch: {result}")
         
         # Deduplicate by hash_id
         seen_hashes = set()
@@ -270,13 +357,60 @@ class AutonomousScraper:
                 seen_hashes.add(article.hash_id)
                 unique_articles.append(article)
         
-        logger.info(f"Rony collected {len(unique_articles)} unique articles from {len(RSS_SOURCES)} sources")
+        success_rate = (self.scraping_stats['sources_successful'] / self.scraping_stats['sources_attempted']) * 100
+        logger.info(f"📊 Scraping complete: {len(unique_articles)} unique articles from {self.scraping_stats['sources_successful']}/{self.scraping_stats['sources_attempted']} sources ({success_rate:.1f}% success)")
+        
+        if self.scraping_stats['failed_sources']:
+            logger.warning(f"⚠️  Failed sources: {[s['source'] for s in self.scraping_stats['failed_sources']]}")
+        
         return unique_articles
     
+    async def _llm_request_with_retry(self, payload: Dict, max_retries: int = 3) -> Optional[Dict]:
+        """Make LLM request with exponential backoff retry"""
+        headers = {
+            'Authorization': f'Bearer {self.api_key}',
+            'Content-Type': 'application/json'
+        }
+        
+        for attempt in range(max_retries):
+            try:
+                # Exponential backoff with jitter
+                if attempt > 0:
+                    wait_time = (2 ** attempt) + random.uniform(0, 1)
+                    logger.info(f"Retrying LLM request in {wait_time:.1f}s...")
+                    await asyncio.sleep(wait_time)
+                
+                async with self.session.post(
+                    'https://openrouter.ai/api/v1/chat/completions',
+                    headers=headers,
+                    json=payload,
+                    timeout=aiohttp.ClientTimeout(total=90)  # Increased timeout
+                ) as response:
+                    
+                    if response.status == 429:  # Rate limited
+                        logger.warning(f"LLM rate limited, attempt {attempt + 1}/{max_retries}")
+                        continue
+                    elif response.status != 200:
+                        logger.error(f"LLM request failed: HTTP {response.status}")
+                        continue
+                    
+                    result = await response.json()
+                    logger.info("✅ LLM selection successful")
+                    return result
+                    
+            except asyncio.TimeoutError:
+                logger.warning(f"LLM request timeout, attempt {attempt + 1}/{max_retries}")
+            except Exception as e:
+                logger.error(f"LLM request error, attempt {attempt + 1}/{max_retries}: {e}")
+        
+        logger.error("❌ LLM selection failed after all retries")
+        return None
+
     async def _select_best_articles(self, articles: List[ArticleData]) -> List[ArticleData]:
         """Select best articles using V3's proven system + LLM intelligence"""
         
         if not articles:
+            logger.warning("No articles to select from!")
             return []
         
         logger.info("🎯 Applying V3's proven scoring system...")
@@ -284,18 +418,27 @@ class AutonomousScraper:
         # Step 1: Apply V3's threshold filter (≥10 total score like V3)
         MIN_SCORE_THRESHOLD = 10.0  # Same as V3's CuratorV2
         approved = [a for a in articles if a.total_score >= MIN_SCORE_THRESHOLD]
-        logger.info(f"V3 scoring: {len(approved)}/{len(articles)} articles passed threshold (≥{MIN_SCORE_THRESHOLD})")
+        logger.info(f"📊 V3 scoring: {len(approved)}/{len(articles)} articles passed threshold (≥{MIN_SCORE_THRESHOLD})")
         
         if not approved:
-            logger.warning("No articles passed V3 quality threshold - lowering standards")
+            logger.warning("⚠️  No articles passed V3 quality threshold - lowering standards...")
             # Fallback: lower threshold
             approved = [a for a in articles if a.total_score >= 8.0]
+            logger.info(f"📊 Fallback threshold: {len(approved)} articles passed (≥8.0)")
+        
+        if not approved:
+            logger.error("❌ No articles passed even lowered threshold - taking top 10 by score")
+            approved = sorted(articles, key=lambda x: x.total_score, reverse=True)[:10]
         
         # Step 2: Sort by V3 total score
         approved.sort(key=lambda x: x.total_score, reverse=True)
         
-        # Step 3: Apply V3's global event capping (like CuratorV2)
-        # For now, we'll just take top articles by score
+        # Step 3: Quality metrics
+        if approved:
+            avg_score = sum(a.total_score for a in approved) / len(approved)
+            min_score = min(a.total_score for a in approved)
+            max_score = max(a.total_score for a in approved)
+            logger.info(f"🎯 V3 Quality metrics: avg={avg_score:.1f}, min={min_score:.1f}, max={max_score:.1f}")
         
         # Step 4: LLM final selection for diversity and profile fit
         if len(approved) > 10:
@@ -337,56 +480,35 @@ PRE-SCORED ARTICLES:
 Respond with ONLY the numbers of the 10 best articles for this user, separated by commas.
 Example: 1,3,7,12,15,18,22,25,28,30"""
 
-            try:
-                headers = {
-                    'Authorization': f'Bearer {self.api_key}',
-                    'Content-Type': 'application/json'
-                }
-                
-                payload = {
-                    'model': 'google/gemini-2.0-flash-exp:free',
-                    'messages': [
-                        {
-                            'role': 'user', 
-                            'content': prompt
-                        }
-                    ],
-                    'max_tokens': 50,
-                    'temperature': 0.3
-                }
-                
-                async with self.session.post(
-                    'https://openrouter.ai/api/v1/chat/completions',
-                    headers=headers,
-                    json=payload,
-                    timeout=aiohttp.ClientTimeout(total=60)
-                ) as response:
-                    if response.status != 200:
-                        logger.error(f"LLM diversity selection failed: {response.status}")
-                        # Fallback: take top 10 by V3 score
-                        return approved[:10]
-                    
-                    result = await response.json()
-                    selected_text = result['choices'][0]['message']['content'].strip()
+            payload = {
+                'model': 'google/gemini-2.0-flash-exp:free',
+                'messages': [{'role': 'user', 'content': prompt}],
+                'max_tokens': 100,
+                'temperature': 0.3
+            }
+            
+            llm_result = await self._llm_request_with_retry(payload)
+            
+            if llm_result:
+                try:
+                    selected_text = llm_result['choices'][0]['message']['content'].strip()
                     
                     # Parse selected indices
-                    try:
-                        selected_indices = [int(x.strip()) - 1 for x in selected_text.split(',')]
-                        selected_articles = [top_candidates[i] for i in selected_indices if 0 <= i < len(top_candidates)]
-                        
-                        if len(selected_articles) >= 8:  # Accept if we got most articles
-                            logger.info(f"🎯 V3+LLM selection: {len(selected_articles)} articles (V3 scoring + LLM diversity)")
-                            return selected_articles[:10]
-                        else:
-                            logger.warning("LLM selection returned too few articles - using V3 top 10")
-                            return approved[:10]
-                        
-                    except (ValueError, IndexError) as e:
-                        logger.error(f"Failed to parse LLM selection: {e}")
+                    selected_indices = [int(x.strip()) - 1 for x in selected_text.split(',')]
+                    selected_articles = [top_candidates[i] for i in selected_indices if 0 <= i < len(top_candidates)]
+                    
+                    if len(selected_articles) >= 8:  # Accept if we got most articles
+                        logger.info(f"🎯 V3+LLM selection: {len(selected_articles)} articles (V3 scoring + LLM diversity)")
+                        return selected_articles[:10]
+                    else:
+                        logger.warning("⚠️  LLM selection returned too few articles - using V3 top 10")
                         return approved[:10]
-                        
-            except Exception as e:
-                logger.error(f"LLM diversity selection failed: {e}")
+                    
+                except (ValueError, IndexError) as e:
+                    logger.error(f"Failed to parse LLM selection: {e}")
+                    return approved[:10]
+            else:
+                logger.warning("LLM diversity selection failed - using V3 top 10")
                 return approved[:10]  # Fallback to V3 scoring
         
         else:
@@ -397,12 +519,13 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
     async def run_autonomous_cycle(self) -> Dict:
         """Complete autonomous scraping and selection cycle"""
         start_time = datetime.now()
+        logger.info("🚀 Starting Rony's autonomous cycle...")
         
         # Step 1: Scrape all sources
         all_articles = await self.scrape_all_sources()
         
         if not all_articles:
-            logger.warning("No articles collected!")
+            logger.error("❌ No articles collected!")
             return {
                 "timestamp": start_time.isoformat(),
                 "articles_collected": 0,
@@ -410,7 +533,8 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                 "selected_articles": [],
                 "profile_used": asdict(self.profile),
                 "v3_scoring_applied": True,
-                "selection_method": "V3 proven system + LLM diversity"
+                "selection_method": "V3 proven system + LLM diversity",
+                "scraping_stats": self.scraping_stats
             }
         
         # Step 2: Intelligent selection using V3's proven system + LLM
@@ -432,7 +556,8 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
         logger.info(f"   🎯 V3 Quality: avg={avg_v3_score:.1f}, min={min_v3_score:.1f}, max={max_v3_score:.1f}")
         logger.info(f"   ✅ PROVEN V3 scoring system preserved!")
         
-        return {
+        # Step 3: INTELLIGENT DATA PERSISTENCE - No overwrites, smart merging
+        current_run_data = {
             "timestamp": start_time.isoformat(),
             "duration_seconds": duration,
             "articles_collected": len(all_articles),
@@ -440,6 +565,7 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
             "selected_articles": [asdict(article) for article in selected_articles],
             "profile_used": asdict(self.profile),
             "sources_scraped": list(RSS_SOURCES.keys()),
+            "scraping_stats": self.scraping_stats,
             "v3_scoring_applied": True,
             "selection_method": "V3 proven system + LLM diversity",
             "quality_metrics": {
@@ -448,6 +574,180 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                 "max_v3_score": max_v3_score,
                 "threshold_used": 10.0
             }
+        }
+        
+        # Save with intelligent merging
+        await self._intelligent_data_persistence(current_run_data, selected_articles)
+        
+        return current_run_data
+    
+    async def _intelligent_data_persistence(self, run_data: Dict, new_articles: List[ArticleData]) -> None:
+        """
+        INTELLIGENT DATA PERSISTENCE - World's best scraper deserves world's best data handling!
+        
+        Rules:
+        1. NEVER overwrite good data
+        2. ALWAYS merge intelligently 
+        3. PRESERVE quality improvements
+        4. TRACK all runs for debugging
+        5. DEDUPLICATE by hash but keep highest quality version
+        """
+        from pathlib import Path
+        import json
+        
+        data_dir = Path('ai_engine_v5/data')
+        data_dir.mkdir(parents=True, exist_ok=True)
+        data_file = data_dir / 'scraper_data.json'
+        
+        # Load existing data
+        if data_file.exists():
+            try:
+                existing_data = json.loads(data_file.read_text(encoding='utf-8'))
+            except Exception as e:
+                logger.error(f"Failed to load existing data: {e} - starting fresh")
+                existing_data = self._create_empty_data_structure()
+        else:
+            existing_data = self._create_empty_data_structure()
+            logger.info("📝 Creating new scraper data file")
+        
+        # Get current hour key for organization
+        current_hour = datetime.now().replace(minute=0, second=0, microsecond=0)
+        hour_key = current_hour.isoformat()
+        
+        logger.info(f"💾 Intelligent persistence for hour: {hour_key}")
+        
+        # Step 1: Always add to run history (for debugging and analysis)
+        existing_data["run_history"].append(run_data)
+        existing_data["total_runs"] += 1
+        
+        # Step 2: Intelligent article merging for current hour
+        current_hour_data = None
+        for hour_data in existing_data["active_articles"]:
+            if hour_data["hour"] == hour_key:
+                current_hour_data = hour_data
+                break
+        
+        if current_hour_data is None:
+            # First run for this hour - add new data
+            logger.info("📅 First run for this hour - adding new articles")
+            hour_data = {
+                "hour": hour_key,
+                "articles": [asdict(article) for article in new_articles],
+                "processed_by_website": False,
+                "runs_count": 1,
+                "last_updated": run_data["timestamp"],
+                "quality_history": [run_data["quality_metrics"]],
+                "best_avg_score": run_data["quality_metrics"]["avg_v3_score"],
+                "improvement_log": ["Initial scrape"]
+            }
+            existing_data["active_articles"].append(hour_data)
+            
+        else:
+            # Multiple runs for same hour - INTELLIGENT MERGE
+            logger.info(f"🔄 Multiple runs for hour {hour_key} - applying intelligent merge...")
+            
+            # Compare quality metrics
+            old_avg = current_hour_data["best_avg_score"]
+            new_avg = run_data["quality_metrics"]["avg_v3_score"]
+            
+            # Merge articles intelligently by hash_id, keeping highest scoring version
+            existing_articles = {art["hash_id"]: art for art in current_hour_data["articles"]}
+            new_articles_dict = {asdict(art)["hash_id"]: asdict(art) for art in new_articles}
+            
+            merged_articles = {}
+            improvements_count = 0
+            additions_count = 0
+            
+            # Process existing articles
+            for hash_id, existing_art in existing_articles.items():
+                if hash_id in new_articles_dict:
+                    new_art = new_articles_dict[hash_id]
+                    # Keep the higher scoring version
+                    if new_art["total_score"] > existing_art["total_score"]:
+                        merged_articles[hash_id] = new_art
+                        improvements_count += 1
+                        logger.debug(f"📈 Improved: {existing_art['title'][:40]}... ({existing_art['total_score']:.1f} → {new_art['total_score']:.1f})")
+                    else:
+                        merged_articles[hash_id] = existing_art
+                else:
+                    # Keep existing article that wasn't found in new run
+                    merged_articles[hash_id] = existing_art
+            
+            # Add completely new articles
+            for hash_id, new_art in new_articles_dict.items():
+                if hash_id not in existing_articles:
+                    merged_articles[hash_id] = new_art
+                    additions_count += 1
+                    logger.debug(f"➕ New article: {new_art['title'][:40]}...")
+                    
+            # Update hour data with merged results
+            current_hour_data["articles"] = list(merged_articles.values())
+            current_hour_data["runs_count"] += 1
+            current_hour_data["last_updated"] = run_data["timestamp"]
+            current_hour_data["quality_history"].append(run_data["quality_metrics"])
+            current_hour_data["best_avg_score"] = max(old_avg, new_avg)
+            
+            # Track improvement log
+            if improvements_count > 0 or additions_count > 0:
+                improvement_msg = f"Run {current_hour_data['runs_count']}: "
+                if improvements_count > 0:
+                    improvement_msg += f"{improvements_count} improved"
+                if additions_count > 0:
+                    if improvements_count > 0:
+                        improvement_msg += f", {additions_count} added"
+                    else:
+                        improvement_msg += f"{additions_count} added"
+                if new_avg > old_avg:
+                    improvement_msg += f" (avg score: {old_avg:.1f} → {new_avg:.1f})"
+                current_hour_data["improvement_log"].append(improvement_msg)
+                logger.info(f"✨ QUALITY IMPROVEMENT: {improvement_msg}")
+            else:
+                current_hour_data["improvement_log"].append(f"Run {current_hour_data['runs_count']}: No improvements")
+                logger.info("📊 No quality improvements this run")
+        
+        # Step 3: Cleanup old data (keep last 48 hours of active articles)
+        if len(existing_data["active_articles"]) > 48:
+            existing_data["active_articles"] = existing_data["active_articles"][-48:]
+            logger.debug("🧹 Cleaned up old active articles (kept last 48 hours)")
+        
+        # Step 4: Cleanup run history (keep last 100 runs)
+        if len(existing_data["run_history"]) > 100:
+            existing_data["run_history"] = existing_data["run_history"][-100:]
+            logger.debug("🧹 Cleaned up old run history (kept last 100 runs)")
+        
+        # Step 5: Update metadata
+        existing_data["metadata"]["last_updated"] = run_data["timestamp"]
+        existing_data["metadata"]["last_avg_score"] = run_data["quality_metrics"]["avg_v3_score"]
+        
+        # Step 6: Save atomically (write to temp file first, then rename)
+        temp_file = data_file.with_suffix('.tmp')
+        try:
+            temp_file.write_text(json.dumps(existing_data, indent=2, ensure_ascii=False), encoding='utf-8')
+            temp_file.rename(data_file)
+            logger.info(f"💾 Data saved with intelligent merging: {data_file}")
+            
+            # Log final statistics
+            total_active_articles = sum(len(h["articles"]) for h in existing_data["active_articles"])
+            logger.info(f"📊 Final stats: {len(existing_data['active_articles'])} active hours, {total_active_articles} total articles")
+            
+        except Exception as e:
+            logger.error(f"Failed to save data: {e}")
+            if temp_file.exists():
+                temp_file.unlink()
+    
+    def _create_empty_data_structure(self) -> Dict:
+        """Create empty data structure for new scraper data file"""
+        return {
+            "metadata": {
+                "created_at": datetime.now().isoformat(),
+                "last_updated": "",
+                "data_version": "v5_intelligent_persistence",
+                "scraper_version": "Rony World's Best Scraper v1.0",
+                "last_avg_score": 0.0
+            },
+            "active_articles": [],  # Articles ready for website processing
+            "run_history": [],      # All runs for analysis and debugging
+            "total_runs": 0
         }
 
 # Convenience function for single-use
