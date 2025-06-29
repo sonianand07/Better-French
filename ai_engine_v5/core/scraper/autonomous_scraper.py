@@ -7,356 +7,284 @@ CRITICAL: Uses separate API key to ensure 24/7 reliability.
 import json
 import requests
 import os
-from typing import List, Dict, Any
-from datetime import datetime, timezone
+from typing import List, Dict, Any, Optional, Set
+from datetime import datetime, timezone, timedelta
 import hashlib
+import asyncio
+import aiohttp
+import feedparser
+import logging
+from dataclasses import dataclass, asdict
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+from config.rss_sources import RSS_SOURCES
+
+logger = logging.getLogger(__name__)
+
+@dataclass
+class ArticleData:
+    title: str
+    link: str
+    summary: str
+    published: str
+    source: str
+    hash_id: str
+    raw_content: str = ""
+
+@dataclass  
+class UserProfile:
+    """Profile data for personalized article selection"""
+    user_id: str = "default"
+    native_lang: str = "en"
+    french_level: str = "B1"
+    lives_in: str = ""
+    work_domains: List[str] = None
+    pain_points: List[str] = None
+    interests: List[str] = None
+    
+    def __post_init__(self):
+        if self.work_domains is None:
+            self.work_domains = []
+        if self.pain_points is None:
+            self.pain_points = []
+        if self.interests is None:
+            self.interests = []
+    
+    @classmethod
+    def from_json(cls, profile_data: Dict) -> 'UserProfile':
+        return cls(**profile_data)
+    
+    def get_keywords(self) -> Set[str]:
+        """Get all profile keywords for relevance scoring"""
+        keywords = set()
+        keywords.update(kw.lower() for kw in self.work_domains)
+        keywords.update(kw.lower() for kw in self.pain_points)
+        keywords.update(kw.lower() for kw in self.interests)
+        if self.lives_in:
+            keywords.add(self.lives_in.lower())
+        return keywords
 
 class AutonomousScraper:
-    """Self-contained autonomous scraper for hourly news collection."""
+    """Rony - The autonomous French news scraper
     
-    def __init__(self):
-        # CRITICAL: Separate API key for scraper to avoid development interference
-        self.api_key = os.getenv('OPENROUTER_SCRAPER_API_KEY') or os.getenv('OPENROUTER_API_KEY')
-        self.selection_model = os.getenv('AI_ENGINE_SELECTION_MODEL', 'google/gemini-2.0-flash-exp')
-        
-        # COMPREHENSIVE RSS SOURCES - Same quality as V3+V4 combined
-        self.sources = [
-            # Major French Newspapers
-            "https://www.lemonde.fr/rss/une.xml",
-            "https://www.lefigaro.fr/rss/figaro_actualites.xml",
-            "https://www.liberation.fr/arc/outboundfeeds/rss-all/",
-            "https://feeds.leparisien.fr/leparisien/rss",
-            "https://www.lexpress.fr/arc/outboundfeeds/rss/alaune.xml",
-            "http://www.lepoint.fr/rss.xml",
-            "http://tempsreel.nouvelobs.com/rss.xml",
-            "https://www.la-croix.com/RSS",
-            "https://www.lesechos.fr/rss/rss_la_une.xml",
-            
-            # TV/Radio News
-            "https://www.bfmtv.com/rss/news-24-7/",
-            "https://www.francetvinfo.fr/titres.rss",
-            "https://www.franceinter.fr/rss",
-            "https://www.europe1.fr/rss.xml",
-            "https://www.france24.com/fr/rss",
-            "https://rfi.fr/fr/rss",
-            
-            # Regional/Specialized
-            "https://www.ouest-france.fr/rss/une",
-            "https://partner-feeds.20min.ch/rss/20minutes",
-            "https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed",
-            
-            # Alternative/Independent
-            "https://www.mediapart.fr/articles/feed",
-            "https://brief.me/rss",
-            
-            # Le Monde Categories (comprehensive coverage)
-            "https://www.lemonde.fr/politique/rss_full.xml",
-            "https://www.lemonde.fr/international/rss_full.xml",
-            "https://www.lemonde.fr/economie/rss_full.xml",
-            "https://www.lemonde.fr/culture/rss_full.xml",
-            "https://www.lemonde.fr/sport/rss_full.xml",
-            "https://www.lemonde.fr/sciences/rss_full.xml",
-            
-            # Additional comprehensive sources
-            "https://www.franceinfo.fr/politique.rss",
-            "https://www.franceinfo.fr/monde.rss",
-            "https://www.franceinfo.fr/economie.rss",
-            "https://www.franceinfo.fr/societe.rss",
-            "https://www.franceinfo.fr/culture.rss"
-        ]
-        
-        print(f"🔐 Scraper API Key: {'PROTECTED' if self.api_key else 'MISSING'}")
-        print(f"📰 Comprehensive sources: {len(self.sources)} RSS feeds")
+    Scrapes 31 RSS sources and uses Gemini 2.5 Flash to select
+    the top 10 articles based on profile preferences.
+    """
     
-    def scrape_current_hour(self) -> List[Dict[str, Any]]:
-        """Scrape articles for current hour - comprehensive but fast."""
-        print("📡 Starting comprehensive autonomous scrape...")
-        print(f"🌐 Scraping {len(self.sources)} sources for maximum coverage")
+    def __init__(self, api_key: str, profile: Optional[UserProfile] = None):
+        self.api_key = api_key
+        self.profile = profile or UserProfile()  # Default profile if none provided
+        self.session: Optional[aiohttp.ClientSession] = None
         
-        candidates = []
-        current_time = datetime.now(timezone.utc)
-        hour_window = current_time.replace(minute=0, second=0, microsecond=0)
+    async def __aenter__(self):
+        self.session = aiohttp.ClientSession()
+        return self
         
-        successful_sources = 0
-        failed_sources = 0
-        
-        for i, source_url in enumerate(self.sources, 1):
-            try:
-                print(f"  📰 [{i}/{len(self.sources)}] Scraping: {self._get_source_name(source_url)}")
-                articles = self._scrape_rss_feed(source_url)
-                
-                # Filter for recent articles (last 2 hours for safety)
-                recent_articles = []
-                for article in articles:
-                    if self._is_recent_article(article, hours_back=2):
-                        recent_articles.append(article)
-                
-                candidates.extend(recent_articles)
-                successful_sources += 1
-                print(f"    ✅ Found {len(recent_articles)} recent articles")
-                
-            except Exception as e:
-                failed_sources += 1
-                print(f"    ⚠️ Failed to scrape {self._get_source_name(source_url)}: {e}")
-                continue
-        
-        # Remove duplicates
-        candidates = self._deduplicate_candidates(candidates)
-        
-        print(f"📊 COMPREHENSIVE SCRAPE COMPLETE:")
-        print(f"   ✅ Successful sources: {successful_sources}/{len(self.sources)}")
-        print(f"   ❌ Failed sources: {failed_sources}")
-        print(f"   📄 Total unique candidates: {len(candidates)}")
-        print(f"   🎯 Ready for LLM selection of top 10")
-        
-        return candidates
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        if self.session:
+            await self.session.close()
     
-    def _get_source_name(self, url: str) -> str:
-        """Get readable source name from URL."""
-        if 'lemonde' in url:
-            if 'politique' in url:
-                return 'Le Monde Politique'
-            elif 'international' in url:
-                return 'Le Monde International'
-            elif 'economie' in url:
-                return 'Le Monde Économie'
-            elif 'culture' in url:
-                return 'Le Monde Culture'
-            elif 'sport' in url:
-                return 'Le Monde Sport'
-            elif 'sciences' in url:
-                return 'Le Monde Sciences'
-            else:
-                return 'Le Monde'
-        elif 'lefigaro' in url:
-            return 'Le Figaro'
-        elif 'liberation' in url:
-            return 'Libération'
-        elif 'leparisien' in url:
-            return 'Le Parisien'
-        elif 'lexpress' in url:
-            return 'L\'Express'
-        elif 'lepoint' in url:
-            return 'Le Point'
-        elif 'nouvelobs' in url:
-            return 'L\'Obs'
-        elif 'la-croix' in url:
-            return 'La Croix'
-        elif 'lesechos' in url:
-            return 'Les Échos'
-        elif 'bfmtv' in url:
-            return 'BFM TV'
-        elif 'francetvinfo' in url or 'franceinfo' in url:
-            if 'politique' in url:
-                return 'France Info Politique'
-            elif 'monde' in url:
-                return 'France Info Monde'
-            elif 'economie' in url:
-                return 'France Info Économie'
-            elif 'societe' in url:
-                return 'France Info Société'
-            elif 'culture' in url:
-                return 'France Info Culture'
-            else:
-                return 'France Info'
-        elif 'franceinter' in url:
-            return 'France Inter'
-        elif 'europe1' in url:
-            return 'Europe 1'
-        elif 'france24' in url:
-            return 'France 24'
-        elif 'rfi' in url:
-            return 'RFI'
-        elif 'ouest-france' in url:
-            return 'Ouest France'
-        elif '20min' in url:
-            return '20 Minutes'
-        elif 'afp' in url:
-            return 'AFP'
-        elif 'mediapart' in url:
-            return 'Mediapart'
-        elif 'brief.me' in url:
-            return 'Brief.me'
-        else:
-            return 'French News'
+    def _generate_hash(self, title: str, link: str) -> str:
+        """Generate unique hash for article deduplication"""
+        content = f"{title}{link}".encode('utf-8')
+        return hashlib.md5(content).hexdigest()[:12]
     
-    def _scrape_rss_feed(self, url: str) -> List[Dict[str, Any]]:
-        """Scrape a single RSS feed - comprehensive parsing."""
-        import xml.etree.ElementTree as ET
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/rss+xml, application/xml, text/xml',
-            'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8'
-        }
-        
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()
-        
-        root = ET.fromstring(response.content)
-        articles = []
-        
-        # Handle both RSS and Atom feeds
-        for item in root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry'):
-            try:
-                if item.tag.endswith('item'):  # RSS
-                    title = self._get_text(item.find('title'))
-                    link = self._get_text(item.find('link'))
-                    description = self._get_text(item.find('description'))
-                    pub_date = self._get_text(item.find('pubDate'))
-                else:  # Atom
-                    title = self._get_text(item.find('.//{http://www.w3.org/2005/Atom}title'))
-                    link_elem = item.find('.//{http://www.w3.org/2005/Atom}link')
-                    link = link_elem.get('href') if link_elem is not None else ''
-                    description = self._get_text(item.find('.//{http://www.w3.org/2005/Atom}summary'))
-                    pub_date = self._get_text(item.find('.//{http://www.w3.org/2005/Atom}published'))
-                
-                if title and link:
-                    articles.append({
-                        'title': title.strip(),
-                        'link': link.strip(),
-                        'summary': description.strip() if description else '',
-                        'published_date': pub_date,
-                        'source': self._get_source_name(url),
-                        'scraped_at': datetime.now(timezone.utc).isoformat()
-                    })
-                    
-            except Exception as e:
-                continue  # Skip problematic articles
-        
-        return articles
-    
-    def _get_text(self, element) -> str:
-        """Safely extract text from XML element."""
-        if element is not None:
-            return element.text or ''
-        return ''
-    
-    def _is_recent_article(self, article: Dict[str, Any], hours_back: int = 2) -> bool:
-        """Check if article is from recent hours."""
-        # For now, assume all scraped articles are recent
-        # This can be enhanced with proper date parsing
-        return True
-    
-    def _deduplicate_candidates(self, candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Remove duplicate articles based on title similarity."""
-        seen_hashes = set()
-        unique_candidates = []
-        
-        for candidate in candidates:
-            # Create hash from normalized title
-            title_hash = hashlib.md5(candidate['title'].lower().encode()).hexdigest()
-            
-            if title_hash not in seen_hashes:
-                seen_hashes.add(title_hash)
-                unique_candidates.append(candidate)
-        
-        return unique_candidates
-    
-    def llm_select_top_10(self, candidates: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Use LLM to select top 10 articles from candidates."""
-        if not self.api_key:
-            raise ValueError("OPENROUTER_SCRAPER_API_KEY not found - scraper cannot function!")
-        
-        if len(candidates) <= 10:
-            return {
-                'selected_articles': candidates,
-                'reasoning': f"Only {len(candidates)} candidates available - selected all",
-                'cost': 0.0
-            }
-        
-        # Prepare candidates for LLM
-        candidate_text = []
-        for i, candidate in enumerate(candidates, 1):
-            text = f"{i}. TITLE: {candidate['title']}\n   SOURCE: {candidate['source']}\n   SUMMARY: {candidate.get('summary', 'N/A')[:200]}"
-            candidate_text.append(text)
-        
-        prompt = f"""You are an expert French news curator for language learners. From these {len(candidates)} candidate articles, select the TOP 10 that would be most valuable for French language learning.
-
-CRITERIA:
-- Educational value for French learners (B1-B2 level)
-- Diverse topics (avoid duplicates/similar stories)
-- Current relevance and importance
-- Clear, well-written French
-- Interesting content that motivates learning
-- Mix of categories (politics, culture, economy, society, etc.)
-
-CANDIDATES:
-{chr(10).join(candidate_text)}
-
-Respond with EXACTLY this JSON format:
-{{
-    "selected_indices": [1, 3, 5, 7, 9, 12, 15, 18, 20, 22],
-    "reasoning": "Brief explanation of selection criteria applied"
-}}
-
-Select exactly 10 numbers from 1-{len(candidates)}."""
-        
+    async def _fetch_rss_feed(self, source_name: str, url: str) -> List[ArticleData]:
+        """Fetch and parse a single RSS feed"""
         try:
-            response = requests.post(
-                "https://openrouter.ai/api/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": self.selection_model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.3,
-                    "max_tokens": 500
-                },
-                timeout=30
-            )
-            
-            response.raise_for_status()
-            result = response.json()
-            
-            # Calculate cost (rough estimate)
-            usage = result.get('usage', {})
-            prompt_tokens = usage.get('prompt_tokens', 0)
-            completion_tokens = usage.get('completion_tokens', 0)
-            
-            # Gemini 2.0 Flash pricing estimate
-            cost = (prompt_tokens * 0.00001) + (completion_tokens * 0.00003)
-            
-            # Parse LLM response
-            llm_content = result['choices'][0]['message']['content'].strip()
-            
-            try:
-                selection_data = json.loads(llm_content)
-                selected_indices = selection_data['selected_indices']
-                reasoning = selection_data['reasoning']
+            async with self.session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                if response.status != 200:
+                    logger.warning(f"Failed to fetch {source_name}: HTTP {response.status}")
+                    return []
                 
-                # Convert indices to articles (1-based to 0-based)
-                selected_articles = []
-                for idx in selected_indices:
-                    if 1 <= idx <= len(candidates):
-                        selected_articles.append(candidates[idx - 1])
+                content = await response.text()
+                feed = feedparser.parse(content)
                 
-                if len(selected_articles) == 0:
-                    raise ValueError("No valid articles selected")
+                articles = []
+                for entry in feed.entries[:10]:  # Limit per source
+                    article = ArticleData(
+                        title=entry.get('title', ''),
+                        link=entry.get('link', ''),
+                        summary=entry.get('summary', entry.get('description', '')),
+                        published=entry.get('published', ''),
+                        source=source_name,
+                        hash_id=self._generate_hash(entry.get('title', ''), entry.get('link', ''))
+                    )
+                    articles.append(article)
                 
-                return {
-                    'selected_articles': selected_articles,
-                    'reasoning': reasoning,
-                    'cost': cost
-                }
-                
-            except (json.JSONDecodeError, KeyError) as e:
-                # Fallback: select first 10
-                print(f"⚠️ LLM response parsing failed: {e}")
-                return {
-                    'selected_articles': candidates[:10],
-                    'reasoning': "LLM selection failed - used first 10 candidates",
-                    'cost': cost
-                }
+                logger.info(f"Fetched {len(articles)} articles from {source_name}")
+                return articles
                 
         except Exception as e:
-            print(f"⚠️ LLM selection failed: {e}")
-            # Fallback: select first 10
+            logger.error(f"Error fetching {source_name}: {e}")
+            return []
+    
+    async def scrape_all_sources(self) -> List[ArticleData]:
+        """Scrape all RSS sources concurrently"""
+        logger.info(f"Rony starting scrape of {len(RSS_SOURCES)} sources...")
+        
+        tasks = []
+        for source_name, url in RSS_SOURCES.items():
+            task = self._fetch_rss_feed(source_name, url)
+            tasks.append(task)
+        
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+        
+        all_articles = []
+        for result in results:
+            if isinstance(result, list):
+                all_articles.extend(result)
+            elif isinstance(result, Exception):
+                logger.error(f"Feed fetch failed: {result}")
+        
+        # Deduplicate by hash_id
+        seen_hashes = set()
+        unique_articles = []
+        for article in all_articles:
+            if article.hash_id not in seen_hashes:
+                seen_hashes.add(article.hash_id)
+                unique_articles.append(article)
+        
+        logger.info(f"Rony collected {len(unique_articles)} unique articles from {len(RSS_SOURCES)} sources")
+        return unique_articles
+    
+    async def _select_best_articles(self, articles: List[ArticleData]) -> List[ArticleData]:
+        """Use Gemini 2.5 Flash to intelligently select top 10 articles based on profile"""
+        
+        if not articles:
+            return []
+        
+        # Create profile context for LLM
+        profile_context = f"""
+USER PROFILE:
+- French Level: {self.profile.french_level}
+- Lives in: {self.profile.lives_in or 'France'}
+- Work Domains: {', '.join(self.profile.work_domains) if self.profile.work_domains else 'General'}
+- Pain Points: {', '.join(self.profile.pain_points) if self.profile.pain_points else 'None specified'}
+- Interests: {', '.join(self.profile.interests) if self.profile.interests else 'General news'}
+        """
+        
+        # Prepare article summaries for LLM
+        article_summaries = []
+        for i, article in enumerate(articles):
+            summary = f"{i+1}. {article.title}\n   Source: {article.source}\n   Summary: {article.summary[:200]}..."
+            article_summaries.append(summary)
+        
+        prompt = f"""You are Rony, an intelligent French news curator for French language learners.
+
+{profile_context}
+
+Below are {len(articles)} French news articles. Select the TOP 10 most relevant articles for this user profile.
+
+Consider:
+1. Relevance to user's work domains, pain points, and interests
+2. Practical value for someone living in France  
+3. Language learning value (interesting but not too complex for {self.profile.french_level} level)
+4. News diversity (avoid 5 articles about same topic)
+5. Priority for articles about user's location ({self.profile.lives_in or 'France'})
+
+ARTICLES:
+{chr(10).join(article_summaries)}
+
+Respond with ONLY the numbers of the 10 best articles, separated by commas.
+Example: 1,3,7,12,15,18,22,25,28,30"""
+
+        try:
+            headers = {
+                'Authorization': f'Bearer {self.api_key}',
+                'Content-Type': 'application/json'
+            }
+            
+            payload = {
+                'model': 'google/gemini-2.0-flash-exp:free',
+                'messages': [
+                    {
+                        'role': 'user', 
+                        'content': prompt
+                    }
+                ],
+                'max_tokens': 50,
+                'temperature': 0.3
+            }
+            
+            async with self.session.post(
+                'https://openrouter.ai/api/v1/chat/completions',
+                headers=headers,
+                json=payload,
+                timeout=aiohttp.ClientTimeout(total=60)
+            ) as response:
+                if response.status != 200:
+                    logger.error(f"Gemini API error: {response.status}")
+                    # Fallback: return first 10 articles
+                    return articles[:10]
+                
+                result = await response.json()
+                selected_text = result['choices'][0]['message']['content'].strip()
+                
+                # Parse selected indices
+                try:
+                    selected_indices = [int(x.strip()) - 1 for x in selected_text.split(',')]
+                    selected_articles = [articles[i] for i in selected_indices if 0 <= i < len(articles)]
+                    
+                    if len(selected_articles) < 10:
+                        # Fill up to 10 if not enough selected
+                        remaining = [a for a in articles if a not in selected_articles]
+                        selected_articles.extend(remaining[:10 - len(selected_articles)])
+                    
+                    logger.info(f"Rony intelligently selected {len(selected_articles)} articles using profile-aware curation")
+                    return selected_articles[:10]
+                    
+                except (ValueError, IndexError) as e:
+                    logger.error(f"Failed to parse Gemini selection: {e}")
+                    return articles[:10]
+                    
+        except Exception as e:
+            logger.error(f"Gemini API call failed: {e}")
+            return articles[:10]  # Fallback
+    
+    async def run_autonomous_cycle(self) -> Dict:
+        """Complete autonomous scraping and selection cycle"""
+        start_time = datetime.now()
+        
+        # Step 1: Scrape all sources
+        all_articles = await self.scrape_all_sources()
+        
+        if not all_articles:
+            logger.warning("No articles collected!")
             return {
-                'selected_articles': candidates[:10],
-                'reasoning': f"LLM call failed ({str(e)}) - used first 10 candidates",
-                'cost': 0.0
-            } 
+                "timestamp": start_time.isoformat(),
+                "articles_collected": 0,
+                "articles_selected": 0,
+                "selected_articles": [],
+                "profile_used": asdict(self.profile)
+            }
+        
+        # Step 2: Intelligent selection using profile
+        selected_articles = await self._select_best_articles(all_articles)
+        
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        
+        logger.info(f"Rony completed autonomous cycle in {duration:.1f}s: {len(all_articles)} → {len(selected_articles)} articles")
+        
+        return {
+            "timestamp": start_time.isoformat(),
+            "duration_seconds": duration,
+            "articles_collected": len(all_articles),
+            "articles_selected": len(selected_articles),
+            "selected_articles": [asdict(article) for article in selected_articles],
+            "profile_used": asdict(self.profile),
+            "sources_scraped": list(RSS_SOURCES.keys())
+        }
+
+# Convenience function for single-use
+async def run_autonomous_scraper(api_key: str, profile_data: Optional[Dict] = None) -> Dict:
+    """Run Rony's autonomous scraping cycle with optional profile"""
+    profile = None
+    if profile_data:
+        profile = UserProfile.from_json(profile_data)
+    
+    async with AutonomousScraper(api_key, profile) as scraper:
+        return await scraper.run_autonomous_cycle() 
