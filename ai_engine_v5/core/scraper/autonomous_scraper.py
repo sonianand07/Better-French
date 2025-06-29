@@ -30,83 +30,9 @@ from config.rss_sources import RSS_SOURCES
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-<<<<<<< Updated upstream
 # Import V3's proven scoring system
 HIGH_RELEVANCE_KEYWORDS = [
     # Visas & immigration
-=======
-# HFLLA: 6 Balanced Categories - NEWS IMPORTANCE FIRST with International Perspective
-LEARNING_CATEGORIES = {
-    "french_life_essentials": {
-        "keywords": ["visa", "titre de séjour", "loyer", "caf", "logement", "bail", "assurance", 
-                    "impôts", "taxes", "administration", "préfecture", "mairie", "papiers",
-                    "travail", "smic", "salaire", "cotisations", "chômage", "pôle emploi",
-                    # International life essentials
-                    "immigration", "étranger", "expatrié", "naturalisation", "réfugiés"],
-        "target_percentage": 16.7,
-        "description": "Housing, work, admin, bureaucracy (French + international perspective)"
-    },
-    "current_affairs": {
-        "keywords": ["politique", "gouvernement", "ministère", "élections", "économie", 
-                    "inflation", "budget", "france", "actualité", "breaking", "urgent", 
-                    "annonce", "décision", "réforme",
-                                         # INTERNATIONAL CURRENT AFFAIRS - Critical for global awareness
-                     "international", "monde", "global", "europe", "union européenne", "ue",
-                     "états-unis", "chine", "russie", # Major powers
-                     "guerre", "conflit", "crise", "sanctions", "diplomatie", "sommet",
-                     "onu", "otan", "g7", "g20", "accord", "traité"],
-        "target_percentage": 16.7,
-        "description": "Politics, economics, breaking news (French + international)"
-    },
-    "culture_society": {
-        "keywords": ["culture", "cinéma", "théâtre", "musique", "art", "exposition", "festival",
-                    "livre", "littérature", "mode", "société", "social", "tendance", "lifestyle",
-                    "célébrité", "people", "spectacle", "divertissement",
-                    # International cultural perspective
-                    "francophonie", "français à l'étranger", "culture française"],
-        "target_percentage": 16.7,
-        "description": "Arts, entertainment, social trends (French + international)"
-    },
-    "sports_recreation": {
-        "keywords": ["sport", "football", "rugby", "tennis", "olympiques", "jeux", "équipe",
-                    "match", "championnat", "loisirs", "vacances", "tourisme", "voyage",
-                    "restaurant", "sortie", "weekend",
-                    # International sports
-                    "coupe du monde", "euro", "international", "mondial"],
-        "target_percentage": 16.7,
-        "description": "Sports, leisure, recreation (including international competitions)"
-    },
-    "innovation_health": {
-        "keywords": ["technologie", "tech", "innovation", "numérique", "digital", "intelligence artificielle",
-                    "santé", "médecine", "recherche", "science", "environnement", "climat",
-                    "énergie", "écologie", "startup", "application",
-                    # Global innovation and health
-                    "pandémie", "climat mondial", "tech mondiale", "recherche internationale"],
-        "target_percentage": 16.7,
-        "description": "Technology, science, health, environment (global perspective)"
-    },
-    "local_regional": {
-        "keywords": ["transport", "sncf", "ratp", "métro", "bus", "trafic", "grève",
-                    "région", "ville", "municipal", "local", "quartier", "arrondissement",
-                    "événement", "manifestation",
-                    # European/international regional
-                    "europe", "européen", "franco-allemand", "franco-italien"], 
-        "target_percentage": 16.7,
-        "description": "Local/regional news, transport, European cooperation"
-    }
-}
-
-# Enhanced keyword system - NEWS IMPORTANCE FIRST with international coverage
-HIGH_RELEVANCE_KEYWORDS = [
-    # INTERNATIONAL & GLOBAL NEWS - Critical for staying informed
-    "international", "monde", "global", "planète", "breaking", "urgent", "alerte",
-    "guerre", "conflit", "crise", "sanctions", "accord", "traité",
-    "europe", "union européenne", "ue", "bruxelles", "parlement européen",
-    "états-unis", "usa", "chine", "russie", # Major powers (stable)
-    "onu", "otan", "g7", "g20", "sommet", "diplomatie",
-    
-    # FRENCH DOMESTIC - Essential French life
->>>>>>> Stashed changes
     "visa", "titre de séjour", "carte de séjour", "naturalisation", "immigration", "étranger",
     # Work & salary
     "smic", "salaire", "cotisations", "travail", "code du travail", "congé", "prélèvement à la source",
@@ -116,37 +42,18 @@ HIGH_RELEVANCE_KEYWORDS = [
     "grève", "SNCF", "RATP", "trafic", "panne",
     # Health & social security
     "sécurité sociale", "ameli", "mutuelle", "assurance maladie",
-<<<<<<< Updated upstream
     # Civic & daily-life topics that matter to any resident of France
     "france", "politique", "économie", "justice", "santé", "écologie",
     # Day-to-day admin & services
     "assurance habitation", "ram", "carte vitale", "taxe d'habitation",
     "mutuelle étudiante", "doctolib", "carte navigo",
-=======
-    "france", "politique", "économie", "justice", "gouvernement",
-    "assurance habitation", "carte vitale", "taxe d'habitation", "doctolib", "carte navigo",
->>>>>>> Stashed changes
 ]
 
 MEDIUM_RELEVANCE_KEYWORDS = [
-    # Global issues affecting France
-    "climat", "environnement", "pandémie", "migration", "réfugiés", "droits humains",
-    "commerce international", "économie mondiale", "inflation mondiale",
-    # French domestic medium priority
     "retraite", "impôts", "URSSAF", "CAF", "énergie", "inflation", "prix", "taxe foncière",
     "olympiques", "jeux olympiques", "élections", "météo", "météo-extrême",
     "grève nationale", "canicule", "tempête", "sécheresse",
 ]
-
-# INTERNATIONAL NEWS PRIORITY - Sources that provide global perspective
-INTERNATIONAL_SOURCE_WEIGHTS = {
-    "Courrier International": 1.3,  # Specializes in international news
-    "France 24": 1.2,               # International French perspective  
-    "RFI": 1.2,                     # Radio France Internationale
-    "Euronews France": 1.1,         # European perspective
-    "TV5 Monde": 1.1,               # Global French-speaking perspective
-    "Le Monde": 1.1,                # Quality international coverage
-}
 
 CURATOR_WEIGHTS = {
     "relevance": 1.2,
@@ -233,19 +140,8 @@ class AutonomousScraper:
             self.profile_kw.update({w.lower() for w in profile.pain_points})
             self.profile_kw.update({w.lower() for w in profile.interests})
         
-<<<<<<< Updated upstream
         logger.info(f"🤖 Rony initialized with {len(self.high_kw)} high-relevance + {len(self.medium_kw)} medium-relevance keywords")
         logger.info(f"👤 Profile: {len(self.profile_kw)} custom keywords, level={self.profile.french_level}")
-=======
-        logger.info(f"🤖 Rony initialized with ENHANCED HFLLA (NEWS IMPORTANCE FIRST + Global Awareness)")
-        logger.info(f"   🌍 Mission: Most important news (French 60% + International 40%)")
-        logger.info(f"   📊 Keywords: {len(self.high_kw)} high + {len(self.medium_kw)} medium (international priority)")
-        logger.info(f"   👤 Profile: {profile.french_level} level, lives in {profile.lives_in}")
-        logger.info(f"   🎯 Pain points: {profile.pain_points}")
-        logger.info(f"   💼 Work domains: {profile.work_domains}")
-        logger.info(f"   🧠 LLM: Gemini 2.5 Pro (news importance + learning optimization)")
-        logger.info(f"   ✅ Anti-bubble system: Global events prioritized over category balance")
->>>>>>> Stashed changes
         
     async def __aenter__(self):
         # Configure session with proper headers and timeouts
@@ -333,66 +229,14 @@ class AutonomousScraper:
         length = len(article.summary.split()) if article.summary else 0
         return 6 + min(length / 100, 4)
     
-<<<<<<< Updated upstream
     def _calculate_v3_score(self, article: ArticleData) -> ArticleData:
         """Calculate V3-style scores for article"""
-=======
-    def _score_global_importance(self, article: ArticleData) -> float:
-        """NEW: Score based on global news importance - preventing French bubble"""
-        full_text = f"{article.title} {article.summary}".lower()
-        score = 0
-        
-        # BREAKING NEWS / CRISIS - Highest priority (+6)
-        breaking_keywords = ["breaking", "urgent", "alerte", "dernière minute", "flash"]
-        crisis_keywords = ["guerre", "conflit", "crise", "urgence", "catastrophe", "attentat"]
-        if any(kw in full_text for kw in breaking_keywords + crisis_keywords):
-            score += 6
-            logger.debug(f"Breaking/Crisis news boost: {article.title[:30]}...")
-        
-        # MAJOR WORLD EVENTS - Critical for global awareness (+5)
-        # Generic patterns for any major world events
-        major_world_patterns = ["chine", "états-unis", "russie", "guerre", "conflit armé", 
-                               "invasion", "bombardement", "cessez-le-feu", "négociations"]
-        if any(kw in full_text for kw in major_world_patterns):
-            score += 5
-            logger.debug(f"Major world event boost: {article.title[:30]}...")
-        
-        # INTERNATIONAL POLITICS/ECONOMY - Important for understanding (+4)
-        international_affairs = ["onu", "otan", "g7", "g20", "sommet", "diplomatie", 
-                               "sanctions", "accord", "traité", "union européenne"]
-        if any(kw in full_text for kw in international_affairs):
-            score += 4
-            logger.debug(f"International affairs boost: {article.title[:30]}...")
-        
-        # GLOBAL ISSUES affecting France (+3)
-        global_issues = ["climat", "pandémie", "commerce international", "migration",
-                        "économie mondiale", "inflation mondiale"]
-        if any(kw in full_text for kw in global_issues):
-            score += 3
-            logger.debug(f"Global issues boost: {article.title[:30]}...")
-        
-        # EUROPEAN NEWS - Important for French context (+2) 
-        european_kw = ["europe", "européen", "bruxelles", "parlement européen"]
-        if any(kw in full_text for kw in european_kw):
-            score += 2
-            logger.debug(f"European context boost: {article.title[:30]}...")
-        
-        return min(score, 8.0)  # Cap at 8.0
-    
-    def _get_international_source_boost(self, source_name: str) -> float:
-        """NEW: Boost international sources for better global coverage"""
-        return INTERNATIONAL_SOURCE_WEIGHTS.get(source_name, 1.0)
-    
-    def _calculate_hflla_score(self, article: ArticleData) -> ArticleData:
-        """ENHANCED HFLLA: NEWS IMPORTANCE FIRST + French learning optimization"""
->>>>>>> Stashed changes
         full_text = f"{article.title} {article.summary}"
         
         relevance = self._score_relevance(full_text)
         practical = self._score_practical(full_text)
         newsworthiness = self._score_newsworthiness(article)
         
-<<<<<<< Updated upstream
         # Apply V3's weights
         total = (relevance * CURATOR_WEIGHTS["relevance"] + 
                 practical * CURATOR_WEIGHTS["practical"] + 
@@ -404,40 +248,6 @@ class AutonomousScraper:
         article.total_score = total
         
         logger.debug(f"V3 scoring - {article.title[:50]}... = R:{relevance:.1f} P:{practical:.1f} N:{newsworthiness:.1f} TOTAL:{total:.1f}")
-=======
-        # NEW: Global importance scoring - prioritize important news
-        global_importance = self._score_global_importance(article)
-        
-        # NEW: International source boost
-        source_boost = self._get_international_source_boost(article.source)
-        
-        # Enhanced HFLLA weights - NEWS IMPORTANCE FIRST
-        base_total = (relevance * CURATOR_WEIGHTS["relevance"] + 
-                     practical * CURATOR_WEIGHTS["practical"] + 
-                     newsworthiness * CURATOR_WEIGHTS["newsworthiness"] +
-                     category_fit * CURATOR_WEIGHTS["category_bonus"] +
-                     profile_fit * CURATOR_WEIGHTS["profile_bonus"])
-        
-        # Apply global importance boost (up to +8 points)
-        total_with_global = base_total + global_importance
-        
-        # Apply international source boost (1.0x to 1.3x multiplier)
-        final_total = total_with_global * source_boost
-        
-        # Store all scores including new ones
-        article.relevance_score = relevance
-        article.practical_score = practical
-        article.newsworthiness_score = newsworthiness
-        article.category_score = category_fit
-        article.profile_score = profile_fit
-        article.total_score = final_total
-        
-        # Enhanced logging for debugging
-        if global_importance > 0 or source_boost > 1.0:
-            logger.debug(f"ENHANCED scoring - {article.title[:30]}... = Base:{base_total:.1f} +Global:{global_importance:.1f} ×Source:{source_boost:.1f} = {final_total:.1f} [{article.predicted_category}]")
-        else:
-            logger.debug(f"Standard scoring - {article.title[:30]}... = {final_total:.1f} [{article.predicted_category}]")
->>>>>>> Stashed changes
         
         return article
     
@@ -652,7 +462,6 @@ USER PROFILE:
                 summary = f"{i+1}. {article.title}\n   Source: {article.source}\n   V3 Score: {article.total_score:.1f}\n   Summary: {article.summary[:150]}..."
                 article_summaries.append(summary)
             
-<<<<<<< Updated upstream
             prompt = f"""You are selecting the FINAL 10 articles from {len(top_candidates)} that already passed V3's proven quality scoring system.
 
 {profile_context}
@@ -664,80 +473,12 @@ Focus on:
 2. Profile relevance for this specific user
 3. Mix of importance levels (some breaking news, some practical advice)
 4. Geographic relevance ({self.profile.lives_in or 'France'})
-=======
-            # Show category distribution to LLM
-            category_breakdown = "\n".join([f"   • {cat}: {count} articles" for cat, count in category_counts.items()])
-            
-            prompt = f"""You are an expert news curator for French learners living in a GLOBALIZED WORLD. Your mission is to select the 10 MOST IMPORTANT news stories of the hour, ensuring learners stay informed about both France and the world without living in a bubble.
 
-{profile_context}
-
-🌍 CORE PRINCIPLE: IMPORTANT NEWS FIRST, then optimize for French learning
-Don't let learners miss major world events - they need global awareness to thrive in modern France.
-
-ENHANCED SELECTION FRAMEWORK - Follow these steps:
-
-STEP 1 - NEWS IMPORTANCE ANALYSIS (PRIORITY #1):
-Rank articles by genuine global significance:
-📢 BREAKING NEWS: Major events happening NOW (wars, crises, disasters)
-🌍 WORLD IMPACT: Stories affecting millions globally (wars, major conflicts, superpower relations)
-🇪🇺 EUROPEAN AFFAIRS: EU decisions impacting France and French speakers
-🇫🇷 FRENCH DOMESTIC: Major French political/economic developments
-💥 TRENDING: What the world is discussing today
-
-CRITICAL: If major world events are happening, they MUST be included regardless of category balance.
-
-STEP 2 - INTERNATIONAL/DOMESTIC BALANCE:
-Target news distribution:
-- French domestic affairs: 60-70% 
-- International news (French perspective): 30-40%
-- Ensure NO major world events are missed
-
-STEP 3 - CATEGORY DISTRIBUTION:
-Current article distribution across 6 HFLLA categories:
-{category_breakdown}
-
-🏠 French Life Essentials (16.7%): Housing, work, admin + immigration, international students
-🗳️ Current Affairs (16.7%): French politics + INTERNATIONAL politics, global economy  
-🎭 Culture & Society (16.7%): French culture + francophonie, international cultural exchange
-⚽ Sports & Recreation (16.7%): French sports + international competitions
-💡 Innovation & Health (16.7%): French tech/science + global innovations affecting France
-📍 Local & Regional (16.7%): {self.profile.lives_in or 'France'} + European cooperation
-
-STEP 4 - FRENCH LEARNING OPTIMIZATION:
-After selecting important news, optimize for {self.profile.french_level} level:
-- Clear, accessible French vocabulary
-- Cultural context for international events
-- Pain point relevance: {', '.join(self.profile.pain_points) if self.profile.pain_points else 'General interest'}
-- How world events are discussed in French media
-
-STEP 5 - SELECTION VALIDATION:
-Verify your selection achieves:
-✓ Major world events covered (if any happening)
-✓ International perspective: 30-40% of selection
-✓ Category balance (4-6 categories ideally)
-✓ High HFLLA scores (prefer ≥12.0)
-✓ No French bubble - global awareness maintained
->>>>>>> Stashed changes
-
-PRE-SCORED ARTICLES (prioritized by news importance + HFLLA scores):
+PRE-SCORED ARTICLES:
 {chr(10).join(article_summaries)}
 
-<<<<<<< Updated upstream
 Respond with ONLY the numbers of the 10 best articles for this user, separated by commas.
 Example: 1,3,7,12,15,18,22,25,28,30"""
-=======
-STEP 6 - FINAL OUTPUT:
-Provide your selection as:
-SELECTED: [10 numbers separated by commas]
-BALANCE: [international vs domestic ratio + category distribution]  
-REASONING: [explain news importance decisions + learning optimization]
-
-Example format:
-SELECTED: 1,3,7,12,15,18,22,25,28,30
-BALANCE: International:4, Domestic:6 | current_affairs:3, french_life:2, culture:2, innovation:2, local:1  
-REASONING: Prioritized major international developments and EU trade policies (global importance) alongside French housing reforms and Paris transport strikes. Ensured 40% international coverage to prevent French bubble while addressing user's CAF and logement pain points."""
->>>>>>> Stashed changes
 
             payload = {
                 'model': 'google/gemini-2.0-flash-exp:free',
@@ -810,22 +551,10 @@ REASONING: Prioritized major international developments and EU trade policies (g
         else:
             avg_v3_score = min_v3_score = max_v3_score = 0.0
         
-<<<<<<< Updated upstream
         logger.info(f"🎉 Rony completed autonomous cycle in {duration:.1f}s")
         logger.info(f"   📊 Selection: {len(all_articles)} → {len(selected_articles)} articles")
         logger.info(f"   🎯 V3 Quality: avg={avg_v3_score:.1f}, min={min_v3_score:.1f}, max={max_v3_score:.1f}")
         logger.info(f"   ✅ PROVEN V3 scoring system preserved!")
-=======
-        logger.info(f"🎉 Rony completed ENHANCED HFLLA cycle in {duration:.1f}s")
-        logger.info(f"   📊 Selection: {len(all_articles)} → {len(selected_articles)} articles")
-        logger.info(f"   🎯 Enhanced Quality: avg={avg_hflla_score:.1f}, min={min_hflla_score:.1f}, max={max_hflla_score:.1f}")
-        if final_category_distribution:
-            category_summary = ", ".join([f"{cat}: {count}" for cat, count in final_category_distribution.items()])
-            logger.info(f"   🏷️  Categories: {category_summary}")
-        logger.info(f"   🧠 Gemini 2.5 Pro: NEWS IMPORTANCE FIRST + learning optimization")
-        logger.info(f"   🌍 Global coverage: International sources boosted, crisis events prioritized")
-        logger.info(f"   ✅ Anti-bubble system: French learners stay globally informed!")
->>>>>>> Stashed changes
         
         # Step 3: INTELLIGENT DATA PERSISTENCE - No overwrites, smart merging
         current_run_data = {
