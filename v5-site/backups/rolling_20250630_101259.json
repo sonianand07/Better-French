@@ -1,17 +1,77 @@
 {
   "metadata": {
-    "total_articles": 32,
-    "last_updated": "2025-06-30T10:12:59.127155+00:00",
+    "total_articles": 27,
+    "last_updated": "2025-06-30T07:40:32.290796+00:00",
     "v5_enhanced": true,
     "pipeline": "Rony (intelligent selection) + V5 (AI enhancement)",
     "quality": "Proven prompts + GPT-4o verification",
     "quality_breakdown": {
-      "quality_checked": 32,
-      "ai_enhanced": 32,
+      "quality_checked": 27,
+      "ai_enhanced": 27,
       "basic": 0
     }
   },
   "articles": [
+    {
+      "title": "L’info du jour | 29 juin - Mi-journée",
+      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
+      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
+      "published": "Sun, 29 Jun 2025 12:00:14 +0200",
+      "source": "Euronews France",
+      "hash_id": "3a8f8aa7472d",
+      "raw_content": "",
+      "relevance_score": 9.0,
+      "practical_score": 2,
+      "newsworthiness_score": 6.25,
+      "total_score": 17.799999999999997,
+      "contextual_title_explanations": {
+        "test": {
+          "display_format": "**Test:** test",
+          "explanation": "Test explanation"
+        }
+      },
+      "simplified_french_title": "Test French Title",
+      "simplified_english_title": "Test English Title",
+      "french_summary": "Test French summary",
+      "english_summary": "Test English summary",
+      "quality_checked": true,
+      "ai_enhanced": true,
+      "processed_at": "2025-06-29T12:00:00Z",
+      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
+      "original_article_title": "L’info du jour | 29 juin - Mi-journée",
+      "original_article_published_date": "Sun, 29 Jun 2025 12:00:14 +0200",
+      "source_name": "Euronews France"
+    },
+    {
+      "title": "L’info du jour | 29 juin - Matin",
+      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
+      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
+      "published": "Sun, 29 Jun 2025 07:00:07 +0200",
+      "source": "Euronews France",
+      "hash_id": "372c8c9b939f",
+      "raw_content": "",
+      "relevance_score": 9.0,
+      "practical_score": 2,
+      "newsworthiness_score": 6.25,
+      "total_score": 17.799999999999997,
+      "contextual_title_explanations": {
+        "test": {
+          "display_format": "**Test:** test",
+          "explanation": "Test explanation"
+        }
+      },
+      "simplified_french_title": "Test French Title",
+      "simplified_english_title": "Test English Title",
+      "french_summary": "Test French summary",
+      "english_summary": "Test English summary",
+      "quality_checked": true,
+      "ai_enhanced": true,
+      "processed_at": "2025-06-29T12:00:00Z",
+      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
+      "original_article_title": "L’info du jour | 29 juin - Matin",
+      "original_article_published_date": "Sun, 29 Jun 2025 07:00:07 +0200",
+      "source_name": "Euronews France"
+    },
     {
       "schema_version": 2,
       "id": null,
@@ -2701,516 +2761,6 @@
       "display_ready": true,
       "backfill_attempts": 0,
       "quality_checked": true
-    },
-    {
-      "title": "Abandon des zones à faibles émissions : une décision qui pourrait coûter cher à la France",
-      "link": "https://www.tomsguide.fr/abandon-des-zones-a-faibles-emissions-une-decision-qui-pourrait-couter-cher-a-la-france/",
-      "summary": "<p>Le 17 juin 2025, l'Assemblée nationale a voté la suppression des Zones à Faibles Émissions mobilité (ZFE-m). Une décision controversée qui relance le débat entre santé publique, environnement et pouvoir d’achat.</p>\n<p>L’article <a href=\"https://www.tomsguide.fr/abandon-des-zones-a-faibles-emissions-une-decision-qui-pourrait-couter-cher-a-la-france/\">Abandon des zones à faibles émissions : une décision qui pourrait coûter cher à la France</a> est apparu en premier sur <a href=\"https://www.tomsguide.fr\">Toms Guide</a>.</p>",
-      "published": "Thu, 26 Jun 2025 10:00:00 +0000",
-      "source": "Tom's Guide",
-      "hash_id": "2bba8a61a28c",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 5,
-      "newsworthiness_score": 6.57,
-      "total_score": 21.055999999999997,
-      "contextual_title_explanations": {
-        "Abandon": {
-          "display_format": "**Abandon:** _Abandon_",
-          "explanation": "To give up or stop something.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**des:** _des_",
-          "explanation": "Some or of the.",
-          "cultural_note": ""
-        },
-        "zones": {
-          "display_format": "**zones:** _zones_",
-          "explanation": "Areas or regions.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**à:** _à_",
-          "explanation": "At or to.",
-          "cultural_note": ""
-        },
-        "faibles": {
-          "display_format": "**faibles:** _faibles_",
-          "explanation": "Weak or low.",
-          "cultural_note": ""
-        },
-        "émissions": {
-          "display_format": "**émissions:** _émissions_",
-          "explanation": "Releases, often of gases.",
-          "cultural_note": ""
-        },
-        ":": {
-          "display_format": "**:** _:_",
-          "explanation": "Used to introduce a statement.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**une:** _une_",
-          "explanation": "A or one (feminine).",
-          "cultural_note": ""
-        },
-        "décision": {
-          "display_format": "**décision:** _décision_",
-          "explanation": "A choice or conclusion.",
-          "cultural_note": ""
-        },
-        "qui": {
-          "display_format": "**qui:** _qui_",
-          "explanation": "That or who.",
-          "cultural_note": ""
-        },
-        "pourrait": {
-          "display_format": "**pourrait:** _pourrait_",
-          "explanation": "Could or might.",
-          "cultural_note": ""
-        },
-        "coûter": {
-          "display_format": "**coûter:** _coûter_",
-          "explanation": "To cost.",
-          "cultural_note": ""
-        },
-        "cher": {
-          "display_format": "**cher:** _cher_",
-          "explanation": "Expensive or dear.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**la:** _la_",
-          "explanation": "The (feminine).",
-          "cultural_note": ""
-        },
-        "France": {
-          "display_format": "**France:** _France_",
-          "explanation": "A country in Europe.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Abandon des zones à faibles émissions en France",
-      "simplified_english_title": "Abandonment of low emission zones in France",
-      "french_summary": "La France pourrait perdre beaucoup d'argent en abandonnant les zones à faibles émissions.",
-      "english_summary": "France may lose a lot of money by abandoning low emission zones.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T10:12:59.124926+00:00",
-      "original_article_link": "https://www.tomsguide.fr/abandon-des-zones-a-faibles-emissions-une-decision-qui-pourrait-couter-cher-a-la-france/",
-      "original_article_title": "Abandon des zones à faibles émissions : une décision qui pourrait coûter cher à la France",
-      "original_article_published_date": "Thu, 26 Jun 2025 10:00:00 +0000",
-      "source_name": "Tom's Guide"
-    },
-    {
-      "title": "Budget : en retard sur ses objectifs annuels, Bercy gèle 5 milliards d'euros de crédits",
-      "link": "https://www.europe1.fr/economie/budget-en-retard-sur-ses-objectifs-annuels-bercy-gele-5-milliards-deuros-de-credits-761532",
-      "summary": "La situation des finances publiques ne cesse de se dégrader. Selon l'Insee, la dette de la France vient d'atteindre un nouveau record,  à plus de 3.300 milliards d'euros, soit 114% du PIB. Les dépenses sont hors de contrôle, au point où le gouvernement risque de rater l'objectif, pourtant très modeste, de ramener le déficit public à 5,4% du PIB en fin d'année.",
-      "published": "Mon, 30 Jun 2025 09:52:28 +0200",
-      "source": "Europe 1",
-      "hash_id": "0f2f73281515",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 5,
-      "newsworthiness_score": 6.62,
-      "total_score": 21.096,
-      "contextual_title_explanations": {
-        "Budget": {
-          "display_format": "**Budget:** _Budget_",
-          "explanation": "The government's financial plan for the year.",
-          "cultural_note": ""
-        },
-        "en retard": {
-          "display_format": "**Behind schedule:** _en retard_",
-          "explanation": "Not meeting planned deadlines.",
-          "cultural_note": ""
-        },
-        "sur": {
-          "display_format": "**on:** _sur_",
-          "explanation": "Indicates a topic or subject.",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**its:** _ses_",
-          "explanation": "Possessive form for 'its' referring to the budget.",
-          "cultural_note": ""
-        },
-        "objectifs": {
-          "display_format": "**objectives:** _objectifs_",
-          "explanation": "Goals or targets to achieve.",
-          "cultural_note": ""
-        },
-        "annuels": {
-          "display_format": "**annual:** _annuels_",
-          "explanation": "Something that happens every year.",
-          "cultural_note": ""
-        },
-        "Bercy": {
-          "display_format": "**Bercy:** _Bercy_",
-          "explanation": "The French Ministry of Economy and Finance.",
-          "cultural_note": "Named after the area in Paris."
-        },
-        "gèle": {
-          "display_format": "**freezes:** _gèle_",
-          "explanation": "To stop or pause funding temporarily.",
-          "cultural_note": ""
-        },
-        "5 milliards": {
-          "display_format": "**5 billion:** _5 milliards_",
-          "explanation": "A large amount of money (5,000,000,000).",
-          "cultural_note": "In French, 'milliard' means billion."
-        },
-        "d'euros": {
-          "display_format": "**of euros:** _d'euros_",
-          "explanation": "Refers to the currency used in France.",
-          "cultural_note": ""
-        },
-        "de crédits": {
-          "display_format": "**of credits:** _de crédits_",
-          "explanation": "Funds allocated for specific purposes.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Budget : Bercy gèle 5 milliards d'euros",
-      "simplified_english_title": "Budget: Bercy freezes 5 billion euros",
-      "french_summary": "Bercy, le ministère des Finances, gèle 5 milliards d'euros de crédits car il est en retard sur ses objectifs annuels.",
-      "english_summary": "Bercy, the Ministry of Finance, freezes 5 billion euros in funding because it is behind its annual objectives.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T10:12:29.013551+00:00",
-      "original_article_link": "https://www.europe1.fr/economie/budget-en-retard-sur-ses-objectifs-annuels-bercy-gele-5-milliards-deuros-de-credits-761532",
-      "original_article_title": "Budget : en retard sur ses objectifs annuels, Bercy gèle 5 milliards d'euros de crédits",
-      "original_article_published_date": "Mon, 30 Jun 2025 09:52:28 +0200",
-      "source_name": "Europe 1"
-    },
-    {
-      "title": "Soldes d’été : les vraies bonnes affaires de la première démarque chez Amazon, Fnac, Boulanger…",
-      "link": "https://www.numerama.com/tech/1999701-meilleures-promotions-soldes-d-ete-30-juin.html",
-      "summary": "La première démarque des soldes d’été est déjà bien entamée, avec une avalanche de promotions un peu partout. Fnac, Boulanger, Cdiscount ou même Amazon n’ont évidemment pas fait l’impasse sur l’événement. Mais avec cette accumulation de petits prix, il devient parfois difficile de repérer les vraies bonnes affaires. Chez Numerama, on sélectionne pour vous les produits qui, selon nous, valent vraiment le coup pendant ces soldes d’été.",
-      "published": "Mon, 30 Jun 2025 08:10:23 +0000",
-      "source": "Numerama",
-      "hash_id": "96b4eebba8be",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 5,
-      "newsworthiness_score": 6.67,
-      "total_score": 21.136,
-      "contextual_title_explanations": {
-        "Soldes": {
-          "display_format": "**Sales:** _Soldes_",
-          "explanation": "Discount events where prices are reduced.",
-          "cultural_note": "Sales in France are regulated by law."
-        },
-        "d’été": {
-          "display_format": "**Summer:** _d’été_",
-          "explanation": "The season of summer, from June to August.",
-          "cultural_note": ""
-        },
-        "les": {
-          "display_format": "**The:** _les_",
-          "explanation": "Definite article used for plural nouns.",
-          "cultural_note": ""
-        },
-        "vraies": {
-          "display_format": "**Real:** _vraies_",
-          "explanation": "Genuine or true, not fake.",
-          "cultural_note": ""
-        },
-        "bonnes": {
-          "display_format": "**Good:** _bonnes_",
-          "explanation": "Of high quality or favorable.",
-          "cultural_note": ""
-        },
-        "affaires": {
-          "display_format": "**Deals:** _affaires_",
-          "explanation": "Bargains or advantageous purchases.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**Of:** _de_",
-          "explanation": "Preposition indicating belonging or origin.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** _la_",
-          "explanation": "Definite article used for singular feminine nouns.",
-          "cultural_note": ""
-        },
-        "première": {
-          "display_format": "**First:** _première_",
-          "explanation": "The initial or earliest in a series.",
-          "cultural_note": ""
-        },
-        "démarque": {
-          "display_format": "**Markdown:** _démarque_",
-          "explanation": "A reduction in price during sales.",
-          "cultural_note": ""
-        },
-        "chez": {
-          "display_format": "**At:** _chez_",
-          "explanation": "Preposition meaning 'at the place of'.",
-          "cultural_note": ""
-        },
-        "Amazon": {
-          "display_format": "**Amazon:** _Amazon_",
-          "explanation": "A large online shopping platform.",
-          "cultural_note": ""
-        },
-        "Fnac": {
-          "display_format": "**Fnac:** _Fnac_",
-          "explanation": "A French retail chain for electronics and books.",
-          "cultural_note": ""
-        },
-        "Boulanger": {
-          "display_format": "**Boulanger:** _Boulanger_",
-          "explanation": "A French electronics and appliance retailer.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Soldes d'été : bonnes affaires chez Amazon, Fnac, Boulanger",
-      "simplified_english_title": "Summer Sales: Great Deals at Amazon, Fnac, Boulanger",
-      "french_summary": "Découvrez les meilleures offres de la première démarque des soldes d'été chez Amazon, Fnac et Boulanger.",
-      "english_summary": "Discover the best deals from the first markdown of summer sales at Amazon, Fnac, and Boulanger.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T10:12:03.565453+00:00",
-      "original_article_link": "https://www.numerama.com/tech/1999701-meilleures-promotions-soldes-d-ete-30-juin.html",
-      "original_article_title": "Soldes d’été : les vraies bonnes affaires de la première démarque chez Amazon, Fnac, Boulanger…",
-      "original_article_published_date": "Mon, 30 Jun 2025 08:10:23 +0000",
-      "source_name": "Numerama"
-    },
-    {
-      "title": "Chatlyn lève 8 millions d’euros pour mettre fin à la cacophonie numérique dans l’hôtellerie",
-      "link": "https://www.frenchweb.fr/chatlyn-leve-8-millions-deuros-pour-mettre-fin-a-la-cacophonie-numerique-dans-lhotellerie/455772",
-      "summary": "<p>Les hôtels ont trop longtemps parlé plusieurs langues numériques à la fois, WhatsApp, email, Booking.com Messenger, Instagram, webchat… autant de canaux que d&#8217;opportunités manquées de répondre vite et bien. C’est dans cette faille relationnelle que s&#8217;engouffre la startup viennoise chatlyn, qui ambitionne de devenir le « cerveau conversationnel » des hôtels. Avec 8 millions d&#8217;euros &#8230;</p>\n<p>L’article <a href=\"https://www.frenchweb.fr/chatlyn-leve-8-millions-deuros-pour-mettre-fin-a-la-cacophonie-numerique-dans-lhotellerie/455772\" rel=\"nofollow\">Chatlyn lève 8 millions d’euros pour mettre fin à la cacophonie numérique dans l’hôtellerie</a> est apparu en premier sur <a href=\"https://www.frenchweb.fr\" rel=\"nofollow\">FRENCHWEB.FR</a>.</p>",
-      "published": "Thu, 26 Jun 2025 05:34:04 +0000",
-      "source": "FrenchWeb",
-      "hash_id": "6061896333c9",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 5,
-      "newsworthiness_score": 6.8100000000000005,
-      "total_score": 21.247999999999998,
-      "contextual_title_explanations": {
-        "Chatlyn": {
-          "display_format": "**Chatlyn:** _Chatlyn_",
-          "explanation": "A company name in the tech industry.",
-          "cultural_note": "Chatlyn focuses on digital solutions."
-        },
-        "lève": {
-          "display_format": "**raises:** _lève_",
-          "explanation": "To collect or gather money.",
-          "cultural_note": ""
-        },
-        "8 millions d’euros": {
-          "display_format": "**8 million euros:** _8 millions d’euros_",
-          "explanation": "A sum of money in euros.",
-          "cultural_note": "1 euro is about 1.1 USD."
-        },
-        "pour": {
-          "display_format": "**to:** _pour_",
-          "explanation": "Indicates purpose or reason.",
-          "cultural_note": ""
-        },
-        "mettre fin": {
-          "display_format": "**put an end:** _mettre fin_",
-          "explanation": "To stop something completely.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**to:** _à_",
-          "explanation": "A preposition indicating direction.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**the:** _la_",
-          "explanation": "The definite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "cacophonie": {
-          "display_format": "**cacophony:** _cacophonie_",
-          "explanation": "A harsh, discordant mixture of sounds.",
-          "cultural_note": "Used metaphorically for confusion."
-        },
-        "numérique": {
-          "display_format": "**digital:** _numérique_",
-          "explanation": "Related to technology and computers.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**in:** _dans_",
-          "explanation": "A preposition indicating location.",
-          "cultural_note": ""
-        },
-        "l’hôtellerie": {
-          "display_format": "**hospitality:** _l’hôtellerie_",
-          "explanation": "The industry related to hotels and services.",
-          "cultural_note": "Includes hotels, restaurants, and tourism."
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Chatlyn lève 8 millions d’euros pour améliorer l’hôtellerie",
-      "simplified_english_title": "Chatlyn raises 8 million euros to improve hospitality",
-      "french_summary": "Chatlyn a levé 8 millions d’euros pour réduire le bruit numérique dans l’hôtellerie.",
-      "english_summary": "Chatlyn has raised 8 million euros to reduce digital noise in the hospitality industry.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T10:11:39.185524+00:00",
-      "original_article_link": "https://www.frenchweb.fr/chatlyn-leve-8-millions-deuros-pour-mettre-fin-a-la-cacophonie-numerique-dans-lhotellerie/455772",
-      "original_article_title": "Chatlyn lève 8 millions d’euros pour mettre fin à la cacophonie numérique dans l’hôtellerie",
-      "original_article_published_date": "Thu, 26 Jun 2025 05:34:04 +0000",
-      "source_name": "FrenchWeb"
-    },
-    {
-      "title": "Bientôt des pubs sur ChatGPT ? Sam Altman ouvre la porte et évoque l’exemple d’Instagram",
-      "link": "https://siecledigital.fr/2025/06/27/bientot-des-pubs-sur-chatgpt-sam-altman-ouvre-la-porte-et-evoque-lexemple-dinstagram/",
-      "summary": "<a href=\"https://siecledigital.fr/2025/06/27/bientot-des-pubs-sur-chatgpt-sam-altman-ouvre-la-porte-et-evoque-lexemple-dinstagram/\" rel=\"nofollow\" title=\"Bientôt des pubs sur ChatGPT ? Sam Altman ouvre la porte et évoque l&rsquo;exemple d’Instagram\"><img alt=\"Bientôt des pubs sur ChatGPT ? Sam Altman ouvre la porte et évoque l&#039;exemple d’Instagram\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"700\" src=\"https://siecledigital.fr/wp-content/uploads/2025/06/chatgpt-pub.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1200\" /></a>Même si OpenAI propose d&#8217;ores et déjà des offres payantes, avec notamment l&#8217;abonnement ChatGPT Pro à 229 € par mois, on savait d&#8217;ores et déjà que la rentabilité n&#8217;était pas au rendez-vous. Et si, pour le moment, OpenAI continue sa croissance fulgurante avec valorisation record au mois de février dernier, l&#8217;entreprise se doit aujourd&#8217;hui de [&#8230;]",
-      "published": "Fri, 27 Jun 2025 09:00:49 +0000",
-      "source": "Siècle Digital",
-      "hash_id": "c25ac8bed285",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 5,
-      "newsworthiness_score": 7.0,
-      "total_score": 21.4,
-      "contextual_title_explanations": {
-        "Bientôt": {
-          "display_format": "**Soon:** _Bientôt_",
-          "explanation": "In the near future.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**Some:** _des_",
-          "explanation": "Indicates an unspecified quantity.",
-          "cultural_note": ""
-        },
-        "pubs": {
-          "display_format": "**Ads:** _pubs_",
-          "explanation": "Short for advertisements.",
-          "cultural_note": "Commonly used in marketing."
-        },
-        "sur": {
-          "display_format": "**On:** _sur_",
-          "explanation": "Indicates a topic or subject.",
-          "cultural_note": ""
-        },
-        "ChatGPT": {
-          "display_format": "**ChatGPT:** _ChatGPT_",
-          "explanation": "An AI language model.",
-          "cultural_note": "Popular for conversation and writing."
-        },
-        "Sam Altman": {
-          "display_format": "**Sam Altman:** _Sam Altman_",
-          "explanation": "CEO of OpenAI, the company behind ChatGPT.",
-          "cultural_note": "Influential in tech and AI."
-        },
-        "ouvre": {
-          "display_format": "**Opens:** _ouvre_",
-          "explanation": "To make something available.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** _la_",
-          "explanation": "Definite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "porte": {
-          "display_format": "**Door:** _porte_",
-          "explanation": "A physical or metaphorical entry.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And:** _et_",
-          "explanation": "Used to connect words or phrases.",
-          "cultural_note": ""
-        },
-        "évoque": {
-          "display_format": "**Mentions:** _évoque_",
-          "explanation": "To bring something to mind.",
-          "cultural_note": ""
-        },
-        "l’exemple": {
-          "display_format": "**The example:** _l’exemple_",
-          "explanation": "A specific case used for illustration.",
-          "cultural_note": ""
-        },
-        "d’Instagram": {
-          "display_format": "**Of Instagram:** _d’Instagram_",
-          "explanation": "Refers to the social media platform.",
-          "cultural_note": "Popular for sharing photos."
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Bientôt des pubs sur ChatGPT ?",
-      "simplified_english_title": "Will there be ads on ChatGPT soon?",
-      "french_summary": "Sam Altman, le PDG d'OpenAI, a mentionné la possibilité d'introduire des publicités sur ChatGPT, en prenant Instagram comme exemple.",
-      "english_summary": "Sam Altman, the CEO of OpenAI, mentioned the possibility of introducing ads on ChatGPT, using Instagram as an example.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T10:11:17.545805+00:00",
-      "original_article_link": "https://siecledigital.fr/2025/06/27/bientot-des-pubs-sur-chatgpt-sam-altman-ouvre-la-porte-et-evoque-lexemple-dinstagram/",
-      "original_article_title": "Bientôt des pubs sur ChatGPT ? Sam Altman ouvre la porte et évoque l’exemple d’Instagram",
-      "original_article_published_date": "Fri, 27 Jun 2025 09:00:49 +0000",
-      "source_name": "Siècle Digital"
-    },
-    {
-      "title": "L’info du jour | 29 juin - Mi-journée",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source": "Euronews France",
-      "hash_id": "3a8f8aa7472d",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "original_article_title": "L’info du jour | 29 juin - Mi-journée",
-      "original_article_published_date": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source_name": "Euronews France"
-    },
-    {
-      "title": "L’info du jour | 29 juin - Matin",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source": "Euronews France",
-      "hash_id": "372c8c9b939f",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "original_article_title": "L’info du jour | 29 juin - Matin",
-      "original_article_published_date": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source_name": "Euronews France"
     }
   ]
 }
