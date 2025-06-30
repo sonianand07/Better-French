@@ -396,18 +396,29 @@ IMPORTANT: Return only the JSON, no other text."""
         
         print(f"📅 Filtered to {len(recent_articles)} recent articles (last 7 days) from {len(rony_articles)} total")
         
-        # SMART LIMIT: Max 30 articles for development phase
-        if len(recent_articles) > 30:
+        # SMART LIMIT: Max 5 articles for immediate feedback
+        if len(recent_articles) > 5:
             # Sort by Rony score (highest first) to get best articles
             recent_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-            recent_articles = recent_articles[:30]
-            print(f"🎯 Limited to TOP 30 articles (development phase)")
+            recent_articles = recent_articles[:5]
+            print(f"🎯 Limited to TOP 5 articles (immediate feedback mode)")
         
         print(f"📊 Processing {len(recent_articles)} articles")
         print("📋 Pipeline Steps:")
         print("   1️⃣ Contextual Analysis (French learning tooltips)")
         print("   2️⃣ Simplification (B1-level French + English)")
         print("   3️⃣ GPT-4o Verification (quality check + missing tooltips)")
+        print("")
+        
+        # Show immediate processing plan
+        print(f"🚀 IMMEDIATE PROCESSING PLAN - BATCH OF {len(recent_articles)}:")
+        print("=" * 60)
+        for i, article in enumerate(recent_articles, 1):
+            title = article.get('title', 'No title')[:50]
+            source = article.get('source', 'Unknown')
+            rony_score = article.get('total_score', 0)
+            print(f"   {i}. 📰 \"{title}...\"")
+            print(f"      📊 {source} | Rony Score: {rony_score:.1f}/25")
         print("")
         
         enhanced_articles = []
@@ -447,12 +458,19 @@ IMPORTANT: Return only the JSON, no other text."""
             
             step_cost = cost1 + cost2 + cost3
             print(f"      ✅ Complete (${step_cost:.4f})")
+            
+            # Show immediate progress
+            if i < len(recent_articles):
+                remaining = len(recent_articles) - i
+                avg_cost = total_cost / i
+                estimated_remaining_cost = remaining * avg_cost
+                print(f"      📊 Progress: {i}/{len(recent_articles)} | Remaining: {remaining} | Est. cost: ${estimated_remaining_cost:.3f}")
             print("")
         
         print(f"✅ SMART AI ENHANCEMENT PIPELINE COMPLETE!")
         print(f"   📊 Articles enhanced: {len(enhanced_articles)}")
         print(f"   🎯 Recent articles only (last 7 days)")
-        print(f"   ⚡ Development limit: max 30 articles")
+        print(f"   ⚡ Development limit: max 5 articles")
         print(f"   💰 Total cost: ${total_cost:.4f}")
         print(f"   🚀 Ready for sophisticated website generation")
         

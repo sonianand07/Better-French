@@ -111,12 +111,20 @@ jobs:
                   f.write('false')
               exit(0)
           
-          # Safety cap - don't process too many at once
-          if total_articles > 30:
+          # Safety cap - process small batches for immediate feedback
+          if total_articles > 5:
               print(f"\n⚠️ SAFETY CAP: {total_articles} articles found")
-              print("   🛡️ Processing latest 3 runs only (max 30 articles)")
-              print("   💡 This prevents overwhelming the enhancement pipeline")
-              unprocessed_runs = unprocessed_runs[-3:]
+              print("   🛡️ Processing latest batch only (max 5 articles)")
+              print("   💡 Small batches for immediate feedback and faster processing")
+              # Take only enough runs to get ~5 articles
+              selected_runs = []
+              article_count = 0
+              for run in reversed(unprocessed_runs):
+                  selected_runs.insert(0, run)
+                  article_count += run.get('articles_selected', 0)
+                  if article_count >= 5:
+                      break
+              unprocessed_runs = selected_runs
               total_articles = sum(run['articles_selected'] for run in unprocessed_runs)
           
           print(f"\n🚀 PROCESSING QUEUE:")
@@ -142,6 +150,23 @@ jobs:
           if len(articles_for_processing) > 10:
               remaining = len(articles_for_processing) - 10
               print(f"   ... and {remaining} more articles")
+          
+          # Show IMMEDIATE article processing preview
+          print(f"\n🚀 IMMEDIATE PROCESSING PREVIEW:")
+          print("=" * 50)
+          print(f"📊 These {min(len(articles_for_processing), 5)} articles will be enhanced:")
+          for i, article in enumerate(articles_for_processing[:5], 1):
+              title = article.get('title', 'No title')[:60]
+              source = article.get('source', 'Unknown')
+              score = article.get('total_score', 0)
+              print(f"   {i}. 🔧 Processing: \"{title}...\"")
+              print(f"      📊 Source: {source} | Quality: {score:.1f}/25")
+              print(f"      🎯 Will get: Contextual analysis → Simplification → GPT-4o verification")
+              
+          print(f"\n⚡ Small batch processing: {len(articles_for_processing)} articles")
+          print(f"💰 Estimated cost: ~${len(articles_for_processing) * 0.012:.3f}")
+          print(f"⏱️ Estimated time: ~{len(articles_for_processing) * 30} seconds")
+          print(f"🎯 Next: Starting AI enhancement pipeline...")
           
           with open('processing_queue.json', 'w') as f:
               json.dump({
