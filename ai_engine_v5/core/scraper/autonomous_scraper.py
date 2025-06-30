@@ -562,8 +562,8 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                 "scraping_stats": self.scraping_stats
             }
         
-        # Step 1.5: Filter for recent articles only (last 24 hours)
-        cutoff_time = start_time - timedelta(hours=24)
+        # Step 1.5: Filter for HOURLY articles only (last 1 hour for hourly scraping)
+        cutoff_time = start_time - timedelta(hours=1)
         recent_articles = []
         
         for article in all_articles:
@@ -581,7 +581,7 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                         except ValueError:
                             continue
                 
-                # If we can parse the date and it's recent, keep it
+                # If we can parse the date and it's from last hour, keep it
                 if published_dt and published_dt >= cutoff_time:
                     recent_articles.append(article)
                 elif not published_dt:
@@ -592,12 +592,34 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                 # If any error, keep the article (better safe than sorry)
                 recent_articles.append(article)
         
-        logger.info(f"📅 Filtered {len(all_articles)} → {len(recent_articles)} recent articles (last 24h)")
+        logger.info(f"📅 Filtered {len(all_articles)} → {len(recent_articles)} hourly articles (last 1h)")
         
         if not recent_articles:
-            logger.warning("⚠️ No recent articles found! All articles are >24h old")
-            # Use all articles as fallback
-            recent_articles = all_articles
+            logger.warning("⚠️ No articles from last hour found! Using broader search...")
+            # Fallback to 3-hour window if no articles in last hour
+            fallback_cutoff = start_time - timedelta(hours=3)
+            for article in all_articles:
+                try:
+                    published_dt = None
+                    if article.published:
+                        for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S', '%a, %d %b %Y %H:%M:%S %Z']:
+                            try:
+                                published_dt = datetime.strptime(article.published, fmt)
+                                if published_dt.tzinfo is None:
+                                    published_dt = PARIS_TZ.localize(published_dt)
+                                break
+                            except ValueError:
+                                continue
+                    
+                    if published_dt and published_dt >= fallback_cutoff:
+                        recent_articles.append(article)
+                    elif not published_dt:
+                        recent_articles.append(article)
+                        
+                except Exception:
+                    recent_articles.append(article)
+            
+            logger.info(f"📅 Fallback: Found {len(recent_articles)} articles in last 3h")
         
         all_articles = recent_articles
         
