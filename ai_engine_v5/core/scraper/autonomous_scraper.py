@@ -626,7 +626,7 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
         # Step 2: Intelligent selection using V3's proven system + LLM
         selected_articles = await self._select_best_articles(all_articles)
         
-        end_time = datetime.now()
+        end_time = datetime.now(PARIS_TZ)
         duration = (end_time - start_time).total_seconds()
         
         # Calculate quality metrics
