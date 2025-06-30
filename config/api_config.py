@@ -36,15 +36,16 @@ if not OPENROUTER_API_KEY or not OPENROUTER_SCRAPER_API_KEY:
         if not OPENROUTER_SCRAPER_API_KEY:
             OPENROUTER_SCRAPER_API_KEY = parser.get("secrets", "OPENROUTER_SCRAPER_API_KEY", fallback=None)
 
-# 3. Final guard
+# 3. Final guard - main API key is required, scraper key can fallback to main key
 if not OPENROUTER_API_KEY:
     raise RuntimeError(
         "OPENROUTER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_API_KEY=sk-..."
     )
+
+# If scraper key not available, use main API key as fallback (for V4 compatibility)
 if not OPENROUTER_SCRAPER_API_KEY:
-    raise RuntimeError(
-        "OPENROUTER_SCRAPER_API_KEY not configured. Either export the env var or create config/config.ini with [secrets] OPENROUTER_SCRAPER_API_KEY=sk-..."
-    )
+    OPENROUTER_SCRAPER_API_KEY = OPENROUTER_API_KEY
+    print("ℹ️ Using main API key for scraper operations (scraper key not configured)")
 
 OPENROUTER_API_BASE = "https://openrouter.ai/api/v1"
 
