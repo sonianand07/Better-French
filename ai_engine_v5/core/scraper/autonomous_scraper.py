@@ -685,10 +685,20 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
         data_dir.mkdir(parents=True, exist_ok=True)
         data_file = data_dir / 'scraper_data.json'
         
-        # Load existing data
+        # Load existing data and gracefully handle legacy/invalid structures
         if data_file.exists():
             try:
                 existing_data = json.loads(data_file.read_text(encoding='utf-8'))
+                # Legacy safeguard: ensure required keys exist
+                if not isinstance(existing_data, dict):
+                    raise ValueError("scraper_data.json is not a JSON object")
+
+                if "scraper_runs" not in existing_data or not isinstance(existing_data["scraper_runs"], list):
+                    existing_data["scraper_runs"] = []
+
+                if "total_runs" not in existing_data or not isinstance(existing_data["total_runs"], int):
+                    existing_data["total_runs"] = len(existing_data["scraper_runs"])
+
             except Exception as e:
                 logger.error(f"Failed to load existing data: {e} - starting fresh")
                 existing_data = self._create_empty_data_structure()
