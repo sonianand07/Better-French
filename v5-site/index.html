@@ -1,83 +1,107 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Better French V5 - Fallback Mode</title>
-        <style>
-            body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin: 40px; }
-            .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; }
-            .article { border: 1px solid #ddd; margin: 10px 0; padding: 15px; border-radius: 5px; }
-            .article h3 { margin: 0 0 10px 0; }
-            .article a { color: #2563eb; text-decoration: none; }
-            .stats { background: #f8fafc; padding: 15px; border-radius: 8px; margin: 20px 0; }
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1>🤖 Better French V5 - Fallback Mode</h1>
-            <p>Articles collected by Rony autonomous scraper</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better French - Simplified French News</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1751185383424">
+    <link rel="stylesheet" href="css/glass-note-tooltip.css?v=1751185383424">
+    <meta name="description" content="Daily French news headlines in simplified format for French learners and native speakers">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="logo">
+                <span class="logo-better">Better</span>
+                <span class="logo-french">French</span>
+            </div>
+
+            <!-- Mode Toggle -->
+            <div class="mode-toggle" role="tablist" aria-label="Content mode selection">
+                <!-- Desktop mode options -->
+                <button 
+                    class="mode-option active" 
+                    data-mode="learner" 
+                    role="tab" 
+                    aria-selected="true"
+                    aria-controls="content"
+                    tabindex="0"
+                >
+                    🎓 French Learner Mode
+                </button>
+                <button 
+                    class="mode-option" 
+                    data-mode="native" 
+                    role="tab" 
+                    aria-selected="false"
+                    aria-controls="content"
+                    tabindex="-1"
+                >
+                    🇫🇷 French Native Mode
+                </button>
+                
+                <!-- Mobile single mode switcher -->
+                <div class="mode-switcher" data-current-mode="learner">
+                    <span class="mode-icon">🎓</span>
+                    <span class="mode-text">Learner</span>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <div class="search-container">
+                <input type="search" 
+                       class="search-input" 
+                       placeholder="Search" 
+                       aria-label="Search articles">
+                <span class="search-icon">🔍</span>
+            </div>
         </div>
-        
-        <div class="stats">
-            <h2>📊 Collection Stats</h2>
-            <p><strong>Articles collected:</strong> 30</p>
-            <p><strong>Status:</strong> V3+V4 enhancement temporarily unavailable</p>
-            <p><strong>Next step:</strong> Check back soon for full enhancement!</p>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- Featured Article -->
+            <article class="article-card featured-card" id="featured-article">
+                <!-- Featured article will be populated by JavaScript -->
+            </article>
+
+            <!-- Articles Grid -->
+            <div class="articles-grid" id="articles-container">
+                <!-- Regular articles will be populated by JavaScript -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn" id="load-more">
+                    Load 10 more articles
+                </button>
+            </div>
         </div>
-        
-        <h2>📰 Latest Articles from Rony</h2>
-        
-        <div class="article">
-            <h3><a href="https://www.philomag.com/articles/anne-sophie-moreau-linteret-pour-le-moisi-peut-renvoyer-une-forme-de-depression-lechelle" target="_blank">Anne-Sophie Moreau : “L’intérêt pour le moisi peut renvoyer à une forme de dépression à l’échelle de l’humanité”</a></h3>
-            <p><strong>Source:</strong> Philosophie Magazine | <strong>Quality:</strong> 23.8/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.estrepublicain.fr/politique/2025/06/29/inadmissible-ces-clubs-sportifs-vent-debout-contre-la-non-reconduction-du-pass-sport-qui-offrait-50-aux-6-a-13-ans" target="_blank">Haute-Saône. « Inadmissible » : ces clubs sportifs vent debout contre la non-reconduction du Pass’sport qui offrait 50 € aux 6 à 13 ans</a></h3>
-            <p><strong>Source:</strong> L'Est Républicain | <strong>Quality:</strong> 22.2/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.philomag.com/articles/ni-dieux-ni-rois-seulement-les-hommes-quand-elon-musk-cite-implicitement-la-philosophe" target="_blank">“Ni dieux ni rois, seulement les hommes” : quand Elon Musk cite implicitement la philosophe Ayn Rand</a></h3>
-            <p><strong>Source:</strong> Philosophie Magazine | <strong>Quality:</strong> 21.8/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.philomag.com/articles/pourquoi-jaime-epier-les-riches" target="_blank">Pourquoi j’aime épier les riches</a></h3>
-            <p><strong>Source:</strong> Philosophie Magazine | <strong>Quality:</strong> 21.8/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://siecledigital.fr/2025/06/27/bientot-des-pubs-sur-chatgpt-sam-altman-ouvre-la-porte-et-evoque-lexemple-dinstagram/" target="_blank">Bientôt des pubs sur ChatGPT ? Sam Altman ouvre la porte et évoque l’exemple d’Instagram</a></h3>
-            <p><strong>Source:</strong> Siècle Digital | <strong>Quality:</strong> 21.4/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.frenchweb.fr/chatlyn-leve-8-millions-deuros-pour-mettre-fin-a-la-cacophonie-numerique-dans-lhotellerie/455772" target="_blank">Chatlyn lève 8 millions d’euros pour mettre fin à la cacophonie numérique dans l’hôtellerie</a></h3>
-            <p><strong>Source:</strong> FrenchWeb | <strong>Quality:</strong> 21.2/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.tomsguide.fr/abandon-des-zones-a-faibles-emissions-une-decision-qui-pourrait-couter-cher-a-la-france/" target="_blank">Abandon des zones à faibles émissions : une décision qui pourrait coûter cher à la France</a></h3>
-            <p><strong>Source:</strong> Tom's Guide | <strong>Quality:</strong> 21.1/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.maddyness.com/2025/06/27/kineis-commercialise-sa-constellation-de-25-satellites/" target="_blank">"100 millions d'euros de chiffre d'affaires d'ici 2030" : Kinéis commercialise sa constellation de 25 satellites</a></h3>
-            <p><strong>Source:</strong> Maddyness | <strong>Quality:</strong> 20.9/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.maddyness.com/2025/06/27/les-startups-francaises-ont-leve-167-millions-deuros-cette-semaine/" target="_blank">Les startups françaises ont levé 167 millions d'euros cette semaine</a></h3>
-            <p><strong>Source:</strong> Maddyness | <strong>Quality:</strong> 20.8/25</p>
-        </div>
-        
-        <div class="article">
-            <h3><a href="https://www.philomag.com/articles/patrick-chamoiseau-pour-les-esclaves-la-danse-etait-une-maniere-de-renaitre-dans-un" target="_blank">Patrick Chamoiseau : “Pour les esclaves, la danse était une manière de renaître dans un corps qui ne leur appartenait plus”</a></h3>
-            <p><strong>Source:</strong> Philosophie Magazine | <strong>Quality:</strong> 20.8/25</p>
-        </div>
-        
-        
-        <p><small>Generated: 2025-06-30 07:47:37 UTC</small></p>
-    </body></html>
+    </main>
+
+    <!-- Loading Indicator -->
+    <div class="loading" id="loading" aria-hidden="true">
+        <div class="loading-spinner"></div>
+        <p>Loading articles...</p>
+    </div>
+
+    <!-- Error Message -->
+    <div class="error-message" id="error-message" aria-hidden="true">
+        <p>Unable to load articles. Please try again later.</p>
+        <button class="retry-btn" id="retry-btn">Retry</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="js/glass-note-tooltip.js?v=1751185383424"></script>
+</body>
+</html> 
