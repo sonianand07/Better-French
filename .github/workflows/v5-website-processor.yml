@@ -111,10 +111,12 @@ jobs:
                   f.write('false')
               exit(0)
           
-          # Safety cap - process small batches for immediate feedback
-          if total_articles > 5:
+          # Safety cap - process manageable batches for immediate feedback
+          # Increase cap from 5 ➜ 15 so a single run can publish a fuller page while
+          # still preventing huge backlogs from slowing down the workflow.
+          if total_articles > 15:
               print(f"\n⚠️ SAFETY CAP: {total_articles} articles found")
-              print("   🛡️ Processing latest batch only (max 5 articles)")
+              print("   🛡️ Processing latest batch only (max 15 articles)")
               print("   💡 Small batches for immediate feedback and faster processing")
               # Take only enough runs to get ~5 articles
               selected_runs = []
@@ -122,7 +124,7 @@ jobs:
               for run in reversed(unprocessed_runs):
                   selected_runs.insert(0, run)
                   article_count += run.get('articles_selected', 0)
-                  if article_count >= 5:
+                  if article_count >= 15:
                       break
               unprocessed_runs = selected_runs
               total_articles = sum(run['articles_selected'] for run in unprocessed_runs)
