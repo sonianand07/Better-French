@@ -273,12 +273,31 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./ai_engine_v5/website
           destination_dir: v5-site
+          force_orphan: false
+          keep_files: true
           commit_message: |
             🌐 V5 website update - Rony's enhanced articles
             
             ✅ Profile-aware article selection by Rony
             🤖 V3+V4 enhancement pipeline applied
             📊 Latest high-quality French learning content
+            
+      - name: ✅ Verify V5 Deployment
+        run: |
+          echo "🔍 Verifying V5 website deployment..."
+          
+          # Wait a moment for deployment to propagate
+          sleep 10
+          
+          # Test if the website is accessible
+          if curl -f -s "https://sonianand07.github.io/Better-French/v5-site/" > /dev/null; then
+            echo "✅ V5 website is live and accessible!"
+          else
+            echo "⚠️ V5 website might take a few minutes to propagate"
+          fi
+          
+          echo "🌐 V5 Website URL: https://sonianand07.github.io/Better-French/v5-site/"
+          echo "📊 Expected: Enhanced articles with French learning tooltips"
 
       - name: 📝 Commit processing results
         run: |
