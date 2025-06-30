@@ -121,4 +121,12 @@ Use the strict format:
 
 ---
 
+## 10. Paris Time Reference
+
+* **ALWAYS use Paris time (CET/CEST)** when communicating timestamps, schedules, or time-based information
+* User is located in Paris - all time references should be Paris-synchronized
+* When analyzing workflows, Rony runs, or any time-sensitive data, convert to Paris time for clarity
+
+---
+
 **End of rulebook** 

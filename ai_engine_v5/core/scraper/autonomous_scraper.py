@@ -22,11 +22,31 @@ import time
 import random
 import ssl
 import certifi
+import pytz
+
+# Paris timezone for proper date handling
+PARIS_TZ = pytz.timezone('Europe/Paris')
 
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-from ai_engine_v5.config.rss_sources import RSS_SOURCES
+# Add the parent directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
+try:
+    from config.rss_sources import RSS_SOURCES
+except ImportError:
+    # Fallback for different import contexts
+    try:
+        from ai_engine_v5.config.rss_sources import RSS_SOURCES
+    except ImportError:
+        # Last resort - manual RSS sources
+        RSS_SOURCES = {
+            "Le Monde": "https://www.lemonde.fr/rss/une.xml",
+            "Le Figaro": "https://www.lefigaro.fr/rss/figaro_une.xml",
+            "France Info": "https://www.francetvinfo.fr/titres.rss",
+            "Euronews France": "http://feeds.feedburner.com/euronews/fr/home/",
+            "Europe 1": "https://www.europe1.fr/rss.xml"
+        }
 
 # Configure logging for better debugging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -522,8 +542,9 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
     
     async def run_autonomous_cycle(self) -> Dict:
         """Complete autonomous scraping and selection cycle"""
-        start_time = datetime.now()
+        start_time = datetime.now(PARIS_TZ)
         logger.info("🚀 Starting Rony's autonomous cycle...")
+        logger.info(f"🕐 Paris time: {start_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
         
         # Step 1: Scrape all sources
         all_articles = await self.scrape_all_sources()
@@ -540,6 +561,45 @@ Example: 1,3,7,12,15,18,22,25,28,30"""
                 "selection_method": "V3 proven system + LLM diversity",
                 "scraping_stats": self.scraping_stats
             }
+        
+        # Step 1.5: Filter for recent articles only (last 24 hours)
+        cutoff_time = start_time - timedelta(hours=24)
+        recent_articles = []
+        
+        for article in all_articles:
+            try:
+                # Parse the published date
+                published_dt = None
+                if article.published:
+                    # Try different date formats
+                    for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S', '%a, %d %b %Y %H:%M:%S %Z']:
+                        try:
+                            published_dt = datetime.strptime(article.published, fmt)
+                            if published_dt.tzinfo is None:
+                                published_dt = PARIS_TZ.localize(published_dt)
+                            break
+                        except ValueError:
+                            continue
+                
+                # If we can parse the date and it's recent, keep it
+                if published_dt and published_dt >= cutoff_time:
+                    recent_articles.append(article)
+                elif not published_dt:
+                    # If we can't parse the date, keep it (might be fresh)
+                    recent_articles.append(article)
+                    
+            except Exception as e:
+                # If any error, keep the article (better safe than sorry)
+                recent_articles.append(article)
+        
+        logger.info(f"📅 Filtered {len(all_articles)} → {len(recent_articles)} recent articles (last 24h)")
+        
+        if not recent_articles:
+            logger.warning("⚠️ No recent articles found! All articles are >24h old")
+            # Use all articles as fallback
+            recent_articles = all_articles
+        
+        all_articles = recent_articles
         
         # Step 2: Intelligent selection using V3's proven system + LLM
         selected_articles = await self._select_best_articles(all_articles)
