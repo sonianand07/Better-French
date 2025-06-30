@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_articles": 18,
-    "last_updated": "2025-06-30T14:27:09.960433+00:00",
+    "last_updated": "2025-06-30T15:32:27.827656+00:00",
     "v5_enhanced": true,
     "pipeline": "Rony (intelligent selection) + V5 (AI enhancement)",
     "quality": "Proven prompts + GPT-4o verification",
@@ -13,641 +13,616 @@
   },
   "articles": [
     {
-      "title": "Ces communes abandonnées face au fléau des algues vertes",
-      "link": "https://reporterre.net/Ces-communes-abandonnees-face-au-fleau-des-algues-vertes",
-      "summary": "<img alt=\"\" class=\"spip_logo\" height=\"467\" src=\"https://reporterre.net/local/cache-vignettes/L700xH467/dsc07331-96638.jpg?1751269030\" width=\"700\" />\n<p>À Plœmeur, dans le Morbihan, où aucun plan départemental de lutte contre les algues vertes n'est en vigueur, ce sont les agents municipaux qui nettoient les plages. Une lourde responsabilité économique et sanitaire pour la commune. <br class=\"autobr\" />\nPlœmeur (Morbihan), reportage <br class=\"autobr\" />\n«<small class=\"fine d-inline\"> </small>Accès interdit au public. Ramassage en cours.<small class=\"fine d-inline\"> </small>» À l'entrée de la plage du Fort-Bloqué, dans la commune de Plœmeur, près de Lorient, une opération de déblaiement est en cours ce 11 juin au matin. Sur la plage, un point orange : (…)</p>\n\n            <a href=\"https://reporterre.net/Ces-communes-abandonnees-face-au-fleau-des-algues-vertes?utm_source=RSS&amp;utm_medium=RSS\">Lire la suite</a>\n            \n            -\n                <a href=\"https://reporterre.net/Reportage\" rel=\"directory\">Reportage</a>\n            \n            \n            / \n                <a href=\"https://reporterre.net/Photographies\" rel=\"tag\">Photographies</a>\n            , \n                <a href=\"https://reporterre.net/Agriculture\" rel=\"tag\">Agriculture</a>\n            , \n                <a href=\"https://reporterre.net/Pollutions\" rel=\"tag\">Pollutions</a>\n            , \n                <a href=\"https://reporterre.net/Sante\" rel=\"tag\">Santé</a>",
+      "title": "Paris, Lyon, Grenoble... La qualité de l'air ne s'améliore pas assez vite",
+      "link": "https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite",
+      "summary": "<img alt=\"\" class=\"spip_logo\" height=\"467\" src=\"https://reporterre.net/local/cache-vignettes/L700xH467/autoroute_a1_d-a3872.jpg?1751027876\" width=\"700\" />\n<p>En six ans, la qualité de l'air s'est améliorée dans sept villes de France. C'est ce que constate une étude réalisée par l'association Respire, dont les résultats ont été publiés le 27 juin. Mais les taux de pollution de l'air au dioxyde d'azote (<span class=\"caps\">NO2</span>) restent «<small class=\"fine d-inline\"> </small>encore très élevés par rapport aux valeurs limites européennes et aux seuils de l'<span class=\"caps\">OMS</span> [Organisation mondiale de la santé]<small class=\"fine d-inline\"> </small>», nuance l'association. <br class=\"autobr\" />\nPour arriver à cette conclusion, l'association a relevé les taux de <span class=\"caps\">NO2</span> enregistrés (…)</p>\n\n            <a href=\"https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite?utm_source=RSS&amp;utm_medium=RSS\">Lire la suite</a>\n            \n            -\n                <a href=\"https://reporterre.net/Breves-20\" rel=\"directory\">En bref</a>\n            \n            \n            / \n                <a href=\"https://reporterre.net/Pollutions\" rel=\"tag\">Pollutions</a>\n            , \n                <a href=\"https://reporterre.net/Sante\" rel=\"tag\">Santé</a>",
       "published": "",
       "source": "Reporterre",
-      "hash_id": "5d6651613d65",
+      "hash_id": "7b5edc79251b",
       "raw_content": "",
       "relevance_score": 9.0,
       "practical_score": 2,
-      "newsworthiness_score": 7.24,
-      "total_score": 18.592,
+      "newsworthiness_score": 7.16,
+      "total_score": 18.528,
       "contextual_title_explanations": {
-        "Ces": {
-          "display_format": "**These:** _Ces_",
-          "explanation": "This word refers to specific things.",
+        "Paris": {
+          "display_format": "**Paris:** _Paris_",
+          "explanation": "Capital city of France.",
+          "cultural_note": "Known for its art, fashion, and culture."
+        },
+        "Lyon": {
+          "display_format": "**Lyon:** _Lyon_",
+          "explanation": "A major city in France, known for its cuisine.",
+          "cultural_note": "Famous for its historical architecture."
+        },
+        "Grenoble": {
+          "display_format": "**Grenoble:** _Grenoble_",
+          "explanation": "A city in the French Alps.",
+          "cultural_note": "Known for winter sports and science."
+        },
+        "la qualité de l'air": {
+          "display_format": "**air quality:** _la qualité de l'air_",
+          "explanation": "How clean or polluted the air is.",
+          "cultural_note": "Important for health and environment."
+        },
+        "ne s'améliore pas": {
+          "display_format": "**is not improving:** _ne s'améliore pas_",
+          "explanation": "Means it is not getting better.",
           "cultural_note": ""
         },
-        "communes": {
-          "display_format": "**Towns:** _communes_",
-          "explanation": "Small administrative divisions in France.",
-          "cultural_note": "France has many small towns called communes."
-        },
-        "abandonnées": {
-          "display_format": "**Abandoned:** _abandonnées_",
-          "explanation": "Left behind or deserted.",
-          "cultural_note": ""
-        },
-        "face": {
-          "display_format": "**Facing:** _face_",
-          "explanation": "In front of or confronting.",
-          "cultural_note": ""
-        },
-        "au": {
-          "display_format": "**to the:** _au_",
-          "explanation": "A contraction of 'à' and 'le', meaning 'to the'.",
-          "cultural_note": ""
-        },
-        "fléau": {
-          "display_format": "**Plague:** _fléau_",
-          "explanation": "A serious problem or disaster.",
-          "cultural_note": "Often used for environmental issues."
-        },
-        "des": {
-          "display_format": "**of the:** _des_",
-          "explanation": "Indicates possession or relation.",
-          "cultural_note": ""
-        },
-        "algues": {
-          "display_format": "**Algae:** _algues_",
-          "explanation": "Simple plants found in water.",
-          "cultural_note": ""
-        },
-        "vertes": {
-          "display_format": "**Green:** _vertes_",
-          "explanation": "A color, often associated with nature.",
+        "assez vite": {
+          "display_format": "**fast enough:** _assez vite_",
+          "explanation": "Means at a satisfactory speed.",
           "cultural_note": ""
         }
       },
       "ai_enhanced": true,
-      "simplified_french_title": "Ces communes abandonnées à cause des algues vertes",
-      "simplified_english_title": "These towns abandoned due to green algae",
-      "french_summary": "Certaines communes en France sont abandonnées à cause de la prolifération des algues vertes, un problème environnemental.",
-      "english_summary": "Some towns in France are abandoned due to the spread of green algae, an environmental issue.",
+      "simplified_french_title": "La qualité de l'air ne s'améliore pas assez vite",
+      "simplified_english_title": "Air quality is not improving fast enough",
+      "french_summary": "Les villes comme Paris, Lyon et Grenoble ont des problèmes de qualité de l'air. Les efforts pour améliorer cela ne sont pas suffisants.",
+      "english_summary": "Cities like Paris, Lyon, and Grenoble face air quality issues. Efforts to improve it are not enough.",
       "quality_checked": true,
-      "processed_at": "2025-06-30T14:27:09.958555+00:00",
-      "original_article_link": "https://reporterre.net/Ces-communes-abandonnees-face-au-fleau-des-algues-vertes",
-      "original_article_title": "Ces communes abandonnées face au fléau des algues vertes",
+      "processed_at": "2025-06-30T15:29:20.678576+00:00",
+      "original_article_link": "https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite",
+      "original_article_title": "Paris, Lyon, Grenoble... La qualité de l'air ne s'améliore pas assez vite",
       "original_article_published_date": "",
       "source_name": "Reporterre"
     },
     {
-      "title": "Près du tiers des habitants des Tuvalu demandent l'asile climatique en Australie",
-      "link": "https://reporterre.net/Pres-du-tiers-des-habitants-des-Tuvalu-demandent-l-asile-climatique-en-Australie",
-      "summary": "<img alt=\"\" class=\"spip_logo\" height=\"465\" src=\"https://reporterre.net/local/cache-vignettes/L700xH465/tuvasouleau-059c8.jpg?1751026704\" width=\"700\" />\n<p>Sur les 10 000 habitants de l'archipel de Tuvalu, dans le Pacifique, 3 000 ont candidaté à une demande de visa climatique pour l'Australie, nous a appris le 26 juin l'<span class=\"caps\">AFP</span>. L'agence a obtenu ces chiffres auprès du gouvernement australien. Ainsi, près d'un tiers des Tuvaluans sont candidats à l'exil, alors que leur archipel est menacé par la montée des eaux due au changement climatique et pourrait disparaître d'ici la fin du siècle. <br class=\"autobr\" />\nParmi les candidats, 280 personnes seront tirées au sort et (…)</p>\n\n            <a href=\"https://reporterre.net/Pres-du-tiers-des-habitants-des-Tuvalu-demandent-l-asile-climatique-en-Australie?utm_source=RSS&amp;utm_medium=RSS\">Lire la suite</a>\n            \n            -\n                <a href=\"https://reporterre.net/Breves-20\" rel=\"directory\">En bref</a>\n            \n            \n            / \n                <a href=\"https://reporterre.net/Climat-18\" rel=\"tag\">Climat </a>\n            , \n                <a href=\"https://reporterre.net/International\" rel=\"tag\">Monde</a>\n            , \n                <a href=\"https://reporterre.net/Migrations\" rel=\"tag\">Migrations</a>",
-      "published": "",
-      "source": "Reporterre",
-      "hash_id": "7b58391d21c4",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 3,
-      "newsworthiness_score": 7.17,
-      "total_score": 19.536,
-      "contextual_title_explanations": {
-        "Près": {
-          "display_format": "**Near:** _Près_",
-          "explanation": "Close to or almost.",
-          "cultural_note": ""
-        },
-        "du": {
-          "display_format": "**of the:** _du_",
-          "explanation": "A contraction of 'de' and 'le', meaning 'of the'.",
-          "cultural_note": ""
-        },
-        "tiers": {
-          "display_format": "**third:** _tiers_",
-          "explanation": "One part of three equal parts.",
-          "cultural_note": ""
-        },
-        "des": {
-          "display_format": "**of the:** _des_",
-          "explanation": "Plural form of 'de', meaning 'of the'.",
-          "cultural_note": ""
-        },
-        "habitants": {
-          "display_format": "**inhabitants:** _habitants_",
-          "explanation": "People living in a place.",
-          "cultural_note": ""
-        },
-        "Tuvalu": {
-          "display_format": "**Tuvalu:** _Tuvalu_",
-          "explanation": "A small island nation in the Pacific Ocean.",
-          "cultural_note": "Tuvalu is facing climate change challenges."
-        },
-        "demandent": {
-          "display_format": "**demand:** _demandent_",
-          "explanation": "To ask for something strongly.",
-          "cultural_note": ""
-        },
-        "l'asile": {
-          "display_format": "**asylum:** _l'asile_",
-          "explanation": "Protection given to people fleeing danger.",
-          "cultural_note": ""
-        },
-        "climatique": {
-          "display_format": "**climate:** _climatique_",
-          "explanation": "Related to weather patterns and conditions.",
-          "cultural_note": ""
-        },
-        "en": {
-          "display_format": "**in:** _en_",
-          "explanation": "A preposition meaning 'in'.",
-          "cultural_note": ""
-        },
-        "Australie": {
-          "display_format": "**Australia:** _Australie_",
-          "explanation": "A large country and continent in the Southern Hemisphere.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Un tiers des habitants de Tuvalu demande l'asile climatique en Australie",
-      "simplified_english_title": "One third of Tuvalu residents seek climate asylum in Australia",
-      "french_summary": "Près d'un tiers des habitants de Tuvalu demandent l'asile climatique en Australie à cause des effets du changement climatique.",
-      "english_summary": "Nearly one third of Tuvalu residents are seeking climate asylum in Australia due to the impacts of climate change.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T14:23:24.333937+00:00",
-      "original_article_link": "https://reporterre.net/Pres-du-tiers-des-habitants-des-Tuvalu-demandent-l-asile-climatique-en-Australie",
-      "original_article_title": "Près du tiers des habitants des Tuvalu demandent l'asile climatique en Australie",
-      "original_article_published_date": "",
-      "source_name": "Reporterre"
-    },
-    {
-      "title": "Une semaine caniculaire en perspective dans le sud de l’Europe",
-      "link": "https://www.goodplanet.info/2025/06/30/une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope/?pk_campaign=feed&pk_kwd=une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope",
-      "summary": "<p><a href=\"https://www.goodplanet.info/2025/06/30/une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope/?pk_campaign=feed&amp;pk_kwd=une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope\"><img alt=\"canicule\" class=\"attachment-medium_large size-medium_large wp-post-image\" height=\"295\" src=\"https://www.goodplanet.info/wp-content/uploads/2025/06/6d78d9317bcd2a60f72f26c75a04548f74689b1b.jpg\" width=\"512\" /></a></p>Rome (AFP) &#8211; Du « jamais vu en France, » des « refuges climatiques » installés en Italie : dans les pays du sud de l&#8217;Europe, un intense phénomène de canicule se poursuit lundi, sans perspective de répit immédiat. L&#8217;Espagne, le Portugal, l&#8217;Italie et la France sont écrasés par la chaleur depuis plusieurs jours, avec des pics enregistrés jusqu&#8217;à [&#8230;]<img alt=\"\" height=\"0\" src=\"https://matomo.fgp.digdeo.net/piwik.php?idsite=2&amp;rec=1&amp;url=https%3A%2F%2Fwww.goodplanet.info%2F2025%2F06%2F30%2Fune-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dune-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope&amp;action_name=Une+semaine+caniculaire+en+perspective+dans+le+sud+de+l%26rsquo%3BEurope&amp;urlref=https%3A%2F%2Fwww.goodplanet.info%2Ffeed%2F\" style=\"border: 0; width: 0; height: 0;\" width=\"0\" />",
-      "published": "Mon, 30 Jun 2025 13:56:58 +0000",
-      "source": "GoodPlanet.info",
-      "hash_id": "c44289336fbf",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 3,
-      "newsworthiness_score": 6.8,
-      "total_score": 19.24,
-      "contextual_title_explanations": {
-        "Une": {
-          "display_format": "**One:** _Une_",
-          "explanation": "A French word meaning 'one' or 'a'.",
-          "cultural_note": ""
-        },
-        "semaine": {
-          "display_format": "**Week:** _Semaine_",
-          "explanation": "A period of seven days.",
-          "cultural_note": ""
-        },
-        "caniculaire": {
-          "display_format": "**Heatwave:** _Caniculaire_",
-          "explanation": "A very hot period, often with high temperatures.",
-          "cultural_note": "Common in summer in southern Europe."
-        },
-        "en": {
-          "display_format": "**In:** _En_",
-          "explanation": "A French preposition meaning 'in'.",
-          "cultural_note": ""
-        },
-        "perspective": {
-          "display_format": "**Outlook:** _Perspective_",
-          "explanation": "A view or expectation about the future.",
-          "cultural_note": ""
-        },
-        "dans": {
-          "display_format": "**In:** _Dans_",
-          "explanation": "A French preposition meaning 'in'.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** _Le_",
-          "explanation": "A French definite article meaning 'the'.",
-          "cultural_note": ""
-        },
-        "sud": {
-          "display_format": "**South:** _Sud_",
-          "explanation": "The direction opposite of north.",
-          "cultural_note": "Refers to southern Europe."
-        },
-        "de": {
-          "display_format": "**Of:** _De_",
-          "explanation": "A French preposition meaning 'of'.",
-          "cultural_note": ""
-        },
-        "l’Europe": {
-          "display_format": "**Europe:** _L'Europe_",
-          "explanation": "A continent located to the west of Asia.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Une semaine de chaleur intense dans le sud de l'Europe",
-      "simplified_english_title": "A week of intense heat in southern Europe",
-      "french_summary": "Une semaine de chaleur intense est prévue dans le sud de l'Europe, avec des températures très élevées.",
-      "english_summary": "A week of intense heat is expected in southern Europe, with very high temperatures.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T14:24:06.522931+00:00",
-      "original_article_link": "https://www.goodplanet.info/2025/06/30/une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope/?pk_campaign=feed&pk_kwd=une-semaine-caniculaire-en-perspective-dans-le-sud-de-leurope",
-      "original_article_title": "Une semaine caniculaire en perspective dans le sud de l’Europe",
-      "original_article_published_date": "Mon, 30 Jun 2025 13:56:58 +0000",
-      "source_name": "GoodPlanet.info"
-    },
-    {
-      "title": "COP30 au Brésil: des « prix vertigineux » pour se loger sèment la panique",
-      "link": "https://www.goodplanet.info/2025/06/30/cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique/?pk_campaign=feed&pk_kwd=cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique",
-      "summary": "<p><a href=\"https://www.goodplanet.info/2025/06/30/cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique/?pk_campaign=feed&amp;pk_kwd=cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique\"><img alt=\"cop belem\" class=\"attachment-medium_large size-medium_large wp-post-image\" height=\"341\" src=\"https://www.goodplanet.info/wp-content/uploads/2025/06/06fdc949fe1c59b03f70d712b7a235ae20aa129d.jpg\" width=\"512\" /></a></p>Les autorités brésiliennes ont beau marteler que \"Belem est prête\" à accueillir la COP30 en novembre, le manque d'hébergements abordables affole parmi les délégations, sidérées par des \"prix vertigineux\".<img alt=\"\" height=\"0\" src=\"https://matomo.fgp.digdeo.net/piwik.php?idsite=2&amp;rec=1&amp;url=https%3A%2F%2Fwww.goodplanet.info%2F2025%2F06%2F30%2Fcop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dcop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique&amp;action_name=COP30+au+Br%C3%A9sil%3A+des+%C2%AB%C2%A0prix+vertigineux%C2%A0%C2%BB+pour+se+loger+s%C3%A8ment+la+panique&amp;urlref=https%3A%2F%2Fwww.goodplanet.info%2Ffeed%2F\" style=\"border: 0; width: 0; height: 0;\" width=\"0\" />",
-      "published": "Mon, 30 Jun 2025 13:54:53 +0000",
-      "source": "GoodPlanet.info",
-      "hash_id": "d61cf35a8d3f",
+      "title": "Philips The One 2024 : ce TV 4K 55″ (120 Hz et Ambilight) est quasi à moitié prix pour les soldes",
+      "link": "https://www.frandroid.com/bons-plans/2057450_philips-the-one-2024-ce-tv-4k-55-120-hz-et-ambilight-est-quasi-a-moitie-prix-pour-les-soldes",
+      "summary": "<div class=\"chapo has-text-weight-semibold mb-5\">\n<div>La popularité des téléviseurs Philips est en partie due à la fonction Ambilight qui donne une ambiance unique. Si vous voulez en procurez, le modèle 2024 The One de 55 pouces est aujourd’hui en promotion pour les soldes d'été : seulement 576 euros, contre 999 euros de base. </div>\n</div>",
+      "published": "Mon, 30 Jun 2025 15:00:26 +0000",
+      "source": "Frandroid",
+      "hash_id": "5d1717bbdca1",
       "raw_content": "",
       "relevance_score": 7.0,
-      "practical_score": 6,
-      "newsworthiness_score": 6.5,
-      "total_score": 19.6,
+      "practical_score": 5,
+      "newsworthiness_score": 6.54,
+      "total_score": 18.632,
       "contextual_title_explanations": {
-        "COP30": {
-          "display_format": "**COP30:** _COP30_",
-          "explanation": "A global climate conference.",
-          "cultural_note": "COP stands for Conference of the Parties."
-        },
-        "au": {
-          "display_format": "**in:** _au_",
-          "explanation": "Means 'in' or 'at' in French.",
+        "Philips": {
+          "display_format": "**Philips:** _Philips_",
+          "explanation": "A brand known for electronics.",
           "cultural_note": ""
         },
-        "Brésil": {
-          "display_format": "**Brazil:** _Brésil_",
-          "explanation": "A country in South America.",
+        "The One": {
+          "display_format": "**The One:** _The One_",
+          "explanation": "A specific model of TV from Philips.",
           "cultural_note": ""
         },
-        "des": {
-          "display_format": "**some:** _des_",
-          "explanation": "Means 'some' in French.",
+        "2024": {
+          "display_format": "**2024:** _2024_",
+          "explanation": "The year when the TV is released.",
+          "cultural_note": ""
+        },
+        "ce": {
+          "display_format": "**this:** _ce_",
+          "explanation": "This word points to something specific.",
+          "cultural_note": ""
+        },
+        "TV": {
+          "display_format": "**TV:** _TV_",
+          "explanation": "Short for television, a device for watching shows.",
+          "cultural_note": ""
+        },
+        "4K": {
+          "display_format": "**4K:** _4K_",
+          "explanation": "A high resolution for clearer images.",
+          "cultural_note": ""
+        },
+        "55″": {
+          "display_format": "**55 inches:** _55″_",
+          "explanation": "The size of the TV screen.",
+          "cultural_note": ""
+        },
+        "120 Hz": {
+          "display_format": "**120 Hz:** _120 Hz_",
+          "explanation": "The refresh rate for smoother motion.",
+          "cultural_note": ""
+        },
+        "et": {
+          "display_format": "**and:** _et_",
+          "explanation": "A conjunction meaning 'and'.",
+          "cultural_note": ""
+        },
+        "Ambilight": {
+          "display_format": "**Ambilight:** _Ambilight_",
+          "explanation": "Philips technology for ambient lighting.",
+          "cultural_note": ""
+        },
+        "est": {
+          "display_format": "**is:** _est_",
+          "explanation": "A verb meaning 'is'.",
+          "cultural_note": ""
+        },
+        "quasi": {
+          "display_format": "**almost:** _quasi_",
+          "explanation": "Means 'almost' or 'nearly'.",
+          "cultural_note": ""
+        },
+        "à": {
+          "display_format": "**at:** _à_",
+          "explanation": "A preposition meaning 'at'.",
+          "cultural_note": ""
+        },
+        "moitié": {
+          "display_format": "**half:** _moitié_",
+          "explanation": "Means 'half' or '50%'.",
           "cultural_note": ""
         },
         "prix": {
-          "display_format": "**prices:** _prix_",
-          "explanation": "The cost of something.",
-          "cultural_note": ""
-        },
-        "vertigineux": {
-          "display_format": "**staggering:** _vertigineux_",
-          "explanation": "Very high or shocking prices.",
+          "display_format": "**price:** _prix_",
+          "explanation": "The amount of money for something.",
           "cultural_note": ""
         },
         "pour": {
           "display_format": "**for:** _pour_",
-          "explanation": "Means 'for' in French.",
+          "explanation": "A preposition meaning 'for'.",
           "cultural_note": ""
         },
-        "se": {
-          "display_format": "**oneself:** _se_",
-          "explanation": "Refers to oneself in French.",
+        "les": {
+          "display_format": "**the:** _les_",
+          "explanation": "A definite article meaning 'the'.",
           "cultural_note": ""
         },
-        "loger": {
-          "display_format": "**to stay:** _loger_",
-          "explanation": "Means 'to stay' or 'to lodge'.",
-          "cultural_note": ""
-        },
-        "sèment": {
-          "display_format": "**sow:** _sèment_",
-          "explanation": "Means 'to sow' or 'to spread'.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**the:** _la_",
-          "explanation": "Means 'the' in French.",
-          "cultural_note": ""
-        },
-        "panique": {
-          "display_format": "**panic:** _panique_",
-          "explanation": "A sudden feeling of fear.",
-          "cultural_note": ""
+        "soldes": {
+          "display_format": "**sales:** _soldes_",
+          "explanation": "Discount events for shopping.",
+          "cultural_note": "Common in France, especially in January and July."
         }
       },
       "ai_enhanced": true,
-      "simplified_french_title": "COP30 au Brésil : des prix très élevés pour se loger",
-      "simplified_english_title": "COP30 in Brazil: Very high housing prices cause panic",
-      "french_summary": "La COP30 se déroule au Brésil. Les prix pour se loger sont très élevés, ce qui crée de l'inquiétude.",
-      "english_summary": "COP30 is taking place in Brazil. Housing prices are very high, causing concern.",
+      "simplified_french_title": "Philips The One 2024 : TV 4K 55″ à moitié prix",
+      "simplified_english_title": "Philips The One 2024: 55″ 4K TV at Half Price",
+      "french_summary": "Le TV Philips The One 2024 de 55 pouces avec Ambilight est presque à moitié prix pendant les soldes.",
+      "english_summary": "The Philips The One 2024 55-inch 4K TV with Ambilight is nearly half price during the sales.",
       "quality_checked": true,
-      "processed_at": "2025-06-30T14:22:35.124471+00:00",
-      "original_article_link": "https://www.goodplanet.info/2025/06/30/cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique/?pk_campaign=feed&pk_kwd=cop30-au-bresil-des-prix-vertigineux-pour-se-loger-sement-la-panique",
-      "original_article_title": "COP30 au Brésil: des « prix vertigineux » pour se loger sèment la panique",
-      "original_article_published_date": "Mon, 30 Jun 2025 13:54:53 +0000",
-      "source_name": "GoodPlanet.info"
+      "processed_at": "2025-06-30T15:27:57.693404+00:00",
+      "original_article_link": "https://www.frandroid.com/bons-plans/2057450_philips-the-one-2024-ce-tv-4k-55-120-hz-et-ambilight-est-quasi-a-moitie-prix-pour-les-soldes",
+      "original_article_title": "Philips The One 2024 : ce TV 4K 55″ (120 Hz et Ambilight) est quasi à moitié prix pour les soldes",
+      "original_article_published_date": "Mon, 30 Jun 2025 15:00:26 +0000",
+      "source_name": "Frandroid"
     },
     {
-      "title": "Pour lutter contre le chômage, le Kenya envoie ses jeunes travailleurs à l’étranger",
-      "link": "https://www.courrierinternational.com/article/economie-pour-lutter-contre-le-chomage-le-kenya-envoie-ses-jeunes-travailleurs-a-l-etranger_232422",
-      "summary": "Depuis 2022, le Kenya a fait de l’exportation de main-d’œuvre une priorité pour lutter contre le chômage des jeunes. “Semafor” rapporte que le gouvernement noue des partenariats dans ce sens avec des pays étrangers. Mais ces programmes sont critiqués en raison de cas de fraude, voire d’exploitation des travailleurs.",
-      "published": "Mon, 30 Jun 2025 15:41:31 +0200",
-      "source": "Courrier International",
-      "hash_id": "370d7fba11ff",
+      "title": "“On est en train dresser la catégorie supposée des ‘hostiles’ contre celle des ‘indésirables’” : l’ex-ministre Najat Vallaud-Belkacem dialogue avec le spécialiste des déplacements forcés Benjamin Michallet",
+      "link": "https://www.philomag.com/articles/est-en-train-dresser-la-categorie-supposee-des-hostiles-contre-celle-des-indesirables",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">“On est en train dresser la catégorie supposée des ‘hostiles’ contre celle des ‘indésirables’”&nbsp;: l’ex-ministre Najat Vallaud-Belkacem dialogue avec le spécialiste des déplacements forcés Benjamin Michallet</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>nfoiry</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\"><time class=\"datetime\" datetime=\"2025-06-30T17:00:00+02:00\" title=\"Lundi 30 juin 2025\">lun 30/06/2025 - 17:00</time>\n</span>\n\n\n  <div class=\"inline__links\"><nav class=\"links inline nav links-inline\"><span class=\"node-readmore nav-link\"><a href=\"https://www.philomag.com/articles/est-en-train-dresser-la-categorie-supposee-des-hostiles-contre-celle-des-indesirables\" hreflang=\"fr\" rel=\"tag\" title=\"“On est en train dresser la catégorie supposée des ‘hostiles’ contre celle des ‘indésirables’”&nbsp;: l’ex-ministre Najat Vallaud-Belkacem dialogue avec le spécialiste des déplacements forcés Benjamin Michallet\">En savoir plus<span class=\"visually-hidden\"> sur “On est en train dresser la catégorie supposée des ‘hostiles’ contre celle des ‘indésirables’”&nbsp;: l’ex-ministre Najat Vallaud-Belkacem dialogue avec le spécialiste des déplacements forcés Benjamin Michallet</span></a></span></nav>\n  </div>\n\n            <div class=\"clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item\"><p class=\"p1\"><strong>Après que le ministre de l’Intérieur Bruno Retailleau a mobilisé 4&nbsp;000&nbsp;policiers et gendarmes pour interpeller les sans-papiers </strong>dans les gares parisiennes les 18 et 19&nbsp;juin derniers, l’ex-ministre et présidente de l’association France terre d’asile <strong>Najat Vallaud-Belkacem </strong>et l’économiste spécialiste des déplacements forcés <strong>Benjamin Michallet, </strong>qui viennent de publier <em>Réfugiés. Ce qu’on ne nous dit pas</em> (Stock), <span class=\"s1\">dénoncent une politique qui tend à confondre migrants volontaires, candidats à l’asile et étrangers en situation irrégulière.</span></p><p class=\"p1\">[CTA2]</p><hr /><p class=\"p1\"><strong>Que pensez-vous de l’opération mise en place les 18 et 19 juin par le ministre de l’intérieur Bruno Retailleau ayant mobilisé 4&nbsp;000 membres de forces de l’ordre dans les gares parisiennes la semaine dernière pour interpeller des immigrés clandestins&nbsp;?</strong><span class=\"Apple-converted-space\"><strong>&nbsp;</strong></span></p><p class=\"p1\"><strong>Najat Vallaud-Belkacem&nbsp;:</strong> Il s’agit là d’un nouvel épisode dans la grande instrumentalisation de la question migratoire, mise au service d’intérêts tout autres que celui des Français que l’on prétend défendre. Mais, avec cette opération, on franchit un cran supplémentaire. Sur décision du ministre, 4&nbsp;000&nbsp;policiers et gendarmes –&nbsp;qui ne manquent pourtant pas de travail&nbsp;– ont été mobilisés en urgence pour traquer des personnes en situation irrégulière dans les gares parisiennes. Cette opération ne s’est pas déroulée de manière aléatoire, comme le prévoit la loi, mais en ciblant explicitement le groupe supposé des «&nbsp;clandestins&nbsp;». Or il n’est évidemment pas inscrit sur le visage des gens qu’ils sont sans papiers. Il est donc entendu que tous les étrangers «&nbsp;visibles&nbsp;» –&nbsp;c’est-à-dire les hommes et femmes de couleur&nbsp;– ont été collectivement visés par cette opération. Ainsi, la pratique bien connue des contrôles «&nbsp;au faciès&nbsp;» est non seulement reconduite mais renforcée, alors même que l’on sait que les personnes de couleur, pas nécessairement issues de l’immigration, en sont prioritairement la cible. On installe là dans l’espace public l’idée qu’il n’existe plus des individus mais des catégories «&nbsp;racialement&nbsp;» distinctes. Quant à l’efficacité réelle de ce type de démarche sur la question de la présence irrégulière sur notre territoire, personne n’est dupe. Les personnes contrôlées et arrêtées ne feront que grossir les rangs de centres de rétention déjà surpeuplés… avant d’être relâchées, faute de s’être donné, quand c’est légitime de le faire, les moyens, notamment sur le plan consulaire, de les rapatrier.<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p2\">&nbsp;</p><p class=\"p1\"><strong>Benjamin Michallet&nbsp;: </strong>Nous devrions poser la question de l’intérêt de traquer de cette manière les migrants en situation irrégulière sur notre territoire. Quel est le véritable effet escompté&nbsp;? Ce type de dispositif est destiné à faire le «&nbsp;buzz&nbsp;» dans les médias et frapper l’opinion publique en éludant encore et toujours les questions pourtant fondamentales de l’immigration et l’importance qu’elle revêt pour nos sociétés. Dans le contexte actuel, ces pratiques font forcément écho aux décisions de Donald Trump d’envoyer l’armée dans les grandes villes américaines pour arrêter et déporter les migrants en créant le chaos. Il est difficile de voir autre chose qu’une manœuvre électoraliste.</p><p class=\"p2\">&nbsp;</p><p class=\"p1\"><strong>Vous dénoncez un confusionnisme où toutes les catégories d’étrangers sont ravalées dans la catégorie indistincte de «&nbsp;migrants&nbsp;» en faisant fi de distinctions essentielles…</strong><span class=\"Apple-converted-space\"><strong>&nbsp;</strong></span></p><p class=\"p1\"><strong>N. V.-B.&nbsp;: </strong>Nous sommes en effet confrontés à<strong> </strong>un dangereux confusionnisme conceptuel, alimenté depuis des années par des discours politiques et médiatiques hostiles à la présence de nouveaux venus, quels qu’ils soient. Quel en est le ressort&nbsp;? On mélange dans un même ensemble –&nbsp;afin d’en grossir artificiellement les chiffres&nbsp;– des personnes arrivées dans le cadre d’une migration volontaire –&nbsp;pour étudier ou travailler&nbsp;– et des déplacés forcés, fuyant leur pays au péril de leur vie et sollicitant l’asile. Ensuite, on nous affirme que nous n’avons pas le choix, que nous «&nbsp;subissons&nbsp;» ces arrivées à cause de règles internationales attentatoires à notre souveraineté –&nbsp;comme la Convention de Genève ou la Cour européenne des droits de l’homme&nbsp;–, ce qui serait intolérable. Or on omet soigneusement préciser que ces deux catégories de personnes relèvent de régimes juridiques totalement distincts. Les migrants volontaires (qui sont les plus nombreux) peuvent parfaitement se voir refuser l’accès au territoire par l’État, qui a toute légitimité à fixer selon ses besoins et ses intérêts les règles d’admission pour la migration économique ou estudiantine et à réguler ainsi les flux. C’est un droit souverain qu’il convient d’exercer en mettant en place des dispositifs d’accueil adaptés pour ceux qui correspondent aux critères, et de refus ou de sortie pour ceux qui n’y répondent pas. Les demandeurs d’asile, eux, relèvent d’un autre régime, protecteur, car ils fuient la mort ou la persécution. Un droit spécifique s’est construit au fil de l’histoire, imposant de leur ouvrir la porte et d’examiner leur situation. Toutefois, ils restent relativement peu nombreux&nbsp;: en 2024, 122&nbsp;000&nbsp;personnes ont demandé l’asile en France, et parmi elles, 70&nbsp;000&nbsp;ont effectivement obtenu le statut de réfugié. Ils ne sont donc pas systématiquement acceptés.<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p2\">&nbsp;</p><p class=\"p1 big\">“Il est plus que temps de fournir aux citoyens les données chiffrées et les distinctions juridiques et politiques qui lui permettent de traiter sereinement la question de l’immigration”<span class=\"author\"><strong>Benjamin Michallet</strong></span></p><p class=\"p1\"><strong>B. M.&nbsp;:</strong> L’image qui nous vient tous en tête lorsqu’on pense aux réfugiés aujourd’hui, c’est celle d’un groupe d’hommes, de femmes et d’enfants amassés sur des canots pneumatiques de fortune qui traversent la Méditerranée depuis l’Afrique au risque de leur vie… Si frappante soit-elle, cette image ne correspond pourtant pas à la réalité statistique et juridique de l’immigration en général, et encore moins à la question de l’asile. Pour y voir plus clair, il faut déjà distinguer entre, d’une part, le migrant volontaire, dont l’immigration s’inscrit dans le cadre d’une politique publique menée par le pays d’accueil (étudiants, talents, regroupement familial, etc.), et, d’autre part, le «&nbsp;déplacé&nbsp;forcé&nbsp;» qui a été contraint de fuir son foyer en raison des craintes de persécution qui pèse sur lui. Parmi ces «&nbsp;déplacés forcés&nbsp;», la vaste majorité d’entre eux sont des déplacés à l’intérieur de leur propre pays, et 75&nbsp;% de ceux qui doivent quitter leur pays –&nbsp;Syrie, Ukraine, Afghanistan et Venezuela principalement&nbsp;– sont accueillis dans des pays mitoyens du leur, souvent à faibles revenus –&nbsp;l’Iran, la Turquie, la Colombie, l’Ouganda… et l’Allemagne. Enfin, il y a le réfugié demandeur d’asile qui est une catégorie à part, infiniment minoritaire, alors même qu’il semble capter toute l’attention. Qu’est-ce qu’un réfugié&nbsp;? Le Convention de Genève, reprise dans les différents textes européens, et notamment le code français de l’entrée et du séjour des étrangers et du droit d’asile [Ceseda] le dit très clairement&nbsp;: c’est «&nbsp;<em>toute personne qui, craignant avec raison d’être persécutée du fait de sa race, de sa religion, de sa nationalité, de son appartenance à un certain groupe social ou de ses opinions politiques, se trouve hors du pays dont elle a la nationalité et ne peut, ou, du fait de cette crainte, ne veut se réclamer de la protection de ce pays</em>&nbsp;». Concrètement, le réfugié est donc une personne persécutée que nous avons l’obligation d’accueillir –&nbsp;sans d’ailleurs qu’aucune mention ne soit faite de critères d’intégration, de langue ou de culture partagée. Pourquoi ces distinctions sont-elles essentielles&nbsp;? Parce qu’elles permettent de distinguer très nettement les périmètres de la politique migratoire et de la politique de l’asile. Il est plus que temps de fournir aux citoyens les données chiffrées et les distinctions juridiques et politiques qui lui permettent de traiter sereinement cette question.<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p2\">&nbsp;</p><p class=\"p1 big\">“Politiquement très rentable, la rhétorique de la “submersion” est à la fois fausse et paralysante”<span class=\"author\"><strong>Najat Vallaud-Belkacem</strong></span></p><p class=\"p1\"><strong>N. V.-B.&nbsp;:</strong> J’ajoute que cette confusion savamment entretenue sert un objectif politique. Construit sur un <em>«&nbsp;double-bind&nbsp;»</em> [«&nbsp;double contrainte&nbsp;»] –&nbsp;une obligation juridique d’accueil et une volonté empêchée de décider qui entre sur notre territoire&nbsp;–, le scénario qui alimente les discours politiques et médiatiques dominants sert une rhétorique de la «&nbsp;submersion&nbsp;» d’une prétendue menace de «&nbsp;hordes de migrants&nbsp;» bouleversant les équilibres démographiques, culturels et économiques du pays. Ce discours présente systématiquement la population d’accueil comme à la fois victime et hostile. Et il s’agit de dresser cette catégorie supposée des «&nbsp;hostiles&nbsp;» contre celle des «&nbsp;indésirables&nbsp;». Politiquement très rentable, cette rhétorique est à la fois fausse et paralysante. Elle est fausse, car les citoyens français sont bien plus hospitaliers que ceux qui prétendent parler en leur nom. Elle est paralysante, car elle conduit à mal accueillir les personnes en détresse, créant ainsi les conditions de notre propre indignité et vulnérabilité (laisser des gens à la rue, c’est créer des foyers de dangerosité, pour eux-mêmes comme pour nous). Mais aussi à rejeter toute ambition concernant l’immigration volontaire, sur laquelle rejaillit la même hostilité, et donc à ne rien anticiper de nos besoins démographiques, économiques, intellectuels, artistiques ou de rayonnement international.</p><p class=\"p2\">&nbsp;</p><p class=\"p1 big\">“L’augmentation des dépenses publiques induites par les demandeurs d’asile est plus que compensée par une augmentation des recettes fiscales nette des transferts”<span class=\"author\"><strong>Benjamin Michallet</strong></span></p><p class=\"p1\"><strong>Parmi ces données nécessaires à un débat citoyen, vous soulignez notamment que d’un point de vue économique, le poids économique des réfugiés, si on fait le solde total de ce qu’ils nous coûtent et de ce qu’ils nous rapportent, est nul, voire favorable au pays d’accueil…</strong></p><p class=\"p1\"><strong>B. M.&nbsp;:</strong> Cela fait partie des mythes à déconstruire. Si l’on se base sur les études de l’impact économique des réfugiés, comme celle pour la France d’Hippolyte d’Albis, chef économiste de l’Inspection générale des finances et directeur de recherche au CNRS, il apparaît en effet que l’augmentation des dépenses publiques induites par les demandeurs d’asile est plus que compensée par une augmentation des recettes fiscales nette des transferts. Aux États-Unis, les études montrent d’ailleurs que la politique restrictive menée par Donald Trump lors de son premier mandat aura fait perdre 7&nbsp;000&nbsp;dollars de contributions fiscales pour chaque réfugié et 3&nbsp;000 pour chaque demandeur d’asile. D’une part, il est temps d’intégrer ces éléments au débat et d’autre part de consolider ces recherches en mobilisant les données françaises.<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p2\">&nbsp;</p><p class=\"p1 big\">“Voulons-nous donner l’image de pays qui, contre rémunération, se déchargent sur les pays du Sud des personnes qu’ils ne souhaitent pas accueillir&nbsp;?”<span class=\"author\"><strong>Najat Vallaud-Belkacem</strong></span></p><p class=\"p1\"><strong>Avec l’expulsion de migrants vers des pays tiers, comme au Salvador pour les États-Unis ou en Bulgarie pour le compte de l’Italie, ne voit-on pas se mettre en place un nouveau modèle «&nbsp;néolibéral&nbsp;» de traitement de l’immigration où les États la sous-traitent à l’étranger&nbsp;?</strong><span class=\"Apple-converted-space\"><strong>&nbsp;</strong></span></p><p class=\"p1\"><strong>N. V.-B.&nbsp;:</strong> Absolument. Cette tentation permanente de l’externalisation est manifeste en Europe depuis une dizaine d’années. Cela a commencé par la mise en place des <em>«&nbsp;hot spots&nbsp;» [centres de détention] </em>par l’Union européenne dans les pays d’entrée, comme la Grèce. Ces centres ont d’ailleurs été régulièrement condamnés par la Cour européenne des droits de l’homme en raison des conditions indignes qui y régnaient. Par la suite, l’Union européenne a conclu des accords avec des pays tiers tels que la Turquie, la Libye ou la Tunisie, afin qu’ils retiennent –&nbsp;par n’importe quel moyen&nbsp;– les «&nbsp;indésirables&nbsp;» loin du sol européen. Plus récemment encore, l’idée s’est imposée de faire appel à des pays tiers pour y rediriger des demandeurs d’asile arrivés en Europe, à l’image du projet du Royaume-Uni avec le Rwanda ou de l’Italie avec l’Albanie. De plus en plus, on sous-traite donc à des pays extérieurs ce qui relève pourtant d’une obligation fondamentale de chaque État&nbsp;: ouvrir sa porte à toute personne fuyant un risque de persécution ou de mort imminente. Au-delà des manquements au droit, cette stratégie comporte aussi un risque sécuritaire pour nous, citoyens européens. En déléguant à des États tiers la gestion des flux migratoires, nous nous exposons à devenir otages de ces pays, qui pourraient demain nous menacer de «&nbsp;relâcher&nbsp;» les migrants si nous ne cédons pas à leurs exigences, comme la Turquie l’a déjà fait. Enfin, il y a un véritable enjeu d’ordre international. À un moment où les populations du Sud aspirent à des relations plus justes et équitables avec le Nord, est-ce vraiment l’image que nous voulons donner&nbsp;? Celle de pays du Nord qui, contre rémunération, se déchargent sur les pays du Sud des personnes qu’ils ne souhaitent pas accueillir&nbsp;?</p><p class=\"p2\">&nbsp;</p><p class=\"p1 big\">“L’intégration n’est pas un processus à sens unique mais un mouvement réciproque”<span class=\"author\"><strong>Najat Vallaud-Belkacem</strong></span></p><p class=\"p1\"><strong>Parmi les critères qui peuvent entrer en ligne de compte pour définir la politique migratoire des États démocratiques européens, vous mentionnez les besoins démographiques, les besoins économiques dans les métiers en tension par exemple, la formation des élites des pays d’origine ou la contribution, </strong><em><strong>via</strong></em><strong> la formation de ces élites, à leur développement, etc. Peut-on considérer que la culture en partage (une certaine idée de la laïcité ou du droit des femmes, par exemple) puisse aussi entrer en ligne de compte&nbsp;?</strong></p><p class=\"p1\"><strong>B. M.&nbsp;: </strong>Qu’est-ce qu’une culture partagée&nbsp;? L’insistance grandissante d’une partie des élites politiques sur le fait que les immigrés et les réfugiés, par leur seule présence sur notre sol, remettraient en question «&nbsp;l’intégrité&nbsp;» culturelle supposée de la nation est problématique et n’est fondée sur aucune preuve tangible. Et je renverserais la question&nbsp;: est-ce qu’on considère que les expatriés européens et les entreprises européennes qui sont installés depuis longtemps dans les pays du Maghreb remettent en question l’intégrité culturelle de ces pays&nbsp;?<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p2\">&nbsp;</p><p class=\"p1\"><strong>Najat Vallaud Belkacem&nbsp;:</strong> Sur la laïcité ou les droits des femmes, la question est de savoir comment on y amène les nouveaux venus. L’intégration n’est pas un processus à sens unique mais un mouvement réciproque&nbsp;: il ne suffit pas de faire injonction aux gens de s’intégrer mais de créer les conditions de leur insertion et de leur sentiment d’appartenance à leur nouvelle communauté. Par un accueil digne, par l’apprentissage de la langue, par l’accès à l’emploi, mais aussi par la socialisation, par la découverte des codes, plutôt que par injonction. Tout ne peut pas se résoudre par des formulaires administratifs et des discours de fermeté. D’où l’importance des associations qui accompagnent ces personnes et les regardent autrement que comme de simples chiffres et statuts administratifs.<span class=\"Apple-converted-space\">&nbsp;</span></p><p class=\"p1 alt\"><strong>À LIRE</strong><br /><span class=\"s1\">➤</span><strong>&nbsp;</strong><em><strong>Réfugiés. Ce qu’on ne nous dit pas</strong>, </em>de Najat Vallaud-Belkacem et Benjamin Michallet vient de paraître aux éditions Stock.</p></div>\n      \n            <div class=\"field field--name-field-cover-node field--type-entity-reference field--label-hidden field__item\">\n            <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\">  <img alt=\"alt\" class=\"image-style-dossiers\" height=\"210\" src=\"https://www.philomag.com/sites/default/files/styles/dossiers/public/images/2025_06_30_vallaud-belkacem_michallet.jpg\" width=\"333\" />\n\n\n</div>\n      </div>\n      \n            <div class=\"field field--name-field-publication-date field--type-datetime field--label-hidden field__item\"><time class=\"datetime\" datetime=\"2025-06-30T15:00:00Z\">juin 2025</time>\n</div>",
+      "published": "Mon, 30 Jun 2025 15:00:00 +0000",
+      "source": "Philosophie Magazine",
+      "hash_id": "c2fbba688cfd",
       "raw_content": "",
       "relevance_score": 9.0,
-      "practical_score": 3,
-      "newsworthiness_score": 6.49,
-      "total_score": 18.991999999999997,
+      "practical_score": 6,
+      "newsworthiness_score": 10,
+      "total_score": 24.799999999999997,
       "contextual_title_explanations": {
-        "Pour": {
-          "display_format": "**For:** _Pour_",
-          "explanation": "This means 'to' or 'for' in English.",
+        "On": {
+          "display_format": "**English:** _We_",
+          "explanation": "A pronoun used to mean 'we' in a general sense.",
           "cultural_note": ""
         },
-        "lutter": {
-          "display_format": "**to fight:** _lutter_",
-          "explanation": "This means 'to fight' or 'to struggle' in English.",
-          "cultural_note": ""
-        },
-        "contre": {
-          "display_format": "**against:** _contre_",
-          "explanation": "This means 'against' in English.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**the:** _le_",
-          "explanation": "This is the masculine form of 'the' in English.",
-          "cultural_note": ""
-        },
-        "chômage": {
-          "display_format": "**unemployment:** _chômage_",
-          "explanation": "This means 'unemployment' in English.",
-          "cultural_note": ""
-        },
-        "Kenya": {
-          "display_format": "**Kenya:** _Kenya_",
-          "explanation": "This is a country in East Africa.",
-          "cultural_note": ""
-        },
-        "envoie": {
-          "display_format": "**sends:** _envoie_",
-          "explanation": "This means 'sends' in English.",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**its:** _ses_",
-          "explanation": "This means 'its' in English.",
-          "cultural_note": ""
-        },
-        "jeunes": {
-          "display_format": "**young:** _jeunes_",
-          "explanation": "This means 'young' in English.",
-          "cultural_note": ""
-        },
-        "travailleurs": {
-          "display_format": "**workers:** _travailleurs_",
-          "explanation": "This means 'workers' in English.",
-          "cultural_note": ""
-        },
-        "à": {
-          "display_format": "**to:** _à_",
-          "explanation": "This means 'to' in English.",
-          "cultural_note": ""
-        },
-        "l’étranger": {
-          "display_format": "**abroad:** _l’étranger_",
-          "explanation": "This means 'abroad' or 'foreign country' in English.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Le Kenya envoie ses jeunes à l'étranger pour lutter contre le chômage",
-      "simplified_english_title": "Kenya sends its youth abroad to fight unemployment",
-      "french_summary": "Le Kenya envoie des jeunes travailleurs à l'étranger pour trouver des emplois et réduire le chômage.",
-      "english_summary": "Kenya is sending young workers abroad to find jobs and reduce unemployment.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T14:24:57.672308+00:00",
-      "original_article_link": "https://www.courrierinternational.com/article/economie-pour-lutter-contre-le-chomage-le-kenya-envoie-ses-jeunes-travailleurs-a-l-etranger_232422",
-      "original_article_title": "Pour lutter contre le chômage, le Kenya envoie ses jeunes travailleurs à l’étranger",
-      "original_article_published_date": "Mon, 30 Jun 2025 15:41:31 +0200",
-      "source_name": "Courrier International"
-    },
-    {
-      "title": "Messages anti-Israël à Glastonbury : le gouvernement et la BBC forcés de réagir",
-      "link": "https://www.liberation.fr/international/europe/messages-anti-israel-a-glastonbury-le-gouvernement-et-la-bbc-forces-de-reagir-20250630_SFGWT33BSZGVZJ2A5AIVXXWVGQ/",
-      "summary": "Si le plus grand festival musical du Royaume-Uni a toujours eu une dimension politique, l’édition 2025 a embarrassé le diffuseur public, qui retransmet en direct des performances. En cause : les slogans scandés par le groupe Bob Vylan.",
-      "published": "Mon, 30 Jun 2025 13:28:36 +0000",
-      "source": "Libération",
-      "hash_id": "8530e90e10a6",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 3,
-      "newsworthiness_score": 6.38,
-      "total_score": 18.904,
-      "contextual_title_explanations": {
-        "Messages": {
-          "display_format": "**Messages:** _Messages_",
-          "explanation": "Written or spoken communications.",
-          "cultural_note": ""
-        },
-        "anti-Israël": {
-          "display_format": "**Anti-Israel:** _Anti-Israel_",
-          "explanation": "Opposed to Israel or its policies.",
-          "cultural_note": "Refers to political views."
-        },
-        "à": {
-          "display_format": "**At:** _À_",
-          "explanation": "Indicates location or time.",
-          "cultural_note": ""
-        },
-        "Glastonbury": {
-          "display_format": "**Glastonbury:** _Glastonbury_",
-          "explanation": "A town in England known for its music festival.",
-          "cultural_note": "Famous for the Glastonbury Festival."
-        },
-        "le": {
-          "display_format": "**The:** _Le_",
-          "explanation": "Definite article for masculine nouns.",
-          "cultural_note": ""
-        },
-        "gouvernement": {
-          "display_format": "**Government:** _Gouvernement_",
-          "explanation": "The group of people who govern a country.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And:** _Et_",
-          "explanation": "Used to connect words or phrases.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** _La_",
-          "explanation": "Definite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "BBC": {
-          "display_format": "**BBC:** _BBC_",
-          "explanation": "British Broadcasting Corporation, a media organization.",
-          "cultural_note": "Known for news and entertainment."
-        },
-        "forcés": {
-          "display_format": "**Forced:** _Forcés_",
-          "explanation": "Made to do something against their will.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**To:** _De_",
-          "explanation": "Indicates direction or purpose.",
-          "cultural_note": ""
-        },
-        "réagir": {
-          "display_format": "**React:** _Réagir_",
-          "explanation": "To respond to something.",
-          "cultural_note": ""
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Réactions du gouvernement et de la BBC aux messages anti-Israël à Glastonbury",
-      "simplified_english_title": "Government and BBC respond to anti-Israel messages at Glastonbury",
-      "french_summary": "Le gouvernement et la BBC ont réagi aux messages anti-Israël entendus lors du festival de Glastonbury.",
-      "english_summary": "The government and the BBC responded to anti-Israel messages heard at the Glastonbury festival.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T14:25:49.244596+00:00",
-      "original_article_link": "https://www.liberation.fr/international/europe/messages-anti-israel-a-glastonbury-le-gouvernement-et-la-bbc-forces-de-reagir-20250630_SFGWT33BSZGVZJ2A5AIVXXWVGQ/",
-      "original_article_title": "Messages anti-Israël à Glastonbury : le gouvernement et la BBC forcés de réagir",
-      "original_article_published_date": "Mon, 30 Jun 2025 13:28:36 +0000",
-      "source_name": "Libération"
-    },
-    {
-      "title": "L’agent d’entretien était payé 4 000 euros : pour escroquer la CPAM, il crée une entreprise, embauche ses amis et tout le monde se met en arrêt maladie",
-      "link": "https://www.lindependant.fr/2025/06/30/lagent-dentretien-etait-paye-4-000-euros-pour-escroquer-la-cpam-il-cree-une-entreprise-embauche-ses-amis-et-tout-le-monde-se-met-en-arret-maladie-12795563.php",
-      "summary": "Les tentatives de fraude à l’assurance maladie sont fréquentes. Pour parvenir à leurs fins, les escrocs redoublent d’ingéniosité. Exemples.",
-      "published": "Mon, 30 Jun 2025 15:10:20 +0200",
-      "source": "L'Indépendant",
-      "hash_id": "228a349a5f6e",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 3,
-      "newsworthiness_score": 6.19,
-      "total_score": 18.752,
-      "contextual_title_explanations": {
-        "L’agent": {
-          "display_format": "**Agent:** _L’agent_",
-          "explanation": "A person who works for a company.",
-          "cultural_note": ""
-        },
-        "d’entretien": {
-          "display_format": "**Maintenance:** _d’entretien_",
-          "explanation": "Work related to cleaning and upkeep.",
-          "cultural_note": ""
-        },
-        "était": {
-          "display_format": "**Was:** _était_",
-          "explanation": "Past tense of 'to be'.",
-          "cultural_note": ""
-        },
-        "payé": {
-          "display_format": "**Paid:** _payé_",
-          "explanation": "Received money for work.",
-          "cultural_note": ""
-        },
-        "4 000 euros": {
-          "display_format": "**4,000 euros:** _4 000 euros_",
-          "explanation": "A specific amount of money in euros.",
-          "cultural_note": "Euros are the currency used in many European countries."
-        },
-        "pour": {
-          "display_format": "**To:** _pour_",
-          "explanation": "Used to indicate purpose.",
-          "cultural_note": ""
-        },
-        "escroquer": {
-          "display_format": "**Swindle:** _escroquer_",
-          "explanation": "To cheat someone out of money.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**The:** _la_",
-          "explanation": "Definite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "CPAM": {
-          "display_format": "**Health Insurance:** _CPAM_",
-          "explanation": "French health insurance organization.",
-          "cultural_note": "CPAM stands for 'Caisse Primaire d'Assurance Maladie'."
-        },
-        "il": {
-          "display_format": "**He:** _il_",
-          "explanation": "Pronoun for a male person.",
-          "cultural_note": ""
-        },
-        "crée": {
-          "display_format": "**Creates:** _crée_",
-          "explanation": "To make or start something new.",
-          "cultural_note": ""
-        },
-        "une": {
-          "display_format": "**A:** _une_",
-          "explanation": "Indefinite article for feminine nouns.",
-          "cultural_note": ""
-        },
-        "entreprise": {
-          "display_format": "**Company:** _entreprise_",
-          "explanation": "A business or organization.",
-          "cultural_note": ""
-        },
-        "embauche": {
-          "display_format": "**Hires:** _embauche_",
-          "explanation": "To employ someone.",
-          "cultural_note": ""
-        },
-        "ses": {
-          "display_format": "**His:** _ses_",
-          "explanation": "Possessive pronoun for plural nouns.",
-          "cultural_note": ""
-        },
-        "amis": {
-          "display_format": "**Friends:** _amis_",
-          "explanation": "People you have a close relationship with.",
-          "cultural_note": ""
-        },
-        "et": {
-          "display_format": "**And:** _et_",
-          "explanation": "Used to connect words or phrases.",
-          "cultural_note": ""
-        },
-        "tout": {
-          "display_format": "**Everyone:** _tout_",
-          "explanation": "Refers to all people.",
-          "cultural_note": ""
-        },
-        "le": {
-          "display_format": "**The:** _le_",
-          "explanation": "Definite article for masculine nouns.",
-          "cultural_note": ""
-        },
-        "monde": {
-          "display_format": "**World:** _monde_",
-          "explanation": "All people or the earth.",
-          "cultural_note": ""
-        },
-        "se": {
-          "display_format": "**On:** _se_",
-          "explanation": "Reflexive pronoun used for actions done to oneself.",
-          "cultural_note": ""
-        },
-        "met": {
-          "display_format": "**Puts:** _met_",
-          "explanation": "To place or set something.",
+        "est": {
+          "display_format": "**English:** _is_",
+          "explanation": "The third person singular form of 'to be'.",
           "cultural_note": ""
         },
         "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "Preposition indicating location or time.",
+          "display_format": "**English:** _in_",
+          "explanation": "A preposition meaning 'in' or 'on'.",
           "cultural_note": ""
         },
-        "arrêt": {
-          "display_format": "**Sick Leave:** _arrêt_",
-          "explanation": "Time off work due to illness.",
+        "train": {
+          "display_format": "**English:** _process_",
+          "explanation": "Means 'in the process of' or 'currently'.",
           "cultural_note": ""
         },
-        "maladie": {
-          "display_format": "**Illness:** _maladie_",
-          "explanation": "A state of being unwell.",
+        "dresser": {
+          "display_format": "**English:** _to establish_",
+          "explanation": "To set up or create something.",
+          "cultural_note": ""
+        },
+        "la": {
+          "display_format": "**English:** _the_",
+          "explanation": "The feminine singular definite article.",
+          "cultural_note": ""
+        },
+        "catégorie": {
+          "display_format": "**English:** _category_",
+          "explanation": "A class or group of things with similar characteristics.",
+          "cultural_note": ""
+        },
+        "supposée": {
+          "display_format": "**English:** _supposed_",
+          "explanation": "Assumed or believed to be true.",
+          "cultural_note": ""
+        },
+        "des": {
+          "display_format": "**English:** _of the_",
+          "explanation": "Partitive article used for plural nouns.",
+          "cultural_note": ""
+        },
+        "‘hostiles’": {
+          "display_format": "**English:** _'hostiles'_",
+          "explanation": "Refers to people considered as enemies or threats.",
+          "cultural_note": ""
+        },
+        "contre": {
+          "display_format": "**English:** _against_",
+          "explanation": "A preposition meaning 'against'.",
+          "cultural_note": ""
+        },
+        "celle": {
+          "display_format": "**English:** _that_",
+          "explanation": "A pronoun referring to a feminine noun.",
+          "cultural_note": ""
+        },
+        "‘indésirables’": {
+          "display_format": "**English:** _'undesirables'_",
+          "explanation": "Refers to people who are not wanted.",
+          "cultural_note": ""
+        },
+        "l’ex-ministre": {
+          "display_format": "**English:** _the former minister_",
+          "explanation": "A person who previously held a ministerial position.",
+          "cultural_note": ""
+        },
+        "Najat Vallaud-Belkacem": {
+          "display_format": "**English:** _Najat Vallaud-Belkacem_",
+          "explanation": "A French politician and former minister.",
+          "cultural_note": "She is known for her work in education."
+        },
+        "dialogue": {
+          "display_format": "**English:** _dialogues_",
+          "explanation": "To have a conversation or discussion.",
+          "cultural_note": ""
+        },
+        "avec": {
+          "display_format": "**English:** _with_",
+          "explanation": "A preposition meaning 'with'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**English:** _the_",
+          "explanation": "The masculine singular definite article.",
+          "cultural_note": ""
+        },
+        "spécialiste": {
+          "display_format": "**English:** _specialist_",
+          "explanation": "An expert in a specific field.",
+          "cultural_note": ""
+        },
+        "déplacements": {
+          "display_format": "**English:** _displacements_",
+          "explanation": "Movements or relocations of people.",
+          "cultural_note": ""
+        },
+        "forcés": {
+          "display_format": "**English:** _forced_",
+          "explanation": "Done against someone's will.",
+          "cultural_note": ""
+        },
+        "Benjamin Michallet": {
+          "display_format": "**English:** _Benjamin Michallet_",
+          "explanation": "A specialist in forced displacements.",
           "cultural_note": ""
         }
       },
       "ai_enhanced": true,
-      "simplified_french_title": "Un agent d'entretien escroque la CPAM",
-      "simplified_english_title": "A maintenance worker swindles health insurance",
-      "french_summary": "Un agent d'entretien a créé une entreprise pour escroquer la CPAM. Il a embauché ses amis et tous se mettent en arrêt maladie.",
-      "english_summary": "A maintenance worker created a company to swindle health insurance. He hired his friends, and they all took sick leave.",
+      "simplified_french_title": "Dialogue entre Najat Vallaud-Belkacem et Benjamin Michallet sur les hostiles et indésirables.",
+      "simplified_english_title": "Dialogue between Najat Vallaud-Belkacem and Benjamin Michallet on hostiles and undesirables.",
+      "french_summary": "L'ex-ministre Najat Vallaud-Belkacem discute avec Benjamin Michallet des catégories de personnes considérées comme hostiles ou indésirables.",
+      "english_summary": "Former minister Najat Vallaud-Belkacem talks with Benjamin Michallet about categories of people seen as hostiles or undesirables.",
       "quality_checked": true,
-      "processed_at": "2025-06-30T14:26:49.001872+00:00",
-      "original_article_link": "https://www.lindependant.fr/2025/06/30/lagent-dentretien-etait-paye-4-000-euros-pour-escroquer-la-cpam-il-cree-une-entreprise-embauche-ses-amis-et-tout-le-monde-se-met-en-arret-maladie-12795563.php",
-      "original_article_title": "L’agent d’entretien était payé 4 000 euros : pour escroquer la CPAM, il crée une entreprise, embauche ses amis et tout le monde se met en arrêt maladie",
-      "original_article_published_date": "Mon, 30 Jun 2025 15:10:20 +0200",
-      "source_name": "L'Indépendant"
+      "processed_at": "2025-06-30T15:27:08.278190+00:00",
+      "original_article_link": "https://www.philomag.com/articles/est-en-train-dresser-la-categorie-supposee-des-hostiles-contre-celle-des-indesirables",
+      "original_article_title": "“On est en train dresser la catégorie supposée des ‘hostiles’ contre celle des ‘indésirables’” : l’ex-ministre Najat Vallaud-Belkacem dialogue avec le spécialiste des déplacements forcés Benjamin Michallet",
+      "original_article_published_date": "Mon, 30 Jun 2025 15:00:00 +0000",
+      "source_name": "Philosophie Magazine"
+    },
+    {
+      "title": "Canicule : la France cuit",
+      "link": "https://www.courrierinternational.com/article/vu-de-l-etranger-canicule-la-france-cuit_232571",
+      "summary": "La France vivra une période de forte chaleur en ce début de semaine, sur une étendue géographique inédite. Si le pays a beaucoup évolué depuis la canicule catastrophique de 2003, les prévisions quant à son avenir sont alarmistes, surtout pour Paris, et tous les projets ne respectent pas l’impératif climatique, observe la presse étrangère. Loin de là.",
+      "published": "Mon, 30 Jun 2025 16:46:08 +0200",
+      "source": "Courrier International",
+      "hash_id": "85dd4794b3c0",
+      "raw_content": "",
+      "relevance_score": 9.0,
+      "practical_score": 2,
+      "newsworthiness_score": 6.57,
+      "total_score": 18.055999999999997,
+      "contextual_title_explanations": {
+        "Canicule": {
+          "display_format": "**Heatwave:** _Canicule_",
+          "explanation": "A prolonged period of excessively hot weather.",
+          "cultural_note": "Common in summer in France."
+        },
+        "la": {
+          "display_format": "**the:** _la_",
+          "explanation": "A definite article used for feminine nouns.",
+          "cultural_note": ""
+        },
+        "France": {
+          "display_format": "**France:** _France_",
+          "explanation": "A country in Western Europe.",
+          "cultural_note": "Known for its culture and history."
+        },
+        "cuit": {
+          "display_format": "**cooked:** _cuit_",
+          "explanation": "Means very hot or overheated.",
+          "cultural_note": "Used to describe extreme heat."
+        }
+      },
+      "ai_enhanced": true,
+      "simplified_french_title": "La France souffre de la canicule",
+      "simplified_english_title": "France suffers from heatwave",
+      "french_summary": "La France connaît une canicule, avec des températures très élevées. Le gouvernement prend des mesures pour aider les citoyens.",
+      "english_summary": "France is experiencing a heatwave with very high temperatures. The government is taking steps to help citizens.",
+      "quality_checked": true,
+      "processed_at": "2025-06-30T15:32:04.719341+00:00",
+      "original_article_link": "https://www.courrierinternational.com/article/vu-de-l-etranger-canicule-la-france-cuit_232571",
+      "original_article_title": "Canicule : la France cuit",
+      "original_article_published_date": "Mon, 30 Jun 2025 16:46:08 +0200",
+      "source_name": "Courrier International"
+    },
+    {
+      "title": "Soldes d’été en DIRECT : voici les offres incontournables pour cette nouvelle semaine de promotions",
+      "link": "https://www.frandroid.com/bons-plans/2710589_soldes-dete-en-direct-voici-les-nouvelles-offres-incontournables-pour-cette-nouvelle-semaine-de-promotions",
+      "summary": "<div class=\"chapo has-text-weight-semibold mb-5\">\n<div>Les soldes battent leur plein et les offres sont nombreuses. Peut-être un peu trop nombreuses même... La rédaction de Frandroid a donc fait le tri des meilleures offres de l'événement. Smartphones, tablettes, casques et écouteurs ou encore téléviseurs, vous aurez de quoi vous équiper au meilleur prix !</div>\n</div>",
+      "published": "Mon, 30 Jun 2025 14:44:44 +0000",
+      "source": "Frandroid",
+      "hash_id": "1b51ac7b0e1a",
+      "raw_content": "",
+      "relevance_score": 7.0,
+      "practical_score": 5,
+      "newsworthiness_score": 6.53,
+      "total_score": 18.624000000000002,
+      "contextual_title_explanations": {
+        "Soldes": {
+          "display_format": "**Sales:** _Soldes_",
+          "explanation": "Discounts on products, often seasonal.",
+          "cultural_note": "Common in France, especially in summer and winter."
+        },
+        "d’été": {
+          "display_format": "**Summer:** _d’été_",
+          "explanation": "The season of summer, June to August.",
+          "cultural_note": "Summer sales are popular in France."
+        },
+        "en DIRECT": {
+          "display_format": "**Live:** _en DIRECT_",
+          "explanation": "Broadcasting in real-time.",
+          "cultural_note": "Often used for events or sales."
+        },
+        "voici": {
+          "display_format": "**Here are:** _voici_",
+          "explanation": "Used to introduce something.",
+          "cultural_note": ""
+        },
+        "les": {
+          "display_format": "**The:** _les_",
+          "explanation": "Definite article for plural nouns.",
+          "cultural_note": ""
+        },
+        "offres": {
+          "display_format": "**Offers:** _offres_",
+          "explanation": "Deals or promotions available.",
+          "cultural_note": ""
+        },
+        "incontournables": {
+          "display_format": "**Must-have:** _incontournables_",
+          "explanation": "Essential or very important items.",
+          "cultural_note": ""
+        },
+        "pour": {
+          "display_format": "**For:** _pour_",
+          "explanation": "Indicates purpose or reason.",
+          "cultural_note": ""
+        },
+        "cette": {
+          "display_format": "**This:** _cette_",
+          "explanation": "Demonstrative adjective for feminine nouns.",
+          "cultural_note": ""
+        },
+        "nouvelle": {
+          "display_format": "**New:** _nouvelle_",
+          "explanation": "Something that has recently appeared.",
+          "cultural_note": ""
+        },
+        "semaine": {
+          "display_format": "**Week:** _semaine_",
+          "explanation": "A period of seven days.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**Of:** _de_",
+          "explanation": "Indicates possession or relation.",
+          "cultural_note": ""
+        },
+        "promotions": {
+          "display_format": "**Promotions:** _promotions_",
+          "explanation": "Special offers to encourage sales.",
+          "cultural_note": ""
+        }
+      },
+      "ai_enhanced": true,
+      "simplified_french_title": "Soldes d'été : offres incontournables de la semaine",
+      "simplified_english_title": "Summer Sales: Must-Have Offers of the Week",
+      "french_summary": "Découvrez les meilleures offres de soldes d'été pour cette semaine. Ne manquez pas ces promotions incontournables !",
+      "english_summary": "Discover the best summer sale offers for this week. Don't miss these must-have promotions!",
+      "quality_checked": true,
+      "processed_at": "2025-06-30T15:28:45.328489+00:00",
+      "original_article_link": "https://www.frandroid.com/bons-plans/2710589_soldes-dete-en-direct-voici-les-nouvelles-offres-incontournables-pour-cette-nouvelle-semaine-de-promotions",
+      "original_article_title": "Soldes d’été en DIRECT : voici les offres incontournables pour cette nouvelle semaine de promotions",
+      "original_article_published_date": "Mon, 30 Jun 2025 14:44:44 +0000",
+      "source_name": "Frandroid"
+    },
+    {
+      "title": "Nouvelles normes électriques : ces changements qui vont impacter votre logement en 2025",
+      "link": "https://www.journaldugeek.com/2025/06/30/nouvelles-normes-electriques-ces-changements-qui-vont-impacter-votre-logement-en-2025/",
+      "summary": "<img alt=\"Hp (1) 2025 04 10t141430.420\" class=\"attachment-full size-full wp-post-image\" height=\"1000\" src=\"https://www.journaldugeek.com/app/uploads/2025/04/HP-1-2025-04-10T141430.420.jpeg\" width=\"1500\" /><br /><br />Les normes françaises en matière d’électricité ont été renouvelées. La norme C15-100, qui concerne l’installation, le contrôle et la maintenance des installations électriques à basse tension, vient de connaître une mise à jour importante. Celle-ci va impacter le logement, les voitures électriques, les réseaux de communication, et bien plus.",
+      "published": "Mon, 30 Jun 2025 14:18:24 +0000",
+      "source": "Journal du Geek",
+      "hash_id": "29dca97a5014",
+      "raw_content": "",
+      "relevance_score": 9.0,
+      "practical_score": 2,
+      "newsworthiness_score": 6.63,
+      "total_score": 18.104,
+      "contextual_title_explanations": {
+        "Nouvelles": {
+          "display_format": "**New:** _Nouvelles_",
+          "explanation": "This means 'new' in English.",
+          "cultural_note": ""
+        },
+        "normes": {
+          "display_format": "**standards:** _normes_",
+          "explanation": "This refers to 'standards' or 'rules'.",
+          "cultural_note": ""
+        },
+        "électriques": {
+          "display_format": "**electrical:** _électriques_",
+          "explanation": "This means 'related to electricity'.",
+          "cultural_note": ""
+        },
+        "ces": {
+          "display_format": "**these:** _ces_",
+          "explanation": "This means 'these' in English.",
+          "cultural_note": ""
+        },
+        "changements": {
+          "display_format": "**changes:** _changements_",
+          "explanation": "This means 'changes' or 'modifications'.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**that:** _qui_",
+          "explanation": "This means 'that' or 'which'.",
+          "cultural_note": ""
+        },
+        "vont": {
+          "display_format": "**will:** _vont_",
+          "explanation": "This is the future form of 'to go'.",
+          "cultural_note": ""
+        },
+        "impacter": {
+          "display_format": "**impact:** _impacter_",
+          "explanation": "This means 'to affect' or 'to impact'.",
+          "cultural_note": ""
+        },
+        "votre": {
+          "display_format": "**your:** _votre_",
+          "explanation": "This means 'your' in English.",
+          "cultural_note": ""
+        },
+        "logement": {
+          "display_format": "**housing:** _logement_",
+          "explanation": "This refers to 'housing' or 'accommodation'.",
+          "cultural_note": ""
+        },
+        "en": {
+          "display_format": "**in:** _en_",
+          "explanation": "This means 'in' or 'during'.",
+          "cultural_note": ""
+        },
+        "2025": {
+          "display_format": "**2025:** _2025_",
+          "explanation": "This is the year 2025.",
+          "cultural_note": "A future date for changes."
+        }
+      },
+      "ai_enhanced": true,
+      "simplified_french_title": "Nouvelles normes électriques pour 2025",
+      "simplified_english_title": "New electrical standards for 2025",
+      "french_summary": "En 2025, de nouvelles normes électriques vont changer votre logement. Ces changements affecteront la sécurité et l'efficacité énergétique.",
+      "english_summary": "In 2025, new electrical standards will change your housing. These changes will affect safety and energy efficiency.",
+      "quality_checked": true,
+      "processed_at": "2025-06-30T15:31:31.168658+00:00",
+      "original_article_link": "https://www.journaldugeek.com/2025/06/30/nouvelles-normes-electriques-ces-changements-qui-vont-impacter-votre-logement-en-2025/",
+      "original_article_title": "Nouvelles normes électriques : ces changements qui vont impacter votre logement en 2025",
+      "original_article_published_date": "Mon, 30 Jun 2025 14:18:24 +0000",
+      "source_name": "Journal du Geek"
+    },
+    {
+      "title": "Lyon mise sur le logiciel libre pour se débarrasser de Microsoft",
+      "link": "https://www.01net.com/actualites/lyon-mise-sur-le-logiciel-libre-pour-se-debarrasser-de-microsoft.html",
+      "summary": "<img alt=\"Lyon\" class=\"attachment-full size-full wp-post-image\" height=\"1280\" src=\"https://www.01net.com/app/uploads/2025/06/lyon.jpg\" width=\"1920\" /><br /><br />L'administration de la ville de Lyon veut se débarrasser des solutions propriétaires américaines. Cela passe par le remplacement des outils bureautiques de Microsoft par des alternatives libres, et par la création d'une suite collaborative libre et interopérable qui pourrait s'adapter à l'ensemble de la France.",
+      "published": "Mon, 30 Jun 2025 14:14:40 +0000",
+      "source": "01net",
+      "hash_id": "f88deead116a",
+      "raw_content": "",
+      "relevance_score": 9.0,
+      "practical_score": 2,
+      "newsworthiness_score": 6.55,
+      "total_score": 18.04,
+      "contextual_title_explanations": {
+        "Lyon": {
+          "display_format": "**English:** _Lyon_",
+          "explanation": "A city in France, known for its culture.",
+          "cultural_note": "Lyon is famous for its cuisine."
+        },
+        "mise": {
+          "display_format": "**English:** _focus_",
+          "explanation": "To focus or invest in something.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**English:** _on_",
+          "explanation": "A preposition meaning 'on' or 'about'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**English:** _the_",
+          "explanation": "The definite article in French.",
+          "cultural_note": ""
+        },
+        "logiciel": {
+          "display_format": "**English:** _software_",
+          "explanation": "Programs that run on computers.",
+          "cultural_note": ""
+        },
+        "libre": {
+          "display_format": "**English:** _free_",
+          "explanation": "Free software, not owned by anyone.",
+          "cultural_note": "Refers to freedom, not price."
+        },
+        "pour": {
+          "display_format": "**English:** _to_",
+          "explanation": "A preposition meaning 'for' or 'to'.",
+          "cultural_note": ""
+        },
+        "se": {
+          "display_format": "**English:** _oneself_",
+          "explanation": "Refers to oneself in reflexive verbs.",
+          "cultural_note": ""
+        },
+        "débarrasser": {
+          "display_format": "**English:** _get rid of_",
+          "explanation": "To remove or eliminate something.",
+          "cultural_note": ""
+        },
+        "de": {
+          "display_format": "**English:** _of_",
+          "explanation": "A preposition meaning 'of' or 'from'.",
+          "cultural_note": ""
+        },
+        "Microsoft": {
+          "display_format": "**English:** _Microsoft_",
+          "explanation": "An American technology company.",
+          "cultural_note": "Known for Windows and Office software."
+        }
+      },
+      "ai_enhanced": true,
+      "simplified_french_title": "Lyon se concentre sur le logiciel libre",
+      "simplified_english_title": "Lyon focuses on free software",
+      "french_summary": "Lyon veut utiliser des logiciels libres pour remplacer Microsoft.",
+      "english_summary": "Lyon wants to use free software to replace Microsoft.",
+      "quality_checked": true,
+      "processed_at": "2025-06-30T15:32:27.825840+00:00",
+      "original_article_link": "https://www.01net.com/actualites/lyon-mise-sur-le-logiciel-libre-pour-se-debarrasser-de-microsoft.html",
+      "original_article_title": "Lyon mise sur le logiciel libre pour se débarrasser de Microsoft",
+      "original_article_published_date": "Mon, 30 Jun 2025 14:14:40 +0000",
+      "source_name": "01net"
     },
     {
       "schema_version": 2,
@@ -1750,104 +1725,119 @@
       "quality_checked": true
     },
     {
-      "title": "Alain, ex-viticulteur : \"Avec ces emmerdes, si je devais commencer à travailler aujourd’hui, je préférerais être chômeur\"",
-      "link": "https://www.marianne.net/societe/agriculture-et-ruralite/alain-ex-viticulteur-avec-ces-emmerdes-si-je-devais-commencer-a-travailler-aujourdhui-je-prefererais-etre-chomeur#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
-      "summary": "Parti à la retraite cette année, Alain, ex-viticulteur à Bergerac en Dordogne, âgé de 64 ans, a pu constater en près de 45 ans de carrière une accumulation de normes, de contrôles et d'« emmerdes » pesant sur le monde agricole. Victime à la fois de la dégringolade des prix des céréales et de la baisse de la popularité du vin, celui qui s'est engagé à la Coordination rurale « dès le début » raconte à « Marianne » l'évolution des raisons de la colère du secteur.",
-      "published": "Mon, 30 Jun 2025 14:00:00 CEST",
+      "title": "\"Les Gardiens de la révolution : maîtres de l’Iran\" (Arte) : glaçante enquête sur la milice qui a semé le chaos à Téhéran",
+      "link": "https://www.marianne.net/monde/proche-orient/les-gardiens-de-la-revolution-maitres-de-liran-arte-glacante-enquete-sur-la-milice-qui-a-seme-le-chaos-a-teheran#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
+      "summary": "Le documentaire, réalisé par les journalistes Julie Lerat et Armin Arefi et diffusé ce mardi 1er juillet sur Arte, nous ouvre les coulisses de l'organisation paramilitaire la plus puissante à Téhéran – les Gardiens de la révolution. Répression permanente, contrôle des opposants, accaparement des richesses… Quarante ans après leur création, leur stratégie, aussi sophistiquée que redoutable, fait désormais d'eux les véritables « maîtres de l'Iran ».",
+      "published": "Mon, 30 Jun 2025 15:00:00 CEST",
       "source": "Marianne",
-      "hash_id": "533344ff2ce4",
+      "hash_id": "7840ba441674",
       "raw_content": "",
       "relevance_score": 9.0,
-      "practical_score": 4,
-      "newsworthiness_score": 6.87,
-      "total_score": 20.296,
+      "practical_score": 2,
+      "newsworthiness_score": 6.66,
+      "total_score": 18.128,
       "contextual_title_explanations": {
-        "Alain": {
-          "display_format": "**English:** _Alain_",
-          "explanation": "A common French male name.",
+        "Les": {
+          "display_format": "**The:** _Les_",
+          "explanation": "A definite article in French, meaning 'the'.",
           "cultural_note": ""
         },
-        "ex-viticulteur": {
-          "display_format": "**English:** _ex-winemaker_",
-          "explanation": "Someone who used to make wine.",
-          "cultural_note": "Viticulture is important in France."
-        },
-        "Avec": {
-          "display_format": "**English:** _With_",
-          "explanation": "Used to indicate accompaniment.",
+        "Gardiens": {
+          "display_format": "**Guardians:** _Gardiens_",
+          "explanation": "Means 'guardians' or 'keepers' in English.",
           "cultural_note": ""
         },
-        "ces": {
-          "display_format": "**English:** _these_",
-          "explanation": "Refers to specific things nearby.",
+        "de": {
+          "display_format": "**of:** _de_",
+          "explanation": "A preposition meaning 'of' or 'from'.",
           "cultural_note": ""
         },
-        "emmerdes": {
-          "display_format": "**English:** _troubles_",
-          "explanation": "Problems or annoyances.",
-          "cultural_note": "Informal and slightly vulgar term."
-        },
-        "si": {
-          "display_format": "**English:** _if_",
-          "explanation": "Used to introduce a condition.",
+        "la": {
+          "display_format": "**the:** _la_",
+          "explanation": "Another definite article in French, meaning 'the'.",
           "cultural_note": ""
         },
-        "je": {
-          "display_format": "**English:** _I_",
-          "explanation": "First person singular pronoun.",
+        "révolution": {
+          "display_format": "**revolution:** _révolution_",
+          "explanation": "Means 'revolution', often refers to political change.",
+          "cultural_note": "The Iranian Revolution occurred in 1979."
+        },
+        "maîtres": {
+          "display_format": "**masters:** _maîtres_",
+          "explanation": "Means 'masters' or 'experts' in English.",
           "cultural_note": ""
         },
-        "devais": {
-          "display_format": "**English:** _had to_",
-          "explanation": "Past tense of 'must'.",
+        "l’Iran": {
+          "display_format": "**Iran:** _l’Iran_",
+          "explanation": "The name of the country Iran.",
+          "cultural_note": "Iran is located in the Middle East."
+        },
+        "glaçante": {
+          "display_format": "**chilling:** _glaçante_",
+          "explanation": "Means 'chilling' or 'frightening'.",
           "cultural_note": ""
         },
-        "commencer": {
-          "display_format": "**English:** _to start_",
-          "explanation": "To begin something.",
+        "enquête": {
+          "display_format": "**investigation:** _enquête_",
+          "explanation": "Means 'investigation' or 'inquiry'.",
+          "cultural_note": ""
+        },
+        "sur": {
+          "display_format": "**on:** _sur_",
+          "explanation": "A preposition meaning 'on' or 'about'.",
+          "cultural_note": ""
+        },
+        "milice": {
+          "display_format": "**militia:** _milice_",
+          "explanation": "Means 'militia', a group that acts like an army.",
+          "cultural_note": ""
+        },
+        "qui": {
+          "display_format": "**that:** _qui_",
+          "explanation": "A relative pronoun meaning 'that' or 'who'.",
+          "cultural_note": ""
+        },
+        "a": {
+          "display_format": "**has:** _a_",
+          "explanation": "The third person singular form of 'to have'.",
+          "cultural_note": ""
+        },
+        "semé": {
+          "display_format": "**sowed:** _semé_",
+          "explanation": "Means 'sowed' or 'spread'.",
+          "cultural_note": ""
+        },
+        "le": {
+          "display_format": "**the:** _le_",
+          "explanation": "A definite article in French, meaning 'the'.",
+          "cultural_note": ""
+        },
+        "chaos": {
+          "display_format": "**chaos:** _chaos_",
+          "explanation": "Means 'chaos', a state of disorder.",
           "cultural_note": ""
         },
         "à": {
-          "display_format": "**English:** _to_",
-          "explanation": "Indicates direction or purpose.",
+          "display_format": "**in:** _à_",
+          "explanation": "A preposition meaning 'in' or 'at'.",
           "cultural_note": ""
         },
-        "travailler": {
-          "display_format": "**English:** _to work_",
-          "explanation": "To perform a job or task.",
+        "Téhéran": {
+          "display_format": "**Tehran:** _Téhéran_",
+          "explanation": "The capital city of Iran.",
           "cultural_note": ""
-        },
-        "aujourd’hui": {
-          "display_format": "**English:** _today_",
-          "explanation": "The current day.",
-          "cultural_note": ""
-        },
-        "préférerais": {
-          "display_format": "**English:** _would prefer_",
-          "explanation": "Indicates a choice or desire.",
-          "cultural_note": ""
-        },
-        "être": {
-          "display_format": "**English:** _to be_",
-          "explanation": "Indicates existence or identity.",
-          "cultural_note": ""
-        },
-        "chômeur": {
-          "display_format": "**English:** _unemployed_",
-          "explanation": "A person without a job.",
-          "cultural_note": "Unemployment is a serious issue in France."
         }
       },
       "ai_enhanced": true,
-      "simplified_french_title": "Alain, ancien viticulteur : \"Je préférerais être chômeur\"",
-      "simplified_english_title": "Alain, former winemaker: \"I would prefer to be unemployed\"",
-      "french_summary": "Alain, un ancien viticulteur, parle des difficultés du travail aujourd'hui et dit qu'il préférerait être chômeur.",
-      "english_summary": "Alain, a former winemaker, discusses the challenges of working today and says he would prefer to be unemployed.",
+      "simplified_french_title": "Les Gardiens de la Révolution : enquête sur la milice en Iran",
+      "simplified_english_title": "The Guardians of the Revolution: Investigation on the Militia in Iran",
+      "french_summary": "Une enquête glaçante sur la milice qui a causé le chaos à Téhéran.",
+      "english_summary": "A chilling investigation into the militia that caused chaos in Tehran.",
       "quality_checked": true,
-      "processed_at": "2025-06-30T14:21:42.566525+00:00",
-      "original_article_link": "https://www.marianne.net/societe/agriculture-et-ruralite/alain-ex-viticulteur-avec-ces-emmerdes-si-je-devais-commencer-a-travailler-aujourdhui-je-prefererais-etre-chomeur#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
-      "original_article_title": "Alain, ex-viticulteur : \"Avec ces emmerdes, si je devais commencer à travailler aujourd’hui, je préférerais être chômeur\"",
-      "original_article_published_date": "Mon, 30 Jun 2025 14:00:00 CEST",
+      "processed_at": "2025-06-30T15:30:37.521517+00:00",
+      "original_article_link": "https://www.marianne.net/monde/proche-orient/les-gardiens-de-la-revolution-maitres-de-liran-arte-glacante-enquete-sur-la-milice-qui-a-seme-le-chaos-a-teheran#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
+      "original_article_title": "\"Les Gardiens de la révolution : maîtres de l’Iran\" (Arte) : glaçante enquête sur la milice qui a semé le chaos à Téhéran",
+      "original_article_published_date": "Mon, 30 Jun 2025 15:00:00 CEST",
       "source_name": "Marianne"
     }
   ]
