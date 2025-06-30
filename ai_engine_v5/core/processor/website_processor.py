@@ -396,12 +396,12 @@ IMPORTANT: Return only the JSON, no other text."""
         
         print(f"📅 Filtered to {len(recent_articles)} recent articles (last 7 days) from {len(rony_articles)} total")
         
-        # SMART LIMIT: Max 5 articles for immediate feedback
-        if len(recent_articles) > 5:
+        # SMART LIMIT: Max 15 articles for moderate scaling
+        if len(recent_articles) > 15:
             # Sort by Rony score (highest first) to get best articles
             recent_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
-            recent_articles = recent_articles[:5]
-            print(f"🎯 Limited to TOP 5 articles (immediate feedback mode)")
+            recent_articles = recent_articles[:15]
+            print(f"🎯 Limited to TOP 15 articles (moderate scaling mode)")
         
         print(f"📊 Processing {len(recent_articles)} articles")
         print("📋 Pipeline Steps:")
@@ -470,7 +470,7 @@ IMPORTANT: Return only the JSON, no other text."""
         print(f"✅ SMART AI ENHANCEMENT PIPELINE COMPLETE!")
         print(f"   📊 Articles enhanced: {len(enhanced_articles)}")
         print(f"   🎯 Recent articles only (last 7 days)")
-        print(f"   ⚡ Development limit: max 5 articles")
+        print(f"   ⚡ Moderate scaling: max 15 articles")
         print(f"   💰 Total cost: ${total_cost:.4f}")
         print(f"   🚀 Ready for sophisticated website generation")
         
@@ -528,7 +528,7 @@ IMPORTANT: Return only the JSON, no other text."""
         # Combine in quality order
         prioritized_articles = quality_checked + ai_enhanced + basic_articles
         
-        # Sort by published date (newest first) - FIXED PROPER DATE PARSING
+        # Sort by published date (newest first) - COMPREHENSIVE DATE PARSING
         def _date_key(article):
             date_str = (article.get('original_article_published_date') or 
                        article.get('published') or 
@@ -545,19 +545,34 @@ IMPORTANT: Return only the JSON, no other text."""
                     if dt.tzinfo is None or dt.tzinfo.utcoffset(dt) is None:
                         dt = dt.replace(tzinfo=timezone.utc)
                     return dt
-                elif ',' in date_str:
-                    # Format: "June 29, 2025"
-                    dt = datetime.strptime(date_str, '%B %d, %Y')
-                    return dt.replace(tzinfo=timezone.utc)
+                elif '+' in date_str and ('Mon' in date_str or 'Tue' in date_str or 'Wed' in date_str or 'Thu' in date_str or 'Fri' in date_str or 'Sat' in date_str or 'Sun' in date_str):
+                    # Format: "Sun, 29 Jun 2025 12:00:14 +0200"
+                    dt = datetime.strptime(date_str, '%a, %d %b %Y %H:%M:%S %z')
+                    return dt
+                elif ',' in date_str and ('Jan' in date_str or 'Feb' in date_str or 'Mar' in date_str or 'Apr' in date_str or 'May' in date_str or 'Jun' in date_str or 'Jul' in date_str or 'Aug' in date_str or 'Sep' in date_str or 'Oct' in date_str or 'Nov' in date_str or 'Dec' in date_str):
+                    # Format: "June 29, 2025" or "Jun 29, 2025"
+                    try:
+                        dt = datetime.strptime(date_str, '%B %d, %Y')
+                        return dt.replace(tzinfo=timezone.utc)
+                    except:
+                        dt = datetime.strptime(date_str, '%b %d, %Y')
+                        return dt.replace(tzinfo=timezone.utc)
                 elif len(date_str) == 10 and '-' in date_str:
                     # Format: "2025-06-30"
                     dt = datetime.strptime(date_str, '%Y-%m-%d')
                     return dt.replace(tzinfo=timezone.utc)
                 else:
-                    # Fallback - return as string for lexical sort
+                    # Try to extract just the date part if there's extra text
+                    import re
+                    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', date_str)
+                    if date_match:
+                        dt = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+                        return dt.replace(tzinfo=timezone.utc)
+                    # Final fallback
                     return datetime(1970, 1, 1, tzinfo=timezone.utc)
-            except:
+            except Exception as e:
                 # If all parsing fails, return epoch
+                print(f"      ⚠️ Date parsing failed for '{date_str}': {e}")
                 return datetime(1970, 1, 1, tzinfo=timezone.utc)
         
         prioritized_articles.sort(key=_date_key, reverse=True)
