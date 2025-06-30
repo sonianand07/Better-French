@@ -133,10 +133,17 @@ IMPORTANT: Return only the JSON, no other text."""
         if result.get('success'):
             try:
                 analysis = json.loads(result['content'])
-                article['contextual_title_explanations'] = analysis.get('contextual_title_explanations', {})
+                # Handle both dict and list responses from LLM
+                if isinstance(analysis, dict):
+                    article['contextual_title_explanations'] = analysis.get('contextual_title_explanations', {})
+                elif isinstance(analysis, list):
+                    # If LLM returned a list, try to extract dict from first element
+                    article['contextual_title_explanations'] = analysis[0].get('contextual_title_explanations', {}) if analysis and isinstance(analysis[0], dict) else {}
+                else:
+                    article['contextual_title_explanations'] = {}
                 article['ai_enhanced'] = True
                 return article, cost
-            except json.JSONDecodeError:
+            except (json.JSONDecodeError, IndexError, KeyError, AttributeError):
                 print(f"      ⚠️ JSON parse failed for contextual analysis")
                 article['contextual_title_explanations'] = {}
                 return article, cost
@@ -189,12 +196,27 @@ IMPORTANT: Return only the JSON, no other text."""
         if result.get('success'):
             try:
                 simplification = json.loads(result['content'])
-                article['simplified_french_title'] = simplification.get('simplified_french_title', article.get('title', ''))
-                article['simplified_english_title'] = simplification.get('simplified_english_title', '')
-                article['french_summary'] = simplification.get('french_summary', '')
-                article['english_summary'] = simplification.get('english_summary', '')
+                # Handle both dict and list responses from LLM
+                if isinstance(simplification, dict):
+                    article['simplified_french_title'] = simplification.get('simplified_french_title', article.get('title', ''))
+                    article['simplified_english_title'] = simplification.get('simplified_english_title', '')
+                    article['french_summary'] = simplification.get('french_summary', '')
+                    article['english_summary'] = simplification.get('english_summary', '')
+                elif isinstance(simplification, list) and simplification and isinstance(simplification[0], dict):
+                    # If LLM returned a list, try to extract dict from first element
+                    s = simplification[0]
+                    article['simplified_french_title'] = s.get('simplified_french_title', article.get('title', ''))
+                    article['simplified_english_title'] = s.get('simplified_english_title', '')
+                    article['french_summary'] = s.get('french_summary', '')
+                    article['english_summary'] = s.get('english_summary', '')
+                else:
+                    # Fallback to original values
+                    article['simplified_french_title'] = article.get('title', '')
+                    article['simplified_english_title'] = ''
+                    article['french_summary'] = ''
+                    article['english_summary'] = ''
                 return article, cost
-            except json.JSONDecodeError:
+            except (json.JSONDecodeError, IndexError, KeyError, AttributeError):
                 print(f"      ⚠️ JSON parse failed for simplification")
                 return article, cost
         else:
@@ -276,10 +298,16 @@ IMPORTANT: Return only the JSON, no other text."""
         if result.get('success'):
             try:
                 verification = json.loads(result['content'])
-                article = self._apply_verification_fixes(article, verification)
+                # Handle both dict and list responses from LLM
+                if isinstance(verification, dict):
+                    article = self._apply_verification_fixes(article, verification)
+                elif isinstance(verification, list) and verification and isinstance(verification[0], dict):
+                    # If LLM returned a list, use first element
+                    article = self._apply_verification_fixes(article, verification[0])
+                # If neither dict nor valid list, skip verification fixes but mark as checked
                 article['quality_checked'] = True
                 return article, cost
-            except json.JSONDecodeError:
+            except (json.JSONDecodeError, IndexError, KeyError, AttributeError):
                 print(f"      ⚠️ JSON parse failed for GPT-4o verification")
                 article['quality_checked'] = True  # Mark as checked even if parsing failed
                 return article, cost
