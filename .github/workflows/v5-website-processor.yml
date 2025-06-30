@@ -19,8 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
+      BF_PER_RUN_CAP: 10
+      BF_DAILY_CAP: 9999
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       OPENROUTER_SCRAPER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
+      AI_ENGINE_HIGH_MODEL: openai/gpt-4o-mini
       PYTHONPATH: ${{ github.workspace }}
     
     steps:
@@ -35,6 +38,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install aiohttp feedparser requests
+          pip install -e ./ai_engine_v3
+          pip install -e ./ai_engine_v4
 
       - name: 🔍 Detect new articles from Rony
         run: |

@@ -1,77 +1,10 @@
 {
   "metadata": {
-    "total_articles": 27,
-    "last_updated": "2025-06-30T07:40:32.290796+00:00",
-    "v5_enhanced": true,
-    "pipeline": "Rony (intelligent selection) + V5 (AI enhancement)",
-    "quality": "Proven prompts + GPT-4o verification",
-    "quality_breakdown": {
-      "quality_checked": 27,
-      "ai_enhanced": 27,
-      "basic": 0
-    }
+    "total_articles": 25,
+    "last_updated": "just_now",
+    "v4_enhanced": true
   },
   "articles": [
-    {
-      "title": "L’info du jour | 29 juin - Mi-journée",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source": "Euronews France",
-      "hash_id": "3a8f8aa7472d",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "original_article_title": "L’info du jour | 29 juin - Mi-journée",
-      "original_article_published_date": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source_name": "Euronews France"
-    },
-    {
-      "title": "L’info du jour | 29 juin - Matin",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source": "Euronews France",
-      "hash_id": "372c8c9b939f",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "original_article_title": "L’info du jour | 29 juin - Matin",
-      "original_article_published_date": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source_name": "Euronews France"
-    },
     {
       "schema_version": 2,
       "id": null,
