@@ -539,14 +539,20 @@ IMPORTANT: Return only the JSON, no other text."""
             try:
                 # Handle various date formats
                 if 'T' in date_str:
-                    # ISO format: 2025-06-30T08:23:53.954423+00:00
-                    return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+                    # ISO format: 2025-06-30T08:23:53.954423+00:00 or without offset
+                    dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+                    # If timezone-naive, assume UTC to keep comparisons safe
+                    if dt.tzinfo is None or dt.tzinfo.utcoffset(dt) is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    return dt
                 elif ',' in date_str:
                     # Format: "June 29, 2025"
-                    return datetime.strptime(date_str, '%B %d, %Y')
+                    dt = datetime.strptime(date_str, '%B %d, %Y')
+                    return dt.replace(tzinfo=timezone.utc)
                 elif len(date_str) == 10 and '-' in date_str:
                     # Format: "2025-06-30"
-                    return datetime.strptime(date_str, '%Y-%m-%d')
+                    dt = datetime.strptime(date_str, '%Y-%m-%d')
+                    return dt.replace(tzinfo=timezone.utc)
                 else:
                     # Fallback - return as string for lexical sort
                     return datetime(1970, 1, 1)
