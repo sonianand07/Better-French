@@ -555,10 +555,10 @@ IMPORTANT: Return only the JSON, no other text."""
                     return dt.replace(tzinfo=timezone.utc)
                 else:
                     # Fallback - return as string for lexical sort
-                    return datetime(1970, 1, 1)
+                    return datetime(1970, 1, 1, tzinfo=timezone.utc)
             except:
                 # If all parsing fails, return epoch
-                return datetime(1970, 1, 1)
+                return datetime(1970, 1, 1, tzinfo=timezone.utc)
         
         prioritized_articles.sort(key=_date_key, reverse=True)
         
