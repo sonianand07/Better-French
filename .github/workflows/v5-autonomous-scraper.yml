@@ -1,9 +1,9 @@
 name: V5 - Rony Autonomous Scraper
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:    # Manual trigger for testing
+  # schedule:
+  #   - cron: '0 * * * *'  # DISABLED - User requested V4 instead
+  workflow_dispatch:    # Manual trigger only
 
 permissions:
   contents: write
