@@ -332,9 +332,50 @@ IMPORTANT: Return only the JSON, no other text."""
         1. Contextual Analysis (proven prompt)
         2. Simplification (proven prompt) 
         3. GPT-4o Verification (proven prompt)
+        
+        SMART LIMITS:
+        - Maximum 30 articles per run (development phase)
+        - Only recent articles (last 7 days)
+        - Prioritize by Rony score
         """
-        print(f"🎯 APPLYING AI ENHANCEMENT PIPELINE TO {len(rony_articles)} RONY ARTICLES")
+        print(f"🎯 SMART AI ENHANCEMENT PIPELINE - DEVELOPMENT PHASE")
         print("=" * 60)
+        
+        # SMART FILTERING: Only recent articles (last 7 days)
+        from datetime import datetime, timedelta
+        cutoff_date = datetime.now() - timedelta(days=7)
+        
+        recent_articles = []
+        for article in rony_articles:
+            # Try to parse published date
+            published_str = article.get('published', article.get('timestamp', ''))
+            if published_str:
+                try:
+                    # Handle various date formats
+                    if 'T' in published_str:
+                        published_date = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
+                    else:
+                        published_date = datetime.strptime(published_str[:10], '%Y-%m-%d')
+                    
+                    if published_date.replace(tzinfo=None) >= cutoff_date:
+                        recent_articles.append(article)
+                except:
+                    # If date parsing fails, include article (err on side of inclusion)
+                    recent_articles.append(article)
+            else:
+                # No date info, include article
+                recent_articles.append(article)
+        
+        print(f"📅 Filtered to {len(recent_articles)} recent articles (last 7 days) from {len(rony_articles)} total")
+        
+        # SMART LIMIT: Max 30 articles for development phase
+        if len(recent_articles) > 30:
+            # Sort by Rony score (highest first) to get best articles
+            recent_articles.sort(key=lambda x: x.get('total_score', 0), reverse=True)
+            recent_articles = recent_articles[:30]
+            print(f"🎯 Limited to TOP 30 articles (development phase)")
+        
+        print(f"📊 Processing {len(recent_articles)} articles")
         print("📋 Pipeline Steps:")
         print("   1️⃣ Contextual Analysis (French learning tooltips)")
         print("   2️⃣ Simplification (B1-level French + English)")
@@ -344,12 +385,12 @@ IMPORTANT: Return only the JSON, no other text."""
         enhanced_articles = []
         total_cost = 0.0
         
-        for i, article in enumerate(rony_articles, 1):
+        for i, article in enumerate(recent_articles, 1):
             title = article.get('title', 'No title')[:60]
             source = article.get('source', 'Unknown')
             rony_score = article.get('total_score', 0)
             
-            print(f"🔧 [{i:2d}/{len(rony_articles)}] {title}...")
+            print(f"🔧 [{i:2d}/{len(recent_articles)}] {title}...")
             print(f"      📊 Rony Score: {rony_score:.1f} | Source: {source}")
             
             # Step 1: Contextual Analysis
@@ -380,10 +421,12 @@ IMPORTANT: Return only the JSON, no other text."""
             print(f"      ✅ Complete (${step_cost:.4f})")
             print("")
         
-        print(f"✅ AI ENHANCEMENT PIPELINE COMPLETE!")
+        print(f"✅ SMART AI ENHANCEMENT PIPELINE COMPLETE!")
         print(f"   📊 Articles enhanced: {len(enhanced_articles)}")
+        print(f"   🎯 Recent articles only (last 7 days)")
+        print(f"   ⚡ Development limit: max 30 articles")
         print(f"   💰 Total cost: ${total_cost:.4f}")
-        print(f"   🎯 Ready for sophisticated website generation")
+        print(f"   🚀 Ready for sophisticated website generation")
         
         return enhanced_articles, total_cost
     
