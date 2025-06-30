@@ -1,132 +1,76 @@
 {
   "metadata": {
-    "total_articles": 30,
-    "last_updated": "2025-06-30T13:25:47.450357+00:00",
+    "total_articles": 27,
+    "last_updated": "2025-06-30T07:40:32.290796+00:00",
     "v5_enhanced": true,
     "pipeline": "Rony (intelligent selection) + V5 (AI enhancement)",
     "quality": "Proven prompts + GPT-4o verification",
     "quality_breakdown": {
-      "quality_checked": 30,
-      "ai_enhanced": 29,
-      "basic": 1
+      "quality_checked": 27,
+      "ai_enhanced": 27,
+      "basic": 0
     }
   },
   "articles": [
     {
-      "title": "Canicule : 13 départements en alerte orange samedi",
-      "link": "https://reporterre.net/Canicule-13-departements-en-alerte-orange-samedi",
-      "summary": "<img alt=\"\" class=\"spip_logo\" height=\"467\" src=\"https://reporterre.net/local/cache-vignettes/L700xH467/afp__20250621__chobeaux-canicule250621_npvij__v1__highres__heatwaveinparis_1_-c5ad0.jpg?1751036507\" width=\"700\" />\n<p>L'orage meurtrier du 25 juin est passé. La grêle et les rafales dépassant 140 km/h aussi. En revanche, les températures suffocantes risquent de perdurer plusieurs jours. Le 27 juin à la mi-journée, Météo-France a placé quatre départements français en vigilance orange, en réponse à un «<small class=\"fine d-inline\"> </small>épisode caniculaire précoce, dont la durée, et son extension géographique progressive vers le nord, nécessitent une vigilance particulière<small class=\"fine d-inline\"> </small>». <br class=\"autobr\" />\nTelles sont les prémices d'un phénomène de plus grande ampleur. (…)</p>\n\n            <a href=\"https://reporterre.net/Canicule-13-departements-en-alerte-orange-samedi?utm_source=RSS&amp;utm_medium=RSS\">Lire la suite</a>\n            \n            -\n                <a href=\"https://reporterre.net/Breves-20\" rel=\"directory\">En bref</a>\n            \n            \n            / \n                <a href=\"https://reporterre.net/Climat-18\" rel=\"tag\">Climat </a>",
-      "published": "",
-      "source": "Reporterre",
-      "hash_id": "8f78c9fcb767",
+      "title": "L’info du jour | 29 juin - Mi-journée",
+      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
+      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
+      "published": "Sun, 29 Jun 2025 12:00:14 +0200",
+      "source": "Euronews France",
+      "hash_id": "3a8f8aa7472d",
       "raw_content": "",
       "relevance_score": 9.0,
       "practical_score": 2,
-      "newsworthiness_score": 7.04,
-      "total_score": 18.432,
+      "newsworthiness_score": 6.25,
+      "total_score": 17.799999999999997,
       "contextual_title_explanations": {
-        "Canicule": {
-          "display_format": "**Heatwave:** _Canicule_",
-          "explanation": "A prolonged period of excessively hot weather.",
-          "cultural_note": "Canicule is common in summer in France."
-        },
-        "13": {
-          "display_format": "**Thirteen:** _13_",
-          "explanation": "The number after twelve.",
-          "cultural_note": ""
-        },
-        "départements": {
-          "display_format": "**Departments:** _Départements_",
-          "explanation": "Administrative regions in France.",
-          "cultural_note": "France has 101 departments."
-        },
-        "en": {
-          "display_format": "**In:** _en_",
-          "explanation": "A preposition meaning 'in' or 'at'.",
-          "cultural_note": ""
-        },
-        "alerte": {
-          "display_format": "**Alert:** _Alerte_",
-          "explanation": "A warning about a potential danger.",
-          "cultural_note": ""
-        },
-        "orange": {
-          "display_format": "**Orange:** _Orange_",
-          "explanation": "A color used for warning levels.",
-          "cultural_note": "Orange indicates a serious weather alert."
-        },
-        "samedi": {
-          "display_format": "**Saturday:** _Samedi_",
-          "explanation": "The day of the week after Friday.",
-          "cultural_note": ""
+        "test": {
+          "display_format": "**Test:** test",
+          "explanation": "Test explanation"
         }
       },
-      "ai_enhanced": true,
-      "simplified_french_title": "Canicule : 13 départements en alerte orange",
-      "simplified_english_title": "Heatwave: 13 departments on orange alert",
-      "french_summary": "Une canicule affecte 13 départements en France, avec un avertissement orange pour des températures élevées.",
-      "english_summary": "A heatwave is affecting 13 departments in France, with an orange alert for high temperatures.",
+      "simplified_french_title": "Test French Title",
+      "simplified_english_title": "Test English Title",
+      "french_summary": "Test French summary",
+      "english_summary": "Test English summary",
       "quality_checked": true,
-      "processed_at": "2025-06-30T13:25:47.448081+00:00",
-      "original_article_link": "https://reporterre.net/Canicule-13-departements-en-alerte-orange-samedi",
-      "original_article_title": "Canicule : 13 départements en alerte orange samedi",
-      "original_article_published_date": "",
-      "source_name": "Reporterre"
+      "ai_enhanced": true,
+      "processed_at": "2025-06-29T12:00:00Z",
+      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
+      "original_article_title": "L’info du jour | 29 juin - Mi-journée",
+      "original_article_published_date": "Sun, 29 Jun 2025 12:00:14 +0200",
+      "source_name": "Euronews France"
     },
     {
-      "title": "Paris, Lyon, Grenoble... La qualité de l'air ne s'améliore pas assez vite",
-      "link": "https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite",
-      "summary": "<img alt=\"\" class=\"spip_logo\" height=\"467\" src=\"https://reporterre.net/local/cache-vignettes/L700xH467/autoroute_a1_d-a3872.jpg?1751027876\" width=\"700\" />\n<p>En six ans, la qualité de l'air s'est améliorée dans sept villes de France. C'est ce que constate une étude réalisée par l'association Respire, dont les résultats ont été publiés le 27 juin. Mais les taux de pollution de l'air au dioxyde d'azote (<span class=\"caps\">NO2</span>) restent «<small class=\"fine d-inline\"> </small>encore très élevés par rapport aux valeurs limites européennes et aux seuils de l'<span class=\"caps\">OMS</span> [Organisation mondiale de la santé]<small class=\"fine d-inline\"> </small>», nuance l'association. <br class=\"autobr\" />\nPour arriver à cette conclusion, l'association a relevé les taux de <span class=\"caps\">NO2</span> enregistrés (…)</p>\n\n            <a href=\"https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite?utm_source=RSS&amp;utm_medium=RSS\">Lire la suite</a>\n            \n            -\n                <a href=\"https://reporterre.net/Breves-20\" rel=\"directory\">En bref</a>\n            \n            \n            / \n                <a href=\"https://reporterre.net/Pollutions\" rel=\"tag\">Pollutions</a>\n            , \n                <a href=\"https://reporterre.net/Sante\" rel=\"tag\">Santé</a>",
-      "published": "",
-      "source": "Reporterre",
-      "hash_id": "7b5edc79251b",
+      "title": "L’info du jour | 29 juin - Matin",
+      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
+      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
+      "published": "Sun, 29 Jun 2025 07:00:07 +0200",
+      "source": "Euronews France",
+      "hash_id": "372c8c9b939f",
       "raw_content": "",
       "relevance_score": 9.0,
       "practical_score": 2,
-      "newsworthiness_score": 7.16,
-      "total_score": 18.528,
+      "newsworthiness_score": 6.25,
+      "total_score": 17.799999999999997,
       "contextual_title_explanations": {
-        "Paris": {
-          "display_format": "**Paris:** _Paris_",
-          "explanation": "Capital city of France.",
-          "cultural_note": "Known for its art, fashion, and culture."
-        },
-        "Lyon": {
-          "display_format": "**Lyon:** _Lyon_",
-          "explanation": "A major city in France, known for its cuisine.",
-          "cultural_note": "Famous for its historical architecture."
-        },
-        "Grenoble": {
-          "display_format": "**Grenoble:** _Grenoble_",
-          "explanation": "A city in the French Alps.",
-          "cultural_note": "Known for winter sports and science."
-        },
-        "la qualité de l'air": {
-          "display_format": "**air quality:** _la qualité de l'air_",
-          "explanation": "How clean or polluted the air is.",
-          "cultural_note": "Important for health and environment."
-        },
-        "ne s'améliore pas": {
-          "display_format": "**is not improving:** _ne s'améliore pas_",
-          "explanation": "Means it is not getting better.",
-          "cultural_note": ""
-        },
-        "assez vite": {
-          "display_format": "**fast enough:** _assez vite_",
-          "explanation": "Means at a satisfactory speed.",
-          "cultural_note": ""
+        "test": {
+          "display_format": "**Test:** test",
+          "explanation": "Test explanation"
         }
       },
-      "simplified_french_title": "La qualité de l'air ne s'améliore pas assez vite",
-      "simplified_english_title": "Air quality is not improving fast enough",
-      "french_summary": "Les villes comme Paris, Lyon et Grenoble ont des problèmes de qualité de l'air.",
-      "english_summary": "Cities like Paris, Lyon, and Grenoble have air quality problems.",
+      "simplified_french_title": "Test French Title",
+      "simplified_english_title": "Test English Title",
+      "french_summary": "Test French summary",
+      "english_summary": "Test English summary",
       "quality_checked": true,
-      "processed_at": "2025-06-30T13:25:29.083761+00:00",
-      "original_article_link": "https://reporterre.net/Paris-Lyon-Grenoble-La-qualite-de-l-air-ne-s-ameliore-pas-assez-vite",
-      "original_article_title": "Paris, Lyon, Grenoble... La qualité de l'air ne s'améliore pas assez vite",
-      "original_article_published_date": "",
-      "source_name": "Reporterre"
+      "ai_enhanced": true,
+      "processed_at": "2025-06-29T12:00:00Z",
+      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
+      "original_article_title": "L’info du jour | 29 juin - Matin",
+      "original_article_published_date": "Sun, 29 Jun 2025 07:00:07 +0200",
+      "source_name": "Euronews France"
     },
     {
       "schema_version": 2,
@@ -2817,157 +2761,6 @@
       "display_ready": true,
       "backfill_attempts": 0,
       "quality_checked": true
-    },
-    {
-      "title": "Économies : le budget de l'Éducation et de la Recherche \"sera préservé\", assure Élisabeth Borne",
-      "link": "https://www.marianne.net/societe/education/economies-le-budget-de-l-education-et-de-la-recherche-sera-preserve-assure-elisabeth-borne#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
-      "summary": "« L'Éducation nationale, c'est une priorité. Avec l'Éducation nationale, l'Enseignement supérieur et la Recherche, on prépare l'avenir », a assuré Élisabeth Borne. Le gouvernement veut trouver 40 milliards d'euros d'économies dans son prochain projet de budget.",
-      "published": "Sun, 29 Jun 2025 13:00:38 CEST",
-      "source": "Marianne",
-      "hash_id": "e1a9e3e058eb",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 4,
-      "newsworthiness_score": 6.36,
-      "total_score": 19.887999999999998,
-      "contextual_title_explanations": {
-        "Économies": {
-          "display_format": "**Economies:** _Économies_",
-          "explanation": "Savings or budget cuts.",
-          "cultural_note": "Refers to financial savings in government."
-        },
-        "le": {
-          "display_format": "**the:** _le_",
-          "explanation": "The definite article in French.",
-          "cultural_note": ""
-        },
-        "budget": {
-          "display_format": "**budget:** _budget_",
-          "explanation": "A plan for spending money.",
-          "cultural_note": ""
-        },
-        "de": {
-          "display_format": "**of:** _de_",
-          "explanation": "A preposition meaning 'of' or 'from'.",
-          "cultural_note": ""
-        },
-        "l'Éducation": {
-          "display_format": "**Education:** _l'Éducation_",
-          "explanation": "The system of teaching and learning.",
-          "cultural_note": "Refers to formal education in France."
-        },
-        "et": {
-          "display_format": "**and:** _et_",
-          "explanation": "A conjunction meaning 'and'.",
-          "cultural_note": ""
-        },
-        "la": {
-          "display_format": "**the:** _la_",
-          "explanation": "The definite article in French.",
-          "cultural_note": ""
-        },
-        "Recherche": {
-          "display_format": "**Research:** _Recherche_",
-          "explanation": "The process of studying or investigating.",
-          "cultural_note": "Often refers to academic research."
-        },
-        "sera": {
-          "display_format": "**will be:** _sera_",
-          "explanation": "Future tense of 'to be'.",
-          "cultural_note": ""
-        },
-        "préservé": {
-          "display_format": "**preserved:** _préservé_",
-          "explanation": "Kept safe or unchanged.",
-          "cultural_note": ""
-        },
-        "assure": {
-          "display_format": "**assures:** _assure_",
-          "explanation": "To promise or guarantee.",
-          "cultural_note": ""
-        },
-        "Élisabeth": {
-          "display_format": "**Elisabeth:** _Élisabeth_",
-          "explanation": "A common French female name.",
-          "cultural_note": "Refers to Élisabeth Borne, a politician."
-        },
-        "Borne": {
-          "display_format": "**Borne:** _Borne_",
-          "explanation": "A surname, often used in France.",
-          "cultural_note": "Élisabeth Borne is the French Prime Minister."
-        }
-      },
-      "ai_enhanced": true,
-      "simplified_french_title": "Le budget de l'Éducation et de la Recherche sera préservé",
-      "simplified_english_title": "The Education and Research budget will be preserved",
-      "french_summary": "Élisabeth Borne a déclaré que le budget pour l'éducation et la recherche sera maintenu.",
-      "english_summary": "Elisabeth Borne stated that the budget for education and research will be maintained.",
-      "quality_checked": true,
-      "processed_at": "2025-06-30T13:24:46.215107+00:00",
-      "original_article_link": "https://www.marianne.net/societe/education/economies-le-budget-de-l-education-et-de-la-recherche-sera-preserve-assure-elisabeth-borne#utm_source=RSS-MARIANNE&utm_medium=Flux-Rss&utm_campaign=RSS_general",
-      "original_article_title": "Économies : le budget de l'Éducation et de la Recherche \"sera préservé\", assure Élisabeth Borne",
-      "original_article_published_date": "Sun, 29 Jun 2025 13:00:38 CEST",
-      "source_name": "Marianne"
-    },
-    {
-      "title": "L’info du jour | 29 juin - Mi-journée",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source": "Euronews France",
-      "hash_id": "3a8f8aa7472d",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-mi-journee",
-      "original_article_title": "L’info du jour | 29 juin - Mi-journée",
-      "original_article_published_date": "Sun, 29 Jun 2025 12:00:14 +0200",
-      "source_name": "Euronews France"
-    },
-    {
-      "title": "L’info du jour | 29 juin - Matin",
-      "link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "summary": "Suivez les derniers développements de l'actualité en Europe et dans le monde. Retrouvez les dernières infos sur la politique, l'économie, la culture et le divertissement.",
-      "published": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source": "Euronews France",
-      "hash_id": "372c8c9b939f",
-      "raw_content": "",
-      "relevance_score": 9.0,
-      "practical_score": 2,
-      "newsworthiness_score": 6.25,
-      "total_score": 17.799999999999997,
-      "contextual_title_explanations": {
-        "test": {
-          "display_format": "**Test:** test",
-          "explanation": "Test explanation"
-        }
-      },
-      "simplified_french_title": "Test French Title",
-      "simplified_english_title": "Test English Title",
-      "french_summary": "Test French summary",
-      "english_summary": "Test English summary",
-      "quality_checked": true,
-      "ai_enhanced": true,
-      "processed_at": "2025-06-29T12:00:00Z",
-      "original_article_link": "https://fr.euronews.com/video/2025/06/29/linfo-du-jour-29-juin-matin",
-      "original_article_title": "L’info du jour | 29 juin - Matin",
-      "original_article_published_date": "Sun, 29 Jun 2025 07:00:07 +0200",
-      "source_name": "Euronews France"
     }
   ]
 }
