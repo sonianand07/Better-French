@@ -1,9 +1,9 @@
 name: V5 - Website Processor
 
 on:
-  # schedule:
-  #   - cron: '*/30 * * * *'  # Every 30 minutes (DISABLED for development)
-  workflow_dispatch:       # Manual trigger only
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes - process new articles from Rony
+  workflow_dispatch:       # Manual trigger for testing
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      BF_PER_RUN_CAP: 10
+      BF_PER_RUN_CAP: 15  # Increased from 10 to 15 as requested
       BF_DAILY_CAP: 9999
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       OPENROUTER_SCRAPER_API_KEY: ${{ secrets.OPENROUTER_SCRAPER_API_KEY }}
