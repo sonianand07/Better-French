@@ -528,12 +528,31 @@ IMPORTANT: Return only the JSON, no other text."""
         # Combine in quality order
         prioritized_articles = quality_checked + ai_enhanced + basic_articles
         
-        # Sort by published date (newest first)
+        # Sort by published date (newest first) - FIXED PROPER DATE PARSING
         def _date_key(article):
-            return (article.get('original_article_published_date') or 
-                    article.get('published') or 
-                    article.get('processed_at') or 
-                    '1970-01-01')
+            date_str = (article.get('original_article_published_date') or 
+                       article.get('published') or 
+                       article.get('processed_at') or 
+                       '1970-01-01')
+            
+            # Parse date string into datetime for proper chronological sorting
+            try:
+                # Handle various date formats
+                if 'T' in date_str:
+                    # ISO format: 2025-06-30T08:23:53.954423+00:00
+                    return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+                elif ',' in date_str:
+                    # Format: "June 29, 2025"
+                    return datetime.strptime(date_str, '%B %d, %Y')
+                elif len(date_str) == 10 and '-' in date_str:
+                    # Format: "2025-06-30"
+                    return datetime.strptime(date_str, '%Y-%m-%d')
+                else:
+                    # Fallback - return as string for lexical sort
+                    return datetime(1970, 1, 1)
+            except:
+                # If all parsing fails, return epoch
+                return datetime(1970, 1, 1)
         
         prioritized_articles.sort(key=_date_key, reverse=True)
         
